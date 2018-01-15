@@ -1,0 +1,7 @@
+baseURL: "http://hugo.gomakethings.com"
+languageCode: "en-us"
+title: "Go Make Things"
+theme: "new"
+permalinks:
+  posts: /:title/
+rssLimit: 25

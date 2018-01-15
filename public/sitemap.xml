@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/articles/example1234/</loc>
+    <lastmod>2018-01-15T10:21:06-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/articles/example123/</loc>
+    <lastmod>2018-01-15T10:20:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/index.json</loc>
+    <lastmod>2018-01-14T21:38:44-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/articles/future-post-2/</loc>
+    <lastmod>2018-01-12T18:06:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/articles/current-post/</loc>
+    <lastmod>2018-01-12T17:06:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/about/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/articles/another-post-48/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/articles/song-2/</loc>
+    <lastmod>2018-01-11T10:40:48-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/articles/i-got-my-head-checked/</loc>
+    <lastmod>2018-01-11T09:40:48-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/articles/my-first-post/</loc>
+    <lastmod>2018-01-11T09:40:48-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/articles/my-first-post-copy/</loc>
+    <lastmod>2018-01-11T09:40:48-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/articles/woohoo/</loc>
+    <lastmod>2018-01-11T09:40:48-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/categories/1/</loc>
+    <lastmod>2018-01-15T10:21:06-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/categories/2/</loc>
+    <lastmod>2018-01-15T10:21:06-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/categories/3/</loc>
+    <lastmod>2018-01-15T10:21:06-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/articles/</loc>
+    <lastmod>2018-01-15T10:21:06-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/categories/</loc>
+    <lastmod>2018-01-15T10:21:06-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/</loc>
+    <lastmod>2018-01-15T10:21:06-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
