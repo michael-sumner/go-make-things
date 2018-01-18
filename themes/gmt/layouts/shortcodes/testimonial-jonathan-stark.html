@@ -1,0 +1,11 @@
+{{ if .Get "photo"}}<div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="{{ "/img/testimonials/jonathan-stark.jpg" | absURL }}">
+	</div>
+	<div class="grid-two-thirds">{{ end }}
+		<blockquote>
+			Levelup your frontend dev skills w/ the excellent "Ditching jQuery" by <a href="https://twitter.com/chrisferdinandi">@ChrisFerdinandi</a>.
+			<cite>- <a href="https://twitter.com/jonathanstark/status/808350258476548099">Jonathan Stark</a></cite>
+		</blockquote>
+	{{ if .Get "photo"}}</div>
+</div>{{ end }}

@@ -1,0 +1,11 @@
+{{ if .Get "photo"}}<div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="{{ "/img/testimonials/kelly-parker-paws.jpg" | absURL }}">
+	</div>
+	<div class="grid-two-thirds">{{ end }}
+		<blockquote>
+			What you’ve done for PAWS... the word "life changing" comes to mind.
+			<cite>- <a href="https://pawsnewengland.com">Kelly Parker, PAWS New England</a></cite>
+		</blockquote>
+	{{ if .Get "photo"}}</div>
+</div>{{ end }}

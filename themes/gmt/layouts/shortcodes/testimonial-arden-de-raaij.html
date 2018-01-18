@@ -1,0 +1,11 @@
+{{ if .Get "photo"}}<div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="{{ "/img/testimonials/arden-de-raaij.jpg" | absURL }}">
+	</div>
+	<div class="grid-two-thirds" markdown="1">{{ end }}
+		<blockquote>
+			Shout out to @ChrisFerdinandi. Since I dropped jQuery, https://gomakethings.com has been the best asset for learning vanilla js for me. <span class="text-normal">🙌🏼</span>
+			<cite markdown="1">– <a href="https://twitter.com/ardennl/status/920296593617768448">Arden de Raaij</a></cite>
+		</blockquote>
+	{{ if .Get "photo"}}</div>
+</div>{{ end }}

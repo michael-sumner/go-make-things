@@ -1,0 +1,11 @@
+{{ if .Get "photo"}}<div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="{{ "/img/testimonials/chris-baughman.jpg" | absURL }}">
+	</div>
+	<div class="grid-two-thirds">{{ end }}
+		<blockquote>
+			Loved your book, it's become a daily reference for me. Fantastic stuff!
+			<cite>- <a href="https://plus.google.com/+ChrisBaughman">Chris Baughman</a></cite>
+		</blockquote>
+	{{ if .Get "photo"}}</div>
+</div>{{ end }}

@@ -1,0 +1,11 @@
+{{ if .Get "photo"}}<div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="{{ "/img/testimonials/motjaba-seyedi.jpg" | absURL }}">
+	</div>
+	<div class="grid-two-thirds" markdown="1">{{ end }}
+		<blockquote>
+			God, you're amazing... I'm learning so much from you.
+			<cite markdown="1">– <a href="http://mojtabaseyedi.com/">Mojtaba Seyedi, Front End Developer</a></cite>
+		</blockquote>
+	{{ if .Get "photo"}}</div>
+</div>{{ end }}

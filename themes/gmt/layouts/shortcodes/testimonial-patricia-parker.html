@@ -1,0 +1,11 @@
+{{ if .Get "photo"}}<div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="{{ "/img/testimonials/patricia-parker.jpg" | absURL }}">
+	</div>
+	<div class="grid-two-thirds">{{ end }}
+		<blockquote>
+			I thank you from the bottom of my heart. If it had not been for you, I would not be able to learn JavaScript.
+			<cite>- <a href="https://plus.google.com/101646508540988330181">Patricia Parker</a></cite>
+		</blockquote>
+	{{ if .Get "photo"}}</div>
+</div>{{ end }}

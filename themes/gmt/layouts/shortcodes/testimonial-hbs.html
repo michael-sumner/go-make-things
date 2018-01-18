@@ -1,0 +1,11 @@
+{{ if .Get "photo"}}<div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="{{ "/img/testimonials/adrienne-debigare-hbs.jpg" | absURL }}">
+	</div>
+	<div class="grid-two-thirds">{{ end }}
+		<blockquote>
+			Chris is the kind of partner that, once you wrap up work with him, you’ll start trying to think of reasons you’ll need to hire him back.
+			<cite>- <a href="https://digital.hbs.edu">Adrienne Debigare, Harvard Business School</a></cite>
+		</blockquote>
+	{{ if .Get "photo"}}</div>
+</div>{{ end }}

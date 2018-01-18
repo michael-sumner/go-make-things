@@ -1,0 +1,13 @@
+{{ if .Get "photo"}}<div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="{{ "/img/testimonials/ruud-van-zuidam.jpg" | absURL }}">
+	</div>
+	<div class="grid-two-thirds">{{ end }}
+		<blockquote>
+			<p>As a front-ender I always found JS difficult and made the mistake "solving" my lack of knowledge with the use of jQuery and a lot of plugins.</p>
+
+			When I stumbled over your site and watched the video I had the feeling that for the first time I had an insight how JS works and how to learn it.
+			<cite>- <a href="https://twitter.com/allrude">Ruud van Zuidam</a></cite>
+		</blockquote>
+	{{ if .Get "photo"}}</div>
+</div>{{ end }}

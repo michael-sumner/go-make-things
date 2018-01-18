@@ -1,0 +1,11 @@
+{{ if .Get "photo"}}<div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="{{ "/img/testimonials/mike-kilmer.jpg" | absURL }}">
+	</div>
+	<div class="grid-two-thirds">{{ end }}
+		<blockquote>
+			This course is SO absolutely insightful. I’m so glad I took it. Some recommendations I’m already using, some I’ve been vaguely aware of, some I have seen before and others are new to me. I am significantly more informed than I was two days ago.
+			<cite>- <a href="https://github.com/MikeiLL">Mike Kilmer, Media Zen</a></cite>
+		</blockquote>
+	{{ if .Get "photo"}}</div>
+</div>{{ end }}

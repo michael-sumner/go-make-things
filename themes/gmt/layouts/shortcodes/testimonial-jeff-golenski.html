@@ -1,0 +1,11 @@
+{{ if .Get "photo"}}<div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="{{ "/img/testimonials/jeff-golenski.jpg" | absURL }}">
+	</div>
+	<div class="grid-two-thirds">{{ end }}
+		<blockquote>
+			Chris knows his stuff. And he's a great human. Highly recommend his book and resources.
+			<cite>- <a href="https://twitter.com/jeffgolenski/status/761366002668040196">Jeff Golenski, Automattic</a></cite>
+		</blockquote>
+	{{ if .Get "photo"}}</div>
+</div>{{ end }}

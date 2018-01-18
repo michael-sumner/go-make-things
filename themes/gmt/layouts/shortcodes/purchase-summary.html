@@ -1,0 +1,19 @@
+<ul>
+	{{ if eq ( .Get "type" ) "course" }}
+		{{ if .Inner }}
+			<li>The Mini Courses <span class="text-small text-muted">(in streaming HD video format)</span>{{ .Inner | markdownify }}</li>
+		{{ else }}
+			<li>The Mini Course <span class="text-small text-muted">(in streaming HD video format)</span></li>
+		{{ end }}
+	{{ else }}
+		{{ if .Inner }}
+			<li>The Pocket Guides <span class="text-small text-muted">(in PDF, EPUB, MOBI, and HTML formats)</span>{{ .Inner | markdownify }}</li>
+		{{ else }}
+			<li>The Pocket Guide <span class="text-small text-muted">(in PDF, EPUB, MOBI, and HTML formats)</span></li>
+		{{ end }}
+	{{ end }}
+	<li>The Source Code &amp; Demos</li>
+	<li>The Vanilla JavaScript Toolkit</li>
+	<li>Exclusive Slack Access</li>
+	<li>FREE Updates for Life</li>
+</ul>

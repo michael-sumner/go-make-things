@@ -1,0 +1,11 @@
+{{ if .Get "photo"}}<div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="{{ "/img/testimonials/alex-hardy.jpg" | absURL }}">
+	</div>
+	<div class="grid-two-thirds">{{ end }}
+		<blockquote>
+			As a developer reacquainting myself with WordPress, this course was just what I wanted. Chris walks you through applying current performance techniques, debunking the myth that WordPress is inherently slow.
+			<cite>- <a href="https://twitter.com/alexhardy">Alex Hardy, Designer &amp; Developer</a></cite>
+		</blockquote>
+	{{ if .Get "photo"}}</div>
+</div>{{ end }}

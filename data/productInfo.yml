@@ -1,0 +1,88 @@
+# Prices
+price:
+    guides: "$29"
+    guidesComplete: "$179"
+    guidesBeginner: "$99"
+    guidesAdvanced: "$79"
+    courses: "$69"
+    coursesComplete: "<del>$379</del> $265"
+    coursesBeginner: "<del>$189</del> $132"
+    coursesAdvanced: "<del>$189</del> $132"
+    call: "$399"
+    mentoring: "$999/month"
+    training: "$3,999"
+    consulting: "$7,999/month"
+    careerGuide: "$39"
+    wickedFastWebsites: "$39"
+
+# Product Details
+checkoutDetails:
+    guideComplete:
+        id: "1"
+        price: "0"
+    guideBeginner:
+        id: "2"
+        price: "1"
+    guideAdvanced:
+        id: "3"
+        price: "2"
+    guideDomManipulation:
+        id: "0"
+        price: "0"
+    guideStringArrayObject:
+        id: "0"
+        price: "0"
+    guideVariablesFunctionsScope:
+        id: "0"
+        price: "0"
+    guideDomInjectionTraversal:
+        id: "0"
+        price: "0"
+    guideBrowserStorage:
+        id: "0"
+        price: "0"
+    guideBugsBrowserQuirks:
+        id: "0"
+        price: "0"
+    guideAjaxHttp:
+        id: "0"
+        price: "0"
+    guideWritingPlugins:
+        id: "0"
+        price: "0"
+    guideWebApps:
+        id: "0"
+        price: "0"
+    courseComplete:
+        id: "1"
+        price: "0"
+    courseBeginner:
+        id: "2"
+        price: "1"
+    courseAdvanced:
+        id: "3"
+        price: "2"
+    courseDomManipulation:
+        id: "0"
+        price: "0"
+    courseStringArrayObject:
+        id: "0"
+        price: "0"
+    courseVariablesFunctionsScope:
+        id: "0"
+        price: "0"
+    courseDomInjectionTraversal:
+        id: "0"
+        price: "0"
+    courseBrowserStorage:
+        id: "0"
+        price: "0"
+    courseAjaxHttp:
+        id: "0"
+        price: "0"
+    courseWritingPlugins:
+        id: "0"
+        price: "0"
+    courseWebApps:
+        id: "0"
+        price: "0"

@@ -1,0 +1,53 @@
+{{ partial "header.html" . }}
+
+{{ partial "content-page.html" . }}
+
+{{ range ($paginate := .Paginate (.Data.Pages.GroupByPublishDate "January 2006")).PageGroups  }}
+
+	<h2>{{ .Key }}</h2>
+
+	{{ range .Pages }}
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="{{ .PublishDate }}" pubdate>{{ .PublishDate.Format "January 2, 2006" }}</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="{{ .URL }}">{{ .Title }}</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	{{ end }}
+
+	{{ if gt $paginate.TotalPages 1  }}
+		<nav class="text-center">
+			<p class="padding-top-large margin-bottom-small">
+				{{ if $paginate.HasPrev }}
+					<a href="{{ $paginate.Prev.URL }}">
+						&larr; Newer
+					</a>
+				{{ end }}
+				{{ if $paginate.HasNext }}
+					<a href="{{ $paginate.Next.URL }}">
+						Older &rarr;
+					</a>
+				{{ end }}
+			</p>
+		</nav>
+	{{ end }}
+
+{{ end }}
+
+{{ partial "footer.html" . }}

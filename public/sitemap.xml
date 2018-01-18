@@ -3,13 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://hugo.gomakethings.com/articles/example1234/</loc>
-    <lastmod>2018-01-15T10:21:06-05:00</lastmod>
+    <loc>http://hugo.gomakethings.com/courses/dom-manipulation/</loc>
+    <lastmod>2018-01-16T10:05:20-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.gomakethings.com/articles/example123/</loc>
-    <lastmod>2018-01-15T10:20:40-05:00</lastmod>
+    <loc>http://hugo.gomakethings.com/guides/dom-manipulation/</loc>
+    <lastmod>2018-01-16T10:05:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/courses/</loc>
+    <lastmod>2018-01-16T10:05:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/guides/</loc>
+    <lastmod>2018-01-16T10:05:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/</loc>
+    <lastmod>2018-01-14T21:38:44-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hugo.gomakethings.com/feed/index.xml</loc>
+    <lastmod>2018-01-14T21:38:44-05:00</lastmod>
   </url>
   
   <url>
@@ -18,13 +38,8 @@
   </url>
   
   <url>
-    <loc>http://hugo.gomakethings.com/articles/future-post-2/</loc>
-    <lastmod>2018-01-12T18:06:42-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hugo.gomakethings.com/articles/current-post/</loc>
-    <lastmod>2018-01-12T17:06:42-05:00</lastmod>
+    <loc>http://hugo.gomakethings.com/call/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
   </url>
   
   <url>
@@ -33,74 +48,58 @@
   </url>
   
   <url>
-    <loc>http://hugo.gomakethings.com/articles/another-post-48/</loc>
+    <loc>http://hugo.gomakethings.com/consulting/</loc>
     <lastmod>2018-01-11T16:03:33-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.gomakethings.com/articles/song-2/</loc>
-    <lastmod>2018-01-11T10:40:48-05:00</lastmod>
+    <loc>http://hugo.gomakethings.com/mentoring/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.gomakethings.com/articles/i-got-my-head-checked/</loc>
-    <lastmod>2018-01-11T09:40:48-05:00</lastmod>
+    <loc>http://hugo.gomakethings.com/open-source/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.gomakethings.com/articles/my-first-post/</loc>
-    <lastmod>2018-01-11T09:40:48-05:00</lastmod>
+    <loc>http://hugo.gomakethings.com/recommended/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.gomakethings.com/articles/my-first-post-copy/</loc>
-    <lastmod>2018-01-11T09:40:48-05:00</lastmod>
+    <loc>http://hugo.gomakethings.com/resources/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.gomakethings.com/articles/woohoo/</loc>
-    <lastmod>2018-01-11T09:40:48-05:00</lastmod>
+    <loc>http://hugo.gomakethings.com/newsletter-success/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.gomakethings.com/categories/1/</loc>
-    <lastmod>2018-01-15T10:21:06-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://hugo.gomakethings.com/categories/2/</loc>
-    <lastmod>2018-01-15T10:21:06-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://hugo.gomakethings.com/categories/3/</loc>
-    <lastmod>2018-01-15T10:21:06-05:00</lastmod>
-    <priority>0</priority>
+    <loc>http://hugo.gomakethings.com/training/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
   </url>
   
   <url>
     <loc>http://hugo.gomakethings.com/articles/</loc>
-    <lastmod>2018-01-15T10:21:06-05:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2018-01-11T09:40:48-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.gomakethings.com/categories/</loc>
-    <lastmod>2018-01-15T10:21:06-05:00</lastmod>
-    <priority>0</priority>
+    <loc>http://hugo.gomakethings.com/my-first-post/</loc>
+    <lastmod>2018-01-11T09:40:48-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.gomakethings.com/</loc>
-    <lastmod>2018-01-15T10:21:06-05:00</lastmod>
-    <priority>0</priority>
+    <loc>http://hugo.gomakethings.com/my-first-post-2/</loc>
+    <lastmod>2018-01-11T09:40:48-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.gomakethings.com/tags/</loc>
-    <priority>0</priority>
+    <loc>http://hugo.gomakethings.com/my-first-post-3/</loc>
+    <lastmod>2018-01-11T09:40:48-05:00</lastmod>
   </url>
   
 </urlset>

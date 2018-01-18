@@ -1,0 +1,25 @@
+<div class="callout" id="ready-to-buy">
+	<h2>Ready to buy?</h2>
+
+	{{.Inner}}
+
+	<ul>
+		{{ if .Get "bundle" }}
+			<li>The Mini Courses <span class="text-small text-muted">(in streaming HD video format)</span>
+				<ul>
+					{{ (.Get "bundle") | safeHTML }}
+				</ul>
+			</li>
+		{{ else }}
+			<li>The Mini Course <span class="text-small text-muted">(in streaming HD video format)</span></li>
+		{{ end }}
+			<li>The Source Code &amp; Demos</li>
+			<li>The Vanilla JavaScript Toolkit</li>
+			<li>Exclusive Slack Access</li>
+			<li>FREE Updates for Life</li>
+	</ul>
+
+	{{ if .Get "bonus" }}<p>{{ (.Get "bonus") | safeHTML }}</p>{{ end }}
+
+	{{ if .Get "bundle" }}<p><a class="btn btn-large btn-block edd-buy-now-button" href='{{ .Get "url" }}'>Pre-order now for just {{ if .Get "price" }}{{ if eq ( .Get "price" ) "complete" }}{{ ( .Site.Data.productInfo.price.coursesComplete | safeHTML ) }}{{ else if eq ( .Get "price" ) "beginner" }}{{ ( .Site.Data.productInfo.price.coursesBeginner | safeHTML ) }}{{ else if eq ( .Get "price"  ) "advanced" }}{{ ( .Site.Data.productInfo.price.coursesAdvanced | safeHTML ) }}{{ end }}{{ else }}{{ ( .Site.Data.productInfo.price.guides | safeHTML ) }}{{ end }}</a></p>{{ end }}
+</div>

@@ -1,0 +1,17 @@
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			{{ partial "nav-secondary.html" }}
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="{{ "/js/loadJS.js" | absURL }}"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('{{ "/js/main.js" | absURL }}');
+			}
+		</script>
+	</body>
+</html>

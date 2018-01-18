@@ -1,0 +1,11 @@
+{{ if .Get "photo"}}<div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="{{ "/img/testimonials/j-c-hiatt.jpg" | absURL }}">
+	</div>
+	<div class="grid-two-thirds">{{ end }}
+		<blockquote>
+			Chris’s pocket guides are AWESOME. You’re gonna want this. #JavaScript
+			<cite>- <a href="https://twitter.com/jchiatt/status/918861483143979008">J.C. Hiatt/a></cite>
+		</blockquote>
+	{{ if .Get "photo"}}</div>
+</div>{{ end }}
