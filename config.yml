@@ -1,5 +1,5 @@
 # hostname (and path) to the root
-baseURL: "http://test.gomakethings.com"
+baseURL: "https://gomakethings.com"
 
 # The language code for the site
 languageCode: "en-us"
