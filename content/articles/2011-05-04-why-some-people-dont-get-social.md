@@ -2,7 +2,9 @@
 categories:
 - Technology
 date: '2011-05-04'
+permalink: /why-some-people-dont-get-social/
 title: Why some people don&#8217;t get social
+url: /2011/05/04/why-some-people-dont-get-social
 ---
 
 Yesterday Jason Seiden wrote a blog post titled, <em><a href="http://jasonseiden.com/why-some-people-wont-ever-understand-social-media/">Why Some People Don't Get Social</a></em>.

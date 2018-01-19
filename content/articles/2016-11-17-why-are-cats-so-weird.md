@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2016-11-17'
+permalink: /why-are-cats-so-weird/
 title: Why are cats so weird?
+url: /2016/11/17/why-are-cats-so-weird
 ---
 
 As [this TED Talk explains](https://www.youtube.com/watch?v=sI8NsYIyQ2A), because they're basically wild animals that live indoors (not really, but kinda)...

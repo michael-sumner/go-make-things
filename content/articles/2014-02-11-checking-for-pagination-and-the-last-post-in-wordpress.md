@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2014-02-11'
+permalink: /checking-for-pagination-and-the-last-post-in-wordpress/
 title: Checking for pagination and the last post in WordPress
+url: /2014/02/11/checking-for-pagination-and-the-last-post-in-wordpress
 ---
 
 Today, I want to share two simple functions you can use to check if pagination exists on a particular page, and also check if a particular post is the last one on the page.

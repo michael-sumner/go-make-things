@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2013-01-21'
+permalink: /two-amazing-brothers/
 title: Two Amazing Brothers
+url: /2013/01/21/two-amazing-brothers
 ---
 
 Cayden Long has cerebral palsy. He also competes in triathlons with his older brother Conner.

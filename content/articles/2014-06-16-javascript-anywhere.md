@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2014-06-16'
+permalink: /javascript-anywhere/
 title: JavaScript Anywhere
+url: /2014/06/16/javascript-anywhere
 ---
 
 Over the last few weeks, I've converted all of [my open source scripts](http://cferdinandi.github.io/kraken/addons.html#interactive) to a UMD pattern.

@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2013-03-27'
+permalink: /removing-wordpress-funk/
 title: Removing WordPress Funk
+url: /2013/03/27/removing-wordpress-funk
 ---
 
 In "<a href="https://gomakethings.com/code-is-craft/">I Can Smell Your CMS</a>," Phil Hawksworth explains how well meaning CMS's can add all sorts of funk to the code we've worked so hard to craft.

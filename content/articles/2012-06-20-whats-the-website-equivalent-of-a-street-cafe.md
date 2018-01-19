@@ -3,7 +3,9 @@ categories:
 - Design &amp; UX
 - Technology
 date: '2012-06-20'
+permalink: /whats-the-website-equivalent-of-a-street-cafe/
 title: What&#8217;s the website equivalent of a street cafe?
+url: /2012/06/20/whats-the-website-equivalent-of-a-street-cafe
 ---
 
 From Christopher Alexander's <em>A Pattern Language: Towns, Buildings, Construction</em>, a book on architecture published in 1977...

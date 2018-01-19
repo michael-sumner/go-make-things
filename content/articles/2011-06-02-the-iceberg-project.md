@@ -4,7 +4,9 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2011-06-02'
+permalink: /the-iceberg-project/
 title: The Iceberg Project
+url: /2011/06/02/the-iceberg-project
 ---
 
 French engineer Georges Mougin wants to drag an iceberg from Greenland to the Middle East, and use it to create fresh drinking water for some of the world's estimated 1.1 billion people who currently go without it.

@@ -3,10 +3,12 @@ categories:
 - Art &amp; Science
 - Design &amp; UX
 date: '2016-10-24'
+permalink: /the-best-of-youtube/
 title: The best of YouTube
+url: /2016/10/24/the-best-of-youtube
 ---
 
-In my article on [Ditching Cable](/ditching-cable), I mentioned that I watch a lot of geeky, high-quality original programming on YouTube.
+In my article on [Ditching Cable](https://gomakethings.com/ditching-cable), I mentioned that I watch a lot of geeky, high-quality original programming on YouTube.
 
 Today, I wanted to share a few of my favorites...
 
@@ -36,4 +38,4 @@ Bill Hammack is [the Engineer Guy](https://www.youtube.com/user/engineerguyvideo
 
 ## Suggestions?
 
-Know of a channel you think I'd enjoy that's not on the list? [Send me an email](/about) and let me know about it!
+Know of a channel you think I'd enjoy that's not on the list? [Send me an email](https://gomakethings.com/about) and let me know about it!

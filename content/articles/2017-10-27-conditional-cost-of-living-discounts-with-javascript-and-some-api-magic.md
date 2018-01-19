@@ -4,12 +4,14 @@ categories:
 - JavaScript
 - WordPress
 date: '2017-10-27'
+permalink: /conditional-cost-of-living-discounts-with-javascript-and-some-api-magic/
 title: Conditional cost of living discounts with JavaScript and some API magic
+url: /2017/10/27/conditional-cost-of-living-discounts-with-javascript-and-some-api-magic
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2017/10/col-discounts.jpg" alt="" width="1440" height="358" class="aligncenter size-full wp-image-17301" />
 
-Yesterday, I added an automatic cost of living discount feature to my site for [Vanilla JS Pocket Guides](/guides/).
+Yesterday, I added an automatic cost of living discount feature to my site for [Vanilla JS Pocket Guides](https://gomakethings.com/guides/).
 
 If you visit the site from a country where the salary, cost of living, and exchange range with the US make the pocket guides unfairly expensive or unaffordable, you're offered a custom discount code and amount that brings the price inline with what someone in the US would pay relative to what they make in a year.
 
@@ -17,7 +19,7 @@ If you've been holding off because my guides are too expensive where you live ho
 
 Today, I wanted to show you how I make this all work.
 
-*__Note:__ If your country doesn't show up, [please email me](/about/)! So far, I've only added countries that people have emailed me about.*
+*__Note:__ If your country doesn't show up, [please email me](https://gomakethings.com/about/)! So far, I've only added countries that people have emailed me about.*
 
 *Also, I hope this is obvious, but `FAKE_CODE` won't really work, and people in the US don't get offered a cost-of-living discount.*
 
@@ -39,7 +41,7 @@ The plugin also provides a short code I can use to generate my discount message.
 
 It accepts variables for things like the country name, the discount code, and more, so I can quickly change my discount message on the fly if I want to.
 
-```html
+```lang-html
 [[pricing_parity]Hi! Looks like you're from {{country}}, where my Vanilla JS Pocket Guides might be a bit expensive. You can use the code {{code}} at checkout to take {{amount}} off any of my guides. Cheers![/pricing_parity]]
 ```
 
@@ -47,9 +49,9 @@ It accepts variables for things like the country name, the discount code, and mo
 
 I don't just drop the shortcode on my site and call it a day, though.
 
-Since everyone's cost-of-living discount is different, I can't [cache the discount shortcode](/how-i-improved-the-speed-of-my-wordpress-site-by-500/), and that would add a lot of latency to page loads.
+Since everyone's cost-of-living discount is different, I can't [cache the discount shortcode](https://gomakethings.com/how-i-improved-the-speed-of-my-wordpress-site-by-500/), and that would add a lot of latency to page loads.
 
-Instead, I drop the shortcode onto [it's own page](/pricing-parity/), and use Ajax to get the content and drop it into the page when it's ready.
+Instead, I drop the shortcode onto [it's own page](https://gomakethings.com/pricing-parity/), and use Ajax to get the content and drop it into the page when it's ready.
 
 I only display it on product and checkout pages, but I grab the discount message when someone first visits any page and store it with `sessionStorage`. That way, it's immediately displayed when they hit a product sales page.
 
@@ -57,7 +59,7 @@ I only display it on product and checkout pages, but I grab the discount message
 
 Here's the custom JavaScript.
 
-```js
+```lang-js
 /**
  * Load pricing parity message
  */
@@ -144,7 +146,7 @@ I'm using the `responseType` property of XMLHttpRequest (XHR) to get my pricing 
 
 The `response` type property is only supported in IE10 and up, so I do a quick feature check before running it.
 
-```js
+```lang-js
 // Set up our HTTP request
 var xhr = new XMLHttpRequest();
 if (!('responseType' in xhr)) return;
@@ -152,7 +154,7 @@ if (!('responseType' in xhr)) return;
 
 On success, I can grab my `#pricing-parity-content` message with `querySelector()` and grab it's contents with `innerHTML`.
 
-```js
+```lang-js
 // Get the content and render it
 var pricing = xhr.response.querySelector('#pricing-parity-content');
 if (!pricing) return;
@@ -163,14 +165,14 @@ renderPricingParity(pricing.innerHTML);
 
 I also save my message to `sessionStorage` so that I only have to make the Ajax call once. After that, I can just pull the discount text directly from storage.
 
-```js
+```lang-js
 // Save the content to sessionStorage
 sessionStorage.setItem('gmt-pricing-parity', pricing.innerHTML);
 ```
 
 When the script first loads, I check to see if there's an entry in `sessionStorage`, and if so, immediately run my `renderPricingParity()` method.
 
-```js
+```lang-js
 // Get and render pricing parity info
 var pricing = sessionStorage.getItem('gmt-pricing-parity');
 if (typeof pricing === 'string') {
@@ -186,7 +188,7 @@ You'll notice I'm checking if it's a string, and not whether or not it exists. I
 
 I use `document.createElement` to create a new `div`, and `insertBefore()` to inject it into the DOM. I add a handful of properties specific to my layout to give it some style.
 
-```js
+```lang-js
 // Create container
 var pricing = document.createElement('div');
 pricing.id = 'pricing-parity';
@@ -203,9 +205,9 @@ Before rendering anything, I run a quick check to make sure the page is a produc
 
 I'm using a simple regex pattern to check for `/guides/` or `/checkout/` in the URL `pathname`. If it contains either of those, it's a sales page. Otherwise, it's not and I can bail.
 
-```js
+```lang-js
 // Only render on sales pages
 if (!/\/guides\//.test(window.location.pathname) && !/\/checkout\//.test(window.location.pathname)) return;
 ```
 
-If you live somewhere with a cost-of-living that makes buying [my guides](/guides/) expensive, I hope this makes things a bit easier for you.
+If you live somewhere with a cost-of-living that makes buying [my guides](https://gomakethings.com/guides/) expensive, I hope this makes things a bit easier for you.

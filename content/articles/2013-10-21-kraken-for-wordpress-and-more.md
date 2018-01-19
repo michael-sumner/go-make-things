@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-10-21'
+permalink: /kraken-for-wordpress-and-more/
 title: Kraken for WordPress and more
+url: /2013/10/21/kraken-for-wordpress-and-more
 ---
 
 Last week I released <a href="http://github.com/cferdinandi/kraken-for-wordpress/">Kraken for WordPress 3</a>. Version 3 brings with it some important changes:<!--more-->

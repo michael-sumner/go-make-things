@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-02-16'
+permalink: /language-as-a-window-into-human-nature/
 title: Language as a Window Into Human Nature
+url: /2011/02/16/language-as-a-window-into-human-nature
 ---
 
 A fascinating RSAnimate video on <a href="https://www.youtube.com/watch?v=3-son3EJTrU">language as a window into human nature, by Steven Pinker...</a>

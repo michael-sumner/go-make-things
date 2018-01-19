@@ -3,10 +3,12 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-28'
+permalink: /converting-a-string-to-title-case-with-vanilla-javascript/
 title: Converting a string to title case with vanilla JavaScript
+url: /2017/11/28/converting-a-string-to-title-case-with-vanilla-javascript
 ---
 
-Yesterday we looked at [how to convert strings to uppercase and lowercase](/converting-strings-to-uppercase-and-lowercase-with-vanilla-javascript/) with vanilla JavaScript. Today, let's look at how to convert them to title case (the first letter of every word capitalized).
+Yesterday we looked at [how to convert strings to uppercase and lowercase](https://gomakethings.com/converting-strings-to-uppercase-and-lowercase-with-vanilla-javascript/) with vanilla JavaScript. Today, let's look at how to convert them to title case (the first letter of every word capitalized).
 
 There's no native method for this, but we can combine a few methods into a helper function to title case strings.
 
@@ -16,7 +18,7 @@ There's no native method for this, but we can combine a few methods into a helpe
 4. After that, we'll capitalize the first letter, and lowercase the rest of the string.
 4. Finally, we'll combine all of the words back together into a string.
 
-```javascript
+```lang-javascript
 // https://gist.github.com/SonyaMoisset/aa79f51d78b39639430661c03d9b1058#file-title-case-a-sentence-for-loop-wc-js
 var toTitleCase = function (str) {
 	str = str.toLowerCase().split(' ');
@@ -29,7 +31,7 @@ var toTitleCase = function (str) {
 
 And we'd use it like this.
 
-```js
+```lang-js
 var str = 'HeRe is a MIXED capitalization StRiNg.';
 
 // returns: "Here Is A Mixed Capitalization String."

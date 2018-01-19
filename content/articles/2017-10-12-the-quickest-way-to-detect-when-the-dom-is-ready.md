@@ -4,12 +4,14 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-10-12'
+permalink: /the-quickest-way-to-detect-when-the-dom-is-ready/
 title: The quickest way to detect when the DOM is ready
+url: /2017/10/12/the-quickest-way-to-detect-when-the-dom-is-ready
 ---
 
-A couple of years ago, I shared [a native equivalent of jQuery's `ready()` method](/a-native-javascript-equivalent-of-jquerys-ready-method/). It's one of the most popular articles on my site.
+A couple of years ago, I shared [a native equivalent of jQuery's `ready()` method](https://gomakethings.com/a-native-javascript-equivalent-of-jquerys-ready-method/). It's one of the most popular articles on my site.
 
-Today, I wanted to share an approach that detects DOM ready state faster [using the `requestAnimationFrame()` method](/debouncing-events-with-requestanimationframe-for-better-performance/) that we looked at yesterday.
+Today, I wanted to share an approach that detects DOM ready state faster [using the `requestAnimationFrame()` method](https://gomakethings.com/debouncing-events-with-requestanimationframe-for-better-performance/) that we looked at yesterday.
 
 ## Different types of ready
 
@@ -26,7 +28,7 @@ But what if you wanted to to run a task as soon as the `body` element was availa
 
 We can use `requestAnimationFrame()` to repeatedly check if the `body` element exists, and then run a function once it does.
 
-```js
+```lang-js
 var ready = function () {
 
 	// If the body element exists
@@ -49,7 +51,7 @@ I've found on certain browsers, most notably iOS, just because the `body` is ava
 
 Here's an example checking to see if an element with the ID `#main` exists.
 
-```js
+```lang-js
 var ready = function () {
 
 	// If the body element and the #main element exist
@@ -72,7 +74,7 @@ window.requestAnimationFrame(ready);
 
 `requestAnimationFrame()` works in all modern browsers, and IE10 and up. You can push support back to older browsers with [this polyfill from Paul Irish](https://gist.github.com/paulirish/1579671).
 
-```js
+```lang-js
 // http://paulirish.com/2011/requestanimationframe-for-smart-animating/
 // http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
 

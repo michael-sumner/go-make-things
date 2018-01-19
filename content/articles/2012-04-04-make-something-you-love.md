@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2012-04-04'
+permalink: /make-something-you-love/
 title: Make something you love
+url: /2012/04/04/make-something-you-love
 ---
 
 The incredible web-loving peoples behind <a href="http://brooklynbeta.org/">Brooklyn Beta</a> (<a href="http://analog.coop/">Analog</a> and <a href="http://fictivekin.com/">Fictive Kin</a>) just introduced <a href="http://brooklynbeta.org/summer-camp">Summer Camp</a>, one of the most badass ideas I've heard in a long time.

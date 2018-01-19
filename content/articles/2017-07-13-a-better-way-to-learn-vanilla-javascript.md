@@ -4,10 +4,12 @@ categories:
 - Code
 - JavaScript
 date: '2017-07-13'
+permalink: /a-better-way-to-learn-vanilla-javascript/
 title: A better way to learn vanilla JavaScript
+url: /2017/07/13/a-better-way-to-learn-vanilla-javascript
 ---
 
-I just relaunched my [Vanilla JS Pocket Guides](/guides/) with new code examples and real projects to help tie everything you’ll learn together.
+I just relaunched my [Vanilla JS Pocket Guides](https://gomakethings.com/guides/) with new code examples and real projects to help tie everything you’ll learn together.
 
 **<em class="highlight" markdown="1">For the next 32 hours, you can save 40% by using the code `RELAUNCH` at checkout.</em>**
 
@@ -15,7 +17,7 @@ If you're not already familiar with them, my pocket guides are step-by-step trai
 
 Historically, they focused on core concepts like DOM manipulation and Ajax, but lacked any sort of projects or bigger examples that really tied everything together. Today, every guide includes a small project that you and I will work on together to really drive home what you've learned *and* build your portfolio.
 
-**If you buy the [Complete Set](/guides/complete-set/), you'll build...**
+**If you buy the [Complete Set](https://gomakethings.com/guides/complete-set/), you'll build...**
 
 - A show-and-hide/accordion script
 - An image lazy loading script
@@ -36,4 +38,4 @@ Historically, they focused on core concepts like DOM manipulation and Ajax, but 
 
 If you’re sick of hostile answers on StackOverflow, bad documentation, and tutorials that assume you have a Computer Science degree, these are for you.
 
-**<em class="highlight" markdown="1">For the next 32 hours, you can save 40% by using the code `RELAUNCH` at checkout.</em> [Check out the full details](/guides/), and save an additional 30% by buying one of the bundles.**
+**<em class="highlight" markdown="1">For the next 32 hours, you can save 40% by using the code `RELAUNCH` at checkout.</em> [Check out the full details](https://gomakethings.com/guides/), and save an additional 30% by buying one of the bundles.**

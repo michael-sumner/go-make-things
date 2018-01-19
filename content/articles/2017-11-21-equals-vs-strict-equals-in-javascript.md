@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2017-11-21'
+permalink: /equals-vs-strict-equals-in-javascript/
 title: Equals (==) vs Strict Equals (===) in JavaScript
+url: /2017/11/21/equals-vs-strict-equals-in-javascript
 ---
 
 You might have noticed that *equal* comparisons can be written two different ways: *equals* (`==`) and *strict equals* (`===`).
@@ -11,7 +13,7 @@ So what's the difference?
 
 Strict equals checks if the two items are the same type. Regular equals does not. For example...
 
-```js
+```lang-js
 // returns true
 (42 == '42')
 

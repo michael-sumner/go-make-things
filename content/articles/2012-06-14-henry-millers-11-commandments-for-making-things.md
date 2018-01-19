@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Design &amp; UX
 date: '2012-06-14'
+permalink: /henry-millers-11-commandments-for-making-things/
 title: Henry Miller&#8217;s 11 Commandments for Making Things
+url: /2012/06/14/henry-millers-11-commandments-for-making-things
 ---
 
 From Maria Popova's Brain Pickings comes this delightful list of <a href="http://www.brainpickings.org/index.php/2012/02/22/henry-miller-on-writing/">commandments for more effective creative work</a>.

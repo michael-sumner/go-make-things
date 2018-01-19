@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-17'
+permalink: /yes-you-can-ditch-jquery-and-still-support-ieedge/
 title: Yes, you can ditch jQuery and still support IE/Edge
+url: /2017/08/17/yes-you-can-ditch-jquery-and-still-support-ieedge
 ---
 
 Last month, Ollie Williams wrote a post for CSS Tricks on why [now more than ever you really don't need jQuery](https://css-tricks.com/now-ever-might-not-need-jquery/). He covered a handful of modern ES5 and ES6 JavaScript and browser APIs that make working with vanilla JS just as easy as using jQuery.
@@ -34,7 +36,7 @@ If you want to use some of the nicer ES6 methods like `Array.forEach()`, `Elemen
 
 ## Polyfills are your friend
 
-[I love polyfills.](/why-i-love-polyfills/) Polyfills are little snippets of code that add support for a features to browsers that don’t offer them natively.
+[I love polyfills.](https://gomakethings.com/why-i-love-polyfills/) Polyfills are little snippets of code that add support for a features to browsers that don’t offer them natively.
 
 Polyfill.io is a service that detects what browser your visitor is on and serves them just the polyfills they need.
 
@@ -58,7 +60,7 @@ Documentation. Vanilla JavaScript documentation sucks.
 
 The closest thing to jQuery documentation for vanilla JS is [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript), and it's often written in a way that's inaccessible to beginners. jQuery makes getting started a lot easier.
 
-This is why I started writing my [pocket guides series](/guides/). I want to make vanilla JS as accessible to new developers as jQuery is.
+This is why I started writing my [pocket guides series](https://gomakethings.com/guides/). I want to make vanilla JS as accessible to new developers as jQuery is.
 
 ## You don't need jQuery
 
@@ -70,4 +72,4 @@ You *don't* need jQuery.
 
 Most of the things you typically use jQuery for are just as easy with vanilla JavaScript. And you'll load less code and support more browsers in the process.
 
-[Ready to make the leap?](/guides/)
+[Ready to make the leap?](https://gomakethings.com/guides/)

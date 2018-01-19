@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2012-04-11'
+permalink: /consumer-driven-it/
 title: Consumer-driven IT
+url: /2012/04/11/consumer-driven-it
 ---
 
 One of the interesting things about technology in big business today is that decisions are being driven as much by consumers as they are by IT departments. Employees are asking their companies to support iPhones, Androids and iPads, and companies do.

@@ -2,7 +2,9 @@
 categories:
 - Technology
 date: '2013-07-10'
+permalink: /web-foundations/
 title: Web Foundations
+url: /2013/07/10/web-foundations
 ---
 
 <a href="http://www.marco.org/2013/07/03/lockdown">Marco Arment on RSS...</a>

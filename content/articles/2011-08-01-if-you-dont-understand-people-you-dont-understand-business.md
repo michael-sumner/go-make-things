@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2011-08-01'
+permalink: /if-you-dont-understand-people-you-dont-understand-business/
 title: If you don&#8217;t understand people, you don&#8217;t understand business.
+url: /2011/08/01/if-you-dont-understand-people-you-dont-understand-business
 ---
 
 The 99% Network posted a captivating talk by ethnographer <a href="http://the99percent.com/videos/7058/Simon-Sinek-If-You-Dont-Understand-People-You-Dont-Understand-Business">Simon Sinek about people, trust and business</a>.

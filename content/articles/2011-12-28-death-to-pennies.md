@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2011-12-28'
+permalink: /death-to-pennies/
 title: Death to Pennies!
+url: /2011/12/28/death-to-pennies
 ---
 
 Back in college, I spent 5 months studying abroad in Australia. They had stopped using pennies, instead simply rounding up or down to the nearest five cents.

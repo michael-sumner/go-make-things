@@ -5,10 +5,12 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-05-04'
+permalink: /why-66ms-when-using-settimeout/
 title: Why 66ms when using setTimeout?
+url: /2017/05/04/why-66ms-when-using-settimeout
 ---
 
-Yesterday, I wrote about [how to improve event listener performance](/event-listener-performance-with-vanilla-js/) for `scroll` and `resize` events. [Mark Goodyear asked](https://twitter.com/markgdyr/status/859756434828951553):
+Yesterday, I wrote about [how to improve event listener performance](https://gomakethings.com/event-listener-performance-with-vanilla-js/) for `scroll` and `resize` events. [Mark Goodyear asked](https://twitter.com/markgdyr/status/859756434828951553):
 
 > Any reason for it being 66ms?
 
@@ -20,7 +22,7 @@ Movies are shown in about 24fps (frames per second). TV shows are generally at 3
 
 You can calculate the number of milliseconds needed to hit your target refresh rate by dividing 1000 by your target fps:
 
-```javascript
+```lang-javascript
 var 15fps = 1000/15; // 66
 var 24fps = 1000/24; // 42
 var 30fps = 1000/30; // 33

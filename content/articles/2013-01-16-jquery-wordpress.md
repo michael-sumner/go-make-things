@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2013-01-16'
+permalink: /jquery-wordpress/
 title: jQuery &#038; WordPress
+url: /2013/01/16/jquery-wordpress
 ---
 
 Using jQuery in WordPress can be a tad tricky. WordPress actually comes with a version of jQuery built-in, though it's not necessarily the most recent version and it doesn't automatically get loaded for people who visit your site.

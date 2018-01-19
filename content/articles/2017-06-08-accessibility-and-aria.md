@@ -4,7 +4,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-06-08'
+permalink: /accessibility-and-aria/
 title: Accessibility and ARIA
+url: /2017/06/08/accessibility-and-aria
 ---
 
 I find ARIA incredibility confusing.

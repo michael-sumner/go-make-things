@@ -3,7 +3,9 @@ categories:
 - Code
 date: '2012-10-18'
 excerpt: Go Mobile First is a free, mobile-first WordPress theme.
+permalink: /a-small-go-mobile-first-update/
 title: A small Go Mobile First update
+url: /2012/10/18/a-small-go-mobile-first-update
 ---
 
 Last night I had to push out a small update to <em><a href="https://gomakethings.com/go-mobile-first/">Go Mobile First</a></em> after I caught a bug in the search form function that didn't show up in testing.

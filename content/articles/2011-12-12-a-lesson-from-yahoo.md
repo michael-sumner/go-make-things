@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2011-12-12'
+permalink: /a-lesson-from-yahoo/
 title: A lesson from Yahoo&#8230;
+url: /2011/12/12/a-lesson-from-yahoo
 ---
 
 A few weekends ago, the <em>Guardian</em> ran a great piece by Charles Arthur on <a href="http://www.guardian.co.uk/media/2011/dec/04/yahoo-search-engine-demise-internet">the slow demise of Yahoo</a>. This quote in particular jumped out at me...

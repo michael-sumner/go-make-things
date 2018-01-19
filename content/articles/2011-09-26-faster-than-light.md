@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-09-26'
+permalink: /faster-than-light/
 title: Faster than light
+url: /2011/09/26/faster-than-light
 ---
 
 This is really cool! The researchers at CERN have discovered a particle moving faster than the speed of light. Via the <a href="http://www.nytimes.com/aponline/2011/09/22/world/europe/AP-EU-Breaking-Light-Speed.html"><em>New York Times</em>...</a>

@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2013-01-18'
+permalink: /the-wisdom-of-the-crowds/
 title: The Wisdom of the Crowds
+url: /2013/01/18/the-wisdom-of-the-crowds
 ---
 
 Even though no one person in a crowd may have the right answer, it turns out that collective groups of people often do. This slightly cheesy video from <a href="https://www.youtube.com/watch?v=r-FonWBEb0o">NOVA scienceNOW on PBS explains...</a>

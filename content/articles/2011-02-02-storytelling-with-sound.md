@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-02-02'
+permalink: /storytelling-with-sound/
 title: Storytelling with Sound
+url: /2011/02/02/storytelling-with-sound
 ---
 
 A really cool behind-the-scenes look at <a href="http://vimeo.com/18945157">how sound and music impact storytelling, told by Disney's Imagineers...</a>

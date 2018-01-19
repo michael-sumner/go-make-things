@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-12-22'
+permalink: /scroll-based-storytelling/
 title: Scroll-based storytelling
+url: /2017/12/22/scroll-based-storytelling
 ---
 
 Just a quick shoutout to [Scrollama](https://github.com/russellgoldenberg/scrollama), an MIT-licensed open source vanilla JS plugin (did I hit all the buzzwords?) for scroll-based storytelling.

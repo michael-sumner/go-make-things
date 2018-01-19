@@ -4,7 +4,9 @@ categories:
 - Code
 date: '2012-10-24'
 excerpt: A simple technique to make your javascript accessible on unsupported devices.
+permalink: /accessible-javascript/
 title: Accessible Javascript
+url: /2012/10/24/accessible-javascript
 ---
 
 Javascript is like magic pixie dust for the internet. It can do amazing things.

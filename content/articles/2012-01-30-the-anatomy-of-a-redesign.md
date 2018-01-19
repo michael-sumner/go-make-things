@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2012-01-30'
+permalink: /the-anatomy-of-a-redesign/
 title: The Anatomy of a Website Redesign
+url: /2012/01/30/the-anatomy-of-a-redesign
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2012/01/Screen-shot-2012-01-23-at-6.47.27-PM-560x284.png" alt="" title="PAWS-New-England" style="border: 1px solid #a9a9a9;" width="560" height="284" class="aligncenter size-medium wp-image-2012" />

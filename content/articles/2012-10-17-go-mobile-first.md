@@ -4,7 +4,9 @@ categories:
 - Code
 date: '2012-10-17'
 excerpt: A free mobile-first starter theme for WordPress.
+permalink: /go-mobile-first/
 title: Go Mobile First
+url: /2012/10/17/go-mobile-first
 ---
 
 <div class="callout"><p class="tall"><em>Go Mobile First</em> is a mobile-first starter theme for WordPress.</p>

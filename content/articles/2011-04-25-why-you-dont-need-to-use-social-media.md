@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2011-04-25'
+permalink: /why-you-dont-need-to-use-social-media/
 title: Why you DON&#8217;T need to use [insert social media channel here]
+url: /2011/04/25/why-you-dont-need-to-use-social-media
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/04/Social-Media-Marketing-466x350.jpg" alt="" title="Social-Media-Marketing" width="466" height="350" class="aligncenter size-medium wp-image-527" />

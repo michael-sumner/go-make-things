@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-08-09'
+permalink: /perseverance/
 title: Perseverance
+url: /2012/08/09/perseverance
 ---
 
 <iframe class="alignc" width="420" height="315" src="https://www.youtube.com/embed/Nifq3Ke2Q30?rel=0" frameborder="0" allowfullscreen></iframe>

@@ -3,10 +3,12 @@ categories:
 - Code
 - JavaScript
 date: '2018-01-09'
+permalink: /javascript-debugging-basics-part-2/
 title: 'JavaScript Debugging Basics: Part 2'
+url: /2018/01/09/javascript-debugging-basics-part-2
 ---
 
-First off, thanks to everyone who responded to [yesterday's debugging challenge](/javascript-debugging-basics-part-1/). It's always interesting to see how others approach problems and think about code.
+First off, thanks to everyone who responded to [yesterday's debugging challenge](https://gomakethings.com/javascript-debugging-basics-part-1/). It's always interesting to see how others approach problems and think about code.
 
 Today, I'm going to walk you through how I would debug an issue like this.
 
@@ -22,7 +24,7 @@ When I encounter a problem like this, I start with the last known working piece 
 
 As a quick refresher from yesterday's article, here's our event listener:
 
-```js
+```lang-js
 document.addEventListener('click', function (event) {
 
     // Make sure clicked element is our toggle
@@ -49,7 +51,7 @@ document.addEventListener('click', function (event) {
 
 I started by logging `running!` in the console immediately after the click event was called to make sure it was working properly. Then I clicked the button.
 
-```js
+```lang-js
 document.addEventListener('click', function (event) {
 
     console.log('running!');
@@ -63,7 +65,7 @@ So far, so good.
 
 Next, I logged the `toggleId` variable to make sure the right element&mdash;the close button&mdash;was being picked up by the listener, and clicked the button again.
 
-```js
+```lang-js
 document.addEventListener('click', function (event) {
 
     // Make sure clicked element is our toggle
@@ -79,7 +81,7 @@ document.addEventListener('click', function (event) {
 
 As expected, the close button's `[data-toggle]` attribute value&mdash;`#close`&mdash;was logged. Then, I logged the `content` variable.
 
-```js
+```lang-js
 document.addEventListener('click', function (event) {
 
     // Make sure clicked element is our toggle

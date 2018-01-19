@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2011-01-19'
+permalink: /social-media-can-be-simple/
 title: Social media can be simple
+url: /2011/01/19/social-media-can-be-simple
 ---
 
 <blockquote>If you’re getting a headache trying to figure out how to get started with this “social media stuff” — you’re trying too hard.

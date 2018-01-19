@@ -3,7 +3,9 @@ categories:
 - Code
 date: '2012-11-06'
 excerpt: Google-hosted jQuery wasn't loading on certain devices. Here's how I fixed it.
+permalink: /issues-with-google-hosted-jquery/
 title: Issues with Google-hosted jQuery
+url: /2012/11/06/issues-with-google-hosted-jquery
 ---
 
 <em><strong>Note:</strong> I eventually figured out that there was a firewall setting causing the issues, and have since switched back to the Google CDN of jQuery.</em>

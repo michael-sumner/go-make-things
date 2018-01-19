@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2014-04-07'
+permalink: /joining-constant-contact/
 title: Joining Constant Contact
+url: /2014/04/07/joining-constant-contact
 ---
 
 I'm delighted to announce that I've joined <a href="http://www.constantcontact.com/">Constant Contact</a> as a front-end web developer.

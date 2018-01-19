@@ -5,10 +5,12 @@ categories:
 - Web Performance
 - WordPress
 date: '2017-05-18'
+permalink: /conditional-javascript-loading-in-wordpress/
 title: Conditional JavaScript loading in WordPress
+url: /2017/05/18/conditional-javascript-loading-in-wordpress
 ---
 
-Earlier this week, I shared a technique for [only loading your JavaScript file if the browser passes your feature test](/how-to-only-load-your-javascript-file-if-the-browser-supports-your-code/).
+Earlier this week, I shared a technique for [only loading your JavaScript file if the browser passes your feature test](https://gomakethings.com/how-to-only-load-your-javascript-file-if-the-browser-supports-your-code/).
 
 Newsletter subscriber [Vijay Rudraraju](http://vjdesign.com.au) asked me how you would do this with WordPress. Great question!
 
@@ -18,7 +20,7 @@ This is definitely *not* the WordPress way of doing things, by the way. By not u
 
 Here’s the code you would use to make it all happen...
 
-```php
+```lang-php
 /**
  * Load inline footer content
  */

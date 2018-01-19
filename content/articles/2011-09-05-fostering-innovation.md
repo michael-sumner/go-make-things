@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2011-09-05'
+permalink: /fostering-innovation/
 title: Fostering Innovation
+url: /2011/09/05/fostering-innovation
 ---
 
 <blockquote>Bezos described how he surrounds himself with people at Amazon who are inventive. He asks all job candidates: “Tell me about something that you have invented.” He adds, “Their invention could be on a small scale—say, a new product feature or a process that improves the customer experience, or even a new way to load the dishwasher. But I want to know that they will try new things.” When the CEO asks all job candidates whether they’ve ever invented anything, it sends a powerful signal that invention is expected and valued.

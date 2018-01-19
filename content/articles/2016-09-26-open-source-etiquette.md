@@ -2,10 +2,12 @@
 categories:
 - Code
 date: '2016-09-26'
+permalink: /open-source-etiquette/
 title: Open Source Etiquette
+url: /2016/09/26/open-source-etiquette
 ---
 
-I love [creating open source code](/open-source) and seeing the cool things people do with it.
+I love [creating open source code](https://gomakethings.com/open-source) and seeing the cool things people do with it.
 
 However... as my projects get more popular, I find myself dealing with demands for features that don't exist yet, the same question asked repeatedly, and other time-sucks. Most people just make well-meaning mistakes. A few are real jerks.
 

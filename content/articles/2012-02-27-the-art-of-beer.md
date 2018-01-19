@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2012-02-27'
+permalink: /the-art-of-beer/
 title: The Art of Beer
+url: /2012/02/27/the-art-of-beer
 ---
 
 I'm more of a wine guy myself, but I found this article in the <em>New Yorker</em> about <a href="http://www.newyorker.com/reporting/2008/11/24/081124fa_fact_bilger?currentPage=all">Sam Calgione, founder of Dogfish Head beer</a>, absolutely fascinating.

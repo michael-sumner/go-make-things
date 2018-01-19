@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-05-20'
+permalink: /kraken-gets-callouts-alerts-and-more/
 title: Kraken gets callouts, alerts, and more
+url: /2013/05/20/kraken-gets-callouts-alerts-and-more
 ---
 
 <a href="http://cferdinandi.github.io/kraken/">Kraken</a> got a few updates over the weekend, including several new add-ons.

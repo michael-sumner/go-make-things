@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-08-15'
+permalink: /design-tip-never-use-black/
 title: 'Design Tip: Never Use Black'
+url: /2012/08/15/design-tip-never-use-black
 ---
 
 Quite some time ago I learned to never use pure black (<em>#000000</em>) on pure white (<em>#ffffff</em>) in web design, as it's actually much harder to read.

@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2011-11-28'
+permalink: /christian-the-lion/
 title: Christian the Lion
+url: /2011/11/28/christian-the-lion
 ---
 
 I thought this was fake until I looked it up on Wikipedia. <a href="https://www.youtube.com/watch?v=ZDZaWgf_bk0">The story of Christian the Lion...</a>

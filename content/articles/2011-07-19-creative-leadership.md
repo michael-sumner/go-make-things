@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2011-07-19'
+permalink: /creative-leadership/
 title: Creative Leadership
+url: /2011/07/19/creative-leadership
 ---
 
 <blockquote>The role of a creative leader is not to have all the ideas; it’s to create a culture where everyone can have ideas and feel that they’re valued.

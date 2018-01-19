@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-14'
+permalink: /document-vs-window-in-javascript/
 title: .document vs .window in JavaScript
+url: /2017/04/14/document-vs-window-in-javascript
 ---
 
 One of the students in my <a href="https://gomakethings.com/guides/">Vanilla JS Slack room</a> asked me why I use <code>document</code> instead of <code>window</code> with <code>addEventListener()</code> click events. In otherwords, why this:

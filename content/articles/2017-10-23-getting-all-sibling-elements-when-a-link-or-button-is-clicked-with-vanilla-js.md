@@ -3,14 +3,16 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-23'
+permalink: /getting-all-sibling-elements-when-a-link-or-button-is-clicked-with-vanilla-js/
 title: Getting all sibling elements when a link or button is clicked with vanilla JS
+url: /2017/10/23/getting-all-sibling-elements-when-a-link-or-button-is-clicked-with-vanilla-js
 ---
 
-Last week in the private Slack channel that comes with any of my [pocket guides](/guides/), one of my students asked how to get a navigation link's siblings when it's clicked.
+Last week in the private Slack channel that comes with any of my [pocket guides](https://gomakethings.com/guides/), one of my students asked how to get a navigation link's siblings when it's clicked.
 
 For example, imagine you have a nav menu that looks like this.
 
-```html
+```lang-html
 <ul>
 	<li><a class="nav-link" href="#1">Link 1</a></li>
 	<li><a class="nav-link" href="#2">Link 2</a></li>
@@ -24,7 +26,7 @@ Whenever someone clicks a link in that menu, you want to give that link an `.act
 
 Here's how that would work.
 
-```js
+```lang-js
 // Listen for all clicks on the document
 document.addEventListener('click', function () {
 
@@ -51,7 +53,7 @@ document.addEventListener('click', function () {
 }, false);
 ```
 
-We're listening to all clicks on the document, a technique known as [event bubbling](/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/). If the clicked element (`event.target`) doesn't have the `.nav-link` class, we bail.
+We're listening to all clicks on the document, a technique known as [event bubbling](https://gomakethings.com/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/). If the clicked element (`event.target`) doesn't have the `.nav-link` class, we bail.
 
 Otherwise, use the `classList` API to add our `.active` class.
 

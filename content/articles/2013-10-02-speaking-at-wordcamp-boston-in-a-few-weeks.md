@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2013-10-02'
+permalink: /speaking-at-wordcamp-boston-in-a-few-weeks/
 title: Speaking at WordCamp Boston in a few weeks
+url: /2013/10/02/speaking-at-wordcamp-boston-in-a-few-weeks
 ---
 
 I'll be delivering my talk on <a href="https://speakerdeck.com/cferdinandi/wicked-fast-wordpress">Wicked Fast WordPress</a> at <a href="http://2013.boston.wordcamp.org/">WordCamp Boston</a> this year.

@@ -5,7 +5,9 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-04-06'
+permalink: /a-better-way-to-load-scripts-with-javascript-or-why-document-write-sucks/
 title: A better way to load scripts with JavaScript (or, why document.write() sucks)
+url: /2017/04/06/a-better-way-to-load-scripts-with-javascript-or-why-document-write-sucks
 ---
 
 You may have heard that you shouldn't use <code>document.write()</code> to inject scripts into a page. But why?

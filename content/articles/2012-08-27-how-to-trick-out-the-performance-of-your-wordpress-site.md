@@ -3,7 +3,9 @@ categories:
 - Code
 date: '2012-08-27'
 excerpt: How to make your WordPress blog run faster in less than 30 minutes.
+permalink: /how-to-trick-out-the-performance-of-your-wordpress-site/
 title: How to trick out the performance of your WordPress site
+url: /2012/08/27/how-to-trick-out-the-performance-of-your-wordpress-site
 ---
 
 In <a href="http://daverupert.com/2010/06/web-performant-wordpress/">Web Performant WordPress</a>, Dave Rupert talks about the steps he took to dramatically increase the performance of his WordPress site.

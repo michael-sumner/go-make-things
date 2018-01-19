@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2013-04-17'
+permalink: /recovering-from-a-wordpress-hack/
 title: Recovering from a WordPress hack
+url: /2013/04/17/recovering-from-a-wordpress-hack
 ---
 
 Over the weekend, I noticed that links for "Secure Payday Loan" where briefly being displayed next to my navigation links. On page reload, they disappeared.

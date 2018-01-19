@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2011-05-13'
+permalink: /pop-shorty/
 title: Pop + Shorty
+url: /2011/05/13/pop-shorty
 ---
 
 <a href="http://www.popandshorty.bigcartel.com/">Pop + Shorty</a> make fun and often funny products. They're definitely not for everyone, but I got a good chuckle out of these...

@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2013-09-12'
+permalink: /adopting-a-dog-from-your-phone/
 title: Adopting a dog from your phone
+url: /2013/09/12/adopting-a-dog-from-your-phone
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2012/10/paws-ia1.jpg" alt="A picture of the PAWS New England navigation structure on both a mobile phone and a tablet" width="640" height="386" class="aligncenter size-full wp-image-4219" />

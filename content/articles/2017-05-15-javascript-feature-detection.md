@@ -3,12 +3,14 @@ categories:
 - Code
 - JavaScript
 date: '2017-05-15'
+permalink: /javascript-feature-detection/
 title: JavaScript feature detection
+url: /2017/05/15/javascript-feature-detection
 ---
 
-In my [Vanilla JS Pocket Guide](/guides/) on browser compatibility, I mention a technique called "cutting the mustard," in which you make sure the most modern functions you're using are supported before running your code.
+In my [Vanilla JS Pocket Guide](https://gomakethings.com/guides/) on browser compatibility, I mention a technique called "cutting the mustard," in which you make sure the most modern functions you're using are supported before running your code.
 
-```javascript
+```lang-javascript
 var supports = 'querySelector' in document && 'addEventListener' in window;
 
 if ( supports ) {
@@ -26,7 +28,7 @@ You *can* include the whole thing in your project, but I actually think it's mor
 
 For example, if I wanted to test for Service Worker support, I would do this:
 
-```javascript
+```lang-javascript
 if ( 'serviceWorker' in navigator ) {
     // Run my scripts...
 }

@@ -3,14 +3,16 @@ categories:
 - Code
 - JavaScript
 date: '2017-12-04'
+permalink: /removing-an-element-from-the-dom-the-es6-way/
 title: Removing an element from the DOM, the ES6 way
+url: /2017/12/04/removing-an-element-from-the-dom-the-es6-way
 ---
 
-Earlier this year, I shared [a way to remove elements from the DOM](/removing-an-element-from-the-dom-with-vanilla-js/) using the `removeChild()` method.
+Earlier this year, I shared [a way to remove elements from the DOM](https://gomakethings.com/removing-an-element-from-the-dom-with-vanilla-js/) using the `removeChild()` method.
 
 ES6 provides an easier, simpler way to achieve the same tax: `remove()`. Call the `remove()` method on the element you want to remove.
 
-```javascript
+```lang-javascript
 var elem = document.querySelector('#some-element');
 elem.remove();
 ```
@@ -21,7 +23,7 @@ The `remove()` method works in all modern browsers, but not IE. You can [add sup
 
 Personally, I use the older approach because it has better backwards compatibility and doesn't need a polyfill, but the `remove()` method is quite nice.
 
-```javascript
+```lang-javascript
 /**
  * ChildNode.remove() polyfill
  */

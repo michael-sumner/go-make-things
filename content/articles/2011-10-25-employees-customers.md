@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2011-10-25'
+permalink: /employees-customers/
 title: Employees &#038; Customers
+url: /2011/10/25/employees-customers
 ---
 
 <blockquote>Treat your employees like family and they will treat your customers like guests.

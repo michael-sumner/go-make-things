@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2013-01-09'
+permalink: /how-to-remove-trackbacks-from-your-wordpress-comments/
 title: How to remove trackbacks from your WordPress comments
+url: /2013/01/09/how-to-remove-trackbacks-from-your-wordpress-comments
 ---
 
 <em><strong>Update:</strong> I've converted this snippet into a lightweight plugin called <a href="http://cferdinandi.github.io/remove-trackbacks/">Remove&nbsp;Trackbacks</a>.</em>

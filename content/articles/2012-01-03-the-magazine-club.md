@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-01-03'
+permalink: /the-magazine-club/
 title: The Magazine Club
+url: /2012/01/03/the-magazine-club
 ---
 
 A cool idea <a href="http://chrisglass.com/album/2011/06/06/magazine-club-01/">from Chris Glass...</a>

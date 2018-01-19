@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2012-04-09'
+permalink: /handmade-leather-goods-and-a-throwaway-society/
 title: Handmade leather goods and a throwaway society
+url: /2012/04/09/handmade-leather-goods-and-a-throwaway-society
 ---
 
 <em>Brothers Chris and Kirk Bray have been producing handmade leather goods for the last ten years. What can their craft teach us about the value of products in a throwaway society?</em>

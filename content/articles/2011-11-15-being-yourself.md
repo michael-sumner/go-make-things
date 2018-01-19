@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Uncategorized
 date: '2011-11-15'
+permalink: /being-yourself/
 title: Being yourself
+url: /2011/11/15/being-yourself
 ---
 
 John Lilly, former CEO of Mozilla, <a href="http://john.jubjubs.net/2011/10/09/steve-jobs/">on Steve Jobs...</a>

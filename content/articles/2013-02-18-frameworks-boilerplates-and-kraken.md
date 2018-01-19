@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2013-02-18'
+permalink: /frameworks-boilerplates-and-kraken/
 title: Frameworks, Boilerplates, and Kraken
+url: /2013/02/18/frameworks-boilerplates-and-kraken
 ---
 
 When I released the <a href="http://cferdinandi.github.com/kraken/">Kraken boilerplate</a> last week, someone asked me, "How does it differ from [Bootstrap/Foundation/Your Favorite Framework Here]?" Fair question.

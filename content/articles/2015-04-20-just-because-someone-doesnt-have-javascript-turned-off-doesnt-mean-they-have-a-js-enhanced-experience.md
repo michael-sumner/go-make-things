@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2015-04-20'
+permalink: /just-because-someone-doesnt-have-javascript-turned-off-doesnt-mean-they-have-a-js-enhanced-experience/
 title: Just because someone doesn&#8217;t have JavaScript turned off doesn&#8217;t mean they have a JS-enhanced experience
+url: /2015/04/20/just-because-someone-doesnt-have-javascript-turned-off-doesnt-mean-they-have-a-js-enhanced-experience
 ---
 
 From [Craig McPheat on Twitter](https://twitter.com/craigmcpheat/status/588335648987308032):

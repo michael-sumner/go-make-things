@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-03-14'
+permalink: /we-lost-everything-in-a-split-second/
 title: We lost everything in a split second&#8230;
+url: /2011/03/14/we-lost-everything-in-a-split-second
 ---
 
 <blockquote>We lost everything in a split second. Our lives were spared, but I'm not yet convinced whether that was a good or bad thing...</blockquote>

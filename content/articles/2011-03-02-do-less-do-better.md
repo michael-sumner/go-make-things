@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2011-03-02'
+permalink: /do-less-do-better/
 title: Do less. Do better.
+url: /2011/03/02/do-less-do-better
 ---
 
 This year, I adopted a mantra: Do less. Do better.

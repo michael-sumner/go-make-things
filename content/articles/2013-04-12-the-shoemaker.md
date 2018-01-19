@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2013-04-12'
+permalink: /the-shoemaker/
 title: The Shoemaker
+url: /2013/04/12/the-shoemaker
 ---
 
 This short film about <a href="http://vimeo.com/62731783">91 year old shoemaker Frank Catalfumo</a> is absolutely delightful to watch.

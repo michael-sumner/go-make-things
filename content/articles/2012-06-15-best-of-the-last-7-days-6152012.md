@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-06-15'
+permalink: /best-of-the-last-7-days-6152012/
 title: 'Best of the last 7 days: 6/15/2012'
+url: /2012/06/15/best-of-the-last-7-days-6152012
 ---
 
 I read way more awesome stuff than I can possible share on this site. For as long as I have the energy to keep doing so, each Friday I'll be sharing a short list of the best stuff from the last seven days.

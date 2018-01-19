@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2011-11-29'
+permalink: /pens-pencils-and-outer-space/
 title: Pens, pencils and outer space
+url: /2011/11/29/pens-pencils-and-outer-space
 ---
 
 <blockquote>There’s an old story, untrue as it may be, that people love telling about writing implements in space. The American space program discovered that normal ink pens didn’t work on missions (no gravity in orbit to pull down the ink), so they spent millions to research and develop a pen that could write upside down. The Russians, the story goes, brought a pack of pencils.</blockquote>

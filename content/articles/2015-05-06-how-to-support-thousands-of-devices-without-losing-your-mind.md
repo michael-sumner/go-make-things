@@ -3,10 +3,12 @@ categories:
 - Code
 - Design &amp; UX
 date: '2015-05-06'
+permalink: /how-to-support-thousands-of-devices-without-losing-your-mind/
 title: How to support thousands of devices without losing your mind
+url: /2015/05/06/how-to-support-thousands-of-devices-without-losing-your-mind
 ---
 
-*The following post was adapted from [Wicked Fast Websites](/wicked-fast-websites/), my free beginner's guide to building fast websites and web apps that work on any device. [Download it here.](/wicked-fast-websites/)*
+*The following post was adapted from [Wicked Fast Websites](https://gomakethings.com/wicked-fast-websites/), my free beginner's guide to building fast websites and web apps that work on any device. [Download it here.](https://gomakethings.com/wicked-fast-websites/)*
 
 Over the last two years, [PAWS New England](http://pawsnewengland.com/) has been visited by over 800 different devices. These devices range from the very capable (the latest iOS and Android versions) to the very old and underpowered (a Nintendo DS and my 5 year old Kindle).
 
@@ -34,13 +36,13 @@ There are three main layers of the front-end development stack: HTML, CSS, and J
 
 Some of my scripts use CSS to hide and show elements. By default, I want all elements visible. They should only be hidden if the browser has the appropriate JavaScript support and my JS file successfully loads. To do that, I include this snippet in my JavaScript file:
 
-```js
+```lang-js
 document.documentElement.className += ' js';
 ```
 
 This adds a `.js` class to my `<html>` element. I can check for this class in my CSS before hiding any content:
 
-```css
+```lang-css
 .js .example {
 	display: none;
 	visibility: hidden;
@@ -49,7 +51,7 @@ This adds a `.js` class to my `<html>` element. I can check for this class in my
 
 If your script is dependent on certain APIs that aren't supported by all browsers (things like query selectors and event listeners), you should check for those before running your script or adding your class:
 
-```js
+```lang-js
 if ( 'querySelector' in document && 'addEventListener' in window ) {
 	// Do stuff...
 	document.documentElement.className += ' js';
@@ -76,7 +78,7 @@ The alternative – desktop first – involves starting with a wide, grid-based 
 
 Mobile-first is the ~~better~~ more future-friendly approach. Here's an example of desktop-first code, borrowed from our chapter on RWD:
 
-```css
+```lang-css
 #main {
 	width: 66.666666667%;
 }
@@ -95,7 +97,7 @@ Mobile-first is the ~~better~~ more future-friendly approach. Here's an example 
 
 And here's that same code, rewritten mobile-first:
 
-```css
+```lang-css
 #main,
 #sidebar {
 	width: 100%;
@@ -120,7 +122,7 @@ Imagine trying to read tiny text in a big screen layout on an old, underpowered 
 
 Mobile first web design extends progressive enhancement to site layout, allowing you to serve simple, readable content to all devices, and layer on structure and presentation for more capable devices.
 
-It's worth noting that IE 8 and lower do not support media queries, so they receive the basic, single-column layout when using this approach. There is [a simple way to address this](/mobile-first-and-internet-explorer/) if you *really* need to optimize for IE 8.
+It's worth noting that IE 8 and lower do not support media queries, so they receive the basic, single-column layout when using this approach. There is [a simple way to address this](https://gomakethings.com/mobile-first-and-internet-explorer/) if you *really* need to optimize for IE 8.
 
 ## Support is not the same as optimization
 

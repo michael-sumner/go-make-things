@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2011-10-24'
+permalink: /the-company-name-way/
 title: The [Company Name] Way
+url: /2011/10/24/the-company-name-way
 ---
 
 The <em>Harvard Business Review</em> posted a great article on <a href="http://blogs.hbr.org/taylor/2011/09/how_hewlett-packard_lost_the_h.html">how HP lost its way</a> last month. From the article...

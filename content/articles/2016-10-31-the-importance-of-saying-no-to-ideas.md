@@ -3,7 +3,9 @@ categories:
 - Design &amp; UX
 - Technology
 date: '2016-10-31'
+permalink: /the-importance-of-saying-no-to-ideas/
 title: The importance of saying &#8220;no&#8221; to ideas
+url: /2016/10/31/the-importance-of-saying-no-to-ideas
 ---
 
 Apple's latest series of product changes have me convinced that there's no one there whose role is to say "no" to shitty ideas.

@@ -2,7 +2,9 @@
 categories:
 - Technology
 date: '2014-08-20'
+permalink: /humans-need-not-apply/
 title: Humans Need Not Apply
+url: /2014/08/20/humans-need-not-apply
 ---
 
 C.G.P. Grey's latest video, ["Humans Need Not Apply,"](https://www.youtube.com/watch?v=7Pq-S557XQU) is a pretty radical departure from his normal style of video. At 12 minutes, it's much longer than his typical video. He talks much slower, and instead of his normal animations, uses lots of video clips.

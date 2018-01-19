@@ -5,7 +5,9 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-05-19'
+permalink: /lessons-from-south-africa/
 title: Lessons from South Africa
+url: /2017/05/19/lessons-from-south-africa
 ---
 
 Last week <a href="https://una.im/">Una Kravets</a> was at the <a href="https://pixelup.co.za/">Pixel Up! UX conference</a> in South Africa. She shared <a href="https://twitter.com/una/status/861512242101186561">some insights from folks who live there</a> about building sites for an international audience.

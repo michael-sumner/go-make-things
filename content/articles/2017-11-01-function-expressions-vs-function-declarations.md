@@ -3,14 +3,16 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-01'
+permalink: /function-expressions-vs-function-declarations/
 title: Function expressions vs. function declarations
+url: /2017/11/01/function-expressions-vs-function-declarations
 ---
 
-I've started working on my next [pocket guide](/guides/), *Variables, Functions, and Scope*.
+I've started working on my next [pocket guide](https://gomakethings.com/guides/), *Variables, Functions, and Scope*.
 
 One of the things I get asked about a fair bit is the difference between these two ways of writing a function.
 
-```js
+```lang-js
 // Function declaration
 function add(num1, num2) {
 	return num1 + num2;
@@ -34,7 +36,7 @@ What does that mean, exactly?
 
 Specifically, all of the functions written with function declarations are "known" before any code is run. This allows you to call a function before you declare.
 
-```js
+```lang-js
 /**
  * This works!
  */
@@ -55,7 +57,7 @@ function subtract(num1, num2) {
 
 *Function expressions*, however, do **not** hoist. If you try to run a function before you've expressed it, you'll get an error.
 
-```js
+```lang-js
 /**
  * This works!
  */

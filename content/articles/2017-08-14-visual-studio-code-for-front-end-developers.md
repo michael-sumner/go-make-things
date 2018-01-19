@@ -6,7 +6,9 @@ categories:
 - Technology
 - WordPress
 date: '2017-08-14'
+permalink: /visual-studio-code-for-front-end-developers/
 title: Visual Studio Code for Front-End Developers
+url: /2017/08/14/visual-studio-code-for-front-end-developers
 ---
 
 A few weeks ago, I switched from Sublime Text to [Visual Studio Code](https://code.visualstudio.com/) as my primary text editor.
@@ -37,7 +39,7 @@ And while ESLint is the new hotness, I use [JSHint](https://marketplace.visualst
 
 Here are my options, saved directly to my settings in Code:
 
-```javascript
+```lang-javascript
 // The jshint options object to provide args to the jshint command.
 "jshint.options": {
 	"evil": true,
@@ -76,7 +78,7 @@ I mostly use [Sketch](https://www.sketchapp.com/) for my SVG work, but the [SVG 
 
 You can configure almost every aspect of the editor. Here are some tweaks I've made to change the default behavior.
 
-```javascript
+```lang-javascript
 // Increase the font size to 15px
 "editor.fontSize": 15,
 

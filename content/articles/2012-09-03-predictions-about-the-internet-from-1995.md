@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-09-03'
+permalink: /predictions-about-the-internet-from-1995/
 title: Predictions about the internet from 1995
+url: /2012/09/03/predictions-about-the-internet-from-1995
 ---
 
 My how things have changed over the last 17 years. The Daily Beast reran this <a href="http://www.thedailybeast.com/newsweek/1995/02/26/the-internet-bah.html">article about the internet</a> from 1995 in Newsweek Magazine...

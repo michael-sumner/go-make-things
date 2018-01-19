@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-01-12'
+permalink: /voting-explained/
 title: Voting, Explained
+url: /2012/01/12/voting-explained
 ---
 
 If you've ever wondered why there's no real third party (or fourth, or fifth) in the US, check out <a href="https://www.youtube.com/watch?v=s7tWHJfhiyo">this amazing video from C. G. P. Grey...</a>

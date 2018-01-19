@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2011-11-21'
+permalink: /old-models-new-models/
 title: Old models. New models.
+url: /2011/11/21/old-models-new-models
 ---
 
 <blockquote>But there are more fundamental problems beyond the technical. Issue-based publishing forces readers into a monolothic visual and navigational metaphor that doesn’t reflect the way we gather information now. Issues are the way publishers understand content, not readers. As readers, we’re engaged by individual stories and, online, tend to pluck out just the ones we want.

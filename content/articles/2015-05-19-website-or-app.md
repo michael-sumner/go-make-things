@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2015-05-19'
+permalink: /website-or-app/
 title: Website or app?
+url: /2015/05/19/website-or-app
 ---
 
 Benedict Evans has written the most sensible take on the [mobile-friendly website versus mobile app debate](http://ben-evans.com/benedictevans/2015/5/14/apps-versus-the-web) I've ever read:

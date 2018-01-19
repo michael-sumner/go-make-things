@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Business &amp; Leadership
 date: '2011-02-22'
+permalink: /a-rare-look-inside-pixar-studios/
 title: A Rare Look Inside Pixar Studios
+url: /2011/02/22/a-rare-look-inside-pixar-studios
 ---
 
 <p align="center"><img src="https://gomakethings.com/wp-content/uploads/2011/02/wall-e-391x350.jpg" alt="" title="wall-e" width="391" height="350" class="alignnone size-medium wp-image-183" /><br><em><a href="http://www.flickr.com/photos/43212809@N00/923287780/">Image by Alejandro Molina B</a></em></p>

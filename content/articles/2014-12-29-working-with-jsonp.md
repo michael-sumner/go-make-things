@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2014-12-29'
+permalink: /working-with-jsonp/
 title: Working with JSONP
+url: /2014/12/29/working-with-jsonp
 ---
 
 In [petfinderAPI4everybody.js](https://github.com/cferdinandi/petfinderAPI4everybody), I fetch data from Petfinder's API on the client side using only native JavaScript&mdash;no jQuery needed.
@@ -20,7 +22,7 @@ Here's how it works: The API request URL is set as the `src` of a `<script>` tag
 
 ### The Code
 
-```javascript
+```lang-javascript
 /**
  * Get JSONP data for cross-domain AJAX requests
  * @private
@@ -48,7 +50,7 @@ var loadJSONP = function ( url, callback ) {
 
 And here's an example using the [Petfinder API](https://www.petfinder.com/developers/api-docs):
 
-```javascript
+```lang-javascript
 var logAPI = function ( data ) {
 	console.log( data );
 }
@@ -66,7 +68,7 @@ With petfinderAPI4everybody.js, I decided to store API data in localStorage so t
 
 Here's the code that makes it all work:
 
-```javascript
+```lang-javascript
 var getJSONP = ( function( window, document, undefined ) {
 
 	// Set Variables
@@ -190,6 +192,6 @@ var getJSONP = ( function( window, document, undefined ) {
 
 And here's an example using the Petfinder API:
 
-```javascript
+```lang-javascript
 getJSONP.init( 'http://api.petfinder.com/shelter.getPets?format=json&key=12345&shelter=AA11' );
 ```

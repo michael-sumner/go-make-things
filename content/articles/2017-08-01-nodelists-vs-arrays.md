@@ -3,10 +3,12 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-01'
+permalink: /nodelists-vs-arrays/
 title: NodeLists vs. Arrays
+url: /2017/08/01/nodelists-vs-arrays
 ---
 
-Last week, we looked at two separate `forEach()` methods for [Arrays](/looping-through-arrays-the-es6-way/) and [NodeLists](/looping-through-nodelists-with-es6/). Reader [Judd Franklin](https://www.linkedin.com/in/judd-franklin/) asked:
+Last week, we looked at two separate `forEach()` methods for [Arrays](https://gomakethings.com/looping-through-arrays-the-es6-way/) and [NodeLists](https://gomakethings.com/looping-through-nodelists-with-es6/). Reader [Judd Franklin](https://www.linkedin.com/in/judd-franklin/) asked:
 
 > Why aren't nodelists arrays?
 >
@@ -26,7 +28,7 @@ This used to confuse me like crazy, too, because JavaScript is *the* scripting l
 
 For example, on MDN they provide [an example of using Python and getElementsByTagName](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction#DOM_and_JavaScript):
 
-```bash
+```lang-bash
 # Python DOM example
 import xml.dom.minidom as m
 doc = m.parse("C:\\Projects\\Py\\chap1.xml");

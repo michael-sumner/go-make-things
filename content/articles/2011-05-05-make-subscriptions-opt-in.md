@@ -4,7 +4,9 @@ categories:
 - Design &amp; UX
 - Technology
 date: '2011-05-05'
+permalink: /make-subscriptions-opt-in/
 title: Make subscriptions opt-in
+url: /2011/05/05/make-subscriptions-opt-in
 ---
 
 This weekend I renewed my subscription to <a href="http://www.fastcompany.com/">FastCompany magazine</a>. It's literally the only magazine I still get in print. Yea, it's that good.

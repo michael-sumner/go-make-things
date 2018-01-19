@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2016-02-29'
+permalink: /the-terrible-design-of-everyday-things/
 title: The terrible design of everyday things
+url: /2016/02/29/the-terrible-design-of-everyday-things
 ---
 
 This video about [the terrible design of doors](https://www.youtube.com/watch?v=yY96hTb8WgI) really hits home.

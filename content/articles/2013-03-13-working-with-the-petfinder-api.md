@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2013-03-13'
+permalink: /working-with-the-petfinder-api/
 title: Working with the Petfinder API
+url: /2013/03/13/working-with-the-petfinder-api
 ---
 
 The <a href="http://www.pawsnewengland.com/">PAWS New England</a> dog rescue website is responsive, but the Petfinder widget they were using to display the dogs they have available for adoption was not.

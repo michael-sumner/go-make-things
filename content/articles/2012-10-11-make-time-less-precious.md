@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-10-11'
+permalink: /make-time-less-precious/
 title: Make Time Less Precious
+url: /2012/10/11/make-time-less-precious
 ---
 
 From Caterina Fake's post on <a href="http://www.linkedin.com/today/post/article/20121002125913-3279-how-to-create-time">creating time...</a>

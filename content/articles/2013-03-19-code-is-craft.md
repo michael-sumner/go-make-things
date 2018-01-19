@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2013-03-19'
+permalink: /code-is-craft/
 title: Code is Craft
+url: /2013/03/19/code-is-craft
 ---
 
 In this absolutely brilliant talk from Fronteers 2012, Phil Hawksworth uses the phrase, "<a href="http://vimeo.com/53317254">Code is craft</a>."

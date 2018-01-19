@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2015-03-20'
+permalink: /what-does-my-site-cost/
 title: What does my site cost?
+url: /2015/03/20/what-does-my-site-cost
 ---
 
 <p class="text-center"><a href="http://whatdoesmysitecost.com/"><img src="https://gomakethings.com/wp-content/uploads/2015/03/what-does-my-site-cost.jpg" alt="what-does-my-site-cost" width="832" height="636" class="size-full wp-image-5951" /></a></p>

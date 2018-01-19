@@ -3,7 +3,9 @@ categories:
 - Accessibility
 - Design &amp; UX
 date: '2013-01-10'
+permalink: /better-link-accessibility-for-the-color-blind/
 title: Better link accessibility for the color blind
+url: /2013/01/10/better-link-accessibility-for-the-color-blind
 ---
 
 Are the links on your website visible to people with color blindness? This post explores how different colors look to color blind individuals, and how you can ensure that your links are accessible.

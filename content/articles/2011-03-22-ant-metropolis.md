@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-03-22'
+permalink: /ant-metropolis/
 title: Ant Metropolis
+url: /2011/03/22/ant-metropolis
 ---
 
 I'm continually amazed by the beauty found in nature. Check out <a href="https://www.youtube.com/watch?v=lFg21x2sj-M">this 2-minute video about an ant mega-city</a> excavated by researchers... it's stunning!

@@ -2,7 +2,9 @@
 categories:
 - Technology
 date: '2016-10-17'
+permalink: /ditching-cable/
 title: Ditching Cable
+url: /2016/10/17/ditching-cable
 ---
 
 Two years ago, I decided to ditch cable.

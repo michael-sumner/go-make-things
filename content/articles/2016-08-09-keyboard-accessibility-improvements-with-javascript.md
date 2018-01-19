@@ -4,7 +4,9 @@ categories:
 - Code
 - JavaScript
 date: '2016-08-09'
+permalink: /keyboard-accessibility-improvements-with-javascript/
 title: Keyboard accessibility improvements with JavaScript
+url: /2016/08/09/keyboard-accessibility-improvements-with-javascript
 ---
 
 This week I added an accessibility enhancement to [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll), my script for animating scrolling to anchor links, that provides a much better experience for keyboard users.
@@ -15,7 +17,7 @@ Today, I wanted to quickly share what I did, why, and how it works.
 
 On a typical webpage, if you click an anchor link and then press the "tab" key, you'll get taken to the next focusable element (usually a link or form input) after the anchored element that you've jumped to.
 
-```markup
+```lang-markup
 <a href="#somewhere">Jump down the page</a>
 <a href="http://somewhere-else.com">Somewhere else</a>
 <div id="somewhere">
@@ -27,7 +29,7 @@ On a typical webpage, if you click an anchor link and then press the "tab" key, 
 
 Smooth Scroll prevents the default browser behavior, resulting in something like this:
 
-```markup
+```lang-markup
 <a href="#somewhere">Jump down the page</a>
 <!-- This link will have focus -->
 <a href="http://somewhere-else.com">Somewhere else</a>
@@ -49,7 +51,7 @@ Adding `tabindex="-1"` to an element makes it focusable with JavaScript, but doe
 
 Here's what I ended up doing:
 
-```javascript
+```lang-javascript
 // Try to add focus
 anchorElem.focus();
 

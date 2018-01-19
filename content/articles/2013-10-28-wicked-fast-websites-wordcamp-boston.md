@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-10-28'
+permalink: /wicked-fast-websites-wordcamp-boston/
 title: 'Wicked Fast Websites: WordCamp Boston'
+url: /2013/10/28/wicked-fast-websites-wordcamp-boston
 ---
 
 Over the weekend, I gave a talk on <a href="https://speakerdeck.com/cferdinandi/wicked-fast-wordpress-wordcamp-boston-2013">how to build wicked fast websites with WordPress</a> at WordCamp Boston. I had the pleasure of speaking directly after <a href="http://ethanmarcotte.com/">Ethan Marcotte</a>, and his talk on <a href="http://vimeo.com/63525054">the Map and the Territory</a> was a nice compliment to why performance matters so much.

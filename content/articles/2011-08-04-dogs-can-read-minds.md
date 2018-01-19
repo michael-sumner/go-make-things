@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-08-04'
+permalink: /dogs-can-read-minds/
 title: Dogs can read minds
+url: /2011/08/04/dogs-can-read-minds
 ---
 
 <blockquote>Dogs are so in tune with us that they can read our minds, according to a new Learning & Behavior study that also determined canines are probably born with the ability.

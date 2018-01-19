@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-07-24'
+permalink: /wicked-fast-wordpress/
 title: Wicked Fast WordPress
+url: /2013/07/24/wicked-fast-wordpress
 ---
 
 I gave a talk yesterday at <a href="http://www.meetup.com/WordPressProvidence/events/127790982/">WordPress Providence</a> on how to build wicked fast WordPress sites. <a href="https://speakerdeck.com/cferdinandi/wicked-fast-wordpress">Here are the slides...</a>

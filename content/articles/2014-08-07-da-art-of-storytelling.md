@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2014-08-07'
+permalink: /da-art-of-storytelling/
 title: Da Art of Storytelling
+url: /2014/08/07/da-art-of-storytelling
 ---
 
 I wish more hip-hop artists had the [lyrical substance and depth of Andre 3000](https://www.youtube.com/watch?v=u85vxOfn0DE):

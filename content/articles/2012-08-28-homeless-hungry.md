@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-08-28'
+permalink: /homeless-hungry/
 title: Homeless &#038; Hungry
+url: /2012/08/28/homeless-hungry
 ---
 
 The other weekend, my wife and I pulled up to a stoplight a few feet back from a young man holding a sign that read: "Homeless & Hungry."

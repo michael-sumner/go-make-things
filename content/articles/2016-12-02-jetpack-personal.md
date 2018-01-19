@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Code
 date: '2016-12-02'
+permalink: /jetpack-personal/
 title: Jetpack Personal
+url: /2016/12/02/jetpack-personal
 ---
 
 I just learned that [Jetpack for WordPress now offers a personal plan](https://jetpack.com/install/personal/) for just $39 a year.

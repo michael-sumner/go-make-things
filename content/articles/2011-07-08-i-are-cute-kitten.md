@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2011-07-08'
+permalink: /i-are-cute-kitten/
 title: I Are Cute Kitten
+url: /2011/07/08/i-are-cute-kitten
 ---
 
 What the internet was made for: <a href="https://www.youtube.com/watch?v=_ZSbC09qgLI">videos of adorable kittens</a>. Happy Friday!

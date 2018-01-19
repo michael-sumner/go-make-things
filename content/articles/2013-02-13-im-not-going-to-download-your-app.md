@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2013-02-13'
+permalink: /im-not-going-to-download-your-app/
 title: I&#8217;m not going to download your app
+url: /2013/02/13/im-not-going-to-download-your-app
 ---
 
 Tom Morris on <a href="http://tommorris.org/posts/8070">apps vs the web...</a>

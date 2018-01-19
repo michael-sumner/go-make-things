@@ -2,7 +2,9 @@
 categories:
 - Technology
 date: '2015-09-23'
+permalink: /on-privacy-and-social-welfare/
 title: On Privacy and Social Welfare
+url: /2015/09/23/on-privacy-and-social-welfare
 ---
 
 Maciej Cegłowski, founder of [Pinboard](http://pinboard.in/), wrote an amazing post on [advertising, internet privacy, and benefiting the greater good](http://idlewords.com/talks/what_happens_next_will_amaze_you.htm). It's incredible, and you should go read every single word of it right now.

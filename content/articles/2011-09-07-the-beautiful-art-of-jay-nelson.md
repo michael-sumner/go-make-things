@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Design &amp; UX
 date: '2011-09-07'
+permalink: /the-beautiful-art-of-jay-nelson/
 title: The Beautiful Art of Jay Nelson
+url: /2011/09/07/the-beautiful-art-of-jay-nelson
 ---
 
 Artist Jay Nelson builds beautiful, distinctly Californian creations out of wood. I particularly love the wooden submarine!

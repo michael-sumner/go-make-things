@@ -3,10 +3,12 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2015-05-04'
+permalink: /why-web-performance-and-responsive-web-design-matter/
 title: Why web performance and responsive web design matter
+url: /2015/05/04/why-web-performance-and-responsive-web-design-matter
 ---
 
-*The following post was adapted from [Wicked Fast Websites](/wicked-fast-websites/), my free beginner's guide to building fast websites and web apps that work on any device. [Download it here.](/wicked-fast-websites/)*
+*The following post was adapted from [Wicked Fast Websites](https://gomakethings.com/wicked-fast-websites/), my free beginner's guide to building fast websites and web apps that work on any device. [Download it here.](https://gomakethings.com/wicked-fast-websites/)*
 
 A few year’s ago, [Google ran an interesting experiment](https://blog.kissmetrics.com/speed-is-a-killer/). Based on analyst research, they increased the number of search results displayed on a single page from 10 to 30. This added about 500ms—that’s just half a second—of extra load time to the page.
 

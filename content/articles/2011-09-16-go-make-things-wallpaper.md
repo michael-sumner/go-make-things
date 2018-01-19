@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2011-09-16'
+permalink: /go-make-things-wallpaper/
 title: Go Make Things Wallpaper
+url: /2011/09/16/go-make-things-wallpaper
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/09/Wallpaper.png" alt="" title="Wallpaper" width="560" height="425" class="aligncenter size-full wp-image-1506" />

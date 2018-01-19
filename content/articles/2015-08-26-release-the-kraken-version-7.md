@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2015-08-26'
+permalink: /release-the-kraken-version-7/
 title: Release the Kraken! (version 7)
+url: /2015/08/26/release-the-kraken-version-7
 ---
 
 <a href="http://cferdinandi.github.io/kraken/"><img src="https://gomakethings.com/wp-content/uploads/2015/08/kraken-version-7.jpg" alt="A screenshot of Kraken 7" width="960" height="578" class="alignnone size-full wp-image-6374" /></a>

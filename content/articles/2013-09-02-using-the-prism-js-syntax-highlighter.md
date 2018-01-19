@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-09-02'
+permalink: /using-the-prism-js-syntax-highlighter/
 title: Using the Prism.js syntax highlighter
+url: /2013/09/02/using-the-prism-js-syntax-highlighter
 ---
 
 <a href="http://prismjs.com/">Prism.js</a> is a fantastic front-end syntax highlighter by <a href="http://lea.verou.me/">Lea Verou</a>.

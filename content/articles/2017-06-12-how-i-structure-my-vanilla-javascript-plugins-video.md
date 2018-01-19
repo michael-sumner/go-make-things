@@ -4,7 +4,9 @@ categories:
 - Design &amp; UX
 - JavaScript
 date: '2017-06-12'
+permalink: /how-i-structure-my-vanilla-javascript-plugins-video/
 title: How I structure my vanilla JavaScript plugins [video]
+url: /2017/06/12/how-i-structure-my-vanilla-javascript-plugins-video
 ---
 
 Over the last couple of weeks, a few people have mentioned that they didn't fully understand what's going on in my JavaScript plugins.

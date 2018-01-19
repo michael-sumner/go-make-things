@@ -3,12 +3,14 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-09'
+permalink: /getting-an-array-of-all-arguments-passed-into-a-function-with-vanilla-javascript/
 title: Getting an array of all arguments passed into a function with vanilla JavaScript
+url: /2017/11/09/getting-an-array-of-all-arguments-passed-into-a-function-with-vanilla-javascript
 ---
 
 Let's say you had a function that added two numbers together.
 
-```js
+```lang-js
 var add = function (num1, num2) {
     return num1 + num2;
 };
@@ -19,7 +21,7 @@ add(3, 4);
 
 What if you wanted to add more than two numbers? You *could* add a bunch of arguments to accommodate more numbers.
 
-```js
+```lang-js
 var add = function (num1, num2, num3, num4, num5) {
     return num1 + num2 + num3 + num4 + num5;
 };
@@ -35,7 +37,7 @@ Within any function, you can use the `arguments` variable to get an array-like l
 
 You don't need to define it ahead of time. It's a native JavaScript object. You can access specific arguments by calling their index.
 
-```javascript
+```lang-javascript
 var add = function (num1, num2) {
 
 	// returns the value of `num1`
@@ -51,7 +53,7 @@ var add = function (num1, num2) {
 
 Or, you can use a basic `for` loop to loop through every argument that was passed in. You don't even need to assign them a name.
 
-```javascript
+```lang-javascript
 var add = function () {
 
 	// Set a starting total
@@ -68,4 +70,4 @@ var add = function () {
 };
 ```
 
-**Psst...** This post was adapted from my latest vanilla JS pocket guide, ["Variables, Functions, and Scope."](/guides/variables-functions-and-scope/)
+**Psst...** This post was adapted from my latest vanilla JS pocket guide, ["Variables, Functions, and Scope."](https://gomakethings.com/guides/variables-functions-and-scope/)

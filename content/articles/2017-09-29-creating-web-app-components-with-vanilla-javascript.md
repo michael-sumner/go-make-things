@@ -3,12 +3,14 @@ categories:
 - Code
 - JavaScript
 date: '2017-09-29'
+permalink: /creating-web-app-components-with-vanilla-javascript/
 title: Creating web app components with vanilla JavaScript
+url: /2017/09/29/creating-web-app-components-with-vanilla-javascript
 ---
 
-I'm getting ready to launch my latest [pocket guide](/guides/), "Vanilla JS Web Apps."
+I'm getting ready to launch my latest [pocket guide](https://gomakethings.com/guides/), "Vanilla JS Web Apps."
 
-This week, we've looked at how to [render elements](/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/), [add state to an object (and what "state" even is)](/components-state-and-vanilla-javascript/), and how to [automatically re-render elements when state changes](/automatically-re-rendering-an-element-when-its-state-changes-with-vanilla-javascript/)&mdash;all without using a framework or library.
+This week, we've looked at how to [render elements](https://gomakethings.com/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/), [add state to an object (and what "state" even is)](https://gomakethings.com/components-state-and-vanilla-javascript/), and how to [automatically re-render elements when state changes](https://gomakethings.com/automatically-re-rendering-an-element-when-its-state-changes-with-vanilla-javascript/)&mdash;all without using a framework or library.
 
 Today, we're going to talk about the final piece of the puzzle: how to programmatically turn any template into a component.
 
@@ -20,7 +22,7 @@ We're going to use a `component()` method to handle all off the stuff we did man
 
 Let me show you the whole thing, then we'll talk through it.
 
-```js
+```lang-js
 var component = function (template, props, elem) {
 
 	// Add properties to our template
@@ -72,7 +74,7 @@ There are two ways to use our `component()` method. In each case, we'll pass in 
 
 To use it, you can pass in an existing template and assign your initial state.
 
-```js
+```lang-js
 var todoList = function (props) {
 
     // Setup our template
@@ -122,7 +124,7 @@ Our `todoList()` template is now a component with state, and calling `todoList.s
 
 You can alternatively set up a template for the first time with the `component()` method.
 
-```js
+```lang-js
 var todoList = component(function (props) {
 
     // Setup our template

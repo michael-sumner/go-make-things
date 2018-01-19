@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2016-02-01'
+permalink: /reintroducing-keel-a-lightweight-boilerplate-for-wordpress-theme-developers/
 title: Reintroducing Keel, a lightweight boilerplate for WordPress theme developers
+url: /2016/02/01/reintroducing-keel-a-lightweight-boilerplate-for-wordpress-theme-developers
 ---
 
 Late last week, I released version 6 of [Keel](http://keel.gomakethings.com/), a lightweight boilerplate for WordPress theme developers.
@@ -25,7 +27,7 @@ So what's new in version 6?
 - [LoadJS](https://github.com/filamentgroup/loadJS) and [loadCSS](https://github.com/filamentgroup/loadCSS) for asynchronous loading of non-critical files for better performance.
 - A ton of WordPress-specific features that can be turned on or off with a single line of code (see below).
 
-And the whole thing is [powered by native JavaScript](/ditching-jquery/)&mdash;no jQuery dependencies for anything.
+And the whole thing is [powered by native JavaScript](https://gomakethings.com/ditching-jquery/)&mdash;no jQuery dependencies for anything.
 
 ## WordPress-specific features
 

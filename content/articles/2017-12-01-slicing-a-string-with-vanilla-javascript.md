@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-12-01'
+permalink: /slicing-a-string-with-vanilla-javascript/
 title: Slicing a string with vanilla JavaScript
+url: /2017/12/01/slicing-a-string-with-vanilla-javascript
 ---
 
 The vanilla JavaScript `String.slice()` method provides a way to get a subsection of a string starting (and optionally ending) at a particular character.
@@ -12,7 +14,7 @@ The first argument is where to start. Use `0` to include the first character. Th
 
 Here are a few examples...
 
-```javascript
+```lang-javascript
 var text = 'Cape Cod potato chips';
 var startAtFive = text.slice(5);
 var startAndEnd = text.slice(5, 8);

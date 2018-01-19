@@ -4,12 +4,14 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-11-02'
+permalink: /should-you-conditionally-load-polyfills/
 title: Should you conditionally load polyfills?
+url: /2017/11/02/should-you-conditionally-load-polyfills
 ---
 
-If you've ben reading my articles for a while, you already know that [I'm a big fan of polyfills](/why-i-love-polyfills/) (snippets of code that add support for a feature to browsers that don’t offer it natively).
+If you've ben reading my articles for a while, you already know that [I'm a big fan of polyfills](https://gomakethings.com/why-i-love-polyfills/) (snippets of code that add support for a feature to browsers that don’t offer it natively).
 
-Last week in my private Vanilla JS Slack channel (included with my [pocket guides](/guides/)), one of my students asked how I handle loading polyfills.
+Last week in my private Vanilla JS Slack channel (included with my [pocket guides](https://gomakethings.com/guides/)), one of my students asked how I handle loading polyfills.
 
 > Do you conditionally load polyfills? I note, for example, that the `classList` polyfill is quite a chunk of code that could be shaved off when not needed.
 
@@ -21,7 +23,7 @@ Most polyfills (the well written ones, anyways) include an `if` statement to che
 
 For example, this `Array.forEach()` polyfill checks to see if that feature exists, and only adds support if it's not already there.
 
-```js
+```lang-js
 if (window.Array && !Array.prototype.forEach) {
 	Array.prototype.forEach = function (callback, thisArg) {
 		thisArg = thisArg || window;
@@ -40,7 +42,7 @@ However, the file still has to load to run this check, and depending on how many
 
 You would check for support, and if it doesn't exist, load the polyfill.
 
-```js
+```lang-js
 if (window.Array && !Array.prototype.forEach) {
 	loadJS('/path/to/polyfills/array.foreach.js');
 }
@@ -72,7 +74,7 @@ I use a simple feature test&mdash;[an approach the BBC popularized called "cutti
 
 I use the `loadJS()` helper method I mentioned earlier to load the file if the visitor's browser passes the test.
 
-```js
+```lang-js
 if ('querySelector' in document && 'addEventListener' in window) {
     loadJS('/path/to/my/main.js');
 }
@@ -90,7 +92,7 @@ I've been using this approach for about 3 years, and it's worked really well.
 
 To use it, you just load it in a script tag.
 
-```html
+```lang-html
 <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 ```
 

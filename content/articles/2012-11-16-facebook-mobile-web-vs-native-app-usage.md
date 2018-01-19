@@ -3,7 +3,9 @@ categories:
 - Design &amp; UX
 date: '2012-11-16'
 excerpt: Does Facebook get more traffic from its native iOS and Android apps or its mobile website?
+permalink: /facebook-mobile-web-vs-native-app-usage/
 title: Facebook Mobile Web vs. Native App Usage
+url: /2012/11/16/facebook-mobile-web-vs-native-app-usage
 ---
 
 At <a href="http://qconsf.com/">QCon</a> in San Francisco a week or two ago, <a href="https://twitter.com/jamespearce">James Pearce</a>, who works in Developer Relations at Facebook, shared these stats on mobile web vs. native app usage.

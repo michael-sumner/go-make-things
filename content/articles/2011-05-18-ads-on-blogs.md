@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2011-05-18'
+permalink: /ads-on-blogs/
 title: Ads on Blogs
+url: /2011/05/18/ads-on-blogs
 ---
 
 I'm not a fan of ads on blogs.

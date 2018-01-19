@@ -3,12 +3,14 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-19'
+permalink: /a-vanilla-javascript-equivalent-of-jquerys-on-method/
 title: A vanilla JavaScript equivalent of jQuery&#8217;s on() method
+url: /2017/10/19/a-vanilla-javascript-equivalent-of-jquerys-on-method
 ---
 
 In vanilla JavaScript, you can listen to browser events with the `addEventListener()` method.
 
-```js
+```lang-js
 var link = document.querySelector('#some-link');
 link.addEventListener('click', function (event) {
 
@@ -30,9 +32,9 @@ First, I'll show you how to use it. Then, I'll share the method itself. And fina
 
 The first argument is always the event to listen to. The second argument is an optional filter, if you only want to listen to events on a certain selector.
 
-You can omit it and jump straight to argument three, the callback. This is the function to run on the event. There's a final, optional argument: `use capture`. Set it to true for [non-bubbling events](/when-to-use-use-capture-in-your-event-listeners/) (like `focus`) that you [need to force to bubble](/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/).
+You can omit it and jump straight to argument three, the callback. This is the function to run on the event. There's a final, optional argument: `use capture`. Set it to true for [non-bubbling events](https://gomakethings.com/when-to-use-use-capture-in-your-event-listeners/) (like `focus`) that you [need to force to bubble](https://gomakethings.com/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/).
 
-```js
+```lang-js
 // Listen to all click events
 on('click', function(event) {
     // The thing that was clicked
@@ -52,9 +54,9 @@ on('focus', function (event) {
 }, true);
 ```
 
-You can also [pass in named functions](/named-vs-anonymous-event-listener-functions/) if you need to be able to remove the event listener later (more on that tomorrow) or want to use the same function for multiple events.
+You can also [pass in named functions](https://gomakethings.com/named-vs-anonymous-event-listener-functions/) if you need to be able to remove the event listener later (more on that tomorrow) or want to use the same function for multiple events.
 
-```js
+```lang-js
 // Do stuff on scroll
 var onScrollHandler = function (event) {
     // Do something on scroll...
@@ -66,7 +68,7 @@ on('scroll', onScrollHandler);
 
 ### The helper method
 
-```js
+```lang-js
 /*!
  * Add an event listener
  * (c) 2017 Chris Ferdinandi, MIT License, https://gomakethings.com
@@ -90,7 +92,7 @@ var on = function (event, elem, callback, capture) {
 
 First, we check to see if the second argument is an element selector or a callback function. If it's our callback, we'll shift all of the arguments over one.
 
-```js
+```lang-js
 if (typeof (elem) === 'function') {
 	capture = callback;
 	callback = elem;
@@ -100,12 +102,12 @@ if (typeof (elem) === 'function') {
 
 Next, we check to see if the `capture` argument is set. If not, we'll use `false` instead of `null`.
 
-```js
+```lang-js
 capture = capture ? true : false;
 ```
 
 Finally, we'll add our event listener.
 
-```js
+```lang-js
 elem.addEventListener(event, callback, capture);
 ```

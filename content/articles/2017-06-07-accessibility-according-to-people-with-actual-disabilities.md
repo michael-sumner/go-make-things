@@ -3,7 +3,9 @@ categories:
 - Accessibility
 - Design &amp; UX
 date: '2017-06-07'
+permalink: /accessibility-according-to-people-with-actual-disabilities/
 title: Accessibility (according to people with actual disabilities)
+url: /2017/06/07/accessibility-according-to-people-with-actual-disabilities
 ---
 
 Last week, [Safia Abdalla tweeted](https://twitter.com/captainsafia/status/871056480799162368):
@@ -36,7 +38,7 @@ This isn't a surprise to me, but... I often hear people talk about how easy it i
 
 ## Color edge-cases
 
-I've written [a handful of articles about proper user of color](/?s=colorblind), and how link color affects colorblind visitors' ability to use your site.
+I've written [a handful of articles about proper user of color](https://gomakethings.com/?s=colorblind), and how link color affects colorblind visitors' ability to use your site.
 
 One thing I've taken for granted is that the color blue I use on many of my sites provides good contrast for colorblind individuals. However, people who use certain color-shifting apps [may run into issues with blue links](https://twitter.com/tigt_/status/871061632155340800) (a surprise to me).
 

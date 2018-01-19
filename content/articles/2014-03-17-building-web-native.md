@@ -3,7 +3,9 @@ categories:
 - Accessibility
 - Design &amp; UX
 date: '2014-03-17'
+permalink: /building-web-native/
 title: Building Web Native
+url: /2014/03/17/building-web-native
 ---
 
 <blockquote>

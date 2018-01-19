@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2015-12-21'
+permalink: /your-data-is-lying-to-you/
 title: Your data is lying to you
+url: /2015/12/21/your-data-is-lying-to-you
 ---
 
 When chatting with clients about how a particular feature or component might work on a phone or a touch-screen device, they often respond with something like:
@@ -45,7 +47,7 @@ In 2011, I helped [PAWS New England](http://pawsnewengland.com/) redesign their 
 
 At the time, they had a desktop-only site, and just 9-percent of their traffic came from mobile devices. Based on the data, I’d have been justified in saying, “Our users don’t want this content on their smartphones.”
 
-But we went with a mobile-friendly website anyway, and **[mobile traffic grew to 25-percent of all traffic in the first 12 months](/projects/paws-new-england/)**.
+But we went with a mobile-friendly website anyway, and **[mobile traffic grew to 25-percent of all traffic in the first 12 months](https://gomakethings.com/projects/paws-new-england/)**.
 
 Over the last four years, overall traffic to the site has grown by 500%. But mobile traffic? That’s grown by 2700%. More than half of all traffic now comes from mobile devices, which are overwhelmingly responsible for the surge in growth.
 
@@ -57,4 +59,4 @@ How much more good could you do if your annual donation revenue nearly doubled?
 
 There's a quick and easy way to find out. Head over to [Google's Mobile-Friendly Test](https://www.google.com/webmasters/tools/mobile-friendly/) and pop in your website. Is less than 30 seconds, you'll get a simple "yes/no" on whether or not your site is mobile-friendly.
 
-If it is, congratulations! And if it's not, [get in touch](/about/). I can help.
+If it is, congratulations! And if it's not, [get in touch](https://gomakethings.com/about/). I can help.

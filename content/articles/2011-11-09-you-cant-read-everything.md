@@ -3,7 +3,9 @@ categories:
 - Design &amp; UX
 - Technology
 date: '2011-11-09'
+permalink: /you-cant-read-everything/
 title: You can&#8217;t read everything
+url: /2011/11/09/you-cant-read-everything
 ---
 
 In explaining why he created the ultra-minimal website <a href="http://guardian.gyford.com/">Today's Guardian</a>, <a href="http://www.gyford.com/phil/writing/2010/06/09/todays-guardian.php">Phil Gyford noted...</a>

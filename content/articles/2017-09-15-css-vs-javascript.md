@@ -6,7 +6,9 @@ categories:
 - CSS
 - JavaScript
 date: '2017-09-15'
+permalink: /css-vs-javascript/
 title: CSS vs. JavaScript
+url: /2017/09/15/css-vs-javascript
 ---
 
 This week, Mandy Michael published the very good, provocatively titled, ["Is there any value in people who cannot write JavaScript?"](https://medium.com/@mandy.michael/is-there-any-value-in-people-who-cannot-write-javascript-d0a66b16de06)
@@ -29,7 +31,7 @@ CSS genius [Sara Soueidan noted](https://twitter.com/SaraSoueidan/status/9086044
 
 And personally, I've found that it's hard to find jobs when you *only* know HTML and CSS, and the ones you do find pay less.
 
-The reason I [started learning JavaScript](/guides) in the first place was to have more career opportunities&mdash;and it worked.
+The reason I [started learning JavaScript](https://gomakethings.com/guides) in the first place was to have more career opportunities&mdash;and it worked.
 
 ## I have some thoughts
 
@@ -45,7 +47,7 @@ I think CSS is a bit like skiing, and JavaScript is a bit like snowboarding.
 
 CSS is easy to tip-toe into. You can write one line of code and immediately see results.
 
-```css
+```lang-css
 body {
     background-color: rebeccapurple;
 }

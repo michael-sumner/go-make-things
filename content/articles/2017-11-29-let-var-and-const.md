@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-29'
+permalink: /let-var-and-const/
 title: let, var, and const
+url: /2017/11/29/let-var-and-const
 ---
 
 ES6 introduced two new ways to define variables: <code>let</code> and <code>const</code>.

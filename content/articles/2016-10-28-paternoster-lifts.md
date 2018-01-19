@@ -2,7 +2,9 @@
 categories:
 - Technology
 date: '2016-10-28'
+permalink: /paternoster-lifts/
 title: Paternoster Lifts
+url: /2016/10/28/paternoster-lifts
 ---
 
 [Paternoster lifts](https://www.youtube.com/watch?v=YgJBD1wf-YQ) are elevators with no doors, no buttons, and no formal stops. Think of it as an elevator/escalator mashup.

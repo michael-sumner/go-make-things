@@ -3,10 +3,12 @@ categories:
 - Code
 - JavaScript
 date: '2015-06-15'
+permalink: /buoy-a-tiny-collection-of-helper-methods-for-getting-things-done-in-native-javascript/
 title: 'Buoy: A tiny collection of helper methods for getting things done in native JavaScript'
+url: /2015/06/15/buoy-a-tiny-collection-of-helper-methods-for-getting-things-done-in-native-javascript
 ---
 
-A few years ago, I stopped using jQuery and started writing exclusively in [native JavaScript (aka vanilla JS)](/ditching-jquery/).
+A few years ago, I stopped using jQuery and started writing exclusively in [native JavaScript (aka vanilla JS)](https://gomakethings.com/ditching-jquery/).
 
 There's a handful of helper methods I end up using in every script I write, so I decided to bundle them into a helper library called [Buoy](https://github.com/cferdinandi/buoy).
 

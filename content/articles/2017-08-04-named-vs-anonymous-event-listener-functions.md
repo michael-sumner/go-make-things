@@ -3,12 +3,14 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-04'
+permalink: /named-vs-anonymous-event-listener-functions/
 title: Named vs. anonymous event listener functions
+url: /2017/08/04/named-vs-anonymous-event-listener-functions
 ---
 
 This is a pretty typical way of setting up an event listener:
 
-```javascript
+```lang-javascript
 // Listen for scroll events
 window.addEventListener('scroll', function (event) {
 	// Do something on scroll...
@@ -21,7 +23,7 @@ Your function doesn't have to be included explicitly in the event listener, thou
 
 (*The `event` is automatically passed in as an argument to your function.*)
 
-```javascript
+```lang-javascript
 // Do stuff on scroll
 var onScrollHandler = function (event) {
 	// Do something on scroll...
@@ -41,7 +43,7 @@ Second, you can remove them later if you want using `removeEventListener()`. You
 
 For example, imagine if you wanted to terminate your scroll event after the user scroll 500px or more down your site. Here's how you'd do that.
 
-```javascript
+```lang-javascript
 // Do stuff on scroll
 var onScrollHandler = function (event) {
 	// Do something on scroll...

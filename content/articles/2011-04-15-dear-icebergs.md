@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Design &amp; UX
 date: '2011-04-15'
+permalink: /dear-icebergs/
 title: Dear Icebergs
+url: /2011/04/15/dear-icebergs
 ---
 
 Hilarious letterpress prints from <a href="http://www.etsy.com/shop/shopsaplingpress">Sapling Press</a>...

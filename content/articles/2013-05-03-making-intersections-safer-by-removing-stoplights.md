@@ -3,7 +3,9 @@ categories:
 - Design &amp; UX
 - Uncategorized
 date: '2013-05-03'
+permalink: /making-intersections-safer-by-removing-stoplights/
 title: Making intersections safer by removing stoplights
+url: /2013/05/03/making-intersections-safer-by-removing-stoplights
 ---
 
 The town of Poyton, England took a counterintuitive approach to making their streets and intersections safer for pedestrians and cars alike: they removed traffic signals, curbs, and crosswalks.

@@ -3,12 +3,14 @@ categories:
 - Code
 - JavaScript
 date: '2015-03-02'
+permalink: /how-to-get-the-value-of-a-querystring-with-native-javascript/
 title: How to get the value of a query string with native JavaScript
+url: /2015/03/02/how-to-get-the-value-of-a-querystring-with-native-javascript
 ---
 
 Here's a simple method you can use to get the value of a querystring with native JavaScript:
 
-```javascript
+```lang-javascript
 /**
  * Get the value of a querystring
  * @param  {String} field The field to get the value of
@@ -27,7 +29,7 @@ var getQueryString = function ( field, url ) {
 
 Let's say your URL is `http://example.com&this=chicken&that=sandwich`. You want to get the value of `this`, `that`, and `another`.
 
-```javascript
+```lang-javascript
 var thisOne = getQueryString('this'); // returns 'chicken'
 var thatOne = getQueryString('that'); // returns 'sandwich'
 var anotherOne = getQueryString('another'); // returns null
@@ -35,6 +37,6 @@ var anotherOne = getQueryString('another'); // returns null
 
 If you want to use a URL other than the one in the `window`, you can pass one in as a second argument.
 
-```javascript
+```lang-javascript
 var yetAnotherOne = getQueryString('example', 'http://another-example.com&example=something'); // returns 'something'
 ```

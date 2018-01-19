@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2011-08-26'
+permalink: /the-hot-dog-conundrum/
 title: The Hot Dog Conundrum
+url: /2011/08/26/the-hot-dog-conundrum
 ---
 
 Hot dogs come in packs of ten. Hot dog buns come in packs of eight. That's a bit of a problem.

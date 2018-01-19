@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2013-03-11'
+permalink: /riding-css3-spinners/
 title: Riding (CSS3) Spinners
+url: /2013/03/11/riding-css3-spinners
 ---
 
 Last week I released <a href="http://cferdinandi.github.com/spinners/">Spinners</a>, a little snippet of code you can use to add simple CSS3 rotation animations to your web projects.

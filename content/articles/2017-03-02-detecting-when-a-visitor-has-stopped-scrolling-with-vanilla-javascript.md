@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-03-02'
+permalink: /detecting-when-a-visitor-has-stopped-scrolling-with-vanilla-javascript/
 title: Detecting when a visitor has stopped scrolling with vanilla JavaScript
+url: /2017/03/02/detecting-when-a-visitor-has-stopped-scrolling-with-vanilla-javascript
 ---
 
 For one of my open source projects, I was recently asked if there's a way to delay running something until after scrolling has finished.
@@ -18,7 +20,7 @@ When scrolling has stopped, the delayed function *doesn't* get cleared and runs.
 
 ## The Code
 
-```javascript
+```lang-javascript
 // Setup isScrolling variable
 var isScrolling;
 
@@ -45,7 +47,7 @@ I've thrown together a [really lightweight helper function, `scrollStop.js`](htt
 
 Add the function to your script and then pass in the code to run when scrolling stops as a callback.
 
-```javascript
+```lang-javascript
 var scrollStop = function (callback) {
     ...
 }

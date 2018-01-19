@@ -3,7 +3,9 @@ categories:
 - Design &amp; UX
 - Technology
 date: '2012-07-11'
+permalink: /does-responsive-web-design-cost-more/
 title: Does responsive web design cost more?
+url: /2012/07/11/does-responsive-web-design-cost-more
 ---
 
 A few weeks ago, Brad Frost started an interesting discussion around <a href="http://bradfrostweb.com/blog/web/how-much-does-a-responsive-web-design-cost/">the cost of responsive design</a>.

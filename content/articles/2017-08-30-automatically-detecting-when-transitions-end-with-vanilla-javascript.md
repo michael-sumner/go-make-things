@@ -5,22 +5,24 @@ categories:
 - JavaScript
 - Uncategorized
 date: '2017-08-30'
+permalink: /automatically-detecting-when-transitions-end-with-vanilla-javascript/
 title: Automatically detecting when transitions end with vanilla JavaScript
+url: /2017/08/30/automatically-detecting-when-transitions-end-with-vanilla-javascript
 ---
 
-Yesterday, we looked at [two techniques for adjusting the timing of transitions](/controlling-the-transition-timing-of-show-and-hide-methods-with-vanilla-javascript/) for our vanilla JS `show()` and `hide()` methods. Both of approaches involved hard-coding timing values into our script.
+Yesterday, we looked at [two techniques for adjusting the timing of transitions](https://gomakethings.com/controlling-the-transition-timing-of-show-and-hide-methods-with-vanilla-javascript/) for our vanilla JS `show()` and `hide()` methods. Both of approaches involved hard-coding timing values into our script.
 
 Imagine if you had multiple transition types: some with a fade-in, some without; some with an animation, some without; some fast, some slow, others somewhere in-between. Controlling all of that logic with manual JS arguments or `if...else` logic would quickly become unmanageable.
 
 Reader [Diego Versiani](https://diegoversiani.me/about/) sent me an email with a really cool technique for automatically detecting when transitions end. His approach makes scaling larger projects much more maintainable.
 
-***Side Note:*** *I love getting emails like this. If you have a tip or technique you want to share with the rest of my readers, please [reach out](/about/) and let me know about it!*
+***Side Note:*** *I love getting emails like this. If you have a tip or technique you want to share with the rest of my readers, please [reach out](https://gomakethings.com/about/) and let me know about it!*
 
 ## A Quick Recap
 
 Just to quickly recap, here's our current working script.
 
-```javascript
+```lang-javascript
 // Get the transition timing
 var getTiming = function (elem) {
 	var timing = 350;
@@ -96,7 +98,7 @@ var toggle = function (elem, timing) {
 
 Here's our CSS.
 
-```css
+```lang-css
 .toggle-content {
 	display: none;
 	height: 0;
@@ -122,7 +124,7 @@ Here's our CSS.
 
 And here's the markup to go with it.
 
-```markup
+```lang-markup
 <p>
 	<a class="toggle" href="#example">Toggle Div (normal speed)</a>
 </p>
@@ -154,7 +156,7 @@ For this technique, we'll remove `setTimeout()` from our scripts, and replace it
 
 So in our `show()` method, this...
 
-```javascript
+```lang-javascript
 // Once the transition is complete, remove the inline height so the content can scale responsively
 window.setTimeout(function () {
 	elem.style.height = '';
@@ -163,7 +165,7 @@ window.setTimeout(function () {
 
 Becomes this...
 
-```javascript
+```lang-javascript
 // Once the transition is complete, remove the inline height so the content can scale responsively
 window.addEventListener('transitionend', function () {
 	elem.style.height = '';
@@ -172,7 +174,7 @@ window.addEventListener('transitionend', function () {
 
 And in our `hide()` method, this...
 
-```javascript
+```lang-javascript
 // When the transition is complete, hide it
 window.setTimeout(function () {
 	elem.classList.remove('is-visible');
@@ -181,7 +183,7 @@ window.setTimeout(function () {
 
 Becomes this...
 
-```javascript
+```lang-javascript
 // When the transition is complete, hide it
 window.addEventListener('transitionend', function () {
 	elem.classList.remove('is-visible');
@@ -200,7 +202,7 @@ Each click is adding an event listener, so we have multiple listeners running an
 
 To do that, we'll give our listener a named function instead of an anonymous one.
 
-```javascript
+```lang-javascript
 // Once the transition is complete, remove the inline height so the content can scale responsively
 window.addEventListener('transitionend', function removeHeight () {
 	elem.style.height = '';
@@ -209,7 +211,7 @@ window.addEventListener('transitionend', function removeHeight () {
 
 Then we'll remove it with `removeEventListener()` after it runs. `removeEventListener()` requires a named function and all of the same exact parameters to work properly.
 
-```javascript
+```lang-javascript
 // Once the transition is complete, remove the inline height so the content can scale responsively
 window.addEventListener('transitionend', function removeHeight () {
 	elem.style.height = '';
@@ -219,7 +221,7 @@ window.addEventListener('transitionend', function removeHeight () {
 
 We'll do the same thing under our `hide()` method.
 
-```javascript
+```lang-javascript
 // When the transition is complete, hide it
 window.addEventListener('transitionend', function removeVisibility () {
 	elem.classList.remove('is-visible');
@@ -237,7 +239,7 @@ In a real website or app, that might not be the case. To make our code more resi
 
 To accomplish this, we'll pass in `event` as an argument into our function and check the `propertyName` property.
 
-```javascript
+```lang-javascript
 // Once the transition is complete, remove the inline max-height so the content can scale responsively
 window.addEventListener('transitionend', function removeHeight (event) {
 	if (!event.propertyName === 'height') return;
@@ -248,7 +250,7 @@ window.addEventListener('transitionend', function removeHeight (event) {
 
 Here, we're checking to see if the `propertyName` is `height`. If not, we bail on our function. We'll do the same thing with our `hide()` method.
 
-```javascript
+```lang-javascript
 // When the transition is complete, hide it
 window.addEventListener('transitionend', function removeVisibility (event) {
 	if (!event.propertyName === 'height') return;
@@ -265,7 +267,7 @@ Older versions of Chrome, Android, Webkit, Safari, and Opera used vendor-prefixe
 
 The affected browsers are many versions old at this point, but if you want to ensure that even someone using a version of Chrome or Opera that's dozens of versions behind can use your code, there's a method we can add to determine which event to listen for (shoutout to Diego for sharing this part, as well).
 
-```javascript
+```lang-javascript
 // Get the event name
 // Adapted from Modernizr: https://modernizr.com
 var whichTransitionEvent = function () {
@@ -287,7 +289,7 @@ var whichTransitionEvent = function () {
 
 Then in our `show()` and `hide()` methods, we'll do this.
 
-```javascript
+```lang-javascript
 // Get transition type
 var transition = whichTransitionEvent();
 
@@ -305,7 +307,7 @@ Given how old the affect browsers are, I'll personally stick to the standard eve
 
 Here's our completed script (without vendor prefixes).
 
-```javascript
+```lang-javascript
 // Show an element
 var show = function (elem) {
 

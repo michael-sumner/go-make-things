@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-08-23'
+permalink: /better-backup/
 title: Better Backup
+url: /2012/08/23/better-backup
 ---
 
 A few years ago my (not so old at the time) Dell suffered a hard drive failure.

@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-01-25'
+permalink: /get-diesel/
 title: Get Diesel
+url: /2012/01/25/get-diesel
 ---
 
 Last month, I decided it was time for me to get back in shape. I stopped lifting weights shortly after college, and have tried several times to get back into it but end up quitting after a week or two.

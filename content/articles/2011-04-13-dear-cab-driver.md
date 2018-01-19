@@ -3,7 +3,9 @@ categories:
 - Design &amp; UX
 - Uncategorized
 date: '2011-04-13'
+permalink: /dear-cab-driver/
 title: Dear Cab Driver
+url: /2011/04/13/dear-cab-driver
 ---
 
 A creative way to get home safe after a fun night...

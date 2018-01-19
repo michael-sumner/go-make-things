@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2012-12-28'
+permalink: /how-to-exclude-pages-from-search-in-wordpress/
 title: How to exclude pages from Search in WordPress
+url: /2012/12/28/how-to-exclude-pages-from-search-in-wordpress
 ---
 
 Up until a few weeks ago, if you searched for common terms like "mobile," "jquery," or "design" on this site, my about page would show up in the results. It was weird and not really relevant to what a person would typically be looking for when using search.

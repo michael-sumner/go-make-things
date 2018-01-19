@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-07-13'
+permalink: /the-sunscreen-smokescreen/
 title: The Sunscreen Smokescreen
+url: /2011/07/13/the-sunscreen-smokescreen
 ---
 
 With summer in full-swing, you're probably (<a href="https://gomakethings.com/dear-16-year-old-me/">hopefully</a>) putting on sunscreen when you leave the house.

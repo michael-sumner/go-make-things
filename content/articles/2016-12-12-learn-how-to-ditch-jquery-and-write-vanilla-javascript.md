@@ -3,10 +3,12 @@ categories:
 - Code
 - JavaScript
 date: '2016-12-12'
+permalink: /learn-how-to-ditch-jquery-and-write-vanilla-javascript/
 title: Learn how to ditch jQuery and write vanilla JavaScript
+url: /2016/12/12/learn-how-to-ditch-jquery-and-write-vanilla-javascript
 ---
 
-I'm delighted to announce that my new book, *[Ditching jQuery](/ditching-jquery-book/)*, is officially available for purchase right now.
+I'm delighted to announce that my new book, *[Ditching jQuery](https://gomakethings.com/ditching-jquery-book/)*, is officially available for purchase right now.
 
 <a href="https://gomakethings.com/ditching-jquery-book/"><img src="https://gomakethings.com/wp-content/uploads/2016/12/ditching-jquery.jpg" alt="Ditching jQuery, the book" width="1440" height="810" class="aligncenter size-full wp-image-8390" /></a>
 

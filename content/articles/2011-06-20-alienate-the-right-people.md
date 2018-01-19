@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2011-06-20'
+permalink: /alienate-the-right-people/
 title: Alienate the Right People
+url: /2011/06/20/alienate-the-right-people
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/06/Alamo-Drafthouse-524x350.jpg" alt="" title="Alamo-Drafthouse" width="524" height="350" class="aligncenter size-medium wp-image-803" />

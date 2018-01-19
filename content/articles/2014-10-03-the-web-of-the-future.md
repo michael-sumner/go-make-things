@@ -3,7 +3,9 @@ categories:
 - Design &amp; UX
 - Technology
 date: '2014-10-03'
+permalink: /the-web-of-the-future/
 title: The web of the future
+url: /2014/10/03/the-web-of-the-future
 ---
 
 I spent the beginning of this week at [Artifact Providence](http://artifactconf.com/). Last year, I said that it was the best conference for web professionals that I have ever been to. I stand by that statement.

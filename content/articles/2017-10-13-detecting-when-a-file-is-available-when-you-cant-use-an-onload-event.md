@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-13'
+permalink: /detecting-when-a-file-is-available-when-you-cant-use-an-onload-event/
 title: Detecting when a file is available when you can&#8217;t use an onload event
+url: /2017/10/13/detecting-when-a-file-is-available-when-you-cant-use-an-onload-event
 ---
 
 Sometimes you need to run a script only after another script was done loading (for example, waiting for jQuery to load before trying to run jQuery methods).
@@ -14,13 +16,13 @@ Today, we're going to learn how to detect when a file is loaded even when you ca
 
 ## Loop and test
 
-Yesterday, we looked at [how to create a loop with `requestAnimationFrame()` to check when the DOM is ready](/the-quickest-way-to-detect-when-the-dom-is-ready/). We can modify that technique to detect when a file is loaded.
+Yesterday, we looked at [how to create a loop with `requestAnimationFrame()` to check when the DOM is ready](https://gomakethings.com/the-quickest-way-to-detect-when-the-dom-is-ready/). We can modify that technique to detect when a file is loaded.
 
 This will only work if the script in question has a public method or namespace that you can hook into.
 
 Instead of checking that `document.body` exists like we did yesterday, we'll look to see if the function name is available in the `window`. For example, to check for when jQuery is available, you'd do this.
 
-```js
+```lang-js
 var isLoaded = function () {
 
     // If our file is loaded
@@ -47,7 +49,7 @@ If your script does any sort of DOM manipulation, you could also check for those
 
 Perhaps it adds a class to `document.body` or to a specific element. You could do something like this:
 
-```js
+```lang-js
 var isLoaded = function () {
 
     // If our file is loaded
@@ -68,7 +70,7 @@ window.requestAnimationFrame(isLoaded);
 
 Or maybe it injects and element into the DOM that didn't exist before. You can check to see if it exists yet using `querySelector()`, like this.
 
-```js
+```lang-js
 var isLoaded = function () {
 
     // If our file is loaded
@@ -91,7 +93,7 @@ window.requestAnimationFrame(isLoaded);
 
 `requestAnimationFrame()` works in all modern browsers, and IE10 and up. You can push support back to older browsers with [this polyfill from Paul Irish](https://gist.github.com/paulirish/1579671).
 
-```js
+```lang-js
 // http://paulirish.com/2011/requestanimationframe-for-smart-animating/
 // http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
 

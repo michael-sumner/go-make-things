@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-15'
+permalink: /merging-objects-with-vanilla-javascript/
 title: Merging objects with vanilla JavaScript
+url: /2017/08/15/merging-objects-with-vanilla-javascript
 ---
 
 Vanilla JavaScript doesn't offer any native method to merge objects together.
@@ -16,7 +18,7 @@ Today, I'm going to show you how to write a simple helper function for merging o
 
 To make this work, we want to create an empty object, and push the keys and properties of each of the objects we want to merge into it.
 
-```javascript
+```lang-javascript
 var obj = {
 	sandwich: 'chicken',
 	condiment: 'mayo',
@@ -39,7 +41,7 @@ In the code above, we're looping through `obj` and adding each key/value pair in
 
 We can do this with multiple objects to merge them together.
 
-```javascript
+```lang-javascript
 var obj1 = {
 	sandwich: 'chicken',
 	condiment: 'mayo',
@@ -74,7 +76,7 @@ for (var prop2 in obj2) {
 
 The `extended` object is now a merge of our two objects.
 
-```javascript
+```lang-javascript
 {
 	sandwich: 'tuna',
 	condiment: 'mayo',
@@ -87,7 +89,7 @@ The `extended` object is now a merge of our two objects.
 
 There's a lot of duplicated code in the example above. Instead of manually looping through each object, let's create a function to handle that for us.
 
-```javascript
+```lang-javascript
 var obj1 = {
 	sandwich: 'chicken',
 	condiment: 'mayo',
@@ -118,7 +120,7 @@ This is definitely better, but imagine you're merging more than two objects. we 
 
 Let's create an `extend()` function to automate the whole thing for us.
 
-```javascript
+```lang-javascript
 var extend = function () {
 
 	// Create a new object
@@ -156,7 +158,7 @@ You can pass in as many objects as you want. The method will automatically merge
 
 Our helper method currently does a shallow merge. Imagine you had two objects with a nested structure.
 
-```javascript
+```lang-javascript
 var obj1 = {
 	sandwich: 'chicken',
 	condiment: 'mayo',
@@ -182,7 +184,7 @@ var obj2 = {
 
 In a shallow merge, the `days` key in `obj2` would completely overwrite the value from `obj1`. In a deep merge, the `days` objects from `obj1` and `obj2` would get merged together.
 
-```javascript
+```lang-javascript
 // Shallow merge
 {
 	monday: false,
@@ -210,7 +212,7 @@ In jQuery's `extend()` method, you can pass in the first argument as a boolean. 
 
 First, we're going to set up a new variable, `deep`, to store whether or not a merge should be deep. We'll set it to `false` by default. We're also going to predefine `var i = 0` for our `for` loop.
 
-```javascript
+```lang-javascript
 var extend = function () {
 
 	// Variables
@@ -227,7 +229,7 @@ Then, we're going to check to see if the merge is deep.
 
 If it is, we'll set `deep` to `true`. We'll also advance our `i` variable by 1 so that our loop will start with the first object, and not the boolean indicating a deep merge.
 
-```javascript
+```lang-javascript
 var extend = function () {
 
 	// Variables
@@ -248,7 +250,7 @@ var extend = function () {
 
 If it is a deep merge, whenever we encounter a property that's an object, we'll recursively send it back through our `extend()` method.
 
-```javascript
+```lang-javascript
 var extend = function () {
 
 	// Variables
@@ -282,7 +284,7 @@ var extend = function () {
 
 Finally, we can remove the `var i = 0` from our `for` loop, since we've already set it. Here's the completed function.
 
-```javascript
+```lang-javascript
 var extend = function () {
 
 	// Variables
@@ -321,7 +323,7 @@ var extend = function () {
 
 You would use it like this:
 
-```javascript
+```lang-javascript
 var shallowMerge = extend(obj1, obj2);
 var deepMerge = extend(true, obj1, obj2);
 ```

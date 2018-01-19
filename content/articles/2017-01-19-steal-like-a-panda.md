@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2017-01-19'
+permalink: /steal-like-a-panda/
 title: Steal like a Panda
+url: /2017/01/19/steal-like-a-panda
 ---
 
 In [How To Steal Like A Panda: Desiigner's Future Heist](https://youtu.be/tPOHbl4zTSs?t=2m11s), Noisy Images argues that mumble rap is akin to scat singing from the jazz era.

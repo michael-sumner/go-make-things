@@ -5,7 +5,9 @@ categories:
 - Web Performance
 - WordPress
 date: '2016-10-31'
+permalink: /how-to-conditionally-load-stylesheets-and-javascript-in-wordpress-only-if-a-shortcode-is-used/
 title: How to conditionally load stylesheets and JavaScript in WordPress only if a shortcode is used
+url: /2016/10/31/how-to-conditionally-load-stylesheets-and-javascript-in-wordpress-only-if-a-shortcode-is-used
 ---
 
 One thing that annoys me about WordPress is when a shortcode requires some scripts and styles, and a plugin loads those files on every page, whether they're needed or not.
@@ -16,7 +18,7 @@ There are a few ways to do this, but when styles are required, you're usually ou
 
 To get around it, I add [loadCSS](https://github.com/filamentgroup/loadCSS) and [loadJS](https://github.com/filamentgroup/loadJS) in the footer, and use them to load my scripts and styles.
 
-```php
+```lang-php
 /**
  * Load scripts and styles conditionally and async
  */

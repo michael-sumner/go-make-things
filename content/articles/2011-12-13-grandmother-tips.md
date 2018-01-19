@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Technology
 date: '2011-12-13'
+permalink: /grandmother-tips/
 title: Grandmother Tips
+url: /2011/12/13/grandmother-tips
 ---
 
 <a href="http://www.behance.net/gallery/Grandmother-Tips/2392946">Fantastic advice from Chacho Puebla</a>, as told by his grandmother...

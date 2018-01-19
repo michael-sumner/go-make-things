@@ -3,10 +3,12 @@ categories:
 - Code
 - Technology
 date: '2017-10-02'
+permalink: /sublime-text-for-front-end-developers/
 title: Sublime Text for Front End Developers
+url: /2017/10/02/sublime-text-for-front-end-developers
 ---
 
-A few months ago, I wrote an article on [Visual Studio Code for front end developers](/visual-studio-code-for-front-end-developers/).
+A few months ago, I wrote an article on [Visual Studio Code for front end developers](https://gomakethings.com/visual-studio-code-for-front-end-developers/).
 
 In it, I wrote:
 
@@ -16,7 +18,7 @@ After a couple of months of use, I've switched back to Sublime Text.
 
 ## Why Sublime over Code?
 
-Code is still a great text editor. I still recommend it to [all of my students](/guides/).
+Code is still a great text editor. I still recommend it to [all of my students](https://gomakethings.com/guides/).
 
 *But*... after installing a bunch of plugins, I found that Code would get a touch laggy with extended use. I'd have to shut it down and reopen it to fix the problem. I let the Code team know, and I'm certain they'll get it figured out, but Sublime never ran into issues like that for me.
 
@@ -44,7 +46,7 @@ I actually use a slightly tweaked version of Monokai Light that's more like the 
 
 Code makes it really easy to switch themes with a keyboard shortcut. To get this functionality in Sublime, I added the [Schemr plugin](https://github.com/benweier/Schemr). Then I added Monokai and Monokai Light to my favorites. Finally, under my keybindings, I added the option to toggle between my favorites by clicking `command+k+t`.
 
-```js
+```lang-js
 [
     { "keys": ["super+k", "super+t"], "command": "schemr_cycle_favorite_schemes", "args": {"direction": "next"}}
 ]
@@ -90,7 +92,7 @@ One thing Code does that I absolutely love is make links in files clickable. The
 
 Under Package Settings for this plugin, I had to add this to the user mouse bindings.
 
-```js
+```lang-js
 [
 	{ "button": "button1", "modifiers": ["super"], "press_command": "open_url_under_cursor" }
 ]

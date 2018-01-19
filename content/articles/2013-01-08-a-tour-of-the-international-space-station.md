@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2013-01-08'
+permalink: /a-tour-of-the-international-space-station/
 title: A tour of the International Space Station
+url: /2013/01/08/a-tour-of-the-international-space-station
 ---
 
 In her final days as Commander of the International Space Station (ISS), Sunita Williams of NASA recorded <a href="https://www.youtube.com/watch?v=doN4t5NKW-k">an extensive tour of the space craft</a>.

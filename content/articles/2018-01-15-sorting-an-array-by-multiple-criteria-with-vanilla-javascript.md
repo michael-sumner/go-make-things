@@ -3,14 +3,16 @@ categories:
 - Code
 - JavaScript
 date: '2018-01-15'
+permalink: /sorting-an-array-by-multiple-criteria-with-vanilla-javascript/
 title: Sorting an array by multiple criteria with vanilla JavaScript
+url: /2018/01/15/sorting-an-array-by-multiple-criteria-with-vanilla-javascript
 ---
 
 Last week, my friend [Andrew Borstein](http://andrewborstein.github.io/portfolio/) was playing around with a JavaScript upvoting system, and asked:
 
 > I want to sort an array based on two properties. First sort by an integer, next sort by a string. So an array of objects might look like this:
 
-```js
+```lang-js
 [
 	{ title: 'Apple', votes: 1 },
 	{ title: 'Milk', votes: 2 },
@@ -21,7 +23,7 @@ Last week, my friend [Andrew Borstein](http://andrewborstein.github.io/portfolio
 
 > and then be sorted into this
 
-```js
+```lang-js
 [
 	{ title: 'Carrot', votes: 3 },
 	{ title: 'Banana', votes: 2 },
@@ -38,7 +40,7 @@ The `Array.sort()` method let's you compare items in an array and sort them.
 
 To use it, you pass in a callback function that accepts two arguments. The first is the first item of the two it should compare, and the second is the second. You can name them anything you want.
 
-```js
+```lang-js
 var votes = [
 	{ title: 'Apple', votes: 1 },
 	{ title: 'Milk', votes: 2 },
@@ -70,7 +72,7 @@ Let's put `Array.sort()` into action.
 
 First, we want to sort by the number of votes. We'll compare each items number of votes (the `vote` property), and put the one with the most votes first.
 
-```js
+```lang-js
 votes.sort(function (vote1, vote2) {
 
 	// Sort by votes
@@ -84,7 +86,7 @@ votes.sort(function (vote1, vote2) {
 
 The `votes` array looks like this now.
 
-```js
+```lang-js
 [
 	{title: "Carrot", votes: 3},
 	{title: "Milk", votes: 2},
@@ -99,7 +101,7 @@ Right now, if `vote1` and `vote2` are the same, we do nothing and the order does
 
 With `Array.sort()`, if the letter comes later in the alphabet, it has a higher value than if it comes earlier.
 
-```js
+```lang-js
 votes.sort(function (vote1, vote2) {
 
 	// Sort by votes
@@ -119,7 +121,7 @@ votes.sort(function (vote1, vote2) {
 
 If you refresh your browser and try sorting again, the `votes` array will now look like this.
 
-```js
+```lang-js
 [
 
 	{title: "Carrot", votes: 3},
@@ -135,7 +137,7 @@ You can change the criteria your sorting against to match the properties of what
 
 For example, if you wanted to return items with the fewest votes first, you'd switch which returns `1` and which returns `-1`.
 
-```js
+```lang-js
 votes.sort(function (vote1, vote2) {
 
 	// Sort by votes

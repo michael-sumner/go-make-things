@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-17'
+permalink: /detecting-clicks-outside-of-an-element-with-vanilla-js/
 title: Detecting clicks outside of an element with vanilla JS
+url: /2017/04/17/detecting-clicks-outside-of-an-element-with-vanilla-js
 ---
 
 A few months ago, <a href="https://twitter.com/brad_frost/status/795688675006967808">Brad Frost asked</a>:

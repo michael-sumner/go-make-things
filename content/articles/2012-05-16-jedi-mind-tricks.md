@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2012-05-16'
+permalink: /jedi-mind-tricks/
 title: Jedi Mind Tricks
+url: /2012/05/16/jedi-mind-tricks
 ---
 
 If you have six minutes and forty seconds to spare, <a href="http://vimeo.com/41289763">Paul Hebert's pecha-kucha on influence</a> is well worth your time...

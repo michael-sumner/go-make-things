@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-07'
+permalink: /making-it-easier-to-select-elements-with-vanilla-javascript/
 title: Making it easier to select elements with vanilla JavaScript
+url: /2017/08/07/making-it-easier-to-select-elements-with-vanilla-javascript
 ---
 
 The `querySelector()` and `querySelectorAll()` methods make it super easy get elements in the DOM.
@@ -18,7 +20,7 @@ Today, I wanted to show you a simple technique that make it easier to use `query
 
 You can create a custom function that runs `querySelector()` and `querySelectorAll()`&mdash;without you having to type it out every time.
 
-```javascript
+```lang-javascript
 var get = function (selector, scope) {
     scope = scope ? scope : document;
     return scope.querySelector(selector);
@@ -32,7 +34,7 @@ var getAll = function (selector, scope) {
 
 With these in place, you can use the same way you'd use `querySelector()` and `querySelectorAll()`.
 
-```javascript
+```lang-javascript
 // Get all `h2` elements
 var h2s = getAll('h2');
 
@@ -46,7 +48,7 @@ var inside = get('.my-selector', elem);
 
 I like to use `get()` and `getAll()`, but if you'd prefer a more jQuery-like syntax, you can use `$` and `$$` instead.
 
-```javascript
+```lang-javascript
 var $ = function (selector, scope) {
     scope = scope ? scope : document;
     return scope.querySelector(selector);

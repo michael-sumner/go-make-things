@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-05-22'
+permalink: /wordpress-for-web-apps-version-2/
 title: WordPress for Web Apps, version 2
+url: /2013/05/22/wordpress-for-web-apps-version-2
 ---
 
 When I built <a href="https://gomakethings.com/projects/jetpack/">JetPack</a> last year, I used WordPress to handle the user and content management so I could focus on building a great experience. Right now, I'm working on another app - a scavenger hunt for new hires - and I'm using WordPress again.

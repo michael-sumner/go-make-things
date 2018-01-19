@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2016-08-21'
+permalink: /updates-to-kraken-and-keel/
 title: Updates to Kraken and Keel
+url: /2016/08/21/updates-to-kraken-and-keel
 ---
 
 Over the weekend, [Kraken](https://cferdinandi.github.io/kraken/), my lightweight, open source boilerplate for front-end web developers, got updated to Normalize v4.x.

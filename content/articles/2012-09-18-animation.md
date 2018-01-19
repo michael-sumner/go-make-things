@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Uncategorized
 date: '2012-09-18'
+permalink: /animation/
 title: Animation
+url: /2012/09/18/animation
 ---
 
 A few of my friends give me a hard time because I watch So You Think You Can Dance. Enthusiastically.

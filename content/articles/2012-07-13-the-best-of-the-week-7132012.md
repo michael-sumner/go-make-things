@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-07-13'
+permalink: /the-best-of-the-week-7132012/
 title: The Best of the Week &#8211; 7/13/2012
+url: /2012/07/13/the-best-of-the-week-7132012
 ---
 
 This week we've got grids, bugs, milk, money and Twitter history...

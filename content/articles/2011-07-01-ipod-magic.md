@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-07-01'
+permalink: /ipod-magic/
 title: iPod Magic
+url: /2011/07/01/ipod-magic
 ---
 
 <a href="http://marcotempest.com/">Magician Marco Tempest</a> has created a <a href="http://vimeo.com/24951327">magic act using iPhones</a>. Cool stuff!

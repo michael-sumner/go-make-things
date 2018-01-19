@@ -2,10 +2,12 @@
 categories:
 - Careers
 date: '2016-08-12'
+permalink: /looking-for-web-developer-jobs-when-you-dont-have-much-experience/
 title: Looking for web developer jobs when you don&#8217;t have much experience
+url: /2016/08/12/looking-for-web-developer-jobs-when-you-dont-have-much-experience
 ---
 
-A question from Duncan, one of the readers of [my newsletter](/newsletter/):
+A question from Duncan, one of the readers of [my newsletter](https://gomakethings.com/newsletter/):
 
 > I guess my biggest (potential) hurdle, is that I don't have a lot of previous work that I can display to employers and my resume looks something like this: 
 > - Unrelated admin / menial jobs in my 20s

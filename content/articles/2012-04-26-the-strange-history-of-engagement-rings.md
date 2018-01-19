@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-04-26'
+permalink: /the-strange-history-of-engagement-rings/
 title: The strange history of engagement rings
+url: /2012/04/26/the-strange-history-of-engagement-rings
 ---
 
 You learn something new every day. <a href="http://www.theatlantic.com/business/archive/2012/04/the-strange-and-formerly-sexist-economics-of-engagement-rings/255434/">From the Atlantic...</a>

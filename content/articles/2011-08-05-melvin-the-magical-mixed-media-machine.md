@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-08-05'
+permalink: /melvin-the-magical-mixed-media-machine/
 title: Melvin the Magical Mixed Media Machine
+url: /2011/08/05/melvin-the-magical-mixed-media-machine
 ---
 
 <a href="http://vimeo.com/24504225">Melvin the Magical Mixed Media Machine</a> is a Rube Goldberg machine by design studio HEYHEYHEY.

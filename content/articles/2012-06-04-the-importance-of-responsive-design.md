@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2012-06-04'
+permalink: /the-importance-of-responsive-design/
 title: The Importance of Responsive Design
+url: /2012/06/04/the-importance-of-responsive-design
 ---
 
 I manage the website for <a href="http://www.pawsnewengland.com">PAWS New England</a>, a fantastic animal rescue organization that we used when adopting our most recent dog.

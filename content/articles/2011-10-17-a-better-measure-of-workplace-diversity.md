@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2011-10-17'
+permalink: /a-better-measure-of-workplace-diversity/
 title: A better measure of workplace diversity
+url: /2011/10/17/a-better-measure-of-workplace-diversity
 ---
 
 This tweet from <a href="http://twitter.com/joegerstandt">Joe Gerstandt</a> last week got me thinking...

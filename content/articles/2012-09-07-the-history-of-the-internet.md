@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-09-07'
+permalink: /the-history-of-the-internet/
 title: The History of the Internet
+url: /2012/09/07/the-history-of-the-internet
 ---
 
 Web education company <a href="http://www.grovo.com/">Grovo</a> has used <a href="https://www.facebook.com/Grovo/info">their Facebook timeline</a> to showcase the history of the internet. Very cool!

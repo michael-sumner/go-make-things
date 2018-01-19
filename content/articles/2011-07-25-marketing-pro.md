@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2011-07-25'
+permalink: /marketing-pro/
 title: I&#8217;m officially a marketing pro
+url: /2011/07/25/marketing-pro
 ---
 
 Three years ago, I started <a href="http://renegadehr.net/">Renegade HR</a>, a human resources blog, to share my personal take on the HR world. I learned how to code websites. I wrote a ton of ebooks. I started <a href="http://twitter.com/chrisferdinandi">using Twitter</a>.

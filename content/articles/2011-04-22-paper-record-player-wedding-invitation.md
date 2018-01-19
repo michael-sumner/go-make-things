@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2011-04-22'
+permalink: /paper-record-player-wedding-invitation/
 title: Paper Record Player / Wedding Invitation
+url: /2011/04/22/paper-record-player-wedding-invitation
 ---
 
 Wow, a <a href="http://vimeo.com/22306468">wedding invitation that converts into a paper record player</a> and plays an original song. This is amazing!

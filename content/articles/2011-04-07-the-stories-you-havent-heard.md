@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Business &amp; Leadership
 date: '2011-04-07'
+permalink: /the-stories-you-havent-heard/
 title: The Stories You Haven&#8217;t Heard
+url: /2011/04/07/the-stories-you-havent-heard
 ---
 
 I heard about this cool new web app from <a href="http://www.swiss-miss.com/2011/03/proust.html">Tina over at Swiss-Miss</a> called <a href="http://www.proust.com/">Proust</a>. The gist? It gives you a list of questions you can ask you parents, grandparents, friends, and so on to help start conversations and help them share the awesome stories from their life you haven't heard.

@@ -3,7 +3,9 @@ categories:
 - Design &amp; UX
 - Uncategorized
 date: '2011-08-19'
+permalink: /im-comic-sans-a-hole/
 title: I&#8217;m Comic Sans, A-Hole
+url: /2011/08/19/im-comic-sans-a-hole
 ---
 
 <a href="http://vimeo.com/17450666">I'm Comic Sans, A-Hole</a> is a hilarious short by <a href="http://vimeo.com/joehollier">Joel Hollier</a> based on a <a href="http://www.mcsweeneys.net/links/monologues/15comicsans.html">monologue by Mike Lacher</a>. Definitely NSFW.

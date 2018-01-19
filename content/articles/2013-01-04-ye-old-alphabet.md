@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Uncategorized
 date: '2013-01-04'
+permalink: /ye-old-alphabet/
 title: Ye Old Alphabet
+url: /2013/01/04/ye-old-alphabet
 ---
 
 Ever see a sign that says, "Ye Old Shoppe," and think to yourself, "Why the heck did they say 'ye'?"

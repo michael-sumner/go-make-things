@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-10'
+permalink: /javascript-strict-mode-and-why-you-should-always-use-it/
 title: JavaScript Strict Mode (and why you should always use it)
+url: /2017/04/10/javascript-strict-mode-and-why-you-should-always-use-it
 ---
 
 Strict mode is a way of telling browsers (and JavaScript debuggers) to be, well, stricter about how they parse your code. [MDN explains:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
@@ -22,8 +24,8 @@ Always use strict mode on your scripts.
 
 Simple, just add this to your scripts:
 
-```javascript
+```lang-javascript
 'use strict';
 ```
 
-Next, learn [where to activate strict mode](/where-to-activate-strict-mode-in-your-scripts/) (everywhere? in each script? in each function?) and the [types of errors strict mode catches](/types-of-errors-that-strict-mode-catches-that-would-otherwise-be-ignored/) that would otherwise be ignored.
+Next, learn [where to activate strict mode](https://gomakethings.com/where-to-activate-strict-mode-in-your-scripts/) (everywhere? in each script? in each function?) and the [types of errors strict mode catches](https://gomakethings.com/types-of-errors-that-strict-mode-catches-that-would-otherwise-be-ignored/) that would otherwise be ignored.

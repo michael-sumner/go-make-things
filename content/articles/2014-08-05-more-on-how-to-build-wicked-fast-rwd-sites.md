@@ -2,10 +2,12 @@
 categories:
 - Code
 date: '2014-08-05'
+permalink: /more-on-how-to-build-wicked-fast-rwd-sites/
 title: Differences in mobile and desktop performance
+url: /2014/08/05/more-on-how-to-build-wicked-fast-rwd-sites
 ---
 
-Yesterday, I wrote a post on [how to build wicked fast RWD sites](/how-to-build-wicked-fast-rwd-sites/). In it, I documented about a dozen performance tests using various combinations of CSS, JS, and icon implementations.
+Yesterday, I wrote a post on [how to build wicked fast RWD sites](https://gomakethings.com/how-to-build-wicked-fast-rwd-sites/). In it, I documented about a dozen performance tests using various combinations of CSS, JS, and icon implementations.
 
 There's one thing I didn't discuss in yesterday's post that I want to explore in more detail: Performance variations between desktop and mobile devices.
 

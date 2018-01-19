@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-06-29'
+permalink: /validating-the-mailchimp-subscribe-form-with-vanilla-javascript/
 title: Validating the MailChimp subscribe form with vanilla JavaScript
+url: /2017/06/29/validating-the-mailchimp-subscribe-form-with-vanilla-javascript
 ---
 
 Over the last few articles in this series, we've learned how to use a handful of [input types and validation attributes](https://css-tricks.com/form-validation-part-1-constraint-validation-html/) to natively validate forms.

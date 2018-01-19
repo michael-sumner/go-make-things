@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-06-06'
+permalink: /one-nation-under-dog/
 title: One Nation, Under Dog
+url: /2012/06/06/one-nation-under-dog
 ---
 
 <em>One Nation Under Dog</em> is a new documentary from HBO that explores the relationship we have with dogs.

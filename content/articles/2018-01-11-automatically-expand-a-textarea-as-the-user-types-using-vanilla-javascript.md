@@ -4,7 +4,9 @@ categories:
 - Design &amp; UX
 - JavaScript
 date: '2018-01-11'
+permalink: /automatically-expand-a-textarea-as-the-user-types-using-vanilla-javascript/
 title: Automatically expand a textarea as the user types using vanilla JavaScript
+url: /2018/01/11/automatically-expand-a-textarea-as-the-user-types-using-vanilla-javascript
 ---
 
 [Tommy Hodgins](https://twitter.com/innovati) shared a really neat little helper function with me that automatically expands a textarea as the user types in.
@@ -15,7 +17,7 @@ I made a few modifications to simplify it down a bit, and wanted to share it wit
 
 All you need in the way of markup for this is a humble `textarea` element.
 
-```html
+```lang-html
 <textarea></textarea>
 ```
 
@@ -25,7 +27,7 @@ I give my textarea's just a little bit of styling.
 
 A `min-height` ensures that at least a few lines of text show up to start. A `max-height` of `50vh` ensures the text area will never grow bigger than the viewport. I also like to add a `width` of `100%` so that the text area fills up the full width of the content area.
 
-```css
+```lang-css
 textarea {
 	min-height: 5em;
 	max-height: 50vh;
@@ -39,9 +41,9 @@ Here's the fun part.
 
 ### Listening for changes to textareas
 
-First, let's setup an event listener to detect changes to our `textarea` element. We'll use [event delegation](/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/) to listen to all `input` events and then filter out ones that aren't on a textarea.
+First, let's setup an event listener to detect changes to our `textarea` element. We'll use [event delegation](https://gomakethings.com/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/) to listen to all `input` events and then filter out ones that aren't on a textarea.
 
-```js
+```lang-js
 document.addEventListener('input', function (event) {
 	if (event.target.tagName.toLowerCase() !== 'textarea') return;
 }, false);
@@ -49,7 +51,7 @@ document.addEventListener('input', function (event) {
 
 If the element is a textarea, we'll call a new function we're going to create, `autoExpand()`, and pass in the element as an argument using `event.target`.
 
-```js
+```lang-js
 document.addEventListener('input', function (event) {
 	if (event.target.tagName.toLowerCase() !== 'textarea') return;
 	autoExpand(event.target);
@@ -60,7 +62,7 @@ document.addEventListener('input', function (event) {
 
 Now, we can setup our `autoExpand()` function.
 
-```js
+```lang-js
 var autoExpand = function (field) {
     // Do things...
 };
@@ -68,7 +70,7 @@ var autoExpand = function (field) {
 
 First, we need to reset the height of the textarea so that we can calculate how tall the content is/should be.
 
-```js
+```lang-js
 var autoExpand = function (field) {
 
 	// Reset field height
@@ -83,7 +85,7 @@ We'll use `window.getComputedStyle()` to get styles for the textarea, and `scrol
 
 We'll run all of the values through `parseInt()` to convert them to integers, and then add them up to get our total element height.
 
-```js
+```lang-js
 	// Get the computed styles for the element
 	var computed = window.getComputedStyle(field);
 
@@ -97,7 +99,7 @@ We'll run all of the values through `parseInt()` to convert them to integers, an
 
 Finally, we'll set the height of our element using the `style` property.
 
-```js
+```lang-js
 var autoExpand = function (field) {
 
 	// Reset field height

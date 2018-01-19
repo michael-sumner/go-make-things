@@ -4,7 +4,9 @@ categories:
 - Design &amp; UX
 - Technology
 date: '2012-12-19'
+permalink: /tim-cook-on-great-products-and-changing-your-mind/
 title: Tim Cook on great products and changing your mind
+url: /2012/12/19/tim-cook-on-great-products-and-changing-your-mind
 ---
 
 Businessweek conducted an excellent <a href="http://www.businessweek.com/articles/2012-12-06/tim-cooks-freshman-year-the-apple-ceo-speaks">interview with Apple CEO Tim Cook</a>. Here are a few of my favorite quotes...

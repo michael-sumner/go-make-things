@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-06-15'
+permalink: /life-aboard-the-international-space-station/
 title: Life Aboard the International Space Station
+url: /2011/06/15/life-aboard-the-international-space-station
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/06/shuttle-station4-825-466x350.jpg" alt="" title="shuttle-station4-825" width="466" height="350" class="aligncenter size-medium wp-image-766" />

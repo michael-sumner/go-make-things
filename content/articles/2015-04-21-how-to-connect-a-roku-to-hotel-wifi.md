@@ -2,7 +2,9 @@
 categories:
 - Technology
 date: '2015-04-21'
+permalink: /how-to-connect-a-roku-to-hotel-wifi/
 title: How to connect a Roku to hotel wifi
+url: /2015/04/21/how-to-connect-a-roku-to-hotel-wifi
 ---
 
 Most hotel wifi networks require you to enter some information&mdash;a name or room number&mdash;to authorize a device. But because Roku's don't have web browsers, there's no way for you to do that on the device.

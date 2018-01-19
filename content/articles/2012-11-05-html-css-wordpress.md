@@ -3,7 +3,9 @@ categories:
 - Code
 date: '2012-11-05'
 excerpt: Part of a series of tutorials on the free Go Mobile First WordPress theme.
+permalink: /html-css-wordpress/
 title: A Brief Intro to HTML, CSS &#038; WordPress
+url: /2012/11/05/html-css-wordpress
 ---
 
 A few weeks ago, I released a free mobile-first starter theme for WordPress called <a href="http://cferdinandi.github.com/go-mobile-first/">Go Mobile First</a>. To help you use it, I'm writing a series of tutorials on how to make some common changes.

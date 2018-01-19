@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2011-03-25'
+permalink: /dumb-packaging/
 title: Dumb Packaging
+url: /2011/03/25/dumb-packaging
 ---
 
 My wife and I recently remodeled our kitchen. It came out great!

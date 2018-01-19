@@ -7,7 +7,9 @@ categories:
 - JavaScript
 - WordPress
 date: '2017-11-20'
+permalink: /on-being-a-self-taught-web-developer/
 title: On Being a Self-Taught Web Developer
+url: /2017/11/20/on-being-a-self-taught-web-developer
 ---
 
 I get a *lot* of emails from people who are trying to teach themselves how to be web developers.

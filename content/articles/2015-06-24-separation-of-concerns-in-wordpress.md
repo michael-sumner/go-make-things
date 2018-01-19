@@ -4,7 +4,9 @@ categories:
 - Design &amp; UX
 - WordPress
 date: '2015-06-24'
+permalink: /separation-of-concerns-in-wordpress/
 title: Separation of concerns in WordPress
+url: /2015/06/24/separation-of-concerns-in-wordpress
 ---
 
 One of things that I absolutely hate to see when picking up a WordPress project for an existing site is a theme that has all of the site's functionality baked in.

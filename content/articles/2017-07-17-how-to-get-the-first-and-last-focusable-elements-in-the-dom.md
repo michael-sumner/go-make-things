@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-07-17'
+permalink: /how-to-get-the-first-and-last-focusable-elements-in-the-dom/
 title: How to get the first and last focusable elements in the DOM
+url: /2017/07/17/how-to-get-the-first-and-last-focusable-elements-in-the-dom
 ---
 
 Heydon shared a neat JavaScript trick on Twitter the other week for <a href="https://twitter.com/heydonworks/status/880773131287359488">getting all focusable elements in the DOM</a>, and narrowing it down to the first or last element.

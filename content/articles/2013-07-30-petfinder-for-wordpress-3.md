@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2013-07-30'
+permalink: /petfinder-for-wordpress-3/
 title: Petfinder for WordPress 3
+url: /2013/07/30/petfinder-for-wordpress-3
 ---
 
 Yesterday, I released <a href="http://cferdinandi.github.io/petfinder-api-for-wordpress/">Petfinder for WordPress 3</a>.

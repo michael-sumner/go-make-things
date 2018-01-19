@@ -3,7 +3,9 @@ categories:
 - Technology
 - Uncategorized
 date: '2012-01-02'
+permalink: /my-goal-for-the-new-year/
 title: My goal for the new year
+url: /2012/01/02/my-goal-for-the-new-year
 ---
 
 This year, I have one simple goal: to become reconnected to the real world through a more deliberate use of technology.

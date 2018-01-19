@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2012-04-02'
+permalink: /what-experience-is-worth/
 title: What experience is worth
+url: /2012/04/02/what-experience-is-worth
 ---
 
 I believe that creativity, curiosity and passion are worth more than a degree or the right background. That said, sometimes there's just no substitute for experience.

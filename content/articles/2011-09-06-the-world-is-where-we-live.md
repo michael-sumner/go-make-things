@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-09-06'
+permalink: /the-world-is-where-we-live/
 title: The world is where we live
+url: /2011/09/06/the-world-is-where-we-live
 ---
 
 <a href="http://vimeo.com/26068168">The world is where we live</a> is a beautiful reminder that we're all connected by the <a href="http://myworld.panda.org/">World Wildlife Foundation</a>.

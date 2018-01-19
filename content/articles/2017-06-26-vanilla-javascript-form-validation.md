@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-06-26'
+permalink: /vanilla-javascript-form-validation/
 title: Vanilla JavaScript form validation
+url: /2017/06/26/vanilla-javascript-form-validation
 ---
 
 Most JavaScript form validation libraries are large, and often require other libraries like jQuery.

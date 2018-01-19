@@ -3,10 +3,12 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-31'
+permalink: /how-to-get-all-sibling-elements-until-a-match-is-found-with-vanilla-javascript/
 title: How to get all sibling elements until a match is found with vanilla JavaScript
+url: /2017/08/31/how-to-get-all-sibling-elements-until-a-match-is-found-with-vanilla-javascript
 ---
 
-One of the students in my Vanilla JS Slack channel (a private channel included with my [pocket guides](/guides/)) asked me how to replicate [jQuery's `nextUntil()` method](https://api.jquery.com/nextUntil/) in vanilla JavaScript.
+One of the students in my Vanilla JS Slack channel (a private channel included with my [pocket guides](https://gomakethings.com/guides/)) asked me how to replicate [jQuery's `nextUntil()` method](https://api.jquery.com/nextUntil/) in vanilla JavaScript.
 
 `nextUntil()` gets all sibling elements following an element *until* you reach an element with a particular selector. You can optionally filter sibling elements by a selector as well (for example, only returning elements with a certain class or data attribute).
 
@@ -16,7 +18,7 @@ Today, let's build a vanilla JS version of this.
 
 First, let's create a function named `nextUntil()`.
 
-```javascript
+```lang-javascript
 var nextUntil = function () {
     // Code goes here...
 };
@@ -26,7 +28,7 @@ Next, let's pass in a few arguments.
 
 We need to know the element to start our search with. We also need to know what selector to check for and stop at (the "until" part of the script).
 
-```javascript
+```lang-javascript
 var nextUntil = function (elem, selector) {
 	// Code goes here...
 };
@@ -38,7 +40,7 @@ Now we're ready to start coding.
 
 First, let's setup an array to push our sibling elements into.
 
-```javascript
+```lang-javascript
 var nextUntil = function (elem, selector) {
 
 	// Setup siblings array
@@ -49,7 +51,7 @@ var nextUntil = function (elem, selector) {
 
 Then, we'll get the first sibling for our starting element. To do this, we'll use the `nextElementSibling` property. There's also a `nextSibling` property, but this returns all types of nodes (text strings, for example), and we only want elements.
 
-```javascript
+```lang-javascript
 var nextUntil = function (elem, selector) {
 
 	// Setup siblings array
@@ -73,7 +75,7 @@ We'll wrap all of this functionality in a `while` loop.
 
 We'll use `matches()` to check if the element has our selector or not, and `push()` to add the current element in the loop to our array.
 
-```javascript
+```lang-javascript
 var nextUntil = function (elem, selector) {
 
 	// Setup siblings array
@@ -101,7 +103,7 @@ var nextUntil = function (elem, selector) {
 
 Once our loop is done, we can return the `siblings` array.
 
-```javascript
+```lang-javascript
 var nextUntil = function (elem, selector) {
 
 	// Setup siblings array
@@ -137,7 +139,7 @@ The jQuery version of `nextUntil()` let's you filter your siblings by a selector
 
 First, we'll add a new argument to our function.
 
-```javascript
+```lang-javascript
 var nextUntil = function (elem, selector, filter) {
     // ...
 };
@@ -147,7 +149,7 @@ Then, in our loop, after we check to see if the element matches our selector, we
 
 If it doesn't, we'll skip to the next sibling element. Otherwise, we'll carry on as normal.
 
-```javascript
+```lang-javascript
 var nextUntil = function (elem, selector, filter) {
 
 	// Setup siblings array
@@ -187,7 +189,7 @@ The `matches()` method was implemented with a browser prefix in some older brows
 
 Let's add one to our script to ensure maximum cross-browser compatibility. This brings us to IE9+.
 
-```javascript
+```lang-javascript
 var nextUntil = function (elem, selector, filter) {
 
 	// matches() polyfill

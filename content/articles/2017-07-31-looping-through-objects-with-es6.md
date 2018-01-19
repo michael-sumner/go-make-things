@@ -3,16 +3,18 @@ categories:
 - Code
 - JavaScript
 date: '2017-07-31'
+permalink: /looping-through-objects-with-es6/
 title: Looping through objects with ES6
+url: /2017/07/31/looping-through-objects-with-es6
 ---
 
-Last week, we looked at how to loop through [arrays](/looping-through-arrays-the-es6-way/) and [NodeLists](/looping-through-nodelists-with-es6/) with ES6, which provides handy `forEach()` methods.
+Last week, we looked at how to loop through [arrays](https://gomakethings.com/looping-through-arrays-the-es6-way/) and [NodeLists](https://gomakethings.com/looping-through-nodelists-with-es6/) with ES6, which provides handy `forEach()` methods.
 
 Because JavaScript is weird, there's no `forEach()` method for objects.
 
 Traditionally, you'd need to use a `for...in` loop.
 
-```javascript
+```lang-javascript
 var lunch = {
 	sandwich: 'turkey',
 	chips: 'Cape Cod',
@@ -36,7 +38,7 @@ That said, we can add our own `Object.forEach()` method by extending the object 
 
 You normally extend prototypes by doing something like this:
 
-```javascript
+```lang-javascript
 Object.prototype.forEach = function () {
 	// Our code goes here...
 }
@@ -46,7 +48,7 @@ That works great for things like arrays and elements, but can break a whole bunc
 
 Instead, we need to use the `defineProperty()` method.
 
-```javascript
+```lang-javascript
 /**
  * Object.prototype.forEach() polyfill
  * https://gomakethings.com/looping-through-objects-with-es6/
@@ -72,7 +74,7 @@ if (!Object.prototype.forEach) {
 
 Now you can loop through objects just like you would arrays and NodeLists.
 
-```javascript
+```lang-javascript
 var lunch = {
 	sandwich: 'turkey',
 	chips: 'Cape Cod',

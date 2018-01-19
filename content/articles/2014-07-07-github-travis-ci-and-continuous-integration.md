@@ -2,10 +2,12 @@
 categories:
 - Code
 date: '2014-07-07'
+permalink: /github-travis-ci-and-continuous-integration/
 title: GitHub, Travis CI, and Continuous Integration
+url: /2014/07/07/github-travis-ci-and-continuous-integration
 ---
 
-As part of my [move over to Gulp](/getting-started-with-gulp-js/) for web development, I added [Travis CI](https://travis-ci.org/) and unit testing with [Jasmine](http://jasmine.github.io/2.0/introduction.html).
+As part of my [move over to Gulp](https://gomakethings.com/getting-started-with-gulp-js/) for web development, I added [Travis CI](https://travis-ci.org/) and unit testing with [Jasmine](http://jasmine.github.io/2.0/introduction.html).
 
 Jasmine (and unit testing in general) lets you set up a variety of tests to check that each method and component in a script does what it's supposed to. Travis CI runs your [Node.js build process](http://nodejs.org/), including those tests, each time you submit a push to GitHub and makes sure there are no errors.
 
@@ -35,6 +37,6 @@ Push your repository up to GitHub, and Travis CI automatically goes to work. You
 
 ### Other programming languages and setups
 
-If you're not already using Node as part of your development process, you might want to check out my post on [getting started with Gulp](/getting-started-with-gulp-js/).
+If you're not already using Node as part of your development process, you might want to check out my post on [getting started with Gulp](https://gomakethings.com/getting-started-with-gulp-js/).
 
 Travis CI also [supports a bunch of other popular languages](http://docs.travis-ci.com/user/getting-started/), include Ruby, PHP, Python and more.

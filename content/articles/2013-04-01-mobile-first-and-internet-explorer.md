@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2013-04-01'
+permalink: /mobile-first-and-internet-explorer/
 title: Mobile First and Internet Explorer
+url: /2013/04/01/mobile-first-and-internet-explorer
 ---
 
 Mobile first web design extends progressive enhancement to site layout. But because Internet Explorer 8 and lower do not recognize media queries, they get the small screen layout instead of the bigger screen version on mobile-first designs.

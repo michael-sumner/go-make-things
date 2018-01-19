@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2012-09-26'
+permalink: /using-html5-video-with-flash-fallback/
 title: Using HTML5 Video with Flash Fallback
+url: /2012/09/26/using-html5-video-with-flash-fallback
 ---
 
 I decided to use HTML5 video for a recent web project at work. With the <code class="language-markup">&lt;video&gt;</code> tag, it's really easy to embed video content on a webpage.

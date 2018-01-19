@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-05-19'
+permalink: /enthusiasm-is-infectious/
 title: Monkeys, Apes &#038; Enthusiasm
+url: /2011/05/19/enthusiasm-is-infectious
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/05/ape.jpg" alt="" title="ape" width="500" height="333" class="aligncenter size-full wp-image-615" />

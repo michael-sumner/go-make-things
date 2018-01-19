@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2013-04-08'
+permalink: /content-parity-on-the-web/
 title: Content Parity on the Web
+url: /2013/04/08/content-parity-on-the-web
 ---
 
 I had an interesting conversation with someone on LinkedIn a few weeks ago (I know, I'm as surprised as you are by that statement) about dedicated mobile sites versus responsive web design.

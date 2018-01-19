@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-17'
+permalink: /two-ways-to-get-and-set-html-content-with-vanilla-javascript/
 title: Two ways to get and set HTML content with vanilla JavaScript
+url: /2017/11/17/two-ways-to-get-and-set-html-content-with-vanilla-javascript
 ---
 
 Vanilla JavaScript provides two really easy ways to get and set content in the DOM&mdash;one to manipulate markup, and the other just for text.
@@ -12,7 +14,7 @@ Vanilla JavaScript provides two really easy ways to get and set content in the D
 
 You can use the `innerHTML` to get and set HTML content in an element.
 
-```javascript
+```lang-javascript
 var elem = document.querySelector('#some-elem');
 
 // Get HTML content
@@ -24,14 +26,14 @@ elem.innerHTML = 'We can dynamically change the HTML. We can even include HTML e
 
 If you want to add HTML after what's already in an element instead of replacing it entirely you can use `+=`.
 
-```js
+```lang-js
 // Add HTML to the end of an element's existing content
 elem.innerHTML += ' Add this after what is already there.';
 ```
 
 And you can add HTML *before* what's already in an element by adding `+ elem.innerHTML` to the end.
 
-```js
+```lang-js
 // Add HTML to the beginning of an element's existing content
 elem.innerHTML = 'We can add this to the beginning. ' + elem.innerHTML;
 ```
@@ -42,7 +44,7 @@ The `innerHTML` property works great, but what if you just want to get or set co
 
 For that, there's `textContent`. It works just like `innerHTML`, but only gets content, and will ignore HTML tags.
 
-```javascript
+```lang-javascript
 var elem = document.querySelector('#some-elem');
 
 // Get text content

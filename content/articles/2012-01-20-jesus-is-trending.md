@@ -2,7 +2,9 @@
 categories:
 - Technology
 date: '2012-01-20'
+permalink: /jesus-is-trending/
 title: Jesus is trending
+url: /2012/01/20/jesus-is-trending
 ---
 
 <a href="https://www.youtube.com/watch?v=xSSDeesUUsU">Louis C.K. on Conan...</a>

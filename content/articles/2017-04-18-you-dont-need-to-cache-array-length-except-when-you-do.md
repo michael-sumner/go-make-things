@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-18'
+permalink: /you-dont-need-to-cache-array-length-except-when-you-do/
 title: You don&#8217;t need to cache array length. Except when you do.
+url: /2017/04/18/you-dont-need-to-cache-array-length-except-when-you-do
 ---
 
 One often repeated piece of advice to improve JavaScript performance is that you should store the length of your array to a variable before running your loop:

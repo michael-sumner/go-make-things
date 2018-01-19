@@ -4,10 +4,12 @@ categories:
 - HTML
 - JavaScript
 date: '2017-09-20'
+permalink: /how-to-insert-an-element-before-another-one-in-the-dom-with-vanilla-javascript/
 title: How to insert an element before another one in the DOM with vanilla JavaScript
+url: /2017/09/20/how-to-insert-an-element-before-another-one-in-the-dom-with-vanilla-javascript
 ---
 
-Yesterday, we looked at [how to create elements with vanilla JavaScript](/creating-elements-with-vanilla-javascript/). Today, we're going to learn how to insert them before other elements in the DOM.
+Yesterday, we looked at [how to create elements with vanilla JavaScript](https://gomakethings.com/creating-elements-with-vanilla-javascript/). Today, we're going to learn how to insert them before other elements in the DOM.
 
 ## The Old-School Way
 
@@ -15,7 +17,7 @@ The traditional way of handling this, supported back to at least IE6, is with th
 
 The `insertBefore()` method works great, but is kind of clunky. You need to call it on the *parent* of the element you're inserting your new element before (the `referenceNode`), and pass in both the new element and the reference node as arguments.
 
-```js
+```lang-js
 // Create a new element
 var newNode = document.createElement('div');
 
@@ -32,7 +34,7 @@ Fortunately, ES6 brings us a new approach that's much more like how it works in 
 
 You call the `before()` method on the reference node, and pass in the new node as an argument. And that's it.
 
-```js
+```lang-js
 // Create a new element
 var newNode = document.createElement('div');
 
@@ -49,7 +51,7 @@ At the time of writing, `before()` works in newer versions of Chrome, Firefox, a
 
 *But*... [a polyfill adds support back to IE9](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/before#polyfill).
 
-```js
+```lang-js
 // from: https://github.com/jserz/js_piece/blob/master/DOM/ChildNode/before()/before().md
 (function (arr) {
   arr.forEach(function (item) {

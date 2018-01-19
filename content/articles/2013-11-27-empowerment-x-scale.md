@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2013-11-27'
+permalink: /empowerment-x-scale/
 title: Empowerment x Scale
+url: /2013/11/27/empowerment-x-scale
 ---
 
 In his <a href="http://irondavy.quora.com/Applied-Discovery-Presentation-from-Build-2013">Build Conference 2014 talk</a>, David Cole explores the type of future he as a designer would like to build...

@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-20'
+permalink: /removing-an-event-listener-with-vanilla-javascript/
 title: Removing an event listener with vanilla JavaScript
+url: /2017/10/20/removing-an-event-listener-with-vanilla-javascript
 ---
 
 Yesterday, we looked at a vanilla JavaScript equivalent of jQuery's `on()` method. Today, let's look at the vanilla JS version of `off()`, which removes an event listener.
@@ -14,7 +16,7 @@ With vanilla JavaScript, you can remove any named event listener with `removeEve
 
 So, for example, if you added this click event:
 
-```js
+```lang-js
 var clickHandler = function (event) {
 
     // Prevent the link from updating the URL
@@ -30,7 +32,7 @@ link.addEventListener('click', clickHandler, false);
 
 You can remove it like this:
 
-```js
+```lang-js
 link.removeEventListener('click', clickHandler, false);
 ```
 
@@ -40,7 +42,7 @@ First, I’ll show you how to use it. Then, I’ll share the method itself. And 
 
 ### How to use it
 
-The `off()` method works just like [the `on()` method we discussed yesterday](/a-vanilla-javascript-equivalent-of-jquerys-on-method/).
+The `off()` method works just like [the `on()` method we discussed yesterday](https://gomakethings.com/a-vanilla-javascript-equivalent-of-jquerys-on-method/).
 
 The first argument is always the event to listen to. The second argument is an optional filter, if you're removing events on a certain selector.
 
@@ -48,7 +50,7 @@ You can omit it and jump straight to argument three, the callback. This is the f
 
 All of the arguments must match the ones you used in `on()`. So, if you did this:
 
-```js
+```lang-js
 // Listen to all clicks on links with the .click-me class
 on('click', '.click-me', function clickHandler (event) {
     // Prevent the link from working
@@ -58,13 +60,13 @@ on('click', '.click-me', function clickHandler (event) {
 
 You'd remove it like this:
 
-```js
+```lang-js
 off('click', '.click-me', clickHandler);
 ```
 
 If you used event bubbling like this:
 
-```js
+```lang-js
 // Listen to all click events
 on('click', function allClicks (event) {
     // The thing that was clicked
@@ -74,13 +76,13 @@ on('click', function allClicks (event) {
 
 You'd remove it like this:
 
-```js
+```lang-js
 off('click', allClicks);
 ```
 
 ### The Helper Method
 
-```js
+```lang-js
 /*!
  * Remove an event listener
  * (c) 2017 Chris Ferdinandi, MIT License, https://gomakethings.com
@@ -106,7 +108,7 @@ We're essentially doing the same thing we did in our `on()` method, and then cal
 
 First, we check to see if the second argument is an element selector or a callback function. If it's our callback, we'll shift all of the arguments over one.
 
-```js
+```lang-js
 if (typeof (elem) === 'function') {
 	capture = callback;
 	callback = elem;
@@ -116,12 +118,12 @@ if (typeof (elem) === 'function') {
 
 Next, we check to see if the `capture` argument is set. If not, we'll use `false` instead of `null`.
 
-```js
+```lang-js
 capture = capture ? true : false;
 ```
 
 Finally, we remove our event listener.
 
-```js
+```lang-js
 elem.removeEventListener(event, callback, capture);
 ```

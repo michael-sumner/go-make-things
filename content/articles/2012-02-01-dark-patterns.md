@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2012-02-01'
+permalink: /dark-patterns/
 title: Dark Patterns in User Interface
+url: /2012/02/01/dark-patterns
 ---
 
 Today, I want to talk to you about dark patterns, user interface patterns that - intentionally or not - mislead people who visit a website.

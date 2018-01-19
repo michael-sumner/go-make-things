@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2012-04-16'
+permalink: /go-make-things-gets-a-refresh/
 title: Go Make Things gets a refresh
+url: /2012/04/16/go-make-things-gets-a-refresh
 ---
 
 Over the weekend I updated the underlying code that powers this site, and made a few small cosmetic changes. Most notably:

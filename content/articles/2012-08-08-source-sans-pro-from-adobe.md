@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-08-08'
+permalink: /source-sans-pro-from-adobe/
 title: Source Sans Pro from Adobe
+url: /2012/08/08/source-sans-pro-from-adobe
 ---
 
 Last week Adobe released <a href="http://blogs.adobe.com/typblography/2012/08/source-sans-pro.html">Source Sans Pro</a>, it's first ever open source font offering.

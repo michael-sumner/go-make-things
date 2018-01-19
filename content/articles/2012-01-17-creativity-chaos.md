@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2012-01-17'
+permalink: /creativity-chaos/
 title: Creativity &#038; Chaos
+url: /2012/01/17/creativity-chaos
 ---
 
 In this absolutely fantastic <a href="http://www.creativemornings.com/">Creative Mornings</a> talk, Ben Chestnut, founder of <a href="http://mailchimp.com/">Mailchimp</a>, talks about <a href="http://vimeo.com/34081566">how to foster a creative culture</a>. My takeaways after the video...

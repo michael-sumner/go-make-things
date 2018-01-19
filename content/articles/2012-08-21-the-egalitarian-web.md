@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-08-21'
+permalink: /the-egalitarian-web/
 title: The Egalitarian Web
+url: /2012/08/21/the-egalitarian-web
 ---
 
 <a href="https://join.app.net/">App.net</a> is an experimental competitor to Twitter that users actually have to pay for. This has apparently ruffled a lot of feathers.

@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-10-21'
+permalink: /flying-above-the-aurora-australis/
 title: Flying above the Aurora Australis
+url: /2011/10/21/flying-above-the-aurora-australis
 ---
 
 Check out this awesome video captured from <a href="https://www.youtube.com/watch?v=3W25qp1lTCY">the International Space Station as it flew over the Aurora Australis.</a> Stunning!

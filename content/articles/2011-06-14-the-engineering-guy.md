@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-06-14'
+permalink: /the-engineering-guy/
 title: The Engineering Guy
+url: /2011/06/14/the-engineering-guy
 ---
 
 If you've ever taken something apart to figure out how it works, you'll love <a href="https://www.youtube.com/user/engineerguyvideo">this series of videos</a> from <a href="http://www.engineerguy.com/">the Engineering Guy</a>.

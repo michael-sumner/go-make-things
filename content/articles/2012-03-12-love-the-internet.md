@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2012-03-12'
+permalink: /love-the-internet/
 title: Love the Internet
+url: /2012/03/12/love-the-internet
 ---
 
 From <a href="http://www.douglasadams.com/dna/19990901-00-a.html">a brilliant post by Douglas Adams</a>, author of the <em>Hitchhiker's Guide to the Galaxy</em>, from 1999. He would have turned 60 yesterday.

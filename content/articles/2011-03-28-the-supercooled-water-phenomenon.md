@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-03-28'
+permalink: /the-supercooled-water-phenomenon/
 title: The Supercooled Water Phenomenon
+url: /2011/03/28/the-supercooled-water-phenomenon
 ---
 
 <a href="https://www.youtube.com/user/1veritasium">Veritasium</a> has a really cool video up on <a href="https://www.youtube.com/watch?v=ph8xusY3GTM">the supercooled water phenomenon</a> (with an explanation on how it works). Check it out!

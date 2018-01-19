@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2011-11-17'
+permalink: /the-two-eggs-safety-match/
 title: The Two Eggs Safety Match
+url: /2011/11/17/the-two-eggs-safety-match
 ---
 
 At my grandmother's birthday last month, my family used these beautiful matches to light the candles on her cake.

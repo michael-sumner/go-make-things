@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2017-07-25'
+permalink: /the-web-development-goat/
 title: The Web Development GOAT
+url: /2017/07/25/the-web-development-goat
 ---
 
 In addition to pirates and Pixar movies, I'm a *huge* fan of hip-hop.

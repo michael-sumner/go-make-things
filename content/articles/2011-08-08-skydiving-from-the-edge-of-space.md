@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-08-08'
+permalink: /skydiving-from-the-edge-of-space/
 title: Skydiving from the edge of space
+url: /2011/08/08/skydiving-from-the-edge-of-space
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/07/Skydive-Space-534x350.jpg" alt="" title="Skydive-Space" width="534" height="350" class="aligncenter size-medium wp-image-961" />

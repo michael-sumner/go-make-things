@@ -3,14 +3,16 @@ categories:
 - Code
 - JavaScript
 date: '2017-06-06'
+permalink: /javascript-and-dates-revisited/
 title: JavaScript and dates revisited
+url: /2017/06/06/javascript-and-dates-revisited
 ---
 
 Two quick things...
 
 ## 1. A correction
 
-In last week's post on [checking if a date is valid with JavaScript](/how-to-check-if-a-date-is-valid-with-vanilla-javascript/), I incorrectly said you needed to pass in the month as a `0` - `11` integer (example, March is `2`).
+In last week's post on [checking if a date is valid with JavaScript](https://gomakethings.com/how-to-check-if-a-date-is-valid-with-vanilla-javascript/), I incorrectly said you needed to pass in the month as a `0` - `11` integer (example, March is `2`).
 
 This is incorrect. The function automatically adjusts the date for you. I updated the original post accordingly.
 

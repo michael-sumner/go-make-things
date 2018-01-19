@@ -3,16 +3,18 @@ categories:
 - Code
 - JavaScript
 date: '2017-06-20'
+permalink: /climbing-up-the-dom-until-you-hit-a-match-with-vanilla-javascript/
 title: Climbing up the DOM until you hit a match with vanilla JavaScript
+url: /2017/06/20/climbing-up-the-dom-until-you-hit-a-match-with-vanilla-javascript
 ---
 
-Yesterday, we looked at [how to get all parent elements](/how-to-get-all-parent-elements-with-vanilla-javascript/) with vanilla JavaScript. Today, we're going to modify our script to stop when it finds an element with a specific selector.
+Yesterday, we looked at [how to get all parent elements](https://gomakethings.com/how-to-get-all-parent-elements-with-vanilla-javascript/) with vanilla JavaScript. Today, we're going to modify our script to stop when it finds an element with a specific selector.
 
 ## Getting Setup
 
 Here's yesterday's script, renamed `getParentsUntil`.
 
-```javascript
+```lang-javascript
 var getParentsUntil = function (elem, selector) {
 
 	// Element.matches() polyfill
@@ -62,7 +64,7 @@ To stop when we hit a certain element, we need to do two things:
 
 We'll again use `matches()` to check our new selector, which we'll call `stop`. If the current parent element matches the `stop` selector, we'll use `break` to end our loop.
 
-```javascript
+```lang-javascript
 var getParentsUntil = function (elem, selector, stop) {
 
 	// Element.matches() polyfill
@@ -107,7 +109,7 @@ var getParentsUntil = function (elem, selector, stop) {
 
 To use our new script, you'd do this.
 
-```javascript
+```lang-javascript
 var elem = document.querySelector('.some-element');
 var parents = getParents(elem, '.pick-me', '.stop-here');
 ```

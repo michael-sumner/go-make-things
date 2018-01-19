@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2011-10-28'
+permalink: /should-you-use-social-media/
 title: Should you use social media?
+url: /2011/10/28/should-you-use-social-media
 ---
 
 By <a href="https://twitter.com/#!/unmarketing/status/117627380830449664/photo/1">Scott Stratten</a> of <a href="http://www.unmarketing.com/">UnMarketing</a>.

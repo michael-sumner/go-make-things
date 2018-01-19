@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2014-02-14'
+permalink: /the-new-hotness/
 title: The New Hotness
+url: /2014/02/14/the-new-hotness
 ---
 
 <p>Every week, I see a tweet about some new hotness web tool that I absolutely <em>have</em> to use, because, you know... everyone else is.

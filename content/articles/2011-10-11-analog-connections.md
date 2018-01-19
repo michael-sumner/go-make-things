@@ -2,7 +2,9 @@
 categories:
 - Technology
 date: '2011-10-11'
+permalink: /analog-connections/
 title: Analog Connections
+url: /2011/10/11/analog-connections
 ---
 
 Lance Haun wrote a beautiful article yesterday on <a href="http://rehaul.com/an-hrevolution-journey-the-challenge-and-connection/">HRevolution, Steve Jobs, and the importance of analog connections...</a>

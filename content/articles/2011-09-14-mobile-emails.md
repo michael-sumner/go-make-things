@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2011-09-14'
+permalink: /mobile-emails/
 title: Mobile Emails
+url: /2011/09/14/mobile-emails
 ---
 
 I love that J. Crew offers a mobile-optimized version of their emails. If you're going to take this approach, though, the link to view the mobile-optimized version should be big enough to actually click on a mobile phone.

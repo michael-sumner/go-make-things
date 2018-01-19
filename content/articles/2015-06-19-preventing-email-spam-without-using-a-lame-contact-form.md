@@ -3,7 +3,9 @@ categories:
 - Code
 - WordPress
 date: '2015-06-19'
+permalink: /preventing-email-spam-without-using-a-lame-contact-form/
 title: Preventing email spam without using a lame contact form
+url: /2015/06/19/preventing-email-spam-without-using-a-lame-contact-form
 ---
 
 Contact forms suck. But so does the email spam that happens when you post your raw email address on your website.

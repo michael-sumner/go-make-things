@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2015-04-16'
+permalink: /when-bad-content-ruins-good-content/
 title: When bad content ruins good content
+url: /2015/04/16/when-bad-content-ruins-good-content
 ---
 
 Here's something I see a lot (I've redacted the conference name because this is a teaching exercise, not a public shaming):

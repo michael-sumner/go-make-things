@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-08-05'
+permalink: /the-wicked-fast-wordpress-workshop/
 title: The Wicked Fast WordPress Workshop
+url: /2013/08/05/the-wicked-fast-wordpress-workshop
 ---
 
 I'm running a four-hour workshop on <a href="http://2013.providence.wordcamp.org/tickets/">Wicked Fast WordPress at WordCamp Providence</a>.

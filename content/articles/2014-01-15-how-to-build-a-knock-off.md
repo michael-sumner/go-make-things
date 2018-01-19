@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2014-01-15'
+permalink: /how-to-build-a-knock-off/
 title: How to build a knock-off
+url: /2014/01/15/how-to-build-a-knock-off
 ---
 
 This is a genius piece of marketing. Dave from <a href="http://www.saddlebackleather.com/">Saddleback Leather</a> put together a short video teaching his competitors <a href="https://www.youtube.com/watch?v=a11wlngpuSY">how to build less expensive (and durable) knock-offs</a> of his product.

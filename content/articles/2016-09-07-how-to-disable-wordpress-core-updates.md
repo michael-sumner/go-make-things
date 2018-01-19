@@ -3,7 +3,9 @@ categories:
 - Code
 - WordPress
 date: '2016-09-07'
+permalink: /how-to-disable-wordpress-core-updates/
 title: How to disable WordPress core updates
+url: /2016/09/07/how-to-disable-wordpress-core-updates
 ---
 
 I was recently working with a client who had made some custom security modifications to their database. Anytime someone ran the WordPress "Click to Update" process on WP Core, it would break the entire site.
@@ -12,7 +14,7 @@ Even knowing this, I managed to do it three times, in part because the button is
 
 Here's a little bit of code that removes that button---and the accompanying nag message---from the WordPress dashboard, avoiding this problem altogether.
 
-```php
+```lang-php
 /**
  * Remove the "Time to Update" nag message in WordPress
  */

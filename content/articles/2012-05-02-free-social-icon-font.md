@@ -4,7 +4,9 @@ categories:
 - Design &amp; UX
 - Technology
 date: '2012-05-02'
+permalink: /free-social-icon-font/
 title: Free Social Icon Font
+url: /2012/05/02/free-social-icon-font
 ---
 
 <div class="callout"><p class="tall">A free, pre-styled font for serving pixel-perfect icons on any screen.</p>

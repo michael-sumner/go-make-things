@@ -4,7 +4,9 @@ categories:
 - Design &amp; UX
 - JavaScript
 date: '2017-06-09'
+permalink: /javascript-form-validation/
 title: JavaScript form validation
+url: /2017/06/09/javascript-form-validation
 ---
 
 This week I released [Validate.js](https://github.com/cferdinandi/validate), a lightweight, open source form validation script.
@@ -19,7 +21,7 @@ Most of them require you to manually specify your validation criteria with JavaS
 
 Validate.js hooks into the browser-native form input types (like `email`, `number`, and `url`) and validation attributes (like `required`, `pattern`, and `max` and `min`). All you need to do is include it on your site and run `validate.init()`. The script handles the rest.
 
-```markup
+```lang-markup
 <div>
 	<label for="email">Email</label>
 	<input type="email" id="email" required>

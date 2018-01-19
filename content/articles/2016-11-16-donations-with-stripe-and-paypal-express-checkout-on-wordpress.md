@@ -4,7 +4,9 @@ categories:
 - JavaScript
 - WordPress
 date: '2016-11-16'
+permalink: /donations-with-stripe-and-paypal-express-checkout-on-wordpress/
 title: Donations with Stripe and PayPal Express Checkout on WordPress
+url: /2016/11/16/donations-with-stripe-and-paypal-express-checkout-on-wordpress
 ---
 
 Yesterday I released [Donations](https://github.com/cferdinandi/gmt-donations), a WordPress plugin that lets you create powerful donation forms that integrate with Stripe and PayPal Express Checkout.

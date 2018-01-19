@@ -3,14 +3,16 @@ categories:
 - Code
 - JavaScript
 date: '2015-07-06'
+permalink: /making-ajax-requests-with-native-javascript/
 title: Making AJAX requests with native JavaScript
+url: /2015/07/06/making-ajax-requests-with-native-javascript
 ---
 
 Get the contents of another HTML document, or from a specific element in another document, without using jQuery. This only works for documents on the same domain. Supported back to IE8.
 
 <!--more-->
 
-```javascript
+```lang-javascript
 /**
  * Get data from a URL
  * @param  {String} url       The URL to get

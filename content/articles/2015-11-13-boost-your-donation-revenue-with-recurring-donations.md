@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2015-11-13'
+permalink: /boost-your-donation-revenue-with-recurring-donations/
 title: Boost your donation revenue with recurring donations
+url: /2015/11/13/boost-your-donation-revenue-with-recurring-donations
 ---
 
 One of the simplest ways to smooth out cash flow *and* increase your overall donation revenue is by asking for recurring donations. This helps you break out of the feast or famine seasonal donation cycle and gain some cash flow continuity.

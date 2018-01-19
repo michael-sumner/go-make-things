@@ -3,16 +3,18 @@ categories:
 - Code
 - JavaScript
 date: '2017-09-27'
+permalink: /components-state-and-vanilla-javascript/
 title: Components, state, and vanilla JavaScript
+url: /2017/09/27/components-state-and-vanilla-javascript
 ---
 
-A few weeks ago, we looked at [how to render content with vanilla JavaScript](/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/).
+A few weeks ago, we looked at [how to render content with vanilla JavaScript](https://gomakethings.com/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/).
 
 One of the nice features of frameworks like React is that content renders again automatically when the data behind it updates. For example, imagine you had a list of todo list items. When an item is added or completed, you probably want to regenerate that list.
 
 Over the next few days, we're going to look at how to do the same thing with vanilla JavaScript.
 
-*__Quick heads up:__ If you haven't read the post on [rendering content](/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/), you should go read that first or some of this might not make sense.*
+*__Quick heads up:__ If you haven't read the post on [rendering content](https://gomakethings.com/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/), you should go read that first or some of this might not make sense.*
 
 ## Adding state
 
@@ -28,7 +30,7 @@ Get it? Yea, I think it's weird, too!
 
 Historically, you might have a set of a data that sits globally within your application. You'd reference it within your templates.
 
-```js
+```lang-js
 // The data
 var data = {
 	todos: [
@@ -79,7 +81,7 @@ render(todoList, document.querySelector('#todo-list'));
 
 In frameworks like React, the data (ie, the *state*) is associated with the template, or *component*.
 
-```js
+```lang-js
 // The template
 var todoList = function () {
 
@@ -134,7 +136,7 @@ render(todoList, document.querySelector('#todo-list'));
 
 Now when you update your todo data, you'll update the `todoList()` state instead a global data set.
 
-```js
+```lang-js
 // The `Eat` item is marked as complete
 todoList.state.todos = [
 	{

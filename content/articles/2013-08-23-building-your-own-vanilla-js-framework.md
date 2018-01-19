@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-08-23'
+permalink: /building-your-own-vanilla-js-framework/
 title: Building your own vanilla JS framework
+url: /2013/08/23/building-your-own-vanilla-js-framework
 ---
 
 I've started <a href="https://gomakethings.com/ditching-jquery-for-vanilla-js/">dropping jQuery in favor of vanilla JavaScript</a>. It's resulted in some pretty dramatic performance improvements.

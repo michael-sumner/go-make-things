@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2014-12-31'
+permalink: /getting-html-asynchronously-from-another-page/
 title: Getting HTML asynchronously from another page (with native JavaScript)
+url: /2014/12/31/getting-html-asynchronously-from-another-page
 ---
 
 On a recent project, I needed to load the form on a contact page in a modal window on a different page.
@@ -16,7 +18,7 @@ This approach uses [XMLHttpRequest web API](https://developer.mozilla.org/en-US/
 
 While this API is supported back to IE 7, HTML requests are only supported in IE10 and higher. The method below includes a feature test and won't run in unsupported browsers.
 
-```javascript
+```lang-javascript
 /**
  * Get HTML asynchronously
  * @param  {String}   url      The URL to get HTML from
@@ -47,7 +49,7 @@ var getHTML = function ( url, callback ) {
 
 To replace the entire contents of a page with content from another, you would do this:
 
-```javascript
+```lang-javascript
 getHTML( '/about', function (response) {
 	document.documentElement.innerHTML = response.documentElement.innerHTML;
 });
@@ -56,7 +58,7 @@ getHTML( '/about', function (response) {
 You can also get specific elements on the page by treating the `response` variable the same way you would the `document` element on any other page.
 
 
-```javascript
+```lang-javascript
 getHTML( '/about', function (response) {
 	var someElem = document.querySelector( '#some-elem' );
 	var someOtherElem = response.querySelector( '#some-other-elem' );

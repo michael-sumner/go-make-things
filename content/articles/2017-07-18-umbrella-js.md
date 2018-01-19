@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-07-18'
+permalink: /umbrella-js/
 title: Umbrella JS
+url: /2017/07/18/umbrella-js
 ---
 
 If you're looking to transition to vanilla JS but aren't ready to go all-in, [Umbrella JS](https://umbrellajs.com/) may be a nice stepping stone for you.

@@ -3,7 +3,9 @@ categories:
 - Code
 date: '2012-11-14'
 excerpt: A simple tip for more usable forms using HTML5.
+permalink: /better-forms/
 title: Better Forms
+url: /2012/11/14/better-forms
 ---
 
 Ever notice how on some sites, the keyboard on your iPhone or Android changes based on what you're doing?

@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Design &amp; UX
 date: '2012-02-20'
+permalink: /the-inventors-dilemma/
 title: The Inventor&#8217;s Dilemma
+url: /2012/02/20/the-inventors-dilemma
 ---
 
 Did you know that the point of the Copyright Act of 1790 and the Patent Act of 1790 was <em>not</em> to help creators maintain exclusive rights indefinitely or line their pockets with cash?

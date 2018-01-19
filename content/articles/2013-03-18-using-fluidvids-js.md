@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2013-03-18'
+permalink: /using-fluidvids-js/
 title: Using FluidVids.js
+url: /2013/03/18/using-fluidvids-js
 ---
 
 Today, I'm going to show to use FluidVids.js to make your YouTube and Vimeo videos (and more) responsive.

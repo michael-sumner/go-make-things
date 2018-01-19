@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-01-05'
+permalink: /freezing-time/
 title: Freezing Time
+url: /2012/01/05/freezing-time
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2012/01/PlayingGuitar.jpg" alt="" title="PlayingGuitar" width="404" height="341" class="aligncenter size-full wp-image-1867" />

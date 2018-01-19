@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-11-01'
+permalink: /birds-bees-butterflies-the-hidden-beauty-of-pollinators/
 title: 'Birds, Bees &#038; Butterflies: The Hidden Beauty of Pollinators'
+url: /2011/11/01/birds-bees-butterflies-the-hidden-beauty-of-pollinators
 ---
 
 In this 7-minute TED Talk, Louie Schwartzberg discusses <a href="http://www.ted.com/talks/louie_schwartzberg_the_hidden_beauty_of_pollination.html">the hidden beauty of pollinators</a>, and shows some of the most stunning timelapse footage I've ever seen.

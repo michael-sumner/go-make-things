@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Technology
 date: '2013-02-27'
+permalink: /why-writing-with-our-hands-is-still-important/
 title: Why writing with our hands is still important
+url: /2013/02/27/why-writing-with-our-hands-is-still-important
 ---
 
 A lot of my peers are surprised that I take notes with a cheap pen and a MUJI notebook instead of on my iPad. I think better on paper.

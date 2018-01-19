@@ -3,14 +3,16 @@ categories:
 - Code
 - JavaScript
 date: '2017-07-06'
+permalink: /a-native-vanilla-javascript-way-to-get-the-closest-matching-parent-element/
 title: A native vanilla JavaScript way to get the closest matching parent element
+url: /2017/07/06/a-native-vanilla-javascript-way-to-get-the-closest-matching-parent-element
 ---
 
-Back in June, I showed you how to create a helper method, `getClosest()`, to [find the closest parent element with a certain selector](/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/).
+Back in June, I showed you how to create a helper method, `getClosest()`, to [find the closest parent element with a certain selector](https://gomakethings.com/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/).
 
 One of my readers told me about `.closest()`, a native element property that does the same thing.
 
-```javascript
+```lang-javascript
 var elem = document.querySelector('#some-element');
 var closestParent = elem.closest('.pick-me');
 ```
@@ -19,7 +21,7 @@ The catch? [It's poorly supported by browsers.](https://developer.mozilla.org/en
 
 *But...* there's [a polyfill you can use](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest#Polyfill), and it's less code than my helper function.
 
-```javascript
+```lang-javascript
 if (window.Element && !Element.prototype.closest) {
     Element.prototype.closest =
     function(s) {

@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Business &amp; Leadership
 date: '2011-10-04'
+permalink: /the-power-of-storytelling/
 title: The power of storytelling
+url: /2011/10/04/the-power-of-storytelling
 ---
 
 This talk by <a href="http://www.ted.com/talks/paul_nicklen_tales_of_ice_bound_wonderlands.html">Paul Nicklen on the beauty of the arctic</a> is one of my favorite TED Talks of all time.

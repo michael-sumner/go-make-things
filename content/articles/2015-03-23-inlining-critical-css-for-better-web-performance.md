@@ -6,10 +6,12 @@ categories:
 - JavaScript
 - Web Performance
 date: '2015-03-23'
+permalink: /inlining-critical-css-for-better-web-performance/
 title: Inlining critical CSS for better web performance
+url: /2015/03/23/inlining-critical-css-for-better-web-performance
 ---
 
-Last summer, I tried to implement [some performance tweaks to my site](/how-to-build-wicked-fast-rwd-sites/) that I hoped would push it below the 500ms mark (just half a second) for displaying content to visitors. I failed miserably.
+Last summer, I tried to implement [some performance tweaks to my site](https://gomakethings.com/how-to-build-wicked-fast-rwd-sites/) that I hoped would push it below the 500ms mark (just half a second) for displaying content to visitors. I failed miserably.
 
 At the time, my site was already displaying content after 700ms, but the updates I made were *increasing* start render time rather than reducing it.
 
@@ -37,7 +39,7 @@ First byte is typically server related, while first render is largely a matter o
 
 ## The Strategy
 
-I'd already done quite a bit to [improve the performance of this site](/wicked-fast-websites/).
+I'd already done quite a bit to [improve the performance of this site](https://gomakethings.com/wicked-fast-websites/).
 
 Your stylesheet is neccessary for rendering content properly, but while it's being downloaded and parsed, it also blocks any rendering from happening. To get around this challenge, an emerging technique recommended by both [Google](https://developers.google.com/speed/pagespeed/service/PrioritizeCriticalCss) and [Filament Group](http://www.filamentgroup.com/lab/performance-rwd.html) is to inline your critical path CSS. Yes, that's right. Inline your CSS.
 
@@ -84,7 +86,7 @@ The magic number you should care about is 14kb. That's (give or take) how much d
 
 The inlining piece is pretty straightforward. Add the contents of your critical CSS file to your `<head>` element inside a `<style>` tag:
 
-```markup
+```lang-markup
 <head>
 	<!-- Your other header markup -->
 	<style>
@@ -101,7 +103,7 @@ The inlining piece is pretty straightforward. Add the contents of your critical 
 
 Rather than adding your full stylesheet via a `<link>` element as you normally would, I used [loadCSS.js from the Filament Group](https://github.com/filamentgroup/loadCSS) (inlined in the `<head>`) to load it asynchronously. There's no natively supported way to load CSS files async (as there is with JS), so this script helps prevent render blocking.
 
-```markup
+```lang-markup
 <head>
 	<!-- Your other header markup -->
 	<script>
@@ -122,7 +124,7 @@ Rather than adding your full stylesheet via a `<link>` element as you normally w
 
 Then, I added a `<noscript>` fallback in the footer (again, to prevent render blocking) for browsers that don't support JavaScript or have it turned off.
 
-```markup
+```lang-markup
 <noscript>
 	<link href='/path/to/your/full.css' rel='stylesheet' type='text/css'>
 </noscript>
@@ -140,7 +142,7 @@ This does, of course, require some server-side logic.
 
 Setting the cookie requires one additional, *super* lightweight script from the Filament Group, [onloadCSS.js](https://github.com/filamentgroup/loadCSS/blob/master/onloadCSS.js) that runs a callback when the CSS file is loaded.
 
-```markup
+```lang-markup
 <head>
 	<!-- Your other header markup -->
 	<script>
@@ -160,7 +162,7 @@ The example code above sets a cookie called `fullCSS` that expires after a week.
 
 Implementation for this will vary based on your CMS and server technology. I use WordPress. Here's what my `functions.php` file looks like.
 
-```php
+```lang-php
 /**
  * Load theme scripts in the footer
  */
@@ -246,7 +248,7 @@ If you buy the Pro version of ZenCache, there's a GUI way to do this in the Word
 
 Create a file called `critical-css-salt.php` and add this to it:
 
-```php
+```lang-php
 <?php
 
 	if(!defined('WPINC')) // MUST have WordPress.
@@ -298,4 +300,4 @@ If most of that was greek to you, buy the Pro version, and add this to the "Dyna
 
 Not too bad. Because of the hosting I use, these numbers can sometimes run ~100ms higher. A better hosting solution (for example, [Digital Ocean's SSD Cloud Servers](https://www.digitalocean.com/)) might improve the metrics even more.
 
-You may also have noticed that my subsequent page load times went up a little bit on blog pages. This is most likely due to some other changes I made over the last few weeks, including [inlining SVG sprites](/using-svgs/). I'll be continuing to tweak things.
+You may also have noticed that my subsequent page load times went up a little bit on blog pages. This is most likely due to some other changes I made over the last few weeks, including [inlining SVG sprites](https://gomakethings.com/using-svgs/). I'll be continuing to tweak things.

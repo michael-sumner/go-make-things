@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-12-05'
+permalink: /using-localstorage-to-save-user-data-with-vanilla-javascript/
 title: Using localStorage to save user data with vanilla JavaScript
+url: /2017/12/05/using-localstorage-to-save-user-data-with-vanilla-javascript
 ---
 
 The `localStorage` API lets you store data locally (as the name implies) that the browser can access later.
@@ -12,7 +14,7 @@ Data is stored indefinitely, and must be a string.
 
 Use `setItem()` to store your data, passing in a key as the first argument, and your data value as the second. You can call `getItem()` to retrieve your data, and `removeItem()` to delete it.
 
-```javascript
+```lang-javascript
 // Store data
 var someData = 'The data that I want to store for later.';
 localStorage.setItem('myDataKey', someData);

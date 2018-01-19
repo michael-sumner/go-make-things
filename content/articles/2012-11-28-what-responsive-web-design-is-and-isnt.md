@@ -3,7 +3,9 @@ categories:
 - Design &amp; UX
 date: '2012-11-28'
 excerpt: Should you support IE 6 and 7 in responsive web design?
+permalink: /what-responsive-web-design-is-and-isnt/
 title: What responsive web design is (and isn&#8217;t)
+url: /2012/11/28/what-responsive-web-design-is-and-isnt
 ---
 
 There's been an interesting discussion unfolding on the <a href="http://www.linkedin.com/groups/Mobile-First-Responsive-Web-Design-4187126">Mobile First Responsive Web Design group</a> on LinkedIn regarding support for IE 6 and 7.

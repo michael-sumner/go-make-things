@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2012-04-06'
+permalink: /what-is-rim-thinking/
 title: What is RIM thinking?
+url: /2012/04/06/what-is-rim-thinking
 ---
 
 Discussing <a href="http://www.bloomberg.com/news/2012-03-23/rim-to-give-developers-prototypes-of-new-blackberry-in-may.html">RIM's new operating system</a>, BlackBerry 10, Hugo Miller of Bloomberg writes...

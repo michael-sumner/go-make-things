@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2014-02-17'
+permalink: /introducing-right-height/
 title: Introducing Right Height
+url: /2014/02/17/introducing-right-height
 ---
 
 <a href="http://cferdinandi.github.io/right-height/">Right Height</a> is a lightweight script that dynamically sets content areas of varying lengths to the same height.

@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2011-09-13'
+permalink: /a-quick-guide-to-typography/
 title: A Quick Guide to Typography
+url: /2011/09/13/a-quick-guide-to-typography
 ---
 
 Typography, the art of type (you know... letters, fonts, whatever), is a complex area of graphic design. I don't know nearly as much about it as I'd like.

@@ -4,10 +4,12 @@ categories:
 - CSS
 - JavaScript
 date: '2017-08-28'
+permalink: /how-to-a-fade-in-to-vanilla-javascript-show-and-hide-methods/
 title: How to a fade in to vanilla JavaScript show and hide methods
+url: /2017/08/28/how-to-a-fade-in-to-vanilla-javascript-show-and-hide-methods
 ---
 
-Last week, we [created some simple `show()` and `hide()` methods](/how-to-show-and-hide-elements-with-vanilla-javascript/), and [added a transition animation to them](/how-to-add-transition-animations-to-vanilla-javascript-show-and-hide-methods/).
+Last week, we [created some simple `show()` and `hide()` methods](https://gomakethings.com/how-to-show-and-hide-elements-with-vanilla-javascript/), and [added a transition animation to them](https://gomakethings.com/how-to-add-transition-animations-to-vanilla-javascript-show-and-hide-methods/).
 
 One of my readers mentioned that adding a fade in effect would be a nice visual touch, so today, let's look at how to do that.
 
@@ -17,7 +19,7 @@ The good news is that this can be done entirely with CSS.
 
 First, we'll add a default `opacity` of `0` to our `.toggle-content` class, and an `opacity` of `1` when the `.is-visible` class is included.
 
-```css
+```lang-css
 .toggle-content {
 	display: none;
 	height: 0;
@@ -35,7 +37,7 @@ First, we'll add a default `opacity` of `0` to our `.toggle-content` class, and 
 
 Next, let's add `opacity` to our transition. If we added another `transition`, it would override the first. Instead, we'll use a comma to add multiple transition effects.
 
-```css
+```lang-css
 .toggle-content {
 	display: none;
 	height: 0;

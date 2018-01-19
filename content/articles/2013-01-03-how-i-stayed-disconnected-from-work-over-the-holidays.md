@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2013-01-03'
+permalink: /how-i-stayed-disconnected-from-work-over-the-holidays/
 title: How I stayed disconnected from work over the holidays
+url: /2013/01/03/how-i-stayed-disconnected-from-work-over-the-holidays
 ---
 
 Whenever I take time off from work, I make it a point to completely disconnect. I don't do any work. I don't <em>think</em> about work. I don't read or respond to emails. I just enjoy time with my family.

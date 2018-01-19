@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2012-03-16'
+permalink: /pixel-dancer/
 title: Pixel Dancer
+url: /2012/03/16/pixel-dancer
 ---
 
 This video is so absurd and <a href="http://vimeo.com/18022468">delightfully amusing</a>. A great use of 9 seconds.

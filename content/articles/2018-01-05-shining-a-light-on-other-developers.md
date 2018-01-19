@@ -3,7 +3,9 @@ categories:
 - Careers
 - JavaScript
 date: '2018-01-05'
+permalink: /shining-a-light-on-other-developers/
 title: Shining a light on other developers
+url: /2018/01/05/shining-a-light-on-other-developers
 ---
 
 A couple of months ago, [Brenna Flood shared her experiences being marginalized and pushed aside](https://twitter.com/brennx0r/status/929589909198745600) as her white, male colleagues saw their careers take off.

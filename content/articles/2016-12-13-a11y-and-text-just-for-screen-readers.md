@@ -5,14 +5,16 @@ categories:
 - CSS
 - Design &amp; UX
 date: '2016-12-13'
+permalink: /a11y-and-text-just-for-screen-readers/
 title: a11y and text just for screen readers
+url: /2016/12/13/a11y-and-text-just-for-screen-readers
 ---
 
 In [Kraken](https://cferdinandi.github.io/kraken/), [Keel](https://keel.gomakethings.com/), and pretty much any site I build, I use the `.screen-reader` class to visually hide content that I still want available to screen readers. It's an approach I adapted from the HTML5 Boilerplate.
 
-You can also set content to reappear if in focus (useful for things like [skip nav links](/hidden-content-for-better-a11y/) for sighted keyboard users).
+You can also set content to reappear if in focus (useful for things like [skip nav links](https://gomakethings.com/hidden-content-for-better-a11y/) for sighted keyboard users).
 
-```css
+```lang-css
 /**
  * Visually hide an element, but leave it available for screen readers
  * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css
@@ -47,7 +49,7 @@ You can also set content to reappear if in focus (useful for things like [skip n
 
 However, I just learned that on some screen readers, that `width: 1px` setting [can cause all of the text inside to collapse into a single word](https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe#.a4reakhtm). For example:
 
-```markup
+```lang-markup
 <a class="screen-reader" href="#main">Skip to the main content</a>
 ```
 
@@ -59,7 +61,7 @@ Skiptothemainnav
 
 Fortunately, J. Renée Beach has fix! Just add `white-space: nowrap;` to prevent the collapse:
 
-```css
+```lang-css
 /**
  * Visually hide an element, but leave it available for screen readers
  * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css
@@ -80,7 +82,7 @@ Fortunately, J. Renée Beach has fix! Just add `white-space: nowrap;` to prevent
 
 And for focus visible text, I set it back to normal.
 
-```css
+```lang-css
 /**
  * Extends the .screen-reader class to allow the element to be focusable when navigated to via the keyboard
  * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css

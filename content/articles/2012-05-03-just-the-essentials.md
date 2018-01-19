@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2012-05-03'
+permalink: /just-the-essentials/
 title: Just the Essentials
+url: /2012/05/03/just-the-essentials
 ---
 
 <a href="http://www.geekwire.com/2012/instagrams-billion-dollar-idea-wasnt-photos/">Geek Wire on the success of Instagram...</a>

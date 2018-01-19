@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2011-03-14'
+permalink: /how-to-monetize-your-blog-in-3-easy-steps/
 title: How to Monetize Your Blog (In 3 Easy Steps!)
+url: /2011/03/14/how-to-monetize-your-blog-in-3-easy-steps
 ---
 
 <ol>

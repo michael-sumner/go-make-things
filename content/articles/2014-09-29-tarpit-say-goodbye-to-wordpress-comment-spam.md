@@ -3,10 +3,12 @@ categories:
 - Code
 - Design &amp; UX
 date: '2014-09-29'
+permalink: /tarpit-say-goodbye-to-wordpress-comment-spam/
 title: 'Tarpit: Say Goodbye to WordPress Comment Spam'
+url: /2014/09/29/tarpit-say-goodbye-to-wordpress-comment-spam
 ---
 
-Back in June, I made a decision to [remove comments from this site](/disabling-comments/).
+Back in June, I made a decision to [remove comments from this site](https://gomakethings.com/disabling-comments/).
 
 I wasn't happy about it. I think the web is better with open conversations. But Askimet was letting through an incredible amount of spam, and managing it was taking up time that I could have spent writing posts and making cool stuff.
 

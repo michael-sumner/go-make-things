@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2014-01-27'
+permalink: /password-usability/
 title: Password Usability
+url: /2014/01/27/password-usability
 ---
 
 For the last few months, Luke Wroblewski has been advocating for <a href="http://www.lukew.com/ff/entry.asp?1653">more usable password fields</a>:

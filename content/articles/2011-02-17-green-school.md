@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-02-17'
+permalink: /green-school/
 title: Green School
+url: /2011/02/17/green-school
 ---
 
 <a href="http://www.greenschool.org/">Green School</a> is a fascinating project. Perhaps this is the future of healthier, more holistic education? Learn more in <a href="http://www.ted.com/talks/john_hardy_my_green_school_dream.html">this excellent TED Talks video...</a>

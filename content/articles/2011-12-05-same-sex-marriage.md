@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2011-12-05'
+permalink: /same-sex-marriage/
 title: Same Sex Marriage
+url: /2011/12/05/same-sex-marriage
 ---
 
 Back in January, Zach Wahls, a 19-year-old University of Iowa student, spoke about the strength of his family during a public forum on House Joint Resolution 6 in the Iowa House of Representatives. Wahls has two mothers, and came to oppose House Joint Resolution 6 which would end civil unions in Iowa.

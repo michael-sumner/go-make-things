@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-03-17'
+permalink: /a-tale-of-two-twins/
 title: A Tale of Two Twins
+url: /2011/03/17/a-tale-of-two-twins
 ---
 
 So I can't say I have any better understanding of Einstein's Theory of Relativity after watching this (if anything, I'm more confused), but what <a href="http://vimeo.com/19768968">a cool story to illustrate the principals of Einsteinian time travel</a>.

@@ -3,7 +3,9 @@ categories:
 - Code
 - WordPress
 date: '2017-03-07'
+permalink: /automating-slack-and-wordpress/
 title: Automating Slack and WordPress
+url: /2017/03/07/automating-slack-and-wordpress
 ---
 
 Last week, I released [a new version of *Ditching jQuery*](https://ditchingjquery.com) that included exclusive access to my Ditching jQuery Slack Team.

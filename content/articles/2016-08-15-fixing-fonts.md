@@ -5,10 +5,12 @@ categories:
 - JavaScript
 - Web Performance
 date: '2016-08-15'
+permalink: /fixing-fonts/
 title: Fixing Fonts
+url: /2016/08/15/fixing-fonts
 ---
 
-*This is an excerpt from my latest book, ["Wicked Fast Websites."](/wicked-fast-websites/)*
+*This is an excerpt from my latest book, ["Wicked Fast Websites."](https://gomakethings.com/wicked-fast-websites/)*
 
 Loading web fonts often results in a Flash of Invisible Text (FOIT) that leaves the page unusable until it loads.
 
@@ -30,7 +32,7 @@ We also need a way to detect when the font is fully loaded. Fortunately, [Font F
 
 We'll load the font asynchronously, and use Font Face Observer to detect when it's loaded. When it loads, we'll add a class to the `<html>` element that we can hook into for styling.
 
-```css
+```lang-css
 body {
 	font-family: Georgia, serif;
 }
@@ -44,7 +46,7 @@ body {
 
 Traditionally, you would load your web font using the `wp_enqueue_style` function:
 
-```php
+```lang-php
 // Load theme fonts
 function load_theme_fonts() {
     wp_enqueue_style( 'theme-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans', null, null, 'all' );
@@ -54,7 +56,7 @@ add_action('wp_enqueue_scripts', 'load_theme_fonts');
 
 Instead, we want to hook into the `wp_head` action to inline loadCSS:
 
-```php
+```lang-php
 // Load fonts inline in the header
 function load_fonts_inline_header() {
 	?>
@@ -88,7 +90,7 @@ Once they're stored in the browser cache, we don't need to use the technique des
 To make this happen, we'll set a cookie with Font Face Observer when the font loads. In our `functions.php` file, we'll use a different approach depending on whether or not that cookie exists.
 
 
-```php
+```lang-php
 // If cookie set, load font traditional way
 function load_theme_fonts() {
 	if ( isset($_COOKIE['fontsLoaded']) && $_COOKIE['fontsLoaded'] === 'true' ) {
@@ -124,4 +126,4 @@ function load_theme_font_async() {
 add_action('wp_head', 'load_theme_font_async', 30);
 ```
 
-*If you like this tutorial, check out my latest book, ["Wicked Fast Websites."](/wicked-fast-websites/)*
+*If you like this tutorial, check out my latest book, ["Wicked Fast Websites."](https://gomakethings.com/wicked-fast-websites/)*

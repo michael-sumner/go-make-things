@@ -3,16 +3,18 @@ categories:
 - Code
 - JavaScript
 date: '2017-06-15'
+permalink: /how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/
 title: How to get the closest parent element with a matching selector using vanilla JavaScript
+url: /2017/06/15/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript
 ---
 
-***Note:*** *There's [an update version of this article](/a-native-vanilla-javascript-way-to-get-the-closest-matching-parent-element/).*
+***Note:*** *There's [an update version of this article](https://gomakethings.com/a-native-vanilla-javascript-way-to-get-the-closest-matching-parent-element/).*
 
 One thing I need to do a lot in my plugins is find a parent element with a particular selector.
 
 For example, when someone clicks on a link in an accordion, I need to get the parent container for all of the other content sections. I don't always know exactly what the markup structure will look like, so I can't just use `.parentNode` to get it.
 
-```markup
+```lang-markup
 <div class="accordion">
 	<div>
 		<a class="accordion-toggle" href="#content-1">Content 1</a>
@@ -37,7 +39,7 @@ To do this, we can setup a `for` loop to climb up the DOM. On each loop, we'll g
 
 First, let's setup a helper function.
 
-```javascript
+```lang-javascript
 var getClosest = function () {
 	// Code goes here...
 };
@@ -45,7 +47,7 @@ var getClosest = function () {
 
 Next, let's create our loop.
 
-```javascript
+```lang-javascript
 var getClosest = function (elem) {
 	for ( ; elem && elem !== document; elem = elem.parentNode ) {
 		// Do something...
@@ -63,7 +65,7 @@ Finally, the last part (after the second semicolon) is where we tell the loop wh
 
 Inside our loop, we want to check and see if the current element matches our selector. For a class we might use `classList`. For an ID we'd use `elem.id === 'our-id'`. And so on. To make things easy, though, let's use the `.matches()` method, which checks any valid CSS selector.
 
-```javascript
+```lang-javascript
 var getClosest = function (elem, selector) {
 	for ( ; elem && elem !== document; elem = elem.parentNode ) {
 		if ( elem.matches( selector ) ) return elem;
@@ -78,7 +80,7 @@ If there's a matching element, our helper function will return it. If it makes i
 
 There's one last thing we need to do, though. Many browsers implemented `.matches()` with proprietary prefixes. Others didn't implement it but support `querySelectorAll`. In both cases, a lightweight polyfill bolts in `.matches()` support.
 
-```javascript
+```lang-javascript
 var getClosest = function (elem, selector) {
 
 	// Element.matches() polyfill
@@ -112,7 +114,7 @@ This gives you browser support back to at least IE9.
 
 Now you can do something like this:
 
-```javascript
+```lang-javascript
 document.addEventListener('click', function (event) {
 
 	// If the clicked item is an `.accordion-toggle` get the parent `.accordion`

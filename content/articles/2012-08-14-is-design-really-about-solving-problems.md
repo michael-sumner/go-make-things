@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-08-14'
+permalink: /is-design-really-about-solving-problems/
 title: Is design really about solving problems?
+url: /2012/08/14/is-design-really-about-solving-problems
 ---
 
 Matthew Butterick believes that <a href="http://unitscale.com/mb/reversing-the-tide/">problem solving is actually the lowest form of design</a>.

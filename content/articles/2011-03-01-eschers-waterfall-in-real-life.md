@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Design &amp; UX
 date: '2011-03-01'
+permalink: /eschers-waterfall-in-real-life/
 title: Escher&#8217;s Waterfall in Real Life
+url: /2011/03/01/eschers-waterfall-in-real-life
 ---
 
 This is really cool, and I have no idea how it works! This guy built <a href="https://www.youtube.com/watch?v=0v2xnl6LwJE">a real-life version of Escher's Waterfall...</a>

@@ -3,12 +3,14 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-10'
+permalink: /es6-arrow-function-rest-parameters/
 title: ES6 arrow function rest parameters
+url: /2017/11/10/es6-arrow-function-rest-parameters
 ---
 
-Yesterday, I showed you a technique for [getting an array of all of the arguments passed into a function](/getting-an-array-of-all-arguments-passed-into-a-function-with-vanilla-javascript/).
+Yesterday, I showed you a technique for [getting an array of all of the arguments passed into a function](https://gomakethings.com/getting-an-array-of-all-arguments-passed-into-a-function-with-vanilla-javascript/).
 
-Unfortunately, this technique does not work for [ES6 arrow functions](/an-introduction-to-es6-arrow-functions/), which don't have an `arguments` variable natively assigned like traditional functions do.
+Unfortunately, this technique does not work for [ES6 arrow functions](https://gomakethings.com/an-introduction-to-es6-arrow-functions/), which don't have an `arguments` variable natively assigned like traditional functions do.
 
 Instead, they have something called *rest parameters*.
 
@@ -21,7 +23,7 @@ Rest parameters work a lot like `arguments`, but with two notable advantages.
 
 You define *rest parameters* by passing in an argument prefixed with `...`.
 
-```javascript
+```lang-javascript
 var logStuff = (arg1, arg2, ...moreArgs) => {
 
 	// Logs arg1
@@ -44,7 +46,7 @@ logStuff('chicken', 'tuna', 'chips', 'cookie', 'soda', 'delicious');
 
 That `add()` function we created yesterday? Here it is as an arrow function.
 
-```javascript
+```lang-javascript
 var add = (...args) => {
 
 	// Set a starting total
@@ -61,4 +63,4 @@ var add = (...args) => {
 };
 ```
 
-**Psst...** This post was adapted from my latest vanilla JS pocket guide, ["Variables, Functions, and Scope."](/guides/variables-functions-and-scope/)
+**Psst...** This post was adapted from my latest vanilla JS pocket guide, ["Variables, Functions, and Scope."](https://gomakethings.com/guides/variables-functions-and-scope/)

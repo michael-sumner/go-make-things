@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-10-23'
+permalink: /progressive-jpgs-for-wordpress/
 title: Progressive JPGs for WordPress
+url: /2013/10/23/progressive-jpgs-for-wordpress
 ---
 
 <p><a href="http://exisweb.net/">James Foster</a> made an awesome addition to my <a href="http://cferdinandi.github.io/image-compress-and-sharpen/">Image Compress &amp; Sharpen plugin</a> for WordPress: progressive JPGs.

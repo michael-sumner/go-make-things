@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-09-20'
+permalink: /what-is-intelligence-anyway/
 title: What is intelligence, anyway?
+url: /2011/09/20/what-is-intelligence-anyway
 ---
 
 <blockquote>You’re so goddamned educated, doc, I knew you couldn’t be very smart.</blockquote>

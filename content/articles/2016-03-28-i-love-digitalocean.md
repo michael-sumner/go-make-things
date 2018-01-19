@@ -2,7 +2,9 @@
 categories:
 - Technology
 date: '2016-03-28'
+permalink: /i-love-digitalocean/
 title: I <3 DigitalOcean
+url: /2016/03/28/i-love-digitalocean
 ---
 
 A few months ago, I switched from my old shared hosting provider to [DigitalOcean](https://m.do.co/c/08a079d9bd9a).

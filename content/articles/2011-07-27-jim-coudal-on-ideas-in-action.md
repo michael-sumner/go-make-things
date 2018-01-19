@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2011-07-27'
+permalink: /jim-coudal-on-ideas-in-action/
 title: Jim Coudal on Ideas in Action
+url: /2011/07/27/jim-coudal-on-ideas-in-action
 ---
 
 <a href="http://coudal.com/">Jim Coudal of Coudal Partners</a> was the first speaker for the Chicago chapter of <a href="http://www.creativemornings.com/">Creative Mornings</a>.

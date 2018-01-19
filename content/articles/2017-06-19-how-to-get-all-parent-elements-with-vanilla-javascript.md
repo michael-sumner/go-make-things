@@ -3,10 +3,12 @@ categories:
 - Code
 - JavaScript
 date: '2017-06-19'
+permalink: /how-to-get-all-parent-elements-with-vanilla-javascript/
 title: How to get all parent elements with vanilla JavaScript
+url: /2017/06/19/how-to-get-all-parent-elements-with-vanilla-javascript
 ---
 
-Last week, I showed you how to [climb up the DOM](/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/) and find the closest element with a matching selector.
+Last week, I showed you how to [climb up the DOM](https://gomakethings.com/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/) and find the closest element with a matching selector.
 
 Today, let's look at how to get *all* parent elements of a specific element.
 
@@ -14,7 +16,7 @@ Today, let's look at how to get *all* parent elements of a specific element.
 
 Here's our script from last week.
 
-```javascript
+```lang-javascript
 var getClosest = function (elem, selector) {
 
     // Element.matches() polyfill
@@ -44,7 +46,7 @@ var getClosest = function (elem, selector) {
 
 Let's first change it's name to `getParents()`.
 
-```javascript
+```lang-javascript
 var getParents = function (elem, selector) {
 
 	// Element.matches() polyfill
@@ -76,7 +78,7 @@ var getParents = function (elem, selector) {
 
 Instead of matching against a selector and returning the first match, we want to get *all* parent nodes. Let's create an array that we'll add each of our parent elements to.
 
-```javascript
+```lang-javascript
 var getParents = function (elem, selector) {
 
 	// Element.matches() polyfill
@@ -109,7 +111,7 @@ var getParents = function (elem, selector) {
 
 When we climb up the DOM, we want to push each parent element to our array. When the loop is done, we'll return the entire array.
 
-```javascript
+```lang-javascript
 var getParents = function (elem, selector) {
 
 	// Element.matches() polyfill
@@ -155,7 +157,7 @@ If you go this route, we can remove the `selector` argument from the function, a
 
 Here's the finished script.
 
-```javascript
+```lang-javascript
 var getParents = function (elem) {
 
 	// Set up a parent array
@@ -174,7 +176,7 @@ var getParents = function (elem) {
 
 You would use it like this.
 
-```javascript
+```lang-javascript
 var elem = document.querySelector('.some-element');
 var parents = getParents(elem);
 ```
@@ -192,7 +194,7 @@ If a `selector` is provided:
 
 If no `selector` is provided, push the current parent element to the `parent` array.
 
-```javascript
+```lang-javascript
 var getParents = function (elem, selector) {
 
 	// Element.matches() polyfill
@@ -233,7 +235,7 @@ var getParents = function (elem, selector) {
 
 You would use it like this.
 
-```javascript
+```lang-javascript
 var elem = document.querySelector('.some-element');
 var parents = getParents(elem, '.pick-me');
 ```

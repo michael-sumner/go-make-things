@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2013-11-11'
+permalink: /notes-from-artifact-providence-2013/
 title: Notes from Artifact Providence 2013
+url: /2013/11/11/notes-from-artifact-providence-2013
 ---
 
 Last week, I had the pleasure of attending the <a href="http://artifactconf.com/">Artifact Conference</a> in Providence, RI. It was an amazing experience, and I wanted to share some of my thoughts and learnings from the event.

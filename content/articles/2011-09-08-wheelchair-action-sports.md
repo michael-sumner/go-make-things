@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-09-08'
+permalink: /wheelchair-action-sports/
 title: Wheelchair Action Sports
+url: /2011/09/08/wheelchair-action-sports
 ---
 
 Next time you think something is too difficult, watch this video of <a href="http://vimeo.com/20229286">Aaron "Wheelz" Fotheringham</a>.

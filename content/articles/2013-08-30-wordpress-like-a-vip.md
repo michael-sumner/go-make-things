@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2013-08-30'
+permalink: /wordpress-like-a-vip/
 title: WordPress like a VIP
+url: /2013/08/30/wordpress-like-a-vip
 ---
 
 <a href="http://hoppycow.com/">Steph Yiu</a> of the WordPress VIP team at Automattic gave an amazing talk this week on how to <a href="https://www.youtube.com/watch?v=c8BbjQIxaJs">do WordPress like a VIP</a>.

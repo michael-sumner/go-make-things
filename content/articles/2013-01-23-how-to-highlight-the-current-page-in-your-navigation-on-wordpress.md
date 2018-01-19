@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2013-01-23'
+permalink: /how-to-highlight-the-current-page-in-your-navigation-on-wordpress/
 title: How to highlight the current page in your navigation on WordPress
+url: /2013/01/23/how-to-highlight-the-current-page-in-your-navigation-on-wordpress
 ---
 
 You may have noticed that some websites will highlight the page you're currently on in the site navigation. This is a nice usability technique so that people always know where on a site they are.

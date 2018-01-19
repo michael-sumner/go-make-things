@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-10-15'
+permalink: /moocs-and-the-future-of-higher-education/
 title: MOOCs and the Future of Higher Education
+url: /2012/10/15/moocs-and-the-future-of-higher-education
 ---
 
 Massive Open Online Courses (or MOOCs) are said to be reshaping the future of higher education. From <a href="http://www.technologyreview.com/featured-story/429376/the-crisis-in-higher-education/">Technology Review...</a>

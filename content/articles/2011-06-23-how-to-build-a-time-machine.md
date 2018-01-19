@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-06-23'
+permalink: /how-to-build-a-time-machine/
 title: How to build a time machine
+url: /2011/06/23/how-to-build-a-time-machine
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/06/Time-Machine-466x350.jpg" alt="" title="Time-Machine" width="466" height="350" class="aligncenter size-medium wp-image-808" />

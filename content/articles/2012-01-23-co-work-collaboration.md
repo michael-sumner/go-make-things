@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2012-01-23'
+permalink: /co-work-collaboration/
 title: Co-Work &#038; Collaboration
+url: /2012/01/23/co-work-collaboration
 ---
 
 <em>The Economist</em> ran an interesting piece last month on <a href="http://www.economist.com/node/21542190">the rise of co-working...</a>

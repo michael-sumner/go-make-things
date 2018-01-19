@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-08-24'
+permalink: /the-coffee-analogy/
 title: The Coffee Analogy
+url: /2012/08/24/the-coffee-analogy
 ---
 
 Despite what Apple would like you to believe, few people actually make it big selling apps in the iTunes app store.

@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-16'
+permalink: /how-to-get-an-elements-distance-from-the-top-of-the-page-with-vanilla-javascript/
 title: How to get an element&#8217;s distance from the top of the page with vanilla JavaScript
+url: /2017/08/16/how-to-get-an-elements-distance-from-the-top-of-the-page-with-vanilla-javascript
 ---
 
 Getting an element's distance from the top of the page seems like it should be fairly straightforward.
@@ -20,7 +22,7 @@ The approach is actually pretty simple: climb up the DOM, get the `offsetTop` di
 
 We'll start by creating a placeholder variable for our distance to the top.
 
-```javascript
+```lang-javascript
 var distance = 0;
 ```
 
@@ -30,7 +32,7 @@ The `Element.offsetParent` property gets us the next parent element up the DOM t
 
 On each loop, we'll add the `offsetTop` value to our `distance` counter. Then we'll get the element's `offsetParent`, update our element variable, and repeat.
 
-```javascript
+```lang-javascript
 // Our element
 var elem = document.querySelector('#some-element');
 
@@ -48,9 +50,9 @@ do {
 } while (elem);
 ```
 
-Because of rounding errors, it's possible for the final `distance` to be less than `0`. We can use a [ternary operator](/ternary-operators/) to use `0` if our `distance` is negative, and the `distance` if it's not.
+Because of rounding errors, it's possible for the final `distance` to be less than `0`. We can use a [ternary operator](https://gomakethings.com/ternary-operators/) to use `0` if our `distance` is negative, and the `distance` if it's not.
 
-```javascript
+```lang-javascript
 // Our element
 var elem = document.querySelector('#some-element');
 
@@ -78,7 +80,7 @@ We'll move our code into a function called `getOffsetTop()`, and pass in our ele
 
 When our loop is done, we'll return our `distance`.
 
-```javascript
+```lang-javascript
 var getOffsetTop = function (elem) {
 
 	// Set our distance placeholder

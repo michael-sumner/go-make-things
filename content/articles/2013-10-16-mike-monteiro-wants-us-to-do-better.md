@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2013-10-16'
+permalink: /mike-monteiro-wants-us-to-do-better/
 title: Mike Monteiro wants us to do better
+url: /2013/10/16/mike-monteiro-wants-us-to-do-better
 ---
 
 In his 2013 Webstock talk, <a href="http://vimeo.com/68470326">Mike Monteiro talked</a> about the importance of design, choosing work that matters, and making the world a better place. Damn, what an amazing talk.

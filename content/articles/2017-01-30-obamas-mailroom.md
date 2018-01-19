@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2017-01-30'
+permalink: /obamas-mailroom/
 title: Obama&#8217;s Mailroom
+url: /2017/01/30/obamas-mailroom
 ---
 
 I was previously unaware that [Obama personally read letters that were sent to him every single day](https://www.nytimes.com/2017/01/17/magazine/what-americans-wrote-to-obama.html).

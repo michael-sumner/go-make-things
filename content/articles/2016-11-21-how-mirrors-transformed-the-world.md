@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2016-11-21'
+permalink: /how-mirrors-transformed-the-world/
 title: How mirrors transformed the world
+url: /2016/11/21/how-mirrors-transformed-the-world
 ---
 
 [From Kottke...](http://kottke.org/16/11/the-importance-of-seeing-yourself-clearly)

@@ -3,7 +3,9 @@ categories:
 - Code
 - WordPress
 date: '2015-04-13'
+permalink: /automating-css-and-js-cache-busting-with-gulp-and-wordpress/
 title: Automating CSS and JS cache-busting with Gulp and WordPress
+url: /2015/04/13/automating-css-and-js-cache-busting-with-gulp-and-wordpress
 ---
 
 I serve my CSS and JavaScript files with far-future expires headers. This tells browsers to hold on to them for a really long time (in my case, a year), so that there's a few less assets to download on all visits and pages loads after the first.
@@ -29,7 +31,7 @@ Here's the overview of my workflow:
 
 In my Gulp file:
 
-```javascript
+```lang-javascript
 var gulp = require('gulp');
 var rename = require('gulp-rename');
 var package = require('./package.json');
@@ -78,7 +80,7 @@ gulp.task('build:theme', function () {
 
 And in my `functions.php` file, where I load my external files using WordPress's enqueue functions:
 
-```php
+```lang-php
 /**
  * Load theme styles and scripts
  */

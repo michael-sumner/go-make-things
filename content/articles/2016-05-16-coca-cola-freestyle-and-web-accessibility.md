@@ -3,7 +3,9 @@ categories:
 - Accessibility
 - Design &amp; UX
 date: '2016-05-16'
+permalink: /coca-cola-freestyle-and-web-accessibility/
 title: Coca Cola Freestyle and Web Accessibility
+url: /2016/05/16/coca-cola-freestyle-and-web-accessibility
 ---
 
 5 Guys, the amazing burger place, uses these new Coca Cola Freestyle machines for their soft drinks.

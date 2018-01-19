@@ -4,10 +4,12 @@ categories:
 - Code
 - WordPress
 date: '2016-10-03'
+permalink: /selling-things-with-easy-digital-downloads/
 title: Selling things with Easy Digital Downloads
+url: /2016/10/03/selling-things-with-easy-digital-downloads
 ---
 
-I use [Easy Digital Downloads](https://easydigitaldownloads.com/) to sell [my books and other products](/books/).
+I use [Easy Digital Downloads](https://easydigitaldownloads.com/) to sell [my books and other products](https://gomakethings.com/books/).
 
 I've made some customizations and added some extensions to the out-of-the-box setup. Today, I wanted to share with you what I've done.
 
@@ -43,7 +45,7 @@ I don't need someone's name when they buy one of my books. I only need their ema
 
 I used the following code in my `functions.php` file to remove the name fields:
 
-```php
+```lang-php
 /**
  * Unset first and last name as required fields in checkout
  * @param  Array $required_fields Required fields
@@ -93,7 +95,7 @@ Because I'm not running a proper store, I don't want to have a "View Cart" link 
 
 Here's the PHP I added to my `functions.php` file to make that happen:
 
-```php
+```lang-php
 /**
  * Only allow a single item at checkout
  */
@@ -110,7 +112,7 @@ Both PayPal and Stripe require JavaScript to work. To make this more obvious, I 
 
 First, I added this PHP to my `functions.php` file. It creates the deactivated button and error message:
 
-```php
+```lang-php
 /**
  * Disable purchase button if no JS
  */
@@ -134,7 +136,7 @@ add_action( 'edd_purchase_form_after_submit', 'keel_edd_no_js_disable_purchase' 
 
 Then, I added this JavaScript to my site, which adds a special class to the site if JavaScript is enabled:
 
-```javascript
+```lang-javascript
 ;(function (window, document, undefined) {
 
 	'use strict';
@@ -147,7 +149,7 @@ Then, I added this JavaScript to my site, which adds a special class to the site
 
 Finally, I included this CSS on my site, which hooks into that class to hide the error message when JavaScript is available:
 
-```css
+```lang-css
 /* Message above disabled "Complete Purchase" button when JS isn't enabled */
 .js-edd #keel-edd-no-js-purchase-message {
 	display: none;
@@ -161,7 +163,7 @@ The free PayPal payment gateway plugin loads some extra CSS and JavaScript throu
 
 This bit of PHP added to my `functions.php` file does the trick:
 
-```php
+```lang-php
 /**
  * Only load PayPal JS and CSS on checkout page
  */
@@ -180,7 +182,7 @@ When paying with credit card, the Stripe payment gateway adds address fields. I'
 
 I added this bit of PHP to my `functions.php` file to hide the others:
 
-```php
+```lang-php
 /**
  * Removes the credit card billing address fields
  */

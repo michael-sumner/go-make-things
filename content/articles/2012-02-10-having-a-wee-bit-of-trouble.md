@@ -3,7 +3,9 @@ categories:
 - Technology
 - Uncategorized
 date: '2012-02-10'
+permalink: /having-a-wee-bit-of-trouble/
 title: Having a wee bit of trouble
+url: /2012/02/10/having-a-wee-bit-of-trouble
 ---
 
 This <a href="https://www.youtube.com/watch?v=SGxKhUuZ0Rc">hilarious Siri Scotland spoof</a> had me in stitches. (<em><strong>Warning:</strong> lots bad language</em>)

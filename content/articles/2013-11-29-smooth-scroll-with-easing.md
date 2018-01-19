@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2013-11-29'
+permalink: /smooth-scroll-with-easing/
 title: Smooth Scroll with easing
+url: /2013/11/29/smooth-scroll-with-easing
 ---
 
 <a href="http://cferdinandi.github.io/smooth-scroll/">Smooth Scroll</a> is a lightweight script that animates scrolling to anchor links. Last week it got an awesome new feature courtesy of <a href="https://github.com/willemliu">Willem Liu</a> and <a href="https://gist.github.com/gre/1650294">Gaëtan Renaudeau</a>: easing support.

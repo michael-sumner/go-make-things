@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2011-08-22'
+permalink: /please-be-my-friend/
 title: Please be my friend!
+url: /2011/08/22/please-be-my-friend
 ---
 
 More brilliance from <a href="http://www.damniwish.com/2011/07/ill-give-you-an-ipad-if-youll-be-my-friend.html">Andy Sernovitz of Damn, I Wish I Thought of That...</a>

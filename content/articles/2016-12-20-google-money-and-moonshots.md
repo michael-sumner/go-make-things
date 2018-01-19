@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2016-12-20'
+permalink: /google-money-and-moonshots/
 title: Google, money, and moonshots
+url: /2016/12/20/google-money-and-moonshots
 ---
 
 Bloomberg recently published an article titled, ["Google Makes So Much Money, It Never Had to Worry About Financial Discipline—Until Now."](https://www.bloomberg.com/news/features/2016-12-08/google-makes-so-much-money-it-never-had-to-worry-about-financial-discipline)

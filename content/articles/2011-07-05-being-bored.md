@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2011-07-05'
+permalink: /being-bored/
 title: Being Bored
+url: /2011/07/05/being-bored
 ---
 
 <blockquote>Being bored is so great for creativity...</blockquote>

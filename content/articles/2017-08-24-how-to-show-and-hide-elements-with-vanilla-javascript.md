@@ -4,10 +4,12 @@ categories:
 - CSS
 - JavaScript
 date: '2017-08-24'
+permalink: /how-to-show-and-hide-elements-with-vanilla-javascript/
 title: How to show and hide elements with vanilla JavaScript
+url: /2017/08/24/how-to-show-and-hide-elements-with-vanilla-javascript
 ---
 
-This week in my private Vanilla JS Slack channel (available to people who purchase [one of my pocket guides](/guides/)), one of my students asked me how to replicate jQuery's `show()`, `hide()`, and `toggle()` methods with vanilla JavaScript.
+This week in my private Vanilla JS Slack channel (available to people who purchase [one of my pocket guides](https://gomakethings.com/guides/)), one of my students asked me how to replicate jQuery's `show()`, `hide()`, and `toggle()` methods with vanilla JavaScript.
 
 Showing and hiding elements with vanilla JS is pretty straightforward. Adding transition effects like the one's jQuery supports is a little bit harder.
 
@@ -15,11 +17,11 @@ Today, let's look at how to write simple show/hide methods. Tomorrow, we'll cove
 
 ## Simple Show and Hide
 
-jQuery's `show()`, `hide()`, and `toggle()` methods use [inline CSS](/two-ways-to-set-an-elements-css-with-vanilla-javascript/) to change the `display` property of an element.
+jQuery's `show()`, `hide()`, and `toggle()` methods use [inline CSS](https://gomakethings.com/two-ways-to-set-an-elements-css-with-vanilla-javascript/) to change the `display` property of an element.
 
 As we learned yesterday, that's easy to do with the `style` property.
 
-```javascript
+```lang-javascript
 // Show an element
 var show = function (elem) {
 	elem.style.display = 'block';
@@ -47,7 +49,7 @@ var toggle = function (elem) {
 
 [Here's a live demo.](https://jsfiddle.net/cferdinandi/qgpxvhhb/5/)
 
-You'll notice that we're using `getComputedStyle()`, which [we learned about the other day](/getting-an-elements-css-attributes-with-vanilla-javascript/), to check if an element is visible.
+You'll notice that we're using `getComputedStyle()`, which [we learned about the other day](https://gomakethings.com/getting-an-elements-css-attributes-with-vanilla-javascript/), to check if an element is visible.
 
 We could also just check it's `style` property, but the element could be hidden via some other CSS (an external stylesheet, for example) besides an inline style.
 
@@ -59,7 +61,7 @@ You can name the class anything you want, but for our purposes, we'll use `.is-v
 
 The `classList` set of methods let us add, remove, and toggle classes, so this approach requires no logic. The browser does all of the heavy lifting for us.
 
-```javascript
+```lang-javascript
 // Show an element
 var show = function (elem) {
 	elem.classList.add('is-visible');
@@ -78,7 +80,7 @@ var toggle = function (elem) {
 
 We also need to add some CSS to control our content visibility.
 
-```css
+```lang-css
 .toggle-content {
 	display: none;
 }
@@ -92,7 +94,7 @@ We also need to add some CSS to control our content visibility.
 
 The nice thing about this approach is that you can easily set the default visibility of an element. Use the `.is-visible` class to make it visible by default. Leave it off to hide it.
 
-```markup
+```lang-markup
 <div class="toggle-content is-visible">Visible by default.</div>
 
 <div class="toggle-content">Hidden by default.</div>

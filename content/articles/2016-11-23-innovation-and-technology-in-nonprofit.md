@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2016-11-23'
+permalink: /innovation-and-technology-in-nonprofit/
 title: Innovation and technology in nonprofit
+url: /2016/11/23/innovation-and-technology-in-nonprofit
 ---
 
 FastCompany has [a really interesting article on IRC](https://www.fastcompany.com/3065447/how-a-visionary-aid-organization-is-using-technology-to-help-refugees), a nonprofit that provides aid and assistance to refugees:

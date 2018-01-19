@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-08-20'
+permalink: /jason-santa-maria-on-web-typography/
 title: Jason Santa Maria on Web Typography
+url: /2012/08/20/jason-santa-maria-on-web-typography
 ---
 
 <a href="http://jasonsantamaria.com/">Jason Santa Maria</a>, designer and Creative Director for <a href="https://typekit.com/">Typekit</a>, gave an awesome <a href="https://vimeo.com/34178417">talk on web typography for the Build Conference</a> this year.

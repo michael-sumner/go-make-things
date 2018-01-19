@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2015-11-13'
+permalink: /how-much-revenue-is-your-slow-website-costing-you/
 title: How much revenue is your slow website costing you?
+url: /2015/11/13/how-much-revenue-is-your-slow-website-costing-you
 ---
 
 Multiple studies have shown that ​slower websites have fewer visitors, generate less revenue, and rank lower in Google.

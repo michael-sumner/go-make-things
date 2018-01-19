@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-06-01'
+permalink: /americas-native-prisoners-of-war/
 title: America&#8217;s Native Prisoners of War
+url: /2011/06/01/americas-native-prisoners-of-war
 ---
 
 <em>This is an article about the Lakota Tribe. As a white man living in New England, I was a bit hesitant to publish this post. It's a bit arrogant for me to assume that I could ever truly understand the perspectives of Midwestern Native Americans.</em>

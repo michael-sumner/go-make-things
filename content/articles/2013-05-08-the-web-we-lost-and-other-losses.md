@@ -3,7 +3,9 @@ categories:
 - Design &amp; UX
 - Technology
 date: '2013-05-08'
+permalink: /the-web-we-lost-and-other-losses/
 title: The web we lost, and other losses
+url: /2013/05/08/the-web-we-lost-and-other-losses
 ---
 
 <blockquote>"Some of the burden shifts to the people creating the technology to think on behalf of the user, 'Can we make the default experience one that respects their privacy, one that respects the permanence of their data, one that respects their preferences about who they share with, and one that respects their goals of communicating with people regardless of what network they're on?'"

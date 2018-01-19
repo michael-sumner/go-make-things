@@ -3,10 +3,12 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-25'
+permalink: /detecting-clicks-inside-an-element-with-vanilla-javascript/
 title: Detecting clicks inside an element with vanilla JavaScript
+url: /2017/10/25/detecting-clicks-inside-an-element-with-vanilla-javascript
 ---
 
-Yesterday, we learned about the `closest()` method, a super versatile function that [finds the closest matching parent of an element based on a selector](/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/#closest).
+Yesterday, we learned about the `closest()` method, a super versatile function that [finds the closest matching parent of an element based on a selector](https://gomakethings.com/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/#closest).
 
 It has a ton of uses, and it's particularly useful for detecting whether or not a click event happened inside a particular element.
 
@@ -14,7 +16,7 @@ Imagine you were writing a modal script, and you wanted to close the modal whene
 
 The simplest way is to detect every click that happens on the document, and then check if it's inside the modal window or not.
 
-```js
+```lang-js
 // Detect all clicks on the document
 document.addEventListener('click', function (event) {
 
@@ -29,7 +31,7 @@ document.addEventListener('click', function (event) {
 
 Browser support for `closest()` is a bit spotty, but a small polyfill adds support back to IE9.
 
-```js
+```lang-js
 /**
  * Element.closest() polyfill
  * https://developer.mozilla.org/en-US/docs/Web/API/Element/closest#Polyfill

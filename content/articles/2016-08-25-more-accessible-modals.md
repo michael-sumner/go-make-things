@@ -5,7 +5,9 @@ categories:
 - Design &amp; UX
 - JavaScript
 date: '2016-08-25'
+permalink: /more-accessible-modals/
 title: More accessible modals
+url: /2016/08/25/more-accessible-modals
 ---
 
 I just pushed a major accessibility update to my [Modals plugin](https://github.com/cferdinandi/modals).

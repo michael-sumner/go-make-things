@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-08-10'
+permalink: /the-view-from-the-international-space-station/
 title: The View from the International Space Station
+url: /2012/08/10/the-view-from-the-international-space-station
 ---
 
 Nothing makes me feel insignificant quite like <a href="http://vimeo.com/45878034">viewing earth from space</a>.

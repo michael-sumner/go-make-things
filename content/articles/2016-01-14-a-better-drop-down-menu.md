@@ -4,7 +4,9 @@ categories:
 - Design &amp; UX
 - JavaScript
 date: '2016-01-14'
+permalink: /a-better-drop-down-menu/
 title: A better drop-down menu
+url: /2016/01/14/a-better-drop-down-menu
 ---
 
 A month or so ago, the delightful [Sara Soueidan tweeted](https://twitter.com/SaraSoueidan/status/676694221424840704):

@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2011-12-06'
+permalink: /the-most-awesome-gift-in-the-history-of-the-universe/
 title: The most awesome gift in the history of the universe
+url: /2011/12/06/the-most-awesome-gift-in-the-history-of-the-universe
 ---
 
 What if I told you there was a way for you to save a life this holiday season, and increase the cuteness of your household by a factor of 17?

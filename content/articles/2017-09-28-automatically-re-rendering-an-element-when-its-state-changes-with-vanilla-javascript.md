@@ -3,16 +3,18 @@ categories:
 - Code
 - JavaScript
 date: '2017-09-28'
+permalink: /automatically-re-rendering-an-element-when-its-state-changes-with-vanilla-javascript/
 title: Automatically re-rendering an element when it&#8217;s state changes with vanilla JavaScript
+url: /2017/09/28/automatically-re-rendering-an-element-when-its-state-changes-with-vanilla-javascript
 ---
 
-I've been sharing some behind the scenes content from [my latest pocket guide](/guides/), "Vanilla JS Web Apps," which launches in a couple of weeks.
+I've been sharing some behind the scenes content from [my latest pocket guide](https://gomakethings.com/guides/), "Vanilla JS Web Apps," which launches in a couple of weeks.
 
-Yesterday, we talked about [how React and other similar frameworks attach state](/components-state-and-vanilla-javascript/) (a fancy word for "data") to elements instead of global variables. We also looked at how to do the same thing with vanilla JavaScript.
+Yesterday, we talked about [how React and other similar frameworks attach state](https://gomakethings.com/components-state-and-vanilla-javascript/) (a fancy word for "data") to elements instead of global variables. We also looked at how to do the same thing with vanilla JavaScript.
 
 Today, let's look at how to update an element when it's state changes.
 
-*__Psst...__ If you're just tuning in, I'd recommend first reading my post on [rendering content](/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/), and yesterday's post on [assigning state to an element](/components-state-and-vanilla-javascript/).*
+*__Psst...__ If you're just tuning in, I'd recommend first reading my post on [rendering content](https://gomakethings.com/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/), and yesterday's post on [assigning state to an element](https://gomakethings.com/components-state-and-vanilla-javascript/).*
 
 ## Triggering a render when state changes
 
@@ -20,7 +22,7 @@ In React, there are two ways to update state.
 
 The first is the one we covered yesterday, where you assign values directly to the component's `state` property.
 
-```js
+```lang-js
 // Our component
 var todoList = function () {
     // ...
@@ -45,7 +47,7 @@ todoList.state.todos = [
 
 The second option is to call a method called `setState()`, passing in your new data as an object. `setState()` is a function React adds to components. It handles merging in your new data for you, *and* re-renders the component.
 
-```js
+```lang-js
 todoList.setState({todos: [
     {
         item: 'Eat',
@@ -70,13 +72,13 @@ In order for this to work, `setState()` has to know what element to render our c
 
 You *could* pass that in as an argument each time, but an easier way is to store the element as a property on our component. So let's do that first.
 
-```js
+```lang-js
 todoList.elem = document.querySelector('#todo-list');
 ```
 
 Now we can add our `setState()` method.
 
-```js
+```lang-js
 todoList.setState = function (props) {
 
 	// Shallow merge new properties into state object
@@ -97,7 +99,7 @@ todoList.setState = function (props) {
 
 The example above also returns the rendered element back, so you can do things with it after re-rendering.
 
-```js
+```lang-js
 // Update state
 var elem = todoList.setState({todos: []});
 

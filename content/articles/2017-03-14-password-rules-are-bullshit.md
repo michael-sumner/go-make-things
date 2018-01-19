@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2017-03-14'
+permalink: /password-rules-are-bullshit/
 title: Password rules are bullshit
+url: /2017/03/14/password-rules-are-bullshit
 ---
 
 This post [about passwords](https://blog.codinghorror.com/password-rules-are-bullshit/) from Coding Horror reminds us that most password rules are bullshit.

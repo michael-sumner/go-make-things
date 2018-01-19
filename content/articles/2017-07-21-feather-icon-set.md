@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2017-07-21'
+permalink: /feather-icon-set/
 title: Feather Icon Set
+url: /2017/07/21/feather-icon-set
 ---
 
 <a href="https://feather.netlify.com/"><img src="https://gomakethings.com/wp-content/uploads/2017/07/feather-icons.png" alt="" width="1200" height="718" class="aligncenter size-full wp-image-13951"></a>

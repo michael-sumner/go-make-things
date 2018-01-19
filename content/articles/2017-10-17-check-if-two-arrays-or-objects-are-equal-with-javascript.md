@@ -3,10 +3,12 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-17'
+permalink: /check-if-two-arrays-or-objects-are-equal-with-javascript/
 title: Check if two arrays or objects are equal with JavaScript
+url: /2017/10/17/check-if-two-arrays-or-objects-are-equal-with-javascript
 ---
 
-Yesterday, we looked at a way to [tell if two arrays are equal with JavaScript](/checking-if-two-arrays-are-equal/). The approach is fast and simple, but falls apart pretty quickly for all but the most basic of arrays.
+Yesterday, we looked at a way to [tell if two arrays are equal with JavaScript](https://gomakethings.com/checking-if-two-arrays-are-equal/). The approach is fast and simple, but falls apart pretty quickly for all but the most basic of arrays.
 
 Today, we're going to look at a much more robust way to compare two arrays (or objects) and check if they're equal to each other.
 
@@ -14,13 +16,13 @@ Today, we're going to look at a much more robust way to compare two arrays (or o
 
 You could have a simple array, like this one.
 
-```js
+```lang-js
 var arr = [1, 2, 3, 4, 5];
 ```
 
 Or, you could have a complex, multidimensional array with various types of inputs.
 
-```js
+```lang-js
 var arr = [1, 'something', 3, {
 	item1: 42,
 	item2: 'another thing',
@@ -48,7 +50,7 @@ Let's create a helper function called `isEqual()` (the same name used by librari
 
 We'll accept two arguments: the `value` is one array or object, and `other` is the other array or object to compare it against.
 
-```js
+```lang-js
 var isEqual = function (value, other) {
 	// Code will go here...
 };
@@ -58,7 +60,7 @@ We're going to run a series of tests in our helper function. If at any point one
 
 If at the end the function is still running, it means all of our tests and comparisons passed and we can `return true`. They're a match.
 
-```js
+```lang-js
 var isEqual = function (value, other) {
 
 	// Tests will go here...
@@ -75,7 +77,7 @@ There are a few basic tests we can run right away to quickly eliminate any array
 
 First, if `value` is an object and `other` is an array (or vice-versa), they're not equal. We'll use `Object.prototype.toString.call()` to get the true object type (`typeof` returns `object` for both objects and arrays) and compare them. We're going to need the object type later in our function, so for `value`, we'll save it to a variable.
 
-```js
+```lang-js
 var isEqual = function (value, other) {
 
 	// Get the value type
@@ -96,7 +98,7 @@ Next, we want to make sure our two items are either an object or an array. Our f
 
 We'll use `Arry.typeOf()` against our `type` variable for this.
 
-```js
+```lang-js
 var isEqual = function (value, other) {
 
 	// Get the value type
@@ -124,9 +126,9 @@ You can easily get the value of an array using `array.length`. For objects, we c
 *`Object.keys()` works in all modern browsers, and IE9 and up, but there's [a polyfill](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys#Polyfill) if you need more backwards compatibility.*
 <hr class="margin-top margin-bottom">
 
-We'll create variables for the length of both `value` and `other`, and use a [ternary operator](/ternary-operators/) to set it based on our `type`. Then, we'll compare our two lengths. If they're not equal, we'll `return false`.
+We'll create variables for the length of both `value` and `other`, and use a [ternary operator](https://gomakethings.com/ternary-operators/) to set it based on our `type`. Then, we'll compare our two lengths. If they're not equal, we'll `return false`.
 
-```js
+```lang-js
 var isEqual = function (value, other) {
 
 	// Get the value type
@@ -157,7 +159,7 @@ Now that we've got some basic checks out of the way, we can start comparing the 
 
 To start, we want to loop through each item in our `value` array or object. The way you look through objects and arrays, is different, so let's setup an `if...else` statement to check out `type`, and create the appropriate loop.
 
-```js
+```lang-js
 var isEqual = function (value, other) {
 
 	// Get the value type
@@ -197,7 +199,7 @@ We're going to compare the items the same way whether it's an object or an array
 
 We'll pass in either the `value[i]` or `value[key]` as the first argument, and `other[i]` or `other[key]`&mdash;the comparable item in the `other` object or array&mdash; as the second argument.
 
-```js
+```lang-js
 var isEqual = function (value, other) {
 
 	// Get the value type
@@ -245,7 +247,7 @@ First, let's get the type for our item. We'll need this information more than on
 
 If it's an array or object, we'll pass it back into the `isEqual()` method. When a function calls itself like this, it's known as a *rescursive* function. If the test fails, we'll `return false`.
 
-```js
+```lang-js
 // Compare two items
 var compare = function (item1, item2) {
 
@@ -261,7 +263,7 @@ var compare = function (item1, item2) {
 
 If it's not an array or object, we'll do a simple comparison to check our two item values. First, we'll make sure that `item1` and `item2` are the same type.
 
-```js
+```lang-js
 // Compare two items
 var compare = function (item1, item2) {
 
@@ -287,7 +289,7 @@ Now, we can compare are two values using a simple `===` comparison operator.
 
 We need to account for one last edge case, though. If the item is a function, we need to convert it to a string using the `toString()` method so that we can compare it. Otherwise (if it's a string or number), we can just compare it as-is.
 
-```js
+```lang-js
 // Compare two items
 var compare = function (item1, item2) {
 
@@ -323,7 +325,7 @@ As we loop through each item and compare it, we need to check if our `compare()`
 
 (The `return false` in `compare()` is scoped to that function and doesn't affect the `isEqual()` function.)
 
-```js
+```lang-js
 var isEqual = function (value, other) {
 
 	// ...
@@ -351,7 +353,7 @@ var isEqual = function (value, other) {
 
 We can now test two objects or arrays to see if they're equal by passing them in to our `isEqual()` function.
 
-```js
+```lang-js
 var arr1 = [1, 2, 3, 4, 5];
 var arr2 = [1, 2, 3, 4, 5];
 isEqual(arr1, arr2); // returns true
@@ -375,7 +377,7 @@ isEqual(arr1, arr3); // returns false
 
 Here's the complete helper function.
 
-```js
+```lang-js
 var isEqual = function (value, other) {
 
 	// Get the value type

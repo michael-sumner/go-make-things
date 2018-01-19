@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-05-04'
+permalink: /window-cleaners-on-the-empire-state-building-1938/
 title: Window Cleaners on The Empire State Building (1938)
+url: /2012/05/04/window-cleaners-on-the-empire-state-building-1938
 ---
 
 I'm afraid of heights. <a href="https://www.youtube.com/watch?v=d8Qe07A7DFw">This is absolutely terrifying.</a>

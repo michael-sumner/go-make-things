@@ -3,12 +3,14 @@ categories:
 - Code
 - JavaScript
 date: '2017-07-27'
+permalink: /looping-through-arrays-the-es6-way/
 title: Looping through arrays the ES6 way
+url: /2017/07/27/looping-through-arrays-the-es6-way
 ---
 
 The traditional way of looping through arrays in vanilla JavaScript is with a `for` loop:
 
-```javascript
+```lang-javascript
 var sandwiches = [
 	'tuna',
 	'ham',
@@ -36,7 +38,7 @@ It works, but it's kind of a pain to work with. If you you use loops often, I ge
 
 Just like jQuery, we now have a native `forEach()` method.
 
-```javascript
+```lang-javascript
 var sandwiches = [
 	'tuna',
 	'ham',
@@ -52,4 +54,4 @@ sandwiches.forEach(function (sandwich, index) {
 
 This works back to IE9, and if you need further backwards compatibility, there's [also a polyfill](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach#Polyfill) available. I've started using [polyfill.io](https://polyfill.io/) on my projects to handle this automatically for me, and it's awesome.
 
-Tomorrow, we'll look at [how to loop through NodeLists](/looping-through-nodelists-with-es6/).
+Tomorrow, we'll look at [how to loop through NodeLists](https://gomakethings.com/looping-through-nodelists-with-es6/).

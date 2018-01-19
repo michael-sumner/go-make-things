@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Business &amp; Leadership
 date: '2016-11-29'
+permalink: /the-kindness-initiative/
 title: The Kindness Initiative
+url: /2016/11/29/the-kindness-initiative
 ---
 
 I absolutely loved [this video from Kindness.org](https://www.youtube.com/watch?v=OBqfKUWaku8):

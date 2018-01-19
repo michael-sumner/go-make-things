@@ -3,10 +3,12 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-08'
+permalink: /an-introduction-to-es6-arrow-functions/
 title: An introduction to ES6 arrow functions
+url: /2017/11/08/an-introduction-to-es6-arrow-functions
 ---
 
-*This post was adapted from my new Vanilla JS Pocket Guide, ["Variables, Functions, and Scope."](/guides/variables-functions-and-scope/)*
+*This post was adapted from my new Vanilla JS Pocket Guide, ["Variables, Functions, and Scope."](https://gomakethings.com/guides/variables-functions-and-scope/)*
 
 Arrow functions were introduced to JavaScript in ES6.
 
@@ -18,7 +20,7 @@ However, more and more scripts and tutorials are being written with arrow functi
 
 A basic arrow function isn't all that different from a traditional function. The word `function` gets dropped, an a fat arrow (`=>`) is added between the parentheses and brackets (`()` and `{}`, respectively).
 
-```javascript
+```lang-javascript
 // A traditional function
 var add = function (num1, num2) {
 	return num1 + num2;
@@ -37,7 +39,7 @@ var add = (num1, num2) => {
 
 If your function is only returning a value, as is the case with our `add()` function, you can simplify the function even further by dropping the brackets and `return`.
 
-```javascript
+```lang-javascript
 // returns `num1 + num2`
 var add = (num1, num2) => num1 + num2;
 ```

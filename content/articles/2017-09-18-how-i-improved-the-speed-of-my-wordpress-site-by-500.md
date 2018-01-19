@@ -3,7 +3,9 @@ categories:
 - Web Performance
 - WordPress
 date: '2017-09-18'
+permalink: /how-i-improved-the-speed-of-my-wordpress-site-by-500/
 title: How I improved the speed of my WordPress site by 500%
+url: /2017/09/18/how-i-improved-the-speed-of-my-wordpress-site-by-500
 ---
 
 Over the last few months, my [WordPress site](https://gomakethings.com) had gone from a rather snappy 700ms start render time to upwards of 3 or 4 seconds.
@@ -48,7 +50,7 @@ I ripped out `wp_nonce_field` from all of the plugin forms, and replaced them wi
 
 First, I added this to each plugin. It creates a custom hash for our `*_submit_id` field to use.
 
-```php
+```lang-php
 /**
  * Create a random submit string hash
  */
@@ -64,7 +66,7 @@ add_action( 'plugins_loaded', 'PLUGIN_NAMESPACE_set_submit_string' );
 
 Then, in our form itself, we'll add a field with that hash as it's value.
 
-```php
+```lang-php
 $form =
 	'<form ...>' .
 		'<input type="hidden" id="PLUGIN_NAMESPACE_submit" name="PLUGIN_NAMESPACE_submit" value="' . get_site_option( 'PLUGIN_NAMESPACE_submit_hash' ) . '">' .
@@ -77,7 +79,7 @@ Finally, on submit, we check that:
 1. The field exists, and
 2. The value matches our stored value.
 
-```php
+```lang-php
 /**
  * Process the form
  */
@@ -103,7 +105,7 @@ The problem with caching the form, of course, is that users won't get success an
 
 Most WordPress caching plugins will ignore URLs with query strings in them, since they often impact the content that's generated. We can use that to our advantage to force an uncached version of the form after a submit.
 
-```php
+```lang-php
 /**
  * Process the form
  */

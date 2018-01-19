@@ -5,7 +5,9 @@ categories:
 - Design &amp; UX
 - WordPress
 date: '2016-12-01'
+permalink: /checkout-cart-optimizations-for-easy-digital-downloads-2-new-plugins/
 title: Checkout cart optimizations for Easy Digital Downloads (2 new plugins)
+url: /2016/12/01/checkout-cart-optimizations-for-easy-digital-downloads-2-new-plugins
 ---
 
 Yesterday I released two new plugins designed to optimize the checkout experience with Easy Digital Downloads:

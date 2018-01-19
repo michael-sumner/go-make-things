@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2013-03-04'
+permalink: /high-performance-websites/
 title: High Performance Websites
+url: /2013/03/04/high-performance-websites
 ---
 
 <em>This article has been replaced by <a href="https://gomakethings.com/wicked-fast-websites/">Wicked Fast Websites</a>, a three-part series with more tips, tricks, and tools for building high performance websites.</em>

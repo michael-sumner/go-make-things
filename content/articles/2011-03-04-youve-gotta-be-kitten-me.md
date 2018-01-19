@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2011-03-04'
+permalink: /youve-gotta-be-kitten-me/
 title: You&#8217;ve gotta be kitten me
+url: /2011/03/04/youve-gotta-be-kitten-me
 ---
 
 I'm not big on LOLcats, but this is amazing...

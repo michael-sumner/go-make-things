@@ -4,10 +4,12 @@ categories:
 - HTML
 - JavaScript
 date: '2017-09-21'
+permalink: /how-to-insert-an-element-after-another-one-in-the-dom-with-vanilla-javascript/
 title: How to insert an element after another one in the DOM with vanilla JavaScript
+url: /2017/09/21/how-to-insert-an-element-after-another-one-in-the-dom-with-vanilla-javascript
 ---
 
-This week, we looked at [how to create an element](/creating-elements-with-vanilla-javascript/) and [inject it before another one](/how-to-insert-an-element-before-another-one-in-the-dom-with-vanilla-javascript/) with vanilla JavaScript.
+This week, we looked at [how to create an element](https://gomakethings.com/creating-elements-with-vanilla-javascript/) and [inject it before another one](https://gomakethings.com/how-to-insert-an-element-before-another-one-in-the-dom-with-vanilla-javascript/) with vanilla JavaScript.
 
 Today, let's look at two ways to insert an element *after* another one.
 
@@ -15,7 +17,7 @@ Today, let's look at two ways to insert an element *after* another one.
 
 Yesterday, we learned about the `insertBefore()` method. You can use it to insert an element after a node by using `nextSibling` to get the node that comes right after the one you want to target.
 
-```js
+```lang-js
 // Create a new element
 var newNode = document.createElement('div');
 
@@ -32,7 +34,7 @@ A bit awkward and clunky, but it works&mdash;back to at least IE 6, in fact.
 
 The modern approach is to use the `after()` method. Call it on the element you want to add your new element after, and pass in your new element.
 
-```js
+```lang-js
 // Create a new element
 var newNode = document.createElement('div');
 
@@ -49,7 +51,7 @@ Like the `before()` method that we looked at yesterday, at the moment `after()` 
 
 [Here's a polyfill](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/after#Polyfill) that pushes support back to IE 9.
 
-```js
+```lang-js
 //from: https://github.com/jserz/js_piece/blob/master/DOM/ChildNode/after()/after().md
 (function (arr) {
   arr.forEach(function (item) {

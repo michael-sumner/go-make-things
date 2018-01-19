@@ -11,10 +11,12 @@ event_start_date:
 - ''
 mailchimp_details:
 - ''
+permalink: /javascript-debugging-basics-part-1/
 title: 'JavaScript Debugging Basics: Part 1'
+url: /2018/01/08/javascript-debugging-basics-part-1
 ---
 
-One of the biggest things people who buy my [pocket guides](/guides/) and [courses](/courses/) ask me about is debugging.
+One of the biggest things people who buy my [pocket guides](https://gomakethings.com/guides/) and [courses](https://gomakethings.com/courses/) ask me about is debugging.
 
 Today, I wanted to help you learn how to debug your code, and I thought the best way to do that would be with a practical example sent in by an actual reader.
 
@@ -30,13 +32,13 @@ Clicking a "Filter" button shows the list of available pets. When the list opens
 
 [You can view a working demo of the code here.](https://jsfiddle.net/cferdinandi/yje424xt/9/)
 
-It builds on an article I wrote on [how to show and hide content with vanilla JS](/how-to-show-and-hide-elements-with-vanilla-javascript/), and [how to use event bubbling and delegation](/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/).
+It builds on an article I wrote on [how to show and hide content with vanilla JS](https://gomakethings.com/how-to-show-and-hide-elements-with-vanilla-javascript/), and [how to use event bubbling and delegation](https://gomakethings.com/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/).
 
 ### The HTML
 
 Our buttons have a `[data-toggle]` attribute on them. This attribute contains the ID of the element to show or hide, and is used by our script to toggle visibility.
 
-```html
+```lang-html
 <button class="btn" data-toggle="#example">
 	Filter
 </button>
@@ -87,7 +89,7 @@ By default, content with the `.toggle-content` class is hidden. When it also has
 
 This class is added dynamically with JavaScript.
 
-```css
+```lang-css
 /**
  * Hide toggled content by default
  */
@@ -121,11 +123,11 @@ This class is added dynamically with JavaScript.
 
 ### The JavaScript
 
-The script includes [three helper methods](/how-to-show-and-hide-elements-with-vanilla-javascript/) to show, hide, and toggle visibility on content.
+The script includes [three helper methods](https://gomakethings.com/how-to-show-and-hide-elements-with-vanilla-javascript/) to show, hide, and toggle visibility on content.
 
 It also includes an event listener to listen for clicks on the document. If the clicked element has a `[data-toggle]` attribute, we'll use it to find our content area and toggle visibility.
 
-```js
+```lang-js
 /**
  * Helper methods
  * https://gomakethings.com/how-to-show-and-hide-elements-with-vanilla-javascript/
@@ -180,4 +182,4 @@ So... what's wrong with this script? Why isn't the "Close" button working as exp
 
 I'll walk through how I would debug this script and show you what's wrong tomorrow. But first, Why don't you give it a shot?
 
-Email me with your answer, what you tried, anything that has you tripped up, or event unsuccessful attempts at solving it. <del>I've got a special surprise for those of you who do (this offer ends when the next article goes live tomorrow).</del> ([The offer has expired.](/javascript-debugging-basics-part-2/))
+Email me with your answer, what you tried, anything that has you tripped up, or event unsuccessful attempts at solving it. <del>I've got a special surprise for those of you who do (this offer ends when the next article goes live tomorrow).</del> ([The offer has expired.](https://gomakethings.com/javascript-debugging-basics-part-2/))

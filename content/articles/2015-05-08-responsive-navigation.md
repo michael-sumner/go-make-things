@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2015-05-08'
+permalink: /responsive-navigation/
 title: Mobile-Friendly Navigation
+url: /2015/05/08/responsive-navigation
 ---
 
 How do you display navigation elements on smaller screens in a way that makes it easy for the user to move around your site, but keeps it out of the way when they're trying to perform a task?

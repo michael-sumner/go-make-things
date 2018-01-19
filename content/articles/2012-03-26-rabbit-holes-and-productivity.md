@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2012-03-26'
+permalink: /rabbit-holes-and-productivity/
 title: Rabbit holes and productivity
+url: /2012/03/26/rabbit-holes-and-productivity
 ---
 
 <a href="http://sridattalabs.com/2012/02/06/rabbit-holes-being-smart-hurts-prod/">From Sridatta's Blog...</a>

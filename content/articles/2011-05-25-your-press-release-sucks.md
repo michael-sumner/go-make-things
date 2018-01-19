@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2011-05-25'
+permalink: /your-press-release-sucks/
 title: Your Press Release Sucks
+url: /2011/05/25/your-press-release-sucks
 ---
 
 I get at least a couple of crappy press releases about stuff I don't care about a week. Just because I list my email address on this site doesn't mean you have my permission to spam me with irrelevant stuff.

@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Uncategorized
 date: '2011-07-15'
+permalink: /kenny-powers-k-swiss-mfceo/
 title: Kenny Powers, K-Swiss MFCEO
+url: /2011/07/15/kenny-powers-k-swiss-mfceo
 ---
 
 Last year, K-Swiss launched a hilarious online ad campaign featuring <a href="http://en.wikipedia.org/wiki/Kenny_Powers">Kenny Powers</a>, failing athlete.

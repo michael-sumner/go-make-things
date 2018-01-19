@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2011-10-05'
+permalink: /less-but-better/
 title: Less but better
+url: /2011/10/05/less-but-better
 ---
 
 "Produce less but better things" - sage words from <a href="http://vimeo.com/19125863">design legend Dieter Rams</a>.

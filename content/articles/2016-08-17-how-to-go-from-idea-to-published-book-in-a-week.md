@@ -3,10 +3,12 @@ categories:
 - Code
 - Design &amp; UX
 date: '2016-08-17'
+permalink: /how-to-go-from-idea-to-published-book-in-a-week/
 title: How to go from idea to published book in a week
+url: /2016/08/17/how-to-go-from-idea-to-published-book-in-a-week
 ---
 
-Two weeks ago, I released *[The Web Developer Career Guide](/career-guide/)*, my field guide on how to stay relevant, hack the hiring process, and make more money as an in‑house developer.
+Two weeks ago, I released *[The Web Developer Career Guide](https://gomakethings.com/career-guide/)*, my field guide on how to stay relevant, hack the hiring process, and make more money as an in‑house developer.
 
 I went from idea to published book in about a week, and today I want to walk you through how I did it.
 
@@ -14,7 +16,7 @@ I went from idea to published book in about a week, and today I want to walk you
 
 Like everything I do (code included), *The Web Developer Career Guide* started out on actual paper.
 
-I made a rough list of high-level topics I wanted to cover and the the things I needed to address under each of them. Some topics were based on my previous experience coaching developers on careers. Others were based on emails I'd gotten from readers of [my newsletter](/newsletter).
+I made a rough list of high-level topics I wanted to cover and the the things I needed to address under each of them. Some topics were based on my previous experience coaching developers on careers. Others were based on emails I'd gotten from readers of [my newsletter](https://gomakethings.com/newsletter).
 
 I didn't worry too much about structure and order at this point. I just wanted to capture all of the things I needed to write about.
 
@@ -22,7 +24,7 @@ I didn't worry too much about structure and order at this point. I just wanted t
 
 I cheated, and you should, too.
 
-I pulled about a third of the book content from previous articles I've written, email responses I sent to newsletter readers, and so on. I did some light editing on those, but why reinvent the wheel? This is the same approach I used for *[Wicked Fast Websites](/wicked-fast-websites)*.
+I pulled about a third of the book content from previous articles I've written, email responses I sent to newsletter readers, and so on. I did some light editing on those, but why reinvent the wheel? This is the same approach I used for *[Wicked Fast Websites](https://gomakethings.com/wicked-fast-websites)*.
 
 For all of the stuff left to be written, I opened up my text editor (I like Sublime Text) and just started writing in [markdown](https://daringfireball.net/projects/markdown/syntax).
 
@@ -103,4 +105,4 @@ But, I also have a much smaller newsletter list and audience in general. I'm hop
 
 If you're interested in getting something published quickly, check out [my ebook boilerplate on GitHub](https://github.com/cferdinandi/ebook-boilerplate).
 
-To see the resulting books, [check out one of my field guides](/guides/).
+To see the resulting books, [check out one of my field guides](https://gomakethings.com/guides/).

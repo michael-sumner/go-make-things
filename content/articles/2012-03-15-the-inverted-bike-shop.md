@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2012-03-15'
+permalink: /the-inverted-bike-shop/
 title: The Inverted Bike Shop
+url: /2012/03/15/the-inverted-bike-shop
 ---
 
 I love this story about <a href="http://vimeo.com/36258512">the Inverted Bike Shop</a>!

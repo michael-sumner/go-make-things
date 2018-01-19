@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2012-01-16'
+permalink: /ending-hunger-now/
 title: Ending Hunger Now
+url: /2012/01/16/ending-hunger-now
 ---
 
 In this <a href="https://www.youtube.com/watch?v=CdxVbUja_pY">absolutely stunning TED Talk</a>, Josette Sheeran, the head of the UN's World Food Program, talks about why, in a world with enough food for everyone, people still go hungry and still die of starvation.

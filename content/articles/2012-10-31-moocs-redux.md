@@ -3,7 +3,9 @@ categories:
 - Technology
 date: '2012-10-31'
 excerpt: Another look at Massively Open Online Courses.
+permalink: /moocs-redux/
 title: MOOCs Redux
+url: /2012/10/31/moocs-redux
 ---
 
 As a follow-up to <a href="https://gomakethings.com/moocs-and-the-future-of-higher-education/">my post the other week</a> on Massively Open Online Courses (aka MOOCs), <a href="http://nation.time.com/2012/10/18/college-is-dead-long-live-college/">Time Magazine ran an article</a> on them that contained this insight...

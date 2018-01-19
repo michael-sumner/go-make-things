@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2011-06-24'
+permalink: /ipad-games-for-cats/
 title: iPad Games for Cats
+url: /2011/06/24/ipad-games-for-cats
 ---
 
 In the "you can't make this stuff up" category, Friskies has created <a href="http://www.gamesforcats.com/">three iPad games for cats</a>.

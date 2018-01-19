@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-10-01'
+permalink: /the-wordpress-for-web-apps-plugin/
 title: The WordPress for Web Apps Plugin
+url: /2013/10/01/the-wordpress-for-web-apps-plugin
 ---
 
 I just released <a href="http://cferdinandi.github.io/web-app-starter-kit/">WordPress for Web Apps 3</a>.

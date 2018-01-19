@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2011-08-24'
+permalink: /vimeos-brilliant-social-media-marketing/
 title: Vimeo&#8217;s brilliant social media marketing
+url: /2011/08/24/vimeos-brilliant-social-media-marketing
 ---
 
 Video sharing site <a href="http://vimeo.com/">Vimeo</a> has a wonderful section on their site called <a href="http://vimeo.com/videoschool">Video School</a>.

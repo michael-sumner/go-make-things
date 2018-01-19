@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2016-02-04'
+permalink: /harbor-gets-events/
 title: Harbor gets Events
+url: /2016/02/04/harbor-gets-events
 ---
 
 This week I added Events calendar support to [Harbor, my WordPress theme for animal rescue organizations](http://harbor.gomakethings.com).

@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2012-04-20'
+permalink: /music-from-nature/
 title: Music from Nature
+url: /2012/04/20/music-from-nature
 ---
 
 To celebrate Earth Day, <a href="http://diegostocco.com/">Diego Stocco</a> collaborated with <a href="http://www.burtsbees.com/">Burt’s Bees</a> to create <a href="https://www.youtube.com/watch?v=4yEimDuL2t8">this awesome song</a> using stuff you find in nature...

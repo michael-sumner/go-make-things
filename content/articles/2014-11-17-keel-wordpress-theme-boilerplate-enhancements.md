@@ -3,7 +3,9 @@ categories:
 - Accessibility
 - Code
 date: '2014-11-17'
+permalink: /keel-wordpress-theme-boilerplate-enhancements/
 title: 'Keel: WordPress Theme Boilerplate Enhancements'
+url: /2014/11/17/keel-wordpress-theme-boilerplate-enhancements
 ---
 
 [Keel](https://github.com/cferdinandi/keel), my lightweight boilerplate for WordPress theme developers, got a handful of useful updates last week.

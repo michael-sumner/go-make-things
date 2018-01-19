@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-07-04'
+permalink: /bentleys-great-escape/
 title: Bentley&#8217;s Great Escape
+url: /2012/07/04/bentleys-great-escape
 ---
 
 <em>Exactly one year ago today, PAWS New England rescue dog Bentley ran away from his new adopted home. Over the next eight months, he would avoid capture time and time again. Kathleen Downey shares Bentley’s amazing story...</em>

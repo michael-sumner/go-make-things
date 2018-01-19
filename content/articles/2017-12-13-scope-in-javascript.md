@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-12-13'
+permalink: /scope-in-javascript/
 title: Scope in JavaScript
+url: /2017/12/13/scope-in-javascript
 ---
 
 Scope is the context in which a function or variable is accessible. There are three types of scope: *global*, *local*, and *lexical*.
@@ -14,7 +16,7 @@ At a high level, functions have access to variables and other functions set outs
 
 A variable or function in the *global scope* is accessible inside other functions.
 
-```javascript
+```lang-javascript
 // this is in the global scope
 var sandwich = 'tuna';
 
@@ -33,7 +35,7 @@ console.log(sandwich);
 
 A variable or function that's only accessible in a part of your code base has *local scope*.
 
-```javascript
+```lang-javascript
 var logSandwich = function () {
 	// this has variable local scope
 	var sandwich = 'tuna';
@@ -53,7 +55,7 @@ console.log(sandwich);
 
 If you nest your functions, variables and other functions defined in the parent function have *lexical scope* and can be accessed by the inner funtions. The parent function cannot access variables or functions defined within the inner functions.
 
-```javascript
+```lang-javascript
 var sandwiches = function () {
 
 	// this is in the lexical scope

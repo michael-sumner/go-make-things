@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2014-08-18'
+permalink: /responsive-sticky-footers/
 title: Responsive sticky footers
+url: /2014/08/18/responsive-sticky-footers
 ---
 
 If you have footer content on a page with little body content, the footer may end up floating in the middle of the page on taller viewports.

@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2011-09-01'
+permalink: /minimalist-fairy-tale-posters/
 title: Minimalist fairy tale posters
+url: /2011/09/01/minimalist-fairy-tale-posters
 ---
 
 These minimalist fairy tale posters by <a href="http://www.squareinchdesign.com/">Christian Jackson of Square Inch Design</a> are simply beautiful. See them all and buy prints at <a href="http://www.imagekind.com/GalleryProfile.aspx?gid=506502a6-9ebb-453c-a5f0-90cd14c2abbc">Image Kind</a>.

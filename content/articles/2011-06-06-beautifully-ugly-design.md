@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2011-06-06'
+permalink: /beautifully-ugly-design/
 title: Beautifully ugly design
+url: /2011/06/06/beautifully-ugly-design
 ---
 
 <blockquote>People think it's this veneer - that the designers are handed this box and told, 'Make it look good!' That's not what we think design is. It's not just what it looks like and feels like. Design is how it works.

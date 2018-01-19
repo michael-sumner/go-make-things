@@ -4,7 +4,9 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2011-04-08'
+permalink: /how-to-steal-like-an-artist/
 title: How to Steal Like An Artist
+url: /2011/04/08/how-to-steal-like-an-artist
 ---
 
 Writer and artist Austin Kleon has put together <a href="http://www.austinkleon.com/2011/03/30/how-to-steal-like-an-artist-and-9-other-things-nobody-told-me/">a fantastic list on how to make things</a>.

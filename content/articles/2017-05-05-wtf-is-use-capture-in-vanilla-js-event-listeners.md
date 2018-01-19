@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-05-05'
+permalink: /wtf-is-use-capture-in-vanilla-js-event-listeners/
 title: WTF is `use capture` in vanilla JS event listeners?
+url: /2017/05/05/wtf-is-use-capture-in-vanilla-js-event-listeners
 ---
 
 A few weeks ago, I shared an approach to writing event listeners known as <a href="https://gomakethings.com/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/">event bubbling</a>.
@@ -18,4 +20,4 @@ document.addEventListener('focus', function (event) {
 }, true);
 </code></pre>
 
-***Update:*** *Not sure when to actually use `use capture`? [Here's how to figure it out.](/when-to-use-use-capture-in-your-event-listeners/)*
+***Update:*** *Not sure when to actually use `use capture`? [Here's how to figure it out.](https://gomakethings.com/when-to-use-use-capture-in-your-event-listeners/)*

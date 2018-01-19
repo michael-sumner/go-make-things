@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-05-11'
+permalink: /pale-blue-dot/
 title: Pale Blue Dot
+url: /2011/05/11/pale-blue-dot
 ---
 
 [caption id="attachment_566" align="aligncenter" width="453" caption="Earth, suspended in a sunbeam"]<img src="https://gomakethings.com/wp-content/uploads/2011/05/Pale_Blue_Dot.png" alt="" title="Pale_Blue_Dot" width="453" height="614" class="size-full wp-image-566" />[/caption]

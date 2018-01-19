@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2013-03-05'
+permalink: /jony-ive-on-naming-things/
 title: Jony Ive on naming things
+url: /2013/03/05/jony-ive-on-naming-things
 ---
 
 Check out Jony Ive discussing design on this delightful video <a href="https://www.youtube.com/watch?v=6SD70jM1uwo">from the BBC show Blue Peter...</a>

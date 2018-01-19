@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2011-03-11'
+permalink: /mixed-messages/
 title: Mixed Messages
+url: /2011/03/11/mixed-messages
 ---
 
 This sign was hanging up in my vet's office. Stop and go!

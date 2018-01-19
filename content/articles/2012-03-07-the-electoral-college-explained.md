@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-03-07'
+permalink: /the-electoral-college-explained/
 title: The Electoral College Explained
+url: /2012/03/07/the-electoral-college-explained
 ---
 
 I'm addicted to C.G.P Grey's wonderfully entertaining and educational videos. With the US campaign season in full swing, you might enjoy this <a href="http://blog.cgpgrey.com/the-electoral-college/">video on the Electoral College</a>.

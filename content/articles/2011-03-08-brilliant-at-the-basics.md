@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2011-03-08'
+permalink: /brilliant-at-the-basics/
 title: Brilliant at the Basics
+url: /2011/03/08/brilliant-at-the-basics
 ---
 
 <a href="http://blog.strategicedge.co.uk/">Nicholas Bate</a> has put together an awesome free resource, <em><a href="http://blog.strategicedge.co.uk/pdfs/brilliant_at_the_basics_of_business_1-100.pdf">Brilliant at the Basics of Business 100</a></em>.

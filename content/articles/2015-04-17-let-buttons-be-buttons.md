@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2015-04-17'
+permalink: /let-buttons-be-buttons/
 title: Let buttons be buttons
+url: /2015/04/17/let-buttons-be-buttons
 ---
 
 From [Matt Henry on Twitter](https://twitter.com/heymatthenry/status/588000007237804032):

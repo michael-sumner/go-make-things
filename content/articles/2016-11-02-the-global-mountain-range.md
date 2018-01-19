@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2016-11-02'
+permalink: /the-global-mountain-range/
 title: The Global Mountain Range
+url: /2016/11/02/the-global-mountain-range
 ---
 
 Mountain ranges in the United States, Canada, and Scotland are all part of the same ancient range that formed before Pangea even existed along the Great Glen Fault. Whoa!

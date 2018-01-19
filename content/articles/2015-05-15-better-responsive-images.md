@@ -4,16 +4,18 @@ categories:
 - Design &amp; UX
 - Web Performance
 date: '2015-05-15'
+permalink: /better-responsive-images/
 title: Better Responsive Images
+url: /2015/05/15/better-responsive-images
 ---
 
-*The following post was adapted from [Wicked Fast Websites](/wicked-fast-websites/), my free beginner's guide to building fast websites and web apps that work on any device. [Download it here.](/wicked-fast-websites/)*
+*The following post was adapted from [Wicked Fast Websites](https://gomakethings.com/wicked-fast-websites/), my free beginner's guide to building fast websites and web apps that work on any device. [Download it here.](https://gomakethings.com/wicked-fast-websites/)*
 
 Why would you send the same image to a five-year old feature phone or a tiny smart watch that you would to a modern laptop attached to 32-inch, high-definition monitor?
 
 Here's a simple, common technique for responsive images:
 
-```css
+```lang-css
 img {
     max-width: 100%;
     height: auto;
@@ -30,7 +32,7 @@ Let's look at a few different ways to do that.
 
 You can load viewport-aware background images using media queries. You can even use [different images based on screen density](https://css-tricks.com/snippets/css/retina-display-media-query/).
 
-```css
+```lang-css
 .background-img {
     background-image: url("/path/to/the/image-small.jpg");
 }
@@ -74,7 +76,7 @@ Today, you as the developer are making decisions that really belong in the hands
 
 The `<picture>` element let's you serve different images based on breakpoints:
 
-```html
+```lang-html
 <picture>
     <source srcset="path/to/image-xlarge.jpg" media="(min-width: 60em)">
     <source srcset="path/to/image-large.jpg" media="(min-width: 40em)">
@@ -86,7 +88,7 @@ The `<picture>` element let's you serve different images based on breakpoints:
 
 The `srcset` attribute allows you to provide a few image choices, and share some information with the browser that helps it decide which image to choose. It can be used with a standard `<img>` element, or with the `<picture>` element.
 
-```html
+```lang-html
 <img src="path/to/image-small.jpg"
      srcset="path/to/image-large.jpg 1024w,
              path/to/image-medium.jpg 640w,

@@ -3,12 +3,14 @@ categories:
 - Code
 - JavaScript
 date: '2017-05-30'
+permalink: /how-to-really-learn-javascript/
 title: How to really learn JavaScript
+url: /2017/05/30/how-to-really-learn-javascript
 ---
 
 In a word: gradually.
 
-[Newsletter](/newsletter/) subscriber Daniele Manca recently wrote to me about the challenges of *really* learning JavaScript. Republished here with permission.
+[Newsletter](https://gomakethings.com/newsletter/) subscriber Daniele Manca recently wrote to me about the challenges of *really* learning JavaScript. Republished here with permission.
 
 > My biggest challenge in web development so far has been to learn javascript to a degree where I feel confident to code and debug by myself,
 >
@@ -40,6 +42,6 @@ That brings me to today. There's still so much I don't know. ES6 arrow functions
 
 The thing that had the biggest impact on my career, though, was open sourcing all of my pet projects. They started small, grew over time, and getting feedback, questions, and feature requests pushed me to learn even more. I'd recommend that to anyone.
 
-Having someone more seasoned rip apart you code is a great way to learn, too. The Slack channel access that comes with my [pocket guides](/guides/) is awesome for that.
+Having someone more seasoned rip apart you code is a great way to learn, too. The Slack channel access that comes with my [pocket guides](https://gomakethings.com/guides/) is awesome for that.
 
 Wow, sorry this was so long!

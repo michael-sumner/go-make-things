@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Uncategorized
 date: '2011-11-04'
+permalink: /the-right-to-dream/
 title: The right to dream
+url: /2011/11/04/the-right-to-dream
 ---
 
 <blockquote>The ability to look beyond what is and see what can be tomorrow, that's what makes us human.</blockquote>

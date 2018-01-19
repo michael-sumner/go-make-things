@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2013-02-21'
+permalink: /life-factory-water-bottles/
 title: Life Factory Water Bottles
+url: /2013/02/21/life-factory-water-bottles
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2013/02/lifefactory-water-bottle.jpg" title="Photo of Life Factory water bottles" width="480" height="480" class="aligncenter img-polaroid size-full wp-image-4051" />

@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2012-07-02'
+permalink: /the-problem-with-performance-appraisals/
 title: The problem with performance appraisals
+url: /2012/07/02/the-problem-with-performance-appraisals
 ---
 
 My dad sent me a <a href="http://management.fortune.cnn.com/2012/06/27/are-annual-performance-reviews-necessary/">Forbes article</a> claiming that 98 percent of HR executives say that annual performance appraisals aren't useful.

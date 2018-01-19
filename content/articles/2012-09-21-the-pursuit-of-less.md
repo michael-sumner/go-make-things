@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-09-21'
+permalink: /the-pursuit-of-less/
 title: The Pursuit of Less
+url: /2012/09/21/the-pursuit-of-less
 ---
 
 From the Harvard Business Review blog...

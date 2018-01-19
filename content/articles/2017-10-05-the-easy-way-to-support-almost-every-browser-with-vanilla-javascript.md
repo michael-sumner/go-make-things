@@ -3,12 +3,14 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-05'
+permalink: /the-easy-way-to-support-almost-every-browser-with-vanilla-javascript/
 title: The easy way to support *almost* every browser with vanilla JavaScript
+url: /2017/10/05/the-easy-way-to-support-almost-every-browser-with-vanilla-javascript
 ---
 
-I'm not shy about [my love of polyfills](/why-i-love-polyfills/). They make it incredibly easy to just write code with modern, vanilla JavaScript and still support older browsers.
+I'm not shy about [my love of polyfills](https://gomakethings.com/why-i-love-polyfills/). They make it incredibly easy to just write code with modern, vanilla JavaScript and still support older browsers.
 
-Less easy: [finding good polyfills](/where-can-you-find-javascript-polyfills/).
+Less easy: [finding good polyfills](https://gomakethings.com/where-can-you-find-javascript-polyfills/).
 
 It's a bit of a treasure hunt. [MDN](https://developer.mozilla.org/) has some that offer varying degrees of browser support. [GitHub](https://github.com/search?utf8=%E2%9C%93&q=polyfill&type=) has a bunch of varying quality. I've written some of my own.
 
@@ -20,7 +22,7 @@ A few months ago I wrote *very* briefly about [Polyfill.io](http://polyfill.io).
 
 Polyfill.io is a polyfill service written by [Jonathan Neal](https://github.com/jonathantneal) for the Financial Times, who is an amazing contributor to the open source community. To use it, you just add this to your site:
 
-```html
+```lang-html
 <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 ```
 
@@ -36,7 +38,7 @@ No big libraries or frameworks. No new syntaxes to learn. No pre-compilers or mo
 
 ## My thoughts
 
-[When I first wrote about Polyfill.io](/automatic-polyfilling/), I had not yet used it on a project, but heard a lot of great things about it from others.
+[When I first wrote about Polyfill.io](https://gomakethings.com/automatic-polyfilling/), I had not yet used it on a project, but heard a lot of great things about it from others.
 
 I've now had the chance to use it on a large project, and I'm never looking back.
 

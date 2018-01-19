@@ -3,12 +3,14 @@ categories:
 - Accessibility
 - CSS
 date: '2018-01-18'
+permalink: /improving-link-legibility-with-two-lines-of-css/
 title: Improving link legibility with two lines of CSS
+url: /2018/01/18/improving-link-legibility-with-two-lines-of-css
 ---
 
-Links in body copy should pretty much [always be underlined](/accessibility-according-to-people-with-actual-disabilities/).
+Links in body copy should pretty much [always be underlined](https://gomakethings.com/accessibility-according-to-people-with-actual-disabilities/).
 
-**A brief aside...** I had [previously assumed](/better-link-accessibility-for-the-color-blind/) that certain colors that aren't affected by common types of color blindness (like certain shades of blue) provided sufficient contrast and did not need to be underlined. Then I [learned that I was wrong](/accessibility-according-to-people-with-actual-disabilities/).
+**A brief aside...** I had [previously assumed](https://gomakethings.com/better-link-accessibility-for-the-color-blind/) that certain colors that aren't affected by common types of color blindness (like certain shades of blue) provided sufficient contrast and did not need to be underlined. Then I [learned that I was wrong](https://gomakethings.com/accessibility-according-to-people-with-actual-disabilities/).
 
 > Sleep disorder: I have to read after 5pm with f.lux cranked up all the way, so sites that assume hyperlinks can be blue w/no underline…
 
@@ -20,7 +22,7 @@ Print figured this out years ago, and breaks the underline for those descenders.
 
 For a short while, you could use the `text-decoration-skip` property set to `ink`.
 
-```css
+```lang-css
 a {
     text-decoration: underline;
     text-decoration-skip: ink;
@@ -29,7 +31,7 @@ a {
 
 This has since been moved to it's own property: `text-decoration-skip-ink`, with a value of `auto`. Browser support is spotty, so for now, use both.
 
-```css
+```lang-css
 a {
     text-decoration: underline;
     text-decoration-skip: ink;

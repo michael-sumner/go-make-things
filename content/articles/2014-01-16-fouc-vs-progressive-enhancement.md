@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2014-01-16'
+permalink: /fouc-vs-progressive-enhancement/
 title: FOUC vs. Progressive Enhancement
+url: /2014/01/16/fouc-vs-progressive-enhancement
 ---
 
 In his recent post on <a href="http://www.zeldman.com/2014/01/06/its-2014-is-web-design-dead/">web standards and progressive enhancement</a>, Zeldman notes:

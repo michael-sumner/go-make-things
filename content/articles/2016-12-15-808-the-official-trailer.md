@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2016-12-15'
+permalink: /808-the-official-trailer/
 title: 808, the official trailer
+url: /2016/12/15/808-the-official-trailer
 ---
 
 As a hip-hop nerd, [this movie about the 808 drum machine](https://www.youtube.com/watch?v=LMPzuRWoNgE) looks awesome!

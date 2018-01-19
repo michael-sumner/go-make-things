@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2011-02-09'
+permalink: /when-does-your-brand-become-immortal/
 title: When does your brand become immortal?
+url: /2011/02/09/when-does-your-brand-become-immortal
 ---
 
 The other day on <a href="http://www.damniwish.com/2011/02/when-does-your-brand-become-immortal.html">Damn, I Wish I Thought of That, Andy Sernovitz asked</a>:

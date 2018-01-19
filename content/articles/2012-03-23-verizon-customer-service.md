@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2012-03-23'
+permalink: /verizon-customer-service/
 title: How Verizon is willing to lose a customer of 12 years over $120 a year
+url: /2012/03/23/verizon-customer-service
 ---
 
 This Christmas, I upgraded my wife's dumb phone to an iPhone (since she was regularly "borrowing" mine).

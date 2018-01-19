@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-11-06'
+permalink: /how-to-build-a-high-performance-website/
 title: How to build a high performance website
+url: /2013/11/06/how-to-build-a-high-performance-website
 ---
 
 <em>This is part 2 of <a href="https://gomakethings.com/wicked-fast-websites/">Wicked Fast Websites</a>, a three-part series that explores why web performance matters and what you can do about it.</em>

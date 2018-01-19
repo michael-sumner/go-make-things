@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Business &amp; Leadership
 date: '2011-08-11'
+permalink: /last-years-model/
 title: Last Year&#8217;s Model
+url: /2011/08/11/last-years-model
 ---
 
 <blockquote>Well-designed products simply last longer.

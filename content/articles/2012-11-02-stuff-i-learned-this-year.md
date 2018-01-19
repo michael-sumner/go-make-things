@@ -4,7 +4,9 @@ categories:
 - Design &amp; UX
 date: '2012-11-02'
 excerpt: What I've learned from various projects (both big and small) this year.
+permalink: /stuff-i-learned-this-year/
 title: Stuff I Learned This Year
+url: /2012/11/02/stuff-i-learned-this-year
 ---
 
 A few weeks ago I launched <a href="https://gomakethings.com/work/jetpack/">JetPack</a>, a project that started as a "what if" brainstorming session back in January.

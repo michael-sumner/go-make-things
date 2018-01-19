@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2011-07-14'
+permalink: /rethinking-the-receipt/
 title: Rethinking the Receipt
+url: /2011/07/14/rethinking-the-receipt
 ---
 
 <a href="http://berglondon.com/blog/2011/06/02/icons-rethink-turning-receipts-into-paper-apps/">Berg Studios</a> has put together an interesting redesign on the common receipt as part of <a href="http://iconeye.com/">Icon Magazine's</a> "Rethink" series.

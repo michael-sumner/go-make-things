@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2017-05-24'
+permalink: /stupid-web-security-shit/
 title: Stupid web security shit
+url: /2017/05/24/stupid-web-security-shit
 ---
 
 Troy Hunt has put together an article documenting <a href="https://www.troyhunt.com/reckon-youve-seen-some-stupid-security-things-here-hold-my-beer/">some of the stupid web security shit he's seen in his travels</a>.

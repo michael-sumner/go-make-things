@@ -2,7 +2,9 @@
 categories:
 - Careers
 date: '2016-07-27'
+permalink: /why-fun-workplaces-are-actually-bullshit-and-other-career-advice/
 title: Why “fun” workplaces are actually bullshit (and other career advice)
+url: /2016/07/27/why-fun-workplaces-are-actually-bullshit-and-other-career-advice
 ---
 
 As an industry, we spend a lot of time talking about the innovative CSS techniques, the latest JavaScript frameworks, and new HTML elements.
@@ -35,4 +37,4 @@ I’m putting together a bunch of cool resources for you, including...
 - Why 5 year plans are a waste of time.
 - How to deal with salary negotiation awkwardness and get paid what you deserve.
 
-Interested? [Learn more about Careers for Coders](/careers/).
+Interested? [Learn more about Careers for Coders](https://gomakethings.com/careers/).

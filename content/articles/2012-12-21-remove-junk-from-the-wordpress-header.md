@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2012-12-21'
+permalink: /remove-junk-from-the-wordpress-header/
 title: Remove junk from the WordPress header
+url: /2012/12/21/remove-junk-from-the-wordpress-header
 ---
 
 If you ever view the source of your WordPress blog, you'll notice that WordPress adds a bunch of unnecessary junk into the header.

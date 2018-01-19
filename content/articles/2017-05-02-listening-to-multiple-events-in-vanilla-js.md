@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-05-02'
+permalink: /listening-to-multiple-events-in-vanilla-js/
 title: Listening to multiple events in vanilla JS
+url: /2017/05/02/listening-to-multiple-events-in-vanilla-js
 ---
 
 A few weeks back, we looked at <a href="https://gomakethings.com/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/">how to attach multiple elements to a single event listener in vanilla JavaScript</a>.

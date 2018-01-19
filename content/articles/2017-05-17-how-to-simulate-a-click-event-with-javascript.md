@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-05-17'
+permalink: /how-to-simulate-a-click-event-with-javascript/
 title: How to simulate a click event with vanilla JavaScript
+url: /2017/05/17/how-to-simulate-a-click-event-with-javascript
 ---
 
 The other day on Twitter, [Oliver Williams](https://twitter.com/css_grid) asked me:
@@ -22,7 +24,7 @@ WTF??
 
 Fortunately, there's a way to get this behavior using the `MouseEvent` API. Here's a small little helper method you can use.
 
-```javascript
+```lang-javascript
 /**
  * Simulate a click event.
  * @public
@@ -42,7 +44,7 @@ var simulateClick = function (elem) {
 
 To use it, call the function, passing in the element you want to simulate the click on.
 
-```javascript
+```lang-javascript
 var someLink = document.querySelector('a');
 simulateClick(someLink);
 ```

@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2012-05-08'
+permalink: /a-better-critique/
 title: A Better Critique
+url: /2012/05/08/a-better-critique
 ---
 
 <blockquote>In a well-run critique, we explicitly separate out the discussion of <strong>“What are we trying to do with this design?”</strong> from the discussion of <strong>“Does this rendition accomplish it?”</strong> By separating out these two pieces, we avoid digging into the designer’s work just because they unaware of a critical requirement or need.</blockquote>

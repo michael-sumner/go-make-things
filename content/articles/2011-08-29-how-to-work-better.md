@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2011-08-29'
+permalink: /how-to-work-better/
 title: How to work better
+url: /2011/08/29/how-to-work-better
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/08/Do-Better-Work.jpg" alt="" title="Do-Better-Work" width="500" height="682" class="aligncenter size-full wp-image-1208" />

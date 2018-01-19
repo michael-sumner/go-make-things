@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-01-27'
+permalink: /protests-in-egypt/
 title: Protests in Egypt
+url: /2011/01/27/protests-in-egypt
 ---
 
 So many people in the US, myself included, take for granted the immense amount of freedom we have to say and do things. Watching this <a href="https://www.youtube.com/watch?v=kWr6MypZ-JU">video of the protests going on in Egypt</a> right now was a moving and not-so-subtle reminder.

@@ -4,10 +4,12 @@ categories:
 - CSS
 - JavaScript
 date: '2017-08-25'
+permalink: /how-to-add-transition-animations-to-vanilla-javascript-show-and-hide-methods/
 title: How to add transition animations to vanilla JavaScript show and hide methods
+url: /2017/08/25/how-to-add-transition-animations-to-vanilla-javascript-show-and-hide-methods
 ---
 
-Yesterday, we looked at [how to show and hide elements with vanilla JavaScript](/how-to-show-and-hide-elements-with-vanilla-javascript/).
+Yesterday, we looked at [how to show and hide elements with vanilla JavaScript](https://gomakethings.com/how-to-show-and-hide-elements-with-vanilla-javascript/).
 
 To recap, we can either add an inline `display` style with the `style` property, or toggle a class that controls visibility using `classList`.
 
@@ -19,7 +21,7 @@ Adding transitions is where things get just a bit more complicated.
 
 Let's say you wanted to animate the expansion or collapse of your content like jQuery does. You might try adding a `height` property of `0`, and changing it to `auto` when `.is-visible` is added.
 
-```css
+```lang-css
 .toggle-content {
 	display: none;
 	height: 0;
@@ -36,7 +38,7 @@ Unfortunately, that won't work. CSS transitions require fixed values, and will n
 
 One commonly proposed solution is to use `max-height` instead of height, and set the expanded value to something really large like `999em`.
 
-```css
+```lang-css
 .toggle-content {
 	display: none;
 	max-height: 0;
@@ -58,7 +60,7 @@ Because the `display` property is set to `none`, and then changes to `block`, th
 
 If we remove the `display` property, you'll notice it works, sort of ([here's a demo](https://jsfiddle.net/cferdinandi/qgpxvhhb/17/)).
 
-```css
+```lang-css
 .toggle-content {
 	max-height: 0;
 	overflow: hidden;
@@ -89,14 +91,14 @@ We need a more elegant solution.
 
 To make this all work, we want to do two things:
 
-1. Dynamically calculate the height of our element, so that the browser has an actually `height` value to animate. We'll [add this inline](/two-ways-to-set-an-elements-css-with-vanilla-javascript/) to our element
+1. Dynamically calculate the height of our element, so that the browser has an actually `height` value to animate. We'll [add this inline](https://gomakethings.com/two-ways-to-set-an-elements-css-with-vanilla-javascript/) to our element
 2. Delay changing the `display` property until after the animation is complete.
 
 First, let's update our CSS.
 
 We'll add the `display` back. We'll switch `max-height` back to `height`, and give it a value of `auto` when the content is visible. We'll be using JavaScript to add this as content-specific inline CSS for us.
 
-```css
+```lang-css
 .toggle-content {
 	display: none;
 	height: 0;
@@ -120,7 +122,7 @@ Then we'll get it's height using `scrollHeight`, which tells you the height of a
 
 Finally, we'll hide our element again by removing the `display` property, and return our `height` value.
 
-```javascript
+```lang-javascript
 // Get the natural height of the element
 var getHeight = function () {
 	elem.style.display = 'block'; // Make it visible
@@ -138,7 +140,7 @@ Next, we want to do three things:
 2. Add the `.is-visible` class to our element to update it's `display` property.
 3. Set it's `height` as an inline property.
 
-```javascript
+```lang-javascript
 var show = function (elem) {
 
 	// Get the natural height of the element
@@ -160,7 +162,7 @@ There's one last thing we should do: remove the inline `height` property after t
 
 We'll use `setTimeout()` to create a function that we run *after* our animation finishes. The first argument in `setTimeout()` is our function, where we'll remove the inline `height` property. The second is how far out, in milliseconds, to run that function.
 
-```javascript
+```lang-javascript
 var show = function (elem) {
 
 	// Get the natural height of the element
@@ -191,7 +193,7 @@ Visible elements, once animated, have a `height` of `auto`. To animate hiding th
 
 Let's again calculate the natural height of the element with `scrollHeight` and add it as an inline style.
 
-```javascript
+```lang-javascript
 var hide = function (elem) {
 
 	// Give the element a height to change from
@@ -202,7 +204,7 @@ var hide = function (elem) {
 
 Next, we want to set our `height` *back* to `0`. *But*, if we run it too quickly, the browser won't detect the change at all and won't run. We'll use `setTimeout()` with a 1 millisecond delay to make sure the change registers.
 
-```javascript
+```lang-javascript
 var hide = function (elem) {
 
 	// Give the element a height to change from
@@ -218,7 +220,7 @@ var hide = function (elem) {
 
 When the animation completes, we can remove our `.is-visible` class to set `display` to `none` again.
 
-```javascript
+```lang-javascript
 var hide = function (elem) {
 
 	// Give the element a height to change from
@@ -243,7 +245,7 @@ The last thing we need to do is add a method to toggle visibility.
 
 For this one, we'll check to see if our element has the `.is-visible` class. If it does, it's already visible and we'll run our `hide()` method. Otherwise, we'll run our `show()` method.
 
-```javascript
+```lang-javascript
 var toggle = function (elem, timing) {
 
 	// If the element is visible, hide it
@@ -262,7 +264,7 @@ var toggle = function (elem, timing) {
 
 Here's the whole thing together.
 
-```javascript
+```lang-javascript
 // Show an element
 var show = function (elem) {
 

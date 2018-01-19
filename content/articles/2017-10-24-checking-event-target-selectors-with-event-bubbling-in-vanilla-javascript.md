@@ -4,14 +4,16 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-10-24'
+permalink: /checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/
 title: Checking event target selectors with event bubbling in vanilla JavaScript
+url: /2017/10/24/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript
 ---
 
 Event bubbling is an approach is to listening for events that's better for performance and gives you a bit more flexibility.
 
 Instead of adding event listeners to specific elements, you listen to all events on a parent element (often the `document` or `window`). Events within that element "bubble up," and you can check to see if the element that triggered the event (the `event.target`) matches the selector you really care about.
 
-```js
+```lang-js
 // Listen to all clicks on the document
 document.addEventListener('click', function (event) {
 	var clickedElem = event.target;
@@ -30,7 +32,7 @@ So, how do you check if the `event.target` matches the selector you care about?
 
 Depending on the selector, you might be able to use selector-specific methods. For example, if the selector is a class, you might use `classList.contains()`.
 
-```js
+```lang-js
 // Listen to all clicks on the document
 document.addEventListener('click', function (event) {
 
@@ -44,7 +46,7 @@ document.addEventListener('click', function (event) {
 
 Or if it's a data attribute, you might use `hasAttribute()`.
 
-```js
+```lang-js
 // Listen to all clicks on the document
 document.addEventListener('click', function (event) {
 
@@ -62,7 +64,7 @@ There is another way, though, that you can use with any selector.
 
 The `matches()` method checks to see if an element matches any CSS selector pattern you pass in. You can use individual selectors, like in the examples above. For example, here's how you'd check for that `[data-some-attribute]` data attribute.
 
-```js
+```lang-js
 // Listen to all clicks on the document
 document.addEventListener('click', function (event) {
 
@@ -76,7 +78,7 @@ document.addEventListener('click', function (event) {
 
 But you can also test complex CSS selectors, too.
 
-```js
+```lang-js
 // Listen to all clicks on the document
 document.addEventListener('click', function (event) {
 
@@ -92,7 +94,7 @@ document.addEventListener('click', function (event) {
 
 A few older browsers implemented it with a vendor prefix, so you dropping in this simple polyfill ensures good cross-browser compatibility back to IE9.
 
-```js
+```lang-js
 /**
  * Element.matches() polyfill (simple version)
  * https://developer.mozilla.org/en-US/docs/Web/API/Element/matches#Polyfill
@@ -108,7 +110,7 @@ There is one small hiccup with using `matches()`: the `event.target` may be *ins
 
 Consider a link with the following markup:
 
-```html
+```lang-html
 <a class="click-me" href="#somewhere">
 	<span class="text-large">
 		Click me, dude!
@@ -118,7 +120,7 @@ Consider a link with the following markup:
 
 With that markup, this would fail.
 
-```js
+```lang-js
 if (!event.target.matches('.click-me')) return;
 ```
 
@@ -130,7 +132,7 @@ The `closest()` method provides a way around this issue. It looks for the closes
 
 While it's typically used to find parent elements, you can use to check if the clicked element in was the thing you care about or any elements inside it.
 
-```js
+```lang-js
 if (!event.target.closest('.click-me')) return;
 ```
 
@@ -140,7 +142,7 @@ It starts by checking the element itself, so if the `event.target` was actually 
 
 The `closest()` method is a bit spotty. This polyfill gives you consistent support back to IE9.
 
-```js
+```lang-js
 
 /**
  * Element.closest() polyfill

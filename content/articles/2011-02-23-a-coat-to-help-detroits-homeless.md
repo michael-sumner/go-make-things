@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Design &amp; UX
 date: '2011-02-23'
+permalink: /a-coat-to-help-detroits-homeless/
 title: A Coat to Help Detroit&#8217;s Homeless
+url: /2011/02/23/a-coat-to-help-detroits-homeless
 ---
 
 What do you get when you combine passion, creativity, and a bunch of inexpensive building materials?

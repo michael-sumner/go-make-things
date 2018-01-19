@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2013-03-29'
+permalink: /40-years-this-russian-family-was-cut-off-from-all-human-contact-unaware-of-wwii/
 title: For 40 Years, This Russian Family Was Cut Off From All Human Contact, Unaware of WWII
+url: /2013/03/29/40-years-this-russian-family-was-cut-off-from-all-human-contact-unaware-of-wwii
 ---
 
 Smithsonian Magazine published a fascinating story on <a href="http://www.smithsonianmag.com/history-archaeology/For-40-Years-This-Russian-Family-Was-Cut-Off-From-Human-Contact-Unaware-of-World-War-II-188843001.html">a family of six, lost in the taiga for 40 years</a>.

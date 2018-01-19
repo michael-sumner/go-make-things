@@ -3,7 +3,9 @@ categories:
 - Code
 - WordPress
 date: '2016-08-24'
+permalink: /mailchimp-and-wordpress/
 title: MailChimp and WordPress
+url: /2016/08/24/mailchimp-and-wordpress
 ---
 
 I've open sourced a couple of new WordPress plugins.

@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2012-04-13'
+permalink: /brainstorming-is-b-s/
 title: Brainstorming is B.S.
+url: /2012/04/13/brainstorming-is-b-s
 ---
 
 <a href="http://www.fastcodesign.com/1668930/the-brainstorming-process-is-bs-but-can-we-rework-it">From Fast Company...</a>

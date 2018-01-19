@@ -2,7 +2,9 @@
 categories:
 - Technology
 date: '2011-05-09'
+permalink: /twitter-sucks/
 title: Twitter Sucks
+url: /2011/05/09/twitter-sucks
 ---
 
 There, I said it.

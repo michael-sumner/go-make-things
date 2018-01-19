@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2017-01-18'
+permalink: /fix-for-ssh-passphrases-on-macos-sierra/
 title: Fix for SSH passphrases on MacOS Sierra
+url: /2017/01/18/fix-for-ssh-passphrases-on-macos-sierra
 ---
 
 Since updating to MacOS Sierra, GitHub asks me for my SSH passphrase every single time I try to pull or push.
@@ -15,7 +17,7 @@ Fortunately, I also stumbled onto [an easy fix](https://github.com/lionheart/ope
 2. Next, run `open .` to open the `.ssh` directory.
 3. In the `config` file, add the snippet below. If no `config` file exists, create one first.
 
-```bash
+```lang-bash
 Host *
   UseKeychain yes
   AddKeysToAgent yes

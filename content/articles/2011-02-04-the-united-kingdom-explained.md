@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-02-04'
+permalink: /the-united-kingdom-explained/
 title: The United Kingdom Explained
+url: /2011/02/04/the-united-kingdom-explained
 ---
 
 If you're like me, you've spent most of your life using the terms England, Britain, and the United Kingdom interchangeably. No more!

@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2013-11-13'
+permalink: /wordpress-for-web-apps-delete-account/
 title: 'WordPress for Web Apps: Delete Account'
+url: /2013/11/13/wordpress-for-web-apps-delete-account
 ---
 
 <a href="http://cferdinandi.github.io/web-app-starter-kit/">WordPress for Web Apps</a> picked up a new feature over the weekend. Users can now delete their account from the front-end.

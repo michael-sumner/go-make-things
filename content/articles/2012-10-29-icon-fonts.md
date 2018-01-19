@@ -4,10 +4,12 @@ categories:
 - Code
 - Design &amp; UX
 date: '2012-10-29'
+permalink: /icon-fonts/
 title: Using Icon Fonts
+url: /2012/10/29/icon-fonts
 ---
 
-***Note:*** *This article is a bit stale. It contains outdated screenshots from the IcoMoon interface, and is not how I build sites today. I've since [switched to using SVGs](/using-svgs/), and I'm not looking back. That said, if you're looking to get started with icon fonts, it's still a worthwhile read.*
+***Note:*** *This article is a bit stale. It contains outdated screenshots from the IcoMoon interface, and is not how I build sites today. I've since [switched to using SVGs](https://gomakethings.com/using-svgs/), and I'm not looking back. That said, if you're looking to get started with icon fonts, it's still a worthwhile read.*
 
 <em>This article was updated on August 19, 2013 to reflect the current way I implement icon fonts on my projects, which now includes the use of a feature test.</em>
 
@@ -221,7 +223,7 @@ There's a simple CSS class you can use to include supporting text in your HTML b
 ***Note:*** *the `.screen-reader` class was updated on December 12, 2016 to a different technique that works better.*
 
 <em>CSS</em>
-```css
+```lang-css
 /**
  * Visually hide an element, but leave it available for screen readers
  * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css

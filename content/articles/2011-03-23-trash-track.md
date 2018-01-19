@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-03-23'
+permalink: /trash-track/
 title: Trash Track
+url: /2011/03/23/trash-track
 ---
 
 Why do we know so much about the supply chain and so little about the removal chain? <a href="http://senseable.mit.edu/trashtrack/">MIT's Trash Track Project</a> is working to fix that.

@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2014-01-13'
+permalink: /a-web-based-image-optimizer/
 title: A web-based image optimizer
+url: /2014/01/13/a-web-based-image-optimizer
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2014/01/b64.jpg" alt="A screenshot of b64.io" width="790" height="617" class="alignnone size-full wp-image-5183" />

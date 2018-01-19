@@ -2,10 +2,12 @@
 categories:
 - Art &amp; Science
 date: '2017-07-26'
+permalink: /my-hip-hop-top-5/
 title: My Hip-Hop Top 5
+url: /2017/07/26/my-hip-hop-top-5
 ---
 
-Yesterday, I shared my [web developer top 5 list](/the-web-development-goat/).
+Yesterday, I shared my [web developer top 5 list](https://gomakethings.com/the-web-development-goat/).
 
 One of my readers asked what my hip-hop top 5 looks like. Here it is:
 

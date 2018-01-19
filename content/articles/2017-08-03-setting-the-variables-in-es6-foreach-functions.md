@@ -3,10 +3,12 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-03'
+permalink: /setting-the-variables-in-es6-foreach-functions/
 title: Setting the variables in ES6 forEach() functions
+url: /2017/08/03/setting-the-variables-in-es6-foreach-functions
 ---
 
-Over the last few days, we looked at the new, easier ways ES6 let's us loop through [arrays](/looping-through-arrays-the-es6-way/), [nodelists](/looping-through-nodelists-with-es6/), and [objects](/looping-through-objects-with-es6/).
+Over the last few days, we looked at the new, easier ways ES6 let's us loop through [arrays](https://gomakethings.com/looping-through-arrays-the-es6-way/), [nodelists](https://gomakethings.com/looping-through-nodelists-with-es6/), and [objects](https://gomakethings.com/looping-through-objects-with-es6/).
 
 One of my readers asked (shared with permission):
 
@@ -16,7 +18,7 @@ Ah, yes, sorry about that!
 
 You pass a callback function into `forEach()`, and that callback accepts 3 arguments that automatically get passed into the function itself: `item`, `index` or `key`, and the array/nodelist/object list.
 
-```javascript
+```lang-javascript
 someArray.forEach(function (item, index, list) {
     // Code goes here...
 });
@@ -26,7 +28,7 @@ The `item` is the current item in the loop, the `index` is the equivalent of `i`
 
 For example...
 
-```javascript
+```lang-javascript
 // This is our array...
 var snacks = [
 	'cookies',
@@ -45,7 +47,7 @@ snacks.forEach(function (snack, index, snacks)) {
 
 We could also name our variables something else.
 
-```javascript
+```lang-javascript
 snacks.forEach(function (yummyThing, num, desserts)) {
 	console.log(yummyThing); // cookies, chips, etc.
 	console.log(num); // 0, 1, 2
@@ -55,7 +57,7 @@ snacks.forEach(function (yummyThing, num, desserts)) {
 
 The arguments must be passed in order, but each one is optional. You often only need the value, which is why that's the first argument passed in.
 
-```javascript
+```lang-javascript
 snacks.forEach(function (snack)) {
 	console.log(snack); // cookies, chips, etc.
 };

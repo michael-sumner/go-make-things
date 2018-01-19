@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-07-20'
+permalink: /the-best-of-the-week-7202012/
 title: 'The Best of the Week: 7/20/2012'
+url: /2012/07/20/the-best-of-the-week-7202012
 ---
 
 <ul>

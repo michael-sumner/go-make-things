@@ -3,14 +3,16 @@ categories:
 - Code
 - JavaScript
 date: '2016-12-14'
+permalink: /a-vanilla-js-equivalent-to-jquerys-is-api/
 title: A vanilla JS equivalent to jQuery&#8217;s .is() API
+url: /2016/12/14/a-vanilla-js-equivalent-to-jquerys-is-api
 ---
 
 In jQuery, you can match any element against any valid CSS selector using the `.is()` API.
 
 Here's an example with an absurdly unrealistic and complicated selector to match against.
 
-```javascript
+```lang-javascript
 if ( $( '.some-element' ).is( 'a[href^="#"].another-class[data-something-else]' ) ) {
     // Do something...
 }
@@ -18,7 +20,7 @@ if ( $( '.some-element' ).is( 'a[href^="#"].another-class[data-something-else]' 
 
 This is just as easy to do without jQuery, though, using the vanilla JS `.matches()` API. This works in all modern browsers, plus IE9 and up.
 
-```javascript
+```lang-javascript
 var elem = document.querySelector( '.some-element' );
 if ( elem.matches( 'a[href^="#"].another-class[data-something-else]' ) ) {
     // Do something...
@@ -27,7 +29,7 @@ if ( elem.matches( 'a[href^="#"].another-class[data-something-else]' ) ) {
 
 The one "gotcha": some browsers initially implemented this using browser prefixes (and others---cough cough IE---still do). You can get around that issue with a really simple polyfill:
 
-```javascript
+```lang-javascript
 if (!Element.prototype.matches) {
     Element.prototype.matches =
         Element.prototype.matchesSelector ||

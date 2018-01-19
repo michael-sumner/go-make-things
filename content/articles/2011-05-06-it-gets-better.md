@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-05-06'
+permalink: /it-gets-better/
 title: It Gets Better
+url: /2011/05/06/it-gets-better
 ---
 
 Employees at Pixar Studios have produced a video for Dan Savage's <a href="http://www.itgetsbetter.org/">It Get's Better</a> project.

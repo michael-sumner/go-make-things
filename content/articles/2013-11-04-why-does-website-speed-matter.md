@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2013-11-04'
+permalink: /why-does-website-speed-matter/
 title: Why does website speed matter?
+url: /2013/11/04/why-does-website-speed-matter
 ---
 
 <em>This is part 1 of <a href="https://gomakethings.com/wicked-fast-websites/">Wicked Fast Websites</a>, a three-part series that explores why web performance matters and what you can do about it.</em>

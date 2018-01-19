@@ -2,7 +2,9 @@
 categories:
 - Design &amp; UX
 date: '2014-04-03'
+permalink: /why-mobile-first-and-progressive-enhancement-are-the-right-way-forward/
 title: Why mobile-first and progressive enhancement are the right way forward
+url: /2014/04/03/why-mobile-first-and-progressive-enhancement-are-the-right-way-forward
 ---
 
 Last summer, <a href="https://gomakethings.com/adopting-a-dog-from-your-phone/">I predicted</a> that 2014 would be the year that mobile traffic cracked the 50-percent mark at <a href="http://www.pawsnewengland.com/">PAWS New England</a>.

@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2011-08-03'
+permalink: /talent-is-overrated/
 title: Talent is Overrated
+url: /2011/08/03/talent-is-overrated
 ---
 
 Back in April, illustrator <a href="http://vimeo.com/22752100">Christoph Niemann gave a brilliant talk</a> for the <a href="http://www.creativemornings.com/">CreativeMornings</a> series on talent, effort, and finding time to make awesome things.

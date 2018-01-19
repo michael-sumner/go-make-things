@@ -3,10 +3,12 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-03'
+permalink: /adding-an-element-to-the-beginning-of-a-set-of-elements-with-vanilla-javascript/
 title: Adding an element to the beginning of a set of elements with vanilla JavaScript
+url: /2017/10/03/adding-an-element-to-the-beginning-of-a-set-of-elements-with-vanilla-javascript
 ---
 
-Previously, we looked at [how to insert an element before another one with vanilla JavaScript](/how-to-insert-an-element-before-another-one-in-the-dom-with-vanilla-javascript/). Today, we'll learn how to insert an element to the beginning of a set elements inside a shared parent with vanilla JS.
+Previously, we looked at [how to insert an element before another one with vanilla JavaScript](https://gomakethings.com/how-to-insert-an-element-before-another-one-in-the-dom-with-vanilla-javascript/). Today, we'll learn how to insert an element to the beginning of a set elements inside a shared parent with vanilla JS.
 
 We're going to look at two ways to do this:
 
@@ -17,7 +19,7 @@ We're going to look at two ways to do this:
 
 Traditionally, you would get the first element in your parent node with `firstChild`, and use the `insertBefore()` method to add your new content before it.
 
-```js
+```lang-js
 // Create a new element
 var newNode = document.createElement('div');
 
@@ -32,7 +34,7 @@ parentNode.insertBefore(newNode, parentNode.firstChild);
 
 With ES6, we can now use `prepend()` to do the same thing.
 
-```js
+```lang-js
 // Create a new element
 var newNode = document.createElement('div');
 
@@ -49,7 +51,7 @@ The `prepend()` method works in newer versions of Chrome, Firefox, and Opera, bu
 
 Fortunately, you can bolt support back to IE7 with this polyfill, taken from the [polyfill.io](http://polyfill.io) service.
 
-```js
+```lang-js
 var _mutation = (function () {
 
 	function isNode(object) {

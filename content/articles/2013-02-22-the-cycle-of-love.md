@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Uncategorized
 date: '2013-02-22'
+permalink: /the-cycle-of-love/
 title: The Cycle of Love
+url: /2013/02/22/the-cycle-of-love
 ---
 
 If you live in the US, you've probably seen that new Verizon commercial where <a href="https://www.youtube.com/watch?v=iG2DRiQt1b0">the guy rides his bike around San Francisco in the shape of a heart</a>, tracks it with a smartphone app, and sends the resulting image to his girlfriend.

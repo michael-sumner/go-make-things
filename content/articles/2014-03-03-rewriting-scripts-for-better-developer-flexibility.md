@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2014-03-03'
+permalink: /rewriting-scripts-for-better-developer-flexibility/
 title: Rewriting scripts for better developer flexibility
+url: /2014/03/03/rewriting-scripts-for-better-developer-flexibility
 ---
 
 Last week, the full suite of <a href="http://cferdinandi.github.io/kraken/addons.html#interactive">JavaScript add-ons for Kraken</a> got a few updates that provide much greater flexibility for developers (while still being easy to use right out-of-the-box).

@@ -3,7 +3,9 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2011-10-20'
+permalink: /i-want-to-build-things/
 title: I want to build things
+url: /2011/10/20/i-want-to-build-things
 ---
 
 <blockquote>I personally, man, I want to build things. I’m 30. I’m not ready to be an industry pundit. I got three offers to be a professor during this summer, and I told all of the universities that I thought I would be an awful professor. What I’m best at doing is finding a group of talented people and making things with them.

@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2013-07-09'
+permalink: /high-performance-wordpress-talk-on-july-23/
 title: High-Performance WordPress Talk on July 23
+url: /2013/07/09/high-performance-wordpress-talk-on-july-23
 ---
 
 On Tuesday, July 23rd, I'll be giving a talk on <a href="http://www.meetup.com/WordPressProvidence/events/127790982/">High-Performance WordPress</a> in Warwick, RI. The talk is sponsored by WordPress Providence.

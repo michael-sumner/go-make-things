@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-19'
+permalink: /default-values-for-javascript-variables/
 title: Default values for JavaScript variables
+url: /2017/04/19/default-values-for-javascript-variables
 ---
 
 Sometimes in JavaScript you want to provide a default value for a variable that can be overridden. That's super easy to do with the <code>||</code> operator.

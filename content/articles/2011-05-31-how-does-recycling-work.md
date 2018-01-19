@@ -3,7 +3,9 @@ categories:
 - Art &amp; Science
 - Business &amp; Leadership
 date: '2011-05-31'
+permalink: /how-does-recycling-work/
 title: How does recycling work?
+url: /2011/05/31/how-does-recycling-work
 ---
 
 I've always kind of wondered. Fortunately, the fine folks at <a href="http://recyclemorenc.org/">Recycle More North Carolina</a> have put together <a href="https://www.youtube.com/watch?v=7CFE5tD1CCI">a short, fun video on how it all works</a>.

@@ -3,10 +3,12 @@ categories:
 - Code
 - JavaScript
 date: '2017-12-14'
+permalink: /defining-and-updating-javascript-variables-in-different-scopes/
 title: Defining and updating JavaScript variables in different scopes
+url: /2017/12/14/defining-and-updating-javascript-variables-in-different-scopes
 ---
 
-Yesterday, we learned about [scope in JavaScript](/scope-in-javascript/). Today, let's learn how to update variables across different types of scopes.
+Yesterday, we learned about [scope in JavaScript](https://gomakethings.com/scope-in-javascript/). Today, let's learn how to update variables across different types of scopes.
 
 Prefixing a variable with `var` defines a new variable. Omitting `var` updates an existing variable.
 
@@ -17,7 +19,7 @@ There are two caveats to this:
 
 You can define a variable in a function that has the same name as a *global* or *lexical* variable without modifying that variable.
 
-```javascript
+```lang-javascript
 var sandwich = 'tuna';
 
 var logSandwich = function () {
@@ -35,7 +37,7 @@ console.log(sandwich);
 
 If you omit the leading `var`, you can update a variable in the *global* or *lexical* scope from within a function.
 
-```javascript
+```lang-javascript
 var sandwich = 'tuna';
 
 // logs "tuna"

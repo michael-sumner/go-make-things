@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2013-01-11'
+permalink: /how-much-does-a-hurricane-weigh/
 title: How much does a hurricane weigh?
+url: /2013/01/11/how-much-does-a-hurricane-weigh
 ---
 
 Did you know that an average puffy white cloud contains about 216,000 pounds of water? What about a dark, ominous storm cloud? That weighs about 105.8 <em>million</em> pounds. And that's just one cloud!

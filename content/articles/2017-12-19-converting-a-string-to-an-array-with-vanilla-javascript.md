@@ -3,10 +3,12 @@ categories:
 - Code
 - JavaScript
 date: '2017-12-19'
+permalink: /converting-a-string-to-an-array-with-vanilla-javascript/
 title: Converting a string to an array with vanilla JavaScript
+url: /2017/12/19/converting-a-string-to-an-array-with-vanilla-javascript
 ---
 
-Yesterday, we looked at [how to convert an array to a string](/converting-an-array-to-a-string-with-vanilla-javascript/). Today, let's look at how to do the exact opposite: convert a string to an array.
+Yesterday, we looked at [how to convert an array to a string](https://gomakethings.com/converting-an-array-to-a-string-with-vanilla-javascript/). Today, let's look at how to do the exact opposite: convert a string to an array.
 
 The `String.split()` method converts a string into an array of strings, splitting the string every time it matches against a set of characters you provide as an argument. You can also optionally tell it to stop after a certain number of matches by passing in a number as a second argument.
 
@@ -14,7 +16,7 @@ The `String.split()` method converts a string into an array of strings, splittin
 
 If you had a comma-separated list, you could split it into an array like this.
 
-```js
+```lang-js
 var shoppingList = 'apples,pears,cookies,bread';
 
 // Returns ["apples", "pears", "cookies", "bread"]
@@ -23,7 +25,7 @@ var shoppingListArray = shoppingList.split(',');
 
 If you had spaces after your commas, though, you'd want to include that in your `delimiter` argument (the characters to split on).
 
-```js
+```lang-js
 var shoppingList = 'apples, pears, cookies, bread';
 
 // Returns ["apples", "pears", "cookies", "bread"]
@@ -32,7 +34,7 @@ var shoppingListArray = shoppingList.split(', ');
 
 You can split by almost anything. Dashes, for example...
 
-```js
+```lang-js
 var shoppingList = 'apples - pears - cookies - bread';
 
 // Returns ["apples", "pears", "cookies", "bread"]
@@ -41,7 +43,7 @@ var shoppingListArray = shoppingList.split(' - ');
 
 Or even spaces...
 
-```js
+```lang-js
 var shoppingList = 'apples pears cookies bread';
 
 // Returns ["apples", "pears", "cookies", "bread"]
@@ -54,7 +56,7 @@ To limit the number of items in your array, pass in a second argument with the m
 
 For example, let's limit our shopping list to just two items.
 
-```js
+```lang-js
 var shoppingList = 'apples, pears, cookies, bread';
 
 // Returns ["apples", "pears"]

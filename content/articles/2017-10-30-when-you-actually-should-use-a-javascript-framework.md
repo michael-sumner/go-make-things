@@ -4,12 +4,14 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-10-30'
+permalink: /when-you-actually-should-use-a-javascript-framework/
 title: When you actually should use a JavaScript framework
+url: /2017/10/30/when-you-actually-should-use-a-javascript-framework
 ---
 
 I spend a lot of time teaching people how to write JavaScript without frameworks. I think the whole front end development process has gotten far too complicated.
 
-One chapter I started to write for [my latest pocket guide, Web Apps with Vanilla JS](/guides/web-apps/), but decided not to include, is on when you actually *should* use a JS framework.
+One chapter I started to write for [my latest pocket guide, Web Apps with Vanilla JS](https://gomakethings.com/guides/web-apps/), but decided not to include, is on when you actually *should* use a JS framework.
 
 Specifically, there are three situations where I think choosing a framework makes more sense than using vanilla JavaScript.
 
@@ -23,7 +25,7 @@ The DOM, or Document Object Model, is the nested tree of elements on a webpage. 
 
 A virtual DOM is a JavaScript-based map of the actual DOM using nested objects. For example, this:
 
-```html
+```lang-html
 <div class="sandwich" id="tuna">
 	<div class="topping" id="lettuce">Yum!</div>
 </div>
@@ -31,7 +33,7 @@ A virtual DOM is a JavaScript-based map of the actual DOM using nested objects. 
 
 Might become something like this:
 
-```javascript
+```lang-javascript
 {
 	div: {
 		class: 'sandwich',

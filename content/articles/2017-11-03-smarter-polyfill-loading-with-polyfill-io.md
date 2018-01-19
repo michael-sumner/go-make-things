@@ -3,10 +3,12 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-03'
+permalink: /smarter-polyfill-loading-with-polyfill-io/
 title: Smarter polyfill loading with polyfill.io
+url: /2017/11/03/smarter-polyfill-loading-with-polyfill-io
 ---
 
-Yesterday, I showed you [how to use polyfill.io to conditionally load polyfills](/should-you-conditionally-load-polyfills/) only for the browsers that need them.
+Yesterday, I showed you [how to use polyfill.io to conditionally load polyfills](https://gomakethings.com/should-you-conditionally-load-polyfills/) only for the browsers that need them.
 
 What JavaScript methods and browser APIs does [polyfill.io](https://polyfill.io) support? [Quite a few!](https://polyfill.io/v2/docs/features/)
 
@@ -32,7 +34,7 @@ First, we'll set up an array, `features`, to hold the list of features we need p
 
 For example, let's check for the CustomEvent API, `Array.forEach()`, `matches()`, and `classList()`.
 
-```js
+```lang-js
 /**
  * Create a list of the features this browser needs
  */
@@ -63,7 +65,7 @@ Yesterday, I mentioned [loadJS](https://github.com/filamentgroup/loadJS/), a sup
 
 We'll use that to load polyfill.io and our scripts.
 
-```js
+```lang-js
 /**
  * loadJS by Filament Group
  * Async load JS files
@@ -80,7 +82,7 @@ Finally, we'll load polyfill.io and our scripts.
 
 We'll check the length of the `features` array to see if any features need to be polyfilled. If it has at least one item, we'll call polyfill.io. Otherwise, we'll immediately load our main scripts file.
 
-```js
+```lang-js
 // If any features need a polyfill, load Polyfill.io, then our scripts
 // Otherwise, just load our scripts
 if (features.length > 0) {
@@ -94,7 +96,7 @@ We'll use a few query string values with polyfill.io.
 
 First, we'll set `features` to our features list, separated with a comma. We'll use the `join()` method to turn our array into a string.
 
-```js
+```lang-js
 'https://cdn.polyfill.io/v2/polyfill.min.js?features=' + features.join(',');
 ```
 
@@ -102,19 +104,19 @@ Next, we'll add what polyfill.io calls flags: `always` and `gated`.
 
 The `always` flag tells polyfill.io to include the requested features whether polyfill.io thinks your browser needs them or not (more on why we need that in a second). The `gated` flag tells the polyfills to include their own feature test before executing, in case our simple feature tests got it wrong.
 
-```js
+```lang-js
 'https://cdn.polyfill.io/v2/polyfill.min.js?features=' + features.join(',') + '&flags=gated,always';
 ```
 
 Finally, we'll include a valid user agent value. This tells polyfill.io not to run its own UA check, and is why we need to use the `always` feature. Otherwise, polyfill.io would just send along polyfills for whatever browser UA you specified.
 
-```js
+```lang-js
 'https://cdn.polyfill.io/v2/polyfill.min.js?features=' + features.join(',') + '&flags=gated,always&ua=chrome/50'
 ```
 
 Now we can call polyfill.io, and once it's loaded, run `loadJS()` again with our main scripts file.
 
-```js
+```lang-js
 /**
  * Load polyfill.io and scripts
  */
@@ -136,7 +138,7 @@ if (features.length > 0) {
 
 Finally, if polyfill.io isn't needed, we can immediately load our main scripts with `loadJS()`.
 
-```js
+```lang-js
 /**
  * Load polyfill.io and scripts
  */
@@ -161,7 +163,7 @@ if (features.length > 0) {
 
 Here's the full JavaScript to make this work.
 
-```js
+```lang-js
 /**
  * Create a list of the features this browser needs
  */

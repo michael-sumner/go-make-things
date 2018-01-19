@@ -4,10 +4,12 @@ categories:
 - CSS
 - JavaScript
 date: '2017-08-23'
+permalink: /two-ways-to-set-an-elements-css-with-vanilla-javascript/
 title: Two ways to set an element&#8217;s CSS with vanilla JavaScript
+url: /2017/08/23/two-ways-to-set-an-elements-css-with-vanilla-javascript
 ---
 
-Yesterday, we looked at [how to get an element's CSS attributes with vanilla JavaScript](/getting-an-elements-css-attributes-with-vanilla-javascript/). One thing I neglected to mention: `getComputedStyle()` can only be used to get values, not set them.
+Yesterday, we looked at [how to get an element's CSS attributes with vanilla JavaScript](https://gomakethings.com/getting-an-elements-css-attributes-with-vanilla-javascript/). One thing I neglected to mention: `getComputedStyle()` can only be used to get values, not set them.
 
 Today, let's look at how to set CSS with vanilla JS.
 
@@ -17,7 +19,7 @@ The easiest way to set an element's style with JavaScript is using the `style` p
 
 JavaScript uses camel case instead of a dash for property names (you can [view a full list of properties on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)), but it's pretty straightforward otherwise:
 
-```javascript
+```lang-javascript
 var elem = document.querySelector('#some-element');
 
 // Set color to purple
@@ -32,7 +34,7 @@ elem.style.height = '150px';
 
 The `style` property adds styles inline on the element.
 
-```markup
+```lang-markup
 <div id="some-element" style="color: purple; background-color: #e5e5e5; height: 150px;">
     Hello, world!
 </div>
@@ -46,13 +48,13 @@ An alternate approach is to inject a `<style>` element with your CSS properties 
 
 First, we'll create a style element.
 
-```javascript
+```lang-javascript
 var style = document.createElement('style');
 ```
 
 Next, we'll add our styles by giving the `style` an `innerHTML`.
 
-```javascript
+```lang-javascript
 var style = document.createElement('style');
 style.innerHTML =
 	'.some-element {' +
@@ -64,7 +66,7 @@ style.innerHTML =
 
 Finally, we'll inject the styles into the DOM. To do this, we'll grab the first `script` tag we find in the DOM and use `insertBefore()` to add our `style` tag before it.
 
-```javascript
+```lang-javascript
 // Create our stylesheet
 var style = document.createElement('style');
 style.innerHTML =

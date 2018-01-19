@@ -2,7 +2,9 @@
 categories:
 - Business &amp; Leadership
 date: '2012-03-05'
+permalink: /meeting-organizers-youre-responsible-for-my-attention/
 title: 'Meeting Organizers: You&#8217;re Responsible for my Attention'
+url: /2012/03/05/meeting-organizers-youre-responsible-for-my-attention
 ---
 
 David DeRuchie over at Happy Cog made <a href="http://cognition.happycog.com/article/please-put-down-the-device-lets-just-talk">a very reasonable request...</a>

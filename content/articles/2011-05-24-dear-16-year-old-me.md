@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-05-24'
+permalink: /dear-16-year-old-me/
 title: Dear 16-Year-Old Me
+url: /2011/05/24/dear-16-year-old-me
 ---
 
 <a href="https://www.youtube.com/watch?v=_4jgUcxMezM">Dear 16-Year-Old Me</a> is an incredibly well done video on skin cancer. It's engaging, informative and emotional without resorting to shock tactics.

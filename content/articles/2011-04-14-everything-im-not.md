@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2011-04-14'
+permalink: /everything-im-not/
 title: Everything I&#8217;m Not&#8230;
+url: /2011/04/14/everything-im-not
 ---
 
 <blockquote>People talk 'ish but when 'ish hits the fan, everything I'm not made me everything I am...

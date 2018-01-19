@@ -3,7 +3,9 @@ categories:
 - Code
 - JavaScript
 date: '2017-05-03'
+permalink: /event-listener-performance-with-vanilla-js/
 title: Event listener performance with vanilla JS
+url: /2017/05/03/event-listener-performance-with-vanilla-js
 ---
 
 Events like `scroll` and `resize` can cause huge performance issues on certain browsers. [Paul Irish explains:](https://www.paulirish.com/2009/throttled-smartresize-jquery-event-handler/)
@@ -16,7 +18,7 @@ When our event fires, if `timeout` has no value, we'll assign a `setTimeout` fun
 
 If it's been less than 66ms from when the last event ran, nothing else will happen.
 
-```javascript
+```lang-javascript
 // Setup a timer
 var timeout;
 

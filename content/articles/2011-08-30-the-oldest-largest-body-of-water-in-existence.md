@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-08-30'
+permalink: /the-oldest-largest-body-of-water-in-existence/
 title: The oldest, largest body of water in existence
+url: /2011/08/30/the-oldest-largest-body-of-water-in-existence
 ---
 
 <blockquote>Researchers found a lake of water so large that it could provide each person on Earth an entire planet’s worth of water - 20,000 times over...

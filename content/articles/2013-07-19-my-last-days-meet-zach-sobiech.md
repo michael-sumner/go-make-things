@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2013-07-19'
+permalink: /my-last-days-meet-zach-sobiech/
 title: 'My Last Days: Meet Zach Sobiech'
+url: /2013/07/19/my-last-days-meet-zach-sobiech
 ---
 
 <blockquote>Life is really just beautiful moments, one right after the other.</blockquote>

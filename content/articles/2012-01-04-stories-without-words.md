@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2012-01-04'
+permalink: /stories-without-words/
 title: Stories without words
+url: /2012/01/04/stories-without-words
 ---
 
 I'm fascinated by Pixar's ability to tell beautiful stories without words. If you want to become a better storyteller, studying what they do is a great place to start.

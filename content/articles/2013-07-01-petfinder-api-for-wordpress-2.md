@@ -2,7 +2,9 @@
 categories:
 - Code
 date: '2013-07-01'
+permalink: /petfinder-api-for-wordpress-2/
 title: Petfinder API for WordPress 2
+url: /2013/07/01/petfinder-api-for-wordpress-2
 ---
 
 <a href="http://cferdinandi.github.io/petfinder-api-for-wordpress/">Petfinder API for WordPress</a> got a major overhaul.

@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2011-09-09'
+permalink: /dove-ruins-a-kittens-nap/
 title: Dove ruins a kitten’s nap
+url: /2011/09/09/dove-ruins-a-kittens-nap
 ---
 
 <a href="https://www.youtube.com/watch?v=Tni-DW3XJaY">This mourning dove</a> has guts...

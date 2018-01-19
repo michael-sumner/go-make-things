@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2012-04-10'
+permalink: /cgi-of-how-the-titanic-sank/
 title: CGI of How the Titanic Sank
+url: /2012/04/10/cgi-of-how-the-titanic-sank
 ---
 
 Check out this stunning CGI video of <a href="https://www.youtube.com/watch?v=FSGeskFzE0s">how the Titanic sank</a>, from <em>Titanic: The Final Word With James Cameron</em>, which aired on National Geographic on Sunday...

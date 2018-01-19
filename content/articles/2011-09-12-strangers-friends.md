@@ -2,7 +2,9 @@
 categories:
 - Uncategorized
 date: '2011-09-12'
+permalink: /strangers-friends/
 title: Strangers. Friends.
+url: /2011/09/12/strangers-friends
 ---
 
 There's a fine line between strangers and friends. <a href="http://www.fastcodesign.com/1663780/at-911-memorial-name-placements-reflect-bonds-between-victims-thanks-to-algorithm">This is a chilling and beautiful reminder...</a>

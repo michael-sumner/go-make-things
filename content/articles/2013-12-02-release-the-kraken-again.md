@@ -3,7 +3,9 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-12-02'
+permalink: /release-the-kraken-again/
 title: Release the Kraken (again)
+url: /2013/12/02/release-the-kraken-again
 ---
 
 Over the long weekend, I released <a href="http://cferdinandi.github.io/kraken/">version 3 of Kraken</a>, my mobile-first boilerplate for front-end web developers.

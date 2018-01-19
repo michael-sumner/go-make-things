@@ -2,7 +2,9 @@
 categories:
 - Art &amp; Science
 date: '2011-11-11'
+permalink: /who-invented-the-high-five/
 title: Who invented the high five?
+url: /2011/11/11/who-invented-the-high-five
 ---
 
 <blockquote>It seems crazy to think that such a simple gesture as the high-five, second nature to me now, was actually invented.

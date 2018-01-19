@@ -3,7 +3,9 @@ categories:
 - Code
 - WordPress
 date: '2015-01-07'
+permalink: /remove-empty-paragraphs-added-by-wordpress/
 title: Remove empty paragraphs added by WordPress
+url: /2015/01/07/remove-empty-paragraphs-added-by-wordpress
 ---
 
 WordPress automatically adds paragraphs and line breaks to your content.
@@ -18,7 +20,7 @@ Fortunately, there's an easy fix!
 
 Just drop this snippet, courtesy of [Ryan Hamilton](https://gist.github.com/Fantikerz/5557617), into your `functions.php` file:
 
-```php
+```lang-php
 /**
  * Remove empty paragraphs created by wpautop()
  * @author Ryan Hamilton

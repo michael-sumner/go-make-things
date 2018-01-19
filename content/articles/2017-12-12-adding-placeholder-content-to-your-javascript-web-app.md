@@ -5,7 +5,9 @@ categories:
 - HTML
 - JavaScript
 date: '2017-12-12'
+permalink: /adding-placeholder-content-to-your-javascript-web-app/
 title: Adding placeholder content to your JavaScript web app
+url: /2017/12/12/adding-placeholder-content-to-your-javascript-web-app
 ---
 
 Depending on which parts of your user interface you're rendering with JavaScript and how you're fetching your data (Ajax vs. local storage, and so on), there may be parts of your UI that aren't ready when the page first loads.
@@ -22,13 +24,13 @@ Let's look at how to use them in your web app.
 
 Placeholder content can be created with just a little bit of HTML and CSS. First, create a `<div>` and add the `.placeholder` class.
 
-```html
+```lang-html
 <div class="placeholder"></div>
 ```
 
 Then we'll add this CSS to our app.
 
-```css
+```lang-css
 /**
  * Setup keyframes for pulsing animation
  */
@@ -71,7 +73,7 @@ While the CSS above adds the basic functionality, you'll want to style your plac
 
 I use a handful of modifier classes to create different shapes to match my content.
 
-```css
+```lang-css
 .placeholder-hero {
 	height: 20em;
 }
@@ -118,7 +120,7 @@ I use a handful of modifier classes to create different shapes to match my conte
 
 And you use them like this.
 
-```html
+```lang-html
 <div class="placeholder placeholder-hero"></div>
 
 <div class="placeholder placeholder-thumbnail"></div>
