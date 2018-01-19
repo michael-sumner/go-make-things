@@ -8,13 +8,13 @@ title: Components, state, and vanilla JavaScript
 url: /2017/09/27/components-state-and-vanilla-javascript
 ---
 
-A few weeks ago, we looked at [how to render content with vanilla JavaScript](https://gomakethings.com/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/).
+A few weeks ago, we looked at [how to render content with vanilla JavaScript](/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/).
 
 One of the nice features of frameworks like React is that content renders again automatically when the data behind it updates. For example, imagine you had a list of todo list items. When an item is added or completed, you probably want to regenerate that list.
 
 Over the next few days, we're going to look at how to do the same thing with vanilla JavaScript.
 
-*__Quick heads up:__ If you haven't read the post on [rendering content](https://gomakethings.com/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/), you should go read that first or some of this might not make sense.*
+*__Quick heads up:__ If you haven't read the post on [rendering content](/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/), you should go read that first or some of this might not make sense.*
 
 ## Adding state
 

@@ -16,7 +16,7 @@ Today, we're going to learn how to detect when a file is loaded even when you ca
 
 ## Loop and test
 
-Yesterday, we looked at [how to create a loop with `requestAnimationFrame()` to check when the DOM is ready](https://gomakethings.com/the-quickest-way-to-detect-when-the-dom-is-ready/). We can modify that technique to detect when a file is loaded.
+Yesterday, we looked at [how to create a loop with `requestAnimationFrame()` to check when the DOM is ready](/the-quickest-way-to-detect-when-the-dom-is-ready/). We can modify that technique to detect when a file is loaded.
 
 This will only work if the script in question has a public method or namespace that you can hook into.
 

@@ -8,9 +8,9 @@ title: Improving link legibility with two lines of CSS
 url: /2018/01/18/improving-link-legibility-with-two-lines-of-css
 ---
 
-Links in body copy should pretty much [always be underlined](https://gomakethings.com/accessibility-according-to-people-with-actual-disabilities/).
+Links in body copy should pretty much [always be underlined](/accessibility-according-to-people-with-actual-disabilities/).
 
-**A brief aside...** I had [previously assumed](https://gomakethings.com/better-link-accessibility-for-the-color-blind/) that certain colors that aren't affected by common types of color blindness (like certain shades of blue) provided sufficient contrast and did not need to be underlined. Then I [learned that I was wrong](https://gomakethings.com/accessibility-according-to-people-with-actual-disabilities/).
+**A brief aside...** I had [previously assumed](/better-link-accessibility-for-the-color-blind/) that certain colors that aren't affected by common types of color blindness (like certain shades of blue) provided sufficient contrast and did not need to be underlined. Then I [learned that I was wrong](/accessibility-according-to-people-with-actual-disabilities/).
 
 > Sleep disorder: I have to read after 5pm with f.lux cranked up all the way, so sites that assume hyperlinks can be blue w/no underline…
 

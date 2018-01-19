@@ -24,4 +24,4 @@ Contrast that with helper functions like <a href="https://github.com/cferdinandi
 
 To me, the danger zone is when you start trying to make vanilla JS more like jQuery. It starts with <code>$</code>. Then chaining. Suddenly, you're basically recreating jQuery (which is itself written in vanilla JS).
 
-***Update:*** *After some discussion in my [Vanilla JS Slack Channel](https://gomakethings.com/guides/), I added a bit more nuance to my perspective. You can [read about it here](https://gomakethings.com/what-makes-vanilla-js-vanilla/).*
+***Update:*** *After some discussion in my [Vanilla JS Slack Channel](/guides/), I added a bit more nuance to my perspective. You can [read about it here](/what-makes-vanilla-js-vanilla/).*

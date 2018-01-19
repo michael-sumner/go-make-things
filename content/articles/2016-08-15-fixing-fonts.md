@@ -10,7 +10,7 @@ title: Fixing Fonts
 url: /2016/08/15/fixing-fonts
 ---
 
-*This is an excerpt from my latest book, ["Wicked Fast Websites."](https://gomakethings.com/wicked-fast-websites/)*
+*This is an excerpt from my latest book, ["Wicked Fast Websites."](/wicked-fast-websites/)*
 
 Loading web fonts often results in a Flash of Invisible Text (FOIT) that leaves the page unusable until it loads.
 
@@ -126,4 +126,4 @@ function load_theme_font_async() {
 add_action('wp_head', 'load_theme_font_async', 30);
 ```
 
-*If you like this tutorial, check out my latest book, ["Wicked Fast Websites."](https://gomakethings.com/wicked-fast-websites/)*
+*If you like this tutorial, check out my latest book, ["Wicked Fast Websites."](/wicked-fast-websites/)*

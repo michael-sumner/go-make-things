@@ -11,7 +11,7 @@ url: /2017/10/30/when-you-actually-should-use-a-javascript-framework
 
 I spend a lot of time teaching people how to write JavaScript without frameworks. I think the whole front end development process has gotten far too complicated.
 
-One chapter I started to write for [my latest pocket guide, Web Apps with Vanilla JS](https://gomakethings.com/guides/web-apps/), but decided not to include, is on when you actually *should* use a JS framework.
+One chapter I started to write for [my latest pocket guide, Web Apps with Vanilla JS](/guides/web-apps/), but decided not to include, is on when you actually *should* use a JS framework.
 
 Specifically, there are three situations where I think choosing a framework makes more sense than using vanilla JavaScript.
 

@@ -8,7 +8,7 @@ title: How to get an element&#8217;s siblings with vanilla JavaScript
 url: /2017/06/21/how-to-get-an-elements-siblings-with-vanilla-javascript
 ---
 
-Over the last few days, we've learned how to [climb up the DOM](https://gomakethings.com/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/) and [get parent elements](https://gomakethings.com/how-to-get-all-parent-elements-with-vanilla-javascript/) in a variety of [different ways](https://gomakethings.com/climbing-up-the-dom-until-you-hit-a-match-with-vanilla-javascript/).
+Over the last few days, we've learned how to [climb up the DOM](/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/) and [get parent elements](/how-to-get-all-parent-elements-with-vanilla-javascript/) in a variety of [different ways](/climbing-up-the-dom-until-you-hit-a-match-with-vanilla-javascript/).
 
 Today, let's look at how to get an element's siblings.
 

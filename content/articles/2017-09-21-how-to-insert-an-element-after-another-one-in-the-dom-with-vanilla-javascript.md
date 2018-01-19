@@ -9,7 +9,7 @@ title: How to insert an element after another one in the DOM with vanilla JavaSc
 url: /2017/09/21/how-to-insert-an-element-after-another-one-in-the-dom-with-vanilla-javascript
 ---
 
-This week, we looked at [how to create an element](https://gomakethings.com/creating-elements-with-vanilla-javascript/) and [inject it before another one](https://gomakethings.com/how-to-insert-an-element-before-another-one-in-the-dom-with-vanilla-javascript/) with vanilla JavaScript.
+This week, we looked at [how to create an element](/creating-elements-with-vanilla-javascript/) and [inject it before another one](/how-to-insert-an-element-before-another-one-in-the-dom-with-vanilla-javascript/) with vanilla JavaScript.
 
 Today, let's look at two ways to insert an element *after* another one.
 

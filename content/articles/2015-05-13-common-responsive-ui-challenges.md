@@ -31,7 +31,7 @@ Many web designers like the control this gives them, but relative sizing is bett
 
 You don’t have to worry about this breaking your layout. If all of your sizing uses relative values, then when the default font-size changes in a visitor’s browser, all of the site elements will scale with it. This also ensures that if someone uses their browser's zoom feature, you site [doesn't introduces horizontal scroll bars](http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw/).
 
-Not sure how to get started? Check out [Working with Relative Sizing](https://gomakethings.com/working-with-relative-sizing/).
+Not sure how to get started? Check out [Working with Relative Sizing](/working-with-relative-sizing/).
 
 ## Click Target Size and Spacing
 
@@ -53,7 +53,7 @@ Avoid hover effects when you can.
 
 ## Contrast
 
-Good color contrast between your text and the background is an accessibility best practice (and in many countries [a legal requirement](http://www.ada.gov/pcatoolkit/chap5toolkit.htm)). It can become even more important on [low powered e-ink devices](https://gomakethings.com/building-websites-that-work-on-an-e-ink-kindle/).
+Good color contrast between your text and the background is an accessibility best practice (and in many countries [a legal requirement](http://www.ada.gov/pcatoolkit/chap5toolkit.htm)). It can become even more important on [low powered e-ink devices](/building-websites-that-work-on-an-e-ink-kindle/).
 
 Because e-ink devices leave behind remnants of previous text every few page changes, strong contrast is critical to readable text. You can use the [WebAIM Color Contrast Checker](http://webaim.org/resources/contrastchecker/) to test your design. You should also try switching your monitor to grayscale, and use [Color Oracle](http://colororacle.org/) to simulate color blindness when testing your designs.
 

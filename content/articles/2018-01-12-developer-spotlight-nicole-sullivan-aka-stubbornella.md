@@ -11,7 +11,7 @@ title: 'Developer Spotlight: Nicole Sullivan (aka Stubbornella)'
 url: /2018/01/12/developer-spotlight-nicole-sullivan-aka-stubbornella
 ---
 
-Last week, I mentioned a new feature I was starting to [give a voice to developers who aren't always as visible in our community](https://gomakethings.com/shining-a-light-on-other-developers/).
+Last week, I mentioned a new feature I was starting to [give a voice to developers who aren't always as visible in our community](/shining-a-light-on-other-developers/).
 
 Reinforcing how necessary this is, this week I came across [this exchange on Twitter](https://twitter.com/ChrisFerdinandi/status/951459561927520258):
 

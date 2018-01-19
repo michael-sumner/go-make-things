@@ -9,7 +9,7 @@ title: Testing for CSS pseudo-class support with vanilla JavaScript
 url: /2017/12/29/testing-for-css-pseudo-class-support-with-vanilla-javascript
 ---
 
-Yesterday, we learned [how to check for CSS feature support with vanilla JS](https://gomakethings.com/testing-for-css-support-with-vanilla-javascript/) using `CSS.supports()`. Unfortunately, this method cannot be used to test for CSS pseudo-classes.
+Yesterday, we learned [how to check for CSS feature support with vanilla JS](/testing-for-css-support-with-vanilla-javascript/) using `CSS.supports()`. Unfortunately, this method cannot be used to test for CSS pseudo-classes.
 
 Fortunately, [user cuixiping over on StackOverflow](https://stackoverflow.com/a/41098605/1293256) shared this useful helper method that let's you do just that!
 

@@ -31,7 +31,7 @@ CSS genius [Sara Soueidan noted](https://twitter.com/SaraSoueidan/status/9086044
 
 And personally, I've found that it's hard to find jobs when you *only* know HTML and CSS, and the ones you do find pay less.
 
-The reason I [started learning JavaScript](https://gomakethings.com/guides) in the first place was to have more career opportunities&mdash;and it worked.
+The reason I [started learning JavaScript](/guides) in the first place was to have more career opportunities&mdash;and it worked.
 
 ## I have some thoughts
 

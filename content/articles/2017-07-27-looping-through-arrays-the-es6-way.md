@@ -54,4 +54,4 @@ sandwiches.forEach(function (sandwich, index) {
 
 This works back to IE9, and if you need further backwards compatibility, there's [also a polyfill](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach#Polyfill) available. I've started using [polyfill.io](https://polyfill.io/) on my projects to handle this automatically for me, and it's awesome.
 
-Tomorrow, we'll look at [how to loop through NodeLists](https://gomakethings.com/looping-through-nodelists-with-es6/).
+Tomorrow, we'll look at [how to loop through NodeLists](/looping-through-nodelists-with-es6/).

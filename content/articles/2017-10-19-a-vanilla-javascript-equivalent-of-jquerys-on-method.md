@@ -32,7 +32,7 @@ First, I'll show you how to use it. Then, I'll share the method itself. And fina
 
 The first argument is always the event to listen to. The second argument is an optional filter, if you only want to listen to events on a certain selector.
 
-You can omit it and jump straight to argument three, the callback. This is the function to run on the event. There's a final, optional argument: `use capture`. Set it to true for [non-bubbling events](https://gomakethings.com/when-to-use-use-capture-in-your-event-listeners/) (like `focus`) that you [need to force to bubble](https://gomakethings.com/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/).
+You can omit it and jump straight to argument three, the callback. This is the function to run on the event. There's a final, optional argument: `use capture`. Set it to true for [non-bubbling events](/when-to-use-use-capture-in-your-event-listeners/) (like `focus`) that you [need to force to bubble](/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/).
 
 ```lang-js
 // Listen to all click events
@@ -54,7 +54,7 @@ on('focus', function (event) {
 }, true);
 ```
 
-You can also [pass in named functions](https://gomakethings.com/named-vs-anonymous-event-listener-functions/) if you need to be able to remove the event listener later (more on that tomorrow) or want to use the same function for multiple events.
+You can also [pass in named functions](/named-vs-anonymous-event-listener-functions/) if you need to be able to remove the event listener later (more on that tomorrow) or want to use the same function for multiple events.
 
 ```lang-js
 // Do stuff on scroll

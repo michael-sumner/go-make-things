@@ -9,7 +9,7 @@ title: How to a fade in to vanilla JavaScript show and hide methods
 url: /2017/08/28/how-to-a-fade-in-to-vanilla-javascript-show-and-hide-methods
 ---
 
-Last week, we [created some simple `show()` and `hide()` methods](https://gomakethings.com/how-to-show-and-hide-elements-with-vanilla-javascript/), and [added a transition animation to them](https://gomakethings.com/how-to-add-transition-animations-to-vanilla-javascript-show-and-hide-methods/).
+Last week, we [created some simple `show()` and `hide()` methods](/how-to-show-and-hide-elements-with-vanilla-javascript/), and [added a transition animation to them](/how-to-add-transition-animations-to-vanilla-javascript-show-and-hide-methods/).
 
 One of my readers mentioned that adding a fade in effect would be a nice visual touch, so today, let's look at how to do that.
 

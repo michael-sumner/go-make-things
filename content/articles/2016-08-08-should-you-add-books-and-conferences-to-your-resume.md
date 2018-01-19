@@ -7,7 +7,7 @@ title: Should you add books and conferences to your resume?
 url: /2016/08/08/should-you-add-books-and-conferences-to-your-resume
 ---
 
-One of the folks who reads [my newsletter](https://gomakethings.com/newsletter/), Tim, asked me:
+One of the folks who reads [my newsletter](/newsletter/), Tim, asked me:
 
 > I read job-related books, visit conferences, etc. Is that worth mentioning on a resumé. If so, where?
 

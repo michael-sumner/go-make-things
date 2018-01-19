@@ -70,4 +70,4 @@ var add = function () {
 };
 ```
 
-**Psst...** This post was adapted from my latest vanilla JS pocket guide, ["Variables, Functions, and Scope."](https://gomakethings.com/guides/variables-functions-and-scope/)
+**Psst...** This post was adapted from my latest vanilla JS pocket guide, ["Variables, Functions, and Scope."](/guides/variables-functions-and-scope/)

@@ -8,7 +8,7 @@ title: Looping through objects with ES6
 url: /2017/07/31/looping-through-objects-with-es6
 ---
 
-Last week, we looked at how to loop through [arrays](https://gomakethings.com/looping-through-arrays-the-es6-way/) and [NodeLists](https://gomakethings.com/looping-through-nodelists-with-es6/) with ES6, which provides handy `forEach()` methods.
+Last week, we looked at how to loop through [arrays](/looping-through-arrays-the-es6-way/) and [NodeLists](/looping-through-nodelists-with-es6/) with ES6, which provides handy `forEach()` methods.
 
 Because JavaScript is weird, there's no `forEach()` method for objects.
 

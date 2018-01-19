@@ -8,7 +8,7 @@ title: Setting the variables in ES6 forEach() functions
 url: /2017/08/03/setting-the-variables-in-es6-foreach-functions
 ---
 
-Over the last few days, we looked at the new, easier ways ES6 let's us loop through [arrays](https://gomakethings.com/looping-through-arrays-the-es6-way/), [nodelists](https://gomakethings.com/looping-through-nodelists-with-es6/), and [objects](https://gomakethings.com/looping-through-objects-with-es6/).
+Over the last few days, we looked at the new, easier ways ES6 let's us loop through [arrays](/looping-through-arrays-the-es6-way/), [nodelists](/looping-through-nodelists-with-es6/), and [objects](/looping-through-objects-with-es6/).
 
 One of my readers asked (shared with permission):
 

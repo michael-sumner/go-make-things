@@ -7,7 +7,7 @@ title: 'Cutting the Cord: How to Ditch Cable'
 url: /2014/09/22/cutting-the-cord-how-to-ditch-cable
 ---
 
-***Note:*** *I've written an updated version of this article, ["Ditching Cable."](https://gomakethings.com/ditching-cable/)*
+***Note:*** *I've written an updated version of this article, ["Ditching Cable."](/ditching-cable/)*
 
 Over the last year, I've seen my cable bill steadily increase (it was almost $200 last month), while the services I receive remain the same. And while we do watching a fair bit of TV, we're paying for so many channels and programs that we just don't watch.
 

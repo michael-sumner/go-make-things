@@ -9,7 +9,7 @@ title: Better Responsive Images
 url: /2015/05/15/better-responsive-images
 ---
 
-*The following post was adapted from [Wicked Fast Websites](https://gomakethings.com/wicked-fast-websites/), my free beginner's guide to building fast websites and web apps that work on any device. [Download it here.](https://gomakethings.com/wicked-fast-websites/)*
+*The following post was adapted from [Wicked Fast Websites](/wicked-fast-websites/), my free beginner's guide to building fast websites and web apps that work on any device. [Download it here.](/wicked-fast-websites/)*
 
 Why would you send the same image to a five-year old feature phone or a tiny smart watch that you would to a modern laptop attached to 32-inch, high-definition monitor?
 

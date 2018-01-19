@@ -7,7 +7,7 @@ title: Get distances to the top of the document with native JavaScript
 url: /2014/12/03/get-distances-to-the-top-of-the-document-with-native-javascript
 ---
 
-Last week I added two new code snippets to my [Ditching jQuery](https://gomakethings.com/ditching-jquery) resource.
+Last week I added two new code snippets to my [Ditching jQuery](/ditching-jquery) resource.
 
 One is used to get your current position on a page from the top of the document. The other will get the distance of any element from the top of the document.
 

@@ -14,7 +14,7 @@ As I get older, my disdain for small typography grows.
 
 This week, I decided to bump up the font-size on my site from 17px to 18px.
 
-Because my entire site uses [relative sizing](https://gomakethings.com/working-with-relative-sizing/), all I had to do was change a single value&mdash;the `font-size` percentage on the `body` tag&mdash;in my stylesheet.
+Because my entire site uses [relative sizing](/working-with-relative-sizing/), all I had to do was change a single value&mdash;the `font-size` percentage on the `body` tag&mdash;in my stylesheet.
 
 <!--more-->
 

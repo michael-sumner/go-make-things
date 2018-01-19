@@ -8,9 +8,9 @@ title: Types of errors that strict mode catches (that would otherwise be ignored
 url: /2017/04/12/types-of-errors-that-strict-mode-catches-that-would-otherwise-be-ignored
 ---
 
-[Andrew Borstein](http://andrewborstein.com) asked a few follow-up questions to [Monday's article about strict mode](https://gomakethings.com/javascript-strict-mode-and-why-you-should-always-use-it/) over in my [Vanilla JS Slack Room](https://gomakethings.com/vanilla-js-guidebook/).
+[Andrew Borstein](http://andrewborstein.com) asked a few follow-up questions to [Monday's article about strict mode](/javascript-strict-mode-and-why-you-should-always-use-it/) over in my [Vanilla JS Slack Room](/vanilla-js-guidebook/).
 
-Yesterday, I clarified [where to enable strict mode in your scripts](https://gomakethings.com/where-to-activate-strict-mode-in-your-scripts/). Today, let's talk about the kinds of errors it catches.
+Yesterday, I clarified [where to enable strict mode in your scripts](/where-to-activate-strict-mode-in-your-scripts/). Today, let's talk about the kinds of errors it catches.
 
 > What's an example of an error that would be silent without [strict mode]?
 

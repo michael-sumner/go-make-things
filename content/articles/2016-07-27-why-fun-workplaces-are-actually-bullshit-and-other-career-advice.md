@@ -37,4 +37,4 @@ I’m putting together a bunch of cool resources for you, including...
 - Why 5 year plans are a waste of time.
 - How to deal with salary negotiation awkwardness and get paid what you deserve.
 
-Interested? [Learn more about Careers for Coders](https://gomakethings.com/careers/).
+Interested? [Learn more about Careers for Coders](/careers/).

@@ -12,7 +12,7 @@ url: /2016/12/13/a11y-and-text-just-for-screen-readers
 
 In [Kraken](https://cferdinandi.github.io/kraken/), [Keel](https://keel.gomakethings.com/), and pretty much any site I build, I use the `.screen-reader` class to visually hide content that I still want available to screen readers. It's an approach I adapted from the HTML5 Boilerplate.
 
-You can also set content to reappear if in focus (useful for things like [skip nav links](https://gomakethings.com/hidden-content-for-better-a11y/) for sighted keyboard users).
+You can also set content to reappear if in focus (useful for things like [skip nav links](/hidden-content-for-better-a11y/) for sighted keyboard users).
 
 ```lang-css
 /**

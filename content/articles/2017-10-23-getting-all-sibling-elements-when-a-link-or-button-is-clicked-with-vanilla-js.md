@@ -8,7 +8,7 @@ title: Getting all sibling elements when a link or button is clicked with vanill
 url: /2017/10/23/getting-all-sibling-elements-when-a-link-or-button-is-clicked-with-vanilla-js
 ---
 
-Last week in the private Slack channel that comes with any of my [pocket guides](https://gomakethings.com/guides/), one of my students asked how to get a navigation link's siblings when it's clicked.
+Last week in the private Slack channel that comes with any of my [pocket guides](/guides/), one of my students asked how to get a navigation link's siblings when it's clicked.
 
 For example, imagine you have a nav menu that looks like this.
 
@@ -53,7 +53,7 @@ document.addEventListener('click', function () {
 }, false);
 ```
 
-We're listening to all clicks on the document, a technique known as [event bubbling](https://gomakethings.com/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/). If the clicked element (`event.target`) doesn't have the `.nav-link` class, we bail.
+We're listening to all clicks on the document, a technique known as [event bubbling](/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/). If the clicked element (`event.target`) doesn't have the `.nav-link` class, we bail.
 
 Otherwise, use the `classList` API to add our `.active` class.
 

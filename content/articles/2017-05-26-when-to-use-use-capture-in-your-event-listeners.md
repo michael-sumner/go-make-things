@@ -8,7 +8,7 @@ title: When to use &#8220;use capture&#8221; in your event listeners
 url: /2017/05/26/when-to-use-use-capture-in-your-event-listeners
 ---
 
-Earlier this month, I wrote about [the `use capture` argument](https://gomakethings.com/wtf-is-use-capture-in-vanilla-js-event-listeners/) in `addEventListener`and  what it does.
+Earlier this month, I wrote about [the `use capture` argument](/wtf-is-use-capture-in-vanilla-js-event-listeners/) in `addEventListener`and  what it does.
 
 As [my buddy Terry Sutton pointed out](https://twitter.com/saltcod/status/860482539345104896), though, I didn't explain when you actually *use* it.
 

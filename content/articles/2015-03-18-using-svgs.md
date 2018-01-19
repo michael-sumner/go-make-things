@@ -7,7 +7,7 @@ title: Using SVGs
 url: /2015/03/18/using-svgs
 ---
 
-For quite some time, I've been a strong advocate of using [icon fonts](https://gomakethings.com/icon-fonts/). They're lightweight, scalable, and easily styleable with CSS.
+For quite some time, I've been a strong advocate of using [icon fonts](/icon-fonts/). They're lightweight, scalable, and easily styleable with CSS.
 
 I recently made the switch to using SVG, and I'm not looking back. This article details how I currently work with SVG.
 

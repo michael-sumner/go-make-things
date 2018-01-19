@@ -36,7 +36,7 @@ If you want to use some of the nicer ES6 methods like `Array.forEach()`, `Elemen
 
 ## Polyfills are your friend
 
-[I love polyfills.](https://gomakethings.com/why-i-love-polyfills/) Polyfills are little snippets of code that add support for a features to browsers that don’t offer them natively.
+[I love polyfills.](/why-i-love-polyfills/) Polyfills are little snippets of code that add support for a features to browsers that don’t offer them natively.
 
 Polyfill.io is a service that detects what browser your visitor is on and serves them just the polyfills they need.
 
@@ -60,7 +60,7 @@ Documentation. Vanilla JavaScript documentation sucks.
 
 The closest thing to jQuery documentation for vanilla JS is [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript), and it's often written in a way that's inaccessible to beginners. jQuery makes getting started a lot easier.
 
-This is why I started writing my [pocket guides series](https://gomakethings.com/guides/). I want to make vanilla JS as accessible to new developers as jQuery is.
+This is why I started writing my [pocket guides series](/guides/). I want to make vanilla JS as accessible to new developers as jQuery is.
 
 ## You don't need jQuery
 
@@ -72,4 +72,4 @@ You *don't* need jQuery.
 
 Most of the things you typically use jQuery for are just as easy with vanilla JavaScript. And you'll load less code and support more browsers in the process.
 
-[Ready to make the leap?](https://gomakethings.com/guides/)
+[Ready to make the leap?](/guides/)

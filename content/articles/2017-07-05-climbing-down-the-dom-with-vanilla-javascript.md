@@ -8,7 +8,7 @@ title: Climbing down the DOM with vanilla JavaScript
 url: /2017/07/05/climbing-down-the-dom-with-vanilla-javascript
 ---
 
-A few weeks ago, I published a series of articles on how to [climb up the DOM](https://gomakethings.com/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/) and [get elements](https://gomakethings.com/how-to-get-all-parent-elements-with-vanilla-javascript/) with [specific selectors](https://gomakethings.com/climbing-up-the-dom-until-you-hit-a-match-with-vanilla-javascript/) using vanilla JavaScript.
+A few weeks ago, I published a series of articles on how to [climb up the DOM](/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/) and [get elements](/how-to-get-all-parent-elements-with-vanilla-javascript/) with [specific selectors](/climbing-up-the-dom-until-you-hit-a-match-with-vanilla-javascript/) using vanilla JavaScript.
 
 On Twitter, [Kabolobari asked me how to climb *down* the DOM](https://twitter.com/Kabolobari/status/877579377503985664).
 

@@ -7,7 +7,7 @@ title: Setting multiple JavaScript plugin options with a single data attribute
 url: /2014/07/02/setting-multiple-javascript-plugin-options-with-a-single-data-attribute
 ---
 
-***Update:*** *After a chat with [Todd Motto](http://toddmotto.com/), I've [updated my approach](https://gomakethings.com/revisiting-the-data-options-data-attribute/).*
+***Update:*** *After a chat with [Todd Motto](http://toddmotto.com/), I've [updated my approach](/revisiting-the-data-options-data-attribute/).*
 
 All of my native JS plugins let users pass in options during initialization. For some (like [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll) and [Jellyfish](https://github.com/cferdinandi/jellyfish/)), I also provide a way for developers to override these options an item-by-item basis using data attributes.
 

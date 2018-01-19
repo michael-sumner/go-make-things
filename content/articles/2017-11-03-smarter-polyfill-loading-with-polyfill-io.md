@@ -8,7 +8,7 @@ title: Smarter polyfill loading with polyfill.io
 url: /2017/11/03/smarter-polyfill-loading-with-polyfill-io
 ---
 
-Yesterday, I showed you [how to use polyfill.io to conditionally load polyfills](https://gomakethings.com/should-you-conditionally-load-polyfills/) only for the browsers that need them.
+Yesterday, I showed you [how to use polyfill.io to conditionally load polyfills](/should-you-conditionally-load-polyfills/) only for the browsers that need them.
 
 What JavaScript methods and browser APIs does [polyfill.io](https://polyfill.io) support? [Quite a few!](https://polyfill.io/v2/docs/features/)
 

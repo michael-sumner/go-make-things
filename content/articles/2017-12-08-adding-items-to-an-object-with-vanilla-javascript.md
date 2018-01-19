@@ -8,7 +8,7 @@ title: Adding items to an object with vanilla JavaScript
 url: /2017/12/08/adding-items-to-an-object-with-vanilla-javascript
 ---
 
-Yesterday we looked at [how to add items an array with vanilla JavaScript](https://gomakethings.com/adding-items-to-an-array-with-vanilla-javascript/). Today, you'll learn how to add items to an object.
+Yesterday we looked at [how to add items an array with vanilla JavaScript](/adding-items-to-an-array-with-vanilla-javascript/). Today, you'll learn how to add items to an object.
 
 There are two ways to add items to an object:
 

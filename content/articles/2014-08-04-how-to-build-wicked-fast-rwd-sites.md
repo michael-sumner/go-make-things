@@ -15,7 +15,7 @@ This article was *supposed* to be about the changes I made and how they made my 
 
 ## The Adjustments
 
-My site today is structured around the recommendations from my [Wicked Fast Websites series](https://gomakethings.com/wicked-fast-websites/): CSS up top, JS at the bottom, icon fonts for my icons.
+My site today is structured around the recommendations from my [Wicked Fast Websites series](/wicked-fast-websites/): CSS up top, JS at the bottom, icon fonts for my icons.
 
 There are two emerging performance recommendations I wanted to try out:
 
@@ -155,4 +155,4 @@ Going forward, I do plan to convert to SVGs. It's a true image format that gets 
 
 1. <span id="footnote-1">This site runs on a really cheap shared hosting. Comet Cache probably has a bigger impact on the site's performance than anything else I've done. It costs $15, but it's worth every single penny.</span>
 2. <span id="footnote-2">Even if you assign an icon to the Private Use Area section of unicode, browser vendors sometimes assign their own icons to those characters, which can result in unintentional characters being displayed.</span>
-3. <span id="footnote-3">Screen reader and non-supporting browser fallback text is possible ([and not all that difficult](https://gomakethings.com/icon-fonts/#feature-test)) with icon fonts, but it does require you to be aware of it and add an extra class and a little markup. SVGs, by contrast, have screen reader support and fallbacks built right in.</span>
+3. <span id="footnote-3">Screen reader and non-supporting browser fallback text is possible ([and not all that difficult](/icon-fonts/#feature-test)) with icon fonts, but it does require you to be aware of it and add an extra class and a little markup. SVGs, by contrast, have screen reader support and fallbacks built right in.</span>

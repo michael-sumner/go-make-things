@@ -8,9 +8,9 @@ title: Creating web app components with vanilla JavaScript
 url: /2017/09/29/creating-web-app-components-with-vanilla-javascript
 ---
 
-I'm getting ready to launch my latest [pocket guide](https://gomakethings.com/guides/), "Vanilla JS Web Apps."
+I'm getting ready to launch my latest [pocket guide](/guides/), "Vanilla JS Web Apps."
 
-This week, we've looked at how to [render elements](https://gomakethings.com/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/), [add state to an object (and what "state" even is)](https://gomakethings.com/components-state-and-vanilla-javascript/), and how to [automatically re-render elements when state changes](https://gomakethings.com/automatically-re-rendering-an-element-when-its-state-changes-with-vanilla-javascript/)&mdash;all without using a framework or library.
+This week, we've looked at how to [render elements](/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/), [add state to an object (and what "state" even is)](/components-state-and-vanilla-javascript/), and how to [automatically re-render elements when state changes](/automatically-re-rendering-an-element-when-its-state-changes-with-vanilla-javascript/)&mdash;all without using a framework or library.
 
 Today, we're going to talk about the final piece of the puzzle: how to programmatically turn any template into a component.
 

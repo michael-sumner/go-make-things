@@ -8,7 +8,7 @@ title: Detecting clicks outside of an element with vanilla JavaScript
 url: /2017/10/26/detecting-clicks-outside-of-an-element-with-vanilla-javascript
 ---
 
-Yesterday, we looked at [how to detect clicks inside of an element](https://gomakethings.com/detecting-clicks-inside-an-element-with-vanilla-javascript/) with vanilla JavaScript.
+Yesterday, we looked at [how to detect clicks inside of an element](/detecting-clicks-inside-an-element-with-vanilla-javascript/) with vanilla JavaScript.
 
 Today, I'm going to show you how to check if a click was *outside* of an element. It uses more or less the same technique.
 

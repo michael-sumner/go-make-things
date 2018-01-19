@@ -27,4 +27,4 @@ Personally, I have **zero** interest in that, and will stay non-management for t
 
 The best companies I've worked for offer technical paths that pay as much as management roles without the burden of managing people. These are often "Principal" or "Advisory" roles, where you're mentoring other developers and providing strategic technology expertise rather than doing the day-to-day grind of managing people.
 
-*If you found this helpful, check out my book, "[The Web Developer Career Guide](https://gomakethings.com/career-guide/)."*
+*If you found this helpful, check out my book, "[The Web Developer Career Guide](/career-guide/)."*

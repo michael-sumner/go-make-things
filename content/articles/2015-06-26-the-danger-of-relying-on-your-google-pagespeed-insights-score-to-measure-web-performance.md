@@ -9,7 +9,7 @@ url: /2015/06/26/the-danger-of-relying-on-your-google-pagespeed-insights-score-t
 
 I've stopped paying attention to my [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) score.
 
-When I first focusing on web performance, my score would go up as my page speed when down. That's good. It got my start render time down to 1 second. Over the last year, I started implementing [advanced techniques to bring my start render time down to around 500ms](https://gomakethings.com/wicked-fast-websites/). These caused my score to start going down.
+When I first focusing on web performance, my score would go up as my page speed when down. That's good. It got my start render time down to 1 second. Over the last year, I started implementing [advanced techniques to bring my start render time down to around 500ms](/wicked-fast-websites/). These caused my score to start going down.
 
 Currently, my Google PageSpeed Insights grade is the worst it's ever been, and my site is faster than ever.
 

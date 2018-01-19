@@ -8,7 +8,7 @@ title: 'JavaScript Debugging Basics: Part 2'
 url: /2018/01/09/javascript-debugging-basics-part-2
 ---
 
-First off, thanks to everyone who responded to [yesterday's debugging challenge](https://gomakethings.com/javascript-debugging-basics-part-1/). It's always interesting to see how others approach problems and think about code.
+First off, thanks to everyone who responded to [yesterday's debugging challenge](/javascript-debugging-basics-part-1/). It's always interesting to see how others approach problems and think about code.
 
 Today, I'm going to walk you through how I would debug an issue like this.
 

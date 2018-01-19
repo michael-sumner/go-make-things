@@ -67,4 +67,4 @@ Number('42px'); // returns NaN
 
 All three methods work in all modern browsers, and IE6 and up.
 
-If you found this post useful, you might also like my [*Strings, Arrays, & Objects* pocket guide](https://gomakethings.com/guides/string-array-and-object-manipulation/), which features a ton of useful methods like these.
+If you found this post useful, you might also like my [*Strings, Arrays, & Objects* pocket guide](/guides/string-array-and-object-manipulation/), which features a ton of useful methods like these.

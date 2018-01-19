@@ -7,7 +7,7 @@ title: The web of the future&#8230; in slides
 url: /2014/10/15/the-web-of-the-future-in-slides
 ---
 
-A couple of weeks ago, I shared some thoughts on the [future of the web](https://gomakethings.com/the-web-of-the-future/) following [Artifact Providence](http://artifactconf.com/providence/).
+A couple of weeks ago, I shared some thoughts on the [future of the web](/the-web-of-the-future/) following [Artifact Providence](http://artifactconf.com/providence/).
 
 As a companion piece, I wanted to share the slides from a few of the talks that had the biggest influence on how I'm thinking about the web of tomorrow.
 

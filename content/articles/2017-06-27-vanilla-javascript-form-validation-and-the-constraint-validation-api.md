@@ -8,7 +8,7 @@ title: Vanilla JavaScript form validation and the constraint validation API
 url: /2017/06/27/vanilla-javascript-form-validation-and-the-constraint-validation-api
 ---
 
-Yesterday, I showed you [how to use native browser form validation through a combination of semantic input types](https://gomakethings.com/vanilla-javascript-form-validation/) (for example, `<input type="email">`) and validation attributes (such as `required` and `pattern`).
+Yesterday, I showed you [how to use native browser form validation through a combination of semantic input types](/vanilla-javascript-form-validation/) (for example, `<input type="email">`) and validation attributes (such as `required` and `pattern`).
 
 While incredibly easy and super lightweight, this approach does have a few shortcomings.
 

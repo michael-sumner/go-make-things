@@ -8,7 +8,7 @@ title: How to update a URL without reloading the page using vanilla JavaScript
 url: /2017/09/26/how-to-update-a-url-without-reloading-the-page-using-vanilla-javascript
 ---
 
-I'm in the middle of writing my next [pocket guide](https://gomakethings.com/guides/), *Vanilla JS Web Apps*, with a focus on single page apps.
+I'm in the middle of writing my next [pocket guide](/guides/), *Vanilla JS Web Apps*, with a focus on single page apps.
 
 One of the things the book covers is how to route and display different URLs for different pages when you're really serving the same single HTML file each time.
 
@@ -85,6 +85,6 @@ Why would you use or need this?
 
 That initial page load won't have a `state` object associated with it and will not trigger an `onpopstate` event, creating a break in the forward and backward button browser functionality. Calling this when you first load your app creates a proper history listing you can hook into.
 
-I'll be covering the specific implementation of these techniques in more detail in my upcoming [*Vanilla JS Web Apps* pocket guide](https://gomakethings.com/guides/).
+I'll be covering the specific implementation of these techniques in more detail in my upcoming [*Vanilla JS Web Apps* pocket guide](/guides/).
 
-If you buy (or already own) [the complete set](https://gomakethings.com/guides/complete-set/), you'll get the guide as a free update when it comes out (which is a great deal because the price of the set goes up with each new book).
+If you buy (or already own) [the complete set](/guides/complete-set/), you'll get the guide as a free update when it comes out (which is a great deal because the price of the set goes up with each new book).

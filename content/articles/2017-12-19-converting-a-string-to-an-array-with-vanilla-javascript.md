@@ -8,7 +8,7 @@ title: Converting a string to an array with vanilla JavaScript
 url: /2017/12/19/converting-a-string-to-an-array-with-vanilla-javascript
 ---
 
-Yesterday, we looked at [how to convert an array to a string](https://gomakethings.com/converting-an-array-to-a-string-with-vanilla-javascript/). Today, let's look at how to do the exact opposite: convert a string to an array.
+Yesterday, we looked at [how to convert an array to a string](/converting-an-array-to-a-string-with-vanilla-javascript/). Today, let's look at how to do the exact opposite: convert a string to an array.
 
 The `String.split()` method converts a string into an array of strings, splitting the string every time it matches against a set of characters you provide as an argument. You can also optionally tell it to stop after a certain number of matches by passing in a number as a second argument.
 

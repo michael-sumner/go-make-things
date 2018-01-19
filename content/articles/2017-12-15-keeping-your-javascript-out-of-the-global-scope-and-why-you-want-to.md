@@ -8,7 +8,7 @@ title: Keeping your JavaScript out of the global scope (and why you want to)
 url: /2017/12/15/keeping-your-javascript-out-of-the-global-scope-and-why-you-want-to
 ---
 
-This week, we learned about [JavaScript scope](https://gomakethings.com/scope-in-javascript/), and [how to define and update variables across different types of scope](https://gomakethings.com/defining-and-updating-javascript-variables-in-different-scopes/).
+This week, we learned about [JavaScript scope](/scope-in-javascript/), and [how to define and update variables across different types of scope](/defining-and-updating-javascript-variables-in-different-scopes/).
 
 There are times you may want to expose a function or variable to the *global scope* (for example, a lightweight framework you want other scripts to be able to use).
 

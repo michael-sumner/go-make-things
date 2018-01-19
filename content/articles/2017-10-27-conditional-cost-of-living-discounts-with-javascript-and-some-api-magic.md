@@ -11,7 +11,7 @@ url: /2017/10/27/conditional-cost-of-living-discounts-with-javascript-and-some-a
 
 <img src="https://gomakethings.com/wp-content/uploads/2017/10/col-discounts.jpg" alt="" width="1440" height="358" class="aligncenter size-full wp-image-17301" />
 
-Yesterday, I added an automatic cost of living discount feature to my site for [Vanilla JS Pocket Guides](https://gomakethings.com/guides/).
+Yesterday, I added an automatic cost of living discount feature to my site for [Vanilla JS Pocket Guides](/guides/).
 
 If you visit the site from a country where the salary, cost of living, and exchange range with the US make the pocket guides unfairly expensive or unaffordable, you're offered a custom discount code and amount that brings the price inline with what someone in the US would pay relative to what they make in a year.
 
@@ -19,7 +19,7 @@ If you've been holding off because my guides are too expensive where you live ho
 
 Today, I wanted to show you how I make this all work.
 
-*__Note:__ If your country doesn't show up, [please email me](https://gomakethings.com/about/)! So far, I've only added countries that people have emailed me about.*
+*__Note:__ If your country doesn't show up, [please email me](/about/)! So far, I've only added countries that people have emailed me about.*
 
 *Also, I hope this is obvious, but `FAKE_CODE` won't really work, and people in the US don't get offered a cost-of-living discount.*
 
@@ -49,9 +49,9 @@ It accepts variables for things like the country name, the discount code, and mo
 
 I don't just drop the shortcode on my site and call it a day, though.
 
-Since everyone's cost-of-living discount is different, I can't [cache the discount shortcode](https://gomakethings.com/how-i-improved-the-speed-of-my-wordpress-site-by-500/), and that would add a lot of latency to page loads.
+Since everyone's cost-of-living discount is different, I can't [cache the discount shortcode](/how-i-improved-the-speed-of-my-wordpress-site-by-500/), and that would add a lot of latency to page loads.
 
-Instead, I drop the shortcode onto [it's own page](https://gomakethings.com/pricing-parity/), and use Ajax to get the content and drop it into the page when it's ready.
+Instead, I drop the shortcode onto [it's own page](/pricing-parity/), and use Ajax to get the content and drop it into the page when it's ready.
 
 I only display it on product and checkout pages, but I grab the discount message when someone first visits any page and store it with `sessionStorage`. That way, it's immediately displayed when they hit a product sales page.
 
@@ -210,4 +210,4 @@ I'm using a simple regex pattern to check for `/guides/` or `/checkout/` in the 
 if (!/\/guides\//.test(window.location.pathname) && !/\/checkout\//.test(window.location.pathname)) return;
 ```
 
-If you live somewhere with a cost-of-living that makes buying [my guides](https://gomakethings.com/guides/) expensive, I hope this makes things a bit easier for you.
+If you live somewhere with a cost-of-living that makes buying [my guides](/guides/) expensive, I hope this makes things a bit easier for you.

@@ -36,4 +36,4 @@ This is known as event bubbling.
 
 As a side benefit of this approach, you can dynamically add elements to the DOM without having to add additional event listeners. Everything just bubbles up and gets checked against our selector in real time.
 
-Next, learn [how to run the same code on multiple events with vanilla JavaScript](https://gomakethings.com/listening-to-multiple-events-in-vanilla-js/). Bubbling not working for you? It may be related to [the use capture argument](https://gomakethings.com/wtf-is-use-capture-in-vanilla-js-event-listeners/).
+Next, learn [how to run the same code on multiple events with vanilla JavaScript](/listening-to-multiple-events-in-vanilla-js/). Bubbling not working for you? It may be related to [the use capture argument](/wtf-is-use-capture-in-vanilla-js-event-listeners/).

@@ -42,7 +42,7 @@ First, I’ll show you how to use it. Then, I’ll share the method itself. And 
 
 ### How to use it
 
-The `off()` method works just like [the `on()` method we discussed yesterday](https://gomakethings.com/a-vanilla-javascript-equivalent-of-jquerys-on-method/).
+The `off()` method works just like [the `on()` method we discussed yesterday](/a-vanilla-javascript-equivalent-of-jquerys-on-method/).
 
 The first argument is always the event to listen to. The second argument is an optional filter, if you're removing events on a certain selector.
 

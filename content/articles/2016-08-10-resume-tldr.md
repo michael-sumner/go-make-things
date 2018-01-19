@@ -7,7 +7,7 @@ title: Resume tl;dr
 url: /2016/08/10/resume-tldr
 ---
 
-Seth, who reads [my newsletter](https://gomakethings.com/newsletter/), asked me:
+Seth, who reads [my newsletter](/newsletter/), asked me:
 
 > I originally wrote my resume with very brief sentences, but feedback I got from peers was to add more detailed concrete examples. It's a balance between useful info and tldr.
 

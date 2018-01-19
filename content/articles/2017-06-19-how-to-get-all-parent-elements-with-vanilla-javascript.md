@@ -8,7 +8,7 @@ title: How to get all parent elements with vanilla JavaScript
 url: /2017/06/19/how-to-get-all-parent-elements-with-vanilla-javascript
 ---
 
-Last week, I showed you how to [climb up the DOM](https://gomakethings.com/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/) and find the closest element with a matching selector.
+Last week, I showed you how to [climb up the DOM](/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/) and find the closest element with a matching selector.
 
 Today, let's look at how to get *all* parent elements of a specific element.
 

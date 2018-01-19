@@ -9,7 +9,7 @@ title: Debouncing events with requestAnimationFrame() for better performance
 url: /2017/10/11/debouncing-events-with-requestanimationframe-for-better-performance
 ---
 
-Earlier this year, I wrote an article about [how `scroll` and `resize` event listeners can be crippling for performance](https://gomakethings.com/event-listener-performance-with-vanilla-js/) on certain browsers.
+Earlier this year, I wrote an article about [how `scroll` and `resize` event listeners can be crippling for performance](/event-listener-performance-with-vanilla-js/) on certain browsers.
 
 The solution is a technique known as debouncing.
 

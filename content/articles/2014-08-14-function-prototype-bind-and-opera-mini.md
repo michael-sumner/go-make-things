@@ -7,7 +7,7 @@ title: <code>Function.prototype.bind</code> and Opera Mini
 url: /2014/08/14/function-prototype-bind-and-opera-mini
 ---
 
-Last week I discovered that a few scripts that *should* work in Opera Mini were not. And they weren't just failing to work. They were passing the [mustard test](https://gomakethings.com/ditching-jquery-for-vanilla-js/#cutting-the-mustard), so important content was getting obscured with no way to access it.
+Last week I discovered that a few scripts that *should* work in Opera Mini were not. And they weren't just failing to work. They were passing the [mustard test](/ditching-jquery-for-vanilla-js/#cutting-the-mustard), so important content was getting obscured with no way to access it.
 
 The problem turned out to be with `Function.prototype.bind`, a late addition to the ECMAScript 5 standard that is missing from some otherwise compatible browsers (like Opera Mini). Fortunately, there's an easy fix.
 

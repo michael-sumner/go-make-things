@@ -12,7 +12,7 @@ url: /2015/05/22/progressive-enhancement-and-no-js
 
 Last week, my buddy [David Putney](http://davidputney.com/) asked:
 
-> I was reading your [blog post about progressive enhancement](https://gomakethings.com/writing-your-own-simple-feature-tests/).
+> I was reading your [blog post about progressive enhancement](/writing-your-own-simple-feature-tests/).
 >
 > It suggests adding a `js` style to the body tag and then keying all my js active state items to that style.
 >

@@ -8,7 +8,7 @@ title: JavaScript feature detection
 url: /2017/05/15/javascript-feature-detection
 ---
 
-In my [Vanilla JS Pocket Guide](https://gomakethings.com/guides/) on browser compatibility, I mention a technique called "cutting the mustard," in which you make sure the most modern functions you're using are supported before running your code.
+In my [Vanilla JS Pocket Guide](/guides/) on browser compatibility, I mention a technique called "cutting the mustard," in which you make sure the most modern functions you're using are supported before running your code.
 
 ```lang-javascript
 var supports = 'querySelector' in document && 'addEventListener' in window;

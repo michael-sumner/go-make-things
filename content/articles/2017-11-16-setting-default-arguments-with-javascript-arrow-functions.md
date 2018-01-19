@@ -8,7 +8,7 @@ title: Setting default arguments with JavaScript arrow functions
 url: /2017/11/16/setting-default-arguments-with-javascript-arrow-functions
 ---
 
-Yesterday, we looked at [how to set default values for JavaScript function arguments](https://gomakethings.com/setting-default-values-for-a-javascript-function/).
+Yesterday, we looked at [how to set default values for JavaScript function arguments](/setting-default-values-for-a-javascript-function/).
 
 With arrow functions, it's even easier.
 
@@ -31,6 +31,6 @@ var add = function (num1, num2) {
 var add = (num1 = 0, num2 = 0) => num1 + num2;
 ```
 
-[Arrow functions aren't production-ready](https://gomakethings.com/can-i-use-arrow-functions-in-production-code/) at the moment&mdash;they require a compiler to have good enough browser compatibility&mdash;but this is still a great feature.
+[Arrow functions aren't production-ready](/can-i-use-arrow-functions-in-production-code/) at the moment&mdash;they require a compiler to have good enough browser compatibility&mdash;but this is still a great feature.
 
-If you like this post, you might also enjoy my [vanilla JS pocket guide on variables, functions, and scope](https://gomakethings.com/guides/variables-functions-and-scope/).
+If you like this post, you might also enjoy my [vanilla JS pocket guide on variables, functions, and scope](/guides/variables-functions-and-scope/).

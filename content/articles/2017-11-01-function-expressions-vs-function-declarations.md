@@ -8,7 +8,7 @@ title: Function expressions vs. function declarations
 url: /2017/11/01/function-expressions-vs-function-declarations
 ---
 
-I've started working on my next [pocket guide](https://gomakethings.com/guides/), *Variables, Functions, and Scope*.
+I've started working on my next [pocket guide](/guides/), *Variables, Functions, and Scope*.
 
 One of the things I get asked about a fair bit is the difference between these two ways of writing a function.
 

@@ -10,13 +10,13 @@ title: Automatically detecting when transitions end with vanilla JavaScript
 url: /2017/08/30/automatically-detecting-when-transitions-end-with-vanilla-javascript
 ---
 
-Yesterday, we looked at [two techniques for adjusting the timing of transitions](https://gomakethings.com/controlling-the-transition-timing-of-show-and-hide-methods-with-vanilla-javascript/) for our vanilla JS `show()` and `hide()` methods. Both of approaches involved hard-coding timing values into our script.
+Yesterday, we looked at [two techniques for adjusting the timing of transitions](/controlling-the-transition-timing-of-show-and-hide-methods-with-vanilla-javascript/) for our vanilla JS `show()` and `hide()` methods. Both of approaches involved hard-coding timing values into our script.
 
 Imagine if you had multiple transition types: some with a fade-in, some without; some with an animation, some without; some fast, some slow, others somewhere in-between. Controlling all of that logic with manual JS arguments or `if...else` logic would quickly become unmanageable.
 
 Reader [Diego Versiani](https://diegoversiani.me/about/) sent me an email with a really cool technique for automatically detecting when transitions end. His approach makes scaling larger projects much more maintainable.
 
-***Side Note:*** *I love getting emails like this. If you have a tip or technique you want to share with the rest of my readers, please [reach out](https://gomakethings.com/about/) and let me know about it!*
+***Side Note:*** *I love getting emails like this. If you have a tip or technique you want to share with the rest of my readers, please [reach out](/about/) and let me know about it!*
 
 ## A Quick Recap
 

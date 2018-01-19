@@ -8,7 +8,7 @@ title: When to use return with JavaScript
 url: /2017/08/21/when-to-use-return-with-javascript
 ---
 
-One of the discussions that came up in my private Vanilla JS Slack channel (available to people who purchase my [pocket guides](https://gomakethings.com/guides/)) the other day was when to use `return` in functions.
+One of the discussions that came up in my private Vanilla JS Slack channel (available to people who purchase my [pocket guides](/guides/)) the other day was when to use `return` in functions.
 
 There are two times you'll want to `return` in a function:
 

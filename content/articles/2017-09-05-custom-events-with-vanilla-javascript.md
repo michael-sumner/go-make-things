@@ -8,7 +8,7 @@ title: Custom Events with Vanilla JavaScript
 url: /2017/09/05/custom-events-with-vanilla-javascript
 ---
 
-For a few years now, I've made it a habit of including callbacks in my [open source JavaScript plugins](https://gomakethings.com/open-source/).
+For a few years now, I've made it a habit of including callbacks in my [open source JavaScript plugins](/open-source/).
 
 If you're unfamiliar with a callback, it's a piece of code that runs before or (more typically) after your core code. Unlike the core code in a plugin or script, it's user-customizable, allowing them a way to hook into certain parts of your code and extend it with their own code.
 

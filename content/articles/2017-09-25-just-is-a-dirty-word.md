@@ -20,6 +20,6 @@ They feel like they're not smart enough, or good enough to do this kind of work.
 
 In reality, the documentation just sucks.
 
-I make a *very* concious effort to never use "just" in my [training](https://gomakethings.com/training/), [talks](https://gomakethings.com/talks), and [pocket guides](https://gomakethings.com/guides/). I don't always succeed, though, so if you ever see me use that word, call me out!
+I make a *very* concious effort to never use "just" in my [training](/training/), [talks](/talks), and [pocket guides](/guides/). I don't always succeed, though, so if you ever see me use that word, call me out!
 
 And if you see the word "just" in documentation somewhere and feel like an idiot when you don't get it, remember that you're not dumb. The author just sucks at writing docs.

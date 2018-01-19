@@ -55,10 +55,10 @@ So what can you do about it?
 
 There are a few things you can do to make links more accessible for individuals with color blindness.
 
-One of the first things I do when running a [mobile strategy audit](https://gomakethings.com/mobile-strategy-plan/) is check out your website using [Color Oracle](http://colororacle.org/), a free, cross-platform color blindness simulator that allows you to see what your site (or any other thing you make on a computer) looks like to individuals with the three forms of color blindness mentioned above.
+One of the first things I do when running a [mobile strategy audit](/mobile-strategy-plan/) is check out your website using [Color Oracle](http://colororacle.org/), a free, cross-platform color blindness simulator that allows you to see what your site (or any other thing you make on a computer) looks like to individuals with the three forms of color blindness mentioned above.
 
 If you want to use a color that has contrast issues (like red or green), use more than one indicator to let people know it’s a link. You might, for example, underline links in addition to making them a different color.
 
 With a few simple modifications, you can make your website far more accessible for color blind individuals.
 
-If you have any questions or need help, [send me an email](https://gomakethings.com/about/). I'd love to hear from you.
+If you have any questions or need help, [send me an email](/about/). I'd love to hear from you.

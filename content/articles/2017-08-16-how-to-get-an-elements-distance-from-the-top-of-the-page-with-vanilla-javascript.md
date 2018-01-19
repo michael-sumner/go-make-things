@@ -50,7 +50,7 @@ do {
 } while (elem);
 ```
 
-Because of rounding errors, it's possible for the final `distance` to be less than `0`. We can use a [ternary operator](https://gomakethings.com/ternary-operators/) to use `0` if our `distance` is negative, and the `distance` if it's not.
+Because of rounding errors, it's possible for the final `distance` to be less than `0`. We can use a [ternary operator](/ternary-operators/) to use `0` if our `distance` is negative, and the `distance` if it's not.
 
 ```lang-javascript
 // Our element

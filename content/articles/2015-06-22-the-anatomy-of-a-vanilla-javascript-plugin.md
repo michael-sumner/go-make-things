@@ -8,7 +8,7 @@ title: The anatomy of a vanilla JavaScript plugin
 url: /2015/06/22/the-anatomy-of-a-vanilla-javascript-plugin
 ---
 
-For those of you who are in the process of [ditching jQuery](https://gomakethings.com/ditching-jquery/), I thought it might be helpful to talk through how I structure my [native JavaScript plugins](https://gomakethings.com/free-stuff/#interactive-content).
+For those of you who are in the process of [ditching jQuery](/ditching-jquery/), I thought it might be helpful to talk through how I structure my [native JavaScript plugins](/free-stuff/#interactive-content).
 
 <!--more-->
 
