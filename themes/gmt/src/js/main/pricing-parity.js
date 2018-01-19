@@ -12,7 +12,7 @@
 		if (!data) return;
 
 		// Only render on sales pages
-		if (!/\/guides\//.test(window.location.pathname) && !/\/courses\//.test(window.location.pathname) && !/\/checkout\//.test(window.location.pathname)) return;
+		if (!/\/guides\//.test(window.location.pathname) && !/\/courses\//.test(window.location.pathname) && !/\/checkout\//.test(window.location.pathname) && !/\/resources\//.test(window.location.pathname)) return;
 
 		// Get the nav
 		var nav = document.querySelector('header');

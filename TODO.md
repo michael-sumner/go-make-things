@@ -40,9 +40,9 @@
 
 ## Keep On Checkout
 
-- [ ] Self-Service
-- [ ] Slack Signup
-- [ ] Pricing Parity
+- [x] Self-Service
+- [x] Slack Signup
+- [x] Pricing Parity
 
 
 ## Optimize later
