@@ -1,0 +1,1181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+  </style>
+  <style>
+  html {
+  	font-size: 100%;
+  	overflow-y: scroll;
+  	-webkit-text-size-adjust: 100%;
+  	-ms-text-size-adjust: 100%;
+  }
+  
+  body {
+  	color: #272727;
+  	font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+  	line-height: 1.7;
+  	padding: 1em;
+  	/*margin: auto;*/
+  	max-width: 42em;
+  	background: #ffffff;
+  }
+  
+  a {
+  	color: #0088cc;
+  	text-decoration: none;
+  }
+  
+  a:visited {
+  	color: #0088cc;
+  }
+  
+  a:hover {
+  	color: #005580;
+  }
+  
+  a:active {
+  	color: #005580;
+  }
+  
+  a:focus {
+  	outline: thin dotted;
+  }
+  
+  p {
+  	margin: 0 0 1em;
+  }
+  
+  img {
+  	max-width: 100%;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+  	line-height: 125%;
+  	margin-top: 2em;
+  	font-weight: normal;
+  }
+  
+  p,
+  h1, h2, h3 {
+  	orphans: 3;
+  	widows: 3;
+  }
+  
+  h1, h2, h3 {
+  	page-break-after: avoid;
+  }
+  
+  h4, h5, h6 {
+  	font-weight: bold;
+  }
+  
+  h1 {
+  	font-size: 2.5em;
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	padding-top: 0;
+  	padding-bottom: 0;
+  }
+  
+  h2 {
+  	font-size: 1.8em;
+  	margin-top: 0;
+  	padding-top: 0;
+  	page-break-before: always;
+  }
+  
+  h3 {
+  	font-size: 1.5em;
+  }
+  
+  h4 {
+  	font-size: 1.2em;
+  }
+  
+  h5 {
+  	font-size: 1em;
+  }
+  
+  h6 {
+  	font-size: 0.9em;
+  }
+  
+  blockquote {
+  	color: #666666;
+  	margin: 0;
+  	padding-left: 3em;
+  	page-break-inside: avoid;
+  	border-left: 0.5em #eee solid;
+  }
+  
+  hr {
+  	display: block;
+  	height: 2px;
+  	border: 0;
+  	border-top: 1px solid #aaa;
+  	border-bottom: 1px solid #eee;
+  	margin: 1em 0;
+  	padding: 0;
+  }
+  
+  pre, code, kbd, samp {
+  	color: #000;
+  	font-family: monospace, monospace;
+  	_font-family: 'courier new', monospace;
+  	font-size: 0.98em;
+  }
+  
+  pre {
+  	padding: 0 0 1em;
+  	page-break-inside: avoid !important;
+  	white-space: pre;
+  	white-space: pre-wrap !important;
+  	word-wrap: break-word;
+  }
+  
+  b, strong {
+  	font-weight: bold;
+  }
+  
+  dfn {
+  	font-style: italic;
+  }
+  
+  ins {
+  	background: #ff9;
+  	color: #000;
+  	text-decoration: none;
+  }
+  
+  mark {
+  	background: #ff0;
+  	color: #000;
+  	font-style: italic;
+  	font-weight: bold;
+  }
+  
+  sub, sup {
+  	font-size: 75%;
+  	line-height: 0;
+  	position: relative;
+  	vertical-align: baseline;
+  }
+  
+  sup {
+  	top: -0.5em;
+  }
+  
+  sub {
+  	bottom: -0.25em;
+  }
+  
+  ul, ol {
+  	margin: 1em 0;
+  	padding: 0 0 0 2em;
+  }
+  
+  li p:last-child {
+  	margin-bottom: 0;
+  }
+  
+  ul ul, ol ol {
+  	margin: .3em 0;
+  }
+  
+  dl {
+  	margin-bottom: 1em;
+  }
+  
+  dt {
+  	font-weight: bold;
+  	margin-bottom: .8em;
+  }
+  
+  dd {
+  	margin: 0 0 .8em 2em;
+  }
+  
+  dd:last-child {
+  	margin-bottom: 0;
+  }
+  
+  img {
+  	border: 0;
+  	-ms-interpolation-mode: bicubic;
+  	vertical-align: middle;
+  }
+  
+  figure {
+  	display: block;
+  	text-align: center;
+  	margin: 1em 0;
+  }
+  
+  figure img {
+  	border: none;
+  	margin: 0 auto;
+  }
+  
+  figcaption {
+  	font-size: 0.8em;
+  	font-style: italic;
+  	margin: 0 0 .8em;
+  }
+  
+  table {
+  	margin-bottom: 2em;
+  	border-bottom: 1px solid #ddd;
+  	border-right: 1px solid #ddd;
+  	border-spacing: 0;
+  	border-collapse: collapse;
+  }
+  
+  table th {
+  	padding: .2em 1em;
+  	background-color: #eee;
+  	border-top: 1px solid #ddd;
+  	border-left: 1px solid #ddd;
+  }
+  
+  table td {
+  	padding: .2em 1em;
+  	border-top: 1px solid #ddd;
+  	border-left: 1px solid #ddd;
+  	vertical-align: top;
+  }
+  
+  .meta {
+  	color: #666666;
+  	margin-bottom: 0;
+  }
+  
+  .author-img {
+  	border-radius: 50%;
+  	display: inline-block;
+  	height: 200px;
+  	width: 200px;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  
+  .break {
+  	page-break-before: always;
+  }
+  
+  @media print {
+  	* {
+  		background: transparent !important;
+  		color: black !important;
+  		filter: none !important;
+  		-ms-filter: none !important;
+  	}
+  
+  	body {
+  		font-size: 12pt;
+  		max-width: 100%;
+  	}
+  
+  	a, a:visited {
+  		text-decoration: underline;
+  	}
+  
+  	hr {
+  		height: 1px;
+  		border: 0;
+  		border-bottom: 1px solid black;
+  	}
+  
+  	a[href]:after {
+  		content: " (" attr(href) ")";
+  	}
+  
+  	abbr[title]:after {
+  		content: " (" attr(title) ")";
+  	}
+  
+  	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+  		content: "";
+  	}
+  
+  	pre, blockquote {
+  		border: 1px solid #999;
+  		padding-right: 1em;
+  	}
+  
+  	tr, img {
+  		page-break-inside: avoid;
+  	}
+  
+  	img {
+  		max-width: 100% !important;
+  	}
+  
+  	@page :left {
+  		margin: 15mm 20mm 15mm 10mm;
+  }
+  
+  	@page :right {
+  		margin: 15mm 10mm 15mm 20mm;
+  }
+  
+  /*	p, h2, h3 {
+  		orphans: 3;
+  		widows: 3;
+  	}
+  
+  	h2, h3 {
+  		page-break-after: avoid;
+  	}*/
+  }
+  body {
+  	margin: 0 auto;
+  }
+  
+  a {
+  	word-wrap: break-word;
+  }
+  
+  pre, code, kbd, samp {
+  	white-space: pre-wrap;
+  }
+  
+  code {
+  	word-wrap: break-word;
+  }
+  </style>
+</head>
+<body>
+<h1 id="dom-injection-and-traversal">DOM Injection and Traversal</h1>
+<p>By Chris Ferdinandi<br> Go Make Things, LLC<br> v1.0.0</p>
+<p>Copyright 2017 Chris Ferdinandi and Go Make Things, LLC. All Rights Reserved.</p>
+<div data-toc="">
+
+</div>
+<h2 id="intro">Intro</h2>
+<p>In this guide, you’ll learn:</p>
+<ul>
+<li>How to detect when the viewport is ready.</li>
+<li>How to manipulation HTML.</li>
+<li>How to add and remove elements from the DOM.</li>
+<li>How to traverse up and down the DOM.</li>
+<li>How to detect when elements are in the viewport.</li>
+<li>How to calculate distances in the viewport.</li>
+</ul>
+<h3 id="a-quick-word-about-browser-compatibility">A quick word about browser compatibility</h3>
+<p>This guide makes heavy use of ECMAScript 5 (more commonly known as ES5) methods and APIs.</p>
+<p>That generally means browser support begins with IE9 and above. Each function or technique mentioned in this guide includes specific browser support information, as some do provide further backwards compatibility.</p>
+<p>Let’s get started…</p>
+<h2 id="dom-ready">DOM Ready</h2>
+<p>How to detect when the DOM is ready before running code.</p>
+<p><strong>Note:</strong> <em>If you’re loading your scripts in the footer (which you generally should be for performance reasons), the <code>ready()</code> method isn’t really needed. It’s just a habit from the “load everything in the header” days.</em></p>
+<p>Vanilla JavaScript provides a native way to do this: the <code>DOMContentLoaded</code> event for <code>addEventListener</code>.</p>
+<p><strong>But…</strong> if the DOM is already loaded by the time you call your event listener, the event never happens and your function never runs.</p>
+<p>Below is a super lightweight helper method that does the same thing as jQuery’s <code>ready()</code> method. This helper method does two things:</p>
+<ol style="list-style-type: decimal">
+<li>Check to see if the document is already <code>interactive</code> or <code>complete</code>. If so, it runs your function immediately.</li>
+<li>Otherwise, it adds a listener for the <code>DOMContentLoaded</code> event.</li>
+</ol>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">/**</span>
+<span class="co"> * Run event after DOM is ready</span>
+<span class="co">  * </span><span class="kw">@param</span><span class="co">  </span><span class="kw">{Function}</span><span class="co"> fn Callback function</span>
+<span class="co"> */</span>
+<span class="kw">var</span> ready <span class="op">=</span> <span class="kw">function</span> ( fn ) <span class="op">{</span>
+
+    <span class="co">// Sanity check</span>
+    <span class="cf">if</span> ( <span class="kw">typeof</span> fn <span class="op">!==</span> <span class="st">&#39;function&#39;</span> ) <span class="cf">return</span><span class="op">;</span>
+
+    <span class="co">// If document is already loaded, run method</span>
+    <span class="cf">if</span> ( <span class="va">document</span>.<span class="at">readyState</span> <span class="op">===</span> <span class="st">&#39;interactive&#39;</span> <span class="op">||</span> <span class="va">document</span>.<span class="at">readyState</span> <span class="op">===</span> <span class="st">&#39;complete&#39;</span> ) <span class="op">{</span>
+        <span class="cf">return</span> <span class="at">fn</span>()<span class="op">;</span>
+    <span class="op">}</span>
+
+    <span class="co">// Otherwise, wait until document is loaded</span>
+    <span class="va">document</span>.<span class="at">addEventListener</span>( <span class="st">&#39;DOMContentLoaded&#39;</span><span class="op">,</span> fn<span class="op">,</span> <span class="kw">false</span> )<span class="op">;</span>
+
+<span class="op">};</span>
+
+<span class="co">// Example</span>
+<span class="at">ready</span>(<span class="kw">function</span>() <span class="op">{</span>
+    <span class="co">// Do stuff...</span>
+<span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<h3 id="browser-compatibility">Browser Compatibility</h3>
+<p>Works in all modern browsers, and IE9 and above.</p>
+<h2 id="html">HTML</h2>
+<p>Use <code>.innerHTML</code> to get and set HTML content in an element.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-elem&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Get HTML content</span>
+<span class="kw">var</span> html <span class="op">=</span> <span class="va">elem</span>.<span class="at">innerHTML</span><span class="op">;</span>
+
+<span class="co">// Set HTML content</span>
+<span class="va">elem</span>.<span class="at">innerHTML</span> <span class="op">=</span> <span class="st">&#39;We can dynamically change the HTML. We can even include HTML elements like &lt;a href=&quot;#&quot;&gt;this link&lt;/a&gt;.&#39;</span><span class="op">;</span>
+
+<span class="co">// Add HTML to the end of an element&#39;s existing content</span>
+<span class="va">elem</span>.<span class="at">innerHTML</span> <span class="op">+=</span> <span class="st">&#39; Add this after what is already there.&#39;</span><span class="op">;</span>
+
+<span class="co">// Add HTML to the beginning of an element&#39;s existing content</span>
+<span class="va">elem</span>.<span class="at">innerHTML</span> <span class="op">=</span> <span class="st">&#39;We can add this to the beginning. &#39;</span> <span class="op">+</span> <span class="va">elem</span>.<span class="at">innerHTML</span><span class="op">;</span>
+
+<span class="co">// You can inject entire elements into other ones, too</span>
+<span class="va">elem</span>.<span class="at">innerHTML</span> <span class="op">+=</span> <span class="st">&#39;&lt;p&gt;A new paragraph&lt;/p&gt;&#39;</span><span class="op">;</span></code></pre></div>
+<h3 id="browser-compatibility-1">Browser Compatibility</h3>
+<p>Works in all modern browsers, and IE9 and above. <strong>IE9 Exception:</strong> Tables and selects require IE10 and above.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></p>
+<h2 id="dom-injection">DOM Injection</h2>
+<p>How to add and remove elements in the DOM.</p>
+<h3 id="injecting-an-element-into-the-dom">Injecting an element into the DOM</h3>
+<p>Injecting an element into the DOM requires us to combine a few JavaScript methods.</p>
+<ol style="list-style-type: decimal">
+<li>Get the element you want to add our new element before or after.</li>
+<li>Create our new element using the <code>createElement()</code> method.</li>
+<li>Add content to our element with <code>innerHTML</code>.</li>
+<li>Add any other attributes we want to our element (an ID, classes, etc.).</li>
+<li>Insert the element using the <code>insertBefore()</code> method.</li>
+</ol>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Get the element you want to add your new element before or after</span>
+<span class="kw">var</span> target <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-element&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Create the new element</span>
+<span class="co">// This can be any valid HTML element: p, article, span, etc...</span>
+<span class="kw">var</span> div <span class="op">=</span> <span class="va">document</span>.<span class="at">createElement</span>( <span class="st">&#39;div&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Add content to the new element</span>
+<span class="va">div</span>.<span class="at">innerHTML</span> <span class="op">=</span> <span class="st">&#39;Your content, markup, etc.&#39;</span><span class="op">;</span>
+
+<span class="co">// You could also add classes, IDs, and so on</span>
+<span class="co">// div is a fully manipulatable DOM Node</span>
+
+<span class="co">// Insert the element before our target element</span>
+<span class="co">// The first argument is our new element.</span>
+<span class="co">// The second argument is our target element.</span>
+<span class="va">target</span>.<span class="va">parentNode</span>.<span class="at">insertBefore</span>( div<span class="op">,</span> target )<span class="op">;</span>
+
+<span class="co">// Insert the element after our target element</span>
+<span class="co">// Instead of passing in the target, you pass in target.nextSibling</span>
+<span class="va">target</span>.<span class="va">parentNode</span>.<span class="at">insertBefore</span>( div<span class="op">,</span> <span class="va">target</span>.<span class="at">nextSibling</span> )<span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-2">Browser Compatibility</h4>
+<p>Works in all modern browsers, and IE9 and above. <strong>IE9 Exception:</strong> Adding content to tables and selects with <code>innerHTML</code> require IE10 and above.<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></p>
+<h3 id="removing-an-element-from-the-dom">Removing an element from the DOM</h3>
+<p>You can easily hide an element in the DOM by setting it’s <code>style.display</code> to <code>none</code>.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>(<span class="st">&#39;#some-element&#39;</span>)<span class="op">;</span>
+<span class="va">elem</span>.<span class="va">style</span>.<span class="at">display</span> <span class="op">=</span> <span class="st">&#39;none&#39;</span><span class="op">;</span></code></pre></div>
+<p>To <em>really</em> remove an element from the DOM, we can use the <code>removeChild()</code> method. This method is called against our target element’s parent, which we can get with <code>parentNode</code>.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>(<span class="st">&#39;#some-element&#39;</span>)<span class="op">;</span>
+<span class="va">elem</span>.<span class="va">parentNode</span>.<span class="at">removeChild</span>( elem )<span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-3">Browser Compatibility</h4>
+<p>Works in all modern browsers, and at least IE6.</p>
+<h2 id="traversing-up-the-dom">Traversing Up the DOM</h2>
+<p>How to traverse up the DOM.</p>
+<h3 id="parentnode">parentNode</h3>
+<p>Use <code>parentNode</code> to get the parent of an element.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-elem&#39;</span> )<span class="op">;</span>
+<span class="kw">var</span> parent <span class="op">=</span> <span class="va">elem</span>.<span class="at">parentNode</span><span class="op">;</span></code></pre></div>
+<p>You can also string them together to go several levels up.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> levelUpParent <span class="op">=</span> <span class="va">elem</span>.<span class="va">parentNode</span>.<span class="at">parentNode</span><span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-4">Browser Compatibility</h4>
+<p>Works in all modern browsers, and at least back to IE6.</p>
+<h3 id="getclosest">getClosest()</h3>
+<p><code>getClosest()</code> is a helper method I wrote to get the closest parent up the DOM tree that matches against a selector. It’s a vanilla JavaScript equivalent to jQuery’s <code>.closest()</code> method.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">/**</span>
+<span class="co"> * Get the closest matching element up the DOM tree.</span>
+<span class="co"> * </span>@private
+<span class="co"> * </span><span class="kw">@param</span><span class="co">  </span><span class="kw">{Element}</span><span class="co"> elem     Starting element</span>
+<span class="co"> * </span><span class="kw">@param</span><span class="co">  </span><span class="kw">{String}</span><span class="co">  selector Selector to match against</span>
+<span class="co"> * </span><span class="kw">@return</span><span class="co"> {Boolean|Element}  Returns null if not match found</span>
+<span class="co"> */</span>
+<span class="kw">var</span> getClosest <span class="op">=</span> <span class="kw">function</span> ( elem<span class="op">,</span> selector ) <span class="op">{</span>
+
+    <span class="co">// Element.matches() polyfill</span>
+    <span class="cf">if</span> (<span class="op">!</span><span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">matches</span>) <span class="op">{</span>
+        <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">matches</span> <span class="op">=</span>
+            <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">matchesSelector</span> <span class="op">||</span>
+            <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">mozMatchesSelector</span> <span class="op">||</span>
+            <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">msMatchesSelector</span> <span class="op">||</span>
+            <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">oMatchesSelector</span> <span class="op">||</span>
+            <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">webkitMatchesSelector</span> <span class="op">||</span>
+            <span class="kw">function</span>(s) <span class="op">{</span>
+                <span class="kw">var</span> matches <span class="op">=</span> (<span class="kw">this</span>.<span class="at">document</span> <span class="op">||</span> <span class="kw">this</span>.<span class="at">ownerDocument</span>).<span class="at">querySelectorAll</span>(s)<span class="op">,</span>
+                    i <span class="op">=</span> <span class="va">matches</span>.<span class="at">length</span><span class="op">;</span>
+                <span class="cf">while</span> (<span class="op">--</span>i <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span> <span class="va">matches</span>.<span class="at">item</span>(i) <span class="op">!==</span> <span class="kw">this</span>) <span class="op">{}</span>
+                <span class="cf">return</span> i <span class="op">&gt;</span> <span class="op">-</span><span class="dv">1</span><span class="op">;</span>
+            <span class="op">};</span>
+    <span class="op">}</span>
+
+    <span class="co">// Get closest match</span>
+    <span class="cf">for</span> ( <span class="op">;</span> elem <span class="op">&amp;&amp;</span> elem <span class="op">!==</span> document<span class="op">;</span> elem <span class="op">=</span> <span class="va">elem</span>.<span class="at">parentNode</span> ) <span class="op">{</span>
+        <span class="cf">if</span> ( <span class="va">elem</span>.<span class="at">matches</span>( selector ) ) <span class="cf">return</span> elem<span class="op">;</span>
+    <span class="op">}</span>
+
+    <span class="cf">return</span> <span class="kw">null</span><span class="op">;</span>
+
+<span class="op">};</span>
+
+<span class="co">// Example</span>
+<span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-elem&#39;</span> )<span class="op">;</span>
+<span class="kw">var</span> closestSandwich <span class="op">=</span> <span class="at">getClosest</span>( elem<span class="op">,</span> <span class="st">&#39;[data-sandwich]&#39;</span> )<span class="op">;</span></code></pre></div>
+<p><strong><em>Note:</em></strong> <em>This method can also be used in event listeners to determine if the <code>event.target</code> is inside of a particular element or not (for example, did a click happen inside of a dropdown menu?).</em></p>
+<h4 id="browser-compatibility-5">Browser Compatibility</h4>
+<p>Works in all modern browsers, and IE9 and above.</p>
+<h3 id="getparents">getParents()</h3>
+<p><code>getParents()</code> is a helper method I wrote that returns an array of parent elements, optionally matching against a selector. It’s a vanilla JavaScript equivalent to jQuery’s <code>.parents()</code> method.</p>
+<p>It starts with the element you’ve passed in itself, so pass in <code>elem.parentNode</code> to skip to the first parent element instead.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">/**</span>
+<span class="co"> * Get all of an element&#39;s parent elements up the DOM tree</span>
+<span class="co"> * </span><span class="kw">@param</span><span class="co">  </span><span class="kw">{Node}</span><span class="co">   elem     The element</span>
+<span class="co"> * </span><span class="kw">@param</span><span class="co">  </span><span class="kw">{String}</span><span class="co"> selector Selector to match against [optional]</span>
+<span class="co"> * </span><span class="kw">@return</span><span class="co"> {Array}           The parent elements</span>
+<span class="co"> */</span>
+<span class="kw">var</span> getParents <span class="op">=</span> <span class="kw">function</span> ( elem<span class="op">,</span> selector ) <span class="op">{</span>
+
+    <span class="co">// Element.matches() polyfill</span>
+    <span class="cf">if</span> (<span class="op">!</span><span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">matches</span>) <span class="op">{</span>
+        <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">matches</span> <span class="op">=</span>
+            <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">matchesSelector</span> <span class="op">||</span>
+            <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">mozMatchesSelector</span> <span class="op">||</span>
+            <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">msMatchesSelector</span> <span class="op">||</span>
+            <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">oMatchesSelector</span> <span class="op">||</span>
+            <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">webkitMatchesSelector</span> <span class="op">||</span>
+            <span class="kw">function</span>(s) <span class="op">{</span>
+                <span class="kw">var</span> matches <span class="op">=</span> (<span class="kw">this</span>.<span class="at">document</span> <span class="op">||</span> <span class="kw">this</span>.<span class="at">ownerDocument</span>).<span class="at">querySelectorAll</span>(s)<span class="op">,</span>
+                    i <span class="op">=</span> <span class="va">matches</span>.<span class="at">length</span><span class="op">;</span>
+                <span class="cf">while</span> (<span class="op">--</span>i <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span> <span class="va">matches</span>.<span class="at">item</span>(i) <span class="op">!==</span> <span class="kw">this</span>) <span class="op">{}</span>
+                <span class="cf">return</span> i <span class="op">&gt;</span> <span class="op">-</span><span class="dv">1</span><span class="op">;</span>
+            <span class="op">};</span>
+    <span class="op">}</span>
+
+    <span class="co">// Setup parents array</span>
+    <span class="kw">var</span> parents <span class="op">=</span> []<span class="op">;</span>
+
+    <span class="co">// Get matching parent elements</span>
+    <span class="cf">for</span> ( <span class="op">;</span> elem <span class="op">&amp;&amp;</span> elem <span class="op">!==</span> document<span class="op">;</span> elem <span class="op">=</span> <span class="va">elem</span>.<span class="at">parentNode</span> ) <span class="op">{</span>
+
+        <span class="co">// Add matching parents to array</span>
+        <span class="cf">if</span> ( selector ) <span class="op">{</span>
+            <span class="cf">if</span> ( <span class="va">elem</span>.<span class="at">matches</span>( selector ) ) <span class="op">{</span>
+                <span class="va">parents</span>.<span class="at">push</span>( elem )<span class="op">;</span>
+            <span class="op">}</span>
+        <span class="op">}</span> <span class="cf">else</span> <span class="op">{</span>
+            <span class="va">parents</span>.<span class="at">push</span>( elem )<span class="op">;</span>
+        <span class="op">}</span>
+
+    <span class="op">}</span>
+
+    <span class="cf">return</span> parents<span class="op">;</span>
+
+<span class="op">};</span>
+
+<span class="co">// Example</span>
+<span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-elem&#39;</span> )<span class="op">;</span>
+<span class="kw">var</span> parents <span class="op">=</span> <span class="at">getParents</span>( <span class="va">elem</span>.<span class="at">parentNode</span> )<span class="op">;</span>
+<span class="kw">var</span> parentsWithWrapper <span class="op">=</span> <span class="at">getParents</span>( <span class="va">elem</span>.<span class="at">parentNode</span><span class="op">,</span> <span class="st">&#39;.wrapper&#39;</span> )<span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-6">Browser Compatibility</h4>
+<p>Works in all modern browsers, and IE9 and above.</p>
+<h3 id="getparentsuntil">getParentsUntil()</h3>
+<p><code>getParentsUntil()</code> is a helper method I wrote that returns an array of parent elements until a matching parent is found, optionally matching against a selector. It’s a vanilla JavaScript equivalent to jQuery’s <code>.parentsUntil()</code> method.</p>
+<p>It starts with the element you’ve passed in itself, so pass in <code>elem.parentNode</code> to skip to the first parent element instead.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">/**</span>
+<span class="co"> * Get all of an element&#39;s parent elements up the DOM tree until a matching parent is found</span>
+<span class="co"> * </span><span class="kw">@param</span><span class="co">  </span><span class="kw">{Node}</span><span class="co">   elem     The element</span>
+<span class="co"> * </span><span class="kw">@param</span><span class="co">  </span><span class="kw">{String}</span><span class="co"> parent   The selector for the parent to stop at</span>
+<span class="co"> * </span><span class="kw">@param</span><span class="co">  </span><span class="kw">{String}</span><span class="co"> selector The selector to filter against [optionals]</span>
+<span class="co"> * </span><span class="kw">@return</span><span class="co"> {Array}           The parent elements</span>
+<span class="co"> */</span>
+<span class="kw">var</span> getParentsUntil <span class="op">=</span> <span class="kw">function</span> ( elem<span class="op">,</span> parent<span class="op">,</span> selector ) <span class="op">{</span>
+
+    <span class="co">// Element.matches() polyfill</span>
+    <span class="cf">if</span> (<span class="op">!</span><span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">matches</span>) <span class="op">{</span>
+        <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">matches</span> <span class="op">=</span>
+            <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">matchesSelector</span> <span class="op">||</span>
+            <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">mozMatchesSelector</span> <span class="op">||</span>
+            <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">msMatchesSelector</span> <span class="op">||</span>
+            <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">oMatchesSelector</span> <span class="op">||</span>
+            <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">webkitMatchesSelector</span> <span class="op">||</span>
+            <span class="kw">function</span>(s) <span class="op">{</span>
+                <span class="kw">var</span> matches <span class="op">=</span> (<span class="kw">this</span>.<span class="at">document</span> <span class="op">||</span> <span class="kw">this</span>.<span class="at">ownerDocument</span>).<span class="at">querySelectorAll</span>(s)<span class="op">,</span>
+                    i <span class="op">=</span> <span class="va">matches</span>.<span class="at">length</span><span class="op">;</span>
+                <span class="cf">while</span> (<span class="op">--</span>i <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span> <span class="va">matches</span>.<span class="at">item</span>(i) <span class="op">!==</span> <span class="kw">this</span>) <span class="op">{}</span>
+                <span class="cf">return</span> i <span class="op">&gt;</span> <span class="op">-</span><span class="dv">1</span><span class="op">;</span>
+            <span class="op">};</span>
+    <span class="op">}</span>
+
+    <span class="co">// Setup parents array</span>
+    <span class="kw">var</span> parents <span class="op">=</span> []<span class="op">;</span>
+
+    <span class="co">// Get matching parent elements</span>
+    <span class="cf">for</span> ( <span class="op">;</span> elem <span class="op">&amp;&amp;</span> elem <span class="op">!==</span> document<span class="op">;</span> elem <span class="op">=</span> <span class="va">elem</span>.<span class="at">parentNode</span> ) <span class="op">{</span>
+
+        <span class="cf">if</span> ( parent ) <span class="op">{</span>
+            <span class="cf">if</span> ( <span class="va">elem</span>.<span class="at">matches</span>( parent ) ) <span class="cf">break</span><span class="op">;</span>
+        <span class="op">}</span>
+
+        <span class="cf">if</span> ( selector ) <span class="op">{</span>
+            <span class="cf">if</span> ( <span class="va">elem</span>.<span class="at">matches</span>( selector ) ) <span class="op">{</span>
+                <span class="va">parents</span>.<span class="at">push</span>( elem )<span class="op">;</span>
+            <span class="op">}</span>
+            <span class="cf">break</span><span class="op">;</span>
+        <span class="op">}</span>
+
+        <span class="va">parents</span>.<span class="at">push</span>( elem )<span class="op">;</span>
+
+    <span class="op">}</span>
+
+    <span class="cf">return</span> parents<span class="op">;</span>
+
+<span class="op">};</span>
+
+<span class="co">// Examples</span>
+<span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-element&#39;</span> )<span class="op">;</span>
+<span class="kw">var</span> parentsUntil <span class="op">=</span> <span class="at">getParentsUntil</span>( elem<span class="op">,</span> <span class="st">&#39;.some-class&#39;</span> )<span class="op">;</span>
+<span class="kw">var</span> parentsUntilByFilter <span class="op">=</span> <span class="at">getParentsUntil</span>( elem<span class="op">,</span> <span class="st">&#39;.some-class&#39;</span><span class="op">,</span> <span class="st">&#39;[data-something]&#39;</span> )<span class="op">;</span>
+<span class="kw">var</span> allParentsUntil <span class="op">=</span> <span class="at">getParentsUntil</span>( elem )<span class="op">;</span>
+<span class="kw">var</span> allParentsExcludingElem <span class="op">=</span> <span class="at">getParentsUntil</span>( <span class="va">elem</span>.<span class="at">parentNode</span> )<span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-7">Browser Compatibility</h4>
+<p>Works in all modern browsers, and IE9 and above.</p>
+<h2 id="traversing-down-the-dom">Traversing Down the DOM</h2>
+<h3 id="queryselector-and-queryselectorall">querySelector() and querySelectorAll()</h3>
+<p>The <code>querySelector()</code> and <code>querySelectorAll()</code> APIs aren’t limited to just running on the <code>document</code>. They can be run on any element to search only for elements inside of it.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-elem&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Find the first element inside `#some-elem` that has a `[data-snack]` attribute</span>
+<span class="kw">var</span> snack <span class="op">=</span> <span class="va">elem</span>.<span class="at">querySelector</span>( <span class="st">&#39;[data-snack]&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Get all divs inside `#some-elem`</span>
+<span class="kw">var</span> divs <span class="op">=</span> <span class="va">elem</span>.<span class="at">querySelectorAll</span>( <span class="st">&#39;div&#39;</span> )<span class="op">;</span></code></pre></div>
+<h3 id="browser-compatibility-8">Browser Compatibility</h3>
+<p>Same as <code>querySelectorAll</code> and <code>querySelector</code>.</p>
+<h3 id="children">children</h3>
+<p>While <code>querySelector()</code> and <code>querySelectorAll()</code> search through all levels within a nested DOM/HTML structure, you may want to just get immediate decedants of a particular element. Use <code>children</code> for this.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-elem&#39;</span> )<span class="op">;</span>
+<span class="kw">var</span> decendants <span class="op">=</span> <span class="va">wrapper</span>.<span class="at">children</span><span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-9">Browser Compatibility</h4>
+<p>Works in all modern browsers, and IE9 and above.</p>
+<h2 id="traversing-sideways-in-the-dom">Traversing Sideways in the DOM</h2>
+<p><code>getSiblings</code> is a helper method I wrote that gets the siblings of an element in the DOM. For example: if you had a list item (<code>&lt;li&gt;</code>) and wanted to grab all of the other items in the list.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">/**</span>
+<span class="co"> * Get all siblings of an element</span>
+<span class="co"> * </span><span class="kw">@param</span><span class="co">  </span><span class="kw">{Node}</span><span class="co">  elem The element</span>
+<span class="co"> * </span><span class="kw">@return</span><span class="co"> {Array}      The siblings</span>
+<span class="co"> */</span>
+<span class="kw">var</span> getSiblings <span class="op">=</span> <span class="kw">function</span> ( elem ) <span class="op">{</span>
+    <span class="kw">var</span> siblings <span class="op">=</span> []<span class="op">;</span>
+    <span class="kw">var</span> sibling <span class="op">=</span> <span class="va">elem</span>.<span class="va">parentNode</span>.<span class="at">firstChild</span><span class="op">;</span>
+    <span class="cf">for</span> ( <span class="op">;</span> sibling<span class="op">;</span> sibling <span class="op">=</span> <span class="va">sibling</span>.<span class="at">nextSibling</span> ) <span class="op">{</span>
+        <span class="cf">if</span> ( <span class="va">sibling</span>.<span class="at">nodeType</span> <span class="op">===</span> <span class="dv">1</span> <span class="op">&amp;&amp;</span> sibling <span class="op">!==</span> elem ) <span class="op">{</span>
+            <span class="va">siblings</span>.<span class="at">push</span>( sibling )<span class="op">;</span>
+        <span class="op">}</span>
+    <span class="op">}</span>
+    <span class="cf">return</span> siblings<span class="op">;</span>
+<span class="op">};</span>
+
+<span class="co">// Example</span>
+<span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-element&#39;</span> )<span class="op">;</span>
+<span class="kw">var</span> siblings <span class="op">=</span> <span class="at">getSiblings</span>( elem )<span class="op">;</span></code></pre></div>
+<h3 id="browser-compatibility-10">Browser Compatibility</h3>
+<p>Works in all modern browsers, and IE6 and above.</p>
+<h2 id="the-viewport">The Viewport</h2>
+<p>How to detect viewport dimensions, and check if an element is within it.</p>
+<h3 id="get-the-viewport-height">Get the viewport height</h3>
+<p>There are two methods to get the viewport height: <code>window.innerHeight</code> and <code>document.documentElement.clientHeight</code>. The former is more accurate. The latter has better browser support.</p>
+<p>To get the best of both worlds, try <code>innerHeight</code> first, and fallback to <code>clientHeight</code> if not supported.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> viewportHeight <span class="op">=</span> <span class="va">window</span>.<span class="at">innerHeight</span> <span class="op">||</span> <span class="va">document</span>.<span class="va">documentElement</span>.<span class="at">clientHeight</span><span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-11">Browser Compatibility</h4>
+<p><code>innerHeight</code> works in all modern browsers, and IE9 and above. <code>clientHeight</code> works in all modern browsers, and IE6 and above.</p>
+<h3 id="get-the-viewport-width">Get the viewport width</h3>
+<p>There are two methods to get the viewport width: <code>window.innerWidth</code> and <code>document.documentElement.clientWidth</code>. The former is more accurate. The latter has better browser support.</p>
+<p>To get the best of both worlds, try <code>innerWidth</code> first, and fallback to <code>clientWidth</code> if not supported.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> viewportWidth <span class="op">=</span> <span class="va">window</span>.<span class="at">innerWidth</span> <span class="op">||</span> <span class="va">document</span>.<span class="va">documentElement</span>.<span class="at">clientWidth</span><span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-12">Browser Compatibility</h4>
+<p><code>innerWidth</code> works in all modern browsers, and IE9 and above. <code>clientWidth</code> works in all modern browsers, and IE6 and above.</p>
+<h3 id="check-if-an-element-is-in-the-viewport-or-not">Check if an element is in the viewport or not</h3>
+<p><code>isInViewport</code> is a helper method I wrote to check if an element is in the viewport or not. It returns <code>true</code> if the element is in the viewport, and <code>false</code> if it’s not.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">/**</span>
+<span class="co"> * Determine if an element is in the viewport</span>
+<span class="co"> * </span><span class="kw">@param</span><span class="co">  </span><span class="kw">{Node}</span><span class="co">    elem The element</span>
+<span class="co"> * </span><span class="kw">@return</span><span class="co"> {Boolean}      Returns true if element is in the viewport</span>
+<span class="co"> */</span>
+<span class="kw">var</span> isInViewport <span class="op">=</span> <span class="kw">function</span> ( elem ) <span class="op">{</span>
+    <span class="kw">var</span> distance <span class="op">=</span> <span class="va">elem</span>.<span class="at">getBoundingClientRect</span>()<span class="op">;</span>
+    <span class="cf">return</span> (
+        <span class="va">distance</span>.<span class="at">top</span> <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span>
+        <span class="va">distance</span>.<span class="at">left</span> <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span>
+        <span class="va">distance</span>.<span class="at">bottom</span> <span class="op">&lt;=</span> (<span class="va">window</span>.<span class="at">innerHeight</span> <span class="op">||</span> <span class="va">document</span>.<span class="va">documentElement</span>.<span class="at">clientHeight</span>) <span class="op">&amp;&amp;</span>
+        <span class="va">distance</span>.<span class="at">right</span> <span class="op">&lt;=</span> (<span class="va">window</span>.<span class="at">innerWidth</span> <span class="op">||</span> <span class="va">document</span>.<span class="va">documentElement</span>.<span class="at">clientWidth</span>)
+    )<span class="op">;</span>
+<span class="op">};</span>
+
+<span class="co">// Example</span>
+<span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-element&#39;</span> )<span class="op">;</span>
+<span class="at">isInViewport</span>( elem )<span class="op">;</span> <span class="co">// Boolean: returns true/false</span></code></pre></div>
+<h4 id="browser-compatibility-13">Browser Compatibility</h4>
+<p>Works in all modern browsers, and IE9 and above.</p>
+<h2 id="distances">Distances</h2>
+<p>How to get the distances between elements in the DOM.</p>
+<h3 id="get-the-currently-scrolled-distance-from-the-top-of-the-page">Get the currently scrolled distance from the top of the page</h3>
+<p>Use <code>pageYOffset</code> to get the distance the user has scrolled from the top of the page.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> distance <span class="op">=</span> <span class="va">window</span>.<span class="at">pageYOffset</span><span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-14">Browser Compatibility</h4>
+<p>Works in all modern browsers, and IE9 and above.</p>
+<h3 id="get-an-elements-distance-from-the-top-of-the-page">Get an element’s distance from the top of the page</h3>
+<p><code>getOffsetTop</code> is a helper method I wrote to get an element’s distance from the top of the document.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">/**</span>
+<span class="co"> * Get an element&#39;s distance from the top of the Document.</span>
+<span class="co"> * </span>@private
+<span class="co"> * </span><span class="kw">@param</span><span class="co">  </span><span class="kw">{Node}</span><span class="co"> elem The element</span>
+<span class="co"> * </span><span class="kw">@return</span><span class="co"> {Number}    Distance from the top in pixels</span>
+<span class="co"> */</span>
+<span class="kw">var</span> getOffsetTop <span class="op">=</span> <span class="kw">function</span> ( elem ) <span class="op">{</span>
+    <span class="kw">var</span> location <span class="op">=</span> <span class="dv">0</span><span class="op">;</span>
+    <span class="cf">if</span> (<span class="va">elem</span>.<span class="at">offsetParent</span>) <span class="op">{</span>
+        <span class="cf">do</span> <span class="op">{</span>
+            location <span class="op">+=</span> <span class="va">elem</span>.<span class="at">offsetTop</span><span class="op">;</span>
+            elem <span class="op">=</span> <span class="va">elem</span>.<span class="at">offsetParent</span><span class="op">;</span>
+        <span class="op">}</span> <span class="cf">while</span> (elem)<span class="op">;</span>
+    <span class="op">}</span>
+    <span class="cf">return</span> location <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">?</span> location : <span class="dv">0</span><span class="op">;</span>
+<span class="op">};</span>
+
+<span class="co">// Example</span>
+<span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-element&#39;</span> )<span class="op">;</span>
+<span class="kw">var</span> distance <span class="op">=</span> <span class="at">getOffsetTop</span>( elem )<span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-15">Browser Compatibility</h4>
+<p>Works in all modern browsers, and IE9 and above.</p>
+<h3 id="get-the-distance-between-two-elements-in-the-dom">Get the distance between two elements in the DOM</h3>
+<p>We can use <code>getOffsetTop</code> to calculate the distance from the top of the viewport for our two elements, and then use simple match to figure out how far apart they are.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> elem1 <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#first-element&#39;</span> )<span class="op">;</span>
+<span class="kw">var</span> elem2 <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#second-element&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Distance between them</span>
+<span class="co">// If negative, elem1 is below elem2</span>
+<span class="kw">var</span> distance <span class="op">=</span> <span class="at">getOffsetTop</span>( elem2 ) <span class="op">-</span> <span class="at">getOffsetTop</span>( elem1 )<span class="op">;</span>
+
+<span class="co">// To always get a positive number</span>
+<span class="kw">var</span> distancePositive <span class="op">=</span> <span class="va">Math</span>.<span class="at">abs</span>( <span class="at">getOffsetTop</span>( elem2 ) <span class="op">-</span> <span class="at">getOffsetTop</span>( elem1 ) )<span class="op">;</span></code></pre></div>
+<h2 id="putting-it-all-together">Putting it all together</h2>
+<p>To make this all tangible, let’s work on a project together. We’ll build a script that lazy loads images after they enter the viewport.</p>
+<p>The starter template and complete project code are included in the source code<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> on GitHub.</p>
+<h3 id="getting-setup">Getting Setup</h3>
+<p>I’ve dropped some placeholder markup into the template to help you get started.</p>
+<p>Throughout the page copy, I’ve included empty <code>&lt;figure&gt;</code> elements that will eventually contain our lazy loaded images. Each one has the <code>.lazy-load</code> class on it, which we’ll use as a hook in our JavaScript to get the images that should be lazy loaded.</p>
+<p>We also need to include some information about the image itself, which we can do with data attributes. The <code>[data-image]</code> attribute includes a URL to the image to be lazy loaded, and the <code>[data-caption]</code> attribute (if included) is the caption we’d like to include with our image.</p>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;figure</span><span class="ot"> class=</span><span class="st">&quot;lazy-load&quot;</span><span class="ot"> data-caption=</span><span class="st">&quot;A lifeguard station on a deserted beach&quot;</span><span class="ot"> data-image=</span><span class="st">&quot;img/beach.jpg&quot;</span><span class="kw">&gt;&lt;/figure&gt;</span></code></pre></div>
+<p>I’ve also included some lightweight CSS to make our images responsive, and our captions look good.</p>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">figure <span class="kw">{</span>
+    <span class="kw">margin:</span> <span class="dt">0</span> <span class="dt">0</span> <span class="dt">1.4em</span><span class="kw">;</span>
+<span class="kw">}</span>
+
+caption <span class="kw">{</span>
+    <span class="kw">color:</span> <span class="dt">#808080</span><span class="kw">;</span>
+    <span class="kw">display:</span> <span class="dt">block</span><span class="kw">;</span>
+    <span class="kw">font-size:</span> <span class="dt">0.8em</span><span class="kw">;</span>
+    <span class="kw">font-style:</span> <span class="dt">italic</span><span class="kw">;</span>
+    <span class="kw">padding:</span> <span class="dt">0.25em</span> <span class="dt">0</span> <span class="dt">0.5em</span><span class="kw">;</span>
+    <span class="kw">text-align:</span> <span class="dt">center</span><span class="kw">;</span>
+<span class="kw">}</span>
+
+img <span class="kw">{</span>
+    <span class="kw">height:</span> <span class="dt">auto</span><span class="kw">;</span>
+    <span class="kw">max-width:</span> <span class="dt">100%</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+<p>Alright, let’s get coding!</p>
+<h3 id="getting-all-of-the-images">Getting all of the images</h3>
+<p>The first thing we need to do is get all of the images that we want to lazy load. We’ll use <code>querySelectorAll()</code> for that.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> images <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelectorAll</span>(<span class="st">&#39;.lazy-load&#39;</span>)<span class="op">;</span></code></pre></div>
+<p>Whenever the visitor scrolls, we want to loop through each of our images, and check to see if it’s in the viewport. We’ll use <code>addEventListener()</code> to listen for scroll events, with a simple <code>for</code> loop to loop through each of our image placeholders.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> images <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelectorAll</span>(<span class="st">&#39;.lazy-load&#39;</span>)<span class="op">;</span>
+
+<span class="va">window</span>.<span class="at">addEventListener</span>(<span class="st">&#39;scroll&#39;</span><span class="op">,</span> <span class="kw">function</span> (event) <span class="op">{</span>
+    <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">images</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+        <span class="co">// Check if image is in viewport</span>
+    <span class="op">}</span>
+<span class="op">},</span> <span class="kw">false</span>)<span class="op">;</span></code></pre></div>
+<p>To check if our image is in the viewport, we’ll use the <code>isInViewport()</code> helper method I shared earlier in this guide.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Get all lazy load images</span>
+<span class="kw">var</span> images <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelectorAll</span>(<span class="st">&#39;.lazy-load&#39;</span>)<span class="op">;</span>
+
+<span class="co">// Determine if an element is in the viewport</span>
+<span class="kw">var</span> isInViewport <span class="op">=</span> <span class="kw">function</span> ( elem ) <span class="op">{</span>
+    <span class="kw">var</span> distance <span class="op">=</span> <span class="va">elem</span>.<span class="at">getBoundingClientRect</span>()<span class="op">;</span>
+    <span class="cf">return</span> (
+        <span class="va">distance</span>.<span class="at">top</span> <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span>
+        <span class="va">distance</span>.<span class="at">left</span> <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span>
+        <span class="va">distance</span>.<span class="at">bottom</span> <span class="op">&lt;=</span> (<span class="va">window</span>.<span class="at">innerHeight</span> <span class="op">||</span> <span class="va">document</span>.<span class="va">documentElement</span>.<span class="at">clientHeight</span>) <span class="op">&amp;&amp;</span>
+        <span class="va">distance</span>.<span class="at">right</span> <span class="op">&lt;=</span> (<span class="va">window</span>.<span class="at">innerWidth</span> <span class="op">||</span> <span class="va">document</span>.<span class="va">documentElement</span>.<span class="at">clientWidth</span>)
+    )<span class="op">;</span>
+<span class="op">};</span>
+
+<span class="co">// Listen for scroll events</span>
+<span class="va">window</span>.<span class="at">addEventListener</span>(<span class="st">&#39;scroll&#39;</span><span class="op">,</span> <span class="kw">function</span> (event) <span class="op">{</span>
+
+    <span class="co">// Loop through each lazy load image</span>
+    <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">images</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+
+        <span class="co">// Check if the image is in the viewport</span>
+        <span class="cf">if</span> (<span class="at">isInViewport</span>(images[i])) <span class="op">{</span>
+            <span class="co">// Load the image</span>
+            <span class="va">console</span>.<span class="at">log</span>(images[i])<span class="op">;</span>
+        <span class="op">}</span>
+
+    <span class="op">}</span>
+
+<span class="op">},</span> <span class="kw">false</span>)<span class="op">;</span></code></pre></div>
+<p>If you reload the page, open up the console in dev tools, and scroll, you’ll see our image placeholders showing up as the come into the viewport.</p>
+<h3 id="loading-the-image">Loading the image</h3>
+<p>If the image is in the viewport, we want to load it into the DOM. First, though, let’s make sure our image has a <code>[data-image]</code> attribute on it. If not, we can just quit and move on to the next image in our loop.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Listen for scroll events</span>
+<span class="va">window</span>.<span class="at">addEventListener</span>(<span class="st">&#39;scroll&#39;</span><span class="op">,</span> <span class="kw">function</span> (event) <span class="op">{</span>
+
+    <span class="co">// Loop through each lazy load image</span>
+    <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">images</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+
+        <span class="co">// Check if the image is in the viewport</span>
+        <span class="cf">if</span> (<span class="at">isInViewport</span>(images[i])) <span class="op">{</span>
+
+            <span class="co">// Make sure the image has a data-image attribute</span>
+            <span class="cf">if</span> (<span class="op">!</span>images[i].<span class="at">hasAttribute</span>(<span class="st">&#39;data-image&#39;</span>))) <span class="cf">continue</span><span class="op">;</span>
+
+        <span class="op">}</span>
+
+    <span class="op">}</span>
+
+<span class="op">},</span> <span class="kw">false</span>)<span class="op">;</span></code></pre></div>
+<p>To load the image, we can use <code>innerHTML</code> to inject it into the placeholder <code>&lt;figure&gt;</code> element.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Listen for scroll events</span>
+<span class="va">window</span>.<span class="at">addEventListener</span>(<span class="st">&#39;scroll&#39;</span><span class="op">,</span> <span class="kw">function</span> (event) <span class="op">{</span>
+
+    <span class="co">// Loop through each lazy load image</span>
+    <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">images</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+
+        <span class="co">// Check if the image is in the viewport</span>
+        <span class="cf">if</span> (<span class="at">isInViewport</span>(images[i])) <span class="op">{</span>
+
+            <span class="co">// Make sure the image has a data-image attribute</span>
+            <span class="cf">if</span> (<span class="op">!</span>images[i].<span class="at">hasAttribute</span>(<span class="st">&#39;data-image&#39;</span>)) <span class="cf">continue</span><span class="op">;</span>
+
+            <span class="co">// Load the image</span>
+            images[i].<span class="at">innerHTML</span> <span class="op">=</span> <span class="st">&#39;&lt;img src=&quot;&#39;</span> <span class="op">+</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-image&#39;</span>) <span class="op">+</span> <span class="st">&#39;&quot;&gt;&#39;</span><span class="op">;</span>
+
+        <span class="op">}</span>
+
+    <span class="op">}</span>
+
+<span class="op">},</span> <span class="kw">false</span>)<span class="op">;</span></code></pre></div>
+<h3 id="loading-the-caption">Loading the caption</h3>
+<p>Next, let’s check if there’s a caption included, and load that, too.</p>
+<p>We’ll use <code>hasAttribute()</code> to see if a caption is included. If it is, we’ll climb down the DOM to find our image. Then, we’ll create a <code>&lt;caption&gt;</code> element and and use <code>insertBefore</code> to add it after the image.</p>
+<p><strong><em>Note:</em></strong> <em>This is not the most efficient way to do this. A better way would be to add the image and caption at the same time using <code>innerHTMl</code>. But, I wanted to make sure you got to work with as many of the techniques covered in this guide as possible.</em></p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Listen for scroll events</span>
+<span class="va">window</span>.<span class="at">addEventListener</span>(<span class="st">&#39;scroll&#39;</span><span class="op">,</span> <span class="kw">function</span> (event) <span class="op">{</span>
+
+    <span class="co">// Loop through each lazy load image</span>
+    <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">images</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+
+        <span class="co">// Check if the image is in the viewport</span>
+        <span class="cf">if</span> (<span class="at">isInViewport</span>(images[i])) <span class="op">{</span>
+
+            <span class="co">// Make sure the image has a data-image attribute</span>
+            <span class="cf">if</span> (<span class="op">!</span>images[i].<span class="at">hasAttribute</span>(<span class="st">&#39;data-image&#39;</span>)) <span class="cf">continue</span><span class="op">;</span>
+
+            <span class="co">// Load the image</span>
+            images[i].<span class="at">innerHTML</span> <span class="op">=</span> <span class="st">&#39;&lt;img src=&quot;&#39;</span> <span class="op">+</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-image&#39;</span>) <span class="op">+</span> <span class="st">&#39;&quot;&gt;&#39;</span><span class="op">;</span>
+
+            <span class="co">// Add a caption if one exists</span>
+            <span class="cf">if</span> (images[i].<span class="at">hasAttribute</span>(<span class="st">&#39;data-caption&#39;</span>)) <span class="op">{</span>
+                <span class="kw">var</span> img <span class="op">=</span> images[i].<span class="at">querySelector</span>(<span class="st">&#39;img&#39;</span>)<span class="op">;</span>
+                <span class="kw">var</span> caption <span class="op">=</span> <span class="va">document</span>.<span class="at">createElement</span>(<span class="st">&#39;caption&#39;</span>)<span class="op">;</span>
+                <span class="va">caption</span>.<span class="at">innerHTML</span> <span class="op">=</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-caption&#39;</span>)<span class="op">;</span>
+                images[i].<span class="at">insertBefore</span>(caption<span class="op">,</span> <span class="va">img</span>.<span class="at">nextSibling</span>)<span class="op">;</span>
+            <span class="op">}</span>
+
+        <span class="op">}</span>
+
+    <span class="op">}</span>
+
+<span class="op">},</span> <span class="kw">false</span>)<span class="op">;</span></code></pre></div>
+<h3 id="only-load-each-image-once">Only load each image once</h3>
+<p>There’s a small problem with our code. Right now, it reloads the image and caption over and over again as you scroll through a page.</p>
+<p>You can see this in action by logging our image in the console.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Listen for scroll events</span>
+<span class="va">window</span>.<span class="at">addEventListener</span>(<span class="st">&#39;scroll&#39;</span><span class="op">,</span> <span class="kw">function</span> (event) <span class="op">{</span>
+
+    <span class="co">// Loop through each lazy load image</span>
+    <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">images</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+
+        <span class="co">// Check if the image is in the viewport</span>
+        <span class="cf">if</span> (<span class="at">isInViewport</span>(images[i])) <span class="op">{</span>
+
+            <span class="co">// Make sure the image has a data-image attribute</span>
+            <span class="cf">if</span> (<span class="op">!</span>images[i].<span class="at">hasAttribute</span>(<span class="st">&#39;data-image&#39;</span>)) <span class="cf">continue</span><span class="op">;</span>
+
+            <span class="co">// Load the image</span>
+            images[i].<span class="at">innerHTML</span> <span class="op">=</span> <span class="st">&#39;&lt;img src=&quot;&#39;</span> <span class="op">+</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-image&#39;</span>) <span class="op">+</span> <span class="st">&#39;&quot;&gt;&#39;</span><span class="op">;</span>
+
+            <span class="co">// Add a caption if one exists</span>
+            <span class="cf">if</span> (images[i].<span class="at">hasAttribute</span>(<span class="st">&#39;data-caption&#39;</span>)) <span class="op">{</span>
+                <span class="kw">var</span> img <span class="op">=</span> images[i].<span class="at">querySelector</span>(<span class="st">&#39;img&#39;</span>)<span class="op">;</span>
+                <span class="kw">var</span> caption <span class="op">=</span> <span class="va">document</span>.<span class="at">createElement</span>(<span class="st">&#39;caption&#39;</span>)<span class="op">;</span>
+                <span class="va">caption</span>.<span class="at">innerHTML</span> <span class="op">=</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-caption&#39;</span>)<span class="op">;</span>
+                images[i].<span class="at">insertBefore</span>(caption<span class="op">,</span> <span class="va">img</span>.<span class="at">nextSibling</span>)<span class="op">;</span>
+            <span class="op">}</span>
+
+            <span class="co">// Log the image load in the console</span>
+            <span class="va">console</span>.<span class="at">log</span>(images[i])<span class="op">;</span>
+
+        <span class="op">}</span>
+
+    <span class="op">}</span>
+
+<span class="op">},</span> <span class="kw">false</span>)<span class="op">;</span></code></pre></div>
+<p>See how the same images are showing up multiple times? We don’t want that. Let’s add a <code>.loaded</code> class to our placeholder after we load the image.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Listen for scroll events</span>
+<span class="va">window</span>.<span class="at">addEventListener</span>(<span class="st">&#39;scroll&#39;</span><span class="op">,</span> <span class="kw">function</span> (event) <span class="op">{</span>
+
+    <span class="co">// Loop through each lazy load image</span>
+    <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">images</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+
+        <span class="co">// Check if the image is in the viewport</span>
+        <span class="cf">if</span> (<span class="at">isInViewport</span>(images[i])) <span class="op">{</span>
+
+            <span class="co">// Make sure the image has a data-image attribute</span>
+            <span class="cf">if</span> (<span class="op">!</span>images[i].<span class="at">hasAttribute</span>(<span class="st">&#39;data-image&#39;</span>)) <span class="cf">continue</span><span class="op">;</span>
+
+            <span class="co">// Load the image</span>
+            images[i].<span class="at">innerHTML</span> <span class="op">=</span> <span class="st">&#39;&lt;img src=&quot;&#39;</span> <span class="op">+</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-image&#39;</span>) <span class="op">+</span> <span class="st">&#39;&quot;&gt;&#39;</span><span class="op">;</span>
+
+            <span class="co">// Add a caption if one exists</span>
+            <span class="cf">if</span> (images[i].<span class="at">hasAttribute</span>(<span class="st">&#39;data-caption&#39;</span>)) <span class="op">{</span>
+                <span class="kw">var</span> img <span class="op">=</span> images[i].<span class="at">querySelector</span>(<span class="st">&#39;img&#39;</span>)<span class="op">;</span>
+                <span class="kw">var</span> caption <span class="op">=</span> <span class="va">document</span>.<span class="at">createElement</span>(<span class="st">&#39;caption&#39;</span>)<span class="op">;</span>
+                <span class="va">caption</span>.<span class="at">innerHTML</span> <span class="op">=</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-caption&#39;</span>)<span class="op">;</span>
+                images[i].<span class="at">insertBefore</span>(caption<span class="op">,</span> <span class="va">img</span>.<span class="at">nextSibling</span>)<span class="op">;</span>
+            <span class="op">}</span>
+
+            <span class="co">// Add a .loaded class to our image placeholder</span>
+            images[i].<span class="va">classList</span>.<span class="at">add</span>(<span class="st">&#39;loaded&#39;</span>)<span class="op">;</span>
+
+        <span class="op">}</span>
+
+    <span class="op">}</span>
+
+<span class="op">},</span> <span class="kw">false</span>)<span class="op">;</span></code></pre></div>
+<p>Now, where we check to make sure our placeholder has a <code>[data-image]</code> attribute, we can also check to see if it has the <code>.loaded</code> class.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Listen for scroll events</span>
+<span class="va">window</span>.<span class="at">addEventListener</span>(<span class="st">&#39;scroll&#39;</span><span class="op">,</span> <span class="kw">function</span> (event) <span class="op">{</span>
+
+    <span class="co">// Loop through each lazy load image</span>
+    <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">images</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+
+        <span class="co">// Check if the image is in the viewport</span>
+        <span class="cf">if</span> (<span class="at">isInViewport</span>(images[i])) <span class="op">{</span>
+
+            <span class="co">// Make sure the image has a data-image attribute and hasn&#39;t already been loaded</span>
+            <span class="cf">if</span> (<span class="op">!</span>images[i].<span class="at">hasAttribute</span>(<span class="st">&#39;data-image&#39;</span>) <span class="op">||</span> images[i].<span class="va">classList</span>.<span class="at">contains</span>(<span class="st">&#39;loaded&#39;</span>)) <span class="cf">continue</span><span class="op">;</span>
+
+            <span class="co">// Load the image</span>
+            images[i].<span class="at">innerHTML</span> <span class="op">=</span> <span class="st">&#39;&lt;img src=&quot;&#39;</span> <span class="op">+</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-image&#39;</span>) <span class="op">+</span> <span class="st">&#39;&quot;&gt;&#39;</span><span class="op">;</span>
+
+            <span class="co">// Add a caption if one exists</span>
+            <span class="cf">if</span> (images[i].<span class="at">hasAttribute</span>(<span class="st">&#39;data-caption&#39;</span>)) <span class="op">{</span>
+                <span class="kw">var</span> img <span class="op">=</span> images[i].<span class="at">querySelector</span>(<span class="st">&#39;img&#39;</span>)<span class="op">;</span>
+                <span class="kw">var</span> caption <span class="op">=</span> <span class="va">document</span>.<span class="at">createElement</span>(<span class="st">&#39;caption&#39;</span>)<span class="op">;</span>
+                <span class="va">caption</span>.<span class="at">innerHTML</span> <span class="op">=</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-caption&#39;</span>)<span class="op">;</span>
+                images[i].<span class="at">insertBefore</span>(caption<span class="op">,</span> <span class="va">img</span>.<span class="at">nextSibling</span>)<span class="op">;</span>
+            <span class="op">}</span>
+
+            <span class="co">// Add a .loaded class to our image placeholder</span>
+            images[i].<span class="va">classList</span>.<span class="at">add</span>(<span class="st">&#39;loaded&#39;</span>)<span class="op">;</span>
+
+        <span class="op">}</span>
+
+    <span class="op">}</span>
+
+<span class="op">},</span> <span class="kw">false</span>)<span class="op">;</span></code></pre></div>
+<h3 id="loading-images-on-page-load">Loading images on page load</h3>
+<p>One last thing.</p>
+<p>If an image is above the fold on page load, but the visitor hasn’t scrolled yet, it won’t load. We want to run the same loop we use on scroll when the page is first loaded.</p>
+<p>First, let’s pull it out into its own function so that we’re not writing the same code twice.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Load our images</span>
+<span class="kw">var</span> loadImages <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+
+    <span class="co">// Loop through each lazy load image</span>
+    <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">images</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+
+        <span class="co">// Check if the image is in the viewport</span>
+        <span class="cf">if</span> (<span class="at">isInViewport</span>(images[i])) <span class="op">{</span>
+
+            <span class="co">// Make sure the image has a data-image attribute and hasn&#39;t already been loaded</span>
+            <span class="cf">if</span> (<span class="op">!</span>images[i].<span class="at">hasAttribute</span>(<span class="st">&#39;data-image&#39;</span>) <span class="op">||</span> images[i].<span class="va">classList</span>.<span class="at">contains</span>(<span class="st">&#39;loaded&#39;</span>)) <span class="cf">continue</span><span class="op">;</span>
+
+            <span class="co">// Load the image</span>
+            images[i].<span class="at">innerHTML</span> <span class="op">=</span> <span class="st">&#39;&lt;img src=&quot;&#39;</span> <span class="op">+</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-image&#39;</span>) <span class="op">+</span> <span class="st">&#39;&quot;&gt;&#39;</span><span class="op">;</span>
+
+            <span class="co">// Add a caption if one exists</span>
+            <span class="cf">if</span> (images[i].<span class="at">hasAttribute</span>(<span class="st">&#39;data-caption&#39;</span>)) <span class="op">{</span>
+                <span class="kw">var</span> img <span class="op">=</span> images[i].<span class="at">querySelector</span>(<span class="st">&#39;img&#39;</span>)<span class="op">;</span>
+                <span class="kw">var</span> caption <span class="op">=</span> <span class="va">document</span>.<span class="at">createElement</span>(<span class="st">&#39;caption&#39;</span>)<span class="op">;</span>
+                <span class="va">caption</span>.<span class="at">innerHTML</span> <span class="op">=</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-caption&#39;</span>)<span class="op">;</span>
+                images[i].<span class="at">insertBefore</span>(caption<span class="op">,</span> <span class="va">img</span>.<span class="at">nextSibling</span>)<span class="op">;</span>
+            <span class="op">}</span>
+
+            <span class="co">// Add a .loaded class to our image placeholder</span>
+            images[i].<span class="va">classList</span>.<span class="at">add</span>(<span class="st">&#39;loaded&#39;</span>)<span class="op">;</span>
+
+        <span class="op">}</span>
+
+    <span class="op">}</span>
+
+<span class="op">};</span></code></pre></div>
+<p>Then, we can call that function in our event listener.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Listen for scroll events</span>
+<span class="va">window</span>.<span class="at">addEventListener</span>(<span class="st">&#39;scroll&#39;</span><span class="op">,</span> loadImages<span class="op">,</span> <span class="kw">false</span>)<span class="op">;</span></code></pre></div>
+<p>Now, let’s also call that function the first time our script runs.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Listen for scroll events</span>
+<span class="va">window</span>.<span class="at">addEventListener</span>(<span class="st">&#39;scroll&#39;</span><span class="op">,</span> loadImages<span class="op">,</span> <span class="kw">false</span>)<span class="op">;</span>
+
+<span class="co">// Load images on page load</span>
+<span class="at">loadImages</span>()<span class="op">;</span></code></pre></div>
+<p>Now, any images in the viewport on page load will show up instantly. The rest will load when they’re scrolled into the viewport.</p>
+<p>Congratulations! You just created an image lazy loader using a handful of DOM injection and traversal techniques.</p>
+<h2 id="about-the-author">About the Author</h2>
+<div class="figure">
+<img src="assets/img/chris-ferdinandi.jpg" class="author-img" />
+
+</div>
+<p>Hi, I’m Chris Ferdinandi. I help people learn JavaScript.</p>
+<p>I love pirates, puppies, and Pixar movies, and live near horse farms in rural Massachusetts. I run Go Make Things with Bailey Puppy, a lab-mix from Tennessee.</p>
+<p>You can find me:</p>
+<ul>
+<li>On my website at <a href="https://gomakethings.com">GoMakeThings.com</a>.</li>
+<li>By email at <script type="text/javascript">
+<!--
+h='&#x67;&#x6f;&#x6d;&#x61;&#x6b;&#x65;&#116;&#104;&#x69;&#110;&#x67;&#x73;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x63;&#104;&#114;&#x69;&#x73;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#x63;&#104;&#114;&#x69;&#x73;&#32;&#x61;&#116;&#32;&#x67;&#x6f;&#x6d;&#x61;&#x6b;&#x65;&#116;&#104;&#x69;&#110;&#x67;&#x73;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript>.</li>
+<li>On Twitter at <a href="https://twitter.com/ChrisFerdinandi"><span class="citation">@ChrisFerdinandi</span></a>.</li>
+</ul>
+<div class="break">
+
+</div>
+<script>
+    ;(function (window, document, undefined) {
+
+        'use strict';
+
+
+        // Feature test
+        var supports = 'querySelector' in document;
+        if ( !supports ) return;
+
+
+        //
+        // Variables
+        //
+
+
+        var headings = document.querySelectorAll( 'h2' ); // Headings
+        var toc = document.querySelector( '[data-toc]' ); // Table of contents container
+        var links = '';         // Placeholder variables
+
+        // Make sure headings and TOC container exist. Otherwise, bail.
+        if ( headings.length < 1 || !toc ) return;
+
+
+        //
+        // Methods
+        //
+
+        /**
+         * Give heading an ID if it's missing one
+         * @param  {Node} heading The heading
+         */
+        var createID = function ( heading ) {
+
+            // If the heading already has and ID, bail
+            if ( heading.id ) return;
+
+            // Otherwise, convert heading text to valid ID
+            // Regex pattern: http://stackoverflow.com/a/9635698/1293256
+            heading.id = heading.innerHTML.replace( /^[^a-z]+|[^\w:.-]+/gi, '_' ).toLowerCase();
+
+        };
+
+        /**
+         * Create the table of contents link
+         * @param  {Node} heading The heading
+         */
+        var createLink = function ( heading ) {
+            links += '<li><a href="#' + heading.id + '">' + heading.innerHTML + '</a></li>';
+        };
+
+
+        //
+        // Inits
+        //
+
+        // Create the links
+        for ( var i = 0; i < headings.length; i++ ) {
+            createID( headings[i] ); // If the heading has no ID, give it one
+            createLink( headings[i] ); // Create link
+        }
+
+        // Inject TOC into the DOM
+        toc.innerHTML = '<h2>Table of Contents</h2><ol>' + links + '</ol>';
+
+    })(window, document);
+
+    /*! smooth-scroll v10.3.1 | (c) 2017 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/smooth-scroll */
+    !(function(e,t){"function"==typeof define&&define.amd?define([],t(e)):"object"==typeof exports?module.exports=t(e):e.smoothScroll=t(e)})("undefined"!=typeof global?global:this.window||this.global,(function(e){"use strict";var t,n,o,r,a,c,l,i={},u="querySelector"in document&&"addEventListener"in e,s={selector:"[data-scroll]",selectorHeader:null,speed:500,easing:"easeInOutCubic",offset:0,callback:function(){}},f=function(){var e={},t=!1,n=0,o=arguments.length;"[object Boolean]"===Object.prototype.toString.call(arguments[0])&&(t=arguments[0],n++);for(;n<o;n++){var r=arguments[n];!(function(n){for(var o in n)Object.prototype.hasOwnProperty.call(n,o)&&(t&&"[object Object]"===Object.prototype.toString.call(n[o])?e[o]=f(!0,e[o],n[o]):e[o]=n[o])})(r)}return e},d=function(e){return Math.max(e.scrollHeight,e.offsetHeight,e.clientHeight)},h=function(e,t){for(Element.prototype.matches||(Element.prototype.matches=Element.prototype.matchesSelector||Element.prototype.mozMatchesSelector||Element.prototype.msMatchesSelector||Element.prototype.oMatchesSelector||Element.prototype.webkitMatchesSelector||function(e){for(var t=(this.document||this.ownerDocument).querySelectorAll(e),n=t.length;--n>=0&&t.item(n)!==this;);return n>-1});e&&e!==document;e=e.parentNode)if(e.matches(t))return e;return null},m=function(e){"#"===e.charAt(0)&&(e=e.substr(1));for(var t,n=String(e),o=n.length,r=-1,a="",c=n.charCodeAt(0);++r<o;){if(0===(t=n.charCodeAt(r)))throw new InvalidCharacterError("Invalid character: the input contains U+0000.");a+=t>=1&&t<=31||127==t||0===r&&t>=48&&t<=57||1===r&&t>=48&&t<=57&&45===c?"\\"+t.toString(16)+" ":t>=128||45===t||95===t||t>=48&&t<=57||t>=65&&t<=90||t>=97&&t<=122?n.charAt(r):"\\"+n.charAt(r)}return"#"+a},p=function(e,t){var n;return"easeInQuad"===e&&(n=t*t),"easeOutQuad"===e&&(n=t*(2-t)),"easeInOutQuad"===e&&(n=t<.5?2*t*t:(4-2*t)*t-1),"easeInCubic"===e&&(n=t*t*t),"easeOutCubic"===e&&(n=--t*t*t+1),"easeInOutCubic"===e&&(n=t<.5?4*t*t*t:(t-1)*(2*t-2)*(2*t-2)+1),"easeInQuart"===e&&(n=t*t*t*t),"easeOutQuart"===e&&(n=1- --t*t*t*t),"easeInOutQuart"===e&&(n=t<.5?8*t*t*t*t:1-8*--t*t*t*t),"easeInQuint"===e&&(n=t*t*t*t*t),"easeOutQuint"===e&&(n=1+--t*t*t*t*t),"easeInOutQuint"===e&&(n=t<.5?16*t*t*t*t*t:1+16*--t*t*t*t*t),n||t},g=function(e,t,n){var o=0;if(e.offsetParent)do{o+=e.offsetTop,e=e.offsetParent}while(e);return o=Math.max(o-t-n,0),Math.min(o,y()-b())},b=function(){return Math.max(document.documentElement.clientHeight,e.innerHeight||0)},y=function(){return Math.max(document.body.scrollHeight,document.documentElement.scrollHeight,document.body.offsetHeight,document.documentElement.offsetHeight,document.body.clientHeight,document.documentElement.clientHeight)},v=function(e){return e&&"object"==typeof JSON&&"function"==typeof JSON.parse?JSON.parse(e):{}},O=function(e){return e?d(e)+e.offsetTop:0},S=function(t,n,o){o||(t.focus(),document.activeElement.id!==t.id&&(t.setAttribute("tabindex","-1"),t.focus(),t.style.outline="none"),e.scrollTo(0,n))};i.animateScroll=function(n,o,c){var i=v(o?o.getAttribute("data-options"):null),u=f(t||s,c||{},i),d="[object Number]"===Object.prototype.toString.call(n),h=d||!n.tagName?null:n;if(d||h){var m=e.pageYOffset;u.selectorHeader&&!r&&(r=document.querySelector(u.selectorHeader)),a||(a=O(r));var b,E,I=d?n:g(h,a,parseInt("function"==typeof u.offset?u.offset():u.offset,10)),H=I-m,A=y(),j=0,C=function(t,r,a){var c=e.pageYOffset;(t==r||c==r||e.innerHeight+c>=A)&&(clearInterval(a),S(n,r,d),u.callback(n,o))},M=function(){j+=16,b=j/parseInt(u.speed,10),b=b>1?1:b,E=m+H*p(u.easing,b),e.scrollTo(0,Math.floor(E)),C(E,I,l)};0===e.pageYOffset&&e.scrollTo(0,0),(function(){clearInterval(l),l=setInterval(M,16)})()}};var E=function(t){try{m(decodeURIComponent(e.location.hash))}catch(t){m(e.location.hash)}n&&(n.id=n.getAttribute("data-scroll-id"),i.animateScroll(n,o),n=null,o=null)},I=function(r){if(0===r.button&&!r.metaKey&&!r.ctrlKey&&(o=h(r.target,t.selector))&&"a"===o.tagName.toLowerCase()&&o.hostname===e.location.hostname&&o.pathname===e.location.pathname&&/#/.test(o.href)){var a;try{a=m(decodeURIComponent(o.hash))}catch(e){a=m(o.hash)}if("#"===a){r.preventDefault(),n=document.body;var c=n.id?n.id:"smooth-scroll-top";return n.setAttribute("data-scroll-id",c),n.id="",void(e.location.hash.substring(1)===c?E():e.location.hash=c)}n=document.querySelector(a),n&&(n.setAttribute("data-scroll-id",n.id),n.id="",o.hash===e.location.hash&&(r.preventDefault(),E()))}},H=function(e){c||(c=setTimeout((function(){c=null,a=O(r)}),66))};return i.destroy=function(){t&&(document.removeEventListener("click",I,!1),e.removeEventListener("resize",H,!1),t=null,n=null,o=null,r=null,a=null,c=null,l=null)},i.init=function(n){u&&(i.destroy(),t=f(s,n||{}),r=t.selectorHeader?document.querySelector(t.selectorHeader):null,a=O(r),document.addEventListener("click",I,!1),e.addEventListener("hashchange",E,!1),r&&e.addEventListener("resize",H,!1))},i}));
+    smoothScroll.init({
+        selector: 'a[href*="#"]'
+    })
+</script>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="http://quirksmode.org/dom/html/" class="uri">http://quirksmode.org/dom/html/</a><a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p><a href="http://quirksmode.org/dom/html/" class="uri">http://quirksmode.org/dom/html/</a><a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p><a href="https://github.com/cferdinandi/dom-injection-source-code/" class="uri">https://github.com/cferdinandi/dom-injection-source-code/</a><a href="#fnref3">↩</a></p></li>
+</ol>
+</div>
+</body>
+</html>

@@ -1,0 +1,1196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+  </style>
+  <style>
+  html {
+  	font-size: 100%;
+  	overflow-y: scroll;
+  	-webkit-text-size-adjust: 100%;
+  	-ms-text-size-adjust: 100%;
+  }
+  
+  body {
+  	color: #272727;
+  	font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+  	line-height: 1.5;
+  	padding: 1em;
+  	max-width: 42em;
+  	background: #ffffff;
+  	font-size: 112.5%;
+  }
+  
+  @media (min-width: 40em) {
+  	body {
+  		line-height: 1.5625;
+  	}
+  }
+  
+  a {
+  	color: #0088cc;
+  	text-decoration: none;
+  }
+  
+  a:visited {
+  	color: #0088cc;
+  }
+  
+  a:hover {
+  	color: #005580;
+  }
+  
+  a:active {
+  	color: #005580;
+  }
+  
+  a:focus {
+  	outline: thin dotted;
+  }
+  
+  p {
+  	margin: 0 0 1em;
+  }
+  
+  img {
+  	max-width: 100%;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+  	line-height: 125%;
+  	margin-top: 2em;
+  	font-weight: normal;
+  }
+  
+  p,
+  h1, h2, h3 {
+  	orphans: 3;
+  	widows: 3;
+  }
+  
+  h1, h2, h3 {
+  	page-break-after: avoid;
+  }
+  
+  h4, h5, h6 {
+  	font-weight: bold;
+  }
+  
+  h1 {
+  	font-size: 2.5em;
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	padding-top: 0;
+  	padding-bottom: 0;
+  }
+  
+  h2 {
+  	font-size: 1.8em;
+  	margin-top: 0;
+  	padding-top: 0;
+  	page-break-before: always;
+  }
+  
+  h3 {
+  	font-size: 1.5em;
+  }
+  
+  h4 {
+  	font-size: 1.2em;
+  }
+  
+  h5 {
+  	font-size: 1em;
+  }
+  
+  h6 {
+  	font-size: 0.9em;
+  }
+  
+  blockquote {
+  	color: #666666;
+  	margin: 0;
+  	padding-left: 3em;
+  	page-break-inside: avoid;
+  	border-left: 0.5em #eee solid;
+  }
+  
+  hr {
+  	display: block;
+  	height: 2px;
+  	border: 0;
+  	border-top: 1px solid #aaa;
+  	border-bottom: 1px solid #eee;
+  	margin: 1em 0;
+  	padding: 0;
+  }
+  
+  pre, code, kbd, samp {
+  	color: #000;
+  	font-family: 'courier new', monospace;
+  	font-size: 1em;
+  }
+  
+  pre {
+  	background-color: #f7f7f7;
+  	line-height: 1.5;
+  	margin: 0 0 1em;
+  	padding: 0.8125em;
+  	page-break-inside: avoid !important;
+  	white-space: pre;
+  	white-space: pre-wrap !important;
+  	word-wrap: break-word;
+  }
+  
+  b, strong {
+  	font-weight: bold;
+  }
+  
+  dfn {
+  	font-style: italic;
+  }
+  
+  ins {
+  	background: #ff9;
+  	color: #000;
+  	text-decoration: none;
+  }
+  
+  mark {
+  	background: #ff0;
+  	color: #000;
+  	font-style: italic;
+  	font-weight: bold;
+  }
+  
+  sub, sup {
+  	font-size: 75%;
+  	line-height: 0;
+  	position: relative;
+  	vertical-align: baseline;
+  }
+  
+  sup {
+  	top: -0.5em;
+  }
+  
+  sub {
+  	bottom: -0.25em;
+  }
+  
+  ul, ol {
+  	margin: 1em 0;
+  	padding: 0 0 0 2em;
+  }
+  
+  li p:last-child {
+  	margin-bottom: 0;
+  }
+  
+  ul ul, ol ol {
+  	margin: .3em 0;
+  }
+  
+  dl {
+  	margin-bottom: 1em;
+  }
+  
+  dt {
+  	font-weight: bold;
+  	margin-bottom: .8em;
+  }
+  
+  dd {
+  	margin: 0 0 .8em 2em;
+  }
+  
+  dd:last-child {
+  	margin-bottom: 0;
+  }
+  
+  img {
+  	border: 0;
+  	-ms-interpolation-mode: bicubic;
+  	vertical-align: middle;
+  }
+  
+  figure {
+  	display: block;
+  	text-align: center;
+  	margin: 1em 0;
+  }
+  
+  figure img {
+  	border: none;
+  	margin: 0 auto;
+  }
+  
+  figcaption {
+  	font-size: 0.8em;
+  	font-style: italic;
+  	margin: 0 0 .8em;
+  }
+  
+  table {
+  	margin-bottom: 2em;
+  	border-bottom: 1px solid #ddd;
+  	border-right: 1px solid #ddd;
+  	border-spacing: 0;
+  	border-collapse: collapse;
+  }
+  
+  table th {
+  	padding: .2em 1em;
+  	background-color: #eee;
+  	border-top: 1px solid #ddd;
+  	border-left: 1px solid #ddd;
+  }
+  
+  table td {
+  	padding: .2em 1em;
+  	border-top: 1px solid #ddd;
+  	border-left: 1px solid #ddd;
+  	vertical-align: top;
+  }
+  
+  .meta {
+  	color: #666666;
+  	margin-bottom: 0;
+  }
+  
+  .author-img {
+  	border-radius: 50%;
+  	display: inline-block;
+  	height: 200px;
+  	width: 200px;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  
+  .break {
+  	page-break-before: always;
+  }
+  
+  @media print {
+  	* {
+  		background: transparent !important;
+  		color: black !important;
+  		filter: none !important;
+  		-ms-filter: none !important;
+  	}
+  
+  	body {
+  		font-size: 12pt;
+  		max-width: 100%;
+  	}
+  
+  	a, a:visited {
+  		text-decoration: underline;
+  	}
+  
+  	hr {
+  		height: 1px;
+  		border: 0;
+  		border-bottom: 1px solid black;
+  	}
+  
+  	a[href]:after {
+  		content: " (" attr(href) ")";
+  	}
+  
+  	abbr[title]:after {
+  		content: " (" attr(title) ")";
+  	}
+  
+  	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+  		content: "";
+  	}
+  
+  	pre, blockquote {
+  		border: 1px solid #999;
+  		padding-right: 1em;
+  	}
+  
+  	tr, img {
+  		page-break-inside: avoid;
+  	}
+  
+  	img {
+  		max-width: 100% !important;
+  	}
+  
+  	@page :left {
+  		margin: 15mm 20mm 15mm 10mm;
+  	}
+  
+  	@page :right {
+  		margin: 15mm 10mm 15mm 20mm;
+  	}
+  }
+  body {
+  	margin: 0 auto;
+  }
+  
+  a {
+  	word-wrap: break-word;
+  }
+  
+  pre, code, kbd, samp {
+  	white-space: pre-wrap;
+  }
+  
+  code {
+  	word-wrap: break-word;
+  }
+  </style>
+</head>
+<body>
+<h1 id="variables-functions-and-scope">Variables, Functions, and Scope</h1>
+<p>By Chris Ferdinandi<br> Go Make Things, LLC<br> v1.0.0</p>
+<p>Copyright 2017 Chris Ferdinandi and Go Make Things, LLC. All Rights Reserved.</p>
+<div data-toc="">
+
+</div>
+<h2 id="intro">Intro</h2>
+<p>In this guide, you’ll learn:</p>
+<ul>
+<li>The difference between function expressions and function declarations, and which one to use.</li>
+<li>What function hoisting is, and whether or not it’s a good thing.</li>
+<li>How to scope your code, and why you want to.</li>
+<li>How to conditionally set variables.</li>
+<li>Useful techniques for passing variables into functions and defining default values.</li>
+<li>The difference between functions and methods.</li>
+<li>How to write ES6 arrow functions.</li>
+<li>How to use ES6 <code>let</code> and <code>const</code> for defining variables.</li>
+</ul>
+<h3 id="using-the-code-in-this-guide">Using the code in this guide</h3>
+<p>Unless otherwise noted, all of the code in this book is free to use under the MIT license. You can view of copy of the license at <a href="https://gomakethings.com/mit" class="uri">https://gomakethings.com/mit</a>.</p>
+<p>Let’s get started!</p>
+<h2 id="function-expressions-vs.function-declarations">Function expressions vs. function declarations</h2>
+<p>There have historically been two ways to write a function.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Function declaration</span>
+<span class="kw">function</span> <span class="at">add</span>(num1<span class="op">,</span> num2) <span class="op">{</span>
+    <span class="cf">return</span> num1 <span class="op">+</span> num2<span class="op">;</span>
+<span class="op">}</span>
+
+<span class="co">// Function expression</span>
+<span class="kw">var</span> add <span class="op">=</span> <span class="kw">function</span> (num1<span class="op">,</span> num2) <span class="op">{</span>
+    <span class="cf">return</span> num1 <span class="op">+</span> num2<span class="op">;</span>
+<span class="op">};</span></code></pre></div>
+<p>The first example, <code>function add() {}</code>, is called a <em>function declaration</em>. The second example, <code>var add = function () {}</code>, is called a <em>function expression</em>.</p>
+<p>They more-or-less do the same example thing, but there’s one subtle yet important difference between them.</p>
+<p><em><strong>Note:</strong> There’s now a third way—ES6 arrow functions—that we’ll talk about in a later chapter.</em></p>
+<h3 id="hoisting">Hoisting</h3>
+<p>When a JavaScript file (or HTML document with JavaScript in it) is loaded, <em>function declarations</em> are <em>hoisted</em> to the top of the code by the browser before any code is executed.</p>
+<p>What does that mean, exactly?</p>
+<p>Specifically, all of the functions written with function declarations are “known” before any code is run. This allows you to call a function before you declare.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">/**</span>
+<span class="co"> * This works!</span>
+<span class="co"> */</span>
+<span class="kw">function</span> <span class="at">add</span>(num1<span class="op">,</span> num2) <span class="op">{</span>
+    <span class="cf">return</span> num1 <span class="op">+</span> num2<span class="op">;</span>
+<span class="op">}</span>
+<span class="at">add</span>(<span class="dv">3</span><span class="op">,</span> <span class="dv">3</span>)<span class="op">;</span> <span class="co">// returns 7</span>
+
+
+<span class="co">/**</span>
+<span class="co"> * This does, too!</span>
+<span class="co"> */</span>
+<span class="at">subtract</span>(<span class="dv">7</span><span class="op">,</span> <span class="dv">4</span>)<span class="op">;</span> <span class="co">// returns 3</span>
+<span class="kw">function</span> <span class="at">subtract</span>(num1<span class="op">,</span> num2) <span class="op">{</span>
+    <span class="cf">return</span> num1 <span class="op">-</span> num2<span class="op">;</span>
+<span class="op">}</span></code></pre></div>
+<p><em>Function expressions</em>, however, do <strong>not</strong> hoist. If you try to run a function before you’ve expressed it, you’ll get an error.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">/**</span>
+<span class="co"> * This works!</span>
+<span class="co"> */</span>
+<span class="kw">var</span> add <span class="op">=</span> <span class="kw">function</span>(num1<span class="op">,</span> num2) <span class="op">{</span>
+    <span class="cf">return</span> num1 <span class="op">+</span> num2<span class="op">;</span>
+<span class="op">};</span>
+<span class="at">add</span>(<span class="dv">3</span><span class="op">,</span> <span class="dv">3</span>)<span class="op">;</span> <span class="co">// returns 7</span>
+
+
+<span class="co">/**</span>
+<span class="co"> * This does not =(</span>
+<span class="co"> */</span>
+<span class="at">substract</span>(<span class="dv">7</span><span class="op">,</span> <span class="dv">4</span>)<span class="op">;</span> <span class="co">// returns Uncaught TypeError: subtract is not a function</span>
+<span class="kw">var</span> subtract <span class="op">=</span> <span class="kw">function</span> (num1<span class="op">,</span> num2) <span class="op">{</span>
+    <span class="cf">return</span> num1 <span class="op">-</span> num2<span class="op">;</span>
+<span class="op">};</span></code></pre></div>
+<h2 id="which-one-should-you-use">Which one should you use?</h2>
+<p>Which one you chose is almost entirely a matter of personal taste.</p>
+<p>I think the more important thing is to pick one style of writing functions and stick with it throughout your script. If you <em>need</em> to call a function before it’s declared, then, of course, use <em>function declarations</em>.</p>
+<p>I personally prefer <em>function expressions</em>, and use them extensively in all of my code. I like them for one reason: they force more structure into the code base.</p>
+<p>With <em>function expressions</em>, I cannot call a function before I’ve expressed it, so my code has a specific, ordered structure to it.</p>
+<p>Functions that call other functions are written in a specific order every time, because they won’t work otherwise. And any code I run to kick things off happens at the end of the file.</p>
+<p>Reading my code is a predictable, structured activity. But again, this is entirely personal preference, and either one works great.</p>
+<h2 id="scope">Scope</h2>
+<p>Scope is the context in which a function or variable is accessible. There are three types of scope: <em>global</em>, <em>local</em>, and <em>lexical</em>.</p>
+<p>At a high level, functions have access to variables and other functions set outside themselves, but not variables set inside other functions.</p>
+<h3 id="global-scope">Global Scope</h3>
+<p>A variable or function in the <em>global scope</em> is accessible inside other functions.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// this is in the global scope</span>
+<span class="kw">var</span> sandwich <span class="op">=</span> <span class="st">&#39;tuna&#39;</span><span class="op">;</span>
+
+<span class="kw">var</span> logSandwich <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+    <span class="co">// Will log `tuna` in the console</span>
+    <span class="co">// It can access sandwich because it&#39;s in the global scope</span>
+    <span class="va">console</span>.<span class="at">log</span>(sandwich)<span class="op">;</span>
+<span class="op">};</span>
+<span class="at">logSandwich</span>()<span class="op">;</span>
+
+<span class="co">// Will also log `tuna` in the console</span>
+<span class="va">console</span>.<span class="at">log</span>(sandwich)<span class="op">;</span></code></pre></div>
+<h3 id="local-scope">Local Scope</h3>
+<p>A variable or function that’s only accessible in a part of your code base has <em>local scope</em>.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> logSandwich <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+    <span class="co">// this has variable local scope</span>
+    <span class="kw">var</span> sandwich <span class="op">=</span> <span class="st">&#39;tuna&#39;</span><span class="op">;</span>
+
+    <span class="co">// Will log `tuna` in the console</span>
+    <span class="co">// It can access sandwich because it&#39;s scope is local to the function</span>
+    <span class="va">console</span>.<span class="at">log</span>(sandwich)<span class="op">;</span>
+<span class="op">};</span>
+<span class="at">logSandwich</span>()<span class="op">;</span>
+
+<span class="co">// returns &quot;Uncaught ReferenceError: sandwich is not defined&quot;</span>
+<span class="co">// `sandwich` is local to the logSandwich() function, and not accessible here</span>
+<span class="va">console</span>.<span class="at">log</span>(sandwich)<span class="op">;</span></code></pre></div>
+<h3 id="lexical-scope">Lexical Scope</h3>
+<p>If you nest your functions, variables and other functions defined in the parent function have <em>lexical scope</em> and can be accessed by the inner funtions. The parent function cannot access variables or functions defined within the inner functions.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> sandwiches <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+
+    <span class="co">// this is in the lexical scope</span>
+    <span class="kw">var</span> sandwich <span class="op">=</span> <span class="st">&#39;tuna&#39;</span><span class="op">;</span>
+
+    <span class="kw">var</span> logSandwich <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+
+        <span class="co">// Will log `tuna` in the console</span>
+        <span class="co">// It can access sandwich because it&#39;s in the lexical scope</span>
+        <span class="va">console</span>.<span class="at">log</span>(sandwich)<span class="op">;</span>
+
+        <span class="co">// Will log `chips` because it&#39;s in the local scope</span>
+        <span class="kw">var</span> snack <span class="op">=</span> <span class="st">&#39;chips&#39;</span><span class="op">;</span>
+        <span class="va">console</span>.<span class="at">log</span>(snack)<span class="op">;</span>
+
+    <span class="op">};</span>
+    <span class="at">logSandwich</span>()<span class="op">;</span>
+
+    <span class="co">// Will also log `tuna` in the console</span>
+    <span class="va">console</span>.<span class="at">log</span>(sandwich)<span class="op">;</span>
+
+    <span class="co">// returns &quot;Uncaught ReferenceError: snack is not defined&quot;</span>
+    <span class="co">// `snack` is local to the logSandwich() function, and out of the lexical scope</span>
+    <span class="va">console</span>.<span class="at">log</span>(snack)<span class="op">;</span>
+
+<span class="op">};</span>
+<span class="at">sandwiches</span>()<span class="op">;</span></code></pre></div>
+<h3 id="defining-and-updating-variables">Defining and updating variables</h3>
+<p>Prefixing a variable with <code>var</code> defines a new variable. Omitting <code>var</code> updates an existing variable.</p>
+<p>There are two caveats to this:</p>
+<ol style="list-style-type: decimal">
+<li>If a variable is already defined in the current scope, prefixing it with <code>var</code> will throw an error.</li>
+<li>If a variable isn’t currently defined, omitting <code>var</code> creates a new variable (you should always use <code>var</code> to define a new variable, though).</li>
+</ol>
+<p>You can define a variable in a function that has the same name as a <em>global</em> or <em>lexical</em> variable without modifying that variable.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> sandwich <span class="op">=</span> <span class="st">&#39;tuna&#39;</span><span class="op">;</span>
+
+<span class="kw">var</span> logSandwich <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+    <span class="co">// logs &quot;turkey&quot;</span>
+    <span class="co">// Does NOT update the global `sandwich` variable</span>
+    <span class="kw">var</span> sandwich <span class="op">=</span> <span class="st">&#39;turkey&#39;</span><span class="op">;</span>
+    <span class="va">console</span>.<span class="at">log</span>(sandwich)<span class="op">;</span>
+
+<span class="op">};</span>
+<span class="at">logSandwich</span>()<span class="op">;</span>
+
+<span class="co">// logs &quot;tuna&quot;</span>
+<span class="va">console</span>.<span class="at">log</span>(sandwich)<span class="op">;</span></code></pre></div>
+<p>If you omit the leading <code>var</code>, you can update a variable in the <em>global</em> or <em>lexical</em> scope from within a function.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> sandwich <span class="op">=</span> <span class="st">&#39;tuna&#39;</span><span class="op">;</span>
+
+<span class="co">// logs &quot;tuna&quot;</span>
+<span class="va">console</span>.<span class="at">log</span>(sandwich)<span class="op">;</span>
+
+<span class="kw">var</span> logSandwich <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+    <span class="co">// logs &quot;tuna&quot;</span>
+    <span class="va">console</span>.<span class="at">log</span>(sandwich)<span class="op">;</span>
+
+    <span class="co">// Updates `sandwich` in the global scope</span>
+    sandwich <span class="op">=</span> <span class="st">&#39;turkey&#39;</span><span class="op">;</span>
+
+    <span class="co">// logs &quot;turkey&quot;</span>
+    <span class="va">console</span>.<span class="at">log</span>(sandwich)<span class="op">;</span>
+
+<span class="op">};</span>
+<span class="at">logSandwich</span>()<span class="op">;</span>
+
+<span class="co">// logs &quot;turkey&quot;</span>
+<span class="va">console</span>.<span class="at">log</span>(sandwich)<span class="op">;</span></code></pre></div>
+<h3 id="keeping-code-out-of-the-global-scope">Keeping code out of the global scope</h3>
+<p>There are times you may want to expose a function or variable to the <em>global scope</em> (for example, a lightweight framework you want other scripts to be able to use).</p>
+<p>But generally speaking, you want to keep your functions and variables out of the global scope. Otherwise, if another script or developer defines a variable or function that has the same name as the ones in your script, it will override them or introduce conflicts.</p>
+<p>You can move your code into a <em>lexical scope</em> by wrapping it in a function.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Wrapper for your code</span>
+<span class="kw">var</span> myScripts <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+    <span class="co">// Your codes goes here...</span>
+<span class="op">};</span>
+
+<span class="co">// Run your scripts</span>
+<span class="at">myScripts</span>()<span class="op">;</span></code></pre></div>
+<p>If you want your code to run immediately when the file runs without having to call your function, you can use something called an Immediately Invoked Function Expression (or IIFE)<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>. An IIFE is an anonymous (as in, unnamed) function that runs immediately.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="op">;</span>(<span class="kw">function</span> (window<span class="op">,</span> document<span class="op">,</span> <span class="kw">undefined</span>) <span class="op">{</span>
+    <span class="co">// Your code goes here...</span>
+<span class="op">}</span>)(window<span class="op">,</span> document)<span class="op">;</span></code></pre></div>
+<h2 id="conditional-variables">Conditional Variables</h2>
+<p>Sometimes the value of a variable changes based on another value or piece of data.</p>
+<p>There are three ways to conditionally set values:</p>
+<ol style="list-style-type: decimal">
+<li><code>if...else</code> statements</li>
+<li>Conditional operators</li>
+<li>Ternary operators</li>
+</ol>
+<h3 id="if...else-statements"><code>if...else</code> statements</h3>
+<p>This is the most obvious way to conditionally define a variable.</p>
+<p>In the example below, we have a function, <code>getSandwich()</code>. If the <code>useMayo</code> variable is <code>true</code>, we want a turkey sandiwhich. Otherwise, we want peanut butter and jelly.</p>
+<p>Here’s how to write that with an <code>if...else</code> statement.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Use mayonaise?</span>
+<span class="kw">var</span> useMayo <span class="op">=</span> <span class="kw">true</span><span class="op">;</span>
+
+<span class="co">// Get the sandwich type to make</span>
+<span class="kw">var</span> getSandwich <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+    <span class="kw">var</span> sandwich<span class="op">;</span>
+    <span class="cf">if</span> (useMayo) <span class="op">{</span>
+        sandwich <span class="op">=</span> <span class="st">&#39;turkey&#39;</span><span class="op">;</span>
+    <span class="op">}</span> <span class="cf">else</span> <span class="op">{</span>
+        sandwich <span class="op">=</span> <span class="st">&#39;peanut butter &amp; jelly&#39;</span><span class="op">;</span>
+    <span class="op">}</span>
+    <span class="cf">return</span> sandwich<span class="op">;</span>
+<span class="op">};</span></code></pre></div>
+<h3 id="conditional-operators">Conditional operators</h3>
+<p>You can use a <em>conditional operator</em>, <code>||</code>, to define a fallback value for a variable if the preferred value doesn’t exist.</p>
+<p>In our <code>getSandwich()</code> function, let’s check to see if <code>useMayo</code> exists, and if not, provide a default value.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> getSandwich <span class="op">=</span> <span class="kw">function</span> (useMayo) <span class="op">{</span>
+
+    <span class="co">// Provide a default value for useMayo</span>
+    useMayo <span class="op">=</span> useMayo <span class="op">||</span> <span class="kw">true</span><span class="op">;</span>
+
+    <span class="co">// Get the sandwich type</span>
+    <span class="kw">var</span> sandwich<span class="op">;</span>
+    <span class="cf">if</span> (useMayo) <span class="op">{</span>
+        sandwich <span class="op">=</span> <span class="st">&#39;turkey&#39;</span><span class="op">;</span>
+    <span class="op">}</span> <span class="cf">else</span> <span class="op">{</span>
+        sandwich <span class="op">=</span> <span class="st">&#39;peanut butter &amp; jelly&#39;</span><span class="op">;</span>
+    <span class="op">}</span>
+
+    <span class="cf">return</span> sandwich<span class="op">;</span>
+
+<span class="op">};</span></code></pre></div>
+<h3 id="ternary-operators">Ternary operators</h3>
+<p>A <em>ternary operator</em> provides a shorter way to write <code>if...else</code> statements. It has three parts:</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> someVar <span class="op">=</span> [the condition] <span class="op">?</span> [the value <span class="cf">if</span> <span class="kw">true</span>] : [the value <span class="cf">if</span> <span class="kw">false</span>]<span class="op">;</span></code></pre></div>
+<p>It’s the equivalent of this.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> someVar<span class="op">;</span>
+
+<span class="cf">if</span> ([the condition]) <span class="op">{</span>
+    someVar <span class="op">=</span> [the value <span class="cf">if</span> <span class="kw">true</span>]<span class="op">;</span>
+<span class="op">}</span> <span class="cf">else</span> <span class="op">{</span>
+    someVar <span class="op">=</span> [the value <span class="cf">if</span> <span class="kw">false</span>]<span class="op">;</span>
+<span class="op">}</span></code></pre></div>
+<p>We can rewrite our <code>getSandwich()</code> function to define <code>sandwich</code> using a ternary operator.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> getSandwich <span class="op">=</span> <span class="kw">function</span> (useMayo) <span class="op">{</span>
+
+    <span class="co">// Provide a default value for useMayo</span>
+    useMayo <span class="op">=</span> useMayo <span class="op">||</span> <span class="kw">true</span><span class="op">;</span>
+
+    <span class="co">// Get the sandwich type</span>
+    <span class="kw">var</span> sandwich <span class="op">=</span> useMayo <span class="op">?</span> <span class="st">&#39;turkey&#39;</span> : <span class="st">&#39;peanut butter &amp; jelly&#39;</span><span class="op">;</span>
+
+    <span class="cf">return</span> sandwich<span class="op">;</span>
+
+<span class="op">};</span></code></pre></div>
+<h3 id="browser-compatibility">Browser Compatibility</h3>
+<p>All three approaches work in all modern browsers, and back to at least IE6.</p>
+<h2 id="arguments">Arguments</h2>
+<p>You can pass information into a function as variables. These variables are called <em>arguments</em>.</p>
+<p>For example, in the <code>add()</code> function below, <code>num1</code> and <code>num2</code> are arguments.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> add <span class="op">=</span> <span class="kw">function</span> (num1<span class="op">,</span> num2) <span class="op">{</span>
+    <span class="cf">return</span> num1 <span class="op">+</span> num2<span class="op">;</span>
+<span class="op">};</span></code></pre></div>
+<p>Then you would pass in two numbers to add like this.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="at">add</span>(<span class="dv">3</span><span class="op">,</span> <span class="dv">4</span>)<span class="op">;</span>
+<span class="co">// returns &quot;7&quot;</span></code></pre></div>
+<h3 id="default-values">Default values</h3>
+<p>If you don’t pass in a value for an argument, your script will use <code>undefined</code>. This can result in some unexpected results.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="at">add</span>(<span class="dv">3</span>)<span class="op">;</span>
+<span class="co">// returns &quot;NaN&quot;</span></code></pre></div>
+<p>You can handle this one of two ways:</p>
+<ol style="list-style-type: decimal">
+<li>Make sure an argument exists before using it.</li>
+<li>Set a default value for an argument.</li>
+</ol>
+<p>To check that an argument exists, you’d set up an <code>if</code> statement, and use a bang (<code>!</code>) to test of the variable exists. If it fails, call <code>return</code> to end the function.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> add <span class="op">=</span> <span class="kw">function</span> (num1<span class="op">,</span> num2) <span class="op">{</span>
+
+    <span class="co">// If num1 or num2 aren&#39;t defined, bail</span>
+    <span class="cf">if</span> (<span class="op">!</span>num1 <span class="op">||</span> <span class="op">!</span>num2) <span class="cf">return</span><span class="op">;</span>
+
+    <span class="co">// Add the numbers</span>
+    <span class="cf">return</span> num1 <span class="op">+</span> num2<span class="op">;</span>
+
+<span class="op">};</span></code></pre></div>
+<p>To set a default value for an argument, you can redefine it (without the <code>var</code> prefix). For ease, we’ll use a ternary or conditional operator.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> add <span class="op">=</span> <span class="kw">function</span> (num1<span class="op">,</span> num2) <span class="op">{</span>
+
+    <span class="co">// If num1 or num2 aren&#39;t defined, set them to 0</span>
+    num1 <span class="op">=</span> num1 <span class="op">||</span> <span class="dv">0</span><span class="op">;</span> <span class="co">// conditional operator</span>
+    num2 <span class="op">=</span> num2 <span class="op">?</span> num2 : <span class="dv">0</span><span class="op">;</span> <span class="co">// ternary operator</span>
+
+    <span class="co">// Add the numbers</span>
+    <span class="cf">return</span> num1 <span class="op">+</span> num2<span class="op">;</span>
+
+<span class="op">};</span></code></pre></div>
+<h3 id="get-all-arguments-passed-in-to-a-function">Get all arguments passed in to a function</h3>
+<p>Within any function, you can use the <code>arguments</code> variable to get an array-like list of all of the arguments passed into the function.</p>
+<p>You don’t need to define it ahead of time. It’s a native JavaScript object.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> add <span class="op">=</span> <span class="kw">function</span> (num1<span class="op">,</span> num2) <span class="op">{</span>
+
+    <span class="co">// returns the value of `num1`</span>
+    <span class="va">console</span>.<span class="at">log</span>(arguments[<span class="dv">0</span>])<span class="op">;</span>
+
+    <span class="co">// returns the value of `num2`</span>
+    <span class="va">console</span>.<span class="at">log</span>(arguments[<span class="dv">1</span>])<span class="op">;</span>
+
+    <span class="co">// ...</span>
+
+<span class="op">};</span></code></pre></div>
+<p>This is particularly useful if you would rather allow an unlimited number of arguments to be passed in to your function.</p>
+<p>Let’s say you wanted to be able to pass an unlimited amount of numbers into <code>add()</code> and add them together. The <code>arguments</code> variable is perfect for this!</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> add <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+
+    <span class="co">// Set a starting total</span>
+    <span class="kw">var</span> total <span class="op">=</span> <span class="dv">0</span><span class="op">;</span>
+
+    <span class="co">// Add each number to the total</span>
+    <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">arguments</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+        total <span class="op">+=</span> arguments[i]<span class="op">;</span>
+    <span class="op">}</span>
+
+    <span class="co">// Return to the total</span>
+    <span class="cf">return</span> total<span class="op">;</span>
+
+<span class="op">};</span></code></pre></div>
+<p>In the example above, we’re defining a default variable <code>total</code> with a value <code>0</code>. We use a <code>for</code> loop to iterate over each argument and add it to the total. Then we return the total.</p>
+<p>If someone passes in no arguments, it returns <code>0</code>. Otherwise, they can add one or more numbers together.</p>
+<h4 id="browser-compatibility-1">Browser Compatibility</h4>
+<p>The <code>arguments</code> variable works in all modern browsers, and back to at least IE6.</p>
+<h2 id="functions-and-methods">Functions and Methods</h2>
+<p>You know what a function is, but you may have also heard the term <em>method</em> used before and wondered what it mean.</p>
+<p>So what’s the difference between a function and a method? Nothing. They’re the same thing.</p>
+<p>In languages other than JavaScript, the two terms have specific meanings. And JavaScript developers will sometimes apply their own definition to the two terms. The one I see most often is that a method is a function that’s inside an object like this.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> helperLibrar <span class="op">=</span> <span class="op">{</span>
+    <span class="dt">method1</span><span class="op">:</span> <span class="kw">function</span> () <span class="op">{</span>
+        <span class="cf">return</span> <span class="st">&#39;This is a method, supposedly&#39;</span><span class="op">;</span>
+    <span class="op">}</span>
+<span class="op">};</span></code></pre></div>
+<p>The problem with these definitions is that no one agrees on them, and many, many JavaScript developers use <em>function</em> and <em>method</em> interchangeably.</p>
+<p>In my opinion, they’re the same thing.</p>
+<h2 id="arrow-functions">Arrow Functions</h2>
+<p>Arrow functions were introduced to JavaScript in ES6.</p>
+<p>Their intent was to provide a shorter syntax for writing functions and eliminate some of the confusion that exists around <code>this</code>. Because they look so dramatically different from traditional functions, though, they often make scripts <em>more</em> confusing.</p>
+<p>However, more and more scripts and tutorials are being written with arrow functions, so it’s important that you at the very least understand how they work and can read code written with them.</p>
+<h3 id="basic-syntax">Basic Syntax</h3>
+<p>A basic arrow function isn’t all that different from a traditional function. The word <code>function</code> gets dropped, an a fat arrow (<code>=&gt;</code>) is added between the parentheses and brackets (<code>()</code> and <code>{}</code>, respectively).</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// A traditional function</span>
+<span class="kw">var</span> add <span class="op">=</span> <span class="kw">function</span> (num1<span class="op">,</span> num2) <span class="op">{</span>
+    <span class="cf">return</span> num1 <span class="op">+</span> num2<span class="op">;</span>
+<span class="op">};</span>
+
+<span class="co">// The arrow function version</span>
+<span class="kw">var</span> add <span class="op">=</span> (num1<span class="op">,</span> num2) <span class="op">=&gt;</span> <span class="op">{</span>
+    <span class="cf">return</span> num1 <span class="op">+</span> num2<span class="op">;</span>
+<span class="op">};</span></code></pre></div>
+<p><em><strong>Note:</strong> Named arrow functions have to be written as a function declaration. There’s no way to write one as a function expression.</em></p>
+<h3 id="a-simpler-way-to-return-a-value">A simpler way to return a value</h3>
+<p>If your function is only returning a value, as is the case with our <code>add()</code> function, you can simplify the function even further by dropping the brackets and <code>return</code>.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// returns `num1 + num2`</span>
+<span class="kw">var</span> add <span class="op">=</span> (num1<span class="op">,</span> num2) <span class="op">=&gt;</span> num1 <span class="op">+</span> num2<span class="op">;</span></code></pre></div>
+<p>This only works if the only thing you’re doing is returning a value. If you need to do more stuff with your function, you have to use brackets.</p>
+<h3 id="specifying-argument-defaults">Specifying argument defaults</h3>
+<p>In the last lesson, we specified defaults for <code>num1</code> and <code>num2</code> if they weren’t passed in. Arrow functions make this even easier to do.</p>
+<p>You can set a default value for each argument at the time that you give it a name with <code>= value</code>.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Setting defaults with a traditional function</span>
+<span class="kw">var</span> add <span class="op">=</span> <span class="kw">function</span> (num1<span class="op">,</span> num2) <span class="op">{</span>
+
+    <span class="co">// If num1 or num2 aren&#39;t defined, set them to 0</span>
+    num1 <span class="op">=</span> num1 <span class="op">||</span> <span class="dv">0</span><span class="op">;</span> <span class="co">// conditional operator</span>
+    num2 <span class="op">=</span> num2 <span class="op">?</span> num2 : <span class="dv">0</span><span class="op">;</span> <span class="co">// ternary operator</span>
+
+    <span class="co">// Add the numbers</span>
+    <span class="cf">return</span> num1 <span class="op">+</span> num2<span class="op">;</span>
+
+<span class="op">};</span>
+
+<span class="co">// Setting defaults with an arrow function</span>
+<span class="kw">var</span> add <span class="op">=</span> (num1 <span class="op">=</span> <span class="dv">0</span><span class="op">,</span> num2 <span class="op">=</span> <span class="dv">0</span>) <span class="op">=&gt;</span> num1 <span class="op">+</span> num2<span class="op">;</span></code></pre></div>
+<h3 id="arguments-doesnt-work"><code>arguments</code> doesn’t work</h3>
+<p>In the last lesson, we used the <code>arguments</code> variable to get all of the arguments passed in to our function and add them together.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> add <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+
+    <span class="co">// Set a starting total</span>
+    <span class="kw">var</span> total <span class="op">=</span> <span class="dv">0</span><span class="op">;</span>
+
+    <span class="co">// Add each number to the total</span>
+    <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">arguments</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+        total <span class="op">+=</span> arguments[i]<span class="op">;</span>
+    <span class="op">}</span>
+
+    <span class="co">// Return to the total</span>
+    <span class="cf">return</span> total<span class="op">;</span>
+
+<span class="op">};</span></code></pre></div>
+<p><strong>In arrow functions, <code>arguments</code> doesn’t exist.</strong></p>
+<p>It’s been replaced by <em>rest parameters</em>. They work a lot like <code>arguments</code>, but with two notable advantages.</p>
+<ol style="list-style-type: decimal">
+<li>You can assign them to any variable name you’d like.</li>
+<li>You can start at any argument you want.</li>
+</ol>
+<p>You define <em>rest parameters</em> by passing in an argument prefixed with <code>...</code>.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> logStuff <span class="op">=</span> (arg1<span class="op">,</span> arg2<span class="op">,</span> ...<span class="at">moreArgs</span>) <span class="op">=&gt;</span> <span class="op">{</span>
+
+    <span class="co">// Logs arg1</span>
+    <span class="va">console</span>.<span class="at">log</span>(arg1)<span class="op">;</span>
+
+    <span class="co">// Logs arg2</span>
+    <span class="va">console</span>.<span class="at">log</span>(arg2)<span class="op">;</span>
+
+    <span class="co">// Logs an array of any other arguments you pass in after arg2</span>
+    <span class="va">console</span>.<span class="at">log</span>(moreArgs)<span class="op">;</span>
+
+<span class="op">};</span>
+
+<span class="co">// In this example...</span>
+<span class="co">// arg1 = &#39;chicken&#39;</span>
+<span class="co">// arg2 = &#39;tuna&#39;</span>
+<span class="co">// moreArgs = [&#39;chips&#39;, &#39;cookie&#39;, &#39;soda&#39;, &#39;delicious&#39;]</span>
+<span class="at">logStuff</span>(<span class="st">&#39;chicken&#39;</span><span class="op">,</span> <span class="st">&#39;tuna&#39;</span><span class="op">,</span> <span class="st">&#39;chips&#39;</span><span class="op">,</span> <span class="st">&#39;cookie&#39;</span><span class="op">,</span> <span class="st">&#39;soda&#39;</span><span class="op">,</span> <span class="st">&#39;delicious&#39;</span>)<span class="op">;</span></code></pre></div>
+<p>Here’s our <code>add()</code> function rewritten as an arrow function.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> add <span class="op">=</span> (...<span class="at">args</span>) <span class="op">=&gt;</span> <span class="op">{</span>
+
+    <span class="co">// Set a starting total</span>
+    <span class="kw">var</span> total <span class="op">=</span> <span class="dv">0</span><span class="op">;</span>
+
+    <span class="co">// Add each number to the total</span>
+    <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">args</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+        total <span class="op">+=</span> args[i]<span class="op">;</span>
+    <span class="op">}</span>
+
+    <span class="co">// Return to the total</span>
+    <span class="cf">return</span> total<span class="op">;</span>
+
+<span class="op">};</span></code></pre></div>
+<h3 id="browser-compatibility-2">Browser Compatibility</h3>
+<p>Arrow functions work in all modern browsers, Safari 10 and up, and Mobile Chrome and Android 45 and up. They have no IE support.</p>
+<p>Since support for them is pretty limited at this time, you would need to use a compiler like Babel<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> to convert them to traditional functions for broader browser support. Unfortunately, they cannot be polyfilled.</p>
+<p>Babel does actually have an “in the browser” version you can load with a script tag, <em>but…</em> it requires you to inline your entire script, so it’s not really a good solution for production sites.</p>
+<h2 id="var-let-and-const-and-when-to-use-which"><code>var</code>, <code>let</code>, and <code>const</code> (and when to use which)</h2>
+<p>ES6 introduced two new ways to define variables: <code>let</code> and <code>const</code>.</p>
+<p>They’ve been the source of a fair bit of confusion, particularly around when to use which. Let’s clear that up.</p>
+<h3 id="let"><code>let</code></h3>
+<p><code>let</code> does the <em>almost</em> the same exact thing as <code>var</code>.</p>
+<p>The big difference between <code>let</code> and <code>var</code> is that you can’t redefine a variable set with <code>let</code> in the same scope.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// The value of `sandwich` is &quot;tuna&quot;</span>
+<span class="kw">var</span> sandwich <span class="op">=</span> <span class="st">&#39;tuna&#39;</span><span class="op">;</span>
+
+<span class="co">// The value of `sandwich` is now &quot;chicken&quot;</span>
+<span class="kw">var</span> sandwich <span class="op">=</span> <span class="st">&#39;chicken&#39;</span><span class="op">;</span>
+
+<span class="co">// The value of `chips` is &quot;Cape Cod&quot;</span>
+<span class="kw">let</span> chips <span class="op">=</span> <span class="st">&#39;Cape Cod&#39;</span><span class="op">;</span>
+
+<span class="co">// Throws an error: &quot;Uncaught SyntaxError: Identifier &#39;chips&#39; has already been declared&quot;</span>
+<span class="kw">let</span> chips <span class="op">=</span> <span class="st">&#39;Lays&#39;</span><span class="op">;</span></code></pre></div>
+<p>You can still change the value of <code>chips</code>. You just can’t define it as a new variable once it’s already been defined <em>within the current scope</em>. You <em>can</em> use <code>let</code> to define a new variable with the same name in a different scope, though.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// The value of `chips` is &quot;Cape Cod&quot;</span>
+<span class="kw">let</span> chips <span class="op">=</span> <span class="st">&#39;Cape Cod&#39;</span><span class="op">;</span>
+
+<span class="co">// The value of `chips` is now &quot;Lays&quot;</span>
+chips <span class="op">=</span> <span class="st">&#39;Lays&#39;</span><span class="op">;</span>
+
+<span class="kw">var</span> getChips <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+
+    <span class="co">// This works because it&#39;s a different scope</span>
+    <span class="kw">let</span> chips <span class="op">=</span> <span class="st">&#39;Wise&#39;</span><span class="op">;</span>
+
+    <span class="co">// Returns &quot;Wise&quot;</span>
+    <span class="cf">return</span> chips<span class="op">;</span>
+
+<span class="op">};</span>
+
+<span class="co">// Logs &quot;Lays&quot; in the console</span>
+<span class="va">console</span>.<span class="at">log</span>(chips)<span class="op">;</span></code></pre></div>
+<h3 id="const"><code>const</code></h3>
+<p>Unlike <code>var</code> and <code>let</code>, if you define a variable with <code>const</code>, it cannot be given a new value. It is, as the term implies, constant.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// The value of sandwich is &quot;tuna&quot;</span>
+<span class="kw">const</span> sandwich <span class="op">=</span> <span class="st">&#39;tuna&#39;</span><span class="op">;</span>
+
+<span class="co">// Throws an error: &quot;Uncaught TypeError: Assignment to constant variable.&quot;</span>
+sandwich <span class="op">=</span> <span class="st">&#39;chicken&#39;</span><span class="op">;</span></code></pre></div>
+<h3 id="browser-compatibility-3">Browser Compatibility</h3>
+<p><code>let</code> and <code>const</code> work in all modern browsers, and IE11 and up. They cannot be polyfilled.</p>
+<p>To push support back further, you would need to use a compiler like Babel<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a>. Babel does actually have an “in the browser” version you can load with a script tag, <em>but…</em> it requires you to inline your entire script, so it’s not really a good solution for production sites.</p>
+<h2 id="putting-it-all-together">Putting it all together</h2>
+<p>To make this all tangible, let’s work on a project together. We’ll take a small plugin that lazy loads images and clean it up a bit. We want to make it backwards compatible, and help eliminate a few potential bugs.</p>
+<p>The starter template and complete project code are included in the source code<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a> on GitHub.</p>
+<h3 id="getting-setup">Getting Setup</h3>
+<p>A working version of the plugin is in the template file.</p>
+<p>Throughout the page copy, I’ve included empty <code>&lt;figure&gt;</code> elements that will eventually contain our lazy loaded images. Each one has the <code>.lazy-load</code> class on it, which the script uses as a hook to get the images that should be lazy loaded.</p>
+<p>The <code>[data-image]</code> attribute includes a URL to the image to be lazy loaded, and the <code>[data-caption]</code> attribute (if included) is the caption we’d like to include with our image.</p>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;figure</span><span class="ot"> class=</span><span class="st">&quot;lazy-load&quot;</span><span class="ot"> data-caption=</span><span class="st">&quot;A lifeguard station on a deserted beach&quot;</span><span class="ot"> data-image=</span><span class="st">&quot;img/beach.jpg&quot;</span><span class="kw">&gt;&lt;/figure&gt;</span></code></pre></div>
+<p>The template also includes some lightweight CSS to make our images responsive, and our captions look good.</p>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">figure <span class="kw">{</span>
+    <span class="kw">margin:</span> <span class="dt">0</span> <span class="dt">0</span> <span class="dt">1.4em</span><span class="kw">;</span>
+<span class="kw">}</span>
+
+caption <span class="kw">{</span>
+    <span class="kw">color:</span> <span class="dt">#808080</span><span class="kw">;</span>
+    <span class="kw">display:</span> <span class="dt">block</span><span class="kw">;</span>
+    <span class="kw">font-size:</span> <span class="dt">0.8em</span><span class="kw">;</span>
+    <span class="kw">font-style:</span> <span class="dt">italic</span><span class="kw">;</span>
+    <span class="kw">padding:</span> <span class="dt">0.25em</span> <span class="dt">0</span> <span class="dt">0.5em</span><span class="kw">;</span>
+    <span class="kw">text-align:</span> <span class="dt">center</span><span class="kw">;</span>
+<span class="kw">}</span>
+
+img <span class="kw">{</span>
+    <span class="kw">height:</span> <span class="dt">auto</span><span class="kw">;</span>
+    <span class="kw">max-width:</span> <span class="dt">100%</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+<p>And finally, here’s the JavaScript that makes it all work.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Get our lazy load images</span>
+<span class="kw">var</span> images <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelectorAll</span>(<span class="st">&#39;.lazy-load&#39;</span>)<span class="op">;</span>
+
+<span class="co">// Listen for scroll events</span>
+<span class="va">window</span>.<span class="at">addEventListener</span>(<span class="st">&#39;scroll&#39;</span><span class="op">,</span> loadImages<span class="op">,</span> <span class="kw">false</span>)<span class="op">;</span>
+
+<span class="co">// Determine if an element is in the viewport</span>
+<span class="kw">var</span> isInViewport <span class="op">=</span> (elem) <span class="op">=&gt;</span> <span class="op">{</span>
+    <span class="kw">var</span> distance <span class="op">=</span> <span class="va">elem</span>.<span class="at">getBoundingClientRect</span>()<span class="op">;</span>
+    <span class="cf">return</span> (
+        <span class="va">distance</span>.<span class="at">top</span> <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span>
+        <span class="va">distance</span>.<span class="at">left</span> <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span>
+        <span class="va">distance</span>.<span class="at">bottom</span> <span class="op">&lt;=</span> (<span class="va">window</span>.<span class="at">innerHeight</span> <span class="op">||</span> <span class="va">document</span>.<span class="va">documentElement</span>.<span class="at">clientHeight</span>) <span class="op">&amp;&amp;</span>
+        <span class="va">distance</span>.<span class="at">right</span> <span class="op">&lt;=</span> (<span class="va">window</span>.<span class="at">innerWidth</span> <span class="op">||</span> <span class="va">document</span>.<span class="va">documentElement</span>.<span class="at">clientWidth</span>)
+    )<span class="op">;</span>
+<span class="op">};</span>
+
+<span class="co">// Insert caption into the DOM</span>
+<span class="kw">var</span> addCaption <span class="op">=</span> (img<span class="op">,</span> text) <span class="op">=&gt;</span> <span class="op">{</span>
+    <span class="kw">var</span> caption <span class="op">=</span> <span class="va">document</span>.<span class="at">createElement</span>(<span class="st">&#39;caption&#39;</span>)<span class="op">;</span>
+    <span class="va">caption</span>.<span class="at">innerHTML</span> <span class="op">=</span> text<span class="op">;</span>
+    <span class="va">img</span>.<span class="va">parentNode</span>.<span class="at">insertBefore</span>(caption<span class="op">,</span> <span class="va">img</span>.<span class="at">nextSibling</span>)<span class="op">;</span>
+<span class="op">};</span>
+
+<span class="co">// Load our images</span>
+<span class="kw">function</span> <span class="at">loadImages</span> () <span class="op">{</span>
+
+    <span class="co">// Loop through each lazy load image</span>
+    <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">images</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+
+        <span class="co">// Check if the image is in the viewport</span>
+        <span class="cf">if</span> (<span class="at">isInViewport</span>(images[i])) <span class="op">{</span>
+
+            <span class="co">// Make sure the image has a data-image attribute and hasn&#39;t already been loaded</span>
+            <span class="cf">if</span> (<span class="op">!</span>images[i].<span class="at">hasAttribute</span>(<span class="st">&#39;data-image&#39;</span>) <span class="op">||</span> images[i].<span class="va">classList</span>.<span class="at">contains</span>(<span class="st">&#39;loaded&#39;</span>)) <span class="cf">continue</span><span class="op">;</span>
+
+            <span class="co">// Load the image</span>
+            images[i].<span class="at">innerHTML</span> <span class="op">=</span> <span class="st">&#39;&lt;img src=&quot;&#39;</span> <span class="op">+</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-image&#39;</span>) <span class="op">+</span> <span class="st">&#39;&quot;&gt;&#39;</span><span class="op">;</span>
+
+            <span class="co">// Add a caption</span>
+            <span class="kw">var</span> img <span class="op">=</span> images[i].<span class="at">querySelector</span>(<span class="st">&#39;img&#39;</span>)<span class="op">;</span>
+            <span class="kw">var</span> text <span class="op">=</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-caption&#39;</span>)<span class="op">;</span>
+            <span class="at">addCaption</span>(img<span class="op">,</span> text)<span class="op">;</span>
+
+            <span class="co">// Add a .loaded class to our image placeholder</span>
+            images[i].<span class="va">classList</span>.<span class="at">add</span>(<span class="st">&#39;loaded&#39;</span>)<span class="op">;</span>
+
+        <span class="op">}</span>
+
+    <span class="op">}</span>
+
+<span class="op">}</span>
+
+<span class="co">// Load images on page load</span>
+<span class="at">loadImages</span>()<span class="op">;</span></code></pre></div>
+<p>As you can see, there’s a mix of traditional functions and arrow functions, function declarations and function expressions, and all of our code is in the global scope.</p>
+<p>Alright, let’s clean this script up!</p>
+<h3 id="converting-to-traditional-functions">Converting to traditional functions</h3>
+<p>Arrow functions have poor backwards compatibility, and we’re not using a compiling tool like Babel to convert this script. Let’s convert our two arrow functions—<code>isInViewport()</code> and <code>addCaption()</code>—to traditional functions for broader browser support.</p>
+<p>To do this, we’ll add the word <code>function</code> before the arguments, and remove the fat arrow.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Determine if an element is in the viewport</span>
+<span class="kw">var</span> isInViewport <span class="op">=</span> <span class="kw">function</span> (elem) <span class="op">{</span>
+    <span class="kw">var</span> distance <span class="op">=</span> <span class="va">elem</span>.<span class="at">getBoundingClientRect</span>()<span class="op">;</span>
+    <span class="cf">return</span> (
+        <span class="va">distance</span>.<span class="at">top</span> <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span>
+        <span class="va">distance</span>.<span class="at">left</span> <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span>
+        <span class="va">distance</span>.<span class="at">bottom</span> <span class="op">&lt;=</span> (<span class="va">window</span>.<span class="at">innerHeight</span> <span class="op">||</span> <span class="va">document</span>.<span class="va">documentElement</span>.<span class="at">clientHeight</span>) <span class="op">&amp;&amp;</span>
+        <span class="va">distance</span>.<span class="at">right</span> <span class="op">&lt;=</span> (<span class="va">window</span>.<span class="at">innerWidth</span> <span class="op">||</span> <span class="va">document</span>.<span class="va">documentElement</span>.<span class="at">clientWidth</span>)
+    )<span class="op">;</span>
+<span class="op">};</span>
+
+<span class="co">// Insert caption into the DOM</span>
+<span class="kw">var</span> addCaption <span class="op">=</span> <span class="kw">function</span> (img<span class="op">,</span> text) <span class="op">{</span>
+    <span class="kw">var</span> caption <span class="op">=</span> <span class="va">document</span>.<span class="at">createElement</span>(<span class="st">&#39;caption&#39;</span>)<span class="op">;</span>
+    <span class="va">caption</span>.<span class="at">innerHTML</span> <span class="op">=</span> text<span class="op">;</span>
+    <span class="va">img</span>.<span class="va">parentNode</span>.<span class="at">insertBefore</span>(caption<span class="op">,</span> <span class="va">img</span>.<span class="at">nextSibling</span>)<span class="op">;</span>
+<span class="op">};</span></code></pre></div>
+<h3 id="function-declarations-or-function-expressions-pick-one">Function Declarations or Function Expressions: Pick One</h3>
+<p>The script currently uses a mix of function declarations and function expressions. We should pick one style and stick with it.</p>
+<p>For learning purposes, let’s go with function expressions, since they force a bit more structure into the code.</p>
+<p>We’ll conver <code>loadImages()</code> by removing the leading <code>function</code>, adding <code>var</code> before the function name and <code>= function</code> between the name and the parentheses. We also need to add a semicolon at the end.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Load our images</span>
+<span class="kw">var</span> loadImages <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+
+    <span class="co">// Loop through each lazy load image</span>
+    <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">images</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+
+        <span class="co">// Check if the image is in the viewport</span>
+        <span class="cf">if</span> (<span class="at">isInViewport</span>(images[i])) <span class="op">{</span>
+
+            <span class="co">// Make sure the image has a data-image attribute and hasn&#39;t already been loaded</span>
+            <span class="cf">if</span> (<span class="op">!</span>images[i].<span class="at">hasAttribute</span>(<span class="st">&#39;data-image&#39;</span>) <span class="op">||</span> images[i].<span class="va">classList</span>.<span class="at">contains</span>(<span class="st">&#39;loaded&#39;</span>)) <span class="cf">continue</span><span class="op">;</span>
+
+            <span class="co">// Load the image</span>
+            images[i].<span class="at">innerHTML</span> <span class="op">=</span> <span class="st">&#39;&lt;img src=&quot;&#39;</span> <span class="op">+</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-image&#39;</span>) <span class="op">+</span> <span class="st">&#39;&quot;&gt;&#39;</span><span class="op">;</span>
+
+            <span class="co">// Add a caption</span>
+            <span class="kw">var</span> img <span class="op">=</span> images[i].<span class="at">querySelector</span>(<span class="st">&#39;img&#39;</span>)<span class="op">;</span>
+            <span class="kw">var</span> text <span class="op">=</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-caption&#39;</span>)<span class="op">;</span>
+            <span class="at">addCaption</span>(img<span class="op">,</span> text)<span class="op">;</span>
+
+            <span class="co">// Add a .loaded class to our image placeholder</span>
+            images[i].<span class="va">classList</span>.<span class="at">add</span>(<span class="st">&#39;loaded&#39;</span>)<span class="op">;</span>
+
+        <span class="op">}</span>
+
+    <span class="op">}</span>
+
+<span class="op">};</span></code></pre></div>
+<h3 id="checking-for-argument-values">Checking for argument values</h3>
+<p>In the <code>addCaption()</code> function, the <code>text</code> argument is the caption text to use. Not every image has a caption, though, and those images have an empty <code>&lt;caption&gt;&lt;/caption&gt;</code> underneath them.</p>
+<p>Let’s make sure <code>text</code> has a value, and if not, end the function early.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Insert caption into the DOM</span>
+<span class="kw">var</span> addCaption <span class="op">=</span> <span class="kw">function</span> (img<span class="op">,</span> text) <span class="op">{</span>
+    <span class="cf">if</span> (<span class="op">!</span>text) <span class="cf">return</span><span class="op">;</span>
+    <span class="kw">var</span> caption <span class="op">=</span> <span class="va">document</span>.<span class="at">createElement</span>(<span class="st">&#39;caption&#39;</span>)<span class="op">;</span>
+    <span class="va">caption</span>.<span class="at">innerHTML</span> <span class="op">=</span> text<span class="op">;</span>
+    <span class="va">img</span>.<span class="va">parentNode</span>.<span class="at">insertBefore</span>(caption<span class="op">,</span> <span class="va">img</span>.<span class="at">nextSibling</span>)<span class="op">;</span>
+<span class="op">};</span></code></pre></div>
+<h3 id="scoping-our-code">Scoping our code</h3>
+<p>All of our code sits in the global scope. Lets wrap it in an IIFE to give it lexical scope.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="op">;</span>(<span class="kw">function</span> (window<span class="op">,</span> document<span class="op">,</span> <span class="kw">undefined</span>) <span class="op">{</span>
+
+    <span class="co">// Get our lazy load images</span>
+    <span class="kw">var</span> images <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelectorAll</span>(<span class="st">&#39;.lazy-load&#39;</span>)<span class="op">;</span>
+
+    <span class="co">// Determine if an element is in the viewport</span>
+    <span class="kw">var</span> isInViewport <span class="op">=</span> <span class="kw">function</span> (elem) <span class="op">{</span>
+        <span class="kw">var</span> distance <span class="op">=</span> <span class="va">elem</span>.<span class="at">getBoundingClientRect</span>()<span class="op">;</span>
+        <span class="cf">return</span> (
+            <span class="va">distance</span>.<span class="at">top</span> <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span>
+            <span class="va">distance</span>.<span class="at">left</span> <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span>
+            <span class="va">distance</span>.<span class="at">bottom</span> <span class="op">&lt;=</span> (<span class="va">window</span>.<span class="at">innerHeight</span> <span class="op">||</span> <span class="va">document</span>.<span class="va">documentElement</span>.<span class="at">clientHeight</span>) <span class="op">&amp;&amp;</span>
+            <span class="va">distance</span>.<span class="at">right</span> <span class="op">&lt;=</span> (<span class="va">window</span>.<span class="at">innerWidth</span> <span class="op">||</span> <span class="va">document</span>.<span class="va">documentElement</span>.<span class="at">clientWidth</span>)
+        )<span class="op">;</span>
+    <span class="op">};</span>
+
+    <span class="co">// Insert caption into the DOM</span>
+    <span class="kw">var</span> addCaption <span class="op">=</span> <span class="kw">function</span> (img<span class="op">,</span> text) <span class="op">{</span>
+        <span class="cf">if</span> (<span class="op">!</span>text) <span class="cf">return</span><span class="op">;</span>
+        <span class="kw">var</span> caption <span class="op">=</span> <span class="va">document</span>.<span class="at">createElement</span>(<span class="st">&#39;caption&#39;</span>)<span class="op">;</span>
+        <span class="va">caption</span>.<span class="at">innerHTML</span> <span class="op">=</span> text<span class="op">;</span>
+        <span class="va">img</span>.<span class="va">parentNode</span>.<span class="at">insertBefore</span>(caption<span class="op">,</span> <span class="va">img</span>.<span class="at">nextSibling</span>)<span class="op">;</span>
+    <span class="op">};</span>
+
+    <span class="co">// Load our images</span>
+    <span class="kw">var</span> loadImages <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+
+        <span class="co">// Loop through each lazy load image</span>
+        <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">images</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+
+            <span class="co">// Check if the image is in the viewport</span>
+            <span class="cf">if</span> (<span class="at">isInViewport</span>(images[i])) <span class="op">{</span>
+
+                <span class="co">// Make sure the image has a data-image attribute and hasn&#39;t already been loaded</span>
+                <span class="cf">if</span> (<span class="op">!</span>images[i].<span class="at">hasAttribute</span>(<span class="st">&#39;data-image&#39;</span>) <span class="op">||</span> images[i].<span class="va">classList</span>.<span class="at">contains</span>(<span class="st">&#39;loaded&#39;</span>)) <span class="cf">continue</span><span class="op">;</span>
+
+                <span class="co">// Load the image</span>
+                images[i].<span class="at">innerHTML</span> <span class="op">=</span> <span class="st">&#39;&lt;img src=&quot;&#39;</span> <span class="op">+</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-image&#39;</span>) <span class="op">+</span> <span class="st">&#39;&quot;&gt;&#39;</span><span class="op">;</span>
+
+                <span class="co">// Add a caption</span>
+                <span class="kw">var</span> img <span class="op">=</span> images[i].<span class="at">querySelector</span>(<span class="st">&#39;img&#39;</span>)<span class="op">;</span>
+                <span class="kw">var</span> text <span class="op">=</span> images[i].<span class="at">getAttribute</span>(<span class="st">&#39;data-caption&#39;</span>)<span class="op">;</span>
+                <span class="at">addCaption</span>(img<span class="op">,</span> text)<span class="op">;</span>
+
+                <span class="co">// Add a .loaded class to our image placeholder</span>
+                images[i].<span class="va">classList</span>.<span class="at">add</span>(<span class="st">&#39;loaded&#39;</span>)<span class="op">;</span>
+
+            <span class="op">}</span>
+
+        <span class="op">}</span>
+
+    <span class="op">};</span>
+
+    <span class="co">// Listen for scroll events</span>
+    <span class="va">window</span>.<span class="at">addEventListener</span>(<span class="st">&#39;scroll&#39;</span><span class="op">,</span> loadImages<span class="op">,</span> <span class="kw">false</span>)<span class="op">;</span>
+
+    <span class="co">// Load images on page load</span>
+    <span class="at">loadImages</span>()<span class="op">;</span>
+
+<span class="op">}</span>)(window<span class="op">,</span> document)<span class="op">;</span></code></pre></div>
+<p>Now our code is out of the global scope.</p>
+<p>Congratulations! You just cleaned up a script with consistent function style, better backwards compatibility, and proper scope.</p>
+<h2 id="about-the-author">About the Author</h2>
+<div class="figure">
+<img src="assets/img/chris-ferdinandi.jpg" class="author-img" />
+
+</div>
+<p>Hi, I’m Chris Ferdinandi. I help people learn JavaScript.</p>
+<p>I love pirates, puppies, and Pixar movies, and live near horse farms in rural Massachusetts. I run Go Make Things with Bailey Puppy, a lab-mix from Tennessee.</p>
+<p>You can find me:</p>
+<ul>
+<li>On my website at <a href="https://gomakethings.com">GoMakeThings.com</a>.</li>
+<li>By email at <script type="text/javascript">
+<!--
+h='&#x67;&#x6f;&#x6d;&#x61;&#x6b;&#x65;&#116;&#104;&#x69;&#110;&#x67;&#x73;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x63;&#104;&#114;&#x69;&#x73;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#x63;&#104;&#114;&#x69;&#x73;&#32;&#x61;&#116;&#32;&#x67;&#x6f;&#x6d;&#x61;&#x6b;&#x65;&#116;&#104;&#x69;&#110;&#x67;&#x73;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript>.</li>
+<li>On Twitter at <a href="https://twitter.com/ChrisFerdinandi"><span class="citation">@ChrisFerdinandi</span></a>.</li>
+</ul>
+<div class="break">
+
+</div>
+<script>
+    ;(function (window, document, undefined) {
+
+        'use strict';
+
+
+        // Feature test
+        var supports = 'querySelector' in document;
+        if ( !supports ) return;
+
+
+        //
+        // Variables
+        //
+
+
+        var headings = document.querySelectorAll( 'h2' ); // Headings
+        var toc = document.querySelector( '[data-toc]' ); // Table of contents container
+        var links = '';         // Placeholder variables
+
+        // Make sure headings and TOC container exist. Otherwise, bail.
+        if ( headings.length < 1 || !toc ) return;
+
+
+        //
+        // Methods
+        //
+
+        /**
+         * Give heading an ID if it's missing one
+         * @param  {Node} heading The heading
+         */
+        var createID = function ( heading ) {
+
+            // If the heading already has and ID, bail
+            if ( heading.id ) return;
+
+            // Otherwise, convert heading text to valid ID
+            // Regex pattern: http://stackoverflow.com/a/9635698/1293256
+            heading.id = heading.innerHTML.replace( /^[^a-z]+|[^\w:.-]+/gi, '_' ).toLowerCase();
+
+        };
+
+        /**
+         * Create the table of contents link
+         * @param  {Node} heading The heading
+         */
+        var createLink = function ( heading ) {
+            links += '<li><a href="#' + heading.id + '">' + heading.innerHTML + '</a></li>';
+        };
+
+
+        //
+        // Inits
+        //
+
+        // Create the links
+        for ( var i = 0; i < headings.length; i++ ) {
+            createID( headings[i] ); // If the heading has no ID, give it one
+            createLink( headings[i] ); // Create link
+        }
+
+        // Inject TOC into the DOM
+        toc.innerHTML = '<h2>Table of Contents</h2><ol>' + links + '</ol>';
+
+    })(window, document);
+
+    /*! smooth-scroll v10.3.1 | (c) 2017 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/smooth-scroll */
+    !(function(e,t){"function"==typeof define&&define.amd?define([],t(e)):"object"==typeof exports?module.exports=t(e):e.smoothScroll=t(e)})("undefined"!=typeof global?global:this.window||this.global,(function(e){"use strict";var t,n,o,r,a,c,l,i={},u="querySelector"in document&&"addEventListener"in e,s={selector:"[data-scroll]",selectorHeader:null,speed:500,easing:"easeInOutCubic",offset:0,callback:function(){}},f=function(){var e={},t=!1,n=0,o=arguments.length;"[object Boolean]"===Object.prototype.toString.call(arguments[0])&&(t=arguments[0],n++);for(;n<o;n++){var r=arguments[n];!(function(n){for(var o in n)Object.prototype.hasOwnProperty.call(n,o)&&(t&&"[object Object]"===Object.prototype.toString.call(n[o])?e[o]=f(!0,e[o],n[o]):e[o]=n[o])})(r)}return e},d=function(e){return Math.max(e.scrollHeight,e.offsetHeight,e.clientHeight)},h=function(e,t){for(Element.prototype.matches||(Element.prototype.matches=Element.prototype.matchesSelector||Element.prototype.mozMatchesSelector||Element.prototype.msMatchesSelector||Element.prototype.oMatchesSelector||Element.prototype.webkitMatchesSelector||function(e){for(var t=(this.document||this.ownerDocument).querySelectorAll(e),n=t.length;--n>=0&&t.item(n)!==this;);return n>-1});e&&e!==document;e=e.parentNode)if(e.matches(t))return e;return null},m=function(e){"#"===e.charAt(0)&&(e=e.substr(1));for(var t,n=String(e),o=n.length,r=-1,a="",c=n.charCodeAt(0);++r<o;){if(0===(t=n.charCodeAt(r)))throw new InvalidCharacterError("Invalid character: the input contains U+0000.");a+=t>=1&&t<=31||127==t||0===r&&t>=48&&t<=57||1===r&&t>=48&&t<=57&&45===c?"\\"+t.toString(16)+" ":t>=128||45===t||95===t||t>=48&&t<=57||t>=65&&t<=90||t>=97&&t<=122?n.charAt(r):"\\"+n.charAt(r)}return"#"+a},p=function(e,t){var n;return"easeInQuad"===e&&(n=t*t),"easeOutQuad"===e&&(n=t*(2-t)),"easeInOutQuad"===e&&(n=t<.5?2*t*t:(4-2*t)*t-1),"easeInCubic"===e&&(n=t*t*t),"easeOutCubic"===e&&(n=--t*t*t+1),"easeInOutCubic"===e&&(n=t<.5?4*t*t*t:(t-1)*(2*t-2)*(2*t-2)+1),"easeInQuart"===e&&(n=t*t*t*t),"easeOutQuart"===e&&(n=1- --t*t*t*t),"easeInOutQuart"===e&&(n=t<.5?8*t*t*t*t:1-8*--t*t*t*t),"easeInQuint"===e&&(n=t*t*t*t*t),"easeOutQuint"===e&&(n=1+--t*t*t*t*t),"easeInOutQuint"===e&&(n=t<.5?16*t*t*t*t*t:1+16*--t*t*t*t*t),n||t},g=function(e,t,n){var o=0;if(e.offsetParent)do{o+=e.offsetTop,e=e.offsetParent}while(e);return o=Math.max(o-t-n,0),Math.min(o,y()-b())},b=function(){return Math.max(document.documentElement.clientHeight,e.innerHeight||0)},y=function(){return Math.max(document.body.scrollHeight,document.documentElement.scrollHeight,document.body.offsetHeight,document.documentElement.offsetHeight,document.body.clientHeight,document.documentElement.clientHeight)},v=function(e){return e&&"object"==typeof JSON&&"function"==typeof JSON.parse?JSON.parse(e):{}},O=function(e){return e?d(e)+e.offsetTop:0},S=function(t,n,o){o||(t.focus(),document.activeElement.id!==t.id&&(t.setAttribute("tabindex","-1"),t.focus(),t.style.outline="none"),e.scrollTo(0,n))};i.animateScroll=function(n,o,c){var i=v(o?o.getAttribute("data-options"):null),u=f(t||s,c||{},i),d="[object Number]"===Object.prototype.toString.call(n),h=d||!n.tagName?null:n;if(d||h){var m=e.pageYOffset;u.selectorHeader&&!r&&(r=document.querySelector(u.selectorHeader)),a||(a=O(r));var b,E,I=d?n:g(h,a,parseInt("function"==typeof u.offset?u.offset():u.offset,10)),H=I-m,A=y(),j=0,C=function(t,r,a){var c=e.pageYOffset;(t==r||c==r||e.innerHeight+c>=A)&&(clearInterval(a),S(n,r,d),u.callback(n,o))},M=function(){j+=16,b=j/parseInt(u.speed,10),b=b>1?1:b,E=m+H*p(u.easing,b),e.scrollTo(0,Math.floor(E)),C(E,I,l)};0===e.pageYOffset&&e.scrollTo(0,0),(function(){clearInterval(l),l=setInterval(M,16)})()}};var E=function(t){try{m(decodeURIComponent(e.location.hash))}catch(t){m(e.location.hash)}n&&(n.id=n.getAttribute("data-scroll-id"),i.animateScroll(n,o),n=null,o=null)},I=function(r){if(0===r.button&&!r.metaKey&&!r.ctrlKey&&(o=h(r.target,t.selector))&&"a"===o.tagName.toLowerCase()&&o.hostname===e.location.hostname&&o.pathname===e.location.pathname&&/#/.test(o.href)){var a;try{a=m(decodeURIComponent(o.hash))}catch(e){a=m(o.hash)}if("#"===a){r.preventDefault(),n=document.body;var c=n.id?n.id:"smooth-scroll-top";return n.setAttribute("data-scroll-id",c),n.id="",void(e.location.hash.substring(1)===c?E():e.location.hash=c)}n=document.querySelector(a),n&&(n.setAttribute("data-scroll-id",n.id),n.id="",o.hash===e.location.hash&&(r.preventDefault(),E()))}},H=function(e){c||(c=setTimeout((function(){c=null,a=O(r)}),66))};return i.destroy=function(){t&&(document.removeEventListener("click",I,!1),e.removeEventListener("resize",H,!1),t=null,n=null,o=null,r=null,a=null,c=null,l=null)},i.init=function(n){u&&(i.destroy(),t=f(s,n||{}),r=t.selectorHeader?document.querySelector(t.selectorHeader):null,a=O(r),document.addEventListener("click",I,!1),e.addEventListener("hashchange",E,!1),r&&e.addEventListener("resize",H,!1))},i}));
+    smoothScroll.init({
+        selector: 'a[href*="#"]'
+    })
+</script>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://github.com/cferdinandi/vanilla-javascript-cheat-sheet/blob/master/boilerplates/iife.js" class="uri">https://github.com/cferdinandi/vanilla-javascript-cheat-sheet/blob/master/boilerplates/iife.js</a><a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p><a href="https://babeljs.io/">https://babeljs.io</a><a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p><a href="https://babeljs.io/">https://babeljs.io</a><a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p><a href="https://github.com/cferdinandi/variable-function-scope-source-code/" class="uri">https://github.com/cferdinandi/variable-function-scope-source-code/</a><a href="#fnref4">↩</a></p></li>
+</ol>
+</div>
+</body>
+</html>

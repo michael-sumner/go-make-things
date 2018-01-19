@@ -1,0 +1,968 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+  </style>
+  <style>
+  html {
+  	font-size: 100%;
+  	overflow-y: scroll;
+  	-webkit-text-size-adjust: 100%;
+  	-ms-text-size-adjust: 100%;
+  }
+  
+  body {
+  	color: #272727;
+  	font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+  	line-height: 1.7;
+  	padding: 1em;
+  	/*margin: auto;*/
+  	max-width: 42em;
+  	background: #ffffff;
+  }
+  
+  a {
+  	color: #0088cc;
+  	text-decoration: none;
+  }
+  
+  a:visited {
+  	color: #0088cc;
+  }
+  
+  a:hover {
+  	color: #005580;
+  }
+  
+  a:active {
+  	color: #005580;
+  }
+  
+  a:focus {
+  	outline: thin dotted;
+  }
+  
+  p {
+  	margin: 0 0 1em;
+  }
+  
+  img {
+  	max-width: 100%;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+  	line-height: 125%;
+  	margin-top: 2em;
+  	font-weight: normal;
+  }
+  
+  p,
+  h1, h2, h3 {
+  	orphans: 3;
+  	widows: 3;
+  }
+  
+  h1, h2, h3 {
+  	page-break-after: avoid;
+  }
+  
+  h4, h5, h6 {
+  	font-weight: bold;
+  }
+  
+  h1 {
+  	font-size: 2.5em;
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	padding-top: 0;
+  	padding-bottom: 0;
+  }
+  
+  h2 {
+  	font-size: 1.8em;
+  	margin-top: 0;
+  	padding-top: 0;
+  	page-break-before: always;
+  }
+  
+  h3 {
+  	font-size: 1.5em;
+  }
+  
+  h4 {
+  	font-size: 1.2em;
+  }
+  
+  h5 {
+  	font-size: 1em;
+  }
+  
+  h6 {
+  	font-size: 0.9em;
+  }
+  
+  blockquote {
+  	color: #666666;
+  	margin: 0;
+  	padding-left: 3em;
+  	page-break-inside: avoid;
+  	border-left: 0.5em #eee solid;
+  }
+  
+  hr {
+  	display: block;
+  	height: 2px;
+  	border: 0;
+  	border-top: 1px solid #aaa;
+  	border-bottom: 1px solid #eee;
+  	margin: 1em 0;
+  	padding: 0;
+  }
+  
+  pre, code, kbd, samp {
+  	color: #000;
+  	font-family: monospace, monospace;
+  	_font-family: 'courier new', monospace;
+  	font-size: 0.98em;
+  }
+  
+  pre {
+  	padding: 0 0 1em;
+  	page-break-inside: avoid !important;
+  	white-space: pre;
+  	white-space: pre-wrap !important;
+  	word-wrap: break-word;
+  }
+  
+  b, strong {
+  	font-weight: bold;
+  }
+  
+  dfn {
+  	font-style: italic;
+  }
+  
+  ins {
+  	background: #ff9;
+  	color: #000;
+  	text-decoration: none;
+  }
+  
+  mark {
+  	background: #ff0;
+  	color: #000;
+  	font-style: italic;
+  	font-weight: bold;
+  }
+  
+  sub, sup {
+  	font-size: 75%;
+  	line-height: 0;
+  	position: relative;
+  	vertical-align: baseline;
+  }
+  
+  sup {
+  	top: -0.5em;
+  }
+  
+  sub {
+  	bottom: -0.25em;
+  }
+  
+  ul, ol {
+  	margin: 1em 0;
+  	padding: 0 0 0 2em;
+  }
+  
+  li p:last-child {
+  	margin-bottom: 0;
+  }
+  
+  ul ul, ol ol {
+  	margin: .3em 0;
+  }
+  
+  dl {
+  	margin-bottom: 1em;
+  }
+  
+  dt {
+  	font-weight: bold;
+  	margin-bottom: .8em;
+  }
+  
+  dd {
+  	margin: 0 0 .8em 2em;
+  }
+  
+  dd:last-child {
+  	margin-bottom: 0;
+  }
+  
+  img {
+  	border: 0;
+  	-ms-interpolation-mode: bicubic;
+  	vertical-align: middle;
+  }
+  
+  figure {
+  	display: block;
+  	text-align: center;
+  	margin: 1em 0;
+  }
+  
+  figure img {
+  	border: none;
+  	margin: 0 auto;
+  }
+  
+  figcaption {
+  	font-size: 0.8em;
+  	font-style: italic;
+  	margin: 0 0 .8em;
+  }
+  
+  table {
+  	margin-bottom: 2em;
+  	border-bottom: 1px solid #ddd;
+  	border-right: 1px solid #ddd;
+  	border-spacing: 0;
+  	border-collapse: collapse;
+  }
+  
+  table th {
+  	padding: .2em 1em;
+  	background-color: #eee;
+  	border-top: 1px solid #ddd;
+  	border-left: 1px solid #ddd;
+  }
+  
+  table td {
+  	padding: .2em 1em;
+  	border-top: 1px solid #ddd;
+  	border-left: 1px solid #ddd;
+  	vertical-align: top;
+  }
+  
+  .meta {
+  	color: #666666;
+  	margin-bottom: 0;
+  }
+  
+  .author-img {
+  	border-radius: 50%;
+  	display: inline-block;
+  	height: 200px;
+  	width: 200px;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  
+  .break {
+  	page-break-before: always;
+  }
+  
+  @media print {
+  	* {
+  		background: transparent !important;
+  		color: black !important;
+  		filter: none !important;
+  		-ms-filter: none !important;
+  	}
+  
+  	body {
+  		font-size: 12pt;
+  		max-width: 100%;
+  	}
+  
+  	a, a:visited {
+  		text-decoration: underline;
+  	}
+  
+  	hr {
+  		height: 1px;
+  		border: 0;
+  		border-bottom: 1px solid black;
+  	}
+  
+  	a[href]:after {
+  		content: " (" attr(href) ")";
+  	}
+  
+  	abbr[title]:after {
+  		content: " (" attr(title) ")";
+  	}
+  
+  	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+  		content: "";
+  	}
+  
+  	pre, blockquote {
+  		border: 1px solid #999;
+  		padding-right: 1em;
+  	}
+  
+  	tr, img {
+  		page-break-inside: avoid;
+  	}
+  
+  	img {
+  		max-width: 100% !important;
+  	}
+  
+  	@page :left {
+  		margin: 15mm 20mm 15mm 10mm;
+  }
+  
+  	@page :right {
+  		margin: 15mm 10mm 15mm 20mm;
+  }
+  
+  /*	p, h2, h3 {
+  		orphans: 3;
+  		widows: 3;
+  	}
+  
+  	h2, h3 {
+  		page-break-after: avoid;
+  	}*/
+  }
+  body {
+  	margin: 0 auto;
+  }
+  
+  a {
+  	word-wrap: break-word;
+  }
+  
+  pre, code, kbd, samp {
+  	white-space: pre-wrap;
+  }
+  
+  code {
+  	word-wrap: break-word;
+  }
+  </style>
+</head>
+<body>
+<h1 id="ajaxhttp">Ajax/HTTP</h1>
+<p>By Chris Ferdinandi<br> Go Make Things, LLC<br> v2.0.0</p>
+<p>Copyright 2017 Chris Ferdinandi and Go Make Things, LLC. All Rights Reserved.</p>
+<div data-toc="">
+
+</div>
+<h2 id="intro">Intro</h2>
+<p>In this guide, you’ll learn:</p>
+<ul>
+<li>How to make HTTP requests.</li>
+<li>How to work around cross-domain scripting restrictions with JSONP.</li>
+<li>How to use a lightweight micro-library to make working with Ajax and HTTP easier.</li>
+<li>How to get and manipulate elements from another page and inject them into your site.</li>
+<li>How to put it all together and write a working project with Ajax.</li>
+</ul>
+<p>Let’s get started!</p>
+<h2 id="ajaxhttp-requests">Ajax/HTTP Requests</h2>
+<p>Ajax requests have really good browser support, but require a few steps and can be a bit tedious to write. In a later chapter, we’ll look at a lightweight micro-library that makes working with Ajax a lot easier. But first, let’s look at how to make Ajax requests without any help.</p>
+<p>It’s a three step process:</p>
+<ol style="list-style-type: decimal">
+<li>Setup our request by creating a new <code>XMLHttpRequest()</code>.</li>
+<li>Create an <code>onreadystatechange</code> callback to run when the request completes.</li>
+<li>Open and send our request.</li>
+</ol>
+<p>For testing purposes, we’ll pull data from JSON Placeholder<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, a site that provides real API endpoints with placeholder content.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Set up our HTTP request</span>
+<span class="kw">var</span> xhr <span class="op">=</span> <span class="kw">new</span> <span class="at">XMLHttpRequest</span>()<span class="op">;</span>
+
+<span class="co">// Setup our listener to process compeleted requests</span>
+<span class="va">xhr</span>.<span class="at">onreadystatechange</span> <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+    <span class="co">// Only run if the request is complete</span>
+    <span class="cf">if</span> ( <span class="va">xhr</span>.<span class="at">readyState</span> <span class="op">!==</span> <span class="dv">4</span> ) <span class="cf">return</span><span class="op">;</span>
+
+    <span class="co">// Process our return data</span>
+    <span class="cf">if</span> ( <span class="va">xhr</span>.<span class="at">status</span> <span class="op">===</span> <span class="dv">200</span> ) <span class="op">{</span>
+        <span class="co">// What do when the request is successful</span>
+        <span class="va">console</span>.<span class="at">log</span>( xhr )<span class="op">;</span>
+    <span class="op">}</span> <span class="cf">else</span> <span class="op">{</span>
+        <span class="co">// What do when the request fails</span>
+        <span class="va">console</span>.<span class="at">log</span>(<span class="st">&#39;The request failed!&#39;</span>)<span class="op">;</span>
+    <span class="op">}</span>
+
+    <span class="co">// Code that should run regardless of the request status</span>
+    <span class="va">console</span>.<span class="at">log</span>(<span class="st">&#39;This always runs...&#39;</span>)<span class="op">;</span>
+<span class="op">};</span>
+
+<span class="co">// Create and send a GET request</span>
+<span class="co">// The first argument is the post type (GET, POST, PUT, DELETE, etc.)</span>
+<span class="co">// The second argument is the endpoint URL</span>
+<span class="va">xhr</span>.<span class="at">open</span>( <span class="st">&#39;GET&#39;</span><span class="op">,</span> <span class="st">&#39;https://jsonplaceholder.typicode.com/posts&#39;</span> )<span class="op">;</span>
+<span class="va">xhr</span>.<span class="at">send</span>()<span class="op">;</span></code></pre></div>
+<h3 id="browser-compatibility">Browser Compatibility</h3>
+<p>Works in all modern browsers, and IE7 and above.</p>
+<h2 id="jsonp">JSONP</h2>
+<p>For security reasons, you cannot load JSON files that reside on a different server. JSONP is a way to get around this issue. Sitepoint explains:<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></p>
+<blockquote>
+<p>JSONP (which stands for JSON with Padding) builds on this technique and provides us with a way to access the returned data. It does this by having the server return JSON data wrapped in a function call (the “padding”) which can then be interpreted by the browser.</p>
+</blockquote>
+<p>With JSONP, you need to use a global callback function to actually do something with the data you get. When you request your JSON data, you pass in that callback as an argument on the URL (via a query string like this: <code>?callback=myCallbackFunctionName</code>). When the data loads, it runs the callback function.</p>
+<p><code>getJSONP</code> is a helper function I wrote to handle JSONP requests. Pass in your URL endpoint as the first argument, and your callback function name (as a string) as the second argument.</p>
+<p>For testing purposes, we’re using JSFiddle’s Echo service<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> in the example below.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">/**</span>
+<span class="co"> * Get JSONP data</span>
+<span class="co"> * </span><span class="kw">@param</span><span class="co">  </span><span class="kw">{String}</span><span class="co">   url      The JSON URL</span>
+<span class="co"> * </span><span class="kw">@param</span><span class="co">  </span><span class="kw">{Function}</span><span class="co"> callback The function to run after JSONP data loaded</span>
+<span class="co"> */</span>
+<span class="kw">var</span> getJSONP <span class="op">=</span> <span class="kw">function</span> ( url<span class="op">,</span> callback ) <span class="op">{</span>
+
+    <span class="co">// Create script with url and callback (if specified)</span>
+    <span class="kw">var</span> ref <span class="op">=</span> <span class="va">window</span>.<span class="va">document</span>.<span class="at">getElementsByTagName</span>( <span class="st">&#39;script&#39;</span> )[ <span class="dv">0</span> ]<span class="op">;</span>
+    <span class="kw">var</span> script <span class="op">=</span> <span class="va">window</span>.<span class="va">document</span>.<span class="at">createElement</span>( <span class="st">&#39;script&#39;</span> )<span class="op">;</span>
+    <span class="va">script</span>.<span class="at">src</span> <span class="op">=</span> url <span class="op">+</span> (<span class="va">url</span>.<span class="at">indexOf</span>( <span class="st">&#39;?&#39;</span> ) <span class="op">+</span> <span class="dv">1</span> <span class="op">?</span> <span class="st">&#39;&amp;&#39;</span> : <span class="st">&#39;?&#39;</span>) <span class="op">+</span> <span class="st">&#39;callback=&#39;</span> <span class="op">+</span> callback<span class="op">;</span>
+
+    <span class="co">// Insert script tag into the DOM (append to &lt;head&gt;)</span>
+    <span class="va">ref</span>.<span class="va">parentNode</span>.<span class="at">insertBefore</span>( script<span class="op">,</span> ref )<span class="op">;</span>
+
+    <span class="co">// After the script is loaded (and executed), remove it</span>
+    <span class="va">script</span>.<span class="at">onload</span> <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+        <span class="kw">this</span>.<span class="at">remove</span>()<span class="op">;</span>
+    <span class="op">};</span>
+
+<span class="op">};</span>
+
+<span class="co">// Example</span>
+<span class="kw">var</span> logAPI <span class="op">=</span> <span class="kw">function</span> ( data ) <span class="op">{</span>
+    <span class="va">console</span>.<span class="at">log</span>( data )<span class="op">;</span>
+<span class="op">}</span>
+
+<span class="at">getJSONP</span>( <span class="st">&#39;http://jsfiddle.net/echo/jsonp/?text=something&amp;par1=another&amp;par2=one-more&#39;</span><span class="op">,</span> <span class="st">&#39;logAPI&#39;</span> )<span class="op">;</span></code></pre></div>
+<h3 id="browser-compatibility-1">Browser Compatibility</h3>
+<p>Works in all modern browsers, and IE6 and above.</p>
+<h2 id="a-helper-library">A Helper Library</h2>
+<p>Atomic<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a> is an insanely useful Ajax/HTTP micro-library originally created by Todd Motto<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a> and now managed by me. It weighs just 1.5kb minified, and makes working with Ajax/HTTP and JSONP absurdly easy.</p>
+<p>You initiate an Ajax request by calling <code>atomic.ajax()</code>, and pass in your options as a JavaScript object.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="va">atomic</span>.<span class="at">ajax</span>(<span class="op">{</span>
+    <span class="dt">type</span><span class="op">:</span> <span class="st">&#39;GET&#39;</span><span class="op">,</span> <span class="co">// This is the default</span>
+    <span class="dt">url</span><span class="op">:</span> <span class="st">&#39;https://jsonplaceholder.typicode.com/posts&#39;</span>
+<span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<p>Atomic uses chained <code>.success()</code>, <code>.error()</code>, and <code>.always()</code> methods to run callbacks when the Ajax call is successful, fails, and either way, respectively.</p>
+<p>You can pass two arguments into your callback. <code>data</code> is returned data, converted into a JSON object is applicable. <code>xhr</code> is the full request, including the response text, URL, status code, and so on.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// GET</span>
+<span class="va">atomic</span>.<span class="at">ajax</span>(<span class="op">{</span>
+    <span class="dt">url</span><span class="op">:</span> <span class="st">&#39;https://jsonplaceholder.typicode.com/posts&#39;</span>
+<span class="op">}</span>)
+    .<span class="at">success</span>(<span class="kw">function</span> (data<span class="op">,</span> xhr) <span class="op">{</span>
+        <span class="co">// What do when the request is successful</span>
+        <span class="va">console</span>.<span class="at">log</span>(data)<span class="op">;</span>
+        <span class="va">console</span>.<span class="at">log</span>(xhr)<span class="op">;</span>
+    <span class="op">}</span>)
+    .<span class="at">error</span>(<span class="kw">function</span> () <span class="op">{</span>
+        <span class="co">// What do when the request fails</span>
+    <span class="op">}</span>)
+    .<span class="at">always</span>(<span class="kw">function</span> (data<span class="op">,</span> xhr) <span class="op">{</span>
+        <span class="co">// Code that should run regardless of the request status</span>
+    <span class="op">}</span>)<span class="op">;</span>
+
+
+<span class="co">// POST</span>
+<span class="va">atomic</span>.<span class="at">ajax</span>(<span class="op">{</span>
+    <span class="dt">type</span><span class="op">:</span> <span class="st">&#39;POST&#39;</span><span class="op">,</span>
+    <span class="dt">url</span><span class="op">:</span> <span class="st">&#39;https://jsonplaceholder.typicode.com/posts&#39;</span><span class="op">,</span>
+    <span class="dt">data</span><span class="op">:</span> <span class="op">{</span>
+        <span class="dt">title</span><span class="op">:</span> <span class="st">&#39;foo&#39;</span><span class="op">,</span>
+        <span class="dt">body</span><span class="op">:</span> <span class="st">&#39;bar&#39;</span><span class="op">,</span>
+        <span class="dt">userId</span><span class="op">:</span> <span class="dv">1</span>
+    <span class="op">}</span>
+<span class="op">}</span>)
+    .<span class="at">success</span>(<span class="kw">function</span> (data<span class="op">,</span> xhr) <span class="op">{</span>
+        <span class="co">// What do when the request is successful</span>
+        <span class="va">console</span>.<span class="at">log</span>(data)<span class="op">;</span>
+        <span class="va">console</span>.<span class="at">log</span>(xhr)<span class="op">;</span>
+    <span class="op">}</span>)
+    .<span class="at">error</span>(<span class="kw">function</span> () <span class="op">{</span>
+        <span class="co">// What do when the request fails</span>
+    <span class="op">}</span>)
+    .<span class="at">always</span>(<span class="kw">function</span> (data<span class="op">,</span> xhr) <span class="op">{</span>
+        <span class="co">// Code that should run regardless of the request status</span>
+    <span class="op">}</span>)<span class="op">;</span>
+
+
+<span class="co">// JSONP</span>
+
+<span class="kw">var</span> myCallback <span class="op">=</span> <span class="kw">function</span> (data) <span class="op">{</span>
+    <span class="va">console</span>.<span class="at">log</span>(data)<span class="op">;</span>
+<span class="op">};</span>
+
+<span class="va">atomic</span>.<span class="at">ajax</span>(<span class="op">{</span>
+    <span class="dt">type</span><span class="op">:</span> <span class="st">&#39;JSONP&#39;</span><span class="op">,</span>
+    <span class="dt">url</span><span class="op">:</span> <span class="st">&#39;https://jsfiddle.net/echo/jsonp/&#39;</span><span class="op">,</span>
+    <span class="dt">callback</span><span class="op">:</span> <span class="st">&#39;myCallback&#39;</span><span class="op">,</span>
+    <span class="dt">data</span><span class="op">:</span> <span class="op">{</span>
+        <span class="dt">text</span><span class="op">:</span> <span class="st">&#39;something&#39;</span><span class="op">,</span>
+        <span class="dt">par1</span><span class="op">:</span> <span class="st">&#39;another&#39;</span><span class="op">,</span>
+        <span class="dt">par2</span><span class="op">:</span> <span class="st">&#39;one-more&#39;</span><span class="op">,</span>
+        <span class="dt">bool</span><span class="op">:</span> <span class="kw">true</span>
+    <span class="op">}</span>
+<span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<h3 id="browser-compatibility-2">Browser Compatibility</h3>
+<p>Works in all modern browsers, and IE8 and above.</p>
+<h2 id="working-with-html">Working with HTML</h2>
+<p>How to asynchronously get HTML from another page.</p>
+<h3 id="getting-the-html">Getting the HTML</h3>
+<p>You may want to use Ajax to asynchronously get HTML from another page and load it on the current one. To do this, we just need to change the <code>responseType</code> of our <code>XMLHttpRequest()</code> from it’s default (<code>text</code>) to <code>document</code>.</p>
+<h4 id="hand-coded">Hand-Coded</h4>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> xhr <span class="op">=</span> <span class="kw">new</span> <span class="at">XMLHttpRequest</span>()<span class="op">;</span>
+
+<span class="co">// Setup our listener to process compeleted requests</span>
+<span class="va">xhr</span>.<span class="at">onreadystatechange</span> <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+    <span class="co">// Do something...</span>
+<span class="op">};</span>
+
+<span class="co">// Create and send a GET request</span>
+<span class="va">xhr</span>.<span class="at">open</span>( <span class="st">&#39;GET&#39;</span><span class="op">,</span> <span class="st">&#39;/page-url&#39;</span> )<span class="op">;</span>
+<span class="va">xhr</span>.<span class="at">responseType</span> <span class="op">=</span> <span class="st">&#39;document&#39;</span>
+<span class="va">xhr</span>.<span class="at">send</span>()<span class="op">;</span></code></pre></div>
+<h4 id="with-atomic">With Atomic</h4>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="va">atomic</span>.<span class="at">ajax</span>(<span class="op">{</span>
+    <span class="dt">url</span><span class="op">:</span> <span class="st">&#39;/about/&#39;</span><span class="op">,</span>
+    <span class="dt">responseType</span><span class="op">:</span> <span class="st">&#39;document&#39;</span>
+<span class="op">}</span>)
+    .<span class="at">success</span>(<span class="kw">function</span> (data<span class="op">,</span> xhr) <span class="op">{</span>
+        <span class="co">// Do something...</span>
+    <span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<h3 id="replacing-the-entire-page">Replacing the entire page</h3>
+<p>To replace the entire page with our new HTML, we’ll use <code>innerHTML</code> to replace the markup inside our <code>body</code> element.</p>
+<h4 id="hand-coded-1">Hand-Coded</h4>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> xhr <span class="op">=</span> <span class="kw">new</span> <span class="at">XMLHttpRequest</span>()<span class="op">;</span>
+
+<span class="co">// Setup our listener to process compeleted requests</span>
+<span class="va">xhr</span>.<span class="at">onreadystatechange</span> <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+    <span class="co">// Only run if the request is complete</span>
+    <span class="cf">if</span> ( <span class="va">xhr</span>.<span class="at">readyState</span> <span class="op">!==</span> <span class="dv">4</span> ) <span class="cf">return</span><span class="op">;</span>
+
+    <span class="co">// If successful, replace the page content</span>
+    <span class="cf">if</span> ( <span class="va">xhr</span>.<span class="at">status</span> <span class="op">===</span> <span class="dv">200</span> ) <span class="op">{</span>
+        <span class="va">document</span>.<span class="va">body</span>.<span class="at">innerHTML</span> <span class="op">=</span> <span class="va">xhr</span>.<span class="va">response</span>.<span class="va">body</span>.<span class="at">innerHTML</span><span class="op">;</span>
+    <span class="op">}</span>
+<span class="op">};</span>
+
+<span class="co">// Create and send a GET request</span>
+<span class="va">xhr</span>.<span class="at">open</span>( <span class="st">&#39;GET&#39;</span><span class="op">,</span> <span class="st">&#39;/page-url&#39;</span> )<span class="op">;</span>
+<span class="va">xhr</span>.<span class="at">responseType</span> <span class="op">=</span> <span class="st">&#39;document&#39;</span>
+<span class="va">xhr</span>.<span class="at">send</span>()<span class="op">;</span></code></pre></div>
+<h4 id="with-atomic-1">With Atomic</h4>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="va">atomic</span>.<span class="at">ajax</span>(<span class="op">{</span>
+    <span class="dt">url</span><span class="op">:</span> <span class="st">&#39;/about/&#39;</span><span class="op">,</span>
+    <span class="dt">responseType</span><span class="op">:</span> <span class="st">&#39;document&#39;</span>
+<span class="op">}</span>)
+    .<span class="at">success</span>(<span class="kw">function</span> (data<span class="op">,</span> xhr) <span class="op">{</span>
+        <span class="va">document</span>.<span class="va">body</span>.<span class="at">innerHTML</span> <span class="op">=</span> <span class="va">data</span>.<span class="va">body</span>.<span class="at">innerHTML</span><span class="op">;</span>
+    <span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<h3 id="adding-an-element-to-the-page">Adding an element to the page</h3>
+<p>Want to grab content from another page and selectively insert it into the current one? We can do that by using <code>querySelector</code> to get our content, and <code>insertBefore</code> to add it to the document.</p>
+<h4 id="hand-coded-2">Hand-Coded</h4>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> xhr <span class="op">=</span> <span class="kw">new</span> <span class="at">XMLHttpRequest</span>()<span class="op">;</span>
+
+<span class="co">// Setup our listener to process compeleted requests</span>
+<span class="va">xhr</span>.<span class="at">onreadystatechange</span> <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
+    <span class="co">// Only run if the request is complete</span>
+    <span class="cf">if</span> ( <span class="va">xhr</span>.<span class="at">readyState</span> <span class="op">!==</span> <span class="dv">4</span> ) <span class="cf">return</span><span class="op">;</span>
+
+    <span class="co">// If successful, replace the page content</span>
+    <span class="cf">if</span> ( <span class="va">xhr</span>.<span class="at">status</span> <span class="op">===</span> <span class="dv">200</span> ) <span class="op">{</span>
+        <span class="co">// Get our element</span>
+        <span class="kw">var</span> elem <span class="op">=</span> <span class="va">xhr</span>.<span class="va">response</span>.<span class="at">querySelector</span>(<span class="st">&#39;.some-selector&#39;</span>)<span class="op">;</span>
+
+        <span class="co">// Get the element to insert it before or after</span>
+        <span class="kw">var</span> target <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>(<span class="st">&#39;#target-location-selector&#39;</span>)<span class="op">;</span>
+
+        <span class="co">// Insert it before the target</span>
+        <span class="va">target</span>.<span class="va">parentNode</span>.<span class="at">insertBefore</span>(elem<span class="op">,</span> target)<span class="op">;</span>
+
+        <span class="co">// OR, insert it after the target</span>
+        <span class="va">target</span>.<span class="va">parentNode</span>.<span class="at">insertBefore</span>(elem<span class="op">,</span> <span class="va">target</span>.<span class="at">nextSibling</span>)<span class="op">;</span>
+    <span class="op">}</span>
+<span class="op">};</span>
+
+<span class="co">// Create and send a GET request</span>
+<span class="va">xhr</span>.<span class="at">open</span>( <span class="st">&#39;GET&#39;</span><span class="op">,</span> <span class="st">&#39;/page-url&#39;</span> )<span class="op">;</span>
+<span class="va">xhr</span>.<span class="at">responseType</span> <span class="op">=</span> <span class="st">&#39;document&#39;</span>
+<span class="va">xhr</span>.<span class="at">send</span>()<span class="op">;</span></code></pre></div>
+<h4 id="with-atomic-2">With Atomic</h4>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="va">atomic</span>.<span class="at">ajax</span>(<span class="op">{</span>
+    <span class="dt">url</span><span class="op">:</span> <span class="st">&#39;/about/&#39;</span><span class="op">,</span>
+    <span class="dt">responseType</span><span class="op">:</span> <span class="st">&#39;document&#39;</span>
+<span class="op">}</span>)
+    .<span class="at">success</span>(<span class="kw">function</span> (data<span class="op">,</span> xhr) <span class="op">{</span>
+        <span class="va">document</span>.<span class="va">body</span>.<span class="at">innerHTML</span> <span class="op">=</span> <span class="va">data</span>.<span class="va">body</span>.<span class="at">innerHTML</span><span class="op">;</span>
+
+        <span class="co">// Get our element</span>
+        <span class="kw">var</span> elem <span class="op">=</span> <span class="va">data</span>.<span class="at">querySelector</span>(<span class="st">&#39;.some-selector&#39;</span>)<span class="op">;</span>
+
+        <span class="co">// Get the element to insert it before or after</span>
+        <span class="kw">var</span> target <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>(<span class="st">&#39;#target-location-selector&#39;</span>)<span class="op">;</span>
+
+        <span class="co">// Insert it before the target</span>
+        <span class="va">target</span>.<span class="va">parentNode</span>.<span class="at">insertBefore</span>(elem<span class="op">,</span> target)<span class="op">;</span>
+
+        <span class="co">// OR, insert it after the target</span>
+        <span class="va">target</span>.<span class="va">parentNode</span>.<span class="at">insertBefore</span>(elem<span class="op">,</span> <span class="va">target</span>.<span class="at">nextSibling</span>)<span class="op">;</span>
+    <span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<h2 id="putting-it-all-together">Putting it all together</h2>
+<p>To make this all tangible, let’s work on a project together. We’ll build a photo gallery using the Photos endpoint on JSONPlaceholder.</p>
+<p>The starter template and complete project code are included in the source code<a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a> on GitHub.</p>
+<h3 id="getting-setup">Getting Setup</h3>
+<h4 id="css">CSS</h4>
+<p>To get started, we need some lightweight CSS.</p>
+<p>We should add <code>box-sizing: border-box;</code> to everything to make sure our padding is rendered consistently. We also want to apply a <code>max-width</code> of <code>100%</code> to our images to make sure they’re responsive.</p>
+<p>Finally, we’ll create a simple grid system. Our <code>.row</code> class creates a container for our grids and clears any floats. A <code>&lt;div&gt;</code> with the <code>.grid</code> class will go around each image. On small screens it’s 100% of the width of the page, but on larger viewports, each image will span a fourth of the page.</p>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css"><span class="co">/**</span>
+<span class="co"> * Add box sizing to everything</span>
+<span class="co"> * @link http://www.paulirish.com/2012/box-sizing-border-box-ftw/</span>
+<span class="co"> */</span>
+*,
+*<span class="dv">:before</span>,
+*<span class="dv">:after</span> <span class="kw">{</span>
+    <span class="kw">box-sizing:</span> <span class="dt">border-box</span><span class="kw">;</span>
+<span class="kw">}</span>
+
+img <span class="kw">{</span>
+    <span class="kw">height:</span> <span class="dt">auto</span><span class="kw">;</span>
+    <span class="kw">max-width:</span> <span class="dt">100%</span><span class="kw">;</span>
+<span class="kw">}</span>
+
+<span class="fl">.row</span> <span class="kw">{</span>
+    <span class="kw">margin-left:</span> <span class="dt">-1.4%</span><span class="kw">;</span>
+    <span class="kw">margin-right:</span> <span class="dt">-1.4%</span><span class="kw">;</span>
+<span class="kw">}</span>
+
+<span class="fl">.row</span><span class="dv">:before</span>,
+<span class="fl">.row</span><span class="dv">:after</span> <span class="kw">{</span>
+    <span class="kw">display:</span> <span class="dt">table</span><span class="kw">;</span>
+    <span class="kw">content:</span> <span class="st">&quot; &quot;</span><span class="kw">;</span>
+<span class="kw">}</span>
+
+<span class="fl">.row</span><span class="dv">:after</span> <span class="kw">{</span>
+    <span class="kw">clear:</span> <span class="dt">both</span><span class="kw">;</span>
+<span class="kw">}</span>
+
+<span class="fl">.grid</span> <span class="kw">{</span>
+    <span class="kw">float:</span> <span class="dt">left</span><span class="kw">;</span>
+    <span class="kw">padding-left:</span> <span class="dt">1.4%</span><span class="kw">;</span>
+    <span class="kw">padding-right:</span> <span class="dt">1.4%</span><span class="kw">;</span>
+    <span class="kw">width:</span> <span class="dt">100%</span><span class="kw">;</span>
+<span class="kw">}</span>
+
+<span class="dv">@media</span> <span class="dv">(min-width: </span><span class="dt">20em</span><span class="dv">)</span> <span class="dv">{</span>
+    <span class="fl">.grid</span> <span class="kw">{</span>
+        <span class="kw">width:</span> <span class="dt">25%</span><span class="kw">;</span>
+    <span class="kw">}</span>
+<span class="dv">}</span></code></pre></div>
+<h4 id="markup">Markup</h4>
+<p>For body content, I’ve added a single, empty <code>&lt;div&gt;</code> with an ID that we’ll hook into to inject our content once we get it from the API.</p>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;div</span><span class="ot"> id=</span><span class="st">&quot;gallery&quot;</span><span class="kw">&gt;&lt;/div&gt;</span></code></pre></div>
+<h4 id="javascript">JavaScript</h4>
+<p>First, let’s include Atomic to make life a little easier. Then, let’s setup a basic Ajax GET request with the JSONPlaceholder Photos endpoint.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="va">atomic</span>.<span class="at">ajax</span>(<span class="op">{</span>
+    <span class="dt">url</span><span class="op">:</span> <span class="st">&#39;https://jsonplaceholder.typicode.com/photos&#39;</span>
+<span class="op">}</span>)
+    .<span class="at">success</span>(<span class="kw">function</span> (data) <span class="op">{</span>
+        <span class="co">// What do when the request is successful</span>
+    <span class="op">}</span>)
+    .<span class="at">error</span>(<span class="kw">function</span> () <span class="op">{</span>
+        <span class="co">// What do when the request fails</span>
+    <span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<p>Now we can start working with our data.</p>
+<h3 id="see-what-data-the-api-returns">See what data the API returns</h3>
+<p>First, let’s see what data gets returned from the API.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="va">atomic</span>.<span class="at">ajax</span>(<span class="op">{</span>
+    <span class="dt">url</span><span class="op">:</span> <span class="st">&#39;https://jsonplaceholder.typicode.com/photos&#39;</span>
+<span class="op">}</span>)
+    .<span class="at">success</span>(<span class="kw">function</span> (data) <span class="op">{</span>
+        <span class="va">console</span>.<span class="at">log</span>(data)<span class="op">;</span>
+    <span class="op">}</span>)
+    .<span class="at">error</span>(<span class="kw">function</span> () <span class="op">{</span>
+        <span class="co">// What do when the request fails</span>
+    <span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<p>If you view the console tab in developer tools, you’ll see a 5000 items returned (wow!). Each one includes the following information as a JSON object:</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="op">{</span>
+    <span class="dt">albumId</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span>
+    <span class="dt">id</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span>
+    <span class="dt">thumbnailUrl</span><span class="op">:</span> <span class="st">&#39;http://someurl.com&#39;</span><span class="op">,</span>
+    <span class="dt">title</span><span class="op">:</span> <span class="st">&#39;The image title or description&#39;</span><span class="op">,</span>
+    <span class="dt">url</span><span class="op">:</span> <span class="st">&#39;http://someurl.com&#39;</span>
+<span class="op">}</span></code></pre></div>
+<p>Now that we know the data structure, we can use it to create our markup.</p>
+<h3 id="create-the-markup">Create the markup</h3>
+<p>First, let’s setup our variables. We want to get our <code>#gallery</code> container, and create a placeholder for the HTML content we’re going to create.</p>
+<p>We also want to make sure the <code>#gallery</code> was found. If not, we’ll bail.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="va">atomic</span>.<span class="at">ajax</span>(<span class="op">{</span>
+    <span class="dt">url</span><span class="op">:</span> <span class="st">&#39;https://jsonplaceholder.typicode.com/photos&#39;</span>
+<span class="op">}</span>)
+    .<span class="at">success</span>(<span class="kw">function</span> (data) <span class="op">{</span>
+        <span class="co">// Variables</span>
+        <span class="kw">var</span> gallery <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>(<span class="st">&#39;#gallery&#39;</span>)<span class="op">;</span>
+        <span class="kw">var</span> content <span class="op">=</span> <span class="st">&#39;&#39;</span><span class="op">;</span>
+        <span class="cf">if</span> (<span class="op">!</span>gallery) <span class="cf">return</span><span class="op">;</span>
+    <span class="op">}</span>)
+    .<span class="at">error</span>(<span class="kw">function</span> () <span class="op">{</span>
+        <span class="co">// What do when the request fails</span>
+    <span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<p>Next, we want to loop through each item in our <code>data</code> return with a <code>for</code> loop and generate some markup from it.</p>
+<p>We’ll append each new set of markup to our <code>content</code> string by using <code>+=</code>. This is a shorthand for <code>content = content + 'new string'</code>.</p>
+<p>We’ll wrap each set of content in a <code>&lt;div class=&quot;grid&quot;&gt;</code>. Inside, we’ll add the thumbnail image, and wrap it in a link that points to the fullsized version.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="va">atomic</span>.<span class="at">ajax</span>(<span class="op">{</span>
+    <span class="dt">url</span><span class="op">:</span> <span class="st">&#39;https://jsonplaceholder.typicode.com/photos&#39;</span>
+<span class="op">}</span>)
+    .<span class="at">success</span>(<span class="kw">function</span> (data) <span class="op">{</span>
+        <span class="co">// Variables</span>
+        <span class="kw">var</span> gallery <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>(<span class="st">&#39;#gallery&#39;</span>)<span class="op">;</span>
+        <span class="kw">var</span> content <span class="op">=</span> <span class="st">&#39;&#39;</span><span class="op">;</span>
+        <span class="cf">if</span> (<span class="op">!</span>gallery) <span class="cf">return</span><span class="op">;</span>
+
+        <span class="co">// Loop through the data and generate our markup</span>
+        <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">data</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+            content <span class="op">+=</span>
+                <span class="st">&#39;&lt;div class=&quot;grid&quot;&gt;&#39;</span> <span class="op">+</span>
+                    <span class="st">&#39;&lt;a href=&quot;&quot;&gt;&#39;</span> <span class="op">+</span>
+                        <span class="st">&#39;&lt;img alt=&quot;&quot; src=&quot;&quot;&gt;&#39;</span> <span class="op">+</span>
+                    <span class="st">&#39;&lt;/a&gt;&#39;</span> <span class="op">+</span>
+                <span class="st">&#39;&lt;/div&gt;&#39;</span><span class="op">;</span>
+        <span class="op">}</span>
+    <span class="op">}</span>)
+    .<span class="at">error</span>(<span class="kw">function</span> () <span class="op">{</span>
+        <span class="co">// What do when the request fails</span>
+    <span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<p>Now that we’ve got our structure, can add our actual API data to it. We’ll use <code>data[i]</code> to grab the current item in the loop, and then reference the applicable items in the JSON object.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="va">atomic</span>.<span class="at">ajax</span>(<span class="op">{</span>
+    <span class="dt">url</span><span class="op">:</span> <span class="st">&#39;https://jsonplaceholder.typicode.com/photos&#39;</span>
+<span class="op">}</span>)
+    .<span class="at">success</span>(<span class="kw">function</span> (data) <span class="op">{</span>
+        <span class="co">// Variables</span>
+        <span class="kw">var</span> gallery <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>(<span class="st">&#39;#gallery&#39;</span>)<span class="op">;</span>
+        <span class="kw">var</span> content <span class="op">=</span> <span class="st">&#39;&#39;</span><span class="op">;</span>
+        <span class="cf">if</span> (<span class="op">!</span>gallery) <span class="cf">return</span><span class="op">;</span>
+
+        <span class="co">// Loop through the data and generate our markup</span>
+        <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">data</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+            content <span class="op">+=</span>
+                <span class="st">&#39;&lt;div class=&quot;grid&quot;&gt;&#39;</span> <span class="op">+</span>
+                    <span class="st">&#39;&lt;a href=&quot;&#39;</span> <span class="op">+</span> data[i].<span class="at">url</span> <span class="op">+</span> <span class="st">&#39;&quot;&gt;&#39;</span> <span class="op">+</span>
+                        <span class="st">&#39;&lt;img alt=&quot;&#39;</span> <span class="op">+</span> data[i].<span class="at">title</span> <span class="op">+</span> <span class="st">&#39;&quot; src=&quot;&#39;</span> <span class="op">+</span> data[i].<span class="at">thumbnailUrl</span> <span class="op">+</span> <span class="st">&#39;&quot;&gt;&#39;</span> <span class="op">+</span>
+                    <span class="st">&#39;&lt;/a&gt;&#39;</span> <span class="op">+</span>
+                <span class="st">&#39;&lt;/div&gt;&#39;</span><span class="op">;</span>
+        <span class="op">}</span>
+    <span class="op">}</span>)
+    .<span class="at">error</span>(<span class="kw">function</span> () <span class="op">{</span>
+        <span class="co">// What do when the request fails</span>
+    <span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<h3 id="inject-our-markup-into-the-dom">Inject our markup into the DOM</h3>
+<p>Now that we’ve got our markup, we want to inject it into the DOM. We’ll use <code>innerHTML</code> to do that, wrapping our <code>content</code> variable in a <code>&lt;div&gt;</code> with the <code>.row</code> class.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="va">atomic</span>.<span class="at">ajax</span>(<span class="op">{</span>
+    <span class="dt">url</span><span class="op">:</span> <span class="st">&#39;https://jsonplaceholder.typicode.com/photos&#39;</span>
+<span class="op">}</span>)
+    .<span class="at">success</span>(<span class="kw">function</span> (data) <span class="op">{</span>
+        <span class="co">// Variables</span>
+        <span class="kw">var</span> gallery <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>(<span class="st">&#39;#gallery&#39;</span>)<span class="op">;</span>
+        <span class="kw">var</span> content <span class="op">=</span> <span class="st">&#39;&#39;</span><span class="op">;</span>
+        <span class="cf">if</span> (<span class="op">!</span>gallery) <span class="cf">return</span><span class="op">;</span>
+
+        <span class="co">// Loop through the data and generate our markup</span>
+        <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">data</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+            content <span class="op">+=</span>
+                <span class="st">&#39;&lt;div class=&quot;grid&quot;&gt;&#39;</span> <span class="op">+</span>
+                    <span class="st">&#39;&lt;a href=&quot;&#39;</span> <span class="op">+</span> data[i].<span class="at">url</span> <span class="op">+</span> <span class="st">&#39;&quot;&gt;&#39;</span> <span class="op">+</span>
+                        <span class="st">&#39;&lt;img alt=&quot;&#39;</span> <span class="op">+</span> data[i].<span class="at">title</span> <span class="op">+</span> <span class="st">&#39;&quot; src=&quot;&#39;</span> <span class="op">+</span> data[i].<span class="at">thumbnailUrl</span> <span class="op">+</span> <span class="st">&#39;&quot;&gt;&#39;</span> <span class="op">+</span>
+                    <span class="st">&#39;&lt;/a&gt;&#39;</span> <span class="op">+</span>
+                <span class="st">&#39;&lt;/div&gt;&#39;</span><span class="op">;</span>
+        <span class="op">}</span>
+
+        <span class="co">// Inject our content into the DOM</span>
+        <span class="va">gallery</span>.<span class="at">innerHTML</span> <span class="op">=</span> <span class="st">&#39;&lt;div class=&quot;row&quot;&gt;&#39;</span> <span class="op">+</span> content <span class="op">+</span> <span class="st">&#39;&lt;/div&gt;&#39;</span><span class="op">;</span>
+    <span class="op">}</span>)
+    .<span class="at">error</span>(<span class="kw">function</span> () <span class="op">{</span>
+        <span class="co">// What do when the request fails</span>
+    <span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<p>We now have our image gallery loaded into the DOM from API content we’ve fetched with Ajax!</p>
+<h3 id="the-finishing-touches">The finishing touches</h3>
+<p>There’s just two things left to do.</p>
+<p>First, let’s add a <code>Loading...</code> placeholder to our <code>#gallery</code> div so that something is displayed on the page while we’re waiting for our API data to come back. You could also include a spinner or any other loading indicator you’d prefer.</p>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;div</span><span class="ot"> id=</span><span class="st">&quot;gallery&quot;</span><span class="kw">&gt;</span>
+    <span class="kw">&lt;p&gt;</span>Loading...<span class="kw">&lt;/p&gt;</span>
+<span class="kw">&lt;/div&gt;</span></code></pre></div>
+<p>Next, let’s add a message in our <code>.error()</code> callback that we can display if the API call fails.</p>
+<p>We’ll again get the <code>#gallery</code> and make sure it exists. Then we’ll use <code>innerHTML</code> to add a message to it.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="va">atomic</span>.<span class="at">ajax</span>(<span class="op">{</span>
+    <span class="dt">url</span><span class="op">:</span> <span class="st">&#39;https://jsonplaceholder.typicode.com/photos&#39;</span>
+<span class="op">}</span>)
+    .<span class="at">success</span>(<span class="kw">function</span> (data) <span class="op">{</span>
+        <span class="co">// Variables</span>
+        <span class="kw">var</span> gallery <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>(<span class="st">&#39;#gallery&#39;</span>)<span class="op">;</span>
+        <span class="kw">var</span> content <span class="op">=</span> <span class="st">&#39;&#39;</span><span class="op">;</span>
+        <span class="cf">if</span> (<span class="op">!</span>gallery) <span class="cf">return</span><span class="op">;</span>
+
+        <span class="co">// Loop through the data and generate our markup</span>
+        <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">data</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+            content <span class="op">+=</span>
+                <span class="st">&#39;&lt;div class=&quot;grid&quot;&gt;&#39;</span> <span class="op">+</span>
+                    <span class="st">&#39;&lt;a href=&quot;&#39;</span> <span class="op">+</span> data[i].<span class="at">url</span> <span class="op">+</span> <span class="st">&#39;&quot;&gt;&#39;</span> <span class="op">+</span>
+                        <span class="st">&#39;&lt;img alt=&quot;&#39;</span> <span class="op">+</span> data[i].<span class="at">title</span> <span class="op">+</span> <span class="st">&#39;&quot; src=&quot;&#39;</span> <span class="op">+</span> data[i].<span class="at">thumbnailUrl</span> <span class="op">+</span> <span class="st">&#39;&quot;&gt;&#39;</span> <span class="op">+</span>
+                    <span class="st">&#39;&lt;/a&gt;&#39;</span> <span class="op">+</span>
+                <span class="st">&#39;&lt;/div&gt;&#39;</span><span class="op">;</span>
+        <span class="op">}</span>
+
+        <span class="co">// Inject our content into the DOM</span>
+        <span class="va">gallery</span>.<span class="at">innerHTML</span> <span class="op">=</span> <span class="st">&#39;&lt;div class=&quot;row&quot;&gt;&#39;</span> <span class="op">+</span> content <span class="op">+</span> <span class="st">&#39;&lt;/div&gt;&#39;</span><span class="op">;</span>
+    <span class="op">}</span>)
+    .<span class="at">error</span>(<span class="kw">function</span> () <span class="op">{</span>
+        <span class="kw">var</span> gallery <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>(<span class="st">&#39;#gallery&#39;</span>)<span class="op">;</span>
+        <span class="cf">if</span> (<span class="op">!</span>gallery) <span class="cf">return</span><span class="op">;</span>
+        <span class="va">gallery</span>.<span class="at">innerHTML</span> <span class="op">=</span> <span class="st">&#39;&lt;p&gt;Sorry, we could not find any photos!&lt;/p&gt;&#39;</span><span class="op">;</span>
+    <span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<p>Congratulations! You just wrote an Ajax script with vanilla JavaScript.</p>
+<h2 id="about-the-author">About the Author</h2>
+<div class="figure">
+<img src="assets/img/chris-ferdinandi.jpg" class="author-img" />
+
+</div>
+<p>Hi, I’m Chris Ferdinandi. I help people learn JavaScript.</p>
+<p>I love pirates, puppies, and Pixar movies, and live near horse farms in rural Massachusetts. I run Go Make Things with Bailey Puppy, a lab-mix from Tennessee.</p>
+<p>You can find me:</p>
+<ul>
+<li>On my website at <a href="https://gomakethings.com">GoMakeThings.com</a>.</li>
+<li>By email at <script type="text/javascript">
+<!--
+h='&#x67;&#x6f;&#x6d;&#x61;&#x6b;&#x65;&#116;&#104;&#x69;&#110;&#x67;&#x73;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x63;&#104;&#114;&#x69;&#x73;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#x63;&#104;&#114;&#x69;&#x73;&#32;&#x61;&#116;&#32;&#x67;&#x6f;&#x6d;&#x61;&#x6b;&#x65;&#116;&#104;&#x69;&#110;&#x67;&#x73;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript>.</li>
+<li>On Twitter at <a href="https://twitter.com/ChrisFerdinandi"><span class="citation">@ChrisFerdinandi</span></a>.</li>
+</ul>
+<div class="break">
+
+</div>
+<script>
+    ;(function (window, document, undefined) {
+
+        'use strict';
+
+
+        // Feature test
+        var supports = 'querySelector' in document;
+        if ( !supports ) return;
+
+
+        //
+        // Variables
+        //
+
+
+        var headings = document.querySelectorAll( 'h2' ); // Headings
+        var toc = document.querySelector( '[data-toc]' ); // Table of contents container
+        var links = '';         // Placeholder variables
+
+        // Make sure headings and TOC container exist. Otherwise, bail.
+        if ( headings.length < 1 || !toc ) return;
+
+
+        //
+        // Methods
+        //
+
+        /**
+         * Give heading an ID if it's missing one
+         * @param  {Node} heading The heading
+         */
+        var createID = function ( heading ) {
+
+            // If the heading already has and ID, bail
+            if ( heading.id ) return;
+
+            // Otherwise, convert heading text to valid ID
+            // Regex pattern: http://stackoverflow.com/a/9635698/1293256
+            heading.id = heading.innerHTML.replace( /^[^a-z]+|[^\w:.-]+/gi, '_' ).toLowerCase();
+
+        };
+
+        /**
+         * Create the table of contents link
+         * @param  {Node} heading The heading
+         */
+        var createLink = function ( heading ) {
+            links += '<li><a href="#' + heading.id + '">' + heading.innerHTML + '</a></li>';
+        };
+
+
+        //
+        // Inits
+        //
+
+        // Create the links
+        for ( var i = 0; i < headings.length; i++ ) {
+            createID( headings[i] ); // If the heading has no ID, give it one
+            createLink( headings[i] ); // Create link
+        }
+
+        // Inject TOC into the DOM
+        toc.innerHTML = '<h2>Table of Contents</h2><ol>' + links + '</ol>';
+
+    })(window, document);
+
+    /*! smooth-scroll v10.3.1 | (c) 2017 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/smooth-scroll */
+    !(function(e,t){"function"==typeof define&&define.amd?define([],t(e)):"object"==typeof exports?module.exports=t(e):e.smoothScroll=t(e)})("undefined"!=typeof global?global:this.window||this.global,(function(e){"use strict";var t,n,o,r,a,c,l,i={},u="querySelector"in document&&"addEventListener"in e,s={selector:"[data-scroll]",selectorHeader:null,speed:500,easing:"easeInOutCubic",offset:0,callback:function(){}},f=function(){var e={},t=!1,n=0,o=arguments.length;"[object Boolean]"===Object.prototype.toString.call(arguments[0])&&(t=arguments[0],n++);for(;n<o;n++){var r=arguments[n];!(function(n){for(var o in n)Object.prototype.hasOwnProperty.call(n,o)&&(t&&"[object Object]"===Object.prototype.toString.call(n[o])?e[o]=f(!0,e[o],n[o]):e[o]=n[o])})(r)}return e},d=function(e){return Math.max(e.scrollHeight,e.offsetHeight,e.clientHeight)},h=function(e,t){for(Element.prototype.matches||(Element.prototype.matches=Element.prototype.matchesSelector||Element.prototype.mozMatchesSelector||Element.prototype.msMatchesSelector||Element.prototype.oMatchesSelector||Element.prototype.webkitMatchesSelector||function(e){for(var t=(this.document||this.ownerDocument).querySelectorAll(e),n=t.length;--n>=0&&t.item(n)!==this;);return n>-1});e&&e!==document;e=e.parentNode)if(e.matches(t))return e;return null},m=function(e){"#"===e.charAt(0)&&(e=e.substr(1));for(var t,n=String(e),o=n.length,r=-1,a="",c=n.charCodeAt(0);++r<o;){if(0===(t=n.charCodeAt(r)))throw new InvalidCharacterError("Invalid character: the input contains U+0000.");a+=t>=1&&t<=31||127==t||0===r&&t>=48&&t<=57||1===r&&t>=48&&t<=57&&45===c?"\\"+t.toString(16)+" ":t>=128||45===t||95===t||t>=48&&t<=57||t>=65&&t<=90||t>=97&&t<=122?n.charAt(r):"\\"+n.charAt(r)}return"#"+a},p=function(e,t){var n;return"easeInQuad"===e&&(n=t*t),"easeOutQuad"===e&&(n=t*(2-t)),"easeInOutQuad"===e&&(n=t<.5?2*t*t:(4-2*t)*t-1),"easeInCubic"===e&&(n=t*t*t),"easeOutCubic"===e&&(n=--t*t*t+1),"easeInOutCubic"===e&&(n=t<.5?4*t*t*t:(t-1)*(2*t-2)*(2*t-2)+1),"easeInQuart"===e&&(n=t*t*t*t),"easeOutQuart"===e&&(n=1- --t*t*t*t),"easeInOutQuart"===e&&(n=t<.5?8*t*t*t*t:1-8*--t*t*t*t),"easeInQuint"===e&&(n=t*t*t*t*t),"easeOutQuint"===e&&(n=1+--t*t*t*t*t),"easeInOutQuint"===e&&(n=t<.5?16*t*t*t*t*t:1+16*--t*t*t*t*t),n||t},g=function(e,t,n){var o=0;if(e.offsetParent)do{o+=e.offsetTop,e=e.offsetParent}while(e);return o=Math.max(o-t-n,0),Math.min(o,y()-b())},b=function(){return Math.max(document.documentElement.clientHeight,e.innerHeight||0)},y=function(){return Math.max(document.body.scrollHeight,document.documentElement.scrollHeight,document.body.offsetHeight,document.documentElement.offsetHeight,document.body.clientHeight,document.documentElement.clientHeight)},v=function(e){return e&&"object"==typeof JSON&&"function"==typeof JSON.parse?JSON.parse(e):{}},O=function(e){return e?d(e)+e.offsetTop:0},S=function(t,n,o){o||(t.focus(),document.activeElement.id!==t.id&&(t.setAttribute("tabindex","-1"),t.focus(),t.style.outline="none"),e.scrollTo(0,n))};i.animateScroll=function(n,o,c){var i=v(o?o.getAttribute("data-options"):null),u=f(t||s,c||{},i),d="[object Number]"===Object.prototype.toString.call(n),h=d||!n.tagName?null:n;if(d||h){var m=e.pageYOffset;u.selectorHeader&&!r&&(r=document.querySelector(u.selectorHeader)),a||(a=O(r));var b,E,I=d?n:g(h,a,parseInt("function"==typeof u.offset?u.offset():u.offset,10)),H=I-m,A=y(),j=0,C=function(t,r,a){var c=e.pageYOffset;(t==r||c==r||e.innerHeight+c>=A)&&(clearInterval(a),S(n,r,d),u.callback(n,o))},M=function(){j+=16,b=j/parseInt(u.speed,10),b=b>1?1:b,E=m+H*p(u.easing,b),e.scrollTo(0,Math.floor(E)),C(E,I,l)};0===e.pageYOffset&&e.scrollTo(0,0),(function(){clearInterval(l),l=setInterval(M,16)})()}};var E=function(t){try{m(decodeURIComponent(e.location.hash))}catch(t){m(e.location.hash)}n&&(n.id=n.getAttribute("data-scroll-id"),i.animateScroll(n,o),n=null,o=null)},I=function(r){if(0===r.button&&!r.metaKey&&!r.ctrlKey&&(o=h(r.target,t.selector))&&"a"===o.tagName.toLowerCase()&&o.hostname===e.location.hostname&&o.pathname===e.location.pathname&&/#/.test(o.href)){var a;try{a=m(decodeURIComponent(o.hash))}catch(e){a=m(o.hash)}if("#"===a){r.preventDefault(),n=document.body;var c=n.id?n.id:"smooth-scroll-top";return n.setAttribute("data-scroll-id",c),n.id="",void(e.location.hash.substring(1)===c?E():e.location.hash=c)}n=document.querySelector(a),n&&(n.setAttribute("data-scroll-id",n.id),n.id="",o.hash===e.location.hash&&(r.preventDefault(),E()))}},H=function(e){c||(c=setTimeout((function(){c=null,a=O(r)}),66))};return i.destroy=function(){t&&(document.removeEventListener("click",I,!1),e.removeEventListener("resize",H,!1),t=null,n=null,o=null,r=null,a=null,c=null,l=null)},i.init=function(n){u&&(i.destroy(),t=f(s,n||{}),r=t.selectorHeader?document.querySelector(t.selectorHeader):null,a=O(r),document.addEventListener("click",I,!1),e.addEventListener("hashchange",E,!1),r&&e.addEventListener("resize",H,!1))},i}));
+    smoothScroll.init({
+        selector: 'a[href*="#"]'
+    })
+</script>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://jsonplaceholder.typicode.com/" class="uri">https://jsonplaceholder.typicode.com/</a><a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p><a href="https://www.sitepoint.com/jsonp-examples/" class="uri">https://www.sitepoint.com/jsonp-examples/</a><a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p><a href="http://doc.jsfiddle.net/use/echo.html" class="uri">http://doc.jsfiddle.net/use/echo.html</a><a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p><a href="https://github.com/cferdinandi/atomic" class="uri">https://github.com/cferdinandi/atomic</a><a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p><a href="https://toddmotto.com" class="uri">https://toddmotto.com</a><a href="#fnref5">↩</a></p></li>
+<li id="fn6"><p><a href="https://github.com/cferdinandi/ajax-source-code" class="uri">https://github.com/cferdinandi/ajax-source-code</a><a href="#fnref6">↩</a></p></li>
+</ol>
+</div>
+</body>
+</html>
