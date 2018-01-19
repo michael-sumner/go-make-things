@@ -59,7 +59,7 @@ I want to help you master vanilla JavaScript, without all of the painful false s
 
 	{{<cta-1-on-1-call-buy-now>}}
 
-	<p><a class="btn btn-large btn-block" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=10382">Book Now for {{<price-call>}}</a></p>
+	<p><a class="btn btn-large btn-block" href="/checkout?edd_action=add_to_cart&download_id=23073">Book Now for {{<price-call>}}</a></p>
 
 	<p><em><strong>Note:</strong> I’m only available for a few live 1-on-1 coaching calls per month. Scheduling is first come, first serve, so the sooner you book your call, the sooner you will have the answers you need.</em></p>
 </div>

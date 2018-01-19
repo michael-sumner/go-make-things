@@ -18,71 +18,71 @@ price:
 # Product Details
 checkoutDetails:
     guideComplete:
-        id: "1"
+        id: "22572"
         price: "0"
     guideBeginner:
-        id: "2"
-        price: "1"
+        id: "22569"
+        price: "0"
     guideAdvanced:
-        id: "3"
-        price: "2"
+        id: "22675"
+        price: "0"
     guideDomManipulation:
-        id: "0"
-        price: "0"
+        id: "22585"
+        price: "1"
     guideStringArrayObject:
-        id: "0"
-        price: "0"
+        id: "22696"
+        price: "1"
     guideVariablesFunctionsScope:
-        id: "0"
-        price: "0"
+        id: "22939"
+        price: "1"
     guideDomInjectionTraversal:
-        id: "0"
-        price: "0"
+        id: "22686"
+        price: "1"
     guideBrowserStorage:
-        id: "0"
-        price: "0"
+        id: "23245"
+        price: "1"
     guideBugsBrowserQuirks:
-        id: "0"
-        price: "0"
+        id: "22699"
+        price: "1"
     guideAjaxHttp:
-        id: "0"
-        price: "0"
+        id: "22689"
+        price: "1"
     guideWritingPlugins:
-        id: "0"
-        price: "0"
+        id: "22656"
+        price: "1"
     guideWebApps:
-        id: "0"
-        price: "0"
+        id: "22882"
+        price: "1"
     courseComplete:
-        id: "1"
+        id: "22972"
         price: "0"
     courseBeginner:
-        id: "2"
-        price: "1"
+        id: "23013"
+        price: "0"
     courseAdvanced:
-        id: "3"
-        price: "2"
+        id: "22994"
+        price: "0"
     courseDomManipulation:
-        id: "0"
+        id: ""
         price: "0"
     courseStringArrayObject:
-        id: "0"
+        id: ""
         price: "0"
     courseVariablesFunctionsScope:
-        id: "0"
+        id: ""
         price: "0"
     courseDomInjectionTraversal:
-        id: "0"
+        id: ""
         price: "0"
     courseBrowserStorage:
-        id: "0"
+        id: ""
         price: "0"
     courseAjaxHttp:
-        id: "0"
+        id: ""
         price: "0"
     courseWritingPlugins:
-        id: "0"
+        id: ""
         price: "0"
     courseWebApps:
-        id: "0"
+        id: ""
         price: "0"

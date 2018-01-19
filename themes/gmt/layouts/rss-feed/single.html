@@ -17,7 +17,7 @@
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<generator>Hugo -- gohugo.io</generator>
-		{{ $all := where .Site.RegularPages.Reverse "Type" "articles" }}
+		{{ $all := where .Site.RegularPages "Type" "articles" }}
 		{{ range first ($.Site.Params.rssLimit) $all }}
 			<item>
 				<title>{{ .Title }}</title>
