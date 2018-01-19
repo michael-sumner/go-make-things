@@ -1,0 +1,31 @@
+---
+categories:
+- Code
+date: '2014-12-03'
+title: Get distances to the top of the document with native JavaScript
+---
+
+Last week I added two new code snippets to my [Ditching jQuery](https://gomakethings.com/ditching-jquery) resource.
+
+One is used to get your current position on a page from the top of the document. The other will get the distance of any element from the top of the document.
+
+```javascript
+// Get current location's distance from the top of the page
+var position = window.pageYOffset;
+
+// Get an element's distance from the top of the page
+var getElemDistance = function ( elem ) {
+    var location = 0;
+    if (elem.offsetParent) {
+        do {
+            location += elem.offsetTop;
+            elem = elem.offsetParent;
+        } while (elem);
+    }
+    return location >= 0 ? location : 0;
+};
+var elem = document.querySelector('#some-element');
+var location = getElemDistance( elem );
+```
+
+[snippet id="8397"]
