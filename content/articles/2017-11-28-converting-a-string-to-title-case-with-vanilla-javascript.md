@@ -6,7 +6,7 @@ date: '2017-11-28'
 title: Converting a string to title case with vanilla JavaScript
 ---
 
-Yesterday we looked at [how to convert strings to uppercase and lowercase](https://gomakethings.com/converting-strings-to-uppercase-and-lowercase-with-vanilla-javascript/) with vanilla JavaScript. Today, let's look at how to convert them to title case (the first letter of every word capitalized).
+Yesterday we looked at [how to convert strings to uppercase and lowercase](/converting-strings-to-uppercase-and-lowercase-with-vanilla-javascript/) with vanilla JavaScript. Today, let's look at how to convert them to title case (the first letter of every word capitalized).
 
 There's no native method for this, but we can combine a few methods into a helper function to title case strings.
 

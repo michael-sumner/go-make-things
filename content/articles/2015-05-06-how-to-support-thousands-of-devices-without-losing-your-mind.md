@@ -6,7 +6,7 @@ date: '2015-05-06'
 title: How to support thousands of devices without losing your mind
 ---
 
-*The following post was adapted from [Wicked Fast Websites](https://gomakethings.com/wicked-fast-websites/), my free beginner's guide to building fast websites and web apps that work on any device. [Download it here.](https://gomakethings.com/wicked-fast-websites/)*
+*The following post was adapted from [Wicked Fast Websites](/wicked-fast-websites/), my free beginner's guide to building fast websites and web apps that work on any device. [Download it here.](/wicked-fast-websites/)*
 
 Over the last two years, [PAWS New England](http://pawsnewengland.com/) has been visited by over 800 different devices. These devices range from the very capable (the latest iOS and Android versions) to the very old and underpowered (a Nintendo DS and my 5 year old Kindle).
 
@@ -120,7 +120,7 @@ Imagine trying to read tiny text in a big screen layout on an old, underpowered 
 
 Mobile first web design extends progressive enhancement to site layout, allowing you to serve simple, readable content to all devices, and layer on structure and presentation for more capable devices.
 
-It's worth noting that IE 8 and lower do not support media queries, so they receive the basic, single-column layout when using this approach. There is [a simple way to address this](https://gomakethings.com/mobile-first-and-internet-explorer/) if you *really* need to optimize for IE 8.
+It's worth noting that IE 8 and lower do not support media queries, so they receive the basic, single-column layout when using this approach. There is [a simple way to address this](/mobile-first-and-internet-explorer/) if you *really* need to optimize for IE 8.
 
 ## Support is not the same as optimization
 

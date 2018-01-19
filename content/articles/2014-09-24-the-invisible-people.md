@@ -5,7 +5,7 @@ date: '2014-09-24'
 title: The Invisible People
 ---
 
-I've written here before about my [desire to help the homeless](https://gomakethings.com/homeless-hungry/), and how that conflicts with my fear and judgement.
+I've written here before about my [desire to help the homeless](/homeless-hungry/), and how that conflicts with my fear and judgement.
 
 Often times I do nothing at all, and just feel guilty about it. Other times, I'll donate money, which is helpful (at least I hope it is), but it's also impersonal and a bit dehumanizing.
 

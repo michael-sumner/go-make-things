@@ -7,7 +7,7 @@ date: '2017-08-25'
 title: How to add transition animations to vanilla JavaScript show and hide methods
 ---
 
-Yesterday, we looked at [how to show and hide elements with vanilla JavaScript](https://gomakethings.com/how-to-show-and-hide-elements-with-vanilla-javascript/).
+Yesterday, we looked at [how to show and hide elements with vanilla JavaScript](/how-to-show-and-hide-elements-with-vanilla-javascript/).
 
 To recap, we can either add an inline `display` style with the `style` property, or toggle a class that controls visibility using `classList`.
 
@@ -89,7 +89,7 @@ We need a more elegant solution.
 
 To make this all work, we want to do two things:
 
-1. Dynamically calculate the height of our element, so that the browser has an actually `height` value to animate. We'll [add this inline](https://gomakethings.com/two-ways-to-set-an-elements-css-with-vanilla-javascript/) to our element
+1. Dynamically calculate the height of our element, so that the browser has an actually `height` value to animate. We'll [add this inline](/two-ways-to-set-an-elements-css-with-vanilla-javascript/) to our element
 2. Delay changing the `display` property until after the animation is complete.
 
 First, let's update our CSS.

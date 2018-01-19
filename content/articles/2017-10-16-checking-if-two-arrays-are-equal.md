@@ -6,7 +6,7 @@ date: '2017-10-16'
 title: Checking if two arrays are equal
 ---
 
-Over the weekend, one of the students my in private Slack channel (included with [my pocket guides](https://gomakethings.com/guides/)) asked me what the best way to check if two arrays are equal is.
+Over the weekend, one of the students my in private Slack channel (included with [my pocket guides](/guides/)) asked me what the best way to check if two arrays are equal is.
 
 If you Google this, you'll find a lot of different answers, and StackOverflow contains a lot of people arguing with each other over what the "right" way is. Confusing, right?
 

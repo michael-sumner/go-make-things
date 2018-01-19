@@ -6,7 +6,7 @@ date: '2017-10-17'
 title: Check if two arrays or objects are equal with JavaScript
 ---
 
-Yesterday, we looked at a way to [tell if two arrays are equal with JavaScript](https://gomakethings.com/checking-if-two-arrays-are-equal/). The approach is fast and simple, but falls apart pretty quickly for all but the most basic of arrays.
+Yesterday, we looked at a way to [tell if two arrays are equal with JavaScript](/checking-if-two-arrays-are-equal/). The approach is fast and simple, but falls apart pretty quickly for all but the most basic of arrays.
 
 Today, we're going to look at a much more robust way to compare two arrays (or objects) and check if they're equal to each other.
 
@@ -124,7 +124,7 @@ You can easily get the value of an array using `array.length`. For objects, we c
 *`Object.keys()` works in all modern browsers, and IE9 and up, but there's [a polyfill](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys#Polyfill) if you need more backwards compatibility.*
 <hr class="margin-top margin-bottom">
 
-We'll create variables for the length of both `value` and `other`, and use a [ternary operator](https://gomakethings.com/ternary-operators/) to set it based on our `type`. Then, we'll compare our two lengths. If they're not equal, we'll `return false`.
+We'll create variables for the length of both `value` and `other`, and use a [ternary operator](/ternary-operators/) to set it based on our `type`. Then, we'll compare our two lengths. If they're not equal, we'll `return false`.
 
 ```js
 var isEqual = function (value, other) {

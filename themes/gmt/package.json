@@ -1,18 +1,18 @@
 {
-	"name": "Kraken",
-	"version": "7.6.0",
-	"description": "A lightweight front-end boilerplate",
+	"name": "gmt",
+	"version": "1.0.0",
+	"description": "The theme for gomakethings.com",
 	"author": {
 		"name": "Chris Ferdinandi",
 		"url": "http://gomakethings.com"
 	},
 	"license": "MIT",
 	"openSource": {
-		"credits": ""
+		"credits": "https://github.com/toddmotto/fluidvids, http://prismjs.com, https://github.com/filamentgroup/loadJS/, https://github.com/filamentgroup/loadCSS, https://github.com/bramstein/fontfaceobserver"
 	},
 	"repository": {
 		"type": "git",
-		"url": "http://github.com/cferdinandi/kraken"
+		"url": "http://github.com/cferdinandi/go-make-things"
 	},
 	"devDependencies": {
 		"gulp": "^3.9.1",

@@ -39,7 +39,7 @@ Here's the fun part.
 
 ### Listening for changes to textareas
 
-First, let's setup an event listener to detect changes to our `textarea` element. We'll use [event delegation](https://gomakethings.com/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/) to listen to all `input` events and then filter out ones that aren't on a textarea.
+First, let's setup an event listener to detect changes to our `textarea` element. We'll use [event delegation](/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/) to listen to all `input` events and then filter out ones that aren't on a textarea.
 
 ```js
 document.addEventListener('input', function (event) {

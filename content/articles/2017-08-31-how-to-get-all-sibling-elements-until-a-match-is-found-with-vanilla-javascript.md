@@ -6,7 +6,7 @@ date: '2017-08-31'
 title: How to get all sibling elements until a match is found with vanilla JavaScript
 ---
 
-One of the students in my Vanilla JS Slack channel (a private channel included with my [pocket guides](https://gomakethings.com/guides/)) asked me how to replicate [jQuery's `nextUntil()` method](https://api.jquery.com/nextUntil/) in vanilla JavaScript.
+One of the students in my Vanilla JS Slack channel (a private channel included with my [pocket guides](/guides/)) asked me how to replicate [jQuery's `nextUntil()` method](https://api.jquery.com/nextUntil/) in vanilla JavaScript.
 
 `nextUntil()` gets all sibling elements following an element *until* you reach an element with a particular selector. You can optionally filter sibling elements by a selector as well (for example, only returning elements with a certain class or data attribute).
 

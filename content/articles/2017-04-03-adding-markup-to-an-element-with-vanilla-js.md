@@ -6,7 +6,7 @@ date: '2017-04-03'
 title: Adding markup to an element with vanilla JS
 ---
 
-The other day one of the students in my [Vanilla JS Slack channel](https://gomakethings.com/guides/) asked me how to add an element inside another element with JavaScript.
+The other day one of the students in my [Vanilla JS Slack channel](/guides/) asked me how to add an element inside another element with JavaScript.
 
 This is actually really easy to do with the `innerHTML` property.
 
@@ -29,4 +29,4 @@ elem.innerHTML += '<p>Some new content.</p>';
 
 The content you add can be any valid HTML, including just plain old string of text (no paragraph tags required).
 
-Next, learn [how to add a new element to the DOM with vanilla JS](https://gomakethings.com/adding-a-new-element-to-the-dom-with-vanilla-js/).
+Next, learn [how to add a new element to the DOM with vanilla JS](/adding-a-new-element-to-the-dom-with-vanilla-js/).

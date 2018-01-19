@@ -6,7 +6,7 @@ date: '2018-01-16'
 title: Array sorting basics with vanilla JavaScript
 ---
 
-One of my students contacted me about [yesterday's article on sorting arrays](https://gomakethings.com/sorting-an-array-by-multiple-criteria-with-vanilla-javascript/), and I realized I didn't do the greatest job explaining the basics of array sorting with vanilla JS.
+One of my students contacted me about [yesterday's article on sorting arrays](/sorting-an-array-by-multiple-criteria-with-vanilla-javascript/), and I realized I didn't do the greatest job explaining the basics of array sorting with vanilla JS.
 
 Today, let's take a step back, look at a simplified example, and get a better understanding of how `Array.sort()` works.
 

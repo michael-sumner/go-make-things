@@ -5,7 +5,7 @@ date: '2014-07-03'
 title: Revisiting the <code>data-options</code> data attribute
 ---
 
-Yesterday, I posted about a technique I use to [set multiple JavaScript plugin options with a single data attribute](https://gomakethings.com/setting-multiple-javascript-plugin-options-with-a-single-data-attribute/).
+Yesterday, I posted about a technique I use to [set multiple JavaScript plugin options with a single data attribute](/setting-multiple-javascript-plugin-options-with-a-single-data-attribute/).
 
 [Todd Motto](http://toddmotto.com/) identified a few issues with the implementation I recommended:
 

@@ -26,4 +26,4 @@ Simple, just add this to your scripts:
 'use strict';
 ```
 
-Next, learn [where to activate strict mode](https://gomakethings.com/where-to-activate-strict-mode-in-your-scripts/) (everywhere? in each script? in each function?) and the [types of errors strict mode catches](https://gomakethings.com/types-of-errors-that-strict-mode-catches-that-would-otherwise-be-ignored/) that would otherwise be ignored.
+Next, learn [where to activate strict mode](/where-to-activate-strict-mode-in-your-scripts/) (everywhere? in each script? in each function?) and the [types of errors strict mode catches](/types-of-errors-that-strict-mode-catches-that-would-otherwise-be-ignored/) that would otherwise be ignored.

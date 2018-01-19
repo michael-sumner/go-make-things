@@ -6,7 +6,7 @@ date: '2017-12-04'
 title: Removing an element from the DOM, the ES6 way
 ---
 
-Earlier this year, I shared [a way to remove elements from the DOM](https://gomakethings.com/removing-an-element-from-the-dom-with-vanilla-js/) using the `removeChild()` method.
+Earlier this year, I shared [a way to remove elements from the DOM](/removing-an-element-from-the-dom-with-vanilla-js/) using the `removeChild()` method.
 
 ES6 provides an easier, simpler way to achieve the same tax: `remove()`. Call the `remove()` method on the element you want to remove.
 

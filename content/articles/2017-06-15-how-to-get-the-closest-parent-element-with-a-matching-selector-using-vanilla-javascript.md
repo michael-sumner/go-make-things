@@ -6,7 +6,7 @@ date: '2017-06-15'
 title: How to get the closest parent element with a matching selector using vanilla JavaScript
 ---
 
-***Note:*** *There's [an update version of this article](https://gomakethings.com/a-native-vanilla-javascript-way-to-get-the-closest-matching-parent-element/).*
+***Note:*** *There's [an update version of this article](/a-native-vanilla-javascript-way-to-get-the-closest-matching-parent-element/).*
 
 One thing I need to do a lot in my plugins is find a parent element with a particular selector.
 

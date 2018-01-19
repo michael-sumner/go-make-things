@@ -18,4 +18,4 @@ document.addEventListener('focus', function (event) {
 }, true);
 </code></pre>
 
-***Update:*** *Not sure when to actually use `use capture`? [Here's how to figure it out.](https://gomakethings.com/when-to-use-use-capture-in-your-event-listeners/)*
+***Update:*** *Not sure when to actually use `use capture`? [Here's how to figure it out.](/when-to-use-use-capture-in-your-event-listeners/)*

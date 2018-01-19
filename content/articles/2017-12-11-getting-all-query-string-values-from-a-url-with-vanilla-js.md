@@ -6,7 +6,7 @@ date: '2017-12-11'
 title: Getting all query string values from a URL with vanilla JavaScript
 ---
 
-A few years ago, I shared a method for [getting the value of a query string from a URL](https://gomakethings.com/how-to-get-the-value-of-a-querystring-with-native-javascript/).
+A few years ago, I shared a method for [getting the value of a query string from a URL](/how-to-get-the-value-of-a-querystring-with-native-javascript/).
 
 I recently learned of a technique you can use to get all query string parameters and push them into an object of key/value pairs, [courtesy of CSS Tricks](https://css-tricks.com/snippets/javascript/get-url-variables/).
 

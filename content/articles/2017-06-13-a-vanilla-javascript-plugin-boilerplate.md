@@ -6,7 +6,7 @@ date: '2017-06-13'
 title: A vanilla JavaScript plugin boilerplate
 ---
 
-Yesterday I posted a video video on [how I structure my JavaScript plugins](https://gomakethings.com/how-i-structure-my-vanilla-javascript-plugins-video/). Today, I wanted to share the boilerplate I use to start all of my new JavaScript projects.
+Yesterday I posted a video video on [how I structure my JavaScript plugins](/how-i-structure-my-vanilla-javascript-plugins-video/). Today, I wanted to share the boilerplate I use to start all of my new JavaScript projects.
 
 It's annotated with a bunch of comments, but if I did a bad job documenting something or have any questions, email me and let me know!
 

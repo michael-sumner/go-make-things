@@ -8,7 +8,7 @@ date: '2017-05-04'
 title: Why 66ms when using setTimeout?
 ---
 
-Yesterday, I wrote about [how to improve event listener performance](https://gomakethings.com/event-listener-performance-with-vanilla-js/) for `scroll` and `resize` events. [Mark Goodyear asked](https://twitter.com/markgdyr/status/859756434828951553):
+Yesterday, I wrote about [how to improve event listener performance](/event-listener-performance-with-vanilla-js/) for `scroll` and `resize` events. [Mark Goodyear asked](https://twitter.com/markgdyr/status/859756434828951553):
 
 > Any reason for it being 66ms?
 

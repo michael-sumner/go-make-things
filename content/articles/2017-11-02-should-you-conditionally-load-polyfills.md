@@ -7,9 +7,9 @@ date: '2017-11-02'
 title: Should you conditionally load polyfills?
 ---
 
-If you've ben reading my articles for a while, you already know that [I'm a big fan of polyfills](https://gomakethings.com/why-i-love-polyfills/) (snippets of code that add support for a feature to browsers that don’t offer it natively).
+If you've ben reading my articles for a while, you already know that [I'm a big fan of polyfills](/why-i-love-polyfills/) (snippets of code that add support for a feature to browsers that don’t offer it natively).
 
-Last week in my private Vanilla JS Slack channel (included with my [pocket guides](https://gomakethings.com/guides/)), one of my students asked how I handle loading polyfills.
+Last week in my private Vanilla JS Slack channel (included with my [pocket guides](/guides/)), one of my students asked how I handle loading polyfills.
 
 > Do you conditionally load polyfills? I note, for example, that the `classList` polyfill is quite a chunk of code that could be shaved off when not needed.
 

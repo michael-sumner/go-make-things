@@ -9,7 +9,7 @@ date: '2015-03-23'
 title: Inlining critical CSS for better web performance
 ---
 
-Last summer, I tried to implement [some performance tweaks to my site](https://gomakethings.com/how-to-build-wicked-fast-rwd-sites/) that I hoped would push it below the 500ms mark (just half a second) for displaying content to visitors. I failed miserably.
+Last summer, I tried to implement [some performance tweaks to my site](/how-to-build-wicked-fast-rwd-sites/) that I hoped would push it below the 500ms mark (just half a second) for displaying content to visitors. I failed miserably.
 
 At the time, my site was already displaying content after 700ms, but the updates I made were *increasing* start render time rather than reducing it.
 
@@ -37,7 +37,7 @@ First byte is typically server related, while first render is largely a matter o
 
 ## The Strategy
 
-I'd already done quite a bit to [improve the performance of this site](https://gomakethings.com/wicked-fast-websites/).
+I'd already done quite a bit to [improve the performance of this site](/wicked-fast-websites/).
 
 Your stylesheet is neccessary for rendering content properly, but while it's being downloaded and parsed, it also blocks any rendering from happening. To get around this challenge, an emerging technique recommended by both [Google](https://developers.google.com/speed/pagespeed/service/PrioritizeCriticalCss) and [Filament Group](http://www.filamentgroup.com/lab/performance-rwd.html) is to inline your critical path CSS. Yes, that's right. Inline your CSS.
 
@@ -298,4 +298,4 @@ If most of that was greek to you, buy the Pro version, and add this to the "Dyna
 
 Not too bad. Because of the hosting I use, these numbers can sometimes run ~100ms higher. A better hosting solution (for example, [Digital Ocean's SSD Cloud Servers](https://www.digitalocean.com/)) might improve the metrics even more.
 
-You may also have noticed that my subsequent page load times went up a little bit on blog pages. This is most likely due to some other changes I made over the last few weeks, including [inlining SVG sprites](https://gomakethings.com/using-svgs/). I'll be continuing to tweak things.
+You may also have noticed that my subsequent page load times went up a little bit on blog pages. This is most likely due to some other changes I made over the last few weeks, including [inlining SVG sprites](/using-svgs/). I'll be continuing to tweak things.

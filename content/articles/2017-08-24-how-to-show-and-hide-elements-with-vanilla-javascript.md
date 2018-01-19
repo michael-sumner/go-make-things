@@ -7,7 +7,7 @@ date: '2017-08-24'
 title: How to show and hide elements with vanilla JavaScript
 ---
 
-This week in my private Vanilla JS Slack channel (available to people who purchase [one of my pocket guides](https://gomakethings.com/guides/)), one of my students asked me how to replicate jQuery's `show()`, `hide()`, and `toggle()` methods with vanilla JavaScript.
+This week in my private Vanilla JS Slack channel (available to people who purchase [one of my pocket guides](/guides/)), one of my students asked me how to replicate jQuery's `show()`, `hide()`, and `toggle()` methods with vanilla JavaScript.
 
 Showing and hiding elements with vanilla JS is pretty straightforward. Adding transition effects like the one's jQuery supports is a little bit harder.
 
@@ -15,7 +15,7 @@ Today, let's look at how to write simple show/hide methods. Tomorrow, we'll cove
 
 ## Simple Show and Hide
 
-jQuery's `show()`, `hide()`, and `toggle()` methods use [inline CSS](https://gomakethings.com/two-ways-to-set-an-elements-css-with-vanilla-javascript/) to change the `display` property of an element.
+jQuery's `show()`, `hide()`, and `toggle()` methods use [inline CSS](/two-ways-to-set-an-elements-css-with-vanilla-javascript/) to change the `display` property of an element.
 
 As we learned yesterday, that's easy to do with the `style` property.
 
@@ -47,7 +47,7 @@ var toggle = function (elem) {
 
 [Here's a live demo.](https://jsfiddle.net/cferdinandi/qgpxvhhb/5/)
 
-You'll notice that we're using `getComputedStyle()`, which [we learned about the other day](https://gomakethings.com/getting-an-elements-css-attributes-with-vanilla-javascript/), to check if an element is visible.
+You'll notice that we're using `getComputedStyle()`, which [we learned about the other day](/getting-an-elements-css-attributes-with-vanilla-javascript/), to check if an element is visible.
 
 We could also just check it's `style` property, but the element could be hidden via some other CSS (an external stylesheet, for example) besides an inline style.
 

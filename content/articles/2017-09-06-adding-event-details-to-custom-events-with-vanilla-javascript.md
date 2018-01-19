@@ -6,7 +6,7 @@ date: '2017-09-06'
 title: Adding event details to custom events with vanilla JavaScript
 ---
 
-Yesterday, we looked at [how to create custom events with vanilla JavaScript](https://gomakethings.com/custom-events-with-vanilla-javascript/).
+Yesterday, we looked at [how to create custom events with vanilla JavaScript](/custom-events-with-vanilla-javascript/).
 
 Today, let's look at how to add event details that you can access in your event listeners.
 
@@ -14,7 +14,7 @@ Today, let's look at how to add event details that you can access in your event 
 
 There are two standard options on events that you're likely to change. Both are booleans with a default of `false`.
 
-- If `bubbles` is `true`, an event will "bubble up" or propagate through all of the element's parent elements. [Learn more about event bubbling here.](https://gomakethings.com/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/)
+- If `bubbles` is `true`, an event will "bubble up" or propagate through all of the element's parent elements. [Learn more about event bubbling here.](/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/)
 - If `cancelable` is `true`, the event can be cancelled via `preventDefault()`.
 
 These options are passed in as an object for the second argument in `new CustomEvent()`.

@@ -40,7 +40,7 @@ Yea, it's really that simple!
 
 We'll use `addEventListener` to listen for `click` events on our `show_password` input. This will also detect changes submitted with a keyboard (as in, tabbing onto the checkbox and hitting the *enter* key).
 
-We'll listen for all clicks on the document, and check to see if the clicked element was our `show_password` checkbox&mdash;a technique called [event delegation](https://gomakethings.com/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/).
+We'll listen for all clicks on the document, and check to see if the clicked element was our `show_password` checkbox&mdash;a technique called [event delegation](/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/).
 
 Whenever a click event happens, we'll check to see if it has an ID of `show_password`. If not, we'll bail.
 

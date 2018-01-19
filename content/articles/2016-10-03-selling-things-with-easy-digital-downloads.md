@@ -7,7 +7,7 @@ date: '2016-10-03'
 title: Selling things with Easy Digital Downloads
 ---
 
-I use [Easy Digital Downloads](https://easydigitaldownloads.com/) to sell [my books and other products](https://gomakethings.com/books/).
+I use [Easy Digital Downloads](https://easydigitaldownloads.com/) to sell [my books and other products](/books/).
 
 I've made some customizations and added some extensions to the out-of-the-box setup. Today, I wanted to share with you what I've done.
 

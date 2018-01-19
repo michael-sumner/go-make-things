@@ -56,4 +56,4 @@ var add = function (num1, num2) {
 };
 ```
 
-Liked this post? You might also enjoy my [vanilla JS pocket guide on variables, functions, and scope](https://gomakethings.com/guides/variables-functions-and-scope/).
+Liked this post? You might also enjoy my [vanilla JS pocket guide on variables, functions, and scope](/guides/variables-functions-and-scope/).

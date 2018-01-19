@@ -8,7 +8,7 @@ title: Reducing Harvard Business School&#8217;s page load time by 27 percent in 
 
 I just wrapped up another project with [Harvard Business School's Digital Initiative](https://digital.hbs.edu/).
 
-During [my first project with them](https://gomakethings.com/projects/harvard-business-school/), we spent a lot of time focused on performance. Their site, powered by WordPress, had originally taken over 5 seconds to start displaying content to visitors. We got that number down to around a second.
+During [my first project with them](/projects/harvard-business-school/), we spent a lot of time focused on performance. Their site, powered by WordPress, had originally taken over 5 seconds to start displaying content to visitors. We got that number down to around a second.
 
 Since last working with them, that number had increased to over 2 seconds.
 

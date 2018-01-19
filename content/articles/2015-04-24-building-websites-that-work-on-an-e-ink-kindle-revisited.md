@@ -6,7 +6,7 @@ date: '2015-04-24'
 title: Building websites that work on an e-ink kindle&#8230; revisited
 ---
 
-A couple of weeks ago, I wrote [Building websites that work on an e-ink Kindle](https://gomakethings.com/building-websites-that-work-on-an-e-ink-kindle/). It was a response to Brad Frost's post on [providing accessible web experiences on low-powered devices](http://bradfrost.com/blog/post/accessibility-and-low-powered-devices/).
+A couple of weeks ago, I wrote [Building websites that work on an e-ink Kindle](/building-websites-that-work-on-an-e-ink-kindle/). It was a response to Brad Frost's post on [providing accessible web experiences on low-powered devices](http://bradfrost.com/blog/post/accessibility-and-low-powered-devices/).
 
 I discovered a few things:
 

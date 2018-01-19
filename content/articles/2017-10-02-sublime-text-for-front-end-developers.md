@@ -6,7 +6,7 @@ date: '2017-10-02'
 title: Sublime Text for Front End Developers
 ---
 
-A few months ago, I wrote an article on [Visual Studio Code for front end developers](https://gomakethings.com/visual-studio-code-for-front-end-developers/).
+A few months ago, I wrote an article on [Visual Studio Code for front end developers](/visual-studio-code-for-front-end-developers/).
 
 In it, I wrote:
 
@@ -16,7 +16,7 @@ After a couple of months of use, I've switched back to Sublime Text.
 
 ## Why Sublime over Code?
 
-Code is still a great text editor. I still recommend it to [all of my students](https://gomakethings.com/guides/).
+Code is still a great text editor. I still recommend it to [all of my students](/guides/).
 
 *But*... after installing a bunch of plugins, I found that Code would get a touch laggy with extended use. I'd have to shut it down and reopen it to fix the problem. I let the Code team know, and I'm certain they'll get it figured out, but Sublime never ran into issues like that for me.
 

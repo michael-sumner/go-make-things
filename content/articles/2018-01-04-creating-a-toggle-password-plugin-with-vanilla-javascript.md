@@ -7,7 +7,7 @@ date: '2018-01-04'
 title: Creating a toggle password plugin with vanilla JavaScript
 ---
 
-Yesterday, we looked at [how to toggle password visibility with vanilla JS](https://gomakethings.com/how-to-toggle-password-visibility-with-vanilla-javascript/). Today, we're going to convert our script into a plugin that you can reuse across pages and sites.
+Yesterday, we looked at [how to toggle password visibility with vanilla JS](/how-to-toggle-password-visibility-with-vanilla-javascript/). Today, we're going to convert our script into a plugin that you can reuse across pages and sites.
 
 ## Our Script
 

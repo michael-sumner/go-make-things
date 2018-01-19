@@ -6,7 +6,7 @@ date: '2017-06-20'
 title: Climbing up the DOM until you hit a match with vanilla JavaScript
 ---
 
-Yesterday, we looked at [how to get all parent elements](https://gomakethings.com/how-to-get-all-parent-elements-with-vanilla-javascript/) with vanilla JavaScript. Today, we're going to modify our script to stop when it finds an element with a specific selector.
+Yesterday, we looked at [how to get all parent elements](/how-to-get-all-parent-elements-with-vanilla-javascript/) with vanilla JavaScript. Today, we're going to modify our script to stop when it finds an element with a specific selector.
 
 ## Getting Setup
 

@@ -7,7 +7,7 @@ title: What do you want to learn next?
 
 I could use your help.
 
-Presales for my video course, [Vanilla JavaScript for Beginners](https://gomakethings.com/courses/vanilla-javascript-for-beginners/), have been terrible. That tells me I missed the mark somewhere.
+Presales for my video course, [Vanilla JavaScript for Beginners](/courses/vanilla-javascript-for-beginners/), have been terrible. That tells me I missed the mark somewhere.
 
 So, I'd love to know: what do you want to learn next?
 

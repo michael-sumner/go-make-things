@@ -6,7 +6,7 @@ date: '2017-10-25'
 title: Detecting clicks inside an element with vanilla JavaScript
 ---
 
-Yesterday, we learned about the `closest()` method, a super versatile function that [finds the closest matching parent of an element based on a selector](https://gomakethings.com/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/#closest).
+Yesterday, we learned about the `closest()` method, a super versatile function that [finds the closest matching parent of an element based on a selector](/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/#closest).
 
 It has a ton of uses, and it's particularly useful for detecting whether or not a click event happened inside a particular element.
 

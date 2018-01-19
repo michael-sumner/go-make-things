@@ -7,9 +7,9 @@ date: '2017-10-12'
 title: The quickest way to detect when the DOM is ready
 ---
 
-A couple of years ago, I shared [a native equivalent of jQuery's `ready()` method](https://gomakethings.com/a-native-javascript-equivalent-of-jquerys-ready-method/). It's one of the most popular articles on my site.
+A couple of years ago, I shared [a native equivalent of jQuery's `ready()` method](/a-native-javascript-equivalent-of-jquerys-ready-method/). It's one of the most popular articles on my site.
 
-Today, I wanted to share an approach that detects DOM ready state faster [using the `requestAnimationFrame()` method](https://gomakethings.com/debouncing-events-with-requestanimationframe-for-better-performance/) that we looked at yesterday.
+Today, I wanted to share an approach that detects DOM ready state faster [using the `requestAnimationFrame()` method](/debouncing-events-with-requestanimationframe-for-better-performance/) that we looked at yesterday.
 
 ## Different types of ready
 

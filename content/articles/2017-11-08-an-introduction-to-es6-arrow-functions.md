@@ -6,7 +6,7 @@ date: '2017-11-08'
 title: An introduction to ES6 arrow functions
 ---
 
-*This post was adapted from my new Vanilla JS Pocket Guide, ["Variables, Functions, and Scope."](https://gomakethings.com/guides/variables-functions-and-scope/)*
+*This post was adapted from my new Vanilla JS Pocket Guide, ["Variables, Functions, and Scope."](/guides/variables-functions-and-scope/)*
 
 Arrow functions were introduced to JavaScript in ES6.
 

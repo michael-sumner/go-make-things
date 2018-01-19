@@ -25,7 +25,7 @@ So what's new in version 6?
 - [LoadJS](https://github.com/filamentgroup/loadJS) and [loadCSS](https://github.com/filamentgroup/loadCSS) for asynchronous loading of non-critical files for better performance.
 - A ton of WordPress-specific features that can be turned on or off with a single line of code (see below).
 
-And the whole thing is [powered by native JavaScript](https://gomakethings.com/ditching-jquery/)&mdash;no jQuery dependencies for anything.
+And the whole thing is [powered by native JavaScript](/ditching-jquery/)&mdash;no jQuery dependencies for anything.
 
 ## WordPress-specific features
 

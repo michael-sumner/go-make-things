@@ -6,7 +6,7 @@ date: '2017-06-28'
 title: Writing a Validity State Polyfill
 ---
 
-In [the last article in this series](https://gomakethings.com/vanilla-javascript-form-validation-and-the-constraint-validation-api/), we built a lightweight script (6kb, 2.7kb minified) using the Validity State API to enhance the native form validation experience. It works in all modern browsers and provides support IE support back to IE10. But, there are some browser gotchas.
+In [the last article in this series](/vanilla-javascript-form-validation-and-the-constraint-validation-api/), we built a lightweight script (6kb, 2.7kb minified) using the Validity State API to enhance the native form validation experience. It works in all modern browsers and provides support IE support back to IE10. But, there are some browser gotchas.
 
 [Not every browser supports every Validity State property.](https://quirksmode.org/dom/forms/index.html#link2) Internet Explorer is the main violator, though Edge does lack support for tooLong even though IE10+ support it. And Chrome, Firefox, and Safari got full support only recently.
 

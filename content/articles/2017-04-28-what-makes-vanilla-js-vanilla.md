@@ -6,9 +6,9 @@ date: '2017-04-28'
 title: What makes vanilla JS vanilla?
 ---
 
-Anyone who buys one of my [vanilla JS pocket guides](https://gomakethings.com/guides/) gets access to an exclusive Slack room.
+Anyone who buys one of my [vanilla JS pocket guides](/guides/) gets access to an exclusive Slack room.
 
-Yesterday, there was a good discussion around my article about [when using libraries stops being vanilla JS](https://gomakethings.com/when-does-using-libraries-stop-being-vanilla-js/).
+Yesterday, there was a good discussion around my article about [when using libraries stops being vanilla JS](/when-does-using-libraries-stop-being-vanilla-js/).
 
 I was a bit fuzzy about where to draw the line. Here's a more firm stake in the ground:
 

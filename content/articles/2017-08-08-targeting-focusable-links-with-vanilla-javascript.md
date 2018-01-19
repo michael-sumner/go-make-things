@@ -6,7 +6,7 @@ date: '2017-08-08'
 title: Targeting focusable links with vanilla JavaScript
 ---
 
-A few weeks ago I shared a trick for [getting the first and last focusable element in the DOM](https://gomakethings.com/how-to-get-the-first-and-last-focusable-elements-in-the-dom/).
+A few weeks ago I shared a trick for [getting the first and last focusable element in the DOM](/how-to-get-the-first-and-last-focusable-elements-in-the-dom/).
 
 ```javascript
 var focusable = document.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');

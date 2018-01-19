@@ -5,7 +5,7 @@ date: '2016-09-26'
 title: Open Source Etiquette
 ---
 
-I love [creating open source code](https://gomakethings.com/open-source) and seeing the cool things people do with it.
+I love [creating open source code](/open-source) and seeing the cool things people do with it.
 
 However... as my projects get more popular, I find myself dealing with demands for features that don't exist yet, the same question asked repeatedly, and other time-sucks. Most people just make well-meaning mistakes. A few are real jerks.
 

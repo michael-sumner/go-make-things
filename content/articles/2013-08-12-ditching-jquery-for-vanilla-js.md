@@ -6,7 +6,7 @@ date: '2013-08-12'
 title: Ditching jQuery for Vanilla JS
 ---
 
-***Note:*** *I've written a new version of this article that reflects [how I work with native JavaScript today](https://gomakethings.com/ditching-jquery).*
+***Note:*** *I've written a new version of this article that reflects [how I work with native JavaScript today](/ditching-jquery).*
 
 On the recent launch of a <a href="https://gomakethings.com/projects/tony-luong/">new site for professional photographer Tony Luong</a>, we dropped jQuery in favor of 100% vanilla JavaScript.
 

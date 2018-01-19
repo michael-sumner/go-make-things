@@ -6,7 +6,7 @@ date: '2017-12-14'
 title: Defining and updating JavaScript variables in different scopes
 ---
 
-Yesterday, we learned about [scope in JavaScript](https://gomakethings.com/scope-in-javascript/). Today, let's learn how to update variables across different types of scopes.
+Yesterday, we learned about [scope in JavaScript](/scope-in-javascript/). Today, let's learn how to update variables across different types of scopes.
 
 Prefixing a variable with `var` defines a new variable. Omitting `var` updates an existing variable.
 

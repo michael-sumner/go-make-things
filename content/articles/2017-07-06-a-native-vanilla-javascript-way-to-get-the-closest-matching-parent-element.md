@@ -6,7 +6,7 @@ date: '2017-07-06'
 title: A native vanilla JavaScript way to get the closest matching parent element
 ---
 
-Back in June, I showed you how to create a helper method, `getClosest()`, to [find the closest parent element with a certain selector](https://gomakethings.com/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/).
+Back in June, I showed you how to create a helper method, `getClosest()`, to [find the closest parent element with a certain selector](/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/).
 
 One of my readers told me about `.closest()`, a native element property that does the same thing.
 

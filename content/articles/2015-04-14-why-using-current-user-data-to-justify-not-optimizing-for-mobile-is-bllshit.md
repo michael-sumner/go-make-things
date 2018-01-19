@@ -37,7 +37,7 @@ In 2011, I helped [PAWS New England](http://pawsnewengland.com/) redesign their 
 
 At the time, they had a desktop-only site, and just 9-percent of their traffic came from mobile devices. Based on the data, I'd have been justified in saying that "our users don't want this content on their smartphones."
 
-But we went with a responsive websites anyways, and [mobile traffic grew to 25-percent of all traffic in the first 12-months](https://gomakethings.com/projects/paws-new-england/#driving-results).
+But we went with a responsive websites anyways, and [mobile traffic grew to 25-percent of all traffic in the first 12-months](/projects/paws-new-england/#driving-results).
 
 Now, part of this growth was a general trend towards mobile web use. But not all of it. Smartphones weren't new, and the iPhone had already been out for four years at this point. By making it easier for people to access content on their phones, they did.
 

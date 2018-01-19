@@ -77,6 +77,6 @@ window.setInterval(tick, 1000);
 
 [And here's our completed projected.](https://jsfiddle.net/cferdinandi/r18nLqob/2/)
 
-If you've already purchased [the complete set of pocket guides](https://gomakethings.com/guides/complete-set/), you'll get "Vanilla JS Web Apps" as a free update when it comes out.
+If you've already purchased [the complete set of pocket guides](/guides/complete-set/), you'll get "Vanilla JS Web Apps" as a free update when it comes out.
 
 And if you haven't, now's the time to buy! The price will go up when the guide launches.

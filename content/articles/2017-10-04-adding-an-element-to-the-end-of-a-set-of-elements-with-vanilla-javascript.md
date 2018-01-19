@@ -6,7 +6,7 @@ date: '2017-10-04'
 title: Adding an element to the end of a set of elements with vanilla JavaScript
 ---
 
-Yesterday, we looked at [how to insert an element to the beginning of a set elements](https://gomakethings.com/adding-an-element-to-the-beginning-of-a-set-of-elements-with-vanilla-javascript/) inside a shared parent with vanilla JS. Today, let's look at how to add elements to the *end* of a set of elements.
+Yesterday, we looked at [how to insert an element to the beginning of a set elements](/adding-an-element-to-the-beginning-of-a-set-of-elements-with-vanilla-javascript/) inside a shared parent with vanilla JS. Today, let's look at how to add elements to the *end* of a set of elements.
 
 Just like yesterday, we’re going to look at two ways to do this:
 

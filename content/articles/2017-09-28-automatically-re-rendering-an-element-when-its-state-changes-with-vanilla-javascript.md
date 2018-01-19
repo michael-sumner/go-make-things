@@ -6,13 +6,13 @@ date: '2017-09-28'
 title: Automatically re-rendering an element when it&#8217;s state changes with vanilla JavaScript
 ---
 
-I've been sharing some behind the scenes content from [my latest pocket guide](https://gomakethings.com/guides/), "Vanilla JS Web Apps," which launches in a couple of weeks.
+I've been sharing some behind the scenes content from [my latest pocket guide](/guides/), "Vanilla JS Web Apps," which launches in a couple of weeks.
 
-Yesterday, we talked about [how React and other similar frameworks attach state](https://gomakethings.com/components-state-and-vanilla-javascript/) (a fancy word for "data") to elements instead of global variables. We also looked at how to do the same thing with vanilla JavaScript.
+Yesterday, we talked about [how React and other similar frameworks attach state](/components-state-and-vanilla-javascript/) (a fancy word for "data") to elements instead of global variables. We also looked at how to do the same thing with vanilla JavaScript.
 
 Today, let's look at how to update an element when it's state changes.
 
-*__Psst...__ If you're just tuning in, I'd recommend first reading my post on [rendering content](https://gomakethings.com/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/), and yesterday's post on [assigning state to an element](https://gomakethings.com/components-state-and-vanilla-javascript/).*
+*__Psst...__ If you're just tuning in, I'd recommend first reading my post on [rendering content](/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/), and yesterday's post on [assigning state to an element](/components-state-and-vanilla-javascript/).*
 
 ## Triggering a render when state changes
 

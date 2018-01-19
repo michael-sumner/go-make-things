@@ -6,7 +6,7 @@ date: '2014-09-29'
 title: 'Tarpit: Say Goodbye to WordPress Comment Spam'
 ---
 
-Back in June, I made a decision to [remove comments from this site](https://gomakethings.com/disabling-comments/).
+Back in June, I made a decision to [remove comments from this site](/disabling-comments/).
 
 I wasn't happy about it. I think the web is better with open conversations. But Askimet was letting through an incredible amount of spam, and managing it was taking up time that I could have spent writing posts and making cool stuff.
 

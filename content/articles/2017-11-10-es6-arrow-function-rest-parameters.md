@@ -6,9 +6,9 @@ date: '2017-11-10'
 title: ES6 arrow function rest parameters
 ---
 
-Yesterday, I showed you a technique for [getting an array of all of the arguments passed into a function](https://gomakethings.com/getting-an-array-of-all-arguments-passed-into-a-function-with-vanilla-javascript/).
+Yesterday, I showed you a technique for [getting an array of all of the arguments passed into a function](/getting-an-array-of-all-arguments-passed-into-a-function-with-vanilla-javascript/).
 
-Unfortunately, this technique does not work for [ES6 arrow functions](https://gomakethings.com/an-introduction-to-es6-arrow-functions/), which don't have an `arguments` variable natively assigned like traditional functions do.
+Unfortunately, this technique does not work for [ES6 arrow functions](/an-introduction-to-es6-arrow-functions/), which don't have an `arguments` variable natively assigned like traditional functions do.
 
 Instead, they have something called *rest parameters*.
 
@@ -61,4 +61,4 @@ var add = (...args) => {
 };
 ```
 
-**Psst...** This post was adapted from my latest vanilla JS pocket guide, ["Variables, Functions, and Scope."](https://gomakethings.com/guides/variables-functions-and-scope/)
+**Psst...** This post was adapted from my latest vanilla JS pocket guide, ["Variables, Functions, and Scope."](/guides/variables-functions-and-scope/)

@@ -1,9 +1,9 @@
 /*!
- * Kraken v7.6.0: A lightweight front-end boilerplate
+ * gmt v1.0.0: The theme for gomakethings.com
  * (c) 2018 Chris Ferdinandi
  * MIT License
- * http://github.com/cferdinandi/kraken
- * Open Source Credits: 
+ * http://github.com/cferdinandi/go-make-things
+ * Open Source Credits: https://github.com/toddmotto/fluidvids, http://prismjs.com, https://github.com/filamentgroup/loadJS/, https://github.com/filamentgroup/loadCSS, https://github.com/bramstein/fontfaceobserver
  */
 
 ;(function (window, document, undefined) {

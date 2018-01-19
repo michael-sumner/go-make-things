@@ -7,7 +7,7 @@ date: '2017-09-20'
 title: How to insert an element before another one in the DOM with vanilla JavaScript
 ---
 
-Yesterday, we looked at [how to create elements with vanilla JavaScript](https://gomakethings.com/creating-elements-with-vanilla-javascript/). Today, we're going to learn how to insert them before other elements in the DOM.
+Yesterday, we looked at [how to create elements with vanilla JavaScript](/creating-elements-with-vanilla-javascript/). Today, we're going to learn how to insert them before other elements in the DOM.
 
 ## The Old-School Way
 

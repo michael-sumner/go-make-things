@@ -6,7 +6,7 @@ date: '2017-10-03'
 title: Adding an element to the beginning of a set of elements with vanilla JavaScript
 ---
 
-Previously, we looked at [how to insert an element before another one with vanilla JavaScript](https://gomakethings.com/how-to-insert-an-element-before-another-one-in-the-dom-with-vanilla-javascript/). Today, we'll learn how to insert an element to the beginning of a set elements inside a shared parent with vanilla JS.
+Previously, we looked at [how to insert an element before another one with vanilla JavaScript](/how-to-insert-an-element-before-another-one-in-the-dom-with-vanilla-javascript/). Today, we'll learn how to insert an element to the beginning of a set elements inside a shared parent with vanilla JS.
 
 We're going to look at two ways to do this:
 

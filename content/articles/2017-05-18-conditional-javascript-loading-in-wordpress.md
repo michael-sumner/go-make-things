@@ -8,7 +8,7 @@ date: '2017-05-18'
 title: Conditional JavaScript loading in WordPress
 ---
 
-Earlier this week, I shared a technique for [only loading your JavaScript file if the browser passes your feature test](https://gomakethings.com/how-to-only-load-your-javascript-file-if-the-browser-supports-your-code/).
+Earlier this week, I shared a technique for [only loading your JavaScript file if the browser passes your feature test](/how-to-only-load-your-javascript-file-if-the-browser-supports-your-code/).
 
 Newsletter subscriber [Vijay Rudraraju](http://vjdesign.com.au) asked me how you would do this with WordPress. Great question!
 

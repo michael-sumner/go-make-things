@@ -8,7 +8,7 @@ title: Rendering dynamic and conditional templates with vanilla JavaScript
 
 This week, I'm sharing topics from my next [pocket guide](https://gomakethings.com): Vanilla JS Web Apps.
 
-Yesterday, we looked at [how to render content with vanilla JavaScript](https://gomakethings.com/rendering-content-with-vanilla-javascript/). Today, let's look at how to render dynamic and conditional templates.
+Yesterday, we looked at [how to render content with vanilla JavaScript](/rendering-content-with-vanilla-javascript/). Today, let's look at how to render dynamic and conditional templates.
 
 ## Rendering a function instead of a string
 
@@ -49,7 +49,7 @@ var render = function (template, node) {
 };
 ```
 
-We're using a [ternary operator](https://gomakethings.com/ternary-operators/) here to check the template type and keep our code shorter.
+We're using a [ternary operator](/ternary-operators/) here to check the template type and keep our code shorter.
 
 Now we can use a string *or* function as our template.
 
@@ -65,6 +65,6 @@ render(templateFunction, document.querySelector('#main'));
 
 That's it for today. Tomorrow, we'll look at how to further manipulate our element after it's rendered.
 
-If you've already purchased [the complete set of pocket guides](https://gomakethings.com/guides/complete-set/), you'll get "Vanilla JS Web Apps" as a free update when it comes out.
+If you've already purchased [the complete set of pocket guides](/guides/complete-set/), you'll get "Vanilla JS Web Apps" as a free update when it comes out.
 
 And if you haven't, now's the time to buy! The price will go up when the guide launches.

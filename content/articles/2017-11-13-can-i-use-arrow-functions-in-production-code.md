@@ -6,7 +6,7 @@ date: '2017-11-13'
 title: Can I use arrow functions in production code?
 ---
 
-Last week we learned about [arrow functions](https://gomakethings.com/an-introduction-to-es6-arrow-functions/) and the [rest parameters](https://gomakethings.com/es6-arrow-function-rest-parameters/) feature.
+Last week we learned about [arrow functions](/an-introduction-to-es6-arrow-functions/) and the [rest parameters](/es6-arrow-function-rest-parameters/) feature.
 
 **So... can you start using arrow functions in production code?** In my opinion, no.
 
@@ -18,4 +18,4 @@ Unfortunately, arrow functions cannot be polyfilled.
 
 Babel does actually have an "in the browser" version you can load with a script tag, *but...* it requires you to inline your entire script, so it's not really a good solution for production sites.
 
-**Psst...** This post was adapted from my latest vanilla JS pocket guide, ["Variables, Functions, and Scope."](https://gomakethings.com/guides/variables-functions-and-scope/)
+**Psst...** This post was adapted from my latest vanilla JS pocket guide, ["Variables, Functions, and Scope."](/guides/variables-functions-and-scope/)
