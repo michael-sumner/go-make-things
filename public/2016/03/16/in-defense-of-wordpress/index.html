@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>In Defense of WordPress | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">In Defense of WordPress</span></h1>
+	
+
+	<p>Even though it now <a href="http://w3techs.com/technologies/history_overview/content_management/all/y">powers 25-percent of the web</a>, WordPress gets a lot of flack.</p>
+
+<ul>
+<li>It&rsquo;s old and bloated.</li>
+<li>It&rsquo;s slow.</li>
+<li>It makes it easy for inexperienced developers to write bad code.</li>
+<li>The UI is clunky and unintuitive.</li>
+</ul>
+
+<p>And these are all valid complaints. I even toyed with ditching it for something like Jekyll or Ghost.</p>
+
+<p>But the more I work with WordPress, the more I love it.</p>
+
+<p></p>
+
+<h2 id="wordpress-is-actually-awesome">WordPress is actually awesome</h2>
+
+<p>Each of those complains can be looked at through a different lens.</p>
+
+<h3 id="it-s-old-and-bloated">It&rsquo;s old and bloated</h3>
+
+<p>Maybe. But it&rsquo;s also stable and has tremendous backwards compatibility. This is huge!</p>
+
+<p>If you build a site for a client, you want them to benefit from ongoing security updates, bug fixes, and so on. But you don&rsquo;t want them to worry about breaking their site because a major version change removes a bunch of APIs.</p>
+
+<h3 id="it-s-slow">It&rsquo;s slow</h3>
+
+<p>Is it, though? I run multiple WordPress sites on inexpensive, shared, commodity servers with tons of plugins, and they all load in under 1 second on a cable connection.</p>
+
+<p>WordPress doesn&rsquo;t <em>have</em> to be slow. It often is&mdash;and I wish they&rsquo;d bake caching into the core because it would solve a lot of this&mdash;but it doesn&rsquo;t have to be.</p>
+
+<p>So much of WordPress&rsquo;s performance issues are elated to theme/plugin development issues and not WordPress itself. Which brings us to&hellip;</p>
+
+<h3 id="it-makes-it-easy-for-inexperienced-developers-to-write-bad-code">It makes it easy for inexperienced developers to write bad code</h3>
+
+<p>Yep, no question. The same is true for JavaScript frameworks like jQuery, though.</p>
+
+<p>The reason for this is because WordPress (and PHP in general) makes it so easy for beginners to get started hacking with the code. It&rsquo;s well documented with a thriving community.</p>
+
+<p>The copy/paste culture leads to a lot of performance/bad code issues, but it also means someone with little experience can start working and learn as they go.</p>
+
+<p>That&rsquo;s amazing! That&rsquo;s how I started. My work from five years ago is embarrassingly bad. So was yours, I bet. So was all of ours!</p>
+
+<p>WordPress prioritizes accessibility (in all ways). That&rsquo;s a wonderful thing.</p>
+
+<h3 id="the-ui-is-clunky-and-unintuitive">The UI is clunky and unintuitive</h3>
+
+<p>Compared to Ghost, yes.</p>
+
+<p>Compared to a command line static site generator? Not at all. Compared to Drupal? WordPress still wins. Compared to almost any enterprise system I&rsquo;ve used working at a corporation? WordPress, every single time.</p>
+
+<p>Organizing tons of data around an extendible interface is hard. Much of the UI disconnect comes from the extensible nature of WordPress. To improve one you have to sacrifice a little with the other.</p>
+
+<h2 id="wordpress-is-so-flexible">WordPress is so flexible</h2>
+
+<p><a href="http://beacon.gomakethings.com/">Beacon</a>, my new learning platform, runs on WordPress.</p>
+
+<p>WordPress handles the tough, annoying stuff like account management and user authentication, so that I can focus on content. The API makes it pretty easy to create things like a front-end login system, or a way to let users login with their email instead of their user name.</p>
+
+<p>It let&rsquo;s me add custom content, integrate user access to content with payment services like PayPal, and do all sorts of crazy awesome things.</p>
+
+<p>It means I don&rsquo;t have to learn how to configure a server and write my own user management database to power the things I want to make.</p>
+
+<p>Wordpress is old, and clunky, and robust, and wonderful. I love it.</p>
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

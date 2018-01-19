@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>The web of the future | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">The web of the future</span></h1>
+	
+
+	<p>I spent the beginning of this week at <a href="http://artifactconf.com/">Artifact Providence</a>. Last year, I said that it was the best conference for web professionals that I have ever been to. I stand by that statement.</p>
+
+<p>What <a href="https://twitter.com/jenville">Jennifer Robbins</a>, <a href="https://twitter.com/teleject">Christopher Schmitt</a>, and <a href="https://twitter.com/ari4nne">Ari Stiles</a> have created is something truly magical. Artifact is the best parts of the web&mdash;the open, welcoming, collaborative community&mdash;without all the snark and nasty bits.</p>
+
+<p>If this year had a core theme, it was that the web of the future is quite different from the web we build for today.</p>
+
+<p></p>
+
+<h2 id="recurring-themes">Recurring Themes</h2>
+
+<p>There were a few consistent themes around the web of the future:</p>
+
+<ul>
+<li>It&rsquo;s open and accessible.</li>
+<li>It&rsquo;s on weak devices with bad connectivity&mdash;and very powerful ones that are always online.</li>
+<li>It&rsquo;s messy.</li>
+<li>It&rsquo;s about people, not devices.</li>
+<li>It doesn&rsquo;t always involves screens.</li>
+</ul>
+
+<h3 id="the-web-is-for-everyone">The web is for everyone</h3>
+
+<p>The web has always been about open access to information. But as web technologies become more complex and more powerful, we&rsquo;ve started to lose some of that openness.</p>
+
+<p>We build sites that simply don&rsquo;t function is JavaScript fails to load. I&rsquo;m not talking about people who willingly turn JS off. I&rsquo;m talking about when the script breaks because you fucked something up, or the mobile browser timed out because the file was taking too long on a shitty Edge network, or a corporate firewall blocked it.</p>
+
+<p>And then suddenly navigation menus won&rsquo;t load, hidden content won&rsquo;t reveal, and in some cases, all you get is an empty white screen.</p>
+
+<p>We build incredibly complex, interactive experiences, but fail to consider how people with physical and cognitive limitations will participate in them. We need to build sites that are tolerant of failures. Sites that work when JavaScript doesn&rsquo;t, that include the appropriate HTML5 semantic elements and aria roles, and that consider how people who use assistive technologies will interact with them.</p>
+
+<h3 id="not-everyone-is-on-the-web-yet">Not everyone is on the web&hellip; yet</h3>
+
+<p>There are 3 billion people&mdash;almost half the Earth&rsquo;s human population&mdash;who <a href="http://webmeadow.com/blog/archives/201405/wait-what-how-enhance-your-responsive-process-with-content-questions">have never been online</a>. But thanks to mobile devices, they&rsquo;ll be coming online over the next decade. And their internet will be very different from the one that I&rsquo;m used to.</p>
+
+<p>Mobile will be there only way of accessing the web, rather than an alternative to the desktop experience. It will be on devices that aren&rsquo;t as powerful as that new iPhone or Nexxus. It will be in places where a reliable Edge network is a luxury, nevermind LTE.</p>
+
+<p>And yet in other parts the world, the web will also be on increasingly powerful devices. Screens with 3x or 4x pixel density. Massive big-screen TVs. Tiny but fully capable watches. And more and more, we&rsquo;ll interact with web through devices that don&rsquo;t have screens at all.</p>
+
+<p>In a word, the future of the web is messy. What an exciting time to be doing what we do!</p>
+
+<h2 id="conference-culture">Conference Culture</h2>
+
+<p>Artifact is small. And that&rsquo;s what makes it so magical.</p>
+
+<p>Ten minutes after arriving, I had already bumped into and reconnected with half a dozen people I had met last year. You spend both days in one room, together, having a conversation. The speakers are laid back and approachable. The Twitter backchannel is actually a discussion rather than a firehose.</p>
+
+<p>At the end of most conferences, I feel exhausted. After Artifact, I feel exhausted, too. But I also feel something akin to how it felt to leave college. Excited for what&rsquo;s next, but sad to be moving on.</p>
+
+<p>Our profession is a unique one. We give away our best work. We openly share what we learn, even when keeping it secret would be a competitive advantage. We freely help people we don&rsquo;t know. And we do out of a love for this thing we&rsquo;re all helping to make.</p>
+
+<p>Artifact is the very best of web. Can&rsquo;t wait for next year.</p>
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

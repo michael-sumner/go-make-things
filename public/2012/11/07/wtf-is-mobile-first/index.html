@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>WTF is Mobile First? | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">WTF is Mobile First?</span></h1>
+	
+
+	<p>Mobile First is starting to achieve a buzzword like status, much in the same way that web 2.0 and HTML5 did. And that&rsquo;s a shame, because mobile first is actually really awesome.</p>
+
+<p>Today, I want to cut through the crap and explain mobile first in plain, practical terms.</p>
+
+<p></p>
+
+<h2>Ubiquity & Diversity</h2>
+
+<p>Right now is an insanely exciting time to be making things for the web. Internet access is virtually ubiquitous, and for a large and rapidly growing percentage of people, the internet is something you rarely or never access on a computer.</p>
+
+<p>Obviously, people are browsing the web on tablets and smart phones. But they&rsquo;re also browsing on gaming consoles like X-Box and Gameboy, on web-enabled TVs, and on older or not-so-smart phones. I&rsquo;ve even heard of folks using the Kindle e-ink browser to do things like send emails and read on the web.</p>
+
+<p>Screen sizes, device capabilities, and user contexts all vary wildly. Your job is to make sure everyone who wants to can access your content.</p>
+
+<h2>Responsive Web Design</h2>
+
+<p>Over the last couple of years, Responsive Web Design (RWD) has emerged as a way to deal with the growing device diversity.</p>
+
+<p>Rather than building a separate mobile site, your existing design &ldquo;responds&rdquo; to device that&rsquo;s accessing it, adjusting to accomodate the user. Content shifts and flows. On a small screen, the site may be a single column. On a big desktop monitor or TV, it can be many columns wide. On tablets, somewhere in between.</p>
+
+<p>The more nitpicky folks in the web community will tell you that Responsive designs need to have fully fluid columns, while fixed-width columns that simply move or stack on top of each other are called Adapative design. It&rsquo;s generally agreed upon now that Adaptive is a type of RWD.</p>
+
+<p>The goal, however, is always to provide the same content regardless of the device.</p>
+
+<h2>Mobile First is a type of Responsive Web Design</h2>
+
+<p>Responsive Web Design isn&rsquo;t always mobile first, but Mobile First is always Responsive.</p>
+
+<p>Many RWD approaches use what&rsquo;s known as graceful degradation. With this approach, you build your normal &ldquo;desktop first&rdquo; design (often a 960 pixel or so grid), and then use media queries to set maximum widths below which content shifts and reflows. The previous layout for this site used that approach.</p>
+
+<p>The problem with this approach is that not all mobile devices are smart phones. They&rsquo;re not all very fast or capable. They sometimes don&rsquo;t recognize media queries. And so that beautiful bit of &ldquo;content choreography&rdquo; you use for mobile sites? They&rsquo;re not seeing it.</p>
+
+<p>Enter Mobile First.</p>
+
+<h2>Don't gracefully degrade. Progressively enhance.</h2>
+
+<p>Mobile First takes the opposite approach of graceful degradation. Instead of building a desktop site and retrofitting it to mobile devices, you build a really simple foundation and then add features for devices that can support them.</p>
+
+<p>Mobile first sites start with a single column, fully fluid layout and use minimum widths to add columns (instead of maximum widths to take them away). They work on devices that don&rsquo;t have or support javascript.</p>
+
+<p>They&rsquo;re not always beautiful, but they&rsquo;re functional.</p>
+
+<h2>It's not just looks</h2>
+
+<p>You can&rsquo;t design mobile first without caring about <a href="https://gomakethings.com/how-to-trick-out-the-performance-of-your-wordpress-site/">web performance</a>. Your content is being accessed on weak cell phone signals, not just high-speed broadband.</p>
+
+<p>Sites should be as lightweight and fast as possible. You should combine your javascript and CSS into single files whenever possible. You should use image sprites and icon fonts, smush your image files, and make sensible choices about which file formats to use. You should minify and compress your files.</p>
+
+<p>This doesn&rsquo;t just benefit your mobile users. It benefits everyone. No one likes a slow website.</p>
+
+<h2>Getting Started</h2>
+
+<p>I&rsquo;ll be honest: I don&rsquo;t sit down and sketch out the mobile layout before I sketch the desktop layout. It&rsquo;s more fluid than that.</p>
+
+<p>I usually sketch them both out at the same time, and one design feeds the other. But the important thing is that you&rsquo;re always thinking about how to the design would work on a tiny flip-phone in the middle of the desert.</p>
+
+<p>When I go to code, I start with the base styles that would apply to a very basic device. That means a single, fluid column with no javascript. On bigger screens, I&rsquo;ll increase the line height for easier reading. I&rsquo;ll increase header sizes. I&rsquo;ll add multiple columns, and <a href="https://gomakethings.com/accessible-javascript/">functionality for devices that support javascript</a>.</p>
+
+<p>To see a very simple Mobile First site in action, download my <a href="https://gomakethings.com/go-mobile-first/">Go Mobile First</a> WordPress them and start poking around under the hood.</p>
+
+<h4> Referenced & Useful Resources</h4>
+
+<ol>
+<li><a href="https://gomakethings.com/how-to-trick-out-the-performance-of-your-wordpress-site/">How to improve web performance</a></li>
+<li><a href="https://gomakethings.com/accessible-javascript/">Javascript accessibility</a></li>
+<li><a href="https://gomakethings.com/go-mobile-first/">The Go Mobile First WordPress theme</a></li>
+<li><a href="https://gomakethings.com/icon-fonts/">Using icon fonts</a></li>
+<li><a href="http://bradfrostweb.com/blog/mobile/the-many-faces-of-mobile-first/">The Many Face of Mobile First</a> by Brad Frost</li>
+<li>The <a href="http://www.abookapart.com/products/mobile-first">Mobile First book</a> on A Book Apart</li>
+</ol>
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

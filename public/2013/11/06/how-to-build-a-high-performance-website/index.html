@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>How to build a high performance website | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">How to build a high performance website</span></h1>
+	
+
+	<p><em>This is part 2 of <a href="https://gomakethings.com/wicked-fast-websites/">Wicked Fast Websites</a>, a three-part series that explores why web performance matters and what you can do about it.</em></p>
+
+<p>We’re in the middle of a perfect storm. Websites are larger, devices are more varied and less predictable, and performance expectations are higher than ever. Today, you&rsquo;ll learn some simple tools and techniques you can use to build high performance websites.</p>
+
+<p></p>
+
+<p><em><strong>An aside:</strong> Today&rsquo;s websites are <a href="http://httparchive.org/">five times bigger than in 2009</a>. In fact, they&rsquo;ve gotten 20-percent bigger this year alone. One of the easiest ways to improve the performance of your websites is to put them on a diet.</em></p>
+
+<h2>Markup Order Matters</h2>
+
+<p>When a browser accesses a webpage, it immediately begins reading and rendering the content. When it comes across external files likes images and videos, it begins downloading them, two at a time. This is really useful, because if you have a really large file, it doesn&rsquo;t hold up the other files from being downloaded.</p>
+
+<p>There are two exceptions to this process:</p>
+
+<ol>
+<li>CSS stops a browser from rendering content. Repaints are bad for performance, so the browser waits until it's finished downloading the styles before rendering any additional content.</li>
+<li>JavaScript stops all other downloads. Because JS often manipulates objects on the page, the browser doesn't want to download them until it knows exactly what the JS is going to do.</li>
+</ol>
+
+<p>Put your CSS at the top of your page, up in the <code>&lt;head&gt;</code> element, to avoid repaints. Similarly, put your JavaScript files down in the footer of your site to maximize concurrent downloads. The exception to this is feature detection and polyfill scripts (like Modernizr or an HTML shim), which should go in the <code>&lt;head&gt;</code> because your stylesheet often relies on them.</p>
+
+<p>The order of styles and scripts in your markup doesn&rsquo;t make the page download content any faster, but it does help browsers start displaying it more quickly, and therefore <em>appear</em> faster.</p>
+
+<h2>Combine Similar Files</h2>
+
+<p>One of the biggest bottlenecks in page load time is in downloading the actual files for your site. Each HTTP request adds additional load time. How much time? <a href="https://developers.google.com/speed/docs/best-practices/request">According to Google</a>:</p>
+
+<blockquote>
+  Every time a client sends an HTTP request, it has to send all associated cookies that have been set for that domain and path along with it. Most users have asymmetric Internet connections: upload-to-download bandwidth ratios are commonly in the range of 1:4 to 1:20. This means that a 500-byte HTTP header request could take the equivalent time to upload as 10 KB of HTTP response data takes to download. The factor is actually even higher because HTTP request headers are sent uncompressed. In other words, for requests for small objects (say, less than 10 KB, the typical size of a compressed image), the data sent in a request header can account for the majority of the response time.
+</blockquote>
+
+<p>It&rsquo;s actually faster for a browser to download one 300kb file than it is to download three 100kb files. By combining similar file types together&mdash;a process known as <em>concatenation</em>&mdash;you can improve page performance.</p>
+
+<p>When you can, combine all of your JavaScript into a single <code>scripts.js</code> file. Rather than loading separate CSS files for your base styles, small screens, bigger screens and so on, combine them all into a single stylesheet with media queries.</p>
+
+<p>And don&rsquo;t think you can cheat by using the <code>@import</code> rule. That still requires additional HTTP requests.</p>
+
+<h2>Remove the Whitespace</h2>
+
+<p><em>Minification</em> is the process of removing spaces, line breaks and comments from your CSS, HTML, and JavaScript. Though it might not seem like a big deal, removing all those unused elements can decrease the size of your files by 40-percent or more.</p>
+
+<p>One useful minification tool is <a href="https://developers.google.com/speed/pagespeed/">Google PageSpeed Insights</a>, a browser extension for Chrome and Firefox.</p>
+
+<h3>Minify Your CSS, JavaScript, &amp; HTML</h3>
+
+<p>In your browser, open up Developer Tools and click on the “Page Speed” tab. Then click “Analyze.” You&rsquo;ll be given a list of things you can do to improve your site performance.</p>
+
+<p>One of the items on the list will be “Minify CSS.” Click it. Under “Suggestions for this page” is a link to “see optimized content.” Follow that to get a minified version of your CSS provided by Google.</p>
+
+<p><img src="https://gomakethings.com/wp-content/uploads/2012/08/minify-560x79.png" width="560" height="79" class="aligncenter" title="screenshot of minify css link" /></p>
+
+<p>The result is a tiny but rather unreadable stylesheet. Rather than overwriting your human-readable CSS, paste the minified code into a new file called <code>style.min.css</code> and reference that in the header of your HTML. If you ever want to make updates, is as simple as removing the <code>.min</code> and reminifying when you&rsquo;re done.</p>
+
+<p>PageSpeed Insights provides similar links for your JavaScript and markup as well. Like with my CSS, I&rsquo;ll keep a human-readable <code>scripts.js</code> file, and put my minified code in <code>scripts.min.js</code>. Minifying your markup gets a bit trickier, and results in less reduction in file weight, so you may choose not to follow that step.</p>
+
+<h3>Minify jQuery</h3>
+
+<p>If you&rsquo;re using jQuery on your site, Google provides a hosted and minified version that&rsquo;s 34-percent of the original size. An additional benefit of using the Google-hosted version of that a lot of developers use this technique, so there&rsquo;s a good chance your visitor has jQuery cached in the browser already and doesn&rsquo;t need to download it at all.</p>
+
+<p><a href="http://html5boilerplate.com/">HTML5 Boilerplate</a> uses a smart implementation of this that provides a local fallback if the Google CDN is unavailable:</p>
+
+<pre><code class="language-markup">&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;window.jQuery || document.write('&lt;script src="js/vendor/jquery-1.10.2.min.js"&gt;&lt;\/script&gt;')&lt;/script&gt;</code></pre>
+
+<p><em>You&rsquo;ll notice that the <code>http:</code> is missing from the the URL. That helps avoid errors associated with encrypted domains.</em></p>
+
+<h2>Smarter Image Formats</h2>
+
+<p>Different image formats work better for different types of graphics.</p>
+
+<p>PNG is a lossless image format, so it keeps graphics sharp and crisp (as opposed to the lossy JPG format). For icons and simple images with clean lines, they can actually be more lightweight than JPGs. But for photos and images with lots of visual noise, JPGs will be much smaller in size with comparable quality.</p>
+
+<h3>JPG Formats</h3>
+
+<p>The JPG actually has multiple formats. The most common on the web is the baseline JPG. Baseline JPGs start rendering at the top, and build down as they go.</p>
+
+<p><img src="https://gomakethings.com/wp-content/uploads/2013/11/jpg-formats.jpg" alt="An example of baseline versus progressive JPG rendering" width="832" height="468" /></p>
+
+<p class="wp-caption-text"><a href="http://www.tonyluong.com/">Photo by Tony Luong</a></p>
+
+<p>An alternative format that was popular a decade ago and is seeing a bit of a comeback is the progressive JPG. Progressive JPGs build in layers. Initially, the full image in low resolution is displayed, and as the image renders, it becomes increasingly crisp and clear.</p>
+
+<p>While progressive JPGs are typically a little smaller than baseline, their real advantage is that they <em>appear</em> faster to the user because they display more content faster. And on smaller screens, the lack of clarity on initial renders may not even be as noticeable.</p>
+
+<p><img src="https://gomakethings.com/wp-content/uploads/2013/11/progressive-jpg-browser-support.jpg" alt="A chart showing progressive JPG support" width="832" height="468" /></p>
+
+<p class="wp-caption-text"><a href="http://calendar.perfplanet.com/2012/progressive-jpegs-a-new-best-practice/">Source: Performance Calendar</a></p>
+
+<p>While all browsers display progressive JPGs, some browsers do a better job than others. For &ldquo;non-supporting&rdquo; browsers, the entire progressive JPG needs to download before it can be displayed, resulting in a <em>worse</em> experience than a baseline JPG.</p>
+
+<h2>Compress Your JPGs</h2>
+
+<p>Photos can add a lot of weight. A high-quality photo can weigh as much as 700kb or more. By compressing photos, you can reduce them down to less 100kb while maintaining image quality.</p>
+
+<p>A JPG compression rate of 70 is considered high-quality for the web.</p>
+
+<h2>Smush Your Images</h2>
+
+<p>The metadata that photographs include&mdash;timestamps, color profiles, and such&mdash;can add quite a bit of weight. <em>Smushing</em> is the process of removing that metadata, and it can reduce the size of an image by more than 25-percent.</p>
+
+<p><img src="https://gomakethings.com/wp-content/uploads/2012/08/image-optim.png" width="560" height="366" class="aligncenter" title="screenshot of imageoptim app" /></p>
+
+<p>If you&rsquo;re a Mac user, <a href="http://imageoptim.com/">ImageOptim</a> will smush your images without degrading the quality. It works for PNGs, JPGs, and GIFs. <del>Windows lacks a clear one-for-one counterpart, though their are a <a href="http://www.creativebloq.com/design/image-compression-tools-1132865">handful of products</a> that work well for different image types.</del> If you&rsquo;re a Windows user, check out <a href="http://b64.io/">b64.io</a>, a web-based, drag-and-drop optimizer that seems to work just as well as ImageOptim (hat tip to <a href="https://twitter.com/chriscoyier/status/422806037163298816">Chris Coyier</a>).</p>
+
+<h2>Icon Fonts</h2>
+
+<p><a href="https://gomakethings.com/icon-fonts/">Icon fonts</a> take advantage of the CSS3 <code>@font-face</code> rule, and allow you to embed a font (kind of like webdings) on your site that contains all of your icons.</p>
+
+<p>They offer a few advantages over image-based icons:</p>
+
+<ul>
+<li>They're lightweight.</li>
+<li>All of your icons are in a single file.</li>
+<li>They're styleable with CSS.</li>
+<li>Because they're a font, they're infinitely scalable, and look crisp on both regular and high-density displays.</li>
+<li>They're compatible all the way back to IE 5 (seriously).</li>
+</ul>
+
+<p>There are two small considerations:</p>
+
+<ol>
+<li>Windows Phone 7 (running IE 9) lacks true <code>@font-face</code> support.</li>
+<li>Icons can only be one color.</li>
+</ol>
+
+<p>The free <a href="http://icomoon.io/app/">IcoMoon app</a> allows you to pick just the icons you need and even upload your own. There&rsquo;s a lot to learn about icon fonts, so if you&rsquo;re interested, check out my <a href="https://gomakethings.com/icon-fonts/">start-to-finish tutorial</a> on using them.</p>
+
+<h3>Image Sprites</h3>
+
+<p>If you still need to serve up small sets of images, you should consider using <a href="http://css-tricks.com/css-sprites/">image sprites</a>. Rather than using multiple image files, you can combine all of your images into a single file and embed it using the <code>background-image</code> property, resulting in fewer HTTP requests.</p>
+
+<p>Image sprites are useful if you need multi-color icons or Windows Phone 7 support, though their are some challenges in using them with high-density displays. They&rsquo;re also a bit harder to maintain should you decide to add or remove an icon. If you&rsquo;d like to use image sprites, the <a href="http://spritegen.website-performance.org/">CSS Sprite Generator</a> makes things a bit easier.</p>
+
+<h2>Adaptive Images</h2>
+
+<p><img src="https://gomakethings.com/wp-content/uploads/2013/11/adaptive-images.jpg" alt="The same image rendered on multiple devices of varying sizes" width="832" height="468" /></p>
+
+<p>Web images need to look good on everything from low-powered phones and watches to big-screen TVs and high-density displays. But why should a smartphone get the same image as a big, high-density monitor?</p>
+
+<p>Adaptive images are an approach to this challenge. By detecting the size of the display (and ideally bandwidth constraints), you can serve the right image size for the device. Unfortunately, there&rsquo;s no great way to do this today, though there are a lot of people who are working on it.</p>
+
+<p>Many of today&rsquo;s workarounds use JavaScript image-replacement. These scripts often load after images have already been downloaded, however, so the image gets downloaded twice, which is worse for performance than not doing anything at all. <a href="http://adaptive-images.com/">Matt Wilcox</a> has created a PHP-based solution that intercepts the image request on the server. It works really well, but is a bit complicated to set up.</p>
+
+<p>I believe the most promising solution lies with a standards-based solution (the W3C has several in the works) that let&rsquo;s the web developer offer the same images in multiple sizes, and let&rsquo;s the browser decide which one best fits the user&rsquo;s current needs.</p>
+
+<h2>Compress Your Site</h2>
+
+<p>Your server can actually compress your website files&mdash;a process known as <em>gzipping</em>&mdash;before sending them to the browser. This results in about a <a href="developer.yahoo.com/performance/rules.html">70-percent reduction in website size</a>.</p>
+
+<p>On Apache servers, you can enable gzipping with a simple modification to your <code>.htaccess file</code>. Learn how in this <a href="https://github.com/cferdinandi/htaccess#gzip-compression">tutorial on GitHub</a>.</p>
+
+<p>Some web hosts use a slightly different method to implement gzipping. You can check if it&rsquo;s working on your site using <a href="http://gzipwtf.com/">gzipWTF</a>.</p>
+
+<h2>Set Expire Headers</h2>
+
+<p>Expire headers tell browsers to keep static assets stored locally so that a visitor’s browser doesn’t have to re-download them every time they visit your site.</p>
+
+<p>This is also something that&rsquo;s done using the <code>.htaccess</code> file. To set expire headers, <a href="https://github.com/cferdinandi/htaccess#expires-headers">follow these instructions on GitHub</a>.</p>
+
+<h2>In Summary</h2>
+
+<ol>
+<li>Markup order matters.</li>
+<li>Combine similar files.</li>
+<li>Remove the whitespace.</li>
+<li>Use smarter image formats.</li>
+<li>Compress your JPGs.</li>
+<li>Smush your images.</li>
+<li>Use icon fonts and image sprites.</li>
+<li>Consider adding adaptive images.</li>
+<li>Compress your site.</li>
+<li>Set expire headers.</li>
+</ol>
+
+<p>These techniques can be implemented in about an hour, and make a big difference on site performance. You can test your site performance using the <a href="http://tools.pingdom.com/fpt/">Pingdom Website Speed Test</a>.</p>
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

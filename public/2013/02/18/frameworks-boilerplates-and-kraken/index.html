@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Frameworks, Boilerplates, and Kraken | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">Frameworks, Boilerplates, and Kraken</span></h1>
+	
+
+	<p>When I released the <a href="http://cferdinandi.github.com/kraken/">Kraken boilerplate</a> last week, someone asked me, &ldquo;How does it differ from [Bootstrap/Foundation/Your Favorite Framework Here]?&rdquo; Fair question.</p>
+
+<p>I&rsquo;ve used frameworks, and I&rsquo;ve used boilerplates, and love them both. Here&rsquo;s why I built Kraken&hellip;
+
+<h2>Frameworks</h2></p>
+
+<p>CSS frameworks are great. I used <a href="http://twitter.github.com/bootstrap/">Bootstrap</a> for a while, and learned a lot about CSS3 and <a href="http://www.stubbornella.org/content/category/general/geek/css/oocss-css-geek-general/">Object Oriented CSS</a>. I even adapted some Bootstrap code for a few Kraken add-ons.</p>
+
+<p>But like many frameworks, Bootstrap includes a <em>lot</em> of stuff - way more than I&rsquo;d typically need for any given project. When I&rsquo;d get ready to launch, I&rsquo;d find myself removing as much of the code as I could and hoping I didn&rsquo;t accidentally break something by removing an important class without realizing it.</p>
+
+<p>Because frameworks are so robust, they have the potential to result in bloated code. It&rsquo;s like using a sledgehammer to hang a photo.</p>
+
+<h2>Boilerplates</h2>
+
+<p>Boilerplates are in many ways the opposite of frameworks.</p>
+
+<p>They don&rsquo;t try to provide a complete package. Instead, they provide a starting point that you can build on. <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a> is one of the most popular, and for good reason - it&rsquo;s packed with lots of tricks and best practices for better development. I adapted a few pieces of HTML5 Boilerplate into Kraken as well.</p>
+
+<p>If frameworks are too robust, boilerplates are often too light. They don&rsquo;t include everything you&rsquo;ll need - just a few building blocks. When trying to use them, I often found myself digging through old projects or frameworks to find code I could reuse.</p>
+
+<p>I designed Kraken to combine what I love best about frameworks and boilerplates into a single product.</p>
+
+<h2>Built to Scale</h2>
+
+<p>By itself, Kraken is boilerplate.</p>
+
+<p>If your project is small, it might have everything you need, but chances are it&rsquo;s just a starting point. And it&rsquo;s pretty light on styling so that you can easily adapt it to whatever your design is.</p>
+
+<p>But what makes Kraken shine are the add-ons - tools that you can use to extend the functionality of Kraken. Rather than taking a framework and removing what you don&rsquo;t use, you start with a simple foundation and add on what you need.</p>
+
+<p>Building a WordPress site? Try the <a href="http://cferdinandi.github.com/kraken-for-wordpress/">Kraken for WordPress</a> add-on. Need a navigation menu? Check out <a href="http://cferdinandi.github.com/astro/">Astro</a>. <a href="http://cferdinandi.github.com/drop/">Drop-down menus</a>? <a href="http://cferdinandi.github.com/tabby/">Toggle tabs</a>? We&rsquo;ve got you covered.</p>
+
+<p>All of the add-ons have been designed to get dropped right in to Kraken. The stylesheet even has placeholders so you know exactly where in the cascade to put them.</p>
+
+<h2>Is Kraken right for you?</h2>
+
+<p>So is Kraken right for you? Depending on your level of skill, it might not be.</p>
+
+<p>If you&rsquo;re just getting started with this stuff, a more robust framework might be a better fit. You&rsquo;ll see how different components integrate and work together.</p>
+
+<p>But if you&rsquo;d like to start with something more lightweight and scale it out (or not) to fit your projects, Kraken might be a great tool for you.</p>
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

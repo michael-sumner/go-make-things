@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Learning JavaScript | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">Learning JavaScript</span></h1>
+	
+
+	
+
+<p>Based on feedback from my readers and changes in the JavaScript space over the last year, I&rsquo;m giving my <a href="/guides/">pocket guide series</a> a complete refresh.</p>
+
+<p>My goal is to make vanilla JavaScript even easier to learn, and set you up for the future of the industry. Here&rsquo;s what I have planned.</p>
+
+<h2 id="es6">ES6</h2>
+
+<p>Right now, my guides are written entirely in ES5, which provides excellent backwards compatibility and doesn&rsquo;t require you to use any module bundlers or precompile your code.</p>
+
+<p>But, <a href="/automatic-polyfilling/">thanks to polyfills</a>, it&rsquo;s now really easy to run ES6 natively and still provide great backwards support&mdash;back to IE7 if you want!</p>
+
+<p>I&rsquo;ll be adding modern ES6 methods and techniques to all of my guides, and will include relevant polyfills to maintain support back to at least IE9.</p>
+
+<p><em><strong>Update:</strong> All of the guides have now been updated with ES6 support and polyfills for backwards compatibility.</em></p>
+
+<h2 id="new-guides">New Guides</h2>
+
+<p>I have 5 new guides planned.</p>
+
+<ol>
+<li><em>Variables, Functions, and Scope</em> will cover things like arrow functions, <code>var myFunction = function () {}</code> vs <code>function myFunction () {}</code>, and how to scope your code.</li>
+<li><em>Feature Tests &amp; Polyfills</em> is a complete rewrite of <em>Bugs &amp; Browser Quirks</em>, focused on feature tests, browser compatibility, fallbacks when appropriate, and where to find polyfills and how to use them.</li>
+<li><em>Building Your Own Microlibrary</em> will teach you how to build tiny libraries with the polyfills and helper functions you use the most.</li>
+<li><em>Web Apps with Vanilla JS</em> is launching in the next week or two, and will teach you how to write JavaScript web apps without a framework. (<em><strong>Update:</strong> <a href="/guides/web-apps/">now available!</a></em>)</li>
+<li><em>JavaScript Accessibility</em> details how to make sure our code is as accessible to as wide a group of people as possible.</li>
+</ol>
+
+<p>I&rsquo;ll also be writing a free guide, <em>Vanilla JavaScript Essentials</em>, for people who are completely new to JS. It will cover basic terminology and definitions, how to use developer tools and <code>console.log()</code>, and how to pick a good code editor.</p>
+
+<h2 id="a-learning-path">A learning path</h2>
+
+<p>One of the biggest pieces of feedback I&rsquo;ve gotten about my guides is that it&rsquo;s difficult to know where to start.</p>
+
+<p>With that in mind, the pocket guides are getting numbered to imply a learning path.</p>
+
+<p>You&rsquo;re free, of course, to skip around as you see fit. But if you&rsquo;re just starting out, I think there&rsquo;s a preferred, progressive way to work through the guides.</p>
+
+<h2 id="new-bundles">New Bundles</h2>
+
+<p>With the growing collection of guides, I&rsquo;ll be adding a new tier&mdash;the Pro Bundle&mdash;and adjusting the content of some of the existing ones.</p>
+
+<p>If you already own one of the bundles, don&rsquo;t worry. You&rsquo;ll continue to have access to all of your guides and any future updates, even if the bundle changes a bit.</p>
+
+<h2 id="new-branding">New branding</h2>
+
+<p>All of the guides will also be getting updated branding and colors. They&rsquo;ll be nicer to look at! Here&rsquo;s a sneak peak.</p>
+
+<p><img src="https://gomakethings.com/wp-content/uploads/2017/10/dom-injection.png" alt="" width="450" height="582" class="aligncenter size-full wp-image-15782" /></p>
+
+<h2 id="maybe-project-based-guides">Maybe: project-based guides</h2>
+
+<p>I know some people learn best by doing, so I&rsquo;m toying with the idea of project-based guides that toss you straight into a guided project.</p>
+
+<p>These would skip discussing core concepts, and be a great way to reinforce the core skills you learn in the main pocket guides.</p>
+
+<p>I&rsquo;d love to hear any feedback, questions, or concerns you have about these changes.</p>
+
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

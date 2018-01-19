@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Accessible toggle tabs and accordions | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">Accessible toggle tabs and accordions</span></h1>
+	
+
+	
+
+<p>This week I refactored two of my open source projects&mdash;a <a href="https://github.com/cferdinandi/tabby">toggle tabs plugin</a> and an <a href="https://github.com/cferdinandi/houdini">accordions plugin</a>&mdash;to make them more accessible to people who access the sites I build with screen readers or navigate primarily with a keyboard.</p>
+
+<p>Today, I wanted to talk about my changing approach to writing JavaScript plugins that show and hide content on a web page.</p>
+
+<h2 id="the-approach">The approach</h2>
+
+<p>I&rsquo;ve started thinking of tabs and accordions as visually enhanced anchor links rather than new functionality:</p>
+
+<ul>
+<li>The toggle that triggers a tab or accordion to open is a humble anchor link: <code>&lt;a href=&quot;#some-content&quot;&gt;Tab 1&lt;/a&gt;</code>.</li>
+<li>Opening a tab or accordion updates the URL with a hash: <code>http://someurl.com#some-content</code>.</li>
+<li>Opening a tab or accordion should bring that content into focus.</li>
+<li>Visitors can right-click or command/control-click to open the link in a new window.</li>
+<li>If someone visits the page and the hash matches the ID of the tab or accordion, they&rsquo;re jumped to that section on the page and the content is already open and visible.</li>
+<li>The forward and back buttons on the browser should allow you to navigate back and forth, opening tabs or accordions.</li>
+<li>If someone is reading the page with a screen reader, they shouldn&rsquo;t even notice that it&rsquo;s tabbed. It should work just like anchor links, with all of the content accessible and readable to the screen reader without having to click a link.</li>
+<li>Focusing on a link or input inside a tab or accordion should open it (for sighted keyboard users).</li>
+<li>If JavaScript fails to load or breaks for some reason, the visitor is left with&hellip; perfectly functional anchor links!</li>
+</ul>
+
+<h2 id="the-code">The code</h2>
+
+<h3 id="1-it-starts-with-good-markup">1. It starts with good markup.</h3>
+
+<p>Start with simple anchor links and content sections with IDs. It&rsquo;s also helpful to add some classes or data attributes for styling and targeting.</p>
+
+<pre><code class="language-lang-markup">&lt;ul&gt;
+	&lt;li&gt;&lt;a class=&quot;tab-toggle&quot; href=&quot;#tab1&quot;&gt;Tab 1&lt;/li&gt;
+	&lt;li&gt;&lt;a class=&quot;tab-toggle&quot; href=&quot;#tab2&quot;&gt;Tab 2&lt;/li&gt;
+	&lt;li&gt;&lt;a class=&quot;tab-toggle&quot; href=&quot;#tab3&quot;&gt;Tab 3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;tabs&quot;&gt;
+	&lt;div class=&quot;tab-pane&quot; id=&quot;tab1&quot;&gt;
+		...
+	&lt;/div&gt;
+
+	&lt;div class=&quot;tab-pane&quot; id=&quot;tab2&quot;&gt;
+		...
+	&lt;/div&gt;
+
+	&lt;div class=&quot;tab-pane&quot; id=&quot;tab3&quot;&gt;
+		...
+	&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h3 id="2-let-the-browser-do-most-of-the-heavy-lifting">2. Let the browser do most of the heavy lifting.</h3>
+
+<p>You can use JavaScript to prevent the default click event, update URLs, and intercept the forward and back buttons to open content.</p>
+
+<p>But it&rsquo;s so much easier and less fragile to just let the browser handle that with anchor links. It does it already, and it does a great job.</p>
+
+<p>Instead of using <code>event.preventDefault()</code> to stop the normal click behavior, I just let the link be a link. This would normally result in the page jumping to the anchor location, which isn&rsquo;t really desirable for tabs and accordions, though.</p>
+
+<p>To get around this problem, I use JavaScript to remove the anchored content&rsquo;s <code>id</code>, store it as a data attribute, and then add it back after the URL updates.</p>
+
+<pre><code class="language-lang-javascript">// Listen for click events
+document.addEventListener('click', function (event) {
+
+	// Only take action if the clicked link was a tab toggle with a valid anchor link
+	if ( !event.target.classList.contains( 'tab-toggle' ) || !event.target.hash ) return;
+
+	// Get the anchored content
+	var content = document.querySelector( event.target.hash )
+	if ( !content ) return;
+
+	// Store the ID as a data attribute and remove it
+	content.setAttribute( 'data-id', content.id );
+	content.id = '';
+
+}, false);
+</code></pre>
+
+<p>After the URL update, add the ID back and open the content.</p>
+
+<pre><code class="language-lang-javascript">// Listen for hashchange events
+window.addEventListener('hashchange', function (event) {
+
+	// Get the anchored content
+	var content = document.querySelector( '[data-id=&quot;' + window.location.hash.substring(1) + '&quot;]' );
+	if ( !content ) return;
+
+	// Restore the ID
+	content.id = content.getAttribute( 'data-id' );
+
+	// Open the content, close other tabs, whatever
+	content.classList.add( 'active' );
+
+}, false);
+</code></pre>
+
+<p>This approach also means that you can open a tab or accordion based on the hash.</p>
+
+<pre><code class="language-lang-javascript">// Get the content
+var content = document.querySelector( window.location.hash );
+
+// If the content is a tab, open it
+if ( content &amp;&amp; content.classList.contains( 'tab-pane' ) ) {
+	content.classList.add( 'active' );
+	// close other tabs or do whatever else here
+}
+</code></pre>
+
+<p>And as a bonus, clicking the forward and back buttons on the browser will now automatically jump you between tabs or accordions, automatically opening them for you.</p>
+
+<h3 id="3-only-hide-content-visually">3. Only hide content visually.</h3>
+
+<p>Historically, I would do something like this to show and hide my tabs and accordion content:</p>
+
+<pre><code class="language-lang-css">/* Hide the tab */
+.tab-pane {
+	display: none;
+	visibility: hidden;
+}
+
+/* Show the tab when active */
+.tab-pane.active {
+	display: block;
+	visibility: visible;
+}
+</code></pre>
+
+<p>Using this approach makes the content completely invisible to screen readers unless it has the <code>.active</code> class.</p>
+
+<p>I now use a different approach to only hides the content visually. Screen readers can still <em>see</em> and read it, even if it&rsquo;s not visible to sighted users.</p>
+
+<pre><code class="language-lang-css">/* Hide the tab */
+.tab-pane {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+/* Show the tab when active */
+.tab-pane.active {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
+}
+</code></pre>
+
+<p>Doing this means not having to mess around with aria roles or adding information for screen readers about which tabs are open, which are closed, etc. As far as the screen reader is concerned, these are just valid anchor links.</p>
+
+<h3 id="4-set-focus">4. Set focus.</h3>
+
+<p>Normally, when you click an anchor link, focus on the page jumps to the anchored section.</p>
+
+<p>Since we&rsquo;re removing the ID before the URL updates and then adding it back, this never happens. Fortunately, it&rsquo;s really easy to do this with JavaScript.</p>
+
+<p><strong>One caveat:</strong> you need to add <code>tabindex=&quot;-1&quot;</code> to the content if it&rsquo;s not already a focusable content type.</p>
+
+<p>Going back to our previous <code>hashchange</code> listener:</p>
+
+<pre><code class="language-lang-javascript">// Listen for hashchange events
+window.addEventListener('hashchange', function (event) {
+
+	// Get the anchored content
+	var content = document.querySelector( '[data-id=&quot;' + window.location.hash.substring(1) + '&quot;]' );
+	if ( !content ) return;
+
+	// Restore the ID
+	content.id = content.getAttribute( 'data-id' );
+
+	// Open the content, close other tabs, whatever
+	content.classList.add( 'active' );
+
+	// Try to bring the content into focus
+	content.focus();
+
+	// If it didn't work, give the content a tabindex of -1 and try again
+	if ( document.activeElement.id !== content.id ) {
+		content.setAttribute( 'tabindex', '-1' );
+		content.focus();
+	}
+
+}, false);
+</code></pre>
+
+<p>This results in a blue outline around the content. You can easily remove this with a touch of CSS.</p>
+
+<pre><code class="language-lang-css">.tab-pane:focus {
+	outline: none;
+}
+</code></pre>
+
+<h3 id="5-open-the-content-if-a-link-or-input-field-inside-it-is-focused">5. Open the content if a link or input field inside it is focused.</h3>
+
+<p>This is for the benefit of sighted users who navigate with a keyboard&mdash;people with neuromuscular disorders like Parkinson&rsquo;s, for example.</p>
+
+<p>Since the content is only visually hidden, then can tab their way through all of the focusable areas. If they tab into an element that&rsquo;s visually hidden, that can be really confusing.</p>
+
+<p>Fortunately, we can detect focus, check if the focused element is inside a tab or accordion, and open it up if it is.</p>
+
+<pre><code class="language-lang-javascript">// A helper function to find a parent element with the matching class
+// @link https://gomakethings.com/ditching-jquery/#climb-up-the-dom
+var getClosest = function ( elem, selector ) { ... }
+
+// Listen for focus events
+// Last argument must be &quot;true&quot; for this to work
+document.addEventListener('focus', function (event) {
+
+	// Only take action if the focused content is in a tab
+	var content = getClosest( event.target, '.tab-pane' );
+	if ( !content ) return;
+
+	// Open up the tab, but DON'T change focus, since we want it to stay on the focused content
+	content.classList.add( 'active' );
+
+	// close other tabs or do whatever else here
+
+}, true);
+</code></pre>
+
+<h3 id="6-only-hide-content-if-javascript-loads">6. Only hide content if JavaScript loads.</h3>
+
+<p>Remember, we&rsquo;re treating this as an enhancement. By default, your tabs or accordion should just be anchor links. When your JavaScript file loads, add a class to the <code>&lt;html&gt;</code> element.</p>
+
+<pre><code class="language-lang-javascript">// Add the .tabs-loaded class to the &lt;html&gt; element
+document.documentElement.classList.add( 'tabs-loaded' );
+</code></pre>
+
+<p>Next, hook into that class in your CSS before hiding any content.</p>
+
+<pre><code class="language-lang-css">/* Hide the tab */
+.tabs-loaded .tab-pane {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+/* Show the tab when active */
+.tabs-loaded .tab-pane.active {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
+}
+</code></pre>
+
+<h2 id="seeing-it-in-action">Seeing it in action</h2>
+
+<p>To see these techniques in action, check out <a href="https://cferdinandi.github.io/tabby">Tabby</a> or <a href="https://cferdinandi.github.io/houdini">Houdini</a>.</p>
+
+<p>As extendable plugins, these are both a bit more robust than the simple examples I showed here. But feel free to try them out, dig through the code, and ask me any questions.</p>
+
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

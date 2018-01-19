@@ -1,0 +1,1048 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+  </style>
+  <style>
+  html {
+  	font-size: 100%;
+  	overflow-y: scroll;
+  	-webkit-text-size-adjust: 100%;
+  	-ms-text-size-adjust: 100%;
+  }
+  
+  body {
+  	color: #272727;
+  	font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+  	line-height: 1.7;
+  	padding: 1em;
+  	/*margin: auto;*/
+  	max-width: 42em;
+  	background: #ffffff;
+  }
+  
+  a {
+  	color: #0088cc;
+  	text-decoration: none;
+  }
+  
+  a:visited {
+  	color: #0088cc;
+  }
+  
+  a:hover {
+  	color: #005580;
+  }
+  
+  a:active {
+  	color: #005580;
+  }
+  
+  a:focus {
+  	outline: thin dotted;
+  }
+  
+  p {
+  	margin: 0 0 1em;
+  }
+  
+  img {
+  	max-width: 100%;
+  }
+  
+  h1, h2, h3, h4, h5, h6,
+  .book-title {
+  	line-height: 125%;
+  	margin-top: 2em;
+  	font-weight: normal;
+  }
+  
+  p,
+  h1, h2, h3 {
+  	orphans: 3;
+  	widows: 3;
+  }
+  
+  h1, h2, h3 {
+  	page-break-after: avoid;
+  }
+  
+  h4, h5, h6 {
+  	font-weight: bold;
+  }
+  
+  h1,
+  .book-title {
+  	font-size: 2.5em;
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	padding-top: 0;
+  	padding-bottom: 0;
+  }
+  
+  h2 {
+  	font-size: 1.8em;
+  	margin-top: 0;
+  	padding-top: 0;
+  	page-break-before: always;
+  }
+  
+  h3 {
+  	font-size: 1.5em;
+  }
+  
+  h4 {
+  	font-size: 1.2em;
+  }
+  
+  h5 {
+  	font-size: 1em;
+  }
+  
+  h6 {
+  	font-size: 0.9em;
+  }
+  
+  blockquote {
+  	color: #666666;
+  	margin: 0;
+  	padding-left: 3em;
+  	page-break-inside: avoid;
+  	border-left: 0.5em #eee solid;
+  }
+  
+  hr {
+  	display: block;
+  	height: 2px;
+  	border: 0;
+  	border-top: 1px solid #aaa;
+  	border-bottom: 1px solid #eee;
+  	margin: 1em 0;
+  	padding: 0;
+  }
+  
+  pre, code, kbd, samp {
+  	color: #000;
+  	font-family: monospace, monospace;
+  	_font-family: 'courier new', monospace;
+  	font-size: 0.98em;
+  }
+  
+  pre {
+  	padding: 0 0 1em;
+  	page-break-inside: avoid !important;
+  	white-space: pre;
+  	white-space: pre-wrap !important;
+  	word-wrap: break-word;
+  }
+  
+  b, strong {
+  	font-weight: bold;
+  }
+  
+  dfn {
+  	font-style: italic;
+  }
+  
+  ins {
+  	background: #ff9;
+  	color: #000;
+  	text-decoration: none;
+  }
+  
+  mark {
+  	background: #ff0;
+  	color: #000;
+  	font-style: italic;
+  	font-weight: bold;
+  }
+  
+  sub, sup {
+  	font-size: 75%;
+  	line-height: 0;
+  	position: relative;
+  	vertical-align: baseline;
+  }
+  
+  sup {
+  	top: -0.5em;
+  }
+  
+  sub {
+  	bottom: -0.25em;
+  }
+  
+  ul, ol {
+  	margin: 1em 0;
+  	padding: 0 0 0 2em;
+  }
+  
+  li p:last-child {
+  	margin-bottom: 0;
+  }
+  
+  ul ul, ol ol {
+  	margin: .3em 0;
+  }
+  
+  dl {
+  	margin-bottom: 1em;
+  }
+  
+  dt {
+  	font-weight: bold;
+  	margin-bottom: .8em;
+  }
+  
+  dd {
+  	margin: 0 0 .8em 2em;
+  }
+  
+  dd:last-child {
+  	margin-bottom: 0;
+  }
+  
+  img {
+  	border: 0;
+  	-ms-interpolation-mode: bicubic;
+  	vertical-align: middle;
+  }
+  
+  figure {
+  	display: block;
+  	text-align: center;
+  	margin: 1em 0;
+  }
+  
+  figure img {
+  	border: none;
+  	margin: 0 auto;
+  }
+  
+  figcaption {
+  	font-size: 0.8em;
+  	font-style: italic;
+  	margin: 0 0 .8em;
+  }
+  
+  table {
+  	margin-bottom: 2em;
+  	border-bottom: 1px solid #ddd;
+  	border-right: 1px solid #ddd;
+  	border-spacing: 0;
+  	border-collapse: collapse;
+  }
+  
+  table th {
+  	padding: .2em 1em;
+  	background-color: #eee;
+  	border-top: 1px solid #ddd;
+  	border-left: 1px solid #ddd;
+  }
+  
+  table td {
+  	padding: .2em 1em;
+  	border-top: 1px solid #ddd;
+  	border-left: 1px solid #ddd;
+  	vertical-align: top;
+  }
+  
+  .meta {
+  	color: #666666;
+  	margin-bottom: 0;
+  }
+  
+  .author-img {
+  	border-radius: 50%;
+  	display: inline-block;
+  	height: 200px;
+  	width: 200px;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  
+  .break {
+  	page-break-before: always;
+  }
+  
+  @media print {
+  	* {
+  		background: transparent !important;
+  		color: black !important;
+  		filter: none !important;
+  		-ms-filter: none !important;
+  	}
+  
+  	body {
+  		font-size: 12pt;
+  		max-width: 100%;
+  	}
+  
+  	a, a:visited {
+  		text-decoration: underline;
+  	}
+  
+  	hr {
+  		height: 1px;
+  		border: 0;
+  		border-bottom: 1px solid black;
+  	}
+  
+  	a[href]:after {
+  		content: " (" attr(href) ")";
+  	}
+  
+  	abbr[title]:after {
+  		content: " (" attr(title) ")";
+  	}
+  
+  	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+  		content: "";
+  	}
+  
+  	pre, blockquote {
+  		border: 1px solid #999;
+  		padding-right: 1em;
+  	}
+  
+  	tr, img {
+  		page-break-inside: avoid;
+  	}
+  
+  	img {
+  		max-width: 100% !important;
+  	}
+  
+  	@page :left {
+  		margin: 15mm 20mm 15mm 10mm;
+  }
+  
+  	@page :right {
+  		margin: 15mm 10mm 15mm 20mm;
+  }
+  
+  /*	p, h2, h3 {
+  		orphans: 3;
+  		widows: 3;
+  	}
+  
+  	h2, h3 {
+  		page-break-after: avoid;
+  	}*/
+  }
+  body {
+  	margin: 0 auto;
+  }
+  
+  a {
+  	word-wrap: break-word;
+  }
+  
+  pre, code, kbd, samp {
+  	white-space: pre-wrap;
+  }
+  
+  code {
+  	word-wrap: break-word;
+  }
+  </style>
+</head>
+<body>
+<h1 id="dom-manipulation">DOM Manipulation</h1>
+<p>By Chris Ferdinandi<br> Go Make Things, LLC<br> v2.0.1</p>
+<p>Copyright 2017 Chris Ferdinandi and Go Make Things, LLC. All Rights Reserved.</p>
+<div data-toc="">
+
+</div>
+<h2 id="intro">Intro</h2>
+<p>In this guide, you’ll learn:</p>
+<ul>
+<li>How to get elements in the DOM.</li>
+<li>How to loop through arrays and objects.</li>
+<li>How to get, set, and remove classes.</li>
+<li>How to manipulate styles.</li>
+<li>How to get and set attributes.</li>
+<li>How to listen for events in the DOM.</li>
+</ul>
+<h3 id="a-quick-word-about-browser-compatibility">A quick word about browser compatibility</h3>
+<p>This guide makes heavy use of ECMAScript 5 (more commonly known as ES5) methods and APIs.</p>
+<p>That generally means browser support begins with IE9 and above. Each function or technique mentioned in this guide includes specific browser support information, as some do provide further backwards compatibility.</p>
+<p>Let’s get started…</p>
+<h2 id="selectors">Selectors</h2>
+<p>How to get elements in the DOM.</p>
+<h3 id="queryselectorall">querySelectorAll()</h3>
+<p>Use <code>document.querySelectorAll()</code> to find all matching elements on a page. You can use any valid CSS selector.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Get all elements with the .bg-red class</span>
+<span class="kw">var</span> elemsRed <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelectorAll</span>( <span class="st">&#39;.bg-red&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Get all elements with the [data-snack] attribute</span>
+<span class="kw">var</span> elemsSnacks <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelectorAll</span>( <span class="st">&#39;[data-snack]&#39;</span> )<span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility">Browser Compatibility</h4>
+<p>Works in all modern browsers, and IE9 and above. Can also be used in IE8 with CSS2.1 selectors (no CSS3 support).</p>
+<h3 id="queryselector">querySelector()</h3>
+<p>Use <code>document.querySelector()</code> to find the first matching element on a page.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// The first div</span>
+<span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;div&#39;</span> )<span class="op">;</span>
+
+<span class="co">// The first div with the .bg-red class</span>
+<span class="kw">var</span> elemRed <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;.bg-red&#39;</span> )<span class="op">;</span>
+
+<span class="co">// The first div with a data attribute of snack equal to carrots</span>
+<span class="kw">var</span> elemCarrots <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;[data-snack=&quot;carrots&quot;]&#39;</span> )<span class="op">;</span>
+
+<span class="co">// An element that doesn&#39;t exist</span>
+<span class="kw">var</span> elemNone <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;.bg-orange&#39;</span> )<span class="op">;</span></code></pre></div>
+<p>If an element isn’t found, <code>querySelector()</code> returns <code>null</code>. If you try to do something with the nonexistant element, an error will get thrown. You should check that a matching element was found before using it.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Verify element exists before doing anything with it</span>
+<span class="cf">if</span> ( elemNone ) <span class="op">{</span>
+    <span class="co">// Do something...</span>
+<span class="op">}</span></code></pre></div>
+<p>If you find yourself doing this a lot, here’s a helper method you can use that will fail gracefully by returning a dummy element rather than cause an error.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> getElem <span class="op">=</span> <span class="kw">function</span> ( selector ) <span class="op">{</span>
+    <span class="cf">return</span> <span class="va">document</span>.<span class="at">querySelector</span>( selector ) <span class="op">||</span> <span class="va">document</span>.<span class="at">createElement</span>( <span class="st">&#39;_&#39;</span> )<span class="op">;</span>
+<span class="op">};</span>
+<span class="at">getElem</span>( <span class="st">&#39;.does-not-exist&#39;</span> ).<span class="at">id</span> <span class="op">=</span> <span class="st">&#39;why-bother&#39;</span><span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-1">Browser Compatibility</h4>
+<p>Works in all modern browsers, and IE9 and above. Can also be used in IE8 with CSS2.1 selectors (no CSS3 support).</p>
+<h3 id="getelementbyid">getElementById()</h3>
+<p>Use <code>getElementById()</code> to get an element by its ID.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> elem <span class="op">=</span> <span class="at">getElementById</span>( <span class="st">&#39;some-selector&#39;</span> )<span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-2">Browser Compatibility</h4>
+<p>Works in all modern browsers, and at least IE6.</p>
+<h3 id="getelementsbyclassname">getElementsByClassName()</h3>
+<p>Use <code>getElementsByClassName()</code> to find all elements on a page that have a specific class or classes.</p>
+<p><strong><em>Note:</em></strong> <em>This returns a live HTMLCollection of elements. If an element is added or removed from the DOM after you set your variable, the list is automatically updated to reflect the current DOM.</em></p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Get elements with a class</span>
+<span class="kw">var</span> elemsByClass <span class="op">=</span> <span class="va">document</span>.<span class="at">getElementsByClassName</span>( <span class="st">&#39;some-class&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Get elements that have multiple classes</span>
+<span class="kw">var</span> elemsWithMultipleClasses <span class="op">=</span> <span class="va">document</span>.<span class="at">getElementsByClassName</span>( <span class="st">&#39;some-class another-class&#39;</span> )<span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-3">Browser Compatibility</h4>
+<p>Works in all modern browsers, and IE9 and above.</p>
+<h3 id="getelementsbytagname">getElementsByTagName()</h3>
+<p>Use <code>getElementsByTagName()</code> to get all elements that have a specific tag name.</p>
+<p><strong><em>Note:</em></strong> <em>This returns a live HTMLCollection of elements. If an element is added or removed from the DOM after you set your variable, the list is automatically updated to reflect the current DOM.</em></p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Get all divs</span>
+<span class="kw">var</span> divs <span class="op">=</span> <span class="va">document</span>.<span class="at">getElementsByTagName</span>( <span class="st">&#39;div&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Get all links</span>
+<span class="kw">var</span> links <span class="op">=</span> <span class="va">document</span>.<span class="at">getElementsByTagName</span>( <span class="st">&#39;a&#39;</span> )<span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-4">Browser Compatibility</h4>
+<p>Works in all modern browsers, and at least IE6.</p>
+<h3 id="matches">matches()</h3>
+<p>Use <code>matches()</code> to check if an element would be selected by a particular selector or set of selectors. Returns <code>true</code> if the element is a match, and <code>false</code> when it’s not. This function is analogous to jQuery’s <code>.is()</code> method.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-elem&#39;</span> )<span class="op">;</span>
+<span class="cf">if</span> ( <span class="va">elem</span>.<span class="at">matches</span>( <span class="st">&#39;.some-class&#39;</span> ) ) <span class="op">{</span>
+    <span class="va">console</span>.<span class="at">log</span>( <span class="st">&#39;It matches!&#39;</span> )<span class="op">;</span>
+<span class="op">}</span> <span class="cf">else</span> <span class="op">{</span>
+    <span class="va">console</span>.<span class="at">log</span>( <span class="st">&#39;Not a match... =(&#39;</span> )<span class="op">;</span>
+<span class="op">}</span></code></pre></div>
+<h4 id="browser-compatibility-5">Browser Compatibility</h4>
+<p>Works in all modern browsers, and IE9 and above.</p>
+<p><strong>But…</strong> several browser makes implemented it with nonstandard, prefixed naming. If you want to use it, you should include this polyfill<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> to ensure consistent behavior across browsers.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="cf">if</span> (<span class="op">!</span><span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">matches</span>) <span class="op">{</span>
+    <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">matches</span> <span class="op">=</span>
+        <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">matchesSelector</span> <span class="op">||</span>
+        <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">mozMatchesSelector</span> <span class="op">||</span>
+        <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">msMatchesSelector</span> <span class="op">||</span>
+        <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">oMatchesSelector</span> <span class="op">||</span>
+        <span class="va">Element</span>.<span class="va">prototype</span>.<span class="at">webkitMatchesSelector</span> <span class="op">||</span>
+        <span class="kw">function</span>(s) <span class="op">{</span>
+            <span class="kw">var</span> matches <span class="op">=</span> (<span class="kw">this</span>.<span class="at">document</span> <span class="op">||</span> <span class="kw">this</span>.<span class="at">ownerDocument</span>).<span class="at">querySelectorAll</span>(s)<span class="op">,</span>
+                i <span class="op">=</span> <span class="va">matches</span>.<span class="at">length</span><span class="op">;</span>
+            <span class="cf">while</span> (<span class="op">--</span>i <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span> <span class="va">matches</span>.<span class="at">item</span>(i) <span class="op">!==</span> <span class="kw">this</span>) <span class="op">{}</span>
+            <span class="cf">return</span> i <span class="op">&gt;</span> <span class="op">-</span><span class="dv">1</span><span class="op">;</span>
+        <span class="op">};</span>
+<span class="op">}</span></code></pre></div>
+<h3 id="a-word-about-selector-performance">A word about selector performance</h3>
+<p>Selectors that target a specific element type, like <code>getElementById()</code> and <code>getElementsByClassName()</code>, are more than twice as fast<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> as <code>querySelector()</code> and <code>querySelectorAll()</code>.</p>
+<p>So, that’s bad, right? I honestly don’t think it matters.</p>
+<p><code>getElementById()</code> can run about 15 million operations a second, compared to <em>just</em> 7 million per second for <code>querySelector()</code> in the latest version of Chrome. But that also means that <code>querySelector()</code> runs 7,000 operations a millisecond. A millisecond. Let that sink in.</p>
+<p>That’s absurdly fast. Period.</p>
+<p>Yes, <code>getElementById()</code> and <code>getElementsByClassName()</code> are faster. But the flexibility and consistency of <code>querySelector()</code> and <code>querySelectorAll()</code> make them the obvious muscle-memory choice for my projects.</p>
+<p>They’re not slow. They’re just not <em>as</em> fast.</p>
+<h2 id="loops">Loops</h2>
+<p>How to loop through arrays, objects, and node lists.</p>
+<h3 id="arrays-and-node-lists">Arrays and Node Lists</h3>
+<p>In vanilla JavaScript, you use <code>for</code> to loop through array and node list items.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> sandwiches <span class="op">=</span> [
+    <span class="st">&#39;tuna&#39;</span><span class="op">,</span>
+    <span class="st">&#39;ham&#39;</span><span class="op">,</span>
+    <span class="st">&#39;turkey&#39;</span><span class="op">,</span>
+    <span class="st">&#39;pb&amp;j&#39;</span>
+]<span class="op">;</span>
+
+<span class="cf">for</span> ( <span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">sandwiches</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span> ) <span class="op">{</span>
+    <span class="va">console</span>.<span class="at">log</span>(i) <span class="co">// index</span>
+    <span class="va">console</span>.<span class="at">log</span>( sandwiches[i] ) <span class="co">// value</span>
+<span class="op">}</span>
+
+<span class="co">// returns 0, tuna, 1, ham, 2, turkey, 3, pb&amp;j</span></code></pre></div>
+<ul>
+<li>In the first part of the loop, before the first semicolon, we set a counter variable (typically <code>i</code>, but it can be anything) to <code>0</code>.</li>
+<li>The second part, between the two semicolons, is the test we check against after each iteration of the loop. In this case, we want to make sure the counter value is less than the total number of items in our array. We do this by checking the <code>.length</code> of our array.</li>
+<li>Finally, after the second semicolon, we specify what to run after each loop. In this case, we’re adding <code>1</code> to the value of <code>i</code> with <code>i++</code>.</li>
+</ul>
+<p>We can then use <code>i</code> to grab the current item in the loop from our array.</p>
+<h4 id="multiple-loops-on-a-page">Multiple loops on a page</h4>
+<p>Variables you set in the <code>for</code> part of the loop are not scoped to the loop, so if you tried to include a second loop with <code>var i</code> you would get an error. You can use a different variable, or define <code>var i</code> outside of the loop and set it’s value in the loop.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="cf">for</span> ( <span class="kw">var</span> n <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> n <span class="op">&lt;</span> <span class="va">sandwiches</span>.<span class="at">length</span><span class="op">;</span> n<span class="op">++</span> ) <span class="op">{</span>
+    <span class="co">// Do stuff...</span>
+<span class="op">}</span>
+
+<span class="co">// Or...</span>
+<span class="kw">var</span> i<span class="op">;</span>
+<span class="cf">for</span> ( i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">sandwiches</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span> ) <span class="op">{</span>
+    <span class="co">// Do stuff...</span>
+<span class="op">}</span></code></pre></div>
+<h4 id="skip-and-end">Skip and End</h4>
+<p>You can skip to the next item in a loop using <code>continue</code>, or end the loop altogether with <code>break</code>.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="cf">for</span> ( <span class="kw">var</span> n <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> n <span class="op">&lt;</span> <span class="va">sandwiches</span>.<span class="at">length</span><span class="op">;</span> n<span class="op">++</span> ) <span class="op">{</span>
+
+    <span class="co">// Skip to the next in the loop</span>
+    <span class="cf">if</span> ( sandwiches[n] <span class="op">===</span> <span class="st">&#39;ham&#39;</span> ) <span class="cf">continue</span><span class="op">;</span>
+
+    <span class="co">// End the loop</span>
+    <span class="cf">if</span> ( sandwiches[n] <span class="op">===</span> <span class="st">&#39;turkey&#39;</span> ) <span class="cf">break</span><span class="op">;</span>
+
+    <span class="va">console</span>.<span class="at">log</span>( sandwiches[n] )<span class="op">;</span>
+
+<span class="op">}</span></code></pre></div>
+<h4 id="browser-compatibility-6">Browser Compatibility</h4>
+<p>Supported in all modern browsers, and at least back to IE6.</p>
+<h3 id="objects">Objects</h3>
+<p>You can also use a <code>for</code> loop for objects, though the structure is just a little different. The first part, <code>key</code>, is a variable that gets assigned to the object key on each loop. The second part (in this case, <code>lunch</code>), is the object to loop over.</p>
+<p>We also want to check that the property belongs to this object, and isn’t inherited from further up the object chain (for nested or <em>deep</em> objects).</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> lunch <span class="op">=</span> <span class="op">{</span>
+    <span class="dt">sandwich</span><span class="op">:</span> <span class="st">&#39;ham&#39;</span><span class="op">,</span>
+    <span class="dt">snack</span><span class="op">:</span> <span class="st">&#39;chips&#39;</span><span class="op">,</span>
+    <span class="dt">drink</span><span class="op">:</span> <span class="st">&#39;soda&#39;</span><span class="op">,</span>
+    <span class="dt">desert</span><span class="op">:</span> <span class="st">&#39;cookie&#39;</span><span class="op">,</span>
+    <span class="dt">guests</span><span class="op">:</span> <span class="dv">3</span><span class="op">,</span>
+    <span class="dt">alcohol</span><span class="op">:</span> <span class="kw">false</span><span class="op">,</span>
+<span class="op">};</span>
+
+<span class="cf">for</span> ( <span class="kw">var</span> key <span class="kw">in</span> lunch ) <span class="op">{</span>
+    <span class="cf">if</span> ( <span class="va">Object</span>.<span class="va">prototype</span>.<span class="va">hasOwnProperty</span>.<span class="at">call</span>( lunch<span class="op">,</span> key ) ) <span class="op">{</span>
+        <span class="va">console</span>.<span class="at">log</span>( key )<span class="op">;</span> <span class="co">// key</span>
+        <span class="va">console</span>.<span class="at">log</span>( lunch[key] )<span class="op">;</span> <span class="co">// value</span>
+    <span class="op">}</span>
+<span class="op">}</span>
+
+<span class="co">// returns sandwich, ham, snack, chips, drink, soda, desert, cookie, guests, 3, alcohol, false</span></code></pre></div>
+<h4 id="browser-compatibility-7">Browser Compatibility</h4>
+<p>Supported in all modern browsers, and IE6 and above.</p>
+<h3 id="foreach-helper-method">forEach Helper Method</h3>
+<p>If you use loops a lot, you may want to use Todd Motto’s helpful <code>forEach()</code> method<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a>.</p>
+<p>It checks to see whether you’ve passed in an array or object and uses the correct <code>for</code> loop automatically. It also gives you a more jQuery-like syntax.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">/*! foreach.js v1.1.0 | (c) 2014 </span>@toddmotto<span class="co"> | https://github.com/toddmotto/foreach */</span>
+<span class="kw">var</span> forEach <span class="op">=</span> <span class="kw">function</span> (collection<span class="op">,</span> callback<span class="op">,</span> scope) <span class="op">{</span>
+    <span class="cf">if</span> (<span class="va">Object</span>.<span class="va">prototype</span>.<span class="va">toString</span>.<span class="at">call</span>(collection) <span class="op">===</span> <span class="st">&#39;[object Object]&#39;</span>) <span class="op">{</span>
+        <span class="cf">for</span> (<span class="kw">var</span> prop <span class="kw">in</span> collection) <span class="op">{</span>
+            <span class="cf">if</span> (<span class="va">Object</span>.<span class="va">prototype</span>.<span class="va">hasOwnProperty</span>.<span class="at">call</span>(collection<span class="op">,</span> prop)) <span class="op">{</span>
+                <span class="va">callback</span>.<span class="at">call</span>(scope<span class="op">,</span> collection[prop]<span class="op">,</span> prop<span class="op">,</span> collection)<span class="op">;</span>
+            <span class="op">}</span>
+        <span class="op">}</span>
+    <span class="op">}</span> <span class="cf">else</span> <span class="op">{</span>
+        <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">,</span> len <span class="op">=</span> <span class="va">collection</span>.<span class="at">length</span><span class="op">;</span> i <span class="op">&lt;</span> len<span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+            <span class="va">callback</span>.<span class="at">call</span>(scope<span class="op">,</span> collection[i]<span class="op">,</span> i<span class="op">,</span> collection)<span class="op">;</span>
+        <span class="op">}</span>
+    <span class="op">}</span>
+<span class="op">};</span>
+
+<span class="co">// Arrays</span>
+<span class="at">forEach</span>(sandwiches<span class="op">,</span> <span class="kw">function</span> (sandwich<span class="op">,</span> index) <span class="op">{</span>
+    <span class="va">console</span>.<span class="at">log</span>( sandwich )<span class="op">;</span>
+    <span class="va">console</span>.<span class="at">log</span>( index )<span class="op">;</span>
+<span class="op">}</span>)<span class="op">;</span>
+
+<span class="co">// Objects</span>
+<span class="at">forEach</span>(lunch<span class="op">,</span> <span class="kw">function</span> (item<span class="op">,</span> key) <span class="op">{</span>
+
+    <span class="co">// Skips to the next item.</span>
+    <span class="co">// No way to terminate the loop</span>
+    <span class="cf">if</span> ( item <span class="op">===</span> <span class="st">&#39;soda&#39;</span> ) <span class="cf">return</span><span class="op">;</span>
+
+    <span class="va">console</span>.<span class="at">log</span>( item )<span class="op">;</span>
+    <span class="va">console</span>.<span class="at">log</span>( key )<span class="op">;</span>
+<span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<p>It’s worth mentioning that because the helper uses a function, you can only skip to the next item using <code>return</code>. There’s no way to terminate the loop entirely.</p>
+<h4 id="browser-compatibility-8">Browser Compatibility</h4>
+<p>Supported in all modern browsers, and IE6 and above.</p>
+<h2 id="classes">Classes</h2>
+<p>How to add, remove, toggle, and check for classes on an element.</p>
+<h3 id="classlist">classList</h3>
+<p>The <code>classList</code> API works very similar to jQuery’s class manipulation functions.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-elem&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Add a class</span>
+<span class="va">elem</span>.<span class="va">classList</span>.<span class="at">add</span>( <span class="st">&#39;some-class&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Remove a class</span>
+<span class="va">elem</span>.<span class="va">classList</span>.<span class="at">remove</span>( <span class="st">&#39;some-other-class&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Toggle a class</span>
+<span class="co">// (Add the class if it&#39;s not already on the element, remove it if it is.)</span>
+<span class="va">elem</span>.<span class="va">classList</span>.<span class="at">toggle</span>( <span class="st">&#39;toggle-me&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Check if an element has a specfic class</span>
+<span class="cf">if</span> ( <span class="va">elem</span>.<span class="va">classList</span>.<span class="at">contains</span>( <span class="st">&#39;yet-another-class&#39;</span> ) ) <span class="op">{</span>
+    <span class="co">// Do something...</span>
+<span class="op">}</span></code></pre></div>
+<h4 id="browser-compatibility-9">Browser Compatibility</h4>
+<p>Works in all modern browsers, and IE10 and above. A polyfill from Eli Grey<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a> extends support back to IE8.</p>
+<h3 id="classname">className</h3>
+<p>You can use <code>className</code> to get all of the classes on an element as a string, add a class or classes, or completely replace or remove all classes.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;div&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Get all of the classes on an element</span>
+<span class="kw">var</span> elemClasses <span class="op">=</span> <span class="va">elem</span>.<span class="at">className</span><span class="op">;</span>
+
+<span class="co">// Add a class to an element</span>
+<span class="va">elem</span>.<span class="at">className</span> <span class="op">+=</span> <span class="st">&#39; vanilla-js&#39;</span><span class="op">;</span>
+
+<span class="co">// Completely replace all classes on an element</span>
+<span class="va">elem</span>.<span class="at">className</span> <span class="op">=</span> <span class="st">&#39;new-class&#39;</span><span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-10">Browser Compatibility</h4>
+<p>Supported in all modern browsers, and at least back to IE6.</p>
+<h2 id="styles">Styles</h2>
+<p>How to get and set styles (as in, CSS) for an element.</p>
+<p>Vanilla JavaScript uses camel cased versions of the attributes you would use in CSS. The Mozilla Developer Network provides a comprehensive list of available attributes and their JavaScript counterparts.<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a></p>
+<h3 id="inline-styles">Inline Styles</h3>
+<p>Use <code>.style</code> to get and set inline styles for an element.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-elem&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Get a style</span>
+<span class="co">// If this style is not set as an inline style directly on the element, it returns an empty string</span>
+<span class="kw">var</span> bgColor <span class="op">=</span> <span class="va">elem</span>.<span class="va">style</span>.<span class="at">backgroundColor</span><span class="op">;</span>
+
+<span class="co">// Set a style</span>
+<span class="va">elem</span>.<span class="va">style</span>.<span class="at">backgroundColor</span> <span class="op">=</span> <span class="st">&#39;purple&#39;</span><span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-11">Browser Compatibility</h4>
+<p>Supported in all modern browsers, and at least back to IE6.</p>
+<h3 id="computed-styles">Computed Styles</h3>
+<p>Use <code>window.getComputedStyle()</code> gets the actual computed style of an element. This factors in browser default stylesheets as well as external styles you’ve specified.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-elem&#39;</span> )<span class="op">;</span>
+<span class="kw">var</span> bgColor <span class="op">=</span> <span class="va">window</span>.<span class="at">getComputedStyle</span>( elem ).<span class="at">backgroundColor</span><span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-12">Browser Compatibility</h4>
+<p>Works in all modern browsers, and IE9 and above.</p>
+<h2 id="attributes">Attributes</h2>
+<p>How to get, set, and remove attributes for an element.</p>
+<h3 id="getattribute-setattribute-removeattribute-and-hasattribute.">getAttribute(), setAttribute(), removeAttribute(), and hasAttribute().</h3>
+<p>The <code>getAttribute()</code>, <code>setAttribute()</code>, <code>removeAttribute()</code>, and <code>hasAttribute()</code> methods let you get, set, remove, and check for the existance of attributes (including data attributes) on an element.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-elem&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Get the value of an attribute</span>
+<span class="kw">var</span> sandwich <span class="op">=</span> <span class="va">elem</span>.<span class="at">getAttribute</span>( <span class="st">&#39;data-sandwich&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Set an attribute value</span>
+<span class="va">elem</span>.<span class="at">setAttribute</span>( <span class="st">&#39;data-sandwich&#39;</span><span class="op">,</span> <span class="st">&#39;turkey&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Remove an attribute</span>
+<span class="va">elem</span>.<span class="at">removeAttribute</span>( <span class="st">&#39;data-sandwich&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Check if an element has an attribute</span>
+<span class="cf">if</span> ( <span class="va">elem</span>.<span class="at">hasAttribute</span>( <span class="st">&#39;data-sandwich&#39;</span> ) ) <span class="op">{</span>
+    <span class="co">// do something...</span>
+<span class="op">}</span></code></pre></div>
+<p>These methods can also be used to manipulate other types of attributes (things like <code>id</code>, <code>tabindex</code>, <code>name</code>, and so on), but these are better done by calling the attribute on the element directly (see below).</p>
+<h4 id="browser-compatibility-13">Browser Compatibility</h4>
+<p>Supported in all modern browsers, and at least back to IE6.</p>
+<h3 id="attribute-properties">Attribute Properties</h3>
+<p>You can get and set attributes directly on an element. View a full list of HTML attributes on the Mozilla Developer Network.<a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a></p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> elem <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#some-elem&#39;</span> )<span class="op">;</span>
+
+<span class="co">// Get attributes</span>
+<span class="kw">var</span> id <span class="op">=</span> <span class="va">elem</span>.<span class="at">id</span><span class="op">;</span>
+<span class="kw">var</span> name <span class="op">=</span> <span class="va">elem</span>.<span class="at">name</span><span class="op">;</span>
+<span class="kw">var</span> tabindex <span class="op">=</span> <span class="va">elem</span>.<span class="at">tabindex</span><span class="op">;</span>
+
+<span class="co">// Set attributes</span>
+<span class="va">elem</span>.<span class="at">id</span> <span class="op">=</span> <span class="st">&#39;new-id&#39;</span><span class="op">;</span>
+<span class="va">elem</span>.<span class="at">title</span> <span class="op">=</span> <span class="st">&#39;The title for this thing is awesome!&#39;</span><span class="op">;</span>
+<span class="va">elem</span>.<span class="at">tabIndex</span> <span class="op">=</span> <span class="st">&#39;-1&#39;</span><span class="op">;</span>
+
+<span class="co">// Remove attributes</span>
+<span class="va">elem</span>.<span class="at">id</span> <span class="op">=</span> <span class="st">&#39;&#39;</span><span class="op">;</span>
+<span class="va">elem</span>.<span class="at">title</span> <span class="op">=</span> <span class="st">&#39;&#39;</span><span class="op">;</span>
+<span class="va">elem</span>.<span class="at">name</span> <span class="op">=</span> <span class="st">&#39;&#39;</span><span class="op">;</span></code></pre></div>
+<h4 id="browser-compatibility-14">Browser Compatibility</h4>
+<p>Supported in all modern browsers, and at least back to IE6.</p>
+<h2 id="event-listeners">Event Listeners</h2>
+<p>How to listen for browser events and run callback functions when they happen.</p>
+<h3 id="addeventlistener">addEventListener()</h3>
+<p>Use <code>addEventListener</code> to listen for events on an element. You can find a full list of available events on the Mozilla Developer Network. <a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a></p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> btn <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>( <span class="st">&#39;#click-me&#39;</span> )<span class="op">;</span>
+<span class="va">btn</span>.<span class="at">addEventListener</span>(<span class="st">&#39;click&#39;</span><span class="op">,</span> <span class="kw">function</span> ( event ) <span class="op">{</span>
+    <span class="va">console</span>.<span class="at">log</span>( event )<span class="op">;</span> <span class="co">// The event details</span>
+    <span class="va">console</span>.<span class="at">log</span>( <span class="va">event</span>.<span class="at">target</span> )<span class="op">;</span> <span class="co">// The clicked element</span>
+<span class="op">},</span> <span class="kw">false</span>)<span class="op">;</span></code></pre></div>
+<h3 id="multiple-targets">Multiple Targets</h3>
+<p>The vanilla JavaScript <code>addEventListener()</code> function requires you to pass in a specific, individual element to listen to. You cannot pass in an array or node list of matching elements like you might in jQuery or other frameworks.</p>
+<p>To add the same event listener to multiple elements, you also <strong>cannot</strong> just use a <code>for</code> loop because of how the <code>i</code> variable is scoped (as in, it’s not and changes with each loop).</p>
+<p>Fortunately, there’s a <em>really</em> easy way to get a jQuery-like experience: event bubbling.</p>
+<p>Instead of listening to specific elements, we’ll instead listen for <em>all</em> clicks on a page, and then check to see if the clicked item has a matching selector.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Listen for clicks on the entire window</span>
+<span class="va">window</span>.<span class="at">addEventListener</span>(<span class="st">&#39;click&#39;</span><span class="op">,</span> <span class="kw">function</span> ( event ) <span class="op">{</span>
+
+    <span class="co">// If the clicked element has the `.click-me` class, it&#39;s a match!</span>
+    <span class="cf">if</span> ( <span class="va">event</span>.<span class="va">target</span>.<span class="va">classList</span>.<span class="at">contains</span>( <span class="st">&#39;click-me&#39;</span> ) ) <span class="op">{</span>
+        <span class="co">// Do something...</span>
+    <span class="op">}</span>
+
+<span class="op">},</span> <span class="kw">false</span>)<span class="op">;</span></code></pre></div>
+<h3 id="multiple-events">Multiple Events</h3>
+<p>In vanilla JavaScript, each event type requires it’s own event listener. Unfortunately, you <em>can’t</em> pass in multiple events to a single listener like you might in jQuery and other frameworks.</p>
+<p><strong>But…</strong> by using a named function and passing that into your event listener, you can avoid having to write the same code over and over again.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Setup our function to run on various events</span>
+<span class="kw">var</span> someFunction <span class="op">=</span> <span class="kw">function</span> ( event ) <span class="op">{</span>
+    <span class="co">// Do something...</span>
+<span class="op">};</span>
+
+<span class="co">// Add our event listeners</span>
+<span class="va">window</span>.<span class="at">addEventListener</span>( <span class="st">&#39;click&#39;</span><span class="op">,</span> someFunction<span class="op">,</span> <span class="kw">false</span> )<span class="op">;</span>
+<span class="va">window</span>.<span class="at">addEventListener</span>( <span class="st">&#39;scroll&#39;</span><span class="op">,</span> someFunction<span class="op">,</span> <span class="kw">false</span> )<span class="op">;</span></code></pre></div>
+<h3 id="event-debouncing">Event Debouncing</h3>
+<p>Events like <code>scroll</code> and <code>resize</code> can cause huge performance issues on certain browsers. Paul Irish explains:<a href="#fn8" class="footnoteRef" id="fnref8"><sup>8</sup></a></p>
+<blockquote>
+<p>If you’ve ever attached an event handler to the window’s resize event, you have probably noticed that while Firefox fires the event slow and sensibly, IE and Webkit go totally spastic.</p>
+</blockquote>
+<p>Debouncing is a way of forcing an event listener to wait a certain period of time before firing again. To use this approach, we’ll setup a <code>timeout</code> element. This is used as a counter to tell us how long it’s been since the event was last run.</p>
+<p>When our event fires, if <code>timeout</code> has no value, we’ll assign a <code>setTimeout</code> function that expires after 66ms and contains our the methods we want to run on the event.</p>
+<p>If it’s been less than 66ms from when the last event ran, nothing else will happen.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Setup a timer</span>
+<span class="kw">var</span> timeout<span class="op">;</span>
+
+<span class="co">// Listen for resize events</span>
+<span class="va">window</span>.<span class="at">addEventListener</span>(<span class="st">&#39;resize&#39;</span><span class="op">,</span> <span class="kw">function</span> ( event ) <span class="op">{</span>
+    <span class="va">console</span>.<span class="at">log</span>( <span class="st">&#39;no debounce&#39;</span> )<span class="op">;</span>
+
+    <span class="co">// If timer is null, reset it to 66ms and run your functions.</span>
+    <span class="co">// Otherwise, wait until timer is cleared</span>
+    <span class="cf">if</span> ( <span class="op">!</span>timeout ) <span class="op">{</span>
+        timeout <span class="op">=</span> <span class="at">setTimeout</span>(<span class="kw">function</span>() <span class="op">{</span>
+
+            <span class="co">// Reset timeout</span>
+            timeout <span class="op">=</span> <span class="kw">null</span><span class="op">;</span>
+
+            <span class="co">// Run our resize functions</span>
+            <span class="va">console</span>.<span class="at">log</span>( <span class="st">&#39;debounced&#39;</span> )<span class="op">;</span>
+
+        <span class="op">},</span> <span class="dv">66</span>)<span class="op">;</span>
+    <span class="op">}</span>
+<span class="op">},</span> <span class="kw">false</span>)<span class="op">;</span></code></pre></div>
+<h3 id="use-capture">Use Capture</h3>
+<p>The last argument in <code>addEventListener()</code> is <code>useCapture</code>, and it specifies whether or not you want to “capture” the event. For most event types, this should be set to <code>false</code>. But certain events, like <code>focus</code>, don’t bubble.</p>
+<p>Setting <code>useCapture</code> to <code>true</code> allows you to take advantage of event bubbling for events that otherwise don’t support it.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Listen for all focus events in the document</span>
+<span class="va">document</span>.<span class="at">addEventListener</span>(<span class="st">&#39;focus&#39;</span><span class="op">,</span> <span class="kw">function</span> (event) <span class="op">{</span>
+    <span class="co">// Run functions whenever an element in the document comes into focus</span>
+<span class="op">},</span> <span class="kw">true</span>)<span class="op">;</span></code></pre></div>
+<h3 id="browser-compatibility-15">Browser Compatibility</h3>
+<p><code>addEventListener</code> works in all modern browsers, and IE9 and above.</p>
+<h2 id="putting-it-all-together">Putting it all together</h2>
+<p>To make this all tangible, let’s work on a project together. We’ll build a simple accordion script we can use to show and hide the visibility of content.</p>
+<p>The starter template and complete project code are included in the source code<a href="#fn9" class="footnoteRef" id="fnref9"><sup>9</sup></a> on GitHub.</p>
+<h3 id="getting-setup">Getting Setup</h3>
+<p>I’ve dropped some placeholder markup into the template to help you get started.</p>
+<p>Each content area is shown or hidden using a simple anchor link. Each link has an <code>.accordion-toggle</code> class on it that we can use to target the links for styling and with JavaScript. The link’s <code>href</code> points to the target content area.</p>
+<p>Similarly, each content area is wrapped in a <code>&lt;div&gt;</code> with the <code>.accordion-content</code> class, and has a unique ID that matches the <code>href</code> of the toggle that shows or hides it.</p>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;a</span><span class="ot"> class=</span><span class="st">&quot;accordion-toggle&quot;</span><span class="ot"> href=</span><span class="st">&quot;#content-1&quot;</span><span class="kw">&gt;</span>Show More 1<span class="kw">&lt;/a&gt;</span>
+
+<span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;accordion-content&quot;</span><span class="ot"> id=</span><span class="st">&quot;content-1&quot;</span><span class="kw">&gt;</span>
+    Content goes here...
+<span class="kw">&lt;/div&gt;</span></code></pre></div>
+<h3 id="showing-and-hiding-our-content">Showing and hiding our content</h3>
+<p>To make things really easy and gives us a ton of flexibility, we’ll use some simple CSS to hide and show our content.</p>
+<p>By default, we’ll hide elements with the <code>.accordion-content</code> class using <code>display: none</code>. When someone clicks one of our toggle links, we’ll add the <code>.active</code> class to the content, overriding it with <code>display: block</code> to make it visible.</p>
+<p><strong><em>Note:</em></strong> <em>There are a ton of different naming conventions you can use for classes like this. Some prefer more state-driven classes like <code>.is-open</code> or <code>.is-active</code>. Use whatever works best for you.</em></p>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css"><span class="fl">.accordion-content</span> <span class="kw">{</span>
+    <span class="kw">display:</span> <span class="dt">none</span><span class="kw">;</span>
+<span class="kw">}</span>
+
+<span class="fl">.accordion-content.active</span> <span class="kw">{</span>
+    <span class="kw">display:</span> <span class="dt">block</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre></div>
+<p>An advantage of this approach is that if you have content you want to be open by default, you can add the <code>.active</code> class to it directly in the markup.</p>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;accordion-content active&quot;</span><span class="ot"> id=</span><span class="st">&quot;content-1&quot;</span><span class="kw">&gt;</span>
+    This content is visible on page load...
+<span class="kw">&lt;/div&gt;</span></code></pre></div>
+<h3 id="toggling-content-visibility">Toggling content visibility</h3>
+<p>To toggle the visibility of our content, we need to detect when our <code>.accordion-toggle</code> links are clicked.</p>
+<p>We <em>could</em> add an event listener to each link, but for maximum flexibility and performance, let’s listen for all click events on the <code>document</code>, and filter out any clicked elements that don’t have the <code>.accordion-toggle</code> class.</p>
+<p>To do this, we’ll use <code>classList.contains()</code> to check the <code>event.target</code> in our event listener.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Listen for clicks on the document</span>
+<span class="va">document</span>.<span class="at">addEventListener</span>(<span class="st">&#39;click&#39;</span><span class="op">,</span> <span class="kw">function</span> (event) <span class="op">{</span>
+
+    <span class="co">// Log the clicked element in the console</span>
+    <span class="va">console</span>.<span class="at">log</span>(<span class="va">event</span>.<span class="at">target</span>)<span class="op">;</span>
+
+    <span class="co">// Bail if our clicked element doesn&#39;t have the .accordion-toggle class</span>
+    <span class="cf">if</span> (<span class="op">!</span><span class="va">event</span>.<span class="va">target</span>.<span class="va">classList</span>.<span class="at">contains</span>(<span class="st">&#39;accordion-toggle&#39;</span>)) <span class="cf">return</span><span class="op">;</span>
+
+    <span class="co">// Log the clicked element in the console</span>
+    <span class="va">console</span>.<span class="at">log</span>(<span class="st">&#39;matches&#39;</span>)<span class="op">;</span>
+
+<span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<p>The code above logs every clicked element in the console, but only displays <code>matches</code> when an accordion toggle is clicked. Open up the console tab in developer tools to see it in action.</p>
+<p>Next, we want to get the element that our accordion toggle points to. The <code>event.target.hash</code> gives us the hash value of our anchor link, which matches the ID of our target content area. We can use that with <code>querySelector</code> to get our content. If no matching content is found, we’ll end our function.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Listen for clicks on the document</span>
+<span class="va">document</span>.<span class="at">addEventListener</span>(<span class="st">&#39;click&#39;</span><span class="op">,</span> <span class="kw">function</span> (event) <span class="op">{</span>
+
+    <span class="co">// Bail if our clicked element doesn&#39;t have the .accordion-toggle class</span>
+    <span class="cf">if</span> (<span class="op">!</span><span class="va">event</span>.<span class="va">target</span>.<span class="va">classList</span>.<span class="at">contains</span>(<span class="st">&#39;accordion-toggle&#39;</span>)) <span class="cf">return</span><span class="op">;</span>
+
+    <span class="co">// Get the target content</span>
+    <span class="kw">var</span> content <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>(<span class="va">event</span>.<span class="va">target</span>.<span class="at">hash</span>)<span class="op">;</span>
+    <span class="cf">if</span> ( <span class="op">!</span>content ) <span class="cf">return</span><span class="op">;</span>
+
+<span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<p>Finally, let’s change the visibility of our content. If it already has the <code>.active</code> class on it, we want to remove it. And if it doesn’t have the class, we want to add it.</p>
+<p>For that, we’ll use <code>classList.toggle()</code>.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Listen for clicks on the document</span>
+<span class="va">document</span>.<span class="at">addEventListener</span>(<span class="st">&#39;click&#39;</span><span class="op">,</span> <span class="kw">function</span> (event) <span class="op">{</span>
+
+    <span class="co">// Bail if our clicked element doesn&#39;t have the .accordion-toggle class</span>
+    <span class="cf">if</span> (<span class="op">!</span><span class="va">event</span>.<span class="va">target</span>.<span class="va">classList</span>.<span class="at">contains</span>(<span class="st">&#39;accordion-toggle&#39;</span>)) <span class="cf">return</span><span class="op">;</span>
+
+    <span class="co">// Get the target content</span>
+    <span class="kw">var</span> content <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>(<span class="va">event</span>.<span class="va">target</span>.<span class="at">hash</span>)<span class="op">;</span>
+    <span class="cf">if</span> ( <span class="op">!</span>content ) <span class="cf">return</span><span class="op">;</span>
+
+    <span class="co">// Toggle our content</span>
+    <span class="va">content</span>.<span class="va">classList</span>.<span class="at">toggle</span>(<span class="st">&#39;active&#39;</span>)<span class="op">;</span>
+
+<span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<p>And with that little bit of code, we can now show and hide content when our toggle link is clicked.</p>
+<h3 id="prevent-the-page-from-jumping">Prevent the page from jumping</h3>
+<p>Because we’re using anchor links, every time a visitor clicks a toggle, it updates the URL and causes the page to jump to the anchored element.</p>
+<p>If your monitor is tall enough, you might not notice it because the content in our demo project is pretty short. On real webpages, this would create a jarring visual jump.</p>
+<p>We can prevent the URL update from happening (and the subsequent page jump) by using <code>event.preventDefault()</code> to prevent the default link behavior. We want to do this after we make sure the link is an accordion toggle and that matching content exists.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Listen for clicks on the document</span>
+<span class="va">document</span>.<span class="at">addEventListener</span>(<span class="st">&#39;click&#39;</span><span class="op">,</span> <span class="kw">function</span> (event) <span class="op">{</span>
+
+    <span class="co">// Bail if our clicked element doesn&#39;t have the .accordion-toggle class</span>
+    <span class="cf">if</span> (<span class="op">!</span><span class="va">event</span>.<span class="va">target</span>.<span class="va">classList</span>.<span class="at">contains</span>(<span class="st">&#39;accordion-toggle&#39;</span>)) <span class="cf">return</span><span class="op">;</span>
+
+    <span class="co">// Get the target content</span>
+    <span class="kw">var</span> content <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>(<span class="va">event</span>.<span class="va">target</span>.<span class="at">hash</span>)<span class="op">;</span>
+    <span class="cf">if</span> ( <span class="op">!</span>content ) <span class="cf">return</span><span class="op">;</span>
+
+    <span class="co">// Prevent default link behavior</span>
+    <span class="va">event</span>.<span class="at">preventDefault</span>()<span class="op">;</span>
+
+    <span class="co">// Toggle our content</span>
+    <span class="va">content</span>.<span class="va">classList</span>.<span class="at">toggle</span>(<span class="st">&#39;active&#39;</span>)<span class="op">;</span>
+
+<span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<h3 id="adding-accordion-functionality">Adding accordion functionality</h3>
+<p>At the moment, we have a collection of show-and-hide links.</p>
+<p>To really make this an accordion, we only want one content are to be open at a time. We need to find any open accordion content areas and close them.</p>
+<p>We’ll use <code>querySelectorAll()</code> to get any elements with both the <code>.accordion-content</code> and <code>.active</code> classes. Then, we’ll loop through them and remove the <code>.active</code> class with <code>classList.remove()</code>.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Listen for clicks on the document</span>
+<span class="va">document</span>.<span class="at">addEventListener</span>(<span class="st">&#39;click&#39;</span><span class="op">,</span> <span class="kw">function</span> (event) <span class="op">{</span>
+
+    <span class="co">// Bail if our clicked element doesn&#39;t have the .accordion-toggle class</span>
+    <span class="cf">if</span> (<span class="op">!</span><span class="va">event</span>.<span class="va">target</span>.<span class="va">classList</span>.<span class="at">contains</span>(<span class="st">&#39;accordion-toggle&#39;</span>)) <span class="cf">return</span><span class="op">;</span>
+
+    <span class="co">// Get the target content</span>
+    <span class="kw">var</span> content <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>(<span class="va">event</span>.<span class="va">target</span>.<span class="at">hash</span>)<span class="op">;</span>
+    <span class="cf">if</span> ( <span class="op">!</span>content ) <span class="cf">return</span><span class="op">;</span>
+
+    <span class="co">// Prevent default link behavior</span>
+    <span class="va">event</span>.<span class="at">preventDefault</span>()<span class="op">;</span>
+
+    <span class="co">// Get all open accordion content, loop through it, and close it</span>
+    <span class="kw">var</span> accordions <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelectorAll</span>(<span class="st">&#39;.accordion-content.active&#39;</span>)<span class="op">;</span>
+    <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">accordions</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+        accordions[i].<span class="va">classList</span>.<span class="at">remove</span>(<span class="st">&#39;active&#39;</span>)<span class="op">;</span>
+    <span class="op">}</span>
+
+    <span class="co">// Toggle our content</span>
+    <span class="va">content</span>.<span class="va">classList</span>.<span class="at">toggle</span>(<span class="st">&#39;active&#39;</span>)<span class="op">;</span>
+
+<span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<p>Now, only one content area can be open a time.</p>
+<p>There’s a small problem with our code, though. If you click a toggle for an open content area, you might want to close that content area. With our current code, that area remains open.</p>
+<p>In our <code>for</code> loop, we’re removing the existing active class on that content, and just adding it back again with <code>classList.toggle()</code>.</p>
+<p>Instead, let’s first check to see if our content is open using the <code>classList.contains()</code> method. If it’s open, we’ll close it by removing the <code>.active</code> class and end our function. Otherwise, we’ll close all currently open content and open it by using <code>classList.add()</code> instead of <code>classList.toggle()</code>.</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="co">// Listen for clicks on the document</span>
+<span class="va">document</span>.<span class="at">addEventListener</span>(<span class="st">&#39;click&#39;</span><span class="op">,</span> <span class="kw">function</span> (event) <span class="op">{</span>
+
+    <span class="co">// Bail if our clicked element doesn&#39;t have the .accordion-toggle class</span>
+    <span class="cf">if</span> (<span class="op">!</span><span class="va">event</span>.<span class="va">target</span>.<span class="va">classList</span>.<span class="at">contains</span>(<span class="st">&#39;accordion-toggle&#39;</span>)) <span class="cf">return</span><span class="op">;</span>
+
+    <span class="co">// Get the target content</span>
+    <span class="kw">var</span> content <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelector</span>(<span class="va">event</span>.<span class="va">target</span>.<span class="at">hash</span>)<span class="op">;</span>
+    <span class="cf">if</span> ( <span class="op">!</span>content ) <span class="cf">return</span><span class="op">;</span>
+
+    <span class="co">// Prevent default link behavior</span>
+    <span class="va">event</span>.<span class="at">preventDefault</span>()<span class="op">;</span>
+
+    <span class="co">// If the content is already expanded, collapse it and quit</span>
+    <span class="cf">if</span> ( <span class="va">content</span>.<span class="va">classList</span>.<span class="at">contains</span>(<span class="st">&#39;active&#39;</span>) ) <span class="op">{</span>
+        <span class="va">content</span>.<span class="va">classList</span>.<span class="at">remove</span>(<span class="st">&#39;active&#39;</span>)<span class="op">;</span>
+        <span class="cf">return</span><span class="op">;</span>
+    <span class="op">}</span>
+
+    <span class="co">// Get all open accordion content, loop through it, and close it</span>
+    <span class="kw">var</span> accordions <span class="op">=</span> <span class="va">document</span>.<span class="at">querySelectorAll</span>(<span class="st">&#39;.accordion-content.active&#39;</span>)<span class="op">;</span>
+    <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="va">accordions</span>.<span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) <span class="op">{</span>
+        accordions[i].<span class="va">classList</span>.<span class="at">remove</span>(<span class="st">&#39;active&#39;</span>)<span class="op">;</span>
+    <span class="op">}</span>
+
+    <span class="co">// Open our content</span>
+    <span class="va">content</span>.<span class="va">classList</span>.<span class="at">add</span>(<span class="st">&#39;active&#39;</span>)<span class="op">;</span>
+
+<span class="op">}</span>)<span class="op">;</span></code></pre></div>
+<p>Congratulations! You just created a hide-and-show/accordion script using a variety of DOM manipulation techniques.</p>
+<h2 id="about-the-author">About the Author</h2>
+<div class="figure">
+<img src="assets/img/chris-ferdinandi.jpg" class="author-img" />
+
+</div>
+<p>Hi, I’m Chris Ferdinandi. I help people learn JavaScript.</p>
+<p>I love pirates, puppies, and Pixar movies, and live near horse farms in rural Massachusetts. I run Go Make Things with Bailey Puppy, a lab-mix from Tennessee.</p>
+<p>You can find me:</p>
+<ul>
+<li>On my website at <a href="https://gomakethings.com">GoMakeThings.com</a>.</li>
+<li>By email at <script type="text/javascript">
+<!--
+h='&#x67;&#x6f;&#x6d;&#x61;&#x6b;&#x65;&#116;&#104;&#x69;&#110;&#x67;&#x73;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x63;&#104;&#114;&#x69;&#x73;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#x63;&#104;&#114;&#x69;&#x73;&#32;&#x61;&#116;&#32;&#x67;&#x6f;&#x6d;&#x61;&#x6b;&#x65;&#116;&#104;&#x69;&#110;&#x67;&#x73;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript>.</li>
+<li>On Twitter at <a href="https://twitter.com/ChrisFerdinandi"><span class="citation">@ChrisFerdinandi</span></a>.</li>
+</ul>
+<div class="break">
+
+</div>
+<script>
+    ;(function (window, document, undefined) {
+
+        'use strict';
+
+
+        // Feature test
+        var supports = 'querySelector' in document;
+        if ( !supports ) return;
+
+
+        //
+        // Variables
+        //
+
+
+        var headings = document.querySelectorAll( 'h2' ); // Headings
+        var toc = document.querySelector( '[data-toc]' ); // Table of contents container
+        var links = '';         // Placeholder variables
+
+        // Make sure headings and TOC container exist. Otherwise, bail.
+        if ( headings.length < 1 || !toc ) return;
+
+
+        //
+        // Methods
+        //
+
+        /**
+         * Give heading an ID if it's missing one
+         * @param  {Node} heading The heading
+         */
+        var createID = function ( heading ) {
+
+            // If the heading already has and ID, bail
+            if ( heading.id ) return;
+
+            // Otherwise, convert heading text to valid ID
+            // Regex pattern: http://stackoverflow.com/a/9635698/1293256
+            heading.id = heading.innerHTML.replace( /^[^a-z]+|[^\w:.-]+/gi, '_' ).toLowerCase();
+
+        };
+
+        /**
+         * Create the table of contents link
+         * @param  {Node} heading The heading
+         */
+        var createLink = function ( heading ) {
+            links += '<li><a href="#' + heading.id + '">' + heading.innerHTML + '</a></li>';
+        };
+
+
+        //
+        // Inits
+        //
+
+        // Create the links
+        for ( var i = 0; i < headings.length; i++ ) {
+            createID( headings[i] ); // If the heading has no ID, give it one
+            createLink( headings[i] ); // Create link
+        }
+
+        // Inject TOC into the DOM
+        toc.innerHTML = '<h2>Table of Contents</h2><ol>' + links + '</ol>';
+
+    })(window, document);
+
+    /*! smooth-scroll v10.3.1 | (c) 2017 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/smooth-scroll */
+    !(function(e,t){"function"==typeof define&&define.amd?define([],t(e)):"object"==typeof exports?module.exports=t(e):e.smoothScroll=t(e)})("undefined"!=typeof global?global:this.window||this.global,(function(e){"use strict";var t,n,o,r,a,c,l,i={},u="querySelector"in document&&"addEventListener"in e,s={selector:"[data-scroll]",selectorHeader:null,speed:500,easing:"easeInOutCubic",offset:0,callback:function(){}},f=function(){var e={},t=!1,n=0,o=arguments.length;"[object Boolean]"===Object.prototype.toString.call(arguments[0])&&(t=arguments[0],n++);for(;n<o;n++){var r=arguments[n];!(function(n){for(var o in n)Object.prototype.hasOwnProperty.call(n,o)&&(t&&"[object Object]"===Object.prototype.toString.call(n[o])?e[o]=f(!0,e[o],n[o]):e[o]=n[o])})(r)}return e},d=function(e){return Math.max(e.scrollHeight,e.offsetHeight,e.clientHeight)},h=function(e,t){for(Element.prototype.matches||(Element.prototype.matches=Element.prototype.matchesSelector||Element.prototype.mozMatchesSelector||Element.prototype.msMatchesSelector||Element.prototype.oMatchesSelector||Element.prototype.webkitMatchesSelector||function(e){for(var t=(this.document||this.ownerDocument).querySelectorAll(e),n=t.length;--n>=0&&t.item(n)!==this;);return n>-1});e&&e!==document;e=e.parentNode)if(e.matches(t))return e;return null},m=function(e){"#"===e.charAt(0)&&(e=e.substr(1));for(var t,n=String(e),o=n.length,r=-1,a="",c=n.charCodeAt(0);++r<o;){if(0===(t=n.charCodeAt(r)))throw new InvalidCharacterError("Invalid character: the input contains U+0000.");a+=t>=1&&t<=31||127==t||0===r&&t>=48&&t<=57||1===r&&t>=48&&t<=57&&45===c?"\\"+t.toString(16)+" ":t>=128||45===t||95===t||t>=48&&t<=57||t>=65&&t<=90||t>=97&&t<=122?n.charAt(r):"\\"+n.charAt(r)}return"#"+a},p=function(e,t){var n;return"easeInQuad"===e&&(n=t*t),"easeOutQuad"===e&&(n=t*(2-t)),"easeInOutQuad"===e&&(n=t<.5?2*t*t:(4-2*t)*t-1),"easeInCubic"===e&&(n=t*t*t),"easeOutCubic"===e&&(n=--t*t*t+1),"easeInOutCubic"===e&&(n=t<.5?4*t*t*t:(t-1)*(2*t-2)*(2*t-2)+1),"easeInQuart"===e&&(n=t*t*t*t),"easeOutQuart"===e&&(n=1- --t*t*t*t),"easeInOutQuart"===e&&(n=t<.5?8*t*t*t*t:1-8*--t*t*t*t),"easeInQuint"===e&&(n=t*t*t*t*t),"easeOutQuint"===e&&(n=1+--t*t*t*t*t),"easeInOutQuint"===e&&(n=t<.5?16*t*t*t*t*t:1+16*--t*t*t*t*t),n||t},g=function(e,t,n){var o=0;if(e.offsetParent)do{o+=e.offsetTop,e=e.offsetParent}while(e);return o=Math.max(o-t-n,0),Math.min(o,y()-b())},b=function(){return Math.max(document.documentElement.clientHeight,e.innerHeight||0)},y=function(){return Math.max(document.body.scrollHeight,document.documentElement.scrollHeight,document.body.offsetHeight,document.documentElement.offsetHeight,document.body.clientHeight,document.documentElement.clientHeight)},v=function(e){return e&&"object"==typeof JSON&&"function"==typeof JSON.parse?JSON.parse(e):{}},O=function(e){return e?d(e)+e.offsetTop:0},S=function(t,n,o){o||(t.focus(),document.activeElement.id!==t.id&&(t.setAttribute("tabindex","-1"),t.focus(),t.style.outline="none"),e.scrollTo(0,n))};i.animateScroll=function(n,o,c){var i=v(o?o.getAttribute("data-options"):null),u=f(t||s,c||{},i),d="[object Number]"===Object.prototype.toString.call(n),h=d||!n.tagName?null:n;if(d||h){var m=e.pageYOffset;u.selectorHeader&&!r&&(r=document.querySelector(u.selectorHeader)),a||(a=O(r));var b,E,I=d?n:g(h,a,parseInt("function"==typeof u.offset?u.offset():u.offset,10)),H=I-m,A=y(),j=0,C=function(t,r,a){var c=e.pageYOffset;(t==r||c==r||e.innerHeight+c>=A)&&(clearInterval(a),S(n,r,d),u.callback(n,o))},M=function(){j+=16,b=j/parseInt(u.speed,10),b=b>1?1:b,E=m+H*p(u.easing,b),e.scrollTo(0,Math.floor(E)),C(E,I,l)};0===e.pageYOffset&&e.scrollTo(0,0),(function(){clearInterval(l),l=setInterval(M,16)})()}};var E=function(t){try{m(decodeURIComponent(e.location.hash))}catch(t){m(e.location.hash)}n&&(n.id=n.getAttribute("data-scroll-id"),i.animateScroll(n,o),n=null,o=null)},I=function(r){if(0===r.button&&!r.metaKey&&!r.ctrlKey&&(o=h(r.target,t.selector))&&"a"===o.tagName.toLowerCase()&&o.hostname===e.location.hostname&&o.pathname===e.location.pathname&&/#/.test(o.href)){var a;try{a=m(decodeURIComponent(o.hash))}catch(e){a=m(o.hash)}if("#"===a){r.preventDefault(),n=document.body;var c=n.id?n.id:"smooth-scroll-top";return n.setAttribute("data-scroll-id",c),n.id="",void(e.location.hash.substring(1)===c?E():e.location.hash=c)}n=document.querySelector(a),n&&(n.setAttribute("data-scroll-id",n.id),n.id="",o.hash===e.location.hash&&(r.preventDefault(),E()))}},H=function(e){c||(c=setTimeout((function(){c=null,a=O(r)}),66))};return i.destroy=function(){t&&(document.removeEventListener("click",I,!1),e.removeEventListener("resize",H,!1),t=null,n=null,o=null,r=null,a=null,c=null,l=null)},i.init=function(n){u&&(i.destroy(),t=f(s,n||{}),r=t.selectorHeader?document.querySelector(t.selectorHeader):null,a=O(r),document.addEventListener("click",I,!1),e.addEventListener("hashchange",E,!1),r&&e.addEventListener("resize",H,!1))},i}));
+    smoothScroll.init({
+        selector: 'a[href*="#"]'
+    })
+</script>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/matches#Polyfill" class="uri">https://developer.mozilla.org/en-US/docs/Web/API/Element/matches#Polyfill</a><a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p><a href="https://jsperf.com/getelementbyid-vs-queryselector/25" class="uri">https://jsperf.com/getelementbyid-vs-queryselector/25</a><a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p><a href="https://github.com/toddmotto/foreach" class="uri">https://github.com/toddmotto/foreach</a><a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p><a href="https://github.com/eligrey/classList.js/" class="uri">https://github.com/eligrey/classList.js/</a><a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference" class="uri">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference</a><a href="#fnref5">↩</a></p></li>
+<li id="fn6"><p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" class="uri">https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes</a><a href="#fnref6">↩</a></p></li>
+<li id="fn7"><p><a href="https://developer.mozilla.org/en-US/docs/Web/Events" class="uri">https://developer.mozilla.org/en-US/docs/Web/Events</a><a href="#fnref7">↩</a></p></li>
+<li id="fn8"><p><a href="https://www.paulirish.com/2009/throttled-smartresize-jquery-event-handler/" class="uri">https://www.paulirish.com/2009/throttled-smartresize-jquery-event-handler/</a><a href="#fnref8">↩</a></p></li>
+<li id="fn9"><p><a href="https://github.com/cferdinandi/dom-manipulation-source-code/" class="uri">https://github.com/cferdinandi/dom-manipulation-source-code/</a><a href="#fnref9">↩</a></p></li>
+</ol>
+</div>
+</body>
+</html>

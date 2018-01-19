@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>The WordPress for Web Apps Plugin | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">The WordPress for Web Apps Plugin</span></h1>
+	
+
+	<p>I just released <a href="http://cferdinandi.github.io/web-app-starter-kit/">WordPress for Web Apps 3</a>.</p>
+
+<p>WordPress for Web Apps provides the essential components you need to power your web app with WordPress:</p>
+
+<ul>
+<li>Front-end login, sign-up, password reset, and password change forms.</li>
+<li>Separate navigation menus for logged-in and logged-out users.</li>
+<li>User access settings, so you can selectively hide content from logged-out (or logged-in) users.</li>
+<li>Security settings let you set password requirements, hide the admin bar, and block backend access.</li>
+<li>The web app settings panel lets you easily configure error messages, button text, and more.</li>
+</ul>
+
+<p>So what's new in version 3?
+</p>
+
+<h2>Now a Plugin</h2>
+
+<p>WordPress for Web Apps has historically been a collection of templates and functions that you would include in your theme. In version 3, it&rsquo;s now a plugin.</p>
+
+<p>My thinking on plugins versus theme-specific functions has evolved a lot over the last month. This is a direct reaction to my belief that <a href="https://gomakethings.com/wordpress-plugins-vs-functions/">data and functionality should be persistent</a> even when themes change.</p>
+
+<h2>Better UX</h2>
+
+<p>Some of the WordPress defaults for account creation and management don&rsquo;t provide the greatest user experience.</p>
+
+<h3>Logins</h3>
+
+<p>By default, WordPress only allows users to login with their username. WordPress for Web Apps let&rsquo;s users also use their email address, so if they forget their username, they can still access the app.</p>
+
+<h3>Signups</h3>
+
+<p>The old signup process required users to choose a username and provide an email address. WordPress then generated a password for them and emailed it in plain text. Not only does that add friction to the signup process, but it&rsquo;s not terribly good for security, either.</p>
+
+<p>WordPress for Web Apps 3 let&rsquo;s users pick their own password, and then immediately logs them into the app.</p>
+
+<h3>Password Resets</h3>
+
+<p>When a user forgets their password, the old toolkit would send them an email with a link. When users clicked the link, it generated a new password and emailed it to them&mdash;again in plain text.</p>
+
+<p>In WordPress for Web Apps 3, users still get a reset email, but when they click it, they get to choose their own new password, and after saving their changes, their immediately logged in. Password reset URLs are unique to the user, and only good for 24 hours by default. After a password is reset, the link becomes invalid so it can&rsquo;t be used again by someone else to hack into an account.</p>
+
+<p>This all makes for a more secure app <em>and</em> a better user experience.</p>
+
+<h2>Web App Settings</h2>
+
+<p>Developers no longer have to dig through lines of code to make simple updates. WordPress for Web Apps 3 has a settings page you can use to control most of the essentials.</p>
+
+<p>If you don&rsquo;t want to mess around with settings, that&rsquo;s ok. WordPress for Web Apps includes a bunch of smart defaults so you don&rsquo;t have to.</p>
+
+<p>But if you want more control, you&rsquo;ve got it. The &ldquo;Web App Options&rdquo; page in the admin dashboard makes it easy to customize and control password requirements, button text and styling, alert messages and more.</p>
+
+<p>This was as much a change for me as it was for others. Digging through code to change a simple alert message is a pain.</p>
+
+<h2>Navigation</h2>
+
+<p>The old toolkit required developers to add code to their theme template files to serve different navigation elements to logged-in and logged-out users. WordPress for Web Apps 3 hooks into the <code>wp_nav_menu()</code> function so that you can create unique navigation menus from the Admin dashboard.</p>
+
+<p>It also let&rsquo;s you use simple shortcodes to display the current user&rsquo;s username and provide logged-in users with a logout link.</p>
+
+<h2>Theming</h2>
+
+<p>Like most of the add-ons for <a href="http://cferdinandi.github.io/kraken/">Kraken</a>, WordPress for Web Apps 3 is style agnostic. Forms, links and buttons will pick up your default theme styles, so you don&rsquo;t have to waste time removing or overriding someone else&rsquo;s design choices.</p>
+
+<p>You can add classes to buttons and alerts in the settings, and each form has a <code>.form-wpwebapp</code> class on it that you can hook into for more specific styling if needed. And if you know your way around code, you can still dig into the plugin and make some additional changes.</p>
+
+<h2>Security &amp; Code</h2>
+
+<p>The previous versions of WordPress for Web Apps included a lot of code that I had cobbled together from blogs and Stack Overflow threads.</p>
+
+<p>The forms used inconsistent markup and different validation methods. There was redundancy in a lot of the code, and even a few deprecated functions. And for a few folks, if the forms were included before the loop, they wouldn&rsquo;t work properly.</p>
+
+<p>In version 3, I&rsquo;ve rewritten all of the code from scratch. It includes the latest functions and methods, including a security check to make sure form requests are originated from your site and not somewhere else. All of the form inputs are validated before going into the database, and properly escaped before being displayed on the site. And, everything is translation ready for easy internationalization.</p>
+
+<h2>What's next?</h2>
+
+<p>In the next iteration of this plugin, I plan to:</p>
+
+<ul>
+<li>Let admin customize "password reset" and "welcome message" emails in the settings panel.</li>
+<li>Add a front-end "Delete Account" button.</li>
+<li>Add "Update Profile" options for front-end for users.</li>
+<li>Add an option to restrict signups to only selected email addresses (for private sites or betas).</li>
+<li>Add Gravatar shortcode for user profiles.</li>
+<li>Add an option to set default user access for pages (currently defaults to all users).</li>
+</ul>
+
+<p>All-in-all, I think WordPress for Web Apps 3 is a huge leap forward over the old version. Check it out for your next project, and if you&rsquo;ve used older versions, you might want to consider upgrading.</p>
+
+<p><a class="btn" href="http://cferdinandi.github.io/web-app-starter-kit/">Download it on Github</a></p>
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

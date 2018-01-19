@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Daily Developer Tips | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+<article>
+
+	
+	<h1><span class="title">Daily Developer Tips</span></h1>
+	
+
+	<p>I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web.</p>
+
+
+
+<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+
+<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+
+</article>
+
+
+
+	<h2>June 2013</h2>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-06-12 00:00:00 &#43;0000 UTC" pubdate>June 12, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/06/12/the-web-community">The Web Community</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-06-10 00:00:00 &#43;0000 UTC" pubdate>June 10, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/06/10/how-open-source-has-helped-me-write-better-code">How open source has helped me write better code</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-06-05 00:00:00 &#43;0000 UTC" pubdate>June 5, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/06/05/less-is-more-more-is-more">Less is more. More is more.</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-06-03 00:00:00 &#43;0000 UTC" pubdate>June 3, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/06/03/javascript-resize-performance">JavaScript Resize Performance</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+	
+		<nav class="text-center">
+			<p class="padding-top-large margin-bottom-small">
+				
+					<a href="/articles/page/13/">
+						&larr; Newer
+					</a>
+				
+				
+					<a href="/articles/page/15/">
+						Older &rarr;
+					</a>
+				
+			</p>
+		</nav>
+	
+
+
+
+	<h2>May 2013</h2>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-05-22 00:00:00 &#43;0000 UTC" pubdate>May 22, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/05/22/wordpress-for-web-apps-version-2">WordPress for Web Apps, version 2</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-05-20 00:00:00 &#43;0000 UTC" pubdate>May 20, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/05/20/kraken-gets-callouts-alerts-and-more">Kraken gets callouts, alerts, and more</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-05-17 00:00:00 &#43;0000 UTC" pubdate>May 17, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/05/17/you-must-be-this-tall">You Must Be This Tall</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-05-08 00:00:00 &#43;0000 UTC" pubdate>May 8, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/05/08/the-web-we-lost-and-other-losses">The web we lost, and other losses</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-05-03 00:00:00 &#43;0000 UTC" pubdate>May 3, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/05/03/making-intersections-safer-by-removing-stoplights">Making intersections safer by removing stoplights</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-05-01 00:00:00 &#43;0000 UTC" pubdate>May 1, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/05/01/the-diversity-or-not-of-social-media">The diversity (or not) of social media</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+	
+		<nav class="text-center">
+			<p class="padding-top-large margin-bottom-small">
+				
+					<a href="/articles/page/13/">
+						&larr; Newer
+					</a>
+				
+				
+					<a href="/articles/page/15/">
+						Older &rarr;
+					</a>
+				
+			</p>
+		</nav>
+	
+
+
+
+	<h2>April 2013</h2>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-04-29 00:00:00 &#43;0000 UTC" pubdate>April 29, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/04/29/your-lifestyle-has-already-been-designed">Your lifestyle has already been designed</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-04-26 00:00:00 &#43;0000 UTC" pubdate>April 26, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/04/26/same-love">Same Love</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-04-19 00:00:00 &#43;0000 UTC" pubdate>April 19, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/04/19/best-i-could">Best I Could</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-04-17 00:00:00 &#43;0000 UTC" pubdate>April 17, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/04/17/recovering-from-a-wordpress-hack">Recovering from a WordPress hack</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-04-15 00:00:00 &#43;0000 UTC" pubdate>April 15, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/04/15/usability-testing-demo">Usability Testing Demo</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-04-12 00:00:00 &#43;0000 UTC" pubdate>April 12, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/04/12/the-shoemaker">The Shoemaker</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-04-10 00:00:00 &#43;0000 UTC" pubdate>April 10, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/04/10/a-real-newspaper">A Real Newspaper</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-04-08 00:00:00 &#43;0000 UTC" pubdate>April 8, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/04/08/content-parity-on-the-web">Content Parity on the Web</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-04-05 00:00:00 &#43;0000 UTC" pubdate>April 5, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/04/05/technology-and-etiquette">Technology and Etiquette</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-04-03 00:00:00 &#43;0000 UTC" pubdate>April 3, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/04/03/the-point-of-responsive-web-design">The Point of Responsive Web Design</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-04-01 00:00:00 &#43;0000 UTC" pubdate>April 1, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/04/01/mobile-first-and-internet-explorer">Mobile First and Internet Explorer</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+	
+		<nav class="text-center">
+			<p class="padding-top-large margin-bottom-small">
+				
+					<a href="/articles/page/13/">
+						&larr; Newer
+					</a>
+				
+				
+					<a href="/articles/page/15/">
+						Older &rarr;
+					</a>
+				
+			</p>
+		</nav>
+	
+
+
+
+	<h2>March 2013</h2>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-03-29 00:00:00 &#43;0000 UTC" pubdate>March 29, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/03/29/40-years-this-russian-family-was-cut-off-from-all-human-contact-unaware-of-wwii">For 40 Years, This Russian Family Was Cut Off From All Human Contact, Unaware of WWII</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-03-27 00:00:00 &#43;0000 UTC" pubdate>March 27, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/03/27/removing-wordpress-funk">Removing WordPress Funk</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-03-25 00:00:00 &#43;0000 UTC" pubdate>March 25, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/03/25/working-with-relative-sizing">Working with Relative Sizing</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-03-22 00:00:00 &#43;0000 UTC" pubdate>March 22, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/03/22/must-watch-youtube-the-pbs-idea-channel">Must Watch YouTube: The PBS Idea Channel</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-03-20 00:00:00 &#43;0000 UTC" pubdate>March 20, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/03/20/kraken-updates">Kraken Updates</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-03-19 00:00:00 &#43;0000 UTC" pubdate>March 19, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/03/19/code-is-craft">Code is Craft</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-03-18 00:00:00 &#43;0000 UTC" pubdate>March 18, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/03/18/using-fluidvids-js">Using FluidVids.js</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-03-15 00:00:00 &#43;0000 UTC" pubdate>March 15, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/03/15/mobile-then-now">Mobile: Then &amp;#038; Now</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-03-15 00:00:00 &#43;0000 UTC" pubdate>March 15, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/03/15/learn-css-layout">Learn CSS Layout</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-03-14 00:00:00 &#43;0000 UTC" pubdate>March 14, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/03/14/do-i-need-an-infographic">Do I need an infographic?</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-03-13 00:00:00 &#43;0000 UTC" pubdate>March 13, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/03/13/working-with-the-petfinder-api">Working with the Petfinder API</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-03-11 00:00:00 &#43;0000 UTC" pubdate>March 11, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/03/11/riding-css3-spinners">Riding (CSS3) Spinners</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-03-09 00:00:00 &#43;0000 UTC" pubdate>March 9, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/03/09/paperman">Paperman</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+		<article>
+
+			<header class="row">
+
+				<div class="grid-fourth grid-flip ">
+					<aside class="text-muted text-small">
+						<time datetime="2013-03-08 00:00:00 &#43;0000 UTC" pubdate>March 8, 2013</time>
+					</aside>
+				</div>
+
+				<div class="grid-three-fourths">
+					<h3 class="h5 text-normal no-padding-top">
+						<a class="link-no-underline" href="/2013/03/08/hero-pit-bull">Hero Pit Bull</a>
+					</h3>
+				</div>
+
+			</header>
+
+
+		</article>
+
+	
+
+	
+		<nav class="text-center">
+			<p class="padding-top-large margin-bottom-small">
+				
+					<a href="/articles/page/13/">
+						&larr; Newer
+					</a>
+				
+				
+					<a href="/articles/page/15/">
+						Older &rarr;
+					</a>
+				
+			</p>
+		</nav>
+	
+
+
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Ditching jQuery for Vanilla JS | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">Ditching jQuery for Vanilla JS</span></h1>
+	
+
+	<p><strong><em>Note:</em></strong> <em>I&rsquo;ve written a new version of this article that reflects <a href="/ditching-jquery">how I work with native JavaScript today</a>.</em></p>
+
+<p>On the recent launch of a <a href="https://gomakethings.com/projects/tony-luong/">new site for professional photographer Tony Luong</a>, we dropped jQuery in favor of 100% vanilla JavaScript.</p>
+
+<p>It had a dramatic impact on website performance. Today, I want to share the process for going framework-free.</p>
+
+<p>[snippet id=&ldquo;8395&rdquo;]</p>
+
+<h2>Different browsers. Different features.</h2>
+
+<p>One of the benefits of a framework like jQuery is that it smooths out all of the weird browser inconsistencies you might run into. But, all that abstraction and extra code adds a lot of weight and <a href="http://jsperf.com/vanilla-js-ftw-jquery-vs-js">performance latency</a> to a site.</p>
+
+<p>Rather than trying to provide the same level of functionality for older browsers, I took a progressive enhancement approach to development. Older and less capable browsers get a basic experience. Newer browsers that support modern APIs get an enhanced one.</p>
+
+<p>To be clear, I&rsquo;m not advocating dropping support for older and less capable browsers. They still have access to all of the content. They just don&rsquo;t always get the same layout or extra features.</p>
+
+<h2>Cutting the Mustard</h2>
+
+<p>I used a simple feature detection technique coined by the BBC as &ldquo;<a href="http://responsivenews.co.uk/post/18948466399/cutting-the-mustard">cutting the mustard</a>.&rdquo; This one &ldquo;if statement&rdquo; tests support for modern JavaScript APIs:</p>
+
+<pre><code class="language-javascript">if ( 'querySelector' in document && 'addEventListener' in window ) {
+    // Scripts go here
+}</code></pre>
+
+<p>The BBC explains why these were chosen:</p>
+
+<blockquote>document.querySelector - A large part of any JS library is its DOM selector. If the browser has native CSS selecting then it removes the need for a DOM selector. QuerySelector has been available in Firefox since 3.5 at least and has been working in webkit for ages. It also works in IE9.
+...
+window.addEventListener - Another large part of any JS library is event support. Every browser made in the last 6 years (except IE8) supports DOM level 2 events. If the browser supports this then we know it has better standards support than IE8.</blockquote>
+
+<p>The BBC also tests for local storage support, but since none of my scripts use that at this time, I left it out. <del datetime="2014-08-20T17:52:57+00:00">I did, however, add a check for forEach loops, which are a newer API that I use often.</del></p>
+
+<p><em><strong>Note:</strong> This section was updated on August 16, 2013 to include forEach loops as part of the &ldquo;cut the mustard&rdquo; test, and again on August 20, 2014 to include a better approach.</em></p>
+
+<h3>So what browsers does that support?</h3>
+
+<p>The &ldquo;cut the mustard&rdquo; test splits browsers into two categories: HTML5 browsers, and not-HTML5 browsers. From the BBC, here&rsquo;s how common browsers get split up:</p>
+
+<blockquote>HTML5 browsers:
+
+<ul>
+<li>IE9+</li>
+<li>Firefox 3.5+</li>
+<li>Opera 9+ (and probably further back)</li>
+<li>Safari 4+</li>
+<li>Chrome 1+ (I think)</li>
+<li>iPhone and iPad iOS1+</li>
+<li>Android phone and tablets 2.1+</li>
+<li>Blackberry OS6+</li>
+<li>Windows 7.5+ (new Mango version)</li>
+<li>Mobile Firefox (all the versions we tested)</li>
+<li>Opera Mobile (all the versions we tested)</li>
+</ul>
+
+HTML4 browsers:
+<ul>
+<li>IE8</li>
+<li>Blackberry OS5</li>
+<li>Nokia S60 v6</li>
+<li>Nokia S40 (all versions)</li>
+<li>All other Symbian variants</li>
+<li>Windows 7 phone (pre-Mango)</li>
+<li>…and many more that are too numerous to mention</li>
+</ul></blockquote>
+
+<h2>Bootstrapping in your code</h2>
+
+<p>Up in the document <code class="language-markup">&lt;head&gt;</code>, I include this little snippet of code:</p>
+
+<pre><code class="language-javascript">if ( 'querySelector' in document && 'addEventListener' in window ) {
+    document.documentElement.className += 'js';
+}</code></pre>
+
+<p>This does the mustard test, and if the browser passes, adds a <code class="language-css">.js</code> class to the <code class="language-markup">&lt;html&gt;</code> element.</p>
+
+<p>If any of my scripts also rely on CSS, I make them <a href="https://gomakethings.com/accessible-javascript/">conditional on the presence of that class</a>. That way, nothing is ever hidden or inaccessible for someone whose browser doesn&rsquo;t pass the test.</p>
+
+<p>By putting that script in the head, before the content has even loaded, you ensure that users with modern browsers don&rsquo;t see any weird style changes after the page loads.</p>
+
+<p>In my JavaScript file (yes, <a href="https://gomakethings.com/high-performance-websites/">just one</a>), I use the same mustard test as a wrapper for my scripts:</p>
+
+<pre><code class="language-javascript">if ( 'querySelector' in document && 'addEventListener' in window ) {
+    // Scripts go here
+}</code></pre>
+
+<h2>Working with selectors</h2>
+
+<p>Modern JavaScript APIs make working with selectors a lot easier.</p>
+
+<p>For getting objects by ID, I use <code class="language-javascript">querySelector</code>. For example, if I wanted to get a <code class="language-markup">div</code> with the ID of <code class="language-markup">#turkey</code>, I&rsquo;d do this:</p>
+
+<pre><code class="language-javascript">var sandwichTurkey = document.querySelector('#turkey');</code></pre>
+
+<p>If you&rsquo;ve never used <code class="language-javascript">querySelector</code> before, it returns the first element on a page that matches the selector. For IDs, there should only be one match per page. For classes, it would return the first element with that class.</p>
+
+<p>To get all objects with a particular class, I use <code class="language-javascript">querySelectorAll</code>. For example, to get all elements with the <code class="language-css">.sandwich</code> class, I&rsquo;d do this:</p>
+
+<pre><code class="language-javascript">var sandwiches = document.querySelectorAll('.sandwich');</code></pre>
+
+<p>It returns <del datetime="2014-01-24T22:19:07+00:00">an array of elements</del> a node list that I can loop through and work with.</p>
+
+<h2>Looping through elements</h2>
+
+<p>If you get all elements with a particular class, you most likely want to do something with them. Doing so is easy with a <code>for</code> loop:</p>
+
+<pre><code class="language-javascript">var sandwiches = document.querySelectorAll('.sandwich');
+
+for (var i = 0, len = sandwiches.length; i < len; i++) {
+    console.log(i) // index
+    console.log(sandwiches[i]) // element
+}</code></pre>
+
+<h2>Event listeners</h2>
+
+<p>Taking action when someone clicks, uses their keyboard, and more is pretty easy thanks to the <code class="language-javascript">addEventListener</code> method.</p>
+
+<p>If I wanted to do something whenever anyone clicked a link with the <code class="language-markup">#turkey</code> ID, I&rsquo;d use this script:</p>
+
+<pre><code class="language-javascript">var sandwichTurkey = querySelector('#turkey');
+
+sandwichTurkey.addEventListener('click', function(e) {
+    // Do stuff
+}, false);</code></pre>
+
+<h2>Working with classes</h2>
+
+<p>One of awesome new JavaScript methods is <code class="language-javascript">classList</code>, that let&rsquo;s you easily add, remove and toggle classes just like you would in jQuery. Unfortunately, it still lacks the browser support it needs for every day use.</p>
+
+<p><em><strong>Update on June 9, 2014:</strong> I&rsquo;m now including <a href="https://github.com/eligrey/classList.js">Eli Grey&rsquo;s classList.js</a> polyfill in my projects. It extends support back to IE 8, and when <code>classList</code> support is good enough, I can just remove the polyfill from my projects without updating any of my code.</em></p>
+
+<p>In the interim, Todd Motto has created some <a href="http://toddmotto.com/creating-jquery-style-functions-in-javascript-hasclass-addclass-removeclass-toggleclass/">awesome class handler functions</a> that I include in every project:</p>
+
+<pre><code class="language-javascript">var hasClass = function (elem, className) {
+    return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+}
+
+var addClass = function (elem, className) {
+    if (!hasClass(elem, className)) {
+        elem.className += ' ' + className;
+    }
+}
+
+var removeClass = function (elem, className) {
+    var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
+    if (hasClass(elem, className)) {
+        while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
+            newClass = newClass.replace(' ' + className + ' ', ' ');
+        }
+        elem.className = newClass.replace(/^\s+|\s+$/g, '');
+    }
+}</code></pre>
+
+<p>These three simple functions let you test for the presence of a class, add a class, and remove a class. In conjunction, they make basic DOM manipulation really easy.</p>
+
+<p><del datetime="2014-06-09T17:19:30+00:00"><em><strong>Update on August 27, 2013:</strong> I&rsquo;ve combined these class handlers, along with a few other useful functions, into a <a href="https://github.com/cferdinandi/buoy">vanilla JS micro-library called Buoy</a> that I now use on all of my projects.</em></del></p>
+
+<p><del datetime="2014-06-09T17:19:30+00:00"><em><strong>Update on April 20, 2014:</strong> Buoy no longer uses these class handlers, and has been converted to a <code>classList</code> polyfill forked from <a href="https://github.com/eligrey/classList.js">classList.js by Eli Grey</a>.</em></del></p>
+
+<p><em><strong>Update on June 9, 2014:</strong> Since I&rsquo;m using <a href="https://github.com/eligrey/classList.js">Eli Grey&rsquo;s classList.js</a> polyfill, Buoy is no longer needed and has been removed from GitHub. If you&rsquo;d prefer to use class handlers, though, check out <a href="https://github.com/toddmotto/apollo">Apollo from Todd Motto</a>.</em></p>
+
+<h2>Putting it all together</h2>
+
+<p>Let&rsquo;s say I have a set of links with the <code class="language-css">.sandwich</code> class. Whenever one of them is clicked, I want to see if it has the <code class="language-css">.mustard</code> class well. If it does, I&rsquo;d like to remove it, and if it doesn&rsquo;t, I want to add it.</p>
+
+<p>Here&rsquo;s what that would look like:</p>
+
+<pre><code class="language-javascript">// Class Handlers
+var hasClass = function (elem, className) {
+    return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+}
+
+var addClass = function (elem, className) {
+    if (!hasClass(elem, className)) {
+        elem.className += ' ' + className;
+    }
+}
+
+var removeClass = function (elem, className) {
+    var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
+    if (hasClass(elem, className)) {
+        while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
+            newClass = newClass.replace(' ' + className + ' ', ' ');
+        }
+        elem.className = newClass.replace(/^\s+|\s+$/g, '');
+    }
+}
+
+// Sandwich Functions
+if ( 'querySelector' in document && 'addEventListener' in window ) {
+
+    var sandwiches = document.querySelectorAll('.sandwich');
+
+    for (var i = 0, len = sandwiches.length; i < len; i++) {
+        var sandwich = sandwiches[i];
+        sandwich.addEventListener('click', function(e) {
+
+            if ( hasClass(sandwich, 'mustard') ) {
+                removeClass(sandwich, 'mustard');
+            }
+
+            else {
+                addClass(sandwich, 'mustard');
+            }
+
+        }
+    }
+
+}</code></pre>
+
+<h2>Less jQuery. More vanilla JS.</h2>
+
+<p>My experience implementing a 100% vanilla JS experience for Tony&rsquo;s new site was a lot of fun. Modern JavaScript API&rsquo;s are powerful and easy to work with, and the performance results are extraordinary.</p>
+
+<p>I&rsquo;m sure I&rsquo;ll still use jQuery for projects that require more backwards compatibility or involve more complexity, but I&rsquo;ll be using it a lot less, and vanilla JS a lot more.</p>
+
+<h4>Referenced Links &amp; Other Resources</h4>
+
+<ol>
+<li><a href="http://tonyluong.com/">Tony Luong's new site</a></li>
+<li><a href="http://responsivenews.co.uk/post/18948466399/cutting-the-mustard">BBC on "cutting the mustard"</a></li>
+<li><a href="http://toddmotto.com/is-it-time-to-drop-jquery-essentials-to-learning-javascript-from-a-jquery-background/">Todd Motto on moving from jQuery to vanilla JS</a></li>
+<li><a href="http://toddmotto.com/creating-jquery-style-functions-in-javascript-hasclass-addclass-removeclass-toggleclass/">Todd Motto on working with classes in vanilla JS</a></li>
+<li><a href="https://gomakethings.com/accessible-javascript/">Accessible JavaScript</a></li>
+<li><a href="https://gomakethings.com/high-performance-websites/">High-performance websites</a></li>
+<li><a href="http://www.unicodegirl.com/function-statement-versus-function-expression.html">Function statements vs function expressions</a> (or, why functions are variables)</li>
+<li><a href="https://github.com/toddmotto/foreach">Todd Motto's forEach method</a></li>
+</ol>
+
+<p>[snippet id=&ldquo;8397&rdquo;]</p>
+
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

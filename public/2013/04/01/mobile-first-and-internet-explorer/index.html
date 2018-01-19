@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Mobile First and Internet Explorer | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">Mobile First and Internet Explorer</span></h1>
+	
+
+	<p>Mobile first web design extends progressive enhancement to site layout. But because Internet Explorer 8 and lower do not recognize media queries, they get the small screen layout instead of the bigger screen version on mobile-first designs.</p>
+
+<p>Fortunately, there&rsquo;s a pretty simple fix that allows you to code mobile first <em>and</em> provide a bigger screen experience for older IE browsers.
+
+<h2>What is mobile first?</h2></p>
+
+<p>Mobile first, from a coding perspective, means that your base style is typically a single-column, fully-fluid layout. You use <code class="language-css">@media (min-width: whatever)</code> to add a grid-based layout on top of that.</p>
+
+<p>The alternative - desktop first - involves starting with a wide, grid-based layout, and using <code class="language-css">@media (max-width: whatever)</code> to scale down to a single-column layout.</p>
+
+<h2>Why mobile first?</h2>
+
+<p>iPhone and Android browsers are quite capable, but older smart phones, feature phones and other small-screen devices like gaming consoles may not support media queries.</p>
+
+<p>Imagine trying to read tiny text in a big screen layout on an old, underpowered feature phone.</p>
+
+<p>Mobile first web design extends progressive enhancement to site layout, allowing you to serve simple, readable content to all devices, and layer on structure and presentation for more capable devices.</p>
+
+<h2>Mobile first and Internet Explorer</h2>
+
+<p>Unfortunately, Internet Explorer 8 and older don&rsquo;t recognize media queries. That means, they get the base, small screen version of a mobile first website instead of the bigger screen version.</p>
+
+<p>That may work well for simple, content-based sites, but it may not always be acceptable for certain designs.</p>
+
+<p>Fortunately, there&rsquo;s a pretty simple fix that allows you to code mobile first <em>and</em> provide a bigger screen experience for older IE browsers.</p>
+
+<h3>A Conditional IE Class</h3>
+
+<p>We&rsquo;re going to add a conditional <code class="language-css">.ie</code> class to our <code class="language-markup">html</code> element just for older Internet Explorer browsers. This will let us add some conditional styling later that only applies to those browsers.</p>
+
+<p>Replace the <code class="language-markup">html</code> element with this code:</p>
+
+<pre><code class="language-markup">&lt;!-- Conditional class for older versions of IE --&gt;
+&lt;!--[if lt IE 9 & !IEMobile]&gt;&lt;html class="ie" lang="en"&gt;&lt;![endif]--&gt;
+&lt;!--[if gt IE 8 | IEMobile]&gt;&lt;!--&gt;&lt;html lang="en"&gt;&lt;!--&lt;![endif]--&gt;</code></pre>
+
+<p>Why the <code class="language-markup">html</code> and not the <code class="language-markup">body</code>? A lot of JavaScript functions target the <code class="language-markup">body</code> element. This helps avoid any conflicts.</p>
+
+<p>You&rsquo;ll also notice that we&rsquo;re not adding the <code class="language-css">.ie</code> class to IE Mobile browsers. Those are typically on small screen devices, so we want them to receive the small screen layout.</p>
+
+<h3>Adding Conditional CSS</h3>
+
+<p>Rather than serving a conditional IE stylesheet, we&rsquo;ll be adding a few IE specific modifications to our main stylesheet. It makes it easier (for me, anyways) to keep track of things when I make changes and updates.</p>
+
+<p>Let&rsquo;s say I&rsquo;m using a simple three-column grid (adapted from the <a href="http://cferdinandi.github.com/kraken/">Kraken boilerplate</a>) like this:</p>
+
+<pre><code class="language-css">@media (min-width: 40em) {
+
+    .row {
+        margin-left: -1.515151515152%;
+        margin-right: -1.515151515152%;
+    }
+
+    [class^="grid-"],
+    [class*=" grid-"] {
+        float: left;
+        width:96.969696969697%;
+        margin-left: 1.515151515152%;
+        margin-right: 1.515151515152%;
+    }
+
+    .grid-third {
+        width: 30.30303030303%;
+    }
+
+    .grid-half {
+        width: 46.969696969697%;
+    }
+
+    .grid-two-thirds {
+        width: 63.636363636364%;
+    }
+
+}</code></pre>
+
+<p>To make that work in Internet Explorer 8 and lower but still serve a mobile first layout, I would copy-and-paste the content outside of the media query, and prefix each class with <code class="language-css">.ie</code>.</p>
+
+<p>Here&rsquo;s what the example above would look like:</p>
+
+<pre><code class="language-css">@media (min-width: 40em) {
+
+    .row {
+        margin-left: -1.515151515152%;
+        margin-right: -1.515151515152%;
+    }
+
+    [class^="grid-"],
+    [class*=" grid-"] {
+        float: left;
+        width:96.969696969697%;
+        margin-left: 1.515151515152%;
+        margin-right: 1.515151515152%;
+    }
+
+    .grid-third {
+        width: 30.30303030303%;
+    }
+
+    .grid-half {
+        width: 46.969696969697%;
+    }
+
+    .grid-two-thirds {
+        width: 63.636363636364%;
+    }
+
+}
+
+.ie .row {
+    margin-left: -1.515151515152%;
+    margin-right: -1.515151515152%;
+}
+
+.ie [class^="grid-"],
+.ie [class*=" grid-"] {
+    float: left;
+    width:96.969696969697%;
+    margin-left: 1.515151515152%;
+    margin-right: 1.515151515152%;
+}
+
+.ie .grid-third {
+    width: 30.30303030303%;
+}
+
+.ie .grid-half {
+    width: 46.969696969697%;
+}
+
+.ie .grid-two-thirds {
+    width: 63.636363636364%;
+}</code></pre>
+
+<p>Now all devices will be served the mobile first layout, and older Internet Explorer browsers will get the bigger screen styling.</p>
+
+<p>Follow this format for any bigger screen content that you want to work on IE8 and lower.</p>
+
+<h2>What about Respond.js?</h2>
+
+<p>A few folks, both in the comments and on Twitter, have pointed out that <a href="https://github.com/scottjehl/Respond">Respond.js</a>, a cool little script from Scott Jehl, takes care of all this without you having to write a single extra line of code. Why don&rsquo;t I just that?</p>
+
+<p>In a word: control. As Scott notes in the documentation:</p>
+
+<blockquote>As you might guess, this implementation is quite dumb in regards to CSS parsing rules. This is a good thing, because that allows it to run really fast, but its looseness may also cause unexpected behavior.</blockquote>
+
+<p>There are enough things that go wrong when dealing with older browsers. Adding another dependency that have little control over just doesn&rsquo;t sit well with me. But a lot of people like and use <a href="https://github.com/scottjehl/Respond">Respond.js</a>, so I thought it was at least worth mentioning.</p>
+
+<p><em>This section was added on December 14, 2013.</em></p>
+
+<h2>Things to consider</h2>
+
+<p>Does it add bloat to your code? A little. Is it a pain? Yep.</p>
+
+<p>It&rsquo;s worth considering whether or not providing the small screen layout is &ldquo;good enough&rdquo; for older Internet Explorer browsers before going down this path.</p>
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

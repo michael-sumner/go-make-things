@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>How to get the closest parent element with a matching selector using vanilla JavaScript | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">How to get the closest parent element with a matching selector using vanilla JavaScript</span></h1>
+	
+
+	
+
+<p><strong><em>Note:</em></strong> <em>There&rsquo;s <a href="/a-native-vanilla-javascript-way-to-get-the-closest-matching-parent-element/">an update version of this article</a>.</em></p>
+
+<p>One thing I need to do a lot in my plugins is find a parent element with a particular selector.</p>
+
+<p>For example, when someone clicks on a link in an accordion, I need to get the parent container for all of the other content sections. I don&rsquo;t always know exactly what the markup structure will look like, so I can&rsquo;t just use <code>.parentNode</code> to get it.</p>
+
+<pre><code class="language-lang-markup">&lt;div class=&quot;accordion&quot;&gt;
+	&lt;div&gt;
+		&lt;a class=&quot;accordion-toggle&quot; href=&quot;#content-1&quot;&gt;Content 1&lt;/a&gt;
+		&lt;div id=&quot;content-1&quot;&gt;Some content.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;a class=&quot;accordion-toggle&quot; href=&quot;#content-2&quot;&gt;Content 2&lt;/a&gt;
+		&lt;div id=&quot;content-2&quot;&gt;More content.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;a class=&quot;accordion-toggle&quot; href=&quot;#content-3&quot;&gt;Content 3&lt;/a&gt;
+		&lt;div id=&quot;content-3&quot;&gt;Even more content.&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>In this example, when someone clicks an <code>.accordion-toggle</code> link, I want to get the <code>.accordion</code> element, but I don&rsquo;t neccessarily know how many nested <code>div</code>&rsquo;s will be in the markup.</p>
+
+<h2 id="creating-a-helper-function">Creating a helper function</h2>
+
+<p>To do this, we can setup a <code>for</code> loop to climb up the DOM. On each loop, we&rsquo;ll grab the element&rsquo;s <code>.parentNode</code> and see if it has our selector. If it doesn&rsquo;t, we&rsquo;ll jump to the next <code>.parentNode</code> and repeat.</p>
+
+<p>First, let&rsquo;s setup a helper function.</p>
+
+<pre><code class="language-lang-javascript">var getClosest = function () {
+	// Code goes here...
+};
+</code></pre>
+
+<p>Next, let&rsquo;s create our loop.</p>
+
+<pre><code class="language-lang-javascript">var getClosest = function (elem) {
+	for ( ; elem &amp;&amp; elem !== document; elem = elem.parentNode ) {
+		// Do something...
+	}
+};
+</code></pre>
+
+<p>Normally, you&rsquo;d set a variable in the first part of your for loop (something like <code>var i = 0</code>), but we don&rsquo;t need any for this loop.</p>
+
+<p>The next part (between the two semicolons) is where we evaluate our criteria for continuing the loop. We want to make sure that an <code>elem</code> exists and that it&rsquo;s not the <code>document</code> element (which means we&rsquo;ve reached the top of the page with no results).</p>
+
+<p>Finally, the last part (after the second semicolon) is where we tell the loop what to do after each iteration. We want to set the <code>elem</code> variable to the current element&rsquo;s parent (this is how we climb up the DOM).</p>
+
+<h2 id="matching-by-selector">Matching by selector</h2>
+
+<p>Inside our loop, we want to check and see if the current element matches our selector. For a class we might use <code>classList</code>. For an ID we&rsquo;d use <code>elem.id === 'our-id'</code>. And so on. To make things easy, though, let&rsquo;s use the <code>.matches()</code> method, which checks any valid CSS selector.</p>
+
+<pre><code class="language-lang-javascript">var getClosest = function (elem, selector) {
+	for ( ; elem &amp;&amp; elem !== document; elem = elem.parentNode ) {
+		if ( elem.matches( selector ) ) return elem;
+	}
+	return null;
+};
+</code></pre>
+
+<p>If there&rsquo;s a matching element, our helper function will return it. If it makes it through the whole loop without a match, it returns <code>null</code>.</p>
+
+<h2 id="browser-compatibility">Browser compatibility</h2>
+
+<p>There&rsquo;s one last thing we need to do, though. Many browsers implemented <code>.matches()</code> with proprietary prefixes. Others didn&rsquo;t implement it but support <code>querySelectorAll</code>. In both cases, a lightweight polyfill bolts in <code>.matches()</code> support.</p>
+
+<pre><code class="language-lang-javascript">var getClosest = function (elem, selector) {
+
+	// Element.matches() polyfill
+	if (!Element.prototype.matches) {
+	    Element.prototype.matches =
+	        Element.prototype.matchesSelector ||
+	        Element.prototype.mozMatchesSelector ||
+	        Element.prototype.msMatchesSelector ||
+	        Element.prototype.oMatchesSelector ||
+	        Element.prototype.webkitMatchesSelector ||
+	        function(s) {
+	            var matches = (this.document || this.ownerDocument).querySelectorAll(s),
+	                i = matches.length;
+	            while (--i &gt;= 0 &amp;&amp; matches.item(i) !== this) {}
+	            return i &gt; -1;
+	        };
+	}
+
+	// Get the closest matching element
+	for ( ; elem &amp;&amp; elem !== document; elem = elem.parentNode ) {
+		if ( elem.matches( selector ) ) return elem;
+	}
+	return null;
+
+};
+</code></pre>
+
+<p>This gives you browser support back to at least IE9.</p>
+
+<h2 id="putting-it-all-together">Putting it all together</h2>
+
+<p>Now you can do something like this:</p>
+
+<pre><code class="language-lang-javascript">document.addEventListener('click', function (event) {
+
+	// If the clicked item is an `.accordion-toggle` get the parent `.accordion`
+	if ( event.target.classList.contains('accordion-toggle') ) {
+
+		// Get the parent with the `.accordion` class
+		var parent = getClosest(event.target, '.accordion');
+
+	}
+
+}, false);
+</code></pre>
+
+<p>Now that you know how this works, you could modify it to things like:</p>
+
+<ol>
+<li>Get all matching parents (not just the first).</li>
+<li>Get all parent elements and push them to an array.</li>
+<li>Get all parent elements <em>until</em> you find one that matches a selector.</li>
+<li>And more!</li>
+</ol>
+
+<p>This helper method is <a href="https://github.com/cferdinandi/getClosest">available on GitHub</a>.</p>
+
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

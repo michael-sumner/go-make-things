@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Using FluidVids.js | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">Using FluidVids.js</span></h1>
+	
+
+	<p>Today, I&rsquo;m going to show to use FluidVids.js to make your YouTube and Vimeo videos (and more) responsive.
+
+<h2>Wait&hellip; huh?</h2></p>
+
+<p>I know what you&rsquo;re thinking: isn&rsquo;t that easy to do already? You can use this bit of code to make HTML5 videos responsive:</p>
+
+<pre><code class="language-css">video {
+    max-width: 100%;
+    height: auto;
+}</code></pre>
+
+<p>When you try that with iframes, though, the sizing gets all messed up. Check out this short video from Dave Rupert <a href="http://vimeo.com/28523422">showing the problem in action&hellip;</a></p>
+
+<iframe src="https://player.vimeo.com/video/28523422" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+<p>For a while, I was using the <a href="http://fitvidsjs.com/">FitVids.js</a>, the awesome jQuery plugin Dave mentions in the video. FitVids.js is really, really awesome.</p>
+
+<p>And the Todd Motto released <a href="http://toddmotto.com/fluid-and-responsive-youtube-and-vimeo-videos-with-fluidvids-js/">FluidVids.js</a>, which is even awesomer (yes, awesomer is a word).</p>
+
+<h2>Why FluidVids Rocks</h2>
+
+<p>FluidVids is written in vanilla JavaScript. It works with any JavaScript framework you want to use (or none at all). The minified version is less 1kb in size. You don&rsquo;t need to target or activate anything. Just add the script to your site and you&rsquo;re good to go.</p>
+
+<p>What I like most about FluidVids, though, is that it&rsquo;s really easy to customize. Want to add SlideShare or Hulu or whatever? Super easy to do!</p>
+
+<h2>Getting Started</h2>
+
+<p>Getting started with FluidVids is really easy:</p>
+
+<ol>
+<li><a href="http://toddmotto.com/fluid-and-responsive-youtube-and-vimeo-videos-with-fluidvids-js/">Download it.</a></li>
+<li>Add the script to your site.</li>
+<li>That's it!</li>
+</ol>
+
+<h3>Adding a Fallback</h3>
+
+<p>You don&rsquo;t <em>need</em> to do this, but I liked to add a fallback in case JavaScript isn&rsquo;t enabled or working.</p>
+
+<p>If someone accesses your site from a small-screen device without JavaScript support, videos will extend beyond the page wrapper and mess up your layout. Here&rsquo;s the code I use:</p>
+
+<pre><code class="language-css">iframe {
+    max-width: 100%;
+}</code></pre>
+
+<p>Yes, that does look a lot like the code for fluid HTML5 video. The only difference is that I&rsquo;ve left out <code class="language-css">height: auto;</code>.</p>
+
+<p>If JavaScript isn&rsquo;t working, the iframe will be a normal width on bigger screens, and fluid on smaller ones, but the height won&rsquo;t change. Video containers will look a bit disproportionately tall, but the videos themselves will be normal proportioned and work just fine.</p>
+
+<h2>Adding Other Services</h2>
+
+<p><em><strong>Note:</strong> FluidVids has been rewritten, and no longer requires you to hack the core code to add additional vendors.</em></p>
+
+<p>To add other services to FluidVids, open up the JavaScript file and find this line:</p>
+
+<pre><code class="language-javascript">var players = /www.youtube.com|player.vimeo.com/;</code></pre>
+
+<p>That&rsquo;s where you&rsquo;ll add URLs for other iframe services. The URL structure will vary by service, and the easiest way to find it is to get the embed URL for a service you&rsquo;d like to add and look at the iframe <code class="language-markup">src</code>.</p>
+
+<h3>An Example</h3>
+
+<p>As an example, here&rsquo;s the embed code for a SlideShare presentation:</p>
+
+<pre><code class="language-markup">&lt;iframe src="http://www.slideshare.net/slideshow/embed_code/8049732?rel=0" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen&gt;&lt;/iframe&gt;</code></pre>
+
+<p>The part we care about is <code class="language-markup">src=&ldquo;&hellip;&rdquo;</code>. The &ldquo;base&rdquo; for the SlideShare embed code is <code class="language-markup">www.slideshare.net</code>. That&rsquo;s what we&rsquo;ll add to <code class="language-none">fluidvids.js</code>.</p>
+
+<p>In <code class="language-none">fluidvids.js</code>, we&rsquo;ll add <code class="language-none">www.slideshare.net</code> to <code class="language-javascript">var players</code>, separated by a <code class="language-javascript">|</code>. Make sure that all of the player URLs are between the beginning and ending <code class="language-javascript">/</code> symbols. Here&rsquo;s the new code:</p>
+
+<pre><code class="language-javascript">var players = /www.youtube.com|player.vimeo.com|www.slideshare.net/;</code></pre>
+
+<p>Following this pattern, you can add any iframe embedding service you want to FluidVids.</p>
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

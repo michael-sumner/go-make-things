@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Hidden content for better a11y | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">Hidden content for better a11y</span></h1>
+	
+
+	<p>Web accessibility (or a11y, for short) is a speciality area that you could spend a lifetime mastering.</p>
+
+<p>Today, though, I wanted to share with you a few simple things you can do to make your site more usable for visually impaired and keyboard-only users who visit your site.</p>
+
+<p></p>
+
+<h2 id="the-keyboard-only-user">The keyboard-only user</h2>
+
+<p>People with visual impairments will often use their keyboard, paired with screen reading software, to navigate your site. But not every keyboard-only user is visually impaired.</p>
+
+<p>People with neuromuscular conditions&mdash;Parkinson&rsquo;s disease, for example&mdash;who have fine-motor coordination challenges may also find it easier to use a keyboard to navigate your site.</p>
+
+<p>Clicking the &ldquo;tab&rdquo; key will jump you front link to link on a webpage. You can try it yourself.</p>
+
+<h2 id="the-skip-link">The skip link</h2>
+
+<p>Imagine spending a lot of time on a site, clicking from article to the next. Now imagine having to tab through that site&rsquo;s navigation menu every single time, when all you want to do is read the article.</p>
+
+<p>As a mouse user, that&rsquo;s relatively easily. Just scroll. As a keyboard-only user, it can be far more challenging. Fortunately, there&rsquo;s something relatively simple you can do to provide a better keyboard experience.</p>
+
+<p>A &ldquo;skip link&rdquo; is a visually hidden anchor link that keyboard users can access that let&rsquo;s them skip over a section of content.</p>
+
+<pre><code class="language-lang-markup">&lt;a href=&quot;#main&quot;&gt;Skip to the main content&lt;/a&gt;
+
+&lt;nav&gt;Navigation elements...&lt;/nav&gt;
+
+&lt;main id=&quot;main&quot;&gt;The main content&lt;/main&gt;
+</code></pre>
+
+<h3 id="hiding-the-link">Hiding the link</h3>
+
+<p>That markup will scroll you down the page to the main content, skipping over the navigation. Of course, the link will be visible to everyone. We want to:</p>
+
+<ol>
+<li>Hide the link visually.</li>
+<li>Make the link visible when it&rsquo;s in focus (so that a sighted keyboard user knows they&rsquo;re on it).</li>
+</ol>
+
+<p>Let&rsquo;s add some CSS (<strong><em>note:</em></strong> <em>the <code>.screen-reader</code> class was updated on December 12, 2016 to fix a bug that smushed all of the words in a sentence into one in some screen readers.</em>):</p>
+
+<pre><code class="language-lang-css">/**
+ * Visually hide an element, but leave it available for screen readers
+ * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css
+ * @link http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+.screen-reader {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/**
+ * Extends the .screen-reader class to allow the element to be focusable when navigated to via the keyboard
+ * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css
+ * @link https://www.drupal.org/node/897638
+ */
+.screen-reader-focusable:active,
+.screen-reader-focusable:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	white-space: normal;
+	width: auto;
+}
+</code></pre>
+
+<p>Now, our markup looks like this:</p>
+
+<pre><code class="language-lang-markup">&lt;a class=&quot;screen-reader screen-reader-focusable&quot; href=&quot;#main&quot;&gt;Skip to the main content&lt;/a&gt;
+
+&lt;nav&gt;Navigation elements...&lt;/nav&gt;
+
+&lt;main id=&quot;main&quot;&gt;The main content&lt;/main&gt;
+</code></pre>
+
+<h3 id="bringing-proper-focus">Bringing proper focus</h3>
+
+<p>Chrome has a longstanding bug that prevents it from properly bringing focus onto the content area with this approach.</p>
+
+<p>If you use the skip link to jump to the content area, the page will scroll down, but focus remains on the skip link. When you click tab, it takes you to the next link&mdash;in our example, in the site nav, which we were trying to avoid.</p>
+
+<p>There&rsquo;s an easy workaround: give the content area a <code>tabindex</code> of <code>-1</code>:</p>
+
+<pre><code class="language-lang-markup">&lt;a class=&quot;screen-reader screen-reader-focusable&quot; href=&quot;#main&quot;&gt;Skip to the main content&lt;/a&gt;
+
+&lt;nav&gt;Navigation elements...&lt;/nav&gt;
+
+&lt;main id=&quot;main&quot; tabindex=&quot;-1&quot;&gt;The main content&lt;/main&gt;
+</code></pre>
+
+<p>To prevent this content from having a blue outline, I also like to add this class:</p>
+
+<pre><code class="language-lang-css">/**
+ * @workaround Remove focus from &lt;main&gt; element when using tabindex=&quot;-1&quot; hack for skipnav link
+ * @link https://code.google.com/p/chromium/issues/detail?id=37721
+ */
+.tabindex:focus {
+	outline: none;
+}
+</code></pre>
+
+<p>Now, our markup looks like this:</p>
+
+<pre><code class="language-lang-markup">&lt;a class=&quot;screen-reader screen-reader-focusable&quot; href=&quot;#main&quot;&gt;Skip to the main content&lt;/a&gt;
+
+&lt;nav&gt;Navigation elements...&lt;/nav&gt;
+
+&lt;main class=&quot;tabindex&quot; id=&quot;main&quot; tabindex=&quot;-1&quot;&gt;The main content&lt;/main&gt;
+</code></pre>
+
+<h2 id="hidden-labels">Hidden labels</h2>
+
+<p>You can also use the <code>screen-reader</code> class to hide content visually while keeping it accessible for screen readers.</p>
+
+<p>For example, if the only thing on a page is a search form, you might not want to display a label for that field. But, it can be helpful for screen reader users to know what content goes in the field. You can do something like this:</p>
+
+<pre><code class="language-lang-markup">&lt;form&gt;
+    &lt;label class=&quot;screen-reader&quot; for=&quot;search&quot;&gt;Search criteria&lt;/label&gt;
+    &lt;input type=&quot;text&quot; id=&quot;search&quot; name=&quot;search&quot; value=&quot;&quot;&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Search&quot;&gt;
+&lt;/form&gt;
+</code></pre>
+
+<h2 id="skip-to-navigation">Skip <em>to</em> navigation</h2>
+
+<p>Earlier, we talked about skipping over navigation.</p>
+
+<p>But on <a href="http://beacon.gomakethings.com">Beacon</a>, my learning platform for web developers, I have navigation lower on the page that a user may want to quickly access. You can use a skip link to jump users to that navigation.</p>
+
+<pre><code class="language-lang-html">&lt;a class=&quot;screen-reader screen-reader-focusable&quot; href=&quot;#secondary-nav&quot;&gt;Skip to Course Navigation&lt;/a&gt;
+
+Some other content...
+
+&lt;nav class=&quot;tabindex&quot; id=&quot;secondary-nav&quot; tabindex=&quot;-1&quot;&gt;Nav content...&lt;/nav&gt;
+</code></pre>
+
+<h2 id="focus-visibility">Focus visibility</h2>
+
+<p>One of the biggest accessibility issues I see on websites is the removal of <code>:focus</code> styling from links.</p>
+
+<p>When you tab onto a link, it should be outlined in blue. This let&rsquo;s sighted keyboard users easily determine which link is in focus.</p>
+
+<p>If there&rsquo;s anything in your stylesheet (other than our <code>.tabindex</code> class) that&rsquo;s removing <code>border</code> on <code>:focus</code>, remove it right now.</p>
+
+<h2 id="skipping-over-links">Skipping over links</h2>
+
+<p>There may be times where you have links that you don&rsquo;t want to show up as a user tabs through content.</p>
+
+<p>This article, for example, has a link with a <code>#</code> symbol after each header. This gives you easy access to an anchor link you can use to jump people to a particular section.</p>
+
+<p>Imagine having to skip over those as you move through every article on a site though? It would get old and annoying pretty quickly.</p>
+
+<p>Adding <code>tabindex=&quot;-1&quot;</code> to a link removes it from the normal tab order, so it gets skipped as visitors tab through your content.</p>
+
+<h2 id="ask-for-feedback">Ask for feedback</h2>
+
+<p>Adrienne Debigare pointed me to <a href="https://twitter.com/adebigare/status/712368920490074113">this awesome little trick on LinkedIn&rsquo;s site</a>: include a hidden keyboard user link asking for a11y feedback.</p>
+
+<p>I added one to my site. It just requires our skip link classes and a <code>mailto</code> value:</p>
+
+<pre><code class="language-lang-markup">&lt;a class=&quot;screen-reader screen-reader-focusable&quot; href=&quot;mailto:your@email.com&amp;subject=Accessibility%20Feedback&quot;&gt;Accessibility Feedback&lt;/a&gt;
+</code></pre>
+
+<p>What I love about this one is that it empowers your audience to tell you when you&rsquo;re doing it wrong. I don&rsquo;t use my keyboard to navigate around websites. I&rsquo;m not always aware of the unique challenges keyboard-only users face, or things that work poorly on a particular visitors setup.</p>
+
+<p>This gives those users an easy way to reach you and tell you what&rsquo;s wrong so that you can fix it.</p>
+
+<h2 id="what-now">What now?</h2>
+
+<p>This article barely scratched the surface of web accessibility, but hopefully it&rsquo;s caused you to start thinking about the way you build websites a bit differently.</p>
+
+<p>If nothing else, go implement these easy fixes today!</p>
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

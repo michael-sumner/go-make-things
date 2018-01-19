@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>How to support thousands of devices without losing your mind | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">How to support thousands of devices without losing your mind</span></h1>
+	
+
+	<p><em>The following post was adapted from <a href="/wicked-fast-websites/">Wicked Fast Websites</a>, my free beginner&rsquo;s guide to building fast websites and web apps that work on any device. <a href="/wicked-fast-websites/">Download it here.</a></em></p>
+
+<p>Over the last two years, <a href="http://pawsnewengland.com/">PAWS New England</a> has been visited by over 800 different devices. These devices range from the very capable (the latest iOS and Android versions) to the very old and underpowered (a Nintendo DS and my 5 year old Kindle).</p>
+
+<p>Though it hasn&rsquo;t actually been tested on 800 devices, the site works on all of them. In this section, we&rsquo;ll look at techniques that you can use to support a nearly infinite number of devices, even if you can only test a small fraction of them.</p>
+
+<p></p>
+
+<h2 id="the-secret-sauce-progressive-enhancement">The Secret Sauce: Progressive Enhancement</h2>
+
+<p>Progressive enhancement is the secret to supporting a nearly infinite number of devices without losing your mind. So what is progressive enhancement? To quote <a href="http://blog.teamtreehouse.com/progressive-enhancement-past-present-future">Team Treehouse</a>:</p>
+
+<blockquote>
+<p>Progressive enhancement is a layered approach for building websites using HTML for content, CSS for presentation, and JavaScript for interactivity. If for some reason JavaScript breaks, the site should still work and look good. If the CSS doesn’t load correctly, the HTML content should still be there with meaningful hyperlinks. And even if the HTML is malformed, browsers are smart enough to continue rendering what they can. Progressive enhancement typically yields a result that is robust, fault tolerant, and accessible. People that have the latest devices will get the most progressively enhanced experience, and people on slow connections or less capable devices will still be able to access the information. Websites don’t need to look the same in every browser, they just need to deliver core content and functionality.</p>
+</blockquote>
+
+<p>Progressive enhancement is about building in successive layers.</p>
+
+<h2 id="building-in-layers">Building in Layers</h2>
+
+<p>There are three main layers of the front-end development stack: HTML, CSS, and JavaScript.</p>
+
+<ol>
+<li>Write solid, semantic markup that will logically make sense without CSS or JavaScript.</li>
+<li>Next, layer in visual style with CSS, and ensure that it will work and look decent even if your JavaScript fails to load.</li>
+<li>Finally, add interaction with JavaScript, but know that this is a nice-to-have rather than a need-to-have.</li>
+</ol>
+
+<h2 id="progressive-enhancement-with-javascript">Progressive Enhancement with JavaScript</h2>
+
+<p>Some of my scripts use CSS to hide and show elements. By default, I want all elements visible. They should only be hidden if the browser has the appropriate JavaScript support and my JS file successfully loads. To do that, I include this snippet in my JavaScript file:</p>
+
+<pre><code class="language-lang-js">document.documentElement.className += ' js';
+</code></pre>
+
+<p>This adds a <code>.js</code> class to my <code>&lt;html&gt;</code> element. I can check for this class in my CSS before hiding any content:</p>
+
+<pre><code class="language-lang-css">.js .example {
+	display: none;
+	visibility: hidden;
+}
+</code></pre>
+
+<p>If your script is dependent on certain APIs that aren&rsquo;t supported by all browsers (things like query selectors and event listeners), you should check for those before running your script or adding your class:</p>
+
+<pre><code class="language-lang-js">if ( 'querySelector' in document &amp;&amp; 'addEventListener' in window ) {
+	// Do stuff...
+	document.documentElement.className += ' js';
+}
+</code></pre>
+
+<p>If your JavaScript file fails to load (because of a broken URL, a corporate firewall, or a bad wireless connection), and while your visitor is waiting for it to download, all of your content is still visible and accessible.</p>
+
+<h3 id="that-popular-javascript-framework-you-re-using">That popular JavaScript framework you&rsquo;re using</h3>
+
+<p>Today&rsquo;s most popular MVC JavaScript frameworks-ones like Angular, Backbone, Ember, and more-render markup primarily using JavaScript, and therefore do not support progressive enhancement.</p>
+
+<p>Not only does this make them far more fragile (if the JS file fails, the user gets an empty page), performance suffers greatly as well. The folks at Filament Group found that <a href="http://www.filamentgroup.com/lab/mv-initial-load-times.html">JavaScript frameworks can take 4 seconds or more</a> to display the first piece of content to a user. As we learned in the first section, even fractions of a second have meaningful bottom-line impacts on your business.</p>
+
+<p>The good news: there&rsquo;s a push towards <a href="http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/">isomorphic JavaScript</a>, scripts that can be run on both the server and in the browser. You get faster initial load times from the server, <em>and</em> faster updates from the browser. And if the JS file fails to load, you simply fallback to the server and the visitor still gets all of your content.</p>
+
+<p>The bad news: We&rsquo;re not there yet with most of today&rsquo;s most popular JavaScript frameworks.</p>
+
+<h2 id="mobile-first">Mobile First</h2>
+
+<p>Mobile first, from a coding perspective, means that your base style is typically a single-column, fully-fluid layout. You use <code>@media (min-width: whatever)</code> to add a grid-based layout on top of that.</p>
+
+<p>The alternative – desktop first – involves starting with a wide, grid-based layout, and using <code>@media (max-width: whatever)</code> to scale down to a single-column layout. When we all began converting our desktop-<em>only</em> sites to responsive design, it was common to use a desktop-<em>first</em> approach because it made retrofitting easier.</p>
+
+<p>Mobile-first is the <del>better</del> more future-friendly approach. Here&rsquo;s an example of desktop-first code, borrowed from our chapter on RWD:</p>
+
+<pre><code class="language-lang-css">#main {
+	width: 66.666666667%;
+}
+
+#sidebar {
+	width: 33.333333333%;
+}
+
+@media (max-width: 480px) {
+	#main,
+	#sidebar {
+		width: 100%;
+	}
+}
+</code></pre>
+
+<p>And here&rsquo;s that same code, rewritten mobile-first:</p>
+
+<pre><code class="language-lang-css">#main,
+#sidebar {
+	width: 100%;
+}
+
+@media (min-width: 480px) {
+	#main {
+		width: 66.666666667%;
+	}
+
+	#sidebar {
+		width: 33.333333333%;
+	}
+}
+</code></pre>
+
+<h3 id="why-mobile-first">Why mobile first?</h3>
+
+<p>iPhone and Android browsers are quite capable, but older smart phones, feature phones and other small-screen devices like gaming consoles may not support media queries.</p>
+
+<p>Imagine trying to read tiny text in a big screen layout on an old, underpowered feature phone.</p>
+
+<p>Mobile first web design extends progressive enhancement to site layout, allowing you to serve simple, readable content to all devices, and layer on structure and presentation for more capable devices.</p>
+
+<p>It&rsquo;s worth noting that IE 8 and lower do not support media queries, so they receive the basic, single-column layout when using this approach. There is <a href="/mobile-first-and-internet-explorer/">a simple way to address this</a> if you <em>really</em> need to optimize for IE 8.</p>
+
+<h2 id="support-is-not-the-same-as-optimization">Support is not the same as optimization</h2>
+
+<p>The web is for everyone, but <a href="http://bradfrostweb.com/blog/mobile/support-vs-optimization/">support is not the same as optimization</a>.</p>
+
+<p>Rather than trying to provide the same level of functionality for older browsers, use progressive enhancement to serve a basic experience to all browsers (even Netscape and IE 5), and layer in a better layout, more visually attractive elements, and an enhanced experience for newer browsers that support modern APIs and techniques.</p>
+
+<p>This will let you build engaging, feature rich web experiences, support any browser that can connect to the web, and maintain your sanity.</p>
+
+<h2 id="does-this-mean-i-don-t-have-to-test-my-site">Does this mean I don&rsquo;t have to test my site?</h2>
+
+<p>No. Testing on real devices will still surface unexpected layout quirks and interaction challenges. Test on as many real devices as you can, but acknoweldge that you can&rsquo;t test everything. Come with up a sensible policy and stick to it.</p>
+
+<p><strong>This seems reasonable:</strong> &ldquo;We test on the current and last major release of iOS and Android. We also test on the latest versions of all modern browsers, as well as the latest version of IE and two versions prior.&rdquo;</p>
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

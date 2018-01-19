@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>How to autoplay videos after a modal opens | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">How to autoplay videos after a modal opens</span></h1>
+	
+
+	
+
+<p>Over the weekend, <a href="https://do22.co/">Kabolobari</a>, one of my students, asked me how to make videos autoplay after a modal is opened (shared with permission).</p>
+
+<blockquote>
+<p>What&rsquo;s the best way (or best plugin) to do vanilla js modal window that also auto play video in it when it&rsquo;s triggered?</p>
+</blockquote>
+
+<p>Today, let&rsquo;s look at how to do that.</p>
+
+<h2 id="picking-the-right-modal-plugin">Picking the right modal plugin</h2>
+
+<p>YouTube, Vimeo, and HTML5 videos all have parameters that let you autoplay them. YouTube and Vimeo both use <code>autoplay=1</code> as a query string in the URL, while HTML5 videos have an <code>autoplay</code> property.</p>
+
+<p><em>But</em>, if you include those parameters directly in the markup, the video will autoplay when the page loads, whether or not the modal is open.</p>
+
+<p>We need a modal plugin that has a callback or event that runs after a modal opens. We can hook into that and add our parameter or property when the modal opens, and remove it when it closes.</p>
+
+<p>My <a href="https://github.com/cferdinandi/modals">Modals plugin</a> has callbacks that run when modals are opened or closed, and I&rsquo;m sure some other popular plugins do, too.</p>
+
+<h2 id="adding-the-autoplay-parameter">Adding the autoplay parameter</h2>
+
+<p>Let&rsquo;s create a function called <code>autoplayVideo()</code>. We&rsquo;ll pass the modal we want to play the video in as an argument.</p>
+
+<pre><code class="language-lang-js">var autoplayVideo = function (modal) {
+	// Code goes here...
+};
+</code></pre>
+
+<p>The first thing we want to do is get our video. We&rsquo;ll use <code>querySelector()</code> to search inside the modal.</p>
+
+<p><code>querySelector()</code> lets you pass in multiple selectors, separated by a comma, and will grab the first matching element. We&rsquo;ll looking for iframes with either YouTube or Vimeo in the <code>src</code>, as well as <code>video</code> elements.</p>
+
+<p>If the modal doesn&rsquo;t have a matching video, we&rsquo;ll call <code>return</code> to bail on the function.</p>
+
+<pre><code class="language-lang-js">var autoplayVideo = function (modal) {
+
+	// Look for a YouTube, Vimeo, or HTML5 video in the modal
+	var video = modal.querySelector('iframe[src*=&quot;www.youtube.com&quot;], iframe[src*=&quot;player.vimeo.com&quot;], video');
+
+	// Bail if the modal doesn't have a video
+	if (!video) return;
+
+};
+</code></pre>
+
+<p>Next, we want to check if the video is an HTML5 video element. HTML5 videos expose a JavaScript API. If it is, we can call <code>video.play()</code> to make the video start playing.</p>
+
+<p>We&rsquo;ll use <code>tagName</code> to get the type of element our video is, and <code>toLowerCase()</code> to convert it to lowercase, as some browsers return uppercase tag names and string comparisons are case-specific. It it&rsquo;s a match, we can <code>return</code> to end our function after playing the video.</p>
+
+<pre><code class="language-lang-js">var autoplayVideo = function (modal) {
+
+	// Look for a YouTube, Vimeo, or HTML5 video in the modal
+	var video = modal.querySelector('iframe[src*=&quot;www.youtube.com&quot;], iframe[src*=&quot;player.vimeo.com&quot;], video');
+
+	// Bail if the modal doesn't have a video
+	if (!video) return;
+
+	// If an HTML5 video, play it
+	if (video.tagName.toLowerCase() === 'video') {
+		video.play();
+		return;
+	}
+
+};
+</code></pre>
+
+<p>Finally, if it&rsquo;s an iframe, we&rsquo;ll get the current <code>src</code> attribute and add <code>autoplay=1</code> to it to cause it to start playing.</p>
+
+<p>Because the video <code>src</code> might already have other query parameters on it, we&rsquo;ll check to see if there&rsquo;s a <code>?</code> in the URL already. If there is, we&rsquo;ll add an <code>&amp;</code> before our autoplay parameter. If not, we&rsquo;ll add a <code>?</code>.</p>
+
+<pre><code class="language-lang-js">var autoplayVideo = function (modal) {
+
+	// Look for a YouTube, Vimeo, or HTML5 video in the modal
+	var video = modal.querySelector('iframe[src*=&quot;www.youtube.com&quot;], iframe[src*=&quot;player.vimeo.com&quot;], video');
+
+	// Bail if the modal doesn't have a video
+	if (!video) return;
+
+	// If an HTML5 video, play it
+	if (video.tagName.toLowerCase() === 'video') {
+		video.play();
+		return;
+	}
+
+	// Add autoplay to video src
+	// video.src: the current video `src` attribute
+	// (video.src.indexOf('?') &lt; 0 ? '?' : '&amp;'): if the video.src already has query string parameters, add an &quot;&amp;&quot;. Otherwise, add a &quot;?&quot;.
+	// 'autoplay=1': add the autoplay parameter
+	video.src = video.src + (video.src.indexOf('?') &lt; 0 ? '?' : '&amp;') + 'autoplay=1';
+
+};
+</code></pre>
+
+<h2 id="passing-the-function-is-with-your-callback">Passing the function is with your callback</h2>
+
+<p>This will vary from plugin to plugin. In <a href="https://github.com/cferdinandi/modals">my modals script</a>, the callback is an option you can pass in at initialization.</p>
+
+<p>It exposes the button that toggled the modal and the modal itself as arguments.</p>
+
+<pre><code class="language-lang-js">modals.init({
+	callbackOpen: function ( toggle, modal ) {
+		autoplayVideo(modal);
+	}
+});
+</code></pre>
+
+<h2 id="stopping-the-video-when-the-modal-closes">Stopping the video when the modal closes</h2>
+
+<p>If you&rsquo;re going to autoplay a video when the modal opens, you should also stop it when the modal closes.</p>
+
+<p>To accomplish this, we&rsquo;ll create a new <code>stopVideo()</code> function, and reverse what we did in <code>autoplayVideo()</code>.</p>
+
+<p>To stop an HTML5 video, we&rsquo;ll use <code>video.pause()</code>. For iframes, we&rsquo;ll use the <code>replace()</code> method to remove <code>?autoplay=1</code> and <code>&amp;autoplay=1</code> from the video source and then reset it. This reloads the video and stops it from playing.</p>
+
+<pre><code class="language-lang-js">/**
+ * Stop a YouTube, Vimeo, or HTML5 video
+ * @param  {Node} modal  The modal to search inside
+ */
+var stopVideo = function (modal) {
+
+	// Look for a YouTube, Vimeo, or HTML5 video in the modal
+	var video = modal.querySelector('iframe[src*=&quot;www.youtube.com&quot;], iframe[src*=&quot;player.vimeo.com&quot;], video');
+
+	// Bail if the modal doesn't have a video
+	if (!video) return;
+
+	// If an HTML5 video, pause it
+	if (video.tagName.toLowerCase() === 'video') {
+		video.pause();
+		return;
+	}
+
+	// Remove autoplay from video src
+	video.src = video.src.replace('&amp;autoplay=1', '').replace('?autoplay=1', '');
+
+};
+</code></pre>
+
+<p>Don&rsquo;t forget to pass the <code>stopVideo()</code> function in to your callback as well.</p>
+
+<pre><code class="language-lang-js">modals.init({
+	callbackOpen: function ( toggle, modal ) {
+		autoplayVideo(modal);
+	},
+	callbackClose: function ( toggle, modal ) {
+		stopVideo(modal);
+	}
+});
+</code></pre>
+
+<p><a href="https://jsfiddle.net/cferdinandi/w4va2mpr/9/">Here&rsquo;s a demo of all of this in action.</a></p>
+
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

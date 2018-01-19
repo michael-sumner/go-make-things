@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Typography First Web Design | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">Typography First Web Design</span></h1>
+	
+
+	<p>Last week, I launched a redesign of Go Make Things with a single objective: to create a design that was really enjoyable to read.</p>
+
+<p>Today, I want to walk you through the process, the decisions I made, and why I made them.
+
+<h2>The Why</h2></p>
+
+<p>In a word, <a href="http://www.instapaper.com/">Instapaper</a>.</p>
+
+<p>Once you get used to reading articles in Instapaper, you gain a much deeper appreciation for good typography - large font sizes, well spaced and measured lines, and beautiful typefaces. And you start to realize how much reading on a typical webpage actually sucks.</p>
+
+<p>I&rsquo;d like to think Go Make Things was actually a pretty good reading experience already, but typography was not something I&rsquo;d spent much time thinking about.</p>
+
+<p>For this experiment, I wanted to start with typography first, and build a web experience around that.</p>
+
+<h2>The How</h2>
+
+<p>As far as typefaces go, Georgia holds a special place in my heart.</p>
+
+<p>Even when Instapaper released their recent update with a variety of new and beautiful fonts, I stuck with Georgia. It&rsquo;s the font I use in iBooks and my mobile RSS reader, too. It&rsquo;s incredible readable, even at smaller sizes.</p>
+
+<p>So when I went to choose a primary typeface, Georgia was my first choice.</p>
+
+<h3>Setting the Size</h3>
+
+<p>I spent a few weeks experimenting with Georgia in various font sizes on my laptop, my iPhone and my iPad.</p>
+
+<p>I wanted to a size that would be highly readable on both a standard resolution computer screen and high resolution Retina displays. A 16 pixel font size looks normal on a computer but too small on a Retina display. At 18 pixels, Georgia is beautiful on Retina but too big for the desktop.</p>
+
+<p>While I&rsquo;m not wild about odd numbers, 17 pixels turned out to be just right for both.</p>
+
+<h3>Setting the Width & Line Height</h3>
+
+<p>After experimenting with a variety of line-lengths, somewhere around 85 characters-per-line turned out to be the most comfortable for long-form reading. That works out to 640 pixels wide for a 17 pixel font size.</p>
+
+<p>I used Chris Pearson&rsquo;s <a href="http://www.pearsonified.com/typography/">Golden Ratio Typography calculator</a> to determine my line height, which came out to 26 pixels.</p>
+
+<p>(<em>Chris&rsquo;s calculator is a great tool - I&rsquo;ll definitely be using this on all of my projects going forward!</em>)</p>
+
+<h3>Creating a Typographic Scale</h3>
+
+<p>In the past, I&rsquo;ve always just arbitrarily picked sizes for my headers and meta information, experimenting until I found something that &ldquo;looked right.&rdquo;</p>
+
+<p>However, typographers have literally spent hundreds of years perfecting the art of the typographic scale. This time, I wanted to use their methods to great a more visually pleasing scale.</p>
+
+<p>Fortunately, Ian Lamb&rsquo;s <a href="http://lamb.cc/typograph/">Typograph app</a> did all the heavy lifting. You enter your font size and line height, and select your desired scale (in this case, Traditional). The app provides you with a scale in pixels, ems and points.</p>
+
+<p>This scale became the basis for every header, margin, list, and piece of text on the site. The one exception: headers are set with a line-height of 1.2 ems.</p>
+
+<h2>Adding the Details</h2>
+
+<p>At this point, I had a layout that was very readable but not terribly distinctive.</p>
+
+<p>(Ok, if I&rsquo;m being honest, the process was far less linear, with lots of experimenting. I would add some branding details, tweak the typography, and repeat iteratively.)</p>
+
+<p>I repurposed the branding from my previous layout, using the same colors for the header, links and footer. And while I made some minor tweaks to quote formatting and the comments section, the branding is largely the same.</p>
+
+<h3>Dropping the Sidebar</h3>
+
+<p>I decided at the very beginning of this experiment to remove the sidebar.</p>
+
+<p>I&rsquo;ve gotten used to reading on my phone and iPad, where sites are often displayed as single column. I like the experience so much, I wanted to use it as the default for the redesigned Go Make Things.</p>
+
+<p>Let&rsquo;s be honest: there&rsquo;s usually nothing all that important in the sidebar, anyways.</p>
+
+<h3>Adding Responsive Web Design</h3>
+
+<p>Normally, responsive design is something I build in from the very start. However, because this is a single column layout, there weren&rsquo;t many considerations in the way of reflowing a grid.</p>
+
+<p>This is, in fact, the easiest responsive site I&rsquo;ve ever built. I made just a handful of small adjustments:</p>
+
+<ul>
+<li>I changed the main container div from <code>width: 640px;</code> to <code>max-width: 640px;</code>. This causes the site to fluidly resize itself on smaller screens. (<em>Max-width isn't supported by IE6, but the browser is now more than ten years old, and I'm not longer supporting it for this site.</em>)</li>
+<li>I decreased the line height to 25 pixels for screens below 640 pixels (<em>again, using the Golden Ratio Typography calculator to determine the right line height for smaller site widths</em>).</li>
+<li>I decreased the left margin on lists on quotes for improved readability on smaller screens.</li>
+<li>I decreased the font size of H1 and H2 headers on smaller screens, keeping them within the typographic scale.</li>
+<li>I set form inputs to span the full width of the screen on smaller devices.</li>
+</ul>
+
+<p>And that&rsquo;s pretty much it.</p>
+
+<h4>Learn More</h4>
+
+<ol>
+<li><a href="http://www.pearsonified.com/2011/12/golden-ratio-typography.php">The Ultimate Guide to Readable Web Typography</a> by Chris Pearson.</li>
+<li><a href="http://informationarchitects.net/blog/the-web-is-all-about-typography-period/">Web Design is 95% Typography</a> and <a href="http://informationarchitects.net/blog/responsive-typography-the-basics/">Responsive Web Typography: The Basics</a> by Oliver Reichenstein.</li>
+<li><a href="http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-better-typography">Five Simple Steps to Better Typography</a> by Mark Boulton.</li>
+<li>Chris Pearson's <a href="http://www.pearsonified.com/typography/">Golden Ratio Typography Calculator</a>.</li>
+<li>Ian Lamb's <a href="http://lamb.cc/typograph/">Typograph app</a>.</li>
+</ol>
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

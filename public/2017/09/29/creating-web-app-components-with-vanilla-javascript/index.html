@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Creating web app components with vanilla JavaScript | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">Creating web app components with vanilla JavaScript</span></h1>
+	
+
+	
+
+<p>I&rsquo;m getting ready to launch my latest <a href="/guides/">pocket guide</a>, &ldquo;Vanilla JS Web Apps.&rdquo;</p>
+
+<p>This week, we&rsquo;ve looked at how to <a href="/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/">render elements</a>, <a href="/components-state-and-vanilla-javascript/">add state to an object (and what &ldquo;state&rdquo; even is)</a>, and how to <a href="/automatically-re-rendering-an-element-when-its-state-changes-with-vanilla-javascript/">automatically re-render elements when state changes</a>&mdash;all without using a framework or library.</p>
+
+<p>Today, we&rsquo;re going to talk about the final piece of the puzzle: how to programmatically turn any template into a component.</p>
+
+<p><em><strong>Quick heads up:</strong> if you haven&rsquo;t yet, you should definitely read the rest of the articles in this series or some of this won&rsquo;t make sense.</em></p>
+
+<h2 id="a-component-method">A <code>component()</code> method</h2>
+
+<p>We&rsquo;re going to use a <code>component()</code> method to handle all off the stuff we did manually in the previous articles.</p>
+
+<p>Let me show you the whole thing, then we&rsquo;ll talk through it.</p>
+
+<pre><code class="language-lang-js">var component = function (template, props, elem) {
+
+	// Add properties to our template
+	Object.defineProperties(template, {
+
+		// Set the element to render into
+		elem: {
+			value: elem,
+			writable: true
+		},
+
+		// Add state
+		state: {
+			value: props,
+			writable: true
+		},
+
+		// Add the `setState()` method
+		setState: {
+			value: function (props) {
+
+				// Shallow merge new properties into state object
+				for (var key in props) {
+					if (props.hasOwnProperty(key)) {
+						template.state[key] = props[key];
+					}
+				}
+
+				// Render the element
+				render(template, template.elem);
+
+				// Return the elem for use elsewhere
+				return template.elem;
+
+			}
+		}
+
+	});
+
+	// Return the template so you can assign it to a variable if desired
+	return template;
+
+};
+</code></pre>
+
+<p>There are two ways to use our <code>component()</code> method. In each case, we&rsquo;ll pass in the <code>props</code> argument to access our template&rsquo;s state.</p>
+
+<h3 id="example-1-pass-in-an-existing-template">Example 1: Pass in an existing template</h3>
+
+<p>To use it, you can pass in an existing template and assign your initial state.</p>
+
+<pre><code class="language-lang-js">var todoList = function (props) {
+
+    // Setup our template
+    var template = '';
+
+    // Loop through the todos
+    for (var i = 0; i &lt; props.todos.length; i++) {
+        var todo = props.todos[i];
+
+        // Check if it's completed
+        var checked = todo.completed ? 'checked' : '';
+
+        // Create the todo item
+        template +=
+            '&lt;label&gt;' +
+                '&lt;input type=&quot;checkbox&quot; value=&quot;' + todo.item + '&quot; ' + checked + '&gt;' +
+                todo.item +
+            '&lt;/label&gt;';
+    }
+
+    // Return completed template
+    return template;
+
+};
+
+component(todoList, {
+    todos: [
+        {
+            item: 'Eat',
+            completed: false
+        },
+        {
+            item: 'Take a nap',
+            completed: true
+        },
+        {
+            item: 'Eat again',
+            completed: false
+        }
+    ]
+}, document.querySelector('#todo-list'));
+</code></pre>
+
+<p>Our <code>todoList()</code> template is now a component with state, and calling <code>todoList.setState()</code> will cause the associated element to re-render.</p>
+
+<h3 id="example-2-create-the-template-with-the-component-method">Example 2: Create the template with the <code>component()</code> method</h3>
+
+<p>You can alternatively set up a template for the first time with the <code>component()</code> method.</p>
+
+<pre><code class="language-lang-js">var todoList = component(function (props) {
+
+    // Setup our template
+    var template = '';
+
+    // Loop through the todos
+    for (var i = 0; i &lt; props.todos.length; i++) {
+        var todo = props.todos[i];
+
+        // Check if it's completed
+        var checked = todo.completed ? 'checked' : '';
+
+        // Create the todo item
+        template +=
+            '&lt;label&gt;' +
+                '&lt;input type=&quot;checkbox&quot; value=&quot;' + todo.item + '&quot; ' + checked + '&gt;' +
+                todo.item +
+            '&lt;/label&gt;';
+    }
+
+    // Return completed template
+    return template;
+
+}, {
+    todos: [
+        {
+            item: 'Eat',
+            completed: false
+        },
+        {
+            item: 'Take a nap',
+            completed: true
+        },
+        {
+            item: 'Eat again',
+            completed: false
+        }
+    ]
+}, document.querySelector('#todo-list'));
+</code></pre>
+
+<p>And just like the previous example, calling <code>todoList.setState()</code> will cause a re-render.</p>
+
+<h2 id="how-this-works">How this works</h2>
+
+<p>The <code>Object.defineProperties()</code> method is used to assign properties to a JavaScript object (and in JavaScript, confusingly, everything is an object, not just actual objects like <code>{}</code>).</p>
+
+<p>What makes it nicer than just doing <code>object.property = 'something'</code> is that you can also set whether or not people should be able to modify it, if it should show up in loops, and so on.</p>
+
+<p>With our <code>component()</code> method, we&rsquo;re defining the template&rsquo;s <code>elem</code> and <code>state</code> properties. We&rsquo;re also assigning a function to <code>setState()</code>, and automatically passing in in the template&rsquo;s <code>state</code> property.</p>
+
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

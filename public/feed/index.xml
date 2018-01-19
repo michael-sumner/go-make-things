@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+>
+	<channel>
+		<title>Go Make Things</title>
+		<atom:link href="https://gomakethings.com/feed/" rel="self" type="application/rss+xml" />
+		<link>https://gomakethings.com</link>
+		<description>Vanilla JavaScript for beginners and designers.</description>
+		<lastBuildDate>Sun, 14 Jan 2018 21:38:44 -4400</lastBuildDate>
+		<language>en-us</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+		<generator>Hugo -- gohugo.io</generator>
+		
+		
+			<item>
+				<title>Another Way to Make Links More Accessible</title>
+				<link>https://gomakethings.com/another-way-to-make-links-more-accessible/</link>
+				<pubDate>Fri, 19 Jan 2018 10:46:33 -0500</pubDate>
+				
+				<guid>https://gomakethings.com/another-way-to-make-links-more-accessible/</guid>
+				<description><![CDATA[ Reader Robbert de Kuiper emailed me after yesterday&rsquo;s article to share another approach for making links for accessible: border-bottom.
+ You can remove the underline of a link and add a border-bottom to the link to emphasise it. That option also removes the problem with the cut-through descenders and gives the text a little more room ‘to breath’. The default underline always feels a little bit cramped to me. And you can also add extra styling for the border on hover, for example to move it a pixel down.]]></description>
+				<content:encoded><![CDATA[ <p>Reader <a href="http://www.robbertdekuiper.com/">Robbert de Kuiper</a> emailed me after <a href="/improving-link-legibility-with-two-lines-of-css/">yesterday&rsquo;s article</a> to share another approach for making links for accessible: <code>border-bottom</code>.</p>
+
+<blockquote>
+<p>You can remove the underline of a link and add a border-bottom to the link to emphasise it. That option also removes the problem with the cut-through descenders and gives the text a little more room ‘to breath’. The default underline always feels a little bit cramped to me. And you can also add extra styling for the border on hover, for example to move it a pixel down.</p>
+</blockquote>
+
+<pre><code class="language-css">a {
+	color: blue;
+	border-bottom: 1px solid blue;
+	padding-bottom: 1px;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+a:hover {
+	color: purple;
+	border-bottom-color: purple;
+	padding-bottom: 2px;
+}
+</code></pre>
+
+<p><a href="https://jsfiddle.net/cferdinandi/pybo79va/1/">See it in action here.</a></p>
+]]></content:encoded>
+			</item>
+		
+			<item>
+				<title>Improving link legibility with two lines of CSS</title>
+				<link>https://gomakethings.com/2018/01/18/improving-link-legibility-with-two-lines-of-css/</link>
+				<pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
+				
+				<guid>https://gomakethings.com/2018/01/18/improving-link-legibility-with-two-lines-of-css/</guid>
+				<description><![CDATA[ Links in body copy should pretty much always be underlined.
+A brief aside&hellip; I had previously assumed that certain colors that aren&rsquo;t affected by common types of color blindness (like certain shades of blue) provided sufficient contrast and did not need to be underlined. Then I learned that I was wrong.
+ Sleep disorder: I have to read after 5pm with f.lux cranked up all the way, so sites that assume hyperlinks can be blue w/no underline…]]></description>
+				<content:encoded><![CDATA[ <p>Links in body copy should pretty much <a href="/accessibility-according-to-people-with-actual-disabilities/">always be underlined</a>.</p>
+
+<p><strong>A brief aside&hellip;</strong> I had <a href="/better-link-accessibility-for-the-color-blind/">previously assumed</a> that certain colors that aren&rsquo;t affected by common types of color blindness (like certain shades of blue) provided sufficient contrast and did not need to be underlined. Then I <a href="/accessibility-according-to-people-with-actual-disabilities/">learned that I was wrong</a>.</p>
+
+<blockquote>
+<p>Sleep disorder: I have to read after 5pm with f.lux cranked up all the way, so sites that assume hyperlinks can be blue w/no underline…</p>
+</blockquote>
+
+<p>However, underlines introduce their own accessibility challenges.</p>
+
+<p>For people with certain types of visual impairments (low vision and dyslexia, for example), underlines that cut through descenders on letters (the dip below the imaginary &ldquo;line&rdquo; caused by lower case g, y, and so on) can make text difficult to read and understand.</p>
+
+<p>Print figured this out years ago, and breaks the underline for those descenders. And now, you can achieve the same affect with CSS.</p>
+
+<p>For a short while, you could use the <code>text-decoration-skip</code> property set to <code>ink</code>.</p>
+
+<pre><code class="language-lang-css">a {
+    text-decoration: underline;
+    text-decoration-skip: ink;
+}
+</code></pre>
+
+<p>This has since been moved to it&rsquo;s own property: <code>text-decoration-skip-ink</code>, with a value of <code>auto</code>. Browser support is spotty, so for now, use both.</p>
+
+<pre><code class="language-lang-css">a {
+    text-decoration: underline;
+    text-decoration-skip: ink;
+    text-decoration-skip-ink: auto;
+}
+</code></pre>
+
+<p>That will make a link like this.</p>
+
+<p><img src="https://gomakethings.com/wp-content/uploads/2018/01/without-skip-ink.png" alt="" width="576" height="64" class="aligncenter size-full wp-image-20368" /></p>
+
+<p>Look like this instead.</p>
+
+<p><img src="https://gomakethings.com/wp-content/uploads/2018/01/with-skip-ink.png" alt="" width="576" height="64" class="aligncenter size-full wp-image-20368" /></p>
+]]></content:encoded>
+			</item>
+		
+			<item>
+				<title>The Open Source Pancreas</title>
+				<link>https://gomakethings.com/2018/01/17/the-open-source-pancreas/</link>
+				<pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+				
+				<guid>https://gomakethings.com/2018/01/17/the-open-source-pancreas/</guid>
+				<description><![CDATA[ Yea, you read that right.
+Dana Lewis has diabetes, lived alone, and is a heavy sleeper. She was worried about sleeping through her blood sugar monitor alarm if it went off in the middle of the night, so she built herself an artificial pancreas using open source code and off the shelf medical supplies.
+ She used the shared code successfully to get the data off her own device, then sent it to the cloud and back to her phone to make louder alarms.]]></description>
+				<content:encoded><![CDATA[ <p>Yea, you read that right.</p>
+
+<p>Dana Lewis has diabetes, lived alone, and is a heavy sleeper. She was worried about sleeping through her blood sugar monitor alarm if it went off in the middle of the night, so <a href="http://www.al.com/news/huntsville/index.ssf/2017/05/daniel_lewis_built_her_own_art.html">she built herself an artificial pancreas</a> using open source code and off the shelf medical supplies.</p>
+
+<blockquote>
+<p>She used the shared code successfully to get the data off her own device, then sent it to the cloud and back to her phone to make louder alarms. At first, that&rsquo;s all she wanted.</p>
+
+<p>Then, Lewis thought &ldquo;it would be nice for somebody else to see my data since I live alone.&rdquo; She programmed a Web interface to share the data with her boyfriend and, if he didn&rsquo;t respond, with her mother in Huntsville&hellip;</p>
+
+<p>This was a real, meaningful life change, but the couple kept going. &ldquo;I was giving the system data, and we figured out how to use that data and actually predict in the future what was going to happen,&rdquo; she said. &ldquo;So, not only was I getting alarms saying, hey, right now you need to do something, but in an hour, your blood sugar is going to be low, but if you do a little bit of something now, you won&rsquo;t be stopped in your tracks later.&rdquo;</p>
+</blockquote>
+
+<p>Here&rsquo;s the craziest thing: she built something that doesn&rsquo;t actually exist yet. Medical companies don&rsquo;t sell what she invented. She made something new, and gives away all of her code for free.</p>
+
+<p><a href="http://www.al.com/news/huntsville/index.ssf/2017/05/daniel_lewis_built_her_own_art.html">Go read the whole thing right now.</a> It&rsquo;s fascinating.</p>
+
+<p>Also, share your work. Give away code. Help others. You never know what cool stuff people will make with it!</p>
+]]></content:encoded>
+			</item>
+		
+			<item>
+				<title>Array sorting basics with vanilla JavaScript</title>
+				<link>https://gomakethings.com/2018/01/16/array-sorting-basics-with-vanilla-javascript/</link>
+				<pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
+				
+				<guid>https://gomakethings.com/2018/01/16/array-sorting-basics-with-vanilla-javascript/</guid>
+				<description><![CDATA[ One of my students contacted me about yesterday&rsquo;s article on sorting arrays, and I realized I didn&rsquo;t do the greatest job explaining the basics of array sorting with vanilla JS.
+Today, let&rsquo;s take a step back, look at a simplified example, and get a better understanding of how Array.sort() works.
+Looping through the array Let&rsquo;s say you have a simple array of sandwich choices.
+var sandwiches = [ 'turkey', 'ham', 'tuna', 'pb&amp;j' ];  When you call the sort() method on an array, it looks through each item in the array and compares it to the one immediately after it.]]></description>
+				<content:encoded><![CDATA[ 
+
+<p>One of my students contacted me about <a href="/sorting-an-array-by-multiple-criteria-with-vanilla-javascript/">yesterday&rsquo;s article on sorting arrays</a>, and I realized I didn&rsquo;t do the greatest job explaining the basics of array sorting with vanilla JS.</p>
+
+<p>Today, let&rsquo;s take a step back, look at a simplified example, and get a better understanding of how <code>Array.sort()</code> works.</p>
+
+<h2 id="looping-through-the-array">Looping through the array</h2>
+
+<p>Let&rsquo;s say you have a simple array of sandwich choices.</p>
+
+<pre><code class="language-lang-js">var sandwiches = [
+	'turkey',
+	'ham',
+	'tuna',
+	'pb&amp;j'
+];
+</code></pre>
+
+<p>When you call the <code>sort()</code> method on an array, it looks through each item in the array and compares it to the one immediately after it.</p>
+
+<p>The method uses a callback function that accepts two arguments. The first is the current item, and the second is the one that comes after it. You can name them anything you want.</p>
+
+<pre><code class="language-lang-js">sandwiches.sort(function (sandwich1, sandwich2) {
+	console.log(vote1);
+	console.log(vote2);
+});
+</code></pre>
+
+<p>On the first loop, the example above would log <code>turkey</code> (the first item) and <code>ham</code> (the one after it) to the console. On the second loop, it would log <code>ham</code> (the new current item) and <code>tuna</code> (the new next item) to the console.</p>
+
+<p>This would continue all the way through until it gets to <code>pb&amp;j</code>.</p>
+
+<h2 id="actually-sorting-things">Actually sorting things</h2>
+
+<p>You can tell the <code>Array.sort()</code> method to reorder those two items by giving it a numeric command.</p>
+
+<p>If you return <code>-1</code>, it will place the current item before the next one. If you return <code>1</code>, it will move the next item before the current one. If you return <code>0</code> (or nothing at all), it will leave them unchanged.</p>
+
+<p>You could sort you sandwiches alphabetically by comparing them and moving the &ldquo;higher&rdquo; value down. If the letter comes later in the alphabet, it has a higher value than if it comes earlier. As in, <code>a</code> has a lower value than <code>d</code>.</p>
+
+<pre><code class="language-lang-js">// Sort alphabetically
+sandwiches.sort(function (sandwich1, sandwich2) {
+	if (sandwich1 &gt; sandwich2) {
+		return 1;
+	} else {
+		return -1;
+	}
+});
+</code></pre>
+
+<p>You could sort them reverse-alphabetically by doing the opposite.</p>
+
+<pre><code class="language-lang-js">// Sort reverse-alphabetically
+sandwiches.sort(function (sandwich1, sandwich2) {
+	if (sandwich1 &gt; sandwich2) {
+		return -1;
+	} else {
+		return 1;
+	}
+});
+</code></pre>
+
+<p>You could order them by the number of letters in the name (fewer letters show up first) by getting the <code>length</code> property of each sandwich and comparing it to the sandwich after it.</p>
+
+<pre><code class="language-lang-js">// Sort by name length
+sandwiches.sort(function (sandwich1, sandwich2) {
+	if (sandwich1.length &gt; sandwich2.length) {
+		return 1;
+	} else {
+		return -1;
+	}
+});
+</code></pre>
+
+<p>That last one is weird, but you have options. If I did a bad job explaining any of this, let me know!</p>
+]]></content:encoded>
+			</item>
+		
+			<item>
+				<title>Sorting an array by multiple criteria with vanilla JavaScript</title>
+				<link>https://gomakethings.com/2018/01/15/sorting-an-array-by-multiple-criteria-with-vanilla-javascript/</link>
+				<pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+				
+				<guid>https://gomakethings.com/2018/01/15/sorting-an-array-by-multiple-criteria-with-vanilla-javascript/</guid>
+				<description><![CDATA[ Last week, my friend Andrew Borstein was playing around with a JavaScript upvoting system, and asked:
+ I want to sort an array based on two properties. First sort by an integer, next sort by a string. So an array of objects might look like this:
+ [ { title: 'Apple', votes: 1 }, { title: 'Milk', votes: 2 }, { title: 'Carrot', votes: 3 }, { title: 'Banana', votes: 2 } ]   and then be sorted into this]]></description>
+				<content:encoded><![CDATA[ 
+
+<p>Last week, my friend <a href="http://andrewborstein.github.io/portfolio/">Andrew Borstein</a> was playing around with a JavaScript upvoting system, and asked:</p>
+
+<blockquote>
+<p>I want to sort an array based on two properties. First sort by an integer, next sort by a string. So an array of objects might look like this:</p>
+</blockquote>
+
+<pre><code class="language-lang-js">[
+	{ title: 'Apple', votes: 1 },
+	{ title: 'Milk', votes: 2 },
+	{ title: 'Carrot', votes: 3 },
+	{ title: 'Banana', votes: 2 }
+]
+</code></pre>
+
+<blockquote>
+<p>and then be sorted into this</p>
+</blockquote>
+
+<pre><code class="language-lang-js">[
+	{ title: 'Carrot', votes: 3 },
+	{ title: 'Banana', votes: 2 },
+	{ title: 'Milk', votes: 2 },
+	{ title: 'Apple', votes: 1 }
+]
+</code></pre>
+
+<p>In other words, show the item with the most votes first, and then for items with the same number of votes, sort alphabetically.</p>
+
+<h2 id="using-array-sort">Using <code>Array.sort()</code></h2>
+
+<p>The <code>Array.sort()</code> method let&rsquo;s you compare items in an array and sort them.</p>
+
+<p>To use it, you pass in a callback function that accepts two arguments. The first is the first item of the two it should compare, and the second is the second. You can name them anything you want.</p>
+
+<pre><code class="language-lang-js">var votes = [
+	{ title: 'Apple', votes: 1 },
+	{ title: 'Milk', votes: 2 },
+	{ title: 'Carrot', votes: 3 },
+	{ title: 'Banana', votes: 2 }
+];
+
+votes.sort(function (vote1, vote2) {
+	console.log(vote1);
+	console.log(vote2);
+});
+
+// Logs this to the console...
+// {title: &quot;Apple&quot;, votes: 1}
+// {title: &quot;Milk&quot;, votes: 2}
+// {title: &quot;Milk&quot;, votes: 2}
+// {title: &quot;Carrot&quot;, votes: 3}
+// {title: &quot;Carrot&quot;, votes: 3}
+// {title: &quot;Banana&quot;, votes: 2}
+</code></pre>
+
+<p><code>Array.sort()</code> works by looping through each item in the array and comparing it to the one after it based on some criteria you specify in your comparison function.</p>
+
+<p>If you return <code>-1</code>, it will place the first item before the second. If you return <code>1</code>, it will place the second item before the first. If you return <code>0</code>, it will leave them unchanged.</p>
+
+<h2 id="sorting-our-votes">Sorting our votes</h2>
+
+<p>Let&rsquo;s put <code>Array.sort()</code> into action.</p>
+
+<p>First, we want to sort by the number of votes. We&rsquo;ll compare each items number of votes (the <code>vote</code> property), and put the one with the most votes first.</p>
+
+<pre><code class="language-lang-js">votes.sort(function (vote1, vote2) {
+
+	// Sort by votes
+	// If the first item has a higher number, move it down
+	// If the first item has a lower number, move it up
+	if (vote1.votes &gt; vote2.votes) return -1;
+	if (vote1.votes &lt; vote2.votes) return 1;
+
+});
+</code></pre>
+
+<p>The <code>votes</code> array looks like this now.</p>
+
+<pre><code class="language-lang-js">[
+	{title: &quot;Carrot&quot;, votes: 3},
+	{title: &quot;Milk&quot;, votes: 2},
+	{title: &quot;Banana&quot;, votes: 2},
+	{title: &quot;Apple&quot;, votes: 1}
+]
+</code></pre>
+
+<p>The items are sorted by votes, but not alphabetically yet. For example, <code>Banana</code> comes after <code>Milk</code>.</p>
+
+<p>Right now, if <code>vote1</code> and <code>vote2</code> are the same, we do nothing and the order doesn&rsquo;t change. Let&rsquo;s instead then compare the <code>title</code> property, and move items that come first in the alphabet up.</p>
+
+<p>With <code>Array.sort()</code>, if the letter comes later in the alphabet, it has a higher value than if it comes earlier.</p>
+
+<pre><code class="language-lang-js">votes.sort(function (vote1, vote2) {
+
+	// Sort by votes
+	// If the first item has a higher number, move it down
+	// If the first item has a lower number, move it up
+	if (vote1.votes &gt; vote2.votes) return -1;
+	if (vote1.votes &lt; vote2.votes) return 1;
+
+	// If the votes number is the same between both items, sort alphabetically
+	// If the first item comes first in the alphabet, move it up
+	// Otherwise move it down
+	if (vote1.title &gt; vote2.title) return 1;
+	if (vote1.title &lt; vote2.title) return -1;
+
+});
+</code></pre>
+
+<p>If you refresh your browser and try sorting again, the <code>votes</code> array will now look like this.</p>
+
+<pre><code class="language-lang-js">[
+
+	{title: &quot;Carrot&quot;, votes: 3},
+	{title: &quot;Banana&quot;, votes: 2},
+	{title: &quot;Milk&quot;, votes: 2},
+	{title: &quot;Apple&quot;, votes: 1}
+]
+</code></pre>
+
+<h2 id="extending-this-for-your-own-needs">Extending this for your own needs</h2>
+
+<p>You can change the criteria your sorting against to match the properties of whatever array you&rsquo;re working with. You can also change what value you return to switch the sorting order.</p>
+
+<p>For example, if you wanted to return items with the fewest votes first, you&rsquo;d switch which returns <code>1</code> and which returns <code>-1</code>.</p>
+
+<pre><code class="language-lang-js">votes.sort(function (vote1, vote2) {
+
+	// Sort by votes
+	// If the first item has a higher number, move it down
+	// If the first item has a lower number, move it up
+	if (vote1.votes &gt; vote2.votes) return 1;
+	if (vote1.votes &lt; vote2.votes) return -1;
+
+	// If the votes number is the same between both items, sort alphabetically
+	// If the first item comes first in the alphabet, move it up
+	// Otherwise move it down
+	if (vote1.title &gt; vote2.title) return 1;
+	if (vote1.title &lt; vote2.title) return -1;
+
+});
+</code></pre>
+
+<p>You can also sort by additional criteria. If you had an array of objects with more than two properties, you could, for example, sort by a third criteria if the <code>title</code> property was the same between two items (maybe <code>location</code> or <code>year</code>).</p>
+]]></content:encoded>
+			</item>
+		
+			<item>
+				<title>Developer Spotlight: Nicole Sullivan (aka Stubbornella)</title>
+				<link>https://gomakethings.com/2018/01/12/developer-spotlight-nicole-sullivan-aka-stubbornella/</link>
+				<pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+				
+				<guid>https://gomakethings.com/2018/01/12/developer-spotlight-nicole-sullivan-aka-stubbornella/</guid>
+				<description><![CDATA[ Last week, I mentioned a new feature I was starting to give a voice to developers who aren&rsquo;t always as visible in our community.
+Reinforcing how necessary this is, this week I came across this exchange on Twitter:
+ Sean Coates: For a pet project, I&rsquo;m looking to list out some women who were active and influential in the web from 1995-2002, and not coming up with very many. Enlighten me, please?]]></description>
+				<content:encoded><![CDATA[ 
+
+<p>Last week, I mentioned a new feature I was starting to <a href="/shining-a-light-on-other-developers/">give a voice to developers who aren&rsquo;t always as visible in our community</a>.</p>
+
+<p>Reinforcing how necessary this is, this week I came across <a href="https://twitter.com/ChrisFerdinandi/status/951459561927520258">this exchange on Twitter</a>:</p>
+
+<blockquote>
+<p><strong>Sean Coates:</strong> For a pet project, I&rsquo;m looking to list out some women who were active and influential in the web from 1995-2002, and not coming up with very many. Enlighten me, please?</p>
+
+<p><strong>Jen Simmons:</strong> There are tons. Or were. Many were driven away. Most have had credit for our work stolen by men. Few have Wikipedia entries.</p>
+
+<p>One of these years we might just get up the guts to map the work we invented and pioneered to the men who get all the public credit for it. Like… OOCSS being renamed and repackaged — talked about as the “new brand” by everyone while, uh, Nicole you were doing it <em>long</em> before…</p>
+</blockquote>
+
+<p>Which brings me to today&rsquo;s spotlight: Nicole Sillivan, aka Stubbornella.</p>
+
+<h2 id="oocss">OOCSS</h2>
+
+<p>If you work with CSS, you may be familiar with the BEM methodology.</p>
+
+<p>BEM stands for Block Element Modifier, and describes a modular approach to writing CSS that&rsquo;s easier to read and maintain, and is better for performance. It emerged around 2012, and has <a href="https://www.smashingmagazine.com/2012/04/a-new-front-end-methodology-bem/">been credited as being created by the folks at Yandex</a>.</p>
+
+<p>Here&rsquo;s the problem: Yandex didn&rsquo;t actually invent BEM.</p>
+
+<p><a href="https://www.slideshare.net/stubbornella/object-oriented-css/">Nicole Sullivan did, five years earlier.</a> And she didn&rsquo;t call it BEM. She called it Object-Oriented CSS (aka OOCSS).</p>
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/EUTjDAdG7npnxS" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe>
+
+<p>I&rsquo;m not saying the folks at Yandex stole her idea. It&rsquo;s entirely possible they came up with it separately, having never heard of OOCSS.</p>
+
+<p>The real problem is that Nicole Sullivan, <a href="https://www.linkedin.com/in/nicolesullivan/">a wildly talented developer</a>, almost never gets credit for laying the foundation for BEM, which is really just an opinionated implementation of OOCSS.</p>
+
+<h3 id="why-oocss-kicks-so-much-ass">Why OOCSS kicks so much ass!</h3>
+
+<p>The &ldquo;Aha!&rdquo; moment for me <a href="https://www.slideshare.net/stubbornella/object-oriented-css/22-Components_are_like_legos">was this</a>:</p>
+
+<blockquote>
+<p>Components are like legos. Mix and match to create diverse and interesting pages.</p>
+</blockquote>
+
+<p>This completely changed how I write CSS <em>and</em> HTML <em>and</em> JavaScript.</p>
+
+<p>It rewired my brain. It made a <em>much</em> better developer. If you like my approach to web development&mdash;small, modular, and focused on performance&mdash;you can thank Nicole. She transformed my career.</p>
+
+<h2 id="more-awesomesauce">More awesomesauce!</h2>
+
+<p>Nicole built <a href="http://csslint.net/">CSS Lint</a>, an online CSS linter that tells you all the ways your code sucks.</p>
+
+<p>Someone created a Sublime Text plugin for this that I still use today. Insanely useful!</p>
+
+<p>Nicole founded <a href="https://2016.cssconf.com">CSSConf</a>. She&rsquo;s written two books on web performance: <a href="https://www.amazon.com/Even-Faster-Web-Sites-Performance/dp/0596522304">Even Faster Websites</a> and the <a href="https://www.amazon.com/Web-Performance-Daybook-Volume-2/dp/1449332919">Web Performance Daybook</a>.</p>
+
+<h2 id="follow-nicole-s-work">Follow Nicole&rsquo;s Work</h2>
+
+<p>You can find Nicole at <a href="http://www.stubbornella.org/">Stubbornella.org</a> and on <a href="https://twitter.com/stubbornella">Twitter at @stubbornella</a>.</p>
+
+<p>If you want to learn more about OOCSS, I&rsquo;d start with <a href="https://www.slideshare.net/stubbornella/object-oriented-css/">this amazing presentation on the topic</a>, and then dig into <a href="https://github.com/stubbornella/oocss">the project on GitHub</a>.</p>
+]]></content:encoded>
+			</item>
+		
+			<item>
+				<title>Automatically expand a textarea as the user types using vanilla JavaScript</title>
+				<link>https://gomakethings.com/2018/01/11/automatically-expand-a-textarea-as-the-user-types-using-vanilla-javascript/</link>
+				<pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
+				
+				<guid>https://gomakethings.com/2018/01/11/automatically-expand-a-textarea-as-the-user-types-using-vanilla-javascript/</guid>
+				<description><![CDATA[ Tommy Hodgins shared a really neat little helper function with me that automatically expands a textarea as the user types in.
+I made a few modifications to simplify it down a bit, and wanted to share it with you and how it works.
+The HTML All you need in the way of markup for this is a humble textarea element.
+&lt;textarea&gt;&lt;/textarea&gt;  The CSS I give my textarea&rsquo;s just a little bit of styling.]]></description>
+				<content:encoded><![CDATA[ 
+
+<p><a href="https://twitter.com/innovati">Tommy Hodgins</a> shared a really neat little helper function with me that automatically expands a textarea as the user types in.</p>
+
+<p>I made a few modifications to simplify it down a bit, and wanted to share it with you and how it works.</p>
+
+<h2 id="the-html">The HTML</h2>
+
+<p>All you need in the way of markup for this is a humble <code>textarea</code> element.</p>
+
+<pre><code class="language-lang-html">&lt;textarea&gt;&lt;/textarea&gt;
+</code></pre>
+
+<h2 id="the-css">The CSS</h2>
+
+<p>I give my textarea&rsquo;s just a little bit of styling.</p>
+
+<p>A <code>min-height</code> ensures that at least a few lines of text show up to start. A <code>max-height</code> of <code>50vh</code> ensures the text area will never grow bigger than the viewport. I also like to add a <code>width</code> of <code>100%</code> so that the text area fills up the full width of the content area.</p>
+
+<pre><code class="language-lang-css">textarea {
+	min-height: 5em;
+	max-height: 50vh;
+	width: 100%;
+}
+</code></pre>
+
+<h2 id="the-javascript">The JavaScript</h2>
+
+<p>Here&rsquo;s the fun part.</p>
+
+<h3 id="listening-for-changes-to-textareas">Listening for changes to textareas</h3>
+
+<p>First, let&rsquo;s setup an event listener to detect changes to our <code>textarea</code> element. We&rsquo;ll use <a href="/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/">event delegation</a> to listen to all <code>input</code> events and then filter out ones that aren&rsquo;t on a textarea.</p>
+
+<pre><code class="language-lang-js">document.addEventListener('input', function (event) {
+	if (event.target.tagName.toLowerCase() !== 'textarea') return;
+}, false);
+</code></pre>
+
+<p>If the element is a textarea, we&rsquo;ll call a new function we&rsquo;re going to create, <code>autoExpand()</code>, and pass in the element as an argument using <code>event.target</code>.</p>
+
+<pre><code class="language-lang-js">document.addEventListener('input', function (event) {
+	if (event.target.tagName.toLowerCase() !== 'textarea') return;
+	autoExpand(event.target);
+}, false);
+</code></pre>
+
+<h3 id="auto-expanding-the-textarea">Auto-expanding the textarea</h3>
+
+<p>Now, we can setup our <code>autoExpand()</code> function.</p>
+
+<pre><code class="language-lang-js">var autoExpand = function (field) {
+    // Do things...
+};
+</code></pre>
+
+<p>First, we need to reset the height of the textarea so that we can calculate how tall the content is/should be.</p>
+
+<pre><code class="language-lang-js">var autoExpand = function (field) {
+
+	// Reset field height
+	field.style.height = 'inherit';
+
+};
+</code></pre>
+
+<p>To calculate our height, we need to get both the height of the content, and any borders and padding on the textarea that will affect its overall height.</p>
+
+<p>We&rsquo;ll use <code>window.getComputedStyle()</code> to get styles for the textarea, and <code>scrollHeight</code> to calculate the height of the content itself.</p>
+
+<p>We&rsquo;ll run all of the values through <code>parseInt()</code> to convert them to integers, and then add them up to get our total element height.</p>
+
+<pre><code class="language-lang-js">	// Get the computed styles for the element
+	var computed = window.getComputedStyle(field);
+
+	// Calculate the height
+	var height = parseInt(computed.getPropertyValue('border-top-width'), 10)
+	             + parseInt(computed.getPropertyValue('padding-top'), 10)
+	             + field.scrollHeight
+	             + parseInt(computed.getPropertyValue('padding-bottom'), 10)
+	             + parseInt(computed.getPropertyValue('border-bottom-width'), 10);
+</code></pre>
+
+<p>Finally, we&rsquo;ll set the height of our element using the <code>style</code> property.</p>
+
+<pre><code class="language-lang-js">var autoExpand = function (field) {
+
+	// Reset field height
+	field.style.height = 'inherit';
+
+	// Get the computed styles for the element
+	var computed = window.getComputedStyle(field);
+
+	// Calculate the height
+	var height = parseInt(computed.getPropertyValue('border-top-width'), 10)
+	             + parseInt(computed.getPropertyValue('padding-top'), 10)
+	             + field.scrollHeight
+	             + parseInt(computed.getPropertyValue('padding-bottom'), 10)
+	             + parseInt(computed.getPropertyValue('border-bottom-width'), 10);
+
+	field.style.height = height + 'px';
+
+};
+</code></pre>
+
+<p>And that&rsquo;s it! <a href="https://jsfiddle.net/cferdinandi/mqwwpL6u/">You can view a working demo here.</a></p>
+
+<h2 id="browser-compatibility">Browser Compatibility</h2>
+
+<p>This will work in all modern browsers, and IE9 and up. Thanks <a href="https://twitter.com/innovati">Tommy</a>!</p>
+]]></content:encoded>
+			</item>
+		
+	</channel>
+</rss>

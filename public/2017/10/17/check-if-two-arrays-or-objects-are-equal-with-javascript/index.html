@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Check if two arrays or objects are equal with JavaScript | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">Check if two arrays or objects are equal with JavaScript</span></h1>
+	
+
+	
+
+<p>Yesterday, we looked at a way to <a href="/checking-if-two-arrays-are-equal/">tell if two arrays are equal with JavaScript</a>. The approach is fast and simple, but falls apart pretty quickly for all but the most basic of arrays.</p>
+
+<p>Today, we&rsquo;re going to look at a much more robust way to compare two arrays (or objects) and check if they&rsquo;re equal to each other.</p>
+
+<h2 id="what-we-need-to-compare">What we need to compare</h2>
+
+<p>You could have a simple array, like this one.</p>
+
+<pre><code class="language-lang-js">var arr = [1, 2, 3, 4, 5];
+</code></pre>
+
+<p>Or, you could have a complex, multidimensional array with various types of inputs.</p>
+
+<pre><code class="language-lang-js">var arr = [1, 'something', 3, {
+	item1: 42,
+	item2: 'another thing',
+	item3: function () {
+		console.log('running!');
+	}
+}, 5];
+</code></pre>
+
+<p>To properly compare two arrays or objects, we need to check:</p>
+
+<ol>
+<li>That they&rsquo;re the same object type (array vs. object).</li>
+<li>That they have the same number of items.</li>
+<li>That each item is equal to its counterpart in the other array or object.
+
+<ul>
+<li>That they&rsquo;re the same object type (array vs. object vs. string vs. number vs. function).</li>
+<li>That they have the same value.</li>
+</ul></li>
+</ol>
+
+<p>And if the item is itself an array or object, we need to compare all of its values against that same items values in the other array or object.</p>
+
+<p>To make this all work, we&rsquo;re going to create a helper function to test all of these things. Let&rsquo;s get started&hellip;</p>
+
+<h2 id="setting-up-our-helper-function">Setting up our helper function</h2>
+
+<p>Let&rsquo;s create a helper function called <code>isEqual()</code> (the same name used by libraries like Underscores and lodash, for the sake of keeping with convention).</p>
+
+<p>We&rsquo;ll accept two arguments: the <code>value</code> is one array or object, and <code>other</code> is the other array or object to compare it against.</p>
+
+<pre><code class="language-lang-js">var isEqual = function (value, other) {
+	// Code will go here...
+};
+</code></pre>
+
+<p>We&rsquo;re going to run a series of tests in our helper function. If at any point one of them fails, we&rsquo;ll immediately <code>return false</code> to indicate they&rsquo;re not equal.</p>
+
+<p>If at the end the function is still running, it means all of our tests and comparisons passed and we can <code>return true</code>. They&rsquo;re a match.</p>
+
+<pre><code class="language-lang-js">var isEqual = function (value, other) {
+
+	// Tests will go here...
+
+	// If nothing failed, return true
+	return true;
+
+};
+</code></pre>
+
+<h2 id="some-basic-tests">Some basic tests</h2>
+
+<p>There are a few basic tests we can run right away to quickly eliminate any arrays or objects that obviously aren&rsquo;t equal.</p>
+
+<p>First, if <code>value</code> is an object and <code>other</code> is an array (or vice-versa), they&rsquo;re not equal. We&rsquo;ll use <code>Object.prototype.toString.call()</code> to get the true object type (<code>typeof</code> returns <code>object</code> for both objects and arrays) and compare them. We&rsquo;re going to need the object type later in our function, so for <code>value</code>, we&rsquo;ll save it to a variable.</p>
+
+<pre><code class="language-lang-js">var isEqual = function (value, other) {
+
+	// Get the value type
+	var type = Object.prototype.toString.call(value);
+
+	// If the two objects are not the same type, return false
+	if (type !== Object.prototype.toString.call(other)) return false;
+
+	// More tests will go here...
+
+	// If nothing failed, return true
+	return true;
+
+};
+</code></pre>
+
+<p>Next, we want to make sure our two items are either an object or an array. Our function won&rsquo;t really be setup to compare strings, functions, and so on.</p>
+
+<p>We&rsquo;ll use <code>Arry.typeOf()</code> against our <code>type</code> variable for this.</p>
+
+<pre><code class="language-lang-js">var isEqual = function (value, other) {
+
+	// Get the value type
+	var type = Object.prototype.toString.call(value);
+
+	// If the two objects are not the same type, return false
+	if (type !== Object.prototype.toString.call(other)) return false;
+
+	// If items are not an object or array, return false
+	if (['[object Array]', '[object Object]'].indexOf(type) &lt; 0) return false;
+
+	// More tests will go here...
+
+	// If nothing failed, return true
+	return true;
+
+};
+</code></pre>
+
+<p>Finally, if our two arrays or objects have a different number of items in them, they&rsquo;re not equal.</p>
+
+<p>You can easily get the value of an array using <code>array.length</code>. For objects, we can use <code>Object.keys()</code> to get an array of the object&rsquo;s keys, and then get the length of that.</p>
+
+<hr class="margin-top margin-bottom">
+
+<p><em><code>Object.keys()</code> works in all modern browsers, and IE9 and up, but there&rsquo;s <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys#Polyfill">a polyfill</a> if you need more backwards compatibility.</em>
+<hr class="margin-top margin-bottom"></p>
+
+<p>We&rsquo;ll create variables for the length of both <code>value</code> and <code>other</code>, and use a <a href="/ternary-operators/">ternary operator</a> to set it based on our <code>type</code>. Then, we&rsquo;ll compare our two lengths. If they&rsquo;re not equal, we&rsquo;ll <code>return false</code>.</p>
+
+<pre><code class="language-lang-js">var isEqual = function (value, other) {
+
+	// Get the value type
+	var type = Object.prototype.toString.call(value);
+
+	// If the two objects are not the same type, return false
+	if (type !== Object.prototype.toString.call(other)) return false;
+
+	// If items are not an object or array, return false
+	if (['[object Array]', '[object Object]'].indexOf(type) &lt; 0) return false;
+
+	// Compare the length of the length of the two items
+	var valueLen = type === '[object Array]' ? value.length : Object.keys(value).length;
+	var otherLen = type === '[object Array]' ? other.length : Object.keys(other).length;
+	if (valueLen !== otherLen) return false;
+
+	// More tests will go here...
+
+	// If nothing failed, return true
+	return true;
+
+};
+</code></pre>
+
+<h2 id="comparing-item-values">Comparing item values</h2>
+
+<p>Now that we&rsquo;ve got some basic checks out of the way, we can start comparing the values of the items in our array or object.</p>
+
+<p>To start, we want to loop through each item in our <code>value</code> array or object. The way you look through objects and arrays, is different, so let&rsquo;s setup an <code>if...else</code> statement to check out <code>type</code>, and create the appropriate loop.</p>
+
+<pre><code class="language-lang-js">var isEqual = function (value, other) {
+
+	// Get the value type
+	var type = Object.prototype.toString.call(value);
+
+	// If the two objects are not the same type, return false
+	if (type !== Object.prototype.toString.call(other)) return false;
+
+	// If items are not an object or array, return false
+	if (['[object Array]', '[object Object]'].indexOf(type) &lt; 0) return false;
+
+	// Compare the length of the length of the two items
+	var valueLen = type === '[object Array]' ? value.length : Object.keys(value).length;
+	var otherLen = type === '[object Array]' ? other.length : Object.keys(other).length;
+	if (valueLen !== otherLen) return false;
+
+	// Compare properties
+	if (type === '[object Array]') {
+		for (var i = 0; i &lt; valueLen; i++) {
+			// Compare the item
+		}
+	} else {
+		for (var key in value) {
+			if (value.hasOwnProperty(key)) {
+				// Compare the item
+			}
+		}
+	}
+
+	// If nothing failed, return true
+	return true;
+
+};
+</code></pre>
+
+<p>We&rsquo;re going to compare the items the same way whether it&rsquo;s an object or an array, and we don&rsquo;t want to write the same code twice. Let&rsquo;s set up a <code>compare()</code> function that we can pass our <code>value</code> and <code>other</code> items into.</p>
+
+<p>We&rsquo;ll pass in either the <code>value[i]</code> or <code>value[key]</code> as the first argument, and <code>other[i]</code> or <code>other[key]</code>&mdash;the comparable item in the <code>other</code> object or array&mdash; as the second argument.</p>
+
+<pre><code class="language-lang-js">var isEqual = function (value, other) {
+
+	// Get the value type
+	var type = Object.prototype.toString.call(value);
+
+	// If the two objects are not the same type, return false
+	if (type !== Object.prototype.toString.call(other)) return false;
+
+	// If items are not an object or array, return false
+	if (['[object Array]', '[object Object]'].indexOf(type) &lt; 0) return false;
+
+	// Compare the length of the length of the two items
+	var valueLen = type === '[object Array]' ? value.length : Object.keys(value).length;
+	var otherLen = type === '[object Array]' ? other.length : Object.keys(other).length;
+	if (valueLen !== otherLen) return false;
+
+	// Compare two items
+	var compare = function (item1, item2) {
+		// Code will go here...
+	};
+
+	// Compare properties
+	var match;
+	if (type === '[object Array]') {
+		for (var i = 0; i &lt; valueLen; i++) {
+			compare(value[i], other[i]);
+		}
+	} else {
+		for (var key in value) {
+			if (value.hasOwnProperty(key)) {
+				compare(value[key], other[key]);
+			}
+		}
+	}
+
+	// If nothing failed, return true
+	return true;
+
+};
+</code></pre>
+
+<h2 id="comparing-two-items">Comparing two items</h2>
+
+<p>First, let&rsquo;s get the type for our item. We&rsquo;ll need this information more than once, so let&rsquo;s set it to the <code>itemType</code> variable.</p>
+
+<p>If it&rsquo;s an array or object, we&rsquo;ll pass it back into the <code>isEqual()</code> method. When a function calls itself like this, it&rsquo;s known as a <em>rescursive</em> function. If the test fails, we&rsquo;ll <code>return false</code>.</p>
+
+<pre><code class="language-lang-js">// Compare two items
+var compare = function (item1, item2) {
+
+	// Get the object type
+	var itemType = Object.prototype.toString.call(item1);
+
+	// If an object or array, compare recursively
+	if (['[object Array]', '[object Object]'].indexOf(itemType) &gt;= 0) {
+		if (!isEqual(item1, item2)) return false;
+	}
+};
+</code></pre>
+
+<p>If it&rsquo;s not an array or object, we&rsquo;ll do a simple comparison to check our two item values. First, we&rsquo;ll make sure that <code>item1</code> and <code>item2</code> are the same type.</p>
+
+<pre><code class="language-lang-js">// Compare two items
+var compare = function (item1, item2) {
+
+	// Get the object type
+	var itemType = Object.prototype.toString.call(item1);
+
+	// If an object or array, compare recursively
+	if (['[object Array]', '[object Object]'].indexOf(itemType) &gt;= 0) {
+		if (!isEqual(item1, item2)) return false;
+	}
+
+	// Otherwise, do a simple comparison
+	else {
+
+		// If the two items are not the same type, return false
+		if (itemType !== Object.prototype.toString.call(item2)) return false;
+
+	}
+};
+</code></pre>
+
+<p>Now, we can compare are two values using a simple <code>===</code> comparison operator.</p>
+
+<p>We need to account for one last edge case, though. If the item is a function, we need to convert it to a string using the <code>toString()</code> method so that we can compare it. Otherwise (if it&rsquo;s a string or number), we can just compare it as-is.</p>
+
+<pre><code class="language-lang-js">// Compare two items
+var compare = function (item1, item2) {
+
+	// Get the object type
+	var itemType = Object.prototype.toString.call(item1);
+
+	// If an object or array, compare recursively
+	if (['[object Array]', '[object Object]'].indexOf(itemType) &gt;= 0) {
+		if (!isEqual(item1, item2)) return false;
+	}
+
+	// Otherwise, do a simple comparison
+	else {
+
+		// If the two items are not the same type, return false
+		if (itemType !== Object.prototype.toString.call(item2)) return false;
+
+		// If it's a function, convert to a string and compare
+		// Otherwise, just compare
+		if (itemType === '[object Function]') {
+			if (item1.toString() !== item2.toString()) return false;
+		} else {
+			if (item1 !== item2) return false;
+		}
+
+	}
+};
+</code></pre>
+
+<h2 id="getting-the-value-of-our-compare-function">Getting the value of our <code>compare()</code> function</h2>
+
+<p>As we loop through each item and compare it, we need to check if our <code>compare()</code> function returns <code>false</code>. If it does, we need to <code>return false</code>, too, since the two items are not a match.</p>
+
+<p>(The <code>return false</code> in <code>compare()</code> is scoped to that function and doesn&rsquo;t affect the <code>isEqual()</code> function.)</p>
+
+<pre><code class="language-lang-js">var isEqual = function (value, other) {
+
+	// ...
+
+	// Compare properties
+	if (type === '[object Array]') {
+		for (var i = 0; i &lt; valueLen; i++) {
+			if (compare(value[i], other[i]) === false) return false;
+		}
+	} else {
+		for (var key in value) {
+			if (value.hasOwnProperty(key)) {
+				if (compare(value[key], other[key]) === false) return false;
+			}
+		}
+	}
+
+	// If nothing failed, return true
+	return true;
+
+};
+</code></pre>
+
+<h2 id="putting-it-all-together">Putting it all together</h2>
+
+<p>We can now test two objects or arrays to see if they&rsquo;re equal by passing them in to our <code>isEqual()</code> function.</p>
+
+<pre><code class="language-lang-js">var arr1 = [1, 2, 3, 4, 5];
+var arr2 = [1, 2, 3, 4, 5];
+isEqual(arr1, arr2); // returns true
+
+var arrObj1 = [1, 2, {
+	a: 1,
+	b: 2,
+	c: 3
+}, 4, 5];
+var arrObj2 = [1, 2, {
+	c: 3,
+	b: 2,
+	a: 1
+}, 4, 5];
+isEqual(arrObj1, arrObj2); // returns true
+
+var arr1 = [1, 2, 3, 4, 5];
+var arr3 = [5, 4, 3, 2, 1];
+isEqual(arr1, arr3); // returns false
+</code></pre>
+
+<p>Here&rsquo;s the complete helper function.</p>
+
+<pre><code class="language-lang-js">var isEqual = function (value, other) {
+
+	// Get the value type
+	var type = Object.prototype.toString.call(value);
+
+	// If the two objects are not the same type, return false
+	if (type !== Object.prototype.toString.call(other)) return false;
+
+	// If items are not an object or array, return false
+	if (['[object Array]', '[object Object]'].indexOf(type) &lt; 0) return false;
+
+	// Compare the length of the length of the two items
+	var valueLen = type === '[object Array]' ? value.length : Object.keys(value).length;
+	var otherLen = type === '[object Array]' ? other.length : Object.keys(other).length;
+	if (valueLen !== otherLen) return false;
+
+	// Compare two items
+	var compare = function (item1, item2) {
+
+		// Get the object type
+		var itemType = Object.prototype.toString.call(item1);
+
+		// If an object or array, compare recursively
+		if (['[object Array]', '[object Object]'].indexOf(itemType) &gt;= 0) {
+			if (!isEqual(item1, item2)) return false;
+		}
+
+		// Otherwise, do a simple comparison
+		else {
+
+			// If the two items are not the same type, return false
+			if (itemType !== Object.prototype.toString.call(item2)) return false;
+
+			// Else if it's a function, convert to a string and compare
+			// Otherwise, just compare
+			if (itemType === '[object Function]') {
+				if (item1.toString() !== item2.toString()) return false;
+			} else {
+				if (item1 !== item2) return false;
+			}
+
+		}
+	};
+
+	// Compare properties
+	if (type === '[object Array]') {
+		for (var i = 0; i &lt; valueLen; i++) {
+			if (compare(value[i], other[i]) === false) return false;
+		}
+	} else {
+		for (var key in value) {
+			if (value.hasOwnProperty(key)) {
+				if (compare(value[key], other[key]) === false) return false;
+			}
+		}
+	}
+
+	// If nothing failed, return true
+	return true;
+
+};
+</code></pre>
+
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

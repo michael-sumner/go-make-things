@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>A web performance case study: Save One Soul Animal Rescue League | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">A web performance case study: Save One Soul Animal Rescue League</span></h1>
+	
+
+	<p>Earlier this year, I provided <a href="http://sosarl.org/">Save One Soul Animal Rescue League</a> with some guidance on how to improve the performance of their website.</p>
+
+<p>At the time, their site was taking <a href="http://www.webpagetest.org/result/141013_H6_QWE/">3.5 seconds to start rendering</a>, and it was more than 7 seconds before the first piece of visible text even showed up. After implementing my recommendations, <a href="http://www.webpagetest.org/result/150426_W6_NBP/">their site starts rendering content in 1.7 seconds</a>, with text becoming readable in under 3 seconds.</p>
+
+<p>Their site is more than twice as fast as it was before!</p>
+
+<p>There&rsquo;s still a lot of little things they can do to improve those numbers even further, but a few minor changes had a big impact on their site.</p>
+
+<p>I interviewed Mike Gualtieri, the web developer for SOSARL, to talk about the changes he made and how they affected the sites performance. Here&rsquo;s what he had to say.</p>
+
+<p></p>
+
+<h2 id="the-interview-with-sosarl">The Interview with SOSARL</h2>
+
+<p><strong>Chris (from Go Make Things): What made you decide to focus on web performance for SOSARL?</strong></p>
+
+<p>Mike (from SOSARL): I had e-mailed you in October of 2014 to thank you, as your design for PAWS New England had very much inspired the design of SOSARL&rsquo;s site.</p>
+
+<p>The problem with my design was that sure, I had designed it to look all slick but it had absolutely no optimization&mdash;a point you raised to me in our e-mail exchange. I knew that the site seemed to load a little slow sometimes, but I hadn&rsquo;t done a test in quite some time.</p>
+
+<p>Seeing the load times that you had gotten when you analyzed the site was eye-opening and a reminder that I though I had built a good-looking site, it won&rsquo;t mean a thing if users are giving up when the page isn&rsquo;t loading fast enough. So, I took some of the great advice that you had given me and I was able to cut down the load time in half, and then some.</p>
+
+<p><strong>Chris: Where there any key metrics or targets you looked at? Did you have a target goal for the finished optimizations?</strong></p>
+
+<p>Mike: I didn&rsquo;t have a specific target in mind, I just knew that I needed to bring the &ldquo;Time to First Byte&rdquo; and the &ldquo;Start Render&rdquo; time way down. Originally they were 2.330s and 3.562s, respectively - contributing to a total load time of 18.684s.</p>
+
+<p>When I saw that number, I couldn&rsquo;t believe it, my jaw almost went through the floor. Imagine waiting almost 20 seconds for a site that you want to visit to fully render&mdash;it was completely unacceptable.</p>
+
+<p><strong>Chris: What steps did you take to the improve your site performance?</strong></p>
+
+<p>Mike: First I went for the easy stuff. I got rid of a few parallax effects and slide/fade-in animations that I had given to some images. They were &ldquo;nice-to-have,&rdquo; but honestly completely unnecessary as far as the average user for our site goes.</p>
+
+<p>I also identified several images that were taking <em>way</em> too long to load because they were ridiculously large and uncompressed&mdash;something I had been a bit careless about. I scaled and compressed the images that needed it, and in some cases completely ditched the original image and went with something else altogether.</p>
+
+<p>After that, I saw that there was a JS-based widget that we were loading in the footer which showed a random adoptable dog&rsquo;s name/picture as a &ldquo;Featured Dog&rdquo;. This was taking almost 12 seconds to load! I decided to get rid of that widget on all pages site-wide. It was not used much at all, and it was all the way down in the footer area, which is unlikely to be seen by the casual user.</p>
+
+<p>Those were the heaviest hitters by themselves, but I still decided there was more to be done, so I installed <a href="http://zencache.com/">Quick Cache (now ZenCache)</a> since we&rsquo;re on the <a href="https://wordpress.org/">WordPress platform</a>. I enabled server-side <em>and</em> client-side caching, which made a <em>huge</em> difference&mdash;almost an unbelievable amount of difference in load times.</p>
+
+<p>After installing ZenCache Pro (we sprung for the Pro option, more on that soon), I saw that it detected we weren&rsquo;t leveraging <a href="http://gzipwtf.com/">gZIP compression</a>, so I modified our <code>.htaccess</code> file and voila! I was seeing an 80% reduction in file size.</p>
+
+<p>ZenCache Pro also minifies HTML/CSS for me, so I enabled that and saw even faster load times.</p>
+
+<p>Finally, I researched some ways to defer the loading of javascript or load it asynchronously, since a ton of it was done in the <code>&lt;head&gt;</code> section. I installed a plugin to handle that, and once I did that my load time decreased by at least another 20%.</p>
+
+<p><strong>Chris: Of the changes you made, what had the biggest impact on your performance?</strong></p>
+
+<p>Mike: Installing ZenCache Pro, by far. The combination of the minifying/combining of the CSS files, as well as the client/server-side caching was <em>huge</em>.</p>
+
+<p><strong>Chris: Which of your optimizations was the hardest to implement?</strong></p>
+
+<p>Mike: So, confession time: I&rsquo;m not a web designer/developer by trade, I&rsquo;m an IT guy&mdash;a virtualization engineer to be specific. When it comes to building websites, I know my way around for sure, and I know what the average user is looking for, but I&rsquo;m relatively novice as far as coding goes. I&rsquo;m learning for sure, this whole experience has taught me so much, but I&rsquo;m by no means an expert.</p>
+
+<p>With that out of the way&hellip; we&rsquo;re using a Wordpress.org platform for sosarl.org, so I simply installed ZenCache Pro and WP Deferred Javascripts, made the appropriate tweaks and made sure I didn&rsquo;t break the website or the javascript-based toolkit which loaded our list of adoptable dogs.</p>
+
+<p>There were other parts which were trial-and-error, but I&rsquo;d hardly say that was difficult to implement. I suppose if we replaced the word &ldquo;hardest&rdquo; with &ldquo;most time-consuming,&rdquo; it would be getting the images to be optimized while maintaining a high level of quality. That was a lot of time for me as I ended up ditching a whole bunch of images that didn&rsquo;t look great, so I ended up having to create all new images using GIMP. For instance, for some of the homepage sliders, there would be a large background image and a smaller foreground image on the slide. To create a nice effect, I&rsquo;d adjust the color saturation and darken the background image, and apply a slight-to-moderate blurring filter. The foreground image would be the original, unaltered image.</p>
+
+<p>Eventually I ditched the slider foreground image and just went with a large, high-quality (but properly compressed) slider background image with a darkened box behind the slider text, and this saved not only load time, but the overall size of the page.</p>
+
+<p>All told, I brought the site&rsquo;s size down from a whopping, hefty 9 MB to 1.9 MB. Still a bit high, but that&rsquo;s more than 4-fold improvement!</p>
+
+<p>I should also mention that I&rsquo;m using a DB optimizer too (the <a href="https://wordpress.org/plugins/wp-optimize/">WP-Optimize plugin</a>) which runs automatically every week to keep our database size in check. What effect that has on performance, I&rsquo;m not sure&mdash;I haven&rsquo;t let the database get large enough for me to find out! But, with all of the page revisions, spam comments/trackbacks, the occasional orphaned post draft, I can see it getting out of control pretty easily, so at the very least, it can&rsquo;t hurt!</p>
+
+<p><strong>Chris: I know you just made these changes a short while ago, but have you seen any changes your analytics yet as a result?</strong></p>
+
+<p>Unfortunately, I wasn&rsquo;t doing a very good job of keeping metrics before January of this year, but I will say that since I put these optimizations in place around the March/April timeframe, we saw a huge uptick in visitors and page views.</p>
+
+<p>Granted, that does coincide with more events being held in March/April (the epic amount of snow that was dumped on us really put a damper on events and adoptions at the beginning of the year), but it was a sizable (nearly 4-fold) increase.</p>
+
+<p>Thank you again Chris for all the help and advice. It&rsquo;s been extremely valuable to me not only with SOSARL but a great learning experience that I can hopefully pass on to others too.</p>
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

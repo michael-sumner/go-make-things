@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Ditching jQuery | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">Ditching jQuery</span></h1>
+	
+
+	
+
+<p>This article details how I write modern, native JavaScript (aka vanilla JS), and includes a growing collection of native JavaScript equivalents for common jQuery tasks.</p>
+
+<p>[snippet id=&ldquo;8395&rdquo;]</p>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<ol>
+<li><a href="#why-go-native">Why go native?</a></li>
+<li><a href="#my-approach">My approach</a>
+
+<ul>
+<li><a href="#cutting-the-mustard">Cutting the mustard</a></li>
+<li><a href="#what-browsers-are-supported">What browsers are supported?</a></li>
+<li><a href="#hiding-content-after-the-js-is-loaded">Hiding content after the JS is loaded</a></li>
+</ul></li>
+<li><a href="#native-javascript-apis">Native JavaScript APIs</a>
+
+<ul>
+<li><a href="#selectors">Selectors</a></li>
+<li><a href="#looping-through-objects">Looping through objects</a></li>
+<li><a href="#class-manipulation">Class manipulation</a></li>
+<li><a href="#manipulate-styles">Manipulate styles</a></li>
+<li><a href="#manipulate-attributes">Manipulate attributes</a></li>
+<li><a href="#event-listeners">Event listeners</a></li>
+<li><a href="#waiting-until-the-dom-is-ready">Waiting until the DOM is ready</a></li>
+<li><a href="#manipulate-height">Manipulate height</a></li>
+<li><a href="#working-with-forms">Working with forms</a></li>
+<li><a href="#html-content">HTML content</a></li>
+<li><a href="#extend">Extend</a></li>
+<li><a href="#is-an-element-in-the-viewport">Is an element in the viewport?</a></li>
+<li><a href="#get-distances-to-the-top-of-the-document">Get distances to the top of the document</a></li>
+<li><a href="#get-document-height">Get document height</a></li>
+<li><a href="#climb-up-the-dom">Climb up the DOM</a></li>
+<li><a href="#climb-down-the-dom">Climb down the DOM</a></li>
+<li><a href="#get-sibling-elements">Get sibling elements</a></li>
+<li><a href="#get-a-querystring">Get a querystring</a></li>
+<li><a href="#get-html-from-another-page">Get HTML from another page</a></li>
+<li><a href="#get-json-data">Get JSON Data</a></li>
+<li><a href="#working-with-ajax-and-apis">Working with AJAX and APIs</a></li>
+</ul></li>
+<li><a href="#learn-more">Learn more</a></li>
+</ol>
+
+<h2 id="why-go-native">Why go native?</h2>
+
+<p>One of the benefits of a framework like jQuery is that it smooths out all of the weird browser inconsistencies you might run into. But, all that abstraction and extra code adds a lot of weight and performance latency to a site.</p>
+
+<p><a href="http://timkadlec.com/2014/01/smart-defaults-on-libraries-and-frameworks/">Tim Kadlec writes&hellip;</a></p>
+
+<blockquote>
+<p>It’s not just download sizes that you should be worried about. In a presentation given at Velocity in 2011, <a href="http://www.slideshare.net/firt/mobile-web-html5-performance-optimization/95">Maximiliano Firtman pointed out</a> that on some phones (older, but still popular, BlackBerry devices for example) can take up to 8 seconds just to parse jQuery. More recent <a href="http://jsperf.com/zepto-jq-eval">research from Stoyan Stefanov</a> revealed that even on iOS 5.1, it was taking as many as 200-300ms to parse jQuery.</p>
+</blockquote>
+
+<p>And while I unfortunately don&rsquo;t have hard numbers to back it up, I have found that converting the sites I build over to native JavaScript has had a dramatic impact on site performance.</p>
+
+<p><strong><em>Update:</em></strong> <em><a href="http://timkadlec.com/2014/09/js-parse-and-execution-time/">Tim&rsquo;s got some updated data</a>, and while modern iOS and Android devices are lightning fast, older models&mdash;including ones that are still on the market&mdash;performed much more poorly.</em></p>
+
+<h2 id="my-approach">My approach</h2>
+
+<p>The web is for everyone, but <a href="http://bradfrostweb.com/blog/mobile/support-vs-optimization/">support is not the same as optimization</a>.</p>
+
+<p>Rather than trying to provide the same level of functionality for older browsers, I use progressive enhancement to serve a basic experience to all browsers (even Netscape and IE 5). Newer browsers that support modern APIs and techniques get the enhanced experience.</p>
+
+<p><strong>To be clear, I’m not advocating dropping support for older and less capable browsers.</strong> They still have access to all of the content. They just don’t always get the same layout or extra features.</p>
+
+<h3 id="cutting-the-mustard">Cutting the mustard</h3>
+
+<p>I used a feature detection technique that the BBC calls <a href="http://responsivenews.co.uk/post/18948466399/cutting-the-mustard">“cutting the mustard.”</a></p>
+
+<p>A simple browser test determines whether or not a browser supports modern JavaScript APIs. If it does, it gets the enhanced experience. If not, it gets a more basic one.</p>
+
+<pre><code class="language-language-javascript">var supports = !!document.querySelector &amp;&amp; !!window.addEventListener;
+if ( !supports ) return;
+</code></pre>
+
+<p>The <code>!!</code> converts the API method into a boolean value that you can test against. You can (and should) add all of the APIs you need to test against to this list.</p>
+
+<p>The <code>!supports</code> if statement stops running the script of the browser doesn&rsquo;t support the appropriate APIs.</p>
+
+<h3 id="what-browsers-are-supported">What browsers are supported?</h3>
+
+<p>To quote the BBC:</p>
+
+<blockquote>
+<ul>
+<li>IE9+</li>
+<li>Firefox 3.5+</li>
+<li>Opera 9+ (and probably further back)</li>
+<li>Safari 4+</li>
+<li>Chrome 1+ (I think)</li>
+<li>iPhone and iPad iOS1+</li>
+<li>Android phone and tablets 2.1+</li>
+<li>Blackberry OS6+</li>
+<li>Windows 7.5+ (new Mango version)</li>
+<li>Mobile Firefox (all the versions we tested)</li>
+<li>Opera Mobile (all the versions we tested)</li>
+</ul>
+</blockquote>
+
+<h3 id="hiding-content-after-the-js-is-loaded">Hiding content after the JS is loaded</h3>
+
+<p>In my scripts, after the mustard test is run, I include this line which adds a class to the <code>&lt;html&gt;</code> element after the script is loaded.</p>
+
+<pre><code class="language-language-javascript">document.documentElement.className += ' js-MyPlugin';
+</code></pre>
+
+<p>In my CSS, I can prefix styles with <code>.js-MyPlugin</code> to ensure that JS-specific styles are only applied in supported browsers after the required files have downloaded. This does result in some <a href="http://en.wikipedia.org/wiki/Flash_of_unstyled_content">FOUT</a>, but it&rsquo;s worth it to ensure that users can always access content.</p>
+
+<h2 id="native-javascript-apis">Native JavaScript APIs</h2>
+
+<p>Below is a growing list of native JavaScript equivalents of jQuery APIs. Unless otherwise noted, these provide support for IE9 and above.</p>
+
+<p><strong><em>Quick aside:</em></strong> <em>Many modern web and ECMAScript 5 APIs were influenced by jQuery, and have made working on the web much easier. Thanks jQuery!</em></p>
+
+<h3 id="selectors">Selectors</h3>
+
+<p><del datetime="2014-11-27T01:02:39+00:00">Native JavaScript</del> HTML5 provides two APIs to select elements in the DOM. <code>document.querySelector()</code> gets the first matching element, while <code>document.querySelectorAll()</code> returns a node list of all matching elements.</p>
+
+<p>Also supported in IE8, but only for CSS 2.1 selectors.</p>
+
+<pre><code class="language-language-javascript">var firstClass = document.querySelector( '.some-class' );
+var firstId = document.querySelector( '#some-id' );
+var firstData = document.querySelector( '[data-example]' );
+
+var allClasses = document.querySelectorAll( '.some-class' );
+var allData = document.querySelectorAll( '[data-example]' );
+</code></pre>
+
+<h3 id="looping-through-objects">Looping through objects</h3>
+
+<p>Iterate over arrays, objects, and node lists. Supported all the way back to IE6.</p>
+
+<pre><code class="language-language-javascript">// Arrays and node lists
+var elems = document.querySelectorAll( '.some-class' );
+for ( var i = 0, len = elems.length; i &lt; len; i++ ) {
+    console.log(i) // index
+    console.log(elems[i]) // object
+}
+
+// Objects
+var obj = {
+	apple: 'yum',
+	pie: 3.214,
+	applePie: true
+};
+for ( var prop in obj ) {
+	if ( Object.prototype.hasOwnProperty.call( obj, prop ) ) {
+		console.log( prop ); // key
+		console.log( obj[prop] ); // value
+	}
+}
+</code></pre>
+
+<p><strong><em>Note:</em></strong> <em>Todd Motto has created <a href="https://github.com/toddmotto/foreach">a simple helper method</a> that&rsquo;s useful if you frequently loop over objects.</em></p>
+
+<h3 id="class-manipulation">Class manipulation</h3>
+
+<p>Add, remove, and check for classes. The <code>classList</code> API support starts with IE10, but a <a href="https://github.com/eligrey/classList.js/">polyfill provides support back to IE8</a>. You should always use it.</p>
+
+<pre><code class="language-language-javascript">var elem = document.querySelector( '#some-element' );
+elem.classList.add( 'some-class' ); // Add class
+elem.classList.remove( 'some-other-class' ); // Remove class
+elem.classList.toggle( 'some-other-class' ); // Add or remove class
+if ( elem.classList.contains( 'some-third-class' ) ) { // Check for class
+	console.log( 'yep!' );
+}
+</code></pre>
+
+<h3 id="manipulate-styles">Manipulate styles</h3>
+
+<p>Get and set inline styles. This is supported all the way back to IE6.</p>
+
+<pre><code class="language-language-javascript">var elem = document.querySelector( '#some-element' );
+var color = elem.style.color; // Get a CSS attribute
+elem.style.color = 'rebeccapurple'; // Set a CSS attribute
+var height = elem.style.minHeight; // Get a CSS attribute
+elem.style.minHeight = '200px'; // Set a CSS attribute
+</code></pre>
+
+<p><strong><em>Note:</em></strong> <em>Not sure what the right property name is? I Google these all the time!</em></p>
+
+<h3 id="manipulate-attributes">Manipulate attributes</h3>
+
+<p>Add, remove, and check for attributes.</p>
+
+<pre><code class="language-language-javascript">var elem = document.querySelector( '#some-element' );
+
+elem.getAttribute( 'data-example' ); // Get data attribute
+elem.setAttribute( 'data-example', 'Hello world' ); // Set data attribute
+if ( elem.hasAttribute( 'data-example' ) ) { // Check data attribute
+	console.log( 'yep!' );
+}
+</code></pre>
+
+<p>You can use these APIs to get and set all sorts of attributes&mdash;not just data attributes. However, there&rsquo;s usually an API you can call directly on the element, too.</p>
+
+<pre><code class="language-language-javascript">var elem = document.querySelector( '#some-element' );
+
+// Set an ID
+elem.setAttribute( 'id', 'new-id' );
+elem.id = 'new-id';
+
+// Set width
+elem.setAttribute( 'width', '200px' );
+elem.width = '200px';
+
+// Get title
+var title = elem.getAttribute( 'title' );
+var titleToo = elem.title;
+</code></pre>
+
+<h3 id="event-listeners">Event listeners</h3>
+
+<p>Listen for clicks, hovers, <a href="https://developer.mozilla.org/en-US/docs/Web/Events">and more</a>.</p>
+
+<pre><code class="language-language-javascript">var elem = document.querySelector( '.some-class' );
+elem.addEventListener( 'click', function( event ) {
+    // Do stuff
+}, false);
+</code></pre>
+
+<p>Unlike jQuery, each event requires its own listener, but you can assign a function to a variable to keep your code more DRY.</p>
+
+<pre><code class="language-language-javascript">var elem = document.querySelector( '.some-class' );
+var someFunction = function ( event ) {
+	// Do stuff
+};
+elem.addEventListener( 'click', someFunction, false );
+elem.addEventListener( 'mouseover', someFunction, false );
+</code></pre>
+
+<p>And if you need to pass multiple variables into a function assigned to a variable, use the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"><code>.bind()</code> API</a>. The first variable is the one assigned to <code>this</code>, and event is automatically passed in as the last variable.</p>
+
+<pre><code class="language-language-javascript">var elem = document.querySelector( '.some-class' );
+var someFunction = function ( var1, var2, var3, event ) {
+	// Do stuff
+}
+elem.addEventListener('click', someFunction.bind( null, var1, var2, var3 ), false);
+elem.addEventListener('mouseover', someFunction.bind( null, var1, var2, var3 ), false);
+</code></pre>
+
+<p><strong><em>Note:</em></strong> <em><code>.bind()</code> was a late addition to ECMAScript 5, and some otherwise compliant browsers don&rsquo;t support it. You should <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind#Compatibility">include the polyfill</a> if you use it.</em></p>
+
+<p>With named functions, you can also remove event listeners.</p>
+
+<pre><code class="language-language-javascript">elem.removeEventListener( 'click', someFunction, false );
+elem.removeEventListener( 'mouseover', someFunction, false );
+</code></pre>
+
+<p>If you need to apply the same event listener on multiple elements, you <em>can</em> loop through each element and add a listener. A better and more performant approach, though, is to listen for events on the entire document and filter just the elements you need.</p>
+
+<pre><code class="language-language-javascript">/**
+ * Function to filter what's clicked and run your functions
+ * @param  {Event} event The event
+ */
+var eventHandler = function ( event ) {
+
+	// Get the clicked element
+	var toggle = event.target;
+
+	// If clicked element is the one you're looking for, run your methods
+	if ( toggle.hasAttribute( 'data-example' ) || toggle.classList.contains( 'sample-class' ) ) {
+		event.preventDefault(); // Prevent default click event
+		someMethod( the, arguments, to, pass, into, method );
+	}
+
+};
+
+// Listen for all click events on the document
+document.addEventListener( 'click', eventHandler, false );
+</code></pre>
+
+<h3 id="waiting-until-the-dom-is-ready">Waiting until the DOM is ready</h3>
+
+<p>Run JS methods after the DOM is ready. While modern browsers support the <code>DOMContentReady</code> event listener, code won&rsquo;t execute if it&rsquo;s called after the DOM is loaded (the event it&rsquo;s listening for has already happened). The <code>ready()</code> method provided below executes your scripts immediately if the DOM is ready, and waits until it is if it&rsquo;s not.</p>
+
+<p>Under <code>readyState</code>, <code>interactive</code> runs once the document is done but before all images and stylesheets have been downloaded. <code>complete</code> runs after that stuff is downloaded, too. I&rsquo;ve included both for completeness.</p>
+
+<pre><code class="language-lang-javascript">/**
+ * Run event after DOM is ready
+ * @param  {Function} fn Callback function
+ */
+var ready = function ( fn ) {
+
+    // Sanity check
+    if ( typeof fn !== 'function' ) return;
+
+    // If document is already loaded, run method
+    if ( document.readyState === 'interactive' || document.readyState === 'complete' ) {
+        return fn();
+    }
+
+    // Otherwise, wait until document is loaded
+    document.addEventListener( 'DOMContentLoaded', fn, false );
+
+};
+
+// Example
+ready(function() {
+    // Do stuff...
+});
+</code></pre>
+
+<h3 id="manipulate-height">Manipulate height</h3>
+
+<p>Get and set height. It&rsquo;s a lot trickier in native JS than it should be, because there are multiple APIs for getting height, and they all return slightly different measurements. The <code>getHeight()</code> method provided below returns the largest measurement. These are supported back to IE6.</p>
+
+<pre><code class="language-language-javascript">/**
+ * Get the height of an element
+ * @param  {Node}   elem The element
+ * @return {Number}      The height
+ */
+var getHeight = function ( elem ) {
+	return Math.max( elem.scrollHeight, elem.offsetHeight, elem.clientHeight );
+};
+
+var elem = document.querySelector( '#some-element' );
+var height = getHeight( elem ); // Get height
+elem.style.height = '200px'; // Set height
+</code></pre>
+
+<h3 id="working-with-forms">Working with forms</h3>
+
+<p>Get field types, input content and states. These are supported back to IE6.</p>
+
+<pre><code class="language-language-javascript">var form = document.querySelector( '#some-form' );
+var input = document.querySelector( '#some-input' );
+
+var forms = document.forms; // Get all forms on a page
+var formElems = form.elements; // Get all form elements
+var inputType = input.type.toLowerCase(); // Get input type and convert to lowercase (radio, checkbox, text, etc.)
+var inputValue = input.value; // Get input value
+var inputName = input.name; // Get input name
+var isChecked = input.checked; // Get the checked status of a checkbox or radio button
+var isDisabled = input.disabled; // Get input disabled status
+</code></pre>
+
+<h3 id="html-content">HTML content</h3>
+
+<p>Get and set HTML content.</p>
+
+<pre><code class="language-language-javascript">var elem = document.querySelector( '#some-element' );
+var html = elem.innerHTML; // Get HTML
+elem.innerHTML = 'Hello world!'; // Set HTML
+</code></pre>
+
+<h3 id="extend">Extend</h3>
+
+<p>Merge two or more objects together. The jQuery <code>$.extend()</code> API merges the content of subsequent objects into the first one, overriding it&rsquo;s original values. The method provided below returns a new object instead, preserving all of the original objects and their properties. Supported back to IE6.</p>
+
+<pre><code class="language-language-javascript">/**
+ * Merge two or more objects. Returns a new object.
+ * Set the first argument to `true` for a deep or recursive merge
+ * @param {Boolean}  deep     If true, do a deep (or recursive) merge [optional]
+ * @param {Object}   objects  The objects to merge together
+ * @returns {Object}          Merged values of defaults and options
+ */
+var extend = function () {
+
+	// Variables
+	var extended = {};
+	var deep = false;
+	var i = 0;
+	var length = arguments.length;
+
+	// Check if a deep merge
+	if ( Object.prototype.toString.call( arguments[0] ) === '[object Boolean]' ) {
+		deep = arguments[0];
+		i++;
+	}
+
+	// Merge the object into the extended object
+	var merge = function ( obj ) {
+		for ( var prop in obj ) {
+			if ( Object.prototype.hasOwnProperty.call( obj, prop ) ) {
+				// If deep merge and property is an object, merge properties
+				if ( deep &amp;&amp; Object.prototype.toString.call(obj[prop]) === '[object Object]' ) {
+					extended[prop] = extend( true, extended[prop], obj[prop] );
+				} else {
+					extended[prop] = obj[prop];
+				}
+			}
+		}
+	};
+
+	// Loop through each object and conduct a merge
+	for ( ; i &lt; length; i++ ) {
+		var obj = arguments[i];
+		merge(obj);
+	}
+
+	return extended;
+
+};
+
+// Example objects
+var object1 = {
+	apple: 0,
+	banana: { weight: 52, price: 100 },
+	cherry: 97
+};
+var object2 = {
+	banana: { price: 200 },
+	durian: 100
+};
+var object3 = {
+	apple: 'yum',
+	pie: 3.214,
+	applePie: true
+}
+
+// Create a new object by combining two or more objects
+var newObjectShallow = extend( object1, object2, object3 );
+var newObjectDeep = extend( true, object1, object2, object3 );
+</code></pre>
+
+<h3 id="is-an-element-in-the-viewport">Is an element in the viewport?</h3>
+
+<p>Determine if an element is the viewport or not. Supported back to IE6.</p>
+
+<pre><code class="language-language-javascript">/**
+ * Determine if an element is in the viewport
+ * @param  {Node}    elem The element
+ * @return {Boolean}      Returns true if element is in the viewport
+ */
+var isInViewport = function ( elem ) {
+	var distance = elem.getBoundingClientRect();
+	return (
+		distance.top &gt;= 0 &amp;&amp;
+		distance.left &gt;= 0 &amp;&amp;
+		distance.bottom &lt;= (window.innerHeight || document.documentElement.clientHeight) &amp;&amp;
+		distance.right &lt;= (window.innerWidth || document.documentElement.clientWidth)
+	);
+};
+
+var elem = document.querySelector( '#some-element' );
+isInViewport( elem ); // Boolean: returns true/false
+</code></pre>
+
+<h3 id="get-distances-to-the-top-of-the-document">Get distances to the top of the document</h3>
+
+<p>Get your current position from the top of the page, or that of an element.</p>
+
+<pre><code class="language-lang-javascript">// Get current location's distance from the top of the page
+var position = window.pageYOffset;
+
+/**
+ * Get an element's distance from the top of the page
+ * @param  {Node}   elem The element
+ * @return {Number}      Distance from the top of the page
+ */
+var getElemDistance = function ( elem ) {
+    var location = 0;
+    if ( elem.offsetParent ) {
+        do {
+            location += elem.offsetTop;
+            elem = elem.offsetParent;
+        } while ( elem );
+    }
+    return location &gt;= 0 ? location : 0;
+};
+var elem = document.querySelector( '#some-element' );
+var location = getElemDistance( elem );
+</code></pre>
+
+<h3 id="get-document-height">Get document height</h3>
+
+<p>Get the height of the document element. Supported back to IE6.</p>
+
+<pre><code class="language-language-javascript">/**
+ * Get the height of the `document` element
+ * @return {Number} The height
+ */
+var getDocumentHeight = function () {
+	return Math.max(
+		document.body.scrollHeight,
+		document.documentElement.scrollHeight,
+		document.body.offsetHeight,
+		document.documentElement.offsetHeight,
+		document.body.clientHeight,
+		document.documentElement.clientHeight
+	);
+};
+</code></pre>
+
+<h3 id="climb-up-the-dom">Climb up the DOM</h3>
+
+<p>Get the parent of an element. Supported back to IE6.</p>
+
+<pre><code class="language-language-javascript">var elem = document.querySelector( '#some-element' );
+var parent = elem.parentNode;
+</code></pre>
+
+<p>Get closest DOM element up the tree that contains any valid CSS selector.</p>
+
+<pre><code class="language-language-javascript">/**
+ * Get the closest matching element up the DOM tree.
+ * @private
+ * @param  {Element} elem     Starting element
+ * @param  {String}  selector Selector to match against
+ * @return {Boolean|Element}  Returns null if not match found
+ */
+var getClosest = function ( elem, selector ) {
+
+	// Element.matches() polyfill
+	if (!Element.prototype.matches) {
+		Element.prototype.matches =
+			Element.prototype.matchesSelector ||
+			Element.prototype.mozMatchesSelector ||
+			Element.prototype.msMatchesSelector ||
+			Element.prototype.oMatchesSelector ||
+			Element.prototype.webkitMatchesSelector ||
+			function(s) {
+				var matches = (this.document || this.ownerDocument).querySelectorAll(s),
+					i = matches.length;
+				while (--i &gt;= 0 &amp;&amp; matches.item(i) !== this) {}
+				return i &gt; -1;
+			};
+	}
+
+	// Get closest match
+	for ( ; elem &amp;&amp; elem !== document; elem = elem.parentNode ) {
+		if ( elem.matches( selector ) ) return elem;
+	}
+
+	return null;
+
+};
+
+var elem = document.querySelector( '#some-element' );
+var closest = getClosest( elem, '.some-class' );
+var closestLink = getClosest( elem, 'a' );
+var closestExcludingElement = getClosest( elem.parentNode, '.some-class' );
+</code></pre>
+
+<p>Get all parent elements up the DOM tree, optionally filtering by any valid CSS selector. Includes the element itself.</p>
+
+<pre><code class="language-language-javascript">/**
+ * Get all of an element's parent elements up the DOM tree
+ * @param  {Node}   elem     The element
+ * @param  {String} selector A class, ID, data attribute or tag to filter against [optional]
+ * @return {Array}           The parent elements
+ */
+var getParents = function ( elem, selector ) {
+
+	// Element.matches() polyfill
+	if (!Element.prototype.matches) {
+		Element.prototype.matches =
+			Element.prototype.matchesSelector ||
+			Element.prototype.mozMatchesSelector ||
+			Element.prototype.msMatchesSelector ||
+			Element.prototype.oMatchesSelector ||
+			Element.prototype.webkitMatchesSelector ||
+			function(s) {
+				var matches = (this.document || this.ownerDocument).querySelectorAll(s),
+					i = matches.length;
+				while (--i &gt;= 0 &amp;&amp; matches.item(i) !== this) {}
+				return i &gt; -1;
+			};
+	}
+
+	// Setup parents array
+	var parents = [];
+
+	// Get matching parent elements
+	for ( ; elem &amp;&amp; elem !== document; elem = elem.parentNode ) {
+
+		// Add matching parents to array
+		if ( selector ) {
+			if ( elem.matches( selector ) ) {
+				parents.push( elem );
+			}
+		} else {
+			parents.push( elem );
+		}
+
+	}
+
+	return parents;
+
+};
+
+var elem = document.querySelector( '#some-element' );
+var parents = getParents( elem, '.some-class' );
+var allParents = getParents( elem.parentNode );
+</code></pre>
+
+<p>Get all parent elements up the DOM tree until a matching parent is found, optionally filtering by any valid CSS selector. Includes the element itself.</p>
+
+<pre><code class="language-lang-javascript">/**
+ * Get all of an element's parent elements up the DOM tree until a matching parent is found
+ * @param  {Node}   elem     The element
+ * @param  {String} parent   The selector for the parent to stop at
+ * @param  {String} selector The selector to filter against [optionals]
+ * @return {Array}           The parent elements
+ */
+var getParentsUntil = function ( elem, parent, selector ) {
+
+	// Element.matches() polyfill
+	if (!Element.prototype.matches) {
+		Element.prototype.matches =
+			Element.prototype.matchesSelector ||
+			Element.prototype.mozMatchesSelector ||
+			Element.prototype.msMatchesSelector ||
+			Element.prototype.oMatchesSelector ||
+			Element.prototype.webkitMatchesSelector ||
+			function(s) {
+				var matches = (this.document || this.ownerDocument).querySelectorAll(s),
+					i = matches.length;
+				while (--i &gt;= 0 &amp;&amp; matches.item(i) !== this) {}
+				return i &gt; -1;
+			};
+	}
+
+	// Setup parents array
+	var parents = [];
+
+	// Get matching parent elements
+	for ( ; elem &amp;&amp; elem !== document; elem = elem.parentNode ) {
+
+		if ( parent ) {
+			if ( elem.matches( parent ) ) break;
+		}
+
+		if ( selector ) {
+			if ( elem.matches( selector ) ) {
+				parents.push( elem );
+			}
+			break;
+		}
+
+		parents.push( elem );
+
+	}
+
+	return parents;
+
+};
+
+// Examples
+var elem = document.querySelector( '#some-element' );
+var parentsUntil = getParentsUntil( elem, '.some-class' );
+var parentsUntilByFilter = getParentsUntil( elem, '.some-class', '[data-something]' );
+var allParentsUntil = getParentsUntil( elem );
+var allParentsExcludingElem = getParentsUntil( elem.parentNode );
+</code></pre>
+
+<h3 id="climb-down-the-dom">Climb down the DOM</h3>
+
+<p>Get all child nodes of an element. Supported back to IE6.</p>
+
+<pre><code class="language-language-javascript">var elem = document.querySelector( '#some-element' );
+var all = elem.childNodes;
+</code></pre>
+
+<p>Get the first child node of an element. Supported back to IE6.</p>
+
+<pre><code class="language-language-javascript">var elem = document.querySelector( '#some-element' );
+var first = elem.firstChild;
+</code></pre>
+
+<p>Get the first element that matches a class, ID, or data attribute.</p>
+
+<pre><code class="language-language-javascript">var elem = document.querySelector( '#some-element' );
+var firstMatch = elem.querySelector( '.sample-class' );
+</code></pre>
+
+<p>Get all elements that match a class, ID, or data attribute.</p>
+
+<pre><code class="language-language-javascript">var elem = document.querySelector( '#some-element' );
+var allMatches = elem.querySelectorAll( '.sample-class' );
+</code></pre>
+
+<h3 id="get-sibling-elements">Get sibling elements</h3>
+
+<p>Get all siblings of an element. Supported back to IE6.</p>
+
+<pre><code class="language-lang-javascript">/**
+ * Get all siblings of an element
+ * @param  {Node}  elem The element
+ * @return {Array}      The siblings
+ */
+var getSiblings = function ( elem ) {
+	var siblings = [];
+	var sibling = elem.parentNode.firstChild;
+	for ( ; sibling; sibling = sibling.nextSibling ) {
+		if ( sibling.nodeType === 1 &amp;&amp; sibling !== elem ) {
+			siblings.push( sibling );
+		}
+	}
+	return siblings;
+};
+
+var elem = document.querySelector( '#some-element' );
+var siblings = getSiblings( elem );
+</code></pre>
+
+<h3 id="get-a-querystring">Get a querystring</h3>
+
+<p>Get a <code>querystring</code> from a URL. Supported back to at least IE6.</p>
+
+<pre><code class="language-lang-javascript">/**
+ * Get the value of a query string from a URL
+ * @param  {String} field The field to get the value of
+ * @param  {String} url   The URL to get the value from [optional]
+ * @return {String}       The value
+ */
+var getQueryString = function ( field, url ) {
+	var href = url ? url : window.location.href;
+	var reg = new RegExp( '[?&amp;]' + field + '=([^&amp;#]*)', 'i' );
+	var string = reg.exec(href);
+	return string ? string[1] : null;
+};
+
+// http://example.com&amp;this=chicken&amp;that=sandwich
+var thisOne = getQueryString( 'this' ); // returns 'chicken'
+var thatOne = getQueryString( 'that' ); // returns 'sandwich'
+var anotherOne = getQueryString( 'another' ); // returns null
+var yetAnotherOne = getQueryString( 'example', 'http://another-example.com&amp;example=something' ); // returns 'something'
+</code></pre>
+
+<h3 id="get-html-from-another-page">Get HTML from another page</h3>
+
+<p>Get the contents of another HTML document, or from a specific element in another document. Only works for documents on the same domain. Supported back to IE8 and above.</p>
+
+<pre><code class="language-lang-javascript">/**
+ * Get HTML from another URL
+ * @param  {String}   url     The URL
+ * @param  {Function} success Callback on success
+ * @param  {Function} error   Callback on failure
+ */
+var getURL = function ( url, success, error ) {
+
+	// Feature detection
+	if ( !window.XMLHttpRequest ) return;
+
+	// Create new request
+	var request = new XMLHttpRequest();
+
+	// Setup callbacks
+	request.onreadystatechange = function () {
+
+		// If the request is complete
+		if ( request.readyState === 4 ) {
+
+			// If the request failed
+			if ( request.status !== 200 ) {
+				if ( error &amp;&amp; typeof error === 'function' ) {
+					error( request.responseText, request );
+				}
+				return;
+			}
+
+			// If the request succeeded
+			if ( success &amp;&amp; typeof success === 'function' ) {
+				success( request.responseText, request );
+			}
+		}
+
+	};
+
+	// Get the HTML
+	request.open( 'GET', url );
+	request.send();
+
+};
+
+// Example 1: Generic Example
+getURL(
+	'/about',
+	function (data) {
+		// On success...
+		var div = document.createElement( 'div' );
+
+	},
+	function (data) {
+		// On failure...
+	}
+);
+
+// Example 2: Find a specific element in the HTML and inject it into the current page
+getURL(
+	'/about',
+	function (data) {
+
+		// Create a div and inject the HTML into it
+		var div = document.createElement( 'div' );
+		div.innerHTML = data;
+
+		// Find the element you're looking for in the div
+		var elem = div.querySelector( '#some-element' );
+		var location = document.querySelector( '#another-element' );
+
+		// Quit if the element or the place where you want to inject it don't exist
+		if ( !elem || !location ) return;
+
+		// Inject the element into the DOM
+		location.innerHTML = elem.innerHTML;
+
+	}
+);
+</code></pre>
+
+<h3 id="get-json-data">Get JSON Data</h3>
+
+<p>Get JSON data from another server. Supported back to IE6.</p>
+
+<pre><code class="language-lang-javascript">/**
+ * Get JSONP data
+ * @param  {String}   url      The JSON URL
+ * @param  {Function} callback The function to run after JSONP data loaded
+ */
+var getJSONP = function ( url, callback ) {
+
+	// Create script with url and callback (if specified)
+	var ref = window.document.getElementsByTagName( 'script' )[ 0 ];
+	var script = window.document.createElement( 'script' );
+	script.src = url + (url.indexOf( '?' ) + 1 ? '&amp;' : '?') + 'callback=' + callback;
+
+	// Insert script tag into the DOM (append to &lt;head&gt;)
+	ref.parentNode.insertBefore( script, ref );
+
+	// After the script is loaded (and executed), remove it
+	script.onload = function () {
+		this.remove();
+	};
+
+};
+
+// Example
+var logAPI = function ( data ) {
+	console.log( data );
+}
+getJSONP( 'http://api.petfinder.com/shelter.getPets?format=json&amp;key=12345&amp;shelter=AA11', 'logAPI' );
+</code></pre>
+
+<h3 id="working-with-ajax-and-apis">Working with AJAX and APIs</h3>
+
+<p>For robust API interactions, check out <a href="https://github.com/toddmotto/atomic">Atomic by Todd Motto</a>, supported back to IE8.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<p>My first go-to site for anything JavaScript related is the <a href="https://developer.mozilla.org/">Mozilla Developer Network</a>, which is essentially a user guide for the web. They provide documentation on tons of web and JS APIs, with examples, browser compatibility information, and polyfills when needed. Just add <code>mdn</code> to your Google searches.</p>
+
+<p>If that fails, I turn to <a href="http://stackoverflow.com/">Stack Overflow</a>. Make sure to add <code>vanilla js</code> to your searches. Typing <code>without jQuery</code> returns a ton of jQuery-based responses instead.</p>
+
+<p>[snippet id=&ldquo;8397&rdquo;]</p>
+
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

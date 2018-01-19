@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>The Go Mobile First Style Guide | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">The Go Mobile First Style Guide</span></h1>
+	
+
+	<p>A few weeks ago, I released a free mobile-first starter theme for WordPress called <a href="http://cferdinandi.github.com/go-mobile-first/">Go Mobile First</a>. To help you use it, I&rsquo;m writing a series of tutorials on how to make some common changes.</p>
+
+<p>This article looks at the styles in the Go Mobile First stylesheet and how they&rsquo;re used.
+
+<h2>OOCSS</h2></p>
+
+<p>Go Mobile First loosely applies the principles of <a href="https://github.com/stubbornella/oocss/wiki/faq">Object Oriented CSS</a> (OOCSS):
+<ol>
+<li>Separate the structure from the content.</li>
+<li>Don&rsquo;t repeat yourself (DRY).</li>
+</ol></p>
+
+<p>Whenever possible, I use unnested, general purposes classes. This had led to fewer cross-browser issues and CSS that is more lightweight and easily maintainable.</p>
+
+<p>For example, rather than writing:</p>
+
+<pre><code class="language-css">#footer {
+    font-size: 15px;
+}</code></pre>
+
+<p>I have a class for smaller fonts:</p>
+
+<pre><code class="language-css">.small {
+    font-size: 15px;
+}</code></pre>
+
+<p>This get&rsquo;s applied to both footer content and other pieces of text that I&rsquo;d like to make smaller than the body copy. Simpler, more reusable code.</p>
+
+<p>I&rsquo;m more pragmatic than I am strict - for example, it&rsquo;s more practical for me to apply a <code class="language-css">top-padding</code> to my header elements than to use <code class="language-css">class=&ldquo;padding-top&rdquo;</code> on every header in my HTML - but overall, OOCSS has made my life easier.</p>
+
+<p>Now, let&rsquo;s look at the styles used in Go Mobile First.</p>
+
+<h2>The Reset</h2>
+
+<p>Right now the web design community is split between using a <a href="http://meyerweb.com/eric/tools/css/reset/">CSS reset</a> and <a href="http://necolas.github.com/normalize.css/">Normalize.css</a>, which both work towards the same goal from different angles.</p>
+
+<p>I&rsquo;ve found that Meyer&rsquo;s CSS Reset results in more consistent browser rendering for me, so that&rsquo;s what I use. But Normalize.css does have a few useful bits that result in better looking images, and fix issues with HTML5 audio and video rendering. I&rsquo;ve incorporated some of that stuff, as well as a few of my own additions for responsive images and video, into my reset.</p>
+
+<h2>Structure</h2>
+
+<p>Content in Go Mobile First is wrapped in divs with the <code class="language-css">.container</code> class.</p>
+
+<pre><code class="language-css">/* Literally "contains" the content on the page  */
+.container {
+    /* Sets the maximum width of the content */
+    max-width: 640px;
+    /* Centers the container */
+    margin-left: auto;
+    margin-right: auto;
+    /* Adds a padding to the top of the container */
+    padding-top: 26px;
+}</code></pre>
+
+<p>Divs with this class have a maximum width of 640 pixels, but are otherwise fluid. <code class="language-css">margin-left: auto;</code> and <code class="language-css">margin-right: auto;</code> tell browsers to automatically set the left and right margins, which centers the div on the page.</p>
+
+<p>For white space, I&rsquo;ve applied 26 pixels of padding to the top of each <code class="language-css">container</code>.</p>
+
+<h2>Typography</h2>
+
+<p>The Go Mobile First design is built around a <a href="https://gomakethings.com/typography-first-web-design/">typographic scale</a>: 14px, 15px, 17px (base), 20px, 23px, 26px, 30px, 34px, 51px, 68px, 85px, 102px.</p>
+
+<p>You&rsquo;ll see these numbers repeated throughout the CSS. Deviating from them will break the scale and result in a less pleasant design (unless, of course, you change the entire scale).</p>
+
+<p>Line height is set at 25 pixels for smaller screens, and 27 pixels for larger ones. These numbers were determined using Chris Pearson&rsquo;s <a href="http://www.pearsonified.com/typography/">Golden Ratio Typography Calculator</a>.</p>
+
+<h3>Typographic Elements</h3>
+
+<p>In addition to the usual stuff - typefaces, links, paragraph spacing, headers, lists - I&rsquo;ve added some unique classes.</p>
+
+<p><code class="language-css">.small</code> is used for content that you want to be smaller than the body text. <code class="language-css">.tall</code> and  <code class="language-css">.grande</code> make content slightly bigger than the body copy, but unlike headers, their line spacing is more suited to longer lines of text.</p>
+
+<p><img src="https://gomakethings.com/wp-content/uploads/2012/11/typography.png" alt="" title="A screenshot of the various typography classes" width="504" height="227" class="aligncenter size-full wp-image-3711" /></p>
+
+<p>For text that you&rsquo;d like to be lighter in color than the primary body copy, use <code class="language-css">.muted</code>. When <code class="language-css">.muted</code> sections of content contain links, they appear black instead of the default blue.</p>
+
+<p>If you have content that is part of a list, but you don&rsquo;t want it to be styled as one, use <code class="language-css">.unstyled</code>. While this can be applied to both ordered and unordered lists, it only makes sense semantically to do so to unordered lists.</p>
+
+<p><img src="https://gomakethings.com/wp-content/uploads/2012/11/unstyled-list.png" alt="" title="A screenshot of an unstyled list" width="321" height="153" class="aligncenter size-full wp-image-3712" /></p>
+
+<p>Finally, each header element also has a matching class. If you wanted to use an <code class="language-css">h2</code> element for semantic purposes, but wanted it to look like an <code class="language-css">h4</code> element, you could write <code class="language-css">&lt;h2 class=&ldquo;h4&rdquo;&gt;</code>.</p>
+
+<h2>Forms</h2>
+
+<p>The form styling borrows from <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>, which does an excellent job of creating beautiful forms.</p>
+
+<p>Because Go Mobile First is so lightweight, I&rsquo;ve removed most of the styling and kept the basic elements - things like text color, rounded corners, and active states. I also modified them to match the typographic scale of the theme.</p>
+
+<p>The classes <code class="language-css">.input-small</code>, <code class="language-css">.input-medium</code>, and <code class="language-css">.input-wide</code> are used to set the widths of the input fields, and change slightly from small to large screens. All text areas are given a height of 200 pixels.</p>
+
+<h2>Buttons</h2>
+
+<p>Buttons in Go Mobile First are created using CSS. Simply apply the <code class="language-css">.btn</code> class to any link, input or form button. Also include <code class="language-css">.btn-large</code> to make any button bigger (<em><code class="language-css">.btn</code> must still be used</em>).</p>
+
+<h2>Icons</h2>
+
+<p>Icons are not included with Go Mobile First, but there is a section open in the stylesheet where you might want to add them. I recommend <a href="https://gomakethings.com/icon-fonts/">using an icon font</a>, and have put together a tutorial on how to do that.</p>
+
+<h2>Images</h2>
+
+<p>Go Mobile First includes some basic image styles, again borrowed from Twitter Bootstrap.</p>
+
+<p><code class="language-css">.img-rounded</code> adds rounded borders, <code class="language-css">.img-polaroid</code> adds white borders and a shadow effect, and <code class="language-css">.img-circle</code> turns square images into circles.</p>
+
+<p><img src="https://gomakethings.com/wp-content/uploads/2012/11/image-styling.png" alt="" title="A screenshot of the image styles" width="450" height="154" class="aligncenter size-full wp-image-3713" /></p>
+
+<p>These can be used in combination. For example, you could have a polaroid-style image with rounded corners. <code class="language-css">.img-rounded</code> and <code class="language-css">.img-circle</code> are not supported by Internet Explorer 8 and lower.</p>
+
+<h2>Collapse & Fade</h2>
+
+<p>These styles are used to show and hide the navigation elements on smaller screens that support javascript.</p>
+
+<h2>Tables</h2>
+
+<p>Table styling is also borrowed from Twitter Bootstrap, but modified with the Go Mobile First typographic grid.</p>
+
+<p>The reset at the beginning of the stylesheet removes all of the default styling browsers apply to tables. Add the <code class="language-css">.table</code> class to any table for light styling: some padding, horizontal lines between rows, and bold table headers.</p>
+
+<p>For less padding between cells, also use <code class="language-css">.table-condensed</code>. For full borders, also include <code class="language-css">.table-bordered</code>. (<em>For both of these, <code class="language-css">.table</code> must also be used.</em>) These classes can be combined.</p>
+
+<p><em>A Basic Table</em>
+<img src="https://gomakethings.com/wp-content/uploads/2012/11/table.png" alt="" title="A screenshot of the basic table styling" width="640" height="168" class="aligncenter size-full wp-image-3719" /></p>
+
+<p><em>A Condensed Table</em>
+<img src="https://gomakethings.com/wp-content/uploads/2012/11/table-condensed.png" alt="" title="A screenshot of a condensed table" width="640" height="154" class="aligncenter size-full wp-image-3718" /></p>
+
+<p><em>A Bordered Table</em>
+<img src="https://gomakethings.com/wp-content/uploads/2012/11/table-bordered.png" alt="" title="A screenshot of a bordered table" width="640" height="186" class="aligncenter size-full wp-image-3717" /></p>
+
+<p>I&rsquo;ve removed <code class="language-css">.table-striped</code> and <code class="language-css">.table-hover</code> from the Bootstrap code, as they disrupt the clean and simple layout of Go Mobile First.</p>
+
+<h2>Navigation</h2>
+
+<p>The <code class="language-css">.logo</code> class is (obviously) applied to the logo link, and overrides the default link behavior, keeping the logo link black at all times.</p>
+
+<p>The <code class="language-css">.nav</code> class is applied to the navigation list. For the base styles, it displays the navigation links as an inline list. On smaller screens that support javascript, they&rsquo;re stacked as block elements.</p>
+
+<p>The <code class="language-css">.responsive-nav</code> class is used for the &ldquo;menu&rdquo; link that toggles the navigation menu on javascript-enabled smaller screens. It&rsquo;s set to <code class="language-css">display: none;</code> in the base styles, and changed to <code class="language-css">display: block;</code> in the Media Queries section.</p>
+
+<h2>Floats & Hides</h2>
+
+<p>This is stuff is tucked at the bottom so that it overrides any other settings in the base CSS.</p>
+
+<p>The default image alignment classes that WordPress uses - <code class="language-css">.alignleft</code>, <code class="language-css">.alignright</code>, <code class="language-css">.aligncenter</code>, and <code class="language-css">.alignnone</code> - are all set as centered in the base styles. On larger screens, they float to the left and right as appropriate.</p>
+
+<p><code class="language-css">.text-center</code>, <code class="language-css">.text-left</code>, and <code class="language-css">.text-right</code> align text in the center, to the left, and the right, respectively. <code class="language-css">.pull-right</code> floats objects to the right.</p>
+
+<p>To remove margins and padding from an object, use the <code class="language-css">.no-space</code> class. <code class="language-css">.no-space-bottom</code> and <code class="language-css">.no-space-top</code> will remove margins and padding just from the bottom or top of an object. <code class="language-css">.small-space-bottom</code> leaves just a small amount of margin at the bottom of an object.</p>
+
+<p><code class="language-css">.padding-top</code> applies 14 pixels of padding to the top of an object, while <code class="language-css">.margin-bottom</code> applies a 34 pixel margin to the bottom.</p>
+
+<p>Sometimes you want an element to appear in your HTML for people using screen readers, but don&rsquo;t want it to be displayed visually. In those cases, use the <code class="language-css">.screen-reader</code> class. This is currently applied to the skip-nav link, as well as the search form label.</p>
+
+<p>The end of this section contains a few classes with a clearfix applied. This removes any floats contained in those sections, which prevents weird formatting issues. To apply a clearfix to an div not already covered here, use the <code class="language-css">.group</code> class.</p>
+
+<h2>Media Queries</h2>
+
+<p>This is where progressive enhancement occurs.</p>
+
+<p>For smaller screens, formatting is added for javascript-enabled devices. On larger screens, the line-height is increased for more comfortable reading, a few elements gain bigger font-sizes or more padding, and images are aligned to the left or right as appropriate.</p>
+
+<p>The <code class="language-css">.nav-mobile.collapse</code> class is really important. If someone has their browser set to a small size and toggles the navigation menu, and then later expands their browser window, the navigation bar could be hidden. This nested class forces it to always be displayed on larger screens.</p>
+
+<h4>Referenced & Useful Resources</h4>
+
+<ol>
+<li><a href="https://github.com/stubbornella/oocss/wiki/faq">Object Oriented CSS</a></li>
+<li><a href="http://meyerweb.com/eric/tools/css/reset/">Meyer's CSS Reset</a></li>
+<li><a href="http://necolas.github.com/normalize.css/">Normalize.css</a></li>
+<li><a href="https://gomakethings.com/typography-first-web-design/">Typography First Web design</a></li>
+<li><a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a></li>
+<li><a href="https://gomakethings.com/icon-fonts/">Using an Icon Font</a></li>
+</ol>
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

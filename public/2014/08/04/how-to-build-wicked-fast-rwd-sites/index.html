@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>How to build wicked fast RWD sites | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">How to build wicked fast RWD sites</span></h1>
+	
+
+	<p>This site is pretty fast already, but over the weekend, I made some adjustments to further improve it&rsquo;s performance.</p>
+
+<p>This article was <em>supposed</em> to be about the changes I made and how they made my site even faster. Instead, they actually slowed my site down. Today, I want to share with you what I tried, how it impacted my performance, and how I ultimately set things up to keep this site high-performing.</p>
+
+<p></p>
+
+<h2 id="the-adjustments">The Adjustments</h2>
+
+<p>My site today is structured around the recommendations from my <a href="/wicked-fast-websites/">Wicked Fast Websites series</a>: CSS up top, JS at the bottom, icon fonts for my icons.</p>
+
+<p>There are two emerging performance recommendations I wanted to try out:</p>
+
+<ol>
+<li>Converting from an icon fonts, which many consider a hack, to <a href="http://css-tricks.com/svg-sprites-use-better-icon-fonts/">an SVG sprite</a>.</li>
+<li>At the recommendation of <a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp">Google</a>, <a href="http://filamentgroup.com/lab/performance-rwd.html">Filament Group</a> (whose site is absurdly fast, by the way), and a few others, inlining my critical path css for faster rendering.</li>
+</ol>
+
+<h2 id="the-performance-tests">The Performance Tests</h2>
+
+<p>I used <a href="http://www.webpagetest.org/">WebPageTest.org</a> to test my performance.</p>
+
+<p>Since I&rsquo;ve already go the overall size a typical page on my site down to a lean ~25kb, the number I really cared about was <em>Start Render</em>. That measures how quickly the site begins to render content in the browser.</p>
+
+<p>I ran all tests with IE9 on a cable connection, and most of them a second time with Chrome on a fast 3G connection. When the results seemed too high to be accurate, I reran the test and used the better performing of the two results. I&rsquo;ve omitted the results of the 3G test from the table below because I did not run them for all setups (more on that later).</p>
+
+<h3 id="definitions">Definitions</h3>
+
+<p><strong>CSS</strong>
+<em>External CSS:</em> An external, linked file.
+<em>Inline CSS:</em> The full contents for my CSS file inline (~5kb minified and gzipped).
+<em>Critical CSS:</em> The above fold contents inline, and the full CSS async loaded with <a href="https://github.com/filamentgroup/loadCSS">Filament&rsquo;s LoadCSS script</a>.</p>
+
+<p><strong>Icons</strong>
+<em>Icon Font:</em> A 7.8kb icon font built with <a href="https://icomoon.io/">IcoMoon</a>.
+<em>Embedded SVG:</em> An SVG sprite hidden and included directly in the markup.
+<em>External SVG:</em> An SVG sprite included by referencing an external (minified and gzipped) file.</p>
+
+<p><strong>Feature Detection</strong>
+<em>Inline Detects:</em> An script to detect support for SVG or <code>@font-face</code>.
+<em>External Detects:</em> An external JS file to detect support for SVG or <code>@font-face</code>.</p>
+
+<h3 id="the-results">The Results</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>First View</th>
+            <th>Subsequent Views</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Baseline</strong><br><a href="http://www.webpagetest.org/result/140803_WF_NSQ/">External CSS<br>Icon Font<br>External Detects</a></td>
+            <td>0.711s</td>
+            <td>0.322s</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.webpagetest.org/result/140803_0V_NY6/">Inline CSS<br>Embedded SVG<br>Inline Detects</a></td>
+            <td>0.682s</td>
+            <td>0.621s</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.webpagetest.org/result/140803_DM_NMN/">External CSS<br>Embedded SVG<br>Inline Detects</a></td>
+            <td>0.691s</td>
+            <td>0.506s</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.webpagetest.org/result/140804_Z0_CW/">External CSS<br>External SVG<br>Inline Detects</a></td>
+            <td>1.286s</td>
+            <td>0.386s</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.webpagetest.org/result/140804_YR_PZ/">Inline CSS<br>External SVG<br>Inline Detects</a></td>
+            <td>1.698s</td>
+            <td>0.672s</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.webpagetest.org/result/140804_GY_VW/">Critical CSS<br>External SVG<br>Inline Detects</a></td>
+            <td>0.838s</td>
+            <td>0.690s</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.webpagetest.org/result/140804_0V_11X/">Critical CSS<br>Embedded SVG<br>Inline Detects</a></td>
+            <td>0.575s</td>
+            <td>0.543s</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.webpagetest.org/result/140804_WH_59K/">Critical CSS<br>Icon Font<br>External Detects</a></td>
+            <td>0.807s</td>
+            <td>0.424s</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.webpagetest.org/result/140804_TW_N5E/">External CSS<br>Icon Font<br>Inline Detects</a></td>
+            <td>0.851s</td>
+            <td>0.412s</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.webpagetest.org/result/140804_Z9_Q7H/">Critical CSS<br>External SVG<br>External Detects</a></td>
+            <td>0.973s</td>
+            <td>0.703s</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.webpagetest.org/result/140804_JM_PZ1/">External CSS<br>External SVG<br>External Detects</a></td>
+            <td>0.752s</td>
+            <td>0.355s</td>
+        </tr>
+    </tbody>
+</table>
+
+<p><strong><em>Note:</em></strong> <em>In almost all cases, the 3G test performed about 750ms slower in both categories. The one exception: my current setup, which runs on average about 200ms slower.</em></p>
+
+<h2 id="analyzing-the-results">Analyzing the results</h2>
+
+<p>While there was a lot of variation among different combinations, there were also a few high-level patterns that stood out.</p>
+
+<ol>
+<li>While inlining my CSS (either entirely or just critical path) sometimes resulted in a moderately faster initial renders, it always resulted in notably slower subsequent views.</li>
+<li>There was no consistent advantage to inlining just my critical path CSS over the entire file, or vice-versa.</li>
+<li>All other factors being equal, SVG and icon fonts seem to be equally performant.</li>
+</ol>
+
+<p>Personally, I&rsquo;d rather add an extra 100ms to an initial render to gain 300ms on all subsequent views. With that in mind, I don&rsquo;t think I&rsquo;ll be inlining my CSS or feature detects.</p>
+
+<h2 id="update-when-to-use-critical-path-css">UPDATE: When to use critical path CSS</h2>
+
+<p>Filament Group is a big advocate of <a href="http://filamentgroup.com/lab/performance-rwd.html">using critical path CSS</a>, and their post on it is what prompted me to run my tests. Scott Jehl from Filament <a href="https://twitter.com/scottjehl/status/496330101257404416">commented on on this post</a>:</p>
+
+<blockquote>
+<p>We tend to see the biggest improvements in start render on sites with complex layouts, imagery.</p>
+</blockquote>
+
+<p>That makes sense. This site is incredibly light weight, and inlining CSS and <em>then</em> also asynchronously downloading an external file may actually add more overhead than just linking to the CSS. On a site with a larger CSS file, I can imagine the critical path CSS approach being beneficial.</p>
+
+<h2 id="my-setup">My Setup</h2>
+
+<p>My setup today:</p>
+
+<ul>
+<li>External CSS file, in the <code>&lt;head&gt;</code>.</li>
+<li>External feature detects script, in the <code>&lt;head&gt;</code>.</li>
+<li>External JS file, in the footer.</li>
+<li>An icon font generated with <a href="https://icomoon.io/">IcoMoon</a>.</li>
+<li>JS and CSS files minified and concatenated.</li>
+<li>No jQuery. All scripts are 100% native JavaScript.</li>
+<li>WordPress, cached hourly with <a href="https://wordpress.org/plugins/comet-cache/">Comet Cache</a>.<sup><a href="#footnote-1">1</a></sup></li>
+<li>Expires headers for static content and gzipping, both <a href="https://github.com/cferdinandi/htaccess">configured</a> in my <code>.htaccess</code> file.</li>
+<li>All images smushed with <a href="https://imageoptim.com/">ImageOptim</a>.</li>
+</ul>
+
+<p>Going forward, I do plan to convert to SVGs. It&rsquo;s a true image format that gets around some of the weird rendering issues that can happen with icon fonts<sup><a href="#footnote-2">2</a></sup> and has better native support for screen readers and fallbacks for non-supporting browsers<sup><a href="#footnote-3">3</a></sup>.</p>
+
+<h4 id="footnotes">Footnotes</h4>
+
+<ol>
+<li><span id="footnote-1">This site runs on a really cheap shared hosting. Comet Cache probably has a bigger impact on the site&rsquo;s performance than anything else I&rsquo;ve done. It costs $15, but it&rsquo;s worth every single penny.</span></li>
+<li><span id="footnote-2">Even if you assign an icon to the Private Use Area section of unicode, browser vendors sometimes assign their own icons to those characters, which can result in unintentional characters being displayed.</span></li>
+<li><span id="footnote-3">Screen reader and non-supporting browser fallback text is possible (<a href="/icon-fonts/#feature-test">and not all that difficult</a>) with icon fonts, but it does require you to be aware of it and add an extra class and a little markup. SVGs, by contrast, have screen reader support and fallbacks built right in.</span></li>
+</ol>
+
+</article>
+
+	<br>
+<aside>
+	<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href="https://gomakethings.com/guides/">pocket guides</a> and <a href="https://gomakethings.com/courses/">mini courses</a> are short, focused, and made for beginners. You can do this!</em></mark></p>
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>

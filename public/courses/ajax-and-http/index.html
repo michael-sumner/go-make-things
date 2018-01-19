@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Ajax and HTTP | Go Make Things</title>
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="http://feeds.feedburner.com/GoMakeThings">
+
+		
+		<link rel="stylesheet" href="https://gomakethings.com/css/main.min.1.1.0.css">
+
+		
+		<script src="https://gomakethings.com/js/detects.min.1.1.0.js"></script>
+		<script>
+			;(function () {
+				var css = 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
+				if (getCookie('fontsLoaded')) {
+					loadCSS(css);
+					document.documentElement.className += 'fonts-loaded';
+				} else {
+					loadCSS(css);
+					var font = new FontFaceObserver('PT Serif');
+					font.load().then(function () {
+						var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
+						document.cookie = 'fontsLoaded=true; expires=' + expires;
+						document.documentElement.className += ' fonts-loaded';
+					});
+				}
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+	
+	<h1><span class="title">Ajax and HTTP</span></h1>
+	
+
+	
+
+<p><img class="aligncenter" style="width: 88%;" src="/img/courses/ajax-http.jpg"></p>
+
+<p>Learn how to make HTTP requests, asynchronously grab HTML from another page, and more. Together, we&rsquo;ll write a working project with Ajax.</p>
+
+<p><mark>📦 <em><strong>In Production.</strong> Pre-order now and save big!</em></mark></p>
+
+<p><a class="btn" href="#ready-to-buy">Start learning now &rarr;</a></p>
+
+<h2 id="what-you-ll-learn">What you&rsquo;ll learn</h2>
+
+<ul>
+<li>How to make HTTP requests.</li>
+<li>How to work around cross-domain scripting restrictions with JSONP.</li>
+<li>How to use a lightweight micro-library to make working with Ajax and HTTP easier.</li>
+<li>How to get and manipulate elements from another page on your site.</li>
+<li>How to put it all together and write a working project with Ajax.</li>
+</ul>
+
+<p>Watch in streaming HD video format on any device.</p>
+
+<div class="padding-top-large padding-bottom-large"><div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="https://gomakethings.com/img/testimonials/alex-muraro.jpg">
+	</div>
+	<div class="grid-two-thirds">
+		<blockquote>
+			I recommend Chris Ferdinandi to all JavaScript learners :)
+			<cite>- <a href="https://twitter.com/akmur/status/923143752641863681">Alex Muraro</a></cite>
+		</blockquote>
+	</div>
+</div></div>
+
+<h2 id="the-project-photo-gallery-api">The Project: Photo Gallery API</h2>
+
+<p class="no-margin-bottom"><img src="/img/projects/ajax-api-project.jpg" alt="" width="1200" height="820" class="no-margin-bottom aligncenter size-full wp-image-14037" /></p>
+
+<p>Reinforce your learning and build your portfolio by using Ajax on a real project. Together, we’ll use API content to dynamically create a photo gallery.</p>
+
+<h2>You'll also get these awesome bonuses</h2>
+
+<ul class="list-spaced">
+	<li>All of the <strong>source code</strong> and <strong>well-documented demos</strong> so that you can see the lessons in action.</li>
+	<li>My <strong>vanilla JavaScript toolkit</strong>, packed with cheat sheets, code snippets, boilerplates, helper functions, polyfills, and a growing list of recommended vanilla JS plugins.</li>
+	<li><strong>Exclusive access to my private Slack team</strong>, where you can chat with other students, get feedback on code, ask questions, and share the latest tips, tricks, and strategies for going vanilla JavaScript.</li>
+</ul>
+
+
+
+<p><a class="btn" href="#ready-to-buy">Start learning now &rarr;</a></p>
+
+<div class="padding-top-large padding-bottom-large"><div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="https://gomakethings.com/img/testimonials/motjaba-seyedi.jpg">
+	</div>
+	<div class="grid-two-thirds" markdown="1">
+		<blockquote>
+			God, you're amazing... I'm learning so much from you.
+			<cite markdown="1">– <a href="http://mojtabaseyedi.com/">Mojtaba Seyedi, Front End Developer</a></cite>
+		</blockquote>
+	</div>
+</div></div>
+
+
+
+<h2>About the Instructor</h2>
+
+<div class="clearfix margin-bottom"><img src="https://gomakethings.com/img/chris-ferdinandi-high-res.jpg" alt="Chris Ferdinandi" width="175" height="175" class="img-circle alignleft margin-bottom">
+
+<p>Hi, I’m Chris Ferdinandi. I write vanilla JavaScript plugins that are used by organizations like Apple, Harvard Business School, and CNN.</p>
+
+<p>I want to help you master vanilla JavaScript, without all of the painful false starts and roadblocks I encountered when I was learning.</p></div>
+
+<div class="callout" id="ready-to-buy">
+	<h2>Ready to buy?</h2>
+
+	<p>Get everything you need to start mastering Ajax with vanilla JavaScript:</p>
+
+<ul>
+    
+        
+            <li>The Mini Course <span class="text-small text-muted">(in streaming HD video format)</span></li>
+        
+    
+    <li>The Source Code &amp; Demos</li>
+    <li>The Vanilla JavaScript Toolkit</li>
+    <li>Exclusive Slack Access</li>
+    <li>FREE Updates for Life</li>
+</ul>
+
+<p><strong>Pre-order as part of the <a href="/courses/complete-set/">Complete Set</a> or <a href="/courses/advanced-bundle/">Advanced Bundle</a> and save 30% off the launch price.</strong></p>
+
+</div>
+
+<div class="padding-top-large padding-bottom"><div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="https://gomakethings.com/img/testimonials/kabolobari.jpg">
+	</div>
+	<div class="grid-two-thirds">
+		<blockquote>
+			Clarity. Brevity. Unpretentious explanation. Care for best practices. Obvious attentiveness. Available to help "unstuck" students. You actually rock, Chris.
+			<cite>- <a href="https://do22.co/updates/">Kabolobari</a></cite>
+		</blockquote>
+	</div>
+</div></div>
+
+<h2>Frequently Asked Questions</h2>
+
+<dl>
+	<dt>Does the mini course include new ES6 methods?</dt>
+	<dd>Yes. Where applicable, I cover new ES6 functions and browser APIs. I also include polyfills when available to push browser support as far back as possible.</dd>
+
+	<dt>What happens if I buy a mini course and you release an update? Will I need to buy the new version, too?</dt>
+	<dd>No. You get free updates for life, sent to you by email whenever new content is available.</dd>
+
+	<dt>Can I buy a print version of the mini course?</dt>
+	<dd>Courses are available exclusively in digital formats. This makes it easy for you to get updates whenever new techniques, approaches, and best practices emerge. Given the rapidly changing nature of the web, this ensures you'll always have the latest and greatest version of the course.</dd>
+
+	<dt>Do you offer team discounts?</dt>
+	<dd>If you want to purchase more than one copy of the mini courses, email me at <a href="&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Mini%20Courses:%20Team%20Pricing&body=I'm%20interested%20in%20buy%20{n}%20copies%20of%20{title}.%20How%20much%20would%20that%20cost?">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a>.</dd>
+
+	<dt>Do you offer a student discount?</dt>
+	<dd>Absolutely! This applies to anyone in any type of schooling, including evening classes and coding bootcamps. <a href="https://gomakethings.com/student-discount/">Learn more about student discounts.</a></dd>
+
+	<dt>I have a poor exchange rate in USD. There's no way I can afford this.</dt>
+	<dd>I totally get that in some countries salaries and cost of living are such that the mini courses are unaffordable. Send me an email at <a href="&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Mini%20Courses:%20Exchange%20Rate&subject=I%20live%20in%20a%20{country}.%20Can%20I%20have%20a%20discount%20to%20make%20your%20mini%20courses%20more%20affordable%20for%20me?%20Thanks!">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> and I'll send you a discount to make it fair for where you live.</dd>
+
+	<dt>I'm not a student. Any other discounts?</dt>
+	<dd>Yep. I've had a lot of helping getting where I am, and I want to pay it forward. If you're a member of an under-represented group in tech, you can get special pricing. <a href="https://gomakethings.com/underrepresented-group-discount/">Learn more about discounts for under-represented groups in tech.</a></dd>
+
+	<dt>Do you have a return policy?</dt>
+	<dd>Absolutely! If you’re not 100% satisfied with the book, email me at <a href="&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Mini%20Courses:%20Refund%20Request">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> within 30 days of purchase and I’ll give you a full refund.</dd>
+
+	<dt>If I buy just one course and love it, can I upgrade to a bundle?</dt>
+	<dd>Absolutely. Just send me an email at <a href="&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Mini%20Courses:%20Upgrade%20Request&body=I%20purchased%20just%20{title}%20and%20wanted%20to%20upgrade%20to%20{package}.%20Can%20you%20help?%20Thanks!">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> for a special discount code for the difference between the two packages.</dd>
+
+	<dt>I lost or never received my download link. What do I do?</dt>
+	<dd>Visit <a href="https://gomakethings.com/checkout/self-service">https://gomakethings.com/checkout/self-service</a> and enter the email address you used to make your purchase to have your download links resent to you.</dd>
+
+	<dt>Are there any restrictions on the mini courses or source code?</dt>
+	<dd>Nope. I trust you to do the right thing. My content is 100% DRM free. If you'd like to share the pocket guide with others, please email me at <a href="&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Mini%20Courses:%20Team%20Pricing&body=I'm%20interested%20in%20buy%20{n}%20copies%20of%20{title}.%20How%20much%20would%20that%20cost?">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> for information about team pricing.</dd>
+
+	<dt>Do I need any special tools or equipment to use the mini courses?</dt>
+	<dd>All you need to work with the source code, projects and labs is a modern web browser and a text editor (I recommend <a href="https://code.visualstudio.com/">VS Code</a>). The mini courses come in PDF, EPUB, MOBI, and HTML formats, so you can read it on any device you own.</dd>
+
+	<dt>Do I need any prior knowledge or experience to learn vanilla JavaScript?</dt>
+	<dd>Ideally you're comfortable working with HTML and CSS already. Experience with another library or framework (like jQuery, React, and so on) is helpful but not required. If you're brand new to JavaScript, the guide is a great resource! If you have any specific questions, though, please email me at <a href="&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Mini%20Courses:%20General%20Questions">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a>.</dd>
+
+	<dt>Are there any rules or requirements around the Slack team?</dt>
+	<dd>Yes. You must be at least 18 years old, and read and agree to follow the <a href="https://gomakethings.com/slack-guidelines/">Code of Conduct</a>.</dd>
+
+	<dt>I can't use Stripe to pay but really want to buy the mini courses. How else can I buy it?</dt>
+	<dd>Send me an email at <a href="&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Mini%20Courses:%20Payment%20Options&body=I%20cannot%20pay%20with%20Stripe.%20What%20other%20options%20are%20available?%20Thanks!">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> and we'll work something out so that you're able to purchase the course.</dd>
+
+	<dt>I have another question.</dt>
+	<dd>No problem! Send me an email at <a href="&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Mini%20Courses:%20General%20Questions">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a>.</dd>
+</dl>
+
+<p><p><a class="btn" href="#ready-to-buy">Start learning now &rarr;</a></p></p>
+
+<div class="padding-top-large padding-bottom-large"><div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="https://gomakethings.com/img/testimonials/patricia-parker.jpg">
+	</div>
+	<div class="grid-two-thirds">
+		<blockquote>
+			I thank you from the bottom of my heart. If it had not been for you, I would not be able to learn JavaScript.
+			<cite>- <a href="https://plus.google.com/101646508540988330181">Patricia Parker</a></cite>
+		</blockquote>
+	</div>
+</div></div>
+
+<h2>Not ready yet? Get daily developer tips.</h2>
+
+<p>I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web.</p>
+
+<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">Don't fill this field in</label>
+				<input type="text" name="b_f2d244c0df42a0431bd08ddea_aeaa9dd034" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mce-EMAIL">Email Address</label>
+				<input type="email" name="EMAIL" id="mce-EMAIL" title="The domain portion of the email address is invalid (the part after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" value="16" name="group[6981][16]" id="mce-group[6981]-6981-0">
+		</div>
+		<div class="grid-third">
+			<button class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div class="mc-status"></div>
+</form>
+
+
+</article>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/guides">Guides</a></li><li><a href="https://gomakethings.com/courses">Courses</a></li><li><a href="https://gomakethings.com/resources">Resources</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachussets. Unless otherwise noted, all code is free to use under the <a href="/mit">MIT License</a>.</p>
+		</footer>
+
+		<script src="https://gomakethings.com/js/loadJS.min.1.1.0.js"></script>
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window) {
+				loadJS('https:\/\/gomakethings.com\/js\/main.min.1.1.0.js');
+			}
+		</script>
+	</body>
+</html>
