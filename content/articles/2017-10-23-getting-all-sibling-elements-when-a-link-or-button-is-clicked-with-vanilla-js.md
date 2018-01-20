@@ -12,7 +12,7 @@ Last week in the private Slack channel that comes with any of my [pocket guides]
 
 For example, imagine you have a nav menu that looks like this.
 
-```lang-html
+```html
 <ul>
 	<li><a class="nav-link" href="#1">Link 1</a></li>
 	<li><a class="nav-link" href="#2">Link 2</a></li>
@@ -26,7 +26,7 @@ Whenever someone clicks a link in that menu, you want to give that link an `.act
 
 Here's how that would work.
 
-```lang-js
+```js
 // Listen for all clicks on the document
 document.addEventListener('click', function () {
 

@@ -16,7 +16,7 @@ Today, let's look at how to get *all* parent elements of a specific element.
 
 Here's our script from last week.
 
-```lang-javascript
+```javascript
 var getClosest = function (elem, selector) {
 
     // Element.matches() polyfill
@@ -46,7 +46,7 @@ var getClosest = function (elem, selector) {
 
 Let's first change it's name to `getParents()`.
 
-```lang-javascript
+```javascript
 var getParents = function (elem, selector) {
 
 	// Element.matches() polyfill
@@ -78,7 +78,7 @@ var getParents = function (elem, selector) {
 
 Instead of matching against a selector and returning the first match, we want to get *all* parent nodes. Let's create an array that we'll add each of our parent elements to.
 
-```lang-javascript
+```javascript
 var getParents = function (elem, selector) {
 
 	// Element.matches() polyfill
@@ -111,7 +111,7 @@ var getParents = function (elem, selector) {
 
 When we climb up the DOM, we want to push each parent element to our array. When the loop is done, we'll return the entire array.
 
-```lang-javascript
+```javascript
 var getParents = function (elem, selector) {
 
 	// Element.matches() polyfill
@@ -157,7 +157,7 @@ If you go this route, we can remove the `selector` argument from the function, a
 
 Here's the finished script.
 
-```lang-javascript
+```javascript
 var getParents = function (elem) {
 
 	// Set up a parent array
@@ -176,7 +176,7 @@ var getParents = function (elem) {
 
 You would use it like this.
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('.some-element');
 var parents = getParents(elem);
 ```
@@ -194,7 +194,7 @@ If a `selector` is provided:
 
 If no `selector` is provided, push the current parent element to the `parent` array.
 
-```lang-javascript
+```javascript
 var getParents = function (elem, selector) {
 
 	// Element.matches() polyfill
@@ -235,7 +235,7 @@ var getParents = function (elem, selector) {
 
 You would use it like this.
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('.some-element');
 var parents = getParents(elem, '.pick-me');
 ```

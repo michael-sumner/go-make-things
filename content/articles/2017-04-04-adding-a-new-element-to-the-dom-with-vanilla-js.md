@@ -14,7 +14,7 @@ We can do this using the `createElement()` method, which let's us, as the name i
 
 Here's what I mean...
 
-```lang-javascript
+```javascript
 // Get the element you want to add your new element before or after
 var target = document.querySelector('#some-div');
 

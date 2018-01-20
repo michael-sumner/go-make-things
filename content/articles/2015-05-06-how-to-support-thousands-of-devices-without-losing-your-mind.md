@@ -36,13 +36,13 @@ There are three main layers of the front-end development stack: HTML, CSS, and J
 
 Some of my scripts use CSS to hide and show elements. By default, I want all elements visible. They should only be hidden if the browser has the appropriate JavaScript support and my JS file successfully loads. To do that, I include this snippet in my JavaScript file:
 
-```lang-js
+```js
 document.documentElement.className += ' js';
 ```
 
 This adds a `.js` class to my `<html>` element. I can check for this class in my CSS before hiding any content:
 
-```lang-css
+```css
 .js .example {
 	display: none;
 	visibility: hidden;
@@ -51,7 +51,7 @@ This adds a `.js` class to my `<html>` element. I can check for this class in my
 
 If your script is dependent on certain APIs that aren't supported by all browsers (things like query selectors and event listeners), you should check for those before running your script or adding your class:
 
-```lang-js
+```js
 if ( 'querySelector' in document && 'addEventListener' in window ) {
 	// Do stuff...
 	document.documentElement.className += ' js';
@@ -78,7 +78,7 @@ The alternative – desktop first – involves starting with a wide, grid-based 
 
 Mobile-first is the ~~better~~ more future-friendly approach. Here's an example of desktop-first code, borrowed from our chapter on RWD:
 
-```lang-css
+```css
 #main {
 	width: 66.666666667%;
 }
@@ -97,7 +97,7 @@ Mobile-first is the ~~better~~ more future-friendly approach. Here's an example 
 
 And here's that same code, rewritten mobile-first:
 
-```lang-css
+```css
 #main,
 #sidebar {
 	width: 100%;

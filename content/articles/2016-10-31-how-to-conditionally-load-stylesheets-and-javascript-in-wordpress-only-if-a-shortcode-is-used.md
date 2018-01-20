@@ -18,7 +18,7 @@ There are a few ways to do this, but when styles are required, you're usually ou
 
 To get around it, I add [loadCSS](https://github.com/filamentgroup/loadCSS) and [loadJS](https://github.com/filamentgroup/loadJS) in the footer, and use them to load my scripts and styles.
 
-```lang-php
+```php
 /**
  * Load scripts and styles conditionally and async
  */

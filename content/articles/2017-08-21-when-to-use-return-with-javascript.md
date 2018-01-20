@@ -19,7 +19,7 @@ There are two times you'll want to `return` in a function:
 
 Let's say you have a function whose job is to divide a number by `4` for you and give you the result.
 
-```lang-javascript
+```javascript
 var divideByFour = function (num) {
     num / 4;
 }
@@ -31,7 +31,7 @@ In the above example, you're passing `27` in the function, which divides it by `
 
 If we return it, we can use it elsewhere.
 
-```lang-javascript
+```javascript
 var divideByFour = function (num) {
     return num / 4;
 }
@@ -41,7 +41,7 @@ var divided = divideByFour(27); // 6.75
 
 You might use this approach for constructing markup in a JavaScript app.
 
-```lang-javascript
+```javascript
 var helloThere = function (name, day) {
     return 'Hello there, ' + name + '! How is your ' + day + ' going so far?';
 };
@@ -57,7 +57,7 @@ greeting.innerHTML = helloThere('Chris', 'Monday');
 
 I use this approach a lot in event listeners. For example, let's say you have a modal window.
 
-```lang-markup
+```markup
 <div class="modal">
     Hey there! This is a pointless modal window!<br>
     <button class="modal-close">Close Me</button>
@@ -68,7 +68,7 @@ When someone clicks the modal, you want to do nothing *unless* they clicked on t
 
 One way to handle this is with `if...else` statements.
 
-```lang-javascript
+```javascript
 var closeModal = function () {
 	document.querySelector('.modal').remove();
 };
@@ -90,7 +90,7 @@ document.addEventListener('click', function (event) {
 
 Or, you could instead use `return` to end the function after the matching statement.
 
-```lang-javascript
+```javascript
 var closeModal = function () {
 	document.querySelector('.modal').remove();
 };
@@ -119,7 +119,7 @@ You can also use `return` for what I call a "sanity check."
 
 Let's say you have a function that depends on an argument or element to work. You can check for that item, and if it doesn't exist, `return` to end the function.
 
-```lang-javascript
+```javascript
 var toggleMenu = function () {
 
 	// Get the menu

@@ -22,7 +22,7 @@ The approach is actually pretty simple: climb up the DOM, get the `offsetTop` di
 
 We'll start by creating a placeholder variable for our distance to the top.
 
-```lang-javascript
+```javascript
 var distance = 0;
 ```
 
@@ -32,7 +32,7 @@ The `Element.offsetParent` property gets us the next parent element up the DOM t
 
 On each loop, we'll add the `offsetTop` value to our `distance` counter. Then we'll get the element's `offsetParent`, update our element variable, and repeat.
 
-```lang-javascript
+```javascript
 // Our element
 var elem = document.querySelector('#some-element');
 
@@ -52,7 +52,7 @@ do {
 
 Because of rounding errors, it's possible for the final `distance` to be less than `0`. We can use a [ternary operator](/ternary-operators/) to use `0` if our `distance` is negative, and the `distance` if it's not.
 
-```lang-javascript
+```javascript
 // Our element
 var elem = document.querySelector('#some-element');
 
@@ -80,7 +80,7 @@ We'll move our code into a function called `getOffsetTop()`, and pass in our ele
 
 When our loop is done, we'll return our `distance`.
 
-```lang-javascript
+```javascript
 var getOffsetTop = function (elem) {
 
 	// Set our distance placeholder

@@ -17,7 +17,7 @@ Fortunately, I also stumbled onto [an easy fix](https://github.com/lionheart/ope
 2. Next, run `open .` to open the `.ssh` directory.
 3. In the `config` file, add the snippet below. If no `config` file exists, create one first.
 
-```lang-bash
+```bash
 Host *
   UseKeychain yes
   AddKeysToAgent yes

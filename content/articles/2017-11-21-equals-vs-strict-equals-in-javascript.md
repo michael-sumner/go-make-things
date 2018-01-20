@@ -13,7 +13,7 @@ So what's the difference?
 
 Strict equals checks if the two items are the same type. Regular equals does not. For example...
 
-```lang-js
+```js
 // returns true
 (42 == '42')
 

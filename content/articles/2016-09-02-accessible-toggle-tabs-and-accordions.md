@@ -34,7 +34,7 @@ I've started thinking of tabs and accordions as visually enhanced anchor links r
 
 Start with simple anchor links and content sections with IDs. It's also helpful to add some classes or data attributes for styling and targeting.
 
-```lang-markup
+```markup
 <ul>
 	<li><a class="tab-toggle" href="#tab1">Tab 1</li>
 	<li><a class="tab-toggle" href="#tab2">Tab 2</li>
@@ -66,7 +66,7 @@ Instead of using `event.preventDefault()` to stop the normal click behavior, I j
 
 To get around this problem, I use JavaScript to remove the anchored content's `id`, store it as a data attribute, and then add it back after the URL updates.
 
-```lang-javascript
+```javascript
 // Listen for click events
 document.addEventListener('click', function (event) {
 
@@ -86,7 +86,7 @@ document.addEventListener('click', function (event) {
 
 After the URL update, add the ID back and open the content.
 
-```lang-javascript
+```javascript
 // Listen for hashchange events
 window.addEventListener('hashchange', function (event) {
 
@@ -105,7 +105,7 @@ window.addEventListener('hashchange', function (event) {
 
 This approach also means that you can open a tab or accordion based on the hash.
 
-```lang-javascript
+```javascript
 // Get the content
 var content = document.querySelector( window.location.hash );
 
@@ -122,7 +122,7 @@ And as a bonus, clicking the forward and back buttons on the browser will now au
 
 Historically, I would do something like this to show and hide my tabs and accordion content:
 
-```lang-css
+```css
 /* Hide the tab */
 .tab-pane {
 	display: none;
@@ -140,7 +140,7 @@ Using this approach makes the content completely invisible to screen readers unl
 
 I now use a different approach to only hides the content visually. Screen readers can still *see* and read it, even if it's not visible to sighted users.
 
-```lang-css
+```css
 /* Hide the tab */
 .tab-pane {
 	border: 0;
@@ -176,7 +176,7 @@ Since we're removing the ID before the URL updates and then adding it back, this
 
 Going back to our previous `hashchange` listener:
 
-```lang-javascript
+```javascript
 // Listen for hashchange events
 window.addEventListener('hashchange', function (event) {
 
@@ -204,7 +204,7 @@ window.addEventListener('hashchange', function (event) {
 
 This results in a blue outline around the content. You can easily remove this with a touch of CSS.
 
-```lang-css
+```css
 .tab-pane:focus {
 	outline: none;
 }
@@ -218,7 +218,7 @@ Since the content is only visually hidden, then can tab their way through all of
 
 Fortunately, we can detect focus, check if the focused element is inside a tab or accordion, and open it up if it is.
 
-```lang-javascript
+```javascript
 // A helper function to find a parent element with the matching class
 // @link https://gomakethings.com/ditching-jquery/#climb-up-the-dom
 var getClosest = function ( elem, selector ) { ... }
@@ -243,14 +243,14 @@ document.addEventListener('focus', function (event) {
 
 Remember, we're treating this as an enhancement. By default, your tabs or accordion should just be anchor links. When your JavaScript file loads, add a class to the `<html>` element.
 
-```lang-javascript
+```javascript
 // Add the .tabs-loaded class to the <html> element
 document.documentElement.classList.add( 'tabs-loaded' );
 ```
 
 Next, hook into that class in your CSS before hiding any content.
 
-```lang-css
+```css
 /* Hide the tab */
 .tabs-loaded .tab-pane {
 	border: 0;

@@ -17,7 +17,7 @@ Today, let's look at two ways to insert an element *after* another one.
 
 Yesterday, we learned about the `insertBefore()` method. You can use it to insert an element after a node by using `nextSibling` to get the node that comes right after the one you want to target.
 
-```lang-js
+```js
 // Create a new element
 var newNode = document.createElement('div');
 
@@ -34,7 +34,7 @@ A bit awkward and clunky, but it works&mdash;back to at least IE 6, in fact.
 
 The modern approach is to use the `after()` method. Call it on the element you want to add your new element after, and pass in your new element.
 
-```lang-js
+```js
 // Create a new element
 var newNode = document.createElement('div');
 
@@ -51,7 +51,7 @@ Like the `before()` method that we looked at yesterday, at the moment `after()` 
 
 [Here's a polyfill](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/after#Polyfill) that pushes support back to IE 9.
 
-```lang-js
+```js
 //from: https://github.com/jserz/js_piece/blob/master/DOM/ChildNode/after()/after().md
 (function (arr) {
   arr.forEach(function (item) {

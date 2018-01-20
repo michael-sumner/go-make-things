@@ -28,7 +28,7 @@ This used to confuse me like crazy, too, because JavaScript is *the* scripting l
 
 For example, on MDN they provide [an example of using Python and getElementsByTagName](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction#DOM_and_JavaScript):
 
-```lang-bash
+```bash
 # Python DOM example
 import xml.dom.minidom as m
 doc = m.parse("C:\\Projects\\Py\\chap1.xml");

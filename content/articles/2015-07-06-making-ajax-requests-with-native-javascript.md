@@ -12,7 +12,7 @@ Get the contents of another HTML document, or from a specific element in another
 
 <!--more-->
 
-```lang-javascript
+```javascript
 /**
  * Get data from a URL
  * @param  {String} url       The URL to get

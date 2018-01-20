@@ -10,7 +10,7 @@ url: /2017/04/07/working-with-cookies-in-vanilla-js
 
 Setting a cookie in JavaScript is relatively straightforward:
 
-```lang-javascript
+```javascript
 document.cookie = 'sandwich=turkey; expires=Fri, 31 Dec 2024 23:59:59 GMT;
 ```
 
@@ -22,7 +22,7 @@ Fortunately, there are a couple of simple helper libraries we can use to make wo
 
 For that, you only need this [super lightweight `getCookie()` helper method](https://gist.github.com/wpsmith/6cf23551dd140fb72ae7):
 
-```lang-javascript
+```javascript
 var getCookie = function (name) {
 	var value = "; " + document.cookie;
 	var parts = value.split("; " + name + "=");
@@ -39,7 +39,7 @@ The Mozilla Developer Network provides a [simple cookie library](https://develop
 
 After you include it on your site, it's let you do things like this:
 
-```lang-javascript
+```javascript
 // Set a cookie
 docCookies.setItem( 'sandwich', 'turkey with tomato and mayo', new Date(2020, 5, 12) );
 

@@ -23,7 +23,7 @@ Rest parameters work a lot like `arguments`, but with two notable advantages.
 
 You define *rest parameters* by passing in an argument prefixed with `...`.
 
-```lang-javascript
+```javascript
 var logStuff = (arg1, arg2, ...moreArgs) => {
 
 	// Logs arg1
@@ -46,7 +46,7 @@ logStuff('chicken', 'tuna', 'chips', 'cookie', 'soda', 'delicious');
 
 That `add()` function we created yesterday? Here it is as an arrow function.
 
-```lang-javascript
+```javascript
 var add = (...args) => {
 
 	// Set a starting total

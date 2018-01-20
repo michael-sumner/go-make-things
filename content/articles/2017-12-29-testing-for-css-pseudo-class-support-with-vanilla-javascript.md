@@ -13,7 +13,7 @@ Yesterday, we learned [how to check for CSS feature support with vanilla JS](/te
 
 Fortunately, [user cuixiping over on StackOverflow](https://stackoverflow.com/a/41098605/1293256) shared this useful helper method that let's you do just that!
 
-```lang-js
+```js
 /**
  * Test for pseudo-class support
  * @param  {String} pseudoClass The pseudo-class
@@ -54,7 +54,7 @@ var supportsPseudo = function (pseudoClass) {
 
 To use it, pass in the pseudo-class you'd like to test.
 
-```lang-js
+```js
 if (supportsPseudo(':nth-of-type()')) {
 	// :nth-of-type is supported...
 } else {

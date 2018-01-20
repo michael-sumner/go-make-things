@@ -20,7 +20,7 @@ Depending on your user case, there a few different patterns you can use, but to 
 
 To avoid conflicts with other libraries and frameworks that use the `$` shorthand, we'll call ours `m` (for "micro").
 
-```lang-js
+```js
 var m = function () {
     // Codes will go here...
 };
@@ -32,7 +32,7 @@ In Kumar's case, he wanted to be able to select elements in the DOM and then do 
 
 We're going to use `querySelectorAll()` to get our elements. We'll set the returned value as the `nodes` property of our selector function. This is going to help power our chaining functionality later.
 
-```lang-js
+```js
 var m = function (selector) {
 
 	// Get all elements that match our selector
@@ -45,7 +45,7 @@ var m = function (selector) {
 
 You may not always want to search the whole document, though. `querySelectorAll` also let's you search inside a specific element. Let's provide a way to do that by adding an optional `context` argument.
 
-```lang-js
+```js
 var m = function (selector, context) {
 
 	// Get all elements that match our selector
@@ -60,7 +60,7 @@ var m = function (selector, context) {
 
 In order to use this, we need to return our selector engine so it can be accessed with the `m` function.
 
-```lang-js
+```js
 var m = function (selector, context) {
 
 	// Get all elements that match our selector
@@ -76,7 +76,7 @@ var m = function (selector, context) {
 
 This creates a new instance of our selector engine with it's own unique `nodes` property. Now we can use it like this.
 
-```lang-js
+```js
 var headers = m('h2');
 headers.nodes; // returns all h2 elements
 
@@ -92,7 +92,7 @@ Every time we use it with a new selector, instead of creating an entirely new se
 
 For example, if we wanted to add a class to every node we selected, we could do this.
 
-```lang-js
+```js
 var m = function (selector, context) {
 
 	// Get all elements that match our selector
@@ -120,7 +120,7 @@ You'll notice that the function references `this.nodes` in the loop. Because we'
 
 Now you can do this.
 
-```lang-js
+```js
 // Add the `.heading-small` class to all H2 elements
 u('h2').addClass('heading-small');
 ```
@@ -129,7 +129,7 @@ u('h2').addClass('heading-small');
 
 We can also add a `removeClass()` function using the same approach.
 
-```lang-js
+```js
 var m = function (selector, context) {
 
 	// Get all elements that match our selector
@@ -162,7 +162,7 @@ var m = function (selector, context) {
 
 Then you could do this.
 
-```lang-js
+```js
 // Remove the `.heading-small` class from all H2 elements
 m('h2').removeClass('heading-small');
 ```
@@ -171,13 +171,13 @@ m('h2').removeClass('heading-small');
 
 One nice thing about libraries like jQuery is the ability to chain methods. Our micro-libary currently does *not* allow you to do something like this.
 
-```lang-js
+```js
 m('h2').addClass('heading-small').addClass('text-gray').removeClass('.text-uppercase');
 ```
 
 We can easily support this, though, by returning our selector function at the end of each function in our library.
 
-```lang-js
+```js
 // Add a class to our elements
 Micro.prototype.addClass = function (className) {
 
@@ -206,7 +206,7 @@ For every property that you add to your library, include `return this` at the en
 
 Here's the finished micro-library.
 
-```lang-js
+```js
 var m = function (selector, context) {
 
 	// Get all elements that match our selector

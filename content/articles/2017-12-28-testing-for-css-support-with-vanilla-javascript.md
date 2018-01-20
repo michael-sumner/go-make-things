@@ -11,7 +11,7 @@ url: /2017/12/28/testing-for-css-support-with-vanilla-javascript
 
 In CSS, you can check if a feature is supported using the `@supports()` rule. For example, to check for FlexBox support, you'd do this:
 
-```lang-css
+```css
 @supports (display: flex) {
 	div {
 		display: flex;
@@ -23,7 +23,7 @@ Fortunately, there's a vanilla JavaScript way to check for support of CSS featur
 
 You pass in the property name (ex. `display`) as the first argument, and the value (ex. `flex`) as the second.
 
-```lang-js
+```js
 if (CSS.supports('display', 'flex')) {
 	// FlexBox is supported...
 } else {
@@ -39,7 +39,7 @@ This works in all modern browsers, but has no IE support (the same level of supp
 
 You should probably also check that `CSS` is supported first to avoid errors.
 
-```lang-js
+```js
 if ('CSS' in window && CSS.supports('display', 'flex')) {
 	// FlexBox is supported...
 } else {

@@ -22,7 +22,7 @@ Types of errors that would get ignored without strict mode include...
 
 For example...
 
-```lang-javascript
+```javascript
 // Missing semicolon
 var someVar = 'this is my variable'
 

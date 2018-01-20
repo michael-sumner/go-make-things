@@ -17,7 +17,7 @@ The traditional way of handling this, supported back to at least IE6, is with th
 
 The `insertBefore()` method works great, but is kind of clunky. You need to call it on the *parent* of the element you're inserting your new element before (the `referenceNode`), and pass in both the new element and the reference node as arguments.
 
-```lang-js
+```js
 // Create a new element
 var newNode = document.createElement('div');
 
@@ -34,7 +34,7 @@ Fortunately, ES6 brings us a new approach that's much more like how it works in 
 
 You call the `before()` method on the reference node, and pass in the new node as an argument. And that's it.
 
-```lang-js
+```js
 // Create a new element
 var newNode = document.createElement('div');
 
@@ -51,7 +51,7 @@ At the time of writing, `before()` works in newer versions of Chrome, Firefox, a
 
 *But*... [a polyfill adds support back to IE9](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/before#polyfill).
 
-```lang-js
+```js
 // from: https://github.com/jserz/js_piece/blob/master/DOM/ChildNode/before()/before().md
 (function (arr) {
   arr.forEach(function (item) {

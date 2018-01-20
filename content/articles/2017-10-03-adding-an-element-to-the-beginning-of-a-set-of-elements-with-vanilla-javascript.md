@@ -19,7 +19,7 @@ We're going to look at two ways to do this:
 
 Traditionally, you would get the first element in your parent node with `firstChild`, and use the `insertBefore()` method to add your new content before it.
 
-```lang-js
+```js
 // Create a new element
 var newNode = document.createElement('div');
 
@@ -34,7 +34,7 @@ parentNode.insertBefore(newNode, parentNode.firstChild);
 
 With ES6, we can now use `prepend()` to do the same thing.
 
-```lang-js
+```js
 // Create a new element
 var newNode = document.createElement('div');
 
@@ -51,7 +51,7 @@ The `prepend()` method works in newer versions of Chrome, Firefox, and Opera, bu
 
 Fortunately, you can bolt support back to IE7 with this polyfill, taken from the [polyfill.io](http://polyfill.io) service.
 
-```lang-js
+```js
 var _mutation = (function () {
 
 	function isNode(object) {

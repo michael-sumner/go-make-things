@@ -14,7 +14,7 @@ If you're unfamiliar with a callback, it's a piece of code that runs before or (
 
 In the function below, users can run code after changing the background color of an element to blue. And in the example, it's being used to also add the `.color-changed` class to the element.
 
-```lang-javascript
+```javascript
 var makeBlue = function (elem, callback) {
     elem.classList.add('blue');
     if (callback and typeof callback === 'function') {
@@ -39,7 +39,7 @@ Custom events are actually really easy to create.
 
 First, use `new CustomEvent()` to create the event, passing in the name of the event. Then, use call `dispatchEvent()` on the element you want to attach the event to, passing in your new custom event.
 
-```lang-javascript
+```javascript
 var makeBlue = function (elem) {
 
     elem.classList.add('blue');
@@ -55,7 +55,7 @@ var makeBlue = function (elem) {
 
 You can listen for custom events just like regular events (click, scroll, etc.) using `addEventListener()`.
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('.not-blue');
 makeBlue(elem);
 
@@ -87,7 +87,7 @@ Often not a big deal, but if you *need* to stop other code from running until th
 
 `CustomEvent` doesn't show up until IE 11 and Safari 10. Fortunately [a simple polyfill](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent#Polyfill) pushes support back to any IE 9.
 
-```lang-javascript
+```javascript
 (function () {
 
   if ( typeof window.CustomEvent === "function" ) return false;

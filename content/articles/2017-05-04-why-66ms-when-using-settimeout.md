@@ -22,7 +22,7 @@ Movies are shown in about 24fps (frames per second). TV shows are generally at 3
 
 You can calculate the number of milliseconds needed to hit your target refresh rate by dividing 1000 by your target fps:
 
-```lang-javascript
+```javascript
 var 15fps = 1000/15; // 66
 var 24fps = 1000/24; // 42
 var 30fps = 1000/30; // 33

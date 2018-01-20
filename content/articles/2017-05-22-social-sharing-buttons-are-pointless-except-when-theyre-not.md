@@ -29,13 +29,13 @@ It's well documented that social sharing buttons, particularly on mobile devices
 
 Let's drop an empty placeholder element somewhere on the page that we can add our sharing button to later if needed.
 
-```lang-markup
+```markup
 <div id="social-sharing"></div>
 ```
 
 Next, we'll check to see if we were referred from a social network and act accordingly. For this example, I'll look at Facebook and Twitter. Add others to suit your tastes and traffic.
 
-```lang-javascript
+```javascript
 var addSocialButton = function (title, handle) {
 
 	'use strict';
@@ -101,13 +101,13 @@ var addSocialButton = function (title, handle) {
 
 To run it, do this, where `title` is the title of your page, and `handle` is your Twitter handle (you can remove this from the script if you want).
 
-```lang-javascript
+```javascript
 addSocialButton(title, handle);
 ```
 
 How do you get the title? You might set it as a JavaScript variable with your CMS, or just grab the content of the `h1` element on the page like so:
 
-```lang-javascript
+```javascript
 var title = document.querySelector('h1');
 addSocialButton(title.innerHTML, 'MyDopeTwitterName');
 ```

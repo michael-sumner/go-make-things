@@ -32,7 +32,7 @@ We also need a way to detect when the font is fully loaded. Fortunately, [Font F
 
 We'll load the font asynchronously, and use Font Face Observer to detect when it's loaded. When it loads, we'll add a class to the `<html>` element that we can hook into for styling.
 
-```lang-css
+```css
 body {
 	font-family: Georgia, serif;
 }
@@ -46,7 +46,7 @@ body {
 
 Traditionally, you would load your web font using the `wp_enqueue_style` function:
 
-```lang-php
+```php
 // Load theme fonts
 function load_theme_fonts() {
     wp_enqueue_style( 'theme-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans', null, null, 'all' );
@@ -56,7 +56,7 @@ add_action('wp_enqueue_scripts', 'load_theme_fonts');
 
 Instead, we want to hook into the `wp_head` action to inline loadCSS:
 
-```lang-php
+```php
 // Load fonts inline in the header
 function load_fonts_inline_header() {
 	?>
@@ -90,7 +90,7 @@ Once they're stored in the browser cache, we don't need to use the technique des
 To make this happen, we'll set a cookie with Font Face Observer when the font loads. In our `functions.php` file, we'll use a different approach depending on whether or not that cookie exists.
 
 
-```lang-php
+```php
 // If cookie set, load font traditional way
 function load_theme_fonts() {
 	if ( isset($_COOKIE['fontsLoaded']) && $_COOKIE['fontsLoaded'] === 'true' ) {

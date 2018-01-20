@@ -47,7 +47,7 @@ I think CSS is a bit like skiing, and JavaScript is a bit like snowboarding.
 
 CSS is easy to tip-toe into. You can write one line of code and immediately see results.
 
-```lang-css
+```css
 body {
     background-color: rebeccapurple;
 }

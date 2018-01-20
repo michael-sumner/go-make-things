@@ -17,7 +17,7 @@ There are two ways to add items to an object:
 
 Dot notation is the generally preferred way, but if you're using a key set by a variable, or your key has spaces, you need to use bracket notation.
 
-```lang-javascript
+```javascript
 var lunch = {
     sandwich: 'turkey',
     chips: 'cape cod',

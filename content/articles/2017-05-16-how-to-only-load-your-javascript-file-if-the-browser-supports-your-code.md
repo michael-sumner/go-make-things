@@ -17,7 +17,7 @@ To do that, we'll use [loadJS from Filament Group](https://github.com/filamentgr
 
 Include loadJS on your site, and then include a "cut the mustard" test. If the browser passes, use loadJS to load your scripts. If not, do nothing.
 
-```lang-javascript
+```javascript
 function loadJS( src ) { ... }
 var supports = 'querySelector' in document && 'addEventListener' in window;
 if ( supports ) {

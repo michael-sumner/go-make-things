@@ -23,7 +23,7 @@ jQuery offers a few methods for climbing up the DOM tree. Let's explore a few of
 
 In jQuery, <code>.closest()</code> climbs up the DOM tree and finds the first element that has the selector you're trying to match against. It starts with the first element, and then climbs. Here's a vanilla JS method that does the same thing:
 
-```lang-javascript
+```javascript
 /**
  * Get the closest matching element up the DOM tree.
  * @private
@@ -61,7 +61,7 @@ var getClosest = function ( elem, selector ) {
 
 And to use it:
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('#example');
 var closestElem = getClosest(elem, '.sample-class');
 ```
@@ -69,7 +69,7 @@ var closestElem = getClosest(elem, '.sample-class');
 If you wanted to start with the element's parent instead of the element itself (equivalent to the `.parent()` method), you would do this:
 
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('#example');
 var closestElem = getClosest(elem.parentNode, '#sample-id');
 ```
@@ -78,7 +78,7 @@ var closestElem = getClosest(elem.parentNode, '#sample-id');
 
 In jQuery, `.parents()` climbs the DOM tree and returns all parent elements. If you include a selector, it will only return those that match. Here's the vanilla JavaScript equivalent:
 
-```lang-javascript
+```javascript
 /**
  * Get all of an element's parent elements up the DOM tree
  * @param  {Node}   elem     The element
@@ -127,7 +127,7 @@ var getParents = function ( elem, selector ) {
 
 And to use it:
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('#some-element');
 var parents = getParents(elem, '.some-class');
 var allParents = getParents(elem.parentNode);
@@ -135,7 +135,7 @@ var allParents = getParents(elem.parentNode);
 
 Once again, if you wanted to start with the element's parent instead of the element itself, you would do this:
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('#example');
 var parents = getClosest(elem.parentNode, '[data-sample]');
 ```
@@ -144,7 +144,7 @@ var parents = getClosest(elem.parentNode, '[data-sample]');
 
 In jQuery, `.parentsUntil()` climbs the DOM tree and returns all parent elements until a matching parent is found. If you include a selector, it will only return those that match. Here's the vanilla JavaScript equivalent:
 
-```lang-javascript
+```javascript
 /**
  * Get all of an element's parent elements up the DOM tree until a matching parent is found
  * @param  {Node}   elem     The element
@@ -198,7 +198,7 @@ var getParentsUntil = function ( elem, parent, selector ) {
 
 And to use it:
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('#some-element');
 var parentsUntil = getParentsUntil(elem, '.some-class');
 var parentsUntilByFilter = getParentsUntil(elem, '.some-class', '[data-something]');
@@ -212,14 +212,14 @@ In jQuery, the `.find()` method provides an easy way to match elements down the 
 
 ### Getting the first match down the tree
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('#example');
 var firstElem = elem.querySelector('.sample-class');
 ```
 
 ### Getting all matches down the tree
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('#example');
 var allElems = elem.querySelectorAll('[data-sample]');
 ```

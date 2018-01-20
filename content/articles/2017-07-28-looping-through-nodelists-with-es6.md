@@ -18,7 +18,7 @@ Even though they look *just* like arrays, they're not, so you can't use array-sp
 
 The traditional way of looping through NodeLists is the same as looping through arrays: with a `for` loop.
 
-```lang-javascript
+```javascript
 var elems = document.querySelectorAll('.some-selector');
 
 for (var i = 0; i < elems.length; i++) {
@@ -31,7 +31,7 @@ for (var i = 0; i < elems.length; i++) {
 
 Fortunately, just like with arrays, there's a `forEach()` method for NodeLists.
 
-```lang-javascript
+```javascript
 var elems = document.querySelectorAll('.some-selector');
 
 elems.forEach(function (elem, index) {

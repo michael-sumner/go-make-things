@@ -18,7 +18,7 @@ There is no *right* way. There are a few different approaches with pros and cons
 
 The simplest and fastest way to compare two arrays is to convert them both to strings using the `JSON.stringify()` method and a comparison operator (`===`).
 
-```lang-js
+```js
 var arr1 = [1, 2, 3, 4, 5];
 var arr2 = [1, 2, 3, 4, 5];
 
@@ -35,7 +35,7 @@ It can fall apart pretty quickly, though.
 
 Since you're comparing two strings, your arrays are only considered equal if they're in the same exact order. For example, these two arrays would *not* be equal using the `JSON.stringify()` method.
 
-```lang-js
+```js
 var arr2 = [1, 2, 3, 4, 5];
 var arr3 = [5, 4, 3, 2, 1];
 ```
@@ -46,7 +46,7 @@ Maybe that's ok. After all, arrays are are supposed to be sequentially ordered.
 
 Object aren't, though. If your array contains an object as it's value, the order of the object keys might be different even if the two objects have all the same keys and values. It, too, would fail using the `JSON.stringify()` method.
 
-```lang-js
+```js
 // These would not be equal
 var arrObj1 = [1, 2, {
 	a: 1,

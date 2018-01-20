@@ -18,7 +18,7 @@ There's no native method for this, but we can combine a few methods into a helpe
 4. After that, we'll capitalize the first letter, and lowercase the rest of the string.
 4. Finally, we'll combine all of the words back together into a string.
 
-```lang-javascript
+```javascript
 // https://gist.github.com/SonyaMoisset/aa79f51d78b39639430661c03d9b1058#file-title-case-a-sentence-for-loop-wc-js
 var toTitleCase = function (str) {
 	str = str.toLowerCase().split(' ');
@@ -31,7 +31,7 @@ var toTitleCase = function (str) {
 
 And we'd use it like this.
 
-```lang-js
+```js
 var str = 'HeRe is a MIXED capitalization StRiNg.';
 
 // returns: "Here Is A Mixed Capitalization String."

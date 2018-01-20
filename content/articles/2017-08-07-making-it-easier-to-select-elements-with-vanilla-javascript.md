@@ -20,7 +20,7 @@ Today, I wanted to show you a simple technique that make it easier to use `query
 
 You can create a custom function that runs `querySelector()` and `querySelectorAll()`&mdash;without you having to type it out every time.
 
-```lang-javascript
+```javascript
 var get = function (selector, scope) {
     scope = scope ? scope : document;
     return scope.querySelector(selector);
@@ -34,7 +34,7 @@ var getAll = function (selector, scope) {
 
 With these in place, you can use the same way you'd use `querySelector()` and `querySelectorAll()`.
 
-```lang-javascript
+```javascript
 // Get all `h2` elements
 var h2s = getAll('h2');
 
@@ -48,7 +48,7 @@ var inside = get('.my-selector', elem);
 
 I like to use `get()` and `getAll()`, but if you'd prefer a more jQuery-like syntax, you can use `$` and `$$` instead.
 
-```lang-javascript
+```javascript
 var $ = function (selector, scope) {
     scope = scope ? scope : document;
     return scope.querySelector(selector);

@@ -12,7 +12,7 @@ Earlier this year, I shared [a way to remove elements from the DOM](/removing-an
 
 ES6 provides an easier, simpler way to achieve the same tax: `remove()`. Call the `remove()` method on the element you want to remove.
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('#some-element');
 elem.remove();
 ```
@@ -23,7 +23,7 @@ The `remove()` method works in all modern browsers, but not IE. You can [add sup
 
 Personally, I use the older approach because it has better backwards compatibility and doesn't need a polyfill, but the `remove()` method is quite nice.
 
-```lang-javascript
+```javascript
 /**
  * ChildNode.remove() polyfill
  */

@@ -46,7 +46,7 @@ I actually use a slightly tweaked version of Monokai Light that's more like the 
 
 Code makes it really easy to switch themes with a keyboard shortcut. To get this functionality in Sublime, I added the [Schemr plugin](https://github.com/benweier/Schemr). Then I added Monokai and Monokai Light to my favorites. Finally, under my keybindings, I added the option to toggle between my favorites by clicking `command+k+t`.
 
-```lang-js
+```js
 [
     { "keys": ["super+k", "super+t"], "command": "schemr_cycle_favorite_schemes", "args": {"direction": "next"}}
 ]
@@ -92,7 +92,7 @@ One thing Code does that I absolutely love is make links in files clickable. The
 
 Under Package Settings for this plugin, I had to add this to the user mouse bindings.
 
-```lang-js
+```js
 [
 	{ "button": "button1", "modifiers": ["super"], "press_command": "open_url_under_cursor" }
 ]

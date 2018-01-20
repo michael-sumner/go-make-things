@@ -19,7 +19,7 @@ I'm going to answer each of them separately. First up, where to enable strict mo
 
 For example...
 
-```lang-javascript
+```javascript
 ;(function (window, document, undefined) {
     'use strict';
     // Code goes here...

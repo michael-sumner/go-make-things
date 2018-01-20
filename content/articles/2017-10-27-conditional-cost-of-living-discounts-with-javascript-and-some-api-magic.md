@@ -41,7 +41,7 @@ The plugin also provides a short code I can use to generate my discount message.
 
 It accepts variables for things like the country name, the discount code, and more, so I can quickly change my discount message on the fly if I want to.
 
-```lang-html
+```html
 [[pricing_parity]Hi! Looks like you're from {{country}}, where my Vanilla JS Pocket Guides might be a bit expensive. You can use the code {{code}} at checkout to take {{amount}} off any of my guides. Cheers![/pricing_parity]]
 ```
 
@@ -59,7 +59,7 @@ I only display it on product and checkout pages, but I grab the discount message
 
 Here's the custom JavaScript.
 
-```lang-js
+```js
 /**
  * Load pricing parity message
  */
@@ -146,7 +146,7 @@ I'm using the `responseType` property of XMLHttpRequest (XHR) to get my pricing 
 
 The `response` type property is only supported in IE10 and up, so I do a quick feature check before running it.
 
-```lang-js
+```js
 // Set up our HTTP request
 var xhr = new XMLHttpRequest();
 if (!('responseType' in xhr)) return;
@@ -154,7 +154,7 @@ if (!('responseType' in xhr)) return;
 
 On success, I can grab my `#pricing-parity-content` message with `querySelector()` and grab it's contents with `innerHTML`.
 
-```lang-js
+```js
 // Get the content and render it
 var pricing = xhr.response.querySelector('#pricing-parity-content');
 if (!pricing) return;
@@ -165,14 +165,14 @@ renderPricingParity(pricing.innerHTML);
 
 I also save my message to `sessionStorage` so that I only have to make the Ajax call once. After that, I can just pull the discount text directly from storage.
 
-```lang-js
+```js
 // Save the content to sessionStorage
 sessionStorage.setItem('gmt-pricing-parity', pricing.innerHTML);
 ```
 
 When the script first loads, I check to see if there's an entry in `sessionStorage`, and if so, immediately run my `renderPricingParity()` method.
 
-```lang-js
+```js
 // Get and render pricing parity info
 var pricing = sessionStorage.getItem('gmt-pricing-parity');
 if (typeof pricing === 'string') {
@@ -188,7 +188,7 @@ You'll notice I'm checking if it's a string, and not whether or not it exists. I
 
 I use `document.createElement` to create a new `div`, and `insertBefore()` to inject it into the DOM. I add a handful of properties specific to my layout to give it some style.
 
-```lang-js
+```js
 // Create container
 var pricing = document.createElement('div');
 pricing.id = 'pricing-parity';
@@ -205,7 +205,7 @@ Before rendering anything, I run a quick check to make sure the page is a produc
 
 I'm using a simple regex pattern to check for `/guides/` or `/checkout/` in the URL `pathname`. If it contains either of those, it's a sales page. Otherwise, it's not and I can bail.
 
-```lang-js
+```js
 // Only render on sales pages
 if (!/\/guides\//.test(window.location.pathname) && !/\/checkout\//.test(window.location.pathname)) return;
 ```

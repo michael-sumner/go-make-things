@@ -12,7 +12,7 @@ In jQuery, <code>.parentsUntil()</code> climbs the DOM tree and returns all pare
 
 <!--more-->
 
-```lang-javascript
+```javascript
 var getParentsUntil = function (elem, parent, selector) {
 
 	var parents = [];
@@ -103,7 +103,7 @@ var getParentsUntil = function (elem, parent, selector) {
 
 And to use it:
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('#some-element');
 var parentsUntil = getParentsUntil(elem, '.some-class');
 var parentsUntilByFilter = getParentsUntil(elem, '.some-class', '[data-something]');

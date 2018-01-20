@@ -23,7 +23,7 @@ Most polyfills (the well written ones, anyways) include an `if` statement to che
 
 For example, this `Array.forEach()` polyfill checks to see if that feature exists, and only adds support if it's not already there.
 
-```lang-js
+```js
 if (window.Array && !Array.prototype.forEach) {
 	Array.prototype.forEach = function (callback, thisArg) {
 		thisArg = thisArg || window;
@@ -42,7 +42,7 @@ However, the file still has to load to run this check, and depending on how many
 
 You would check for support, and if it doesn't exist, load the polyfill.
 
-```lang-js
+```js
 if (window.Array && !Array.prototype.forEach) {
 	loadJS('/path/to/polyfills/array.foreach.js');
 }
@@ -74,7 +74,7 @@ I use a simple feature test&mdash;[an approach the BBC popularized called "cutti
 
 I use the `loadJS()` helper method I mentioned earlier to load the file if the visitor's browser passes the test.
 
-```lang-js
+```js
 if ('querySelector' in document && 'addEventListener' in window) {
     loadJS('/path/to/my/main.js');
 }
@@ -92,7 +92,7 @@ I've been using this approach for about 3 years, and it's worked really well.
 
 To use it, you just load it in a script tag.
 
-```lang-html
+```html
 <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 ```
 

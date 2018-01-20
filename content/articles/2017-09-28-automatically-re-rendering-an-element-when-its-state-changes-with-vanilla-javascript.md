@@ -22,7 +22,7 @@ In React, there are two ways to update state.
 
 The first is the one we covered yesterday, where you assign values directly to the component's `state` property.
 
-```lang-js
+```js
 // Our component
 var todoList = function () {
     // ...
@@ -47,7 +47,7 @@ todoList.state.todos = [
 
 The second option is to call a method called `setState()`, passing in your new data as an object. `setState()` is a function React adds to components. It handles merging in your new data for you, *and* re-renders the component.
 
-```lang-js
+```js
 todoList.setState({todos: [
     {
         item: 'Eat',
@@ -72,13 +72,13 @@ In order for this to work, `setState()` has to know what element to render our c
 
 You *could* pass that in as an argument each time, but an easier way is to store the element as a property on our component. So let's do that first.
 
-```lang-js
+```js
 todoList.elem = document.querySelector('#todo-list');
 ```
 
 Now we can add our `setState()` method.
 
-```lang-js
+```js
 todoList.setState = function (props) {
 
 	// Shallow merge new properties into state object
@@ -99,7 +99,7 @@ todoList.setState = function (props) {
 
 The example above also returns the rendered element back, so you can do things with it after re-rendering.
 
-```lang-js
+```js
 // Update state
 var elem = todoList.setState({todos: []});
 

@@ -16,7 +16,7 @@ Yesterday, we looked at [how to render content with vanilla JavaScript](/renderi
 
 If you missed it, here's the `render()` function we created yesterday.
 
-```lang-js
+```js
 var render = function (template, node) {
     if (!node) return;
     node.innerHTML = template;
@@ -27,7 +27,7 @@ The way it's currently set up, the `template` argument has to be a string.
 
 If it also accepted a function that returned a string, we could set some conditional logic inside the function.
 
-```lang-js
+```js
 // A string
 var templateString = '<h1>Hello world!</h1>';
 
@@ -44,7 +44,7 @@ var templateFunction = function () {
 
 To support this, we'll change the `node.innerHTML = template` line in our function to check if the template is a string or a function, and if it's a function, run it.
 
-```lang-js
+```js
 var render = function (template, node) {
 	if (!node) return;
 	node.innerHTML = (typeof template === 'function' ? template() : template);
@@ -55,7 +55,7 @@ We're using a [ternary operator](/ternary-operators/) here to check the template
 
 Now we can use a string *or* function as our template.
 
-```lang-js
+```js
 render(templateString, document.querySelector('#main'));
 
 // or...

@@ -12,7 +12,7 @@ Yesterday, we looked at [how to use `localStorage` to save user data locally in 
 
 All you need is the `sessionStorage` API, which works just like `localStorage` API.
 
-```lang-javascript
+```javascript
 // Store data
 var someTempData = 'The data that I want to store temporarily.';
 sessionStorage.setItem('myTempDataKey', someTempData);

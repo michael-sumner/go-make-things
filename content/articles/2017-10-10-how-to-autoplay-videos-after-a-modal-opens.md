@@ -28,7 +28,7 @@ My [Modals plugin](https://github.com/cferdinandi/modals) has callbacks that run
 
 Let's create a function called `autoplayVideo()`. We'll pass the modal we want to play the video in as an argument.
 
-```lang-js
+```js
 var autoplayVideo = function (modal) {
 	// Code goes here...
 };
@@ -40,7 +40,7 @@ The first thing we want to do is get our video. We'll use `querySelector()` to s
 
 If the modal doesn't have a matching video, we'll call `return` to bail on the function.
 
-```lang-js
+```js
 var autoplayVideo = function (modal) {
 
 	// Look for a YouTube, Vimeo, or HTML5 video in the modal
@@ -56,7 +56,7 @@ Next, we want to check if the video is an HTML5 video element. HTML5 videos expo
 
 We'll use `tagName` to get the type of element our video is, and `toLowerCase()` to convert it to lowercase, as some browsers return uppercase tag names and string comparisons are case-specific. It it's a match, we can `return` to end our function after playing the video.
 
-```lang-js
+```js
 var autoplayVideo = function (modal) {
 
 	// Look for a YouTube, Vimeo, or HTML5 video in the modal
@@ -78,7 +78,7 @@ Finally, if it's an iframe, we'll get the current `src` attribute and add `autop
 
 Because the video `src` might already have other query parameters on it, we'll check to see if there's a `?` in the URL already. If there is, we'll add an `&` before our autoplay parameter. If not, we'll add a `?`.
 
-```lang-js
+```js
 var autoplayVideo = function (modal) {
 
 	// Look for a YouTube, Vimeo, or HTML5 video in the modal
@@ -108,7 +108,7 @@ This will vary from plugin to plugin. In [my modals script](https://github.com/c
 
 It exposes the button that toggled the modal and the modal itself as arguments.
 
-```lang-js
+```js
 modals.init({
 	callbackOpen: function ( toggle, modal ) {
 		autoplayVideo(modal);
@@ -124,7 +124,7 @@ To accomplish this, we'll create a new `stopVideo()` function, and reverse what 
 
 To stop an HTML5 video, we'll use `video.pause()`. For iframes, we'll use the `replace()` method to remove `?autoplay=1` and `&autoplay=1` from the video source and then reset it. This reloads the video and stops it from playing.
 
-```lang-js
+```js
 /**
  * Stop a YouTube, Vimeo, or HTML5 video
  * @param  {Node} modal  The modal to search inside
@@ -151,7 +151,7 @@ var stopVideo = function (modal) {
 
 Don't forget to pass the `stopVideo()` function in to your callback as well.
 
-```lang-js
+```js
 modals.init({
 	callbackOpen: function ( toggle, modal ) {
 		autoplayVideo(modal);

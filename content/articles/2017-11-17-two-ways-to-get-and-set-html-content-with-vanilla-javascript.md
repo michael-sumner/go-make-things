@@ -14,7 +14,7 @@ Vanilla JavaScript provides two really easy ways to get and set content in the D
 
 You can use the `innerHTML` to get and set HTML content in an element.
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('#some-elem');
 
 // Get HTML content
@@ -26,14 +26,14 @@ elem.innerHTML = 'We can dynamically change the HTML. We can even include HTML e
 
 If you want to add HTML after what's already in an element instead of replacing it entirely you can use `+=`.
 
-```lang-js
+```js
 // Add HTML to the end of an element's existing content
 elem.innerHTML += ' Add this after what is already there.';
 ```
 
 And you can add HTML *before* what's already in an element by adding `+ elem.innerHTML` to the end.
 
-```lang-js
+```js
 // Add HTML to the beginning of an element's existing content
 elem.innerHTML = 'We can add this to the beginning. ' + elem.innerHTML;
 ```
@@ -44,7 +44,7 @@ The `innerHTML` property works great, but what if you just want to get or set co
 
 For that, there's `textContent`. It works just like `innerHTML`, but only gets content, and will ignore HTML tags.
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('#some-elem');
 
 // Get text content

@@ -21,7 +21,7 @@ There are two standard options on events that you're likely to change. Both are 
 
 These options are passed in as an object for the second argument in `new CustomEvent()`.
 
-```lang-js
+```js
 // Create a new event
 var event = new CustomEvent('myCustomEventName', {
 	bubbles: true,
@@ -38,7 +38,7 @@ There's a good chance you may also want to pass in custom details. For example, 
 
 To do this, you can add a `detail` key to the options object, which stores all of your custom details. (It *has* to be named `detail`.)
 
-```lang-js
+```js
 // Create a new event
 var event = new CustomEvent('contentShown', {
 	bubbles: true,
@@ -54,7 +54,7 @@ elem.dispatchEvent(event);
 
 In your event listener, you can access the information through `event.detail`. You can also access the event that triggered the event (when event bubbling is enabled) using `event.target`.
 
-```lang-js
+```js
 document.addEventListener('contentShown', function (event) {
 
 	// The element that triggered the event

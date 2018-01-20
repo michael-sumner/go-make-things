@@ -16,7 +16,7 @@ Imagine you were writing a modal script, and you wanted to close the modal whene
 
 The simplest way is to detect every click that happens on the document, and then check if it's inside the modal window or not.
 
-```lang-js
+```js
 // Detect all clicks on the document
 document.addEventListener('click', function (event) {
 
@@ -31,7 +31,7 @@ document.addEventListener('click', function (event) {
 
 Browser support for `closest()` is a bit spotty, but a small polyfill adds support back to IE9.
 
-```lang-js
+```js
 /**
  * Element.closest() polyfill
  * https://developer.mozilla.org/en-US/docs/Web/API/Element/closest#Polyfill

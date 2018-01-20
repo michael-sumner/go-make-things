@@ -16,7 +16,7 @@ But generally speaking, you want to keep your functions and variables out of the
 
 You can move your code into a *lexical scope* by wrapping it in a function.
 
-```lang-javascript
+```javascript
 // Wrapper for your code
 var myScripts = function () {
 	// Your codes goes here...
@@ -28,7 +28,7 @@ myScripts();
 
 If you want your code to run immediately when the file runs without having to call your function, you can use something called an Immediately Invoked Function Expression (or IIFE). An IIFE is an anonymous (as in, unnamed) function that runs immediately.
 
-```lang-javascript
+```javascript
 ;(function (window, document, undefined) {
 	// Your code goes here...
 })(window, document);

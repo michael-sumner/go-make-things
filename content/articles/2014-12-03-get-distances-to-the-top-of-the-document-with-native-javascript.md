@@ -11,7 +11,7 @@ Last week I added two new code snippets to my [Ditching jQuery](/ditching-jquery
 
 One is used to get your current position on a page from the top of the document. The other will get the distance of any element from the top of the document.
 
-```lang-javascript
+```javascript
 // Get current location's distance from the top of the page
 var position = window.pageYOffset;
 

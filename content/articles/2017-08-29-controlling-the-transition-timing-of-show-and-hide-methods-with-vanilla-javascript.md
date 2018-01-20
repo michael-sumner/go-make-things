@@ -21,7 +21,7 @@ Since we use CSS to control our animations, the first thing we need to do is add
 
 As a refresher, here's our starting CSS.
 
-```lang-css
+```css
 .toggle-content {
     display: none;
     height: 0;
@@ -39,7 +39,7 @@ As a refresher, here's our starting CSS.
 
  We'll add `.show-fast` and `.show-flow` classes to modify the default animations in our `.toggle-content` class.
 
-```lang-css
+```css
 .toggle-content {
 	display: none;
 	height: 0;
@@ -67,7 +67,7 @@ As a refresher, here's our starting CSS.
 
 We'll modify our markup as well, adding our `.show-fast` or `.show-slow` classes as desired to control the animation speed.
 
-```lang-markup
+```markup
 <div class="toggle-content">
 	This content reveals at normal speed.
 </div>
@@ -91,7 +91,7 @@ We've adjusted our CSS, but our script is still assuming a 350ms transition time
 
 As a refresher, here's our starting JavaScript.
 
-```lang-javascript
+```javascript
 // Show an element
 var show = function (elem) {
 
@@ -155,7 +155,7 @@ The easiest way to write (but the hardest to maintain) is to pass in the timing 
 
 We'll use a [ternary operator](/ternary-operators/) to check if the `timing` variable is set. If it is, we'll use it. If not, we'll fallback to `350`.
 
-```lang-javascript
+```javascript
 // Show an element
 var show = function (elem, timing) {
 
@@ -207,7 +207,7 @@ var toggle = function (elem, timing) {
 
 A more automatic approach is to detect if our content area has a `.show-fast` or `.show-slow` class on it and adjust our `setTimeout()` delay accordingly.
 
-```lang-javascript
+```javascript
 var timing = 350;
 if (elem.classList.contains('show-fast')) {
 	timing = 100;
@@ -226,7 +226,7 @@ window.setTimeout(function () {
 
 Since we use this in both the `show()` and `hide()` methods, let's assign it to a helper function.
 
-```lang-javascript
+```javascript
 // Get the transition timing
 var getTiming = function (elem) {
 	var timing = 350;

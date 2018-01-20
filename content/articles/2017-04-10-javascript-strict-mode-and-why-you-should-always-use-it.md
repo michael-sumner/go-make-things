@@ -24,7 +24,7 @@ Always use strict mode on your scripts.
 
 Simple, just add this to your scripts:
 
-```lang-javascript
+```javascript
 'use strict';
 ```
 

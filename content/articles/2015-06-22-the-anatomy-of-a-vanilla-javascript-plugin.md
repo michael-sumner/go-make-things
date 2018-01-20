@@ -16,7 +16,7 @@ For those of you who are in the process of [ditching jQuery](/ditching-jquery/),
 
 Here's the template I start all of my projects from. We're going to walk through it step-by-step.
 
-```lang-javascript
+```javascript
 (function (root, factory) {
 	if ( typeof define === 'function' && define.amd ) {
 		define(['buoy'], factory(root));
@@ -128,7 +128,7 @@ I use a [Universal Module Definition (UMD) wrapper](https://github.com/umdjs/umd
 
 It also creates scope around the plugin, preventing variables and functions from being added to the global scope or being overridden by similarly named variables in other scripts.
 
-```lang-javascript
+```javascript
 (function (root, factory) {
 	if ( typeof define === 'function' && define.amd ) {
 		define(['buoy'], factory(root));
@@ -148,7 +148,7 @@ This sets up the namespacing for your plugin. You should change `myPlugin` to th
 
 Any references to `buoy` pass in my helper library as a dependency. In a browser, `root` is the `window`. This line addresses a Browserify bug that doesn't pass in `root` as `window` like it's supposed to.
 
-```lang-javascript
+```javascript
 typeof global !== 'undefined' ? global : this.window
 ```
 
@@ -160,7 +160,7 @@ typeof global !== 'undefined' ? global : this.window
 
 At the top of my plugin, I setup the variables I'm going to be using throughout. This keeps everything neatly organized and in one place, and makes it easier to access variables without having to specifically pass them in to methods later.
 
-```lang-javascript
+```javascript
 //
 // Variables
 //
@@ -186,7 +186,7 @@ For example, `myPlugin.init()` will be used to initialize the plugin, and is acc
 
 I pass any event listeners-clicks, scrolls, window resizing-through my `eventHandler` method.
 
-```lang-javascript
+```javascript
 /**
  * Handle events
  * @private
@@ -198,7 +198,7 @@ var eventHandler = function (event) {
 
 You can put all sorts of login in here. For example, I like to put my click event listeners on the `document` element, and then check to see if the element that was clicked is one of the ones I care about.
 
-```lang-javascript
+```javascript
 var eventHandler = function (event) {
 	var toggle = buoy.getClosest(event.target, '[data-example]');
 	if ( toggle ) {
@@ -214,7 +214,7 @@ var eventHandler = function (event) {
 
 If you want can pass all event types into a single handler, and use some logic to determine the course of action based on the event type.
 
-```lang-javascript
+```javascript
 var eventHandler = function (event) {
 	if ( event.type === 'scroll' ) {
 		myPlugin.scrollMethod();
@@ -229,7 +229,7 @@ var eventHandler = function (event) {
 
 I like to provide a way to destroy the current initialization of a plugin. This is useful if you need to reinitialize for some reason, or if another script simply needs to halt whatever you've got going. As always, change `myPlugin` to the name of your plugin.
 
-```lang-javascript
+```javascript
 /**
  * Destroy the current initialization.
  * @public
@@ -257,7 +257,7 @@ myPlugin.destroy = function () {
 
 While I sometimes write scripts that run on page load, I generally prefer a deliberate initialization. This allows developers to pass in their own settings that can override plugin defaults. It also lets developers include the script on every page as part of a concatenate file without actually running it on every page.
 
-```lang-javascript
+```javascript
 /**
  * Initialize Plugin
  * @public
@@ -287,25 +287,25 @@ myPlugin.init = function ( options ) {
 
 First, I run a check to make sure the required web and JavaScript APIs are supported. In my case, `document.querySelector` and `window.addEventListener` are the big ones. These are defined in the `supports` variable at the beginning of the script.
 
-```lang-javascript
+```javascript
 if ( !supports ) return;
 ```
 
 Then, I destroy any existing initializations of the script to avoid conflicts or duplicate event listeners.
 
-```lang-javascript
+```javascript
 myPlugin.destroy();
 ```
 
 Next, I merge any user settings with the defaults using the `extend` method in Buoy.
 
-```lang-javascript
+```javascript
 settings = buoy.extend( defaults, options || {} );
 ```
 
 A user would pass settings in like so:
 
-```lang-javascript
+```javascript
 myPlugin.init({
 	someVar: 456,
 	initClass: 'js-changeme',
@@ -314,13 +314,13 @@ myPlugin.init({
 
 I'm a huge advocate of progressive enhancement, and I wait until my JavaScript plugin is initialized before using CSS to hide any content. As a result, I add a class to the `html` element that I can hook onto with my CSS after the script initializes.
 
-```lang-javascript
+```javascript
 document.documentElement.classList.add( settings.initClass );
 ```
 
 Lastly, I create my event listeners.
 
-```lang-javascript
+```javascript
 document.addEventListener('click', eventHandler, false);
 ```
 
@@ -330,7 +330,7 @@ Any methods that should run as soon as the plugin initializes should also be cal
 
 The last thing in my plugins is a return with the `myPlugin` object. This let's developers run any of the public methods in the plugin by prefixing them with `myPlugin.`.
 
-```lang-javascript
+```javascript
 return myPlugin;
 ```
 
@@ -342,7 +342,7 @@ I want to create a plugin called `clickMe.js` that adds a class to a link when t
 
 When the browser is resized, I want to print a message in the console log. It will be same message every time. Here's how I would write this plugin.
 
-```lang-javascript
+```javascript
 (function (root, factory) {
 	if ( typeof define === 'function' && define.amd ) {
 		define(['buoy'], factory(root));

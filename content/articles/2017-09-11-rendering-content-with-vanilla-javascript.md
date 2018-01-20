@@ -20,7 +20,7 @@ React has a function called `render()` that let's you pass in a template and the
 
 We can create something similar with just a few lines of vanilla JavaScript. First, let's set up our `render()` method.
 
-```lang-js
+```js
 var render = function (template, node) {
 	// Codes goes here...
 };
@@ -30,7 +30,7 @@ This follows the same structure as React, where you pass in a template and the n
 
 To render content, we'll use `innerHTML`, a property that let's you set the inner HTML of an element.
 
-```lang-js
+```js
 var render = function (template, node) {
 	node.innerHTML = template;
 };
@@ -38,7 +38,7 @@ var render = function (template, node) {
 
 Now, we can render content like this:
 
-```lang-js
+```js
 var template = '<h1>Hello world!</h1>';
 render(template, document.querySelector('#main'));
 ```
@@ -51,7 +51,7 @@ One thing we should do is make sure a node exists before trying to set it's `inn
 
 We'll simply check that node was provided and exists, and if not, `return` to end our function.
 
-```lang-js
+```js
 var render = function (template, node) {
 	if (!node) return;
 	node.innerHTML = template;
@@ -62,7 +62,7 @@ var render = function (template, node) {
 
 I originally thought of passing in a selector instead of a node, and using `querySelector()` to get the node inside our `render()` function. That would certainly be easier.
 
-```lang-js
+```js
 var render = function (template, selector) {
 	var node = document.querySelector(selector);
 	if (!node) return;

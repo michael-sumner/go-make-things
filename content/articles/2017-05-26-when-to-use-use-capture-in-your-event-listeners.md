@@ -28,7 +28,7 @@ For example, [the `blur` event](https://developer.mozilla.org/en-US/docs/Web/Eve
 
 If I'm listening for blur on a specific input, I can leave `use capture` as `false`.
 
-```lang-javascript
+```javascript
 var someInput = document.querySelector('#my-input');
 someInput.addEventListener('blur', function (event) {
     // Do stuff...
@@ -37,7 +37,7 @@ someInput.addEventListener('blur', function (event) {
 
 BUT... if I wanted to listen to all `blur` events in the `document`, I would set it to `true`.
 
-```lang-javascript
+```javascript
 document.addEventListener('blur', function (event) {
     // Do stuff...
 }, true);

@@ -20,7 +20,7 @@ However, more and more scripts and tutorials are being written with arrow functi
 
 A basic arrow function isn't all that different from a traditional function. The word `function` gets dropped, an a fat arrow (`=>`) is added between the parentheses and brackets (`()` and `{}`, respectively).
 
-```lang-javascript
+```javascript
 // A traditional function
 var add = function (num1, num2) {
 	return num1 + num2;
@@ -39,7 +39,7 @@ var add = (num1, num2) => {
 
 If your function is only returning a value, as is the case with our `add()` function, you can simplify the function even further by dropping the brackets and `return`.
 
-```lang-javascript
+```javascript
 // returns `num1 + num2`
 var add = (num1, num2) => num1 + num2;
 ```

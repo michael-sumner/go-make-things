@@ -50,7 +50,7 @@ I ripped out `wp_nonce_field` from all of the plugin forms, and replaced them wi
 
 First, I added this to each plugin. It creates a custom hash for our `*_submit_id` field to use.
 
-```lang-php
+```php
 /**
  * Create a random submit string hash
  */
@@ -66,7 +66,7 @@ add_action( 'plugins_loaded', 'PLUGIN_NAMESPACE_set_submit_string' );
 
 Then, in our form itself, we'll add a field with that hash as it's value.
 
-```lang-php
+```php
 $form =
 	'<form ...>' .
 		'<input type="hidden" id="PLUGIN_NAMESPACE_submit" name="PLUGIN_NAMESPACE_submit" value="' . get_site_option( 'PLUGIN_NAMESPACE_submit_hash' ) . '">' .
@@ -79,7 +79,7 @@ Finally, on submit, we check that:
 1. The field exists, and
 2. The value matches our stored value.
 
-```lang-php
+```php
 /**
  * Process the form
  */
@@ -105,7 +105,7 @@ The problem with caching the form, of course, is that users won't get success an
 
 Most WordPress caching plugins will ignore URLs with query strings in them, since they often impact the content that's generated. We can use that to our advantage to force an uncached version of the form after a submit.
 
-```lang-php
+```php
 /**
  * Process the form
  */

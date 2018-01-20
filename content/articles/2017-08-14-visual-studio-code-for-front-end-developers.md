@@ -39,7 +39,7 @@ And while ESLint is the new hotness, I use [JSHint](https://marketplace.visualst
 
 Here are my options, saved directly to my settings in Code:
 
-```lang-javascript
+```javascript
 // The jshint options object to provide args to the jshint command.
 "jshint.options": {
 	"evil": true,
@@ -78,7 +78,7 @@ I mostly use [Sketch](https://www.sketchapp.com/) for my SVG work, but the [SVG 
 
 You can configure almost every aspect of the editor. Here are some tweaks I've made to change the default behavior.
 
-```lang-javascript
+```javascript
 // Increase the font size to 15px
 "editor.fontSize": 15,
 

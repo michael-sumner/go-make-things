@@ -22,7 +22,7 @@ We're going to use a `component()` method to handle all off the stuff we did man
 
 Let me show you the whole thing, then we'll talk through it.
 
-```lang-js
+```js
 var component = function (template, props, elem) {
 
 	// Add properties to our template
@@ -74,7 +74,7 @@ There are two ways to use our `component()` method. In each case, we'll pass in 
 
 To use it, you can pass in an existing template and assign your initial state.
 
-```lang-js
+```js
 var todoList = function (props) {
 
     // Setup our template
@@ -124,7 +124,7 @@ Our `todoList()` template is now a component with state, and calling `todoList.s
 
 You can alternatively set up a template for the first time with the `component()` method.
 
-```lang-js
+```js
 var todoList = component(function (props) {
 
     // Setup our template

@@ -20,7 +20,7 @@ But, I was able to put it together with just a few lines of code, and thought yo
 
 My entire code is wrapped in an immediately invoked function expression, or IIFE, to keep my code isolated from the global scope. I'm also using strict mode to help keep my code error free.
 
-```lang-javascript
+```javascript
 ;(function (window, document, undefined) {
 
 	'use strict';
@@ -32,7 +32,7 @@ My entire code is wrapped in an immediately invoked function expression, or IIFE
 
 I'm also using `localStorage` to save visitors' night mode preference, and `querySelector` to get a few elements on the page. Not all browsers support those, so I want to test browser support before doing anything.
 
-```lang-javascript
+```javascript
 ;(function (window, document, undefined) {
 
 	'use strict';
@@ -49,7 +49,7 @@ I want to grab my navigation menu, and add a toggle for night mode as the last i
 
 So that we can easily get it later, I've added an ID of `#night-mode` to my list item. I'm using an SVG icon of a moon, but you could use text or anything else you'd like.
 
-```lang-javascript
+```javascript
 ;(function (window, document, undefined) {
 
 	'use strict';
@@ -75,7 +75,7 @@ When someone clicks the night mode button, we want to add a `.night-mode` class 
 
 Let's find our new button in the DOM and add an event listener to it. We'll prevent the default link behavior with `event.preventDefault()`, and toggle our class on or off of the `<html>` element with `classList.toggle()`.
 
-```lang-javascript
+```javascript
 ;(function (window, document, undefined) {
 
 	'use strict';
@@ -105,7 +105,7 @@ Let's find our new button in the DOM and add an event listener to it. We'll prev
 
 That's a great start! Now we can use `.night-mode` as a hook in our CSS.
 
-```lang-css
+```css
 body {
     background-color: #ffffff;
     color: #272727;
@@ -123,7 +123,7 @@ If someone activates night mode, they shouldn't have to keep toggling it on with
 
 Let's use local storage to save our night mode status. We'll add a local storage value if it's activated, and remove it when it's off.
 
-```lang-javascript
+```javascript
 ;(function (window, document, undefined) {
 
 	'use strict';
@@ -162,7 +162,7 @@ We'll create a second, really small script that we'll include inline in the `<he
 
 We again want to check for `localStorage` support.
 
-```lang-javascript
+```javascript
 ;(function (window, document, undefined) {
 	'use strict';
 	if (!('localStorage' in window)) return;
@@ -171,7 +171,7 @@ We again want to check for `localStorage` support.
 
 Next, let's see if our `nightMode` status is saved in `localStorage`. If it is, we'll add our `.night-mode` class to the `<html>` element.
 
-```lang-javascript
+```javascript
 ;(function (window, document, undefined) {
 	'use strict';
 	if (!('localStorage' in window)) return;

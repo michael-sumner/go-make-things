@@ -14,13 +14,13 @@ Today, I'm going to show you how to check if a click was *outside* of an element
 
 Once again, we'll listen for all clicks on the `document` and use the `closer()` method to see if the click happened inside the element we're interested in. We'll use a bang (`!`) to make our `if` statement a negative check. If there's no parent with the matching selector, the click was outside of our element.
 
-```lang-html
+```html
 <div class="dont-click-me">
     We want to listen for clicks that are outside of this container.
 </div>
 ```
 
-```lang-js
+```js
 // Listen for all clicks on the document
 document.addEventListener('click', function (event) {
 
@@ -34,7 +34,7 @@ document.addEventListener('click', function (event) {
 
 As a reminder, browser support for `closest()` is a bit spotty, but a small polyfill adds support back to IE9.
 
-```lang-js
+```js
 /**
  * Element.closest() polyfill
  * https://developer.mozilla.org/en-US/docs/Web/API/Element/closest#Polyfill

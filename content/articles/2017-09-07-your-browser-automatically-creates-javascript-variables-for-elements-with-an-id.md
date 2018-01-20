@@ -14,11 +14,11 @@ It's part of an obscure feature in the HTML5 spec called "[Named access on the `
 
 ## How it works
 
-```lang-html
+```html
 <div id="example">Here's an example. Open up developer tools and try it yourself.</div>
 ```
 
-```lang-js
+```js
 // Automatically logs `<div id="example">`
 console.log(example);
 ```
@@ -27,7 +27,7 @@ console.log(example);
 
 That's great for element's with one-word and camel-case IDs, but what about something like this?
 
-```lang-html
+```html
 <div id="another-example">Here's another example. Will it work?</div>
 ```
 
@@ -35,14 +35,14 @@ That's great for element's with one-word and camel-case IDs, but what about some
 
 You can't just call `another-example` in the console, because that's not a valid JavaScript variable. You'll get this.
 
-```lang-js
+```js
 console.log(another-example);
 // Uncaught ReferenceError: another is not defined
 ```
 
 Turns out, [the browser attaches these to the `window`](https://dev.to/buntine/dom-elements-with-ids-are-global-variables), and you can reference them as a property.
 
-```lang-js
+```js
 // Logs `<div id="another-example">`
 console.log(window['another-example']);
 ```

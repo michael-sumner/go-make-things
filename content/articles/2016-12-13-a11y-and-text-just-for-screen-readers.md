@@ -14,7 +14,7 @@ In [Kraken](https://cferdinandi.github.io/kraken/), [Keel](https://keel.gomaketh
 
 You can also set content to reappear if in focus (useful for things like [skip nav links](/hidden-content-for-better-a11y/) for sighted keyboard users).
 
-```lang-css
+```css
 /**
  * Visually hide an element, but leave it available for screen readers
  * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css
@@ -49,7 +49,7 @@ You can also set content to reappear if in focus (useful for things like [skip n
 
 However, I just learned that on some screen readers, that `width: 1px` setting [can cause all of the text inside to collapse into a single word](https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe#.a4reakhtm). For example:
 
-```lang-markup
+```markup
 <a class="screen-reader" href="#main">Skip to the main content</a>
 ```
 
@@ -61,7 +61,7 @@ Skiptothemainnav
 
 Fortunately, J. Renée Beach has fix! Just add `white-space: nowrap;` to prevent the collapse:
 
-```lang-css
+```css
 /**
  * Visually hide an element, but leave it available for screen readers
  * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css
@@ -82,7 +82,7 @@ Fortunately, J. Renée Beach has fix! Just add `white-space: nowrap;` to prevent
 
 And for focus visible text, I set it back to normal.
 
-```lang-css
+```css
 /**
  * Extends the .screen-reader class to allow the element to be focusable when navigated to via the keyboard
  * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css

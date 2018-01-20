@@ -24,13 +24,13 @@ The `pushState()` method let's you update the URL *and* create a new item in the
 
 Here's how it works.
 
-```lang-js
+```js
 history.pushState(state, pageTitle, url);
 ```
 
 `state` is an object containing some information about the new URL. It can be access via JavaScript using `history.state`. In an app, you might include something like the page ID or some other information you need to access easily.
 
-```lang-js
+```js
 history.pushState({
     id: 'homepage'
 }, pageTitle, url);
@@ -39,7 +39,7 @@ history.pushState({
 The `pageTitle` is the updated title the browser should display. Unfortunately, it's a pointless item as many browsers ignore it.
 
 
-```lang-js
+```js
 history.pushState({
     id: 'homepage'
 }, 'Home | My App', url);
@@ -47,7 +47,7 @@ history.pushState({
 
 Finally, the `url` is, of course, the new URL to update the page to.
 
-```lang-js
+```js
 history.pushState({
     id: 'homepage'
 }, 'Home | My App', 'http://my-app-url.com/?p=homepage');
@@ -59,7 +59,7 @@ You can also listen for changes to the URL and update your page content accordin
 
 This fires any time someone clicks the forward or backward button.
 
-```lang-js
+```js
 windown.onpopstate = function (event) {
     if (history.state && history.state.id === 'homepage') {
         // Render new content for the hompage
@@ -69,7 +69,7 @@ windown.onpopstate = function (event) {
 
 You can also use this with `addEventListener`, which is my preferred approach.
 
-```lang-js
+```js
 window.addEventListener('popstate', function (event) {
     if (history.state && history.state.id === 'homepage') {
         // Render new content for the hompage

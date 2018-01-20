@@ -20,7 +20,7 @@ Fortunately, there's an easy fix!
 
 Just drop this snippet, courtesy of [Ryan Hamilton](https://gist.github.com/Fantikerz/5557617), into your `functions.php` file:
 
-```lang-php
+```php
 /**
  * Remove empty paragraphs created by wpautop()
  * @author Ryan Hamilton

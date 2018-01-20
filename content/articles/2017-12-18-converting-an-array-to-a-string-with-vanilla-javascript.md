@@ -12,7 +12,7 @@ You can use the `Array.join()` method to convert an array of items into a string
 
 By default, it will separate each item with a comma, but you can pass in any assortment of characters you'd like&mdash;dashes, spaces, or even an empty string to smush everything together into one long word.
 
-```lang-js
+```js
 var shoppingList = [
 	'apples',
 	'pears',

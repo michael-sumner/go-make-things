@@ -24,7 +24,7 @@ When I encounter a problem like this, I start with the last known working piece 
 
 As a quick refresher from yesterday's article, here's our event listener:
 
-```lang-js
+```js
 document.addEventListener('click', function (event) {
 
     // Make sure clicked element is our toggle
@@ -51,7 +51,7 @@ document.addEventListener('click', function (event) {
 
 I started by logging `running!` in the console immediately after the click event was called to make sure it was working properly. Then I clicked the button.
 
-```lang-js
+```js
 document.addEventListener('click', function (event) {
 
     console.log('running!');
@@ -65,7 +65,7 @@ So far, so good.
 
 Next, I logged the `toggleId` variable to make sure the right element&mdash;the close button&mdash;was being picked up by the listener, and clicked the button again.
 
-```lang-js
+```js
 document.addEventListener('click', function (event) {
 
     // Make sure clicked element is our toggle
@@ -81,7 +81,7 @@ document.addEventListener('click', function (event) {
 
 As expected, the close button's `[data-toggle]` attribute value&mdash;`#close`&mdash;was logged. Then, I logged the `content` variable.
 
-```lang-js
+```js
 document.addEventListener('click', function (event) {
 
     // Make sure clicked element is our toggle

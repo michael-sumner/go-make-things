@@ -223,7 +223,7 @@ There's a simple CSS class you can use to include supporting text in your HTML b
 ***Note:*** *the `.screen-reader` class was updated on December 12, 2016 to a different technique that works better.*
 
 <em>CSS</em>
-```lang-css
+```css
 /**
  * Visually hide an element, but leave it available for screen readers
  * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css

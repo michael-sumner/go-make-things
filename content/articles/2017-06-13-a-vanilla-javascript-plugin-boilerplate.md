@@ -12,7 +12,7 @@ Yesterday I posted a video video on [how I structure my JavaScript plugins](/how
 
 It's annotated with a bunch of comments, but if I did a bad job documenting something or have any questions, email me and let me know!
 
-```lang-javascript
+```javascript
 (function (root, factory) {
     if ( typeof define === 'function' && define.amd ) {
         define([], factory(root));

@@ -18,7 +18,7 @@ Ah, yes, sorry about that!
 
 You pass a callback function into `forEach()`, and that callback accepts 3 arguments that automatically get passed into the function itself: `item`, `index` or `key`, and the array/nodelist/object list.
 
-```lang-javascript
+```javascript
 someArray.forEach(function (item, index, list) {
     // Code goes here...
 });
@@ -28,7 +28,7 @@ The `item` is the current item in the loop, the `index` is the equivalent of `i`
 
 For example...
 
-```lang-javascript
+```javascript
 // This is our array...
 var snacks = [
 	'cookies',
@@ -47,7 +47,7 @@ snacks.forEach(function (snack, index, snacks)) {
 
 We could also name our variables something else.
 
-```lang-javascript
+```javascript
 snacks.forEach(function (yummyThing, num, desserts)) {
 	console.log(yummyThing); // cookies, chips, etc.
 	console.log(num); // 0, 1, 2
@@ -57,7 +57,7 @@ snacks.forEach(function (yummyThing, num, desserts)) {
 
 The arguments must be passed in order, but each one is optional. You often only need the value, which is why that's the first argument passed in.
 
-```lang-javascript
+```javascript
 snacks.forEach(function (snack)) {
 	console.log(snack); // cookies, chips, etc.
 };

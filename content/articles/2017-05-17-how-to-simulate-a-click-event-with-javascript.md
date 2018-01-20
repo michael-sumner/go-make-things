@@ -24,7 +24,7 @@ WTF??
 
 Fortunately, there's a way to get this behavior using the `MouseEvent` API. Here's a small little helper method you can use.
 
-```lang-javascript
+```javascript
 /**
  * Simulate a click event.
  * @public
@@ -44,7 +44,7 @@ var simulateClick = function (elem) {
 
 To use it, call the function, passing in the element you want to simulate the click on.
 
-```lang-javascript
+```javascript
 var someLink = document.querySelector('a');
 simulateClick(someLink);
 ```

@@ -23,7 +23,7 @@ This determines the capabilities of the visitor's browser and device. I usually 
 
 That typically means things like `addEventListener()` and `querySelector()`.
 
-```lang-js
+```js
 if ('querySelector' in document && 'addEventListener' in window) {
 	// The browser supports these methods.
 	// We can load our JS.
@@ -34,7 +34,7 @@ You could also check for things like the existence of particular DOM element.
 
 For example, if you had a syntax highlighting script, you might only want to load that on pages with code to be highlighted. You could check for `pre` or `code` elements before loading it.
 
-```lang-js
+```js
 if ('querySelector' in document && document.querySelector('pre')) {
 	// There's code on the page to highlight.
 	// We can load our syntax highlighter.
@@ -52,7 +52,7 @@ This involves a few steps:
 2. Add the URL for my external JavaScript file as the script element `src` attribute.
 3. Inject the script element into the DOM using `insertBefore()`.
 
-```lang-js
+```js
 if ('querySelector' in document && 'addEventListener' in window) {
 
 	// Create a script tag
@@ -76,7 +76,7 @@ If you find yourself doing this a lot (or at least more than once on a site), th
 
 Inside your feature test, you'd call `loadJS('/path/to/my/scripts.js')` instead of manually creating a new element, getting the first script element, and so on.
 
-```lang-js
+```js
 if ('querySelector' in document && 'addEventListener' in window) {
 
 	// Load our scripts

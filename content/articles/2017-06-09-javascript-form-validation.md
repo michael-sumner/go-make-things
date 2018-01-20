@@ -21,7 +21,7 @@ Most of them require you to manually specify your validation criteria with JavaS
 
 Validate.js hooks into the browser-native form input types (like `email`, `number`, and `url`) and validation attributes (like `required`, `pattern`, and `max` and `min`). All you need to do is include it on your site and run `validate.init()`. The script handles the rest.
 
-```lang-markup
+```markup
 <div>
 	<label for="email">Email</label>
 	<input type="email" id="email" required>

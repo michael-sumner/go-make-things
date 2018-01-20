@@ -25,7 +25,7 @@ The DOM, or Document Object Model, is the nested tree of elements on a webpage. 
 
 A virtual DOM is a JavaScript-based map of the actual DOM using nested objects. For example, this:
 
-```lang-html
+```html
 <div class="sandwich" id="tuna">
 	<div class="topping" id="lettuce">Yum!</div>
 </div>
@@ -33,7 +33,7 @@ A virtual DOM is a JavaScript-based map of the actual DOM using nested objects. 
 
 Might become something like this:
 
-```lang-javascript
+```javascript
 {
 	div: {
 		class: 'sandwich',

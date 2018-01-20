@@ -19,7 +19,7 @@ The easiest way to set an element's style with JavaScript is using the `style` p
 
 JavaScript uses camel case instead of a dash for property names (you can [view a full list of properties on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)), but it's pretty straightforward otherwise:
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('#some-element');
 
 // Set color to purple
@@ -34,7 +34,7 @@ elem.style.height = '150px';
 
 The `style` property adds styles inline on the element.
 
-```lang-markup
+```markup
 <div id="some-element" style="color: purple; background-color: #e5e5e5; height: 150px;">
     Hello, world!
 </div>
@@ -48,13 +48,13 @@ An alternate approach is to inject a `<style>` element with your CSS properties 
 
 First, we'll create a style element.
 
-```lang-javascript
+```javascript
 var style = document.createElement('style');
 ```
 
 Next, we'll add our styles by giving the `style` an `innerHTML`.
 
-```lang-javascript
+```javascript
 var style = document.createElement('style');
 style.innerHTML =
 	'.some-element {' +
@@ -66,7 +66,7 @@ style.innerHTML =
 
 Finally, we'll inject the styles into the DOM. To do this, we'll grab the first `script` tag we find in the DOM and use `insertBefore()` to add our `style` tag before it.
 
-```lang-javascript
+```javascript
 // Create our stylesheet
 var style = document.createElement('style');
 style.innerHTML =

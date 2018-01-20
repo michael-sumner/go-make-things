@@ -15,7 +15,7 @@ Jeremy Keith did a fantastic job tackling touch questions like this in his recen
 
 > Here again, the real question to ask is “what is the core functionality?” Building a camera app is a means to an end, not the end itself. You need to ask what the end goal is. Perhaps it’s “enable people to share photos with their friends.” Going back to good ol’ HTML, you can accomplish that task with:
 >
-> ```lang-javascript
+> ```javascript
 > <input type="file" accept="image/*">
 > ```
 > Now that you’ve got that out of the way, you can spend the majority of your time making the best damn camera app you can, using all the latest browser technologies. (Perhaps WebRTC? Maybe use a canvas element to display the captured image data and apply CSS filters on top?)

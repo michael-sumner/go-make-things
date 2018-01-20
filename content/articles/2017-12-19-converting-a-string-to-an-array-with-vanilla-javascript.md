@@ -16,7 +16,7 @@ The `String.split()` method converts a string into an array of strings, splittin
 
 If you had a comma-separated list, you could split it into an array like this.
 
-```lang-js
+```js
 var shoppingList = 'apples,pears,cookies,bread';
 
 // Returns ["apples", "pears", "cookies", "bread"]
@@ -25,7 +25,7 @@ var shoppingListArray = shoppingList.split(',');
 
 If you had spaces after your commas, though, you'd want to include that in your `delimiter` argument (the characters to split on).
 
-```lang-js
+```js
 var shoppingList = 'apples, pears, cookies, bread';
 
 // Returns ["apples", "pears", "cookies", "bread"]
@@ -34,7 +34,7 @@ var shoppingListArray = shoppingList.split(', ');
 
 You can split by almost anything. Dashes, for example...
 
-```lang-js
+```js
 var shoppingList = 'apples - pears - cookies - bread';
 
 // Returns ["apples", "pears", "cookies", "bread"]
@@ -43,7 +43,7 @@ var shoppingListArray = shoppingList.split(' - ');
 
 Or even spaces...
 
-```lang-js
+```js
 var shoppingList = 'apples pears cookies bread';
 
 // Returns ["apples", "pears", "cookies", "bread"]
@@ -56,7 +56,7 @@ To limit the number of items in your array, pass in a second argument with the m
 
 For example, let's limit our shopping list to just two items.
 
-```lang-js
+```js
 var shoppingList = 'apples, pears, cookies, bread';
 
 // Returns ["apples", "pears"]

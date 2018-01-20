@@ -12,7 +12,7 @@ I've started working on my next [pocket guide](/guides/), *Variables, Functions,
 
 One of the things I get asked about a fair bit is the difference between these two ways of writing a function.
 
-```lang-js
+```js
 // Function declaration
 function add(num1, num2) {
 	return num1 + num2;
@@ -36,7 +36,7 @@ What does that mean, exactly?
 
 Specifically, all of the functions written with function declarations are "known" before any code is run. This allows you to call a function before you declare.
 
-```lang-js
+```js
 /**
  * This works!
  */
@@ -57,7 +57,7 @@ function subtract(num1, num2) {
 
 *Function expressions*, however, do **not** hoist. If you try to run a function before you've expressed it, you'll get an error.
 
-```lang-js
+```js
 /**
  * This works!
  */

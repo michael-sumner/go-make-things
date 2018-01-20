@@ -21,7 +21,7 @@ jQuery's `show()`, `hide()`, and `toggle()` methods use [inline CSS](/two-ways-t
 
 As we learned yesterday, that's easy to do with the `style` property.
 
-```lang-javascript
+```javascript
 // Show an element
 var show = function (elem) {
 	elem.style.display = 'block';
@@ -61,7 +61,7 @@ You can name the class anything you want, but for our purposes, we'll use `.is-v
 
 The `classList` set of methods let us add, remove, and toggle classes, so this approach requires no logic. The browser does all of the heavy lifting for us.
 
-```lang-javascript
+```javascript
 // Show an element
 var show = function (elem) {
 	elem.classList.add('is-visible');
@@ -80,7 +80,7 @@ var toggle = function (elem) {
 
 We also need to add some CSS to control our content visibility.
 
-```lang-css
+```css
 .toggle-content {
 	display: none;
 }
@@ -94,7 +94,7 @@ We also need to add some CSS to control our content visibility.
 
 The nice thing about this approach is that you can easily set the default visibility of an element. Use the `.is-visible` class to make it visible by default. Leave it off to hide it.
 
-```lang-markup
+```markup
 <div class="toggle-content is-visible">Visible by default.</div>
 
 <div class="toggle-content">Hidden by default.</div>

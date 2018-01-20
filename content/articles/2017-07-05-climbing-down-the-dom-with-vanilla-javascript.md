@@ -18,13 +18,13 @@ Climbing down the DOM with vanilla JavaScript is much easier than climbing up. L
 
 The `querySelector()` and `querySelectorAll` methods are typically used on the document to get all matching elements on a page.
 
-```lang-javascript
+```javascript
 var elem = document.querySelectorAll('.some-selector');
 ```
 
 But, you can also use them to search *within* a particular element rather than just the whole document. You can, for example, find an element with the `.pick-me` class, and then search within that element to find another element with the `.and-me` class.
 
-```lang-javascript
+```javascript
 var pickMe = document.querySelector('.pick-me');
 var andMe = pickMe.querySelector('.and-me');
 ```
@@ -33,7 +33,7 @@ This will only look for `.and-me` inside your `.pick-me` element.
 
 You can similarly use `querySelectorAll()` to get all matching elements inside the element.
 
-```lang-javascript
+```javascript
 var pickMe = document.querySelector('.pick-me');
 var meToo = pickMe.querySelectorAll('.me-too');
 ```
@@ -42,7 +42,7 @@ var meToo = pickMe.querySelectorAll('.me-too');
 
 The `querySelector()` and `querySelectorAll` methods search within all sub-elements of the parent element.
 
-```lang-markup
+```markup
 <div class="parent">
 	<div class="sub-element-1">...</div>
 	<div class="sub-element-2">
@@ -58,7 +58,7 @@ In the example above, if you used `querySelector()` or `querySelectorAll` on the
 
 If you only want to search direct descendants, you can use the `.childNodes` property.
 
-```lang-javascript
+```javascript
 var parent = document.querySelector('.parent');
 var directDecendants = parent.childNodes;
 ```

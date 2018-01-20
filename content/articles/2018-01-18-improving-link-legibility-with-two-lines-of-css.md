@@ -22,7 +22,7 @@ Print figured this out years ago, and breaks the underline for those descenders.
 
 For a short while, you could use the `text-decoration-skip` property set to `ink`.
 
-```lang-css
+```css
 a {
     text-decoration: underline;
     text-decoration-skip: ink;
@@ -31,7 +31,7 @@ a {
 
 This has since been moved to it's own property: `text-decoration-skip-ink`, with a value of `auto`. Browser support is spotty, so for now, use both.
 
-```lang-css
+```css
 a {
     text-decoration: underline;
     text-decoration-skip: ink;

@@ -19,7 +19,7 @@ There are two caveats to this:
 
 You can define a variable in a function that has the same name as a *global* or *lexical* variable without modifying that variable.
 
-```lang-javascript
+```javascript
 var sandwich = 'tuna';
 
 var logSandwich = function () {
@@ -37,7 +37,7 @@ console.log(sandwich);
 
 If you omit the leading `var`, you can update a variable in the *global* or *lexical* scope from within a function.
 
-```lang-javascript
+```javascript
 var sandwich = 'tuna';
 
 // logs "tuna"

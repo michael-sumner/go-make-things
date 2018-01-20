@@ -22,7 +22,7 @@ This will only work if the script in question has a public method or namespace t
 
 Instead of checking that `document.body` exists like we did yesterday, we'll look to see if the function name is available in the `window`. For example, to check for when jQuery is available, you'd do this.
 
-```lang-js
+```js
 var isLoaded = function () {
 
     // If our file is loaded
@@ -49,7 +49,7 @@ If your script does any sort of DOM manipulation, you could also check for those
 
 Perhaps it adds a class to `document.body` or to a specific element. You could do something like this:
 
-```lang-js
+```js
 var isLoaded = function () {
 
     // If our file is loaded
@@ -70,7 +70,7 @@ window.requestAnimationFrame(isLoaded);
 
 Or maybe it injects and element into the DOM that didn't exist before. You can check to see if it exists yet using `querySelector()`, like this.
 
-```lang-js
+```js
 var isLoaded = function () {
 
     // If our file is loaded
@@ -93,7 +93,7 @@ window.requestAnimationFrame(isLoaded);
 
 `requestAnimationFrame()` works in all modern browsers, and IE10 and up. You can push support back to older browsers with [this polyfill from Paul Irish](https://gist.github.com/paulirish/1579671).
 
-```lang-js
+```js
 // http://paulirish.com/2011/requestanimationframe-for-smart-animating/
 // http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
 

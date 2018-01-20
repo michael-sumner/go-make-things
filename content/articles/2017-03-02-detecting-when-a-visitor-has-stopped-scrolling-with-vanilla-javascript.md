@@ -20,7 +20,7 @@ When scrolling has stopped, the delayed function *doesn't* get cleared and runs.
 
 ## The Code
 
-```lang-javascript
+```javascript
 // Setup isScrolling variable
 var isScrolling;
 
@@ -47,7 +47,7 @@ I've thrown together a [really lightweight helper function, `scrollStop.js`](htt
 
 Add the function to your script and then pass in the code to run when scrolling stops as a callback.
 
-```lang-javascript
+```javascript
 var scrollStop = function (callback) {
     ...
 }

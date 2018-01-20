@@ -38,7 +38,7 @@ It builds on an article I wrote on [how to show and hide content with vanilla JS
 
 Our buttons have a `[data-toggle]` attribute on them. This attribute contains the ID of the element to show or hide, and is used by our script to toggle visibility.
 
-```lang-html
+```html
 <button class="btn" data-toggle="#example">
 	Filter
 </button>
@@ -89,7 +89,7 @@ By default, content with the `.toggle-content` class is hidden. When it also has
 
 This class is added dynamically with JavaScript.
 
-```lang-css
+```css
 /**
  * Hide toggled content by default
  */
@@ -127,7 +127,7 @@ The script includes [three helper methods](/how-to-show-and-hide-elements-with-v
 
 It also includes an event listener to listen for clicks on the document. If the clicked element has a `[data-toggle]` attribute, we'll use it to find our content area and toggle visibility.
 
-```lang-js
+```js
 /**
  * Helper methods
  * https://gomakethings.com/how-to-show-and-hide-elements-with-vanilla-javascript/

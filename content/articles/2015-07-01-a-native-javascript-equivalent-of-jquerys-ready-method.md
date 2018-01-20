@@ -10,7 +10,7 @@ url: /2015/07/01/a-native-javascript-equivalent-of-jquerys-ready-method
 
 Modern web browsers&mdash;including IE9 and above&mdash;provide an easy way to run scripts once DOM content is fully loaded:
 
-```lang-javascript
+```javascript
 document.addEventListener( 'DOMContentLoaded', function () {
 	// Do stuff...
 }, false );
@@ -22,7 +22,7 @@ Fortunately, there's a really easy, lightweight helper method you can use instea
 
 [snippet id="8395"]
 
-```lang-javascript
+```javascript
 var ready = function ( fn ) {
 
     // Sanity check

@@ -20,7 +20,7 @@ But, with about 8 lines of code, we can easily create a vanilla JavaScript helpe
 
 First, let's create a helper function named `getSiblings()`.
 
-```lang-javascript
+```javascript
 var getSiblings = function (elem) {
 	// Code goes here...
 };
@@ -28,7 +28,7 @@ var getSiblings = function (elem) {
 
 Now, let's create an array that we'll push each sibling element to.
 
-```lang-javascript
+```javascript
 var getSiblings = function (elem) {
 	var siblings = [];
 };
@@ -38,7 +38,7 @@ Next, we want to grab the first sibling of our element. Using a list item as an 
 
 We'll do that using the `.parentNode` property to get the parent list, and then the `.firstChild` property to get the first item.
 
-```lang-javascript
+```javascript
 var getSiblings = function (elem) {
 	var siblings = [];
 	var sibling = elem.parentNode.firstChild;
@@ -53,7 +53,7 @@ We'll use a `for` loop for this. After each iteration of the loop, we'll update 
 
 As long as a `sibling` exists, we'll keep looping through.
 
-```lang-javascript
+```javascript
 var getSiblings = function (elem) {
 	var siblings = [];
 	var sibling = elem.parentNode.firstChild;
@@ -69,7 +69,7 @@ We also want to make sure that the current `sibling` is really an element and no
 
 Otherwise, we'll push our `sibling` to the `siblings` array.
 
-```lang-javascript
+```javascript
 var getSiblings = function (elem) {
 	var siblings = [];
 	var sibling = elem.parentNode.firstChild;
@@ -82,7 +82,7 @@ var getSiblings = function (elem) {
 
 And finally, when the loop is done, we'll return it.
 
-```lang-javascript
+```javascript
 var getSiblings = function (elem) {
 	var siblings = [];
 	var sibling = elem.parentNode.firstChild;
@@ -96,7 +96,7 @@ var getSiblings = function (elem) {
 
 You would use it like this:
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('#some-element');
 var siblings = getSiblings(elem);
 ```

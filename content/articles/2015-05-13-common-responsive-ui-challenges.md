@@ -63,7 +63,7 @@ When smart phones first came out, most websites were not designed for mobile dev
 
 You need to tell mobile browsers that your site is mobile-optimized so that they get the appropriate zooming and scaling. Add this to the `<head>` element of your site:
 
-```lang-html
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 

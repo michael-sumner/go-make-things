@@ -16,7 +16,7 @@ Yesterday we looked at [how to render dynamic and conditional content into the D
 
 The first and easiest way is to return our element after it's rendered. Here's our script so far.
 
-```lang-js
+```js
 var render = function (template, node) {
 	if (!node) return;
 	node.innerHTML = (typeof template === 'function' ? template() : template);
@@ -25,7 +25,7 @@ var render = function (template, node) {
 
 Let's return the `node` element after it runs.
 
-```lang-js
+```js
 var render = function (template, node) {
 	if (!node) return;
 	node.innerHTML = (typeof template === 'function' ? template() : template);
@@ -35,7 +35,7 @@ var render = function (template, node) {
 
 Now we can set our `render()` function to a variable and continue to work with it.
 
-```lang-js
+```js
 // Render the content
 var mainContent = render('<h1>Hello world!</h1>', document.querySelector('#main'));
 
@@ -49,7 +49,7 @@ We may also want to expose our rendered element to other scripts. To do that, we
 
 We should emit our event on the `node`, but set it to bubble so that you can listen for it further up the DOM.
 
-```lang-js
+```js
 var render = function (template, node) {
 	if (!node) return;
 	node.innerHTML = (typeof template === 'function' ? template() : template);
@@ -63,7 +63,7 @@ var render = function (template, node) {
 
 Now you can listen for rendered DOM elements like this.
 
-```lang-js
+```js
 document.addEventListener('elementRendered', function (event) {
 	var elem = event.target; // The rendered element
 }, false);

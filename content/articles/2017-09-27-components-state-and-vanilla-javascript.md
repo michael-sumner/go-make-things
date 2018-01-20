@@ -30,7 +30,7 @@ Get it? Yea, I think it's weird, too!
 
 Historically, you might have a set of a data that sits globally within your application. You'd reference it within your templates.
 
-```lang-js
+```js
 // The data
 var data = {
 	todos: [
@@ -81,7 +81,7 @@ render(todoList, document.querySelector('#todo-list'));
 
 In frameworks like React, the data (ie, the *state*) is associated with the template, or *component*.
 
-```lang-js
+```js
 // The template
 var todoList = function () {
 
@@ -136,7 +136,7 @@ render(todoList, document.querySelector('#todo-list'));
 
 Now when you update your todo data, you'll update the `todoList()` state instead a global data set.
 
-```lang-js
+```js
 // The `Eat` item is marked as complete
 todoList.state.todos = [
 	{

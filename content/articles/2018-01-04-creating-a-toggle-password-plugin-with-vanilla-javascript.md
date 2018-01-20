@@ -15,7 +15,7 @@ Yesterday, we looked at [how to toggle password visibility with vanilla JS](/how
 
 If you didn't read yesterday's article, here's the markup for our form.
 
-```lang-html
+```html
 <label for="username">Username</label>
 <input type="text" name="username" id="username">
 
@@ -30,7 +30,7 @@ If you didn't read yesterday's article, here's the markup for our form.
 
 And here's our final script.
 
-```lang-js
+```js
 // Listen for click events
 document.addEventListener('click', function (event) {
 
@@ -65,7 +65,7 @@ To do that, we need to use a more abstract selector for our checkbox, and dynami
 
 To achieve this, we'll use a data attribute, `[data-show-password]`, and use the selector for our password field(s) as it's value.
 
-```lang-html
+```html
 <label for="password">Password</label>
 <input type="password" name="password" id="password">
 
@@ -79,7 +79,7 @@ To achieve this, we'll use a data attribute, `[data-show-password]`, and use the
 
 In our JavaScript file, we'll change our event listener to check for the `[data-show-password]` attribute using the `hasAttribute()` method.
 
-```lang-js
+```js
 // Listen for click events
 document.addEventListener('click', function (event) {
 
@@ -93,7 +93,7 @@ document.addEventListener('click', function (event) {
 
 If it's our checkbox, we'll use the attribute value (via the `getAttribute()` method) to get our password field.
 
-```lang-js
+```js
 // Listen for click events
 document.addEventListener('click', function (event) {
 
@@ -124,7 +124,7 @@ To toggle multiple password fields, we need to make just a few small tweaks.
 
 First, we'll use `querySelectorAll()` to get all all matching selectors instead of just one.
 
-```lang-js
+```js
 // Listen for click events
 document.addEventListener('click', function (event) {
 
@@ -142,7 +142,7 @@ document.addEventListener('click', function (event) {
 
 Next, we need to loop through each result instead of just running our code.
 
-```lang-js
+```js
 // Listen for click events
 document.addEventListener('click', function (event) {
 
@@ -172,7 +172,7 @@ document.addEventListener('click', function (event) {
 
 Now, we can toggle multiple password fields in a form by adding a more generic selector for our password fields (for example, a `.passwords` class).
 
-```lang-html
+```html
 <label for="password">Password</label>
 <input type="password" name="password" id="password" class="password">
 

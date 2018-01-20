@@ -14,7 +14,7 @@ The first argument is where to start. Use `0` to include the first character. Th
 
 Here are a few examples...
 
-```lang-javascript
+```javascript
 var text = 'Cape Cod potato chips';
 var startAtFive = text.slice(5);
 var startAndEnd = text.slice(5, 8);

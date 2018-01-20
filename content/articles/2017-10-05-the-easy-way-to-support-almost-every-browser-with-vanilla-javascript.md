@@ -22,7 +22,7 @@ A few months ago I wrote *very* briefly about [Polyfill.io](http://polyfill.io).
 
 Polyfill.io is a polyfill service written by [Jonathan Neal](https://github.com/jonathantneal) for the Financial Times, who is an amazing contributor to the open source community. To use it, you just add this to your site:
 
-```lang-html
+```html
 <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 ```
 

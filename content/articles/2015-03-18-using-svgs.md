@@ -36,7 +36,7 @@ There are lots of different ways you can work with SVGs. I use two different app
 
 Open the SVG file in your text editor of choice, and then literally copy and paste the content from the file into your markup.
 
-```lang-markup
+```markup
 <svg>...</svg>
 ```
 
@@ -57,7 +57,7 @@ However, this approach requires comfort working with command line, and if you're
 
 Add the contents of your sprite to the markup in a hidden container.
 
-```lang-markup
+```markup
 <div hidden>
 	<svg>...</svg>
 </div>
@@ -65,7 +65,7 @@ Add the contents of your sprite to the markup in a hidden container.
 
 To use an icon, simply reference its ID using the `<use>` element.
 
-```lang-markup
+```markup
 <svg class="icon">
     <use xlink:href="#icon-logo"></use>
 </svg>
@@ -73,7 +73,7 @@ To use an icon, simply reference its ID using the `<use>` element.
 
 Add some simple styling with CSS (the `.svg` class is added via a [simple feature detection script](#fallbacks)).
 
-```lang-css
+```css
 /**
  * Hide icons by default to prevent blank spaces in unsupported browsers
  */
@@ -104,7 +104,7 @@ While this will gain you some browser caching benefits, I've found that perceive
 
 If you're using WordPress, you can configure your theme to automatically add your SVG sprite into your markup without having to manually update files when you make changes. Add this to your `header.php` file, right after the opening `<body>` tag (update the path to point to your SVG sprite in your theme directory).
 
-```lang-php
+```php
 <div hidden>
 	<?php echo file_get_contents( get_template_directory_uri() . '/path/to/your/svg-sprite.svg' ); ?>
 </div>
@@ -118,7 +118,7 @@ SVG is well supported in IE 9 and up, and all modern browsers, as well as Opera 
 
 I implement a simple feature text inline in the `<head>`. This adds an `.svg` class to the `<html>` element, which you can use to add fallback content.
 
-```lang-javascript
+```javascript
 ;(function (window, document, undefined) {
 	'use strict';
 	var supports = !!document.createElementNS && !!document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGRect; // SVG feature detection
@@ -130,7 +130,7 @@ I implement a simple feature text inline in the `<head>`. This adds an `.svg` cl
 
 I add a class to my CSS for supporting text. It's always accessible to screen readers, but on visually displayed if SVGs are not supported.
 
-```lang-css
+```css
 /**
  * Hide fallback text content if browser supports SVG
  */
@@ -148,7 +148,7 @@ I add a class to my CSS for supporting text. It's always accessible to screen re
 
 You would use like this.
 
-```lang-markup
+```markup
 <a href="http://twitter.com/...">
 	<svg class="icon">
 		<use xlink:href="#icon-twitter"></use>

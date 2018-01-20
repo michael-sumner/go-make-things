@@ -18,7 +18,7 @@ When our event fires, if `timeout` has no value, we'll assign a `setTimeout` fun
 
 If it's been less than 66ms from when the last event ran, nothing else will happen.
 
-```lang-javascript
+```javascript
 // Setup a timer
 var timeout;
 

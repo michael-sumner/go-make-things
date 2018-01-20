@@ -19,7 +19,7 @@ Just like yesterday, we’re going to look at two ways to do this:
 
 Unlike adding an element to the beginning of a list, the traditional way of adding elements to the *end* of a list is actually really easy, thanks to the `appendChild()` method.
 
-```lang-js
+```js
 // Create a new element
 var newNode = document.createElement('div');
 
@@ -37,7 +37,7 @@ The `appendChild()` method is supported back to at least IE6.
 
 ES6 introduces `append()` as a complement to the `prepend()` method we looked at yesterday. It works basically the same as `appendChild()`.
 
-```lang-js
+```js
 // Create a new element
 var newNode = document.createElement('div');
 
@@ -54,7 +54,7 @@ Unlike `appendChild()`, `append()` only works in newer version of Chrome, Firefo
 
 You can extend support back to IE7 with this polyfill from [polyfill.io](http://polyfill.io).
 
-```lang-js
+```js
 var _mutation = (function () {
 
     function isNode(object) {

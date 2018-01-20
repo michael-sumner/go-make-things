@@ -24,13 +24,13 @@ Let's look at how to use them in your web app.
 
 Placeholder content can be created with just a little bit of HTML and CSS. First, create a `<div>` and add the `.placeholder` class.
 
-```lang-html
+```html
 <div class="placeholder"></div>
 ```
 
 Then we'll add this CSS to our app.
 
-```lang-css
+```css
 /**
  * Setup keyframes for pulsing animation
  */
@@ -73,7 +73,7 @@ While the CSS above adds the basic functionality, you'll want to style your plac
 
 I use a handful of modifier classes to create different shapes to match my content.
 
-```lang-css
+```css
 .placeholder-hero {
 	height: 20em;
 }
@@ -120,7 +120,7 @@ I use a handful of modifier classes to create different shapes to match my conte
 
 And you use them like this.
 
-```lang-html
+```html
 <div class="placeholder placeholder-hero"></div>
 
 <div class="placeholder placeholder-thumbnail"></div>

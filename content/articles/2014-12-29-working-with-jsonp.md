@@ -22,7 +22,7 @@ Here's how it works: The API request URL is set as the `src` of a `<script>` tag
 
 ### The Code
 
-```lang-javascript
+```javascript
 /**
  * Get JSONP data for cross-domain AJAX requests
  * @private
@@ -50,7 +50,7 @@ var loadJSONP = function ( url, callback ) {
 
 And here's an example using the [Petfinder API](https://www.petfinder.com/developers/api-docs):
 
-```lang-javascript
+```javascript
 var logAPI = function ( data ) {
 	console.log( data );
 }
@@ -68,7 +68,7 @@ With petfinderAPI4everybody.js, I decided to store API data in localStorage so t
 
 Here's the code that makes it all work:
 
-```lang-javascript
+```javascript
 var getJSONP = ( function( window, document, undefined ) {
 
 	// Set Variables
@@ -192,6 +192,6 @@ var getJSONP = ( function( window, document, undefined ) {
 
 And here's an example using the Petfinder API:
 
-```lang-javascript
+```javascript
 getJSONP.init( 'http://api.petfinder.com/shelter.getPets?format=json&key=12345&shelter=AA11' );
 ```

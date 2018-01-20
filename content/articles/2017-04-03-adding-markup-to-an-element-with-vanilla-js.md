@@ -12,7 +12,7 @@ The other day one of the students in my [Vanilla JS Slack channel](/guides/) ask
 
 This is actually really easy to do with the `innerHTML` property.
 
-```lang-javascript
+```javascript
 // <div id="some-element">...</div>
 var elem = document.querySelector('#some-element');
 

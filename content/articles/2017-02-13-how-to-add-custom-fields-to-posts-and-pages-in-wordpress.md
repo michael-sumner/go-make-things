@@ -29,7 +29,7 @@ In `add_meta_box()`, you'll give your metabox an ID, a name, a function to use t
 
 The post type can only be a single value (not an array), so if you want to use your metabox on multiple post types, you'll need to repeat the `add_meta_box()` function a couple of times.
 
-```lang-php
+```php
 /**
  * Create the metabox
  * @link https://developer.wordpress.org/reference/functions/add_meta_box/
@@ -62,7 +62,7 @@ We'll want to grab the `$post`, and get our saved field value (if one exists). W
 
 You'll note that our field data is wrapped in an `esc_attr()` function. This escapes and encodes any data for proper use in an input field `value`.
 
-```lang-php
+```php
 /**
  * Render the metabox markup
  * This is the function called in `_namespace_create_metabox()`
@@ -114,7 +114,7 @@ Finally, we make sure that our field was submitted with data. If all criteria ar
 
 It's important to sanitize any data before saving it to the database. This prevents malicious code and scripts from being run on your server. We'll use the `wp_filter_post_kses()` function, which strips our dangerous code and allows through anything you can include a post.
 
-```lang-php
+```php
 /**
  * Save the metabox
  * @param  Number $post_id The post ID
@@ -161,7 +161,7 @@ This is optional, and potentially undesireable for certain data types, but you c
 
 We'll hook into the `save_post` action hook to do this.
 
-```lang-php
+```php
 /**
  * Save events data to revisions
  * @param  Number $post_id The post ID
@@ -195,7 +195,7 @@ Naturally, when restoring a post, we'll want to update the metabox field value a
 
 We'll hook into the `wp_restore_post_revision` action hook for this, updating the post meta value with the historic version.
 
-```lang-php
+```php
 /**
  * Restore events data with post revisions
  * @param  Number $post_id     The post ID
@@ -221,7 +221,7 @@ If you want to be able to see the historic version in the revisions view, you'll
 
 First, we'll add a field to the revision fields with the `_wp_post_revision_fields` filter.
 
-```lang-php
+```php
 /**
  * Get the data to display on the revisions page
  * @param  Array $fields The fields
@@ -236,7 +236,7 @@ add_filter( '_wp_post_revision_fields', '_namespace_get_revisions_fields' );
 
 Next, we'll tell WordPress to show that field on the revisions page with the `_wp_post_revision_field_my_meta` filter.
 
-```lang-php
+```php
 /**
  * Display the data on the revisions page
  * @param  String|Array $value The field value

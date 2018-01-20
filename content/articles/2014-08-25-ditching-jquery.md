@@ -285,7 +285,7 @@ Run JS methods after the DOM is ready. While modern browsers support the `DOMCon
 
 Under `readyState`, `interactive` runs once the document is done but before all images and stylesheets have been downloaded. `complete` runs after that stuff is downloaded, too. I've included both for completeness.
 
-```lang-javascript
+```javascript
 /**
  * Run event after DOM is ready
  * @param  {Function} fn Callback function
@@ -456,7 +456,7 @@ isInViewport( elem ); // Boolean: returns true/false
 
 Get your current position from the top of the page, or that of an element.
 
-```lang-javascript
+```javascript
 // Get current location's distance from the top of the page
 var position = window.pageYOffset;
 
@@ -607,7 +607,7 @@ var allParents = getParents( elem.parentNode );
 
 Get all parent elements up the DOM tree until a matching parent is found, optionally filtering by any valid CSS selector. Includes the element itself.
 
-```lang-javascript
+```javascript
 /**
  * Get all of an element's parent elements up the DOM tree until a matching parent is found
  * @param  {Node}   elem     The element
@@ -700,7 +700,7 @@ var allMatches = elem.querySelectorAll( '.sample-class' );
 
 Get all siblings of an element. Supported back to IE6.
 
-```lang-javascript
+```javascript
 /**
  * Get all siblings of an element
  * @param  {Node}  elem The element
@@ -725,7 +725,7 @@ var siblings = getSiblings( elem );
 
 Get a `querystring` from a URL. Supported back to at least IE6.
 
-```lang-javascript
+```javascript
 /**
  * Get the value of a query string from a URL
  * @param  {String} field The field to get the value of
@@ -750,7 +750,7 @@ var yetAnotherOne = getQueryString( 'example', 'http://another-example.com&examp
 
 Get the contents of another HTML document, or from a specific element in another document. Only works for documents on the same domain. Supported back to IE8 and above.
 
-```lang-javascript
+```javascript
 /**
  * Get HTML from another URL
  * @param  {String}   url     The URL
@@ -833,7 +833,7 @@ getURL(
 
 Get JSON data from another server. Supported back to IE6.
 
-```lang-javascript
+```javascript
 /**
  * Get JSONP data
  * @param  {String}   url      The JSON URL

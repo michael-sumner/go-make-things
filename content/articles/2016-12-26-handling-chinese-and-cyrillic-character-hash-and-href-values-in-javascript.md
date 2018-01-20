@@ -14,14 +14,14 @@ I eventually discovered that when calling the `hash` or `href` of an element in 
 
 In a click listener, I have this code:
 
-```lang-javascript
+```javascript
 // Get the clicked anchor link's hash value
 var hash = event.target.hash;
 ```
 
 If this is the clicked link...
 
-```lang-javascript
+```javascript
 <a href="#中文">Click Me!</a>
 ```
 
@@ -29,14 +29,14 @@ Chrome returns `#中文`, while Safari and Firefox return an encoded version of 
 
 The fix to this was actually really simple. Decode the hash using `decodeURIComponent()`.
 
-```lang-javascript
+```javascript
 // Get the clicked anchor link's hash value
 var hash = decodeURIComponent( event.target.hash );
 ```
 
 However, some elements have characters that `decodeURIComponent()` doesn't like, so you have to do some error catching.
 
-```lang-javascript
+```javascript
 // Get the clicked anchor link's hash value
 var hash;
 try {

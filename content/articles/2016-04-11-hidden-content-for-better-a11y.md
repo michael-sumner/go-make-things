@@ -32,7 +32,7 @@ As a mouse user, that's relatively easily. Just scroll. As a keyboard-only user,
 
 A "skip link" is a visually hidden anchor link that keyboard users can access that let's them skip over a section of content.
 
-```lang-markup
+```markup
 <a href="#main">Skip to the main content</a>
 
 <nav>Navigation elements...</nav>
@@ -49,7 +49,7 @@ That markup will scroll you down the page to the main content, skipping over the
 
 Let's add some CSS (***note:*** *the `.screen-reader` class was updated on December 12, 2016 to fix a bug that smushed all of the words in a sentence into one in some screen readers.*):
 
-```lang-css
+```css
 /**
  * Visually hide an element, but leave it available for screen readers
  * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css
@@ -86,7 +86,7 @@ Let's add some CSS (***note:*** *the `.screen-reader` class was updated on Decem
 
 Now, our markup looks like this:
 
-```lang-markup
+```markup
 <a class="screen-reader screen-reader-focusable" href="#main">Skip to the main content</a>
 
 <nav>Navigation elements...</nav>
@@ -102,7 +102,7 @@ If you use the skip link to jump to the content area, the page will scroll down,
 
 There's an easy workaround: give the content area a `tabindex` of `-1`:
 
-```lang-markup
+```markup
 <a class="screen-reader screen-reader-focusable" href="#main">Skip to the main content</a>
 
 <nav>Navigation elements...</nav>
@@ -112,7 +112,7 @@ There's an easy workaround: give the content area a `tabindex` of `-1`:
 
 To prevent this content from having a blue outline, I also like to add this class:
 
-```lang-css
+```css
 /**
  * @workaround Remove focus from <main> element when using tabindex="-1" hack for skipnav link
  * @link https://code.google.com/p/chromium/issues/detail?id=37721
@@ -124,7 +124,7 @@ To prevent this content from having a blue outline, I also like to add this clas
 
 Now, our markup looks like this:
 
-```lang-markup
+```markup
 <a class="screen-reader screen-reader-focusable" href="#main">Skip to the main content</a>
 
 <nav>Navigation elements...</nav>
@@ -138,7 +138,7 @@ You can also use the `screen-reader` class to hide content visually while keepin
 
 For example, if the only thing on a page is a search form, you might not want to display a label for that field. But, it can be helpful for screen reader users to know what content goes in the field. You can do something like this:
 
-```lang-markup
+```markup
 <form>
     <label class="screen-reader" for="search">Search criteria</label>
     <input type="text" id="search" name="search" value="">
@@ -152,7 +152,7 @@ Earlier, we talked about skipping over navigation.
 
 But on [Beacon](http://beacon.gomakethings.com), my learning platform for web developers, I have navigation lower on the page that a user may want to quickly access. You can use a skip link to jump users to that navigation.
 
-```lang-html
+```html
 <a class="screen-reader screen-reader-focusable" href="#secondary-nav">Skip to Course Navigation</a>
 
 Some other content...
@@ -184,7 +184,7 @@ Adrienne Debigare pointed me to [this awesome little trick on LinkedIn's site](h
 
 I added one to my site. It just requires our skip link classes and a `mailto` value:
 
-```lang-markup
+```markup
 <a class="screen-reader screen-reader-focusable" href="mailto:your@email.com&subject=Accessibility%20Feedback">Accessibility Feedback</a>
 ```
 

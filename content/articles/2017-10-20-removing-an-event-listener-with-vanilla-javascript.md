@@ -16,7 +16,7 @@ With vanilla JavaScript, you can remove any named event listener with `removeEve
 
 So, for example, if you added this click event:
 
-```lang-js
+```js
 var clickHandler = function (event) {
 
     // Prevent the link from updating the URL
@@ -32,7 +32,7 @@ link.addEventListener('click', clickHandler, false);
 
 You can remove it like this:
 
-```lang-js
+```js
 link.removeEventListener('click', clickHandler, false);
 ```
 
@@ -50,7 +50,7 @@ You can omit it and jump straight to argument three, the callback. This is the f
 
 All of the arguments must match the ones you used in `on()`. So, if you did this:
 
-```lang-js
+```js
 // Listen to all clicks on links with the .click-me class
 on('click', '.click-me', function clickHandler (event) {
     // Prevent the link from working
@@ -60,13 +60,13 @@ on('click', '.click-me', function clickHandler (event) {
 
 You'd remove it like this:
 
-```lang-js
+```js
 off('click', '.click-me', clickHandler);
 ```
 
 If you used event bubbling like this:
 
-```lang-js
+```js
 // Listen to all click events
 on('click', function allClicks (event) {
     // The thing that was clicked
@@ -76,13 +76,13 @@ on('click', function allClicks (event) {
 
 You'd remove it like this:
 
-```lang-js
+```js
 off('click', allClicks);
 ```
 
 ### The Helper Method
 
-```lang-js
+```js
 /*!
  * Remove an event listener
  * (c) 2017 Chris Ferdinandi, MIT License, https://gomakethings.com
@@ -108,7 +108,7 @@ We're essentially doing the same thing we did in our `on()` method, and then cal
 
 First, we check to see if the second argument is an element selector or a callback function. If it's our callback, we'll shift all of the arguments over one.
 
-```lang-js
+```js
 if (typeof (elem) === 'function') {
 	capture = callback;
 	callback = elem;
@@ -118,12 +118,12 @@ if (typeof (elem) === 'function') {
 
 Next, we check to see if the `capture` argument is set. If not, we'll use `false` instead of `null`.
 
-```lang-js
+```js
 capture = capture ? true : false;
 ```
 
 Finally, we remove our event listener.
 
-```lang-js
+```js
 elem.removeEventListener(event, callback, capture);
 ```

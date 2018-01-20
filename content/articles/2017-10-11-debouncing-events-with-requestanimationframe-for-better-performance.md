@@ -17,7 +17,7 @@ The solution is a technique known as debouncing.
 
 At the time, I recommended using `setTimeout()` with a wait time of 66 milliseconds (the approximate refresh rate of modern monitors) to maximize jank and maximize performance.
 
-```lang-js
+```js
 // Setup a timer
 var timeout;
 
@@ -45,7 +45,7 @@ window.addEventListener('scroll', function ( event ) {
 
 There's a better way to do this, though: `requestAnimationFrame()`. Just like `setTimeout()`, the `requestAnimationFrame()` sets up a callback function. Instead of running after a certain period of time, though, it runs the next time a page paint is requested.
 
-```lang-js
+```js
 window.requestAnimationFrame(function () {
     console.log('paint!');
 });
@@ -55,7 +55,7 @@ This provides a better way to loop over events, because it runs when the browser
 
 Here's the same approach, but with `requestAnimationFrame()` instead.
 
-```lang-js
+```js
 // Setup a timer
 var timeout;
 
@@ -84,7 +84,7 @@ window.addEventListener('scroll', function ( event ) {
 
 `requestAnimationFrame()` works in all modern browsers, and IE10 and up. You can push support back to older browsers with [this polyfill from Paul Irish](https://gist.github.com/paulirish/1579671), which falls back to `setTimeout()`.
 
-```lang-js
+```js
 // http://paulirish.com/2011/requestanimationframe-for-smart-animating/
 // http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
 

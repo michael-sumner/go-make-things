@@ -14,7 +14,7 @@ Even knowing this, I managed to do it three times, in part because the button is
 
 Here's a little bit of code that removes that button---and the accompanying nag message---from the WordPress dashboard, avoiding this problem altogether.
 
-```lang-php
+```php
 /**
  * Remove the "Time to Update" nag message in WordPress
  */

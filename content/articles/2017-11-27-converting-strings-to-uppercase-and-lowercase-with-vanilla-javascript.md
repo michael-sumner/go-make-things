@@ -12,7 +12,7 @@ JavaScript provides two helpful functions for converting text to uppercase and l
 
 `String.toLowerCase()` converts a string to lowercase, and `String.toUpperCase()` converts a string to uppercase.
 
-```lang-js
+```js
 var text = 'This sentence has some MIXED CASE LeTTeRs in it.';
 
 // returns 'this sentence has some mixed case letters in it.'

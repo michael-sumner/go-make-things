@@ -86,7 +86,7 @@ The magic number you should care about is 14kb. That's (give or take) how much d
 
 The inlining piece is pretty straightforward. Add the contents of your critical CSS file to your `<head>` element inside a `<style>` tag:
 
-```lang-markup
+```markup
 <head>
 	<!-- Your other header markup -->
 	<style>
@@ -103,7 +103,7 @@ The inlining piece is pretty straightforward. Add the contents of your critical 
 
 Rather than adding your full stylesheet via a `<link>` element as you normally would, I used [loadCSS.js from the Filament Group](https://github.com/filamentgroup/loadCSS) (inlined in the `<head>`) to load it asynchronously. There's no natively supported way to load CSS files async (as there is with JS), so this script helps prevent render blocking.
 
-```lang-markup
+```markup
 <head>
 	<!-- Your other header markup -->
 	<script>
@@ -124,7 +124,7 @@ Rather than adding your full stylesheet via a `<link>` element as you normally w
 
 Then, I added a `<noscript>` fallback in the footer (again, to prevent render blocking) for browsers that don't support JavaScript or have it turned off.
 
-```lang-markup
+```markup
 <noscript>
 	<link href='/path/to/your/full.css' rel='stylesheet' type='text/css'>
 </noscript>
@@ -142,7 +142,7 @@ This does, of course, require some server-side logic.
 
 Setting the cookie requires one additional, *super* lightweight script from the Filament Group, [onloadCSS.js](https://github.com/filamentgroup/loadCSS/blob/master/onloadCSS.js) that runs a callback when the CSS file is loaded.
 
-```lang-markup
+```markup
 <head>
 	<!-- Your other header markup -->
 	<script>
@@ -162,7 +162,7 @@ The example code above sets a cookie called `fullCSS` that expires after a week.
 
 Implementation for this will vary based on your CMS and server technology. I use WordPress. Here's what my `functions.php` file looks like.
 
-```lang-php
+```php
 /**
  * Load theme scripts in the footer
  */
@@ -248,7 +248,7 @@ If you buy the Pro version of ZenCache, there's a GUI way to do this in the Word
 
 Create a file called `critical-css-salt.php` and add this to it:
 
-```lang-php
+```php
 <?php
 
 	if(!defined('WPINC')) // MUST have WordPress.

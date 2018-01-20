@@ -14,7 +14,7 @@ Because JavaScript is weird, there's no `forEach()` method for objects.
 
 Traditionally, you'd need to use a `for...in` loop.
 
-```lang-javascript
+```javascript
 var lunch = {
 	sandwich: 'turkey',
 	chips: 'Cape Cod',
@@ -38,7 +38,7 @@ That said, we can add our own `Object.forEach()` method by extending the object 
 
 You normally extend prototypes by doing something like this:
 
-```lang-javascript
+```javascript
 Object.prototype.forEach = function () {
 	// Our code goes here...
 }
@@ -48,7 +48,7 @@ That works great for things like arrays and elements, but can break a whole bunc
 
 Instead, we need to use the `defineProperty()` method.
 
-```lang-javascript
+```javascript
 /**
  * Object.prototype.forEach() polyfill
  * https://gomakethings.com/looping-through-objects-with-es6/
@@ -74,7 +74,7 @@ if (!Object.prototype.forEach) {
 
 Now you can loop through objects just like you would arrays and NodeLists.
 
-```lang-javascript
+```javascript
 var lunch = {
 	sandwich: 'turkey',
 	chips: 'Cape Cod',

@@ -14,7 +14,7 @@ With arrow functions, it's even easier.
 
 You can set a default value for each argument at the time that you give it a name with `= value`.
 
-```lang-javascript
+```javascript
 // Setting defaults with a traditional function
 var add = function (num1, num2) {
 

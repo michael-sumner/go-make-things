@@ -16,7 +16,7 @@ Let's take what we learned over the last few days and use it to build a clock wi
 
 First, we'll pull in our `render()` function.
 
-```lang-js
+```js
 var render = function (template, node) {
     if (!node) return;
     node.innerHTML = (typeof template === 'function' ? template() : template);
@@ -30,7 +30,7 @@ var render = function (template, node) {
 
 We'll also create an empty `<div>` with the ID `#clock`.
 
-```lang-html
+```html
 <div id="clock"></div>
 ```
 
@@ -42,7 +42,7 @@ When the page loads, we'll render the current time using `new Date()` to generat
 
 We'll inject it with the `render()` function.
 
-```lang-js
+```js
 render('<h1>The time is ' + new Date().toLocaleTimeString() + '</h1>', document.querySelector('#clock'));
 ```
 
@@ -52,7 +52,7 @@ render('<h1>The time is ' + new Date().toLocaleTimeString() + '</h1>', document.
 
 That's a great start, but we want the time to automatically update every second. To do that, we'll use `setInterval` to re-render our content every 1000 milliseconds.
 
-```lang-js
+```js
 render('<h1>The time is ' + new Date().toLocaleTimeString() + '</h1>', document.querySelector('#clock'));
 
 window.setInterval(function () {
@@ -68,7 +68,7 @@ Right now, we're repeating ourself by running the same `render()` code in two di
 
 To keep our code more DRY (Don't Repeat Yourself), we should move that to a function we can call as needed.
 
-```lang-js
+```js
 var tick = function () {
 	render('<h1>The time is ' + new Date().toLocaleTimeString() + '</h1>', document.querySelector('#clock'));
 };

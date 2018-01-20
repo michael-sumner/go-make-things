@@ -20,7 +20,7 @@ This is definitely *not* the WordPress way of doing things, by the way. By not u
 
 Here’s the code you would use to make it all happen...
 
-```lang-php
+```php
 /**
  * Load inline footer content
  */

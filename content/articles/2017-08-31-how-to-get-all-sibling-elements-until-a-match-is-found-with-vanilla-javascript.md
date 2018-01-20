@@ -18,7 +18,7 @@ Today, let's build a vanilla JS version of this.
 
 First, let's create a function named `nextUntil()`.
 
-```lang-javascript
+```javascript
 var nextUntil = function () {
     // Code goes here...
 };
@@ -28,7 +28,7 @@ Next, let's pass in a few arguments.
 
 We need to know the element to start our search with. We also need to know what selector to check for and stop at (the "until" part of the script).
 
-```lang-javascript
+```javascript
 var nextUntil = function (elem, selector) {
 	// Code goes here...
 };
@@ -40,7 +40,7 @@ Now we're ready to start coding.
 
 First, let's setup an array to push our sibling elements into.
 
-```lang-javascript
+```javascript
 var nextUntil = function (elem, selector) {
 
 	// Setup siblings array
@@ -51,7 +51,7 @@ var nextUntil = function (elem, selector) {
 
 Then, we'll get the first sibling for our starting element. To do this, we'll use the `nextElementSibling` property. There's also a `nextSibling` property, but this returns all types of nodes (text strings, for example), and we only want elements.
 
-```lang-javascript
+```javascript
 var nextUntil = function (elem, selector) {
 
 	// Setup siblings array
@@ -75,7 +75,7 @@ We'll wrap all of this functionality in a `while` loop.
 
 We'll use `matches()` to check if the element has our selector or not, and `push()` to add the current element in the loop to our array.
 
-```lang-javascript
+```javascript
 var nextUntil = function (elem, selector) {
 
 	// Setup siblings array
@@ -103,7 +103,7 @@ var nextUntil = function (elem, selector) {
 
 Once our loop is done, we can return the `siblings` array.
 
-```lang-javascript
+```javascript
 var nextUntil = function (elem, selector) {
 
 	// Setup siblings array
@@ -139,7 +139,7 @@ The jQuery version of `nextUntil()` let's you filter your siblings by a selector
 
 First, we'll add a new argument to our function.
 
-```lang-javascript
+```javascript
 var nextUntil = function (elem, selector, filter) {
     // ...
 };
@@ -149,7 +149,7 @@ Then, in our loop, after we check to see if the element matches our selector, we
 
 If it doesn't, we'll skip to the next sibling element. Otherwise, we'll carry on as normal.
 
-```lang-javascript
+```javascript
 var nextUntil = function (elem, selector, filter) {
 
 	// Setup siblings array
@@ -189,7 +189,7 @@ The `matches()` method was implemented with a browser prefix in some older brows
 
 Let's add one to our script to ensure maximum cross-browser compatibility. This brings us to IE9+.
 
-```lang-javascript
+```javascript
 var nextUntil = function (elem, selector, filter) {
 
 	// matches() polyfill

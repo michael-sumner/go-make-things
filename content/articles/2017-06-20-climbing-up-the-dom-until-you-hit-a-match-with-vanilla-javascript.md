@@ -14,7 +14,7 @@ Yesterday, we looked at [how to get all parent elements](/how-to-get-all-parent-
 
 Here's yesterday's script, renamed `getParentsUntil`.
 
-```lang-javascript
+```javascript
 var getParentsUntil = function (elem, selector) {
 
 	// Element.matches() polyfill
@@ -64,7 +64,7 @@ To stop when we hit a certain element, we need to do two things:
 
 We'll again use `matches()` to check our new selector, which we'll call `stop`. If the current parent element matches the `stop` selector, we'll use `break` to end our loop.
 
-```lang-javascript
+```javascript
 var getParentsUntil = function (elem, selector, stop) {
 
 	// Element.matches() polyfill
@@ -109,7 +109,7 @@ var getParentsUntil = function (elem, selector, stop) {
 
 To use our new script, you'd do this.
 
-```lang-javascript
+```javascript
 var elem = document.querySelector('.some-element');
 var parents = getParents(elem, '.pick-me', '.stop-here');
 ```

@@ -10,7 +10,7 @@ url: /2017/07/27/looping-through-arrays-the-es6-way
 
 The traditional way of looping through arrays in vanilla JavaScript is with a `for` loop:
 
-```lang-javascript
+```javascript
 var sandwiches = [
 	'tuna',
 	'ham',
@@ -38,7 +38,7 @@ It works, but it's kind of a pain to work with. If you you use loops often, I ge
 
 Just like jQuery, we now have a native `forEach()` method.
 
-```lang-javascript
+```javascript
 var sandwiches = [
 	'tuna',
 	'ham',

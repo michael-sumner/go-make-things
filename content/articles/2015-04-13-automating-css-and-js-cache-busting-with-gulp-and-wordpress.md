@@ -31,7 +31,7 @@ Here's the overview of my workflow:
 
 In my Gulp file:
 
-```lang-javascript
+```javascript
 var gulp = require('gulp');
 var rename = require('gulp-rename');
 var package = require('./package.json');
@@ -80,7 +80,7 @@ gulp.task('build:theme', function () {
 
 And in my `functions.php` file, where I load my external files using WordPress's enqueue functions:
 
-```lang-php
+```php
 /**
  * Load theme styles and scripts
  */

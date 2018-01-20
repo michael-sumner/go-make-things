@@ -19,7 +19,7 @@ The good news is that this can be done entirely with CSS.
 
 First, we'll add a default `opacity` of `0` to our `.toggle-content` class, and an `opacity` of `1` when the `.is-visible` class is included.
 
-```lang-css
+```css
 .toggle-content {
 	display: none;
 	height: 0;
@@ -37,7 +37,7 @@ First, we'll add a default `opacity` of `0` to our `.toggle-content` class, and 
 
 Next, let's add `opacity` to our transition. If we added another `transition`, it would override the first. Instead, we'll use a comma to add multiple transition effects.
 
-```lang-css
+```css
 .toggle-content {
 	display: none;
 	height: 0;
