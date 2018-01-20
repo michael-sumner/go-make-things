@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-11'
-permalink: /debugging-tips-and-tricks/
+url: /debugging-tips-and-tricks/
 title: Debugging tips and tricks
-url: /2017/08/11/debugging-tips-and-tricks
 ---
 
 One thing that often trips up newer developers (and sometimes seasoned ones) is debugging code.

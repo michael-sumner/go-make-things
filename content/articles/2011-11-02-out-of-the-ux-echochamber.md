@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2011-11-02'
-permalink: /out-of-the-ux-echochamber/
+url: /out-of-the-ux-echochamber/
 title: Out of the UX echochamber
-url: /2011/11/02/out-of-the-ux-echochamber
 ---
 
 I really enjoyed this presentation by Jason Mesut on <a href="http://www.slideshare.net/jasonmesut/truth-and-dare-04">stepping out of the user experience echochamber</a>. I think you might, too.

@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2012-12-14'
-permalink: /better-wordpress-titles-without-a-plugin/
+url: /better-wordpress-titles-without-a-plugin/
 title: Better WordPress titles without a plugin
-url: /2012/12/14/better-wordpress-titles-without-a-plugin
 ---
 
 I hate using plugins for things that I can easily do myself with a few lines of PHP.

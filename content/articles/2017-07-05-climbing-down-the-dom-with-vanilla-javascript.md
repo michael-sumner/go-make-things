@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-07-05'
-permalink: /climbing-down-the-dom-with-vanilla-javascript/
+url: /climbing-down-the-dom-with-vanilla-javascript/
 title: Climbing down the DOM with vanilla JavaScript
-url: /2017/07/05/climbing-down-the-dom-with-vanilla-javascript
 ---
 
 A few weeks ago, I published a series of articles on how to [climb up the DOM](/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/) and [get elements](/how-to-get-all-parent-elements-with-vanilla-javascript/) with [specific selectors](/climbing-up-the-dom-until-you-hit-a-match-with-vanilla-javascript/) using vanilla JavaScript.

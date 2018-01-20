@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-02-14'
-permalink: /good-design-is-visibile/
+url: /good-design-is-visibile/
 title: Good design is visibile
-url: /2013/02/14/good-design-is-visibile
 ---
 
 Rian van der Merwe talks about <a href="http://www.elezea.com/2013/02/as-little-design-as-possible/">the visibility of design in products...</a>

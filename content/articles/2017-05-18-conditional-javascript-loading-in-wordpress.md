@@ -5,9 +5,8 @@ categories:
 - Web Performance
 - WordPress
 date: '2017-05-18'
-permalink: /conditional-javascript-loading-in-wordpress/
+url: /conditional-javascript-loading-in-wordpress/
 title: Conditional JavaScript loading in WordPress
-url: /2017/05/18/conditional-javascript-loading-in-wordpress
 ---
 
 Earlier this week, I shared a technique for [only loading your JavaScript file if the browser passes your feature test](/how-to-only-load-your-javascript-file-if-the-browser-supports-your-code/).

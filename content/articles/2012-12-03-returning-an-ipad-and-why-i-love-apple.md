@@ -4,9 +4,8 @@ categories:
 - Technology
 date: '2012-12-03'
 excerpt: Last month, my team ordered a new iPad for testing and experimenting with new learning tools. A few days later, Apple released the <em>new</em> new iPad.
-permalink: /returning-an-ipad-and-why-i-love-apple/
+url: /returning-an-ipad-and-why-i-love-apple/
 title: Returning an iPad (and why I love Apple)
-url: /2012/12/03/returning-an-ipad-and-why-i-love-apple
 ---
 
 Last month, my team ordered a new iPad for testing and experimenting with new learning tools. A few days later, Apple released the <em>new</em> new iPad.

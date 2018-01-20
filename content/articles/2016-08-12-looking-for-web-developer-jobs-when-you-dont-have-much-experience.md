@@ -2,9 +2,8 @@
 categories:
 - Careers
 date: '2016-08-12'
-permalink: /looking-for-web-developer-jobs-when-you-dont-have-much-experience/
+url: /looking-for-web-developer-jobs-when-you-dont-have-much-experience/
 title: Looking for web developer jobs when you don&#8217;t have much experience
-url: /2016/08/12/looking-for-web-developer-jobs-when-you-dont-have-much-experience
 ---
 
 A question from Duncan, one of the readers of [my newsletter](/newsletter/):

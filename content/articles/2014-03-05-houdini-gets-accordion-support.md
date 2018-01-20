@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2014-03-05'
-permalink: /houdini-gets-accordion-support/
+url: /houdini-gets-accordion-support/
 title: Houdini gets accordion support
-url: /2014/03/05/houdini-gets-accordion-support
 ---
 
 <a href="http://cferdinandi.github.io/houdini/">Houdini</a>, my simple expand-and-collapse script, now supports accordion groups.

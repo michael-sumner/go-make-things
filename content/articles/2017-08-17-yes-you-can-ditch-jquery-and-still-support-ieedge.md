@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-17'
-permalink: /yes-you-can-ditch-jquery-and-still-support-ieedge/
+url: /yes-you-can-ditch-jquery-and-still-support-ieedge/
 title: Yes, you can ditch jQuery and still support IE/Edge
-url: /2017/08/17/yes-you-can-ditch-jquery-and-still-support-ieedge
 ---
 
 Last month, Ollie Williams wrote a post for CSS Tricks on why [now more than ever you really don't need jQuery](https://css-tricks.com/now-ever-might-not-need-jquery/). He covered a handful of modern ES5 and ES6 JavaScript and browser APIs that make working with vanilla JS just as easy as using jQuery.

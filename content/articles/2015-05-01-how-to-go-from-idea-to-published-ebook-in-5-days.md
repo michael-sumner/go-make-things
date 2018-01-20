@@ -3,9 +3,8 @@ categories:
 - Business &amp; Leadership
 - Uncategorized
 date: '2015-05-01'
-permalink: /how-to-go-from-idea-to-published-ebook-in-5-days/
+url: /how-to-go-from-idea-to-published-ebook-in-5-days/
 title: How to go from idea to published ebook in 5 days
-url: /2015/05/01/how-to-go-from-idea-to-published-ebook-in-5-days
 ---
 
 Last week, I released <a href="https://gomakethings.com/wicked-fast-websites/">Wicked Fast Websites</a>, a beginner’s guide to high-performance responsive web design.

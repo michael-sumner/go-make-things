@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2014-11-25'
-permalink: /90-year-old-man-arrested-for-feeding-the-homeless/
+url: /90-year-old-man-arrested-for-feeding-the-homeless/
 title: 90-year-old man arrested for feeding the homeless
-url: /2014/11/25/90-year-old-man-arrested-for-feeding-the-homeless
 ---
 
 [From the Sarasota Patch](http://patch.com/florida/sarasota/90-year-old-man-arrested-again-feeding-homeless-0):

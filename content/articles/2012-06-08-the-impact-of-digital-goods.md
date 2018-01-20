@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2012-06-08'
-permalink: /the-impact-of-digital-goods/
+url: /the-impact-of-digital-goods/
 title: The Impact of Digital Goods
-url: /2012/06/08/the-impact-of-digital-goods
 ---
 
 In response to <a href="https://gomakethings.com/digital-patina/">last week's post</a> on digital patina, <a href="http://www.i2i-align.com/">Paul Hebert</a> pushed back on why patina mattered at all for digital goods. It was a great question, and it forced me to think more deeply about the topic than I previously had.

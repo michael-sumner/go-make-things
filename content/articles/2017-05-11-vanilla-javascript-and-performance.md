@@ -4,9 +4,8 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-05-11'
-permalink: /vanilla-javascript-and-performance/
+url: /vanilla-javascript-and-performance/
 title: Vanilla JavaScript and Performance
-url: /2017/05/11/vanilla-javascript-and-performance
 ---
 
 Addy Osmani from Google shared <a href="https://twitter.com/addyosmani/status/861166051517620225">this incredible graph on JavaScript performance</a> on Twitter this weekend:

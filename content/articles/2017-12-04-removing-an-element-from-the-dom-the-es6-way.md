@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-12-04'
-permalink: /removing-an-element-from-the-dom-the-es6-way/
+url: /removing-an-element-from-the-dom-the-es6-way/
 title: Removing an element from the DOM, the ES6 way
-url: /2017/12/04/removing-an-element-from-the-dom-the-es6-way
 ---
 
 Earlier this year, I shared [a way to remove elements from the DOM](/removing-an-element-from-the-dom-with-vanilla-js/) using the `removeChild()` method.

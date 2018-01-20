@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-06-17'
-permalink: /mind-your-step/
+url: /mind-your-step/
 title: Mind Your Step
-url: /2011/06/17/mind-your-step
 ---
 
 <a href="http://alltelleringet.com/generation7/">Mind Your Step</a> is a large scale (105 x 59 feet) street illusion in Stockholm at Sergels torg made by artist Erik Johansson. It's amazing how some people are fascinated by it, while others don't even notice that it's there.

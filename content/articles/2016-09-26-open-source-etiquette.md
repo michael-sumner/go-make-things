@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2016-09-26'
-permalink: /open-source-etiquette/
+url: /open-source-etiquette/
 title: Open Source Etiquette
-url: /2016/09/26/open-source-etiquette
 ---
 
 I love [creating open source code](/open-source) and seeing the cool things people do with it.

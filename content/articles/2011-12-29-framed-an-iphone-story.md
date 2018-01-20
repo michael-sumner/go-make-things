@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-12-29'
-permalink: /framed-an-iphone-story/
+url: /framed-an-iphone-story/
 title: Framed, an iPhone story
-url: /2011/12/29/framed-an-iphone-story
 ---
 
 <a href="http://vimeo.com/31013938">Framed</a> is a delightful short story about a photographer who walks around the woods to take some pictures, when something unexpected happens. Amazing that this was shot entirely on an iPhone 4s.

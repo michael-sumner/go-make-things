@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2014-09-15'
-permalink: /joining-mashery/
+url: /joining-mashery/
 title: Joining Mashery
-url: /2014/09/15/joining-mashery
 ---
 
 Last week, I started a new role as a UI designer and front-end developer at [Mashery](http://www.mashery.com/). They help companies build and manage their [APIs](http://en.wikipedia.org/wiki/Application_programming_interface). I'm the guy who builds out the developer.your-company-name.com sites.

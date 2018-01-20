@@ -4,9 +4,8 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-10-24'
-permalink: /checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/
+url: /checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/
 title: Checking event target selectors with event bubbling in vanilla JavaScript
-url: /2017/10/24/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript
 ---
 
 Event bubbling is an approach is to listening for events that's better for performance and gives you a bit more flexibility.

@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-09-10'
-permalink: /embrace-the-remix/
+url: /embrace-the-remix/
 title: Embrace the Remix
-url: /2012/09/10/embrace-the-remix
 ---
 
 Kirby Ferguson's <a href="http://www.everythingisaremix.info/watch-the-series/">"Everything is a Remix" series</a> has had a big influence on the way I perceive design and creativity. If you've not seen any of his videos, which explore the core elements of most creative works and the history of copyright law, I highly recommend you check them out.

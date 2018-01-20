@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2016-12-19'
-permalink: /font-style-matcher/
+url: /font-style-matcher/
 title: Font Style Matcher
-url: /2016/12/19/font-style-matcher
 ---
 
 For performance reasons, you should load a system font by default, and [switch to your custom font only after it has loaded](/fixing-fonts/). Otherwise, users can be left with a blank page while the font downloads and parses.

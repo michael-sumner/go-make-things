@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-07-06'
-permalink: /the-best-of-this-week-762012/
+url: /the-best-of-this-week-762012/
 title: 'The best of this week: 7/6/2012'
-url: /2012/07/06/the-best-of-this-week-762012
 ---
 
 Here's my favorite things from this week...

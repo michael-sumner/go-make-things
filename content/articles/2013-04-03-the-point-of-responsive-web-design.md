@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-04-03'
-permalink: /the-point-of-responsive-web-design/
+url: /the-point-of-responsive-web-design/
 title: The Point of Responsive Web Design
-url: /2013/04/03/the-point-of-responsive-web-design
 ---
 
 A few weeks ago, I was engaged in discussion around a simple question: "Is it necessary that I make a site responsive for IE7 and IE8?"

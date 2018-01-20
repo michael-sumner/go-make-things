@@ -2,9 +2,8 @@
 categories:
 - Technology
 date: '2011-07-18'
-permalink: /real-life-the-hot-new-social-network/
+url: /real-life-the-hot-new-social-network/
 title: 'Real Life: The Hot New Social Network'
-url: /2011/07/18/real-life-the-hot-new-social-network
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/07/Real-Life-Logo.png" alt="" title="Real-Life-Logo" width="515" height="128" class="aligncenter size-full wp-image-1096" />

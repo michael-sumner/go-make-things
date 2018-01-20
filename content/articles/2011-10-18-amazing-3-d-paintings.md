@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-10-18'
-permalink: /amazing-3-d-paintings/
+url: /amazing-3-d-paintings/
 title: Amazing 3-D Paintings
-url: /2011/10/18/amazing-3-d-paintings
 ---
 
 Theo Prins makes amazing 3D paintings. Here's how to view them:

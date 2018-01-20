@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Uncategorized
 date: '2012-10-15'
-permalink: /skydiving-from-the-edge-of-space-part-2/
+url: /skydiving-from-the-edge-of-space-part-2/
 title: Skydiving from the edge of space (part 2)
-url: /2012/10/15/skydiving-from-the-edge-of-space-part-2
 ---
 
 Last year, I wrote about Felix Baumgartner and Michel Fournier, two skydivers who were both trying to <a href="https://gomakethings.com/skydiving-from-the-edge-of-space/">jump from the edge of space</a>.

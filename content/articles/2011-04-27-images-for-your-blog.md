@@ -2,9 +2,8 @@
 categories:
 - Technology
 date: '2011-04-27'
-permalink: /images-for-your-blog/
+url: /images-for-your-blog/
 title: Images for your blog
-url: /2011/04/27/images-for-your-blog
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/04/compfight-560x268.png" alt="" title="compfight" width="560" height="268" class="aligncenter size-medium wp-image-532" style="border: 1px solid #808080;" />

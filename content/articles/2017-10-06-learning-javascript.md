@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2017-10-06'
-permalink: /learning-javascript/
+url: /learning-javascript/
 title: Learning JavaScript
-url: /2017/10/06/learning-javascript
 ---
 
 Based on feedback from my readers and changes in the JavaScript space over the last year, I'm giving my [pocket guide series](/guides/) a complete refresh.

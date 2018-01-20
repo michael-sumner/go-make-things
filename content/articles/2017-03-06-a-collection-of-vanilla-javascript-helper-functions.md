@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-03-06'
-permalink: /a-collection-of-vanilla-javascript-helper-functions/
+url: /a-collection-of-vanilla-javascript-helper-functions/
 title: A collection of vanilla JavaScript helper functions
-url: /2017/03/06/a-collection-of-vanilla-javascript-helper-functions
 ---
 
 Over the weekend, I released [a collection of vanilla JavaScript helper functions](/open-source/#javascript-helper-functions).

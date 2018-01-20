@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-01-09'
-permalink: /saving-the-economy/
+url: /saving-the-economy/
 title: Saving the economy
-url: /2012/01/09/saving-the-economy
 ---
 
 I just finished reading <a href="http://www.vanityfair.com/politics/2012/01/stiglitz-depression-201201.print">a fascinating piece in Vanity Fair</a> (don't judge!) by Joseph E. Stiglitz on the parallels between the Great Depression and current economic Long Slump.

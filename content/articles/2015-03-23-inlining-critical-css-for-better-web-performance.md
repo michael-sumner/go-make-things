@@ -6,9 +6,8 @@ categories:
 - JavaScript
 - Web Performance
 date: '2015-03-23'
-permalink: /inlining-critical-css-for-better-web-performance/
+url: /inlining-critical-css-for-better-web-performance/
 title: Inlining critical CSS for better web performance
-url: /2015/03/23/inlining-critical-css-for-better-web-performance
 ---
 
 Last summer, I tried to implement [some performance tweaks to my site](/how-to-build-wicked-fast-rwd-sites/) that I hoped would push it below the 500ms mark (just half a second) for displaying content to visitors. I failed miserably.

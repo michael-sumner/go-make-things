@@ -3,9 +3,8 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2011-03-07'
-permalink: /the-future-of-marketing/
+url: /the-future-of-marketing/
 title: The Future of Marketing
-url: /2011/03/07/the-future-of-marketing
 ---
 
 <p align="center"><img src="https://gomakethings.com/wp-content/uploads/2011/03/social-media-marketing-400x300.jpg" alt="" title="social-media-marketing" width="400" height="300" class="alignnone size-medium wp-image-218" /><br><em><a href="http://www.flickr.com/photos/32931740@N06/3256031851/">Image by Rosaura Ochoa</a></em></p>

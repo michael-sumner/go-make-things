@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2014-08-04'
-permalink: /how-to-build-wicked-fast-rwd-sites/
+url: /how-to-build-wicked-fast-rwd-sites/
 title: How to build wicked fast RWD sites
-url: /2014/08/04/how-to-build-wicked-fast-rwd-sites
 ---
 
 This site is pretty fast already, but over the weekend, I made some adjustments to further improve it's performance.

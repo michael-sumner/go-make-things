@@ -4,9 +4,8 @@ categories:
 - CSS
 - JavaScript
 date: '2017-02-13'
-permalink: /css-breakpoints-in-javascript/
+url: /css-breakpoints-in-javascript/
 title: CSS breakpoints in JavaScript
-url: /2017/02/13/css-breakpoints-in-javascript
 ---
 
 One minor annoyance of front-end development work is syncing breakpoints between CSS and JavaScript (if you're doing any sort of JS work that requires screen resize detection).

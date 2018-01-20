@@ -3,9 +3,8 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2012-04-16'
-permalink: /brands-and-commodities/
+url: /brands-and-commodities/
 title: Brands and Commodities
-url: /2012/04/16/brands-and-commodities
 ---
 
 Andy Rutledge on <a href="http://www.andyrutledge.com/of-brands-and-commodities.php">brands versus commodities...</a>

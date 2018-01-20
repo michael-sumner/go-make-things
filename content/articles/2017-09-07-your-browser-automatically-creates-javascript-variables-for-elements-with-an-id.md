@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-09-07'
-permalink: /your-browser-automatically-creates-javascript-variables-for-elements-with-an-id/
+url: /your-browser-automatically-creates-javascript-variables-for-elements-with-an-id/
 title: Your browser automatically creates JavaScript variables for elements with an ID
-url: /2017/09/07/your-browser-automatically-creates-javascript-variables-for-elements-with-an-id
 ---
 
 One of my readers tipped me off to a really cool trick: your browser automatically creates JavaScript variables for any element with a unique ID.

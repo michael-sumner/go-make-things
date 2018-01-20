@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2011-11-10'
-permalink: /users-or-people/
+url: /users-or-people/
 title: Users or People?
-url: /2011/11/10/users-or-people
 ---
 
 <blockquote>Users. Sounds like a bunch of junkies or gigolos, doesn't it?

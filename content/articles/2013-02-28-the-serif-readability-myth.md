@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-02-28'
-permalink: /the-serif-readability-myth/
+url: /the-serif-readability-myth/
 title: The Serif Readability Myth
-url: /2013/02/28/the-serif-readability-myth
 ---
 
 Kas Thompson <a href="http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html">on typography...</a>

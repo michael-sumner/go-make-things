@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-09-18'
-permalink: /the-challenges-of-data-driven-design/
+url: /the-challenges-of-data-driven-design/
 title: The Challenges of Data-Driven Design
-url: /2013/09/18/the-challenges-of-data-driven-design
 ---
 
 A showcase of <a href="http://econsultancy.com/us/blog/63385-16-drop-dead-gorgeous-examples-of-mobile-design-inspiration">beautiful mobile interfaces on eConsultancy</a> evolved into a great discussion about the merits of <a href="http://econsultancy.com/us/blog/63385-16-drop-dead-gorgeous-examples-of-mobile-design-inspiration#comments">responsive design versus dedicated mobile sites</a>.

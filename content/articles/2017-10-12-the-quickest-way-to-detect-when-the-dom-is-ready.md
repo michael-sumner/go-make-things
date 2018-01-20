@@ -4,9 +4,8 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-10-12'
-permalink: /the-quickest-way-to-detect-when-the-dom-is-ready/
+url: /the-quickest-way-to-detect-when-the-dom-is-ready/
 title: The quickest way to detect when the DOM is ready
-url: /2017/10/12/the-quickest-way-to-detect-when-the-dom-is-ready
 ---
 
 A couple of years ago, I shared [a native equivalent of jQuery's `ready()` method](/a-native-javascript-equivalent-of-jquerys-ready-method/). It's one of the most popular articles on my site.

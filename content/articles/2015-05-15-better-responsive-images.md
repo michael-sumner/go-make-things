@@ -4,9 +4,8 @@ categories:
 - Design &amp; UX
 - Web Performance
 date: '2015-05-15'
-permalink: /better-responsive-images/
+url: /better-responsive-images/
 title: Better Responsive Images
-url: /2015/05/15/better-responsive-images
 ---
 
 *The following post was adapted from [Wicked Fast Websites](/wicked-fast-websites/), my free beginner's guide to building fast websites and web apps that work on any device. [Download it here.](/wicked-fast-websites/)*

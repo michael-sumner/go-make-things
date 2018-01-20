@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-08-31'
-permalink: /sea-otters/
+url: /sea-otters/
 title: Sea Otters
-url: /2012/08/31/sea-otters
 ---
 
 In the "awww" department: Sea otters hold hands while sleeping so they don't drift away from each other.

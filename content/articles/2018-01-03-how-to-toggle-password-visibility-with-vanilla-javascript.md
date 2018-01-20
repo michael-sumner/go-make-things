@@ -4,9 +4,8 @@ categories:
 - Design &amp; UX
 - JavaScript
 date: '2018-01-03'
-permalink: /how-to-toggle-password-visibility-with-vanilla-javascript/
+url: /how-to-toggle-password-visibility-with-vanilla-javascript/
 title: How to toggle password visibility with vanilla JavaScript
-url: /2018/01/03/how-to-toggle-password-visibility-with-vanilla-javascript
 ---
 
 Hiding passwords visibility in forms helps protect from people looking over your shoulder and reading your password, but greatly increases in the likelihood that someone will enter the wrong one.

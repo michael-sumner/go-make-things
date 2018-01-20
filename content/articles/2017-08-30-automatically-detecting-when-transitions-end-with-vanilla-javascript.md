@@ -5,9 +5,8 @@ categories:
 - JavaScript
 - Uncategorized
 date: '2017-08-30'
-permalink: /automatically-detecting-when-transitions-end-with-vanilla-javascript/
+url: /automatically-detecting-when-transitions-end-with-vanilla-javascript/
 title: Automatically detecting when transitions end with vanilla JavaScript
-url: /2017/08/30/automatically-detecting-when-transitions-end-with-vanilla-javascript
 ---
 
 Yesterday, we looked at [two techniques for adjusting the timing of transitions](/controlling-the-transition-timing-of-show-and-hide-methods-with-vanilla-javascript/) for our vanilla JS `show()` and `hide()` methods. Both of approaches involved hard-coding timing values into our script.

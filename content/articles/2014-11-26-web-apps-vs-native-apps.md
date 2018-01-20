@@ -3,9 +3,8 @@ categories:
 - Design &amp; UX
 - Technology
 date: '2014-11-26'
-permalink: /web-apps-vs-native-apps/
+url: /web-apps-vs-native-apps/
 title: Web Apps vs. Native Apps
-url: /2014/11/26/web-apps-vs-native-apps
 ---
 
 Lukas Mathis has a great post on the [web app versus native app debate](http://ignorethecode.net/blog/2014/11/04/web_apps/) (that is, amazingly, still going on in 2014):

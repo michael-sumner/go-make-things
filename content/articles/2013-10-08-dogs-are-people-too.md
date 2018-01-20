@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2013-10-08'
-permalink: /dogs-are-people-too/
+url: /dogs-are-people-too/
 title: Dogs are people, too
-url: /2013/10/08/dogs-are-people-too
 ---
 
 <blockquote>

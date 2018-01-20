@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2014-02-05'
-permalink: /kraken-gets-universal-box-sizing-and-smarter-grids/
+url: /kraken-gets-universal-box-sizing-and-smarter-grids/
 title: Kraken gets universal box-sizing and smarter grids
-url: /2014/02/05/kraken-gets-universal-box-sizing-and-smarter-grids
 ---
 
 Last night, I released <a href="http://cferdinandi.github.io/kraken/">version 3.3 of Kraken</a>. This latest version includes universal box-sizing, and along with it, a simpler, more flexible grid structure.

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-09-01'
-permalink: /vanilla-js-media-player/
+url: /vanilla-js-media-player/
 title: Vanilla JS Media Player
-url: /2017/09/01/vanilla-js-media-player
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2017/09/media-player.png" alt="" width="800" height="690" class="aligncenter size-full wp-image-15410" />

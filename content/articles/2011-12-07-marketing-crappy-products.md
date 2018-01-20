@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Business &amp; Leadership
 date: '2011-12-07'
-permalink: /marketing-crappy-products/
+url: /marketing-crappy-products/
 title: Marketing crappy products
-url: /2011/12/07/marketing-crappy-products
 ---
 
 The print edition of this month's <em>Fast Company</em> magazine features a sidebar item on "creative" marketing for hip-hop albums. <a href="http://www.fastcompany.com/magazine/161/hip-hop-branding">One quote in particular</a>, about a beeper-shaped USB drive preloaded with MP3s and video extras, jumped out at me as not quite right...

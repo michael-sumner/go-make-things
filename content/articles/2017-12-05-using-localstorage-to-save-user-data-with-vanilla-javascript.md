@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-12-05'
-permalink: /using-localstorage-to-save-user-data-with-vanilla-javascript/
+url: /using-localstorage-to-save-user-data-with-vanilla-javascript/
 title: Using localStorage to save user data with vanilla JavaScript
-url: /2017/12/05/using-localstorage-to-save-user-data-with-vanilla-javascript
 ---
 
 The `localStorage` API lets you store data locally (as the name implies) that the browser can access later.

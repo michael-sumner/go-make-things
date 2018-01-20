@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-05'
-permalink: /the-easy-way-to-support-almost-every-browser-with-vanilla-javascript/
+url: /the-easy-way-to-support-almost-every-browser-with-vanilla-javascript/
 title: The easy way to support *almost* every browser with vanilla JavaScript
-url: /2017/10/05/the-easy-way-to-support-almost-every-browser-with-vanilla-javascript
 ---
 
 I'm not shy about [my love of polyfills](/why-i-love-polyfills/). They make it incredibly easy to just write code with modern, vanilla JavaScript and still support older browsers.

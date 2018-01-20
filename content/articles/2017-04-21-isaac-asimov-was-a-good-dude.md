@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2017-04-21'
-permalink: /isaac-asimov-was-a-good-dude/
+url: /isaac-asimov-was-a-good-dude/
 title: Isaac Asimov was a good dude
-url: /2017/04/21/isaac-asimov-was-a-good-dude
 ---
 
 Taking a break from code for today. <a href="https://en.wikipedia.org/wiki/Isaac_Asimov">Isaac Asimov</a> (the guy who wrote, among other things, iRobot) was a really good dude.

@@ -3,9 +3,8 @@ categories:
 - Design &amp; UX
 - Technology
 date: '2017-08-18'
-permalink: /screen-capture-gifs/
+url: /screen-capture-gifs/
 title: Screen capture GIFs
-url: /2017/08/18/screen-capture-gifs
 ---
 
 I've been using <a href="https://www.cockos.com/licecap/">LICECap</a> for quite a while to create animated GIFs of my screen.

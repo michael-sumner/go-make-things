@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-08-13'
-permalink: /on-being-idle/
+url: /on-being-idle/
 title: On Being Idle
-url: /2012/08/13/on-being-idle
 ---
 
 In <a href="http://opinionator.blogs.nytimes.com/2012/06/30/the-busy-trap/">The Busy Trap</a> in the New York <em>Times</em>, author Tim Kreider writes...

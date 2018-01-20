@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-25'
-permalink: /detecting-clicks-inside-an-element-with-vanilla-javascript/
+url: /detecting-clicks-inside-an-element-with-vanilla-javascript/
 title: Detecting clicks inside an element with vanilla JavaScript
-url: /2017/10/25/detecting-clicks-inside-an-element-with-vanilla-javascript
 ---
 
 Yesterday, we learned about the `closest()` method, a super versatile function that [finds the closest matching parent of an element based on a selector](/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/#closest).

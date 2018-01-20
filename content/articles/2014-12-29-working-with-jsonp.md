@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2014-12-29'
-permalink: /working-with-jsonp/
+url: /working-with-jsonp/
 title: Working with JSONP
-url: /2014/12/29/working-with-jsonp
 ---
 
 In [petfinderAPI4everybody.js](https://github.com/cferdinandi/petfinderAPI4everybody), I fetch data from Petfinder's API on the client side using only native JavaScript&mdash;no jQuery needed.

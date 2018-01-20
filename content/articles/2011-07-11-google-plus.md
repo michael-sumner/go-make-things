@@ -2,9 +2,8 @@
 categories:
 - Technology
 date: '2011-07-11'
-permalink: /google-plus/
+url: /google-plus/
 title: I want to love Google Plus (but I don&#8217;t)
-url: /2011/07/11/google-plus
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/07/Google-Plus-560x289.png" alt="" title="Google-Plus" width="560" height="289" class="aligncenter size-medium wp-image-1017" />

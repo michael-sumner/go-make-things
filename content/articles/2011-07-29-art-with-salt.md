@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-07-29'
-permalink: /art-with-salt/
+url: /art-with-salt/
 title: Art with Salt
-url: /2011/07/29/art-with-salt
 ---
 
 Artist <a href="https://www.youtube.com/user/bashirsultani">Bashir Sultani</a> makes beautiful portraits using table salt.

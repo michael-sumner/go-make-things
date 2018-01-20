@@ -4,9 +4,8 @@ categories:
 - CSS
 - JavaScript
 date: '2017-08-29'
-permalink: /controlling-the-transition-timing-of-show-and-hide-methods-with-vanilla-javascript/
+url: /controlling-the-transition-timing-of-show-and-hide-methods-with-vanilla-javascript/
 title: Controlling the transition timing of show and hide methods with vanilla JavaScript
-url: /2017/08/29/controlling-the-transition-timing-of-show-and-hide-methods-with-vanilla-javascript
 ---
 
 Over the last few days, we've [created `show()` and `hide()` methods with vanilla JavaScript](/how-to-show-and-hide-elements-with-vanilla-javascript/), added [a transition animation](/how-to-add-transition-animations-to-vanilla-javascript-show-and-hide-methods/), and [added a fade-in animation](/how-to-a-fade-in-to-vanilla-javascript-show-and-hide-methods/).

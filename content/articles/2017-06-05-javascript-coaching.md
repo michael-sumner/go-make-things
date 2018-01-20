@@ -3,9 +3,8 @@ categories:
 - Careers
 - JavaScript
 date: '2017-06-05'
-permalink: /javascript-coaching/
+url: /javascript-coaching/
 title: JavaScript Coaching
-url: /2017/06/05/javascript-coaching
 ---
 
 The thing that helped me the most when I was learning JavaScript was having someone to bounce ideas of, give me feedback on my code, and help point me in the right direction when I got stuck.

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-07-12'
-permalink: /automatic-polyfilling/
+url: /automatic-polyfilling/
 title: Automatic polyfilling
-url: /2017/07/12/automatic-polyfilling
 ---
 
 Yesterday, I neglected to include [Polyfill.io](https://polyfill.io/v2/docs/) in my list of polyfills.

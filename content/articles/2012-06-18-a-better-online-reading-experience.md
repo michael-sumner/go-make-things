@@ -3,9 +3,8 @@ categories:
 - Technology
 - Uncategorized
 date: '2012-06-18'
-permalink: /a-better-online-reading-experience/
+url: /a-better-online-reading-experience/
 title: A better online reading experience
-url: /2012/06/18/a-better-online-reading-experience
 ---
 
 One of the greatest joys of using the internet is the "journey down the rabbit hole" - the serendipitous learning that occurs as you follow one link after another.

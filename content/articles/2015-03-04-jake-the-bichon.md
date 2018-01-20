@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2015-03-04'
-permalink: /jake-the-bichon/
+url: /jake-the-bichon/
 title: Jake the Bichon
-url: /2015/03/04/jake-the-bichon
 ---
 
 <p class="text-center"><img src="https://gomakethings.com/wp-content/uploads/2011/02/jake.jpg" width="175" height="175" class="img-circle"><br>

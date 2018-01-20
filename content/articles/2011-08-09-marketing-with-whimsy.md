@@ -2,9 +2,8 @@
 categories:
 - Business &amp; Leadership
 date: '2011-08-09'
-permalink: /marketing-with-whimsy/
+url: /marketing-with-whimsy/
 title: Marketing with whimsy
-url: /2011/08/09/marketing-with-whimsy
 ---
 
 I'm convinced that one of the best ways to build a great brand is to consistently deliver whimsy.

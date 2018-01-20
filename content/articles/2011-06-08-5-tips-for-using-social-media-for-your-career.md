@@ -2,9 +2,8 @@
 categories:
 - Technology
 date: '2011-06-08'
-permalink: /5-tips-for-using-social-media-for-your-career/
+url: /5-tips-for-using-social-media-for-your-career/
 title: 5 Tips for Using Social Media for Your Career
-url: /2011/06/08/5-tips-for-using-social-media-for-your-career
 ---
 
 Last week I got an email from Mark, who's throwing himself head first into social media. He'd seen <a href="http://www.slideshare.net/cferdinandi/resumesm">my social media resume</a> on Slideshare (which I really need to update - it's two years old at this point), and was looking for some suggestions on things he should be doing to help market himself through social media.

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-05-30'
-permalink: /how-to-really-learn-javascript/
+url: /how-to-really-learn-javascript/
 title: How to really learn JavaScript
-url: /2017/05/30/how-to-really-learn-javascript
 ---
 
 In a word: gradually.

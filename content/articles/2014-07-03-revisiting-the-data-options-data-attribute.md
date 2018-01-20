@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2014-07-03'
-permalink: /revisiting-the-data-options-data-attribute/
+url: /revisiting-the-data-options-data-attribute/
 title: Revisiting the <code>data-options</code> data attribute
-url: /2014/07/03/revisiting-the-data-options-data-attribute
 ---
 
 Yesterday, I posted about a technique I use to [set multiple JavaScript plugin options with a single data attribute](/setting-multiple-javascript-plugin-options-with-a-single-data-attribute/).

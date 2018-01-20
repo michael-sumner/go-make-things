@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Business &amp; Leadership
 date: '2011-04-18'
-permalink: /virgin-oceanic/
+url: /virgin-oceanic/
 title: Virgin Oceanic
-url: /2011/04/18/virgin-oceanic
 ---
 
 Richard Branson and <a href="http://www.virginoceanic.com/">Virgin Oceanic</a> want to create a submersible capable of taking humans to the deepest (and currently unexplored) reaches of our planet.

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-28'
-permalink: /what-makes-vanilla-js-vanilla/
+url: /what-makes-vanilla-js-vanilla/
 title: What makes vanilla JS vanilla?
-url: /2017/04/28/what-makes-vanilla-js-vanilla
 ---
 
 Anyone who buys one of my [vanilla JS pocket guides](/guides/) gets access to an exclusive Slack room.

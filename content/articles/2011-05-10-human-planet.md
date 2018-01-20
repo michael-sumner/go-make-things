@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-05-10'
-permalink: /human-planet/
+url: /human-planet/
 title: Human Planet
-url: /2011/05/10/human-planet
 ---
 
 I graduated with a degree in anthropology. I find the human story - our myriad of cultures and habitats - absolutely fascinating.

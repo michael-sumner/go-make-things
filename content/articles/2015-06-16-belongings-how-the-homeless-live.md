@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2015-06-16'
-permalink: /belongings-how-the-homeless-live/
+url: /belongings-how-the-homeless-live/
 title: 'Belongings: How the Homeless Live'
-url: /2015/06/16/belongings-how-the-homeless-live
 ---
 
 From a fascinating LA Times exploration of [the belongings that LA's homeless keep with them](http://graphics.latimes.com/homeless-possessions/):

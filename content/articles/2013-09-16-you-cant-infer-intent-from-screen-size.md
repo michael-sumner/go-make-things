@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-09-16'
-permalink: /you-cant-infer-intent-from-screen-size/
+url: /you-cant-infer-intent-from-screen-size/
 title: You can&#8217;t infer intent from screen size
-url: /2013/09/16/you-cant-infer-intent-from-screen-size
 ---
 
 In a recent online discussion about <a href="http://econsultancy.com/us/blog/63385-16-drop-dead-gorgeous-examples-of-mobile-design-inspiration#comments">responsive web design versus dedicated mobile sites</a>, I cited this data from <a href="http://www.google.com/think/research-studies/creating-moments-that-matter.html">a recent study by Google and Neilsen</a>:

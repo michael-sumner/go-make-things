@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-12-26'
-permalink: /the-real-history-of-monopoly/
+url: /the-real-history-of-monopoly/
 title: The Real History of Monopoly
-url: /2012/12/26/the-real-history-of-monopoly
 ---
 
 Monopoly has long been one of my favorite board games. I own the board game, a version for Wii, and the iPhone app.

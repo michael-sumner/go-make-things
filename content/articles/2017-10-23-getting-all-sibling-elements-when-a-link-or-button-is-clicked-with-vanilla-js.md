@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-23'
-permalink: /getting-all-sibling-elements-when-a-link-or-button-is-clicked-with-vanilla-js/
+url: /getting-all-sibling-elements-when-a-link-or-button-is-clicked-with-vanilla-js/
 title: Getting all sibling elements when a link or button is clicked with vanilla JS
-url: /2017/10/23/getting-all-sibling-elements-when-a-link-or-button-is-clicked-with-vanilla-js
 ---
 
 Last week in the private Slack channel that comes with any of my [pocket guides](/guides/), one of my students asked how to get a navigation link's siblings when it's clicked.

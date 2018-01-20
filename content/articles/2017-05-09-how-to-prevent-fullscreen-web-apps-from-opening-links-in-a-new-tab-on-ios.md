@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-05-09'
-permalink: /how-to-prevent-fullscreen-web-apps-from-opening-links-in-a-new-tab-on-ios/
+url: /how-to-prevent-fullscreen-web-apps-from-opening-links-in-a-new-tab-on-ios/
 title: How to prevent fullscreen web apps from opening links in a new tab on iOS
-url: /2017/05/09/how-to-prevent-fullscreen-web-apps-from-opening-links-in-a-new-tab-on-ios
 ---
 
 The other week, someone opened a bug on my <a href="https://github.com/cferdinandi/tabby">toggle tabs plugin</a> because when used in a web app on iOS, the tab links were opening in a new window (breaking the app experience).

@@ -5,9 +5,8 @@ categories:
 - Technology
 - Uncategorized
 date: '2013-03-22'
-permalink: /must-watch-youtube-the-pbs-idea-channel/
+url: /must-watch-youtube-the-pbs-idea-channel/
 title: 'Must Watch YouTube: The PBS Idea Channel'
-url: /2013/03/22/must-watch-youtube-the-pbs-idea-channel
 ---
 
 Of all the items in my RSS reader (aww, <a href="http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html">good bye Google Reader</a>!), the thing I most look forward to each week is the <a href="https://www.youtube.com/user/pbsideachannel">PBS Idea Channel video</a>.

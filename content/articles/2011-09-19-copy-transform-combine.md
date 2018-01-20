@@ -2,9 +2,8 @@
 categories:
 - Business &amp; Leadership
 date: '2011-09-19'
-permalink: /copy-transform-combine/
+url: /copy-transform-combine/
 title: Copy. Transform. Combine.
-url: /2011/09/19/copy-transform-combine
 ---
 
 Innovation doesn't usually happen in a sudden flash of inspiration. More often, it's the result of imitation, gradual modification, and merger of multiple, unrelated ideas in new and creative ways.

@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2013-10-03'
-permalink: /extra-history/
+url: /extra-history/
 title: Extra History
-url: /2013/10/03/extra-history
 ---
 
 <a href="https://www.youtube.com/user/ExtraCreditz">Extra Credits</a> is a YouTube series by game designer James Portnow, animator/narrator Daniel Floyd, and artists Allison Theus, Elisa "LeeLee" Scaldaferri, and Scott DeWitt.

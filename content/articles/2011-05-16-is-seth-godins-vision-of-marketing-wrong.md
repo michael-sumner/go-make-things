@@ -2,9 +2,8 @@
 categories:
 - Business &amp; Leadership
 date: '2011-05-16'
-permalink: /is-seth-godins-vision-of-marketing-wrong/
+url: /is-seth-godins-vision-of-marketing-wrong/
 title: Is Seth Godin&#8217;s Vision of Marketing Wrong?
-url: /2011/05/16/is-seth-godins-vision-of-marketing-wrong
 ---
 
 Over the last few years, Seth Godin and a handful of others have built their careers on a concept first identified in Malcolm Gladwell's hit book, <em>Outliers</em>.

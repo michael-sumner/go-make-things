@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-06-12'
-permalink: /the-web-community/
+url: /the-web-community/
 title: The Web Community
-url: /2013/06/12/the-web-community
 ---
 
 One of my favorite things about transitioning from my previous profession into the world of web design and development is how open, welcoming and helpful the web community is.

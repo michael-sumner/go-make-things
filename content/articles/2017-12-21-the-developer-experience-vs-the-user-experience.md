@@ -7,9 +7,8 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-12-21'
-permalink: /the-developer-experience-vs-the-user-experience/
+url: /the-developer-experience-vs-the-user-experience/
 title: The Developer Experience vs. The User Experience
-url: /2017/12/21/the-developer-experience-vs-the-user-experience
 ---
 
 This week, [Jason Cowlam tweeted](https://twitter.com/jiveturkeyJason/status/943152129820299265)...

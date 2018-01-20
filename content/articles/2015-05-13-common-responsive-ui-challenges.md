@@ -4,9 +4,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2015-05-13'
-permalink: /common-responsive-ui-challenges/
+url: /common-responsive-ui-challenges/
 title: Common Mobile User Interface Challenges
-url: /2015/05/13/common-responsive-ui-challenges
 ---
 
 There are a handful of small practices&mdash;little nudges and tweaks&mdash;that will make a huge impact on the usability of your site across a wide range of devices.

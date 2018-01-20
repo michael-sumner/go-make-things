@@ -3,9 +3,8 @@ categories:
 - Design &amp; UX
 - Uncategorized
 date: '2013-03-14'
-permalink: /do-i-need-an-infographic/
+url: /do-i-need-an-infographic/
 title: Do I need an infographic?
-url: /2013/03/14/do-i-need-an-infographic
 ---
 
 I've put together a simple flowchart to help you decide if you need an infographic...

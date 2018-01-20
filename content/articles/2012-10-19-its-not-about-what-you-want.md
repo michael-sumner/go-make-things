@@ -4,9 +4,8 @@ categories:
 - Technology
 date: '2012-10-19'
 excerpt: Why one of my coworkers is switching from an iPhone back to a BlackBerry... and why it matters for you.
-permalink: /its-not-about-what-you-want/
+url: /its-not-about-what-you-want/
 title: It&#8217;s not about what you want
-url: /2012/10/19/its-not-about-what-you-want
 ---
 
 A few months back, one of my coworkers replaced her old BlackBerry with an iPhone 4s. Today, she's switching back to a basic BlackBerry.

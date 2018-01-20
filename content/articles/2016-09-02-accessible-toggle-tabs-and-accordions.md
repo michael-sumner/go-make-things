@@ -5,9 +5,8 @@ categories:
 - Design &amp; UX
 - JavaScript
 date: '2016-09-02'
-permalink: /accessible-toggle-tabs-and-accordions/
+url: /accessible-toggle-tabs-and-accordions/
 title: Accessible toggle tabs and accordions
-url: /2016/09/02/accessible-toggle-tabs-and-accordions
 ---
 
 This week I refactored two of my open source projects---a [toggle tabs plugin](https://github.com/cferdinandi/tabby) and an [accordions plugin](https://github.com/cferdinandi/houdini)---to make them more accessible to people who access the sites I build with screen readers or navigate primarily with a keyboard.

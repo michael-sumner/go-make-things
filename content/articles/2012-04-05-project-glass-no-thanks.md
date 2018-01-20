@@ -4,9 +4,8 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2012-04-05'
-permalink: /project-glass-no-thanks/
+url: /project-glass-no-thanks/
 title: Project Glass? No thanks!
-url: /2012/04/05/project-glass-no-thanks
 ---
 
 This week the big topic on the interwebz is <a href="https://plus.google.com/u/0/111626127367496192147/posts">Project Glass</a>, the new augmented reality vision from Google. <a href="https://www.youtube.com/watch?v=9c6W4CCU9M4">Here it is in action...</a>

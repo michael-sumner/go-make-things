@@ -4,9 +4,8 @@ categories:
 - CSS
 - JavaScript
 date: '2016-12-05'
-permalink: /tutorial-a-simple-show-and-hide-script-with-vanilla-js/
+url: /tutorial-a-simple-show-and-hide-script-with-vanilla-js/
 title: 'Tutorial: A simple show-and-hide script with vanilla JS'
-url: /2016/12/05/tutorial-a-simple-show-and-hide-script-with-vanilla-js
 ---
 
 I recently recorded a few screencasts to go along with the projects in my new book, *[Ditching jQuery](/ditching-jquery-book)*.

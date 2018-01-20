@@ -2,9 +2,8 @@
 categories:
 - JavaScript
 date: '2017-07-07'
-permalink: /what-do-you-want-to-learn-next/
+url: /what-do-you-want-to-learn-next/
 title: What do you want to learn next?
-url: /2017/07/07/what-do-you-want-to-learn-next
 ---
 
 I could use your help.

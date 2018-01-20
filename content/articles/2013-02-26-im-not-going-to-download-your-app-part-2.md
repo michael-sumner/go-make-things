@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-02-26'
-permalink: /im-not-going-to-download-your-app-part-2/
+url: /im-not-going-to-download-your-app-part-2/
 title: I&#8217;m not going to download your app (part 2)
-url: /2013/02/26/im-not-going-to-download-your-app-part-2
 ---
 
 <a href="http://xkcd.com/1174/">From xkcd...</a>

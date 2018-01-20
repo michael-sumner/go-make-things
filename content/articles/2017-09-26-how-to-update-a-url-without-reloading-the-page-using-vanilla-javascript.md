@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-09-26'
-permalink: /how-to-update-a-url-without-reloading-the-page-using-vanilla-javascript/
+url: /how-to-update-a-url-without-reloading-the-page-using-vanilla-javascript/
 title: How to update a URL without reloading the page using vanilla JavaScript
-url: /2017/09/26/how-to-update-a-url-without-reloading-the-page-using-vanilla-javascript
 ---
 
 I'm in the middle of writing my next [pocket guide](/guides/), *Vanilla JS Web Apps*, with a focus on single page apps.

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-06'
-permalink: /converting-strings-to-numbers-with-vanilla-javascript/
+url: /converting-strings-to-numbers-with-vanilla-javascript/
 title: Converting strings to numbers with vanilla JavaScript
-url: /2017/11/06/converting-strings-to-numbers-with-vanilla-javascript
 ---
 
 In JavaScript, you can represent a number is an actual number (ex. `42`), or as a string (ex. `'42'`).

@@ -4,9 +4,8 @@ categories:
 - Design &amp; UX
 - Technology
 date: '2012-04-23'
-permalink: /go-code-things/
+url: /go-code-things/
 title: 'Go Code Things: A free WordPress theme for beginners'
-url: /2012/04/23/go-code-things
 ---
 
 <div class="callout"><p class="tall"><em>Go Code Things</em> is a free Wordpress theme designed to help beginners learn how to build websites.</p>

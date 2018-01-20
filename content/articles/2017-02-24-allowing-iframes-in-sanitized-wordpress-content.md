@@ -3,9 +3,8 @@ categories:
 - Code
 - WordPress
 date: '2017-02-24'
-permalink: /allowing-iframes-in-sanitized-wordpress-content/
+url: /allowing-iframes-in-sanitized-wordpress-content/
 title: Allowing iFrames in sanitized WordPress content
-url: /2017/02/24/allowing-iframes-in-sanitized-wordpress-content
 ---
 
 I recently discovered that `wp_kses`&mdash;a function that keeps malicious code out of the database&mdash;was stripping out my YouTube and Vimeo embeds in a [custom metabox](/how-to-add-custom-fields-to-posts-and-pages-in-wordpress/) I had created.

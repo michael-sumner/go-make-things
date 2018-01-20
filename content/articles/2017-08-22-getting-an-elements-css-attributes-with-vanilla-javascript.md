@@ -4,9 +4,8 @@ categories:
 - CSS
 - JavaScript
 date: '2017-08-22'
-permalink: /getting-an-elements-css-attributes-with-vanilla-javascript/
+url: /getting-an-elements-css-attributes-with-vanilla-javascript/
 title: Getting an element&#8217;s CSS attributes with vanilla JavaScript
-url: /2017/08/22/getting-an-elements-css-attributes-with-vanilla-javascript
 ---
 
 Vanilla JavaScript offers the `style` property, which can be used to both set and get styles on attribute.

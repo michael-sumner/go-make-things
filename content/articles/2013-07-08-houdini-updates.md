@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2013-07-08'
-permalink: /houdini-updates/
+url: /houdini-updates/
 title: Houdini Updates
-url: /2013/07/08/houdini-updates
 ---
 
 <a href="http://cferdinandi.github.io/houdini/">Houdini</a>, my simple collapse-and-expand widget, got an update last week.

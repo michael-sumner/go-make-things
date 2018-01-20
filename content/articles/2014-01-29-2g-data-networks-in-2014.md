@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2014-01-29'
-permalink: /2g-data-networks-in-2014/
+url: /2g-data-networks-in-2014/
 title: 2G Data Networks in 2014
-url: /2014/01/29/2g-data-networks-in-2014
 ---
 
 When I talk about offline access, people will sometimes say, "It's 2014. Internet is ubiquitous."

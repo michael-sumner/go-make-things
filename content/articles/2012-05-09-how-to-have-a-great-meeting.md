@@ -2,9 +2,8 @@
 categories:
 - Business &amp; Leadership
 date: '2012-05-09'
-permalink: /how-to-have-a-great-meeting/
+url: /how-to-have-a-great-meeting/
 title: How to have a great meeting
-url: /2012/05/09/how-to-have-a-great-meeting
 ---
 
 <a href="http://www.fastcompany.com/1835502/the-key-to-great-meetings-is-kicking-some-people-out-of-it">From Fast Company...</a>

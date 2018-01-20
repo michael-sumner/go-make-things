@@ -4,9 +4,8 @@ categories:
 - Design &amp; UX
 - Technology
 date: '2011-07-12'
-permalink: /qr-codes-that-are-actually-useful/
+url: /qr-codes-that-are-actually-useful/
 title: QR codes that are actually useful
-url: /2011/07/12/qr-codes-that-are-actually-useful
 ---
 
 I generally dislike <a href="http://en.wikipedia.org/wiki/QR_code">QR codes</a>.

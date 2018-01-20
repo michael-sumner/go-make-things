@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2015-05-07'
-permalink: /updates-to-wicked-fast-websites/
+url: /updates-to-wicked-fast-websites/
 title: Updates to Wicked Fast Websites
-url: /2015/05/07/updates-to-wicked-fast-websites
 ---
 
 I just pushed out v1.1.0 of [Wicked Fast Websites](/wicked-fast-websites/).

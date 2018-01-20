@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Uncategorized
 date: '2011-06-22'
-permalink: /conan-obrien-at-dartmouth-2011/
+url: /conan-obrien-at-dartmouth-2011/
 title: Conan O&#8217;Brien at Dartmouth 2011
-url: /2011/06/22/conan-obrien-at-dartmouth-2011
 ---
 
 Last week, Conan O'Brien delivered <a href="https://www.youtube.com/watch?v=KmDYXaaT9sA">an amazing commencement speech at Dartmouth College</a>.

@@ -2,9 +2,8 @@
 categories:
 - Business &amp; Leadership
 date: '2012-01-13'
-permalink: /ikea-career-instructions/
+url: /ikea-career-instructions/
 title: 'IKEA: Career Instructions'
-url: /2012/01/13/ikea-career-instructions
 ---
 
 I love this <a href="https://www.youtube.com/watch?v=qwmXRAGDHeo">clever recruiting campaign by IKEA</a> in Australia.

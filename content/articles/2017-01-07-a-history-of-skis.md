@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2017-01-07'
-permalink: /a-history-of-skis/
+url: /a-history-of-skis/
 title: A History of Skis
-url: /2017/01/07/a-history-of-skis
 ---
 
 I found this history of skis from [National Geographic Infographics](https://www.amazon.com/exec/obidos/ASIN/3836545950/ref=nosim/0sil8) wildly interesting.

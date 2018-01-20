@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2014-12-22'
-permalink: /petfinderapi4everybody-js/
+url: /petfinderapi4everybody-js/
 title: petfinderAPI4everybody.js
-url: /2014/12/22/petfinderapi4everybody-js
 ---
 
 A week or two ago I quietly replaced [Petfinder API for WordPress](https://github.com/cferdinandi/petfinder-api-for-wordpress) with [petfinderAPI4everybody.js](https://github.com/cferdinandi/petfinderAPI4everybody).

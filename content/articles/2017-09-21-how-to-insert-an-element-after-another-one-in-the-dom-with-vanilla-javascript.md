@@ -4,9 +4,8 @@ categories:
 - HTML
 - JavaScript
 date: '2017-09-21'
-permalink: /how-to-insert-an-element-after-another-one-in-the-dom-with-vanilla-javascript/
+url: /how-to-insert-an-element-after-another-one-in-the-dom-with-vanilla-javascript/
 title: How to insert an element after another one in the DOM with vanilla JavaScript
-url: /2017/09/21/how-to-insert-an-element-after-another-one-in-the-dom-with-vanilla-javascript
 ---
 
 This week, we looked at [how to create an element](/creating-elements-with-vanilla-javascript/) and [inject it before another one](/how-to-insert-an-element-before-another-one-in-the-dom-with-vanilla-javascript/) with vanilla JavaScript.

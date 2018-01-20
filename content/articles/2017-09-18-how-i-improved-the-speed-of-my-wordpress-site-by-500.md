@@ -3,9 +3,8 @@ categories:
 - Web Performance
 - WordPress
 date: '2017-09-18'
-permalink: /how-i-improved-the-speed-of-my-wordpress-site-by-500/
+url: /how-i-improved-the-speed-of-my-wordpress-site-by-500/
 title: How I improved the speed of my WordPress site by 500%
-url: /2017/09/18/how-i-improved-the-speed-of-my-wordpress-site-by-500
 ---
 
 Over the last few months, my [WordPress site](https://gomakethings.com) had gone from a rather snappy 700ms start render time to upwards of 3 or 4 seconds.

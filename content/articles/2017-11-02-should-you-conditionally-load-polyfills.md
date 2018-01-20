@@ -4,9 +4,8 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-11-02'
-permalink: /should-you-conditionally-load-polyfills/
+url: /should-you-conditionally-load-polyfills/
 title: Should you conditionally load polyfills?
-url: /2017/11/02/should-you-conditionally-load-polyfills
 ---
 
 If you've ben reading my articles for a while, you already know that [I'm a big fan of polyfills](/why-i-love-polyfills/) (snippets of code that add support for a feature to browsers that don’t offer it natively).

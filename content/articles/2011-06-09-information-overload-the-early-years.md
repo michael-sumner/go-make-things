@@ -4,9 +4,8 @@ categories:
 - Technology
 - Uncategorized
 date: '2011-06-09'
-permalink: /information-overload-the-early-years/
+url: /information-overload-the-early-years/
 title: Information overload, the early years
-url: /2011/06/09/information-overload-the-early-years
 ---
 
 The Boston Globe published a fascinating article on <a href="http://www.boston.com/bostonglobe/ideas/articles/2010/11/28/information_overload_the_early_years/">the history of information overload</a> last year.

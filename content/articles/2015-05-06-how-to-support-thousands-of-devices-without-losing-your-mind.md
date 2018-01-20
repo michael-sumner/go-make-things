@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2015-05-06'
-permalink: /how-to-support-thousands-of-devices-without-losing-your-mind/
+url: /how-to-support-thousands-of-devices-without-losing-your-mind/
 title: How to support thousands of devices without losing your mind
-url: /2015/05/06/how-to-support-thousands-of-devices-without-losing-your-mind
 ---
 
 *The following post was adapted from [Wicked Fast Websites](/wicked-fast-websites/), my free beginner's guide to building fast websites and web apps that work on any device. [Download it here.](/wicked-fast-websites/)*

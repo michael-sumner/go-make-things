@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-12-11'
-permalink: /getting-all-query-string-values-from-a-url-with-vanilla-js/
+url: /getting-all-query-string-values-from-a-url-with-vanilla-js/
 title: Getting all query string values from a URL with vanilla JavaScript
-url: /2017/12/11/getting-all-query-string-values-from-a-url-with-vanilla-js
 ---
 
 A few years ago, I shared a method for [getting the value of a query string from a URL](/how-to-get-the-value-of-a-querystring-with-native-javascript/).

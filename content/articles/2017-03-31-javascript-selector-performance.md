@@ -4,9 +4,8 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-03-31'
-permalink: /javascript-selector-performance/
+url: /javascript-selector-performance/
 title: JavaScript Selector Performance
-url: /2017/03/31/javascript-selector-performance
 ---
 
 One of the students in my [Vanilla JS Slack channel](/guides/) asked me about the performance difference between `querySelector()` and things like `getElementById()` and `getElementsByClassName()`.

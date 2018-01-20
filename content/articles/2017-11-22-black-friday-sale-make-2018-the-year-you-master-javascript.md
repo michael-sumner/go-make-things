@@ -3,9 +3,8 @@ categories:
 - Careers
 - JavaScript
 date: '2017-11-22'
-permalink: /black-friday-sale-make-2018-the-year-you-master-javascript/
+url: /black-friday-sale-make-2018-the-year-you-master-javascript/
 title: 'Black Friday Sale: Make 2018 the year you master JavaScript'
-url: /2017/11/22/black-friday-sale-make-2018-the-year-you-master-javascript
 ---
 
 Let's make 2018 the year you master JavaScript!

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-09-27'
-permalink: /components-state-and-vanilla-javascript/
+url: /components-state-and-vanilla-javascript/
 title: Components, state, and vanilla JavaScript
-url: /2017/09/27/components-state-and-vanilla-javascript
 ---
 
 A few weeks ago, we looked at [how to render content with vanilla JavaScript](/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/).

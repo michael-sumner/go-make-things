@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-06-06'
-permalink: /javascript-and-dates-revisited/
+url: /javascript-and-dates-revisited/
 title: JavaScript and dates revisited
-url: /2017/06/06/javascript-and-dates-revisited
 ---
 
 Two quick things...

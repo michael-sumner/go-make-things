@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Uncategorized
 date: '2011-12-02'
-permalink: /a-bike-and-a-tree/
+url: /a-bike-and-a-tree/
 title: A bike and a tree
-url: /2011/12/02/a-bike-and-a-tree
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/11/Bike-Tree.jpg" alt="" title="Bike-Tree" width="500" height="396" class="aligncenter size-full wp-image-1667" />

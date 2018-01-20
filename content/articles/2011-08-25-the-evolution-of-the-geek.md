@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2011-08-25'
-permalink: /the-evolution-of-the-geek/
+url: /the-evolution-of-the-geek/
 title: The Evolution of the Geek
-url: /2011/08/25/the-evolution-of-the-geek
 ---
 
 I've always considered myself more of a dork than a geek, but I find this <a href="http://www.flowtown.com/blog/the-evolution-of-the-geek">Evolution of the Geek</a> diagram delightfully nerdy!

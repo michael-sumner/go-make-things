@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2014-06-20'
-permalink: /disabling-comments/
+url: /disabling-comments/
 title: Disabling Comments
-url: /2014/06/20/disabling-comments
 ---
 
 ***Update on September 29, 2014:*** *Thanks to a new plugin, I've [brought comments back to this site](/tarpit-say-goodbye-to-wordpress-comment-spam/).*

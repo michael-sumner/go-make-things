@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-09'
-permalink: /ternary-operators/
+url: /ternary-operators/
 title: Ternary Operators
-url: /2017/08/09/ternary-operators
 ---
 
 Ternary operators provide you with a way to write more concise `if...else` variables. For example, you might set a conditional variable like this:

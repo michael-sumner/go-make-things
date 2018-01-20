@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2014-12-01'
-permalink: /gumshoe-a-framework-free-scrollspy-script/
+url: /gumshoe-a-framework-free-scrollspy-script/
 title: 'Gumshoe: A framework-free scrollspy script'
-url: /2014/12/01/gumshoe-a-framework-free-scrollspy-script
 ---
 
 Last week I release <a href="https://github.com/cferdinandi/gumshoe">Gumshoe</a>, a lightweight, framework-free script that highlights the current content in the navigation area on single-page sites.

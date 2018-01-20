@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-12-07'
-permalink: /adding-items-to-an-array-with-vanilla-javascript/
+url: /adding-items-to-an-array-with-vanilla-javascript/
 title: Adding items to an array with vanilla JavaScript
-url: /2017/12/07/adding-items-to-an-array-with-vanilla-javascript
 ---
 
 You can use the `push()` method to add items to an array.

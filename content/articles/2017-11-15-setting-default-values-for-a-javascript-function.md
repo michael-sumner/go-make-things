@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-15'
-permalink: /setting-default-values-for-a-javascript-function/
+url: /setting-default-values-for-a-javascript-function/
 title: Setting default values for JavaScript function arguments
-url: /2017/11/15/setting-default-values-for-a-javascript-function
 ---
 
 If you don't pass in a value for an argument, your script will use `undefined`. This can result in some unexpected results.

@@ -4,9 +4,8 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-05-12'
-permalink: /how-to-find-bottlenecks-in-your-javascript/
+url: /how-to-find-bottlenecks-in-your-javascript/
 title: How to find bottlenecks in your JavaScript
-url: /2017/05/12/how-to-find-bottlenecks-in-your-javascript
 ---
 
 Yesterday, I shared this quote from <a href="https://medium.com/reloading/javascript-start-up-performance-69200f43b201">Addy Osmani</a> (emphasis mine):

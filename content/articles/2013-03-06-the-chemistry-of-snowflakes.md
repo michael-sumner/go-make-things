@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2013-03-06'
-permalink: /the-chemistry-of-snowflakes/
+url: /the-chemistry-of-snowflakes/
 title: The Chemistry of Snowflakes
-url: /2013/03/06/the-chemistry-of-snowflakes
 ---
 
 Ever wonder how snowflakes form? Bytesize Science shares this interesting video on <a href="https://www.youtube.com/watch?&v=VYrF3sFBY20">the chemistry of snowflakes...</a>

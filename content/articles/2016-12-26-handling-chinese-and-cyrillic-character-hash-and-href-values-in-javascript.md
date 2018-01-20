@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2016-12-26'
-permalink: /handling-chinese-and-cyrillic-character-hash-and-href-values-in-javascript/
+url: /handling-chinese-and-cyrillic-character-hash-and-href-values-in-javascript/
 title: Handling Chinese and Cyrillic character hash and href values in JavaScript
-url: /2016/12/26/handling-chinese-and-cyrillic-character-hash-and-href-values-in-javascript
 ---
 
 Last week, I got a bug report on [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll/) that content with Chinese and Cyrillic characters in the ID weren't working in Safari and Firefox. The problem seemed to extend to any valid, non-ASCII characters.

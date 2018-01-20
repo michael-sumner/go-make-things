@@ -4,9 +4,8 @@ categories:
 - CSS
 - JavaScript
 date: '2017-04-25'
-permalink: /detecting-svg-support-with-javascript/
+url: /detecting-svg-support-with-javascript/
 title: Detecting SVG support with JavaScript
-url: /2017/04/25/detecting-svg-support-with-javascript
 ---
 
 <a href="https://modernizr.com/">Modernizr</a> is a very popular browser support detection generator, but sometimes it can be a little heavy-handed when you just need to check one or two things.

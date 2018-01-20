@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2017-09-25'
-permalink: /just-is-a-dirty-word/
+url: /just-is-a-dirty-word/
 title: '&#8220;Just&#8221; is a dirty word'
-url: /2017/09/25/just-is-a-dirty-word
 ---
 
 My least favorite word in web development is "just." I see it used in documentation, tutorials, blog posts, StackOverflow answers and more, and it sucks.

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-05-23'
-permalink: /who-should-drive-a-vanilla-js-web-app/
+url: /who-should-drive-a-vanilla-js-web-app/
 title: Who should drive? How to create a vanilla JS web app.
-url: /2017/05/23/who-should-drive-a-vanilla-js-web-app
 ---
 
 Last week, my buddy [Dominic Magnifico tweeted](https://twitter.com/Magnificode/status/866374626749894656) about [Vue Should Drive](http://codepen.io/magnificode/pen/wddMMy), a fun little web app for picking a driver that he built in about 20 minutes using Vue.js.

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-05-08'
-permalink: /prefixing-javascript-selectors-to-avoid-conflicts/
+url: /prefixing-javascript-selectors-to-avoid-conflicts/
 title: Prefixing JavaScript selectors to avoid conflicts
-url: /2017/05/08/prefixing-javascript-selectors-to-avoid-conflicts
 ---
 
 <a href="http://andrewborstein.com">Andrew Boorstein</a>, one of the students in my <a href="https://gomakethings.com/guides/">Vanilla JS Slack channel</a> asked:

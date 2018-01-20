@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2013-07-03'
-permalink: /wordpress-next-page-id/
+url: /wordpress-next-page-id/
 title: WordPress Next Page ID
-url: /2013/07/03/wordpress-next-page-id
 ---
 
 WordPress makes it really easy to <a href="http://codex.wordpress.org/Next_and_Previous_Links">link to next and previous posts</a>, but not easy to work with neighboring pages.

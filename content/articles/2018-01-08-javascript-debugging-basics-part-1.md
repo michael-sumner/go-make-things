@@ -11,9 +11,8 @@ event_start_date:
 - ''
 mailchimp_details:
 - ''
-permalink: /javascript-debugging-basics-part-1/
+url: /javascript-debugging-basics-part-1/
 title: 'JavaScript Debugging Basics: Part 1'
-url: /2018/01/08/javascript-debugging-basics-part-1
 ---
 
 One of the biggest things people who buy my [pocket guides](/guides/) and [courses](/courses/) ask me about is debugging.

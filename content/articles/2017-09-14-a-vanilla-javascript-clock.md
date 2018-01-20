@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-09-14'
-permalink: /a-vanilla-javascript-clock/
+url: /a-vanilla-javascript-clock/
 title: A vanilla JavaScript clock
-url: /2017/09/14/a-vanilla-javascript-clock
 ---
 
 This week, I'm sharing topics from my next [pocket guide](https://gomakethings.com): Vanilla JS Web Apps.

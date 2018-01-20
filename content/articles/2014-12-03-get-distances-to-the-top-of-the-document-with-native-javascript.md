@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2014-12-03'
-permalink: /get-distances-to-the-top-of-the-document-with-native-javascript/
+url: /get-distances-to-the-top-of-the-document-with-native-javascript/
 title: Get distances to the top of the document with native JavaScript
-url: /2014/12/03/get-distances-to-the-top-of-the-document-with-native-javascript
 ---
 
 Last week I added two new code snippets to my [Ditching jQuery](/ditching-jquery) resource.

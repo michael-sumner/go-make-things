@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-11-22'
-permalink: /conference-after-parties/
+url: /conference-after-parties/
 title: Conference After-Parties
-url: /2013/11/22/conference-after-parties
 ---
 
 Mark Boulton wrote an awesome article on <a href="http://www.markboulton.co.uk/journal/conferencetips">tips for conference organizers</a> from a speakers perspective. My favorite is #9:

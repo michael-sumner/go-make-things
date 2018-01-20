@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-03-02'
-permalink: /detecting-when-a-visitor-has-stopped-scrolling-with-vanilla-javascript/
+url: /detecting-when-a-visitor-has-stopped-scrolling-with-vanilla-javascript/
 title: Detecting when a visitor has stopped scrolling with vanilla JavaScript
-url: /2017/03/02/detecting-when-a-visitor-has-stopped-scrolling-with-vanilla-javascript
 ---
 
 For one of my open source projects, I was recently asked if there's a way to delay running something until after scrolling has finished.

@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2014-10-16'
-permalink: /kraken-gets-livereload/
+url: /kraken-gets-livereload/
 title: Kraken gets LiveReload
-url: /2014/10/16/kraken-gets-livereload
 ---
 
 [Kraken 4.2.0](http://cferdinandi.github.io/kraken/) came out today.

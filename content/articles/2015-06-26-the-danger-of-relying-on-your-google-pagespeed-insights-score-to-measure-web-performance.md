@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2015-06-26'
-permalink: /the-danger-of-relying-on-your-google-pagespeed-insights-score-to-measure-web-performance/
+url: /the-danger-of-relying-on-your-google-pagespeed-insights-score-to-measure-web-performance/
 title: The danger of relying on your Google PageSpeed Insights score to measure web performance
-url: /2015/06/26/the-danger-of-relying-on-your-google-pagespeed-insights-score-to-measure-web-performance
 ---
 
 I've stopped paying attention to my [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) score.

@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2013-03-08'
-permalink: /hero-pit-bull/
+url: /hero-pit-bull/
 title: Hero Pit Bull
-url: /2013/03/08/hero-pit-bull
 ---
 
 A pit bull saved her family - both human and animal - from a fire that destroyed their entire house. <a href="http://www.ilovedogs.com/2013/02/hero-pit-bull-saves-women-and-dogs-from-house-fire/">From I Love Dogs...</a>

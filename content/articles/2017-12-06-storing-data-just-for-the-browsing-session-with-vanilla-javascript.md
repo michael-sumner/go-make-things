@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-12-06'
-permalink: /storing-data-just-for-the-browsing-session-with-vanilla-javascript/
+url: /storing-data-just-for-the-browsing-session-with-vanilla-javascript/
 title: Storing data just for the browsing session with vanilla JavaScript
-url: /2017/12/06/storing-data-just-for-the-browsing-session-with-vanilla-javascript
 ---
 
 Yesterday, we looked at [how to use `localStorage` to save user data locally in the browser](/using-localstorage-to-save-user-data-with-vanilla-javascript/). Today, you'll learn how to save data just for the current browsing session.

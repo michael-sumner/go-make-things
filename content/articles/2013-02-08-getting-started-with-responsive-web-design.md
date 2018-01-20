@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-02-08'
-permalink: /getting-started-with-responsive-web-design/
+url: /getting-started-with-responsive-web-design/
 title: Getting started with Responsive Web Design
-url: /2013/02/08/getting-started-with-responsive-web-design
 ---
 
 Trent Walton has an excellent post on <a href="http://trentwalton.com/2013/02/07/where-to-start/">getting started with Responsive Web Design</a>. He writes...

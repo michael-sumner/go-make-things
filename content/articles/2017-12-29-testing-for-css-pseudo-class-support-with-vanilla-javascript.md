@@ -4,9 +4,8 @@ categories:
 - CSS
 - JavaScript
 date: '2017-12-29'
-permalink: /testing-for-css-pseudo-class-support-with-vanilla-javascript/
+url: /testing-for-css-pseudo-class-support-with-vanilla-javascript/
 title: Testing for CSS pseudo-class support with vanilla JavaScript
-url: /2017/12/29/testing-for-css-pseudo-class-support-with-vanilla-javascript
 ---
 
 Yesterday, we learned [how to check for CSS feature support with vanilla JS](/testing-for-css-support-with-vanilla-javascript/) using `CSS.supports()`. Unfortunately, this method cannot be used to test for CSS pseudo-classes.

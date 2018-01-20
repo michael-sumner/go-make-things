@@ -5,9 +5,8 @@ categories:
 - JavaScript
 - Web Performance
 date: '2016-08-15'
-permalink: /fixing-fonts/
+url: /fixing-fonts/
 title: Fixing Fonts
-url: /2016/08/15/fixing-fonts
 ---
 
 *This is an excerpt from my latest book, ["Wicked Fast Websites."](/wicked-fast-websites/)*

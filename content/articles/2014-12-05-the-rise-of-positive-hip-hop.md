@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2014-12-05'
-permalink: /the-rise-of-positive-hip-hop/
+url: /the-rise-of-positive-hip-hop/
 title: The rise of positive hip-hop
-url: /2014/12/05/the-rise-of-positive-hip-hop
 ---
 
 A few weeks ago, I found myself frustrated with the current state of hip-hop. The stuff that's "good," for lack of a better word, is hyper-focused on subject matter that's frankly not something I can relate to.

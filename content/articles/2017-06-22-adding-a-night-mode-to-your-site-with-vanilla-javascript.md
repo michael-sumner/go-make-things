@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-06-22'
-permalink: /adding-a-night-mode-to-your-site-with-vanilla-javascript/
+url: /adding-a-night-mode-to-your-site-with-vanilla-javascript/
 title: Adding a &#8220;night mode&#8221; to your site with vanilla JavaScript
-url: /2017/06/22/adding-a-night-mode-to-your-site-with-vanilla-javascript
 ---
 
 Yesterday, I added a "night mode" to my website. Toggling it switches to light text on a dark background.

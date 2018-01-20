@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2014-09-24'
-permalink: /the-invisible-people/
+url: /the-invisible-people/
 title: The Invisible People
-url: /2014/09/24/the-invisible-people
 ---
 
 I've written here before about my [desire to help the homeless](/homeless-hungry/), and how that conflicts with my fear and judgement.

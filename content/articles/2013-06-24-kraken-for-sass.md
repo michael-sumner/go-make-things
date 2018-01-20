@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-06-24'
-permalink: /kraken-for-sass/
+url: /kraken-for-sass/
 title: Kraken for Sass
-url: /2013/06/24/kraken-for-sass
 ---
 
 Major kudos to <a href="http://www.twitter.com/jwebcat">Jupiter St. John</a>, who created a fork of <a href="http://jwebcat.github.io/kraken-sass/">Kraken for Sass</a> over the last few weeks.

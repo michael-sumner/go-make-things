@@ -4,9 +4,8 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2015-01-12'
-permalink: /when-what-the-client-wants-isnt-what-they-need/
+url: /when-what-the-client-wants-isnt-what-they-need/
 title: When what the client wants isn&#8217;t what they need
-url: /2015/01/12/when-what-the-client-wants-isnt-what-they-need
 ---
 
 On a recent client project, I had to tell a client that I wouldn't do what their CEO wanted. Or, more accurately, that I wouldn't do something *just* because their CEO wanted it.

@@ -4,9 +4,8 @@ categories:
 - Code
 - WordPress
 date: '2016-10-03'
-permalink: /selling-things-with-easy-digital-downloads/
+url: /selling-things-with-easy-digital-downloads/
 title: Selling things with Easy Digital Downloads
-url: /2016/10/03/selling-things-with-easy-digital-downloads
 ---
 
 I use [Easy Digital Downloads](https://easydigitaldownloads.com/) to sell [my books and other products](/books/).

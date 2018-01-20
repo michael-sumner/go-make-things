@@ -3,9 +3,8 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2012-02-02'
-permalink: /the-windows-phone-catch-22/
+url: /the-windows-phone-catch-22/
 title: The Windows Phone Catch 22
-url: /2012/02/02/the-windows-phone-catch-22
 ---
 
 Everything I've read indicates that the new Windows Phone is so well designed that even hardcore iPhone fans would buy it.

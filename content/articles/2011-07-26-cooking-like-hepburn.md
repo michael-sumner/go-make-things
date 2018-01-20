@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2011-07-26'
-permalink: /cooking-like-hepburn/
+url: /cooking-like-hepburn/
 title: Cooking like Hepburn
-url: /2011/07/26/cooking-like-hepburn
 ---
 
 [caption id="attachment_995" align="aligncenter" width="560" caption="Katherine Hepburn&#039;s pots and pans. Click to view larger."]<a href="https://gomakethings.com/wp-content/uploads/2011/07/Hepburn.jpg"><img src="https://gomakethings.com/wp-content/uploads/2011/07/Hepburn-560x170.jpg" alt="" title="Hepburn" width="560" height="170" class="size-medium wp-image-995" /></a>[/caption]

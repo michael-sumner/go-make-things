@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2014-11-24'
-permalink: /why-progressive-enhancement-still-matters/
+url: /why-progressive-enhancement-still-matters/
 title: Why progressive enhancement still matters
-url: /2014/11/24/why-progressive-enhancement-still-matters
 ---
 
 One thing I've struggled to answer when people start debating the importance of progressive enhancement is how you enhance something like a camera app.

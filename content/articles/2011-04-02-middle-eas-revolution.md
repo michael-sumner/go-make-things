@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-04-02'
-permalink: /middle-eas-revolution/
+url: /middle-eas-revolution/
 title: The Middle Eastern Revolution
-url: /2011/04/02/middle-eas-revolution
 ---
 
 <p align="center"><iframe src="https://player.vimeo.com/video/21372525" width="560" height="315" frameborder="0"></iframe></p>

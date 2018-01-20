@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2011-11-03'
-permalink: /tangible-things/
+url: /tangible-things/
 title: Tangible things
-url: /2011/11/03/tangible-things
 ---
 
 <blockquote>"We spent the last decade moving as much of our lives online as we could, and we're better for it," Frechette, the former editor of GOOD Magazine, tells Fast Company. "But we've also learned in that time what things the Internet can't replace, and the value of tangible things that happen in the real world."</blockquote>

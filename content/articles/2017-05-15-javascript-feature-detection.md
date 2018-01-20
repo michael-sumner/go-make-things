@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-05-15'
-permalink: /javascript-feature-detection/
+url: /javascript-feature-detection/
 title: JavaScript feature detection
-url: /2017/05/15/javascript-feature-detection
 ---
 
 In my [Vanilla JS Pocket Guide](/guides/) on browser compatibility, I mention a technique called "cutting the mustard," in which you make sure the most modern functions you're using are supported before running your code.

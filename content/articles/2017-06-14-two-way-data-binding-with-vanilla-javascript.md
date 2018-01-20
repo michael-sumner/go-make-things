@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-06-14'
-permalink: /two-way-data-binding-with-vanilla-javascript/
+url: /two-way-data-binding-with-vanilla-javascript/
 title: Two-way data binding with vanilla JavaScript
-url: /2017/06/14/two-way-data-binding-with-vanilla-javascript
 ---
 
 One of the things champions of large MVC JavaScript frameworks like Angular and React love is two-way data binding.

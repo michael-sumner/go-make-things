@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2011-03-09'
-permalink: /steve-lambert-will-talk-with-anyone/
+url: /steve-lambert-will-talk-with-anyone/
 title: Steve Lambert will talk with anyone
-url: /2011/03/09/steve-lambert-will-talk-with-anyone
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/03/talk-anyone-400x266.jpg" alt="" title="talk-anyone" width="400" height="266" class="aligncenter size-medium wp-image-236" />

@@ -4,9 +4,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2015-04-09'
-permalink: /building-websites-that-work-on-an-e-ink-kindle/
+url: /building-websites-that-work-on-an-e-ink-kindle/
 title: Building websites that work on an e-ink Kindle
-url: /2015/04/09/building-websites-that-work-on-an-e-ink-kindle
 ---
 
 Today, Brad Frost wrote about [the importance of providing accessible web experiences on low-powered devices](http://bradfrost.com/blog/post/accessibility-and-low-powered-devices/) (like an e-ink Kindle).

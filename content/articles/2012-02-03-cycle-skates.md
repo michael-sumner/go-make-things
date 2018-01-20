@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-02-03'
-permalink: /cycle-skates/
+url: /cycle-skates/
 title: Cycle-Skates
-url: /2012/02/03/cycle-skates
 ---
 
 Cycle-skating, a sport of 1923. <a href="https://www.youtube.com/watch?v=UjtPn4orR9A">I totally want a pair of these!</a>

@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2014-02-20'
-permalink: /jellyfish-a-better-image-lazy-loader/
+url: /jellyfish-a-better-image-lazy-loader/
 title: Jellyfish, a better image lazy loader
-url: /2014/02/20/jellyfish-a-better-image-lazy-loader
 ---
 
 <a href="http://cferdinandi.github.io/jellyfish/">Jellyfish</a> is a new progressively enhanced lazy image loader written in vanilla JS.

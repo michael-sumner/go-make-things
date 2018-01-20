@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-03-20'
-permalink: /kraken-updates/
+url: /kraken-updates/
 title: Kraken Updates
-url: /2013/03/20/kraken-updates
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2013/03/kraken.png" alt="A screenshot of the new Kraken website" width="640" height="384" class="aligncenter size-full wp-image-4400" />

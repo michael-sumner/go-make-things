@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-07-28'
-permalink: /splitscreen-a-love-story/
+url: /splitscreen-a-love-story/
 title: 'Splitscreen: A Love Story'
-url: /2011/07/28/splitscreen-a-love-story
 ---
 
 <a href="http://vimeo.com/25451551">Splitscreen</a> is a brilliant short film shot entirely on a Nokia N8 mobile phone. Proof that it's the story and not the technology that makes for great video work.

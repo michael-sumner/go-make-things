@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-01-02'
-permalink: /big-picture-design/
+url: /big-picture-design/
 title: Big-Picture Design
-url: /2013/01/02/big-picture-design
 ---
 
 In <a href="http://elliotjaystocks.com/blog/2012-in-review/">"2012 in Review,"</a> Elliot Jay Stocks wrote...

@@ -3,9 +3,8 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2011-10-19'
-permalink: /a-faster-horse/
+url: /a-faster-horse/
 title: A Faster Horse
-url: /2011/10/19/a-faster-horse
 ---
 
 <blockquote>If I’d asked people what they wanted, they would have said a faster horse.

@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2015-04-14'
-permalink: /why-using-current-user-data-to-justify-not-optimizing-for-mobile-is-bllshit/
+url: /why-using-current-user-data-to-justify-not-optimizing-for-mobile-is-bllshit/
 title: Why using current user data to justify not optimizing for mobile is b*llshit
-url: /2015/04/14/why-using-current-user-data-to-justify-not-optimizing-for-mobile-is-bllshit
 ---
 
 When chatting with clients about how a particular feature or component might work on a smaller viewport or a touch-screen device, they often respond with something like:

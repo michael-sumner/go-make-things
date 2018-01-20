@@ -4,9 +4,8 @@ categories:
 - Code
 date: '2012-10-26'
 excerpt: A jQuery fix for the rotation auto-scaling bug in iOS.
-permalink: /ios-rotation-bug-and-a-fix/
+url: /ios-rotation-bug-and-a-fix/
 title: iOS rotation bug (and a fix)
-url: /2012/10/26/ios-rotation-bug-and-a-fix
 ---
 
 One of the quirks of the Safari browser on iOS is that when rotating from portrait to landscape, the browser will zoom in, even when the content has been optimized for smaller screens.

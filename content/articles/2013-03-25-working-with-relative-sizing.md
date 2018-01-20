@@ -3,9 +3,8 @@ categories:
 - Accessibility
 - Code
 date: '2013-03-25'
-permalink: /working-with-relative-sizing/
+url: /working-with-relative-sizing/
 title: Working with Relative Sizing
-url: /2013/03/25/working-with-relative-sizing
 ---
 
 The [Kraken boilerplate](http://cferdinandi.github.com/kraken/) uses only relative sizing. There's not a single pixel in the stylesheet.

@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2012-04-27'
-permalink: /posters-of-the-past/
+url: /posters-of-the-past/
 title: Posters of the past
-url: /2012/04/27/posters-of-the-past
 ---
 
 <a href="http://www.swiss-miss.com/">Swiss Miss</a> tipped me off to <a href="http://www.retronaut.co/">Retronaut</a>, a wonderful collection of photos and posters from the 1700's through the 1980's.

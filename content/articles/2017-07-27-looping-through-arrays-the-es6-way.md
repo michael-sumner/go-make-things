@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-07-27'
-permalink: /looping-through-arrays-the-es6-way/
+url: /looping-through-arrays-the-es6-way/
 title: Looping through arrays the ES6 way
-url: /2017/07/27/looping-through-arrays-the-es6-way
 ---
 
 The traditional way of looping through arrays in vanilla JavaScript is with a `for` loop:

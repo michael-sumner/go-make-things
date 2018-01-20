@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-10'
-permalink: /how-to-test-if-an-element-is-in-the-viewport-with-vanilla-javascript/
+url: /how-to-test-if-an-element-is-in-the-viewport-with-vanilla-javascript/
 title: How to test if an element is in the viewport with vanilla JavaScript
-url: /2017/08/10/how-to-test-if-an-element-is-in-the-viewport-with-vanilla-javascript
 ---
 
 Today, I want to show you how to write a small vanilla JS helper function to check if an element is in the viewport.

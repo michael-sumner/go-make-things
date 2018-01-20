@@ -3,9 +3,8 @@ categories:
 - Code
 - WordPress
 date: '2016-09-07'
-permalink: /how-to-disable-wordpress-core-updates/
+url: /how-to-disable-wordpress-core-updates/
 title: How to disable WordPress core updates
-url: /2016/09/07/how-to-disable-wordpress-core-updates
 ---
 
 I was recently working with a client who had made some custom security modifications to their database. Anytime someone ran the WordPress "Click to Update" process on WP Core, it would break the entire site.

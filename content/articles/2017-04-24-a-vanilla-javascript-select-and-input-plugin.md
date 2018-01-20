@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-24'
-permalink: /a-vanilla-javascript-select-and-input-plugin/
+url: /a-vanilla-javascript-select-and-input-plugin/
 title: A vanilla JavaScript select and input plugin
-url: /2017/04/24/a-vanilla-javascript-select-and-input-plugin
 ---
 
 ***Update:*** *My friend (and accessibility expert) [Scott O'Hara](http://www.scottohara.me/) tells me that this plugin is really bad for people who use screen readers. Accordingly, I'm rescinding my recommendation.*

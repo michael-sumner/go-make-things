@@ -4,9 +4,8 @@ categories:
 - HTML
 - JavaScript
 date: '2017-09-20'
-permalink: /how-to-insert-an-element-before-another-one-in-the-dom-with-vanilla-javascript/
+url: /how-to-insert-an-element-before-another-one-in-the-dom-with-vanilla-javascript/
 title: How to insert an element before another one in the DOM with vanilla JavaScript
-url: /2017/09/20/how-to-insert-an-element-before-another-one-in-the-dom-with-vanilla-javascript
 ---
 
 Yesterday, we looked at [how to create elements with vanilla JavaScript](/creating-elements-with-vanilla-javascript/). Today, we're going to learn how to insert them before other elements in the DOM.

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-16'
-permalink: /checking-if-two-arrays-are-equal/
+url: /checking-if-two-arrays-are-equal/
 title: Checking if two arrays are equal
-url: /2017/10/16/checking-if-two-arrays-are-equal
 ---
 
 Over the weekend, one of the students my in private Slack channel (included with [my pocket guides](/guides/)) asked me what the best way to check if two arrays are equal is.

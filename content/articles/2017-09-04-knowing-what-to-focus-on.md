@@ -3,9 +3,8 @@ categories:
 - Careers
 - Code
 date: '2017-09-04'
-permalink: /knowing-what-to-focus-on/
+url: /knowing-what-to-focus-on/
 title: Knowing what to focus on
-url: /2017/09/04/knowing-what-to-focus-on
 ---
 
 I ask everyone who subscribes to <a href="https://gomakethings.com/newsletter/">my daily developer tips</a> a simple question: "what's the biggest challenge you face as a web developer?"

@@ -4,9 +4,8 @@ categories:
 - Business &amp; Leadership
 - Uncategorized
 date: '2012-01-13'
-permalink: /defend-the-internet-stop-sopa/
+url: /defend-the-internet-stop-sopa/
 title: Defend the Internet. Stop SOPA.
-url: /2012/01/13/defend-the-internet-stop-sopa
 ---
 
 <strong>Congress wants to censor the web.</strong>

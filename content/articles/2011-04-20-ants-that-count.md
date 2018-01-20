@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-04-20'
-permalink: /ants-that-count/
+url: /ants-that-count/
 title: Ants That Count
-url: /2011/04/20/ants-that-count
 ---
 
 Most ants get around by leaving smell trails on the forest floor that show other ants how to get home or to food. They squeeze the glands that cover their bodies; those glands release a scent, and the scents in combination create trails the other ants can follow.

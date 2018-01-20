@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-06-15'
-permalink: /how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/
+url: /how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/
 title: How to get the closest parent element with a matching selector using vanilla JavaScript
-url: /2017/06/15/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript
 ---
 
 ***Note:*** *There's [an update version of this article](/a-native-vanilla-javascript-way-to-get-the-closest-matching-parent-element/).*

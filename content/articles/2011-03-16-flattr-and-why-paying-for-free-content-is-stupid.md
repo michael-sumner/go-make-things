@@ -3,9 +3,8 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2011-03-16'
-permalink: /flattr-and-why-paying-for-free-content-is-stupid/
+url: /flattr-and-why-paying-for-free-content-is-stupid/
 title: Flattr (and why paying for free content is stupid)
-url: /2011/03/16/flattr-and-why-paying-for-free-content-is-stupid
 ---
 
 Every year at <a href="http://sxsw.com/interactive">SXSW Interactive</a>, a handful of new social media sites formally announce their presence to the world. They usually have cute, tongue-in-cheek names and come in clusters around a theme. Last year, it was about location-based apps like <a href="http://foursquare.com/">Foursquare</a> and <a href="http://gowalla.com/">Gowalla</a>.

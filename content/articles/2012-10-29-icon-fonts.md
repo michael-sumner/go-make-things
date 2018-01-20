@@ -4,9 +4,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2012-10-29'
-permalink: /icon-fonts/
+url: /icon-fonts/
 title: Using Icon Fonts
-url: /2012/10/29/icon-fonts
 ---
 
 ***Note:*** *This article is a bit stale. It contains outdated screenshots from the IcoMoon interface, and is not how I build sites today. I've since [switched to using SVGs](/using-svgs/), and I'm not looking back. That said, if you're looking to get started with icon fonts, it's still a worthwhile read.*

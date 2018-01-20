@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-06-23'
-permalink: /announcing-vanilla-javascript-for-beginners/
+url: /announcing-vanilla-javascript-for-beginners/
 title: Announcing &#8220;Vanilla JavaScript for Beginners&#8221;
-url: /2017/06/23/announcing-vanilla-javascript-for-beginners
 ---
 
 A lot of people have told me that they learn code better through video, and prefer seeing code in action over just reading about how it works.

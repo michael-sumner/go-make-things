@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2012-05-10'
-permalink: /the-divided-brain/
+url: /the-divided-brain/
 title: The Divided Brain
-url: /2012/05/10/the-divided-brain
 ---
 
 Contrary to popular belief, the left half of the brain doesn't control reason, and the right half does not control emotion and creativity. Nor do language or visual perception reside in just one hemisphere.

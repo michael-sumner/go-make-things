@@ -4,9 +4,8 @@ categories:
 - Design &amp; UX
 date: '2012-11-07'
 excerpt: Mobile first explained in plain, practical terms
-permalink: /wtf-is-mobile-first/
+url: /wtf-is-mobile-first/
 title: WTF is Mobile First?
-url: /2012/11/07/wtf-is-mobile-first
 ---
 
 Mobile First is starting to achieve a buzzword like status, much in the same way that web 2.0 and HTML5 did. And that's a shame, because mobile first is actually really awesome.

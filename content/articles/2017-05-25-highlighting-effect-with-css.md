@@ -3,9 +3,8 @@ categories:
 - Code
 - CSS
 date: '2017-05-25'
-permalink: /highlighting-effect-with-css/
+url: /highlighting-effect-with-css/
 title: Highlighting effect with CSS
-url: /2017/05/25/highlighting-effect-with-css
 ---
 
 I've always loved the look of text that looks like it's highlighted.

@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-02-21'
-permalink: /cnn-hero-narayanan-krishnan/
+url: /cnn-hero-narayanan-krishnan/
 title: CNN Hero Narayanan Krishnan
-url: /2011/02/21/cnn-hero-narayanan-krishnan
 ---
 
 Wow. <a href="https://www.youtube.com/watch?v=y_3BEwpv0dM">This video is simply amazing...</a>

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-03'
-permalink: /smarter-polyfill-loading-with-polyfill-io/
+url: /smarter-polyfill-loading-with-polyfill-io/
 title: Smarter polyfill loading with polyfill.io
-url: /2017/11/03/smarter-polyfill-loading-with-polyfill-io
 ---
 
 Yesterday, I showed you [how to use polyfill.io to conditionally load polyfills](/should-you-conditionally-load-polyfills/) only for the browsers that need them.

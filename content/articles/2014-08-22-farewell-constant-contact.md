@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2014-08-22'
-permalink: /farewell-constant-contact/
+url: /farewell-constant-contact/
 title: Farewell Constant Contact
-url: /2014/08/22/farewell-constant-contact
 ---
 
 Today is my last day at Constant Contact, a company I joined just four short months ago.

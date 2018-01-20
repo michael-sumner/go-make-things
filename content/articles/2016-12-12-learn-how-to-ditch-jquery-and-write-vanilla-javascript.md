@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2016-12-12'
-permalink: /learn-how-to-ditch-jquery-and-write-vanilla-javascript/
+url: /learn-how-to-ditch-jquery-and-write-vanilla-javascript/
 title: Learn how to ditch jQuery and write vanilla JavaScript
-url: /2016/12/12/learn-how-to-ditch-jquery-and-write-vanilla-javascript
 ---
 
 I'm delighted to announce that my new book, *[Ditching jQuery](/ditching-jquery-book/)*, is officially available for purchase right now.

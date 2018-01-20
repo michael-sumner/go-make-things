@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-09'
-permalink: /getting-an-array-of-all-arguments-passed-into-a-function-with-vanilla-javascript/
+url: /getting-an-array-of-all-arguments-passed-into-a-function-with-vanilla-javascript/
 title: Getting an array of all arguments passed into a function with vanilla JavaScript
-url: /2017/11/09/getting-an-array-of-all-arguments-passed-into-a-function-with-vanilla-javascript
 ---
 
 Let's say you had a function that added two numbers together.

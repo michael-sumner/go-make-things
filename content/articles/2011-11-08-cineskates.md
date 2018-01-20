@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2011-11-08'
-permalink: /cineskates/
+url: /cineskates/
 title: CineSkates
-url: /2011/11/08/cineskates
 ---
 
 This is an absolutely brilliant solution to a very real problem. <a href="http://www.kickstarter.com/projects/jj1/cineskates-camera-sliders">CineSkates</a> are rollerblade wheels that attach to a flexible tripod to create an inexpensive, adaptable dolly/steadicam for amateur filmmakers.

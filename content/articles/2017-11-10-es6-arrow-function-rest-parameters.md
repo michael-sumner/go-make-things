@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-10'
-permalink: /es6-arrow-function-rest-parameters/
+url: /es6-arrow-function-rest-parameters/
 title: ES6 arrow function rest parameters
-url: /2017/11/10/es6-arrow-function-rest-parameters
 ---
 
 Yesterday, I showed you a technique for [getting an array of all of the arguments passed into a function](/getting-an-array-of-all-arguments-passed-into-a-function-with-vanilla-javascript/).

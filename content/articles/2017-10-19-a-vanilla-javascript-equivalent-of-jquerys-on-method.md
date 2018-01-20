@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-19'
-permalink: /a-vanilla-javascript-equivalent-of-jquerys-on-method/
+url: /a-vanilla-javascript-equivalent-of-jquerys-on-method/
 title: A vanilla JavaScript equivalent of jQuery&#8217;s on() method
-url: /2017/10/19/a-vanilla-javascript-equivalent-of-jquerys-on-method
 ---
 
 In vanilla JavaScript, you can listen to browser events with the `addEventListener()` method.

@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-12-16'
-permalink: /jazz-for-cows/
+url: /jazz-for-cows/
 title: Jazz for Cows
-url: /2011/12/16/jazz-for-cows
 ---
 
 The New Hot 5 performs <a href="https://www.youtube.com/watch?v=lXKDu6cdXLI">their soothing Dixie Land jazz</a> for a captivated audience of cows in France...

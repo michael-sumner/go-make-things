@@ -4,9 +4,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-14'
-permalink: /the-best-way-to-write-javascript-is-to-make-sure-your-site-works-without-it/
+url: /the-best-way-to-write-javascript-is-to-make-sure-your-site-works-without-it/
 title: The best way to write JavaScript is to make sure your site works without it
-url: /2017/11/14/the-best-way-to-write-javascript-is-to-make-sure-your-site-works-without-it
 ---
 
 I've been doing some research for an upcoming chat I'm going to be having with [Ethan Marcotte](https://ethanmarcotte.com/) and [Karen McGrane](https://karenmcgrane.com/) on how to write JavaScript that works for anyone on any device (and what to do when it doesn't).

@@ -4,9 +4,8 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2012-02-13'
-permalink: /no-tweeting-allowed/
+url: /no-tweeting-allowed/
 title: No Tweeting Allowed
-url: /2012/02/13/no-tweeting-allowed
 ---
 
 <a href="http://www.nytimes.com/2009/08/09/fashion/09blogfree.html">From the New York Times...</a>

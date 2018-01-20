@@ -3,9 +3,8 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2011-02-18'
-permalink: /the-7cubed-project/
+url: /the-7cubed-project/
 title: The 7Cubed Project
-url: /2011/02/18/the-7cubed-project
 ---
 
 Want to make more awesome stuff? Lock yourself in a room for a few days with a few close friends and focus on nothing but creating things.

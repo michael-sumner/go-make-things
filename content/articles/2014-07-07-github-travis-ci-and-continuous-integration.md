@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2014-07-07'
-permalink: /github-travis-ci-and-continuous-integration/
+url: /github-travis-ci-and-continuous-integration/
 title: GitHub, Travis CI, and Continuous Integration
-url: /2014/07/07/github-travis-ci-and-continuous-integration
 ---
 
 As part of my [move over to Gulp](/getting-started-with-gulp-js/) for web development, I added [Travis CI](https://travis-ci.org/) and unit testing with [Jasmine](http://jasmine.github.io/2.0/introduction.html).

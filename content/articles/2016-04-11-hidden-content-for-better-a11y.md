@@ -5,9 +5,8 @@ categories:
 - CSS
 - Design &amp; UX
 date: '2016-04-11'
-permalink: /hidden-content-for-better-a11y/
+url: /hidden-content-for-better-a11y/
 title: Hidden content for better a11y
-url: /2016/04/11/hidden-content-for-better-a11y
 ---
 
 Web accessibility (or a11y, for short) is a speciality area that you could spend a lifetime mastering.

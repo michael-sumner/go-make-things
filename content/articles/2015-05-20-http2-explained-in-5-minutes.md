@@ -4,9 +4,8 @@ categories:
 - Design &amp; UX
 - Web Performance
 date: '2015-05-20'
-permalink: /http2-explained-in-5-minutes/
+url: /http2-explained-in-5-minutes/
 title: HTTP2 explained in 5-minutes
-url: /2015/05/20/http2-explained-in-5-minutes
 ---
 
 One of the [web performance recommendations](/wicked-fast-websites/) I make when working with clients is to combine files to minimize HTTP requests. This is a result of how HTTP1.1 handles downloads.

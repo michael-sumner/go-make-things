@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2011-11-07'
-permalink: /content-worth-paying-for/
+url: /content-worth-paying-for/
 title: Content worth paying for?
-url: /2011/11/07/content-worth-paying-for
 ---
 
 In the past, I've been a bit critical of expecting people to pay for content they can already get for free. There needs to be a value the paid content provides that free content doesn't.

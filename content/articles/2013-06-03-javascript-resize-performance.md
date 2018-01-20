@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2013-06-03'
-permalink: /javascript-resize-performance/
+url: /javascript-resize-performance/
 title: JavaScript Resize Performance
-url: /2013/06/03/javascript-resize-performance
 ---
 
 On a recent project, I used the jQuery <code class="language-javascript">.resize()</code> method to detect when a user resized their browser and run certain code.

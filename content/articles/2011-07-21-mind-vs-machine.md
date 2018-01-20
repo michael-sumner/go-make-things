@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-07-21'
-permalink: /mind-vs-machine/
+url: /mind-vs-machine/
 title: Mind vs. Machine
-url: /2011/07/21/mind-vs-machine
 ---
 
 <blockquote>In the race to build computers that can think like humans, the proving ground is the Turing Test - an annual battle between the world’s most advanced artificial-intelligence programs and ordinary people. The objective? To find out whether a computer can act “more human” than a person. In his own quest to beat the machines, the author discovers that the march of technology isn’t just changing how we live, it’s raising new questions about what it means to be human</blockquote>

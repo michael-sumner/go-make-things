@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Uncategorized
 date: '2011-11-16'
-permalink: /industrial-revolutions/
+url: /industrial-revolutions/
 title: Industrial Revolutions
-url: /2011/11/16/industrial-revolutions
 ---
 
 These are some <a href="https://www.youtube.com/watch?v=ShbC5yVqOdI">seriously amazing bike skills</a> from Danny Macaskill. Wow!

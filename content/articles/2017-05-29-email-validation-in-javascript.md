@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-05-29'
-permalink: /email-validation-in-javascript/
+url: /email-validation-in-javascript/
 title: Email validation in JavaScript
-url: /2017/05/29/email-validation-in-javascript
 ---
 
 I'm working on a series of article on JavaScript form validation, and one of the more hotly debated things is how best to validate email addresses.

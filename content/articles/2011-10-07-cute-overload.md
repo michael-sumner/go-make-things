@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2011-10-07'
-permalink: /cute-overload/
+url: /cute-overload/
 title: Cute Overload
-url: /2011/10/07/cute-overload
 ---
 
 For realz... happy Friday!

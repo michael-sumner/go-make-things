@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-06-27'
-permalink: /the-last-uncontacted-tribe/
+url: /the-last-uncontacted-tribe/
 title: The Last Uncontacted Tribe
-url: /2011/06/27/the-last-uncontacted-tribe
 ---
 
 Over the last several years, I've read and heard stories about a tribe of people living in Brazil that have not made formal contact with groups outside of their own. They are by some estimates the last uncontacted tribe of people in the world.

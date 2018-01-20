@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2016-08-22'
-permalink: /my-three-principles-for-web-design-and-development/
+url: /my-three-principles-for-web-design-and-development/
 title: My three principles for building for the web
-url: /2016/08/22/my-three-principles-for-web-design-and-development
 ---
 
 When I build websites, there are three core principles that are the heart of every project:

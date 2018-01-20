@@ -3,9 +3,8 @@ categories:
 - Code
 - Technology
 date: '2017-10-02'
-permalink: /sublime-text-for-front-end-developers/
+url: /sublime-text-for-front-end-developers/
 title: Sublime Text for Front End Developers
-url: /2017/10/02/sublime-text-for-front-end-developers
 ---
 
 A few months ago, I wrote an article on [Visual Studio Code for front end developers](/visual-studio-code-for-front-end-developers/).

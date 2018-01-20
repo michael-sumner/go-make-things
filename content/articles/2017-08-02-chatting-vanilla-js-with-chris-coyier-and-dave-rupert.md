@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-02'
-permalink: /chatting-vanilla-js-with-chris-coyier-and-dave-rupert/
+url: /chatting-vanilla-js-with-chris-coyier-and-dave-rupert/
 title: Chatting vanilla JS with Chris Coyier and Dave Rupert
-url: /2017/08/02/chatting-vanilla-js-with-chris-coyier-and-dave-rupert
 ---
 
 A few weeks ago, I had the pleasure of chatting about [vanilla JavaScript with Chris Coyier and Dave Rupert over on the Shop Talk Show](https://shoptalkshow.com/episodes/274-vanilla-js-chris-ferdinandi/).

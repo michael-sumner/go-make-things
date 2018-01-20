@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-02-19'
-permalink: /conversations-not-comps/
+url: /conversations-not-comps/
 title: Conversations, not comps
-url: /2013/02/19/conversations-not-comps
 ---
 
 Daniel Mall shares some insightful thoughts on <a href="http://danielmall.com/articles/the-post-psd-era/">the post-Photoshop era</a>...

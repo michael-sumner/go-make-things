@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-08'
-permalink: /an-introduction-to-es6-arrow-functions/
+url: /an-introduction-to-es6-arrow-functions/
 title: An introduction to ES6 arrow functions
-url: /2017/11/08/an-introduction-to-es6-arrow-functions
 ---
 
 *This post was adapted from my new Vanilla JS Pocket Guide, ["Variables, Functions, and Scope."](/guides/variables-functions-and-scope/)*

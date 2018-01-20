@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2015-03-11'
-permalink: /paws-new-england-is-looking-for-a-front-end-developer/
+url: /paws-new-england-is-looking-for-a-front-end-developer/
 title: PAWS New England is looking for a front-end developer
-url: /2015/03/11/paws-new-england-is-looking-for-a-front-end-developer
 ---
 
 Five years ago, I adopted a dog from [PAWS New England](http://pawsnewengland.com/). Four years ago, I gave their website [a responsive redesign](/projects/paws-new-england/).

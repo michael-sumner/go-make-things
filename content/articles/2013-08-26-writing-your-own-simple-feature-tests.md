@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-08-26'
-permalink: /writing-your-own-simple-feature-tests/
+url: /writing-your-own-simple-feature-tests/
 title: Writing your own simple feature tests
-url: /2013/08/26/writing-your-own-simple-feature-tests
 ---
 
 Progressive enhancement is an approach to web development in which your provide universal access to content to all devices, and layer in additional features and functionality for browsers that support them.

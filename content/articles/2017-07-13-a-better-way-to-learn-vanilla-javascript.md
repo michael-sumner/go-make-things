@@ -4,9 +4,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-07-13'
-permalink: /a-better-way-to-learn-vanilla-javascript/
+url: /a-better-way-to-learn-vanilla-javascript/
 title: A better way to learn vanilla JavaScript
-url: /2017/07/13/a-better-way-to-learn-vanilla-javascript
 ---
 
 I just relaunched my [Vanilla JS Pocket Guides](/guides/) with new code examples and real projects to help tie everything you’ll learn together.

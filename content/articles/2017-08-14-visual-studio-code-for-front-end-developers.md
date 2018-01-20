@@ -6,9 +6,8 @@ categories:
 - Technology
 - WordPress
 date: '2017-08-14'
-permalink: /visual-studio-code-for-front-end-developers/
+url: /visual-studio-code-for-front-end-developers/
 title: Visual Studio Code for Front-End Developers
-url: /2017/08/14/visual-studio-code-for-front-end-developers
 ---
 
 A few weeks ago, I switched from Sublime Text to [Visual Studio Code](https://code.visualstudio.com/) as my primary text editor.

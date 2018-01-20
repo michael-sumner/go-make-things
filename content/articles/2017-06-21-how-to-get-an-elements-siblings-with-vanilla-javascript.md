@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-06-21'
-permalink: /how-to-get-an-elements-siblings-with-vanilla-javascript/
+url: /how-to-get-an-elements-siblings-with-vanilla-javascript/
 title: How to get an element&#8217;s siblings with vanilla JavaScript
-url: /2017/06/21/how-to-get-an-elements-siblings-with-vanilla-javascript
 ---
 
 Over the last few days, we've learned how to [climb up the DOM](/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/) and [get parent elements](/how-to-get-all-parent-elements-with-vanilla-javascript/) in a variety of [different ways](/climbing-up-the-dom-until-you-hit-a-match-with-vanilla-javascript/).

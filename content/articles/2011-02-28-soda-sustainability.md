@@ -4,9 +4,8 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2011-02-28'
-permalink: /soda-sustainability/
+url: /soda-sustainability/
 title: Soda &#038; Sustainability
-url: /2011/02/28/soda-sustainability
 ---
 
 <p align="center"><img src="https://gomakethings.com/wp-content/uploads/2011/02/Coca-Cola-400x266.jpg" alt="" title="Coca-Cola" width="400" height="266" class="alignnone size-medium wp-image-136" /><br><em><a href="http://www.flickr.com/photos/96547648@N00/248358204/">Image by FUNKYAH</a></em></p>

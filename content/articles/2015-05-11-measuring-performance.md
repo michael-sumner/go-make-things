@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2015-05-11'
-permalink: /measuring-performance/
+url: /measuring-performance/
 title: Measuring Performance
-url: /2015/05/11/measuring-performance
 ---
 
 *The following post was adapted from [Wicked Fast Websites](/wicked-fast-websites/), my free beginner's guide to building fast websites and web apps that work on any device. [Download it here.](/wicked-fast-websites/)*

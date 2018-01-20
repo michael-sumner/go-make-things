@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2017-01-18'
-permalink: /fix-for-ssh-passphrases-on-macos-sierra/
+url: /fix-for-ssh-passphrases-on-macos-sierra/
 title: Fix for SSH passphrases on MacOS Sierra
-url: /2017/01/18/fix-for-ssh-passphrases-on-macos-sierra
 ---
 
 Since updating to MacOS Sierra, GitHub asks me for my SSH passphrase every single time I try to pull or push.

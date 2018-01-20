@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-12-27'
-permalink: /on-the-impracticality-of-the-cheeseburger/
+url: /on-the-impracticality-of-the-cheeseburger/
 title: On the impracticality of the cheeseburger&#8230;
-url: /2011/12/27/on-the-impracticality-of-the-cheeseburger
 ---
 
 <a href="http://waldo.jaquith.org/blog/2011/12/impractical-cheeseburger/">Waldo Jaquith writes...</a>

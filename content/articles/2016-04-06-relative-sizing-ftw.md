@@ -3,9 +3,8 @@ categories:
 - Code
 - CSS
 date: '2016-04-06'
-permalink: /relative-sizing-ftw/
+url: /relative-sizing-ftw/
 title: Relative sizing FTW!
-url: /2016/04/06/relative-sizing-ftw
 ---
 
 As I get older, my disdain for small typography grows.

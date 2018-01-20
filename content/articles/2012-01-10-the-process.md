@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2012-01-10'
-permalink: /the-process/
+url: /the-process/
 title: The Process
-url: /2012/01/10/the-process
 ---
 
 I'm loving this hilarious <a href="https://www.youtube.com/watch?v=Wac3aGn5twc">video on the design process...</a>

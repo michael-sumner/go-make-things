@@ -3,9 +3,8 @@ categories:
 - Code
 - WordPress
 date: '2015-04-13'
-permalink: /automating-css-and-js-cache-busting-with-gulp-and-wordpress/
+url: /automating-css-and-js-cache-busting-with-gulp-and-wordpress/
 title: Automating CSS and JS cache-busting with Gulp and WordPress
-url: /2015/04/13/automating-css-and-js-cache-busting-with-gulp-and-wordpress
 ---
 
 I serve my CSS and JavaScript files with far-future expires headers. This tells browsers to hold on to them for a really long time (in my case, a year), so that there's a few less assets to download on all visits and pages loads after the first.

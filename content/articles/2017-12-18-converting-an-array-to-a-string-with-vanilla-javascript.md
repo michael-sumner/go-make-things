@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-12-18'
-permalink: /converting-an-array-to-a-string-with-vanilla-javascript/
+url: /converting-an-array-to-a-string-with-vanilla-javascript/
 title: Converting an array to a string with vanilla JavaScript
-url: /2017/12/18/converting-an-array-to-a-string-with-vanilla-javascript
 ---
 
 You can use the `Array.join()` method to convert an array of items into a string.

@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2014-08-14'
-permalink: /function-prototype-bind-and-opera-mini/
+url: /function-prototype-bind-and-opera-mini/
 title: <code>Function.prototype.bind</code> and Opera Mini
-url: /2014/08/14/function-prototype-bind-and-opera-mini
 ---
 
 Last week I discovered that a few scripts that *should* work in Opera Mini were not. And they weren't just failing to work. They were passing the [mustard test](/ditching-jquery-for-vanilla-js/#cutting-the-mustard), so important content was getting obscured with no way to access it.

@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Uncategorized
 date: '2011-12-08'
-permalink: /the-advent-conspiracy/
+url: /the-advent-conspiracy/
 title: The Advent Conspiracy
-url: /2011/12/08/the-advent-conspiracy
 ---
 
 Check out <a href="http://vimeo.com/30556886">this awesome video</a> from the folks at <a href="http://www.adventconspiracy.org/">The Advent Conspiracy</a>...

@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2014-03-27'
-permalink: /kraken-gets-icon-font-tools/
+url: /kraken-gets-icon-font-tools/
 title: Kraken gets icon font tools
-url: /2014/03/27/kraken-gets-icon-font-tools
 ---
 
 <a href="http://cferdinandi.github.io/kraken/">Kraken</a> picked up two new tools for working with icon fonts:

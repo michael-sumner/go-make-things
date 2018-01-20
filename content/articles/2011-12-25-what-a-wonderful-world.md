@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2011-12-25'
-permalink: /what-a-wonderful-world/
+url: /what-a-wonderful-world/
 title: What a wonderful world
-url: /2011/12/25/what-a-wonderful-world
 ---
 
 Sir David Attenborough's rendition of <a href="https://www.youtube.com/watch?v=B8WHKRzkCOY">this beautiful classic</a>, presented by the BBC.

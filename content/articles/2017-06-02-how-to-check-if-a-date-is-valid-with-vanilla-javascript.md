@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-06-02'
-permalink: /how-to-check-if-a-date-is-valid-with-vanilla-javascript/
+url: /how-to-check-if-a-date-is-valid-with-vanilla-javascript/
 title: How to check if a date is valid with vanilla JavaScript
-url: /2017/06/02/how-to-check-if-a-date-is-valid-with-vanilla-javascript
 ---
 
 While working on a form validation project recently, I needed a way to validate if a date was actually valid or not.

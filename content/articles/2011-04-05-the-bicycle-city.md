@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Design &amp; UX
 date: '2011-04-05'
-permalink: /the-bicycle-city/
+url: /the-bicycle-city/
 title: The Bicycle City
-url: /2011/04/05/the-bicycle-city
 ---
 
 <em>The Bicycle City</em> is a project that seeks to help people lift themselves out of poverty by enabling them to go places. My favorite idea from <a href="http://vimeo.com/20370519">the trailer below</a> - we're essentially talking about the wheel, one of my mankind's greatest inventions.

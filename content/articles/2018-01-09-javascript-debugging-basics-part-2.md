@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2018-01-09'
-permalink: /javascript-debugging-basics-part-2/
+url: /javascript-debugging-basics-part-2/
 title: 'JavaScript Debugging Basics: Part 2'
-url: /2018/01/09/javascript-debugging-basics-part-2
 ---
 
 First off, thanks to everyone who responded to [yesterday's debugging challenge](/javascript-debugging-basics-part-1/). It's always interesting to see how others approach problems and think about code.

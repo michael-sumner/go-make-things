@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-04-24'
-permalink: /make-my-friend-shave-his-head/
+url: /make-my-friend-shave-his-head/
 title: Make my friend shave his head
-url: /2012/04/24/make-my-friend-shave-his-head
 ---
 
 My friend Chris is walking for the Easter Seals this year, and if he raises $3,000, he'll shave his head.

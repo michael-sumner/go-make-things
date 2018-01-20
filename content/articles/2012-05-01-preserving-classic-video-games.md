@@ -3,9 +3,8 @@ categories:
 - Technology
 - Uncategorized
 date: '2012-05-01'
-permalink: /preserving-classic-video-games/
+url: /preserving-classic-video-games/
 title: Preserving classic video games
-url: /2012/05/01/preserving-classic-video-games
 ---
 
 <a href="http://thenextweb.com/insider/2012/04/22/saving-the-game-why-preserving-video-games-is-illegal/">From the Next Web...</a>

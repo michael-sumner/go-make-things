@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2016-03-23'
-permalink: /the-move-away-from-broadband-or-why-web-performance-still-matters/
+url: /the-move-away-from-broadband-or-why-web-performance-still-matters/
 title: The move away from broadband (or why web performance still matters)
-url: /2016/03/23/the-move-away-from-broadband-or-why-web-performance-still-matters
 ---
 
 [According to Pew](http://www.pewinternet.org/2015/12/21/home-broadband-2015/), home broadband internet adoption in the US has plateaued, and in some demographics, decreased.

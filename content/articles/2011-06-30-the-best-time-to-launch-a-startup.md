@@ -2,9 +2,8 @@
 categories:
 - Business &amp; Leadership
 date: '2011-06-30'
-permalink: /the-best-time-to-launch-a-startup/
+url: /the-best-time-to-launch-a-startup/
 title: The best time to launch a startup
-url: /2011/06/30/the-best-time-to-launch-a-startup
 ---
 
 <blockquote>While I prefer doing startups when the going’s tough, money is scarce, and engineers are unemployed—the best time to start a company is always two years ago, and the next best time is now. So now it is.

@@ -4,9 +4,8 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-10-30'
-permalink: /when-you-actually-should-use-a-javascript-framework/
+url: /when-you-actually-should-use-a-javascript-framework/
 title: When you actually should use a JavaScript framework
-url: /2017/10/30/when-you-actually-should-use-a-javascript-framework
 ---
 
 I spend a lot of time teaching people how to write JavaScript without frameworks. I think the whole front end development process has gotten far too complicated.

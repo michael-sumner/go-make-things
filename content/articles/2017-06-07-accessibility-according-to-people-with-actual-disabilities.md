@@ -3,9 +3,8 @@ categories:
 - Accessibility
 - Design &amp; UX
 date: '2017-06-07'
-permalink: /accessibility-according-to-people-with-actual-disabilities/
+url: /accessibility-according-to-people-with-actual-disabilities/
 title: Accessibility (according to people with actual disabilities)
-url: /2017/06/07/accessibility-according-to-people-with-actual-disabilities
 ---
 
 Last week, [Safia Abdalla tweeted](https://twitter.com/captainsafia/status/871056480799162368):

@@ -2,9 +2,8 @@
 categories:
 - Careers
 date: '2016-09-28'
-permalink: /getting-a-job-in-management/
+url: /getting-a-job-in-management/
 title: Getting a job in management
-url: /2016/09/28/getting-a-job-in-management
 ---
 
 The other day, someone asked me:

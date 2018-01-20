@@ -2,9 +2,8 @@
 categories:
 - Business &amp; Leadership
 date: '2012-05-07'
-permalink: /women-in-tech/
+url: /women-in-tech/
 title: Women in Tech
-url: /2012/05/07/women-in-tech
 ---
 
 The MBA@UNC blog ran an interesting infographic a few weeks ago on <a href="http://onlinemba.unc.edu/mba-at-unc-blog/women-at-work-infographic/">women in the workplace</a>. Not surprisingly, women are under-represented in both leadership positions, and particularly in the tech industry.

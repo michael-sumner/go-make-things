@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2011-08-12'
-permalink: /the-most-interesting-things-moved/
+url: /the-most-interesting-things-moved/
 title: The Most Interesting Things Moved
-url: /2011/08/12/the-most-interesting-things-moved
 ---
 
 I don't often run shameless corporate advertising, but this <a href="http://www.atlasvanlines.com/infographics/most-interesting-things-moved-by-atlas-movers/">infographic by Atlas Movers</a> is too awesome not to post. Click to view full-sized.

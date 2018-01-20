@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2014-07-09'
-permalink: /rebeccapurple/
+url: /rebeccapurple/
 title: '#rebeccapurple'
-url: /2014/07/09/rebeccapurple
 ---
 
 If you've only ever worked as a maker of things for the web, you may not realize how amazingly wonderful and rare our profession is. For all of the snark, trolls, and "there is only one right way to do things and if you don't agree with me you're a moron" bullshit, the community of web professionals is the most kind, generous, and supportive group of people I've ever had the privilege of calling myself a part of.

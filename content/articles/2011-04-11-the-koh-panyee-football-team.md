@@ -4,9 +4,8 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2011-04-11'
-permalink: /the-koh-panyee-football-team/
+url: /the-koh-panyee-football-team/
 title: The Koh Panyee Football Team
-url: /2011/04/11/the-koh-panyee-football-team
 ---
 
 A beautifully done short story about <a href="https://www.youtube.com/watch?v=jU4oA3kkAWU">the Koh Panyee football team...</a>

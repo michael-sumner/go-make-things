@@ -2,9 +2,8 @@
 categories:
 - Technology
 date: '2013-04-05'
-permalink: /technology-and-etiquette/
+url: /technology-and-etiquette/
 title: Technology and Etiquette
-url: /2013/04/05/technology-and-etiquette
 ---
 
 Last week I read two separate articles that called for a shedding of "old school" etiquette in the digital age.

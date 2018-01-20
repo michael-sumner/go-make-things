@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2011-12-22'
-permalink: /last-minute-gifts/
+url: /last-minute-gifts/
 title: Last minute gifts
-url: /2011/12/22/last-minute-gifts
 ---
 
 Looking for a last minute Christmas gift? Here are a few of the more awesomely awful items I've found in my travels...

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2016-12-14'
-permalink: /a-vanilla-js-equivalent-to-jquerys-is-api/
+url: /a-vanilla-js-equivalent-to-jquerys-is-api/
 title: A vanilla JS equivalent to jQuery&#8217;s .is() API
-url: /2016/12/14/a-vanilla-js-equivalent-to-jquerys-is-api
 ---
 
 In jQuery, you can match any element against any valid CSS selector using the `.is()` API.

@@ -4,9 +4,8 @@ categories:
 - Code
 - JavaScript
 date: '2016-08-09'
-permalink: /keyboard-accessibility-improvements-with-javascript/
+url: /keyboard-accessibility-improvements-with-javascript/
 title: Keyboard accessibility improvements with JavaScript
-url: /2016/08/09/keyboard-accessibility-improvements-with-javascript
 ---
 
 This week I added an accessibility enhancement to [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll), my script for animating scrolling to anchor links, that provides a much better experience for keyboard users.

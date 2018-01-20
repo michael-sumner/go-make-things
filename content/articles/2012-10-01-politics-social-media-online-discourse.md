@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-10-01'
-permalink: /politics-social-media-online-discourse/
+url: /politics-social-media-online-discourse/
 title: Politics, Social Media &#038; Online Discourse
-url: /2012/10/01/politics-social-media-online-discourse
 ---
 
 I'm concerned about the quality of discourse in America. Not just political discourse. Discourse as a whole. But during election season, it becomes more painfully noticeable.

@@ -4,9 +4,8 @@ categories:
 - Design &amp; UX
 - Technology
 date: '2011-12-23'
-permalink: /my-favorite-reads/
+url: /my-favorite-reads/
 title: My favorite reads
-url: /2011/12/23/my-favorite-reads
 ---
 
 When you're busy, it's tough to find time to develop yourself. Here's a short list of some of my favorite blogs, if you have some time this holiday season (sorry if I missed anyone awesome)...

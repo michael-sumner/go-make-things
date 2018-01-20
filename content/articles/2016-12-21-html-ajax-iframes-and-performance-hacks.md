@@ -5,9 +5,8 @@ categories:
 - JavaScript
 - Web Performance
 date: '2016-12-21'
-permalink: /html-ajax-iframes-and-performance-hacks/
+url: /html-ajax-iframes-and-performance-hacks/
 title: HTML, ajax, iframes, and performance hacks
-url: /2016/12/21/html-ajax-iframes-and-performance-hacks
 ---
 
 Jake Archibald recently noticed that [loading a page on GitHub was faster if starting from scratch than if already on GitHub](https://jakearchibald.com/2016/fun-hacks-faster-content/).

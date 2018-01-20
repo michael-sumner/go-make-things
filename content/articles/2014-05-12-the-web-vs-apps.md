@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2014-05-12'
-permalink: /the-web-vs-apps/
+url: /the-web-vs-apps/
 title: The Web vs. Apps
-url: /2014/05/12/the-web-vs-apps
 ---
 
 [This from Luke Wroblewski](https://twitter.com/lukew/status/465630836146974721):

@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2013-01-25'
-permalink: /cat-friend-dog-friend/
+url: /cat-friend-dog-friend/
 title: Cat Friend. Dog Friend.
-url: /2013/01/25/cat-friend-dog-friend
 ---
 
 My wife and I have two dogs and a cat. This video about what it would be like <a href="https://www.youtube.com/watch?v=GbycvPwr1Wg">if your friends acted like your pets</a> had me literally laughing out loud... literally.

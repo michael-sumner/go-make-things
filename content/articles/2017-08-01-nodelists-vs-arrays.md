@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-01'
-permalink: /nodelists-vs-arrays/
+url: /nodelists-vs-arrays/
 title: NodeLists vs. Arrays
-url: /2017/08/01/nodelists-vs-arrays
 ---
 
 Last week, we looked at two separate `forEach()` methods for [Arrays](/looping-through-arrays-the-es6-way/) and [NodeLists](/looping-through-nodelists-with-es6/). Reader [Judd Franklin](https://www.linkedin.com/in/judd-franklin/) asked:

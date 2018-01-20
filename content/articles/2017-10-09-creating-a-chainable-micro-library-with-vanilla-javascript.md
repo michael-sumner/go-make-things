@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-09'
-permalink: /creating-a-chainable-micro-library-with-vanilla-javascript/
+url: /creating-a-chainable-micro-library-with-vanilla-javascript/
 title: Creating a chainable micro-library with vanilla JavaScript
-url: /2017/10/09/creating-a-chainable-micro-library-with-vanilla-javascript
 ---
 
 Over the weekend, reader Kumar asked me how to create a micro-library (a super tiny, personal jQuery) with chainable functions using vanilla JavaScript (shared with permission).

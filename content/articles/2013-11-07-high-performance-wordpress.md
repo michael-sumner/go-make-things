@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-11-07'
-permalink: /high-performance-wordpress/
+url: /high-performance-wordpress/
 title: High performance WordPress
-url: /2013/11/07/high-performance-wordpress
 ---
 
 <em>This is part 3 of <a href="https://gomakethings.com/wicked-fast-websites/">Wicked Fast Websites</a>, a three-part series that explores why web performance matters and what you can do about it.</em>

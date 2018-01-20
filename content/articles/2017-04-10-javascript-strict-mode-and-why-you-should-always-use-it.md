@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-10'
-permalink: /javascript-strict-mode-and-why-you-should-always-use-it/
+url: /javascript-strict-mode-and-why-you-should-always-use-it/
 title: JavaScript Strict Mode (and why you should always use it)
-url: /2017/04/10/javascript-strict-mode-and-why-you-should-always-use-it
 ---
 
 Strict mode is a way of telling browsers (and JavaScript debuggers) to be, well, stricter about how they parse your code. [MDN explains:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)

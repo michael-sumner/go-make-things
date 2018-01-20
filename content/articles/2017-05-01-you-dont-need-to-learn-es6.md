@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-05-01'
-permalink: /you-dont-need-to-learn-es6/
+url: /you-dont-need-to-learn-es6/
 title: You don&#8217;t need to learn ES6
-url: /2017/05/01/you-dont-need-to-learn-es6
 ---
 
 > ECMAScript 6, also known as ECMAScript 2015, is the latest version of the ECMAScript standard. ES6 is a significant update to the language, and the first update to the language since ES5 was standardized in 2009.

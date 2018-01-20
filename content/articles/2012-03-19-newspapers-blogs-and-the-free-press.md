@@ -4,9 +4,8 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2012-03-19'
-permalink: /newspapers-blogs-and-the-free-press/
+url: /newspapers-blogs-and-the-free-press/
 title: Newspapers, Blogs, and the Free Press
-url: /2012/03/19/newspapers-blogs-and-the-free-press
 ---
 
 The always fantastic <a href="http://www.lettersofnote.com/2012/03/e-b-white-on-free-press.html">Letters of Note</a> ran a series of three letters exchanged between E. B. White, author of <em>Charlotte's Web</em>, and W. B. Jones, Director of Communications for the Xerox Corporation in 1975.

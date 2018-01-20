@@ -3,9 +3,8 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2011-08-31'
-permalink: /twitter-hustle/
+url: /twitter-hustle/
 title: Twitter Hustle
-url: /2011/08/31/twitter-hustle
 ---
 
 Dutch designers <a href="http://wonderyears.nl/">Bas van de Poel and Daan van Dam</a> made clever use of how Twitter works to land themselves a job. <a href="http://vimeo.com/25812909">Check it out...</a>

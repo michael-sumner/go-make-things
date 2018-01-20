@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-05-17'
-permalink: /how-to-simulate-a-click-event-with-javascript/
+url: /how-to-simulate-a-click-event-with-javascript/
 title: How to simulate a click event with vanilla JavaScript
-url: /2017/05/17/how-to-simulate-a-click-event-with-javascript
 ---
 
 The other day on Twitter, [Oliver Williams](https://twitter.com/css_grid) asked me:

@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2012-09-28'
-permalink: /nasa-remembers-neil-armstrong/
+url: /nasa-remembers-neil-armstrong/
 title: NASA Remembers Neil Armstrong
-url: /2012/09/28/nasa-remembers-neil-armstrong
 ---
 
 NASA released this beautiful <a href="https://www.youtube.com/watch?v=1pQKZc2AXW0">tribute to Neil Armstrong</a>.

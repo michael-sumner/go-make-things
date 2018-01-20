@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-12'
-permalink: /types-of-errors-that-strict-mode-catches-that-would-otherwise-be-ignored/
+url: /types-of-errors-that-strict-mode-catches-that-would-otherwise-be-ignored/
 title: Types of errors that strict mode catches (that would otherwise be ignored)
-url: /2017/04/12/types-of-errors-that-strict-mode-catches-that-would-otherwise-be-ignored
 ---
 
 [Andrew Borstein](http://andrewborstein.com) asked a few follow-up questions to [Monday's article about strict mode](/javascript-strict-mode-and-why-you-should-always-use-it/) over in my [Vanilla JS Slack Room](/vanilla-js-guidebook/).

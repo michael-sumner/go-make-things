@@ -3,9 +3,8 @@ categories:
 - Design &amp; UX
 - WordPress
 date: '2017-07-19'
-permalink: /adding-a-download-all-link-to-easy-digital-downloads-receipts/
+url: /adding-a-download-all-link-to-easy-digital-downloads-receipts/
 title: Adding a &#8220;download all&#8221; link to Easy Digital Downloads receipts
-url: /2017/07/19/adding-a-download-all-link-to-easy-digital-downloads-receipts
 ---
 
 One of the most frequent requests I get for my <a href="https://gomakethings.com/guides/">vanilla JS pocket guides</a> is to add a "Download All" link so that buyers can easily download all of the guides in all of the formats.

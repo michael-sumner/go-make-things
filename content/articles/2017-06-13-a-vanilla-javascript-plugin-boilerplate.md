@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-06-13'
-permalink: /a-vanilla-javascript-plugin-boilerplate/
+url: /a-vanilla-javascript-plugin-boilerplate/
 title: A vanilla JavaScript plugin boilerplate
-url: /2017/06/13/a-vanilla-javascript-plugin-boilerplate
 ---
 
 Yesterday I posted a video video on [how I structure my JavaScript plugins](/how-i-structure-my-vanilla-javascript-plugins-video/). Today, I wanted to share the boilerplate I use to start all of my new JavaScript projects.

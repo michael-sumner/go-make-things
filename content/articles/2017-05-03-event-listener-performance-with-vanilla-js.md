@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-05-03'
-permalink: /event-listener-performance-with-vanilla-js/
+url: /event-listener-performance-with-vanilla-js/
 title: Event listener performance with vanilla JS
-url: /2017/05/03/event-listener-performance-with-vanilla-js
 ---
 
 Events like `scroll` and `resize` can cause huge performance issues on certain browsers. [Paul Irish explains:](https://www.paulirish.com/2009/throttled-smartresize-jquery-event-handler/)

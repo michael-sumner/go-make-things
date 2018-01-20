@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-09-28'
-permalink: /automatically-re-rendering-an-element-when-its-state-changes-with-vanilla-javascript/
+url: /automatically-re-rendering-an-element-when-its-state-changes-with-vanilla-javascript/
 title: Automatically re-rendering an element when it&#8217;s state changes with vanilla JavaScript
-url: /2017/09/28/automatically-re-rendering-an-element-when-its-state-changes-with-vanilla-javascript
 ---
 
 I've been sharing some behind the scenes content from [my latest pocket guide](/guides/), "Vanilla JS Web Apps," which launches in a couple of weeks.

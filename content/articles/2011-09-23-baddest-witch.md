@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2011-09-23'
-permalink: /baddest-witch/
+url: /baddest-witch/
 title: Baddest Witch
-url: /2011/09/23/baddest-witch
 ---
 
 So... you have be familiar with Kreayshawn's awful song <a href="https://www.youtube.com/watch?v=6WJFjXtHcy4">Gucci Gucci</a> <em>and</em> be a nerdy Harry Potter fan to really appreciate this.

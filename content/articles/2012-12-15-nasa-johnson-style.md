@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2012-12-15'
-permalink: /nasa-johnson-style/
+url: /nasa-johnson-style/
 title: NASA Johnson Style
-url: /2012/12/15/nasa-johnson-style
 ---
 
 To celebrate the opening of their new <a href="http://www.nasa.gov/centers/johnson/home/index.html">Johnson Space Center</a>, NASA put together this nerdily awesome <a href="https://www.youtube.com/watch?v=2Sar5WT76kE">Gangam Style parody video...</a> love it!

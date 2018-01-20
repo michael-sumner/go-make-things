@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2015-11-16'
-permalink: /design-for-color-blindness/
+url: /design-for-color-blindness/
 title: Are you making your site unusable for 13 million people?
-url: /2015/11/16/design-for-color-blindness
 ---
 
 A little over 13 million people in the United States&mdash;about 4.25% of the entire population&mdash;have some form of color blindness.

@@ -2,9 +2,8 @@
 categories:
 - Technology
 date: '2012-06-25'
-permalink: /the-problem-with-facebook/
+url: /the-problem-with-facebook/
 title: The problem with Facebook
-url: /2012/06/25/the-problem-with-facebook
 ---
 
 I've been using Facebook for eight years - seriously, since 2004. In that time I've accumulated a lot of "friends" who aren't.

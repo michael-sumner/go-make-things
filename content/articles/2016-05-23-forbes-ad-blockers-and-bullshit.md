@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2016-05-23'
-permalink: /forbes-ad-blockers-and-bullshit/
+url: /forbes-ad-blockers-and-bullshit/
 title: Forbes, ad-blockers, and bullshit
-url: /2016/05/23/forbes-ad-blockers-and-bullshit
 ---
 
 If you run an ad-blocker, Forbes presents you with this screen claiming that you need to disable your ad-blocker to enjoy their "ad lite" experience.

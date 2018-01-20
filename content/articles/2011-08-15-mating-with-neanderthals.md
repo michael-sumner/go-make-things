@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-08-15'
-permalink: /mating-with-neanderthals/
+url: /mating-with-neanderthals/
 title: Mating with Neanderthals
-url: /2011/08/15/mating-with-neanderthals
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/08/Neanderthal-524x350.jpg" alt="" title="Neanderthal" width="524" height="350" class="aligncenter size-medium wp-image-1048" />

@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-08-06'
-permalink: /coffee-with-strangers/
+url: /coffee-with-strangers/
 title: Coffee with Strangers
-url: /2012/08/06/coffee-with-strangers
 ---
 
 From <a href="http://www.nytimes.com/2012/07/29/business/dennis-crowley-of-foursquare-on-open-lines-of-communication.html">an interview with Foursquare CEO Dennis Crowley</a> in the New York <em>Times</em>.

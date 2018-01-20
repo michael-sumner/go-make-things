@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-02-12'
-permalink: /release-the-kraken/
+url: /release-the-kraken/
 title: Release the Kraken!
-url: /2013/02/12/release-the-kraken
 ---
 
 Over the last weeks, I've been working on a collection of lightweight tools for front-end web developers that are designed to work together.

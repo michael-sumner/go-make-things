@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2011-12-15'
-permalink: /mankind-is-no-island/
+url: /mankind-is-no-island/
 title: Mankind is no island
-url: /2011/12/15/mankind-is-no-island
 ---
 
 First, <a href="https://www.youtube.com/watch?v=ZrDxe9gK8Gk">watch this video</a>:

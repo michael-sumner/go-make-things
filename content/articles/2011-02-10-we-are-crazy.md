@@ -2,9 +2,8 @@
 categories:
 - Business &amp; Leadership
 date: '2011-02-10'
-permalink: /we-are-crazy/
+url: /we-are-crazy/
 title: We are crazy
-url: /2011/02/10/we-are-crazy
 ---
 
 <blockquote>A number of you that are reading this might be thinking that we’d have to be crazy to think that our small team can actually re-invent television and compete effectively against a landscape of distribution giants like cable companies, satellite companies, and huge online companies.

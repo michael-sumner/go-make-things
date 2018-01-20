@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2011-05-20'
-permalink: /adorable-animals/
+url: /adorable-animals/
 title: Adorable Animals
-url: /2011/05/20/adorable-animals
 ---
 
 What better way to usher in the weekend than with videos of adorable animals?

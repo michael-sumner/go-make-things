@@ -2,9 +2,8 @@
 categories:
 - Technology
 date: '2011-05-23'
-permalink: /whats-the-ideal-length-for-web-video/
+url: /whats-the-ideal-length-for-web-video/
 title: What&#8217;s the Ideal Length for Web Video?
-url: /2011/05/23/whats-the-ideal-length-for-web-video
 ---
 
 One of my mantras around web video recently has been that people are more likely to watch three 2-minute videos than sit through one 6-minute video.

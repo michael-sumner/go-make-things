@@ -2,9 +2,8 @@
 categories:
 - Business &amp; Leadership
 date: '2011-10-27'
-permalink: /in-your-face-marketing/
+url: /in-your-face-marketing/
 title: In your face marketing
-url: /2011/10/27/in-your-face-marketing
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/09/Calendar-Marketing1-466x350.jpg" alt="" title="Calendar Marketing" width="466" height="350" class="aligncenter size-medium wp-image-1303" />

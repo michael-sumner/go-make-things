@@ -4,9 +4,8 @@ categories:
 - JavaScript
 - Web Performance
 date: '2018-01-02'
-permalink: /conditionally-loading-javascript-only-when-the-browser-supports-it/
+url: /conditionally-loading-javascript-only-when-the-browser-supports-it/
 title: Conditionally loading JavaScript only when the browser supports it
-url: /2018/01/02/conditionally-loading-javascript-only-when-the-browser-supports-it
 ---
 
 One trick I use to reduce bandwidth consumption on older devices is to conditionally load my JavaScript files.

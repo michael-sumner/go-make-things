@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-09-29'
-permalink: /mating-with-neanderthals-redux/
+url: /mating-with-neanderthals-redux/
 title: Mating with Neanderthals Redux
-url: /2011/09/29/mating-with-neanderthals-redux
 ---
 
 Back in August I shared some research from Stanford about the presence of <a href="https://gomakethings.com/mating-with-neanderthals/">Neanderthal genes in the human genome</a>.

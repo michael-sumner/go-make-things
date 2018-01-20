@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2015-07-28'
-permalink: /a-web-performance-case-study-save-one-soul-animal-rescue-league/
+url: /a-web-performance-case-study-save-one-soul-animal-rescue-league/
 title: 'A web performance case study: Save One Soul Animal Rescue League'
-url: /2015/07/28/a-web-performance-case-study-save-one-soul-animal-rescue-league
 ---
 
 Earlier this year, I provided [Save One Soul Animal Rescue League](http://sosarl.org/) with some guidance on how to improve the performance of their website.

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-07'
-permalink: /making-it-easier-to-select-elements-with-vanilla-javascript/
+url: /making-it-easier-to-select-elements-with-vanilla-javascript/
 title: Making it easier to select elements with vanilla JavaScript
-url: /2017/08/07/making-it-easier-to-select-elements-with-vanilla-javascript
 ---
 
 The `querySelector()` and `querySelectorAll()` methods make it super easy get elements in the DOM.

@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Design &amp; UX
 date: '2011-02-11'
-permalink: /wwf-file-format/
+url: /wwf-file-format/
 title: The (almost) genius new WWF file format
-url: /2011/02/11/wwf-file-format
 ---
 
 The World Wildlife Foundation (WWF) noticed a problem: People love to print stuff out.

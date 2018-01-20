@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2016-11-22'
-permalink: /westworld-influences/
+url: /westworld-influences/
 title: WestWorld Influences
-url: /2016/11/22/westworld-influences
 ---
 
 HBO's WestWorld is my favorite show on TV right now. [IGN put together a video](https://www.youtube.com/watch?v=95HP9gVigdo) that discusses the original 1970's movie, it's influences on both the show and other sci-fi films, and other shows and pop culture that have influenced the show.

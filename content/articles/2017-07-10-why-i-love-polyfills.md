@@ -4,9 +4,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-07-10'
-permalink: /why-i-love-polyfills/
+url: /why-i-love-polyfills/
 title: Why I love polyfills
-url: /2017/07/10/why-i-love-polyfills
 ---
 
 A polyfill is <a href="https://remysharp.com/2010/10/08/what-is-a-polyfill">a term coined by Remy Sharp</a> for a snippet of code that adds support for a feature to browsers that don't offer it natively.

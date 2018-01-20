@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2011-12-14'
-permalink: /good-enough-ease-of-use-and-going-slowly/
+url: /good-enough-ease-of-use-and-going-slowly/
 title: Good enough, ease of use, and going slowly
-url: /2011/12/14/good-enough-ease-of-use-and-going-slowly
 ---
 
 One of the battles I constantly wage with myself is an inner conflict between the concepts of "good enough" and perfect.

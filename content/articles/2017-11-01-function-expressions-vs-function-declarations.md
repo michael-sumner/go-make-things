@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-01'
-permalink: /function-expressions-vs-function-declarations/
+url: /function-expressions-vs-function-declarations/
 title: Function expressions vs. function declarations
-url: /2017/11/01/function-expressions-vs-function-declarations
 ---
 
 I've started working on my next [pocket guide](/guides/), *Variables, Functions, and Scope*.

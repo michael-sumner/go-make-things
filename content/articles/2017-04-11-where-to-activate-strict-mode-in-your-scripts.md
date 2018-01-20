@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-11'
-permalink: /where-to-activate-strict-mode-in-your-scripts/
+url: /where-to-activate-strict-mode-in-your-scripts/
 title: Where to activate strict mode in your scripts
-url: /2017/04/11/where-to-activate-strict-mode-in-your-scripts
 ---
 
 [Andrew Borstein](http://andrewborstein.com) asked a few follow-up questions to [yesterday's article about strict mode](/javascript-strict-mode-and-why-you-should-always-use-it/) over in my [Vanilla JS Slack Room](/vanilla-js-guidebook/).

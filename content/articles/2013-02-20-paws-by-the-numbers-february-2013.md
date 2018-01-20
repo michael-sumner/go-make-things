@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-02-20'
-permalink: /paws-by-the-numbers-february-2013/
+url: /paws-by-the-numbers-february-2013/
 title: PAWS by the numbers (February 2013)
-url: /2013/02/20/paws-by-the-numbers-february-2013
 ---
 
 I'm the web guy for <a href="http://www.pawsnewengland.com/">PAWS New England</a>, an amazing all-breed dog rescue that my wife and I adopted from.

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-21'
-permalink: /when-to-use-return-with-javascript/
+url: /when-to-use-return-with-javascript/
 title: When to use return with JavaScript
-url: /2017/08/21/when-to-use-return-with-javascript
 ---
 
 One of the discussions that came up in my private Vanilla JS Slack channel (available to people who purchase my [pocket guides](/guides/)) the other day was when to use `return` in functions.

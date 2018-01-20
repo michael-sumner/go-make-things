@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2012-06-01'
-permalink: /digital-patina/
+url: /digital-patina/
 title: Digital Patina
-url: /2012/06/01/digital-patina
 ---
 
 As an interesting companion to my post on <a href="https://gomakethings.com/bridges/">the weight (or lack thereof) of digital goods</a>, you should check out Mark Boulton's <a href="http://www.markboulton.co.uk/journal/comments/digital-patina">article on Digital Patina...</a>

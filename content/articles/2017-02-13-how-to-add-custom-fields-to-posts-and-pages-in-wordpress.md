@@ -3,9 +3,8 @@ categories:
 - Code
 - WordPress
 date: '2017-02-13'
-permalink: /how-to-add-custom-fields-to-posts-and-pages-in-wordpress/
+url: /how-to-add-custom-fields-to-posts-and-pages-in-wordpress/
 title: How to add custom fields to posts and pages in WordPress
-url: /2017/02/13/how-to-add-custom-fields-to-posts-and-pages-in-wordpress
 ---
 
 Ever want to capture more data when creating a post or a page? Want to add some custom fields to your custom post type?

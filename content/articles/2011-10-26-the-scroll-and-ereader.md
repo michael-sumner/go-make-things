@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-10-26'
-permalink: /the-scroll-and-ereader/
+url: /the-scroll-and-ereader/
 title: The Scroll and eReader
-url: /2011/10/26/the-scroll-and-ereader
 ---
 
 Last month, the <em>New York Times</em> took <a href="http://www.nytimes.com/2011/09/04/books/review/the-mechanic-muse-from-scroll-to-screen.html">a fascinating look at the evolution of the written word</a>, from the scroll, to the modern book (or codex, as it was originally known) to the modern ereader.

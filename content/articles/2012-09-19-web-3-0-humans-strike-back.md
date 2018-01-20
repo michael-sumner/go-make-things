@@ -2,9 +2,8 @@
 categories:
 - Technology
 date: '2012-09-19'
-permalink: /web-3-0-humans-strike-back/
+url: /web-3-0-humans-strike-back/
 title: 'Web 3.0: Humans Strike Back'
-url: /2012/09/19/web-3-0-humans-strike-back
 ---
 
 David Pell on <a href="http://www.theverge.com/2012/8/27/3266268/dave-pell-interview-5-minutes-on-the-verge">social media, email, and the future of the web</a>...

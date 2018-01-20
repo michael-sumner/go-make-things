@@ -6,9 +6,8 @@ categories:
 - CSS
 - JavaScript
 date: '2017-09-15'
-permalink: /css-vs-javascript/
+url: /css-vs-javascript/
 title: CSS vs. JavaScript
-url: /2017/09/15/css-vs-javascript
 ---
 
 This week, Mandy Michael published the very good, provocatively titled, ["Is there any value in people who cannot write JavaScript?"](https://medium.com/@mandy.michael/is-there-any-value-in-people-who-cannot-write-javascript-d0a66b16de06)

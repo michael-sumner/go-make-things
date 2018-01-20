@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2014-03-28'
-permalink: /jam-of-the-week-turn-down-for-what/
+url: /jam-of-the-week-turn-down-for-what/
 title: 'Jam of the Week: Turn Down for What'
-url: /2014/03/28/jam-of-the-week-turn-down-for-what
 ---
 
 I cannot get this song out of my head this week. Also, the video is hilarious.

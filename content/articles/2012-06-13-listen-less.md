@@ -3,9 +3,8 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2012-06-13'
-permalink: /listen-less/
+url: /listen-less/
 title: Listen Less
-url: /2012/06/13/listen-less
 ---
 
 I had an interesting conversation with <a href="https://twitter.com/#!/tom_peters">Tom Peters</a> last week after mentioning that I only follow about 40 or so people on Twitter.

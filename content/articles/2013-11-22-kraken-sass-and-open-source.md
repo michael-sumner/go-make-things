@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-11-22'
-permalink: /kraken-sass-and-open-source/
+url: /kraken-sass-and-open-source/
 title: Kraken, Sass, and Open Source
-url: /2013/11/22/kraken-sass-and-open-source
 ---
 
 I've started planning version 3 of <a href="http://cferdinandi.github.io/kraken/">Kraken</a>. I think it should use Sass. And that's creating some challenges with the way the project is currently structured and my desire to keep it open and accessible to everyone.

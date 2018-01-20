@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2015-02-27'
-permalink: /the-first-option-isnt-always-the-best-option/
+url: /the-first-option-isnt-always-the-best-option/
 title: The first option isn&#8217;t always the best option
-url: /2015/02/27/the-first-option-isnt-always-the-best-option
 ---
 
 From an interesting look at [how teachers are using Minecraft in the classroom](http://www.theatlantic.com/education/archive/2015/02/teaching-in-the-age-of-minecraft/385231/):

@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2011-10-31'
-permalink: /details-matter/
+url: /details-matter/
 title: Details matter
-url: /2011/10/31/details-matter
 ---
 
 <blockquote>There's no such thing as stupid users. Only bad design.</blockquote>

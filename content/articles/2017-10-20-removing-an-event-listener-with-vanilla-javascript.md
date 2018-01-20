@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-20'
-permalink: /removing-an-event-listener-with-vanilla-javascript/
+url: /removing-an-event-listener-with-vanilla-javascript/
 title: Removing an event listener with vanilla JavaScript
-url: /2017/10/20/removing-an-event-listener-with-vanilla-javascript
 ---
 
 Yesterday, we looked at a vanilla JavaScript equivalent of jQuery's `on()` method. Today, let's look at the vanilla JS version of `off()`, which removes an event listener.

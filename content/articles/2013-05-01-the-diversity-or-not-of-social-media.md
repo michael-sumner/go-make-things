@@ -4,9 +4,8 @@ categories:
 - Technology
 - Uncategorized
 date: '2013-05-01'
-permalink: /the-diversity-or-not-of-social-media/
+url: /the-diversity-or-not-of-social-media/
 title: The diversity (or not) of social media
-url: /2013/05/01/the-diversity-or-not-of-social-media
 ---
 
 Last week, <a href="http://kottke.org/13/04/the-wisdom-of-crowdsourcing-manhunts">Kottke wrote...</a>

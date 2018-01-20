@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-16'
-permalink: /setting-default-arguments-with-javascript-arrow-functions/
+url: /setting-default-arguments-with-javascript-arrow-functions/
 title: Setting default arguments with JavaScript arrow functions
-url: /2017/11/16/setting-default-arguments-with-javascript-arrow-functions
 ---
 
 Yesterday, we looked at [how to set default values for JavaScript function arguments](/setting-default-values-for-a-javascript-function/).

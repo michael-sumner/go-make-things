@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Business &amp; Leadership
 date: '2011-10-03'
-permalink: /gender-differences-and-leadership/
+url: /gender-differences-and-leadership/
 title: Gender differences and leadership
-url: /2011/10/03/gender-differences-and-leadership
 ---
 
 A few weeks ago, Dan Pink shared the results of <a href="http://www.danpink.com/archives/2011/09/ill-take-gender-differences-for-800-alex">a Swedish study that analyzed risk taking by gender on the game-show Jeopardy...</a>

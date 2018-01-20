@@ -3,9 +3,8 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2011-09-27'
-permalink: /the-original-social-marketing/
+url: /the-original-social-marketing/
 title: The Original Social Marketing
-url: /2011/09/27/the-original-social-marketing
 ---
 
 Social Marketing is about building a real community around what you do. It's about giving something away that the community finds valuable, and getting loyalty in return.

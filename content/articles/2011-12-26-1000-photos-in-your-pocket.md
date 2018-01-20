@@ -3,9 +3,8 @@ categories:
 - Business &amp; Leadership
 - Uncategorized
 date: '2011-12-26'
-permalink: /1000-photos-in-your-pocket/
+url: /1000-photos-in-your-pocket/
 title: 1,000 photos in your pocket
-url: /2011/12/26/1000-photos-in-your-pocket
 ---
 
 A few weeks ago, my wife and I went out to dinner with my parents, my grandmother and my brother.

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-13'
-permalink: /detecting-when-a-file-is-available-when-you-cant-use-an-onload-event/
+url: /detecting-when-a-file-is-available-when-you-cant-use-an-onload-event/
 title: Detecting when a file is available when you can&#8217;t use an onload event
-url: /2017/10/13/detecting-when-a-file-is-available-when-you-cant-use-an-onload-event
 ---
 
 Sometimes you need to run a script only after another script was done loading (for example, waiting for jQuery to load before trying to run jQuery methods).

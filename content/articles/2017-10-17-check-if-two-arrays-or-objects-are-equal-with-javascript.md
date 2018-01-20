@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-17'
-permalink: /check-if-two-arrays-or-objects-are-equal-with-javascript/
+url: /check-if-two-arrays-or-objects-are-equal-with-javascript/
 title: Check if two arrays or objects are equal with JavaScript
-url: /2017/10/17/check-if-two-arrays-or-objects-are-equal-with-javascript
 ---
 
 Yesterday, we looked at a way to [tell if two arrays are equal with JavaScript](/checking-if-two-arrays-are-equal/). The approach is fast and simple, but falls apart pretty quickly for all but the most basic of arrays.

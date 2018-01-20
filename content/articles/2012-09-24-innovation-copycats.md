@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-09-24'
-permalink: /innovation-copycats/
+url: /innovation-copycats/
 title: Innovation &#038; Copycats
-url: /2012/09/24/innovation-copycats
 ---
 
 <a href="http://fadeyev.net/2012/06/04/brand-dilution/">Dmitry Fadeyev on innovation, brand dilution and copycats...</a>

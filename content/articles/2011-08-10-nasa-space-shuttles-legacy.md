@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-08-10'
-permalink: /nasa-space-shuttles-legacy/
+url: /nasa-space-shuttles-legacy/
 title: 'NASA: A Space Shuttle&#8217;s Legacy'
-url: /2011/08/10/nasa-space-shuttles-legacy
 ---
 
 I stumbled upon two wonderful videos about the now retired NASA space shuttle program.

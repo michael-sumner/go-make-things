@@ -4,9 +4,8 @@ categories:
 - Design &amp; UX
 - JavaScript
 date: '2017-05-22'
-permalink: /social-sharing-buttons-are-pointless-except-when-theyre-not/
+url: /social-sharing-buttons-are-pointless-except-when-theyre-not/
 title: Social sharing buttons are pointless (except when they&#8217;re not)
-url: /2017/05/22/social-sharing-buttons-are-pointless-except-when-theyre-not
 ---
 
 It's well documented that social sharing buttons, particularly on mobile devices, are entirely pointless. [Josh Clark from Big Medium writes:](https://bigmedium.com/ideas/no-mobile-share-buttons.html)

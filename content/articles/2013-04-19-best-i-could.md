@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2013-04-19'
-permalink: /best-i-could/
+url: /best-i-could/
 title: Best I Could
-url: /2013/04/19/best-i-could
 ---
 
 My friend <a href="http://danmills.net/">Dan Mills</a> is an amazingly talented musician. In addition to writing beautiful songs, he also had a cameo on the TV show <a href="http://www.nbc.com/smash/">Smash</a> last season.

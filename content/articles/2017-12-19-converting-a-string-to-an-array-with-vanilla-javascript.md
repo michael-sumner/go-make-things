@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-12-19'
-permalink: /converting-a-string-to-an-array-with-vanilla-javascript/
+url: /converting-a-string-to-an-array-with-vanilla-javascript/
 title: Converting a string to an array with vanilla JavaScript
-url: /2017/12/19/converting-a-string-to-an-array-with-vanilla-javascript
 ---
 
 Yesterday, we looked at [how to convert an array to a string](/converting-an-array-to-a-string-with-vanilla-javascript/). Today, let's look at how to do the exact opposite: convert a string to an array.

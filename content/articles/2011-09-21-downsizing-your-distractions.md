@@ -2,9 +2,8 @@
 categories:
 - Technology
 date: '2011-09-21'
-permalink: /downsizing-your-distractions/
+url: /downsizing-your-distractions/
 title: Downsizing your distractions
-url: /2011/09/21/downsizing-your-distractions
 ---
 
 <blockquote>See, I’ve been observing myself a lot lately, and I’ve noticed something odd about my work habits: I don’t have any.

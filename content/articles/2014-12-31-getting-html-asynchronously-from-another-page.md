@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2014-12-31'
-permalink: /getting-html-asynchronously-from-another-page/
+url: /getting-html-asynchronously-from-another-page/
 title: Getting HTML asynchronously from another page (with native JavaScript)
-url: /2014/12/31/getting-html-asynchronously-from-another-page
 ---
 
 On a recent project, I needed to load the form on a contact page in a modal window on a different page.

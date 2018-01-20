@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2016-01-27'
-permalink: /updates-to-smooth-scroll/
+url: /updates-to-smooth-scroll/
 title: Updates to Smooth Scroll
-url: /2016/01/27/updates-to-smooth-scroll
 ---
 
 Last week I released [version 10 of Smooth Scroll](https://github.com/cferdinandi/smooth-scroll), easily my most popular open source project.

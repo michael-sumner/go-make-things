@@ -4,9 +4,8 @@ categories:
 - Design &amp; UX
 - Uncategorized
 date: '2012-06-27'
-permalink: /how-to-write-better/
+url: /how-to-write-better/
 title: How to write better
-url: /2012/06/27/how-to-write-better
 ---
 
 Two words: edit ruthlessly.

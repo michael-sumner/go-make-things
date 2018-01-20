@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-31'
-permalink: /how-to-get-all-sibling-elements-until-a-match-is-found-with-vanilla-javascript/
+url: /how-to-get-all-sibling-elements-until-a-match-is-found-with-vanilla-javascript/
 title: How to get all sibling elements until a match is found with vanilla JavaScript
-url: /2017/08/31/how-to-get-all-sibling-elements-until-a-match-is-found-with-vanilla-javascript
 ---
 
 One of the students in my Vanilla JS Slack channel (a private channel included with my [pocket guides](/guides/)) asked me how to replicate [jQuery's `nextUntil()` method](https://api.jquery.com/nextUntil/) in vanilla JavaScript.

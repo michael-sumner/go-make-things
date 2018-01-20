@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2011-09-02'
-permalink: /alex-and-liam-do-walmart/
+url: /alex-and-liam-do-walmart/
 title: Alex and Liam do Walmart
-url: /2011/09/02/alex-and-liam-do-walmart
 ---
 
 A hilarious video of <a href="https://www.youtube.com/watch?v=Gzj1OF7d9m4">two brits exploring Walmart...</a>

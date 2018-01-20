@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2016-09-21'
-permalink: /stop-using-algorithms-to-force-relationships-on-people/
+url: /stop-using-algorithms-to-force-relationships-on-people/
 title: Stop using algorithms to force relationships on people
-url: /2016/09/21/stop-using-algorithms-to-force-relationships-on-people
 ---
 
 Yesterday, I received a barrage of "congratulations on your anniversary" messages from people on LinkedIn. I had no idea what they were talking about.

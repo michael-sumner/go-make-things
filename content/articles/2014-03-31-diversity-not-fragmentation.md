@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2014-03-31'
-permalink: /diversity-not-fragmentation/
+url: /diversity-not-fragmentation/
 title: Diversity, not fragmentation
-url: /2014/03/31/diversity-not-fragmentation
 ---
 
 <blockquote>

@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-03-31'
-permalink: /protest-in-brussels/
+url: /protest-in-brussels/
 title: Protest in Brussels
-url: /2011/03/31/protest-in-brussels
 ---
 
 <a href="https://gomakethings.com/wp-content/uploads/2011/03/A-protest-in-Brussels-008.jpg"><img src="https://gomakethings.com/wp-content/uploads/2011/03/A-protest-in-Brussels-008-400x257.jpg" alt="" title="A-protest-in-Brussels-008" width="400" height="257" class="aligncenter size-medium wp-image-354" /></a>

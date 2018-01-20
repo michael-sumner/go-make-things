@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-06-10'
-permalink: /how-open-source-has-helped-me-write-better-code/
+url: /how-open-source-has-helped-me-write-better-code/
 title: How open source has helped me write better code
-url: /2013/06/10/how-open-source-has-helped-me-write-better-code
 ---
 
 Three months ago, I released <a href="http://cferdinandi.github.io/kraken/">Kraken</a> (yea, that just happened), a modular, open source boilerplate for front-end web developers.

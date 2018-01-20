@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-05-05'
-permalink: /wtf-is-use-capture-in-vanilla-js-event-listeners/
+url: /wtf-is-use-capture-in-vanilla-js-event-listeners/
 title: WTF is `use capture` in vanilla JS event listeners?
-url: /2017/05/05/wtf-is-use-capture-in-vanilla-js-event-listeners
 ---
 
 A few weeks ago, I shared an approach to writing event listeners known as <a href="https://gomakethings.com/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/">event bubbling</a>.

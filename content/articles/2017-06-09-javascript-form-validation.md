@@ -4,9 +4,8 @@ categories:
 - Design &amp; UX
 - JavaScript
 date: '2017-06-09'
-permalink: /javascript-form-validation/
+url: /javascript-form-validation/
 title: JavaScript form validation
-url: /2017/06/09/javascript-form-validation
 ---
 
 This week I released [Validate.js](https://github.com/cferdinandi/validate), a lightweight, open source form validation script.

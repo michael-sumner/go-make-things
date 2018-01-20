@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-01-14'
-permalink: /going-for-pretty-first-is-wrong/
+url: /going-for-pretty-first-is-wrong/
 title: Going for &#8220;Pretty First&#8221; is Wrong
-url: /2013/01/14/going-for-pretty-first-is-wrong
 ---
 
 A few weeks ago Tech Crunch ran an article on <a href="http://techcrunch.com/2012/11/24/a-designers-take-on-app-development-pretty-first-is-wrong/">the dangers of putting aesthetics ahead of design</a> (and by design I mean how something works, not what it looks like)...

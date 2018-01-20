@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2015-06-17'
-permalink: /you-dont-need-to-learn-command-line/
+url: /you-dont-need-to-learn-command-line/
 title: You don&#8217;t need to learn command line
-url: /2015/06/17/you-dont-need-to-learn-command-line
 ---
 
 A few years ago, I used the GitHub GUI to get started with Git. And I constantly caught hell for it.

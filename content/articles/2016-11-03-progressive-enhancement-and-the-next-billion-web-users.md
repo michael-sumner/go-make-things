@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2016-11-03'
-permalink: /progressive-enhancement-and-the-next-billion-web-users/
+url: /progressive-enhancement-and-the-next-billion-web-users/
 title: Progressive enhancement, and the next billion web users
-url: /2016/11/03/progressive-enhancement-and-the-next-billion-web-users
 ---
 
 Nolan Lawson wrote [an interesting perspective on progressive enhancement](https://nolanlawson.com/2016/10/13/progressive-enhancement-isnt-dead-but-it-smells-funny/) the other week:

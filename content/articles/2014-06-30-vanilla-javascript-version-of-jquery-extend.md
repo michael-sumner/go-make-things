@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2014-06-30'
-permalink: /vanilla-javascript-version-of-jquery-extend/
+url: /vanilla-javascript-version-of-jquery-extend/
 title: Vanilla JavaScript version of jQuery.extend()
-url: /2014/06/30/vanilla-javascript-version-of-jquery-extend
 ---
 
 When writing [vanilla JavaScript plugins](https://gist.github.com/cferdinandi/ece94569aefcffa5f7fa), I often need to merge a set of user options into the plugin defaults to create the settings that ultimately get applied.

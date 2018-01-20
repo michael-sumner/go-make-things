@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2012-06-11'
-permalink: /apps-vs-websites/
+url: /apps-vs-websites/
 title: Apps vs. Websites
-url: /2012/06/11/apps-vs-websites
 ---
 
 What's the difference between an app and a website?

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-12-15'
-permalink: /keeping-your-javascript-out-of-the-global-scope-and-why-you-want-to/
+url: /keeping-your-javascript-out-of-the-global-scope-and-why-you-want-to/
 title: Keeping your JavaScript out of the global scope (and why you want to)
-url: /2017/12/15/keeping-your-javascript-out-of-the-global-scope-and-why-you-want-to
 ---
 
 This week, we learned about [JavaScript scope](/scope-in-javascript/), and [how to define and update variables across different types of scope](/defining-and-updating-javascript-variables-in-different-scopes/).

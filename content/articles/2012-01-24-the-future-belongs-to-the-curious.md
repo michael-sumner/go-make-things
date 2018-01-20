@@ -4,9 +4,8 @@ categories:
 - Business &amp; Leadership
 - Uncategorized
 date: '2012-01-24'
-permalink: /the-future-belongs-to-the-curious/
+url: /the-future-belongs-to-the-curious/
 title: The Future Belongs to the Curious
-url: /2012/01/24/the-future-belongs-to-the-curious
 ---
 
 What an absolutely beautiful video on <a href="http://vimeo.com/34853044">curiosity and the human spirit</a>. Learn more at <a href="http://www.skillshare.com/about/manifesto">Skillshare</a>.

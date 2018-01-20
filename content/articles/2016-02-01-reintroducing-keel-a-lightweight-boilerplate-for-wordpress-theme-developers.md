@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2016-02-01'
-permalink: /reintroducing-keel-a-lightweight-boilerplate-for-wordpress-theme-developers/
+url: /reintroducing-keel-a-lightweight-boilerplate-for-wordpress-theme-developers/
 title: Reintroducing Keel, a lightweight boilerplate for WordPress theme developers
-url: /2016/02/01/reintroducing-keel-a-lightweight-boilerplate-for-wordpress-theme-developers
 ---
 
 Late last week, I released version 6 of [Keel](http://keel.gomakethings.com/), a lightweight boilerplate for WordPress theme developers.

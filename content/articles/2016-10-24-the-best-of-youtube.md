@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Design &amp; UX
 date: '2016-10-24'
-permalink: /the-best-of-youtube/
+url: /the-best-of-youtube/
 title: The best of YouTube
-url: /2016/10/24/the-best-of-youtube
 ---
 
 In my article on [Ditching Cable](/ditching-cable), I mentioned that I watch a lot of geeky, high-quality original programming on YouTube.

@@ -4,9 +4,8 @@ categories:
 - Technology
 date: '2012-10-22'
 excerpt: The Web App Starter Kit is a free set of tools for using WordPress to power your web app.
-permalink: /web-app-starter-kit-v2-released/
+url: /web-app-starter-kit-v2-released/
 title: Web App Starter Kit v2 Released
-url: /2012/10/22/web-app-starter-kit-v2-released
 ---
 
 Last week, I pushed out an update to the <a href="http://cferdinandi.github.com/go-mobile-first/">Web App Starter Kit</a>.

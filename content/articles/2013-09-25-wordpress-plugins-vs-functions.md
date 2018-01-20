@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-09-25'
-permalink: /wordpress-plugins-vs-functions/
+url: /wordpress-plugins-vs-functions/
 title: 'WordPress: Plugins vs. Functions'
-url: /2013/09/25/wordpress-plugins-vs-functions
 ---
 
 My goal in building toolkits like <a href="http://cferdinandi.github.io/kraken-for-wordpress/">Kraken for WordPress</a>, <a href="http://cferdinandi.github.io/web-app-starter-kit/index.html">WordPress for Web Apps</a>, and <a href="http://cferdinandi.github.io/petfinder-api-for-wordpress/">Petfinder for WordPress</a> is to create tools that developers can use to make awesome stuff with WordPress.

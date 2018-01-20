@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-07-28'
-permalink: /looping-through-nodelists-with-es6/
+url: /looping-through-nodelists-with-es6/
 title: Looping through NodeLists with ES6
-url: /2017/07/28/looping-through-nodelists-with-es6
 ---
 
 Yesterday, we looked at [how to loop through arrays with ES6](/looping-through-arrays-the-es6-way/). Today, we're going to look at how to do the same thing with NodeLists.

@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-08-16'
-permalink: /canopy-of-umbrellas/
+url: /canopy-of-umbrellas/
 title: Canopy of Umbrellas
-url: /2012/08/16/canopy-of-umbrellas
 ---
 
 How absolutely gorgeous is this canopy of umbrellas in Águeda, Portugal? What a cool way to decorate an outdoor space!

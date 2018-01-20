@@ -7,9 +7,8 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-11-07'
-permalink: /the-lean-web/
+url: /the-lean-web/
 title: The Lean Web
-url: /2017/11/07/the-lean-web
 ---
 
 A week or two ago, [Thomas Fuchs gave a name](https://twitter.com/thomasfuchs/status/925341886944038914) to something I've been ranting about for a year or two: the lean web.

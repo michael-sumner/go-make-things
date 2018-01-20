@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-09-29'
-permalink: /creating-web-app-components-with-vanilla-javascript/
+url: /creating-web-app-components-with-vanilla-javascript/
 title: Creating web app components with vanilla JavaScript
-url: /2017/09/29/creating-web-app-components-with-vanilla-javascript
 ---
 
 I'm getting ready to launch my latest [pocket guide](/guides/), "Vanilla JS Web Apps."

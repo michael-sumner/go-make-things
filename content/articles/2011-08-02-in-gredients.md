@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Business &amp; Leadership
 date: '2011-08-02'
-permalink: /in-gredients/
+url: /in-gredients/
 title: in.gredients
-url: /2011/08/02/in-gredients
 ---
 
 The United States fills landfills with 1.4 billion pounds of waste everyday, and 40% of it is packaging.

@@ -2,9 +2,8 @@
 categories:
 - Business &amp; Leadership
 date: '2017-01-26'
-permalink: /why-some-uber-drivers-are-sleeping-in-their-cars/
+url: /why-some-uber-drivers-are-sleeping-in-their-cars/
 title: Why some Uber drivers are sleeping in their cars
-url: /2017/01/26/why-some-uber-drivers-are-sleeping-in-their-cars
 ---
 
 This article from Bloomberg about [Uber drivers who live near, but not in, major cities and sleep in their cars](https://www.bloomberg.com/news/articles/2017-01-23/when-their-shifts-end-uber-drivers-set-up-camp-in-parking-lots-across-the-u-s) really highlights the human element of Uber.

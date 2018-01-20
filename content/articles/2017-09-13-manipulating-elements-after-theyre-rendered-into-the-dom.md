@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-09-13'
-permalink: /manipulating-elements-after-theyre-rendered-into-the-dom/
+url: /manipulating-elements-after-theyre-rendered-into-the-dom/
 title: Manipulating elements after they&#8217;re rendered into the DOM
-url: /2017/09/13/manipulating-elements-after-theyre-rendered-into-the-dom
 ---
 
 This week, I'm sharing topics from my next [pocket guide](https://gomakethings.com): Vanilla JS Web Apps.

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-09-11'
-permalink: /rendering-content-with-vanilla-javascript/
+url: /rendering-content-with-vanilla-javascript/
 title: Rendering content with vanilla JavaScript
-url: /2017/09/11/rendering-content-with-vanilla-javascript
 ---
 
 I've started writing my next [pocket guide](https://gomakethings.com): Vanilla JS Web Apps.

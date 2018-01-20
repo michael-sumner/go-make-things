@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-08-07'
-permalink: /building-the-new-tonyluong-com/
+url: /building-the-new-tonyluong-com/
 title: Building the new TonyLuong.com
-url: /2013/08/07/building-the-new-tonyluong-com
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2013/08/tonyluong.jpg" alt="A screenshot of Tony Luong&#039;s website" width="832" height="446" class="aligncenter img-border size-full wp-image-4690" />

@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2013-06-26'
-permalink: /wordpress-shopping-cart/
+url: /wordpress-shopping-cart/
 title: WordPress Shopping Cart
-url: /2013/06/26/wordpress-shopping-cart
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2013/06/wp-shopping-cart.jpg" alt="wp-shopping-cart" width="713" height="568" class="aligncenter" />

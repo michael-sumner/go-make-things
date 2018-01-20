@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2014-06-18'
-permalink: /getting-started-with-gulp-js/
+url: /getting-started-with-gulp-js/
 title: Getting started with gulp.js
-url: /2014/06/18/getting-started-with-gulp-js
 ---
 
 Last week, I finally got setup with [gulp.js](http://gulpjs.com/), the JavaScript task runner for web developers. You can download the my [Gulp Boilerplate on GitHub](https://github.com/cferdinandi/gulp-boilerplate).

@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Design &amp; UX
 date: '2011-04-12'
-permalink: /pvc-instruments/
+url: /pvc-instruments/
 title: PVC Instruments
-url: /2011/04/12/pvc-instruments
 ---
 
 Snubby J made his own percussion instrument using PVC and trial-and-error. Really cool stuff!

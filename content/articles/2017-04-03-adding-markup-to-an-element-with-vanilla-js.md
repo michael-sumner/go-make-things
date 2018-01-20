@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-03'
-permalink: /adding-markup-to-an-element-with-vanilla-js/
+url: /adding-markup-to-an-element-with-vanilla-js/
 title: Adding markup to an element with vanilla JS
-url: /2017/04/03/adding-markup-to-an-element-with-vanilla-js
 ---
 
 The other day one of the students in my [Vanilla JS Slack channel](/guides/) asked me how to add an element inside another element with JavaScript.

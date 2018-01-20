@@ -3,9 +3,8 @@ categories:
 - Code
 - WordPress
 date: '2015-01-07'
-permalink: /remove-empty-paragraphs-added-by-wordpress/
+url: /remove-empty-paragraphs-added-by-wordpress/
 title: Remove empty paragraphs added by WordPress
-url: /2015/01/07/remove-empty-paragraphs-added-by-wordpress
 ---
 
 WordPress automatically adds paragraphs and line breaks to your content.

@@ -4,9 +4,8 @@ categories:
 - HTML
 - JavaScript
 date: '2017-09-19'
-permalink: /creating-elements-with-vanilla-javascript/
+url: /creating-elements-with-vanilla-javascript/
 title: Creating elements with vanilla JavaScript
-url: /2017/09/19/creating-elements-with-vanilla-javascript
 ---
 
 In jQuery, you can create an element by wrapping element tags in a jQuery method:

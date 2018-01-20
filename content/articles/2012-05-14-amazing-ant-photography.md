@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2012-05-14'
-permalink: /amazing-ant-photography/
+url: /amazing-ant-photography/
 title: Amazing Ant Photography
-url: /2012/05/14/amazing-ant-photography
 ---
 
 These <a href="http://en.www.lensart.ru/album-uid-210a-aid-456b-sh-1.htm">photographs of ants by Andrey Pavlov</a> are simply amazing.

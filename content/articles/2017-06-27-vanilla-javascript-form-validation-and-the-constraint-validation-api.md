@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-06-27'
-permalink: /vanilla-javascript-form-validation-and-the-constraint-validation-api/
+url: /vanilla-javascript-form-validation-and-the-constraint-validation-api/
 title: Vanilla JavaScript form validation and the constraint validation API
-url: /2017/06/27/vanilla-javascript-form-validation-and-the-constraint-validation-api
 ---
 
 Yesterday, I showed you [how to use native browser form validation through a combination of semantic input types](/vanilla-javascript-form-validation/) (for example, `<input type="email">`) and validation attributes (such as `required` and `pattern`).

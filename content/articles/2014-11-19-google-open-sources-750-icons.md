@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2014-11-19'
-permalink: /google-open-sources-750-icons/
+url: /google-open-sources-750-icons/
 title: Google open-sources 750 icons
-url: /2014/11/19/google-open-sources-750-icons
 ---
 
 Google has open-sourced a[ 750-icon set of icons](https://github.com/google/material-design-icons/releases/tag/1.0.0).

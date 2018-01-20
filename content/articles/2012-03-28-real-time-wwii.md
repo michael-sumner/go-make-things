@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Technology
 date: '2012-03-28'
-permalink: /real-time-wwii/
+url: /real-time-wwii/
 title: Real Time WWII
-url: /2012/03/28/real-time-wwii
 ---
 
 The Twitter account <a href="https://twitter.com/RealTimeWWII">@RealTimeWWII</a> is live tweeting World War II on this day and time, from 1940 through 1946.

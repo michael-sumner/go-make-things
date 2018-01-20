@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2013-08-21'
-permalink: /jumpy-the-dog/
+url: /jumpy-the-dog/
 title: Jumpy the dog
-url: /2013/08/21/jumpy-the-dog
 ---
 
 Jumpy is quite possibly <a href="https://www.youtube.com/watch?v=lZNPYBVUMe8">the most badass dog on the planet</a>.

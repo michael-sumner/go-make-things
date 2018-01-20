@@ -2,9 +2,8 @@
 categories:
 - Business &amp; Leadership
 date: '2012-03-21'
-permalink: /big-ideas-in-the-workplace/
+url: /big-ideas-in-the-workplace/
 title: Big Ideas in the Workplace
-url: /2012/03/21/big-ideas-in-the-workplace
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2012/03/teddie-roosevelt.jpg" alt="" title="teddie-roosevelt" width="500" height="599" class="aligncenter size-full wp-image-2137" />

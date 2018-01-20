@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2016-01-11'
-permalink: /its-about-more-than-mobile/
+url: /its-about-more-than-mobile/
 title: It&#8217;s about more than mobile
-url: /2016/01/11/its-about-more-than-mobile
 ---
 
 When I talk about mobile-friendly design, I'm really using a familiar shorthand for "device-agnostic design."

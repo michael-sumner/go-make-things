@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-07-07'
-permalink: /what-the-frack-is-going-on/
+url: /what-the-frack-is-going-on/
 title: What the frack is going on?
-url: /2011/07/07/what-the-frack-is-going-on
 ---
 
 Fracking is the process of pumping water deep into the ground with the aim of creating fractures that release trapped gas.

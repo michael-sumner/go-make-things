@@ -4,9 +4,8 @@ categories:
 - CSS
 - JavaScript
 date: '2017-08-24'
-permalink: /how-to-show-and-hide-elements-with-vanilla-javascript/
+url: /how-to-show-and-hide-elements-with-vanilla-javascript/
 title: How to show and hide elements with vanilla JavaScript
-url: /2017/08/24/how-to-show-and-hide-elements-with-vanilla-javascript
 ---
 
 This week in my private Vanilla JS Slack channel (available to people who purchase [one of my pocket guides](/guides/)), one of my students asked me how to replicate jQuery's `show()`, `hide()`, and `toggle()` methods with vanilla JavaScript.

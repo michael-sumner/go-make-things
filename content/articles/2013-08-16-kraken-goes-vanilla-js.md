@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-08-16'
-permalink: /kraken-goes-vanilla-js/
+url: /kraken-goes-vanilla-js/
 title: Kraken goes vanilla JS
-url: /2013/08/16/kraken-goes-vanilla-js
 ---
 
 Over the last two weeks, I converted all of the <a href="http://cferdinandi.github.io/kraken/addons.html">interactive Kraken add-ons</a> from jQuery to vanilla JavaScript.

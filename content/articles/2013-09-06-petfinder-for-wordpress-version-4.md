@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-09-06'
-permalink: /petfinder-for-wordpress-version-4/
+url: /petfinder-for-wordpress-version-4/
 title: Petfinder for WordPress, version 4
-url: /2013/09/06/petfinder-for-wordpress-version-4
 ---
 
 <a href="http://cferdinandi.github.io/petfinder-api-for-wordpress/">Petfinder for WordPress 4</a> is out.

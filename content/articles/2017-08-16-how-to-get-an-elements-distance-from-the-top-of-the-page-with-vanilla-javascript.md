@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-16'
-permalink: /how-to-get-an-elements-distance-from-the-top-of-the-page-with-vanilla-javascript/
+url: /how-to-get-an-elements-distance-from-the-top-of-the-page-with-vanilla-javascript/
 title: How to get an element&#8217;s distance from the top of the page with vanilla JavaScript
-url: /2017/08/16/how-to-get-an-elements-distance-from-the-top-of-the-page-with-vanilla-javascript
 ---
 
 Getting an element's distance from the top of the page seems like it should be fairly straightforward.

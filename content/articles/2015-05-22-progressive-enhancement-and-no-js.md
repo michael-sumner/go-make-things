@@ -5,9 +5,8 @@ categories:
 - Design &amp; UX
 - JavaScript
 date: '2015-05-22'
-permalink: /progressive-enhancement-and-no-js/
+url: /progressive-enhancement-and-no-js/
 title: Progressive Enhancement and <code>.no-JS</code>
-url: /2015/05/22/progressive-enhancement-and-no-js
 ---
 
 Last week, my buddy [David Putney](http://davidputney.com/) asked:

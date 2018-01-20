@@ -3,9 +3,8 @@ categories:
 - Design &amp; UX
 - Technology
 date: '2012-01-11'
-permalink: /misunderstanding-gamification/
+url: /misunderstanding-gamification/
 title: Misunderstanding Gamification
-url: /2012/01/11/misunderstanding-gamification
 ---
 
 Last month, Brent Simmons <a href="http://inessential.com/2011/12/23/gamification_sucks">wrote this on the gamification of software...</a>

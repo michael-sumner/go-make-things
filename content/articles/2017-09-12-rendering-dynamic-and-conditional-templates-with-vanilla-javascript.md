@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-09-12'
-permalink: /rendering-dynamic-and-conditional-templates-with-vanilla-javascript/
+url: /rendering-dynamic-and-conditional-templates-with-vanilla-javascript/
 title: Rendering dynamic and conditional templates with vanilla JavaScript
-url: /2017/09/12/rendering-dynamic-and-conditional-templates-with-vanilla-javascript
 ---
 
 This week, I'm sharing topics from my next [pocket guide](https://gomakethings.com): Vanilla JS Web Apps.

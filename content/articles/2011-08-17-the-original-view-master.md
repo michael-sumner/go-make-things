@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Design &amp; UX
 date: '2011-08-17'
-permalink: /the-original-view-master/
+url: /the-original-view-master/
 title: The Original View-Master
-url: /2011/08/17/the-original-view-master
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/07/DSC00498-560x339.jpg" alt="" title="Stereoscope" width="560" height="339" class="aligncenter size-medium wp-image-906" />

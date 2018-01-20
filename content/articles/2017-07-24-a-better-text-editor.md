@@ -5,9 +5,8 @@ categories:
 - JavaScript
 - Technology
 date: '2017-07-24'
-permalink: /a-better-text-editor/
+url: /a-better-text-editor/
 title: A better text editor
-url: /2017/07/24/a-better-text-editor
 ---
 
 [<img src="https://gomakethings.com/wp-content/uploads/2017/07/vs-code.png" alt="" width="1500" height="894" class="aligncenter size-full wp-image-14835" />](https://code.visualstudio.com/)

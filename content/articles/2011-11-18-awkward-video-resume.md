@@ -3,9 +3,8 @@ categories:
 - Business &amp; Leadership
 - Technology
 date: '2011-11-18'
-permalink: /awkward-video-resume/
+url: /awkward-video-resume/
 title: Awkward video resume
-url: /2011/11/18/awkward-video-resume
 ---
 
 Canadian job board Workopolis has put together a hilarious series of videos from job seeker George Turnbull. Check out his <a href="http://www.workopolis.com/about/the-candidate">awkward video resume...</a>

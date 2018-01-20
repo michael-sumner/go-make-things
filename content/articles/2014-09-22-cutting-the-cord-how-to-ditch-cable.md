@@ -2,9 +2,8 @@
 categories:
 - Technology
 date: '2014-09-22'
-permalink: /cutting-the-cord-how-to-ditch-cable/
+url: /cutting-the-cord-how-to-ditch-cable/
 title: 'Cutting the Cord: How to Ditch Cable'
-url: /2014/09/22/cutting-the-cord-how-to-ditch-cable
 ---
 
 ***Note:*** *I've written an updated version of this article, ["Ditching Cable."](/ditching-cable/)*

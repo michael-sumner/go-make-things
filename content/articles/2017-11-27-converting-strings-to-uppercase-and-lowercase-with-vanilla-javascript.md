@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-27'
-permalink: /converting-strings-to-uppercase-and-lowercase-with-vanilla-javascript/
+url: /converting-strings-to-uppercase-and-lowercase-with-vanilla-javascript/
 title: Converting strings to uppercase and lowercase with vanilla JavaScript
-url: /2017/11/27/converting-strings-to-uppercase-and-lowercase-with-vanilla-javascript
 ---
 
 JavaScript provides two helpful functions for converting text to uppercase and lowercase.

@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-11-14'
-permalink: /radio-the-original-internet/
+url: /radio-the-original-internet/
 title: 'Radio: The Original Internet'
-url: /2011/11/14/radio-the-original-internet
 ---
 
 <blockquote>Did you know that in the early days of radio, it was common for individuals to broadcast, not just receive transmissions?</blockquote>

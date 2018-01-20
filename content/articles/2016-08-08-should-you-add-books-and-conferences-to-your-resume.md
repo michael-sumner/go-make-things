@@ -2,9 +2,8 @@
 categories:
 - Careers
 date: '2016-08-08'
-permalink: /should-you-add-books-and-conferences-to-your-resume/
+url: /should-you-add-books-and-conferences-to-your-resume/
 title: Should you add books and conferences to your resume?
-url: /2016/08/08/should-you-add-books-and-conferences-to-your-resume
 ---
 
 One of the folks who reads [my newsletter](/newsletter/), Tim, asked me:

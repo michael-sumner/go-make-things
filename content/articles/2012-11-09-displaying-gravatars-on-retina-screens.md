@@ -3,9 +3,8 @@ categories:
 - Code
 date: '2012-11-09'
 excerpt: How to display high resolution avatars in WordPress.
-permalink: /displaying-gravatars-on-retina-screens/
+url: /displaying-gravatars-on-retina-screens/
 title: Displaying Gravatars on Retina Screens
-url: /2012/11/09/displaying-gravatars-on-retina-screens
 ---
 
 One thing that's been bothering me for the last couple of months is how fuzzy and awful the avatars in the comments section of this site looked on my iPad.

@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-10-03'
-permalink: /opening-your-mind/
+url: /opening-your-mind/
 title: Opening Your Mind
-url: /2012/10/03/opening-your-mind
 ---
 
 <a href="http://fuckjetpacks.com/read/opening_your_mind_so_wide_the_ghosts_slip_in">From (the now defunct) F*ck Jet Packs...</a>

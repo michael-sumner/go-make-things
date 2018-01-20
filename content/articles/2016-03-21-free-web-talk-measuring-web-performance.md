@@ -4,9 +4,8 @@ categories:
 - Design &amp; UX
 - Web Performance
 date: '2016-03-21'
-permalink: /free-web-talk-measuring-web-performance/
+url: /free-web-talk-measuring-web-performance/
 title: 'Free Web Talk: Measuring Web Performance'
-url: /2016/03/21/free-web-talk-measuring-web-performance
 ---
 
 I'm holding a free 15-minute web talk this Wednesday (March 23) at 1pm Eastern on "Measuring Web Performance," followed by an open Q&A.

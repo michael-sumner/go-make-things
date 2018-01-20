@@ -2,9 +2,8 @@
 categories:
 - Business &amp; Leadership
 date: '2011-09-12'
-permalink: /make-life-easier-for-your-customer/
+url: /make-life-easier-for-your-customer/
 title: Make life easier for your customer
-url: /2011/09/12/make-life-easier-for-your-customer
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/09/Generator1.jpg" alt="" title="Generator" width="480" height="716" class="aligncenter size-full wp-image-1307" />

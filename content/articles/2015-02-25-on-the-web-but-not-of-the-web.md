@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2015-02-25'
-permalink: /on-the-web-but-not-of-the-web/
+url: /on-the-web-but-not-of-the-web/
 title: On the web, but not of the web
-url: /2015/02/25/on-the-web-but-not-of-the-web
 ---
 
 Late to the party here, but I love Jeremy Keith's description of [products built to run *on* the web versus those built *of* the web](https://adactio.com/journal/8245):

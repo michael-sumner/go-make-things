@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2016-08-17'
-permalink: /how-to-go-from-idea-to-published-book-in-a-week/
+url: /how-to-go-from-idea-to-published-book-in-a-week/
 title: How to go from idea to published book in a week
-url: /2016/08/17/how-to-go-from-idea-to-published-book-in-a-week
 ---
 
 Two weeks ago, I released *[The Web Developer Career Guide](/career-guide/)*, my field guide on how to stay relevant, hack the hiring process, and make more money as an in‑house developer.

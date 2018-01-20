@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-15'
-permalink: /merging-objects-with-vanilla-javascript/
+url: /merging-objects-with-vanilla-javascript/
 title: Merging objects with vanilla JavaScript
-url: /2017/08/15/merging-objects-with-vanilla-javascript
 ---
 
 Vanilla JavaScript doesn't offer any native method to merge objects together.

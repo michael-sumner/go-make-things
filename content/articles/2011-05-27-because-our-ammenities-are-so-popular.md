@@ -3,9 +3,8 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2011-05-27'
-permalink: /because-our-ammenities-are-so-popular/
+url: /because-our-ammenities-are-so-popular/
 title: Because our ammenities are so popular&#8230;
-url: /2011/05/27/because-our-ammenities-are-so-popular
 ---
 
 My wife and I were in the Bahamas a few months ago, and the hotel we stayed in had this sign posted...

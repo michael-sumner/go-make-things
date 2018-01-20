@@ -3,9 +3,8 @@ categories:
 - Accessibility
 - Design &amp; UX
 date: '2016-01-25'
-permalink: /inaccessible-websites-are-a-legal-liability/
+url: /inaccessible-websites-are-a-legal-liability/
 title: Inaccessible websites are a legal liability
-url: /2016/01/25/inaccessible-websites-are-a-legal-liability
 ---
 
 Karl Groves maintains [an ongoing list of web accessibility-related lawsuits and settlements](http://www.karlgroves.com/2011/11/15/list-of-web-accessibility-related-litigation-and-settlements/). The number of lawsuits increased dramatically in 2015.

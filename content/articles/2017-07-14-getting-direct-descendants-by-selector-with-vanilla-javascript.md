@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-07-14'
-permalink: /getting-direct-descendants-by-selector-with-vanilla-javascript/
+url: /getting-direct-descendants-by-selector-with-vanilla-javascript/
 title: Getting direct descendants by selector with vanilla JavaScript
-url: /2017/07/14/getting-direct-descendants-by-selector-with-vanilla-javascript
 ---
 
 Last week, we looked at how to <a href="https://gomakethings.com/climbing-down-the-dom-with-vanilla-javascript/">climb down the DOM with vanilla JavaScript</a>.

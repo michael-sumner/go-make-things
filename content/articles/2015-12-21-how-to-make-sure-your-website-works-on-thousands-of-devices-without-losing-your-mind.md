@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2015-12-21'
-permalink: /how-to-make-sure-your-website-works-on-thousands-of-devices-without-losing-your-mind/
+url: /how-to-make-sure-your-website-works-on-thousands-of-devices-without-losing-your-mind/
 title: How to make sure your website works on thousands of devices without losing your mind
-url: /2015/12/21/how-to-make-sure-your-website-works-on-thousands-of-devices-without-losing-your-mind
 ---
 
 Have you ever been shopping on your phone, and when you click the “Add to Cart” or “Buy Now” button, nothing happens? So you click it again. And again. And again. Still nothing?

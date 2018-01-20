@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-10-14'
-permalink: /the-beautiful-photography-of-justin-james-muir/
+url: /the-beautiful-photography-of-justin-james-muir/
 title: The beautiful photography of Justin James Muir
-url: /2011/10/14/the-beautiful-photography-of-justin-james-muir
 ---
 
 Justin and I went to high-school together. His mom was my sixth grade teacher. His photos are simply stunning.

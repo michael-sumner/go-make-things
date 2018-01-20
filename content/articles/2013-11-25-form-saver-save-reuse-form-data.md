@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2013-11-25'
-permalink: /form-saver-save-reuse-form-data/
+url: /form-saver-save-reuse-form-data/
 title: 'Form Saver: Let users save and reuse form data'
-url: /2013/11/25/form-saver-save-reuse-form-data
 ---
 
 <a href="http://cferdinandi.github.io/form-saver/">Form Saver</a> is a handy little script that lets users save and reuse form data.

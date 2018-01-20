@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2017-02-06'
-permalink: /dolphins-are-really-really-smart/
+url: /dolphins-are-really-really-smart/
 title: Dolphins are really, really smart!
-url: /2017/02/06/dolphins-are-really-really-smart
 ---
 
 I knew dolphins were smart. [I didn't realize how smart.](https://www.youtube.com/watch?v=05PpTqtGhGU)

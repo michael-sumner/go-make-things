@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-11-15'
-permalink: /my-favorite-wordpress-plugins/
+url: /my-favorite-wordpress-plugins/
 title: My favorite WordPress plugins
-url: /2013/11/15/my-favorite-wordpress-plugins
 ---
 
 There are a handful of plugins that I install on every site I create:

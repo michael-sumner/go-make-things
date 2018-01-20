@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-08-12'
-permalink: /ditching-jquery-for-vanilla-js/
+url: /ditching-jquery-for-vanilla-js/
 title: Ditching jQuery for Vanilla JS
-url: /2013/08/12/ditching-jquery-for-vanilla-js
 ---
 
 ***Note:*** *I've written a new version of this article that reflects [how I work with native JavaScript today](/ditching-jquery).*

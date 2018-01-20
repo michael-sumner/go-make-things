@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-04-15'
-permalink: /usability-testing-demo/
+url: /usability-testing-demo/
 title: Usability Testing Demo
-url: /2013/04/15/usability-testing-demo
 ---
 
 No matter how well designed a website is, watching someone else use it for the first time is an enlightening experience.

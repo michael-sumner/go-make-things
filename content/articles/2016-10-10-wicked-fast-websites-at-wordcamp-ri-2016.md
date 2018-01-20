@@ -4,9 +4,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2016-10-10'
-permalink: /wicked-fast-websites-at-wordcamp-ri-2016/
+url: /wicked-fast-websites-at-wordcamp-ri-2016/
 title: Wicked Fast Websites at WordCamp RI 2016
-url: /2016/10/10/wicked-fast-websites-at-wordcamp-ri-2016
 ---
 
 A few weeks ago, I gave a talk at WordCamp RI on how to build WordPress sites that load in under a second. The [video of my talk](http://wordpress.tv/2016/10/07/chris-ferdinandi-wicked-fast-wordpress/) is now available for viewing.

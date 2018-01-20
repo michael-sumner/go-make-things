@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-07-31'
-permalink: /looping-through-objects-with-es6/
+url: /looping-through-objects-with-es6/
 title: Looping through objects with ES6
-url: /2017/07/31/looping-through-objects-with-es6
 ---
 
 Last week, we looked at how to loop through [arrays](/looping-through-arrays-the-es6-way/) and [NodeLists](/looping-through-nodelists-with-es6/) with ES6, which provides handy `forEach()` methods.

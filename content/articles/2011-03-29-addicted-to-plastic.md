@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-03-29'
-permalink: /addicted-to-plastic/
+url: /addicted-to-plastic/
 title: Addicted to Plastic
-url: /2011/03/29/addicted-to-plastic
 ---
 
 I've written about <a href="https://gomakethings.com/soda-sustainability/">my disdain of plastic bottles</a>. I've also featured a cool project to <a href="https://gomakethings.com/trash-track/">track where our trash ends up</a>.

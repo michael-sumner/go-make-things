@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-07'
-permalink: /working-with-cookies-in-vanilla-js/
+url: /working-with-cookies-in-vanilla-js/
 title: Working with cookies in vanilla JS
-url: /2017/04/07/working-with-cookies-in-vanilla-js
 ---
 
 Setting a cookie in JavaScript is relatively straightforward:

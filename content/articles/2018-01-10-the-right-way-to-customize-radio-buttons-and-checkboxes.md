@@ -5,9 +5,8 @@ categories:
 - Design &amp; UX
 - HTML
 date: '2018-01-10'
-permalink: /the-right-way-to-customize-radio-buttons-and-checkboxes/
+url: /the-right-way-to-customize-radio-buttons-and-checkboxes/
 title: The right way to customize radio buttons and checkboxes
-url: /2018/01/10/the-right-way-to-customize-radio-buttons-and-checkboxes
 ---
 
 For all of the power that CSS provides, styling radio buttons and checkboxes remains unnecessarily complicated.

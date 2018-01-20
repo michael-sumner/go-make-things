@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2018-01-15'
-permalink: /sorting-an-array-by-multiple-criteria-with-vanilla-javascript/
+url: /sorting-an-array-by-multiple-criteria-with-vanilla-javascript/
 title: Sorting an array by multiple criteria with vanilla JavaScript
-url: /2018/01/15/sorting-an-array-by-multiple-criteria-with-vanilla-javascript
 ---
 
 Last week, my friend [Andrew Borstein](http://andrewborstein.github.io/portfolio/) was playing around with a JavaScript upvoting system, and asked:

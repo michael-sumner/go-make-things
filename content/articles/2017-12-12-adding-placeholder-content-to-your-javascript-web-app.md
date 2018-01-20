@@ -5,9 +5,8 @@ categories:
 - HTML
 - JavaScript
 date: '2017-12-12'
-permalink: /adding-placeholder-content-to-your-javascript-web-app/
+url: /adding-placeholder-content-to-your-javascript-web-app/
 title: Adding placeholder content to your JavaScript web app
-url: /2017/12/12/adding-placeholder-content-to-your-javascript-web-app
 ---
 
 Depending on which parts of your user interface you're rendering with JavaScript and how you're fetching your data (Ajax vs. local storage, and so on), there may be parts of your UI that aren't ready when the page first loads.

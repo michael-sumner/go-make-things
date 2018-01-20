@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2011-10-06'
-permalink: /in-memory-of-steve-jobs/
+url: /in-memory-of-steve-jobs/
 title: In Memory of Steve Jobs
-url: /2011/10/06/in-memory-of-steve-jobs
 ---
 
 Steve Jobs passed away yesterday.

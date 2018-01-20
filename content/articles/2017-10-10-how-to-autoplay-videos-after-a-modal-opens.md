@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-10-10'
-permalink: /how-to-autoplay-videos-after-a-modal-opens/
+url: /how-to-autoplay-videos-after-a-modal-opens/
 title: How to autoplay videos after a modal opens
-url: /2017/10/10/how-to-autoplay-videos-after-a-modal-opens
 ---
 
 Over the weekend, [Kabolobari](https://do22.co/), one of my students, asked me how to make videos autoplay after a modal is opened (shared with permission).

@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2013-09-04'
-permalink: /markdown-for-wordpress/
+url: /markdown-for-wordpress/
 title: Markdown for WordPress
-url: /2013/09/04/markdown-for-wordpress
 ---
 
 There are numerous Markdown for WordPress plugins (over 200 at the time of writing), and I've always steered away from them for one reason: If I ever decide I don't want to use Markdown anymore, I'll be left with a bunch of jibberish in my posts.

@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2012-02-22'
-permalink: /pretty-things/
+url: /pretty-things/
 title: Pretty Things
-url: /2012/02/22/pretty-things
 ---
 
 My friend <a href="http://15strawberrylane.com/">Emily is a graphic designer in Boston, MA</a>. She makes really pretty things (including my wife and my wedding invitations).

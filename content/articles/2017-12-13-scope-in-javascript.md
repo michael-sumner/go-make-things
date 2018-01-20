@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-12-13'
-permalink: /scope-in-javascript/
+url: /scope-in-javascript/
 title: Scope in JavaScript
-url: /2017/12/13/scope-in-javascript
 ---
 
 Scope is the context in which a function or variable is accessible. There are three types of scope: *global*, *local*, and *lexical*.

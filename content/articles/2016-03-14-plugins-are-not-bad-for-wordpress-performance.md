@@ -4,9 +4,8 @@ categories:
 - Web Performance
 - WordPress
 date: '2016-03-14'
-permalink: /plugins-are-not-bad-for-wordpress-performance/
+url: /plugins-are-not-bad-for-wordpress-performance/
 title: Plugins are not bad for WordPress performance
-url: /2016/03/14/plugins-are-not-bad-for-wordpress-performance
 ---
 
 One often repeated piece of advice I see for improving web performance is to minimize the number of plugins you use.

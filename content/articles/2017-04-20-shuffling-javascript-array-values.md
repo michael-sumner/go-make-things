@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-20'
-permalink: /shuffling-javascript-array-values/
+url: /shuffling-javascript-array-values/
 title: Shuffling JavaScript array values
-url: /2017/04/20/shuffling-javascript-array-values
 ---
 
 This tip comes from <a href="https://blog.jscrambler.com/12-extremely-useful-hacks-for-javascript/">John Howard's 12 Extremely Useful Hacks for JavaScript article</a>.

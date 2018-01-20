@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Uncategorized
 date: '2012-06-29'
-permalink: /the-best-of-the-week-6292012/
+url: /the-best-of-the-week-6292012/
 title: 'The best of the week: 6/29/2012'
-url: /2012/06/29/the-best-of-the-week-6292012
 ---
 
 My favorite stuff from this week...

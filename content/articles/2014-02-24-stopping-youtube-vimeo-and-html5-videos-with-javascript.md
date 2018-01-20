@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2014-02-24'
-permalink: /stopping-youtube-vimeo-and-html5-videos-with-javascript/
+url: /stopping-youtube-vimeo-and-html5-videos-with-javascript/
 title: Stopping YouTube, Vimeo, and HTML5 Videos with JavaScript
-url: /2014/02/24/stopping-youtube-vimeo-and-html5-videos-with-javascript
 ---
 
 One annoying thing about a few of my content-oriented scripts (like <a href="http://cferdinandi.github.io/slider/">Slider</a>, <a href="http://cferdinandi.github.io/tabby/">Tabby</a>, and <a href="http://cferdinandi.github.io/modals/">Modals</a>) is that if they contained a video, it would continue to play even when the slider was slid, the tab was toggled or the modal was closed.

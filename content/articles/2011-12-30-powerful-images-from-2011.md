@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2011-12-30'
-permalink: /powerful-images-from-2011/
+url: /powerful-images-from-2011/
 title: Powerful images from 2011
-url: /2011/12/30/powerful-images-from-2011
 ---
 
 A few weeks ago, Buzz Feed posted the <a href="http://www.buzzfeed.com/mjs538/the-most-powerful-photos-of-2011">45 Most Powerful Images of 2011</a>. Most of them were pretty depressing: Tsunamis, hurricanes, famine...

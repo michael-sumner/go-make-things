@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2017-09-08'
-permalink: /sip-color-picker/
+url: /sip-color-picker/
 title: Sip Color Picker
-url: /2017/09/08/sip-color-picker
 ---
 
 One tool I've found absolutely indispensable over the last year or so is [Sip](https://sipapp.io/), a tool that let's you grab colors from anything on your screen with a point-and-click.

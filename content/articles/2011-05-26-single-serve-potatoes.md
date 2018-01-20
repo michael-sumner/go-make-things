@@ -3,9 +3,8 @@ categories:
 - Business &amp; Leadership
 - Design &amp; UX
 date: '2011-05-26'
-permalink: /single-serve-potatoes/
+url: /single-serve-potatoes/
 title: Single Serve Potatoes
-url: /2011/05/26/single-serve-potatoes
 ---
 
 I saw these in the grocery store the other week. What problem does this solve that the potato's skin doesn't already take care of?

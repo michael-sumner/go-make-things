@@ -4,9 +4,8 @@ categories:
 - Technology
 date: '2012-09-17'
 excerpt: A collection of templates and plugins that let you use WordPress to power web app.
-permalink: /web-app-starter-kit/
+url: /web-app-starter-kit/
 title: The Web App Starter Kit
-url: /2012/09/17/web-app-starter-kit
 ---
 
 <div class="callout"><p class="tall">The Web App Starter Kit is a collection of templates and plugins that let you use WordPress to power web apps.</p>

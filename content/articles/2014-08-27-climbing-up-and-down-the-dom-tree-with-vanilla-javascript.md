@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2014-08-27'
-permalink: /climbing-up-and-down-the-dom-tree-with-vanilla-javascript/
+url: /climbing-up-and-down-the-dom-tree-with-vanilla-javascript/
 title: Climbing up and down the DOM tree with vanilla JavaScript
-url: /2014/08/27/climbing-up-and-down-the-dom-tree-with-vanilla-javascript
 ---
 
 On a recent Javascript project, I needed to climb up the DOM tree looking for the first element that had a particular class, ID, or data attribute.

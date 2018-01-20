@@ -2,9 +2,8 @@
 categories:
 - Business &amp; Leadership
 date: '2011-05-02'
-permalink: /photos-video-storytelling/
+url: /photos-video-storytelling/
 title: Photos, Video &#038; Storytelling
-url: /2011/05/02/photos-video-storytelling
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/05/Camera_beth19.jpg" alt="" title="Photos, Video &amp; Storytelling" width="500" height="333" class="aligncenter size-full wp-image-547" />

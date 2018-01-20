@@ -3,9 +3,8 @@ categories:
 - Accessibility
 - CSS
 date: '2018-01-18'
-permalink: /improving-link-legibility-with-two-lines-of-css/
+url: /improving-link-legibility-with-two-lines-of-css/
 title: Improving link legibility with two lines of CSS
-url: /2018/01/18/improving-link-legibility-with-two-lines-of-css
 ---
 
 Links in body copy should pretty much [always be underlined](/accessibility-according-to-people-with-actual-disabilities/).

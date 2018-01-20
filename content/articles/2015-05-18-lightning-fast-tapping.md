@@ -4,9 +4,8 @@ categories:
 - Design &amp; UX
 - Web Performance
 date: '2015-05-18'
-permalink: /lightning-fast-tapping/
+url: /lightning-fast-tapping/
 title: Lightning fast tapping
-url: /2015/05/18/lightning-fast-tapping
 ---
 
 Many mobile browsers introduce a 300ms delay when a user taps on a link or button. [From Google:](https://developers.google.com/mobile/articles/fast_buttons)

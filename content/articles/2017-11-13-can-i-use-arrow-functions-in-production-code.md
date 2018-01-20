@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-13'
-permalink: /can-i-use-arrow-functions-in-production-code/
+url: /can-i-use-arrow-functions-in-production-code/
 title: Can I use arrow functions in production code?
-url: /2017/11/13/can-i-use-arrow-functions-in-production-code
 ---
 
 Last week we learned about [arrow functions](/an-introduction-to-es6-arrow-functions/) and the [rest parameters](/es6-arrow-function-rest-parameters/) feature.

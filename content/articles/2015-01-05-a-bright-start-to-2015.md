@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2015-01-05'
-permalink: /a-bright-start-to-2015/
+url: /a-bright-start-to-2015/
 title: A bright start to 2015
-url: /2015/01/05/a-bright-start-to-2015
 ---
 
 The news is full of terrible stories. That's what gets viewers, even though there's a ton of good in the world that never gets air time.

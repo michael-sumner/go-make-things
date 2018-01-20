@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-13'
-permalink: /attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/
+url: /attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/
 title: Attaching multiple elements to a single event listener in vanilla JS
-url: /2017/04/13/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js
 ---
 
 Let's say you have an accordion widget on your page, and you want to show or hide the corresponding content whenever one of five different links on a page is clicked.

@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2013-04-29'
-permalink: /your-lifestyle-has-already-been-designed/
+url: /your-lifestyle-has-already-been-designed/
 title: Your lifestyle has already been designed
-url: /2013/04/29/your-lifestyle-has-already-been-designed
 ---
 
 David Cain wrote an interesting article on <a href="http://thoughtcatalog.com/2013/your-lifestyle-has-already-been-designed/">the persistence of the 8-hour, 9-to-5 workday in the information age</a>. This quote in particular jumped out at me...

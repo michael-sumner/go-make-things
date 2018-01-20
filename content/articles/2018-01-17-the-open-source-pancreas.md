@@ -2,9 +2,8 @@
 categories:
 - Technology
 date: '2018-01-17'
-permalink: /the-open-source-pancreas/
+url: /the-open-source-pancreas/
 title: The Open Source Pancreas
-url: /2018/01/17/the-open-source-pancreas
 ---
 
 Yea, you read that right.

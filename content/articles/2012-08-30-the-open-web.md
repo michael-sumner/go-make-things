@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-08-30'
-permalink: /the-open-web/
+url: /the-open-web/
 title: The Open Web, Twitter &#038; Facebook
-url: /2012/08/30/the-open-web
 ---
 
 <a href="http://gigaom.com/2012/08/10/theres-only-one-truly-open-platform-the-web/">From GigaOm...</a>

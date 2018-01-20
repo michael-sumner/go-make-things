@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Uncategorized
 date: '2011-06-13'
-permalink: /lessons-from-the-bamboo/
+url: /lessons-from-the-bamboo/
 title: Lessons from the Bamboo
-url: /2011/06/13/lessons-from-the-bamboo
 ---
 
 <a href="http://www.presentationzen.com/">Garr Reynolds of Presentation Zen</a> has had a huge influence on how I present and convey ideas visually.

@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2014-08-25'
-permalink: /ditching-jquery/
+url: /ditching-jquery/
 title: Ditching jQuery
-url: /2014/08/25/ditching-jquery
 ---
 
 This article details how I write modern, native JavaScript (aka vanilla JS), and includes a growing collection of native JavaScript equivalents for common jQuery tasks.

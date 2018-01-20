@@ -2,9 +2,8 @@
 categories:
 - Business &amp; Leadership
 date: '2013-09-23'
-permalink: /technical-interviews-suck/
+url: /technical-interviews-suck/
 title: Technical Interviews Suck
-url: /2013/09/23/technical-interviews-suck
 ---
 
 Developer Pamela Fox <a href="http://blog.pamelafox.org/2013/09/technical-interviews-make-me-cry.html">on technical interviews</a>:

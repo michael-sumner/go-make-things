@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Design &amp; UX
 date: '2011-04-19'
-permalink: /the-chair-experiment/
+url: /the-chair-experiment/
 title: The Chair Experiment
-url: /2011/04/19/the-chair-experiment
 ---
 
 Furniture maker Blu Dot left a bunch of chairs around NYC, equipped them with GPS, and <a href="https://www.youtube.com/watch?v=rpZ2lahHzL4">watched what happened</a>.

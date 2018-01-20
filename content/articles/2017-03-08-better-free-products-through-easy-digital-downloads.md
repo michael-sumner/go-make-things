@@ -4,9 +4,8 @@ categories:
 - Design &amp; UX
 - WordPress
 date: '2017-03-08'
-permalink: /better-free-products-through-easy-digital-downloads/
+url: /better-free-products-through-easy-digital-downloads/
 title: Better free products through Easy Digital Downloads
-url: /2017/03/08/better-free-products-through-easy-digital-downloads
 ---
 
 Out-of-the-box, [Easy Digital Downloads](https://easydigitaldownloads.com/) sends people to checkout even when a product is free.

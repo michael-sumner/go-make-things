@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-01-06'
-permalink: /predictions-for-the-year-2000/
+url: /predictions-for-the-year-2000/
 title: Predictions for the year 2000
-url: /2012/01/06/predictions-for-the-year-2000
 ---
 
 Yesterday I came across <em>What May Happen in the Next Hundred Years</em>, a fantastic article found in the archives of Ladies Home Journal from the year 1900.

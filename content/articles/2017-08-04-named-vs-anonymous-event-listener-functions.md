@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-04'
-permalink: /named-vs-anonymous-event-listener-functions/
+url: /named-vs-anonymous-event-listener-functions/
 title: Named vs. anonymous event listener functions
-url: /2017/08/04/named-vs-anonymous-event-listener-functions
 ---
 
 This is a pretty typical way of setting up an event listener:

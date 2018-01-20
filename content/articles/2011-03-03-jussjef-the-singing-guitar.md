@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-03-03'
-permalink: /jussjef-the-singing-guitar/
+url: /jussjef-the-singing-guitar/
 title: JussJef, the Singing Guitar
-url: /2011/03/03/jussjef-the-singing-guitar
 ---
 
 The other day I had the pleasure of stumbling across <a href="http://www.jussjef.com/">JussJef</a>, a self-taught, by-ear guitar player who performs the most beautiful acoustic covers of hip-hop and pop songs I've ever heard.

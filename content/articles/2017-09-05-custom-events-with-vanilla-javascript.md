@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-09-05'
-permalink: /custom-events-with-vanilla-javascript/
+url: /custom-events-with-vanilla-javascript/
 title: Custom Events with Vanilla JavaScript
-url: /2017/09/05/custom-events-with-vanilla-javascript
 ---
 
 For a few years now, I've made it a habit of including callbacks in my [open source JavaScript plugins](/open-source/).

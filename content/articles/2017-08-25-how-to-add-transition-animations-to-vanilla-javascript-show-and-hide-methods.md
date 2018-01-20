@@ -4,9 +4,8 @@ categories:
 - CSS
 - JavaScript
 date: '2017-08-25'
-permalink: /how-to-add-transition-animations-to-vanilla-javascript-show-and-hide-methods/
+url: /how-to-add-transition-animations-to-vanilla-javascript-show-and-hide-methods/
 title: How to add transition animations to vanilla JavaScript show and hide methods
-url: /2017/08/25/how-to-add-transition-animations-to-vanilla-javascript-show-and-hide-methods
 ---
 
 Yesterday, we looked at [how to show and hide elements with vanilla JavaScript](/how-to-show-and-hide-elements-with-vanilla-javascript/).

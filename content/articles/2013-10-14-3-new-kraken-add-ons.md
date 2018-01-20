@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2013-10-14'
-permalink: /3-new-kraken-add-ons/
+url: /3-new-kraken-add-ons/
 title: 3 new Kraken add-ons
-url: /2013/10/14/3-new-kraken-add-ons
 ---
 
 Last week I released three new add-ons for <a href="http://cferdinandi.github.io/kraken/">Kraken</a>. All three are WordPress plugins. They're also all forked and remixed from other great projects.

@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2015-07-09'
-permalink: /why-text-is-often-better-than-icons-in-your-user-interface/
+url: /why-text-is-often-better-than-icons-in-your-user-interface/
 title: Why text is often better than icons in your user interface
-url: /2015/07/09/why-text-is-often-better-than-icons-in-your-user-interface
 ---
 
 I love [Instapaper](https://www.instapaper.com/u). It's probably one of the top 5 most used apps on my phone. But recently, they made a UI change that has dramatically impacted the usability (in a bad way) of their otherwise fantastic app.

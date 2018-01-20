@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-05'
-permalink: /removing-an-element-from-the-dom-with-vanilla-js/
+url: /removing-an-element-from-the-dom-with-vanilla-js/
 title: Removing an element from the DOM with vanilla JS
-url: /2017/04/05/removing-an-element-from-the-dom-with-vanilla-js
 ---
 
 Yesterday, [I showed you how to inject elements into the DOM](/adding-a-new-element-to-the-dom-with-vanilla-js/). Today, let's look at how to remove them.

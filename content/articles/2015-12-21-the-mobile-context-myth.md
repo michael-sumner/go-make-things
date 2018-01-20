@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2015-12-21'
-permalink: /the-mobile-context-myth/
+url: /the-mobile-context-myth/
 title: The mobile context myth
-url: /2015/12/21/the-mobile-context-myth
 ---
 
 At the most basic level, a mobile-friendly site is simply one that resizes itself to fit the screen it's being viewed on. Images, text, and content are only as wide as the screen on your device.

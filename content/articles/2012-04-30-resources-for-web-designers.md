@@ -3,9 +3,8 @@ categories:
 - Accessibility
 - Design &amp; UX
 date: '2012-04-30'
-permalink: /resources-for-web-designers/
+url: /resources-for-web-designers/
 title: 17 Free Resources for Web Designers
-url: /2012/04/30/resources-for-web-designers
 ---
 
 Here's a list of tools and resources I use on a fairly regular basis that make my job easier...

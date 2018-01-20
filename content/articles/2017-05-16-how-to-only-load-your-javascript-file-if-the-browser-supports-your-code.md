@@ -4,9 +4,8 @@ categories:
 - JavaScript
 - Web Performance
 date: '2017-05-16'
-permalink: /how-to-only-load-your-javascript-file-if-the-browser-supports-your-code/
+url: /how-to-only-load-your-javascript-file-if-the-browser-supports-your-code/
 title: How to only load your JavaScript file if the browser supports your code
-url: /2017/05/16/how-to-only-load-your-javascript-file-if-the-browser-supports-your-code
 ---
 
 Yesterday, I talked about [JavaScript feature detection](/javascript-feature-detection/).

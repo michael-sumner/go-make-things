@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2015-03-18'
-permalink: /using-svgs/
+url: /using-svgs/
 title: Using SVGs
-url: /2015/03/18/using-svgs
 ---
 
 For quite some time, I've been a strong advocate of using [icon fonts](/icon-fonts/). They're lightweight, scalable, and easily styleable with CSS.

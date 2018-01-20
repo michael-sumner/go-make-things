@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2015-12-21'
-permalink: /your-data-is-lying-to-you/
+url: /your-data-is-lying-to-you/
 title: Your data is lying to you
-url: /2015/12/21/your-data-is-lying-to-you
 ---
 
 When chatting with clients about how a particular feature or component might work on a phone or a touch-screen device, they often respond with something like:

@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2013-05-17'
-permalink: /you-must-be-this-tall/
+url: /you-must-be-this-tall/
 title: You Must Be This Tall
-url: /2013/05/17/you-must-be-this-tall
 ---
 
 Rocky Point was <em>the</em> place to go when I was a kid. Created by Captain William Winslow in the 1840s on the coast of Rhode Island, Rocky Point eventually grew into a thriving amusement park and food hall.

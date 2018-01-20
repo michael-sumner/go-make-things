@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Business &amp; Leadership
 date: '2012-04-12'
-permalink: /caines-arcade/
+url: /caines-arcade/
 title: Caine&#8217;s Arcade
-url: /2012/04/12/caines-arcade
 ---
 
 Caine Monroe is a 9-year old who <a href="http://vimeo.com/40000072">built an elaborate arcade</a> out of leftover cardboard boxes in his dad's used auto parts store. Director Nirvan Mullick helped him have the best day of his life...

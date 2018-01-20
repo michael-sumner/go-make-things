@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2014-10-13'
-permalink: /the-ux-of-animation/
+url: /the-ux-of-animation/
 title: The UX of Animation
-url: /2014/10/13/the-ux-of-animation
 ---
 
 We're in a period of the web where people are often using animations on sites because they can rather than because they add something to the user experience.

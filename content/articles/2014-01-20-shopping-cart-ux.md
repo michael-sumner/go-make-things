@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2014-01-20'
-permalink: /shopping-cart-ux/
+url: /shopping-cart-ux/
 title: Shopping Cart UX
-url: /2014/01/20/shopping-cart-ux
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2014/01/shopping-cart-ux.jpg" alt="A Target shopping cart" width="832" height="519" class="alignnone size-full wp-image-5192" />

@@ -6,9 +6,8 @@ categories:
 - Web Performance
 - WordPress
 date: '2017-05-31'
-permalink: /learning-vanilla-js-deeply/
+url: /learning-vanilla-js-deeply/
 title: Learning Vanilla JS Deeply
-url: /2017/05/31/learning-vanilla-js-deeply
 ---
 
 As a nice follow-up to [yesterday's article](/how-to-really-learn-javascript/), a few weeks ago I had an awesome conversation with [Zac Gordon of JavaScript for WordPress](https://javascriptforwp.com/) about how I learned vanilla JS.

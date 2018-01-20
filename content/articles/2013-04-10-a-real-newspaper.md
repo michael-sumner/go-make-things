@@ -4,9 +4,8 @@ categories:
 - Technology
 - Uncategorized
 date: '2013-04-10'
-permalink: /a-real-newspaper/
+url: /a-real-newspaper/
 title: A Real Newspaper
-url: /2013/04/10/a-real-newspaper
 ---
 
 Last weekend, my wife and I met up with my wife's cousin and his girlfriend for breakfast.

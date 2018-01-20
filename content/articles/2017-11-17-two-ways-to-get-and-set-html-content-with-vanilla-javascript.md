@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-11-17'
-permalink: /two-ways-to-get-and-set-html-content-with-vanilla-javascript/
+url: /two-ways-to-get-and-set-html-content-with-vanilla-javascript/
 title: Two ways to get and set HTML content with vanilla JavaScript
-url: /2017/11/17/two-ways-to-get-and-set-html-content-with-vanilla-javascript
 ---
 
 Vanilla JavaScript provides two really easy ways to get and set content in the DOM&mdash;one to manipulate markup, and the other just for text.

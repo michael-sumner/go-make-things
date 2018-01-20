@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2016-12-09'
-permalink: /shia-lebeouf-can-spit/
+url: /shia-lebeouf-can-spit/
 title: Shia LeBeouf can spit
-url: /2016/12/09/shia-lebeouf-can-spit
 ---
 
 Shia LeBeouf---yea, *that* Shia LeBeouf---completely [crushes this freestyle](https://www.youtube.com/watch?v=l161Qqc5lUk) on Sway in the Morning.

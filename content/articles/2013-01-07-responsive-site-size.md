@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-01-07'
-permalink: /responsive-site-size/
+url: /responsive-site-size/
 title: Responsive Site Size
-url: /2013/01/07/responsive-site-size
 ---
 
 I periodically see posts and tweets comparing the size of websites on the desktop to those same sites viewed on a mobile device. They typically say something to the effect of, "X percentage of sites are the same size or larger on a mobile device than on a desktop."

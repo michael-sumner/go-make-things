@@ -4,9 +4,8 @@ categories:
 - Design &amp; UX
 - JavaScript
 date: '2018-01-11'
-permalink: /automatically-expand-a-textarea-as-the-user-types-using-vanilla-javascript/
+url: /automatically-expand-a-textarea-as-the-user-types-using-vanilla-javascript/
 title: Automatically expand a textarea as the user types using vanilla JavaScript
-url: /2018/01/11/automatically-expand-a-textarea-as-the-user-types-using-vanilla-javascript
 ---
 
 [Tommy Hodgins](https://twitter.com/innovati) shared a really neat little helper function with me that automatically expands a textarea as the user types in.

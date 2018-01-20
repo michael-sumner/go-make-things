@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-03-15'
-permalink: /learn-css-layout/
+url: /learn-css-layout/
 title: Learn CSS Layout
-url: /2013/03/15/learn-css-layout
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2013/03/learn-css-layout.png" alt="A screenshot of LearnCSSLayout.com" width="560" height="522" class="aligncenter size-full wp-image-4325" />

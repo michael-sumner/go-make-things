@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2014-07-02'
-permalink: /setting-multiple-javascript-plugin-options-with-a-single-data-attribute/
+url: /setting-multiple-javascript-plugin-options-with-a-single-data-attribute/
 title: Setting multiple JavaScript plugin options with a single data attribute
-url: /2014/07/02/setting-multiple-javascript-plugin-options-with-a-single-data-attribute
 ---
 
 ***Update:*** *After a chat with [Todd Motto](http://toddmotto.com/), I've [updated my approach](/revisiting-the-data-options-data-attribute/).*

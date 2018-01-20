@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2014-04-09'
-permalink: /better-markdown-for-wordpress/
+url: /better-markdown-for-wordpress/
 title: Better Markdown for WordPress
-url: /2014/04/09/better-markdown-for-wordpress
 ---
 
 Back in September I wrote about the <a href="https://gomakethings.com/markdown-for-wordpress/">Markdown on Save plugin by Mark Jaquith</a>. The plugin is still awesome, but there's a few things about that I wish were done differently.

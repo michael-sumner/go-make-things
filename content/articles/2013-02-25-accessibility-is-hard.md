@@ -3,9 +3,8 @@ categories:
 - Accessibility
 - Design &amp; UX
 date: '2013-02-25'
-permalink: /accessibility-is-hard/
+url: /accessibility-is-hard/
 title: Accessibility is Hard
-url: /2013/02/25/accessibility-is-hard
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2013/02/web-accessibility.jpg" title="Screenshot of the Web Accessibility Project on GitHub" width="500" height="369" class="aligncenter size-full wp-image-4079" />

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-09-06'
-permalink: /adding-event-details-to-custom-events-with-vanilla-javascript/
+url: /adding-event-details-to-custom-events-with-vanilla-javascript/
 title: Adding event details to custom events with vanilla JavaScript
-url: /2017/09/06/adding-event-details-to-custom-events-with-vanilla-javascript
 ---
 
 Yesterday, we looked at [how to create custom events with vanilla JavaScript](/custom-events-with-vanilla-javascript/).

@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2015-03-02'
-permalink: /how-to-get-the-value-of-a-querystring-with-native-javascript/
+url: /how-to-get-the-value-of-a-querystring-with-native-javascript/
 title: How to get the value of a query string with native JavaScript
-url: /2015/03/02/how-to-get-the-value-of-a-querystring-with-native-javascript
 ---
 
 Here's a simple method you can use to get the value of a querystring with native JavaScript:

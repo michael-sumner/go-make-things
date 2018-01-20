@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-02-24'
-permalink: /underheard-in-new-york/
+url: /underheard-in-new-york/
 title: Underheard in New York
-url: /2011/02/24/underheard-in-new-york
 ---
 
 A fascinating project that <a href="https://www.youtube.com/watch?v=LuGe7udS0Z0">gives a voice to New York City's homeless...</a>

@@ -3,9 +3,8 @@ categories:
 - Code
 - Design &amp; UX
 date: '2016-09-23'
-permalink: /reducing-harvard-business-schools-page-load-time-by-27-percent/
+url: /reducing-harvard-business-schools-page-load-time-by-27-percent/
 title: Reducing Harvard Business School&#8217;s page load time by 27 percent in 15 minutes
-url: /2016/09/23/reducing-harvard-business-schools-page-load-time-by-27-percent
 ---
 
 I just wrapped up another project with [Harvard Business School's Digital Initiative](https://digital.hbs.edu/).

@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-02-14'
-permalink: /the-other-side-of-the-street/
+url: /the-other-side-of-the-street/
 title: The Other Side of the Street
-url: /2011/02/14/the-other-side-of-the-street
 ---
 
 <em>My senior year in high school, I had the pleasure (if you could call it that) of interviewing a homeless man named Pops. His story was run in the school paper. My senior year in college, I rewrote the story, and have decided to rerun it here.</em>

@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Design &amp; UX
 date: '2011-06-29'
-permalink: /the-safety-net/
+url: /the-safety-net/
 title: The Safety Net
-url: /2011/06/29/the-safety-net
 ---
 
 <a href="http://vimeo.com/21894812">The Safety Net</a> is a really smart concept by Dan Watson, a student at the Royal College of Art in London.

@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-08-22'
-permalink: /the-myth-of-mobile-context/
+url: /the-myth-of-mobile-context/
 title: The Myth of Mobile Context
-url: /2012/08/22/the-myth-of-mobile-context
 ---
 
 I've been having a lot of conversations lately around mobile design and mobile learning.

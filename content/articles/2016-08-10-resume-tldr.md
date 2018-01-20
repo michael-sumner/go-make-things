@@ -2,9 +2,8 @@
 categories:
 - Careers
 date: '2016-08-10'
-permalink: /resume-tldr/
+url: /resume-tldr/
 title: Resume tl;dr
-url: /2016/08/10/resume-tldr
 ---
 
 Seth, who reads [my newsletter](/newsletter/), asked me:

@@ -2,9 +2,8 @@
 categories:
 - Uncategorized
 date: '2012-08-29'
-permalink: /css-sprite-apps/
+url: /css-sprite-apps/
 title: CSS Sprite Apps
-url: /2012/08/29/css-sprite-apps
 ---
 
 After <a href="https://gomakethings.com/how-to-trick-out-the-performance-of-your-wordpress-site/">making some performance updates</a> to this site last week, I decided to apply what I learned to the website I manage for <a href="http://www.pawsnewengland.com">PAWS New England</a>, an all-breed dog rescue.

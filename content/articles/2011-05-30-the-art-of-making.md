@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2011-05-30'
-permalink: /the-art-of-making/
+url: /the-art-of-making/
 title: The Art of Making
-url: /2011/05/30/the-art-of-making
 ---
 
 <blockquote>Making excuses takes the same time as making progress.

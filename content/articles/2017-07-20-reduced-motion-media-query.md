@@ -6,9 +6,8 @@ categories:
 - Design &amp; UX
 - JavaScript
 date: '2017-07-20'
-permalink: /reduced-motion-media-query/
+url: /reduced-motion-media-query/
 title: Reduced Motion Media Query
-url: /2017/07/20/reduced-motion-media-query
 ---
 
 The Reduced Motion media query provides <a href="https://css-tricks.com/introduction-reduced-motion-media-query/">a way for people who experience motion sickness and vertigo</a> to specify that they'd like to reduce the motion of an interface.

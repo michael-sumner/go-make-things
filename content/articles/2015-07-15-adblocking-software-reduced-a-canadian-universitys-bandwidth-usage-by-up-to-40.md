@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2015-07-15'
-permalink: /adblocking-software-reduced-a-canadian-universitys-bandwidth-usage-by-up-to-40/
+url: /adblocking-software-reduced-a-canadian-universitys-bandwidth-usage-by-up-to-40/
 title: Adblocking software reduced a Canadian university&#8217;s bandwidth usage by up to 40%
-url: /2015/07/15/adblocking-software-reduced-a-canadian-universitys-bandwidth-usage-by-up-to-40
 ---
 
 A study by Simon Fraser University in Canada asked student volunteers to browse popular websites like the New York Times and Washington Post as well as Buzzfeed, Mashable, and YouTube. They found that [using adblocking software reduced bandwidth consumption by 25%](http://www.sfu.ca/content/dam/sfu/snfchs/pdfs/Adblock.Plus.Study.pdf) (and up to 40% when considering video consumption alone).

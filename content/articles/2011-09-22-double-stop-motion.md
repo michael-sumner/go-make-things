@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-09-22'
-permalink: /double-stop-motion/
+url: /double-stop-motion/
 title: Double Stop Motion
-url: /2011/09/22/double-stop-motion
 ---
 
 This is really cool... <a href="https://www.youtube.com/watch?v=9eqSZSO_sSE">a stop motion music video in a stop motion video</a>. Made with 500 people holding more than 1,500 pictures around Israel.

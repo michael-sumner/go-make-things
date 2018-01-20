@@ -5,9 +5,8 @@ categories:
 - CSS
 - Design &amp; UX
 date: '2016-12-13'
-permalink: /a11y-and-text-just-for-screen-readers/
+url: /a11y-and-text-just-for-screen-readers/
 title: a11y and text just for screen readers
-url: /2016/12/13/a11y-and-text-just-for-screen-readers
 ---
 
 In [Kraken](https://cferdinandi.github.io/kraken/), [Keel](https://keel.gomakethings.com/), and pretty much any site I build, I use the `.screen-reader` class to visually hide content that I still want available to screen readers. It's an approach I adapted from the HTML5 Boilerplate.

@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2013-02-15'
-permalink: /chicken-or-the-egg/
+url: /chicken-or-the-egg/
 title: Chicken or the egg?
-url: /2013/02/15/chicken-or-the-egg
 ---
 
 AsapScience takes an awesomely nerdy look at the question, "<a href="https://www.youtube.com/watch?v=1a8pI65emDE">Which came first: the chicken or the egg?</a>"

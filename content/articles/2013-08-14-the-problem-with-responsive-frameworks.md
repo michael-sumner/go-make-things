@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-08-14'
-permalink: /the-problem-with-responsive-frameworks/
+url: /the-problem-with-responsive-frameworks/
 title: The Problem with Responsive Frameworks
-url: /2013/08/14/the-problem-with-responsive-frameworks
 ---
 
 In an <a href="http://www.netmagazine.com/advertorial/responsive-web-design-6-experts-4-questions">interview on responsive web design</a> with .net magazine, <a href="http://aaron-gustafson.com/">Aaron Gustafason</a> shared this thought on responsive frameworks:

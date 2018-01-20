@@ -3,9 +3,8 @@ categories:
 - Uncategorized
 date: '2012-12-05'
 excerpt: Discover weird, useless websites.
-permalink: /the-useless-web/
+url: /the-useless-web/
 title: The Useless Web
-url: /2012/12/05/the-useless-web
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2012/12/useless-web.jpg" alt="" title="A screenshot of The Useless Web website" width="560" height="405" class="aligncenter size-full wp-image-3799" />

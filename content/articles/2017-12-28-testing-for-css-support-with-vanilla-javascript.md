@@ -4,9 +4,8 @@ categories:
 - CSS
 - JavaScript
 date: '2017-12-28'
-permalink: /testing-for-css-support-with-vanilla-javascript/
+url: /testing-for-css-support-with-vanilla-javascript/
 title: Testing for CSS support with vanilla JavaScript
-url: /2017/12/28/testing-for-css-support-with-vanilla-javascript
 ---
 
 In CSS, you can check if a feature is supported using the `@supports()` rule. For example, to check for FlexBox support, you'd do this:

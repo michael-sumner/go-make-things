@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-27'
-permalink: /when-does-using-libraries-stop-being-vanilla-js/
+url: /when-does-using-libraries-stop-being-vanilla-js/
 title: When does using libraries stop being vanilla JS?
-url: /2017/04/27/when-does-using-libraries-stop-being-vanilla-js
 ---
 
 The other day on Twitter, <a href="https://twitter.com/markgdyr/status/853257694844727298">Mark Goodyear asked</a>:

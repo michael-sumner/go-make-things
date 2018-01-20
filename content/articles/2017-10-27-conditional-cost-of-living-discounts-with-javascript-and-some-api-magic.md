@@ -4,9 +4,8 @@ categories:
 - JavaScript
 - WordPress
 date: '2017-10-27'
-permalink: /conditional-cost-of-living-discounts-with-javascript-and-some-api-magic/
+url: /conditional-cost-of-living-discounts-with-javascript-and-some-api-magic/
 title: Conditional cost of living discounts with JavaScript and some API magic
-url: /2017/10/27/conditional-cost-of-living-discounts-with-javascript-and-some-api-magic
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2017/10/col-discounts.jpg" alt="" width="1440" height="358" class="aligncenter size-full wp-image-17301" />

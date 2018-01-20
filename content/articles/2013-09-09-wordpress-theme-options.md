@@ -2,9 +2,8 @@
 categories:
 - Code
 date: '2013-09-09'
-permalink: /wordpress-theme-options/
+url: /wordpress-theme-options/
 title: WordPress Theme Options
-url: /2013/09/09/wordpress-theme-options
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2013/09/wp-theme-options.jpg" alt="A screenshot of WordPress Theme Options on GitHub" width="640" height="452" class="aligncenter size-full wp-image-4868" />

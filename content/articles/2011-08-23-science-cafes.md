@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-08-23'
-permalink: /science-cafes/
+url: /science-cafes/
 title: Science Cafes
-url: /2011/08/23/science-cafes
 ---
 
 <blockquote><a href="http://www.sciencecafes.org/">Science cafés</a> are live events that involve a face-to-face conversation with a scientist about current science topics. They are open to everyone, and take place in casual settings like pubs and coffeehouses.

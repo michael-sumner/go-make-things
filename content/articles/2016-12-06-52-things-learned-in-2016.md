@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Design &amp; UX
 date: '2016-12-06'
-permalink: /52-things-learned-in-2016/
+url: /52-things-learned-in-2016/
 title: 52 things learned in 2016
-url: /2016/12/06/52-things-learned-in-2016
 ---
 
 [This list of things Tom Whitwell learned in 2016](https://medium.com/fluxx-studio-notes/52-things-i-learned-in-2016-299fd1e6a62b) is too good!

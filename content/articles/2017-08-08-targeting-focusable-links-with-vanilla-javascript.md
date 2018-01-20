@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-08-08'
-permalink: /targeting-focusable-links-with-vanilla-javascript/
+url: /targeting-focusable-links-with-vanilla-javascript/
 title: Targeting focusable links with vanilla JavaScript
-url: /2017/08/08/targeting-focusable-links-with-vanilla-javascript
 ---
 
 A few weeks ago I shared a trick for [getting the first and last focusable element in the DOM](/how-to-get-the-first-and-last-focusable-elements-in-the-dom/).

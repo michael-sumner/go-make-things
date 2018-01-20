@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2012-07-16'
-permalink: /typography-first-web-design/
+url: /typography-first-web-design/
 title: Typography First Web Design
-url: /2012/07/16/typography-first-web-design
 ---
 
 Last week, I launched a redesign of Go Make Things with a single objective: to create a design that was really enjoyable to read.

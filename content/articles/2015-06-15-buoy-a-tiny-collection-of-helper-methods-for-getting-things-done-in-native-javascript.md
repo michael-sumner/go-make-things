@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2015-06-15'
-permalink: /buoy-a-tiny-collection-of-helper-methods-for-getting-things-done-in-native-javascript/
+url: /buoy-a-tiny-collection-of-helper-methods-for-getting-things-done-in-native-javascript/
 title: 'Buoy: A tiny collection of helper methods for getting things done in native JavaScript'
-url: /2015/06/15/buoy-a-tiny-collection-of-helper-methods-for-getting-things-done-in-native-javascript
 ---
 
 A few years ago, I stopped using jQuery and started writing exclusively in [native JavaScript (aka vanilla JS)](/ditching-jquery/).

@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2014-10-15'
-permalink: /the-web-of-the-future-in-slides/
+url: /the-web-of-the-future-in-slides/
 title: The web of the future&#8230; in slides
-url: /2014/10/15/the-web-of-the-future-in-slides
 ---
 
 A couple of weeks ago, I shared some thoughts on the [future of the web](/the-web-of-the-future/) following [Artifact Providence](http://artifactconf.com/providence/).

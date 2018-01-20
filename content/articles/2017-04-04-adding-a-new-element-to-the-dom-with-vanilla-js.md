@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-04-04'
-permalink: /adding-a-new-element-to-the-dom-with-vanilla-js/
+url: /adding-a-new-element-to-the-dom-with-vanilla-js/
 title: Adding a new element to the DOM with vanilla JS
-url: /2017/04/04/adding-a-new-element-to-the-dom-with-vanilla-js
 ---
 
 Yesterday, we looked at [how to add markup to an element with vanilla JavaScript](/adding-markup-to-an-element-with-vanilla-js/). As a follow-up, one of the students in my [Vanilla JS Slack channel](/guides/) asked me how to inject a new element into the DOM with JavaScript.

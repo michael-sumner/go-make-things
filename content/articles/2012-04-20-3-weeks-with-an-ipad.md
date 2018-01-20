@@ -2,9 +2,8 @@
 categories:
 - Technology
 date: '2012-04-20'
-permalink: /3-weeks-with-an-ipad/
+url: /3-weeks-with-an-ipad/
 title: 3 Weeks with an iPad
-url: /2012/04/20/3-weeks-with-an-ipad
 ---
 
 I never really got the appeal of an iPad. I have a Macbook Pro. I have an iPhone. The iPad always seemed like some strange in-between device that satisfied a need I didn't have.

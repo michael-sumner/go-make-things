@@ -3,9 +3,8 @@ categories:
 - Art &amp; Science
 - Uncategorized
 date: '2012-12-20'
-permalink: /space-junk/
+url: /space-junk/
 title: Space Junk
-url: /2012/12/20/space-junk
 ---
 
 You may have heard that earlier this week NASA crash landed two lunar probes into the moon at the conclusion of their mission. As the Atlantic explains, <a href="http://www.theatlantic.com/technology/archive/2012/12/the-trash-weve-left-on-the-moon/266465/">this is actually quite common...</a>

@@ -2,9 +2,8 @@
 categories:
 - Business &amp; Leadership
 date: '2011-06-07'
-permalink: /tupac-vs-biggie/
+url: /tupac-vs-biggie/
 title: Tupac vs. Biggie
-url: /2011/06/07/tupac-vs-biggie
 ---
 
 <img src="https://gomakethings.com/wp-content/uploads/2011/06/tips.jpg" alt="" title="IMG_1401" width="478" height="640" class="aligncenter size-full wp-image-757" />

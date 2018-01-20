@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-01-26'
-permalink: /doing-nothing/
+url: /doing-nothing/
 title: Doing Nothing
-url: /2011/01/26/doing-nothing
 ---
 
 It was 8 degrees out on my way home from the dentist the other day. The Weather Channel had actually issued a frostbite warning, because with windchill, the temperature was below zero.

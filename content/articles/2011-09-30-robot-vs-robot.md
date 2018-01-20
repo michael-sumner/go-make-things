@@ -2,9 +2,8 @@
 categories:
 - Art &amp; Science
 date: '2011-09-30'
-permalink: /robot-vs-robot/
+url: /robot-vs-robot/
 title: Robot vs. Robot
-url: /2011/09/30/robot-vs-robot
 ---
 
 Back in July, I wrote about <a href="https://gomakethings.com/mind-vs-machine/">the Turing Test</a>, an annual event in which judges have online chats with people and artificial intelligence robots, and attempt to figure out which is which.

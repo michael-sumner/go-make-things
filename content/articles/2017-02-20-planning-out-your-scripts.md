@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-02-20'
-permalink: /planning-out-your-scripts/
+url: /planning-out-your-scripts/
 title: Planning out your scripts
-url: /2017/02/20/planning-out-your-scripts
 ---
 
 This may sound ridiculous, but I actually plan out my scripts on paper before I ever open a text editor. Like, real paper in a physical notebook, with a pen.

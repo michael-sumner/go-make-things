@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2015-04-22'
-permalink: /climbing-the-dom-until-you-get-a-match-using-native-javascript/
+url: /climbing-the-dom-until-you-get-a-match-using-native-javascript/
 title: Climbing the DOM until you get a match using native JavaScript
-url: /2015/04/22/climbing-the-dom-until-you-get-a-match-using-native-javascript
 ---
 
 In jQuery, <code>.parentsUntil()</code> climbs the DOM tree and returns all parent elements until a matching parent is found. If you include a selector, it will only return those that match. Here's the vanilla JavaScript equivalent:

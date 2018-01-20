@@ -2,9 +2,8 @@
 categories:
 - Design &amp; UX
 date: '2013-06-05'
-permalink: /less-is-more-more-is-more/
+url: /less-is-more-more-is-more/
 title: Less is more. More is more.
-url: /2013/06/05/less-is-more-more-is-more
 ---
 
 About a month ago, Brad Frost and Ethan Marcotte both tweeted a link to my article about <a href="https://gomakethings.com/content-parity-on-the-web/">content parity on the web</a>.

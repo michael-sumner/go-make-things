@@ -4,9 +4,8 @@ categories:
 - Design &amp; UX
 - Technology
 date: '2016-03-16'
-permalink: /in-defense-of-wordpress/
+url: /in-defense-of-wordpress/
 title: In Defense of WordPress
-url: /2016/03/16/in-defense-of-wordpress
 ---
 
 Even though it now [powers 25-percent of the web](http://w3techs.com/technologies/history_overview/content_management/all/y), WordPress gets a lot of flack.

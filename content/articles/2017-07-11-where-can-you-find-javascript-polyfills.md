@@ -3,9 +3,8 @@ categories:
 - Code
 - JavaScript
 date: '2017-07-11'
-permalink: /where-can-you-find-javascript-polyfills/
+url: /where-can-you-find-javascript-polyfills/
 title: Where can you find JavaScript polyfills?
-url: /2017/07/11/where-can-you-find-javascript-polyfills
 ---
 
 Yesterday, I gushed about <a href="https://gomakethings.com/why-i-love-polyfills">why I love polyfills</a>.
