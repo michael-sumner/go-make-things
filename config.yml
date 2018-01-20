@@ -17,7 +17,7 @@ permalinks:
 
 # Allows you to disable all page types and will render nothing related to 'kind';
 # values = "page", "home", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"
-disableKinds: ["RSS", "hugoGeneratorInject"]
+disableKinds: ["RSS", "hugoGeneratorInject", "404"]
 
 # the length of text to show in a .Summary
 summaryLength: 70
