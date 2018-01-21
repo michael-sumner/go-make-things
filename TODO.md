@@ -26,7 +26,7 @@
 	- [x] Resume
 
 - [x] Modify WP plugin for stop-gap newsletter signup, OR use the one MailChimp provides
-- [ ] Add MailChimp success page redirect: https://gomakethings.com/newsletter-success/
+- [x] Add MailChimp success page redirect: https://gomakethings.com/newsletter-success/
 - [x] TEST RSS on a temp location
 - [x] Add MC API key to new site
 - [x] Copy over download data, starting with Bugs and Browser Quirks
