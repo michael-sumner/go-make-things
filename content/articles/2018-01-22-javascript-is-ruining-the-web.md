@@ -18,4 +18,4 @@ But JavaScript is also the most fragile and unreliable part of the web stack, an
 
 If you run an event or conference and would like me to talk more about this with your audience, [please reach out](/about) and let me know.
 
-And if you work at a company or manage team and want me to teach you how to build faster, more resilient websites and web apps, [get in touch](/about). I offer [traing and consulting services](/resources) for teams and projects of all sizes.
+And if you work at a company or manage team and want me to teach you how to build faster, more resilient websites and web apps, [get in touch](/about). I offer [training and consulting services](/resources) for teams and projects of all sizes.

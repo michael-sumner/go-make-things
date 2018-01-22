@@ -34,3 +34,6 @@ I help people learn vanilla JavaScript. Here are some resources to help you with
 
 Custom Development &ndash; *custom pricing*
 : Need a trusted expert to write custom code for your project? My JavaScript plugins have been used by organizations like Apple, Harvard Business School, and CNN. [Contact me](/about/) to discuss your project.
+
+<br>
+*__Can find what you're looking for?__ [Search for it](/search) or [email me directly](/about).*

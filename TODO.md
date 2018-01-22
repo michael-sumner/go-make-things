@@ -47,8 +47,8 @@
 
 ## Optimize later
 
-- [ ] Update search.json for more meaningful search
-- [ ] Create a search script
+- [x] Update search.json for more meaningful search
+- [x] Create a search script
 - [ ] Add Twitter card support
 - [ ] Add talks and podcasts feature via Data feature
 - [ ] Add anchor link functionality for post headings
