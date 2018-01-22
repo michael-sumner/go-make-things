@@ -3,6 +3,7 @@ title: "Private Mentoring"
 date: 2018-01-11T16:03:33-05:00
 draft: false
 slug: "/mentoring/purchase/"
+noIndex: true
 ---
 
 I'm looking forward to helping you master vanilla JavaScript. Please use the button below to pay for your month of private mentoring. Thanks!

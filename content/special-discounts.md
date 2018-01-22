@@ -2,6 +2,7 @@
 title: "Special Discounts"
 date: 2018-01-11T16:03:33-05:00
 draft: false
+noIndex: true
 ---
 
 Thanks for purchasing one of my vanilla JS learning products! Your purchase comes with bonus discounts to a handful of other great learning products for front end developers.

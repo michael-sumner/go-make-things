@@ -2,6 +2,7 @@
 title: "Underrepresented Group Discount"
 date: 2018-01-11T16:03:33-05:00
 draft: false
+noIndex: true
 ---
 
 As a member of an underrepresented group in tech, you can get 30% off of my [pocket guides](/guides/), [mini courses](/courses/), and [private mentoring program](/mentoring/).
