@@ -16,6 +16,7 @@
 		<meta property="og:url" content="{{ .URL }}">
 		<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
 		<meta property="og:description" content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}">
+		{{ if .Params.image }}<meta property="og:image" content="{{ .Params.image }}">{{ end }}
 
 		<!-- Icons: place in the root directory -->
 		<!-- https://github.com/audreyr/favicon-cheat-sheet -->
