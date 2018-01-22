@@ -1,5 +1,5 @@
 /*!
- * gmt v1.2.0: The theme for gomakethings.com
+ * gmt v1.3.0: The theme for gomakethings.com
  * (c) 2018 Chris Ferdinandi
  * MIT License
  * http://github.com/cferdinandi/go-make-things
@@ -2996,10 +2996,12 @@ lunr.QueryParser.parseBoost = function (parser) {
 	var form = document.querySelector('#form-search');
 	var input = document.querySelector('#input-search');
 	var resultList = document.querySelector('#search-results');
+	var loading = document.querySelector('#search-loading');
+	var ready = document.querySelector('#search-content');
 	var timeout;
 
 	// Only run if the form input and results container exist
-	if (!form || !input || !resultList) return;
+	if (!form || !input || !resultList || !loading || !ready) return;
 
 
 	//
@@ -3067,7 +3069,9 @@ lunr.QueryParser.parseBoost = function (parser) {
 		}
 	}));
 
-	input.value = '';
+	// Show form once ready
+	loading.setAttribute('hidden', 'hidden');
+	ready.removeAttribute('hidden');
 
 	// If there's a querystring on load, search for it
 	var query = getQueryString('s');

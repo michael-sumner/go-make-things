@@ -11,10 +11,12 @@
 	var form = document.querySelector('#form-search');
 	var input = document.querySelector('#input-search');
 	var resultList = document.querySelector('#search-results');
+	var loading = document.querySelector('#search-loading');
+	var ready = document.querySelector('#search-content');
 	var timeout;
 
 	// Only run if the form input and results container exist
-	if (!form || !input || !resultList) return;
+	if (!form || !input || !resultList || !loading || !ready) return;
 
 
 	//
@@ -82,7 +84,9 @@
 		}
 	});
 
-	input.value = '';
+	// Show form once ready
+	loading.setAttribute('hidden', 'hidden');
+	ready.removeAttribute('hidden');
 
 	// If there's a querystring on load, search for it
 	var query = getQueryString('s');

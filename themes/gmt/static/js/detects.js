@@ -1,5 +1,5 @@
 /*!
- * gmt v1.2.0: The theme for gomakethings.com
+ * gmt v1.3.0: The theme for gomakethings.com
  * (c) 2018 Chris Ferdinandi
  * MIT License
  * http://github.com/cferdinandi/go-make-things
