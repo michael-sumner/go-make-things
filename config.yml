@@ -19,6 +19,9 @@ permalinks:
 # values = "page", "home", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"
 disableKinds: ["RSS", "hugoGeneratorInject", "404"]
 
+# Files to ignore while rendering
+ignoreFiles: ["/content/articles/_2018-01-19-title.md"]
+
 # the length of text to show in a .Summary
 summaryLength: 70
 
