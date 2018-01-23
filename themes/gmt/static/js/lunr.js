@@ -1,5 +1,5 @@
 /*!
- * gmt v1.3.0: The theme for gomakethings.com
+ * gmt v1.4.0: The theme for gomakethings.com
  * (c) 2018 Chris Ferdinandi
  * MIT License
  * http://github.com/cferdinandi/go-make-things
@@ -2996,17 +2996,32 @@ lunr.QueryParser.parseBoost = function (parser) {
 	var form = document.querySelector('#form-search');
 	var input = document.querySelector('#input-search');
 	var resultList = document.querySelector('#search-results');
-	var loading = document.querySelector('#search-loading');
-	var ready = document.querySelector('#search-content');
-	var timeout;
+	var timeout, idx;
 
 	// Only run if the form input and results container exist
-	if (!form || !input || !resultList || !loading || !ready) return;
+	if (!form || !input || !resultList) return;
 
 
 	//
 	// Methods
 	//
+
+	// Setup Lunr.js
+	var setupLunr = function () {
+		return lunr((function () {
+			var search = this;
+			search.ref('id');
+			search.field('title');
+			search.field('content');
+
+			if (searchIndex.length > 0) {
+				for (var i = 0; i < searchIndex.length; i++) {
+					searchIndex[i].id = i;
+					search.add(searchIndex[i]);
+				}
+			}
+		}));
+	};
 
 	// Get the value of a query string from a URL
 	var getQueryString = function (field, url) {
@@ -3045,7 +3060,7 @@ lunr.QueryParser.parseBoost = function (parser) {
 
 	// Run a search
 	var runSearch = function (query) {
-		var results = idx.search(query + '~3');
+		var results = idx.search(query + '~1');
 		displayResults(results);
 	};
 
@@ -3054,42 +3069,38 @@ lunr.QueryParser.parseBoost = function (parser) {
 	// Event Listeners & Inits
 	//
 
-	// Setup Lunr
-	var idx = lunr((function () {
-		var search = this;
-		search.ref('id');
-		search.field('title');
-		search.field('content');
-
-		if (searchIndex.length > 0) {
-			for (var i = 0; i < searchIndex.length; i++) {
-				searchIndex[i].id = i;
-				search.add(searchIndex[i]);
-			}
-		}
-	}));
-
-	// Show form once ready
-	loading.setAttribute('hidden', 'hidden');
-	ready.removeAttribute('hidden');
+	// Switch off Google Search fallback
+	input.value = input.value.replace(' site:gomakethings.com', '');
 
 	// If there's a querystring on load, search for it
 	var query = getQueryString('s');
 	if (query) {
-		runSearch(decodeURI(query));
 		input.value = decodeURI(query);
+		resultList.innerHTML = 'Searching...';
+		setTimeout((function () {
+			if (!idx) {
+				idx = setupLunr();
+			}
+			runSearch(decodeURI(query));
+		}), 10);
 	}
 
 	// Prevent default submit event
 	form.addEventListener('submit', (function (event) {
 		event.preventDefault();
-		if (input.value.length < 1) {
-			resultList.innerHTML = '';
-			updateURL('');
-		} else {
-			runSearch(input.value);
-			updateURL(input.value);
-		}
+		resultList.innerHTML = 'Searching...';
+		setTimeout((function () {
+			if (!idx) {
+				idx = setupLunr();
+			}
+			if (input.value.length < 1) {
+				resultList.innerHTML = '';
+				updateURL('');
+			} else {
+				runSearch(input.value);
+				updateURL(input.value);
+			}
+		}), 10);
 	}), false);
 
 	// Listen for querystring changes
