@@ -7,7 +7,9 @@
 - [x] Add Twitter card support
 - [x] Add talks and podcasts feature via Data feature
 - [x] Figure out how to autopost to Twitter when new post comes out
-- [ ] Add anchor link functionality for post headings
+- [x] Add SSL force redirect to WP install
+- [x] Redirect Slack signup and self service to the WP install now
+- [x] Add anchor link functionality for post headings
 - [ ] Create script to get cart status from `/checkout`
 - [ ] Replicate Slack registration functionality
 - [ ] Replicate MailChimp subscribe functionality

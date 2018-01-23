@@ -1,4 +1,4 @@
-/*!
+/**
  * validate v1.1.0: A lightweight form validation script that augments native HTML5 form validation elements and attributes.
  * (c) 2017 Chris Ferdinandi
  * MIT License
@@ -163,7 +163,7 @@
 
 		// If field is required and empty
 		if (validity.valueMissing) {
-			
+
 			if (field.type === 'select-multiple') return localSettings.messageValueMissingSelectMulti;
 
 			if (field.type === 'select-one') return localSettings.messageValueMissingSelect;
