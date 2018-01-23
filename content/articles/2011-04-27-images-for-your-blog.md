@@ -6,7 +6,7 @@ url: /images-for-your-blog/
 title: Images for your blog
 ---
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/04/compfight-560x268.png" alt="" title="compfight" width="560" height="268" class="aligncenter size-medium wp-image-532" style="border: 1px solid #808080;" />
+<img src="https://gomakethings.com/wp-content/uploads/2011/04/compfight.png" alt="" title="compfight" width="560" height="268" class="aligncenter size-medium wp-image-532" style="border: 1px solid #808080;" />
 
 One of the biggest mistakes new (and sometimes experienced) bloggers make is "borrowing" images from Google for their site. That's actually a violation of copyright.
 

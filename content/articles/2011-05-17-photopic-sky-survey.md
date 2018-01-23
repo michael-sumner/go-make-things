@@ -6,7 +6,7 @@ url: /photopic-sky-survey/
 title: Photopic Sky Survey
 ---
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/05/Photopic-560x280.jpg" alt="" title="Photopic" width="560" height="280" class="aligncenter size-medium wp-image-591" />
+<img src="https://gomakethings.com/wp-content/uploads/2011/05/Photopic.jpg" alt="" title="Photopic" width="560" height="280" class="aligncenter size-medium wp-image-591" />
 
 Nick Risinger has put together an amazing online tool called the <a href="http://skysurvey.org/">Photopic Sky Survey</a>. It's a detailed, interactive sky map, and it's insanely awesome.
 

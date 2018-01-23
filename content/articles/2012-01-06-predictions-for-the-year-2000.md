@@ -10,7 +10,7 @@ Yesterday I came across <em>What May Happen in the Next Hundred Years</em>, a fa
 
 <a href="https://gomakethings.com/wp-content/uploads/2012/01/What-May-Happen-In-The-Next-Hundred-Years.jpg">Click the image</a> to read the full article. My thoughts below.
 
-<a href="https://gomakethings.com/wp-content/uploads/2012/01/What-May-Happen-In-The-Next-Hundred-Years.jpg"><img src="https://gomakethings.com/wp-content/uploads/2012/01/What-May-Happen-In-The-Next-Hundred-Years-225x350.jpg" alt="" title="What-May-Happen-In-The-Next-Hundred-Years" width="225" height="350" class="aligncenter size-medium wp-image-1922" /></a>
+<a href="https://gomakethings.com/wp-content/uploads/2012/01/What-May-Happen-In-The-Next-Hundred-Years.jpg"><img src="https://gomakethings.com/wp-content/uploads/2012/01/What-May-Happen-In-The-Next-Hundred-Years.jpg" alt="" title="What-May-Happen-In-The-Next-Hundred-Years" width="225" height="350" class="aligncenter size-medium wp-image-1922" /></a>
 
 <h2>Noteworthy</h2>
 

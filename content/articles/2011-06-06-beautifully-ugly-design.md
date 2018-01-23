@@ -26,7 +26,7 @@ I also started using <a href="http://www.instapaper.com/">Instapaper</a> this we
 
 This is what the landing page for Instapaper looks like:
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/06/Instapaper-510x350.png" alt="" title="Instapaper" width="510" height="350" class="aligncenter size-medium wp-image-731" />
+<img src="https://gomakethings.com/wp-content/uploads/2011/06/Instapaper.png" alt="" title="Instapaper" width="510" height="350" class="aligncenter size-medium wp-image-731" />
 
 It's utilitarian. It's spartan. It's bland. And because of that, it's amazingly beautiful.
 
@@ -34,11 +34,11 @@ The ugliness of Instapaper is what makes it so usable. There's no veneer, no ove
 
 I'm still working through it, but my new layout may look something like one of these:
 
-[caption id="attachment_732" align="aligncenter" width="560" caption="Mockup 1"]<img style="border: 1px solid black;" src="https://gomakethings.com/wp-content/uploads/2011/06/career-center-mockup-560x271.png" alt="" title="career-center-mockup" width="560" height="271" class="size-medium wp-image-732" />[/caption]
+<img style="border: 1px solid black;" src="https://gomakethings.com/wp-content/uploads/2011/06/career-center-mockup.png" alt="" title="career-center-mockup" width="560" height="271" class="size-medium wp-image-732" />
 
-[caption id="attachment_750" align="aligncenter" width="560" caption="Mockup 2"]<img style="border: 1px solid black;" src="https://gomakethings.com/wp-content/uploads/2011/06/mock-up-2-560x244.png" alt="" title="mock-up-2" width="560" height="244" class="size-medium wp-image-750" />[/caption]
+<img style="border: 1px solid black;" src="https://gomakethings.com/wp-content/uploads/2011/06/mock-up-2.png" alt="" title="mock-up-2" width="560" height="244" class="size-medium wp-image-750" />
 
-[caption id="attachment_751" align="aligncenter" width="560" caption="Mockup 3"]<img style="border: 1px solid black;" src="https://gomakethings.com/wp-content/uploads/2011/06/mock-up-3-560x332.png" alt="" title="mock-up-3" width="560" height="332" class="size-medium wp-image-751" />[/caption]
+<img style="border: 1px solid black;" src="https://gomakethings.com/wp-content/uploads/2011/06/mock-up-3.png" alt="" title="mock-up-3" width="560" height="332" class="size-medium wp-image-751" />
 
 For comparison, here's the current layout:
 

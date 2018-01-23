@@ -14,7 +14,7 @@ I've been a subscriber for the last year, and already have my account setup so t
 
 <strong>So I find it particularly annoying that FastCompany opts me back in to these things during the renewal process.</strong>
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/05/fastcompany-opt-in-560x111.png" alt="" title="fastcompany-opt-in" width="560" height="111" class="aligncenter size-medium wp-image-550" />
+<img src="https://gomakethings.com/wp-content/uploads/2011/05/fastcompany-opt-in.png" alt="" title="fastcompany-opt-in" width="560" height="111" class="aligncenter size-medium wp-image-550" />
 
 If they wanted to just ask me if I'd like to reconsider, I'd be cool with that. But default to opted-out, not opted-in. Sure, they may trick me into signing up because I don't notice. And maybe every now and then, someone will be pleasantly surprised.
 

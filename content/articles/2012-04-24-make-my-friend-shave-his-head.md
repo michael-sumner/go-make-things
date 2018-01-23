@@ -10,7 +10,7 @@ My friend Chris is walking for the Easter Seals this year, and if he raises $3,0
 
 You don't know Chris, so you probably don't realize what a big deal this is. Chris has had the same haircut for the last 15 years. And quite frankly, I'm not sure he'll look all that good without hair.
 
-[caption id="attachment_2339" align="aligncenter" width="239" caption="My buddy Chris in a tutu"]<img src="https://gomakethings.com/wp-content/uploads/2012/04/chris-tutu.jpg" alt="Chris in a tutu" title="chris-tutu" width="239" height="400" class="size-full wp-image-2339" />[/caption]
+<img src="https://gomakethings.com/wp-content/uploads/2012/04/chris-tutu.jpg" alt="Chris in a tutu" title="chris-tutu" width="239" height="400" class="size-full wp-image-2339" />
 
 Last year, Chris met his goal and walked in a tutu. Let's make this happen!
 

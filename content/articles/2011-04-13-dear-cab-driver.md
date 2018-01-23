@@ -9,7 +9,7 @@ title: Dear Cab Driver
 
 A creative way to get home safe after a fun night...
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/04/Dear-Cab-Driver-400x266.jpg" alt="" title="Dear-Cab-Driver" width="400" height="266" class="aligncenter size-medium wp-image-375" />
+<img src="https://gomakethings.com/wp-content/uploads/2011/04/Dear-Cab-Driver.jpg" alt="" title="Dear-Cab-Driver" width="400" height="266" class="aligncenter size-medium wp-image-375" />
 
 <strong><a href="http://store.heliotropehome.com/cabbienapkins.html">Buy it on Heliotrope.com</a></strong>
 

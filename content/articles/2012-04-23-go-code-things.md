@@ -46,7 +46,7 @@ Responsive web design shouldn't be an after thought. Learn how to build responsi
 
 <em>Go Code Things</em> is built on the <del datetime="2012-08-30T17:44:52+00:00">same framework as this site</del> previous framework for this site, using HTML5 and CSS3 on 960 pixel grid for desktops. It uses a rough approximation of the rule of thirds. Here's the basic page structure...
 
-[caption id="attachment_2248" align="aligncenter" width="262" caption="Click to view larger"]<a href="https://gomakethings.com/wp-content/uploads/2012/04/semantic-structure.png"><img src="https://gomakethings.com/wp-content/uploads/2012/04/semantic-structure-262x350.png" alt="" title="semantic-structure" width="262" height="350" class="size-medium wp-image-2248" /></a>[/caption]
+<a href="https://gomakethings.com/wp-content/uploads/2012/04/semantic-structure.png"><img src="https://gomakethings.com/wp-content/uploads/2012/04/semantic-structure.png" alt="" title="semantic-structure" width="262" height="350" class="size-medium wp-image-2248" /></a>
 
 <h3>Typography</h3>
 

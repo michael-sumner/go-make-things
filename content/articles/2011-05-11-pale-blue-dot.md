@@ -6,7 +6,7 @@ url: /pale-blue-dot/
 title: Pale Blue Dot
 ---
 
-[caption id="attachment_566" align="aligncenter" width="453" caption="Earth, suspended in a sunbeam"]<img src="https://gomakethings.com/wp-content/uploads/2011/05/Pale_Blue_Dot.png" alt="" title="Pale_Blue_Dot" width="453" height="614" class="size-full wp-image-566" />[/caption]
+<img src="https://gomakethings.com/wp-content/uploads/2011/05/Pale_Blue_Dot.png" alt="" title="Pale_Blue_Dot" width="453" height="614" class="size-full wp-image-566" />
 
 Carl Sagan's <em><a href="http://www.amazon.com/Pale-Blue-Dot-Vision-Future/dp/0345376595">Pale Blue Dot</a></em> is not an easy read, but it is one of the more compelling books I've ever read.
 

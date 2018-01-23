@@ -6,7 +6,7 @@ url: /google-plus/
 title: I want to love Google Plus (but I don&#8217;t)
 ---
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/07/Google-Plus-560x289.png" alt="" title="Google-Plus" width="560" height="289" class="aligncenter size-medium wp-image-1017" />
+<img src="https://gomakethings.com/wp-content/uploads/2011/07/Google-Plus.png" alt="" title="Google-Plus" width="560" height="289" class="aligncenter size-medium wp-image-1017" />
 
 I want to love <a href="https://plus.google.com/">Google+</a>, the hot new social network from Google... but I don't.
 
@@ -54,7 +54,7 @@ Useful and interesting stuff. Not breakfast and social media.
 
 <h2>Privacy & Data</h2>
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/07/Google-Plus-Privacy-538x350.png" alt="" title="Google-Plus-Privacy" width="538" height="350" class="aligncenter size-medium wp-image-1020" />
+<img src="https://gomakethings.com/wp-content/uploads/2011/07/Google-Plus-Privacy.png" alt="" title="Google-Plus-Privacy" width="538" height="350" class="aligncenter size-medium wp-image-1020" />
 
 I will hand it to Google on this one - it's a LOT easier to control your privacy and download your data on Google+ than on Facebook, and with more nuance than on Twitter.
 

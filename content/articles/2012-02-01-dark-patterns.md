@@ -24,7 +24,7 @@ The site also positions up-sell options in big, bold typography with strong call
 
 One of the more offensive aspects of the user interface, though, is this blatantly misleading piece of copy:
 
-<img src="https://gomakethings.com/wp-content/uploads/2012/02/Screen-shot-2012-01-29-at-8.02.20-PM-527x350.png" alt="" title="Misleading-Copy" width="527" height="350" class="aligncenter size-medium wp-image-2052" />
+<img src="https://gomakethings.com/wp-content/uploads/2012/02/Screen-shot-2012-01-29-at-8.02.20-PM.png" alt="" title="Misleading-Copy" width="527" height="350" class="aligncenter size-medium wp-image-2052" />
 
 <blockquote><strong>New government regulations require us to HIDE taxes in your fares.</strong> This is not consumer-friendly or in your best interest. It's wrong and you shouldn't stand for it.
 

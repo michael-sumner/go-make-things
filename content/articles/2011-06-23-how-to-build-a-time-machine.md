@@ -6,7 +6,7 @@ url: /how-to-build-a-time-machine/
 title: How to build a time machine
 ---
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/06/Time-Machine-466x350.jpg" alt="" title="Time-Machine" width="466" height="350" class="aligncenter size-medium wp-image-808" />
+<img src="https://gomakethings.com/wp-content/uploads/2011/06/Time-Machine.jpg" alt="" title="Time-Machine" width="466" height="350" class="aligncenter size-medium wp-image-808" />
 
 Last year, Stephen Hawking wrote <a href="http://www.dailymail.co.uk/home/moslive/article-1269288/STEPHEN-HAWKING-How-build-time-machine.html">a beautiful article on time travel</a> for the Daily Mail.
 

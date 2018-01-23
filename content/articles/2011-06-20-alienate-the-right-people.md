@@ -6,7 +6,7 @@ url: /alienate-the-right-people/
 title: Alienate the Right People
 ---
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/06/Alamo-Drafthouse-524x350.jpg" alt="" title="Alamo-Drafthouse" width="524" height="350" class="aligncenter size-medium wp-image-803" />
+<img src="https://gomakethings.com/wp-content/uploads/2011/06/Alamo-Drafthouse.jpg" alt="" title="Alamo-Drafthouse" width="524" height="350" class="aligncenter size-medium wp-image-803" />
 
 <a href="http://drafthouse.com/">The Alamo Drafthouse</a> is a small group of movie theaters in Texas. While most theaters are complaining about the growing decrease in attendance, founder and CEO Tim League has taken a different approach.
 

@@ -10,7 +10,7 @@ The other day on <a href="http://www.damniwish.com/2011/02/when-does-your-brand-
 
 <blockquote>When does your brand become immortal? When customers will pay cash to wear your logo.
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/02/logoshirts-400x299.jpg" alt="" title="logoshirts" width="400" height="299" class="aligncenter size-medium wp-image-102" /></blockquote>
+<img src="https://gomakethings.com/wp-content/uploads/2011/02/logoshirts.jpg" alt="" title="logoshirts" width="400" height="299" class="aligncenter size-medium wp-image-102" /></blockquote>
 
 <a href="http://www.sundaes-icecream.com/coupons.php">Sundaes</a> is the best ice cream joint in my hometown. They do a hell of business on word-of-mouth alone.
 

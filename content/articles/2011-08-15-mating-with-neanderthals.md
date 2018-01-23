@@ -6,7 +6,7 @@ url: /mating-with-neanderthals/
 title: Mating with Neanderthals
 ---
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/08/Neanderthal-524x350.jpg" alt="" title="Neanderthal" width="524" height="350" class="aligncenter size-medium wp-image-1048" />
+<img src="https://gomakethings.com/wp-content/uploads/2011/08/Neanderthal.jpg" alt="" title="Neanderthal" width="524" height="350" class="aligncenter size-medium wp-image-1048" />
 
 Are your part Neanderthal?
 

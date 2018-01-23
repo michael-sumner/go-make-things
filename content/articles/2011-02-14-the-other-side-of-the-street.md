@@ -8,7 +8,7 @@ title: The Other Side of the Street
 
 <em>My senior year in high school, I had the pleasure (if you could call it that) of interviewing a homeless man named Pops. His story was run in the school paper. My senior year in college, I rewrote the story, and have decided to rerun it here.</em>
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/02/Pops-271x350.jpg" alt="" title="Pops" width="271" height="350" class="size-medium wp-image-152" />
+<img src="https://gomakethings.com/wp-content/uploads/2011/02/Pops.jpg" alt="" title="Pops" width="271" height="350" class="size-medium wp-image-152" />
 
 He was dressed in faded black sweat-pants and an old, worn-out jacket. Greasy side burns and facial hair complimented the matted strands of gray hair peeking out the back of his snowcap.
 

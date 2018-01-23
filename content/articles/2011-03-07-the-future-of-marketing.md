@@ -7,7 +7,7 @@ url: /the-future-of-marketing/
 title: The Future of Marketing
 ---
 
-<p align="center"><img src="https://gomakethings.com/wp-content/uploads/2011/03/social-media-marketing-400x300.jpg" alt="" title="social-media-marketing" width="400" height="300" class="alignnone size-medium wp-image-218" /><br><em><a href="http://www.flickr.com/photos/32931740@N06/3256031851/">Image by Rosaura Ochoa</a></em></p>
+<p align="center"><img src="https://gomakethings.com/wp-content/uploads/2011/03/social-media-marketing.jpg" alt="" title="social-media-marketing" width="400" height="300" class="alignnone size-medium wp-image-218" /><br><em><a href="http://www.flickr.com/photos/32931740@N06/3256031851/">Image by Rosaura Ochoa</a></em></p>
 
 A friend of mine works at boutique marketing firm, and he's convinced that the future of marketing is location-based apps.
 

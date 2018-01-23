@@ -10,7 +10,7 @@ My wife and I recently remodeled our kitchen. It came out great!
 
 When we went to install the handles on our cabinets, this is what we found...
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/03/screws-400x300.jpg" alt="" title="screws" width="400" height="300" class="aligncenter size-medium wp-image-246" />
+<img src="https://gomakethings.com/wp-content/uploads/2011/03/screws.jpg" alt="" title="screws" width="400" height="300" class="aligncenter size-medium wp-image-246" />
 
 Each handle came with two sets of screws: A longer set for for drawers with thick pieces of wood, and a shorter set for cabinet doors. All good.
 

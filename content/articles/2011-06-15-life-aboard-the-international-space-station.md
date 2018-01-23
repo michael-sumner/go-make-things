@@ -6,7 +6,7 @@ url: /life-aboard-the-international-space-station/
 title: Life Aboard the International Space Station
 ---
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/06/shuttle-station4-825-466x350.jpg" alt="" title="shuttle-station4-825" width="466" height="350" class="aligncenter size-medium wp-image-766" />
+<img src="https://gomakethings.com/wp-content/uploads/2011/06/shuttle-station4-825.jpg" alt="" title="shuttle-station4-825" width="466" height="350" class="aligncenter size-medium wp-image-766" />
 
 Thanks to <a href="http://www.instapaper.com/">Instapaper</a>, I stumbled upon this beautifully written Guardian article on <a href="http://www.guardian.co.uk/science/2010/oct/24/international-space-station-nasa-astronauts">life aboard the International Space Station</a>.
 

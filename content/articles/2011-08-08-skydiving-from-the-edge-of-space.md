@@ -6,7 +6,7 @@ url: /skydiving-from-the-edge-of-space/
 title: Skydiving from the edge of space
 ---
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/07/Skydive-Space-534x350.jpg" alt="" title="Skydive-Space" width="534" height="350" class="aligncenter size-medium wp-image-961" />
+<img src="https://gomakethings.com/wp-content/uploads/2011/07/Skydive-Space.jpg" alt="" title="Skydive-Space" width="534" height="350" class="aligncenter size-medium wp-image-961" />
 
 <blockquote>We know this. At around 120,000 feet, on the fringes of space, the air is so thin that a falling human body would travel fast enough to exceed the speed of sound. A skydiver, properly equipped with pressurised suit and a supply of oxygen to protect against the hostile elements, could feasibly jump from that height and, about 30 seconds later, punch through the sound barrier – becoming the first person ever to go "supersonic" without the aid of an aircraft or space shuttle.
 

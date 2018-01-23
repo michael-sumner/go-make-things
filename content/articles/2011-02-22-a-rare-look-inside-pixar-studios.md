@@ -7,7 +7,7 @@ url: /a-rare-look-inside-pixar-studios/
 title: A Rare Look Inside Pixar Studios
 ---
 
-<p align="center"><img src="https://gomakethings.com/wp-content/uploads/2011/02/wall-e-391x350.jpg" alt="" title="wall-e" width="391" height="350" class="alignnone size-medium wp-image-183" /><br><em><a href="http://www.flickr.com/photos/43212809@N00/923287780/">Image by Alejandro Molina B</a></em></p>
+<p align="center"><img src="https://gomakethings.com/wp-content/uploads/2011/02/wall-e.jpg" alt="" title="wall-e" width="391" height="350" class="alignnone size-medium wp-image-183" /><br><em><a href="http://www.flickr.com/photos/43212809@N00/923287780/">Image by Alejandro Molina B</a></em></p>
 
 New York Times columnist Melena Ryzik gets <a href="http://vimeo.com/19789693">a very cool, very rare behind-the-scenes look at Pixar Studies...</a>
 

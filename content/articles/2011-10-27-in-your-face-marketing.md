@@ -6,7 +6,7 @@ url: /in-your-face-marketing/
 title: In your face marketing
 ---
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/09/Calendar-Marketing1-466x350.jpg" alt="" title="Calendar Marketing" width="466" height="350" class="aligncenter size-medium wp-image-1303" />
+<img src="https://gomakethings.com/wp-content/uploads/2011/09/Calendar-Marketing1.jpg" alt="" title="Calendar Marketing" width="466" height="350" class="aligncenter size-medium wp-image-1303" />
 
 It's not always a bad thing...
 

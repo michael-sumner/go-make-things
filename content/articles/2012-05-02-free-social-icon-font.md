@@ -16,7 +16,7 @@ title: Free Social Icon Font
 
 If you'd like to use the font on your current website, today you can!
 
-[caption id="attachment_2300" align="aligncenter" width="560" caption="This is an image file. The actual icons look a lot crisper!"]<img src="https://gomakethings.com/wp-content/uploads/2012/05/icons.png" alt="" title="icons" width="560" height="520" class="size-full wp-image-2300" />[/caption]
+<img src="https://gomakethings.com/wp-content/uploads/2012/05/icons.png" alt="" title="icons" width="560" height="520" class="size-full wp-image-2300" />
 <!--more-->
 <h2>Why a font?</h2>
 

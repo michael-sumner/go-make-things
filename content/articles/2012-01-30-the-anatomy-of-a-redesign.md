@@ -6,7 +6,7 @@ url: /the-anatomy-of-a-redesign/
 title: The Anatomy of a Website Redesign
 ---
 
-<img src="https://gomakethings.com/wp-content/uploads/2012/01/Screen-shot-2012-01-23-at-6.47.27-PM-560x284.png" alt="" title="PAWS-New-England" style="border: 1px solid #a9a9a9;" width="560" height="284" class="aligncenter size-medium wp-image-2012" />
+<img src="https://gomakethings.com/wp-content/uploads/2012/01/Screen-shot-2012-01-23-at-6.47.27-PM.png" alt="" title="PAWS-New-England" style="border: 1px solid #a9a9a9;" width="560" height="284" class="aligncenter size-medium wp-image-2012" />
 
 Last week, I launched a website redesign for <a href="http://www.pawsnewengland.com/">PAWS New England</a>. PAWS is a fantastic dog rescue organization I've had the pleasure of working with for the last two years, since my wife and I adopted our latest dog, Bailey.
 
@@ -33,7 +33,7 @@ Through research, we also discovered that one of the key priorities for people v
 
 PAWS existing site was designed by me about a year and a half ago. It included integrated social sharing, friendly colors, and more upbeat messaging that their previous site. It was also built on Wordpress, allowing them to make updates in my absence.
 
-<img src="https://gomakethings.com/wp-content/uploads/2012/01/Screen-shot-2012-01-23-at-6.48.36-PM-553x350.png" alt="" title="Old PAWS Website" style="border: 1px solid #a9a9a9;" width="553" height="350" class="aligncenter size-medium wp-image-2015" />
+<img src="https://gomakethings.com/wp-content/uploads/2012/01/Screen-shot-2012-01-23-at-6.48.36-PM.png" alt="" title="Old PAWS Website" style="border: 1px solid #a9a9a9;" width="553" height="350" class="aligncenter size-medium wp-image-2015" />
 
 There were some clear challenges with the site though...
 
@@ -59,7 +59,7 @@ The redesign was more of a facelift than a complete overhaul. Here's what we did
 
 <h3>Calls-to-Action</h3>
 
-[caption id="attachment_2029" align="aligncenter" width="400" caption="Calls-to-action on the homepage (left) and in the sidebar."]<img src="https://gomakethings.com/wp-content/uploads/2012/01/Calls-to-Action.png" alt="" title="Calls to Action" width="400" height="194" style="border: 1px solid #a9a9a9;" class="size-full wp-image-2029" />[/caption]
+<img src="https://gomakethings.com/wp-content/uploads/2012/01/Calls-to-Action.png" alt="" title="Calls to Action" width="400" height="194" style="border: 1px solid #a9a9a9;" class="size-full wp-image-2029" />
 
 There are now three calls-to-action instead of one: Adopt, Donate, and Volunteer. These are directly aligned with their three most important priorities for people visiting the site.
 
@@ -89,7 +89,7 @@ Naturally, not everyone has these fonts on their computer, so they're embedded u
 
 <h3>Real PAWS Dogs</h3>
 
-<img src="https://gomakethings.com/wp-content/uploads/2012/01/Screen-shot-2012-01-23-at-7.09.59-PM-560x196.png" alt="" style="border: 1px solid #a9a9a9;" title="No Stock Photos" width="560" height="196" class="aligncenter size-medium wp-image-2025" />
+<img src="https://gomakethings.com/wp-content/uploads/2012/01/Screen-shot-2012-01-23-at-7.09.59-PM.png" alt="" style="border: 1px solid #a9a9a9;" title="No Stock Photos" width="560" height="196" class="aligncenter size-medium wp-image-2025" />
 
 Instead of stock photography, the site now features beautiful photos of real PAWS dogs. They were all taken by <a href="http://www.jennfrankavitz.com/">Jenn Frankavitz</a>, a professional photographer and PAWS volunteer.
 

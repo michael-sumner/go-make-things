@@ -6,7 +6,7 @@ url: /steve-lambert-will-talk-with-anyone/
 title: Steve Lambert will talk with anyone
 ---
 
-<img src="https://gomakethings.com/wp-content/uploads/2011/03/talk-anyone-400x266.jpg" alt="" title="talk-anyone" width="400" height="266" class="aligncenter size-medium wp-image-236" />
+<img src="https://gomakethings.com/wp-content/uploads/2011/03/talk-anyone.jpg" alt="" title="talk-anyone" width="400" height="266" class="aligncenter size-medium wp-image-236" />
 
 Steve Lambert will <a href="http://visitsteve.com/made/talkwithanyone/">talk with anyone about anything</a> (for free!).
 

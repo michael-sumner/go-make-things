@@ -14,7 +14,7 @@ Theo Prins makes amazing 3D paintings. Here's how to view them:
 <li>Move your face closer to (or farther from) the screen until the middle image becomes 3-dimensional.</li>
 </ol>
 
-[caption id="attachment_1555" align="aligncenter" width="560" caption="Click to view full sized image"]<a href="https://gomakethings.com/wp-content/uploads/2011/10/Stereoscopic-Art-by-Theo-Prins.jpg"><img src="https://gomakethings.com/wp-content/uploads/2011/10/Stereoscopic-Art-by-Theo-Prins-560x333.jpg" alt="Stereoscopic Art by Theo Prins" title="Stereoscopic Art by Theo Prins" width="560" height="333" class="size-medium wp-image-1555" /></a>[/caption]
+<a href="https://gomakethings.com/wp-content/uploads/2011/10/Stereoscopic-Art-by-Theo-Prins.jpg"><img src="https://gomakethings.com/wp-content/uploads/2011/10/Stereoscopic-Art-by-Theo-Prins.jpg" alt="Stereoscopic Art by Theo Prins" title="Stereoscopic Art by Theo Prins" width="560" height="333" class="size-medium wp-image-1555" /></a>
 
 The two images depict the same picture from two slightly different angles. Crossing your eyes superimposes them on top of each other, creating an illusion of depth.
 

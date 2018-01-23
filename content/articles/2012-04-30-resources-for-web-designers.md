@@ -19,11 +19,11 @@ Gedit is my go to editor. I know there are a handful of wonderful options out th
 
 Kuler is a fantastic (and free!) resource from Adobe that makes creating a color palette much less painful. With Kuler, you can upload images and extract colors from them. I love using photos I've taken as inspiration for my palettes.
 
-<img src="https://gomakethings.com/wp-content/uploads/2012/04/Screen-shot-2012-04-19-at-4.00.28-PM-455x350.png" alt="" title="Screen shot 2012-04-19 at 4.00.28 PM" width="455" height="350" class="aligncenter size-medium wp-image-2281" />
+<img src="https://gomakethings.com/wp-content/uploads/2012/04/Screen-shot-2012-04-19-at-4.00.28-PM.png" alt="" title="Screen shot 2012-04-19 at 4.00.28 PM" width="455" height="350" class="aligncenter size-medium wp-image-2281" />
 
 Kuler can also create a palette for you from a base color using color theory. Find complementary colors, monochromatic themes, shades and more with a single click. Kuler provides RGB, CMYK, hex and more!
 
-<img src="https://gomakethings.com/wp-content/uploads/2012/04/Screen-shot-2012-04-19-at-4.01.46-PM-501x350.png" alt="" title="Screen shot 2012-04-19 at 4.01.46 PM" width="501" height="350" class="aligncenter size-medium wp-image-2282" />
+<img src="https://gomakethings.com/wp-content/uploads/2012/04/Screen-shot-2012-04-19-at-4.01.46-PM.png" alt="" title="Screen shot 2012-04-19 at 4.01.46 PM" width="501" height="350" class="aligncenter size-medium wp-image-2282" />
 
 <h3>3. PowerPoint, Keynote or Open Office</h3>
 

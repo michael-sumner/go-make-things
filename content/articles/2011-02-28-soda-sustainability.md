@@ -8,7 +8,7 @@ url: /soda-sustainability/
 title: Soda &#038; Sustainability
 ---
 
-<p align="center"><img src="https://gomakethings.com/wp-content/uploads/2011/02/Coca-Cola-400x266.jpg" alt="" title="Coca-Cola" width="400" height="266" class="alignnone size-medium wp-image-136" /><br><em><a href="http://www.flickr.com/photos/96547648@N00/248358204/">Image by FUNKYAH</a></em></p>
+<p align="center"><img src="https://gomakethings.com/wp-content/uploads/2011/02/Coca-Cola.jpg" alt="" title="Coca-Cola" width="400" height="266" class="alignnone size-medium wp-image-136" /><br><em><a href="http://www.flickr.com/photos/96547648@N00/248358204/">Image by FUNKYAH</a></em></p>
 
 According to Fast Company magazine, <a href="http://www.fastcompany.com/1725743/coca-cola-falls-short-on-sustainability-goal">Coca-Cola fell short on one of it's 2010 sustainability goals</a>.
 
