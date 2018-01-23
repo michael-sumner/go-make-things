@@ -1,0 +1,33 @@
+<div class="margin-bottom">
+	<aside class="text-small text-muted">
+		{{ title .Params.details.type }}
+	</aside>
+
+	<header>
+		<h3 class="h5 no-padding-top no-margin-bottom">
+			{{ if eq .Params.details.url "" }}
+				{{ .Title }}
+			{{ else }}
+				<a href="{{ .Params.details.url }}">
+					{{ .Title }}
+				</a>
+			{{ end }}
+		</h3>
+	</header>
+
+	<p{{ if or ( ne .Params.details.assets.video "" ) ( ne .Params.details.assets.slides "" ) ( ne .Params.details.assets.audio "" ) ( ne .Params.details.assets.download "" ) ( ne .Params.details.assets.post "" ) }} class="no-margin-bottom"{{ end }}>
+		{{ if ne .Params.details.end "" }}{{ dateFormat "January 2" .Params.details.start }}&ndash;{{ dateFormat "January 2, 2006" .Params.details.end }}{{ else }}{{ dateFormat "January 2, 2006" .Params.details.start }}{{ end }}
+
+		{{ if .Params.details.startTime }} at {{ dateFormat "3:04pm" .Params.details.start }}{{ end }}{{ if and .Params.details.startTime .Params.details.endTime  }}&ndash;{{ end }}{{ if .Params.details.endTime }}{{ dateFormat "3:04pm" .Params.details.end }}{{ end }}
+
+		{{ if ne .Params.details.location "" }}
+			<br>
+			{{ .Params.details.location }}
+		{{ end }}
+	</p>
+
+	{{ if or ( ne .Params.details.assets.video "" ) ( ne .Params.details.assets.slides "" ) ( ne .Params.details.assets.audio "" ) ( ne .Params.details.assets.download "" ) ( ne .Params.details.assets.post "" ) }}
+		<ul class="list-inline">
+			{{ if ne .Params.details.assets.video "" }}<li><a href="{{ .Params.details.assets.video }}">Video</a></li>{{ end }}{{ if ne .Params.details.assets.slides "" }}<li><a href="{{ .Params.details.assets.slides }}">Slides</a></li>{{ end }}{{ if ne .Params.details.assets.audio "" }}<li><a href="{{ .Params.details.assets.audio }}">Audio</a></li>{{ end }}{{ if ne .Params.details.assets.downloads "" }}<li><a href="{{ .Params.details.assets.downloads }}">Downloads</a></li>{{ end }}{{ if ne .Params.details.assets.post "" }}<li><a href="{{ .Params.details.assets.post }}">Article</a></li>{{ end }}
+		</ul>
+	{{ end }}

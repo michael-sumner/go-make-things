@@ -11,6 +11,9 @@ I help people learn vanilla JavaScript. Here are some resources to help you with
 [Daily Developer Tips](/articles/) &ndash; *free*
 : I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web.
 
+[Talks & Podcasts](/talks) &ndash; *free*
+: I love to talk with people about JavaScript and making things for the web.
+
 [Open Source](/open-source/) &ndash; *free*
 : The web community has given me a lot. I like to give back.
 

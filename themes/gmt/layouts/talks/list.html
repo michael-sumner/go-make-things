@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+
+{{ partial "content-page.html" . }}
+
+{{ $.Scratch.Set "talksPast" "false" }}
+{{ $.Scratch.Set "talksUpcoming" "false" }}
+{{ range .Pages }}
+	{{ if lt ( dateFormat "20060102" .Params.details.start ) ( dateFormat "20060102" now ) }}
+		{{ $.Scratch.Set "talksPast" "true" }}
+	{{ else }}
+		{{ $.Scratch.Set "talksUpcoming" "true" }}
+	{{ end }}
+{{ end }}
+
+{{ if eq ( $.Scratch.Get "talksUpcoming" ) "true" }}
+	<h2>Upcoming Events</h2>
+	{{ range .Pages.Reverse }}
+		{{ if ge ( dateFormat "20060102" .Params.details.start ) ( dateFormat "20060102" now ) }}
+			{{ partial "content-talks.html" . }}
+		{{ end }}
+	{{ end }}
+{{ end }}
+
+{{ if eq ( $.Scratch.Get "talksPast" ) "true" }}
+	<h2>Past Events</h2>
+	{{ range .Pages }}
+		{{ if lt ( dateFormat "20060102" .Params.details.start ) ( dateFormat "20060102" now ) }}
+			{{ partial "content-talks.html" . }}
+		{{ end }}
+	{{ end }}
+{{ end }}
+
+{{ partial "footer.html" . }}
