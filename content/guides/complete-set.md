@@ -20,15 +20,7 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 <div class="list-spaced">
 {{%md%}}
-- **[DOM Manipulation.](/guides/dom-manipulation/)** Learn how to get DOM elements and do awesome stuff with them.
-- **[Strings, Arrays, and Objects.](/guides/string-array-and-object-manipulation/)** Transform and edit strings, arrays, and objects to make working with them easier and more productive.
-- **[Variables, Functions, and Scope.](/guides/variables-functions-and-scope/)** What are arrow functions? What's function hoisting? What's the difference between `var`, `let`, and `const`, and when should you use each?
-- **[DOM Injection and Traversal.](/guides/dom-injection-and-traversal/)** Learn how to generate dynamic content, climb up and down the DOM, and more.
-- **[Browser Storage.](/guides/data-storage-pocket-guide/)** Store data in local storage, get and set cookies, and retrieve values from query strings.
-- **[Ajax & HTTP.](/guides/ajax-and-http/)** Learn how to make HTTP requests, asynchronously grab HTML from another page, and more.
-- **[Bugs and Browser Quirks](/guides/bugs-and-browser-quirks/) <em class="text-muted text-small">(rewrite planned)</em>.** Making your scripts work across browsers can be tough. Learn how to make it way easier.
-- **[Writing Plugins.](/guides/writing-vanilla-js-plugins/)** Learn how to write flexible, modular, scalable plugins that grow with you and your users.
-- **[Web Apps.](/guides/web-apps/)** Build interactive web apps and single page apps without libraries or frameworks.
+{{<product-list package="complete" type="guide">}}
 {{%/md%}}
 </div>
 

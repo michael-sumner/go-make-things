@@ -18,10 +18,7 @@ Take your vanilla JavaScript skills to the next level with the Advanced Bundle. 
 
 <div class="list-spaced">
 {{%md%}}
-- **[Browser Storage.](/guides/data-storage-pocket-guide/)** Store data in local storage, get and set cookies, and retrieve values from query strings.
-- **[Ajax/HTTP.](/guides/ajax-and-http/)** Learn how to make HTTP requests, asynchronously grab HTML from another page, and more.
-- **[Writing Vanilla JS Plugins.](/guides/writing-vanilla-js-plugins/)** Learn how to write flexible, modular, scalable plugins that grow with you and your users.
-- **[Web Apps.](/guides/web-apps/)** Build interactive web apps and single page apps without libraries or frameworks.
+{{<product-list package="advanced" type="guide">}}
 {{%/md%}}
 </div>
 

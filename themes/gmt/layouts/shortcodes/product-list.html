@@ -1,0 +1,35 @@
+{{ $.Scratch.Set "type" "pocket guide" }}
+{{ if eq ( .Get "type" ) "course" }}{{ $.Scratch.Set "type" "mini course" }}{{ end }}
+
+{{ if eq ( .Get "package" ) "bundles" }}
+- **[The Complete Set.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.complete.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.complete.courseURL }}{{ end }})** {{ replace .Site.Data.productInfo.productDetails.complete.description "{{type}}" ( $.Scratch.Get "type" ) }}
+- **[The Beginner's Bundle.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.beginner.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.beginner.courseURL }}{{ end }})** {{ replace .Site.Data.productInfo.productDetails.beginner.description  "{{type}}" ( $.Scratch.Get "type" ) }}
+- **[The Advanced Bundle.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.advanced.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.advanced.courseURL }}{{ end }})** {{ replace .Site.Data.productInfo.productDetails.advanced.description  "{{type}}" ( $.Scratch.Get "type" ) }}
+{{ end }}
+
+{{ if eq ( .Get "type" ) "guide" }}
+
+{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "beginner" ) }}
+0. **[DOM Manipulation.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.domManipulation.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.domManipulation.courseURL }}{{ end }})** {{ .Site.Data.productInfo.productDetails.domManipulation.description }}
+0. **[Strings, Arrays, and Objects.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.stringArrayObject.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.stringArrayObject.courseURL }}{{ end }})** {{ .Site.Data.productInfo.productDetails.stringArrayObject.description }}
+0. **[Variables, Functions, and Scope.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.variablesFunctionsScope.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.variablesFunctionsScope.courseURL }}{{ end }})** {{ .Site.Data.productInfo.productDetails.variablesFunctionsScope.description }}
+0. **[DOM Injection and Traversal.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.domInjectionTraversal.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.domInjectionTraversal.courseURL }}{{ end }})** {{ .Site.Data.productInfo.productDetails.domInjectionTraversal.description }}
+0. **[Bugs and Browser Quirks]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.bugsBrowserQuirks.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.bugsBrowserQuirks.courseURL }}{{ end }}) <em class="text-muted text-small">(rewrite planned)</em>.** {{ .Site.Data.productInfo.productDetails.bugsBrowserQuirks.description }}{{ end }}
+{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "advanced" ) }}0. **[Browser Storage.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.browserStorage.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.browserStorage.courseURL }}{{ end }})** {{ .Site.Data.productInfo.productDetails.browserStorage.description }}
+0. **[Ajax & HTTP.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.ajaxHttp.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.ajaxHttp.courseURL }}{{ end }})** {{ .Site.Data.productInfo.productDetails.ajaxHttp.description }}
+0. **[Writing Plugins.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.writingPlugins.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.writingPlugins.courseURL }}{{ end }})** {{ .Site.Data.productInfo.productDetails.writingPlugins.description }}
+0. **[Web Apps.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.webApps.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.webApps.courseURL }}{{ end }})** {{ .Site.Data.productInfo.productDetails.webApps.description }}{{ end }}
+
+{{ else }}
+
+{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "beginner" ) }}
+0. **[DOM Manipulation.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.domManipulation.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.domManipulation.courseURL }}{{ end }})** {{ .Site.Data.productInfo.productDetails.domManipulation.description }}
+0. **[Strings, Arrays, and Objects.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.stringArrayObject.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.stringArrayObject.courseURL }}{{ end }})** {{ .Site.Data.productInfo.productDetails.stringArrayObject.description }}
+0. **[Variables, Functions, and Scope.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.variablesFunctionsScope.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.variablesFunctionsScope.courseURL }}{{ end }})** {{ .Site.Data.productInfo.productDetails.variablesFunctionsScope.description }}
+0. **[DOM Injection and Traversal.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.domInjectionTraversal.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.domInjectionTraversal.courseURL }}{{ end }})** {{ .Site.Data.productInfo.productDetails.domInjectionTraversal.description }}{{ end }}
+{{ if or ( eq ( .Get "package" ) "complete" ) ( eq ( .Get "package" ) "advanced" ) }}0. **[Browser Storage.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.browserStorage.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.browserStorage.courseURL }}{{ end }})** {{ .Site.Data.productInfo.productDetails.browserStorage.description }}
+0. **[Ajax & HTTP.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.ajaxHttp.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.ajaxHttp.courseURL }}{{ end }})** {{ .Site.Data.productInfo.productDetails.ajaxHttp.description }}
+0. **[Writing Plugins.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.writingPlugins.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.writingPlugins.courseURL }}{{ end }})** {{ .Site.Data.productInfo.productDetails.writingPlugins.description }}
+0. **[Web Apps.]({{ if eq (.Get "type") "guide" }}{{ .Site.Data.productInfo.productDetails.webApps.guideURL }}{{ else }}{{ .Site.Data.productInfo.productDetails.webApps.courseURL }}{{ end }})** {{ .Site.Data.productInfo.productDetails.webApps.description }}{{ end }}
+
+{{ end }}

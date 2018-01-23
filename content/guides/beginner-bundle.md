@@ -18,11 +18,7 @@ Kick-start your journey to vanilla JavaScript with the Beginner's Bundle. You'll
 
 <div class="list-spaced">
 {{%md%}}
-- **[DOM Manipulation.](/guides/dom-manipulation/)** Learn how to get DOM elements and do awesome stuff with them.
-- **[String, Array, and Object Manipulation.](/guides/string-array-and-object-manipulation/)** Transform and edit strings, arrays, and objects to make working with them easier and more productive.
-- **[Variables, Functions, and Scope.](/guides/variables-functions-and-scope/)** What are arrow functions? What's function hoisting? What's the difference between `var`, `let`, and `const`, and when should you use each?
-- **[DOM Injection and Traversal.](/guides/dom-injection-and-traversal/)** Learn how to generate dynamic content, climb up and down the DOM, and more.
-- **[Bugs and Browser Quirks.](/guides/bugs-and-browser-quirks/)** Making your scripts work across browsers can be tough. Learn how to make it way easier.
+{{<product-list package="beginner" type="guide">}}
 {{%/md%}}
 </div>
 

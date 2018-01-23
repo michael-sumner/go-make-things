@@ -12,7 +12,7 @@
 - [x] Add anchor link functionality for post headings
 - [x] Create script to get cart status from `/checkout`
 - [x] Remove the old PDFs, etc. from the `wp-content` directory
-- [ ] Add shortcodes for all products
+- [x] Add shortcodes for all products
 - [ ] Replicate Slack registration functionality
 - [ ] Replicate MailChimp subscribe functionality
 

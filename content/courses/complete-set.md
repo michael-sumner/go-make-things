@@ -20,14 +20,7 @@ AND, you'll automatically get any new mini courses I release in the future, comp
 
 <div class="list-spaced">
 {{%md%}}
-- **[DOM Manipulation.](/courses/dom-manipulation/)** Learn how to get DOM elements and do awesome stuff with them.
-- **[Strings, Arrays, and Objects.](/courses/string-array-and-object-manipulation/)** Transform and edit strings, arrays, and objects to make working with them easier and more productive.
-- **[Variables, Functions, and Scope.](/courses/variables-functions-and-scope/)** What are arrow functions? What's function hoisting? What's the difference between `var`, `let`, and `const`, and when should you use each?
-- **[DOM Injection and Traversal.](/courses/dom-injection-and-traversal/)** Learn how to generate dynamic content, climb up and down the DOM, and more.
-- **[Browser Storage.](/courses/browser-storage/)** Store data in local storage, get and set cookies, and retrieve values from query strings.
-- **[Ajax & HTTP.](/courses/ajax-and-http/)** Learn how to make HTTP requests, asynchronously grab HTML from another page, and more.
-- **[Writing Plugins.](/courses/writing-vanilla-js-plugins/)** Learn how to write flexible, modular, scalable plugins that grow with you and your users.
-- **[Web Apps.](/courses/web-apps/)** Build interactive web apps and single page apps without libraries or frameworks.
+{{<product-list package="complete" type="course">}}
 {{%/md%}}
 </div>
 
