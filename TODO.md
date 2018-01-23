@@ -1,5 +1,19 @@
 # Todo
 
+## Optimize later
+
+- [x] Update search.json for more meaningful search
+- [x] Create a search script
+- [x] Add Twitter card support
+- [x] Add talks and podcasts feature via Data feature
+- [x] Figure out how to autopost to Twitter when new post comes out
+- [ ] Add anchor link functionality for post headings
+- [ ] Create script to get cart status from `/checkout`
+- [ ] Replicate Slack registration functionality
+- [ ] Replicate MailChimp subscribe functionality
+- [ ] Remove the old PDFs, etc. from the `wp-content` directory
+- [ ] Add shortcodes for all products
+
 ## Immediate
 
 - [x] Port over theme
@@ -43,18 +57,3 @@
 - [x] Self-Service
 - [x] Slack Signup
 - [x] Pricing Parity
-
-
-## Optimize later
-
-- [x] Update search.json for more meaningful search
-- [x] Create a search script
-- [x] Add Twitter card support
-- [x] Add talks and podcasts feature via Data feature
-- [ ] Add anchor link functionality for post headings
-- [ ] Replicate Slack registration functionality
-- [ ] Replicate MailChimp subscribe functionality
-- [ ] Figure out how to autopost to Twitter when new post comes out
-- [ ] Create script to get cart status from `/checkout`
-- [ ] Remove the old PDFs, etc. from the `wp-content` directory
-- [ ] Add shortcodes for all products
