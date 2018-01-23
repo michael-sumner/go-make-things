@@ -10,11 +10,11 @@
 - [x] Add SSL force redirect to WP install
 - [x] Redirect Slack signup and self service to the WP install now
 - [x] Add anchor link functionality for post headings
-- [ ] Create script to get cart status from `/checkout`
+- [x] Create script to get cart status from `/checkout`
+- [x] Remove the old PDFs, etc. from the `wp-content` directory
+- [ ] Add shortcodes for all products
 - [ ] Replicate Slack registration functionality
 - [ ] Replicate MailChimp subscribe functionality
-- [ ] Remove the old PDFs, etc. from the `wp-content` directory
-- [ ] Add shortcodes for all products
 
 ## Immediate
 
