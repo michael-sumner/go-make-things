@@ -1,5 +1,5 @@
 /*!
- * gmt v1.6.0: The theme for gomakethings.com
+ * gmt v1.6.1: The theme for gomakethings.com
  * (c) 2018 Chris Ferdinandi
  * MIT License
  * http://github.com/cferdinandi/go-make-things
@@ -277,25 +277,6 @@ if (!Element.prototype.matches) {
   return fluidvids;
 
 }));
-var addHeadingLinks = function (selector, content, styles) {
-
-	'use strict';
-
-	// Make sure a selector was provided
-	if (!selector) return;
-
-	// Variables
-	var headings = document.querySelectorAll(selector);
-	content = content || '#';
-	styles = styles || 'anchor-link';
-
-	// Loop through each heading and add an anchor link
-	for (var i = 0; i < headings.length; i++) {
-		if (!headings[i].id) continue;
-		headings[i].innerHTML += ' <a class="' + styles + '" href="#' + headings[i].id + '">' + content + '</a>';
-	}
-
-};
 /**
  * Add links to headings
  * @param {String} selector The headings to get in the DOM (uses querySelectorAll)
