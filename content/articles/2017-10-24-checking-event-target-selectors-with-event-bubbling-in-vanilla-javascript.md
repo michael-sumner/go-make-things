@@ -8,7 +8,7 @@ url: /checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/
 title: Checking event target selectors with event bubbling in vanilla JavaScript
 ---
 
-Event bubbling is an approach is to listening for events that's better for performance and gives you a bit more flexibility.
+Event bubbling is an approach to listening for events that's better for performance and gives you a bit more flexibility.
 
 Instead of adding event listeners to specific elements, you listen to all events on a parent element (often the `document` or `window`). Events within that element "bubble up," and you can check to see if the element that triggered the event (the `event.target`) matches the selector you really care about.
 

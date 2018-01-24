@@ -15,6 +15,7 @@
 - [x] Add shortcodes for all products
 - [ ] Replicate Slack registration functionality
 - [ ] Replicate MailChimp subscribe functionality
+- [ ] Add this shortcode: https://github.com/ThePacielloGroup/cupper/blob/master/themes/cupper/layouts/shortcodes/snippet.html
 
 ## Immediate
 
