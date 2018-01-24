@@ -3,16 +3,9 @@ title: "Static Websites"
 date: 2018-01-24T09:49:04-05:00
 draft: false
 categories:
-- Accessibility
-- Art &amp; Science
-- Business &amp; Leadership
-- Careers
-- Code
 - CSS
-- Design &amp; UX
 - HTML
 - JavaScript
-- Technology
 - Web Performance
 - WordPress
 ---
@@ -47,7 +40,7 @@ But, unlike your traditional CMS, they do it ahead of time. You upload your simp
 
 You get the benefits of using a traditional CMS, with the simplicity and speed of static HTML.
 
-## Things that are difficult in WordPress as so easy in Hugo
+## Things that are difficult in WordPress are so easy in Hugo
 
 I used a lot of [custom post types in WordPress](https://codex.wordpress.org/Post_Types).
 
@@ -63,7 +56,7 @@ I'm no longer fighting the conventions of the CMS, or bad decisions made by plug
 
 It's web development in its purest form.
 
-## Challengs and things I was worried about
+## Challenges and things I was worried about
 
 With WordPress, I made heavy use of scheduled posts. I'd write them ahead of time and WP would post them automatically at a set time. I was worried about losing that.
 

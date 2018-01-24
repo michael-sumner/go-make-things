@@ -16,6 +16,7 @@
 - [ ] Replicate Slack registration functionality
 - [ ] Replicate MailChimp subscribe functionality
 - [ ] Add this shortcode: https://github.com/ThePacielloGroup/cupper/blob/master/themes/cupper/layouts/shortcodes/snippet.html
+- [ ] Add settings for CTAs
 
 ## Immediate
 
