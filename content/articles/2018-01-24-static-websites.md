@@ -29,9 +29,11 @@ I've been [a WordPress ~~apologist~~ supporter](https://gomakethings.com/the-new
 
 A lot of the bad performance of WordPress sites is caused by poorly written plugins and some default behaviors of the CMS. These can be worked around.
 
-I made a habit of disabling JS files that plugins were loading on pages where they weren't used, and forcing JavaScript to get loaded in the footer so it wouldn't block rendering. I installed a plugin that pre-compiled HTML from my database and templates so that visitors wouldn't have to wait for them to get created on fly with each visit. I ended up writing a lot of my own plugins to avoid the cruft of what was available already.
+I made a habit of disabling JS files that plugins were loading on pages where they weren't used, and forcing JavaScript to get loaded in the footer so it wouldn't block rendering.
 
-And then I hit a breaking point.
+I installed a plugin that pre-compiled HTML from my database and templates so that visitors wouldn't have to wait for them to get created on fly with each visit. I ended up writing a lot of my own plugins to avoid the cruft of what was available already.
+
+**And then I hit a breaking point.**
 
 Writing was taking forever. The WordPress dashboard had become unbearably slow. Every new plugin required another hack to remove unneeded files and maintain front end web performance.
 
