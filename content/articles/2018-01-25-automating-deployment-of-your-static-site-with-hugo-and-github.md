@@ -3,16 +3,7 @@ title: "Automating the deployment of your static site with Hugo and GitHub"
 date: 2018-01-25T10:30:00-05:00
 draft: false
 categories:
-- Accessibility
-- Art &amp; Science
-- Business &amp; Leadership
-- Careers
 - Code
-- CSS
-- Design &amp; UX
-- HTML
-- JavaScript
-- Technology
 - Web Performance
 - WordPress
 ---
@@ -80,6 +71,16 @@ Quick heads up: the first time I did this, I read quickly and thought `ARM` said
 It caused some... annoying to fix conflicts and I had to remove things and start over, and that was uncomfortable for me since I'm a command line novice and terrified of screwing up my server.
 
 Read carefully.
+
+### 2a. UPDATE: Add an SSH key to your server
+
+In order to complete the next step&mdash;cloning your GitHub repository to your server&mdash;you need to setup an SSH key on the server.
+
+To do that, run `ssh-keygen`. It will ask you to add a passcode, if desired. You *can* just leave it blank.
+
+Next, run `cat ~/.ssh/id_rsa.pub` to print the public key into the terminal window. Copy the output, then head over to your account settings in GitHub.
+
+Under the "SSH and GPG keys" section, click "New SSH key" and paste in the output from the terminal window. Then click "Save." Your server now has permission to speak to GitHub on your behalf.
 
 ### 2. Clone your GitHub repository
 
