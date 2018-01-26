@@ -6,26 +6,27 @@ noTitle: true
 ---
 
 <h1 class="margin-bottom-small">Chris Ferdinandi's Resume</h1>
-
 <svg xmlns="http://www.w3.org/2000/svg" class="margin-right" style="height:1em;width:1em" viewBox="0 0 32 32"><title id="email-title">Location: </title><path d="M16 0c-5.523 0-10 4.477-10 10 0 10 10 22 10 22s10-12 10-22c0-5.523-4.477-10-10-10zM16 16c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6-2.686 6-6 6z"></path></svg>Greater Boston, MA &nbsp;&nbsp;&bull;&nbsp;&nbsp;{{<email icon>}}
 
-<p class="margin-bottom-small">A front-end developer specializing in responsive web design. Skills and experience include:</p>
+<p class="margin-bottom-small">A front-end web developer specializing in fast, resilient websites and web apps that work on any device. Skills and experience include:</p>
 
 <div class="row">
 	<div class="grid-half">
 {{%md%}}
 - Mobile-First RWD
 - HTML and CSS
-- Native JavaScript and jQuery
-- QUnit and Jasmine
+- Vanilla JavaScript
+- Unit Testing
+- Writing Documentation
 {{%/md%}}
 	</div>
 	<div class="grid-half">
 {{%md%}}
+- Web Performance
 - Sass &amp; SCSS
 - Gulp, Git, and Travis CI
-- Web Performance
 - WordPress and PHP
+- Education & Training
 {{%/md%}}
 	</div>
 </div>
@@ -34,7 +35,25 @@ noTitle: true
 
 ## Featured Projects
 
-### [PAWS New England](http://www.pawsnewengland.com)
+<h3 class="text-normal margin-bottom-small">{{%md%}}[Go Make Things](https://gomakethings.com/){{%/md%}}</h3>
+
+I help people learn JavaScript with [daily articles](/articles), [pocket guides](/guides), [courses](/courses), and [mentoring program](/mentoring).
+
+- In 2017 I helped nearly 200,000 people learn JavaScript.
+- Through [podcast appearances and talks](/talks) I've helped evangelize a more resilient, inclusive approach to web development.
+- My [open source projects](/open-source) have been used by some of the world's leading organizations, including Apple, Harvard Business, and CNN.
+
+<div class="padding-top padding-bottom">{{<testimonial-kabolobari photo>}}</div>
+
+<h3 class="text-normal margin-bottom-small">{{%md%}}[Blackbeard](https://developer.mashery.com/docs/read/Customizing_Your_Portal){{%/md%}}</h3>
+
+Mashery delivers world-class API management software for the world's leading companies. I work with our clients to design and build developer portals and documentation that help people start using their APIs quickly and integrate strongly with their brand. Blackbeard is a front-end JavaScript framework that provides clients with incredible levels of control and flexibility over their documentation.
+
+- Used dozens of client conversations to inform key feature development, resulting in a robust set of strongly desired new features that our customers love.
+- Open sourced a collection of "starter templates" based on common design patterns and use cases, and turned them into a [theme builder](https://developer.mashery.com/docs/read/customizing_your_portal/Theme_Builder) using the GitHub content API. This has helped customers who want to DIY build portals faster and easier so they can focus on running top-notch API programs.
+- Designed a robust JavaScript API that enables clients to build their own features and use their developer portal in new and interesting ways. Many of these innovations make their way back into the core code as new features.
+
+<h3 class="text-normal margin-bottom-small">{{%md%}}[PAWS New England](http://www.pawsnewengland.com){{%/md%}}</h3>
 
 PAWS New England rescues abandoned and abused dogs and places them in safe and loving homes. I partnered with them to redesign their entire web strategy, with powerful results.
 
@@ -44,7 +63,7 @@ PAWS New England rescues abandoned and abused dogs and places them in safe and l
 
 <div class="padding-top padding-bottom">{{<testimonial-paws photo>}}</div>
 
-### [Harvard Business School: Digital Initiative](https://digital.hbs.edu/)
+<h3 class="text-normal margin-bottom-small">{{%md%}}[Harvard Business School: Digital Initiative](https://digital.hbs.edu/){{%/md%}}</h3>
 
 Harvard Business School's Digital Initiative is focused on studying & shaping the digital transformation of the economy. They needed an easy way to keep students connected to the curriculum and share emerging trends.
 
@@ -58,7 +77,7 @@ Harvard Business School's Digital Initiative is focused on studying & shaping th
 
 ## Work Experience
 
-- **Senior Portal Design Architect**, [Mashery](http://www.mashery.com/), September 2014 - Present
+- **Senior Mashery Portal Design Engineer**, [Mashery](http://www.mashery.com/), September 2014 - Present
 - **Web Strategy Consultant**, [Go Make Things](https://gomakethings.com/), March 2010 – Present
 - **Front-End Developer**, [Constant Contact](http://www.constantcontact.com/), April 2014 - August 2014
 - **Web Designer and Developer**, [EMC Corporation](http://www.emc.com/), July 2011 – March 2014
