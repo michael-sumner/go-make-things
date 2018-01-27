@@ -15,7 +15,7 @@ I help people learn vanilla JavaScript. Here are some resources to help you with
 : I love to talk with people about JavaScript and making things for the web.
 
 [The Vanilla JS Toolkit](https://vanillajstoolkit.com) &ndash; *free*
-: A growing collection of vanilla JavaScript code snippets, helper functions, polyfills, plugins, and learning resources
+: A growing collection of vanilla JavaScript code snippets, helper functions, polyfills, plugins, and learning resources.
 
 [Pocket Guides](/guides/) &ndash; *{{<price-guides>}}+*
 : Step-by-step training guides to help you master vanilla JavaScript. They’re short, focused, and made for beginners.
