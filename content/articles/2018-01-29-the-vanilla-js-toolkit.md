@@ -7,7 +7,7 @@ categories:
 - JavaScript
 ---
 
-<img alt="A screenshot of vanillajstoolkit.com" src="/articles/vanilla-js-toolkit.jpg">
+<img alt="A screenshot of vanillajstoolkit.com" src="/img/articles/vanilla-js-toolkit.jpg">
 
 On Friday, I quietly launched a new website: [the Vanilla JavaScript Toolkit](https://vanillajstoolkit.com).
 
