@@ -14,7 +14,6 @@ There are performance concerns with doing so, though. <a href="http://www.paulir
 
 Fortunately, there's an easy fix: throttling.
 
-[snippet id="8395"]
 
 <h2>Throttling Your JavaScript</h2>
 
@@ -70,5 +69,3 @@ If you have stuff that you want to run on resize <em>and</em> page load, you can
 })(jQuery);</code></pre>
 
 Now, <code class="language-javascript">resizeFunction()</code> will run when the page loads, and again whenever the browser window is resized.
-
-[snippet id="8397"]

@@ -13,7 +13,6 @@ On the recent launch of a <a href="https://gomakethings.com/projects/tony-luong/
 
 It had a dramatic impact on website performance. Today, I want to share the process for going framework-free.
 
-[snippet id="8395"]
 
 <h2>Different browsers. Different features.</h2>
 
@@ -234,5 +233,3 @@ I'm sure I'll still use jQuery for projects that require more backwards compatib
 <li><a href="http://www.unicodegirl.com/function-statement-versus-function-expression.html">Function statements vs function expressions</a> (or, why functions are variables)</li>
 <li><a href="https://github.com/toddmotto/foreach">Todd Motto's forEach method</a></li>
 </ol>
-
-[snippet id="8397"]

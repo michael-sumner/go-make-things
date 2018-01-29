@@ -14,7 +14,6 @@ Today, I want to show you how to replace the built-in version of jQuery with a C
 
 <em><strong>Updated on August 15, 2013:</strong> I've since switched to using <a href="https://gist.github.com/wpsmith/4083811">this snippet of code</a> from Travis Smith instead. It uses the Google CDN version of jQuery, but falls back to the local version built into WordPress if it fails.</em>
 
-[snippet id="8395"]
 
 <h2>Using a CDN hosted version of jQuery</h2>
 
@@ -66,5 +65,3 @@ function my_scripts_method() {
 }
 // Tell WordPress to run the my_scripts_method function
 add_action('wp_enqueue_scripts', 'my_scripts_method');</code></pre>
-
-[snippet id="8397"]

@@ -18,7 +18,6 @@ One common example is a collapse widget, often used to hide and expand navigatio
 
 Fortunately, there's a simple technique that can fix this.
 
-[snippet id="8395"]
 
 <h2>Javascript Conditional Styling</h2>
 
@@ -93,5 +92,3 @@ This is just one simple example.
 I use this trick to change the styling of my navigation. When javascript is available, not only do I offer a collapsing menu, but the menu items go from an inline list to stacked block elements. If there's no javascript, they stay inline.
 
 There's many ways you can use this. Have fun!
-
-[snippet id="8397"]

@@ -28,5 +28,3 @@ var getElemDistance = function ( elem ) {
 var elem = document.querySelector('#some-element');
 var location = getElemDistance( elem );
 ```
-
-[snippet id="8397"]

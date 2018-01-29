@@ -18,5 +18,3 @@ jQuery worked fine on my iPad, but not on the iPod, which is about 4 years old a
 I loaded the page in Chrome on iOS and discovered that the Google version was, ironically, causing a browser security error. I switched to the version hosted directly at jQuery.com and the issue went away.
 
 I'm not sure why that would be the case, but I've updated this site, <a href="http://cferdinandi.github.com/go-mobile-first/">Go Mobile First</a>, and the <a href="http://cferdinandi.github.com/web-app-starter-kit/">Web App Starter Kit</a> to use the jQuery hosted version anyways.
-
-[snippet id="8397"]

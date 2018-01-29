@@ -8,8 +8,6 @@ title: Ditching jQuery
 
 This article details how I write modern, native JavaScript (aka vanilla JS), and includes a growing collection of native JavaScript equivalents for common jQuery tasks.
 
-[snippet id="8395"]
-
 ## Table of Contents
 
 1. [Why go native?](#why-go-native)
@@ -646,7 +644,7 @@ var getParentsUntil = function ( elem, parent, selector ) {
 			if ( elem.matches( selector ) ) {
 				parents.push( elem );
 			}
-			break;
+			continue;
 		}
 
 		parents.push( elem );
@@ -871,5 +869,3 @@ For robust API interactions, check out [Atomic by Todd Motto](https://github.com
 My first go-to site for anything JavaScript related is the [Mozilla Developer Network](https://developer.mozilla.org/), which is essentially a user guide for the web. They provide documentation on tons of web and JS APIs, with examples, browser compatibility information, and polyfills when needed. Just add `mdn` to your Google searches.
 
 If that fails, I turn to [Stack Overflow](http://stackoverflow.com/). Make sure to add `vanilla js` to your searches. Typing `without jQuery` returns a ton of jQuery-based responses instead.
-
-[snippet id="8397"]

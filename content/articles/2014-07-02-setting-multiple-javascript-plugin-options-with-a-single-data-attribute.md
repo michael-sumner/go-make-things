@@ -28,7 +28,6 @@ data-updateURL="false"
 
 To do this, I wrote a simple helper function that converts the contents of the `data-options` attribute into an object.
 
-[snippet id="8395"]
 
 ## data-options.js
 
@@ -121,5 +120,3 @@ console.log(options);
 ```
 
 I'll be updating my scripts accordingly.
-
-[snippet id="8397"]

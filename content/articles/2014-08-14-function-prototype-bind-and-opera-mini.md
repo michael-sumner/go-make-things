@@ -10,7 +10,6 @@ Last week I discovered that a few scripts that *should* work in Opera Mini were 
 
 The problem turned out to be with `Function.prototype.bind`, a late addition to the ECMAScript 5 standard that is missing from some otherwise compatible browsers (like Opera Mini). Fortunately, there's an easy fix.
 
-[snippet id="8395"]
 
 # `Function.prototype.bind` polyfill
 
@@ -41,5 +40,3 @@ if (!Function.prototype.bind) {
 ```
 
 All of my scripts that use `Function.prototype.bind` now include the polyfill.
-
-[snippet id="8397"]

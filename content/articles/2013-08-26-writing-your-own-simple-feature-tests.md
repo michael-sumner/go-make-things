@@ -11,7 +11,6 @@ Progressive enhancement is an approach to web development in which your provide 
 
 For this approach, you need to run a simple feature test to check what the browser is and isn't capable of. <a href="http://modernizr.com/">Modernizr</a> is a great tool for this, but today, I want to show you how you can write your own simple feature tests.
 
-[snippet id="8395"]
 
 <h2>What a feature test looks like</h2>
 
@@ -86,5 +85,3 @@ I include the <code class="language-none">feature-test.js</code> in the <code cl
 <h2>How do you know what to check for?</h2>
 
 Google is a great place to start. A lot of the conditional statements can be found on the <a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network</a>, where they're included as part of the polyfill recommendations. And Paul Irish, who's a jQuery team member and lead developer at Modernizr, shares a lot of the code they use <a href="https://gist.github.com/paulirish/">on GitHub</a>.
-
-[snippet id="8397"]

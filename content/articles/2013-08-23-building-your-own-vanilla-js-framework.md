@@ -17,7 +17,6 @@ There are two things I've done to make writing scripts easier:
 
 Today, I want to show you how to create your own micro-framework for your vanilla JavaScript projects.
 
-[snippet id="8395"]
 
 <h2>JavaScript Micro-Frameworks</h2>
 
@@ -94,5 +93,3 @@ Ready to get started? Here's where to find useful scripts and functions:
 </ul>
 
 Slightly less useful than the others, but I've started adding <a href="https://gist.github.com/cferdinandi">the scripts and helper functions I use on GitHub</a> as well.
-
-[snippet id="8397"]

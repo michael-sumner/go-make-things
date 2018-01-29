@@ -10,7 +10,6 @@ When writing [vanilla JavaScript plugins](https://gist.github.com/cferdinandi/ec
 
 jQuery makes this really easy via their [`extend()` method](http://api.jquery.com/jquery.extend/). Fortunately, there's an easy way to do this with native JS, too!
 
-[snippet id="8395"]
 
 ## A native JS `extend()` function
 
@@ -77,5 +76,3 @@ var object3 = {
 var newObjectShallow = extend(object1, object2, object3);
 var newObjectDeep = extend(true, object1, object2, object3);
 ```
-
-[snippet id="8397"]

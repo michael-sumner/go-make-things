@@ -19,7 +19,6 @@ However, this isn't a true analog for jQuery's `$( document ).ready(function()` 
 
 Fortunately, there's a really easy, lightweight helper method you can use instead:
 
-[snippet id="8395"]
 
 ```javascript
 var ready = function ( fn ) {

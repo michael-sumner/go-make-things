@@ -12,7 +12,6 @@ This is really easy to do with jQuery, but today I wanted to share some simple v
 
 ***Note:*** *Updated on December 16, 2014, to include tag selectors.*
 
-[snippet id="8395"]
 
 ## Climbing up the DOM tree
 
@@ -224,5 +223,3 @@ var allElems = elem.querySelectorAll('[data-sample]');
 ```
 
 Enjoy!
-
-[snippet id="8397"]
