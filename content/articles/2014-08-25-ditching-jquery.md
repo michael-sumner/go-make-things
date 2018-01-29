@@ -65,7 +65,7 @@ I used a feature detection technique that the BBC calls [“cutting the mustard.
 
 A simple browser test determines whether or not a browser supports modern JavaScript APIs. If it does, it gets the enhanced experience. If not, it gets a more basic one.
 
-```language-javascript
+```javascript
 var supports = !!document.querySelector && !!window.addEventListener;
 if ( !supports ) return;
 ```
@@ -95,7 +95,7 @@ To quote the BBC:
 
 In my scripts, after the mustard test is run, I include this line which adds a class to the `<html>` element after the script is loaded.
 
-```language-javascript
+```javascript
 document.documentElement.className += ' js-MyPlugin';
 ```
 
@@ -113,7 +113,7 @@ Below is a growing list of native JavaScript equivalents of jQuery APIs. Unless 
 
 Also supported in IE8, but only for CSS 2.1 selectors.
 
-```language-javascript
+```javascript
 var firstClass = document.querySelector( '.some-class' );
 var firstId = document.querySelector( '#some-id' );
 var firstData = document.querySelector( '[data-example]' );
@@ -126,7 +126,7 @@ var allData = document.querySelectorAll( '[data-example]' );
 
 Iterate over arrays, objects, and node lists. Supported all the way back to IE6.
 
-```language-javascript
+```javascript
 // Arrays and node lists
 var elems = document.querySelectorAll( '.some-class' );
 for ( var i = 0, len = elems.length; i < len; i++ ) {
@@ -154,7 +154,7 @@ for ( var prop in obj ) {
 
 Add, remove, and check for classes. The `classList` API support starts with IE10, but a [polyfill provides support back to IE8](https://github.com/eligrey/classList.js/). You should always use it.
 
-```language-javascript
+```javascript
 var elem = document.querySelector( '#some-element' );
 elem.classList.add( 'some-class' ); // Add class
 elem.classList.remove( 'some-other-class' ); // Remove class
@@ -168,7 +168,7 @@ if ( elem.classList.contains( 'some-third-class' ) ) { // Check for class
 
 Get and set inline styles. This is supported all the way back to IE6.
 
-```language-javascript
+```javascript
 var elem = document.querySelector( '#some-element' );
 var color = elem.style.color; // Get a CSS attribute
 elem.style.color = 'rebeccapurple'; // Set a CSS attribute
@@ -182,7 +182,7 @@ elem.style.minHeight = '200px'; // Set a CSS attribute
 
 Add, remove, and check for attributes.
 
-```language-javascript
+```javascript
 var elem = document.querySelector( '#some-element' );
 
 elem.getAttribute( 'data-example' ); // Get data attribute
@@ -194,7 +194,7 @@ if ( elem.hasAttribute( 'data-example' ) ) { // Check data attribute
 
 You can use these APIs to get and set all sorts of attributes&mdash;not just data attributes. However, there's usually an API you can call directly on the element, too.
 
-```language-javascript
+```javascript
 var elem = document.querySelector( '#some-element' );
 
 // Set an ID
@@ -214,7 +214,7 @@ var titleToo = elem.title;
 
 Listen for clicks, hovers, [and more](https://developer.mozilla.org/en-US/docs/Web/Events).
 
-```language-javascript
+```javascript
 var elem = document.querySelector( '.some-class' );
 elem.addEventListener( 'click', function( event ) {
     // Do stuff
@@ -223,7 +223,7 @@ elem.addEventListener( 'click', function( event ) {
 
 Unlike jQuery, each event requires its own listener, but you can assign a function to a variable to keep your code more DRY.
 
-```language-javascript
+```javascript
 var elem = document.querySelector( '.some-class' );
 var someFunction = function ( event ) {
 	// Do stuff
@@ -234,7 +234,7 @@ elem.addEventListener( 'mouseover', someFunction, false );
 
 And if you need to pass multiple variables into a function assigned to a variable, use the [`.bind()` API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind). The first variable is the one assigned to `this`, and event is automatically passed in as the last variable.
 
-```language-javascript
+```javascript
 var elem = document.querySelector( '.some-class' );
 var someFunction = function ( var1, var2, var3, event ) {
 	// Do stuff
@@ -247,14 +247,14 @@ elem.addEventListener('mouseover', someFunction.bind( null, var1, var2, var3 ), 
 
 With named functions, you can also remove event listeners.
 
-```language-javascript
+```javascript
 elem.removeEventListener( 'click', someFunction, false );
 elem.removeEventListener( 'mouseover', someFunction, false );
 ```
 
 If you need to apply the same event listener on multiple elements, you *can* loop through each element and add a listener. A better and more performant approach, though, is to listen for events on the entire document and filter just the elements you need.
 
-```language-javascript
+```javascript
 /**
  * Function to filter what's clicked and run your functions
  * @param  {Event} event The event
@@ -312,7 +312,7 @@ ready(function() {
 
 Get and set height. It's a lot trickier in native JS than it should be, because there are multiple APIs for getting height, and they all return slightly different measurements. The `getHeight()` method provided below returns the largest measurement. These are supported back to IE6.
 
-```language-javascript
+```javascript
 /**
  * Get the height of an element
  * @param  {Node}   elem The element
@@ -331,7 +331,7 @@ elem.style.height = '200px'; // Set height
 
 Get field types, input content and states. These are supported back to IE6.
 
-```language-javascript
+```javascript
 var form = document.querySelector( '#some-form' );
 var input = document.querySelector( '#some-input' );
 
@@ -348,7 +348,7 @@ var isDisabled = input.disabled; // Get input disabled status
 
 Get and set HTML content.
 
-```language-javascript
+```javascript
 var elem = document.querySelector( '#some-element' );
 var html = elem.innerHTML; // Get HTML
 elem.innerHTML = 'Hello world!'; // Set HTML
@@ -358,7 +358,7 @@ elem.innerHTML = 'Hello world!'; // Set HTML
 
 Merge two or more objects together. The jQuery `$.extend()` API merges the content of subsequent objects into the first one, overriding it's original values. The method provided below returns a new object instead, preserving all of the original objects and their properties. Supported back to IE6.
 
-```language-javascript
+```javascript
 /**
  * Merge two or more objects. Returns a new object.
  * Set the first argument to `true` for a deep or recursive merge
@@ -429,7 +429,7 @@ var newObjectDeep = extend( true, object1, object2, object3 );
 
 Determine if an element is the viewport or not. Supported back to IE6.
 
-```language-javascript
+```javascript
 /**
  * Determine if an element is in the viewport
  * @param  {Node}    elem The element
@@ -480,7 +480,7 @@ var location = getElemDistance( elem );
 
 Get the height of the document element. Supported back to IE6.
 
-```language-javascript
+```javascript
 /**
  * Get the height of the `document` element
  * @return {Number} The height
@@ -501,14 +501,14 @@ var getDocumentHeight = function () {
 
 Get the parent of an element. Supported back to IE6.
 
-```language-javascript
+```javascript
 var elem = document.querySelector( '#some-element' );
 var parent = elem.parentNode;
 ```
 
 Get closest DOM element up the tree that contains any valid CSS selector.
 
-```language-javascript
+```javascript
 /**
  * Get the closest matching element up the DOM tree.
  * @private
@@ -551,7 +551,7 @@ var closestExcludingElement = getClosest( elem.parentNode, '.some-class' );
 
 Get all parent elements up the DOM tree, optionally filtering by any valid CSS selector. Includes the element itself.
 
-```language-javascript
+```javascript
 /**
  * Get all of an element's parent elements up the DOM tree
  * @param  {Node}   elem     The element
@@ -667,28 +667,28 @@ var allParentsExcludingElem = getParentsUntil( elem.parentNode );
 
 Get all child nodes of an element. Supported back to IE6.
 
-```language-javascript
+```javascript
 var elem = document.querySelector( '#some-element' );
 var all = elem.childNodes;
 ```
 
 Get the first child node of an element. Supported back to IE6.
 
-```language-javascript
+```javascript
 var elem = document.querySelector( '#some-element' );
 var first = elem.firstChild;
 ```
 
 Get the first element that matches a class, ID, or data attribute.
 
-```language-javascript
+```javascript
 var elem = document.querySelector( '#some-element' );
 var firstMatch = elem.querySelector( '.sample-class' );
 ```
 
 Get all elements that match a class, ID, or data attribute.
 
-```language-javascript
+```javascript
 var elem = document.querySelector( '#some-element' );
 var allMatches = elem.querySelectorAll( '.sample-class' );
 ```

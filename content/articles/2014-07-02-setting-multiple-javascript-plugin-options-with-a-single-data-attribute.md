@@ -31,7 +31,7 @@ To do this, I wrote a simple helper function that converts the contents of the `
 
 ## data-options.js
 
-```language-javascript
+```javascript
 /**
  * Convert data-options attribute into an object of key/value pairs
  * @private
@@ -65,7 +65,7 @@ var getDataOptions = function ( options ) {
 ### Example
 
 **Markup**
-```language-markup
+```markup
 <a
 class="example"
 href="#"
@@ -79,7 +79,7 @@ data-options="speed: 500;
 ```
 
 **JavaScript**
-```language-javascript
+```javascript
 var item = document.querySelector('.example');
 var options = getDataOptions( item ? item.getAttribute('data-options') : null );
 
@@ -98,7 +98,7 @@ Todd Motto pointed out [the dangers of using this approach](https://twitter.com/
 All values, even numbers and booleans, are converted to strings. His solution is to [use real JSON in your markup](http://jsfiddle.net/toddmotto/aqMpU/):
 
 **Markup**
-```language-markup
+```markup
 <a class="example" href="#" data-options='{
     "speed": 500,
     "easing": "easeIn OutCubic",
@@ -108,7 +108,7 @@ All values, even numbers and booleans, are converted to strings. His solution is
 ```
 
 **JavaScript**
-```language-javascript
+```javascript
 var getDataOptions = function ( options ) {
     return (!options || typeof JSON.parse !== 'function') ? {} : JSON.parse(options);
 };

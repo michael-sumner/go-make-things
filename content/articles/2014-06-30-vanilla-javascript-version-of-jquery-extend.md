@@ -15,7 +15,7 @@ jQuery makes this really easy via their [`extend()` method](http://api.jquery.co
 
 The jQuery `$.extend()` API merges the content of subsequent objects into the first one, overriding it's original values. The method provided below returns a new object instead, preserving all of the original objects and their properties. Supported back to IE6.
 
-```language-javascript
+```javascript
 // Pass in the objects to merge as arguments.
 // For a deep extend, set the first argument to `true`.
 var extend = function () {

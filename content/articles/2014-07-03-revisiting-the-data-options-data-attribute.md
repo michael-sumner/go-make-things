@@ -16,7 +16,7 @@ Yesterday, I posted about a technique I use to [set multiple JavaScript plugin o
 Todd recommended the use of JSON instead.
 
 **Markup**
-```language-markup
+```markup
 <a
 class="example"
 href="#"
@@ -32,7 +32,7 @@ data-options='{
 ```
 
 **JavaScript**
-```language-javascript
+```javascript
 var getDataOptions = function ( options ) {
 	return !options || !(typeof JSON === 'object' && typeof JSON.parse === 'function') ? {} : JSON.parse( options );
 };

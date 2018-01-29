@@ -20,7 +20,7 @@ I've written [a tiny little script](https://github.com/cferdinandi/sticky-footer
 
 The markup is really simple. All you need are two simple data attributes: one for your body content, and one for your footer content.
 
-```language-markup
+```markup
 <div data-sticky-wrap>
     Body content
 </div>

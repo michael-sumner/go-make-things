@@ -15,7 +15,7 @@ The problem turned out to be with `Function.prototype.bind`, a late addition to 
 
 The fix was as easy as dropping in a polyfill, [courtesy of MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind#Compatibility):
 
-```language-javascript
+```javascript
 if (!Function.prototype.bind) {
 	Function.prototype.bind = function (oThis) {
 		if (typeof this !== "function") {
