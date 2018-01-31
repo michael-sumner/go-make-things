@@ -23,6 +23,9 @@ theme: "gmt"
 permalinks:
   articles: /:title/
 
+# Use absolute URLs
+canonifyURLs: true
+
 # Allows you to disable all page types and will render nothing related to 'kind';
 # values = "page", "home", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"
 disableKinds: ["RSS", "hugoGeneratorInject", "404"]
