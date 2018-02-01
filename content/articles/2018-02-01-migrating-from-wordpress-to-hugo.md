@@ -1,5 +1,5 @@
 ---
-title: "2018 02 01 Migrating From Wordpress to Hugo"
+title: "Migrating From Wordpress to Hugo"
 date: 2018-02-01T09:21:31-05:00
 draft: false
 categories:
