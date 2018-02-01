@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2013-07-09'
 url: /high-performance-wordpress-talk-on-july-23/
 title: High-Performance WordPress Talk on July 23

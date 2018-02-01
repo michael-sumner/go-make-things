@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-05-06'
 url: /it-gets-better/
 title: It Gets Better

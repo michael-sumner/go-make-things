@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-02-14'
 url: /the-other-side-of-the-street/
 title: The Other Side of the Street

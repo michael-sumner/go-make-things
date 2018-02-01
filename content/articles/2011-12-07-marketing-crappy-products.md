@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
+- Art and Science
+- Business and Leadership
 date: '2011-12-07'
 url: /marketing-crappy-products/
 title: Marketing crappy products

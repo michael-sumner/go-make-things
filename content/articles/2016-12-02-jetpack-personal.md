@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 - Code
 date: '2016-12-02'
 url: /jetpack-personal/

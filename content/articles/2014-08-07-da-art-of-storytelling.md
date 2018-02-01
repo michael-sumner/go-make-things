@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2014-08-07'
 url: /da-art-of-storytelling/
 title: Da Art of Storytelling

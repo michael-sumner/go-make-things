@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-14'
 url: /is-design-really-about-solving-problems/
 title: Is design really about solving problems?

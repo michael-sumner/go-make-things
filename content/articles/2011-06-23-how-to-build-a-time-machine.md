@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-06-23'
 url: /how-to-build-a-time-machine/
 title: How to build a time machine

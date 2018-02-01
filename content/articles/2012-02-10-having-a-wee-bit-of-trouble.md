@@ -1,7 +1,6 @@
 ---
 categories:
 - Technology
-- Uncategorized
 date: '2012-02-10'
 url: /having-a-wee-bit-of-trouble/
 title: Having a wee bit of trouble

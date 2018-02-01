@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 - Technology
 date: '2011-03-14'
 url: /how-to-monetize-your-blog-in-3-easy-steps/

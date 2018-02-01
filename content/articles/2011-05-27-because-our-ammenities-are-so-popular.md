@@ -1,7 +1,7 @@
 ---
 categories:
-- Business &amp; Leadership
-- Design &amp; UX
+- Business and Leadership
+- Design and UX
 date: '2011-05-27'
 url: /because-our-ammenities-are-so-popular/
 title: Because our ammenities are so popular&#8230;

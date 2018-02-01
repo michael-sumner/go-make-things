@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-11-13'
 url: /how-much-revenue-is-your-slow-website-costing-you/
 title: How much revenue is your slow website costing you?

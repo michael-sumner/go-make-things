@@ -1,7 +1,6 @@
 ---
 categories:
-- Art &amp; Science
-- Uncategorized
+- Art and Science
 date: '2011-02-25'
 url: /the-four-chord-pop-song/
 title: The Four-Chord Pop Song

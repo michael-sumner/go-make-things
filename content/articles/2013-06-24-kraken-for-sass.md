@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-06-24'
 url: /kraken-for-sass/
 title: Kraken for Sass

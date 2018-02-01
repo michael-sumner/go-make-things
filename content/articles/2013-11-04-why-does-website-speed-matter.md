@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-11-04'
 url: /why-does-website-speed-matter/
 title: Why does website speed matter?

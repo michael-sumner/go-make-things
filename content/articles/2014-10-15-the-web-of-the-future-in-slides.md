@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2014-10-15'
 url: /the-web-of-the-future-in-slides/
 title: The web of the future&#8230; in slides

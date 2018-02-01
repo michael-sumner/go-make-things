@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-24'
 url: /the-coffee-analogy/
 title: The Coffee Analogy

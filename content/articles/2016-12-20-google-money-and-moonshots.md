@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2016-12-20'
 url: /google-money-and-moonshots/
 title: Google, money, and moonshots

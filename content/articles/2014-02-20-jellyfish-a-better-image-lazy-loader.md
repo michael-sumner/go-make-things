@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2014-02-20'
 url: /jellyfish-a-better-image-lazy-loader/
 title: Jellyfish, a better image lazy loader

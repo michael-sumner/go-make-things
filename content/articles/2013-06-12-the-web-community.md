@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-06-12'
 url: /the-web-community/
 title: The Web Community

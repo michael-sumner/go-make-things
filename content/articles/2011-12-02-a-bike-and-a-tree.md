@@ -1,7 +1,6 @@
 ---
 categories:
-- Art &amp; Science
-- Uncategorized
+- Art and Science
 date: '2011-12-02'
 url: /a-bike-and-a-tree/
 title: A bike and a tree

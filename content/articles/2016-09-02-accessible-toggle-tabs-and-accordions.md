@@ -2,7 +2,7 @@
 categories:
 - Code
 - CSS
-- Design &amp; UX
+- Design and UX
 - JavaScript
 date: '2016-09-02'
 url: /accessible-toggle-tabs-and-accordions/

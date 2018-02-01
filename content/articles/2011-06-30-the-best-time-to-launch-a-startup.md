@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-06-30'
 url: /the-best-time-to-launch-a-startup/
 title: The best time to launch a startup

@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-02-08'
 url: /you-cant-please-everyone/
 title: You can&#8217;t please everyone

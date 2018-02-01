@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Design &amp; UX
+- Art and Science
+- Design and UX
 date: '2016-10-24'
 url: /the-best-of-youtube/
 title: The best of YouTube

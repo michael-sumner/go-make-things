@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2012-02-01'
 url: /dark-patterns/
 title: Dark Patterns in User Interface

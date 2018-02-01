@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2012-01-13'
 url: /ikea-career-instructions/
 title: 'IKEA: Career Instructions'

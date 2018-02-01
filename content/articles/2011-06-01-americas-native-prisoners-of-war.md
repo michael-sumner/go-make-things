@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-06-01'
 url: /americas-native-prisoners-of-war/
 title: America&#8217;s Native Prisoners of War

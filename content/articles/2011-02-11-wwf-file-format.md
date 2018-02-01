@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Design &amp; UX
+- Art and Science
+- Design and UX
 date: '2011-02-11'
 url: /wwf-file-format/
 title: The (almost) genius new WWF file format

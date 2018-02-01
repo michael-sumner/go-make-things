@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-03-04'
 url: /youve-gotta-be-kitten-me/
 title: You&#8217;ve gotta be kitten me

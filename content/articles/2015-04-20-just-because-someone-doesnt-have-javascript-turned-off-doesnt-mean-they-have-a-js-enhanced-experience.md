@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-04-20'
 url: /just-because-someone-doesnt-have-javascript-turned-off-doesnt-mean-they-have-a-js-enhanced-experience/
 title: Just because someone doesn&#8217;t have JavaScript turned off doesn&#8217;t mean they have a JS-enhanced experience

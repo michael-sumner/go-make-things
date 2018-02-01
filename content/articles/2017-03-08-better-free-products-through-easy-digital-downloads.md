@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 - WordPress
 date: '2017-03-08'
 url: /better-free-products-through-easy-digital-downloads/

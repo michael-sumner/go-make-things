@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
+- Art and Science
+- Business and Leadership
 date: '2011-04-07'
 url: /the-stories-you-havent-heard/
 title: The Stories You Haven&#8217;t Heard

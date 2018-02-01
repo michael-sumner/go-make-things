@@ -3,7 +3,7 @@ categories:
 - Accessibility
 - Code
 - CSS
-- Design &amp; UX
+- Design and UX
 date: '2016-12-13'
 url: /a11y-and-text-just-for-screen-readers/
 title: a11y and text just for screen readers

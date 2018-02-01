@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-09-20'
 url: /what-is-intelligence-anyway/
 title: What is intelligence, anyway?

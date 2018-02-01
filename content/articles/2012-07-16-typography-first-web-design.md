@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2012-07-16'
 url: /typography-first-web-design/
 title: Typography First Web Design

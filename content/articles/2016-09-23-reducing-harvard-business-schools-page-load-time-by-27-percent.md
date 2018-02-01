@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2016-09-23'
 url: /reducing-harvard-business-schools-page-load-time-by-27-percent/
 title: Reducing Harvard Business School&#8217;s page load time by 27 percent in 15 minutes

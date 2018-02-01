@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2014-09-24'
 url: /the-invisible-people/
 title: The Invisible People

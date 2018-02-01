@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-11-16'
 url: /design-for-color-blindness/
 title: Are you making your site unusable for 13 million people?

@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-23'
 url: /better-backup/
 title: Better Backup

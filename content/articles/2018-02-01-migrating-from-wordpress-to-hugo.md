@@ -5,7 +5,7 @@ draft: false
 categories:
 - Code
 - CSS
-- Design &amp; UX
+- Design and UX
 - HTML
 - Web Performance
 - WordPress

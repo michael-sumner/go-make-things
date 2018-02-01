@@ -1,7 +1,7 @@
 ---
 categories:
 - Accessibility
-- Design &amp; UX
+- Design and UX
 date: '2016-01-25'
 url: /inaccessible-websites-are-a-legal-liability/
 title: Inaccessible websites are a legal liability

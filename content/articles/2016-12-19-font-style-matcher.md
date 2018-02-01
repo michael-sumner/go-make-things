@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2016-12-19'
 url: /font-style-matcher/
 title: Font Style Matcher

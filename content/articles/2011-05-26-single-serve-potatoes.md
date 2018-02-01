@@ -1,7 +1,7 @@
 ---
 categories:
-- Business &amp; Leadership
-- Design &amp; UX
+- Business and Leadership
+- Design and UX
 date: '2011-05-26'
 url: /single-serve-potatoes/
 title: Single Serve Potatoes

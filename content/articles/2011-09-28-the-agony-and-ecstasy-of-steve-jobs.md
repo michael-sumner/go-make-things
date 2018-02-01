@@ -1,8 +1,7 @@
 ---
 categories:
-- Business &amp; Leadership
-- Design &amp; UX
-- Uncategorized
+- Business and Leadership
+- Design and UX
 date: '2011-09-28'
 url: /the-agony-and-ecstasy-of-steve-jobs/
 title: The Agony and Ecstasy of Steve Jobs

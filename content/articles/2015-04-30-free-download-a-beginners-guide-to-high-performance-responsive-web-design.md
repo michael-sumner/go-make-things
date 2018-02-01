@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 - Web Performance
 date: '2015-04-30'
 url: /free-download-a-beginners-guide-to-high-performance-responsive-web-design/

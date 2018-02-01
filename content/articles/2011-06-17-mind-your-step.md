@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-06-17'
 url: /mind-your-step/
 title: Mind Your Step

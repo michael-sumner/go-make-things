@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-07-05'
 url: /being-bored/
 title: Being Bored

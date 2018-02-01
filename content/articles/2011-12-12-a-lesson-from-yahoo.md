@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-12-12'
 url: /a-lesson-from-yahoo/
 title: A lesson from Yahoo&#8230;

@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 - JavaScript
 date: '2018-01-03'
 url: /how-to-toggle-password-visibility-with-vanilla-javascript/

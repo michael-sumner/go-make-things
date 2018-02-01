@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-03-02'
 url: /do-less-do-better/
 title: Do less. Do better.

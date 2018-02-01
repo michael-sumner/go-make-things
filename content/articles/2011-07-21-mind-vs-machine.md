@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-07-21'
 url: /mind-vs-machine/
 title: Mind vs. Machine

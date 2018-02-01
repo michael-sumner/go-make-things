@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2016-08-22'
 url: /my-three-principles-for-web-design-and-development/
 title: My three principles for building for the web

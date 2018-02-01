@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2012-02-27'
 url: /the-art-of-beer/
 title: The Art of Beer

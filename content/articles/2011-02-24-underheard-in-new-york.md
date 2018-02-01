@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-02-24'
 url: /underheard-in-new-york/
 title: Underheard in New York

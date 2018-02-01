@@ -1,7 +1,6 @@
 ---
 categories:
-- Art &amp; Science
-- Uncategorized
+- Art and Science
 date: '2012-12-20'
 url: /space-junk/
 title: Space Junk

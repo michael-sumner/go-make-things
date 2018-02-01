@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 - Web Performance
 date: '2015-05-18'
 url: /lightning-fast-tapping/

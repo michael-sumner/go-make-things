@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-02-25'
 url: /on-the-web-but-not-of-the-web/
 title: On the web, but not of the web

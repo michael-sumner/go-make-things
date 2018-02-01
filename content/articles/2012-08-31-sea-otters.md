@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-31'
 url: /sea-otters/
 title: Sea Otters

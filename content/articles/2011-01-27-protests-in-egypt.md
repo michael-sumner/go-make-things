@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-01-27'
 url: /protests-in-egypt/
 title: Protests in Egypt

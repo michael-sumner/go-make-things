@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-02-04'
 url: /the-united-kingdom-explained/
 title: The United Kingdom Explained

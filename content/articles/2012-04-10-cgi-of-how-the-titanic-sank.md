@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2012-04-10'
 url: /cgi-of-how-the-titanic-sank/
 title: CGI of How the Titanic Sank

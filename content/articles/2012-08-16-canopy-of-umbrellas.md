@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-16'
 url: /canopy-of-umbrellas/
 title: Canopy of Umbrellas

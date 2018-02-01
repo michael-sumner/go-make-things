@@ -1,7 +1,7 @@
 ---
 categories:
-- Business &amp; Leadership
-- Design &amp; UX
+- Business and Leadership
+- Design and UX
 date: '2011-11-29'
 url: /pens-pencils-and-outer-space/
 title: Pens, pencils and outer space

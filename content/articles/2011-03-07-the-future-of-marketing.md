@@ -1,7 +1,7 @@
 ---
 categories:
-- Business &amp; Leadership
-- Design &amp; UX
+- Business and Leadership
+- Design and UX
 date: '2011-03-07'
 url: /the-future-of-marketing/
 title: The Future of Marketing

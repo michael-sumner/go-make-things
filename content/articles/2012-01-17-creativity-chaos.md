@@ -1,7 +1,7 @@
 ---
 categories:
-- Business &amp; Leadership
-- Design &amp; UX
+- Business and Leadership
+- Design and UX
 date: '2012-01-17'
 url: /creativity-chaos/
 title: Creativity &#038; Chaos

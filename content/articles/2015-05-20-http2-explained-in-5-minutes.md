@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 - Web Performance
 date: '2015-05-20'
 url: /http2-explained-in-5-minutes/

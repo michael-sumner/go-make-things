@@ -1,7 +1,6 @@
 ---
 categories:
 - Technology
-- Uncategorized
 date: '2012-01-02'
 url: /my-goal-for-the-new-year/
 title: My goal for the new year

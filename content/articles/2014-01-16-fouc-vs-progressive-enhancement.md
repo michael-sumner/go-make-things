@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2014-01-16'
 url: /fouc-vs-progressive-enhancement/
 title: FOUC vs. Progressive Enhancement

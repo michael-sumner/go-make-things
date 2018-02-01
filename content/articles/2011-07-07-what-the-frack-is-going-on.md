@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-07-07'
 url: /what-the-frack-is-going-on/
 title: What the frack is going on?

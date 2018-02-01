@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-10-02'
 url: /speaking-at-wordcamp-boston-in-a-few-weeks/
 title: Speaking at WordCamp Boston in a few weeks

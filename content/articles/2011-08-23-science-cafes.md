@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-08-23'
 url: /science-cafes/
 title: Science Cafes

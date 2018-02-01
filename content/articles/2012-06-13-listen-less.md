@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 - Technology
 date: '2012-06-13'
 url: /listen-less/

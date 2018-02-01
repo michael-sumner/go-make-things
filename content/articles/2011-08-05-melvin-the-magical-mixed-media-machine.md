@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-08-05'
 url: /melvin-the-magical-mixed-media-machine/
 title: Melvin the Magical Mixed Media Machine

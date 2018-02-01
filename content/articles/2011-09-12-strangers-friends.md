@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-09-12'
 url: /strangers-friends/
 title: Strangers. Friends.

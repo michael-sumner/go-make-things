@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-05-25'
 url: /your-press-release-sucks/
 title: Your Press Release Sucks

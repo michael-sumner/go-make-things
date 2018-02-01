@@ -1,7 +1,7 @@
 ---
 categories:
 - Accessibility
-- Design &amp; UX
+- Design and UX
 date: '2012-04-30'
 url: /resources-for-web-designers/
 title: 17 Free Resources for Web Designers

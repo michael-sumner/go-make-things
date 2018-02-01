@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-03-20'
 url: /kraken-updates/
 title: Kraken Updates

@@ -1,7 +1,7 @@
 ---
 categories:
 - Accessibility
-- Design &amp; UX
+- Design and UX
 date: '2016-05-16'
 url: /coca-cola-freestyle-and-web-accessibility/
 title: Coca Cola Freestyle and Web Accessibility

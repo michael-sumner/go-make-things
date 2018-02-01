@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2012-05-09'
 url: /how-to-have-a-great-meeting/
 title: How to have a great meeting

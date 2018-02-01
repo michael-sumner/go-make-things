@@ -1,7 +1,6 @@
 ---
 categories:
-- Art &amp; Science
-- Uncategorized
+- Art and Science
 date: '2011-06-13'
 url: /lessons-from-the-bamboo/
 title: Lessons from the Bamboo

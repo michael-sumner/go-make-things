@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2013-03-08'
 url: /hero-pit-bull/
 title: Hero Pit Bull

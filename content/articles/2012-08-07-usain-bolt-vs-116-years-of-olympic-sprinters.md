@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-07'
 url: /usain-bolt-vs-116-years-of-olympic-sprinters/
 title: Usain Bolt vs. 116 Years of Olympic Sprinters

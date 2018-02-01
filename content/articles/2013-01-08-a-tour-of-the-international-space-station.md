@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2013-01-08'
 url: /a-tour-of-the-international-space-station/
 title: A tour of the International Space Station

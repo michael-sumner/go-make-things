@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-02-19'
 url: /conversations-not-comps/
 title: Conversations, not comps

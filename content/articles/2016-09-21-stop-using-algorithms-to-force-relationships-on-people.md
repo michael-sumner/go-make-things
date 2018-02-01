@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2016-09-21'
 url: /stop-using-algorithms-to-force-relationships-on-people/
 title: Stop using algorithms to force relationships on people

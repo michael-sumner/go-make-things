@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2012-04-09'
 url: /handmade-leather-goods-and-a-throwaway-society/
 title: Handmade leather goods and a throwaway society

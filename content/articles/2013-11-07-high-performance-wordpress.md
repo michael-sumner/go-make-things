@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-11-07'
 url: /high-performance-wordpress/
 title: High performance WordPress

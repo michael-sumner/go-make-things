@@ -2,7 +2,7 @@
 categories:
 - Accessibility
 - CSS
-- Design &amp; UX
+- Design and UX
 - HTML
 - JavaScript
 - Web Performance

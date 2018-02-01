@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-12-22'
 url: /last-minute-gifts/
 title: Last minute gifts

@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-11-13'
 url: /boost-your-donation-revenue-with-recurring-donations/
 title: Boost your donation revenue with recurring donations

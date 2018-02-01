@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-07-01'
 url: /ipod-magic/
 title: iPod Magic

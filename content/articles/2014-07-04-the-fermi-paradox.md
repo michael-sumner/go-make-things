@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2014-07-04'
 url: /the-fermi-paradox/
 title: The Fermi Paradox

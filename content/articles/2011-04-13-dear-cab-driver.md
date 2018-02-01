@@ -1,7 +1,6 @@
 ---
 categories:
-- Design &amp; UX
-- Uncategorized
+- Design and UX
 date: '2011-04-13'
 url: /dear-cab-driver/
 title: Dear Cab Driver

@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2012-01-30'
 url: /the-anatomy-of-a-redesign/
 title: The Anatomy of a Website Redesign

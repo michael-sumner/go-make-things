@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-09-16'
 url: /you-cant-infer-intent-from-screen-size/
 title: You can&#8217;t infer intent from screen size

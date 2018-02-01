@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2017-09-08'
 url: /sip-color-picker/
 title: Sip Color Picker

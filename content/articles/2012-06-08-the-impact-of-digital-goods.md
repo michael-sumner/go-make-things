@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2012-06-08'
 url: /the-impact-of-digital-goods/
 title: The Impact of Digital Goods

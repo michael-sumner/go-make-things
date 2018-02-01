@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2014-08-22'
 url: /farewell-constant-contact/
 title: Farewell Constant Contact

@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-10-06'
 url: /in-memory-of-steve-jobs/
 title: In Memory of Steve Jobs

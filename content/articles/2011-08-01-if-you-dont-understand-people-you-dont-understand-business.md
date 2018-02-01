@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 - Technology
 date: '2011-08-01'
 url: /if-you-dont-understand-people-you-dont-understand-business/

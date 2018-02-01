@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 - Technology
 date: '2012-05-02'
 url: /free-social-icon-font/

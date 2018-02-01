@@ -1,7 +1,7 @@
 ---
 categories:
 - Accessibility
-- Design &amp; UX
+- Design and UX
 date: '2015-04-24'
 url: /building-websites-that-work-on-an-e-ink-kindle-revisited/
 title: Building websites that work on an e-ink kindle&#8230; revisited

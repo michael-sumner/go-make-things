@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-06-27'
 url: /the-last-uncontacted-tribe/
 title: The Last Uncontacted Tribe

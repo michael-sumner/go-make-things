@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2012-01-26'
 url: /the-things-of-the-future/
 title: The things of the future

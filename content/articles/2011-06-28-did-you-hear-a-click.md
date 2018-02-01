@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-06-28'
 url: /did-you-hear-a-click/
 title: Did you hear a click?

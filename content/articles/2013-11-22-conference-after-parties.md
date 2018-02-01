@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-11-22'
 url: /conference-after-parties/
 title: Conference After-Parties

@@ -1,7 +1,7 @@
 ---
 categories:
 - Accessibility
-- Design &amp; UX
+- Design and UX
 date: '2012-11-07'
 excerpt: Mobile first explained in plain, practical terms
 url: /wtf-is-mobile-first/

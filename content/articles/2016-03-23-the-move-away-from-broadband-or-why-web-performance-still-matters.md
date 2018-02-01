@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2016-03-23'
 url: /the-move-away-from-broadband-or-why-web-performance-still-matters/
 title: The move away from broadband (or why web performance still matters)

@@ -1,7 +1,6 @@
 ---
 categories:
-- Design &amp; UX
-- Uncategorized
+- Design and UX
 date: '2013-03-14'
 url: /do-i-need-an-infographic/
 title: Do I need an infographic?

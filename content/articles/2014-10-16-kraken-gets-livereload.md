@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2014-10-16'
 url: /kraken-gets-livereload/
 title: Kraken gets LiveReload

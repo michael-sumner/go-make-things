@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2014-04-07'
 url: /joining-constant-contact/
 title: Joining Constant Contact

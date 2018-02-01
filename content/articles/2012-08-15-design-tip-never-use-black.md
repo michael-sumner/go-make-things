@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-15'
 url: /design-tip-never-use-black/
 title: 'Design Tip: Never Use Black'

@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 - Technology
 date: '2014-11-26'
 url: /web-apps-vs-native-apps/

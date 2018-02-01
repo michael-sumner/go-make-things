@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-10-21'
 url: /flying-above-the-aurora-australis/
 title: Flying above the Aurora Australis

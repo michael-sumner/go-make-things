@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2011-05-30'
 url: /the-art-of-making/
 title: The Art of Making

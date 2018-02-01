@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2011-12-20'
 url: /honey-ginger-julep/
 title: Honey Ginger Julep

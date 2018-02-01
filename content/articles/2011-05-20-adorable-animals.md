@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-05-20'
 url: /adorable-animals/
 title: Adorable Animals

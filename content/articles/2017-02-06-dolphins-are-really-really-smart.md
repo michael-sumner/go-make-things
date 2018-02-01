@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2017-02-06'
 url: /dolphins-are-really-really-smart/
 title: Dolphins are really, really smart!

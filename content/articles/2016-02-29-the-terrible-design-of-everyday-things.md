@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2016-02-29'
 url: /the-terrible-design-of-everyday-things/
 title: The terrible design of everyday things

@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-02-26'
 url: /im-not-going-to-download-your-app-part-2/
 title: I&#8217;m not going to download your app (part 2)

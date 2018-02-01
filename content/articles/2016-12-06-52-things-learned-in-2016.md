@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Design &amp; UX
+- Art and Science
+- Design and UX
 date: '2016-12-06'
 url: /52-things-learned-in-2016/
 title: 52 things learned in 2016

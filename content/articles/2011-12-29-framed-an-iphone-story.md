@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-12-29'
 url: /framed-an-iphone-story/
 title: Framed, an iPhone story

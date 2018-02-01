@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2012-11-28'
 excerpt: Should you support IE 6 and 7 in responsive web design?
 url: /what-responsive-web-design-is-and-isnt/

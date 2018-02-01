@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 - Technology
 date: '2012-12-03'
 excerpt: Last month, my team ordered a new iPad for testing and experimenting with new learning tools. A few days later, Apple released the <em>new</em> new iPad.

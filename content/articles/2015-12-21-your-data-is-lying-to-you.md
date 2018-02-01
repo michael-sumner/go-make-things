@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-12-21'
 url: /your-data-is-lying-to-you/
 title: Your data is lying to you

@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-09-22'
 url: /double-stop-motion/
 title: Double Stop Motion

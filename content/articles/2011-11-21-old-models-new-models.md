@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2011-11-21'
 url: /old-models-new-models/
 title: Old models. New models.

@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-06-06'
 url: /one-nation-under-dog/
 title: One Nation, Under Dog

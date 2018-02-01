@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-06-07'
 url: /tupac-vs-biggie/
 title: Tupac vs. Biggie

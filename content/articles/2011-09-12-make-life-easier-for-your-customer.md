@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-09-12'
 url: /make-life-easier-for-your-customer/
 title: Make life easier for your customer

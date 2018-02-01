@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2014-01-29'
 url: /2g-data-networks-in-2014/
 title: 2G Data Networks in 2014

@@ -1,8 +1,8 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
-- Design &amp; UX
+- Art and Science
+- Business and Leadership
+- Design and UX
 date: '2011-02-28'
 url: /soda-sustainability/
 title: Soda &#038; Sustainability

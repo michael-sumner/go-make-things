@@ -3,7 +3,7 @@ categories:
 - Accessibility
 - Code
 - CSS
-- Design &amp; UX
+- Design and UX
 date: '2016-04-11'
 url: /hidden-content-for-better-a11y/
 title: Hidden content for better a11y

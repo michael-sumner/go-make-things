@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 - JavaScript
 date: '2017-06-12'
 url: /how-i-structure-my-vanilla-javascript-plugins-video/

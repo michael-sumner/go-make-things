@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2017-07-26'
 url: /my-hip-hop-top-5/
 title: My Hip-Hop Top 5

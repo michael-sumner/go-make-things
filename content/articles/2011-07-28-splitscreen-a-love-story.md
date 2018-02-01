@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-07-28'
 url: /splitscreen-a-love-story/
 title: 'Splitscreen: A Love Story'

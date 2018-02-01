@@ -1,7 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
-- Uncategorized
+- Business and Leadership
 date: '2011-12-26'
 url: /1000-photos-in-your-pocket/
 title: 1,000 photos in your pocket

@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2016-11-22'
 url: /westworld-influences/
 title: WestWorld Influences

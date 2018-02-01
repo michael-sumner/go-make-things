@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2014-01-20'
 url: /shopping-cart-ux/
 title: Shopping Cart UX

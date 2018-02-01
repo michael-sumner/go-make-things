@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2014-11-24'
 url: /why-progressive-enhancement-still-matters/
 title: Why progressive enhancement still matters

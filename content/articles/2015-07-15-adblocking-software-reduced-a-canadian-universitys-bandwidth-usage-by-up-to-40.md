@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-07-15'
 url: /adblocking-software-reduced-a-canadian-universitys-bandwidth-usage-by-up-to-40/
 title: Adblocking software reduced a Canadian university&#8217;s bandwidth usage by up to 40%

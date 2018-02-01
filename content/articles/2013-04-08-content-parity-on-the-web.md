@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-04-08'
 url: /content-parity-on-the-web/
 title: Content Parity on the Web

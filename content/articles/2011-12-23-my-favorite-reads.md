@@ -1,7 +1,7 @@
 ---
 categories:
-- Business &amp; Leadership
-- Design &amp; UX
+- Business and Leadership
+- Design and UX
 - Technology
 date: '2011-12-23'
 url: /my-favorite-reads/

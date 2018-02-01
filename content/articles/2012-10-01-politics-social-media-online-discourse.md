@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-10-01'
 url: /politics-social-media-online-discourse/
 title: Politics, Social Media &#038; Online Discourse

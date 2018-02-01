@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2014-09-15'
 url: /joining-mashery/
 title: Joining Mashery

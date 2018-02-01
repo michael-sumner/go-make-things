@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2014-03-28'
 url: /jam-of-the-week-turn-down-for-what/
 title: 'Jam of the Week: Turn Down for What'

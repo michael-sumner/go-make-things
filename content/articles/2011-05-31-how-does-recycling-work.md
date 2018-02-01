@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
+- Art and Science
+- Business and Leadership
 date: '2011-05-31'
 url: /how-does-recycling-work/
 title: How does recycling work?

@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 - JavaScript
 date: '2018-01-04'
 url: /creating-a-toggle-password-plugin-with-vanilla-javascript/

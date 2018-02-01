@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-07-13'
 url: /the-best-of-the-week-7132012/
 title: The Best of the Week &#8211; 7/13/2012

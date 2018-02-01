@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-09-23'
 url: /baddest-witch/
 title: Baddest Witch

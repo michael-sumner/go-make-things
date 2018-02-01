@@ -1,8 +1,7 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 - Technology
-- Uncategorized
 date: '2013-04-10'
 url: /a-real-newspaper/
 title: A Real Newspaper

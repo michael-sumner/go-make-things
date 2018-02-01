@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-04-03'
 url: /the-point-of-responsive-web-design/
 title: The Point of Responsive Web Design

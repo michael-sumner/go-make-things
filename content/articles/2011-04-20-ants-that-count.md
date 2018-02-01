@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-04-20'
 url: /ants-that-count/
 title: Ants That Count

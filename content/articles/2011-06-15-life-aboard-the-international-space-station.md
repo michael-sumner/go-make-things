@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-06-15'
 url: /life-aboard-the-international-space-station/
 title: Life Aboard the International Space Station

@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 - Web Performance
 date: '2016-03-21'
 url: /free-web-talk-measuring-web-performance/

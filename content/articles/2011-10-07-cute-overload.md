@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-10-07'
 url: /cute-overload/
 title: Cute Overload

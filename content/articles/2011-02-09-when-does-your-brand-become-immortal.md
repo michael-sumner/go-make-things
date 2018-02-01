@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-02-09'
 url: /when-does-your-brand-become-immortal/
 title: When does your brand become immortal?

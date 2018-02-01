@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-09-16'
 url: /go-make-things-wallpaper/
 title: Go Make Things Wallpaper

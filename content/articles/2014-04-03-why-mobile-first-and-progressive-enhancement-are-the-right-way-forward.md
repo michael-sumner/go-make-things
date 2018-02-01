@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2014-04-03'
 url: /why-mobile-first-and-progressive-enhancement-are-the-right-way-forward/
 title: Why mobile-first and progressive enhancement are the right way forward

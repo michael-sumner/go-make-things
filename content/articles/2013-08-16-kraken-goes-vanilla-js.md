@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-08-16'
 url: /kraken-goes-vanilla-js/
 title: Kraken goes vanilla JS

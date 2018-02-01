@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2013-04-19'
 url: /best-i-could/
 title: Best I Could

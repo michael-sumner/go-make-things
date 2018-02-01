@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-05-19'
 url: /enthusiasm-is-infectious/
 title: Monkeys, Apes &#038; Enthusiasm

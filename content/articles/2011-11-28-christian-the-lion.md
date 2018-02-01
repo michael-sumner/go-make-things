@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-11-28'
 url: /christian-the-lion/
 title: Christian the Lion

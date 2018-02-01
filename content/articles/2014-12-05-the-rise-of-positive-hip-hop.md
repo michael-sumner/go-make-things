@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2014-12-05'
 url: /the-rise-of-positive-hip-hop/
 title: The rise of positive hip-hop

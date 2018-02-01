@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-08-23'
 url: /building-your-own-vanilla-js-framework/
 title: Building your own vanilla JS framework

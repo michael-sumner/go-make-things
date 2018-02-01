@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 - Technology
 date: '2012-10-19'
 excerpt: Why one of my coworkers is switching from an iPhone back to a BlackBerry... and why it matters for you.

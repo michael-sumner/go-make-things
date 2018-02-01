@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2012-04-27'
 url: /posters-of-the-past/
 title: Posters of the past

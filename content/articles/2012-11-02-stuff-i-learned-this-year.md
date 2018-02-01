@@ -1,7 +1,7 @@
 ---
 categories:
 - Accessibility
-- Design &amp; UX
+- Design and UX
 date: '2012-11-02'
 excerpt: What I've learned from various projects (both big and small) this year.
 url: /stuff-i-learned-this-year/

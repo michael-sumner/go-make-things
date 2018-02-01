@@ -1,7 +1,7 @@
 ---
 categories:
-- Business &amp; Leadership
-- Design &amp; UX
+- Business and Leadership
+- Design and UX
 - Technology
 date: '2011-05-05'
 url: /make-subscriptions-opt-in/

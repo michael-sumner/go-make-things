@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 - JavaScript
 - Web Performance
 date: '2017-05-19'

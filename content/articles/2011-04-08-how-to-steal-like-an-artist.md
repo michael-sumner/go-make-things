@@ -1,8 +1,8 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
-- Design &amp; UX
+- Art and Science
+- Business and Leadership
+- Design and UX
 date: '2011-04-08'
 url: /how-to-steal-like-an-artist/
 title: How to Steal Like An Artist

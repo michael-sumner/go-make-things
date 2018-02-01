@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2013-10-03'
 url: /extra-history/
 title: Extra History

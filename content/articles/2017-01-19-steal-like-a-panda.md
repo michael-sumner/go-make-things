@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2017-01-19'
 url: /steal-like-a-panda/
 title: Steal like a Panda

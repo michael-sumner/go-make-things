@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-02-18'
 url: /frameworks-boilerplates-and-kraken/
 title: Frameworks, Boilerplates, and Kraken

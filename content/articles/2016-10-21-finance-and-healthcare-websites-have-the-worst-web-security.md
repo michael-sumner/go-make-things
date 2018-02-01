@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2016-10-21'
 url: /finance-and-healthcare-websites-have-the-worst-web-security/
 title: Finance and healthcare websites have the worst web security

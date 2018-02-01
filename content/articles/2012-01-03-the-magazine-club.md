@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-01-03'
 url: /the-magazine-club/
 title: The Magazine Club

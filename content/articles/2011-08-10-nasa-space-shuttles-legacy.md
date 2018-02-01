@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-08-10'
 url: /nasa-space-shuttles-legacy/
 title: 'NASA: A Space Shuttle&#8217;s Legacy'

@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Design &amp; UX
+- Art and Science
+- Design and UX
 date: '2011-06-29'
 url: /the-safety-net/
 title: The Safety Net

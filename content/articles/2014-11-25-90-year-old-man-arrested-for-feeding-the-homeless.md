@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2014-11-25'
 url: /90-year-old-man-arrested-for-feeding-the-homeless/
 title: 90-year-old man arrested for feeding the homeless

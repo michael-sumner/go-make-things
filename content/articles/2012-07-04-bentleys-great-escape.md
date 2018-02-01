@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-07-04'
 url: /bentleys-great-escape/
 title: Bentley&#8217;s Great Escape

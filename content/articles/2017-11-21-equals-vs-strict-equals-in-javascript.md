@@ -1,6 +1,7 @@
 ---
 categories:
-- Uncategorized
+- Code
+- JavaScript
 date: '2017-11-21'
 url: /equals-vs-strict-equals-in-javascript/
 title: Equals (==) vs Strict Equals (===) in JavaScript

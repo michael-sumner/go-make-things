@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-12-28'
 url: /death-to-pennies/
 title: Death to Pennies!

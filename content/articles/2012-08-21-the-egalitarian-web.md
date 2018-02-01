@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-21'
 url: /the-egalitarian-web/
 title: The Egalitarian Web

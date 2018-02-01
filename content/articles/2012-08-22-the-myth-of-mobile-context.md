@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-22'
 url: /the-myth-of-mobile-context/
 title: The Myth of Mobile Context

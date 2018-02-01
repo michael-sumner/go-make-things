@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
+- Art and Science
+- Business and Leadership
 - Technology
 date: '2011-04-11'
 url: /the-koh-panyee-football-team/

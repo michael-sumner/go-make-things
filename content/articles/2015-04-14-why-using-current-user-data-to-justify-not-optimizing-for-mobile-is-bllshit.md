@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-04-14'
 url: /why-using-current-user-data-to-justify-not-optimizing-for-mobile-is-bllshit/
 title: Why using current user data to justify not optimizing for mobile is b*llshit

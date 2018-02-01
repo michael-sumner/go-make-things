@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-07-19'
 url: /creative-leadership/
 title: Creative Leadership

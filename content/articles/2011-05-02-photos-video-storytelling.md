@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-05-02'
 url: /photos-video-storytelling/
 title: Photos, Video &#038; Storytelling

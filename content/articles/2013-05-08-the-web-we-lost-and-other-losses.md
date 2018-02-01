@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 - Technology
 date: '2013-05-08'
 url: /the-web-we-lost-and-other-losses/

@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2016-01-11'
 url: /its-about-more-than-mobile/
 title: It&#8217;s about more than mobile

@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-06-20'
 url: /alienate-the-right-people/
 title: Alienate the Right People

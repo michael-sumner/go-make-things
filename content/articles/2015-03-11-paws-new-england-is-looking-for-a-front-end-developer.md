@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2015-03-11'
 url: /paws-new-england-is-looking-for-a-front-end-developer/
 title: PAWS New England is looking for a front-end developer

@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-10-17'
 url: /a-better-measure-of-workplace-diversity/
 title: A better measure of workplace diversity

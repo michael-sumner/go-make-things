@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
+- Art and Science
+- Business and Leadership
 date: '2011-08-02'
 url: /in-gredients/
 title: in.gredients

@@ -1,7 +1,6 @@
 ---
 categories:
-- Art &amp; Science
-- Uncategorized
+- Art and Science
 date: '2012-09-18'
 url: /animation/
 title: Animation

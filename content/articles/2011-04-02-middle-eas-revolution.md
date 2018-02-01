@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-04-02'
 url: /middle-eas-revolution/
 title: The Middle Eastern Revolution

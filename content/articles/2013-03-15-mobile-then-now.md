@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 - Technology
 date: '2013-03-15'
 url: /mobile-then-now/

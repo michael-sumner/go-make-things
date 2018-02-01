@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-02-28'
 url: /the-serif-readability-myth/
 title: The Serif Readability Myth

@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-09-18'
 url: /the-challenges-of-data-driven-design/
 title: The Challenges of Data-Driven Design

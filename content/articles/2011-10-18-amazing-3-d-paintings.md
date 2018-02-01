@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-10-18'
 url: /amazing-3-d-paintings/
 title: Amazing 3-D Paintings

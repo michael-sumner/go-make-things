@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 - JavaScript
 date: '2017-05-22'
 url: /social-sharing-buttons-are-pointless-except-when-theyre-not/

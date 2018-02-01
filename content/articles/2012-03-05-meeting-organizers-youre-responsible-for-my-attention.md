@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2012-03-05'
 url: /meeting-organizers-youre-responsible-for-my-attention/
 title: 'Meeting Organizers: You&#8217;re Responsible for my Attention'

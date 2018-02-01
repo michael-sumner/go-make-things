@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-09'
 url: /perseverance/
 title: Perseverance

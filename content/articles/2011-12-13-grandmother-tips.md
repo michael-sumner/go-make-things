@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 - Technology
 date: '2011-12-13'
 url: /grandmother-tips/

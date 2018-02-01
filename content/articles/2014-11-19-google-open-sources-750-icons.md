@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2014-11-19'
 url: /google-open-sources-750-icons/
 title: Google open-sources 750 icons

@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-08-26'
 url: /the-hot-dog-conundrum/
 title: The Hot Dog Conundrum

@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-02-21'
 url: /cnn-hero-narayanan-krishnan/
 title: CNN Hero Narayanan Krishnan

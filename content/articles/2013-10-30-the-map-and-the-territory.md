@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-10-30'
 url: /the-map-and-the-territory/
 title: The Map and the Territory

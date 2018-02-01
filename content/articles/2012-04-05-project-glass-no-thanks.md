@@ -1,8 +1,8 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
-- Design &amp; UX
+- Art and Science
+- Business and Leadership
+- Design and UX
 date: '2012-04-05'
 url: /project-glass-no-thanks/
 title: Project Glass? No thanks!

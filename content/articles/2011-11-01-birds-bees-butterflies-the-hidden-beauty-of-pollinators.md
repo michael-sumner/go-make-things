@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-11-01'
 url: /birds-bees-butterflies-the-hidden-beauty-of-pollinators/
 title: 'Birds, Bees &#038; Butterflies: The Hidden Beauty of Pollinators'

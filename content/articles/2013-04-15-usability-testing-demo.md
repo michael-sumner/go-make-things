@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-04-15'
 url: /usability-testing-demo/
 title: Usability Testing Demo

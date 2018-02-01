@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-11-30'
 url: /murmuration/
 title: Murmuration

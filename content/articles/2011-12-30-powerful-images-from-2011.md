@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-12-30'
 url: /powerful-images-from-2011/
 title: Powerful images from 2011

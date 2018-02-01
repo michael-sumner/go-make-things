@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-28'
 url: /homeless-hungry/
 title: Homeless &#038; Hungry

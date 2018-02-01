@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-09-25'
 url: /wordpress-plugins-vs-functions/
 title: 'WordPress: Plugins vs. Functions'

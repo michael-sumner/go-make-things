@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-10-26'
 url: /the-scroll-and-ereader/
 title: The Scroll and eReader

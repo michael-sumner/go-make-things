@@ -1,7 +1,6 @@
 ---
 categories:
-- Art &amp; Science
-- Uncategorized
+- Art and Science
 date: '2011-11-16'
 url: /industrial-revolutions/
 title: Industrial Revolutions

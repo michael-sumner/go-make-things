@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-02-14'
 url: /good-design-is-visibile/
 title: Good design is visibile

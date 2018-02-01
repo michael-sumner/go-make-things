@@ -7,7 +7,7 @@ categories:
 - Careers
 - Code
 - CSS
-- Design &amp; UX
+- Design and UX
 - HTML
 - JavaScript
 - Web Performance

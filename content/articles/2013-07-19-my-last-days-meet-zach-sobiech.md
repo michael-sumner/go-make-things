@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2013-07-19'
 url: /my-last-days-meet-zach-sobiech/
 title: 'My Last Days: Meet Zach Sobiech'

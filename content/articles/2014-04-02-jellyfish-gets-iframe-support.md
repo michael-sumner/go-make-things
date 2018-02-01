@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2014-04-02'
 url: /jellyfish-gets-iframe-support/
 title: Jellyfish gets iframe support

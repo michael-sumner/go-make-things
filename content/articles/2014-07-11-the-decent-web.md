@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2014-07-11'
 url: /the-decent-web/
 title: The Decent Web

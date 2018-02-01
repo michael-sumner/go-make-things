@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-10'
 url: /the-view-from-the-international-space-station/
 title: The View from the International Space Station

@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2012-01-16'
 url: /ending-hunger-now/
 title: Ending Hunger Now

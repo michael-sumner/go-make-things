@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2011-04-22'
 url: /paper-record-player-wedding-invitation/
 title: Paper Record Player / Wedding Invitation

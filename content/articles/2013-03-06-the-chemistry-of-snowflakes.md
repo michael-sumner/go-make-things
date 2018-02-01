@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2013-03-06'
 url: /the-chemistry-of-snowflakes/
 title: The Chemistry of Snowflakes

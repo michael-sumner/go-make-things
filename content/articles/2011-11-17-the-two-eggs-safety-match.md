@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2011-11-17'
 url: /the-two-eggs-safety-match/
 title: The Two Eggs Safety Match

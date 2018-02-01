@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 - Technology
 date: '2011-03-16'
 url: /flattr-and-why-paying-for-free-content-is-stupid/

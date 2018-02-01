@@ -2,7 +2,7 @@
 title: "Another Way to Make Links More Accessible"
 date: 2018-01-19T10:46:33-05:00
 draft: false
-categories: ["Accessibility", "CSS", "Design & UX", "HTML"]
+categories: ["Accessibility", "CSS", "Design and UX", "HTML"]
 ---
 
 Reader [Robbert de Kuiper](http://www.robbertdekuiper.com/) emailed me after [yesterday's article](/improving-link-legibility-with-two-lines-of-css/) to share another approach for making links for accessible: `border-bottom`.

@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-10-11'
 url: /make-time-less-precious/
 title: Make Time Less Precious

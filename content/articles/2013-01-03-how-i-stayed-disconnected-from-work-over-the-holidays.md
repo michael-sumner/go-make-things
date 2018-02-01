@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2013-01-03'
 url: /how-i-stayed-disconnected-from-work-over-the-holidays/
 title: How I stayed disconnected from work over the holidays

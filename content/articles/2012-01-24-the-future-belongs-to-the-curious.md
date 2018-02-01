@@ -1,8 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
-- Uncategorized
+- Art and Science
+- Business and Leadership
 date: '2012-01-24'
 url: /the-future-belongs-to-the-curious/
 title: The Future Belongs to the Curious

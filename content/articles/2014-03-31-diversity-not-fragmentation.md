@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2014-03-31'
 url: /diversity-not-fragmentation/
 title: Diversity, not fragmentation

@@ -2,7 +2,7 @@
 categories:
 - Code
 - CSS
-- Design &amp; UX
+- Design and UX
 - HTML
 date: '2018-01-10'
 url: /the-right-way-to-customize-radio-buttons-and-checkboxes/

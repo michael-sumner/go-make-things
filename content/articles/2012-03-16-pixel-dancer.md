@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2012-03-16'
 url: /pixel-dancer/
 title: Pixel Dancer

@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-13'
 url: /on-being-idle/
 title: On Being Idle

@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2014-06-20'
 url: /disabling-comments/
 title: Disabling Comments

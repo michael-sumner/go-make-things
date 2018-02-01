@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-11-11'
 url: /who-invented-the-high-five/
 title: Who invented the high five?

@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-04-14'
 url: /everything-im-not/
 title: Everything I&#8217;m Not&#8230;

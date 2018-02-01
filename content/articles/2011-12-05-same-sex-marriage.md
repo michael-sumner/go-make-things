@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-12-05'
 url: /same-sex-marriage/
 title: Same Sex Marriage

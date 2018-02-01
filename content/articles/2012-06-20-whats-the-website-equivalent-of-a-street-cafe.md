@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 - Technology
 date: '2012-06-20'
 url: /whats-the-website-equivalent-of-a-street-cafe/

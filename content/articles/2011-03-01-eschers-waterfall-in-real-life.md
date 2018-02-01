@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Design &amp; UX
+- Art and Science
+- Design and UX
 date: '2011-03-01'
 url: /eschers-waterfall-in-real-life/
 title: Escher&#8217;s Waterfall in Real Life

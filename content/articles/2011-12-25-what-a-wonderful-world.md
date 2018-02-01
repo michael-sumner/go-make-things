@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-12-25'
 url: /what-a-wonderful-world/
 title: What a wonderful world

@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-07-24'
 url: /wicked-fast-wordpress/
 title: Wicked Fast WordPress

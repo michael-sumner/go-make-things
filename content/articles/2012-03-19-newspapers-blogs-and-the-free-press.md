@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
+- Art and Science
+- Business and Leadership
 - Technology
 date: '2012-03-19'
 url: /newspapers-blogs-and-the-free-press/

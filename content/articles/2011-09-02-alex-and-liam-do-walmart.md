@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-09-02'
 url: /alex-and-liam-do-walmart/
 title: Alex and Liam do Walmart

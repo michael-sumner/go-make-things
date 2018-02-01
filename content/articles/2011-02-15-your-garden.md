@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-02-15'
 url: /your-garden/
 title: Your Garden

@@ -1,8 +1,8 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2016-10-10'
 url: /wicked-fast-websites-at-wordcamp-ri-2016/
 title: Wicked Fast Websites at WordCamp RI 2016

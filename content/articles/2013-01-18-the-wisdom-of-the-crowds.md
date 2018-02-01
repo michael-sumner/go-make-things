@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2013-01-18'
 url: /the-wisdom-of-the-crowds/
 title: The Wisdom of the Crowds

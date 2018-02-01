@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 - WordPress
 date: '2017-07-19'
 url: /adding-a-download-all-link-to-easy-digital-downloads-receipts/

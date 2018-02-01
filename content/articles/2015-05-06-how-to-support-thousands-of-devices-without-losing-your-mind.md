@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2015-05-06'
 url: /how-to-support-thousands-of-devices-without-losing-your-mind/
 title: How to support thousands of devices without losing your mind

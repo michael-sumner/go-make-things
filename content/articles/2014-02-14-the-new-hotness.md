@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2014-02-14'
 url: /the-new-hotness/
 title: The New Hotness

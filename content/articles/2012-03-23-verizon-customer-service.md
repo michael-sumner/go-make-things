@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2012-03-23'
 url: /verizon-customer-service/
 title: How Verizon is willing to lose a customer of 12 years over $120 a year

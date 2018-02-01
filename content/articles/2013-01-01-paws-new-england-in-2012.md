@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2013-01-01'
 url: /paws-new-england-in-2012/
 title: PAWS New England in 2012

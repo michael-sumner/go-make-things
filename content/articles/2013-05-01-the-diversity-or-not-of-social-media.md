@@ -1,8 +1,7 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 - Technology
-- Uncategorized
 date: '2013-05-01'
 url: /the-diversity-or-not-of-social-media/
 title: The diversity (or not) of social media

@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2012-05-16'
 url: /jedi-mind-tricks/
 title: Jedi Mind Tricks

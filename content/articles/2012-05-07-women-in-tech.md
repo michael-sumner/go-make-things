@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2012-05-07'
 url: /women-in-tech/
 title: Women in Tech

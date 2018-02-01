@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Design &amp; UX
+- Art and Science
+- Design and UX
 date: '2011-04-05'
 url: /the-bicycle-city/
 title: The Bicycle City

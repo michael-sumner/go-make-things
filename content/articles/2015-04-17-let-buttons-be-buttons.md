@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-04-17'
 url: /let-buttons-be-buttons/
 title: Let buttons be buttons

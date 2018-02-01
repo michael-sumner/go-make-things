@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2017-07-21'
 url: /feather-icon-set/
 title: Feather Icon Set

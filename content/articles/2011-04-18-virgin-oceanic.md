@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
+- Art and Science
+- Business and Leadership
 date: '2011-04-18'
 url: /virgin-oceanic/
 title: Virgin Oceanic

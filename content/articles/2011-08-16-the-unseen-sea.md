@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-08-16'
 url: /the-unseen-sea/
 title: The Unseen Sea

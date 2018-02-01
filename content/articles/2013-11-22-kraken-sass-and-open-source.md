@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-11-22'
 url: /kraken-sass-and-open-source/
 title: Kraken, Sass, and Open Source

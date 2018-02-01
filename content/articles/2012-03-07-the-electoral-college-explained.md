@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-03-07'
 url: /the-electoral-college-explained/
 title: The Electoral College Explained

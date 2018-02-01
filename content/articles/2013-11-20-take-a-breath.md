@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-11-20'
 url: /take-a-breath/
 title: Take a breath

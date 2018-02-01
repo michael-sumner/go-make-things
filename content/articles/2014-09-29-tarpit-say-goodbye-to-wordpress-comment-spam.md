@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2014-09-29'
 url: /tarpit-say-goodbye-to-wordpress-comment-spam/
 title: 'Tarpit: Say Goodbye to WordPress Comment Spam'

@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2011-03-25'
 url: /dumb-packaging/
 title: Dumb Packaging

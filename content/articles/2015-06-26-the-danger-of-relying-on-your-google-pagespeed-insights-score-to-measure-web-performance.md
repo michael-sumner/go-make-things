@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-06-26'
 url: /the-danger-of-relying-on-your-google-pagespeed-insights-score-to-measure-web-performance/
 title: The danger of relying on your Google PageSpeed Insights score to measure web performance

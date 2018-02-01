@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2014-01-15'
 url: /how-to-build-a-knock-off/
 title: How to build a knock-off

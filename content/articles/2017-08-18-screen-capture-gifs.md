@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 - Technology
 date: '2017-08-18'
 url: /screen-capture-gifs/

@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2016-12-09'
 url: /shia-lebeouf-can-spit/
 title: Shia LeBeouf can spit

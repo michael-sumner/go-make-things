@@ -1,7 +1,6 @@
 ---
 categories:
-- Art &amp; Science
-- Uncategorized
+- Art and Science
 date: '2012-10-15'
 url: /skydiving-from-the-edge-of-space-part-2/
 title: Skydiving from the edge of space (part 2)

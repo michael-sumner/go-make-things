@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2011-11-03'
 url: /tangible-things/
 title: Tangible things

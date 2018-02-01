@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2012-05-11'
 url: /chairs-suck/
 title: Chairs Suck

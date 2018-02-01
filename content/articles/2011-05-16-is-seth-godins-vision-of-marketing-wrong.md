@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-05-16'
 url: /is-seth-godins-vision-of-marketing-wrong/
 title: Is Seth Godin&#8217;s Vision of Marketing Wrong?

@@ -1,7 +1,6 @@
 ---
 categories:
-- Design &amp; UX
-- Uncategorized
+- Design and UX
 date: '2015-05-21'
 url: /announcing-the-spare-parts-newsletter/
 title: Announcing the Spare Parts Newsletter

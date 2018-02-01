@@ -1,7 +1,6 @@
 ---
 categories:
 - Technology
-- Uncategorized
 date: '2012-05-01'
 url: /preserving-classic-video-games/
 title: Preserving classic video games

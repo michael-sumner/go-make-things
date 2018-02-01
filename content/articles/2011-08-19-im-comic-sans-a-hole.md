@@ -1,7 +1,6 @@
 ---
 categories:
-- Design &amp; UX
-- Uncategorized
+- Design and UX
 date: '2011-08-19'
 url: /im-comic-sans-a-hole/
 title: I&#8217;m Comic Sans, A-Hole

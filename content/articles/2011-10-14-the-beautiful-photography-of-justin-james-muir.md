@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-10-14'
 url: /the-beautiful-photography-of-justin-james-muir/
 title: The beautiful photography of Justin James Muir

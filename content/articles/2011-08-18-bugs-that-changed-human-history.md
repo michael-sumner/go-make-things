@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-08-18'
 url: /bugs-that-changed-human-history/
 title: Bugs that changed human history

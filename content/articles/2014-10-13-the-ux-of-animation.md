@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2014-10-13'
 url: /the-ux-of-animation/
 title: The UX of Animation

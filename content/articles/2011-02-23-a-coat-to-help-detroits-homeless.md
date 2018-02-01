@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Design &amp; UX
+- Art and Science
+- Design and UX
 date: '2011-02-23'
 url: /a-coat-to-help-detroits-homeless/
 title: A Coat to Help Detroit&#8217;s Homeless

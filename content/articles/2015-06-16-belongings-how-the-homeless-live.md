@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2015-06-16'
 url: /belongings-how-the-homeless-live/
 title: 'Belongings: How the Homeless Live'

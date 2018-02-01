@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-10-01'
 url: /the-wordpress-for-web-apps-plugin/
 title: The WordPress for Web Apps Plugin

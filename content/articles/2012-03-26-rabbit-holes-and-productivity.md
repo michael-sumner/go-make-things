@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2012-03-26'
 url: /rabbit-holes-and-productivity/
 title: Rabbit holes and productivity

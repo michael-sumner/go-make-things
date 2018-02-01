@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-10-28'
 url: /wicked-fast-websites-wordcamp-boston/
 title: 'Wicked Fast Websites: WordCamp Boston'

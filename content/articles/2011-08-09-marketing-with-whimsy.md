@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-08-09'
 url: /marketing-with-whimsy/
 title: Marketing with whimsy

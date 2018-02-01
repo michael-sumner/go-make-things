@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2012-03-12'
 url: /love-the-internet/
 title: Love the Internet

@@ -1,7 +1,6 @@
 ---
 categories:
-- Art &amp; Science
-- Uncategorized
+- Art and Science
 date: '2011-12-08'
 url: /the-advent-conspiracy/
 title: The Advent Conspiracy

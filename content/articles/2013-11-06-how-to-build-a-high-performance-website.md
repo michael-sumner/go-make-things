@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-11-06'
 url: /how-to-build-a-high-performance-website/
 title: How to build a high performance website

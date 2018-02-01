@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-08-12'
 url: /the-most-interesting-things-moved/
 title: The Most Interesting Things Moved

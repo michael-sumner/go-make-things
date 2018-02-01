@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-08-26'
 url: /writing-your-own-simple-feature-tests/
 title: Writing your own simple feature tests

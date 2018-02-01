@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2016-12-16'
 url: /all-maps-are-inaccurate/
 title: All maps are inaccurate

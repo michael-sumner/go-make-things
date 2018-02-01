@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2016-11-23'
 url: /innovation-and-technology-in-nonprofit/
 title: Innovation and technology in nonprofit

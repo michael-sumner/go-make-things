@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-04-24'
 url: /make-my-friend-shave-his-head/
 title: Make my friend shave his head

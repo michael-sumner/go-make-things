@@ -1,7 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
-- Uncategorized
+- Business and Leadership
 date: '2011-11-04'
 url: /the-right-to-dream/
 title: The right to dream

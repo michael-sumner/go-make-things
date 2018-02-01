@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-08-15'
 url: /mating-with-neanderthals/
 title: Mating with Neanderthals

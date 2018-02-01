@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-11-27'
 url: /empowerment-x-scale/
 title: Empowerment x Scale

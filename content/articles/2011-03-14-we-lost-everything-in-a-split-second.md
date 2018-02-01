@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-03-14'
 url: /we-lost-everything-in-a-split-second/
 title: We lost everything in a split second&#8230;

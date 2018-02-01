@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2016-11-03'
 url: /progressive-enhancement-and-the-next-billion-web-users/
 title: Progressive enhancement, and the next billion web users

@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2015-05-07'
 url: /updates-to-wicked-fast-websites/
 title: Updates to Wicked Fast Websites

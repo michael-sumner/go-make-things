@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-03-03'
 url: /jussjef-the-singing-guitar/
 title: JussJef, the Singing Guitar

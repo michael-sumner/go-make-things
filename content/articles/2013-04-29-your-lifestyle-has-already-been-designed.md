@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2013-04-29'
 url: /your-lifestyle-has-already-been-designed/
 title: Your lifestyle has already been designed

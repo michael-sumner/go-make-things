@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2011-09-01'
 url: /minimalist-fairy-tale-posters/
 title: Minimalist fairy tale posters

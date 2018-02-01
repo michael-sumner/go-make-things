@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-08-05'
 url: /the-wicked-fast-wordpress-workshop/
 title: The Wicked Fast WordPress Workshop

@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-06-17'
 url: /you-dont-need-to-learn-command-line/
 title: You don&#8217;t need to learn command line

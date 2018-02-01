@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-07-26'
 url: /cooking-like-hepburn/
 title: Cooking like Hepburn

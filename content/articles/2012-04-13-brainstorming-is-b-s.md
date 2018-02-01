@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2012-04-13'
 url: /brainstorming-is-b-s/
 title: Brainstorming is B.S.

@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2012-04-16'
 url: /go-make-things-gets-a-refresh/
 title: Go Make Things gets a refresh

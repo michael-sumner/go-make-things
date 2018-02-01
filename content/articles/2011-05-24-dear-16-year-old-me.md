@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-05-24'
 url: /dear-16-year-old-me/
 title: Dear 16-Year-Old Me

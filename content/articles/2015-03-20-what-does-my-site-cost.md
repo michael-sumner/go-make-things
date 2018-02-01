@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-03-20'
 url: /what-does-my-site-cost/
 title: What does my site cost?

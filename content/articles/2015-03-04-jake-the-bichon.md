@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2015-03-04'
 url: /jake-the-bichon/
 title: Jake the Bichon

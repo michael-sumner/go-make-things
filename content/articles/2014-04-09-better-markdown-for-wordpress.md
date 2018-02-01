@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2014-04-09'
 url: /better-markdown-for-wordpress/
 title: Better Markdown for WordPress

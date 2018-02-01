@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-06-24'
 url: /ipad-games-for-cats/
 title: iPad Games for Cats

@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2015-12-21'
 url: /how-to-make-sure-your-website-works-on-thousands-of-devices-without-losing-your-mind/
 title: How to make sure your website works on thousands of devices without losing your mind

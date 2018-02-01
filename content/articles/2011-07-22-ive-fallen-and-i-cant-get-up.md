@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-07-22'
 url: /ive-fallen-and-i-cant-get-up/
 title: I&#8217;ve fallen and I can&#8217;t get up

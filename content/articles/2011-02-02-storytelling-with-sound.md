@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-02-02'
 url: /storytelling-with-sound/
 title: Storytelling with Sound

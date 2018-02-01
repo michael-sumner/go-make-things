@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-12-02'
 url: /release-the-kraken-again/
 title: Release the Kraken (again)

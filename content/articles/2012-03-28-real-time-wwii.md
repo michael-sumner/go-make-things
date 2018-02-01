@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 - Technology
 date: '2012-03-28'
 url: /real-time-wwii/

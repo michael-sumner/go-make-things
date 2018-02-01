@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2017-06-30'
 url: /digital-to-physical/
 title: Digital to Physical

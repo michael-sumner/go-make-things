@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-02-20'
 url: /paws-by-the-numbers-february-2013/
 title: PAWS by the numbers (February 2013)

@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
+- Art and Science
+- Business and Leadership
 date: '2011-10-03'
 url: /gender-differences-and-leadership/
 title: Gender differences and leadership

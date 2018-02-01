@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 - Technology
 date: '2012-04-23'
 url: /go-code-things/

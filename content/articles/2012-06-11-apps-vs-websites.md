@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2012-06-11'
 url: /apps-vs-websites/
 title: Apps vs. Websites

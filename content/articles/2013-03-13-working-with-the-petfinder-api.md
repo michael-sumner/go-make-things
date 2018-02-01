@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-03-13'
 url: /working-with-the-petfinder-api/
 title: Working with the Petfinder API

@@ -1,8 +1,7 @@
 ---
 categories:
-- Business &amp; Leadership
-- Design &amp; UX
-- Uncategorized
+- Business and Leadership
+- Design and UX
 date: '2012-06-27'
 url: /how-to-write-better/
 title: How to write better

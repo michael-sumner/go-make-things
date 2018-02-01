@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
+- Art and Science
+- Business and Leadership
 date: '2016-11-29'
 url: /the-kindness-initiative/
 title: The Kindness Initiative

@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-01-25'
 url: /get-diesel/
 title: Get Diesel

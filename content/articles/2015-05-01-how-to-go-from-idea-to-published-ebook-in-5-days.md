@@ -1,7 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
-- Uncategorized
+- Business and Leadership
 date: '2015-05-01'
 url: /how-to-go-from-idea-to-published-ebook-in-5-days/
 title: How to go from idea to published ebook in 5 days

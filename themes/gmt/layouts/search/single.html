@@ -3,7 +3,7 @@
 	{{ partial "content-page.html" . }}
 
 	{{- $.Scratch.Add "index" slice -}}
-	{{- range where .Site.Pages "Type" "not in"  (slice "page" "search") -}}
+	{{- range where .Site.Pages "Type" "articles" -}}
 		{{- if ne .Params.noSearch true -}}
 			{{- $.Scratch.Add "index" (dict "title" .Title "url" .Permalink "categories" .Params.categories "content" (.Content | plainify) "summary" (.Summary | plainify) ) -}}
 		{{- end -}}

@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2014-04-16'
 url: /a-z-of-dance/
 title: A-Z of Dance

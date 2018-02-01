@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-05-11'
 url: /pale-blue-dot/
 title: Pale Blue Dot

@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-29'
 url: /css-sprite-apps/
 title: CSS Sprite Apps

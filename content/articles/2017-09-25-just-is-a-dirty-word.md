@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2017-09-25'
 url: /just-is-a-dirty-word/
 title: '&#8220;Just&#8221; is a dirty word'

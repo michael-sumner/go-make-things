@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-01-26'
 url: /doing-nothing/
 title: Doing Nothing

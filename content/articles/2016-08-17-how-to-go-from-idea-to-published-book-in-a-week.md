@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2016-08-17'
 url: /how-to-go-from-idea-to-published-book-in-a-week/
 title: How to go from idea to published book in a week

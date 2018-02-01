@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-10-03'
 url: /opening-your-mind/
 title: Opening Your Mind

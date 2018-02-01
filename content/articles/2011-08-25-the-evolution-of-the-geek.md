@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-08-25'
 url: /the-evolution-of-the-geek/
 title: The Evolution of the Geek

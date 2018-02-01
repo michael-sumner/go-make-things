@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-10-24'
 url: /the-company-name-way/
 title: The [Company Name] Way

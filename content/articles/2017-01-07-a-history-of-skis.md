@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2017-01-07'
 url: /a-history-of-skis/
 title: A History of Skis

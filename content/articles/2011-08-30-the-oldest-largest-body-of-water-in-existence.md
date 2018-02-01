@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-08-30'
 url: /the-oldest-largest-body-of-water-in-existence/
 title: The oldest, largest body of water in existence

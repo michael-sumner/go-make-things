@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2012-05-08'
 url: /a-better-critique/
 title: A Better Critique

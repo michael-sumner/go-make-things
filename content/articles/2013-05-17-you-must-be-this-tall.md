@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2013-05-17'
 url: /you-must-be-this-tall/
 title: You Must Be This Tall

@@ -2,7 +2,7 @@
 categories:
 - Accessibility
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2012-10-29'
 url: /icon-fonts/
 title: Using Icon Fonts

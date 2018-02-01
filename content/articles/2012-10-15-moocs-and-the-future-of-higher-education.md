@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-10-15'
 url: /moocs-and-the-future-of-higher-education/
 title: MOOCs and the Future of Higher Education

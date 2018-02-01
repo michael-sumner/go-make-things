@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-06'
 url: /coffee-with-strangers/
 title: Coffee with Strangers

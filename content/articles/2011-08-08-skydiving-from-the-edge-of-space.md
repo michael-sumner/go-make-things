@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-08-08'
 url: /skydiving-from-the-edge-of-space/
 title: Skydiving from the edge of space

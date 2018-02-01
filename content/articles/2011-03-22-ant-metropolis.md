@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-03-22'
 url: /ant-metropolis/
 title: Ant Metropolis

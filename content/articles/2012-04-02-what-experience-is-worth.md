@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2012-04-02'
 url: /what-experience-is-worth/
 title: What experience is worth

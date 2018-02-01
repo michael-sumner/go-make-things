@@ -43,8 +43,3 @@ paginatePath: "page"
 # Markdown Options
 blackfriday:
   fractions: false
-
-# Site taxonomies
-taxonomies:
-  - category: "categories"
-  - tag: "tags"

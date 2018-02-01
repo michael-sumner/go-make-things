@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2013-02-15'
 url: /chicken-or-the-egg/
 title: Chicken or the egg?

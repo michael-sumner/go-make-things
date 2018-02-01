@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-07-27'
 url: /jim-coudal-on-ideas-in-action/
 title: Jim Coudal on Ideas in Action

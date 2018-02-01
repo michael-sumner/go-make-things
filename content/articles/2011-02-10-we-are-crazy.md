@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-02-10'
 url: /we-are-crazy/
 title: We are crazy

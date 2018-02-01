@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2013-01-11'
 url: /how-much-does-a-hurricane-weigh/
 title: How much does a hurricane weigh?

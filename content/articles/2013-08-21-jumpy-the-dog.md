@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2013-08-21'
 url: /jumpy-the-dog/
 title: Jumpy the dog

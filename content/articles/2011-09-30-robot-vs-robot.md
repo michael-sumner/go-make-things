@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-09-30'
 url: /robot-vs-robot/
 title: Robot vs. Robot

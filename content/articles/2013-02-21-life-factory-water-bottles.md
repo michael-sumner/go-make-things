@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2013-02-21'
 url: /life-factory-water-bottles/
 title: Life Factory Water Bottles

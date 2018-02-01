@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-01-21'
 url: /why-cant-humans-walk-straight/
 title: Why can&#8217;t humans walk straight?

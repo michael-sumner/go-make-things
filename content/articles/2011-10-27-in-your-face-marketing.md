@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-10-27'
 url: /in-your-face-marketing/
 title: In your face marketing

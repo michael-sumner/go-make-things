@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2012-03-21'
 url: /big-ideas-in-the-workplace/
 title: Big Ideas in the Workplace

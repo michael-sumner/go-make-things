@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2012-04-20'
 url: /music-from-nature/
 title: Music from Nature

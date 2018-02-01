@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-09-08'
 url: /wheelchair-action-sports/
 title: Wheelchair Action Sports

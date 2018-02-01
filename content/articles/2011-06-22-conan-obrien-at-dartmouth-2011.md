@@ -1,7 +1,6 @@
 ---
 categories:
-- Art &amp; Science
-- Uncategorized
+- Art and Science
 date: '2011-06-22'
 url: /conan-obrien-at-dartmouth-2011/
 title: Conan O&#8217;Brien at Dartmouth 2011

@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2015-01-05'
 url: /a-bright-start-to-2015/
 title: A bright start to 2015

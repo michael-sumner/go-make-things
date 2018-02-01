@@ -1,8 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
-- Uncategorized
+- Art and Science
+- Business and Leadership
 date: '2012-01-13'
 url: /defend-the-internet-stop-sopa/
 title: Defend the Internet. Stop SOPA.

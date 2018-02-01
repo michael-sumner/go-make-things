@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-06-10'
 url: /how-open-source-has-helped-me-write-better-code/
 title: How open source has helped me write better code

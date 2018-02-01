@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-06-14'
 url: /the-engineering-guy/
 title: The Engineering Guy

@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2016-11-17'
 url: /why-are-cats-so-weird/
 title: Why are cats so weird?

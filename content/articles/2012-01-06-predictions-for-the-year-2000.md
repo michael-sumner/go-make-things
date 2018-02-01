@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-01-06'
 url: /predictions-for-the-year-2000/
 title: Predictions for the year 2000

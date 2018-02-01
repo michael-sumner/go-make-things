@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-08-12'
 url: /ditching-jquery-for-vanilla-js/
 title: Ditching jQuery for Vanilla JS

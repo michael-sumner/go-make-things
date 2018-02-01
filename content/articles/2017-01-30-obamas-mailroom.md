@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2017-01-30'
 url: /obamas-mailroom/
 title: Obama&#8217;s Mailroom

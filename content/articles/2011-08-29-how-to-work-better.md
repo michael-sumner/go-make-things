@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-08-29'
 url: /how-to-work-better/
 title: How to work better

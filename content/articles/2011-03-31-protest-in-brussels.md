@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-03-31'
 url: /protest-in-brussels/
 title: Protest in Brussels

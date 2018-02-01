@@ -2,7 +2,7 @@
 categories:
 - Accessibility
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2015-05-13'
 url: /common-responsive-ui-challenges/
 title: Common Mobile User Interface Challenges

@@ -1,7 +1,7 @@
 ---
 categories:
 - Accessibility
-- Design &amp; UX
+- Design and UX
 date: '2014-03-17'
 url: /building-web-native/
 title: Building Web Native

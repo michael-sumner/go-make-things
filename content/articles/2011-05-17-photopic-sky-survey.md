@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-05-17'
 url: /photopic-sky-survey/
 title: Photopic Sky Survey

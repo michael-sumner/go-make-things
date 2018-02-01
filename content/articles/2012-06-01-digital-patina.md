@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2012-06-01'
 url: /digital-patina/
 title: Digital Patina

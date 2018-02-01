@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2017-01-31'
 url: /land-of-the-free/
 title: Land of the Free

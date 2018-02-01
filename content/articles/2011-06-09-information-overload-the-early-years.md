@@ -1,8 +1,7 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 - Technology
-- Uncategorized
 date: '2011-06-09'
 url: /information-overload-the-early-years/
 title: Information overload, the early years

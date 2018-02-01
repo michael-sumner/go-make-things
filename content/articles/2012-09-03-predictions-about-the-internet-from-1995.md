@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-09-03'
 url: /predictions-about-the-internet-from-1995/
 title: Predictions about the internet from 1995

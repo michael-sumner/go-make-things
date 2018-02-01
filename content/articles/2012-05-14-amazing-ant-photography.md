@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2012-05-14'
 url: /amazing-ant-photography/
 title: Amazing Ant Photography

@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-08'
 url: /source-sans-pro-from-adobe/
 title: Source Sans Pro from Adobe

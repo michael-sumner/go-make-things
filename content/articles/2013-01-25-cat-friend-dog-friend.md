@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2013-01-25'
 url: /cat-friend-dog-friend/
 title: Cat Friend. Dog Friend.

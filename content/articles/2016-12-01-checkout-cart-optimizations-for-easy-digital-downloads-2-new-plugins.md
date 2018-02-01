@@ -1,8 +1,8 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 - Code
-- Design &amp; UX
+- Design and UX
 - WordPress
 date: '2016-12-01'
 url: /checkout-cart-optimizations-for-easy-digital-downloads-2-new-plugins/

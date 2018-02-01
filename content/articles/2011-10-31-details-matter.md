@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2011-10-31'
 url: /details-matter/
 title: Details matter

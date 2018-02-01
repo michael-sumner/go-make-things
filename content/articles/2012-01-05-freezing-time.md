@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-01-05'
 url: /freezing-time/
 title: Freezing Time

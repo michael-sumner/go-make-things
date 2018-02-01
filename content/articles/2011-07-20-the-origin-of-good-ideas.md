@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
+- Art and Science
+- Business and Leadership
 date: '2011-07-20'
 url: /the-origin-of-good-ideas/
 title: The Origin of Good Ideas

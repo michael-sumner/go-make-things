@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
+- Art and Science
+- Business and Leadership
 date: '2012-04-12'
 url: /caines-arcade/
 title: Caine&#8217;s Arcade

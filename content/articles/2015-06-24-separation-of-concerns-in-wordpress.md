@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 - WordPress
 date: '2015-06-24'
 url: /separation-of-concerns-in-wordpress/

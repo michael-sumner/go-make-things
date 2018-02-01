@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2013-01-21'
 url: /two-amazing-brothers/
 title: Two Amazing Brothers

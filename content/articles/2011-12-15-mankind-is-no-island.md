@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-12-15'
 url: /mankind-is-no-island/
 title: Mankind is no island

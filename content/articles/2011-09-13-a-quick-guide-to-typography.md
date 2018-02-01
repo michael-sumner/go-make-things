@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2011-09-13'
 url: /a-quick-guide-to-typography/
 title: A Quick Guide to Typography

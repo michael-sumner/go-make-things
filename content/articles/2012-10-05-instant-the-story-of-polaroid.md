@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-10-05'
 url: /instant-the-story-of-polaroid/
 title: 'Instant: The Story of Polaroid'

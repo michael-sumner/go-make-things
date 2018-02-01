@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-30'
 url: /the-open-web/
 title: The Open Web, Twitter &#038; Facebook

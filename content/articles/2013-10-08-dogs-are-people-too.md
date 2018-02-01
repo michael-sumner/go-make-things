@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2013-10-08'
 url: /dogs-are-people-too/
 title: Dogs are people, too

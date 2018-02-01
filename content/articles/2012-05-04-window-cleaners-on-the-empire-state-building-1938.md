@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-05-04'
 url: /window-cleaners-on-the-empire-state-building-1938/
 title: Window Cleaners on The Empire State Building (1938)

@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-10-21'
 url: /kraken-for-wordpress-and-more/
 title: Kraken for WordPress and more

@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-12-21'
 url: /the-mobile-context-myth/
 title: The mobile context myth

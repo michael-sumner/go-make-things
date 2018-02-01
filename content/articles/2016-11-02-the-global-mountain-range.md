@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2016-11-02'
 url: /the-global-mountain-range/
 title: The Global Mountain Range

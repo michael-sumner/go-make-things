@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-01-14'
 url: /going-for-pretty-first-is-wrong/
 title: Going for &#8220;Pretty First&#8221; is Wrong

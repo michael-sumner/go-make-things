@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-11-07'
 url: /content-worth-paying-for/
 title: Content worth paying for?

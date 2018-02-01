@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-03-28'
 url: /the-supercooled-water-phenomenon/
 title: The Supercooled Water Phenomenon

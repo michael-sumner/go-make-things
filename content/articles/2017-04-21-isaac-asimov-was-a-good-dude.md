@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2017-04-21'
 url: /isaac-asimov-was-a-good-dude/
 title: Isaac Asimov was a good dude

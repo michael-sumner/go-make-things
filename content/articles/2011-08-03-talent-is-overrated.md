@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-08-03'
 url: /talent-is-overrated/
 title: Talent is Overrated

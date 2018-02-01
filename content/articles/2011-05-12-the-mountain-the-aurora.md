@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-05-12'
 url: /the-mountain-the-aurora/
 title: The Mountain. The Aurora.

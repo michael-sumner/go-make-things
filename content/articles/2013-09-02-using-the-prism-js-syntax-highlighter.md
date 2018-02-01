@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-09-02'
 url: /using-the-prism-js-syntax-highlighter/
 title: Using the Prism.js syntax highlighter

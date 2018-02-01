@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-12-05'
 excerpt: Discover weird, useless websites.
 url: /the-useless-web/

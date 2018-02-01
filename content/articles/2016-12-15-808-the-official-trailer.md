@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2016-12-15'
 url: /808-the-official-trailer/
 title: 808, the official trailer

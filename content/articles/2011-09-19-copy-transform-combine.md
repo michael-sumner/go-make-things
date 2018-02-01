@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-09-19'
 url: /copy-transform-combine/
 title: Copy. Transform. Combine.

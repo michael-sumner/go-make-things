@@ -3,7 +3,6 @@ categories:
 - Code
 - CSS
 - JavaScript
-- Uncategorized
 date: '2017-08-30'
 url: /automatically-detecting-when-transitions-end-with-vanilla-javascript/
 title: Automatically detecting when transitions end with vanilla JavaScript

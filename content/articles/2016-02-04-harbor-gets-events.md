@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2016-02-04'
 url: /harbor-gets-events/
 title: Harbor gets Events

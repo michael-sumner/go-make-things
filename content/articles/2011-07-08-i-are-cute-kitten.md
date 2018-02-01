@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-07-08'
 url: /i-are-cute-kitten/
 title: I Are Cute Kitten

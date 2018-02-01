@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-08-22'
 url: /please-be-my-friend/
 title: Please be my friend!

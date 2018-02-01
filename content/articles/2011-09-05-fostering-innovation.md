@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-09-05'
 url: /fostering-innovation/
 title: Fostering Innovation

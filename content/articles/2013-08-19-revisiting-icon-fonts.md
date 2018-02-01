@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-08-19'
 url: /revisiting-icon-fonts/
 title: Revisiting Icon Fonts

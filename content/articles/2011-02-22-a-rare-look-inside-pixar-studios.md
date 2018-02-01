@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
+- Art and Science
+- Business and Leadership
 date: '2011-02-22'
 url: /a-rare-look-inside-pixar-studios/
 title: A Rare Look Inside Pixar Studios

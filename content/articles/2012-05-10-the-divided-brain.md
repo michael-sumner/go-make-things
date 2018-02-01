@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2012-05-10'
 url: /the-divided-brain/
 title: The Divided Brain

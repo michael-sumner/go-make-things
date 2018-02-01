@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-11-10'
 url: /users-or-people/
 title: Users or People?

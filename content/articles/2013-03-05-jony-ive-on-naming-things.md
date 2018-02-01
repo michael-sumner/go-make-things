@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-03-05'
 url: /jony-ive-on-naming-things/
 title: Jony Ive on naming things

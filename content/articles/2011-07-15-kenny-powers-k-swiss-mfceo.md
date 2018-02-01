@@ -1,7 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
-- Uncategorized
+- Business and Leadership
 date: '2011-07-15'
 url: /kenny-powers-k-swiss-mfceo/
 title: Kenny Powers, K-Swiss MFCEO

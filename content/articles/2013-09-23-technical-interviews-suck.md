@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2013-09-23'
 url: /technical-interviews-suck/
 title: Technical Interviews Suck

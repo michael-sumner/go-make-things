@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-05-19'
 url: /website-or-app/
 title: Website or app?

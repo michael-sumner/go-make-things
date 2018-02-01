@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Design &amp; UX
+- Art and Science
+- Design and UX
 date: '2012-06-14'
 url: /henry-millers-11-commandments-for-making-things/
 title: Henry Miller&#8217;s 11 Commandments for Making Things

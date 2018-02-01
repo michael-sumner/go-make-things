@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-03-19'
 url: /code-is-craft/
 title: Code is Craft

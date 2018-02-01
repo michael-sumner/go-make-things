@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2011-11-02'
 url: /out-of-the-ux-echochamber/
 title: Out of the UX echochamber

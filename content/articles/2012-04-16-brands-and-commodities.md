@@ -1,7 +1,7 @@
 ---
 categories:
-- Business &amp; Leadership
-- Design &amp; UX
+- Business and Leadership
+- Design and UX
 date: '2012-04-16'
 url: /brands-and-commodities/
 title: Brands and Commodities

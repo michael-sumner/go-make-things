@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2017-05-24'
 url: /stupid-web-security-shit/
 title: Stupid web security shit

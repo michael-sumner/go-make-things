@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-12-27'
 url: /on-the-impracticality-of-the-cheeseburger/
 title: On the impracticality of the cheeseburger&#8230;

@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-07-29'
 url: /art-with-salt/
 title: Art with Salt

@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-01-12'
 url: /voting-explained/
 title: Voting, Explained

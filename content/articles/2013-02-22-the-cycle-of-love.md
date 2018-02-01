@@ -1,7 +1,6 @@
 ---
 categories:
-- Art &amp; Science
-- Uncategorized
+- Art and Science
 date: '2013-02-22'
 url: /the-cycle-of-love/
 title: The Cycle of Love

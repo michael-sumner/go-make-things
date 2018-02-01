@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-10-23'
 url: /progressive-jpgs-for-wordpress/
 title: Progressive JPGs for WordPress

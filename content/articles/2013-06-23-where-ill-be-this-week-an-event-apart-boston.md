@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2013-06-23'
 url: /where-ill-be-this-week-an-event-apart-boston/
 title: 'Where I&#8217;ll be this week: An Event Apart Boston'

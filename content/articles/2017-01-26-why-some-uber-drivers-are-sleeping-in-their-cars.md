@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2017-01-26'
 url: /why-some-uber-drivers-are-sleeping-in-their-cars/
 title: Why some Uber drivers are sleeping in their cars

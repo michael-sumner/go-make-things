@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-04-06'
 url: /get-a-committee-working-on-it/
 title: Get a committee working on it&#8230;

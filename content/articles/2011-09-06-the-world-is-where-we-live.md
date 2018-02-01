@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-09-06'
 url: /the-world-is-where-we-live/
 title: The world is where we live

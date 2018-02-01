@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-08-04'
 url: /dogs-can-read-minds/
 title: Dogs can read minds

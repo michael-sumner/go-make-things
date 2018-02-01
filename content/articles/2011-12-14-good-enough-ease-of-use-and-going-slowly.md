@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2011-12-14'
 url: /good-enough-ease-of-use-and-going-slowly/
 title: Good enough, ease of use, and going slowly

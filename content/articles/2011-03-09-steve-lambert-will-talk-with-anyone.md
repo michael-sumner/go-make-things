@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-03-09'
 url: /steve-lambert-will-talk-with-anyone/
 title: Steve Lambert will talk with anyone

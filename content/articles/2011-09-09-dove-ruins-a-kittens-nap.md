@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-09-09'
 url: /dove-ruins-a-kittens-nap/
 title: Dove ruins a kitten’s nap

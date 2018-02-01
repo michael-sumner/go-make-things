@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2013-03-29'
 url: /40-years-this-russian-family-was-cut-off-from-all-human-contact-unaware-of-wwii/
 title: For 40 Years, This Russian Family Was Cut Off From All Human Contact, Unaware of WWII

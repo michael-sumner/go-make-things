@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2012-11-16'
 excerpt: Does Facebook get more traffic from its native iOS and Android apps or its mobile website?
 url: /facebook-mobile-web-vs-native-app-usage/

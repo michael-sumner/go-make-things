@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 - Technology
 date: '2016-10-31'
 url: /the-importance-of-saying-no-to-ideas/

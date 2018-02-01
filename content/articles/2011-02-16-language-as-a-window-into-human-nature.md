@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-02-16'
 url: /language-as-a-window-into-human-nature/
 title: Language as a Window Into Human Nature

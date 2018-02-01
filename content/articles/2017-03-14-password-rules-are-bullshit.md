@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2017-03-14'
 url: /password-rules-are-bullshit/
 title: Password rules are bullshit

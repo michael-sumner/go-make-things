@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-09-07'
 url: /the-history-of-the-internet/
 title: The History of the Internet

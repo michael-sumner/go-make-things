@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2017-02-09'
 url: /all-that-we-share/
 title: All that we share

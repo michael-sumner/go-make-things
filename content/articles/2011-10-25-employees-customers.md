@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-10-25'
 url: /employees-customers/
 title: Employees &#038; Customers

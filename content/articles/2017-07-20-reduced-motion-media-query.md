@@ -3,7 +3,7 @@ categories:
 - Accessibility
 - Code
 - CSS
-- Design &amp; UX
+- Design and UX
 - JavaScript
 date: '2017-07-20'
 url: /reduced-motion-media-query/

@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-08-20'
 url: /jason-santa-maria-on-web-typography/
 title: Jason Santa Maria on Web Typography

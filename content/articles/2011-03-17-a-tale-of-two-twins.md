@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-03-17'
 url: /a-tale-of-two-twins/
 title: A Tale of Two Twins

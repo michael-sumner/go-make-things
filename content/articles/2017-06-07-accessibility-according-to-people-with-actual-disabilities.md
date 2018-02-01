@@ -1,7 +1,7 @@
 ---
 categories:
 - Accessibility
-- Design &amp; UX
+- Design and UX
 date: '2017-06-07'
 url: /accessibility-according-to-people-with-actual-disabilities/
 title: Accessibility (according to people with actual disabilities)

@@ -6,4 +6,15 @@
 	</button>
 </form>
 
-<div id="search-results"></div>
+<div id="search-results">
+
+</div>
+
+<div class="padding-top">
+	<h2 class="no-padding-top margin-bottom-small"><strong>Or browse by category...</strong></h2>
+	<ul class="list-unstyled">
+		{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+		<li><a href="/categories/{{ $name | urlize }}">{{ $name | humanize }}</a></li>
+		{{ end }}
+	</ul>
+</div>

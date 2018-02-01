@@ -1,7 +1,6 @@
 ---
 categories:
 - Technology
-- Uncategorized
 date: '2012-06-18'
 url: /a-better-online-reading-experience/
 title: A better online reading experience

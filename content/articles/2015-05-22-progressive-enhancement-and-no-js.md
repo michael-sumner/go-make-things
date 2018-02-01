@@ -2,7 +2,7 @@
 categories:
 - Code
 - CSS
-- Design &amp; UX
+- Design and UX
 - JavaScript
 date: '2015-05-22'
 url: /progressive-enhancement-and-no-js/

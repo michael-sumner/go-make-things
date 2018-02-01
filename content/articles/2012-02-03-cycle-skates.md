@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-02-03'
 url: /cycle-skates/
 title: Cycle-Skates

@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2014-01-13'
 url: /a-web-based-image-optimizer/
 title: A web-based image optimizer

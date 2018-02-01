@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-08-30'
 url: /wordpress-like-a-vip/
 title: WordPress like a VIP

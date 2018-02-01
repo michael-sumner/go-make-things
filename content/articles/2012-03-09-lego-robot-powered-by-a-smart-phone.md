@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2012-03-09'
 url: /lego-robot-powered-by-a-smart-phone/
 title: Lego robot powered by a smart phone

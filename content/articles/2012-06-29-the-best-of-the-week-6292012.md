@@ -1,7 +1,6 @@
 ---
 categories:
-- Art &amp; Science
-- Uncategorized
+- Art and Science
 date: '2012-06-29'
 url: /the-best-of-the-week-6292012/
 title: 'The best of the week: 6/29/2012'

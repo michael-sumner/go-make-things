@@ -2,7 +2,7 @@
 categories:
 - Code
 - CSS
-- Design &amp; UX
+- Design and UX
 - JavaScript
 - Web Performance
 date: '2015-03-23'

@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-04-16'
 url: /when-bad-content-ruins-good-content/
 title: When bad content ruins good content

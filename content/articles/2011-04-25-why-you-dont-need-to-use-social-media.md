@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 - Technology
 date: '2011-04-25'
 url: /why-you-dont-need-to-use-social-media/

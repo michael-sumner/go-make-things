@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-06-15'
 url: /best-of-the-last-7-days-6152012/
 title: 'Best of the last 7 days: 6/15/2012'

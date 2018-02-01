@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-01-07'
 url: /responsive-site-size/
 title: Responsive Site Size

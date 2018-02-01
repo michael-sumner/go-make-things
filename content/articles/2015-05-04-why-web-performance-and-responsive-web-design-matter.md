@@ -1,7 +1,7 @@
 ---
 categories:
-- Business &amp; Leadership
-- Design &amp; UX
+- Business and Leadership
+- Design and UX
 date: '2015-05-04'
 url: /why-web-performance-and-responsive-web-design-matter/
 title: Why web performance and responsive web design matter

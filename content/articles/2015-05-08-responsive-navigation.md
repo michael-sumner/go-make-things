@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2015-05-08'
 url: /responsive-navigation/
 title: Mobile-Friendly Navigation

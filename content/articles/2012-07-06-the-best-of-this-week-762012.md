@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-07-06'
 url: /the-best-of-this-week-762012/
 title: 'The best of this week: 7/6/2012'

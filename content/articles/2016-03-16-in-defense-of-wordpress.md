@@ -1,7 +1,7 @@
 ---
 categories:
 - Accessibility
-- Design &amp; UX
+- Design and UX
 - Technology
 date: '2016-03-16'
 url: /in-defense-of-wordpress/

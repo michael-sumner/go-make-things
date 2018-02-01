@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-05-20'
 url: /kraken-gets-callouts-alerts-and-more/
 title: Kraken gets callouts, alerts, and more

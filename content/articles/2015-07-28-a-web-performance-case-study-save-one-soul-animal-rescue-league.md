@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-07-28'
 url: /a-web-performance-case-study-save-one-soul-animal-rescue-league/
 title: 'A web performance case study: Save One Soul Animal Rescue League'

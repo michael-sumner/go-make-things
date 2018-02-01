@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2015-02-27'
 url: /the-first-option-isnt-always-the-best-option/
 title: The first option isn&#8217;t always the best option

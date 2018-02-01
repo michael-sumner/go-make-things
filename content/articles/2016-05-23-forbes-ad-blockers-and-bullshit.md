@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2016-05-23'
 url: /forbes-ad-blockers-and-bullshit/
 title: Forbes, ad-blockers, and bullshit

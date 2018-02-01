@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Design &amp; UX
+- Art and Science
+- Design and UX
 date: '2012-02-20'
 url: /the-inventors-dilemma/
 title: The Inventor&#8217;s Dilemma

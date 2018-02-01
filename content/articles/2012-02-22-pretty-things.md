@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2012-02-22'
 url: /pretty-things/
 title: Pretty Things

@@ -1,7 +1,7 @@
 ---
 categories:
 - Accessibility
-- Design &amp; UX
+- Design and UX
 date: '2013-02-25'
 url: /accessibility-is-hard/
 title: Accessibility is Hard

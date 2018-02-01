@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2012-09-28'
 url: /nasa-remembers-neil-armstrong/
 title: NASA Remembers Neil Armstrong

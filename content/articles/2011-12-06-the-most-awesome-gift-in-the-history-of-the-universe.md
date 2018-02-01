@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-12-06'
 url: /the-most-awesome-gift-in-the-history-of-the-universe/
 title: The most awesome gift in the history of the universe

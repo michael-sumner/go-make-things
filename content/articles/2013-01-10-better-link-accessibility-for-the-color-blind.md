@@ -1,7 +1,7 @@
 ---
 categories:
 - Accessibility
-- Design &amp; UX
+- Design and UX
 date: '2013-01-10'
 url: /better-link-accessibility-for-the-color-blind/
 title: Better link accessibility for the color blind

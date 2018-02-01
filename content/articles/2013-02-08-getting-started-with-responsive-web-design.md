@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-02-08'
 url: /getting-started-with-responsive-web-design/
 title: Getting started with Responsive Web Design

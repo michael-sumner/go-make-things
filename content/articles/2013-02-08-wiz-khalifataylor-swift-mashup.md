@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2013-02-08'
 url: /wiz-khalifataylor-swift-mashup/
 title: Wiz Khalifa/Taylor Swift Mashup

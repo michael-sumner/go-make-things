@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2012-03-15'
 url: /the-inverted-bike-shop/
 title: The Inverted Bike Shop

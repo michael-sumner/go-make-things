@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-04-26'
 url: /the-strange-history-of-engagement-rings/
 title: The strange history of engagement rings

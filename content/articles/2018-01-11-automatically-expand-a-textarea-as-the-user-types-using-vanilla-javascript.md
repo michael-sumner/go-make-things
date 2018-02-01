@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 - JavaScript
 date: '2018-01-11'
 url: /automatically-expand-a-textarea-as-the-user-types-using-vanilla-javascript/

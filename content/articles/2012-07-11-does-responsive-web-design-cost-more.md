@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 - Technology
 date: '2012-07-11'
 url: /does-responsive-web-design-cost-more/

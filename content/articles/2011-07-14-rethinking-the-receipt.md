@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2011-07-14'
 url: /rethinking-the-receipt/
 title: Rethinking the Receipt

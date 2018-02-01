@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2012-06-04'
 url: /the-importance-of-responsive-design/
 title: The Importance of Responsive Design

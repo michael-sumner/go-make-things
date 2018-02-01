@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2011-06-21'
 url: /beautifully-ugly-design-revisited/
 title: Beautifully Ugly Design Revisited

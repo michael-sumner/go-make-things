@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2012-05-21'
 url: /mind-controlled-robotic-arm/
 title: Mind-Controlled Robotic Arm

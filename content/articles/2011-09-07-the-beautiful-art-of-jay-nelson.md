@@ -1,7 +1,7 @@
 ---
 categories:
-- Art &amp; Science
-- Design &amp; UX
+- Art and Science
+- Design and UX
 date: '2011-09-07'
 url: /the-beautiful-art-of-jay-nelson/
 title: The Beautiful Art of Jay Nelson

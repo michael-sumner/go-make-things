@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-11-14'
 url: /radio-the-original-internet/
 title: 'Radio: The Original Internet'

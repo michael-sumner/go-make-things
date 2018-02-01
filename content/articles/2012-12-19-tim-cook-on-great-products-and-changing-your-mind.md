@@ -1,7 +1,7 @@
 ---
 categories:
-- Business &amp; Leadership
-- Design &amp; UX
+- Business and Leadership
+- Design and UX
 - Technology
 date: '2012-12-19'
 url: /tim-cook-on-great-products-and-changing-your-mind/

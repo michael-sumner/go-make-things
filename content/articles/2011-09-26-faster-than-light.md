@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-09-26'
 url: /faster-than-light/
 title: Faster than light

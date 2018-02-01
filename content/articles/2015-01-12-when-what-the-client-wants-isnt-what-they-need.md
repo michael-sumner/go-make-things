@@ -1,8 +1,8 @@
 ---
 categories:
 - Accessibility
-- Business &amp; Leadership
-- Design &amp; UX
+- Business and Leadership
+- Design and UX
 date: '2015-01-12'
 url: /when-what-the-client-wants-isnt-what-they-need/
 title: When what the client wants isn&#8217;t what they need

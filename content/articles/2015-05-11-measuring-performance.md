@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-05-11'
 url: /measuring-performance/
 title: Measuring Performance

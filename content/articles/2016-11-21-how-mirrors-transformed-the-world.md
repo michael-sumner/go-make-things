@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2016-11-21'
 url: /how-mirrors-transformed-the-world/
 title: How mirrors transformed the world

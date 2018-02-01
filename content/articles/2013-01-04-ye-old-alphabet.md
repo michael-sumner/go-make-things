@@ -1,7 +1,6 @@
 ---
 categories:
-- Art &amp; Science
-- Uncategorized
+- Art and Science
 date: '2013-01-04'
 url: /ye-old-alphabet/
 title: Ye Old Alphabet

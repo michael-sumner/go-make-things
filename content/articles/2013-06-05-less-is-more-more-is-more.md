@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-06-05'
 url: /less-is-more-more-is-more/
 title: Less is more. More is more.

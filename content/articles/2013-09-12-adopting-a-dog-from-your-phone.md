@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-09-12'
 url: /adopting-a-dog-from-your-phone/
 title: Adopting a dog from your phone

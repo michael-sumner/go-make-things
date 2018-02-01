@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-01-02'
 url: /big-picture-design/
 title: Big-Picture Design

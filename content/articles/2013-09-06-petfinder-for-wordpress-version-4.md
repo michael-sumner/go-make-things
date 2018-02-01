@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-09-06'
 url: /petfinder-for-wordpress-version-4/
 title: Petfinder for WordPress, version 4

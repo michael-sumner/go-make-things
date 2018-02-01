@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-08-14'
 url: /the-problem-with-responsive-frameworks/
 title: The Problem with Responsive Frameworks

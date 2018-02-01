@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 - Technology
 date: '2013-02-27'
 url: /why-writing-with-our-hands-is-still-important/

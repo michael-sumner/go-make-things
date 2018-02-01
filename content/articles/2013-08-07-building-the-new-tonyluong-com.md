@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-08-07'
 url: /building-the-new-tonyluong-com/
 title: Building the new TonyLuong.com

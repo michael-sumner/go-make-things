@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-07-13'
 url: /the-sunscreen-smokescreen/
 title: The Sunscreen Smokescreen

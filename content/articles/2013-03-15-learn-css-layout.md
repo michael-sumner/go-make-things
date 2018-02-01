@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-03-15'
 url: /learn-css-layout/
 title: Learn CSS Layout

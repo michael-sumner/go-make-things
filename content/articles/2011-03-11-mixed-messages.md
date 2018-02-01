@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-03-11'
 url: /mixed-messages/
 title: Mixed Messages

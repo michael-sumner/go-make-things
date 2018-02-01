@@ -1,9 +1,8 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
+- Art and Science
+- Business and Leadership
 - Technology
-- Uncategorized
 date: '2013-03-22'
 url: /must-watch-youtube-the-pbs-idea-channel/
 title: 'Must Watch YouTube: The PBS Idea Channel'

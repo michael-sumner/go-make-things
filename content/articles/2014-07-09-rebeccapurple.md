@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2014-07-09'
 url: /rebeccapurple/
 title: '#rebeccapurple'

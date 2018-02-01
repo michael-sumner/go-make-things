@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2014-02-17'
 url: /introducing-right-height/
 title: Introducing Right Height

@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-10-16'
 url: /mike-monteiro-wants-us-to-do-better/
 title: Mike Monteiro wants us to do better

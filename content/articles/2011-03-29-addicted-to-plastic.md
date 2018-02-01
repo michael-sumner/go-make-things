@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-03-29'
 url: /addicted-to-plastic/
 title: Addicted to Plastic

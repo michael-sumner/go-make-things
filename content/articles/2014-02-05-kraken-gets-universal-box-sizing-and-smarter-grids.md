@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2014-02-05'
 url: /kraken-gets-universal-box-sizing-and-smarter-grids/
 title: Kraken gets universal box-sizing and smarter grids

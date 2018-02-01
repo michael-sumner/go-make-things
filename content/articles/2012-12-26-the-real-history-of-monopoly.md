@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-12-26'
 url: /the-real-history-of-monopoly/
 title: The Real History of Monopoly

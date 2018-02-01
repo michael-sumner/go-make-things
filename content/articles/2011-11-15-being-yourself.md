@@ -1,7 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
-- Uncategorized
+- Business and Leadership
 date: '2011-11-15'
 url: /being-yourself/
 title: Being yourself

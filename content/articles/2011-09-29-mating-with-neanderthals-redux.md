@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-09-29'
 url: /mating-with-neanderthals-redux/
 title: Mating with Neanderthals Redux

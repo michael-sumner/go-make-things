@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2012-01-23'
 url: /co-work-collaboration/
 title: Co-Work &#038; Collaboration

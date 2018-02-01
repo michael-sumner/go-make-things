@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2012-07-02'
 url: /the-problem-with-performance-appraisals/
 title: The problem with performance appraisals

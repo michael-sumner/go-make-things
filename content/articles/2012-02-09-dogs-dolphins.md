@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-02-09'
 url: /dogs-dolphins/
 title: Dogs &#038; Dolphins

@@ -1,8 +1,8 @@
 ---
 categories:
-- Art &amp; Science
-- Business &amp; Leadership
-- Design &amp; UX
+- Art and Science
+- Business and Leadership
+- Design and UX
 date: '2011-06-02'
 url: /the-iceberg-project/
 title: The Iceberg Project

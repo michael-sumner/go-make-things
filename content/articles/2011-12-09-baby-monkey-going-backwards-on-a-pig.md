@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-12-09'
 url: /baby-monkey-going-backwards-on-a-pig/
 title: Baby monkey going backwards on a pig

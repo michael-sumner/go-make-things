@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-05-22'
 url: /wordpress-for-web-apps-version-2/
 title: WordPress for Web Apps, version 2

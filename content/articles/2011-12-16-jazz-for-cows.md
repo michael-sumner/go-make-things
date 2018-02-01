@@ -1,6 +1,6 @@
 ---
 categories:
-- Art &amp; Science
+- Art and Science
 date: '2011-12-16'
 url: /jazz-for-cows/
 title: Jazz for Cows

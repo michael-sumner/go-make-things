@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 - Technology
 date: '2017-12-27'
 url: /the-lava-lamps-that-help-power-ssl-encryption/

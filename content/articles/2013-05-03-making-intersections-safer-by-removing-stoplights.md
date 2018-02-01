@@ -1,7 +1,6 @@
 ---
 categories:
-- Design &amp; UX
-- Uncategorized
+- Design and UX
 date: '2013-05-03'
 url: /making-intersections-safer-by-removing-stoplights/
 title: Making intersections safer by removing stoplights

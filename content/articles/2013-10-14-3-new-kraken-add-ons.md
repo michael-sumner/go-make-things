@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2013-10-14'
 url: /3-new-kraken-add-ons/
 title: 3 new Kraken add-ons

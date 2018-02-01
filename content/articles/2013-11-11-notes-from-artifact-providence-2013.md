@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2013-11-11'
 url: /notes-from-artifact-providence-2013/
 title: Notes from Artifact Providence 2013

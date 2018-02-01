@@ -1,6 +1,6 @@
 ---
 categories:
-- Design &amp; UX
+- Design and UX
 date: '2015-07-09'
 url: /why-text-is-often-better-than-icons-in-your-user-interface/
 title: Why text is often better than icons in your user interface

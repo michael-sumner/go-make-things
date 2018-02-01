@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2012-01-04'
 url: /stories-without-words/
 title: Stories without words

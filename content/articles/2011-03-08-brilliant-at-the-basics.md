@@ -1,6 +1,6 @@
 ---
 categories:
-- Business &amp; Leadership
+- Business and Leadership
 date: '2011-03-08'
 url: /brilliant-at-the-basics/
 title: Brilliant at the Basics

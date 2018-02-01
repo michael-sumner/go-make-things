@@ -1,7 +1,7 @@
 ---
 categories:
 - Code
-- Design &amp; UX
+- Design and UX
 date: '2016-02-01'
 url: /reintroducing-keel-a-lightweight-boilerplate-for-wordpress-theme-developers/
 title: Reintroducing Keel, a lightweight boilerplate for WordPress theme developers

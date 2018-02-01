@@ -1,6 +1,5 @@
 ---
 categories:
-- Uncategorized
 date: '2011-07-25'
 url: /marketing-pro/
 title: I&#8217;m officially a marketing pro
