@@ -1,5 +1,5 @@
 /*!
- * gmt v1.7.1: The theme for gomakethings.com
+ * gmt v1.7.2: The theme for gomakethings.com
  * (c) 2018 Chris Ferdinandi
  * MIT License
  * http://github.com/cferdinandi/go-make-things
@@ -309,12 +309,7 @@ var mailchimp = function (callback) {
 
 	};
 
-
-	//
-	// Event Listeners & Inits
-	//
-
-	form.addEventListener('submit', (function (event) {
+	var submitHandler = function (event) {
 
 		// Stop form from submitting
 		event.preventDefault();
@@ -329,7 +324,15 @@ var mailchimp = function (callback) {
 			submitForm();
 		}
 
-	}), false);
+	};
+
+
+	//
+	// Event Listeners & Inits
+	//
+
+	form.setAttribute('novalidate', 'novalidate');
+	form.addEventListener('submit', submitHandler, false);
 
 };
 /**
