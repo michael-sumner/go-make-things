@@ -1,6 +1,6 @@
 ---
 title: "JavaScript Jabber"
-date: 2018-02-7T10:30:00-05:00
+date: 2018-01-22T10:05:20-05:00
 draft: false
 details:
     type: "podcast"
