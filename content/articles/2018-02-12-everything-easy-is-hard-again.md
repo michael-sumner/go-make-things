@@ -17,7 +17,7 @@ The most head-nodding quote of the whole article for me happens early on:
 
 > What if I nailed it? Why change if it’s working?
 
-I talk about this a bit in ["The New Hotness"](https://gomakethings.com/the-new-hotness/).
+I talk about this a bit in ["The New Hotness"](/the-new-hotness/).
 
 I'm done chasing new technologies and approaches just for the sake of knowing the newest thing. I practice something [Sara Soueidan](https://www.sarasoueidan.com/) advocates&mdash;just-in-time learning.
 
