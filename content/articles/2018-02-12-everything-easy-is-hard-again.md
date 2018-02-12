@@ -9,7 +9,7 @@ categories:
 - JavaScript
 ---
 
-Last week, Frank Chimero published ["Everything easy is hard again"](https://frankchimero.com/writing/everything-easy-is-hard-again/), an article based on a talk about the circular and every changing nature of making things for the web.
+Last week, Frank Chimero published ["Everything easy is hard again"](https://frankchimero.com/writing/everything-easy-is-hard-again/), an article based on a talk about the circular and ever changing nature of making things for the web.
 
 If you find yourself frustrated by the pace of change in our industry and all of the things you *need* to know, it's a must read.
 
