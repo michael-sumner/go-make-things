@@ -1,6 +1,6 @@
 ---
 title: "Why event delegation is a better way to listen for events in vanilla JS"
-date: 2018-02-14T10:30:00-0500
+date: 2018-02-14T10:30:00-5:00
 draft: false
 categories:
 - Code
