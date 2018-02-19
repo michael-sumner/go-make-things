@@ -25,6 +25,16 @@
 		color: $color-white;
 	}
 
+	&:hover,
+	&:focus,
+	&:active,
+	&.active {
+		background-color: darken( $color-secondary, 30% );
+		border-color: darken( $color-secondary, 30% );
+		color: $color-white;
+		// text-decoration: none;
+	}
+
 	del {
 		@extend .text-muted-light;
 	}
@@ -34,36 +44,52 @@ a.btn {
 	text-decoration: none;
 }
 
-.btn:hover,
-.btn:focus,
-.btn:active,
-.btn.active {
-	background-color: darken( $color-secondary, 30% );
-	border-color: darken( $color-secondary, 30% );
-	color: $color-white;
-	// text-decoration: none;
-}
-
 
 /**
  * Secondary buttons
  */
 .btn-secondary {
-	background-color: $color-gray-dark;
-	border-color: $color-gray-dark;
+	background-color: $color-tertiary;
+	border-color: $color-tertiary;
 	// color: $color-white;
+
+	&:hover,
+	&:focus,
+	&:active,
+	&.active {
+		background-color: darken( $color-tertiary, 15% );
+		border-color: darken( $color-tertiary, 15% );
+		// color: $color-white;
+		// text-decoration: none;
+	}
 
 	// del {
 	// 	@extend .text-muted-light;
 	// }
 }
 
-.btn-secondary:hover,
-.btn-secondary:focus,
-.btn-secondary:active,
-.btn-secondary.active {
-	background-color: darken( $color-gray-dark, 30% );
-	border-color: darken( $color-gray-dark, 30% );
+
+/**
+ * Tertiary buttons
+ */
+.btn-tertiary {
+	background-color: $color-primary;
+	border-color: $color-primary;
+	// color: $color-white;
+
+	&:hover,
+	&:focus,
+	&:active,
+	&.active {
+		background-color: darken( $color-primary, 15% );
+		border-color: darken( $color-primary, 15% );
+		// color: $color-white;
+		// text-decoration: none;
+	}
+
+	// del {
+	// 	@extend .text-muted-light;
+	// }
 }
 
 

@@ -76,4 +76,4 @@ With the modified function above, you can now pass in a single argument and stil
 add(2);
 ```
 
-On Monday, we'll look at an easier way to handle this with ES6 default parameters.
+On Monday, we'll look at [an easier way to handle this with ES6 default parameters](/default-function-arguments-with-es6-default-parameters/).

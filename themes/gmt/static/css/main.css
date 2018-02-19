@@ -845,19 +845,16 @@ pre code {
   color: #ffffff;
 }
 
-/* line 33, src/sass/components/_buttons.scss */
-a.btn, .btn.link-block-styled {
-  text-decoration: none;
-}
-
-/* line 37, src/sass/components/_buttons.scss */
-.btn:hover,
-.btn:focus,
-.btn:active,
-.btn.active {
+/* line 28, src/sass/components/_buttons.scss */
+.btn:hover, .btn:focus, .btn:active, .btn.active {
   background-color: #cb070e;
   border-color: #cb070e;
   color: #ffffff;
+}
+
+/* line 43, src/sass/components/_buttons.scss */
+a.btn, .btn.link-block-styled {
+  text-decoration: none;
 }
 
 /**
@@ -865,23 +862,35 @@ a.btn, .btn.link-block-styled {
  */
 /* line 51, src/sass/components/_buttons.scss */
 .btn-secondary {
-  background-color: #808080;
-  border-color: #808080;
+  background-color: #343d4d;
+  border-color: #343d4d;
 }
 
-/* line 61, src/sass/components/_buttons.scss */
-.btn-secondary:hover,
-.btn-secondary:focus,
-.btn-secondary:active,
-.btn-secondary.active {
-  background-color: #343434;
-  border-color: #343434;
+/* line 56, src/sass/components/_buttons.scss */
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active {
+  background-color: #15191f;
+  border-color: #15191f;
+}
+
+/**
+ * Tertiary buttons
+ */
+/* line 75, src/sass/components/_buttons.scss */
+.btn-tertiary {
+  background-color: #0088cc;
+  border-color: #0088cc;
+}
+
+/* line 80, src/sass/components/_buttons.scss */
+.btn-tertiary:hover, .btn-tertiary:focus, .btn-tertiary:active, .btn-tertiary.active {
+  background-color: #005580;
+  border-color: #005580;
 }
 
 /**
  * Active state
  */
-/* line 73, src/sass/components/_buttons.scss */
+/* line 99, src/sass/components/_buttons.scss */
 .btn:active,
 .btn.active {
   box-shadow: inset 0 0.15625em 0.25em rgba(0, 0, 0, 0.15), 0 1px 0.15625em rgba(0, 0, 0, 0.05);
@@ -891,7 +900,7 @@ a.btn, .btn.link-block-styled {
 /**
  * Disabled state
  */
-/* line 83, src/sass/components/_buttons.scss */
+/* line 109, src/sass/components/_buttons.scss */
 .btn.disabled,
 .btn[disabled] {
   box-shadow: none;
@@ -903,7 +912,7 @@ a.btn, .btn.link-block-styled {
 /**
  * Button size
  */
-/* line 95, src/sass/components/_buttons.scss */
+/* line 121, src/sass/components/_buttons.scss */
 .btn-large {
   font-size: 1em;
   line-height: normal;
@@ -913,7 +922,7 @@ a.btn, .btn.link-block-styled {
 /**
  * Block-level buttons
  */
-/* line 105, src/sass/components/_buttons.scss */
+/* line 131, src/sass/components/_buttons.scss */
 .btn-block,
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
@@ -928,7 +937,7 @@ input[type="button"].btn-block {
 /**
  * General styles
  */
-/* line 120, src/sass/components/_buttons.scss */
+/* line 146, src/sass/components/_buttons.scss */
 .btn,
 button,
 html input[type="button"],
@@ -947,7 +956,7 @@ input[type="submit"] {
 /**
  * Remove right margin on last element and inputs
  */
-/* line 141, src/sass/components/_buttons.scss */
+/* line 167, src/sass/components/_buttons.scss */
 .btn:last-child,
 input.btn {
   margin-right: 0;
