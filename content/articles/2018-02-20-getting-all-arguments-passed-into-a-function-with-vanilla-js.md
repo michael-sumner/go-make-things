@@ -92,6 +92,9 @@ add(1);
 
 // Returns 6
 add(1, 2, 3);
+
+// Returns 0
+add();
 ```
 
 Cool, right?
