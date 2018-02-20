@@ -7,7 +7,7 @@ categories:
 - JavaScript
 ---
 
-Last week, we looked at [different approaches to passing arguments into a function](/how-to-manage-multiple-arguments-in-a-function/), and two ways to [set default arguments](/default-function-arguments-with-vanilla-javascript/) for [a function](/default-function-arguments-with-es6-default-parameters/).
+Last week, we looked at [different approaches to passing arguments into a function](/how-to-manage-multiple-arguments-in-a-function/), and how to [set default arguments for a function](/default-function-arguments-with-vanilla-javascript/). And yesterday, we looked at [an even easier way to do handle defaults with ES6](/default-function-arguments-with-es6-default-parameters/).
 
 Today, I wanted to show you a super useful trick for getting all arguments passed into a function, whether you setup named variables for them or not.
 
