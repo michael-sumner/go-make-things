@@ -3,18 +3,8 @@ title: "Why the vanilla JS matches() method won't work with event listeners and 
 date: 2018-02-21T10:30:00-05:00
 draft: false
 categories:
-- Accessibility
-- Art and Science
-- Business and Leadership
-- Careers
 - Code
-- CSS
-- Design and UX
-- HTML
 - JavaScript
-- Technology
-- Web Performance
-- WordPress
 ---
 
 I often use [event delegation](/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/) with click event listeners in my scripts, with the `matches()` method to check which element was clicked.
