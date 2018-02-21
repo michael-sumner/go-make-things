@@ -7,7 +7,7 @@ params:
   rssURL: "http://feeds.feedburner.com/GoMakeThings"
   rssLimit: 7
   cacheBust: true
-  version: "1.7.2"
+  version: "1.8.0"
 
 # The language code for the site
 languageCode: "en-us"
@@ -45,6 +45,5 @@ blackfriday:
   fractions: false
 
 # Syntax Highlighting
-# pygmentsCodefences: true
-# pygmentsStyle: "monokailight"
-# pygmentsUseClasses: true
+pygmentsCodefences: true
+pygmentsUseClasses: true

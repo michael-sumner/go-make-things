@@ -1,0 +1,207 @@
+/**
+ * @section Chroma syntax highlighting
+ * Styles for Hugo's syntax highlighting engine
+ */
+
+@media screen {
+
+	.chroma {
+		// background-color: #fafafa;
+
+		// Error
+		.err {
+			color: #f9005a;
+		}
+
+		// Keyword
+		.k { color: #f9005a; }
+
+		// KeywordConstant
+		.kc { color: #684d99; }
+
+		// KeywordDeclaration
+		.kd { color: #0089b3; }
+
+		// KeywordNamespace
+		.kn { color: #f9005a; }
+
+		// KeywordPseudo
+		.kp { color: #0089b3; }
+
+		// KeywordReserved
+		.kr { color: #0089b3; }
+
+		// KeywordType
+		.kt { color: #f9005a; }
+
+		// Name
+		.n { color: #49483e; }
+
+		// NameAttribute
+		.na { color: #679c00; }
+
+		// NameBuiltin
+		.nb { color: #0089b3; }
+
+		// NameBuiltinPseudo
+		.bp { color: #49483e; }
+
+		// NameClass
+		.nc { color: #679c00; }
+
+		// NameConstant
+		.no { color: #0089b3; }
+
+		// NameDecorator
+		.nd { color: #49483e; }
+
+		// NameEntity
+		.ni { color: #49483e; }
+
+		// NameException
+		.ne { color: #679c00; }
+
+		// NameFunction
+		.nf { color: #679c00; }
+
+		// NameFunctionMagic
+		.fm { color: #49483e; }
+
+		// NameLabel
+		.nl { color: #49483e; }
+
+		// NameNamespace
+		.nn { color: #49483e; }
+
+		// NameOther
+		.nx { color: #49483e; }
+
+		// NameProperty
+		.py { color: #998f2f; }
+
+		// NameTag
+		.nt { color: #f9005a; }
+
+		// NameVariable
+		.nv { color: #49483e; }
+
+		// NameVariableClass
+		.vc { color: #49483e; }
+
+		// NameVariableGlobal
+		.vg { color: #49483e; }
+
+		// NameVariableInstance
+		.vi { color: #49483e; }
+
+		// NameVariableMagic
+		.vm { color: #49483e; }
+
+		// Literal
+		.l { color: #ae81ff; }
+
+		// LiteralDate
+		.ld { color: #d88200; }
+
+		// LiteralString
+		.s { color: #998f2f; }
+
+		// LiteralStringAffix
+		.sa { color: #d88200; }
+
+		// LiteralStringBacktick
+		.sb { color: #d88200; }
+
+		// LiteralStringChar
+		.sc { color: #d88200; }
+
+		// LiteralStringDelimiter
+		.dl { color: #d88200; }
+
+		// LiteralStringDoc
+		.sd { color: #d88200; }
+
+		// LiteralStringDouble
+		.s2 { color: #d88200; }
+
+		// LiteralStringEscape
+		.se { color: #684d99; }
+
+		// LiteralStringHeredoc
+		.sh { color: #d88200; }
+
+		// LiteralStringInterpol
+		.si { color: #d88200; }
+
+		// LiteralStringOther
+		.sx { color: #d88200; }
+
+		// LiteralStringRegex
+		.sr { color: #d88200; }
+
+		// LiteralStringSingle
+		.s1 { color: #998f2f; }
+
+		// LiteralStringSymbol
+		.ss { color: #d88200; }
+
+		// LiteralNumber
+		.m { color: #ae81ff; }
+
+		// LiteralNumberBin
+		.mb { color: #ae81ff; }
+
+		// LiteralNumberFloat
+		.mf { color: #ae81ff; }
+
+		// LiteralNumberHex
+		.mh { color: #ae81ff; }
+
+		// LiteralNumberInteger
+		.mi { color: #684d99; }
+
+		// LiteralNumberIntegerLong
+		.il { color: #ae81ff; }
+
+		// LiteralNumberOct
+		.mo { color: #ae81ff; }
+
+		// Operator
+		.o { color: #49483e; }
+
+		// OperatorWord
+		.ow { color: #f9005a; }
+
+		// Punctuation
+		.p { color: #49483e; }
+
+		// Comment
+		.c { color: #7c7865; }
+
+		// CommentHashbang
+		.ch { color: #7c7865; }
+
+		// CommentMultiline
+		.cm { color: #7c7865; }
+
+		// CommentSingle
+		.c1 { color: #7c7865; }
+
+		// CommentSpecial
+		.cs { color: #7c7865; }
+
+		// CommentPreproc
+		.cp { color: #7c7865; }
+
+		// CommentPreprocFile
+		.cpf { color: #7c7865; }
+
+		// GenericEmph
+		.ge { font-style: italic; }
+
+		// GenericStrong
+		.gs { font-weight: bold; }
+
+	}
+
+}

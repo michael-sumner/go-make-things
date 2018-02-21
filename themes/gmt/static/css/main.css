@@ -1,5 +1,5 @@
 /*!
- * gmt v1.7.2: The theme for gomakethings.com
+ * gmt v1.8.0: The theme for gomakethings.com
  * (c) 2018 Chris Ferdinandi
  * MIT License
  * http://github.com/cferdinandi/go-make-things
@@ -625,8 +625,7 @@ dfn {
  * Address styling not present in IE 8/9.
  */
 /* line 297, src/sass/components/_typography.scss */
-mark,
-.highlight {
+mark {
   background: #fbf89a;
   background-image: linear-gradient(to right, #fbf89a 0%, #fbf9c9 100%);
   color: #272727;
@@ -635,7 +634,7 @@ mark,
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 307, src/sass/components/_typography.scss */
+/* line 306, src/sass/components/_typography.scss */
 small {
   font-size: 80%;
 }
@@ -643,7 +642,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 314, src/sass/components/_typography.scss */
+/* line 313, src/sass/components/_typography.scss */
 sub,
 sup {
   font-size: 75%;
@@ -652,12 +651,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 322, src/sass/components/_typography.scss */
+/* line 321, src/sass/components/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 326, src/sass/components/_typography.scss */
+/* line 325, src/sass/components/_typography.scss */
 sub {
   bottom: -0.25em;
 }
@@ -665,7 +664,7 @@ sub {
 /**
  * Blockquotes
  */
-/* line 335, src/sass/components/_typography.scss */
+/* line 334, src/sass/components/_typography.scss */
 blockquote {
   border-left: 0.25em solid #e5e5e5;
   font-style: italic;
@@ -674,20 +673,20 @@ blockquote {
   padding-right: 1em;
 }
 
-/* line 343, src/sass/components/_typography.scss */
+/* line 342, src/sass/components/_typography.scss */
 blockquote cite {
   color: #808080;
   font-size: 0.9375em;
   padding-top: 1em;
 }
 
-/* line 350, src/sass/components/_typography.scss */
+/* line 349, src/sass/components/_typography.scss */
 blockquote,
 q {
   quotes: none;
 }
 
-/* line 355, src/sass/components/_typography.scss */
+/* line 354, src/sass/components/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -720,7 +719,7 @@ pre {
   background-color: #f7f7f7;
   display: block;
   line-height: 1.5;
-  margin-bottom: 1.5625em;
+  margin: 0 0 1.5625em;
   overflow: auto;
   padding: 0.8125em;
   -moz-tab-size: 4;
@@ -740,81 +739,103 @@ pre code {
 }
 
 /**
- * @section Prism syntax highlighting
- * languages=markup+css+clike+javascript+php
+ * @section Chroma syntax highlighting
+ * Styles for Hugo's syntax highlighting engine
  */
 @media screen {
-  /* line 8, src/sass/components/_prism.scss */
-  .token.comment,
-  .token.prolog,
-  .token.doctype,
-  .token.cdata {
-    color: slategray;
-  }
-  /* line 15, src/sass/components/_prism.scss */
-  .token.punctuation {
-    color: #999;
-  }
-  /* line 19, src/sass/components/_prism.scss */
-  .namespace {
-    opacity: .7;
-  }
-  /* line 23, src/sass/components/_prism.scss */
-  .token.property,
-  .token.tag,
-  .token.boolean,
-  .token.number,
-  .token.constant,
-  .token.symbol,
-  .token.deleted {
+  /* line 10, src/sass/components/_chroma.scss */
+  .chroma .err,
+  .chroma .kc,
+  .chroma .no,
+  .chroma .py,
+  .chroma .nt,
+  .chroma .ss,
+  .chroma .m,
+  .chroma .mb,
+  .chroma .mf,
+  .chroma .mh,
+  .chroma .mi,
+  .chroma .il,
+  .chroma .mo {
     color: #905;
   }
-  /* line 33, src/sass/components/_prism.scss */
-  .token.selector,
-  .token.attr-name,
-  .token.string,
-  .token.char,
-  .token.builtin,
-  .token.inserted {
+  /* line 26, src/sass/components/_chroma.scss */
+  .chroma .k,
+  .chroma .kd,
+  .chroma .kn,
+  .chroma .kp,
+  .chroma .kr,
+  .chroma .kt,
+  .chroma .nb,
+  .chroma .s {
+    color: #07a;
+  }
+  /* line 37, src/sass/components/_chroma.scss */
+  .chroma .n,
+  .chroma .na,
+  .chroma .nc,
+  .chroma .ne,
+  .chroma .l,
+  .chroma .ld,
+  .chroma .sa,
+  .chroma .sb,
+  .chroma .sc,
+  .chroma .dl,
+  .chroma .s1,
+  .chroma .s2,
+  .chroma .se,
+  .chroma .sh,
+  .chroma .si,
+  .chroma .sx {
     color: #690;
   }
-  /* line 42, src/sass/components/_prism.scss */
-  .token.operator,
-  .token.entity,
-  .token.url,
-  .language-css .token.string,
-  .style .token.string {
+  /* line 56, src/sass/components/_chroma.scss */
+  .chroma .bp,
+  .chroma .nd,
+  .chroma .nl,
+  .chroma .sd,
+  .chroma .p,
+  .chroma .c,
+  .chroma .ch,
+  .chroma .cm,
+  .chroma .c1,
+  .chroma .cs,
+  .chroma .cp,
+  .chroma .cpf {
+    color: slategray;
+  }
+  /* line 71, src/sass/components/_chroma.scss */
+  .chroma .ni,
+  .chroma .o {
     color: #a67f59;
     background: rgba(255, 255, 255, 0.5);
   }
-  /* line 51, src/sass/components/_prism.scss */
-  .token.atrule,
-  .token.attr-value,
-  .token.keyword {
-    color: #07a;
+  /* line 77, src/sass/components/_chroma.scss */
+  .chroma .nf,
+  .chroma .fm,
+  .chroma .ow {
+    color: #dd4a68;
   }
-  /* line 57, src/sass/components/_prism.scss */
-  .token.function {
-    color: #DD4A68;
-  }
-  /* line 61, src/sass/components/_prism.scss */
-  .token.regex,
-  .token.important,
-  .token.variable {
+  /* line 84, src/sass/components/_chroma.scss */
+  .chroma .nv,
+  .chroma .vc,
+  .chroma .vg,
+  .chroma .vi,
+  .chroma .vm,
+  .chroma .sr {
     color: #e90;
   }
-  /* line 67, src/sass/components/_prism.scss */
-  .token.important,
-  .token.bold {
-    font-weight: bold;
+  /* line 94, src/sass/components/_chroma.scss */
+  .chroma .nn {
+    opacity: .7;
   }
-  /* line 71, src/sass/components/_prism.scss */
-  .token.italic {
+  /* line 99, src/sass/components/_chroma.scss */
+  .chroma .ge {
     font-style: italic;
   }
-  /* line 75, src/sass/components/_prism.scss */
-  .token.entity {
-    cursor: help;
+  /* line 102, src/sass/components/_chroma.scss */
+  .chroma .gs {
+    font-weight: bold;
   }
 }
 
@@ -1586,6 +1607,11 @@ td {
 /* line 81, src/sass/components/_overrides.scss */
 .text-center {
   text-align: center;
+}
+
+/* line 85, src/sass/components/_overrides.scss */
+.text-right {
+  text-align: right;
 }
 
 @media (min-width: 38em) {

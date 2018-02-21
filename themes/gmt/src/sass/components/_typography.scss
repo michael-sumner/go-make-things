@@ -294,8 +294,7 @@ dfn {
 /**
  * Address styling not present in IE 8/9.
  */
-mark,
-.highlight {
+mark {
 	background: #fbf89a;
 	background-image: linear-gradient(to right, #fbf89a 0%, #fbf9c9 100%);
 	color: $color-black;
