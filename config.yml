@@ -43,3 +43,8 @@ paginatePath: "page"
 # Markdown Options
 blackfriday:
   fractions: false
+
+# Syntax Highlighting
+# pygmentsCodefences: true
+# pygmentsStyle: "monokailight"
+# pygmentsUseClasses: true
