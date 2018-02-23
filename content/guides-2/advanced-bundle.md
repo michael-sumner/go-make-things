@@ -49,7 +49,7 @@ Take your vanilla JavaScript skills to the next level with the Advanced Bundle. 
 
 {{<cta-guide-buy-now>}}
 
-{{<purchase-link type="guide" bundle="advanced" product="guideAdvanced">}}
+{{<purchase-link-2 bundle="advanced" product="advanced">}}
 
 {{%/purchase-box%}}
 

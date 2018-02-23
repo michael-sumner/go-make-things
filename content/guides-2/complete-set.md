@@ -56,7 +56,7 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 {{<cta-guide-buy-now>}}
 
-{{<purchase-link type="guide" bundle="complete" product="guideComplete">}}
+{{<purchase-link-2 bundle="complete" product="complete">}}
 
 {{%/purchase-box%}}
 
