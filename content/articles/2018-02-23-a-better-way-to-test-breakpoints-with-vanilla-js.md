@@ -3,18 +3,9 @@ title: "A better way to test breakpoints with vanilla JavaScript"
 date: 2018-02-23T10:30:00-05:00
 draft: false
 categories:
-- Accessibility
-- Art and Science
-- Business and Leadership
-- Careers
 - Code
 - CSS
-- Design and UX
-- HTML
 - JavaScript
-- Technology
-- Web Performance
-- WordPress
 ---
 
 Yesterday, we looked at [a simple way to run code conditionally based on different breakpoints](/breakpoint-conditional-javascript-in-vanilla-js/).
