@@ -10,6 +10,8 @@ description: ""
 
 Learn how to write flexible, modular, scalable JavaScript plugins that grow with you and your users. Together, we'll convert a simple script into a flexible, developer-friendly plugin.
 
+This guide is short and focused. Learn the ins-and-outs of writing vanilla JS plugins in about an hour.
+
 {{<cta-guide>}}
 
 {{<pricing-link>}}
@@ -27,7 +29,7 @@ Learn how to write flexible, modular, scalable JavaScript plugins that grow with
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-chris-baughman photo>}}</div>
 
-## The Project: Create a Plugin
+## Learn by doing with a real JavaScript project
 
 <p class="no-margin-bottom"><img src="/img/projects/writing-plugins-project-screenshot.jpg" alt="" width="1200" height="768" class="no-margin-bottom aligncenter size-full wp-image-14081" /></p>
 
@@ -49,13 +51,13 @@ Reinforce your learning and build your portfolio by creating a real JavaScript p
 
 Get everything you need to start writing flexible, modular plugins with vanilla JavaScript:
 
-{{<purchase-summary type="guide">}}{{</purchase-summary>}}
+{{<purchase-summary>}}{{</purchase-summary>}}
 
 {{<cta-guide-buy-now>}}
 
-{{<purchase-link type="guide" product="guideWritingPlugins">}}
+{{<purchase-link product="writingPlugins">}}
 
-{{<purchase-upsell type="guide" upsell="advanced">}}
+{{<purchase-upsell upsell="advanced">}}
 
 {{%/purchase-box%}}
 

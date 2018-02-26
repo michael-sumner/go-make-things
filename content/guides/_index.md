@@ -16,7 +16,7 @@ If you're sick of hostile answers on StackOverflow, bad documentation, and confu
 
 <div class="list-spaced">
 {{%md%}}
-{{<product-list package="bundles" type="guide">}}
+{{<product-list package="bundles">}}
 {{%/md%}}
 </div>
 
@@ -24,7 +24,7 @@ If you're sick of hostile answers on StackOverflow, bad documentation, and confu
 
 <div class="list-spaced">
 {{%md%}}
-{{<product-list package="complete" type="guide">}}
+{{<product-list package="complete">}}
 {{%/md%}}
 </div>
 

@@ -10,6 +10,8 @@ description: ""
 
 Learn how to build interactive web apps and single page apps without libraries or frameworks. Together, we'll write a working web app.
 
+This guide is short and focused. Learn the basics of web app development with vanilla JavaScript in about an hour.
+
 {{<cta-guide>}}
 
 {{<pricing-link>}}
@@ -27,7 +29,7 @@ Learn how to build interactive web apps and single page apps without libraries o
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-chris-baughman photo>}}</div>
 
-## The Project: Who's Driving?
+## Learn by doing with a real JavaScript project
 
 <p class="no-margin-bottom"><img src="/img/projects/whos-driving.png" class="no-margin-bottom aligncenter size-full wp-image-14033" /></p>
 
@@ -49,13 +51,13 @@ Reinforce your learning and build your portfolio by working on a real project. T
 
 Get everything you need to start building web apps with vanilla JavaScript:
 
-{{<purchase-summary type="guide">}}{{</purchase-summary>}}
+{{<purchase-summary>}}{{</purchase-summary>}}
 
 {{<cta-guide-buy-now>}}
 
-{{<purchase-link type="guide" product="guideWebApps">}}
+{{<purchase-link product="webApps">}}
 
-{{<purchase-upsell type="guide" upsell="advanced">}}
+{{<purchase-upsell upsell="advanced">}}
 
 {{%/purchase-box%}}
 

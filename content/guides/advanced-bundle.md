@@ -18,9 +18,11 @@ Take your vanilla JavaScript skills to the next level with the Advanced Bundle. 
 
 <div class="list-spaced">
 {{%md%}}
-{{<product-list package="advanced" type="guide">}}
+{{<product-list package="advanced">}}
 {{%/md%}}
 </div>
+
+{{<guide-formats>}}
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-chris-baughman photo>}}</div>
 
@@ -38,9 +40,9 @@ Take your vanilla JavaScript skills to the next level with the Advanced Bundle. 
 
 {{%purchase-box%}}
 
-**Get everything you need to kick-start your journey to vanilla JavaScript, and save over 30%.** If purchased individually, these pocket guides would cost $116.
+**Get everything you need to kick-start your journey to vanilla JavaScript, and save over 30%.** If purchased individually, these pocket guides would cost a lot more.
 
-{{<purchase-summary type="guide">}}
+{{<purchase-summary>}}
 - Browser Storage
 - Ajax/HTTP
 - Writing Vanilla JS Plugins
@@ -49,7 +51,7 @@ Take your vanilla JavaScript skills to the next level with the Advanced Bundle. 
 
 {{<cta-guide-buy-now>}}
 
-{{<purchase-link type="guide" bundle="advanced" product="guideAdvanced">}}
+{{<purchase-link bundle="advanced" product="advanced">}}
 
 {{%/purchase-box%}}
 

@@ -10,6 +10,8 @@ description: ""
 
 Learn how to make HTTP requests, asynchronously grab HTML from another page, and more. Together, we'll write a working project with Ajax.
 
+This guide is short, focused, and made for beginners. Learn the ins-and-outs of Ajax with vanilla JavaScript in about an hour.
+
 {{<cta-guide>}}
 
 {{<pricing-link>}}
@@ -26,7 +28,7 @@ Learn how to make HTTP requests, asynchronously grab HTML from another page, and
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-chris-baughman photo>}}</div>
 
-## The Project: Photo Gallery API
+## Learn by doing with a real JavaScript project
 
 <p class="no-margin-bottom"><img src="/img/projects/ajax-api-project.jpg" alt="" width="1200" height="820" class="no-margin-bottom aligncenter size-full wp-image-14037" /></p>
 
@@ -48,13 +50,13 @@ Reinforce your learning and build your portfolio by using Ajax on a real project
 
 Get everything you need to start mastering Ajax with vanilla JavaScript:
 
-{{<purchase-summary type="guide">}}{{</purchase-summary>}}
+{{<purchase-summary>}}{{</purchase-summary>}}
 
 {{<cta-guide-buy-now>}}
 
-{{<purchase-link type="guide" product="guideAjaxHttp">}}
+{{<purchase-link product="ajaxHttp">}}
 
-{{<purchase-upsell type="guide" upsell="advanced">}}
+{{<purchase-upsell upsell="advanced">}}
 
 {{%/purchase-box%}}
 

@@ -10,6 +10,8 @@ description: ""
 
 Learn how to get DOM elements and do awesome stuff with them. Together, we’ll write a working project with DOM manipulation.
 
+This guide is short, focused, and made for beginners. Learn the ins-and-outs of vanilla JS DOM manipulation in about an hour.
+
 {{<cta-guide>}}
 
 {{<pricing-link>}}
@@ -28,9 +30,9 @@ Learn how to get DOM elements and do awesome stuff with them. Together, we’ll 
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-chris-baughman photo>}}</div>
 
-## The Project: An Accordion Script
+## Learn by doing with a real JavaScript project
 
-<p class="no-margin-bottom"><img src="/img/projects/accordion-project.jpg" alt="" width="1200" height="741" class="no-margin-bottom aligncenter size-full wp-image-14074" /></p>
+<div class="margin-bottom"><iframe class="margin-bottom" src="https://player.vimeo.com/video/253356981?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 Reinforce your learning and build your portfolio by using DOM manipulation techniques on a real project. Together, we'll build a show-and-hide/accordion script that reveals content when you click a link.
 
@@ -50,13 +52,13 @@ Reinforce your learning and build your portfolio by using DOM manipulation techn
 
 Get everything you need to start mastering DOM manipulation with vanilla JavaScript:
 
-{{<purchase-summary type="guide">}}{{</purchase-summary>}}
+{{<purchase-summary>}}{{</purchase-summary>}}
 
 {{<cta-guide-buy-now>}}
 
-{{<purchase-link type="guide" product="guideDomManipulation">}}
+{{<purchase-link product="domManipulation">}}
 
-{{<purchase-upsell type="guide" upsell="beginner">}}
+{{<purchase-upsell upsell="beginner">}}
 
 {{%/purchase-box%}}
 

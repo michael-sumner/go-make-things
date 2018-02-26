@@ -20,9 +20,11 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 <div class="list-spaced">
 {{%md%}}
-{{<product-list package="complete" type="guide">}}
+{{<product-list package="complete">}}
 {{%/md%}}
 </div>
+
+{{<guide-formats>}}
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-chris-baughman photo>}}</div>
 
@@ -40,9 +42,9 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 {{%purchase-box%}}
 
-**Get everything you need to master vanilla JavaScript, and save over 30%.** If purchased individually, these pocket guides would cost $261.
+**Get everything you need to master vanilla JavaScript, and save over 30%.** If purchased individually, these pocket guides would cost a lot more.
 
-{{<purchase-summary type="guide">}}
+{{<purchase-summary>}}
 - DOM Manipulation
 - String, Array, & Object Manipulation
 - Variables, Functions, & Scope
@@ -56,7 +58,7 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 {{<cta-guide-buy-now>}}
 
-{{<purchase-link type="guide" bundle="complete" product="guideComplete">}}
+{{<purchase-link bundle="complete" product="complete">}}
 
 {{%/purchase-box%}}
 

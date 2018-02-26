@@ -1,9 +1,26 @@
-{{ if .Get "preorder" }}
-<p>{{ if eq ( .Get "preorder" ) "beginner" }}<strong>Pre-order as part of the <a href="/courses/complete-set/">Complete Set</a> or <a href="/courses/beginner-bundle/">Beginner's Bundle</a> and save 30% off the launch price.</strong>{{ else if eq ( .Get "preorder" ) "advanced" }}<strong>Pre-order as part of the <a href="/courses/complete-set/">Complete Set</a> or <a href="/courses/advanced-bundle/">Advanced Bundle</a> and save 30% off the launch price.</strong>{{ end }}</p>
-{{ else }}
-	{{ $product := index .Site.Data.productInfo.checkoutDetails ( .Get "product" ) }}
-	{{ if eq ( .Get "type" ) "course" }}
-<p><strong>Pre-order today and save an additional 30%!</strong> {{ if eq ( .Get "bundle" ) "complete" }}And as an added bonus, you’ll also get Complete Set of Pocket Guides for free&mdash;a $179 value.{{ else if eq ( .Get "bundle" ) "beginner" }}And as an added bonus, you’ll also get Pocket Guides Beginner’s Bundle for free&mdash;a $99 value.{{ else if eq ( .Get "bundle" ) "advanced" }}And as an added bonus, you’ll also get Pocket Guides Advanced Bundle for free&mdash;a $99 value.{{ end }} Use the code <code>PREORDER</code> at checkout.</p>
+{{ $product := index .Site.Data.products.productDetails ( .Get "product" ) }}
+{{ $.Scratch.Set "price" .Site.Data.products.price.guides }}
+{{ if .Get "bundle" }}
+	{{ if eq ( .Get "bundle" ) "complete" }}
+		{{ $.Scratch.Set "price" .Site.Data.products.price.guidesComplete }}
+	{{ else if eq ( .Get "bundle" ) "beginner" }}
+		{{ $.Scratch.Set "price" .Site.Data.products.price.guidesBeginner }}
+	{{ else if eq ( .Get "bundle" ) "advanced" }}
+		{{ $.Scratch.Set "price" .Site.Data.products.price.guidesAdvanced }}
 	{{ end }}
-<p><a class="btn btn-large btn-block edd-buy-now-button" href="/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]={{ $product.price }}">{{ if eq ( .Get "type" ) "course" }}{{ if .Get "bundle" }}Pre-order now for just {{ if eq ( .Get "bundle" ) "complete" }}{{ ( .Site.Data.productInfo.price.coursesComplete | safeHTML ) }}{{ else if eq ( .Get "bundle" ) "beginner" }}{{ ( .Site.Data.productInfo.price.coursesBeginner | safeHTML ) }}{{ else if eq ( .Get "bundle" ) "advanced" }}{{ ( .Site.Data.productInfo.price.coursesAdvanced | safeHTML ) }}{{ end }}{{ end }}{{ else }}Buy now for just {{ if .Get "bundle" }}{{ if eq ( .Get "bundle" ) "complete" }}{{ ( .Site.Data.productInfo.price.guidesComplete | safeHTML ) }}{{ else if eq ( .Get "bundle" ) "beginner" }}{{ ( .Site.Data.productInfo.price.guidesBeginner | safeHTML ) }}{{ else if eq ( .Get "bundle" ) "advanced" }}{{ ( .Site.Data.productInfo.price.guidesAdvanced | safeHTML ) }}{{ end }}{{ else }}{{ ( .Site.Data.productInfo.price.guides | safeHTML ) }}{{ end }}{{ end }}</a></p>
+{{ end }}
+{{ $price := ( $.Scratch.Get "price" ) }}
+{{ if .Get "novideo" }}
+<p><a class="btn btn-large btn-block edd-buy-now-button" href="/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=1">Buy it now for just {{ ( $price.ebook | safeHTML ) }}</a></p>
+{{ else }}
+<p><em><strong>Want to save {{ if .Get "bundle" }}an additional {{ end }}30%?</strong> Pre-order the video series while it's in production to get {{ if .Get "bundle" }}an additional {{ end }}30% off the launch price.</em></p>
+<div class="row">
+	<div class="grid-half margin-bottom-small">
+		<a class="btn btn-large btn-block edd-buy-now-button" href="/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=1">Get the Ebook{{ if .Get "bundle" }}s{{ end }} - {{ ( $price.ebook | safeHTML ) }}</a>
+	</div>
+	<div class="grid-half margin-bottom-small">
+		<a class="btn btn-secondary btn-large btn-block edd-buy-now-button" href="/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=2">Preorder the Videos - {{ ( $price.video | safeHTML ) }}</a>
+	</div>
+</div>
+<p><a class="btn btn-tertiary btn-large btn-block edd-buy-now-button" href="/checkout?edd_action=add_to_cart&download_id={{ $product.id }}&edd_options[price_id]=3">Get the Ebook{{ if .Get "bundle" }}s{{ end }} + Preorder the Videos - {{ ( $price.both | safeHTML ) }}</a></p>
 {{ end }}

@@ -10,6 +10,8 @@ description: ""
 
 Store data in local storage, get and set cookies, and retrieve values from query strings. Together, we'll write a working project with browser storage.
 
+This guide is short, focused, and made for beginners. Learn the ins-and-outs of browser storage in about an hour.
+
 {{<cta-guide>}}
 
 {{<pricing-link>}}
@@ -25,7 +27,7 @@ Store data in local storage, get and set cookies, and retrieve values from query
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-chris-baughman photo>}}</div>
 
-## The Project: Autosave
+## Learn by doing with a real JavaScript project
 
 <p class="no-margin-bottom"><img src="/img/projects/autosave-form.jpg" alt="" width="1165" height="753" class="no-margin-bottom aligncenter size-full wp-image-14033" /></p>
 
@@ -47,13 +49,13 @@ Reinforce your learning and build your portfolio by using browser storage on a r
 
 Get everything you need to start mastering browser storage with vanilla JavaScript:
 
-{{<purchase-summary type="guide">}}{{</purchase-summary>}}
+{{<purchase-summary>}}{{</purchase-summary>}}
 
 {{<cta-guide-buy-now>}}
 
-{{<purchase-link type="guide" product="guideBrowserStorage">}}
+{{<purchase-link product="browserStorage">}}
 
-{{<purchase-upsell type="guide" upsell="advanced">}}
+{{<purchase-upsell upsell="advanced">}}
 
 {{%/purchase-box%}}
 

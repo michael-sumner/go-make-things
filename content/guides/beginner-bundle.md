@@ -8,7 +8,7 @@ description: ""
 
 <img class="aligncenter" style="width: 88%;" src="/img/guides/beginner-bundle.jpg">
 
-Kick-start your journey to vanilla JavaScript with the Beginner's Bundle. You'll get five essential pocket guides, all of the source code and demos, the bonuses, and exclusive Slack access.
+Kick-start your journey to vanilla JavaScript with the Beginner's Bundle. You'll get four essential pocket guides, all of the source code and demos, the bonuses, and exclusive Slack access.
 
 {{<cta-guides-all>}}
 
@@ -18,9 +18,11 @@ Kick-start your journey to vanilla JavaScript with the Beginner's Bundle. You'll
 
 <div class="list-spaced">
 {{%md%}}
-{{<product-list package="beginner" type="guide">}}
+{{<product-list package="beginner">}}
 {{%/md%}}
 </div>
+
+{{<guide-formats>}}
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-chris-baughman photo>}}</div>
 
@@ -38,9 +40,9 @@ Kick-start your journey to vanilla JavaScript with the Beginner's Bundle. You'll
 
 {{%purchase-box%}}
 
-**Get everything you need to kick-start your journey to vanilla JavaScript, and save over 30%.** If purchased individually, these pocket guides would cost $116.
+**Get everything you need to kick-start your journey to vanilla JavaScript, and save over 30%.** If purchased individually, these pocket guides would cost a lot more.
 
-{{<purchase-summary type="guide">}}
+{{<purchase-summary>}}
 - DOM Manipulation
 - String, Array, & Object Manipulation
 - Variables, Functions, & Scope
@@ -50,7 +52,7 @@ Kick-start your journey to vanilla JavaScript with the Beginner's Bundle. You'll
 
 {{<cta-guide-buy-now>}}
 
-{{<purchase-link type="guide" bundle="beginner" product="guideBeginner">}}
+{{<purchase-link bundle="beginner" product="beginner">}}
 
 {{%/purchase-box%}}
 

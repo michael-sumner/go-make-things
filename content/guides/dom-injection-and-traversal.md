@@ -10,6 +10,8 @@ description: ""
 
 Learn how to generate dynamic content, climb up and down the DOM, and more. Together, we'll write a working project with DOM injection and traversal.
 
+This guide is short, focused, and made for beginners. Learn the ins-and-outs of DOM injection and traversal in about an hour.
+
 {{<cta-guide>}}
 
 {{<pricing-link>}}
@@ -28,7 +30,7 @@ Learn how to generate dynamic content, climb up and down the DOM, and more. Toge
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-chris-baughman photo>}}</div>
 
-## The Project: Image Lazy Loading
+## Learn by doing with a real JavaScript project
 
 <p class="no-margin-bottom"><img src="/img/projects/lazy-load-project.jpg" alt="" width="1200" height="1005" class="no-margin-bottom aligncenter size-full wp-image-14077" /></p>
 
@@ -50,13 +52,13 @@ Reinforce your learning and build your portfolio by using DOM injection and trav
 
 Get everything you need to start mastering DOM injection and traversal with vanilla JavaScript:
 
-{{<purchase-summary type="guide">}}{{</purchase-summary>}}
+{{<purchase-summary>}}{{</purchase-summary>}}
 
 {{<cta-guide-buy-now>}}
 
-{{<purchase-link type="guide" product="guideDomInjectionTraversal">}}
+{{<purchase-link product="domInjectionTraversal">}}
 
-{{<purchase-upsell type="guide" upsell="beginner">}}
+{{<purchase-upsell upsell="beginner">}}
 
 {{%/purchase-box%}}
 

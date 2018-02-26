@@ -10,6 +10,8 @@ description: ""
 
 Transform and edit strings, arrays, and objects to make working with them easier and more productive. Together, we'll write a working project with string, array, and object manipulation.
 
+This guide is short, focused, and made for beginners. Learn the ins-and-outs of strings, arrays, and objects in about an hour.
+
 {{<cta-guide>}}
 
 {{<pricing-link>}}
@@ -30,7 +32,7 @@ Transform and edit strings, arrays, and objects to make working with them easier
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-chris-baughman photo>}}</div>
 
-## The Project: Dog Rescue Data
+## Learn by doing with a real JavaScript project
 
 <p class="no-margin-bottom"><img src="/img/projects/project-string-array-object-manipulation.jpg" alt="" width="1200" height="1489" class="no-margin-bottom aligncenter size-full wp-image-14137" /></p>
 
@@ -52,13 +54,13 @@ Reinforce your learning and build your portfolio by using string, array, and obj
 
 Get everything you need to start mastering string, array, and object manipulation with vanilla JavaScript:
 
-{{<purchase-summary type="guide">}}{{</purchase-summary>}}
+{{<purchase-summary>}}{{</purchase-summary>}}
 
 {{<cta-guide-buy-now>}}
 
-{{<purchase-link type="guide" product="guideStringArrayObject">}}
+{{<purchase-link product="stringArrayObject">}}
 
-{{<purchase-upsell type="guide" upsell="beginner">}}
+{{<purchase-upsell upsell="beginner">}}
 
 {{%/purchase-box%}}
 

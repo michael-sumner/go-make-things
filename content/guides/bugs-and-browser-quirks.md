@@ -27,7 +27,7 @@ Making your scripts work across browsers can be tough. Learn how to make it way 
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-chris-baughman photo>}}</div>
 
-## Project: Script Cleanup
+## Learn by doing with a real JavaScript project
 
 <p class="no-margin-bottom"><img src="/img/projects/cleanup-project.jpg" alt="" width="1200" height="741" class="no-margin-bottom aligncenter size-full wp-image-14041" /></p>
 
@@ -49,13 +49,13 @@ Reinforce your learning and build your portfolio by working on a real project. T
 
 Get everything you need to start mastering cross-browser compatibility with vanilla JavaScript:
 
-{{<purchase-summary type="guide">}}{{</purchase-summary>}}
+{{<purchase-summary>}}{{</purchase-summary>}}
 
 {{<cta-guide-buy-now>}}
 
-{{<purchase-link type="guide" product="guideBugsBrowserQuirks">}}
+{{<purchase-link product="bugsBrowserQuirks">}}
 
-{{<purchase-upsell type="guide" upsell="beginner">}}
+{{<purchase-upsell upsell="beginner">}}
 
 {{%/purchase-box%}}
 

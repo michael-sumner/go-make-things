@@ -10,6 +10,8 @@ description: ""
 
 What are arrow functions? What's function hoisting? What's the difference between `var`, `let`, and `const`, and when should you use each? What's "scope" and how does it work? Together, we'll apply JavaScript best practices to a working project.
 
+This guide is short, focused, and made for beginners. Learn the ins-and-outs of variables, functions, and JavaScript scope in about an hour.
+
 {{<cta-guide>}}
 
 {{<pricing-link>}}
@@ -29,7 +31,7 @@ What are arrow functions? What's function hoisting? What's the difference betwee
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-chris-baughman photo>}}</div>
 
-## The Project: JavaScript Best Practices
+## Learn by doing with a real JavaScript project
 
 <p class="no-margin-bottom"><img src="/img/projects/lazy-load-project.jpg" alt="" width="1200" height="820" class="no-margin-bottom aligncenter size-full wp-image-14037" /></p>
 
@@ -51,13 +53,13 @@ Reinforce your learning and build your portfolio by applying JavaScript best pra
 
 Get everything you need to start mastering modern vanilla JavaScript:
 
-{{<purchase-summary type="guide">}}{{</purchase-summary>}}
+{{<purchase-summary>}}{{</purchase-summary>}}
 
 {{<cta-guide-buy-now>}}
 
-{{<purchase-link type="guide" product="guideVariablesFunctionsScope">}}
+{{<purchase-link product="variablesFunctionsScope">}}
 
-{{<purchase-upsell type="guide" upsell="beginner">}}
+{{<purchase-upsell upsell="beginner">}}
 
 {{%/purchase-box%}}
 

@@ -20,9 +20,6 @@ I help people learn vanilla JavaScript. Here are some resources to help you with
 [Pocket Guides](/guides/) &ndash; *{{<price-guides>}}+*
 : Step-by-step training guides to help you master vanilla JavaScript. They’re short, focused, and made for beginners.
 
-[Mini Courses](/courses/) &ndash; *{{<price-courses>}}+*
-: Short and sweet video series to help you master vanilla JavaScript. They’re project-based, focused, and made for beginners.
-
 [1-on-1 Consulting Call](/call/) &ndash; *{{<price-call>}}*
 : Have a JavaScript problem you're stuck on? Chat with an expert and get unstuck.
 

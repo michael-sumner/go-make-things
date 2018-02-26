@@ -35,7 +35,7 @@ productDetails:
         url: "/guides/beginner-bundle/"
     advanced:
         id: "22675"
-        description: "Take your vanilla JavaScript skills to the next level with these {{type}}s on advanced topics."
+        description: "Take your vanilla JavaScript skills to the next level with these pocket guides on advanced topics."
         url: "/guides/advanced-bundle/"
     domManipulation:
         id: "22585"
