@@ -1,0 +1,23 @@
+<div class="callout" id="ready-to-buy">
+	<h2>Ready to buy?</h2>
+
+	{{.Inner}}
+
+	<ul>
+		{{ if .Get "bundle" }}
+			<li>The Pocket Guides <span class="text-small text-muted">(in PDF, EPUB, MOBI, and HTML formats)</span>
+				<ul>
+					{{ (.Get "bundle") | safeHTML }}
+				</ul>
+			</li>
+		{{ else }}
+			<li>The Pocket Guide <span class="text-small text-muted">(in PDF, EPUB, MOBI, and HTML formats)</span></li>
+		{{ end }}
+			<li>The Source Code &amp; Demos</li>
+			<li>The Vanilla JavaScript Toolkit</li>
+			<li>Exclusive Slack Access</li>
+			<li>FREE Updates for Life</li>
+	</ul>
+
+	<p><a class="btn btn-large btn-block edd-buy-now-button" href='{{ .Get "url" }}'>Buy now for just {{ if .Get "price" }}{{ if eq ( .Get "price" ) "complete" }}{{ ( .Site.Data.productInfo.price.guidesComplete | safeHTML ) }}{{ else if eq ( .Get "price" ) "beginner" }}{{ ( .Site.Data.productInfo.price.guidesBeginner | safeHTML ) }}{{ else if eq ( .Get "price"  ) "advanced" }}{{ ( .Site.Data.productInfo.price.guidesAdvanced | safeHTML ) }}{{ end }}{{ else }}{{ ( .Site.Data.productInfo.price.guides | safeHTML ) }}{{ end }}</a></p>
+</div>

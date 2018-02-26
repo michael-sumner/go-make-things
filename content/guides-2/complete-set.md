@@ -20,7 +20,7 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 <div class="list-spaced">
 {{%md%}}
-{{<product-list package="complete" type="guide">}}
+{{<product-list-2 package="complete">}}
 {{%/md%}}
 </div>
 
@@ -42,7 +42,7 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 **Get everything you need to master vanilla JavaScript, and save over 30%.** If purchased individually, these pocket guides would cost $261.
 
-{{<purchase-summary type="guide">}}
+{{<purchase-summary-2>}}
 - DOM Manipulation
 - String, Array, & Object Manipulation
 - Variables, Functions, & Scope
@@ -52,7 +52,7 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 - Ajax/HTTP
 - Writing Vanilla JS Plugins
 - Web Apps
-{{</purchase-summary>}}
+{{</purchase-summary-2>}}
 
 {{<cta-guide-buy-now>}}
 

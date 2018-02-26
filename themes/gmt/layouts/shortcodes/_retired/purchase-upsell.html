@@ -1,0 +1,19 @@
+{{ if eq ( .Get "type" ) "guide" }}
+<p>
+	<em>Want to save 30%?
+		{{ if eq ( .Get "type" ) "course" }}
+			{{ if eq ( .Get "upsell" ) "beginner" }}
+				Get this course as part of the <a href="/courses/complete-set/">Complete Set</a> or <a href="/courses/beginner-bundle/">Beginner's Bundle</a>.
+			{{ else }}
+				Get this course as part of the <a href="/courses/complete-set/">Complete Set</a> or <a href="/courses/beginner-bundle/">Beginner's Bundle</a>.
+			{{ end }}
+		{{ else }}
+			{{ if eq ( .Get "upsell" ) "beginner" }}
+				Get this book as part of the <a href="/guides/complete-set/">Complete Set</a> or <a href="/guides/beginner-bundle/">Beginner's Bundle</a>.
+			{{ else }}
+				Get this book as part of the <a href="/guides/complete-set/">Complete Set</a> or <a href="/guides/advanced-bundle/">Advanced Bundle</a>.
+			{{ end }}
+		{{ end }}
+	</em>
+</p>
+{{ end }}
