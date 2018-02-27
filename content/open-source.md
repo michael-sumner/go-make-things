@@ -46,7 +46,6 @@ The web community has given me a lot. I like to give back.
 ## Boilerplates
 
 - **[Kraken.](http://cferdinandi.github.io/kraken/)** A lightweight, mobile-first boilerplate for front-end web developers.
-- **[Keel.](http://keel.gomakethings.com)** A lightweight, mobile-first boilerplate for WordPress theme developers.
 - **[Gulp Boilerplate.](https://github.com/cferdinandi/gulp-boilerplate)** A boilerplate for Gulp.js projects.
 - **[Ebook Boilerplate.](https://github.com/cferdinandi/ebook-boilerplate)** Self-publish ebooks with markdown and command line.
 
@@ -85,7 +84,6 @@ The web community has given me a lot. I like to give back.
 - **[Allow iFrames.](https://github.com/cferdinandi/gmt-allow-iframes)** Prevent `wp_kses` from filtering out iframes from sites like YouTube and Vimeo.
 - **[PayPal IPN Forwarder.](https://github.com/cferdinandi/gmt-paypal-ipn-forwarder)** Forward PayPal IPN to multiple other IPN services in WordPress.
 - **[Disable WordPress Core Updates](https://github.com/cferdinandi/gmt-disable-wp-core-updates)** Remove the "Update WordPress" button and nag message in the Dashboard.
-- **[Harbor.](http://harbor.gomakethings.com)** A free mobile-friendly WordPress theme built specifically for animal rescue organizations.
 
 
 ## Recommendations
