@@ -3,18 +3,9 @@ title: "Sharing richer breakpoint data between CSS and JavaScript"
 date: 2018-02-28T10:30:00-05:00
 draft: false
 categories:
-- Accessibility
-- Art and Science
-- Business and Leadership
-- Careers
 - Code
 - CSS
-- Design and UX
-- HTML
 - JavaScript
-- Technology
-- Web Performance
-- WordPress
 ---
 
 Yesterday, we looked at [how to pass info about the current CSS breakpoint into your JavaScript](/the-easy-way-to-manage-css-breakpoints-in-javascript/).
