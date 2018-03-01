@@ -1,5 +1,5 @@
 ---
-title: "How to truncate text with vanilla js"
+title: "How to truncate text with vanilla JavaScript"
 date: 2018-03-01T10:30:00-05:00
 draft: false
 categories:
