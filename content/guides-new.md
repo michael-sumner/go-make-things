@@ -3,6 +3,7 @@ title: "Pocket Guides"
 date: 2018-01-11T16:03:33-05:00
 draft: false
 noTitle: true
+noIndex: true
 ---
 
 <h1 class="text-xlarge text-normal">Everything you need to master JavaScript.</h1>
