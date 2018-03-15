@@ -7,9 +7,9 @@ description: ""
 ---
 
 <h1 class="no-padding-top no-margin-bottom h5">Vanilla JavaScript Pocket Guides</h1>
-<p class="padding-bottom"><span class="text-xlarge">Everything you need to master JavaScript.</span></p>
+<p class="text-xlarge margin-bottom-small">Everything you need to master JavaScript.</p>
 
-<p class="text-large margin-bottom-large">Short, focused training guides made for beginners. Start building real JavaScript projects in under an hour.</p>
+<p class="padding-bottom"><span class="text-large">Short, focused training guides made for beginners. Start building real JavaScript projects in under an hour.</span></p>
 
 <!-- - Learn modern best practices and code patterns.
 - Spend less time Googling and more time working on cool stuff.
