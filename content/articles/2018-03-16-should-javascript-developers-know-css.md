@@ -38,7 +38,7 @@ So, who *should* know CSS?
 
 ## The Front End Stack
 
-I view the front end stack as a progression: HTML -> CSS -> JS.
+I view the front end stack as a progression: HTML &rarr; CSS &rarr; JS.
 
 They should be learned and used in that order. So... if you write JavaScript but don't know CSS, I don't trust you to write good JS.
 
