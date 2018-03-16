@@ -12,6 +12,8 @@ categories:
 - Web Performance
 ---
 
+*__tl;dr:__ yes.*
+
 Yesterday, [Eli Fitch tweeted](https://twitter.com/EliFitch/status/974282973926383616):
 
 > Grinds my gears that CSS focused developers who are learning or sometimes struggle with JS are made to feel stupid, but when developers struggle with CSS it's because CSS itself is backwards nonsense that should be burnt to the ground.
