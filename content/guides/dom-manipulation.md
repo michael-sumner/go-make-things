@@ -2,19 +2,24 @@
 title: "DOM Manipulation"
 date: 2018-01-16T10:05:20-05:00
 draft: false
-weight: 10
+noTitle: true
 description: ""
 ---
 
+<h1 class="no-padding-top no-margin-bottom h5">Pocket Guide: DOM Manipulation</h1>
+<p><span class="text-xlarge">Learn how to add dynamic features to that boring, static website.</span></p>
+
 <img class="aligncenter" style="width: 88%;" src="/img/guides/dom-manipulation.jpg">
 
-Learn how to get DOM elements and do awesome stuff with them. Together, we’ll write a working project with DOM manipulation.
+<span class="text-large">Learn the ins-and-outs of vanilla JavaScript DOM manipulation in about an hour.</span>
 
-This guide is short, focused, and made for beginners. Learn the ins-and-outs of vanilla JS DOM manipulation in about an hour.
+This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio with a real DOM manipulation project.
 
 {{<cta-guide>}}
 
-{{<pricing-link>}}
+<div class="padding-bottom-small">{{<pricing-link>}}</div>
+
+{{<guide-used-by>}}
 
 ## What you'll learn
 

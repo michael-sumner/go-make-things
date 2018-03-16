@@ -2,19 +2,24 @@
 title: "Writing Vanilla JS Plugins"
 date: 2018-01-16T10:05:20-05:00
 draft: false
-weight: 10
+noTitle: true
 description: ""
 ---
 
+<h1 class="no-padding-top no-margin-bottom h5">Pocket Guide: Writing Plugins</h1>
+<p><span class="text-xlarge">Learn how to write JavaScript that scales and adapts to whatever you throw at it.</span></p>
+
 <img class="aligncenter" style="width: 88%;" src="/img/guides/writing-plugins.jpg">
 
-Learn how to write flexible, modular, scalable JavaScript plugins that grow with you and your users. Together, we'll convert a simple script into a flexible, developer-friendly plugin.
+<span class="text-large">Learn the ins-and-outs of writing vanilla JavaScript plugins in about an hour.</span>
 
-This guide is short and focused. Learn the ins-and-outs of writing vanilla JS plugins in about an hour.
+This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio by converting a simple script into a flexible, developer-friendly plugin.
 
 {{<cta-guide>}}
 
-{{<pricing-link>}}
+<div class="padding-bottom-small">{{<pricing-link>}}</div>
+
+{{<guide-used-by>}}
 
 ## What you'll learn
 

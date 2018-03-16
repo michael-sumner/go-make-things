@@ -2,19 +2,24 @@
 title: "Ajax and HTTP"
 date: 2018-01-16T10:05:20-05:00
 draft: false
-weight: 10
+noTitle: true
 description: ""
 ---
 
+<h1 class="no-padding-top no-margin-bottom h5">Pocket Guide: Ajax and HTTP</h1>
+<p><span class="text-xlarge">Learn how to make make API calls and grab data from other places.</span></p>
+
 <img class="aligncenter" style="width: 88%;" src="/img/guides/ajax.jpg">
 
-Learn how to make HTTP requests, asynchronously grab HTML from another page, and more. Together, we'll write a working project with Ajax.
+<span class="text-large">Learn the ins-and-outs of Ajax and HTTP requests with vanilla JavaScript in about an hour.</span>
 
-This guide is short, focused, and made for beginners. Learn the ins-and-outs of Ajax with vanilla JavaScript in about an hour.
+This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio with a real project using Ajax and HTTP requests.
 
 {{<cta-guide>}}
 
-{{<pricing-link>}}
+<div class="padding-bottom-small">{{<pricing-link>}}</div>
+
+{{<guide-used-by>}}
 
 ## What you'll learn
 

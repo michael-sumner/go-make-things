@@ -2,17 +2,22 @@
 title: "The Advanced Bundle"
 date: 2018-01-16T10:05:20-05:00
 draft: false
-weight: 10
+noTitle: true
 description: ""
 ---
 
+<h1 class="no-padding-top no-margin-bottom h5">Pocket Guides: The Advanced Bundle</h1>
+<p><span class="text-xlarge">Take your vanilla JavaScript skills to the next level.</span></p>
+
 <img class="aligncenter" style="width: 88%;" src="/img/guides/advanced-bundle.jpg">
 
-Take your vanilla JavaScript skills to the next level with the Advanced Bundle. You'll get four advanced topic pocket guides, all of the source code and demos, the bonuses, and exclusive Slack access.
+<span class="text-large">Get four advanced topic pocket guides, all of the source code and demos, the bonuses, and exclusive Slack access.</span>
 
 {{<cta-guides-all>}}
 
-{{<pricing-link>}}
+<div class="padding-bottom-small">{{<pricing-link>}}</div>
+
+{{<guide-used-by>}}
 
 ## What's included?
 

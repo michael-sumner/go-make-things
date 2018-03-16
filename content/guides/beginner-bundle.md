@@ -2,17 +2,22 @@
 title: "The Beginner's Bundle"
 date: 2018-01-16T10:05:20-05:00
 draft: false
-weight: 10
+noTitle: true
 description: ""
 ---
 
+<h1 class="no-padding-top no-margin-bottom h5">Pocket Guides: The Beginner's Bundle</h1>
+<p><span class="text-xlarge">Kick-start your journey to JavaScript.</span></p>
+
 <img class="aligncenter" style="width: 88%;" src="/img/guides/beginner-bundle.jpg">
 
-Kick-start your journey to vanilla JavaScript with the Beginner's Bundle. You'll get four essential pocket guides, all of the source code and demos, the bonuses, and exclusive Slack access.
+<span class="text-large">Get four essential pocket guides, all of the source code and demos, and exclusive Slack access.</span>
 
 {{<cta-guides-all>}}
 
-{{<pricing-link>}}
+<div class="padding-bottom-small">{{<pricing-link>}}</div>
+
+{{<guide-used-by>}}
 
 ## What's included?
 

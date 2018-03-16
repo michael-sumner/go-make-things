@@ -2,19 +2,24 @@
 title: "Strings, Arrays, and Objects"
 date: 2018-01-16T10:05:20-05:00
 draft: false
-weight: 10
+noTitle: true
 description: ""
 ---
 
+<h1 class="no-padding-top no-margin-bottom h5">Pocket Guide: Strings, Arrays, and Objects</h1>
+<p><span class="text-xlarge">Make working with strings, arrays, and objects easier and more productive.</span></p>
+
 <img class="aligncenter" style="width: 88%;" src="/img/guides/strings-arrays-objects.jpg">
 
-Transform and edit strings, arrays, and objects to make working with them easier and more productive. Together, we'll write a working project with string, array, and object manipulation.
+<span class="text-large">Learn the ins-and-outs of strings, arrays, and objects&mdash;and all that they can do&mdash;in about an hour.</span>
 
-This guide is short, focused, and made for beginners. Learn the ins-and-outs of strings, arrays, and objects in about an hour.
+This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio with a real project.
 
 {{<cta-guide>}}
 
-{{<pricing-link>}}
+<div class="padding-bottom-small">{{<pricing-link>}}</div>
+
+{{<guide-used-by>}}
 
 ## What you'll learn
 

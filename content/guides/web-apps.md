@@ -2,19 +2,24 @@
 title: "Web Apps"
 date: 2018-01-16T10:05:20-05:00
 draft: false
-weight: 10
+noTitle: true
 description: ""
 ---
 
+<h1 class="no-padding-top no-margin-bottom h5">Pocket Guide: Web Apps</h1>
+<p><span class="text-xlarge">Build interactive web apps and single page apps without libraries or frameworks.</span></p>
+
 <img class="aligncenter" style="width: 88%;" src="/img/guides/web-apps.jpg">
 
-Learn how to build interactive web apps and single page apps without libraries or frameworks. Together, we'll write a working web app.
+<span class="text-large">Learn the ins-and-outs of writing web apps with vanilla JavaScript in about an hour.</span>
 
-This guide is short and focused. Learn the basics of web app development with vanilla JavaScript in about an hour.
+This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio building a real, working web app.
 
 {{<cta-guide>}}
 
-{{<pricing-link>}}
+<div class="padding-bottom-small">{{<pricing-link>}}</div>
+
+{{<guide-used-by>}}
 
 ## What you'll learn
 

@@ -2,19 +2,24 @@
 title: "DOM Injection and Traversal"
 date: 2018-01-16T10:05:20-05:00
 draft: false
-weight: 10
+noTitle: true
 description: ""
 ---
 
+<h1 class="no-padding-top no-margin-bottom h5">Pocket Guide: DOM Injection and Traversal</h1>
+<p><span class="text-xlarge">Learn how to move through the DOM and add content with the ease.</span></p>
+
 <img class="aligncenter" style="width: 88%;" src="/img/guides/dom-injection-and-traversal.jpg">
 
-Learn how to generate dynamic content, climb up and down the DOM, and more. Together, we'll write a working project with DOM injection and traversal.
+<span class="text-large">Learn the ins-and-outs of vanilla JavaScript DOM injection and traversal in about an hour.</span>
 
-This guide is short, focused, and made for beginners. Learn the ins-and-outs of DOM injection and traversal in about an hour.
+This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio with a real project using DOM injection and traversal techniques.
 
 {{<cta-guide>}}
 
-{{<pricing-link>}}
+<div class="padding-bottom-small">{{<pricing-link>}}</div>
+
+{{<guide-used-by>}}
 
 ## What you'll learn
 

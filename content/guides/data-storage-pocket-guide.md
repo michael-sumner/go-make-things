@@ -2,19 +2,24 @@
 title: "Browser Storage"
 date: 2018-01-16T10:05:20-05:00
 draft: false
-weight: 10
+noTitle: true
 description: ""
 ---
 
+<h1 class="no-padding-top no-margin-bottom h5">Pocket Guide: Browser Storage</h1>
+<p><span class="text-xlarge">Master local storage, get and set cookies, and grab data from query strings.</span></p>
+
 <img class="aligncenter" style="width: 88%;" src="/img/guides/browser-storage.jpg">
 
-Store data in local storage, get and set cookies, and retrieve values from query strings. Together, we'll write a working project with browser storage.
+<span class="text-large">Learn the ins-and-outs of browser storage with vanilla JavaScript in about an hour.</span>
 
-This guide is short, focused, and made for beginners. Learn the ins-and-outs of browser storage in about an hour.
+This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio with a real project with browser storage techniques.
 
 {{<cta-guide>}}
 
-{{<pricing-link>}}
+<div class="padding-bottom-small">{{<pricing-link>}}</div>
+
+{{<guide-used-by>}}
 
 ## What you'll learn
 

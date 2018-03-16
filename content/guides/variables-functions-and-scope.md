@@ -2,19 +2,24 @@
 title: "Variables, Functions, and Scope"
 date: 2018-01-16T10:05:20-05:00
 draft: false
-weight: 10
+noTitle: true
 description: ""
 ---
 
+<h1 class="no-padding-top no-margin-bottom h5">Pocket Guide: Variables, Functions, and Scope</h1>
+<p><span class="text-xlarge">Learn how to structure your code like a JavaScript pro.</span></p>
+
 <img class="aligncenter" style="width: 88%;" src="/img/guides/variables-functions-scope.jpg">
 
-What are arrow functions? What's function hoisting? What's the difference between `var`, `let`, and `const`, and when should you use each? What's "scope" and how does it work? Together, we'll apply JavaScript best practices to a working project.
+<span class="text-large">Learn the ins-and-outs of variables, functions, and JavaScript scope in about an hour.</span>
 
-This guide is short, focused, and made for beginners. Learn the ins-and-outs of variables, functions, and JavaScript scope in about an hour.
+What are arrow functions? What's function hoisting? What's the difference between `var`, `let`, and `const`, and when should you use each? What's "scope" and how does it work?
 
 {{<cta-guide>}}
 
-{{<pricing-link>}}
+<div class="padding-bottom-small">{{<pricing-link>}}</div>
+
+{{<guide-used-by>}}
 
 ## What you'll learn
 
