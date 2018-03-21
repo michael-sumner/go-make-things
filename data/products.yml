@@ -4,6 +4,8 @@ price:
         ebook: "$29"
         video: "<del>$67</del> $47"
         both: "<del>$69</del> $48"
+        videoReady: "$67"
+        bothReady: "$69"
     guidesComplete:
         ebook: "$179"
         video: "<del>$375</del> $262"

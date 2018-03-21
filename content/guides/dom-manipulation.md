@@ -61,7 +61,7 @@ Get everything you need to start mastering DOM manipulation with vanilla JavaScr
 
 {{<cta-guide-buy-now>}}
 
-{{<purchase-link product="domManipulation">}}
+{{<purchase-link product="domManipulation" ready="true">}}
 
 {{<purchase-upsell upsell="beginner">}}
 
