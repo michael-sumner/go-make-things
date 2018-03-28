@@ -11,11 +11,14 @@ I help people learn vanilla JavaScript. Here are some resources to help you with
 [Daily Developer Tips](/articles/) &ndash; *free*
 : I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web.
 
-[Talks & Podcasts](/talks) &ndash; *free*
-: I love to talk with people about JavaScript and making things for the web.
+[The Vanilla JS Podcast](https://vanillajspodcast.com) &ndash; *free*
+: A show about JavaScript for people who hate the complexity of modern front‑end web development.
 
 [The Vanilla JS Toolkit](https://vanillajstoolkit.com) &ndash; *free*
 : A growing collection of vanilla JavaScript code snippets, helper functions, polyfills, plugins, and learning resources.
+
+[Talks & Podcasts](/talks) &ndash; *free*
+: I love to talk with people about JavaScript and making things for the web.
 
 [Pocket Guides](/guides/) &ndash; *{{<price-guides>}}+*
 : Step-by-step training guides to help you master vanilla JavaScript. They’re short, focused, and made for beginners.
