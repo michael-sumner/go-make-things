@@ -15,7 +15,7 @@ description: ""
 
 This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio with a real DOM manipulation project.
 
-{{<cta-guide>}}
+{{<cta for="guide">}}
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
@@ -59,7 +59,7 @@ Get everything you need to start mastering DOM manipulation with vanilla JavaScr
 
 {{<purchase-summary>}}{{</purchase-summary>}}
 
-{{<cta-guide-buy-now>}}
+{{<cta for="guide-buy">}}
 
 {{<purchase-link product="domManipulation" ready="true">}}
 

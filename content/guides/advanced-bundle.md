@@ -13,7 +13,7 @@ description: ""
 
 <span class="text-large">Get four advanced topic pocket guides, all of the source code and demos, the bonuses, and exclusive Slack access.</span>
 
-{{<cta-guides-all>}}
+{{<cta for="guides-all">}}
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
@@ -54,7 +54,7 @@ description: ""
 - Web Apps
 {{</purchase-summary>}}
 
-{{<cta-guide-buy-now>}}
+{{<cta for="guide-buy">}}
 
 {{<purchase-link bundle="advanced" product="advanced">}}
 

@@ -15,7 +15,7 @@ description: ""
 
 AND, you'll automatically get any new pocket guides I release in the future, completely free.
 
-{{<cta-guides-all>}}
+{{<cta for="guides-all">}}
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
@@ -61,7 +61,7 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 - Web Apps
 {{</purchase-summary>}}
 
-{{<cta-guide-buy-now>}}
+{{<cta for="guide-buy">}}
 
 {{<purchase-link bundle="complete" product="complete">}}
 

@@ -15,7 +15,7 @@ description: ""
 
 <!-- <p class="padding-bottom"><a class="btn btn-large" href="#bundles">Explore the Guides &rarr;</a></p> -->
 
-{{<cta-guides-all>}}
+{{<cta for="guides-all">}}
 
 <!-- - Learn modern best practices and code patterns.
 - Spend less time Googling and more time working on cool stuff.

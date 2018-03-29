@@ -15,7 +15,7 @@ description: ""
 
 What are arrow functions? What's function hoisting? What's the difference between `var`, `let`, and `const`, and when should you use each? What's "scope" and how does it work?
 
-{{<cta-guide>}}
+{{<cta for="guide">}}
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
@@ -60,7 +60,7 @@ Get everything you need to start mastering modern vanilla JavaScript:
 
 {{<purchase-summary>}}{{</purchase-summary>}}
 
-{{<cta-guide-buy-now>}}
+{{<cta for="guide-buy">}}
 
 {{<purchase-link product="variablesFunctionsScope">}}
 

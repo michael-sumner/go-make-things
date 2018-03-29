@@ -1,5 +1,5 @@
 ---
-title: "1-on-1 Consulting Call"
+title: "1-on-1 Coaching Call"
 date: 2018-01-11T16:03:33-05:00
 draft: false
 ---
@@ -8,7 +8,7 @@ Have a problem you're stuck on? Chat with a vanilla JavaScript expert and get un
 
 Through my pocket guides, workshops, and free articles, I've helped thousands of people just like you master JavaScript.
 
-{{<cta-1-on-1-call>}}
+{{<cta for="call">}}
 
 <a class="btn" href="#ready-to-buy">Book your call now &rarr;</a>
 
@@ -57,9 +57,9 @@ I want to help you master vanilla JavaScript, without all of the painful false s
 
 	<p>Book your 1-on-1 consulting call now, and get immediate access to all of your bonus items.</p>
 
-	{{<cta-1-on-1-call-buy-now>}}
+	{{<cta for="call-buy">}}
 
-	<p><a class="btn btn-large btn-block" href="/checkout?edd_action=add_to_cart&download_id=23073">Book Now for {{<price-call>}}</a></p>
+	<p><a class="btn btn-large btn-block" href="/checkout?edd_action=add_to_cart&download_id=23073">Book Now for {{<price for="call">}}</a></p>
 
 	<p><em><strong>Note:</strong> I’m only available for a few live 1-on-1 coaching calls per month. Scheduling is first come, first serve, so the sooner you book your call, the sooner you will have the answers you need.</em></p>
 </div>

@@ -15,7 +15,7 @@ description: ""
 
 This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio with a real project using Ajax and HTTP requests.
 
-{{<cta-guide>}}
+{{<cta for="guide">}}
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
@@ -57,7 +57,7 @@ Get everything you need to start mastering Ajax with vanilla JavaScript:
 
 {{<purchase-summary>}}{{</purchase-summary>}}
 
-{{<cta-guide-buy-now>}}
+{{<cta for="guide-buy">}}
 
 {{<purchase-link product="ajaxHttp">}}
 

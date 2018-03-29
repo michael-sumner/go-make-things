@@ -8,7 +8,7 @@ Are you sick of digging through hostile web forums, incomplete documentation, an
 
 With my private, personalized mentoring program, you can master vanilla JavaScript with the help of a trusted expert.
 
-{{<cta-mentoring>}}
+{{<cta for="mentoring">}}
 
 <a class="btn" href="#ready-to-buy">Apply for private mentoring &rarr;</a>
 
@@ -61,10 +61,10 @@ I want to help you master vanilla JavaScript, without all of the painful false s
 		<li>Exclusive Slack Access + Private Messaging</li>
 		<li>The Complete Pocket Guide Series</li>
 		<li>My Vanilla JavaScript Toolkit</li>
-		<li><em>{{<price-mentoring>}}</em></li>
+		<li><em>{{<price for="mentoring">}}</em></li>
 	</ul>
 
-	{{<cta-mentoring-buy-now>}}
+	{{<cta for="mentoring-buy">}}
 
 	<p><a class="btn btn-large btn-block" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Private%20Mentoring%20Program&body=Hi,%20I'm%20interested%20in%20the%20Private%20Mentoring%20Program.%20Thanks!">Apply for the Private Mentoring Program</a></p>
 

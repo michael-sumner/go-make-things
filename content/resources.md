@@ -6,7 +6,7 @@ draft: false
 
 I help people learn vanilla JavaScript. Here are some resources to help you with your next project.
 
-{{<cta-resources>}}
+{{<cta for="resources">}}
 
 [Daily Developer Tips](/articles/) &ndash; *free*
 : I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web.
@@ -20,19 +20,19 @@ I help people learn vanilla JavaScript. Here are some resources to help you with
 [Talks & Podcasts](/talks) &ndash; *free*
 : I love to talk with people about JavaScript and making things for the web.
 
-[Pocket Guides](/guides/) &ndash; *{{<price-guides>}}+*
+[Pocket Guides](/guides/) &ndash; *{{<price for="guide">}}+*
 : Step-by-step training guides to help you master vanilla JavaScript. They’re short, focused, and made for beginners.
 
-[1-on-1 Consulting Call](/call/) &ndash; *{{<price-call>}}*
+[1-on-1 Consulting Call](/call/) &ndash; *{{<price for="call">}}*
 : Have a JavaScript problem you're stuck on? Chat with an expert and get unstuck.
 
-[Private Mentoring](/mentoring/) &ndash; *{{<price-mentoring>}}*
+[Private Mentoring](/mentoring/) &ndash; *{{<price for="mentoring">}}*
 : Ready to master vanilla JavaScript? Get unlimited 1-on-1 access to me via email, IM, and weekly video chats.
 
-[Team Training](/training/) &ndash; *{{<price-training>}}+*
+[Team Training](/training/) &ndash; *{{<price for="training">}}+*
 : Level-up your team’s core JavaScript skills with team workshops.
 
-[JavaScript Consulting](/consulting/) &ndash; *{{<price-consulting>}}*
+[JavaScript Consulting](/consulting/) &ndash; *{{<price for="consulting">}}*
 : Minimize your risk, reduce the amount of bugs and bloat in your code, and avoid costly delays caused by common mistakes.
 
 Custom Development &ndash; *custom pricing*

@@ -13,7 +13,7 @@ description: ""
 
 <span class="text-large">Get four essential pocket guides, all of the source code and demos, and exclusive Slack access.</span>
 
-{{<cta-guides-all>}}
+{{<cta for="guides-all">}}
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
@@ -55,7 +55,7 @@ description: ""
 - Bugs & Browser Quirks
 {{</purchase-summary>}}
 
-{{<cta-guide-buy-now>}}
+{{<cta for="guide-buy">}}
 
 {{<purchase-link bundle="beginner" product="beginner">}}
 

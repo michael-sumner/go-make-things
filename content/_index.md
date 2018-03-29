@@ -7,6 +7,8 @@ noTitle: true
 
 <h1 class="text-xlarge text-normal">Hi, I’m Chris Ferdinandi. I help people learn vanilla JavaScript.</h1>
 
+{{<cta for="global">}}
+
 {{<mailchimp intro>}}
 
 {{<testimonial-arden-de-raaij>}}

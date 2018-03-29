@@ -6,22 +6,72 @@ price:
         both: "<del>$69</del> $48"
         videoReady: "$67"
         bothReady: "$69"
+        special:
+            start: 20180329
+            end: 20180403
+            prices:
+                ebook: "<del>$29</del> $15"
+                video: "<del>$67</del> $23"
+                both: "<del>$69</del> $24"
+                videoReady: "<del>$67</del> $34"
+                bothReady: "<del>$69</del> $35"
     guidesComplete:
         ebook: "$179"
         video: "<del>$375</del> $262"
         both: "<del>$379</del> $265"
+        special:
+            start: 20180329
+            end: 20180403
+            prices:
+                ebook: "<del>$179</del> $90"
+                video: "<del>$375</del> $131"
+                both: "<del>$379</del> $133"
     guidesBeginner:
         ebook: "$99"
         video: "<del>$187</del> $131"
         both: "<del>$189</del> $132"
+        special:
+            start: 20180329
+            end: 20180403
+            prices:
+                ebook: "<del>$99</del> $50"
+                video: "<del>$187</del> $65"
+                both: "<del>$189</del> $66"
     guidesAdvanced:
         ebook: "$79"
         video: "<del>$187</del> $131"
         both: "<del>$189</del> $132"
-    call: "$399"
-    mentoring: "$999/month"
-    training: "$3,999"
-    consulting: "$7,999/month"
+        special:
+            start: 20180329
+            end: 20180403
+            prices:
+                ebook: "<del>$79</del> $40"
+                video: "<del>$187</del> $65"
+                both: "<del>$189</del> $66"
+    call:
+        price: "$399"
+        special:
+            start: 20180329
+            end: 20180403
+            price: "<del>$399</del> $199"
+    mentoring:
+        price: "$999/month"
+        special:
+            start: 20180329
+            end: 20180403
+            price: "<del>$999/month</del> $699/month"
+    training:
+        price: "$3,999"
+        special:
+            start: ""
+            end: ""
+            price: ""
+    consulting:
+        price: "$7,999/month"
+        special:
+            start: ""
+            end: ""
+            price: ""
     careerGuide: "$39"
     wickedFastWebsites: "$39"
 

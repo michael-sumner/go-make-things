@@ -15,7 +15,7 @@ description: ""
 
 This guide is short, focused, and made for beginners. Get hands-on learning and grow your portfolio by converting a simple script into a flexible, developer-friendly plugin.
 
-{{<cta-guide>}}
+{{<cta for="guide">}}
 
 <div class="padding-bottom-small">{{<pricing-link>}}</div>
 
@@ -58,7 +58,7 @@ Get everything you need to start writing flexible, modular plugins with vanilla 
 
 {{<purchase-summary>}}{{</purchase-summary>}}
 
-{{<cta-guide-buy-now>}}
+{{<cta for="guide-buy">}}
 
 {{<purchase-link product="writingPlugins">}}
 

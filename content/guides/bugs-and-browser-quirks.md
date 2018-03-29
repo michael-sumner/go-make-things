@@ -10,7 +10,7 @@ description: ""
 
 Making your scripts work across browsers can be tough. Learn how to make it way easier. Together, we'll cleanup a script to avoid common bugs and browser quirks.
 
-{{<cta-guide>}}
+{{<cta for="guide">}}
 
 {{<pricing-link>}}
 
@@ -51,7 +51,7 @@ Get everything you need to start mastering cross-browser compatibility with vani
 
 {{<purchase-summary>}}{{</purchase-summary>}}
 
-{{<cta-guide-buy-now>}}
+{{<cta for="guide-buy">}}
 
 {{<purchase-link product="bugsBrowserQuirks">}}
 
