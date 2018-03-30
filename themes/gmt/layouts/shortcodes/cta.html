@@ -1,4 +1,4 @@
-{{ if and (gt (now.Format "20060102") 20180328) (lt (now.Format "20060102") 20180403) }}
+{{ if and (gt (now.Format "20060102") 20180329) (lt (now.Format "20060102") 20180403) }}
 {{ if eq (.Get "for") "guide" }}
 <p><mark>🐰 <em><strong>Easter Sale!</strong> Now through Monday, get 50% off of my vanilla JS pocket guides. Make 2018 the year you master JavaScript!</em></mark></p>
 {{ else if eq (.Get "for") "guide-buy" }}
@@ -17,16 +17,16 @@
 <p><mark>🐰 <em><strong>Easter Sale!</strong> Now through Monday, get 50% off of my <a href="/guides">vanilla JS pocket guides</a> and <a href="/call">coaching calls</a>, and 30% off of my <a href="/mentoring">JavaScript mentoring program</a>. Make 2018 the year you master JavaScript!</em></mark></p>
 {{ end }}
 {{ else }}
-	{{ if eq (.Get "for") "guide" }}
-	{{ else if eq (.Get "for") "guide-buy" }}
-	{{ else if eq (.Get "for") "guides-all" }}
-		{{ if false }}<p><mark>🔥 <em><strong>New!</strong> All of my pocket guides have been updated for ES6 with new methods, techniques, and browser APIs.</em></mark></p>{{ end }}
-	{{ else if eq (.Get "for") "call" }}
-	{{ else if eq (.Get "for") "call-buy" }}
-	{{ else if eq (.Get "for") "mentoring" }}
-	{{ else if eq (.Get "for") "mentoring-buy" }}
-	{{ else if eq (.Get "for") "resources" }}
-	{{ end }}
+{{ if eq (.Get "for") "guide" }}
+{{ else if eq (.Get "for") "guide-buy" }}
+{{ else if eq (.Get "for") "guides-all" }}
+{{ if false }}<p><mark>🔥 <em><strong>New!</strong> All of my pocket guides have been updated for ES6 with new methods, techniques, and browser APIs.</em></mark></p>{{ end }}
+{{ else if eq (.Get "for") "call" }}
+{{ else if eq (.Get "for") "call-buy" }}
+{{ else if eq (.Get "for") "mentoring" }}
+{{ else if eq (.Get "for") "mentoring-buy" }}
+{{ else if eq (.Get "for") "resources" }}
+{{ end }}
 {{ end }}
 
 {{ if eq (.Get "for") "global" }}
