@@ -16,7 +16,7 @@ Great idea! Let's get right to it.
 
 ## A star-based rating feature
 
-<img src="/img/articles/star-based-rating-feature.gif">
+<p class="no-margin-bottom text-center"><img src="/img/articles/star-based-rating-feature.gif"></p>
 
 We're going to build a star-based rating feature.
 
