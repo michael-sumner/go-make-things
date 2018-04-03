@@ -5,7 +5,7 @@ draft: false
 noIndex: true
 ---
 
-As a member of an underrepresented group in tech, you can get 30% off of my [pocket guides](/guides/), [mini courses](/courses/), and [private mentoring program](/mentoring/).
+As a member of an underrepresented group in tech, you can get 30% off of my [JavaScript pocket guides](/guides/) and [private mentoring program](/mentoring/).
 
 What is an underrepresented group? I don't strictly define it, but it includes women, minorities, and LGBTQ. If you feel you're underrepresented in tech, you are.
 

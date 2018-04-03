@@ -5,7 +5,7 @@ draft: false
 noIndex: true
 ---
 
-As a student, you can get 30% off of my [pocket guides](/guides/), [mini courses](/courses/), and [private mentoring program](/mentoring/). This applies to anyone in any type of schooling, including evening classes and coding bootcamps.
+As a student, you can get 30% off of my [JavaScript pocket guides](/guides/) and [private mentoring program](/mentoring/). This applies to anyone in any type of schooling, including evening classes and coding bootcamps.
 
 Use the code `EDU30` at checkout to get your discount.
 
