@@ -11,14 +11,16 @@ Heydon shared a neat JavaScript trick on Twitter the other week for <a href="htt
 
 We can get all focusable elements using <code>querySelectorAll()</code> and a comma-separated list of elements to target. We want to look for buttons, links, form eleements, and anything with a <code>tabindex</code> that's not <code>-1</code>.
 
-<pre><code class="lang-javascript">var focusable = document.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"]');
-</code></pre>
+```js
+var focusable = document.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+```
 
 This returns a node list from which we can grab the first or last element as needed.
 
-<pre><code class="lang-javascript">var focusable = document.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not(tabindex="-1"]');
+```js
+var focusable = document.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
 var firstFocusable = focusable[0];
 var lastFocusable = focusable[focusable.length - 1];
-</code></pre>
+```
 
 Thanks Heydon!
