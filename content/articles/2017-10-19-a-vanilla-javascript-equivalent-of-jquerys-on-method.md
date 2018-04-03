@@ -83,6 +83,8 @@ var on = function (event, elem, callback, capture) {
 		elem = window;
 	}
 	capture = capture ? true : false;
+	elem = typeof elem === 'string' ? document.querySelector(elem) : elem;
+	if (!elem) return;
 	elem.addEventListener(event, callback, capture);
 };
 ```
@@ -103,6 +105,13 @@ Next, we check to see if the `capture` argument is set. If not, we'll use `false
 
 ```js
 capture = capture ? true : false;
+```
+
+Then, we look to see if our `elem` is a string or a node. If it's a string, we'll use `querySelector()` to find the actual element to listen on. If it doesn't exist, we'll bail before adding an event listener.
+
+```js
+elem = typeof elem === 'string' ? document.querySelector(elem) : elem;
+if (!elem) return;
 ```
 
 Finally, we'll add our event listener.
