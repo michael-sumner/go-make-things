@@ -47,12 +47,12 @@ To make this work, you use `call()` to call the `toString()` method on your arra
 
 ```js
 var arr = ['tuna', 'chicken', 'pb&j'];
-var obj = {sandwich: 'tuna', chips: 'cape code'};
+var obj = {sandwich: 'tuna', chips: 'cape cod'};
 
-// Returns true
+// Returns '[object Array]'
 Object.prototype.toString.call(arr);
 
-// Return false
+// Returns '[object Object]'
 Object.prototype.toString.call(obj);
 ```
 
@@ -62,7 +62,7 @@ The `Array.isArray()` method check if a value is an array or not.
 
 ```js
 var arr = ['tuna', 'chicken', 'pb&j'];
-var obj = {sandwich: 'tuna', chips: 'cape code'};
+var obj = {sandwich: 'tuna', chips: 'cape cod'};
 
 // Returns true
 Array.isArray(arr);
