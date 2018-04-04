@@ -48,6 +48,8 @@ Reinforce your learning and build your portfolio by working on a real project. T
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-david-buchholz photo>}}</div>
 
+{{<guide-skills>}}
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}

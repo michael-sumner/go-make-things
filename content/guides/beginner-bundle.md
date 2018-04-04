@@ -39,6 +39,8 @@ description: ""
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-david-buchholz photo>}}</div>
 
+{{<guide-skills>}}
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}

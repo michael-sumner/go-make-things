@@ -46,6 +46,8 @@ Reinforce your learning and build your portfolio by using browser storage on a r
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-david-buchholz photo>}}</div>
 
+{{<guide-skills>}}
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}

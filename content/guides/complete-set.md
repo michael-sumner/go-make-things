@@ -41,6 +41,8 @@ AND, you'll automatically get any new pocket guides I release in the future, com
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-david-buchholz photo>}}</div>
 
+{{<guide-skills>}}
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}

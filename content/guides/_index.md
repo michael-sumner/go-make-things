@@ -15,16 +15,6 @@ description: ""
 
 {{<guide-formats class="padding-bottom">}}
 
-<!-- <p class="padding-bottom"><a class="btn btn-large" href="#bundles">Explore the Guides &rarr;</a></p> -->
-
-<!-- - Learn modern best practices and code patterns.
-- Spend less time Googling and more time working on cool stuff.
-- Get the skills and confidence to *really* understand JavaScript.
-- Follow a learning path or jump around based on your needs.
-- Work on real projects and build your portfolio. -->
-
-<!-- <p class="text-center"><a class="btn btn-large" href="#bundles">Explore the Guides &rarr;</a></p> -->
-
 {{<guide-used-by>}}
 
 ## Bundles
@@ -46,6 +36,8 @@ description: ""
 <div class="padding-top-large padding-bottom">{{<testimonial-patricia-parker photo>}}</div>
 
 <div class="padding-bottom-large">{{<testimonial-chris-baughman photo>}}</div>
+
+{{<guide-skills>}}
 
 {{<guide-money-back>}}
 

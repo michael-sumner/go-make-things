@@ -47,6 +47,8 @@ Reinforce your learning and build your portfolio by using Ajax on a real project
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-david-buchholz photo>}}</div>
 
+{{<guide-skills>}}
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}

@@ -51,6 +51,8 @@ Reinforce your learning and build your portfolio by using string, array, and obj
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-david-buchholz photo>}}</div>
 
+{{<guide-skills>}}
+
 {{<guide-money-back>}}
 
 {{<guide-about-me>}}
