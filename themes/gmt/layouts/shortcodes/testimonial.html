@@ -1,0 +1,12 @@
+{{ $testimonial := index .Site.Data.testimonials ( .Get "for" ) }}
+{{ if .Get "photo"}}<div class="row">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="{{ $testimonial.photo | absURL }}">
+	</div>
+	<div class="grid-two-thirds">{{ end }}
+		<blockquote>
+			{{ $testimonial.quote | safeHTML }}
+			<cite>- {{ $testimonial.cite | safeHTML }}</cite>
+		</blockquote>
+	{{ if .Get "photo"}}</div>
+</div>{{ end }}

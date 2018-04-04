@@ -6,7 +6,7 @@ draft: false
 
 <img alt="" class="aligncenter" src="/img/career-guide/web-developer-career-guide.jpg">
 
-<a class="btn" href="ready-to-buy">Buy it now &rarr;</a>
+<a class="btn" href="#ready-to-buy">Buy it now &rarr;</a>
 
 ## No one ever teaches you how to have a successful career.
 
@@ -39,7 +39,7 @@ All successful web developers share a set of habits and behaviors. They talk to 
 - How to kick ass at your next job interview.
 - How to negotiate your salary and get paid what you deserve.
 
-<a class="btn" href="ready-to-buy">Buy it now &rarr;</a>
+<a class="btn" href="#ready-to-buy">Buy it now &rarr;</a>
 
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial-jeff-golenski photo>}}</div>
