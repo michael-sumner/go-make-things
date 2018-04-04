@@ -25,7 +25,7 @@ Throughout the duration of your project, I’ll be available to provide you with
 
 We'll have regular meetings by phone or video conference. In between meetings, you have unlimited, 24/7 access to me by email or IM.
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial-kabolobari photo>}}</div>
+<div class="padding-top-large padding-bottom-large">{{<testimonial for="kb" photo="true">}}</div>
 
 ## Your 100% Money-Back Guarantee &#x1f4b0;
 
@@ -62,8 +62,8 @@ I want to help you successfully launch your next JavaScript project, without the
 </div>
 
 
-<div class="padding-top-large padding-bottom">{{<testimonial-hbs photo>}}</div>
+<div class="padding-top-large padding-bottom">{{<testimonial for="hbs" photo="true">}}</div>
 
-<div class="padding-bottom-large">{{<testimonial-paws photo>}}</div>
+<div class="padding-bottom-large">{{<testimonial for="paws" photo="true">}}</div>
 
 *__PS:__ If a consulting retainer isn't a good fit for you right now, but you have questions you could use some help with, I offer [a few other options](/resources/).*

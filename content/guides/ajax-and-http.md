@@ -31,7 +31,7 @@ This guide is short, focused, and made for beginners. Get hands-on learning and 
 
 {{<guide-formats>}}
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial-chris-baughman photo>}}</div>
+<div class="padding-top-large padding-bottom-large">{{<testimonial for="chrisBaughman" photo="true">}}</div>
 
 ## Learn by doing with a real JavaScript project
 
@@ -45,7 +45,7 @@ Reinforce your learning and build your portfolio by using Ajax on a real project
 
 {{<pricing-link>}}
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial-david-buchholz photo>}}</div>
+<div class="padding-top-large padding-bottom-large">{{<testimonial for="davidBuchholz" photo="true">}}</div>
 
 {{<guide-skills>}}
 
@@ -67,14 +67,14 @@ Get everything you need to start mastering Ajax with vanilla JavaScript:
 
 {{%/purchase-box%}}
 
-<div class="padding-top-large padding-bottom">{{<testimonial-patricia-parker photo>}}</div>
+<div class="padding-top-large padding-bottom">{{<testimonial for="patriciaParker" photo="true">}}</div>
 
-<div class="padding-bottom-large">{{<testimonial-jeremy-green photo>}}</div>
+<div class="padding-bottom-large">{{<testimonial for="jeremyGreen" photo="true">}}</div>
 
 {{<guide-faq>}}
 
 {{<pricing-link>}}
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial-mojtaba-seyedi photo>}}</div>
+<div class="padding-top-large padding-bottom-large">{{<testimonial for="mojtabaSeyedi" photo="true">}}</div>
 
 {{<not-ready-yet>}}

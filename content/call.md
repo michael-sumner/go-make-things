@@ -26,7 +26,7 @@ I’ll give you specific advice and share code snippets that you can put into ac
 
 You are welcome to record the call for future reference. Once you submit your payment, you’ll receive a link to schedule a 60 minute appointment in my calendar.
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial-alex-muraro photo>}}</div>
+<div class="padding-top-large padding-bottom-large">{{<testimonial for="alexMuraro" photo="true">}}</div>
 
 ## You'll also get these awesome bonuses
 
@@ -38,7 +38,7 @@ In addition to our call, you’ll receive these bonus materials valued at $179:
 
 {{<bonuses-special>}}
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial-patricia-parker photo>}}</div>
+<div class="padding-top-large padding-bottom-large">{{<testimonial for="patriciaParker" photo="true">}}</div>
 
 ## Your 100% Money-Back Guarantee &#x1f4b0;
 
@@ -64,8 +64,8 @@ I want to help you master vanilla JavaScript, without all of the painful false s
 	<p><em><strong>Note:</strong> I’m only available for a few live 1-on-1 coaching calls per month. Scheduling is first come, first serve, so the sooner you book your call, the sooner you will have the answers you need.</em></p>
 </div>
 
-<div class="padding-top-large padding-bottom">{{<testimonial-kabolobari photo>}}</div>
+<div class="padding-top-large padding-bottom">{{<testimonial for="kb" photo="true">}}</div>
 
-<div class="padding-bottom-large">{{<testimonial-mojtaba-seyedi photo>}}</div>
+<div class="padding-bottom-large">{{<testimonial for="mojtabaSeyedi" photo="true">}}</div>
 
 {{<not-ready-yet>}}

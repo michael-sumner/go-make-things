@@ -43,7 +43,7 @@ I help people learn JavaScript with [daily articles](/articles), [pocket guides]
 - Through [podcast appearances and talks](/talks) I've helped evangelize a more resilient, inclusive approach to web development.
 - My [open source projects](/open-source) have been used by some of the world's leading organizations, including Apple, Harvard Business, and CNN.
 
-<div class="padding-top padding-bottom">{{<testimonial-kabolobari photo>}}</div>
+<div class="padding-top padding-bottom">{{<testimonial for="kb" photo="true">}}</div>
 
 <h3 class="text-normal margin-bottom-small">{{%md%}}[Blackbeard](https://developer.mashery.com/docs/read/Customizing_Your_Portal){{%/md%}}</h3>
 
@@ -61,7 +61,7 @@ PAWS New England rescues abandoned and abused dogs and places them in safe and l
 - PAWS was featured in an HBO documentary about shelters and rescues.
 - Web traffic is up 4.7x, and mobile traffic is 27x higher.
 
-<div class="padding-top padding-bottom">{{<testimonial-paws photo>}}</div>
+<div class="padding-top padding-bottom">{{<testimonial for="paws" photo="true">}}</div>
 
 <h3 class="text-normal margin-bottom-small">{{%md%}}[Harvard Business School: Digital Initiative](https://digital.hbs.edu/){{%/md%}}</h3>
 
@@ -71,7 +71,7 @@ Harvard Business School's Digital Initiative is focused on studying & shaping th
 - Integrated API content feeds into WordPress for fast, one-click publishing.
 - Added numerous accessibility enhancements to ensure everyone can access their content, regardless of their capabilities.
 
-<div class="padding-top padding-bottom">{{<testimonial-hbs photo>}}</div>
+<div class="padding-top padding-bottom">{{<testimonial for="hbs" photo="true">}}</div>
 
 <hr class="line-secondary">
 

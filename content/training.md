@@ -17,7 +17,7 @@ I offer half-day, full-day, and multi-day workshops that include a mix of **lect
 - **All of the source code** from the examples and projects.
 - PDF copies of **all of my slides**.
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial-alex-muraro photo>}}</div>
+<div class="padding-top-large padding-bottom-large">{{<testimonial for="alexMuraro" photo="true">}}</div>
 
 ## They also get these awesome bonuses
 
@@ -27,7 +27,7 @@ In addition to the workshop and course materials, all training participants rece
 - **The Complete Set of Vanilla JS Pocket Guides**, my short, focused training guides for beginners.
 - My **vanilla JavaScript toolkit**, packed with cheat sheets, code snippets, boilerplates, helper functions, polyfills, and a growing list of recommended vanilla JS plugins.
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial-patricia-parker photo>}}</div>
+<div class="padding-top-large padding-bottom-large">{{<testimonial for="patriciaParker" photo="true">}}</div>
 
 ## Topics
 
@@ -72,8 +72,8 @@ My training workshops can include any or all of the following topics.
 	<p>Or send me an email at {{<email params="subject=Team%20Training&body=Hi,%20I'm%20interested%20in%20JavaScript%20Training%20for%20my%20team%20of%20[number%20of%20people]%20at%20[organization]%20.%20Thanks!">}}.</p>
 </div>
 
-<div class="padding-top-large padding-bottom">{{<testimonial-kabolobari photo>}}</div>
+<div class="padding-top-large padding-bottom">{{<testimonial for="kb" photo="true">}}</div>
 
-<div class="padding-bottom-large">{{<testimonial-mojtaba-seyedi photo>}}</div>
+<div class="padding-bottom-large">{{<testimonial for="mojtabaSeyedi" photo="true">}}</div>
 
 {{<not-ready-yet>}}

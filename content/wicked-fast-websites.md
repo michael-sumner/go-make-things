@@ -38,7 +38,7 @@ Your server, your theme, the way you load files. They all have an impact on how 
 - How to reduce page weight for faster load times.
 - Server optimizations that boost web performance.
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial-alex-hardy photo>}}</div>
+<div class="padding-top-large padding-bottom-large">{{<testimonial for="alexHardy" photo="true">}}</div>
 
 ## A Comprehensive Approach
 
@@ -100,7 +100,7 @@ Here's everything that's in the book.
 </div>
 
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial-mike-kilmer photo>}}</div>
+<div class="padding-top-large padding-bottom-large">{{<testimonial for="mikeKilmer" photo="true">}}</div>
 
 ## This book is great for...
 

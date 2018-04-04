@@ -11,4 +11,4 @@ noTitle: true
 
 {{<mailchimp intro>}}
 
-{{<testimonial-arden-de-raaij>}}
+{{<testimonial for="ardenDeRaaij">}}

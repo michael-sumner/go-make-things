@@ -21,7 +21,7 @@ You get direct, 1-on-1 access to me through **weekly video chats**. In between c
 
 You are welcome to record our calls for future reference.
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial-alex-muraro photo>}}</div>
+<div class="padding-top-large padding-bottom-large">{{<testimonial for="alexMuraro" photo="true">}}</div>
 
 
 ## You'll also get these awesome bonuses
@@ -34,7 +34,7 @@ In addition to our weekly calls and private messaging, you’ll receive these bo
 
 {{<bonuses-special>}}
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial-patricia-parker photo>}}</div>
+<div class="padding-top-large padding-bottom-large">{{<testimonial for="patriciaParker" photo="true">}}</div>
 
 
 ## Your 100% Money-Back Guarantee &#128176;
@@ -74,8 +74,8 @@ I want to help you master vanilla JavaScript, without all of the painful false s
 </div>
 
 
-<div class="padding-top-large padding-bottom">{{<testimonial-kabolobari photo>}}</div>
+<div class="padding-top-large padding-bottom">{{<testimonial for="kb" photo="true">}}</div>
 
-<div class="padding-bottom-large">{{<testimonial-mojtaba-seyedi photo>}}</div>
+<div class="padding-bottom-large">{{<testimonial for="mojtabaSeyedi" photo="true">}}</div>
 
 {{<not-ready-yet>}}

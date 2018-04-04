@@ -33,9 +33,9 @@ description: ""
 {{%/md%}}
 </div>
 
-<div class="padding-top-large padding-bottom">{{<testimonial-patricia-parker photo>}}</div>
+<div class="padding-top-large padding-bottom">{{<testimonial for="patriciaParker" photo="true">}}</div>
 
-<div class="padding-bottom-large">{{<testimonial-chris-baughman photo>}}</div>
+<div class="padding-bottom-large">{{<testimonial for="chrisBaughman" photo="true">}}</div>
 
 {{<guide-skills>}}
 

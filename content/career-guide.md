@@ -42,7 +42,7 @@ All successful web developers share a set of habits and behaviors. They talk to 
 <a class="btn" href="#ready-to-buy">Buy it now &rarr;</a>
 
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial-jeff-golenski photo>}}</div>
+<div class="padding-top-large padding-bottom-large">{{<testimonial for="jeffGolenski" photo="true">}}</div>
 
 
 
@@ -115,7 +115,7 @@ Here's everything that's in the book.
 	<p><a class="btn btn-large" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=22339">Buy Now for $39</a></p>
 </div>
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial-robert-buchholz>}}</div>
+<div class="padding-top-large padding-bottom-large">{{<testimonial for="robertBuchholz">}}</div>
 
 
 ## This book is great for...
