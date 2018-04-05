@@ -18,14 +18,17 @@
 {{ end }}
 {{ else }}
 {{ if eq (.Get "for") "guide" }}
+<p><mark>🔥 <em><strong>New!</strong> Updated with new resources and more backwards-compatible polyfills.</em></mark></p>
 {{ else if eq (.Get "for") "guide-buy" }}
 {{ else if eq (.Get "for") "guides-all" }}
-{{ if false }}<p><mark>🔥 <em><strong>New!</strong> All of my pocket guides have been updated for ES6 with new methods, techniques, and browser APIs.</em></mark></p>{{ end }}
+<p><mark>🔥 <em><strong>New!</strong> All of my pocket guides have been updated with new resources and more backwards-compatible polyfills.</em></mark></p>
 {{ else if eq (.Get "for") "call" }}
 {{ else if eq (.Get "for") "call-buy" }}
 {{ else if eq (.Get "for") "mentoring" }}
 {{ else if eq (.Get "for") "mentoring-buy" }}
 {{ else if eq (.Get "for") "resources" }}
+{{ else if eq (.Get "for") "home" }}
+<p><mark>🔥 <em><strong>New!</strong> All of my <a href="/guides">vanilla JS pocket guides</a> have been updated with new resources and more backwards-compatible polyfills.</em></mark></p>
 {{ end }}
 {{ end }}
 
