@@ -86,7 +86,7 @@
 	text-align: right;
 }
 
-@media (min-width: $bp-medium) {
+@media (min-width: $bp-large) {
 	.text-right-large {
 		text-align: right;
 	}
@@ -144,6 +144,10 @@
 	margin-bottom: calc-em(32px);
 }
 
+.margin-bottom-negative {
+	margin-bottom: calc-em(-28px);
+}
+
 .margin-right {
 	margin-right: calc-em(4px);
 }
@@ -163,6 +167,10 @@
 
 .padding-top {
 	padding-top: $spacing;
+}
+
+.padding-top-xsmall {
+	padding-top: calc-em(4px);
 }
 
 .padding-top-small {
