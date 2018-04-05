@@ -43,6 +43,8 @@ The `Object.keys()` method works in all modern browsers and IE9 and above. You c
 
 The lack of an `Object.forEach()` method feels like a big miss to me, so I wrote [a "polyfill" for it](https://vanillajstoolkit.com/polyfills/objectforeach/) (it's not really a polyfill because it doesn't follow a documented standard).
 
+*__NOTE:__ This is actually a terrible idea and you shouldn't do it! If/when a real `Object.forEach()` is added as a standard, this polyfill could break the web.*
+
 ```js
 /**
  * Object.prototype.forEach() polyfill

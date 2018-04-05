@@ -17,7 +17,7 @@ I help people learn vanilla JavaScript. Here are some resources to help you with
 [The Vanilla JS Toolkit](https://vanillajstoolkit.com) &ndash; *free*
 : A growing collection of vanilla JavaScript code snippets, helper functions, polyfills, plugins, and learning resources.
 
-[Talks & Podcasts](/talks) &ndash; *free*
+[Talks & Guest Appearances](/talks) &ndash; *free*
 : I love to talk with people about JavaScript and making things for the web.
 
 [Pocket Guides](/guides/) &ndash; *{{<price for="guide">}}+*

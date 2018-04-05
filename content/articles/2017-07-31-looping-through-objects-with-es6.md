@@ -35,6 +35,8 @@ for (var key in lunch) {
 
 That said, we can add our own `Object.forEach()` method by extending the object prototype.
 
+*__NOTE:__ This is actually a terrible idea and you shouldn't do it! If/when a real `Object.forEach()` is added as a standard, this polyfill could break the web.*
+
 You normally extend prototypes by doing something like this:
 
 ```javascript
