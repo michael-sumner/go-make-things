@@ -65,7 +65,7 @@ Get everything you need to start mastering string, array, and object manipulatio
 
 {{<cta for="guide-buy">}}
 
-{{<purchase-link product="stringArrayObject">}}
+{{<purchase-link product="stringArrayObject" ready="true">}}
 
 {{<purchase-upsell upsell="beginner">}}
 
