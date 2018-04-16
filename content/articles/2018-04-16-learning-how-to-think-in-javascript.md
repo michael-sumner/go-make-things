@@ -29,7 +29,7 @@ Where do you even start? What projects should you work on? And what happens when
 
 Starting today, you can enroll in a new program I've created called the [Vanilla JS Academy](https://vanillajsacademy.com).
 
-*(And as a regular reader, you get an exclusive discount&mdash;more in a few.)*
+*(And as a regular reader, you get an exclusive discount&mdash;more on that in a few.)*
 
 The Vanilla JS Academy is a project-based online JavaScript training program for beginners. It's a six-week long, structured training program. You’ll learn JavaScript as part of a small group of other students, work on *lots* of fun projects, and get the support you need to work through challenges.
 
