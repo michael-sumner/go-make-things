@@ -15,8 +15,8 @@ if (document.querySelector('a[href*="#"]')) {
 
 // Mailchimp form
 if (document.querySelector('#mailchimp-form')) {
-	mailchimp(function (data) {
-		if (data.result !== 'error') {
+	mailchimp(function (response) {
+		if (response.code === 200) {
 			window.location.href = '/newsletter-success';
 		}
 	});
