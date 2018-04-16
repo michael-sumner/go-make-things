@@ -35,9 +35,13 @@ The Vanilla JS Academy is a project-based online JavaScript training program for
 
 Here's how it works...
 
+<div class="list-spaced">
+{{%md%}}
 1. **Watch and Read.** Each week, you’ll get a set of a lessons (a mix of videos and articles) focused on a core JavaScript topic.
 2. **Build Awesome Things.** Along with your lessons, you’ll get two fun projects to work on that reinforce everything you learned in the lessons. I don’t give you the answers. You’ll use what you learned that week to solve interesting problems and build cool stuff.
 3. **Connect & Share.** To help support your learning, you can join weekly video office hours and collaborate with your fellow students in an exclusive private Slack workspace. Ask questions, share what you’re learning, and get unstuck.
+{{%/md%}}
+</div>
 
 **Just to recap:** 6-weeks, 12 projects, and support to help you get unstuck along the way.
 
