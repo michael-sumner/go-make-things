@@ -1,5 +1,5 @@
 /*!
- * gmt v1.14.0: The theme for gomakethings.com
+ * gmt v1.15.0: The theme for gomakethings.com
  * (c) 2018 Chris Ferdinandi
  * MIT License
  * http://github.com/cferdinandi/go-make-things
@@ -681,8 +681,8 @@ dfn {
  */
 /* line 344, src/sass/components/_typography.scss */
 mark {
-  background: #fbf89a;
-  background-image: linear-gradient(to right, #fbf89a 0%, #fbf9c9 100%);
+  background: #fffcb8;
+  background-image: linear-gradient(to right, #fffcb8 0%, #fbf9c9 100%);
   color: #272727;
 }
 
