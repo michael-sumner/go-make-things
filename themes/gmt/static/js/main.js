@@ -126,19 +126,6 @@
  	}
 
  };
-/*! loadJS: load a JS file asynchronously. [c]2014 @scottjehl, Filament Group, Inc. (Based on http://goo.gl/REQGQ by Paul Irish). Licensed MIT */
-function loadJS( src, cb ){
-	"use strict";
-	var ref = window.document.getElementsByTagName( "script" )[ 0 ];
-	var script = window.document.createElement( "script" );
-	script.src = src;
-	script.async = true;
-	ref.parentNode.insertBefore( script, ref );
-	if (cb && typeof(cb) === "function") {
-		script.onload = cb;
-	}
-	return script;
-}
 var mailchimp = function (callback) {
 
 	'use strict';
@@ -154,7 +141,6 @@ var mailchimp = function (callback) {
 	var email = form.querySelector('#mailchimp-email');
 	if (!email) return;
 	var status = form.querySelector('#mc-status');
-	var btn = form.querySelector('[data-processing]');
 
 	// Messages
 	var messages = {
@@ -238,15 +224,18 @@ var mailchimp = function (callback) {
 	};
 
 	var disableButton = function () {
+		var btn = form.querySelector('[data-processing]');
 		if (!btn) return;
+		btn.setAttribute('data-original', btn.innerHTML);
 		btn.setAttribute('disabled', 'disabled');
-		btn.textContent = btn.getAttribute('data-processing');
+		btn.innerHTML = btn.getAttribute('data-processing');
 	};
 
 	var enableButton = function () {
+		var btn = form.querySelector('[data-processing]');
 		if (!btn) return;
 		btn.removeAttribute('disabled');
-		btn.textContent = btn.getAttribute('data-ready');
+		btn.innerHTML = btn.getAttribute('data-original');
 	};
 
 	var sendData = function (params) {
@@ -342,12 +331,6 @@ var mailchimp = function (callback) {
 	// Event Listeners & Inits
 	//
 
-	if (btn) {
-		btn.removeAttribute('disabled');
-		if (btn.hasAttribute('data-ready')) {
-			btn.textContent = btn.getAttribute('data-ready');
-		}
-	}
 	form.addEventListener('submit', submitHandler, false);
 
 };
@@ -357,6 +340,57 @@ var mailchimp = function (callback) {
  * MIT License
  * http://github.com/cferdinandi/smooth-scroll
  */
+
+/**
+ * closest() polyfill
+ * @link https://developer.mozilla.org/en-US/docs/Web/API/Element/closest#Polyfill
+ */
+if (window.Element && !Element.prototype.closest) {
+	Element.prototype.closest = function(s) {
+		var matches = (this.document || this.ownerDocument).querySelectorAll(s),
+			i,
+			el = this;
+		do {
+			i = matches.length;
+			while (--i >= 0 && matches.item(i) !== el) {}
+		} while ((i < 0) && (el = el.parentElement));
+		return el;
+	};
+}
+
+/**
+ * requestAnimationFrame() polyfill
+ * By Erik Möller. Fixes from Paul Irish and Tino Zijdel.
+ * @link http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+ * @link http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
+ * @license MIT
+ */
+(function() {
+	var lastTime = 0;
+	var vendors = ['ms', 'moz', 'webkit', 'o'];
+	for(var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
+		window.requestAnimationFrame = window[vendors[x]+'RequestAnimationFrame'];
+		window.cancelAnimationFrame = window[vendors[x]+'CancelAnimationFrame'] ||
+		                              window[vendors[x]+'CancelRequestAnimationFrame'];
+	}
+
+	if (!window.requestAnimationFrame) {
+		window.requestAnimationFrame = function(callback, element) {
+			var currTime = new Date().getTime();
+			var timeToCall = Math.max(0, 16 - (currTime - lastTime));
+			var id = window.setTimeout((function() { callback(currTime + timeToCall); }),
+				timeToCall);
+			lastTime = currTime + timeToCall;
+			return id;
+		};
+	}
+
+	if (!window.cancelAnimationFrame) {
+		window.cancelAnimationFrame = function(id) {
+			clearTimeout(id);
+		};
+	}
+}());
 
 (function (root, factory) {
 	if ( typeof define === 'function' && define.amd ) {
