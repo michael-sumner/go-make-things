@@ -24,7 +24,7 @@ Providing public access to some functions but not others is helpful when buildin
 
 ## An example
 
-For example, in [Houdini, an accordion script](https://github.com/cferdinandi/houdini) I wrote, users initializing the plugin like this.
+For example, in [Houdini, an accordion script](https://github.com/cferdinandi/houdini) I wrote, users initialize the plugin like this.
 
 ```js
 houdini.init();
