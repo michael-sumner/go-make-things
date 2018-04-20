@@ -16,7 +16,7 @@ But, there is one caveat to using it that you should be aware of: not every Java
 
 The most commonly used and easy to polyfill methods and APIs are included by default. Less commonly used ones, and ones that are harder to polyfill, are not.
 
-One of my students recently noticed that `Array.forEach()` wasn't working in IE11, despite using polyfill.io on the project.
+One of my students recently noticed that `NodeList.forEach()` wasn't working in IE11, despite using polyfill.io on the project.
 
 Turns out, it's not only not included by default. It's actually not available at all. In his case, he can either [add his own polyfill](https://vanillajstoolkit.com/polyfills/nodelistforeach/), or wrap the results of his `querySelectorAll()` method in `Array.from()` (both of which *are* polyfilled).
 
