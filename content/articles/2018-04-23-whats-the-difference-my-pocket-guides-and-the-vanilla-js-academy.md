@@ -1,20 +1,12 @@
 ---
-title: "Whats the difference my pocket guides and the vanilla js academy"
+title: "Whats the difference my pocket guides and the Vanilla JS Academy"
 date: 2018-04-23T10:30:00-04:00
 draft: false
 categories:
-- Accessibility
-- Art and Science
-- Business and Leadership
 - Careers
 - Code
-- CSS
 - Design and UX
-- HTML
 - JavaScript
-- Technology
-- Web Performance
-- WordPress
 ---
 
 I've had a few folks email me to ask what the difference is between my [pocket guides](https://vanillajsguides.com) and the [Vanilla JS Academy](https://vanillajsacademy.com).
