@@ -183,6 +183,6 @@ Today I focused on exploring some of the key points in Vjeux's presentation and 
 
 He's an amazing developer with some really clever approaches to things, and I hope this is viewed as "two passionate professionals disagreeing" than as a personal attack or anything. I think it's clear he and I both have a deep love for the web.
 
-Tomorrow, I'm going to share some additional thoughts around CSS-in-JS more generally, and more clearly summarize my preferred approach to building for the web.
+Tomorrow, I'm going to [share some additional thoughts around CSS-in-JS](/alternatives-to-css-in-js/) more generally, and more clearly summarize my preferred approach to building for the web.
 
 And if you think I missed the mark in any way, I'd love to hear from you.
