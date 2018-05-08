@@ -36,7 +36,7 @@ To figure this out, You would need a few pieces of info from the user:
 
 The first thing I would do is sketch out those fields. I'm a visual person, and seeing them helps keep me focused on what I'm trying to accomplish.
 
-<img class="img-center" alt="" src="/img/lessons/planning-ui.jpg">
+<img class="img-center" alt="" src="/img/articles/planning-ui.jpg">
 
 Next, let's think through what the script would need to do to actually calculate the per-person amount.
 
@@ -47,7 +47,7 @@ Next, let's think through what the script would need to do to actually calculate
 
 Now, we can actually map out tactically what our script would need to do to complete those tasks. To help me out here, I would go so far as to write actual amounts into my sketch to have real numbers to work with.
 
-<img class="img-center" alt="" src="/img/lessons/planning-steps.jpg">
+<img class="img-center" alt="" src="/img/articles/planning-steps.jpg">
 
 <div class="list-spaced">
 {{%md%}}
@@ -76,7 +76,7 @@ Now, we can actually map out tactically what our script would need to do to comp
 
 And now, based on all of that, I can quickly put together a rough version of actual JavaScript I'd need to accomplish this.
 
-<img class="img-center" alt="" src="/img/lessons/planning-logic.jpg">
+<img class="img-center" alt="" src="/img/articles/planning-logic.jpg">
 
 ```js
 var tipAmount = total * (tip/100);
