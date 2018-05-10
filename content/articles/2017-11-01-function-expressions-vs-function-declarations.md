@@ -42,7 +42,7 @@ Specifically, all of the functions written with function declarations are "known
 function add(num1, num2) {
 	return num1 + num2;
 }
-add(3, 3); // returns 7
+add(3, 3); // returns 6
 
 
 /**
