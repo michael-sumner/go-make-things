@@ -63,7 +63,7 @@ function subtract(num1, num2) {
 var add = function(num1, num2) {
 	return num1 + num2;
 };
-add(3, 3); // returns 7
+add(3, 3); // returns 6
 
 
 /**
