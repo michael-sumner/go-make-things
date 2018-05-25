@@ -105,4 +105,4 @@ Often, when setting a new array or object and referencing the value of an exitin
 
 The mutability of arrays and objects makes it harder to trust the original source of data.
 
-Tomorrow, we'll look at some strategies for dealing with mutability.
+Tomorrow, we'll look at [some strategies for dealing with mutability](/how-to-handle-immutability-in-javascript/).
