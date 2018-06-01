@@ -113,7 +113,7 @@ If you strip those out, the vanilla JS version is just five lines of code! Who s
 
 You can [download this on GitHub](https://gist.github.com/cferdinandi/2218858af04d5306904fe57c184fc17a), or [play with it in a browser on JSFiddle](https://jsfiddle.net/cferdinandi/z8qk1fuu/).
 
-<script async src="//jsfiddle.net/cferdinandi/z8qk1fuu/embed/"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/cferdinandi/z8qk1fuu/embedded/" allowpaymentrequest allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ## What's next?
 
