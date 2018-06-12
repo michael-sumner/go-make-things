@@ -22,7 +22,6 @@ Here's what they had to say.
 > **Scott:** macOS has VoiceOver built in for free. iOS has has VoiceOver built in for free. Android phones can get TalkBack (for free).
 > Windows can use Narrator (primarily with IE/Edge) for free. Windows can use NVDA with FireFox/Chrome for free. Windows can use JAWS in free trial mode for a short period of time.
 >
-> **Eric:** The important part about manual testing is that you want to make sure your logic and markup work the way they’re intended
-automated checkers can hit false positives, and things like `<h1 aria-hidden="true">Very important information</h1>` are technically valid, but also an awful experience for the end user.
+> **Eric:** The important part about manual testing is that you want to make sure your logic and markup work the way they’re intended. Automated checkers can hit false positives, and things like `<h1 aria-hidden="true">Very important information</h1>` are technically valid, but also an awful experience for the end user.
 
 So in short: grab a free screen reader and try using your website with it. You'll learn a lot!
