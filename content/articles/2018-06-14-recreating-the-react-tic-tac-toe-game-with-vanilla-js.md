@@ -13,7 +13,7 @@ categories:
 
 Last week, I kicked off a series where I [recreate popular framework demos with vanilla JS](/javascript-framework-demos-in-vanilla-js/), starting with VueJS.
 
-This week, we're going to build [React's Tic-Tac-Toe game](https://reactjs.org/tutorial/tutorial.html#what-were-building). And we're going to do with fewer lines of code and zero dependencies, and make it more accessible. [You can see the finished script here.](https://jsfiddle.net/cferdinandi/bhk3jnyv/1/)
+This week, we're going to build [React's Tic-Tac-Toe game](https://reactjs.org/tutorial/tutorial.html#what-were-building). And we're going to do with fewer lines of code and zero dependencies, and make it more accessible. [You can see the finished script here.](https://jsfiddle.net/cferdinandi/bhk3jnyv/8/)
 
 Let's get started.
 
@@ -274,7 +274,7 @@ First, we'll get the square's ID from the `[data-id]` attribute.
 var renderTurn = function (square) {
 
 	// Get selected value
-	var selected = event.target.getAttribute('data-id');
+	var selected = square.getAttribute('data-id');
 	if (!selected) return;
 
 };
@@ -290,7 +290,7 @@ We'll update that square in the `currentState` array to the `turn` value. This s
 var renderTurn = function (square) {
 
 	// Get selected value
-	var selected = event.target.getAttribute('data-id');
+	var selected = square.getAttribute('data-id');
 	if (!selected) return;
 
 	// Update state
@@ -309,7 +309,7 @@ Next, we want to add the current state of the board to the `historyState` array.
 var renderTurn = function (square) {
 
 	// Get selected value
-	var selected = event.target.getAttribute('data-id');
+	var selected = square.getAttribute('data-id');
 	if (!selected) return;
 
 	// Update state
@@ -331,7 +331,7 @@ Now, we can update the board markup by calling our `updateBoard()` method. We'll
 var renderTurn = function (square) {
 
 	// Get selected value
-	var selected = event.target.getAttribute('data-id');
+	var selected = square.getAttribute('data-id');
 	if (!selected) return;
 
 	// Update state
@@ -578,4 +578,4 @@ This was a lot more complex than [the VueJS example from last week](/javascript-
 
 That said, the finished result is both more accessible than the version in the React docs, *and* fewer lines of code. That feels like a win to me!
 
-[You can view the full working project on JSFiddle.](https://jsfiddle.net/cferdinandi/bhk3jnyv/1/)
+[You can view the full working project on JSFiddle.](https://jsfiddle.net/cferdinandi/bhk3jnyv/8/)
