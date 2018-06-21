@@ -7,6 +7,7 @@ categories:
 - CSS
 - HTML
 - JavaScript
+- Vanilla Framework Demos
 ---
 
 This week, I learned that [Joe Gregorio](https://bitworking.org/) has this cool project where [he re-implements popular framework sample apps in vanilla JavaScript](https://github.com/jcgregorio/vanillajs).

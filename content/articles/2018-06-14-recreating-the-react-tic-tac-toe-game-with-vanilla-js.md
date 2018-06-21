@@ -9,6 +9,7 @@ categories:
 - Design and UX
 - HTML
 - JavaScript
+- Vanilla Framework Demos
 ---
 
 Last week, I kicked off a series where I [recreate popular framework demos with vanilla JS](/javascript-framework-demos-in-vanilla-js/), starting with VueJS.

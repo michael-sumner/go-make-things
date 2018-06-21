@@ -15,5 +15,6 @@ categories:
 - Technology
 - Web Performance
 - WordPress
+- Vanilla Framework Demos
 ---
 
