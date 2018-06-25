@@ -1,5 +1,5 @@
 ---
-title: "Learn how to stay relevant, hack the hiring process, and make more money as an in house developer."
+title: "Learn how to stay relevant, hack the hiring process, and make more money as a web developer."
 date: 2018-01-11T16:03:33-05:00
 draft: false
 ---
