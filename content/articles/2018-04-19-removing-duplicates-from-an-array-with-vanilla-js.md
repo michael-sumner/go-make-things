@@ -104,4 +104,4 @@ This is more performant than our helper function, but also has far less browser 
 
 ### Browser Compatibility
 
-The `Array.from()` method works at least back to IE9, but `Set()` has no IE support for iterables like arrays.. Both work in all modern browsers, though, including Edge.
+The `Array.from()` method works in all modern browsers, but has no IE support. You can [polyfill it back to at least IE9](https://vanillajstoolkit.com/polyfills/arrayfrom/). The `Set()` object has no IE support for iterables like arrays, but otherwise works in all modern browsers, including Edge.
