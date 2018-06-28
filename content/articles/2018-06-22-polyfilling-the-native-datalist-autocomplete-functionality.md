@@ -468,5 +468,6 @@ You'll need to add polyfills for:
 - `Array.filter()` - https://vanillajstoolkit.com/polyfills/arrayfilter/
 - `Element.after()` - https://vanillajstoolkit.com/polyfills/after/
 - `Element.remove()` - https://vanillajstoolkit.com/polyfills/remove/
+- `Element.closest()` - https://vanillajstoolkit.com/polyfills/closest/
 
 You can make life easier for yourself by using a polyfill service like [https://polyfill.io](https://polyfill.io), though you'll still need to polyfill [`NodeList.forEach()`](https://vanillajstoolkit.com/polyfills/nodelistforeach/) as that's not yet part of their package of polyfills.
