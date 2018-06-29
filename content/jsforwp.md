@@ -4,7 +4,7 @@ date: 2018-06-29T00:00:33-05:00
 draft: false
 ---
 
-Hi there! Thanks for watching my talk at the [JavaScrip for WP Conference](https://javascriptforwp.com/conference/).
+Hi there! Thanks for watching my talk at the [JavaScript for WP Conference](https://javascriptforwp.com/conference/).
 
 I've put together some special resources and bonuses just for you.
 
