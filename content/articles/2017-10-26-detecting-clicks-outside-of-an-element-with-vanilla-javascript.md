@@ -11,7 +11,7 @@ Yesterday, we looked at [how to detect clicks inside of an element](/detecting-c
 
 Today, I'm going to show you how to check if a click was *outside* of an element. It uses more or less the same technique.
 
-Once again, we'll listen for all clicks on the `document` and use the `closer()` method to see if the click happened inside the element we're interested in. We'll use a bang (`!`) to make our `if` statement a negative check. If there's no parent with the matching selector, the click was outside of our element.
+Once again, we'll listen for all clicks on the `document` and use the `closest()` method to see if the click happened inside the element we're interested in. We'll use a bang (`!`) to make our `if` statement a negative check. If there's no parent with the matching selector, the click was outside of our element.
 
 ```html
 <div class="dont-click-me">
