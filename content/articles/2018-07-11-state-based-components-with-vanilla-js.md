@@ -97,4 +97,4 @@ With a scoped component, you update your state and then render your template. Yo
 
 Your data is the single source of truth, and it makes updating the UI easier and more consistent.
 
-Tomorrow, I'll show you a helper function you can use to make this whole process super easy. Then on Friday, we'll build a simple stopwatch app together using this approach.
+Tomorrow, I'll show you [a helper function you can use to make this whole process super easy](/a-stateful-component-helper-function-for-vanilla-js/). Then on Friday, we'll build a simple stopwatch app together using this approach.
