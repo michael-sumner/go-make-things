@@ -3,19 +3,9 @@ title: "A stateful component helper function for vanilla JS"
 date: 2018-07-12T10:30:00-04:00
 draft: false
 categories:
-- Accessibility
-- Art and Science
-- Business and Leadership
-- Careers
 - Code
-- CSS
-- Design and UX
 - HTML
 - JavaScript
-- Technology
-- Web Performance
-- WordPress
-- Vanilla Framework Demos
 ---
 
 Yesterday, we talked about [what state is and how to create state-based components with vanilla JS](/state-based-components-with-vanilla-js/).
