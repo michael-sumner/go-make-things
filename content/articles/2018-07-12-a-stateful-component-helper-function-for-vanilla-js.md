@@ -186,7 +186,7 @@ var Component = (function () {
 
 		// Get the template
 		var template = (typeof this.template === 'function' ? this.template(this.data) : this.template);
-		if (typeof template !== 'string') return;
+		if (['string', 'number'].indexOf(typeof template) === -1) return;
 
 		// Render the template into the element
 		if (elem.innerHTML === template) return;
@@ -313,7 +313,7 @@ In our `render()` method, we're going to make sure the component has a `template
 
 If the `elem` property is a string, we'll use `querySelector()` to get the element. If it's a node, we'll use that node directly.
 
-Similarly, if the `template` property is a string, we'll use it outright. If it's a function, we'll run it to get a string.
+Similarly, if the `template` property is a string or number, we'll use it outright. If it's a function, we'll run it to get a string (or number).
 
 Next, we'll run a check to make sure the existing `innerHTML` of our `elem` differs from the `template`. If they're the same, we won't do anything since there's nothing new to render. Otherwise, we'll update the DOM.
 

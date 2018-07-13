@@ -11,7 +11,7 @@ categories:
 
 This week, we learned about [state and stateful components](/state-based-components-with-vanilla-js/). I also showed you [a helper function you can use to make creating state-based components easier](/a-stateful-component-helper-function-for-vanilla-js/).
 
-Today, we're going to use what we learned to build a stopwatch app. [Here's what the finished app looks like.](http://jsfiddle.net/cferdinandi/nb40j6rf/4/)
+Today, we're going to use what we learned to build a stopwatch app. [Here's what the finished app looks like.](http://jsfiddle.net/cferdinandi/nb40j6rf/6/)
 
 Let's get started!
 
@@ -350,6 +350,6 @@ var formatTime = function (time) {
 };
 ```
 
-And [here's a demo of our finished app](http://jsfiddle.net/cferdinandi/nb40j6rf/4/).
+And [here's a demo of our finished app](http://jsfiddle.net/cferdinandi/nb40j6rf/6/).
 
-<iframe width="100%" height="300" src="//jsfiddle.net/cferdinandi/nb40j6rf/4/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/cferdinandi/nb40j6rf/6/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
