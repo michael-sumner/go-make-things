@@ -74,6 +74,6 @@ trueTypeOf([]);
 trueTypeOf(new Date());
 ```
 
-I've added this on the [Vanilla JS Toolkit](https://vanillajstoolkit.com).
+I've added this on the [Vanilla JS Toolkit](https://vanillajstoolkit.com/helpers/truetypeof/).
 
 I refer to [Todd's original article](https://toddmotto.com/understanding-javascript-types-and-reliable-type-checking/) on this so often, I thought it would be use documenting here, too.
