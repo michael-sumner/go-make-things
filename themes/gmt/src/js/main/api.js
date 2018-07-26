@@ -2,30 +2,58 @@ var api = function () {
 
 	'use strict';
 
+	//
+	// Variables
+	//
+
+	var ctas = document.querySelectorAll('[data-cta]');
+	var testimonials = document.querySelectorAll('[data-testimonial]');
+
+
+	//
+	// Methods
+	//
+
 	var sanitize = function () {
 		var temp = document.createElement('div');
 		temp.textContent = str;
 		return temp.innerHTML;
 	};
 
-	var renderCTAs = function (data) {
+	var renderTestimonial = function (node, data) {
+		var usePhoto = node.getAttribute('data-use-photo');
+		node.innerHTML =
+			<div class="row">
+				<div class="grid-third">
+					<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="{{ $testimonial.photo | absURL }}">
+				</div>
+				<div class="grid-two-thirds">
+					<blockquote>
+						<cite>- <a href=""></a></cite>
+					</blockquote>
+				</div>
+			</div>
+	};
 
-		// 1. Loop through each testimonial div on the page
-		// 2. Get its ID
-		// 3. Look for it's ID in the data
-		// 4. Create the element and inject
+	var renderCTA = function (node, data) {
 
 	};
 
-	var render = function (data, type) {
+	var process = function (nodes, data, isCTA) {
+		for (var i = 0; i < nodes.length; i++) {
 
-		// 1. Loop through each testimonial div on the page
-		// 2. Get its ID
-		// 3. Look for it's ID in the data
-		// 4. Create the element and inject
+			// Get the content ID
+			var id = nodes[i].getAttribute('data-' + type);
+			if (!id || !data[id]) continue;
 
+			// Render data into the DOM
+			if (isCTA) {
+				renderCTA(nodes[i], data[id]);
+			} else {
+				renderTestimonial(nodes[i], data[id]);
+			}
 
-
+		}
 	};
 
 	/**
@@ -57,5 +85,13 @@ var api = function () {
 		xhr.send();
 
 	};
+
+
+	//
+	// Inits
+	//
+
+	if (ctas.length < 1 && testimonials.length < 1) return;
+	getAPI('https://gomakethings.com/api/data.json');
 
 };
