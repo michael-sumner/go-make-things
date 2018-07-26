@@ -1,20 +1,14 @@
-{{ if and (gt (now.Format "20060102") 20180329) (lt (now.Format "20060102") 20180403) }}
-{{ if eq (.Get "for") "guide" }}
-{{ else if eq (.Get "for") "guide-buy" }}
-{{ else if eq (.Get "for") "guides-all" }}
-{{ else if eq (.Get "for") "call" }}
+{{ if and (gt (now.Format "20060102") 20180329) (lt (now.Format "20060102") 20180727) }}
+{{ if eq (.Get "for") "call" }}
 {{ else if eq (.Get "for") "call-buy" }}
 {{ else if eq (.Get "for") "mentoring" }}
 {{ else if eq (.Get "for") "mentoring-buy" }}
 {{ else if eq (.Get "for") "resources" }}
+{{ else if eq (.Get "for") "home" }}
+<p><mark>🔥 <em><strong>FIRE SALE!</strong> To celebrate the launch of the <strong><a href="https://vanillajsguides.com/variables-functions-and-scope/">Pocket Guide video series on Functions, Variables, and Scope</a></strong>, you can <strong>take 50% off any guide or bundle</strong> with the code <strong><code>VAR50</code></strong> at checkout.</em></mark></p>
 {{ end }}
 {{ else }}
-{{ if eq (.Get "for") "guide" }}
-<p><mark>🔥 <em><strong>New!</strong> Updated with new resources and more backwards-compatible polyfills.</em></mark></p>
-{{ else if eq (.Get "for") "guide-buy" }}
-{{ else if eq (.Get "for") "guides-all" }}
-<p><mark>🔥 <em><strong>New!</strong> All of my pocket guides have been updated with new resources and more backwards-compatible polyfills.</em></mark></p>
-{{ else if eq (.Get "for") "call" }}
+{{ if eq (.Get "for") "call" }}
 {{ else if eq (.Get "for") "call-buy" }}
 {{ else if eq (.Get "for") "mentoring" }}
 {{ else if eq (.Get "for") "mentoring-buy" }}
