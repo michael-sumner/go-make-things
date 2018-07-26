@@ -21,25 +21,34 @@ var api = function () {
 	};
 
 	var renderTestimonial = function (node, data) {
-		var usePhoto = node.getAttribute('data-use-photo');
-		node.innerHTML =
-			<div class="row">
-				<div class="grid-third">
-					<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="{{ $testimonial.photo | absURL }}">
-				</div>
-				<div class="grid-two-thirds">
-					<blockquote>
-						<cite>- <a href=""></a></cite>
-					</blockquote>
-				</div>
-			</div>
+		var noPhoto = node.getAttribute('data-no-photo');
+		if (noPhoto) {
+			node.innerHTML =
+				'<blockquote>' +
+					data.quote +
+					(data.url ? '<cite>- <a href="' + data.url + '">' + data.name + '</a></cite>' : '<cite>- ' + data.name + '</cite>') +
+				'</blockquote>';
+		} else {
+			node.innerHTML =
+				'<div class="row">' +
+					'<div class="grid-third">' +
+						'<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="https://gomakethings.com' + data.photo + '">' +
+					'</div>' +
+					'<div class="grid-two-thirds">' +
+						'<blockquote>' +
+							data.quote +
+							(data.url ? '<cite>- <a href="' + data.url + '">' + data.name + '</a></cite>' : '<cite>- ' + data.name + '</cite>') +
+						'</blockquote>' +
+					'</div>' +
+				'</div>';
+		}
 	};
 
 	var renderCTA = function (node, data) {
-
+		node.innerHTML = data;
 	};
 
-	var process = function (nodes, data, isCTA) {
+	var process = function (nodes, data, type) {
 		for (var i = 0; i < nodes.length; i++) {
 
 			// Get the content ID
@@ -47,7 +56,7 @@ var api = function () {
 			if (!id || !data[id]) continue;
 
 			// Render data into the DOM
-			if (isCTA) {
+			if (type === 'cta') {
 				renderCTA(nodes[i], data[id]);
 			} else {
 				renderTestimonial(nodes[i], data[id]);
@@ -73,7 +82,9 @@ var api = function () {
 
 			// Process our return data
 			if (xhr.status === 200) {
-				// @todo
+				var data = JSON.parse(xhr.responseText);
+				process(ctas, data['ctas'], 'cta');
+				process(testimonials, data['testimonials'], 'testimonial');
 			}
 
 		};
