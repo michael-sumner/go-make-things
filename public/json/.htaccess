@@ -1,2 +1,0 @@
-# deny from all
-Header set Access-Control-Allow-Origin "*"
