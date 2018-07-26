@@ -1,0 +1,133 @@
+##
+## Calls to Action
+##
+
+# https://gomakethings.com
+home:
+    message: "<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com/'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
+    limited:
+        1:
+            message: "<p><mark>🔥 <em><strong>FIRE SALE!</strong> To celebrate the launch of the <strong><a href='https://vanillajsguides.com/variables-functions-and-scope/'>Pocket Guide video series on Functions, Variables, and Scope</a></strong>, you can <strong>take 50% off any guide or bundle</strong> with the code <strong><code>VAR50</code></strong> at checkout. This ends at midnight, so don't wait!</em></mark></p>"
+            start: 20180726
+            end: 20180726
+
+global:
+    message: "<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
+    limited:
+        1:
+            start: 20180726
+            end: 20180727
+            message: "<p><mark>🔥 <em><strong>FIRE SALE!</strong> To celebrate the launch of the <strong><a href='https://vanillajsguides.com/variables-functions-and-scope/'>Pocket Guide video series on Functions, Variables, and Scope</a></strong>, you can <strong>take 50% off any guide or bundle</strong> with the code <strong><code>VAR50</code></strong> at checkout. This ends at midnight, so don't wait!</em></mark></p>"
+        2:
+            start: 20180401
+            end: 20180420
+            message: "<p><mark>🔥 <em><strong>NEW: <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>.</strong> The <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> is a project-based online JavaScript training program for beginners. Get early bird pricing if you join in the next two weeks. Don't&nbsp;wait!</em></mark></p>"
+        3:
+            start: 20180421
+            end: 20180426
+            message: "<p><mark>🔥 <em><strong>NEW: <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>.</strong> The <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> is a project-based online JavaScript training program for beginners. Get early bird pricing if you join by Saturday. Don't&nbsp;wait!</em></mark></p>"
+        4:
+            start: 20180427
+            end: 20180427
+            message: "<p><mark>🔥 <em><strong>NEW: <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>.</strong> The <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> is a project-based online JavaScript training program for beginners. Get early bird pricing if you join by tomorrow. Don't&nbsp;wait!</em></mark></p>"
+        5:
+            start: 20180428
+            end: 20180428
+            message: "<p><mark>🔥 <em><strong>NEW: <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>.</strong> The <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> is a project-based online JavaScript training program for beginners. Get early bird pricing if you join today. Don't&nbsp;wait!</em></mark></p>"
+
+call:
+    message: ""
+
+callBuy:
+    message: ""
+
+mentoring:
+    message: ""
+
+mentoringBuy:
+    message: ""
+
+resource:
+    message: ""
+
+
+
+# https://vanillajsguides.com
+guide:
+    message: "<p><mark>🔥 <em><strong>New!</strong> Updated with new resources and more backwards-compatible polyfills.</em></mark></p>"
+    limited:
+        1:
+            message: "<p><mark>🔥 <em><strong>FIRE SALE!</strong> To celebrate the launch of the <strong><a href='https://vanillajsguides.com/variables-functions-and-scope/'>Pocket Guide video series on Functions, Variables, and Scope</a></strong>, you can <strong>take 50% off any guide or bundle</strong> with the code <strong><code>VAR50</code></strong> at checkout. This ends at midnight, so don't wait!</em></mark></p>"
+            start: 20180726
+            end: 20180726
+
+guideBuy:
+    message: ""
+    limited:
+        1:
+            message: "<p><mark>🔥 <em><strong>FIRE SALE!</strong> Use the code <strong><code>VAR50</code></strong> at checkout to get 50% off. This ends at midnight, so don't wait!</em></mark></p>"
+            start: 20180726
+            end: 20180726
+
+guidesAll:
+    message: "<p class='padding-bottom'><mark>🔥 <em><strong>New!</strong> All of my pocket guides have been updated with new resources and more backwards-compatible polyfills.</em></mark></p>"
+    limited:
+        1:
+            message: "<p><mark>🔥 <em><strong>FIRE SALE!</strong> To celebrate the launch of the <strong><a href='https://vanillajsguides.com/variables-functions-and-scope/'>Pocket Guide video series on Functions, Variables, and Scope</a></strong>, you can <strong>take 50% off any guide or bundle</strong> with the code <strong><code>VAR50</code></strong> at checkout. This ends at midnight, so don't wait!</em></mark></p>"
+            start: 20180726
+            end: 20180726
+
+
+
+# https://vanillajsacademy.com
+academy:
+    message: ""
+    limited:
+        1:
+            message: "<p><mark>🦉<em><strong>Want to save $130?</strong> Get early bird pricing if you join today. Don't&nbsp;wait!</em></mark></p>"
+            start: 20180428
+            end: 20180428
+        2:
+            message: "<p><mark>🦉<em><strong>Want to save $130?</strong> Get early bird pricing if you join by tomorrow. Don't&nbsp;wait!</em></mark></p>"
+            start: 20180427
+            end: 20180427
+        3:
+            message: "<p><mark>🦉<em><strong>Want to save $130?</strong> Get early bird pricing if you join by Saturday. Don't&nbsp;wait!</em></mark></p>"
+            start: 20180421
+            end: 20180426
+        4:
+            message: "<p><mark>🦉<em><strong>Want to save $130?</strong> Get early bird pricing if you join in the next two weeks. Don't&nbsp;wait!</em></mark></p>"
+            start: 20180401
+            end: 20180420
+
+academyBuy:
+    message: ""
+    limited:
+        1:
+            message: "<p><em><strong>Want to save $130?</strong> Get early bird pricing with the code <code>EARLYBIRD</code> at checkout. Early bird pricing ends today, so don't&nbsp;wait!</em></p>"
+            start: 20180428
+            end: 20180428
+        2:
+            message: "<p><em><strong>Want to save $130?</strong> Get early bird pricing with the code <code>EARLYBIRD</code> at checkout. Early bird pricing ends tomorrow, so don't&nbsp;wait!</em></p>"
+            start: 20180427
+            end: 20180427
+        3:
+            message: "<p><em><strong>Want to save $130?</strong> Get early bird pricing with the code <code>EARLYBIRD</code> at checkout. Early bird pricing ends on Saturday, so don't&nbsp;wait!</em></p>"
+            start: 20180421
+            end: 20180426
+        4:
+            message: "<p><em><strong>Want to save $130?</strong> Get early bird pricing with the code <code>EARLYBIRD</code> at checkout. Early bird pricing ends in less than two weeks, so don't&nbsp;wait!</em></p>"
+            start: 20180401
+            end: 20180420
+
+
+
+# https://vanillajspodcast.com
+podcast:
+    message: "<mark><p>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my Vanilla JS <strong><a href="https://gomakethings.com/guides/">Pocket Guides</a></strong> and <strong><a href="https://gomakethings.com/courses/">Mini Courses</a></strong>.</p></mark>"
+
+
+
+# https://vanillajstoolkit.com
+toolkit:
+    message: "<mark><p>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my Vanilla JS <strong><a href="https://gomakethings.com/guides/">Pocket Guides</a></strong> and <strong><a href="https://gomakethings.com/courses/">Mini Courses</a></strong>.</p></mark>"

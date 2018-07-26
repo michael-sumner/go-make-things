@@ -1,0 +1,5579 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://gomakethings.com/talks/</loc>
+    <lastmod>2018-01-16T10:05:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/vanilla-js-isnt-for-building-web-apps/</loc>
+    <lastmod>2018-07-26T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/true-type-checking-with-vanilla-js/</loc>
+    <lastmod>2018-07-25T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-i-built-my-own-vanilla-js-alternative-to-vue-and-react/</loc>
+    <lastmod>2018-07-24T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-i-wrote-my-own-vanilla-js-alternative-to-vue-and-react/</loc>
+    <lastmod>2018-07-23T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/free-illustrations-for-your-web-project/</loc>
+    <lastmod>2018-07-20T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/should-you-attach-your-event-to-the-window-or-document-when-using-event-delegation/</loc>
+    <lastmod>2018-07-19T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/when-do-you-need-to-use-usecapture-with-addeventlistener/</loc>
+    <lastmod>2018-07-18T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-i-dont-use-let-const-or-fat-arrow-functions-and-you-shouldnt-either/</loc>
+    <lastmod>2018-07-17T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/everything-is-an-object-in-javascript/</loc>
+    <lastmod>2018-07-16T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/using-stateful-components-to-build-a-stopwatch-web-app-with-vanilla-js/</loc>
+    <lastmod>2018-07-13T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-stateful-component-helper-function-for-vanilla-js/</loc>
+    <lastmod>2018-07-12T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/state-based-components-with-vanilla-js/</loc>
+    <lastmod>2018-07-11T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/more-is-not-better/</loc>
+    <lastmod>2018-07-10T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/cross-browser-compatibility-with-vanilla-js/</loc>
+    <lastmod>2018-07-09T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/reader-feedback-on-event-bubbling-with-lots-of-items/</loc>
+    <lastmod>2018-07-06T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/event-bubbling-with-lots-of-items/</loc>
+    <lastmod>2018-07-05T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/inlining-literally-everything-for-better-performance/</loc>
+    <lastmod>2018-07-03T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/http-explained-in-comic-form/</loc>
+    <lastmod>2018-07-02T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/chris-buecheler-on-js-prototypes/</loc>
+    <lastmod>2018-06-29T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/jsforwp/</loc>
+    <lastmod>2018-06-29T00:00:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/some-additional-thoughts-on-copyright-and-open-source/</loc>
+    <lastmod>2018-06-28T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/copyright-code-and-open-source/</loc>
+    <lastmod>2018-06-27T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/moving-beyond-wordpress-as-a-cms/</loc>
+    <lastmod>2018-06-26T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/race-careers-and-privilege/</loc>
+    <lastmod>2018-06-25T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-polyfill-the-browser-native-datalist-autocomplete-functionality/</loc>
+    <lastmod>2018-06-22T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-create-a-form-input-autocomplete-without-a-library-or-framework/</loc>
+    <lastmod>2018-06-21T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-you-need-to-use-typeof-to-check-if-a-function-exists-with-vanilla-js/</loc>
+    <lastmod>2018-06-20T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/javascript-selector-strategy/</loc>
+    <lastmod>2018-06-19T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-check-if-a-function-already-exists-with-vanilla-js/</loc>
+    <lastmod>2018-06-18T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-check-if-any-part-of-an-element-is-out-of-the-viewport-with-vanilla-js/</loc>
+    <lastmod>2018-06-15T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/recreating-the-react-tic-tac-toe-game-with-vanilla-js/</loc>
+    <lastmod>2018-06-14T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-shuffle-an-array-with-vanilla-js/</loc>
+    <lastmod>2018-06-13T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-test-for-accessibility/</loc>
+    <lastmod>2018-06-12T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-cult-of-the-complex/</loc>
+    <lastmod>2018-06-08T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-would-you-use-array.some-or-array.every-over-array.filter/</loc>
+    <lastmod>2018-06-07T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/your-website-data-is-a-lie/</loc>
+    <lastmod>2018-06-06T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/feature-tests-and-server-side-javascript/</loc>
+    <lastmod>2018-06-05T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/knowing-the-answers-vs.-knowing-where-to-find-them/</loc>
+    <lastmod>2018-06-04T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/javascript-framework-demos-in-vanilla-js/</loc>
+    <lastmod>2018-06-01T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/developer-convenience-vs.-user-goals/</loc>
+    <lastmod>2018-05-31T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-update-localstorage-with-vanilla-javascript/</loc>
+    <lastmod>2018-05-30T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/my-biggest-challenge-with-javascript/</loc>
+    <lastmod>2018-05-29T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-handle-immutability-in-javascript/</loc>
+    <lastmod>2018-05-25T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/immutability-in-javascript/</loc>
+    <lastmod>2018-05-24T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-turn-any-github-repo-into-a-cdn/</loc>
+    <lastmod>2018-05-23T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/working-with-xhr-response-data-in-vanilla-js/</loc>
+    <lastmod>2018-05-22T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ajax-and-apis-with-vanilla-javascript/</loc>
+    <lastmod>2018-05-21T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-i-dont-use-let-or-const-in-my-javascript-projects/</loc>
+    <lastmod>2018-05-18T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-elite-priesthood-of-developers/</loc>
+    <lastmod>2018-05-17T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-i-structure-my-javascript-plugins/</loc>
+    <lastmod>2018-05-16T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/better-autoprefixing/</loc>
+    <lastmod>2018-05-15T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/dont-throw-technology-solutions-at-people-problems/</loc>
+    <lastmod>2018-05-14T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-check-if-a-browser-supports-native-input-date-pickers/</loc>
+    <lastmod>2018-05-11T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/promise-based-xhr/</loc>
+    <lastmod>2018-05-10T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-i-still-use-xhr-instead-of-the-fetch-api/</loc>
+    <lastmod>2018-05-09T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-break-an-image-out-of-its-parent-container-with-css/</loc>
+    <lastmod>2018-05-08T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/some-additional-thoughts-on-css-in-js/</loc>
+    <lastmod>2018-05-07T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/primitive-a-minimalist-sass-boilerplate/</loc>
+    <lastmod>2018-05-04T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/whats-the-difference-between-a-function-and-a-method-in-javascript/</loc>
+    <lastmod>2018-05-03T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-people-use-javascript-and-css-frameworks-and-how-we-can-fix-that/</loc>
+    <lastmod>2018-05-02T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/working-with-money-in-javascript/</loc>
+    <lastmod>2018-05-01T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-plan-out-your-javascript-project/</loc>
+    <lastmod>2018-04-30T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/alternatives-to-css-in-js/</loc>
+    <lastmod>2018-04-27T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/whats-wrong-with-css-in-js/</loc>
+    <lastmod>2018-04-26T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/should-you-conditionally-load-a-script-based-on-viewport-size/</loc>
+    <lastmod>2018-04-25T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/you-dont-need-to-know-everything/</loc>
+    <lastmod>2018-04-24T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/whats-the-difference-my-pocket-guides-and-the-vanilla-js-academy/</loc>
+    <lastmod>2018-04-23T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/shoring-up-holes-in-polyfill.io/</loc>
+    <lastmod>2018-04-20T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/removing-duplicates-from-an-array-with-vanilla-javascript/</loc>
+    <lastmod>2018-04-19T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-es6-way-to-create-a-new-array-and-transform-the-content-with-vanilla-javascript/</loc>
+    <lastmod>2018-04-18T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/public-vs.-private-functions-in-javascript/</loc>
+    <lastmod>2018-04-17T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/learning-how-to-think-in-javascript/</loc>
+    <lastmod>2018-04-16T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/resetting-highlighting-for-our-star-based-rating-system/</loc>
+    <lastmod>2018-04-13T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/event-delegation-and-web-performance/</loc>
+    <lastmod>2018-04-12T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/showing-star-based-ratings-on-hover-or-focus-with-vanilla-javascript/</loc>
+    <lastmod>2018-04-11T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/javascript-selectors-in-html/</loc>
+    <lastmod>2018-04-10T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/my-biggest-javascript-screw-up/</loc>
+    <lastmod>2018-04-09T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ecmascript-compatibility-table/</loc>
+    <lastmod>2018-04-06T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-learn-command-line/</loc>
+    <lastmod>2018-04-05T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-check-if-something-is-an-object-with-vanilla-javascript/</loc>
+    <lastmod>2018-04-04T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-check-if-an-object-is-an-array-with-vanilla-javascript/</loc>
+    <lastmod>2018-04-03T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/setting-a-star-rating-on-click-or-enter-with-vanilla-js/</loc>
+    <lastmod>2018-04-02T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/creating-a-star-based-rating-app-with-vanilla-javascript/</loc>
+    <lastmod>2018-03-30T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-check-if-at-least-one-item-in-an-array-meets-some-criteria-with-vanilla-javascript/</loc>
+    <lastmod>2018-03-29T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-check-if-every-item-in-an-array-matches-some-criteria-with-vanilla-javascript/</loc>
+    <lastmod>2018-03-28T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-find-an-item-in-an-array-with-vanilla-javascript/</loc>
+    <lastmod>2018-03-27T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/find-every-matching-item-in-an-array-with-vanilla-javascript/</loc>
+    <lastmod>2018-03-26T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/can-you-copy-an-array-using-the-javascript-spread-operator/</loc>
+    <lastmod>2018-03-23T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-copy-an-array-with-vanilla-javascript/</loc>
+    <lastmod>2018-03-22T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/converting-a-nodelist-to-an-array-with-vanilla-javascript/</loc>
+    <lastmod>2018-03-21T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-vanilla-javascript-spread-operator/</loc>
+    <lastmod>2018-03-20T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-you-shouldnt-attach-event-listeners-in-a-for-loop-with-vanilla-javascript/</loc>
+    <lastmod>2018-03-19T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/should-javascript-developers-know-css/</loc>
+    <lastmod>2018-03-16T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-access-and-use-data-attributes-in-your-css/</loc>
+    <lastmod>2018-03-15T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/preventing-cross-site-scripting-attacks-when-using-innerhtml-in-vanilla-javascript/</loc>
+    <lastmod>2018-03-14T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-test-javascript-cross-browser/</loc>
+    <lastmod>2018-03-13T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-rise-of-javascript-micro-frameworks/</loc>
+    <lastmod>2018-03-12T10:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-es6-way-to-loop-through-objects-with-vanilla-javascript/</loc>
+    <lastmod>2018-03-09T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/es6-foreach-loops-with-vanilla-javascript/</loc>
+    <lastmod>2018-03-08T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/skipping-items-and-ending-loops-with-vanilla-javascript/</loc>
+    <lastmod>2018-03-07T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-for...in-loop-with-vanilla-javascript/</loc>
+    <lastmod>2018-03-06T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/back-to-basics-the-vanilla-javascript-loop/</loc>
+    <lastmod>2018-03-05T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/layout-land/</loc>
+    <lastmod>2018-03-02T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-truncate-text-with-vanilla-javascript/</loc>
+    <lastmod>2018-03-01T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/sharing-richer-breakpoint-data-between-css-and-javascript/</loc>
+    <lastmod>2018-02-28T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-easy-way-to-manage-css-breakpoints-in-javascript/</loc>
+    <lastmod>2018-02-27T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/from-idea-to-living-thing/</loc>
+    <lastmod>2018-02-26T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-better-way-to-test-breakpoints-with-vanilla-javascript/</loc>
+    <lastmod>2018-02-23T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/breakpoint-conditional-javascript-in-vanilla-js/</loc>
+    <lastmod>2018-02-22T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-the-vanilla-js-matches-method-wont-work-with-event-listeners-and-nested-links/</loc>
+    <lastmod>2018-02-21T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/getting-all-arguments-passed-into-a-function-with-vanilla-javascript/</loc>
+    <lastmod>2018-02-20T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/default-function-arguments-with-es6-default-parameters/</loc>
+    <lastmod>2018-02-19T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/default-function-arguments-with-vanilla-javascript/</loc>
+    <lastmod>2018-02-16T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-manage-multiple-arguments-in-a-function/</loc>
+    <lastmod>2018-02-15T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-event-delegation-is-a-better-way-to-listen-for-events-in-vanilla-js/</loc>
+    <lastmod>2018-02-14T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/listening-for-click-events-with-vanilla-javascript/</loc>
+    <lastmod>2018-02-13T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/everything-easy-is-hard-again/</loc>
+    <lastmod>2018-02-12T10:30:48-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-go-from-total-beginner-to-javascript-expert-in-about-3-years/</loc>
+    <lastmod>2018-02-09T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-learn-javascript-when-youre-not-a-developer/</loc>
+    <lastmod>2018-02-08T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/checking-of-completed-items-with-vanilla-javascript/</loc>
+    <lastmod>2018-02-07T10:30:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/vanilla-javascript-boilerplates/</loc>
+    <lastmod>2018-02-06T10:30:53-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/saving-html-to-localstorage-with-vanilla-js/</loc>
+    <lastmod>2018-02-05T10:06:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/updating-your-ui-based-on-user-inputs-with-vanilla-javascript/</loc>
+    <lastmod>2018-02-02T10:30:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/migrating-from-wordpress-to-hugo/</loc>
+    <lastmod>2018-02-01T09:21:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/debugging-with-console-tables/</loc>
+    <lastmod>2018-01-31T10:37:47-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/decoding-html-entities-with-vanilla-javascript/</loc>
+    <lastmod>2018-01-30T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-vanilla-javascript-toolkit/</loc>
+    <lastmod>2018-01-29T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-schedule-posts-with-a-static-website/</loc>
+    <lastmod>2018-01-26T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/automating-the-deployment-of-your-static-site-with-hugo-and-github/</loc>
+    <lastmod>2018-01-25T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/static-websites/</loc>
+    <lastmod>2018-01-24T09:49:04-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/everything-i-know-about-javascript.../</loc>
+    <lastmod>2018-01-23T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/talks/12-developer-on-fire/</loc>
+    <lastmod>2018-01-22T20:52:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/javascript-is-ruining-the-web/</loc>
+    <lastmod>2018-01-22T10:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/talks/11-js-jabber/</loc>
+    <lastmod>2018-01-22T10:05:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/talks/10-rwd-podcast/</loc>
+    <lastmod>2018-01-22T10:05:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/another-way-to-make-links-more-accessible/</loc>
+    <lastmod>2018-01-19T10:46:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/improving-link-legibility-with-two-lines-of-css/</loc>
+    <lastmod>2018-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-open-source-pancreas/</loc>
+    <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/array-sorting-basics-with-vanilla-javascript/</loc>
+    <lastmod>2018-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/</loc>
+    <lastmod>2018-01-14T21:38:44-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/api/ctas.json</loc>
+    <lastmod>2018-01-14T21:38:44-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/feed/index.xml</loc>
+    <lastmod>2018-01-14T21:38:44-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/api/testimonials.json</loc>
+    <lastmod>2018-01-14T21:38:44-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/sorting-an-array-by-multiple-criteria-with-vanilla-javascript/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/developer-spotlight-nicole-sullivan-aka-stubbornella/</loc>
+    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/call/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/about/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/about-bailey/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/gpl/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/consulting/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/mentoring/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/career-guide/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/mit/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/404/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/open-source/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/mentoring/purchase/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/recommended/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/resources/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/resume/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/search/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/special-discounts/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/student-discount/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/training/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/newsletter-success/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/underrepresented-group-discount/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wicked-fast-websites/</loc>
+    <lastmod>2018-01-11T16:03:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/articles/</loc>
+    <lastmod>2018-01-11T09:40:48-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/automatically-expand-a-textarea-as-the-user-types-using-vanilla-javascript/</loc>
+    <lastmod>2018-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-right-way-to-customize-radio-buttons-and-checkboxes/</loc>
+    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/javascript-debugging-basics-part-2/</loc>
+    <lastmod>2018-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/javascript-debugging-basics-part-1/</loc>
+    <lastmod>2018-01-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/shining-a-light-on-other-developers/</loc>
+    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/creating-a-toggle-password-plugin-with-vanilla-javascript/</loc>
+    <lastmod>2018-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-toggle-password-visibility-with-vanilla-javascript/</loc>
+    <lastmod>2018-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/conditionally-loading-javascript-only-when-the-browser-supports-it/</loc>
+    <lastmod>2018-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/testing-for-css-pseudo-class-support-with-vanilla-javascript/</loc>
+    <lastmod>2017-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/testing-for-css-support-with-vanilla-javascript/</loc>
+    <lastmod>2017-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-lava-lamps-that-help-power-ssl-encryption/</loc>
+    <lastmod>2017-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/scroll-based-storytelling/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-developer-experience-vs-the-user-experience/</loc>
+    <lastmod>2017-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/converting-a-string-to-an-array-with-vanilla-javascript/</loc>
+    <lastmod>2017-12-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/converting-an-array-to-a-string-with-vanilla-javascript/</loc>
+    <lastmod>2017-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/keeping-your-javascript-out-of-the-global-scope-and-why-you-want-to/</loc>
+    <lastmod>2017-12-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/defining-and-updating-javascript-variables-in-different-scopes/</loc>
+    <lastmod>2017-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/scope-in-javascript/</loc>
+    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/adding-placeholder-content-to-your-javascript-web-app/</loc>
+    <lastmod>2017-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/getting-all-query-string-values-from-a-url-with-vanilla-js/</loc>
+    <lastmod>2017-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/adding-items-to-an-object-with-vanilla-javascript/</loc>
+    <lastmod>2017-12-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/adding-items-to-an-array-with-vanilla-javascript/</loc>
+    <lastmod>2017-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/storing-data-just-for-the-browsing-session-with-vanilla-javascript/</loc>
+    <lastmod>2017-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/using-localstorage-to-save-user-data-with-vanilla-javascript/</loc>
+    <lastmod>2017-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/removing-an-element-from-the-dom-the-es6-way/</loc>
+    <lastmod>2017-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/slicing-a-string-with-vanilla-javascript/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/reversing-the-order-of-an-array-with-vanilla-javascript/</loc>
+    <lastmod>2017-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/let-var-and-const/</loc>
+    <lastmod>2017-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/converting-a-string-to-title-case-with-vanilla-javascript/</loc>
+    <lastmod>2017-11-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/converting-strings-to-uppercase-and-lowercase-with-vanilla-javascript/</loc>
+    <lastmod>2017-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/black-friday-sale-make-2018-the-year-you-master-javascript/</loc>
+    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/equals-vs-strict-equals-in-javascript/</loc>
+    <lastmod>2017-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/on-being-a-self-taught-web-developer/</loc>
+    <lastmod>2017-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/two-ways-to-get-and-set-html-content-with-vanilla-javascript/</loc>
+    <lastmod>2017-11-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/setting-default-arguments-with-javascript-arrow-functions/</loc>
+    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/setting-default-values-for-a-javascript-function/</loc>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-best-way-to-write-javascript-is-to-make-sure-your-site-works-without-it/</loc>
+    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/can-i-use-arrow-functions-in-production-code/</loc>
+    <lastmod>2017-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/es6-arrow-function-rest-parameters/</loc>
+    <lastmod>2017-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/getting-an-array-of-all-arguments-passed-into-a-function-with-vanilla-javascript/</loc>
+    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/an-introduction-to-es6-arrow-functions/</loc>
+    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-lean-web/</loc>
+    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/converting-strings-to-numbers-with-vanilla-javascript/</loc>
+    <lastmod>2017-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/smarter-polyfill-loading-with-polyfill-io/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/should-you-conditionally-load-polyfills/</loc>
+    <lastmod>2017-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/function-expressions-vs-function-declarations/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/understanding-this-in-javascript/</loc>
+    <lastmod>2017-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/when-you-actually-should-use-a-javascript-framework/</loc>
+    <lastmod>2017-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/conditional-cost-of-living-discounts-with-javascript-and-some-api-magic/</loc>
+    <lastmod>2017-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/detecting-clicks-outside-of-an-element-with-vanilla-javascript/</loc>
+    <lastmod>2017-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/detecting-clicks-inside-an-element-with-vanilla-javascript/</loc>
+    <lastmod>2017-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/</loc>
+    <lastmod>2017-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/getting-all-sibling-elements-when-a-link-or-button-is-clicked-with-vanilla-js/</loc>
+    <lastmod>2017-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/removing-an-event-listener-with-vanilla-javascript/</loc>
+    <lastmod>2017-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-vanilla-javascript-equivalent-of-jquerys-on-method/</loc>
+    <lastmod>2017-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/check-if-two-arrays-or-objects-are-equal-with-javascript/</loc>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/checking-if-two-arrays-are-equal/</loc>
+    <lastmod>2017-10-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/detecting-when-a-file-is-available-when-you-cant-use-an-onload-event/</loc>
+    <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-quickest-way-to-detect-when-the-dom-is-ready/</loc>
+    <lastmod>2017-10-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/debouncing-events-with-requestanimationframe-for-better-performance/</loc>
+    <lastmod>2017-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-autoplay-videos-after-a-modal-opens/</loc>
+    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/creating-a-chainable-micro-library-with-vanilla-javascript/</loc>
+    <lastmod>2017-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/learning-javascript/</loc>
+    <lastmod>2017-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-easy-way-to-support-almost-every-browser-with-vanilla-javascript/</loc>
+    <lastmod>2017-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/adding-an-element-to-the-end-of-a-set-of-elements-with-vanilla-javascript/</loc>
+    <lastmod>2017-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/adding-an-element-to-the-beginning-of-a-set-of-elements-with-vanilla-javascript/</loc>
+    <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/sublime-text-for-front-end-developers/</loc>
+    <lastmod>2017-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/creating-web-app-components-with-vanilla-javascript/</loc>
+    <lastmod>2017-09-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/automatically-re-rendering-an-element-when-its-state-changes-with-vanilla-javascript/</loc>
+    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/components-state-and-vanilla-javascript/</loc>
+    <lastmod>2017-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-update-a-url-without-reloading-the-page-using-vanilla-javascript/</loc>
+    <lastmod>2017-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/just-is-a-dirty-word/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/maybe-just-use-vanilla-javascript/</loc>
+    <lastmod>2017-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-insert-an-element-after-another-one-in-the-dom-with-vanilla-javascript/</loc>
+    <lastmod>2017-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-insert-an-element-before-another-one-in-the-dom-with-vanilla-javascript/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/creating-elements-with-vanilla-javascript/</loc>
+    <lastmod>2017-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-i-improved-the-speed-of-my-wordpress-site-by-500/</loc>
+    <lastmod>2017-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/css-vs-javascript/</loc>
+    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-vanilla-javascript-clock/</loc>
+    <lastmod>2017-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/manipulating-elements-after-theyre-rendered-into-the-dom/</loc>
+    <lastmod>2017-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/rendering-dynamic-and-conditional-templates-with-vanilla-javascript/</loc>
+    <lastmod>2017-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/rendering-content-with-vanilla-javascript/</loc>
+    <lastmod>2017-09-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/sip-color-picker/</loc>
+    <lastmod>2017-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/your-browser-automatically-creates-javascript-variables-for-elements-with-an-id/</loc>
+    <lastmod>2017-09-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/adding-event-details-to-custom-events-with-vanilla-javascript/</loc>
+    <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/custom-events-with-vanilla-javascript/</loc>
+    <lastmod>2017-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/knowing-what-to-focus-on/</loc>
+    <lastmod>2017-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/vanilla-js-media-player/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-get-all-sibling-elements-until-a-match-is-found-with-vanilla-javascript/</loc>
+    <lastmod>2017-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/automatically-detecting-when-transitions-end-with-vanilla-javascript/</loc>
+    <lastmod>2017-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/controlling-the-transition-timing-of-show-and-hide-methods-with-vanilla-javascript/</loc>
+    <lastmod>2017-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-a-fade-in-to-vanilla-javascript-show-and-hide-methods/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-add-transition-animations-to-vanilla-javascript-show-and-hide-methods/</loc>
+    <lastmod>2017-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-show-and-hide-elements-with-vanilla-javascript/</loc>
+    <lastmod>2017-08-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/two-ways-to-set-an-elements-css-with-vanilla-javascript/</loc>
+    <lastmod>2017-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/getting-an-elements-css-attributes-with-vanilla-javascript/</loc>
+    <lastmod>2017-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/when-to-use-return-with-javascript/</loc>
+    <lastmod>2017-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/screen-capture-gifs/</loc>
+    <lastmod>2017-08-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/yes-you-can-ditch-jquery-and-still-support-ieedge/</loc>
+    <lastmod>2017-08-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-get-an-elements-distance-from-the-top-of-the-page-with-vanilla-javascript/</loc>
+    <lastmod>2017-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/merging-objects-with-vanilla-javascript/</loc>
+    <lastmod>2017-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/visual-studio-code-for-front-end-developers/</loc>
+    <lastmod>2017-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/debugging-tips-and-tricks/</loc>
+    <lastmod>2017-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-test-if-an-element-is-in-the-viewport-with-vanilla-javascript/</loc>
+    <lastmod>2017-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ternary-operators/</loc>
+    <lastmod>2017-08-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/targeting-focusable-links-with-vanilla-javascript/</loc>
+    <lastmod>2017-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/making-it-easier-to-select-elements-with-vanilla-javascript/</loc>
+    <lastmod>2017-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/named-vs-anonymous-event-listener-functions/</loc>
+    <lastmod>2017-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/setting-the-variables-in-es6-foreach-functions/</loc>
+    <lastmod>2017-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/chatting-vanilla-js-with-chris-coyier-and-dave-rupert/</loc>
+    <lastmod>2017-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/nodelists-vs-arrays/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/looping-through-objects-with-es6/</loc>
+    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/looping-through-nodelists-with-es6/</loc>
+    <lastmod>2017-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/looping-through-arrays-the-es6-way/</loc>
+    <lastmod>2017-07-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/my-hip-hop-top-5/</loc>
+    <lastmod>2017-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-web-development-goat/</loc>
+    <lastmod>2017-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-better-text-editor/</loc>
+    <lastmod>2017-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/feather-icon-set/</loc>
+    <lastmod>2017-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/reduced-motion-media-query/</loc>
+    <lastmod>2017-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/adding-a-download-all-link-to-easy-digital-downloads-receipts/</loc>
+    <lastmod>2017-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/umbrella-js/</loc>
+    <lastmod>2017-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-get-the-first-and-last-focusable-elements-in-the-dom/</loc>
+    <lastmod>2017-07-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/getting-direct-descendants-by-selector-with-vanilla-javascript/</loc>
+    <lastmod>2017-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-better-way-to-learn-vanilla-javascript/</loc>
+    <lastmod>2017-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/automatic-polyfilling/</loc>
+    <lastmod>2017-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/where-can-you-find-javascript-polyfills/</loc>
+    <lastmod>2017-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-i-love-polyfills/</loc>
+    <lastmod>2017-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/what-do-you-want-to-learn-next/</loc>
+    <lastmod>2017-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-native-vanilla-javascript-way-to-get-the-closest-matching-parent-element/</loc>
+    <lastmod>2017-07-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/climbing-down-the-dom-with-vanilla-javascript/</loc>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/digital-to-physical/</loc>
+    <lastmod>2017-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/validating-the-mailchimp-subscribe-form-with-vanilla-javascript/</loc>
+    <lastmod>2017-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/writing-a-validity-state-polyfill/</loc>
+    <lastmod>2017-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/vanilla-javascript-form-validation-and-the-constraint-validation-api/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/vanilla-javascript-form-validation/</loc>
+    <lastmod>2017-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/announcing-vanilla-javascript-for-beginners/</loc>
+    <lastmod>2017-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/adding-a-night-mode-to-your-site-with-vanilla-javascript/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-get-an-elements-siblings-with-vanilla-javascript/</loc>
+    <lastmod>2017-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/climbing-up-the-dom-until-you-hit-a-match-with-vanilla-javascript/</loc>
+    <lastmod>2017-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-get-all-parent-elements-with-vanilla-javascript/</loc>
+    <lastmod>2017-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-vanilla-javascript-repository/</loc>
+    <lastmod>2017-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-get-the-closest-parent-element-with-a-matching-selector-using-vanilla-javascript/</loc>
+    <lastmod>2017-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/two-way-data-binding-with-vanilla-javascript/</loc>
+    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-vanilla-javascript-plugin-boilerplate/</loc>
+    <lastmod>2017-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-i-structure-my-vanilla-javascript-plugins-video/</loc>
+    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/javascript-form-validation/</loc>
+    <lastmod>2017-06-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/accessibility-and-aria/</loc>
+    <lastmod>2017-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/accessibility-according-to-people-with-actual-disabilities/</loc>
+    <lastmod>2017-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/javascript-and-dates-revisited/</loc>
+    <lastmod>2017-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/javascript-coaching/</loc>
+    <lastmod>2017-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-check-if-a-date-is-valid-with-vanilla-javascript/</loc>
+    <lastmod>2017-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/learning-vanilla-js-deeply/</loc>
+    <lastmod>2017-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-really-learn-javascript/</loc>
+    <lastmod>2017-05-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/email-validation-in-javascript/</loc>
+    <lastmod>2017-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/when-to-use-use-capture-in-your-event-listeners/</loc>
+    <lastmod>2017-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/highlighting-effect-with-css/</loc>
+    <lastmod>2017-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/stupid-web-security-shit/</loc>
+    <lastmod>2017-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/who-should-drive-a-vanilla-js-web-app/</loc>
+    <lastmod>2017-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/social-sharing-buttons-are-pointless-except-when-theyre-not/</loc>
+    <lastmod>2017-05-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/lessons-from-south-africa/</loc>
+    <lastmod>2017-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/conditional-javascript-loading-in-wordpress/</loc>
+    <lastmod>2017-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-simulate-a-click-event-with-javascript/</loc>
+    <lastmod>2017-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-only-load-your-javascript-file-if-the-browser-supports-your-code/</loc>
+    <lastmod>2017-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/javascript-feature-detection/</loc>
+    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-find-bottlenecks-in-your-javascript/</loc>
+    <lastmod>2017-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/vanilla-javascript-and-performance/</loc>
+    <lastmod>2017-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-prevent-fullscreen-web-apps-from-opening-links-in-a-new-tab-on-ios/</loc>
+    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/prefixing-javascript-selectors-to-avoid-conflicts/</loc>
+    <lastmod>2017-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wtf-is-use-capture-in-vanilla-js-event-listeners/</loc>
+    <lastmod>2017-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-66ms-when-using-settimeout/</loc>
+    <lastmod>2017-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/event-listener-performance-with-vanilla-js/</loc>
+    <lastmod>2017-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/listening-to-multiple-events-in-vanilla-js/</loc>
+    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/you-dont-need-to-learn-es6/</loc>
+    <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/what-makes-vanilla-js-vanilla/</loc>
+    <lastmod>2017-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/when-does-using-libraries-stop-being-vanilla-js/</loc>
+    <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/detecting-svg-support-with-javascript/</loc>
+    <lastmod>2017-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-vanilla-javascript-select-and-input-plugin/</loc>
+    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/isaac-asimov-was-a-good-dude/</loc>
+    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/shuffling-javascript-array-values/</loc>
+    <lastmod>2017-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/default-values-for-javascript-variables/</loc>
+    <lastmod>2017-04-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/you-dont-need-to-cache-array-length-except-when-you-do/</loc>
+    <lastmod>2017-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/detecting-clicks-outside-of-an-element-with-vanilla-js/</loc>
+    <lastmod>2017-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/document-vs-window-in-javascript/</loc>
+    <lastmod>2017-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/</loc>
+    <lastmod>2017-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/types-of-errors-that-strict-mode-catches-that-would-otherwise-be-ignored/</loc>
+    <lastmod>2017-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/where-to-activate-strict-mode-in-your-scripts/</loc>
+    <lastmod>2017-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/javascript-strict-mode-and-why-you-should-always-use-it/</loc>
+    <lastmod>2017-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/working-with-cookies-in-vanilla-js/</loc>
+    <lastmod>2017-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-better-way-to-load-scripts-with-javascript-or-why-document-write-sucks/</loc>
+    <lastmod>2017-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/removing-an-element-from-the-dom-with-vanilla-js/</loc>
+    <lastmod>2017-04-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/adding-a-new-element-to-the-dom-with-vanilla-js/</loc>
+    <lastmod>2017-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/adding-markup-to-an-element-with-vanilla-js/</loc>
+    <lastmod>2017-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/javascript-selector-performance/</loc>
+    <lastmod>2017-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/password-rules-are-bullshit/</loc>
+    <lastmod>2017-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/better-free-products-through-easy-digital-downloads/</loc>
+    <lastmod>2017-03-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/automating-slack-and-wordpress/</loc>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-collection-of-vanilla-javascript-helper-functions/</loc>
+    <lastmod>2017-03-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/detecting-when-a-visitor-has-stopped-scrolling-with-vanilla-javascript/</loc>
+    <lastmod>2017-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/allowing-iframes-in-sanitized-wordpress-content/</loc>
+    <lastmod>2017-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/planning-out-your-scripts/</loc>
+    <lastmod>2017-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ditching-jquery-at-wordpress-ri-meetup/</loc>
+    <lastmod>2017-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/css-breakpoints-in-javascript/</loc>
+    <lastmod>2017-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-add-custom-fields-to-posts-and-pages-in-wordpress/</loc>
+    <lastmod>2017-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/all-that-we-share/</loc>
+    <lastmod>2017-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/dolphins-are-really-really-smart/</loc>
+    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/land-of-the-free/</loc>
+    <lastmod>2017-01-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/obamas-mailroom/</loc>
+    <lastmod>2017-01-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-some-uber-drivers-are-sleeping-in-their-cars/</loc>
+    <lastmod>2017-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/steal-like-a-panda/</loc>
+    <lastmod>2017-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/fix-for-ssh-passphrases-on-macos-sierra/</loc>
+    <lastmod>2017-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-history-of-skis/</loc>
+    <lastmod>2017-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/handling-chinese-and-cyrillic-character-hash-and-href-values-in-javascript/</loc>
+    <lastmod>2016-12-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/html-ajax-iframes-and-performance-hacks/</loc>
+    <lastmod>2016-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/google-money-and-moonshots/</loc>
+    <lastmod>2016-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/font-style-matcher/</loc>
+    <lastmod>2016-12-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/all-maps-are-inaccurate/</loc>
+    <lastmod>2016-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/808-the-official-trailer/</loc>
+    <lastmod>2016-12-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-vanilla-js-equivalent-to-jquerys-is-api/</loc>
+    <lastmod>2016-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a11y-and-text-just-for-screen-readers/</loc>
+    <lastmod>2016-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/learn-how-to-ditch-jquery-and-write-vanilla-javascript/</loc>
+    <lastmod>2016-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/shia-lebeouf-can-spit/</loc>
+    <lastmod>2016-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/52-things-learned-in-2016/</loc>
+    <lastmod>2016-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/tutorial-a-simple-show-and-hide-script-with-vanilla-js/</loc>
+    <lastmod>2016-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/jetpack-personal/</loc>
+    <lastmod>2016-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/checkout-cart-optimizations-for-easy-digital-downloads-2-new-plugins/</loc>
+    <lastmod>2016-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-kindness-initiative/</loc>
+    <lastmod>2016-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wicked-fast-websites-and-the-web-developer-career-guide-are-now-50-off/</loc>
+    <lastmod>2016-11-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/innovation-and-technology-in-nonprofit/</loc>
+    <lastmod>2016-11-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/westworld-influences/</loc>
+    <lastmod>2016-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-mirrors-transformed-the-world/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-are-cats-so-weird/</loc>
+    <lastmod>2016-11-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/donations-with-stripe-and-paypal-express-checkout-on-wordpress/</loc>
+    <lastmod>2016-11-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/progressive-enhancement-and-the-next-billion-web-users/</loc>
+    <lastmod>2016-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-global-mountain-range/</loc>
+    <lastmod>2016-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-conditionally-load-stylesheets-and-javascript-in-wordpress-only-if-a-shortcode-is-used/</loc>
+    <lastmod>2016-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-importance-of-saying-no-to-ideas/</loc>
+    <lastmod>2016-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/paternoster-lifts/</loc>
+    <lastmod>2016-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-best-of-youtube/</loc>
+    <lastmod>2016-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/finance-and-healthcare-websites-have-the-worst-web-security/</loc>
+    <lastmod>2016-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ditching-cable/</loc>
+    <lastmod>2016-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wicked-fast-websites-at-wordcamp-ri-2016/</loc>
+    <lastmod>2016-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/selling-things-with-easy-digital-downloads/</loc>
+    <lastmod>2016-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/getting-a-job-in-management/</loc>
+    <lastmod>2016-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/open-source-etiquette/</loc>
+    <lastmod>2016-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/reducing-harvard-business-schools-page-load-time-by-27-percent/</loc>
+    <lastmod>2016-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/stop-using-algorithms-to-force-relationships-on-people/</loc>
+    <lastmod>2016-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-disable-wordpress-core-updates/</loc>
+    <lastmod>2016-09-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/accessible-toggle-tabs-and-accordions/</loc>
+    <lastmod>2016-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/more-accessible-modals/</loc>
+    <lastmod>2016-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/mailchimp-and-wordpress/</loc>
+    <lastmod>2016-08-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/my-three-principles-for-web-design-and-development/</loc>
+    <lastmod>2016-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/updates-to-kraken-and-keel/</loc>
+    <lastmod>2016-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-go-from-idea-to-published-book-in-a-week/</loc>
+    <lastmod>2016-08-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/fixing-fonts/</loc>
+    <lastmod>2016-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/looking-for-web-developer-jobs-when-you-dont-have-much-experience/</loc>
+    <lastmod>2016-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/resume-tldr/</loc>
+    <lastmod>2016-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/keyboard-accessibility-improvements-with-javascript/</loc>
+    <lastmod>2016-08-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/should-you-add-books-and-conferences-to-your-resume/</loc>
+    <lastmod>2016-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-fun-workplaces-are-actually-bullshit-and-other-career-advice/</loc>
+    <lastmod>2016-07-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/forbes-ad-blockers-and-bullshit/</loc>
+    <lastmod>2016-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/coca-cola-freestyle-and-web-accessibility/</loc>
+    <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/hidden-content-for-better-a11y/</loc>
+    <lastmod>2016-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/relative-sizing-ftw/</loc>
+    <lastmod>2016-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/i-love-digitalocean/</loc>
+    <lastmod>2016-03-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-move-away-from-broadband-or-why-web-performance-still-matters/</loc>
+    <lastmod>2016-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/free-web-talk-measuring-web-performance/</loc>
+    <lastmod>2016-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/in-defense-of-wordpress/</loc>
+    <lastmod>2016-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/plugins-are-not-bad-for-wordpress-performance/</loc>
+    <lastmod>2016-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-terrible-design-of-everyday-things/</loc>
+    <lastmod>2016-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/harbor-gets-events/</loc>
+    <lastmod>2016-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/reintroducing-keel-a-lightweight-boilerplate-for-wordpress-theme-developers/</loc>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/updates-to-smooth-scroll/</loc>
+    <lastmod>2016-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/inaccessible-websites-are-a-legal-liability/</loc>
+    <lastmod>2016-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-better-drop-down-menu/</loc>
+    <lastmod>2016-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/its-about-more-than-mobile/</loc>
+    <lastmod>2016-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-make-sure-your-website-works-on-thousands-of-devices-without-losing-your-mind/</loc>
+    <lastmod>2015-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-mobile-context-myth/</loc>
+    <lastmod>2015-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/your-data-is-lying-to-you/</loc>
+    <lastmod>2015-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/design-for-color-blindness/</loc>
+    <lastmod>2015-11-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/boost-your-donation-revenue-with-recurring-donations/</loc>
+    <lastmod>2015-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-much-revenue-is-your-slow-website-costing-you/</loc>
+    <lastmod>2015-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/on-privacy-and-social-welfare/</loc>
+    <lastmod>2015-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/release-the-kraken-version-7/</loc>
+    <lastmod>2015-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-web-performance-case-study-save-one-soul-animal-rescue-league/</loc>
+    <lastmod>2015-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/adblocking-software-reduced-a-canadian-universitys-bandwidth-usage-by-up-to-40/</loc>
+    <lastmod>2015-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-text-is-often-better-than-icons-in-your-user-interface/</loc>
+    <lastmod>2015-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/making-ajax-requests-with-native-javascript/</loc>
+    <lastmod>2015-07-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-native-javascript-equivalent-of-jquerys-ready-method/</loc>
+    <lastmod>2015-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-danger-of-relying-on-your-google-pagespeed-insights-score-to-measure-web-performance/</loc>
+    <lastmod>2015-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/separation-of-concerns-in-wordpress/</loc>
+    <lastmod>2015-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-anatomy-of-a-vanilla-javascript-plugin/</loc>
+    <lastmod>2015-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/preventing-email-spam-without-using-a-lame-contact-form/</loc>
+    <lastmod>2015-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/you-dont-need-to-learn-command-line/</loc>
+    <lastmod>2015-06-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/belongings-how-the-homeless-live/</loc>
+    <lastmod>2015-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/buoy-a-tiny-collection-of-helper-methods-for-getting-things-done-in-native-javascript/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/progressive-enhancement-and-no-js/</loc>
+    <lastmod>2015-05-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/announcing-the-spare-parts-newsletter/</loc>
+    <lastmod>2015-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/http2-explained-in-5-minutes/</loc>
+    <lastmod>2015-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/website-or-app/</loc>
+    <lastmod>2015-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/lightning-fast-tapping/</loc>
+    <lastmod>2015-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/better-responsive-images/</loc>
+    <lastmod>2015-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/common-responsive-ui-challenges/</loc>
+    <lastmod>2015-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/measuring-performance/</loc>
+    <lastmod>2015-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/responsive-navigation/</loc>
+    <lastmod>2015-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/updates-to-wicked-fast-websites/</loc>
+    <lastmod>2015-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-support-thousands-of-devices-without-losing-your-mind/</loc>
+    <lastmod>2015-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-web-performance-and-responsive-web-design-matter/</loc>
+    <lastmod>2015-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-go-from-idea-to-published-ebook-in-5-days/</loc>
+    <lastmod>2015-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/free-download-a-beginners-guide-to-high-performance-responsive-web-design/</loc>
+    <lastmod>2015-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/building-websites-that-work-on-an-e-ink-kindle-revisited/</loc>
+    <lastmod>2015-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/climbing-the-dom-until-you-get-a-match-using-native-javascript/</loc>
+    <lastmod>2015-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-connect-a-roku-to-hotel-wifi/</loc>
+    <lastmod>2015-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/just-because-someone-doesnt-have-javascript-turned-off-doesnt-mean-they-have-a-js-enhanced-experience/</loc>
+    <lastmod>2015-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/let-buttons-be-buttons/</loc>
+    <lastmod>2015-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/when-bad-content-ruins-good-content/</loc>
+    <lastmod>2015-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-using-current-user-data-to-justify-not-optimizing-for-mobile-is-bllshit/</loc>
+    <lastmod>2015-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/automating-css-and-js-cache-busting-with-gulp-and-wordpress/</loc>
+    <lastmod>2015-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/building-websites-that-work-on-an-e-ink-kindle/</loc>
+    <lastmod>2015-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/inlining-critical-css-for-better-web-performance/</loc>
+    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/what-does-my-site-cost/</loc>
+    <lastmod>2015-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/using-svgs/</loc>
+    <lastmod>2015-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/paws-new-england-is-looking-for-a-front-end-developer/</loc>
+    <lastmod>2015-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/jake-the-bichon/</loc>
+    <lastmod>2015-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-get-the-value-of-a-querystring-with-native-javascript/</loc>
+    <lastmod>2015-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-first-option-isnt-always-the-best-option/</loc>
+    <lastmod>2015-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/on-the-web-but-not-of-the-web/</loc>
+    <lastmod>2015-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/when-what-the-client-wants-isnt-what-they-need/</loc>
+    <lastmod>2015-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/remove-empty-paragraphs-added-by-wordpress/</loc>
+    <lastmod>2015-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-bright-start-to-2015/</loc>
+    <lastmod>2015-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/getting-html-asynchronously-from-another-page/</loc>
+    <lastmod>2014-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/working-with-jsonp/</loc>
+    <lastmod>2014-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/petfinderapi4everybody-js/</loc>
+    <lastmod>2014-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-rise-of-positive-hip-hop/</loc>
+    <lastmod>2014-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/get-distances-to-the-top-of-the-document-with-native-javascript/</loc>
+    <lastmod>2014-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/gumshoe-a-framework-free-scrollspy-script/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/45-random-acts-of-kindness/</loc>
+    <lastmod>2014-11-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/web-apps-vs-native-apps/</loc>
+    <lastmod>2014-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/90-year-old-man-arrested-for-feeding-the-homeless/</loc>
+    <lastmod>2014-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-progressive-enhancement-still-matters/</loc>
+    <lastmod>2014-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/vertical-centering-with-css/</loc>
+    <lastmod>2014-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/google-open-sources-750-icons/</loc>
+    <lastmod>2014-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/keel-wordpress-theme-boilerplate-enhancements/</loc>
+    <lastmod>2014-11-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/kraken-gets-livereload/</loc>
+    <lastmod>2014-10-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-web-of-the-future-in-slides/</loc>
+    <lastmod>2014-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-ux-of-animation/</loc>
+    <lastmod>2014-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/kraken-4/</loc>
+    <lastmod>2014-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-web-of-the-future/</loc>
+    <lastmod>2014-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/tarpit-say-goodbye-to-wordpress-comment-spam/</loc>
+    <lastmod>2014-09-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-invisible-people/</loc>
+    <lastmod>2014-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/cutting-the-cord-how-to-ditch-cable/</loc>
+    <lastmod>2014-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/joining-mashery/</loc>
+    <lastmod>2014-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/climbing-up-and-down-the-dom-tree-with-vanilla-javascript/</loc>
+    <lastmod>2014-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ditching-jquery/</loc>
+    <lastmod>2014-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/farewell-constant-contact/</loc>
+    <lastmod>2014-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/humans-need-not-apply/</loc>
+    <lastmod>2014-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/responsive-sticky-footers/</loc>
+    <lastmod>2014-08-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/function-prototype-bind-and-opera-mini/</loc>
+    <lastmod>2014-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/da-art-of-storytelling/</loc>
+    <lastmod>2014-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/more-on-how-to-build-wicked-fast-rwd-sites/</loc>
+    <lastmod>2014-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-build-wicked-fast-rwd-sites/</loc>
+    <lastmod>2014-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-decent-web/</loc>
+    <lastmod>2014-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/rebeccapurple/</loc>
+    <lastmod>2014-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/github-travis-ci-and-continuous-integration/</loc>
+    <lastmod>2014-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-fermi-paradox/</loc>
+    <lastmod>2014-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/revisiting-the-data-options-data-attribute/</loc>
+    <lastmod>2014-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/setting-multiple-javascript-plugin-options-with-a-single-data-attribute/</loc>
+    <lastmod>2014-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/vanilla-javascript-version-of-jquery-extend/</loc>
+    <lastmod>2014-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/disabling-comments/</loc>
+    <lastmod>2014-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/getting-started-with-gulp-js/</loc>
+    <lastmod>2014-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/javascript-anywhere/</loc>
+    <lastmod>2014-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-web-vs-apps/</loc>
+    <lastmod>2014-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-z-of-dance/</loc>
+    <lastmod>2014-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/better-markdown-for-wordpress/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/joining-constant-contact/</loc>
+    <lastmod>2014-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-mobile-first-and-progressive-enhancement-are-the-right-way-forward/</loc>
+    <lastmod>2014-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/jellyfish-gets-iframe-support/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/diversity-not-fragmentation/</loc>
+    <lastmod>2014-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/jam-of-the-week-turn-down-for-what/</loc>
+    <lastmod>2014-03-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/kraken-gets-icon-font-tools/</loc>
+    <lastmod>2014-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/building-web-native/</loc>
+    <lastmod>2014-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/houdini-gets-accordion-support/</loc>
+    <lastmod>2014-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/rewriting-scripts-for-better-developer-flexibility/</loc>
+    <lastmod>2014-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/stopping-youtube-vimeo-and-html5-videos-with-javascript/</loc>
+    <lastmod>2014-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/jellyfish-a-better-image-lazy-loader/</loc>
+    <lastmod>2014-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/introducing-right-height/</loc>
+    <lastmod>2014-02-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-new-hotness/</loc>
+    <lastmod>2014-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/checking-for-pagination-and-the-last-post-in-wordpress/</loc>
+    <lastmod>2014-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/kraken-gets-universal-box-sizing-and-smarter-grids/</loc>
+    <lastmod>2014-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/2g-data-networks-in-2014/</loc>
+    <lastmod>2014-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/password-usability/</loc>
+    <lastmod>2014-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/shopping-cart-ux/</loc>
+    <lastmod>2014-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/fouc-vs-progressive-enhancement/</loc>
+    <lastmod>2014-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-build-a-knock-off/</loc>
+    <lastmod>2014-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-web-based-image-optimizer/</loc>
+    <lastmod>2014-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/release-the-kraken-again/</loc>
+    <lastmod>2013-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/smooth-scroll-with-easing/</loc>
+    <lastmod>2013-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/empowerment-x-scale/</loc>
+    <lastmod>2013-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/form-saver-save-reuse-form-data/</loc>
+    <lastmod>2013-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/conference-after-parties/</loc>
+    <lastmod>2013-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/kraken-sass-and-open-source/</loc>
+    <lastmod>2013-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/take-a-breath/</loc>
+    <lastmod>2013-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/comets/</loc>
+    <lastmod>2013-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/my-favorite-wordpress-plugins/</loc>
+    <lastmod>2013-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wordpress-for-web-apps-delete-account/</loc>
+    <lastmod>2013-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/notes-from-artifact-providence-2013/</loc>
+    <lastmod>2013-11-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/high-performance-wordpress/</loc>
+    <lastmod>2013-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-build-a-high-performance-website/</loc>
+    <lastmod>2013-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-does-website-speed-matter/</loc>
+    <lastmod>2013-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-map-and-the-territory/</loc>
+    <lastmod>2013-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wicked-fast-websites-wordcamp-boston/</loc>
+    <lastmod>2013-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/progressive-jpgs-for-wordpress/</loc>
+    <lastmod>2013-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/kraken-for-wordpress-and-more/</loc>
+    <lastmod>2013-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/mike-monteiro-wants-us-to-do-better/</loc>
+    <lastmod>2013-10-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/3-new-kraken-add-ons/</loc>
+    <lastmod>2013-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/dogs-are-people-too/</loc>
+    <lastmod>2013-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/extra-history/</loc>
+    <lastmod>2013-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/speaking-at-wordcamp-boston-in-a-few-weeks/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-wordpress-for-web-apps-plugin/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wordpress-plugins-vs-functions/</loc>
+    <lastmod>2013-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/technical-interviews-suck/</loc>
+    <lastmod>2013-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/now-i-know/</loc>
+    <lastmod>2013-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-challenges-of-data-driven-design/</loc>
+    <lastmod>2013-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/you-cant-infer-intent-from-screen-size/</loc>
+    <lastmod>2013-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/adopting-a-dog-from-your-phone/</loc>
+    <lastmod>2013-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wordpress-theme-options/</loc>
+    <lastmod>2013-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/petfinder-for-wordpress-version-4/</loc>
+    <lastmod>2013-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/markdown-for-wordpress/</loc>
+    <lastmod>2013-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/using-the-prism-js-syntax-highlighter/</loc>
+    <lastmod>2013-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wordpress-like-a-vip/</loc>
+    <lastmod>2013-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/writing-your-own-simple-feature-tests/</loc>
+    <lastmod>2013-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/building-your-own-vanilla-js-framework/</loc>
+    <lastmod>2013-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/jumpy-the-dog/</loc>
+    <lastmod>2013-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/revisiting-icon-fonts/</loc>
+    <lastmod>2013-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/kraken-goes-vanilla-js/</loc>
+    <lastmod>2013-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-problem-with-responsive-frameworks/</loc>
+    <lastmod>2013-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ditching-jquery-for-vanilla-js/</loc>
+    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/building-the-new-tonyluong-com/</loc>
+    <lastmod>2013-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-wicked-fast-wordpress-workshop/</loc>
+    <lastmod>2013-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/talks/09-hanselminutes/</loc>
+    <lastmod>2013-08-03T10:05:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/talks/08-developer-tea/</loc>
+    <lastmod>2013-08-02T10:05:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/talks/07-shop-talk-show/</loc>
+    <lastmod>2013-08-01T10:05:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/petfinder-for-wordpress-3/</loc>
+    <lastmod>2013-07-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/talks/06-js-for-wordpress-show/</loc>
+    <lastmod>2013-07-28T10:05:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/talks/05-wpri-meetup-2017/</loc>
+    <lastmod>2013-07-27T10:05:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/talks/04-website-creation-workshop/</loc>
+    <lastmod>2013-07-26T10:05:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/talks/03-wordcamp-ri-2016/</loc>
+    <lastmod>2013-07-25T10:05:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/talks/02-wordcamp-boston-2013/</loc>
+    <lastmod>2013-07-24T10:05:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wicked-fast-wordpress/</loc>
+    <lastmod>2013-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/talks/01-wpri-meetup/</loc>
+    <lastmod>2013-07-23T10:05:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/my-last-days-meet-zach-sobiech/</loc>
+    <lastmod>2013-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/web-foundations/</loc>
+    <lastmod>2013-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/high-performance-wordpress-talk-on-july-23/</loc>
+    <lastmod>2013-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/houdini-updates/</loc>
+    <lastmod>2013-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wordpress-next-page-id/</loc>
+    <lastmod>2013-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/petfinder-api-for-wordpress-2/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wordpress-shopping-cart/</loc>
+    <lastmod>2013-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/kraken-for-sass/</loc>
+    <lastmod>2013-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/where-ill-be-this-week-an-event-apart-boston/</loc>
+    <lastmod>2013-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-web-community/</loc>
+    <lastmod>2013-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-open-source-has-helped-me-write-better-code/</loc>
+    <lastmod>2013-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/less-is-more-more-is-more/</loc>
+    <lastmod>2013-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/javascript-resize-performance/</loc>
+    <lastmod>2013-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wordpress-for-web-apps-version-2/</loc>
+    <lastmod>2013-05-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/kraken-gets-callouts-alerts-and-more/</loc>
+    <lastmod>2013-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/you-must-be-this-tall/</loc>
+    <lastmod>2013-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-web-we-lost-and-other-losses/</loc>
+    <lastmod>2013-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/making-intersections-safer-by-removing-stoplights/</loc>
+    <lastmod>2013-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-diversity-or-not-of-social-media/</loc>
+    <lastmod>2013-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/your-lifestyle-has-already-been-designed/</loc>
+    <lastmod>2013-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/same-love/</loc>
+    <lastmod>2013-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/best-i-could/</loc>
+    <lastmod>2013-04-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/recovering-from-a-wordpress-hack/</loc>
+    <lastmod>2013-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/usability-testing-demo/</loc>
+    <lastmod>2013-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-shoemaker/</loc>
+    <lastmod>2013-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-real-newspaper/</loc>
+    <lastmod>2013-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/content-parity-on-the-web/</loc>
+    <lastmod>2013-04-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/technology-and-etiquette/</loc>
+    <lastmod>2013-04-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-point-of-responsive-web-design/</loc>
+    <lastmod>2013-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/mobile-first-and-internet-explorer/</loc>
+    <lastmod>2013-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/40-years-this-russian-family-was-cut-off-from-all-human-contact-unaware-of-wwii/</loc>
+    <lastmod>2013-03-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/removing-wordpress-funk/</loc>
+    <lastmod>2013-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/working-with-relative-sizing/</loc>
+    <lastmod>2013-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/must-watch-youtube-the-pbs-idea-channel/</loc>
+    <lastmod>2013-03-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/kraken-updates/</loc>
+    <lastmod>2013-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/code-is-craft/</loc>
+    <lastmod>2013-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/using-fluidvids-js/</loc>
+    <lastmod>2013-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/learn-css-layout/</loc>
+    <lastmod>2013-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/mobile-then-now/</loc>
+    <lastmod>2013-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/do-i-need-an-infographic/</loc>
+    <lastmod>2013-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/working-with-the-petfinder-api/</loc>
+    <lastmod>2013-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/riding-css3-spinners/</loc>
+    <lastmod>2013-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/paperman/</loc>
+    <lastmod>2013-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/hero-pit-bull/</loc>
+    <lastmod>2013-03-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-chemistry-of-snowflakes/</loc>
+    <lastmod>2013-03-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/jony-ive-on-naming-things/</loc>
+    <lastmod>2013-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/high-performance-websites/</loc>
+    <lastmod>2013-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-lion/</loc>
+    <lastmod>2013-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-serif-readability-myth/</loc>
+    <lastmod>2013-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-writing-with-our-hands-is-still-important/</loc>
+    <lastmod>2013-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/im-not-going-to-download-your-app-part-2/</loc>
+    <lastmod>2013-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/accessibility-is-hard/</loc>
+    <lastmod>2013-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-cycle-of-love/</loc>
+    <lastmod>2013-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/life-factory-water-bottles/</loc>
+    <lastmod>2013-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/paws-by-the-numbers-february-2013/</loc>
+    <lastmod>2013-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/conversations-not-comps/</loc>
+    <lastmod>2013-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/frameworks-boilerplates-and-kraken/</loc>
+    <lastmod>2013-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/chicken-or-the-egg/</loc>
+    <lastmod>2013-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/good-design-is-visibile/</loc>
+    <lastmod>2013-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/its-time-2/</loc>
+    <lastmod>2013-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/im-not-going-to-download-your-app/</loc>
+    <lastmod>2013-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/release-the-kraken/</loc>
+    <lastmod>2013-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/getting-started-with-responsive-web-design/</loc>
+    <lastmod>2013-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wiz-khalifataylor-swift-mashup/</loc>
+    <lastmod>2013-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/cat-friend-dog-friend/</loc>
+    <lastmod>2013-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-highlight-the-current-page-in-your-navigation-on-wordpress/</loc>
+    <lastmod>2013-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/two-amazing-brothers/</loc>
+    <lastmod>2013-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-wisdom-of-the-crowds/</loc>
+    <lastmod>2013-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/jquery-wordpress/</loc>
+    <lastmod>2013-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/going-for-pretty-first-is-wrong/</loc>
+    <lastmod>2013-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-much-does-a-hurricane-weigh/</loc>
+    <lastmod>2013-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/better-link-accessibility-for-the-color-blind/</loc>
+    <lastmod>2013-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-remove-trackbacks-from-your-wordpress-comments/</loc>
+    <lastmod>2013-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-tour-of-the-international-space-station/</loc>
+    <lastmod>2013-01-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/responsive-site-size/</loc>
+    <lastmod>2013-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ye-old-alphabet/</loc>
+    <lastmod>2013-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-i-stayed-disconnected-from-work-over-the-holidays/</loc>
+    <lastmod>2013-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/big-picture-design/</loc>
+    <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/paws-new-england-in-2012/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-exclude-pages-from-search-in-wordpress/</loc>
+    <lastmod>2012-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-real-history-of-monopoly/</loc>
+    <lastmod>2012-12-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/remove-junk-from-the-wordpress-header/</loc>
+    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/space-junk/</loc>
+    <lastmod>2012-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/tim-cook-on-great-products-and-changing-your-mind/</loc>
+    <lastmod>2012-12-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/two-weeks/</loc>
+    <lastmod>2012-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/nasa-johnson-style/</loc>
+    <lastmod>2012-12-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/better-wordpress-titles-without-a-plugin/</loc>
+    <lastmod>2012-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-useless-web/</loc>
+    <lastmod>2012-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/returning-an-ipad-and-why-i-love-apple/</loc>
+    <lastmod>2012-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/what-responsive-web-design-is-and-isnt/</loc>
+    <lastmod>2012-11-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/adding-a-sidebar-to-go-mobile-first/</loc>
+    <lastmod>2012-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/adding-a-header-background-to-go-mobile-first/</loc>
+    <lastmod>2012-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/facebook-mobile-web-vs-native-app-usage/</loc>
+    <lastmod>2012-11-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/better-forms/</loc>
+    <lastmod>2012-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-go-mobile-first-style-guide/</loc>
+    <lastmod>2012-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/displaying-gravatars-on-retina-screens/</loc>
+    <lastmod>2012-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wtf-is-mobile-first/</loc>
+    <lastmod>2012-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/issues-with-google-hosted-jquery/</loc>
+    <lastmod>2012-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/html-css-wordpress/</loc>
+    <lastmod>2012-11-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/stuff-i-learned-this-year/</loc>
+    <lastmod>2012-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/moocs-redux/</loc>
+    <lastmod>2012-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/icon-fonts/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ios-rotation-bug-and-a-fix/</loc>
+    <lastmod>2012-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/accessible-javascript/</loc>
+    <lastmod>2012-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/web-app-starter-kit-v2-released/</loc>
+    <lastmod>2012-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/its-not-about-what-you-want/</loc>
+    <lastmod>2012-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-small-go-mobile-first-update/</loc>
+    <lastmod>2012-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/go-mobile-first/</loc>
+    <lastmod>2012-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/moocs-and-the-future-of-higher-education/</loc>
+    <lastmod>2012-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/skydiving-from-the-edge-of-space-part-2/</loc>
+    <lastmod>2012-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/make-time-less-precious/</loc>
+    <lastmod>2012-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/instant-the-story-of-polaroid/</loc>
+    <lastmod>2012-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/opening-your-mind/</loc>
+    <lastmod>2012-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/politics-social-media-online-discourse/</loc>
+    <lastmod>2012-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/nasa-remembers-neil-armstrong/</loc>
+    <lastmod>2012-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/using-html5-video-with-flash-fallback/</loc>
+    <lastmod>2012-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/innovation-copycats/</loc>
+    <lastmod>2012-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-pursuit-of-less/</loc>
+    <lastmod>2012-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/web-3-0-humans-strike-back/</loc>
+    <lastmod>2012-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/animation/</loc>
+    <lastmod>2012-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/web-app-starter-kit/</loc>
+    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/be-a-user/</loc>
+    <lastmod>2012-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/embrace-the-remix/</loc>
+    <lastmod>2012-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-history-of-the-internet/</loc>
+    <lastmod>2012-09-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/waiting/</loc>
+    <lastmod>2012-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/predictions-about-the-internet-from-1995/</loc>
+    <lastmod>2012-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/sea-otters/</loc>
+    <lastmod>2012-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-open-web/</loc>
+    <lastmod>2012-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/css-sprite-apps/</loc>
+    <lastmod>2012-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/homeless-hungry/</loc>
+    <lastmod>2012-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-trick-out-the-performance-of-your-wordpress-site/</loc>
+    <lastmod>2012-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-coffee-analogy/</loc>
+    <lastmod>2012-08-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/better-backup/</loc>
+    <lastmod>2012-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-myth-of-mobile-context/</loc>
+    <lastmod>2012-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-egalitarian-web/</loc>
+    <lastmod>2012-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/jason-santa-maria-on-web-typography/</loc>
+    <lastmod>2012-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/canopy-of-umbrellas/</loc>
+    <lastmod>2012-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/design-tip-never-use-black/</loc>
+    <lastmod>2012-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/is-design-really-about-solving-problems/</loc>
+    <lastmod>2012-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/on-being-idle/</loc>
+    <lastmod>2012-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-view-from-the-international-space-station/</loc>
+    <lastmod>2012-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/perseverance/</loc>
+    <lastmod>2012-08-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/source-sans-pro-from-adobe/</loc>
+    <lastmod>2012-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/usain-bolt-vs-116-years-of-olympic-sprinters/</loc>
+    <lastmod>2012-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/coffee-with-strangers/</loc>
+    <lastmod>2012-08-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-best-of-the-week-7202012/</loc>
+    <lastmod>2012-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-product-you-love/</loc>
+    <lastmod>2012-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/good-dog/</loc>
+    <lastmod>2012-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/typography-first-web-design/</loc>
+    <lastmod>2012-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-best-of-the-week-7132012/</loc>
+    <lastmod>2012-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/does-responsive-web-design-cost-more/</loc>
+    <lastmod>2012-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-best-of-this-week-762012/</loc>
+    <lastmod>2012-07-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/bentleys-great-escape/</loc>
+    <lastmod>2012-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-problem-with-performance-appraisals/</loc>
+    <lastmod>2012-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-best-of-the-week-6292012/</loc>
+    <lastmod>2012-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-write-better/</loc>
+    <lastmod>2012-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-problem-with-facebook/</loc>
+    <lastmod>2012-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/best-of-this-week-6222012/</loc>
+    <lastmod>2012-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/whats-the-website-equivalent-of-a-street-cafe/</loc>
+    <lastmod>2012-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-better-online-reading-experience/</loc>
+    <lastmod>2012-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/best-of-the-last-7-days-6152012/</loc>
+    <lastmod>2012-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/henry-millers-11-commandments-for-making-things/</loc>
+    <lastmod>2012-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/listen-less/</loc>
+    <lastmod>2012-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/apps-vs-websites/</loc>
+    <lastmod>2012-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-impact-of-digital-goods/</loc>
+    <lastmod>2012-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/one-nation-under-dog/</loc>
+    <lastmod>2012-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-importance-of-responsive-design/</loc>
+    <lastmod>2012-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/digital-patina/</loc>
+    <lastmod>2012-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/twitter-moment-of-the-week/</loc>
+    <lastmod>2012-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/bridges/</loc>
+    <lastmod>2012-05-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/swim-race/</loc>
+    <lastmod>2012-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/keep-moving/</loc>
+    <lastmod>2012-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/mind-controlled-robotic-arm/</loc>
+    <lastmod>2012-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/jedi-mind-tricks/</loc>
+    <lastmod>2012-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/amazing-ant-photography/</loc>
+    <lastmod>2012-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/chairs-suck/</loc>
+    <lastmod>2012-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-divided-brain/</loc>
+    <lastmod>2012-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-have-a-great-meeting/</loc>
+    <lastmod>2012-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-better-critique/</loc>
+    <lastmod>2012-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/women-in-tech/</loc>
+    <lastmod>2012-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/window-cleaners-on-the-empire-state-building-1938/</loc>
+    <lastmod>2012-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/just-the-essentials/</loc>
+    <lastmod>2012-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/free-social-icon-font/</loc>
+    <lastmod>2012-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/preserving-classic-video-games/</loc>
+    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/resources-for-web-designers/</loc>
+    <lastmod>2012-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/posters-of-the-past/</loc>
+    <lastmod>2012-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-strange-history-of-engagement-rings/</loc>
+    <lastmod>2012-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/fracking/</loc>
+    <lastmod>2012-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/make-my-friend-shave-his-head/</loc>
+    <lastmod>2012-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/go-code-things/</loc>
+    <lastmod>2012-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/3-weeks-with-an-ipad/</loc>
+    <lastmod>2012-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/music-from-nature/</loc>
+    <lastmod>2012-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/brands-and-commodities/</loc>
+    <lastmod>2012-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/go-make-things-gets-a-refresh/</loc>
+    <lastmod>2012-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/brainstorming-is-b-s/</loc>
+    <lastmod>2012-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/caines-arcade/</loc>
+    <lastmod>2012-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/consumer-driven-it/</loc>
+    <lastmod>2012-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/cgi-of-how-the-titanic-sank/</loc>
+    <lastmod>2012-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/handmade-leather-goods-and-a-throwaway-society/</loc>
+    <lastmod>2012-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/what-is-rim-thinking/</loc>
+    <lastmod>2012-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/project-glass-no-thanks/</loc>
+    <lastmod>2012-04-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/make-something-you-love/</loc>
+    <lastmod>2012-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/what-experience-is-worth/</loc>
+    <lastmod>2012-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/real-time-wwii/</loc>
+    <lastmod>2012-03-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/rabbit-holes-and-productivity/</loc>
+    <lastmod>2012-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/verizon-customer-service/</loc>
+    <lastmod>2012-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/big-ideas-in-the-workplace/</loc>
+    <lastmod>2012-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/newspapers-blogs-and-the-free-press/</loc>
+    <lastmod>2012-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/pixel-dancer/</loc>
+    <lastmod>2012-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-inverted-bike-shop/</loc>
+    <lastmod>2012-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/love-the-internet/</loc>
+    <lastmod>2012-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/lego-robot-powered-by-a-smart-phone/</loc>
+    <lastmod>2012-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-electoral-college-explained/</loc>
+    <lastmod>2012-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/meeting-organizers-youre-responsible-for-my-attention/</loc>
+    <lastmod>2012-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-art-of-beer/</loc>
+    <lastmod>2012-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/pretty-things/</loc>
+    <lastmod>2012-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-inventors-dilemma/</loc>
+    <lastmod>2012-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/no-tweeting-allowed/</loc>
+    <lastmod>2012-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/having-a-wee-bit-of-trouble/</loc>
+    <lastmod>2012-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/dogs-dolphins/</loc>
+    <lastmod>2012-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/flash-fans-2012/</loc>
+    <lastmod>2012-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/focus/</loc>
+    <lastmod>2012-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/cycle-skates/</loc>
+    <lastmod>2012-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-windows-phone-catch-22/</loc>
+    <lastmod>2012-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/dark-patterns/</loc>
+    <lastmod>2012-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-anatomy-of-a-redesign/</loc>
+    <lastmod>2012-01-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-things-of-the-future/</loc>
+    <lastmod>2012-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/get-diesel/</loc>
+    <lastmod>2012-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-future-belongs-to-the-curious/</loc>
+    <lastmod>2012-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/co-work-collaboration/</loc>
+    <lastmod>2012-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/jesus-is-trending/</loc>
+    <lastmod>2012-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/bike-safe/</loc>
+    <lastmod>2012-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/food-inc/</loc>
+    <lastmod>2012-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/creativity-chaos/</loc>
+    <lastmod>2012-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ending-hunger-now/</loc>
+    <lastmod>2012-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/defend-the-internet-stop-sopa/</loc>
+    <lastmod>2012-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ikea-career-instructions/</loc>
+    <lastmod>2012-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/voting-explained/</loc>
+    <lastmod>2012-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/misunderstanding-gamification/</loc>
+    <lastmod>2012-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-process/</loc>
+    <lastmod>2012-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/saving-the-economy/</loc>
+    <lastmod>2012-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/predictions-for-the-year-2000/</loc>
+    <lastmod>2012-01-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/freezing-time/</loc>
+    <lastmod>2012-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/stories-without-words/</loc>
+    <lastmod>2012-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-magazine-club/</loc>
+    <lastmod>2012-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/my-goal-for-the-new-year/</loc>
+    <lastmod>2012-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/powerful-images-from-2011/</loc>
+    <lastmod>2011-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/framed-an-iphone-story/</loc>
+    <lastmod>2011-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/death-to-pennies/</loc>
+    <lastmod>2011-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/on-the-impracticality-of-the-cheeseburger/</loc>
+    <lastmod>2011-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/1000-photos-in-your-pocket/</loc>
+    <lastmod>2011-12-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/what-a-wonderful-world/</loc>
+    <lastmod>2011-12-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/my-favorite-reads/</loc>
+    <lastmod>2011-12-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/last-minute-gifts/</loc>
+    <lastmod>2011-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/copycats/</loc>
+    <lastmod>2011-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/honey-ginger-julep/</loc>
+    <lastmod>2011-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/shades/</loc>
+    <lastmod>2011-12-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/jazz-for-cows/</loc>
+    <lastmod>2011-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/mankind-is-no-island/</loc>
+    <lastmod>2011-12-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/good-enough-ease-of-use-and-going-slowly/</loc>
+    <lastmod>2011-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/grandmother-tips/</loc>
+    <lastmod>2011-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-lesson-from-yahoo/</loc>
+    <lastmod>2011-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/baby-monkey-going-backwards-on-a-pig/</loc>
+    <lastmod>2011-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-advent-conspiracy/</loc>
+    <lastmod>2011-12-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/marketing-crappy-products/</loc>
+    <lastmod>2011-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-most-awesome-gift-in-the-history-of-the-universe/</loc>
+    <lastmod>2011-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/same-sex-marriage/</loc>
+    <lastmod>2011-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-bike-and-a-tree/</loc>
+    <lastmod>2011-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/its-time/</loc>
+    <lastmod>2011-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/murmuration/</loc>
+    <lastmod>2011-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/pens-pencils-and-outer-space/</loc>
+    <lastmod>2011-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/christian-the-lion/</loc>
+    <lastmod>2011-11-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/nest/</loc>
+    <lastmod>2011-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/old-models-new-models/</loc>
+    <lastmod>2011-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/awkward-video-resume/</loc>
+    <lastmod>2011-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-two-eggs-safety-match/</loc>
+    <lastmod>2011-11-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/industrial-revolutions/</loc>
+    <lastmod>2011-11-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/being-yourself/</loc>
+    <lastmod>2011-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/radio-the-original-internet/</loc>
+    <lastmod>2011-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/who-invented-the-high-five/</loc>
+    <lastmod>2011-11-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/users-or-people/</loc>
+    <lastmod>2011-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/you-cant-read-everything/</loc>
+    <lastmod>2011-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/cineskates/</loc>
+    <lastmod>2011-11-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/content-worth-paying-for/</loc>
+    <lastmod>2011-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-right-to-dream/</loc>
+    <lastmod>2011-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/tangible-things/</loc>
+    <lastmod>2011-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/out-of-the-ux-echochamber/</loc>
+    <lastmod>2011-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/birds-bees-butterflies-the-hidden-beauty-of-pollinators/</loc>
+    <lastmod>2011-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/details-matter/</loc>
+    <lastmod>2011-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/should-you-use-social-media/</loc>
+    <lastmod>2011-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/in-your-face-marketing/</loc>
+    <lastmod>2011-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-scroll-and-ereader/</loc>
+    <lastmod>2011-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/employees-customers/</loc>
+    <lastmod>2011-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-company-name-way/</loc>
+    <lastmod>2011-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/flying-above-the-aurora-australis/</loc>
+    <lastmod>2011-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/i-want-to-build-things/</loc>
+    <lastmod>2011-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-faster-horse/</loc>
+    <lastmod>2011-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/amazing-3-d-paintings/</loc>
+    <lastmod>2011-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-better-measure-of-workplace-diversity/</loc>
+    <lastmod>2011-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-beautiful-photography-of-justin-james-muir/</loc>
+    <lastmod>2011-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/culture/</loc>
+    <lastmod>2011-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/faking-it/</loc>
+    <lastmod>2011-10-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/analog-connections/</loc>
+    <lastmod>2011-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/doodling/</loc>
+    <lastmod>2011-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/cute-overload/</loc>
+    <lastmod>2011-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/in-memory-of-steve-jobs/</loc>
+    <lastmod>2011-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/less-but-better/</loc>
+    <lastmod>2011-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-power-of-storytelling/</loc>
+    <lastmod>2011-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/gender-differences-and-leadership/</loc>
+    <lastmod>2011-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/robot-vs-robot/</loc>
+    <lastmod>2011-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/mating-with-neanderthals-redux/</loc>
+    <lastmod>2011-09-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-agony-and-ecstasy-of-steve-jobs/</loc>
+    <lastmod>2011-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-original-social-marketing/</loc>
+    <lastmod>2011-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/faster-than-light/</loc>
+    <lastmod>2011-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/baddest-witch/</loc>
+    <lastmod>2011-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/double-stop-motion/</loc>
+    <lastmod>2011-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/downsizing-your-distractions/</loc>
+    <lastmod>2011-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/what-is-intelligence-anyway/</loc>
+    <lastmod>2011-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/copy-transform-combine/</loc>
+    <lastmod>2011-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/go-make-things-wallpaper/</loc>
+    <lastmod>2011-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/yosemite/</loc>
+    <lastmod>2011-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/mobile-emails/</loc>
+    <lastmod>2011-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-quick-guide-to-typography/</loc>
+    <lastmod>2011-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/make-life-easier-for-your-customer/</loc>
+    <lastmod>2011-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/strangers-friends/</loc>
+    <lastmod>2011-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/dove-ruins-a-kittens-nap/</loc>
+    <lastmod>2011-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wheelchair-action-sports/</loc>
+    <lastmod>2011-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-beautiful-art-of-jay-nelson/</loc>
+    <lastmod>2011-09-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-world-is-where-we-live/</loc>
+    <lastmod>2011-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/fostering-innovation/</loc>
+    <lastmod>2011-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/alex-and-liam-do-walmart/</loc>
+    <lastmod>2011-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/minimalist-fairy-tale-posters/</loc>
+    <lastmod>2011-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/twitter-hustle/</loc>
+    <lastmod>2011-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-oldest-largest-body-of-water-in-existence/</loc>
+    <lastmod>2011-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-work-better/</loc>
+    <lastmod>2011-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-hot-dog-conundrum/</loc>
+    <lastmod>2011-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-evolution-of-the-geek/</loc>
+    <lastmod>2011-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/vimeos-brilliant-social-media-marketing/</loc>
+    <lastmod>2011-08-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/science-cafes/</loc>
+    <lastmod>2011-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/please-be-my-friend/</loc>
+    <lastmod>2011-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/im-comic-sans-a-hole/</loc>
+    <lastmod>2011-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/bugs-that-changed-human-history/</loc>
+    <lastmod>2011-08-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-original-view-master/</loc>
+    <lastmod>2011-08-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-unseen-sea/</loc>
+    <lastmod>2011-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/mating-with-neanderthals/</loc>
+    <lastmod>2011-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-most-interesting-things-moved/</loc>
+    <lastmod>2011-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/last-years-model/</loc>
+    <lastmod>2011-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/nasa-space-shuttles-legacy/</loc>
+    <lastmod>2011-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/marketing-with-whimsy/</loc>
+    <lastmod>2011-08-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/skydiving-from-the-edge-of-space/</loc>
+    <lastmod>2011-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/melvin-the-magical-mixed-media-machine/</loc>
+    <lastmod>2011-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/dogs-can-read-minds/</loc>
+    <lastmod>2011-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/talent-is-overrated/</loc>
+    <lastmod>2011-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/in-gredients/</loc>
+    <lastmod>2011-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/if-you-dont-understand-people-you-dont-understand-business/</loc>
+    <lastmod>2011-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/art-with-salt/</loc>
+    <lastmod>2011-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/splitscreen-a-love-story/</loc>
+    <lastmod>2011-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/jim-coudal-on-ideas-in-action/</loc>
+    <lastmod>2011-07-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/cooking-like-hepburn/</loc>
+    <lastmod>2011-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/marketing-pro/</loc>
+    <lastmod>2011-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ive-fallen-and-i-cant-get-up/</loc>
+    <lastmod>2011-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/mind-vs-machine/</loc>
+    <lastmod>2011-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-origin-of-good-ideas/</loc>
+    <lastmod>2011-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/creative-leadership/</loc>
+    <lastmod>2011-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/real-life-the-hot-new-social-network/</loc>
+    <lastmod>2011-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/kenny-powers-k-swiss-mfceo/</loc>
+    <lastmod>2011-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/rethinking-the-receipt/</loc>
+    <lastmod>2011-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-sunscreen-smokescreen/</loc>
+    <lastmod>2011-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/qr-codes-that-are-actually-useful/</loc>
+    <lastmod>2011-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/google-plus/</loc>
+    <lastmod>2011-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/i-are-cute-kitten/</loc>
+    <lastmod>2011-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/what-the-frack-is-going-on/</loc>
+    <lastmod>2011-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-b-line/</loc>
+    <lastmod>2011-07-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/being-bored/</loc>
+    <lastmod>2011-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ipod-magic/</loc>
+    <lastmod>2011-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-best-time-to-launch-a-startup/</loc>
+    <lastmod>2011-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-safety-net/</loc>
+    <lastmod>2011-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/did-you-hear-a-click/</loc>
+    <lastmod>2011-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-last-uncontacted-tribe/</loc>
+    <lastmod>2011-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ipad-games-for-cats/</loc>
+    <lastmod>2011-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-build-a-time-machine/</loc>
+    <lastmod>2011-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/conan-obrien-at-dartmouth-2011/</loc>
+    <lastmod>2011-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/beautifully-ugly-design-revisited/</loc>
+    <lastmod>2011-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/alienate-the-right-people/</loc>
+    <lastmod>2011-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/mind-your-step/</loc>
+    <lastmod>2011-06-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/3-way-street/</loc>
+    <lastmod>2011-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/life-aboard-the-international-space-station/</loc>
+    <lastmod>2011-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-engineering-guy/</loc>
+    <lastmod>2011-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/lessons-from-the-bamboo/</loc>
+    <lastmod>2011-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/red-pop/</loc>
+    <lastmod>2011-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/information-overload-the-early-years/</loc>
+    <lastmod>2011-06-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/5-tips-for-using-social-media-for-your-career/</loc>
+    <lastmod>2011-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/tupac-vs-biggie/</loc>
+    <lastmod>2011-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/beautifully-ugly-design/</loc>
+    <lastmod>2011-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-iceberg-project/</loc>
+    <lastmod>2011-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/americas-native-prisoners-of-war/</loc>
+    <lastmod>2011-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-does-recycling-work/</loc>
+    <lastmod>2011-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-art-of-making/</loc>
+    <lastmod>2011-05-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/because-our-ammenities-are-so-popular/</loc>
+    <lastmod>2011-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/single-serve-potatoes/</loc>
+    <lastmod>2011-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/your-press-release-sucks/</loc>
+    <lastmod>2011-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/dear-16-year-old-me/</loc>
+    <lastmod>2011-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/whats-the-ideal-length-for-web-video/</loc>
+    <lastmod>2011-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/adorable-animals/</loc>
+    <lastmod>2011-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/enthusiasm-is-infectious/</loc>
+    <lastmod>2011-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ads-on-blogs/</loc>
+    <lastmod>2011-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/photopic-sky-survey/</loc>
+    <lastmod>2011-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/is-seth-godins-vision-of-marketing-wrong/</loc>
+    <lastmod>2011-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/pop-shorty/</loc>
+    <lastmod>2011-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-mountain-the-aurora/</loc>
+    <lastmod>2011-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/pale-blue-dot/</loc>
+    <lastmod>2011-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/human-planet/</loc>
+    <lastmod>2011-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/twitter-sucks/</loc>
+    <lastmod>2011-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/it-gets-better/</loc>
+    <lastmod>2011-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/make-subscriptions-opt-in/</loc>
+    <lastmod>2011-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-some-people-dont-get-social/</loc>
+    <lastmod>2011-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/photos-video-storytelling/</loc>
+    <lastmod>2011-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/images-for-your-blog/</loc>
+    <lastmod>2011-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-you-dont-need-to-use-social-media/</loc>
+    <lastmod>2011-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/paper-record-player-wedding-invitation/</loc>
+    <lastmod>2011-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ants-that-count/</loc>
+    <lastmod>2011-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-chair-experiment/</loc>
+    <lastmod>2011-04-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/virgin-oceanic/</loc>
+    <lastmod>2011-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/dear-icebergs/</loc>
+    <lastmod>2011-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/everything-im-not/</loc>
+    <lastmod>2011-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/dear-cab-driver/</loc>
+    <lastmod>2011-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/pvc-instruments/</loc>
+    <lastmod>2011-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-koh-panyee-football-team/</loc>
+    <lastmod>2011-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-steal-like-an-artist/</loc>
+    <lastmod>2011-04-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-stories-you-havent-heard/</loc>
+    <lastmod>2011-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/get-a-committee-working-on-it/</loc>
+    <lastmod>2011-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-bicycle-city/</loc>
+    <lastmod>2011-04-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/fantasia/</loc>
+    <lastmod>2011-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/middle-eas-revolution/</loc>
+    <lastmod>2011-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/soy-bomb/</loc>
+    <lastmod>2011-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/protest-in-brussels/</loc>
+    <lastmod>2011-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/clumsy/</loc>
+    <lastmod>2011-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/addicted-to-plastic/</loc>
+    <lastmod>2011-03-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-supercooled-water-phenomenon/</loc>
+    <lastmod>2011-03-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/dumb-packaging/</loc>
+    <lastmod>2011-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/being-better/</loc>
+    <lastmod>2011-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/trash-track/</loc>
+    <lastmod>2011-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/ant-metropolis/</loc>
+    <lastmod>2011-03-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/full-moon/</loc>
+    <lastmod>2011-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/makedo/</loc>
+    <lastmod>2011-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-tale-of-two-twins/</loc>
+    <lastmod>2011-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/flattr-and-why-paying-for-free-content-is-stupid/</loc>
+    <lastmod>2011-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/how-to-monetize-your-blog-in-3-easy-steps/</loc>
+    <lastmod>2011-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/we-lost-everything-in-a-split-second/</loc>
+    <lastmod>2011-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/mixed-messages/</loc>
+    <lastmod>2011-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/dr-claw/</loc>
+    <lastmod>2011-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/steve-lambert-will-talk-with-anyone/</loc>
+    <lastmod>2011-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/brilliant-at-the-basics/</loc>
+    <lastmod>2011-03-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-future-of-marketing/</loc>
+    <lastmod>2011-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/youve-gotta-be-kitten-me/</loc>
+    <lastmod>2011-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/jussjef-the-singing-guitar/</loc>
+    <lastmod>2011-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/do-less-do-better/</loc>
+    <lastmod>2011-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/eschers-waterfall-in-real-life/</loc>
+    <lastmod>2011-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/soda-sustainability/</loc>
+    <lastmod>2011-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-four-chord-pop-song/</loc>
+    <lastmod>2011-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/underheard-in-new-york/</loc>
+    <lastmod>2011-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-coat-to-help-detroits-homeless/</loc>
+    <lastmod>2011-02-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/a-rare-look-inside-pixar-studios/</loc>
+    <lastmod>2011-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/cnn-hero-narayanan-krishnan/</loc>
+    <lastmod>2011-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-7cubed-project/</loc>
+    <lastmod>2011-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/green-school/</loc>
+    <lastmod>2011-02-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/language-as-a-window-into-human-nature/</loc>
+    <lastmod>2011-02-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/your-garden/</loc>
+    <lastmod>2011-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-other-side-of-the-street/</loc>
+    <lastmod>2011-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/wwf-file-format/</loc>
+    <lastmod>2011-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/we-are-crazy/</loc>
+    <lastmod>2011-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/when-does-your-brand-become-immortal/</loc>
+    <lastmod>2011-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/you-cant-please-everyone/</loc>
+    <lastmod>2011-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/handmade/</loc>
+    <lastmod>2011-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/the-united-kingdom-explained/</loc>
+    <lastmod>2011-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/storytelling-with-sound/</loc>
+    <lastmod>2011-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/protests-in-egypt/</loc>
+    <lastmod>2011-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/doing-nothing/</loc>
+    <lastmod>2011-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/why-cant-humans-walk-straight/</loc>
+    <lastmod>2011-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/social-media-can-be-simple/</loc>
+    <lastmod>2011-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/categories/accessibility/</loc>
+    <lastmod>2018-07-26T10:30:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/categories/art-and-science/</loc>
+    <lastmod>2018-07-26T10:30:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/categories/business-and-leadership/</loc>
+    <lastmod>2018-07-26T10:30:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/categories/careers/</loc>
+    <lastmod>2018-07-26T10:30:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/categories/</loc>
+    <lastmod>2018-07-26T10:30:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/categories/code/</loc>
+    <lastmod>2018-07-26T10:30:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/categories/css/</loc>
+    <lastmod>2018-07-26T10:30:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/categories/design-and-ux/</loc>
+    <lastmod>2018-07-26T10:30:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/categories/html/</loc>
+    <lastmod>2018-07-26T10:30:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/categories/javascript/</loc>
+    <lastmod>2018-07-26T10:30:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/categories/technology/</loc>
+    <lastmod>2018-07-26T10:30:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/categories/vanilla-framework-demos/</loc>
+    <lastmod>2018-07-26T10:30:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/categories/web-performance/</loc>
+    <lastmod>2018-07-26T10:30:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gomakethings.com/categories/wordpress/</loc>
+    <lastmod>2018-07-26T10:30:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

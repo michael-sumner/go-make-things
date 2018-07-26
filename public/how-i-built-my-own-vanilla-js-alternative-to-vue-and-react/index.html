@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>How I built my own vanilla JS alternative to Vue and React | Go Make Things</title>
+		<meta name="description" content="Yesterday, I wrote about Reef.js, my new vanilla JS alternative to Vue and React, and why I decided to write my own little helper method.
+Today, I want to show you how I actually built it, and what makes it all work under the hood.
+Let&rsquo;s dig in!
+A quick refresher If you forgot/aren&rsquo;t familiar with Reef&rsquo;s syntax, here&rsquo;s an example of a simple clock app.
+Rhe Reef() method accepts two arguments.">
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@ChrisFerdinandi">
+		<meta property="og:url" content="/how-i-built-my-own-vanilla-js-alternative-to-vue-and-react/">
+		<meta property="og:title" content="How I built my own vanilla JS alternative to Vue and React">
+		<meta property="og:description" content="Yesterday, I wrote about Reef.js, my new vanilla JS alternative to Vue and React, and why I decided to write my own little helper method.
+Today, I want to show you how I actually built it, and what makes it all work under the hood.
+Let&rsquo;s dig in!
+A quick refresher If you forgot/aren&rsquo;t familiar with Reef&rsquo;s syntax, here&rsquo;s an example of a simple clock app.
+Rhe Reef() method accepts two arguments.">
+		
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="https://gomakethings.com/feed/index.xml">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="https://gomakethings.com/feed/index.xml">
+
+		
+		<style type="text/css">
+			/*! gmt v1.16.0 | (c) 2018 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/go-make-things | Open Source Credits: https://github.com/toddmotto/fluidvids, http://prismjs.com, https://github.com/filamentgroup/loadJS/, https://github.com/filamentgroup/loadCSS, https://github.com/bramstein/fontfaceobserver */
+@-webkit-viewport{width:device-width;zoom:1}@-moz-viewport{width:device-width;zoom:1}@-ms-viewport{width:device-width;zoom:1}@-o-viewport{width:device-width;zoom:1}@viewport{width:device-width;zoom:1}.link-block-styled,a,button,input,label,select,summary,textarea{-ms-touch-action:manipulation;touch-action:manipulation}*,:after,:before{box-sizing:border-box}html{overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%}body{margin:0}article,aside,cite,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}summary{display:list-item}audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}audio:not([controls]){display:none;height:0}img,video{height:auto}embed,iframe,img,object,video{max-width:100%}img{border-style:none;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}[tabindex="-1"]:focus{outline:none}.container{margin-left:auto;margin-right:auto;max-width:38em;width:88%}.container-large{max-width:60em}.row{margin-left:-1.4%;margin-right:-1.4%}.grid-fourth,.grid-half,.grid-third,.grid-three-fourths,.grid-two-thirds{float:left;padding-left:1.4%;padding-right:1.4%;width:100%}.grid-flip{float:right}@media (min-width:38em){.grid-fourth{width:25%}.grid-third{width:33.33333%}.grid-half{width:50%}.grid-two-thirds{width:66.66667%}.grid-three-fourths{width:75%}.offset-fourth{margin-left:25%}.offset-third{margin-left:33.33333%}.offset-half{margin-left:50%}.offset-two-thirds{margin-left:66.66667%}.offset-three-fourths{margin-left:75%}}body{background:#fff;border-top:.5em solid #e5e5e5;color:#272727;font-family:Georgia,serif;font-size:112.5%;line-height:1.5;overflow-x:hidden}.fonts-loaded body{font-family:PT Serif,serif}@media (min-width:38em){body{line-height:1.5625em}}p{margin:0 0 1.5625em}.link-block-styled,a{background-color:transparent;color:#08c;text-decoration:underline;-webkit-text-decoration-skip:ink;text-decoration-skip:ink;text-decoration-skip-ink:auto;word-wrap:break-word}.link-block-styled:active,.link-block-styled:hover,.link-block:hover .link-block-styled,a:active,a:hover{outline:0}.link-block-styled:active,.link-block-styled:focus,.link-block-styled:hover,.link-block:hover .link-block-styled,a:active,a:focus,a:hover{color:#005580}.link-block-styled:visited,a:visited{color:purple}.link-no-underline,.nav-secondary .link-block-styled,.nav-secondary a{text-decoration:none}.link-block:hover .nav-secondary .link-block-styled,.link-no-underline:active,.link-no-underline:focus,.link-no-underline:hover,.nav-secondary .link-block-styled:active,.nav-secondary .link-block-styled:focus,.nav-secondary .link-block-styled:hover,.nav-secondary .link-block:hover .link-block-styled,.nav-secondary a:active,.nav-secondary a:focus,.nav-secondary a:hover{text-decoration:underline}.link-plain,.link-plain:visited{color:#272727;text-decoration:none}.link-plain:active,.link-plain:focus,.link-plain:hover{color:#08c}.link-block.link-block-styled,a.link-block{color:#272727;display:block;text-decoration:none}ol,ul{margin:0 0 1.5625em 2em;padding:0}ol ol,ol ul,ul ol,ul ul{margin-bottom:0}li{margin-bottom:.5em}@media (min-width:38em){li{margin-bottom:.25em}}.list-spaced li{margin-bottom:1em}@media (min-width:38em){.list-spaced li{margin-bottom:.6875em}}dd,dl{margin:0;padding:0}dd{margin-bottom:1.5625em}dt{font-weight:700}.list-unstyled{margin-left:0;list-style:none}.list-inline{list-style:none;margin-left:-.5em;margin-right:-.5em;padding:0}.list-inline li{display:inline-block;margin-left:.5em;margin-right:.5em}@media (max-width:38em){.list-inline.list-inline-responsive li{display:block}}.list-inline-spaced{margin-left:-1.3125em;margin-right:-1.3125em}.list-inline-spaced li{display:inline-block;margin-left:1.3125em;margin-right:1.3125em}h1,h2,h3,h4,h5,h6{font-weight:700;line-height:1.2;margin:0 0 1em;padding:1em 0 0;word-wrap:break-word}.h1,h1{font-size:1.5em;padding-top:.5em}@media (min-width:38em){.h1,h1{font-size:1.75em}}.h2,h2{font-size:1.3125em}.h3,h3{font-size:1.1875em}.h4,.h5,.h6,h4,h5,h6{font-size:1em}.h4,h4{text-transform:uppercase}hr{border:0;border-top:1px solid #e5e5e5;border-bottom:0 solid transparent;box-sizing:content-box;margin:2em auto;overflow:visible}.line-secondary{width:50%}.line-clear{border-top-color:transparent}.line-heading{position:relative}.line-heading:after{background-color:#fff;content:attr(data-heading);font-weight:700;left:50%;padding:0 1em;position:absolute;top:-1em;text-align:center;-webkit-transform:translate(-50%);transform:translate(-50%);width:70%}@media (min-width:28em){.line-heading[data-heading-small]:after{content:attr(data-heading-small)}}@media (min-width:38em){.line-heading[data-heading-medium]:after{content:attr(data-heading-medium)}}@media (min-width:60em){.line-heading[data-heading-large]:after{content:attr(data-heading-large)}}b,strong{font-weight:inherit;font-weight:bolder}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}dfn{font-style:italic}mark{background:#fbf9c9;color:#272727}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}blockquote{border-left:.25em solid #e5e5e5;font-style:italic;margin:0 0 1.5625em;padding-left:1em;padding-right:1em}blockquote cite{color:gray;font-size:.9375em;padding-top:1em}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:""}code,kbd,pre,samp{font-family:Menlo,Monaco,Courier New,monospace;font-size:.875em}code{color:#d14;padding:.25em;word-wrap:break-word}pre{background-color:#f7f7f7;display:block;line-height:1.5;margin:0 0 1.5625em;overflow:auto;padding:.8125em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;white-space:pre-wrap;word-break:break-all}pre code{background-color:transparent;border:0;color:inherit;font-size:1em;padding:0}@media screen{.chroma .err,.chroma .il,.chroma .kc,.chroma .m,.chroma .mb,.chroma .mf,.chroma .mh,.chroma .mi,.chroma .mo,.chroma .no,.chroma .nt,.chroma .py,.chroma .ss{color:#905}.chroma .k,.chroma .kd,.chroma .kn,.chroma .kp,.chroma .kr,.chroma .kt,.chroma .nb,.chroma .s{color:#07a}.chroma .dl,.chroma .l,.chroma .ld,.chroma .n,.chroma .na,.chroma .nc,.chroma .ne,.chroma .s1,.chroma .s2,.chroma .sa,.chroma .sb,.chroma .sc,.chroma .se,.chroma .sh,.chroma .si,.chroma .sx{color:#690}.chroma .bp,.chroma .c,.chroma .c1,.chroma .ch,.chroma .cm,.chroma .cp,.chroma .cpf,.chroma .cs,.chroma .nd,.chroma .nl,.chroma .p,.chroma .sd{color:#708090}.chroma .ni,.chroma .o{color:#a67f59;background:hsla(0,0%,100%,.5)}.chroma .fm,.chroma .nf,.chroma .ow{color:#dd4a68}.chroma .nv,.chroma .sr,.chroma .vc,.chroma .vg,.chroma .vi,.chroma .vm{color:#e90}.chroma .nn{opacity:.7}.chroma .ge{font-style:italic}.chroma .gs{font-weight:700}}.btn{background-color:#f7272f;border:.125em solid #f7272f;border-radius:1px;display:inline-block;font-size:.9375em;font-weight:400;line-height:1.2;margin-right:.3125em;margin-bottom:.3125em;padding:.5em .6875em}.btn,.btn:visited{color:#fff}.btn.active,.btn:active,.btn:focus,.btn:hover{background-color:#cb070e;border-color:#cb070e;color:#fff}.btn.link-block-styled,a.btn{text-decoration:none}.btn-secondary{background-color:#343d4d;border-color:#343d4d}.btn-secondary.active,.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{background-color:#15191f;border-color:#15191f}.btn-tertiary{background-color:#08c;border-color:#08c}.btn-tertiary.active,.btn-tertiary:active,.btn-tertiary:focus,.btn-tertiary:hover{background-color:#005580;border-color:#005580}.btn.active,.btn:active{box-shadow:inset 0 .15625em .25em rgba(0,0,0,.15),0 1px .15625em rgba(0,0,0,.05);outline:0}.btn.disabled,.btn[disabled]{box-shadow:none;cursor:not-allowed;opacity:.5;pointer-events:none}.btn-large{font-size:1em;line-height:normal;padding:.6875em .9375em}.btn-block,input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-block{display:block;margin-right:0;padding-right:0;padding-left:0;width:100%}.btn,button,html input[type=button],input[type=reset],input[type=submit]{cursor:pointer;text-align:center;vertical-align:middle;-webkit-appearance:none}.btn:last-child,input.btn{margin-right:0}fieldset,form{margin-bottom:1.5625em}fieldset{border:0;padding:0}label,legend{display:block;font-weight:400;margin:0 0 .3125em;padding:0}button,input,optgroup,select,textarea{color:#555;font:inherit;margin:0;padding:.3125em}button{overflow:visible}button,select{text-transform:none}input,select,textarea{border:1px solid #b8b8b8;display:block;line-height:1.5;margin-bottom:1.1875em;width:100%}@media (min-width:38em){input,select,textarea{line-height:1.5625}}optgroup{font-weight:700}form .button,form button{margin-bottom:1.1875em}textarea{height:12em;overflow:auto}[type=checkbox],[type=image],[type=radio]{cursor:pointer;display:inline-block;height:auto;margin-bottom:.3125em;padding:0;width:auto}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}input:focus,textarea:focus{border-color:rgba(82,168,236,.8);box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 .5em rgba(82,168,236,.6);outline:0;outline:thin dotted\9}[type=checkbox]:focus,[type=file]:focus,select:focus{outline:thin dotted;outline:.3125em auto -webkit-focus-ring-color;outline-offset:-.125em}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.input-inline{display:inline-block;vertical-align:middle;width:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}.input-search{width:85%;padding-left:.9375em;padding-right:2.5em;border-radius:1.3125em;transition:width .3s ease-in}@media (min-width:38em){.input-search{width:65%}}.btn-search{display:inline;color:gray;border:none;background:none;margin-left:-2.5em;margin-bottom:0}.btn-search svg{fill:gray}.btn-search:hover{color:#5a5a5a}.btn-search:hover svg{fill:#5a5a5a}.error{border-color:#e30810}.error-message{color:#e30810;font-style:italic;margin-bottom:1em}.img-border{border:1px solid #ccc}.img-circle{border-radius:50%}.callout,.fluidvids{margin-bottom:1.5625em}.callout{background-color:#f7f7f7;border:1px solid #e5e5e5;padding:1em 1.5em}.aligncenter,.alignleft,.alignnone,.alignright{display:block;text-align:center;margin-left:auto;margin-right:auto}@media (min-width:28em){.alignleft{float:left;margin-right:1em}}@media (min-width:28em){.alignright{float:right;margin-left:1em}}@media (min-width:28em){.alignnone{margin-left:0;margin-right:0}}.wp-caption-text{font-size:.9375em;font-style:italic;color:gray;padding-top:.5em;text-align:center}table{border-collapse:collapse;border-spacing:0;margin-bottom:1.5625em;max-width:100%;width:100%}td,th{text-align:left;padding:.5em}th{border-bottom:.125em solid #e5e5e5;font-weight:700;vertical-align:bottom}td{border-top:1px solid #e5e5e5;vertical-align:top}.table-striped tbody tr:nth-child(odd){background-color:#f7f7f7}@media (max-width:38em){.table-responsive thead{display:none;visibility:hidden}.table-responsive tr{border-top:1px solid #ededed;display:block;padding:.5em}.table-responsive td{border:0;display:block;padding:.25em}.table-responsive td:before{content:attr(data-label);display:block;font-weight:700}}.nav-wrap{padding-top:1em;padding-bottom:.5em;text-align:center}@media (min-width:60em){.nav-wrap{text-align:left}}.logo{display:inline-block;font-size:1.2em;font-weight:700;line-height:1.2;margin-bottom:.3125em;text-decoration:none}@media (min-width:60em){.logo{float:left;margin-bottom:0}}.logo,.logo:visited{color:#272727}.logo:active,.logo:focus,.logo:hover{color:#08c}.logo .icon{height:.8em;width:.8em}.nav{list-style:none;margin:0 -.5em;padding:0}@media (min-width:60em){.nav{text-align:right}}.nav li{display:inline-block;float:none;margin-left:.5em;margin-right:.5em}.nav .link-block-styled,.nav a{color:gray;text-decoration:none}.link-block:hover .nav .link-block-styled,.nav .active .link-block-styled,.nav .active a,.nav .link-block-styled:active,.nav .link-block-styled:focus,.nav .link-block-styled:hover,.nav .link-block:hover .link-block-styled,.nav a:active,.nav a:focus,.nav a:hover{border-bottom:.125em solid #fa7176;color:#272727}.bg-muted{background-color:#f7f7f7}.text-small{font-size:.9375em}.text-large,.text-xlarge{font-size:1.1875em;line-height:1.4}@media (min-width:38em){.text-large,.text-xlarge{font-size:1.3125em}}.text-xlarge{font-size:1.7em}@media (min-width:38em){.text-xlarge{font-size:2em}}.text-muted{color:gray}.btn del,.text-muted-light{color:#b2b2b2}.text-normal{font-weight:400;font-style:normal}.text-center{text-align:center}.text-right{text-align:right}@media (min-width:60em){.text-right-large{text-align:right}}.float-center{float:none;margin-left:auto;margin-right:auto}.no-margin-top{margin-top:0}.no-margin-bottom{margin-bottom:0}.margin-top{margin-top:1.5625em}.margin-bottom{margin-bottom:1.5625em}.error,.margin-bottom-small{margin-bottom:.5em}.margin-bottom-large{margin-bottom:2em}.margin-bottom-negative{margin-bottom:-1.75em}.margin-right{margin-right:.25em}.no-padding-top{padding-top:0}.no-padding-bottom{padding-bottom:0}.padding-top{padding-top:1.5625em}.padding-top-xsmall{padding-top:.25em}.padding-top-small{padding-top:.5em}.padding-top-medium{padding-top:1em}.padding-top-large{padding-top:2em}.padding-top-xlarge{padding-top:3em}.padding-bottom{padding-bottom:1.5625em}.padding-bottom-small{padding-bottom:.5em}.padding-bottom-large{padding-bottom:2em}.padding-bottom-xlarge{padding-bottom:3em}.screen-reader{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;white-space:nowrap;width:1px}.screen-reader-focusable:active,.screen-reader-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;white-space:normal;width:auto}.tarpit,[hidden],template{display:none;visibility:hidden}.clearfix:after,.clearfix:before,.container:after,.container:before,.nav-wrap:after,.nav-wrap:before,.row:after,.row:before{display:table;content:" "}.clearfix:after,.container:after,.nav-wrap:after,.row:after{clear:both}@media print{*{background:transparent!important;color:#000!important;box-shadow:none!important;text-shadow:none!important}@page{margin:.5cm}.link-block-styled,.link-block-styled:visited,a,a:visited{text-decoration:underline}[href].link-block-styled:after,a[href]:after{content:" (" attr(href) ")"}[href^="#"].link-block-styled:after,a[href^="#"]:after{content:""}h1,h2,h3,p{orphans:3;widows:3}h1,h2,h3{page-break-after:avoid}blockquote,pre{border-color:#999;page-break-inside:avoid}thead{display:table-header-group}img,tr{page-break-inside:avoid}}
+		</style>
+
+		
+		<script>
+			/*! gmt v1.16.0 | (c) 2018 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/go-make-things | Open Source Credits: https://github.com/toddmotto/fluidvids, http://prismjs.com, https://github.com/filamentgroup/loadJS/, https://github.com/filamentgroup/loadCSS, https://github.com/bramstein/fontfaceobserver */
+function loadCSS(t,e,n){"use strict";function o(){for(var e,r=0;r<a.length;r++)a[r].href&&a[r].href.indexOf(t)>-1&&(e=!0);e?i.media=n||"all":setTimeout(o)}var i=window.document.createElement("link"),r=e||window.document.getElementsByTagName("script")[0],a=window.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",r.parentNode.insertBefore(i,r),o(),i}!(function(){"use strict";function t(t){f.push(t),1==f.length&&l()}function e(){for(;f.length;)f[0](),f.shift()}function n(t){this.a=u,this.b=void 0,this.f=[];var e=this;try{t((function(t){r(e,t)}),(function(t){a(e,t)}))}catch(t){a(e,t)}}function o(t){return new n(function(e,n){n(t)})}function i(t){return new n(function(e){e(t)})}function r(t,e){if(t.a==u){if(e==t)throw new TypeError;var n=!1;try{var o=e&&e.then;if(null!=e&&"object"==typeof e&&"function"==typeof o)return void o.call(e,(function(e){n||r(t,e),n=!0}),(function(e){n||a(t,e),n=!0}))}catch(e){return void(n||a(t,e))}t.a=0,t.b=e,s(t)}}function a(t,e){if(t.a==u){if(e==t)throw new TypeError;t.a=1,t.b=e,s(t)}}function s(e){t((function(){if(e.a!=u)for(;e.f.length;){var t=e.f.shift(),n=t[0],o=t[1],i=t[2],t=t[3];try{0==e.a?i("function"==typeof n?n.call(void 0,e.b):e.b):1==e.a&&("function"==typeof o?i(o.call(void 0,e.b)):t(e.b))}catch(e){t(e)}}}))}function c(t){return new n(function(e,n){var o=0,r=[];0==t.length&&e(r);for(var a=0;a<t.length;a+=1)i(t[a]).c(function(n){return function(i){r[n]=i,(o+=1)==t.length&&e(r)}}(a),n)})}function d(t){return new n(function(e,n){for(var o=0;o<t.length;o+=1)i(t[o]).c(e,n)})}var l,f=[];l=function(){setTimeout(e)};var u=2;n.prototype.g=function(t){return this.c(void 0,t)},n.prototype.c=function(t,e){var o=this;return new n(function(n,i){o.f.push([t,e,n,i]),s(o)})},window.Promise||(window.Promise=n,window.Promise.resolve=i,window.Promise.reject=o,window.Promise.race=d,window.Promise.all=c,window.Promise.prototype.then=n.prototype.c,window.Promise.prototype.catch=n.prototype.g)})(),(function(){function t(t,e){d?t.addEventListener("scroll",e,!1):t.attachEvent("scroll",e)}function e(t){document.body?t():d?document.addEventListener("DOMContentLoaded",t):document.attachEvent("onreadystatechange",(function(){"interactive"!=document.readyState&&"complete"!=document.readyState||t()}))}function n(t){this.a=document.createElement("div"),this.a.setAttribute("aria-hidden","true"),this.a.appendChild(document.createTextNode(t)),this.b=document.createElement("span"),this.c=document.createElement("span"),this.h=document.createElement("span"),this.f=document.createElement("span"),this.g=-1,this.b.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.c.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.f.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.h.style.cssText="display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;",this.b.appendChild(this.h),this.c.appendChild(this.f),this.a.appendChild(this.b),this.a.appendChild(this.c)}function o(t,e){t.a.style.cssText="max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;left:-999px;white-space:nowrap;font:"+e+";"}function i(t){var e=t.a.offsetWidth,n=e+100;return t.f.style.width=n+"px",t.c.scrollLeft=n,t.b.scrollLeft=t.b.scrollWidth+100,t.g!==e&&(t.g=e,!0)}function r(e,n){function o(){var t=r;i(t)&&null!==t.a.parentNode&&n(t.g)}var r=e;t(e.b,o),t(e.c,o),i(e)}function a(t,e){var n=e||{};this.family=t,this.style=n.style||"normal",this.weight=n.weight||"normal",this.stretch=n.stretch||"normal"}function s(){if(null===f){var t=document.createElement("div");try{t.style.font="condensed 100px sans-serif"}catch(t){}f=""!==t.style.font}return f}function c(t,e){return[t.style,t.weight,s()?t.stretch:"","100px",e].join(" ")}var d=!!document.addEventListener,l=null,f=null,u=!!window.FontFace;a.prototype.load=function(t,i){var a=this,s=t||"BESbswy",d=i||3e3,f=(new Date).getTime();return new Promise(function(t,i){if(u){var h=new Promise(function(t,e){function n(){(new Date).getTime()-f>=d?e():document.fonts.load(c(a,a.family),s).then((function(e){1<=e.length?t():setTimeout(n,25)}),(function(){e()}))}n()}),p=new Promise(function(t,e){setTimeout(e,d)});Promise.race([p,h]).then((function(){t(a)}),(function(){i(a)}))}else e((function(){function e(){var e;(e=-1!=w&&-1!=v||-1!=w&&-1!=y||-1!=v&&-1!=y)&&((e=w!=v&&w!=y&&v!=y)||(null===l&&(e=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent),l=!!e&&(536>parseInt(e[1],10)||536===parseInt(e[1],10)&&11>=parseInt(e[2],10))),e=l&&(w==g&&v==g&&y==g||w==b&&v==b&&y==b||w==x&&v==x&&y==x)),e=!e),e&&(null!==T.parentNode&&T.parentNode.removeChild(T),clearTimeout(E),t(a))}function u(){if((new Date).getTime()-f>=d)null!==T.parentNode&&T.parentNode.removeChild(T),i(a);else{var t=document.hidden;!0!==t&&void 0!==t||(w=h.a.offsetWidth,v=p.a.offsetWidth,y=m.a.offsetWidth,e()),E=setTimeout(u,50)}}var h=new n(s),p=new n(s),m=new n(s),w=-1,v=-1,y=-1,g=-1,b=-1,x=-1,T=document.createElement("div"),E=0;T.dir="ltr",o(h,c(a,"sans-serif")),o(p,c(a,"serif")),o(m,c(a,"monospace")),T.appendChild(h.a),T.appendChild(p.a),T.appendChild(m.a),document.body.appendChild(T),g=h.a.offsetWidth,b=p.a.offsetWidth,x=m.a.offsetWidth,u(),r(h,(function(t){w=t,e()})),o(h,c(a,'"'+a.family+'",sans-serif')),r(p,(function(t){v=t,e()})),o(p,c(a,'"'+a.family+'",serif')),r(m,(function(t){y=t,e()})),o(m,c(a,'"'+a.family+'",monospace'))}))})},window.FontFaceObserver=a,window.FontFaceObserver.prototype.check=window.FontFaceObserver.prototype.load=a.prototype.load,"undefined"!=typeof module&&(module.exports=window.FontFaceObserver)})();var getCookie=function(t){var e="; "+document.cookie,n=e.split("; "+t+"=");if(2==n.length)return n.pop().split(";").shift()};!(function(){var t="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i";if(getCookie("fontsLoaded"))loadCSS(t),document.documentElement.className+=" fonts-loaded";else{loadCSS(t);new FontFaceObserver("PT Serif").load().then((function(){var t=new Date(+new Date+6048e5).toUTCString();document.cookie="fontsLoaded=true; expires="+t,document.documentElement.className+=" fonts-loaded"}))}})();
+		</script>
+	</head>
+
+	<body class="type-articles page-single" id="page-d25cbac429af95ce41613da72b0b839a">
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li class="active" ><a href="https://gomakethings.com/articles">Daily Tips</a></li><li><a href="https://gomakethings.com/resources">Learn JS</a></li>
+			</ul>
+			
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+		<header>
+
+			<aside class="text-muted">
+				<time datetime="2018-07-24 10:30:00 -0400 EDT" pubdate>July 24, 2018</time>
+			</aside>
+
+			<h1 class="no-padding-top">
+				How I built my own vanilla JS alternative to Vue and React
+			</h1>
+
+		</header>
+
+		
+
+<p>Yesterday, I wrote about <a href="https://github.com/cferdinandi/reef">Reef.js, my new vanilla JS alternative to Vue and React</a>, and <a href="https://gomakethings.com/why-i-wrote-my-own-vanilla-js-alternative-to-vue-and-react/">why I decided to write my own little helper method</a>.</p>
+
+<p>Today, I want to show you <em>how</em> I actually built it, and what makes it all work under the hood.</p>
+
+<p>Let&rsquo;s dig in!</p>
+
+<h2 id="a-quick-refresher">A quick refresher</h2>
+
+<p>If you forgot/aren&rsquo;t familiar with Reef&rsquo;s syntax, here&rsquo;s <a href="http://jsfiddle.net/cferdinandi/7o5zydvL/5/">an example of a simple clock app</a>.</p>
+
+<p>Rhe <code>Reef()</code> method accepts two arguments. The first is the element to render your template into, either as a selector string or the actual node itself. The second is an object with your template, and optionally, your data/or state.</p>
+
+<p>The template can be a simple string, or a function that returns a string. If a function is used, your data or state is passed in as an argument. For a more JSX/React-like experience, you can use template literals.</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;app&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// Setup the component
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">app</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Reef</span><span class="p">(</span><span class="s1">&#39;#app&#39;</span><span class="p">,</span> <span class="p">{</span>
+	<span class="nx">data</span><span class="o">:</span> <span class="p">{</span>
+		<span class="nx">time</span><span class="o">:</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">().</span><span class="nx">toLocaleTimeString</span><span class="p">()</span>
+	<span class="p">},</span>
+	<span class="nx">template</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="s1">&#39;&lt;strong&gt;The time is:&lt;/strong&gt; &#39;</span> <span class="o">+</span> <span class="nx">props</span><span class="p">.</span><span class="nx">time</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="p">});</span>
+
+<span class="c1">// Render the component
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="nx">render</span><span class="p">();</span>
+
+<span class="c1">// Update the clock once a second
+</span><span class="c1"></span><span class="nb">window</span><span class="p">.</span><span class="nx">setInterval</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+	<span class="nx">app</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">time</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">().</span><span class="nx">toLocaleTimeString</span><span class="p">();</span>
+	<span class="nx">app</span><span class="p">.</span><span class="nx">render</span><span class="p">();</span>
+<span class="p">},</span> <span class="mi">1000</span><span class="p">);</span>
+</code></pre></div>
+<p><a href="https://github.com/cferdinandi/reef">Dig into the full documentation on GitHub.</a></p>
+
+<h2 id="the-foundation">The foundation</h2>
+
+<p><em><strong>Note:</strong> Reef is an improved version of the <a href="https://gomakethings.com/a-stateful-component-helper-function-for-vanilla-js/">state-based component helper function</a> I wrote about a couple of weeks ago. If you read that article, a lot of this will seem familiar.</em></p>
+
+<p>First, I setup a <a href="https://vanillajstoolkit.com/boilerplates/#UMD">UMD wrapper</a>. Never heard of UMD?</p>
+
+<blockquote>
+<p>If you want your plugin to work with RequireJS, Node, or Browserify, you should use a Universal Module Definition (UMD) pattern. This wrapper for your plugin provides support for AMD and CommonJS modules, as well as global variables (like you would use with a revealing module pattern).</p>
+</blockquote>
+
+<p>Here&rsquo;s what that looks like.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">root</span><span class="p">,</span> <span class="nx">factory</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">define</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">define</span><span class="p">.</span><span class="nx">amd</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">define</span><span class="p">([],</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+			<span class="k">return</span> <span class="nx">factory</span><span class="p">(</span><span class="nx">root</span><span class="p">);</span>
+		<span class="p">});</span>
+	<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">exports</span> <span class="o">===</span> <span class="s1">&#39;object&#39;</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">factory</span><span class="p">(</span><span class="nx">root</span><span class="p">);</span>
+	<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+		<span class="nx">root</span><span class="p">.</span><span class="nx">Reef</span> <span class="o">=</span> <span class="nx">factory</span><span class="p">(</span><span class="nx">root</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">})(</span><span class="k">typeof</span> <span class="nx">global</span> <span class="o">!==</span> <span class="s1">&#39;undefined&#39;</span> <span class="o">?</span> <span class="nx">global</span> <span class="o">:</span> <span class="k">typeof</span> <span class="nb">window</span> <span class="o">!==</span> <span class="s1">&#39;undefined&#39;</span> <span class="o">?</span> <span class="nb">window</span> <span class="o">:</span> <span class="k">this</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nb">window</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="s1">&#39;use strict&#39;</span><span class="p">;</span>
+
+	<span class="c1">// My code will go here...
+</span><span class="c1"></span>
+<span class="p">});</span>
+</code></pre></div>
+<p>Next, I created a component object that holds all of the properties (the element, the state/data, and the template) for a component.</p>
+
+<p>First, I make sure <code>DOMParser</code> is supported. We&rsquo;ll talk about this more later, but its what allows us to securely turn strings into DOM elements. Then, I make sure that an <code>elem</code> argument and an <code>options.template</code> property were provided. Without either of them, Reef is useless.</p>
+
+<p>Assuming all is good, I set the <code>elem</code>, <code>template</code>, and <code>data</code> (if provided) as properties of the <code>Component</code>. Then, I return it.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">root</span><span class="p">,</span> <span class="nx">factory</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">define</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">define</span><span class="p">.</span><span class="nx">amd</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">define</span><span class="p">([],</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+			<span class="k">return</span> <span class="nx">factory</span><span class="p">(</span><span class="nx">root</span><span class="p">);</span>
+		<span class="p">});</span>
+	<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">exports</span> <span class="o">===</span> <span class="s1">&#39;object&#39;</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">factory</span><span class="p">(</span><span class="nx">root</span><span class="p">);</span>
+	<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+		<span class="nx">root</span><span class="p">.</span><span class="nx">Reef</span> <span class="o">=</span> <span class="nx">factory</span><span class="p">(</span><span class="nx">root</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">})(</span><span class="k">typeof</span> <span class="nx">global</span> <span class="o">!==</span> <span class="s1">&#39;undefined&#39;</span> <span class="o">?</span> <span class="nx">global</span> <span class="o">:</span> <span class="k">typeof</span> <span class="nb">window</span> <span class="o">!==</span> <span class="s1">&#39;undefined&#39;</span> <span class="o">?</span> <span class="nb">window</span> <span class="o">:</span> <span class="k">this</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nb">window</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="s1">&#39;use strict&#39;</span><span class="p">;</span>
+
+	<span class="cm">/**
+</span><span class="cm">	 * Create the Component object
+</span><span class="cm">	 * @param {String|Node} elem    The element to make into a component
+</span><span class="cm">	 * @param {Object}      options The component options
+</span><span class="cm">	 */</span>
+	<span class="kd">var</span> <span class="nx">Component</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">elem</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
+
+		<span class="c1">// Check browser support
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="s1">&#39;DOMParser&#39;</span> <span class="k">in</span> <span class="nb">window</span><span class="p">))</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js is not supported by this browser.&#39;</span><span class="p">;</span>
+
+		<span class="c1">// Make sure an element is provided
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">elem</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: You did not provide an element to make into a component.&#39;</span><span class="p">;</span>
+
+		<span class="c1">// Make sure a template is provided
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">options</span> <span class="o">||</span> <span class="o">!</span><span class="nx">options</span><span class="p">.</span><span class="nx">template</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: You did not provide a template for this component.&#39;</span><span class="p">;</span>
+
+		<span class="c1">// Set the component properties
+</span><span class="c1"></span>		<span class="k">this</span><span class="p">.</span><span class="nx">elem</span> <span class="o">=</span> <span class="nx">elem</span><span class="p">;</span>
+		<span class="k">this</span><span class="p">.</span><span class="nx">data</span> <span class="o">=</span> <span class="nx">options</span><span class="p">.</span><span class="nx">data</span><span class="p">;</span>
+		<span class="k">this</span><span class="p">.</span><span class="nx">template</span> <span class="o">=</span> <span class="nx">options</span><span class="p">.</span><span class="nx">template</span><span class="p">;</span>
+
+	<span class="p">};</span>
+
+	<span class="k">return</span> <span class="nx">Component</span><span class="p">;</span>
+
+<span class="p">});</span>
+</code></pre></div>
+<p>We&rsquo;ve now got enough code in place that we can use the <code>new Reef()</code> method. It won&rsquo;t do anything, but it won&rsquo;t throw errors, either.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">myApp</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Reef</span><span class="p">(</span><span class="s1">&#39;#my-app&#39;</span><span class="p">,</span> <span class="p">{</span>
+	<span class="nx">data</span><span class="o">:</span> <span class="p">[],</span>
+	<span class="nx">template</span><span class="o">:</span> <span class="s1">&#39;&#39;</span>
+<span class="p">});</span>
+</code></pre></div>
+<h2 id="rendering-the-dom">Rendering the DOM</h2>
+
+<p>Now that we&rsquo;ve got our stateful component set up, we can use the <code>template</code>, and optionally the <code>data</code>, to create HTML and inject it into the DOM.</p>
+
+<p>In <a href="a-stateful-component-helper-function-for-vanilla-js/">my original series on stateful components</a>, I used <code>innerHTML</code> to do this. It&rsquo;s simple and it works, but <a href="https://gomakethings.com/preventing-cross-site-scripting-attacks-when-using-innerhtml-in-vanilla-javascript/">it leaves you exposed to cross-site scripting attacks</a>.</p>
+
+<p>To work around this, I included a <a href="https://vanillajstoolkit.com/helpers/sanitizehtml/">helper method to sanitize third-party data</a>. It works, but it requires developer discipline to work properly. You need to remember to use it and do so proactively.</p>
+
+<p>One nice thing about Vue and React is that they handle this for you, and I wanted Reef to do that, too. This roughly doubled the size of the function, from 0.7kb to 1.5kb. Not a bad tradeoff for better out-of-the-box security!</p>
+
+<p>Let&rsquo;s look at how that works.</p>
+
+<h3 id="the-render-method">The <code>.render()</code> method</h3>
+
+<p>I added a <code>.render()</code> method to the <code>Component.prototype</code>.</p>
+
+<p>First up: some checks and tests to make sure we have everything we need. The method does is double-check that <code>DOMParser</code> is supported and that a <code>template</code> exists.</p>
+
+<p>Then, if the <code>elem</code> property is a string, it uses <code>querySelector()</code> to find it. Otherwise, it uses the provided DOM node. If the element doesn&rsquo;t exist, it throws an error.</p>
+
+<p>Finally, if the <code>template</code> property is a function, it runs it to get the template. Otherwise, it uses it outright. If the template is not a string or number, Reef throws an error.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Render a template into the DOM
+</span><span class="cm"> * @return {Node}                   The element
+</span><span class="cm"> */</span>
+<span class="nx">Component</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">render</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+
+	<span class="c1">// Check browser support
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="s1">&#39;DOMParser&#39;</span> <span class="k">in</span> <span class="nb">window</span><span class="p">))</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js is not supported by this browser.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Make sure there&#39;s a template
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: No template was provided.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// If elem is an element, use it.
+</span><span class="c1"></span>	<span class="c1">// If it&#39;s a selector, get it.
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">elem</span> <span class="o">=</span> <span class="k">typeof</span> <span class="k">this</span><span class="p">.</span><span class="nx">elem</span> <span class="o">===</span> <span class="s1">&#39;string&#39;</span> <span class="o">?</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">elem</span><span class="p">)</span> <span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">elem</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">elem</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: The DOM element to render your template into was not found.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Get the template
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">template</span> <span class="o">=</span> <span class="p">(</span><span class="k">typeof</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span> <span class="o">?</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span> <span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">);</span>
+	<span class="k">if</span> <span class="p">([</span><span class="s1">&#39;string&#39;</span><span class="p">,</span> <span class="s1">&#39;number&#39;</span><span class="p">].</span><span class="nx">indexOf</span><span class="p">(</span><span class="k">typeof</span> <span class="nx">template</span><span class="p">)</span> <span class="o">===</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<h3 id="injecting-the-template-into-the-dom">Injecting the template into the DOM</h3>
+
+<p>This is where we deviate from some of my older tutorials.</p>
+
+<p>I pass my template string into a <code>stringToHTML()</code> method that converts it into actual DOM elements that can be parsed. Then, I pass that result into another helper method called <code>createDOMMap()</code>. This creates a nested array of the elements in the DOM tree for the template.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Render a template into the DOM
+</span><span class="cm"> * @return {Node}                   The element
+</span><span class="cm"> */</span>
+<span class="nx">Component</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">render</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+
+	<span class="c1">// Check browser support
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="s1">&#39;DOMParser&#39;</span> <span class="k">in</span> <span class="nb">window</span><span class="p">))</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js is not supported by this browser.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Make sure there&#39;s a template
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: No template was provided.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// If elem is an element, use it.
+</span><span class="c1"></span>	<span class="c1">// If it&#39;s a selector, get it.
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">elem</span> <span class="o">=</span> <span class="k">typeof</span> <span class="k">this</span><span class="p">.</span><span class="nx">elem</span> <span class="o">===</span> <span class="s1">&#39;string&#39;</span> <span class="o">?</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">elem</span><span class="p">)</span> <span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">elem</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">elem</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: The DOM element to render your template into was not found.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Get the template
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">template</span> <span class="o">=</span> <span class="p">(</span><span class="k">typeof</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span> <span class="o">?</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span> <span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">);</span>
+	<span class="k">if</span> <span class="p">([</span><span class="s1">&#39;string&#39;</span><span class="p">,</span> <span class="s1">&#39;number&#39;</span><span class="p">].</span><span class="nx">indexOf</span><span class="p">(</span><span class="k">typeof</span> <span class="nx">template</span><span class="p">)</span> <span class="o">===</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+	<span class="c1">// Create DOM maps of the template and target element
+</span><span class="c1"></span>	<span class="c1">// var templateMap = sanitize(template);
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">templateMap</span> <span class="o">=</span> <span class="nx">createDOMMap</span><span class="p">(</span><span class="nx">stringToHTML</span><span class="p">(</span><span class="nx">template</span><span class="p">));</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>It looks something like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="p">[</span>
+	<span class="p">{</span>
+		<span class="nx">content</span><span class="o">:</span> <span class="s1">&#39;Hello world&#39;</span><span class="p">,</span>
+		<span class="nx">atts</span><span class="o">:</span> <span class="p">[</span>
+			<span class="p">{</span>
+				<span class="nx">att</span><span class="o">:</span> <span class="s1">&#39;class&#39;</span><span class="p">,</span>
+				<span class="nx">value</span><span class="o">:</span> <span class="s1">&#39;hero-text&#39;</span>
+			<span class="p">},</span>
+			<span class="p">{</span>
+				<span class="nx">att</span><span class="o">:</span> <span class="s1">&#39;data-name&#39;</span><span class="p">,</span>
+				<span class="nx">value</span><span class="o">:</span> <span class="s1">&#39;world&#39;</span>
+			<span class="p">}</span>
+		<span class="p">],</span>
+		<span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;h1&#39;</span><span class="p">,</span>
+		<span class="nx">children</span><span class="o">:</span> <span class="p">[],</span>
+		<span class="nx">node</span><span class="o">:</span> <span class="nx">h1</span> <span class="c1">// this is the actual Node itself
+</span><span class="c1"></span>	<span class="p">},</span>
+	<span class="p">{</span>
+		<span class="nx">content</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+		<span class="nx">atts</span><span class="o">:</span> <span class="p">[],</span>
+		<span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;div&#39;</span><span class="p">,</span>
+		<span class="nx">children</span><span class="o">:</span> <span class="p">[</span>
+			<span class="c1">// An array like this one, with all of the elements inside the div
+</span><span class="c1"></span>			<span class="p">{</span>
+				<span class="nx">content</span><span class="o">:</span> <span class="s1">&#39;In this chapter...&#39;</span><span class="p">,</span>
+				<span class="nx">atts</span><span class="o">:</span> <span class="p">[],</span>
+				<span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;h2&#39;</span><span class="p">,</span>
+				<span class="nx">children</span><span class="o">:</span> <span class="p">[],</span>
+				<span class="nx">node</span><span class="o">:</span> <span class="nx">h2</span> <span class="c1">// this is the actual Node itself
+</span><span class="c1"></span>			<span class="p">},</span>
+			<span class="c1">// ...
+</span><span class="c1"></span>		<span class="p">],</span>
+		<span class="nx">node</span><span class="o">:</span> <span class="nx">div</span>
+	<span class="p">}</span>
+<span class="p">]</span>
+</code></pre></div>
+<p>I do the same thing with the element we&rsquo;re going to render the template into.</p>
+
+<p>Then, I run them both through a <code>diff()</code> helper function that compares each node in the two DOM tree maps, looks for differences, and only updates the things that have changed.</p>
+
+<p>We&rsquo;ll look at how that all works in just a few moments.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Render a template into the DOM
+</span><span class="cm"> * @return {Node}                   The element
+</span><span class="cm"> */</span>
+<span class="nx">Component</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">render</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+
+	<span class="c1">// Check browser support
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="s1">&#39;DOMParser&#39;</span> <span class="k">in</span> <span class="nb">window</span><span class="p">))</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js is not supported by this browser.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Make sure there&#39;s a template
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: No template was provided.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// If elem is an element, use it.
+</span><span class="c1"></span>	<span class="c1">// If it&#39;s a selector, get it.
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">elem</span> <span class="o">=</span> <span class="k">typeof</span> <span class="k">this</span><span class="p">.</span><span class="nx">elem</span> <span class="o">===</span> <span class="s1">&#39;string&#39;</span> <span class="o">?</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">elem</span><span class="p">)</span> <span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">elem</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">elem</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: The DOM element to render your template into was not found.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Get the template
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">template</span> <span class="o">=</span> <span class="p">(</span><span class="k">typeof</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span> <span class="o">?</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span> <span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">);</span>
+	<span class="k">if</span> <span class="p">([</span><span class="s1">&#39;string&#39;</span><span class="p">,</span> <span class="s1">&#39;number&#39;</span><span class="p">].</span><span class="nx">indexOf</span><span class="p">(</span><span class="k">typeof</span> <span class="nx">template</span><span class="p">)</span> <span class="o">===</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+	<span class="c1">// Create DOM maps of the template and target element
+</span><span class="c1"></span>	<span class="c1">// var templateMap = sanitize(template);
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">templateMap</span> <span class="o">=</span> <span class="nx">createDOMMap</span><span class="p">(</span><span class="nx">stringToHTML</span><span class="p">(</span><span class="nx">template</span><span class="p">));</span>
+	<span class="kd">var</span> <span class="nx">domMap</span> <span class="o">=</span> <span class="nx">createDOMMap</span><span class="p">(</span><span class="nx">elem</span><span class="p">);</span>
+
+	<span class="c1">// Diff and update the DOM
+</span><span class="c1"></span>	<span class="nx">diff</span><span class="p">(</span><span class="nx">templateMap</span><span class="p">,</span> <span class="nx">domMap</span><span class="p">,</span> <span class="nx">elem</span><span class="p">);</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>Finally, I emit a custom event, <code>render</code>, on the element that our template was injected into. You can listen for these events with <code>addEventListener()</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;render&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">id</span> <span class="o">===</span> <span class="s1">&#39;my-app&#39;</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;My app was rendered!&#39;</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">},</span> <span class="kc">false</span><span class="p">);</span>
+</code></pre></div>
+<p>Then, I return the element itself. This isn&rsquo;t likely to be used often, but I wanted to bake as much flexibility in for use cases I haven&rsquo;t thought of as I could.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Render a template into the DOM
+</span><span class="cm"> * @return {Node}                   The element
+</span><span class="cm"> */</span>
+<span class="nx">Component</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">render</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+
+	<span class="c1">// Check browser support
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="s1">&#39;DOMParser&#39;</span> <span class="k">in</span> <span class="nb">window</span><span class="p">))</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js is not supported by this browser.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Make sure there&#39;s a template
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: No template was provided.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// If elem is an element, use it.
+</span><span class="c1"></span>	<span class="c1">// If it&#39;s a selector, get it.
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">elem</span> <span class="o">=</span> <span class="k">typeof</span> <span class="k">this</span><span class="p">.</span><span class="nx">elem</span> <span class="o">===</span> <span class="s1">&#39;string&#39;</span> <span class="o">?</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">elem</span><span class="p">)</span> <span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">elem</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">elem</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: The DOM element to render your template into was not found.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Get the template
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">template</span> <span class="o">=</span> <span class="p">(</span><span class="k">typeof</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span> <span class="o">?</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span> <span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">);</span>
+	<span class="k">if</span> <span class="p">([</span><span class="s1">&#39;string&#39;</span><span class="p">,</span> <span class="s1">&#39;number&#39;</span><span class="p">].</span><span class="nx">indexOf</span><span class="p">(</span><span class="k">typeof</span> <span class="nx">template</span><span class="p">)</span> <span class="o">===</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+	<span class="c1">// Create DOM maps of the template and target element
+</span><span class="c1"></span>	<span class="c1">// var templateMap = sanitize(template);
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">templateMap</span> <span class="o">=</span> <span class="nx">createDOMMap</span><span class="p">(</span><span class="nx">stringToHTML</span><span class="p">(</span><span class="nx">template</span><span class="p">));</span>
+	<span class="kd">var</span> <span class="nx">domMap</span> <span class="o">=</span> <span class="nx">createDOMMap</span><span class="p">(</span><span class="nx">elem</span><span class="p">);</span>
+
+	<span class="c1">// Diff and update the DOM
+</span><span class="c1"></span>	<span class="nx">diff</span><span class="p">(</span><span class="nx">templateMap</span><span class="p">,</span> <span class="nx">domMap</span><span class="p">,</span> <span class="nx">elem</span><span class="p">);</span>
+
+	<span class="c1">// Dispatch a render event
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nb">window</span><span class="p">.</span><span class="nx">CustomEvent</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kd">var</span> <span class="nx">event</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">CustomEvent</span><span class="p">(</span><span class="s1">&#39;render&#39;</span><span class="p">,</span> <span class="p">{</span>
+			<span class="nx">bubbles</span><span class="o">:</span> <span class="kc">true</span>
+		<span class="p">});</span>
+		<span class="nx">elem</span><span class="p">.</span><span class="nx">dispatchEvent</span><span class="p">(</span><span class="nx">event</span><span class="p">);</span>
+	<span class="p">}</span>
+
+	<span class="c1">// Return the elem for use elsewhere
+</span><span class="c1"></span>	<span class="k">return</span> <span class="nx">elem</span><span class="p">;</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<h3 id="converting-a-string-into-html">Converting a string into HTML</h3>
+
+<p>A simple way to convert a string to HTML is to do something like this.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">template</span> <span class="o">=</span>
+	<span class="s1">&#39;&lt;h1&gt;Hello world!&lt;/h1&gt;&#39;</span> <span class="o">+</span>
+	<span class="s1">&#39;&lt;div&gt;&#39;</span> <span class="o">+</span>
+		<span class="s1">&#39;&lt;h2&gt;This article contains...&lt;/h2&gt;&#39;</span> <span class="o">+</span>
+	<span class="s1">&#39;&lt;/div&gt;&#39;</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">tempDiv</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;div&#39;</span><span class="p">);</span>
+<span class="nx">tempDiv</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">template</span><span class="p">;</span>
+</code></pre></div>
+<p><em>However</em>&hellip; even if you don&rsquo;t render your <code>tempDiv</code> into the DOM, it will still execute things like <code>onerror</code> properties that can be used to run <a href="https://gomakethings.com/preventing-cross-site-scripting-attacks-when-using-innerhtml-in-vanilla-javascript/">cross-site scripting attacks</a>.</p>
+
+<p>After a bunch of Googling, <a href="https://developer.mozilla.org/en-US/docs/Web/API/DOMParser">I discovered <code>DOMParser()</code></a>, a browser API that let&rsquo;s you create DOM nodes from a string <em>without</em> executing them. It works in all modern browsers, and IE9 and up. Perfect!</p>
+
+<p>It creates an entire HTML document (with a <code>headder</code>, <code>body</code> and so on). In my <code>stringToHTML()</code> method, I pass in my string and return the document <code>body</code>. It has the template as actual HTML elements from our template.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Convert a template string into HTML DOM nodes
+</span><span class="cm"> * @param  {String} str The template string
+</span><span class="cm"> * @return {Node}       The template HTML
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">stringToHTML</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">str</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">var</span> <span class="nx">parser</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">DOMParser</span><span class="p">();</span>
+	<span class="kd">var</span> <span class="nx">doc</span> <span class="o">=</span> <span class="nx">parser</span><span class="p">.</span><span class="nx">parseFromString</span><span class="p">(</span><span class="nx">str</span><span class="p">,</span> <span class="s1">&#39;text/html&#39;</span><span class="p">);</span>
+	<span class="k">return</span> <span class="nx">doc</span><span class="p">.</span><span class="nx">body</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div>
+<h3 id="creating-a-map-of-dom-nodes">Creating a map of DOM nodes</h3>
+
+<p>Now that we&rsquo;ve converted our string into HTML elements, we can map them into an array with the <code>createDOMMap()</code> helper method.</p>
+
+<p>In this method, I created a <code>map</code> array that will hold all of the data about our DOM tree.</p>
+
+<p>I used the <code>.childNodes</code> property to get all of the direct descendant HTML nodes inside our element. You <em>could</em> also use the <code>.children</code>, but it excludes text nodes that are not wrapper in HTML elements.</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>This would get included<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>This would, too!<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+But this would not...</code></pre></div>
+<p>Then, I pass it through <code>Array.from()</code> to create an array from the NodesList that it returns, and use the <code>forEach()</code> method to loop through each item.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Create a DOM Tree Map for an element
+</span><span class="cm"> * @param  {Node}   element The element to map
+</span><span class="cm"> * @return {Array}          A DOM tree map
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">createDOMMap</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">element</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">var</span> <span class="nx">map</span> <span class="o">=</span> <span class="p">[];</span>
+	<span class="nb">Array</span><span class="p">.</span><span class="nx">from</span><span class="p">(</span><span class="nx">element</span><span class="p">.</span><span class="nx">childNodes</span><span class="p">).</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">node</span><span class="p">)</span> <span class="p">{</span>
+		<span class="c1">// Do something...
+</span><span class="c1"></span>	<span class="p">});</span>
+<span class="p">};</span>
+</code></pre></div>
+<p>In the <code>forEach()</code> loop, I push an object into the <code>map</code> array, with the following properties:</p>
+
+<ul>
+<li><code>content</code> - The <code>.textContent</code> of the node, or <code>null</code> if the node has other nodes in it.</li>
+<li><code>atts</code> - The attributes on the element. This is created by passing the <code>.attributes</code> property value into a <code>getAttributes()</code> helper that we&rsquo;ll look at in a bit.</li>
+<li><code>type</code> - the <code>.tagName</code> (<code>h1</code>, <code>div</code>, etc.). If the element is a text node (<code>nodeType === 3</code>), it doesn&rsquo;t have a <code>.tagName</code> property so we&rsquo;ll use <code>text</code> instead.</li>
+<li><code>children</code> - A map of the child nodes for the element. I create this by recursively passing the current node into <code>createDOMMap()</code>.</li>
+<li><code>node</code> - The actual HTML element itself.</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Create a DOM Tree Map for an element
+</span><span class="cm"> * @param  {Node}   element The element to map
+</span><span class="cm"> * @return {Array}          A DOM tree map
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">createDOMMap</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">element</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">var</span> <span class="nx">map</span> <span class="o">=</span> <span class="p">[];</span>
+	<span class="nb">Array</span><span class="p">.</span><span class="nx">from</span><span class="p">(</span><span class="nx">element</span><span class="p">.</span><span class="nx">childNodes</span><span class="p">).</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">node</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">map</span><span class="p">.</span><span class="nx">push</span><span class="p">({</span>
+			<span class="nx">content</span><span class="o">:</span> <span class="nx">node</span><span class="p">.</span><span class="nx">childNodes</span> <span class="o">&amp;&amp;</span> <span class="nx">node</span><span class="p">.</span><span class="nx">childNodes</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">?</span> <span class="kc">null</span> <span class="o">:</span> <span class="nx">node</span><span class="p">.</span><span class="nx">textContent</span><span class="p">,</span>
+			<span class="nx">atts</span><span class="o">:</span> <span class="nx">node</span><span class="p">.</span><span class="nx">nodeType</span> <span class="o">===</span> <span class="mi">3</span> <span class="o">?</span> <span class="p">[]</span> <span class="o">:</span> <span class="nx">getAttributes</span><span class="p">(</span><span class="nx">node</span><span class="p">.</span><span class="nx">attributes</span><span class="p">),</span>
+			<span class="nx">type</span><span class="o">:</span> <span class="nx">node</span><span class="p">.</span><span class="nx">nodeType</span> <span class="o">===</span> <span class="mi">3</span> <span class="o">?</span> <span class="s1">&#39;text&#39;</span> <span class="o">:</span> <span class="nx">node</span><span class="p">.</span><span class="nx">tagName</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">(),</span>
+			<span class="nx">children</span><span class="o">:</span> <span class="nx">createDOMMap</span><span class="p">(</span><span class="nx">node</span><span class="p">),</span>
+			<span class="nx">node</span><span class="o">:</span> <span class="nx">node</span>
+		<span class="p">});</span>
+	<span class="p">});</span>
+	<span class="k">return</span> <span class="nx">map</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div>
+<h3 id="getting-the-attributes-on-a-dom-node">Getting the attributes on a DOM node</h3>
+
+<p>The <code>.attributes</code> property is a list NamedNodeMap of all of the properties and attributes on an element. It contains a ton of info, and since it&rsquo;s not an array, isn&rsquo;t ideal to work with.</p>
+
+<p>I used <code>Array.from()</code> to create an array from it, then used the <code>map()</code> method to create a new array with just the attribute name and it&rsquo;s value.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Create an array of the attributes on an element
+</span><span class="cm"> * @param  {NamedNodeMap} attributes The attributes on an element
+</span><span class="cm"> * @return {Array}                   The attributes on an element as an array of key/value pairs
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">getAttributes</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">attributes</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="nb">Array</span><span class="p">.</span><span class="nx">from</span><span class="p">(</span><span class="nx">attributes</span><span class="p">).</span><span class="nx">map</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">attribute</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="p">{</span>
+			<span class="nx">att</span><span class="o">:</span> <span class="nx">attribute</span><span class="p">.</span><span class="nx">name</span><span class="p">,</span>
+			<span class="nx">value</span><span class="o">:</span> <span class="nx">attribute</span><span class="p">.</span><span class="nx">value</span>
+		<span class="p">};</span>
+	<span class="p">});</span>
+<span class="p">};</span>
+</code></pre></div>
+<h3 id="diffing-dom-maps">Diffing DOM Maps</h3>
+
+<p>The hardest part of this project was, by far, creating the function to identify differences between the <code>templateMap</code> and the existing <code>domMap</code>, and make only the needed updates.</p>
+
+<p>Why do this versus just wipe out and start over?</p>
+
+<p>The two big ones:</p>
+
+<ol>
+<li>It&rsquo;s better for performance.</li>
+<li>It preserves as much of the DOM state as possible, so you don&rsquo;t, for example, lose focus on a form field you&rsquo;re actively typing into (imagine an app that shows you a preview in real time as you type).</li>
+</ol>
+
+<p>First, I calculated the difference in length between the existing <code>domMap</code> and the <code>templateMap</code>. If the <code>domMap</code> has more elements, I loop through it in reverse and remove items until they&rsquo;re the same length.</p>
+
+<p>Then, I can loop through each item in my <code>templateMap</code> and compare it to the corresponding item in the <code>domMap</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Diff the existing DOM node versus the template
+</span><span class="cm"> * @param  {Array} templateMap A DOM tree map of the template content
+</span><span class="cm"> * @param  {Array} domMap      A DOM tree map of the existing DOM node
+</span><span class="cm"> * @param  {Node}  elem        The element to render content into
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">diff</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">templateMap</span><span class="p">,</span> <span class="nx">domMap</span><span class="p">,</span> <span class="nx">elem</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// If extra elements in domMap, remove them
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">count</span> <span class="o">=</span> <span class="nx">domMap</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="nx">templateMap</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="nx">count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">for</span> <span class="p">(;</span> <span class="nx">count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">count</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">domMap</span><span class="p">[</span><span class="nx">domMap</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="nx">count</span><span class="p">].</span><span class="nx">node</span><span class="p">.</span><span class="nx">remove</span><span class="p">();</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="c1">// Diff each item in the templateMap
+</span><span class="c1"></span>	<span class="nx">templateMap</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">node</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="p">{</span>
+		<span class="c1">// Compare
+</span><span class="c1"></span>	<span class="p">});</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>If the item in my <code>templateMap</code> doesn&rsquo;t exist at all in the <code>domMap</code>, I&rsquo;ll create a new DOM element using a <code>makeElem()</code> helper function (more on how that works in a bit). Then I&rsquo;ll append it to the parent element with the <code>appendChild()</code> method.</p>
+
+<p>If the item exists, but they&rsquo;re not the same type, I&rsquo;ll use <code>makeElem()</code> to create a new method, and the <code>replaceChild()</code> method to replace it in the DOM.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Diff the existing DOM node versus the template
+</span><span class="cm"> * @param  {Array} templateMap A DOM tree map of the template content
+</span><span class="cm"> * @param  {Array} domMap      A DOM tree map of the existing DOM node
+</span><span class="cm"> * @param  {Node}  elem        The element to render content into
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">diff</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">templateMap</span><span class="p">,</span> <span class="nx">domMap</span><span class="p">,</span> <span class="nx">elem</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// If extra elements in domMap, remove them
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">count</span> <span class="o">=</span> <span class="nx">domMap</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="nx">templateMap</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="nx">count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">for</span> <span class="p">(;</span> <span class="nx">count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">count</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">domMap</span><span class="p">[</span><span class="nx">domMap</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="nx">count</span><span class="p">].</span><span class="nx">node</span><span class="p">.</span><span class="nx">remove</span><span class="p">();</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="c1">// Diff each item in the templateMap
+</span><span class="c1"></span>	<span class="nx">templateMap</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">node</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="p">{</span>
+
+		<span class="c1">// If element doesn&#39;t exist, create it
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">])</span> <span class="p">{</span>
+			<span class="nx">elem</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">makeElem</span><span class="p">(</span><span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">]));</span>
+			<span class="k">return</span><span class="p">;</span>
+		<span class="p">}</span>
+
+		<span class="c1">// If element is not the same type, replace it with new element
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">type</span> <span class="o">!==</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">type</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">node</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">replaceChild</span><span class="p">(</span><span class="nx">makeElem</span><span class="p">(</span><span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">]),</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">node</span><span class="p">);</span>
+			<span class="k">return</span><span class="p">;</span>
+		<span class="p">}</span>
+
+	<span class="p">});</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>That takes care of creating new elements, but what about elements where only the content or some attributes have changed?</p>
+
+<p>I created a helper method, <code>diffAtts()</code>, to check for differences in attributes and update them accordingly. We&rsquo;ll look at that shortly, too.</p>
+
+<p>If the <code>content</code> properties don&rsquo;t match, I use <code>textContent</code> to update the content in the DOM.</p>
+
+<p>And if the item has child elements, I pass it recursively into the <code>diff()</code> method so that it can repeat the process.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Diff the existing DOM node versus the template
+</span><span class="cm"> * @param  {Array} templateMap A DOM tree map of the template content
+</span><span class="cm"> * @param  {Array} domMap      A DOM tree map of the existing DOM node
+</span><span class="cm"> * @param  {Node}  elem        The element to render content into
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">diff</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">templateMap</span><span class="p">,</span> <span class="nx">domMap</span><span class="p">,</span> <span class="nx">elem</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// If extra elements in domMap, remove them
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">count</span> <span class="o">=</span> <span class="nx">domMap</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="nx">templateMap</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="nx">count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">for</span> <span class="p">(;</span> <span class="nx">count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">count</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">domMap</span><span class="p">[</span><span class="nx">domMap</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="nx">count</span><span class="p">].</span><span class="nx">node</span><span class="p">.</span><span class="nx">remove</span><span class="p">();</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="c1">// Diff each item in the templateMap
+</span><span class="c1"></span>	<span class="nx">templateMap</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">node</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="p">{</span>
+
+		<span class="c1">// If element doesn&#39;t exist, create it
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">])</span> <span class="p">{</span>
+			<span class="nx">elem</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">makeElem</span><span class="p">(</span><span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">]));</span>
+			<span class="k">return</span><span class="p">;</span>
+		<span class="p">}</span>
+
+		<span class="c1">// If element is not the same type, replace it with new element
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">type</span> <span class="o">!==</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">type</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">node</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">replaceChild</span><span class="p">(</span><span class="nx">makeElem</span><span class="p">(</span><span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">]),</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">node</span><span class="p">);</span>
+			<span class="k">return</span><span class="p">;</span>
+		<span class="p">}</span>
+
+		<span class="c1">// If attributes are different, update them
+</span><span class="c1"></span>		<span class="nx">diffAtts</span><span class="p">(</span><span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">],</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">],</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">node</span><span class="p">);</span>
+
+		<span class="c1">// If content is different, update it
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">content</span> <span class="o">!==</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">content</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">node</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">content</span><span class="p">;</span>
+		<span class="p">}</span>
+
+		<span class="c1">// Repeat for child elements
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="nx">node</span><span class="p">.</span><span class="nx">children</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">diff</span><span class="p">(</span><span class="nx">node</span><span class="p">.</span><span class="nx">children</span><span class="p">,</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">children</span> <span class="o">||</span> <span class="p">[],</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">node</span><span class="p">);</span>
+		<span class="p">}</span>
+
+	<span class="p">});</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<h3 id="diffing-attributes">Diffing attributes</h3>
+
+<p>Finding the differences between attributes was a bit more involved that I had expected.</p>
+
+<p>First, I need to find attributes that are currently in the DOM but aren&rsquo;t in the new template.</p>
+
+<p>To do that, I pass the existing attributes into the <code>Array.filter()</code> method. In the callback, I use the <code>Array.find()</code> method to look the existing attribute in the new attributes array. If it&rsquo;s <code>undefined</code>, I return the item to the <code>filter()</code> array as one to be removed.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Diff the attributes on an existing element versus the template
+</span><span class="cm"> * @param  {Object} template The new template
+</span><span class="cm"> * @param  {Object} existing The existing DOM node
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">diffAtts</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">template</span><span class="p">,</span> <span class="nx">existing</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Get attributes to remove
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">remove</span> <span class="o">=</span> <span class="nx">existing</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">att</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kd">var</span> <span class="nx">getAtt</span> <span class="o">=</span> <span class="nx">template</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">newAtt</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">return</span> <span class="nx">att</span><span class="p">.</span><span class="nx">att</span> <span class="o">===</span> <span class="nx">newAtt</span><span class="p">.</span><span class="nx">att</span><span class="p">;</span>
+		<span class="p">});</span>
+		<span class="k">return</span> <span class="nx">getAtt</span> <span class="o">===</span> <span class="kc">undefined</span><span class="p">;</span>
+	<span class="p">});</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>Next, I need to find existing attributes that need to be updated and new ones to be added.</p>
+
+<p>I again use <code>Array.filter()</code>, this time with the new template attributes. Again, inside the callback, I use <code>Array.find()</code>, this time looking to see if the new attribute is already in the DOM.</p>
+
+<p>If it&rsquo;s <code>undefined</code>, or if the values don&rsquo;t match, I return it to the new array as an item to get added/updated.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Diff the attributes on an existing element versus the template
+</span><span class="cm"> * @param  {Object} template The new template
+</span><span class="cm"> * @param  {Object} existing The existing DOM node
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">diffAtts</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">template</span><span class="p">,</span> <span class="nx">existing</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Get attributes to remove
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">remove</span> <span class="o">=</span> <span class="nx">existing</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">att</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kd">var</span> <span class="nx">getAtt</span> <span class="o">=</span> <span class="nx">template</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">newAtt</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">return</span> <span class="nx">att</span><span class="p">.</span><span class="nx">att</span> <span class="o">===</span> <span class="nx">newAtt</span><span class="p">.</span><span class="nx">att</span><span class="p">;</span>
+		<span class="p">});</span>
+		<span class="k">return</span> <span class="nx">getAtt</span> <span class="o">===</span> <span class="kc">undefined</span><span class="p">;</span>
+	<span class="p">});</span>
+
+	<span class="c1">// Get attributes to change
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">change</span> <span class="o">=</span> <span class="nx">template</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">att</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kd">var</span> <span class="nx">getAtt</span> <span class="o">=</span> <span class="nx">existing</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">existingAtt</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">return</span> <span class="nx">att</span><span class="p">.</span><span class="nx">att</span> <span class="o">===</span> <span class="nx">existingAtt</span><span class="p">.</span><span class="nx">att</span><span class="p">;</span>
+		<span class="p">});</span>
+		<span class="k">return</span> <span class="nx">getAtt</span> <span class="o">===</span> <span class="kc">undefined</span> <span class="o">||</span> <span class="nx">getAtt</span><span class="p">.</span><span class="nx">value</span> <span class="o">!==</span> <span class="nx">att</span><span class="p">.</span><span class="nx">value</span><span class="p">;</span>
+	<span class="p">});</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>Then, I pass the <code>change</code> array into and <code>addAttributes()</code>, and the <code>remove</code> array into the <code>removeAttributes()</code> array</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Diff the attributes on an existing element versus the template
+</span><span class="cm"> * @param  {Object} template The new template
+</span><span class="cm"> * @param  {Object} existing The existing DOM node
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">diffAtts</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">template</span><span class="p">,</span> <span class="nx">existing</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Get attributes to remove
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">remove</span> <span class="o">=</span> <span class="nx">existing</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">att</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kd">var</span> <span class="nx">getAtt</span> <span class="o">=</span> <span class="nx">template</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">newAtt</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">return</span> <span class="nx">att</span><span class="p">.</span><span class="nx">att</span> <span class="o">===</span> <span class="nx">newAtt</span><span class="p">.</span><span class="nx">att</span><span class="p">;</span>
+		<span class="p">});</span>
+		<span class="k">return</span> <span class="nx">getAtt</span> <span class="o">===</span> <span class="kc">undefined</span><span class="p">;</span>
+	<span class="p">});</span>
+
+	<span class="c1">// Get attributes to change
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">change</span> <span class="o">=</span> <span class="nx">template</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">att</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kd">var</span> <span class="nx">getAtt</span> <span class="o">=</span> <span class="nx">existing</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">existingAtt</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">return</span> <span class="nx">att</span><span class="p">.</span><span class="nx">att</span> <span class="o">===</span> <span class="nx">existingAtt</span><span class="p">.</span><span class="nx">att</span><span class="p">;</span>
+		<span class="p">});</span>
+		<span class="k">return</span> <span class="nx">getAtt</span> <span class="o">===</span> <span class="kc">undefined</span> <span class="o">||</span> <span class="nx">getAtt</span><span class="p">.</span><span class="nx">value</span> <span class="o">!==</span> <span class="nx">att</span><span class="p">.</span><span class="nx">value</span><span class="p">;</span>
+	<span class="p">});</span>
+
+	<span class="c1">// Add/remove any required attributes
+</span><span class="c1"></span>	<span class="nx">addAttributes</span><span class="p">(</span><span class="nx">existing</span><span class="p">.</span><span class="nx">node</span><span class="p">,</span> <span class="nx">change</span><span class="p">);</span>
+	<span class="nx">removeAttributes</span><span class="p">(</span><span class="nx">existing</span><span class="p">.</span><span class="nx">node</span><span class="p">,</span> <span class="nx">remove</span><span class="p">);</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<h4 id="adding-attributes">Adding attributes</h4>
+
+<p>I loop through each attribute in the array using the <code>Array.forEach()</code> method.</p>
+
+<p>If the attribute type is <code>class</code>, I use <code>className</code> to set/update it. If the attribute name starts with <code>data-</code> (as in, it&rsquo;s a data attribute), I use <code>setAttribute()</code> to add it.</p>
+
+<p>Otherwise, I set it as a property directly on the element.</p>
+
+<p>Why not just use <code>setAttribute()</code> for everything? It would set things like <code>onerror</code>, opening you up to, again cross-site scripting. This approach is more secure.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Add attributes to an element
+</span><span class="cm"> * @param {Node}  elem The element
+</span><span class="cm"> * @param {Array} atts The attributes to add
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">addAttributes</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">elem</span><span class="p">,</span> <span class="nx">atts</span><span class="p">)</span> <span class="p">{</span>
+	<span class="nx">atts</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">attribute</span><span class="p">)</span> <span class="p">{</span>
+		<span class="c1">// If the attribute is a class, use className
+</span><span class="c1"></span>		<span class="c1">// Else if it starts with `data-`, use setAttribute()
+</span><span class="c1"></span>		<span class="c1">// Otherwise, set is as a property of the element
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="nx">attribute</span><span class="p">.</span><span class="nx">att</span> <span class="o">===</span> <span class="s1">&#39;class&#39;</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">elem</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="nx">attribute</span><span class="p">.</span><span class="nx">value</span><span class="p">;</span>
+		<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">attribute</span><span class="p">.</span><span class="nx">att</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span> <span class="o">===</span> <span class="s1">&#39;data-&#39;</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">elem</span><span class="p">.</span><span class="nx">setAttribute</span><span class="p">(</span><span class="nx">attribute</span><span class="p">.</span><span class="nx">att</span><span class="p">,</span> <span class="nx">attribute</span><span class="p">.</span><span class="nx">value</span> <span class="o">||</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
+		<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+			<span class="nx">elem</span><span class="p">[</span><span class="nx">attribute</span><span class="p">.</span><span class="nx">att</span><span class="p">]</span> <span class="o">=</span> <span class="nx">attribute</span><span class="p">.</span><span class="nx">value</span> <span class="o">||</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+		<span class="p">}</span>
+	<span class="p">});</span>
+<span class="p">};</span>
+</code></pre></div>
+<h4 id="removing-attributes">Removing attributes</h4>
+
+<p>I loop through each attribute using the <code>Array.forEach()</code> method.</p>
+
+<p>If the attribute type is <code>class</code>, I use <code>className</code> to wipe it out. Otherwise, I use <code>removeAttribute()</code> to remove it.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Remove attributes from an element
+</span><span class="cm"> * @param {Node}  elem The element
+</span><span class="cm"> * @param {Array} atts The attributes to remove
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">removeAttributes</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">elem</span><span class="p">,</span> <span class="nx">atts</span><span class="p">)</span> <span class="p">{</span>
+	<span class="nx">atts</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">attribute</span><span class="p">)</span> <span class="p">{</span>
+		<span class="c1">// If the attribute is a class, use className
+</span><span class="c1"></span>		<span class="c1">// Otherwise, use removeAttribute()
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="nx">attribute</span><span class="p">.</span><span class="nx">att</span> <span class="o">===</span> <span class="s1">&#39;class&#39;</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">elem</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+		<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+			<span class="nx">elem</span><span class="p">.</span><span class="nx">removeAttribute</span><span class="p">(</span><span class="nx">attribute</span><span class="p">.</span><span class="nx">att</span><span class="p">);</span>
+		<span class="p">}</span>
+	<span class="p">});</span>
+<span class="p">};</span>
+</code></pre></div>
+<h3 id="creating-elements">Creating Elements</h3>
+
+<p>Finally, let&rsquo;s look at the <code>makeElem()</code> helper method and how I create the actual elements to inject into the DOM.</p>
+
+<p>If the element <code>type</code> property is <code>text</code>, I use <code>document.createTextNode()</code> to create the node. Otherwise, I use <code>document.createElement()</code>.</p>
+
+<p>Then, I pass the new node and it&rsquo;s <code>atts</code> property into the <code>addAttributes()</code> helper function to add all of the attributes.</p>
+
+<p>If the element has child nodes, I loop through each one with <code>Array.forEach()</code>, and recursively pass it into <code>makeElem()</code> and append it to the element.</p>
+
+<p>Otherwise, if it&rsquo;s not a <code>text</code> node, I set the content with the <code>.textContent</code> property. Then, I return the node.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Make an HTML element
+</span><span class="cm"> * @param  {Object} elem The element details
+</span><span class="cm"> * @return {Node}        The HTML element
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">makeElem</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">elem</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Create the element
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">node</span> <span class="o">=</span> <span class="nx">elem</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="s1">&#39;text&#39;</span> <span class="o">?</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createTextNode</span><span class="p">(</span><span class="nx">elem</span><span class="p">.</span><span class="nx">content</span><span class="p">)</span> <span class="o">:</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="nx">elem</span><span class="p">.</span><span class="nx">type</span><span class="p">);</span>
+
+	<span class="c1">// Add attributes
+</span><span class="c1"></span>	<span class="nx">addAttributes</span><span class="p">(</span><span class="nx">node</span><span class="p">,</span> <span class="nx">elem</span><span class="p">.</span><span class="nx">atts</span><span class="p">);</span>
+
+	<span class="c1">// If the element has child nodes, create them
+</span><span class="c1"></span>	<span class="c1">// Otherwise, add textContent
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="nx">elem</span><span class="p">.</span><span class="nx">children</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">elem</span><span class="p">.</span><span class="nx">children</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">childElem</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">node</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">makeElem</span><span class="p">(</span><span class="nx">childElem</span><span class="p">));</span>
+		<span class="p">});</span>
+	<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">elem</span><span class="p">.</span><span class="nx">type</span> <span class="o">!==</span> <span class="s1">&#39;text&#39;</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">node</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="nx">elem</span><span class="p">.</span><span class="nx">content</span><span class="p">;</span>
+	<span class="p">}</span>
+
+	<span class="k">return</span> <span class="nx">node</span><span class="p">;</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<h2 id="ensuring-browser-compatibility">Ensuring browser compatibility</h2>
+
+<p>Reef.js works in all modern browsers, and IE9 and up.</p>
+
+<p>It does use some newer ES6 methods, though. So do I make sure it works across a wide range of browsers?</p>
+
+<p><a href="https://gomakethings.com/why-i-love-polyfills/">Polyfills.</a></p>
+
+<p>Many of the included methods work in IE9 and above already&mdash;<code>Array.forEach()</code>, for example. For those that don&rsquo;t&mdash;<code>Array.find()</code>, <code>Array.from()</code>, and <code>Element.remove()</code>&mdash;<a href="https://vanillajstoolkit.com/polyfills/">I included polyfills</a>.</p>
+
+<p>(<em>There&rsquo;s also a non-polyfilled version for people who already include their own.</em>)</p>
+
+<h2 id="wrapping-up">Wrapping Up</h2>
+
+<p>Amazingly, the core Reef.js file is only 267 lines long, including lots of whitespace and in-code documentation. The polyfills add 150 lines (and 4kb <em>before</em> minifying and gzipping).</p>
+
+<p>In the process of creating Reef, I learned a lot about the sheer engineering effort that goes into writing robust frameworks like Vue and React. So much respect for the developers who built those tools, even if I don&rsquo;t prefer to use them myself.</p>
+
+<p>I had originally looked into adding Reactivity: having the UI automatically re-render whenever the data is updated. After <a href="https://hackernoon.com/how-to-build-your-own-reactivity-system-fc48863a1b7c">reading up on how that works</a>, though, I decided it wasn&rsquo;t worth the extra bytes.</p>
+
+<p>I&rsquo;m most proud of how little Reef actually does.</p>
+
+<p>I believe the best* tools are the ones that do as little as possible. I want my plugins and helpers to work like developer legos that can be mixed-and-matched as needed for any given project.</p>
+
+<p>(<em>*This is totally subjective!</em>)</p>
+
+<p>With Reef, I&rsquo;ve built a stateful component helper method that&hellip;</p>
+
+<ul>
+<li>Weighs under 2kb (minified and gzipped), with zero dependencies.</li>
+<li>Uses simple templating with JavaScript strings or template literals.</li>
+<li>Can be loaded with a humble <code>script</code> tag&mdash;no command line or transpiling required.</li>
+<li>Updates only the parts of the DOM that have changed. Keep those form fields in focus!</li>
+<li>Sanitizes templates automatically, reducing the risk of XSS attacks.</li>
+<li>Works with native JavaScript methods and browser APIs.</li>
+</ul>
+
+<p>Not too shabby!</p>
+
+
+	</article>
+
+	<br>
+<aside>
+	
+<p><mark>🔥 <em><strong>FIRE SALE!</strong> To celebrate the launch of the <strong><a href="https://vanillajsguides.com/variables-functions-and-scope/">Pocket Guide video series on Functions, Variables, and Scope</a></strong>, you can <strong>take 50% off any guide or bundle</strong> with the code <strong><code>VAR50</code></strong> at checkout. This ends at midnight, so don't wait!</em></mark></p>
+
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" name="mc-embedded-subscribe-form" id="mailchimp-form" novalidate>
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">If you're human, leave this blank</label>
+				<input type="text" name="name" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mailchimp-email">Email Address</label>
+				<input type="email" name="email" id="mailchimp-email" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" name="TbVktzD9dNZiQyZQ3Dk64w6L" value="WqJELdqqHHFTLUrEWJLu4DspKjeoBawWdWnZVVwti7RYpCyLr8WoWtm7UozshPy6">
+			<input type="hidden" name="group[aaf6f8b9a3]" value="1">
+			<input type="hidden" name="group[07afa3dcbc]" value="1">
+		</div>
+		<div class="grid-third">
+			<button data-processing="Signing Up..." data-ready="Get Daily Developer Tips" class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div id="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li><li><a href="https://gomakethings.com/resources">Learn JS</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachusetts. Unless otherwise noted, all code is free to use under the <a href="https://gomakethings.com/mit">MIT License</a>.</p>
+		</footer>
+
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window && 'classList' in document.createElement('_')) {
+				/*! gmt v1.16.0 | (c) 2018 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/go-make-things | Open Source Credits: https://github.com/toddmotto/fluidvids, http://prismjs.com, https://github.com/filamentgroup/loadJS/, https://github.com/filamentgroup/loadCSS, https://github.com/bramstein/fontfaceobserver */
+!(function(e,t,n){"use strict";var i=t.querySelectorAll(".edd-buy-now-button"),o=function(e){e.target.classList.contains("edd-buy-now-button")&&(0!==e.button||e.metaKey||e.ctrlKey||(e.target.innerHTML="Adding to cart...",e.target.classList.add("disabled")))};i.length>0&&t.addEventListener("click",o,!1)})(window,document),(function(e,t){"function"==typeof define&&define.amd?define(t):"object"==typeof exports?module.exports=t:e.fluidvids=t()})(this,(function(){"use strict";var e={selector:["iframe"],players:["www.youtube.com","player.vimeo.com"]},t=[".fluidvids {","width: 100%; max-width: 100%; position: relative;","}",".fluidvids-item {","position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;","}"].join(""),n=document.head||document.getElementsByTagName("head")[0],i=function(t){return new RegExp("^(https?:)?//(?:"+e.players.join("|")+").*$","i").test(t)},o=function(e,t){return parseInt(e,10)/parseInt(t,10)*100+"%"},a=function(e){if(i(e.src)&&!e.getAttribute("data-fluidvids")){var t=document.createElement("div");e.parentNode.insertBefore(t,e),e.className+=(e.className?" ":"")+"fluidvids-item",e.setAttribute("data-fluidvids","loaded"),t.className+="fluidvids",t.style.paddingTop=o(e.height,e.width),t.appendChild(e)}},r=function(){var e=document.createElement("div");e.innerHTML="<p>x</p><style>"+t+"</style>",n.appendChild(e.childNodes[1])};return e.render=function(){for(var t=document.querySelectorAll(e.selector.join()),n=t.length;n--;)a(t[n])},e.init=function(t){for(var n in t)e[n]=t[n];e.render(),r()},e}));var addHeadingLinks=function(e,t,n){"use strict";if(e){var i=document.querySelectorAll(e);t=t||"#",n=n||"anchor-link";for(var o=0;o<i.length;o++)i[o].id&&(i[o].innerHTML+=' <a class="'+n+'" href="#'+i[o].id+'">'+t+"</a>")}},mailchimp=function(e){"use strict";var t=document.querySelector("#mailchimp-form");if(t){var n=t.querySelector("#mailchimp-email");if(n){var i=t.querySelector("#mc-status"),o={empty:"Please provide an email address.",notEmail:"Please use a valid email address.",success:"Success! Thanks for inviting me to your inbox."},a=function(e){for(var t=[],n=0;n<e.elements.length;n++){var i=e.elements[n];i.name&&!i.disabled&&"file"!==i.type&&"reset"!==i.type&&"submit"!==i.type&&"button"!==i.type&&(("checkbox"!==i.type&&"radio"!==i.type||i.checked)&&t.push(encodeURIComponent(i.name)+"="+encodeURIComponent(i.value)))}return t.join("&")},r=function(){i&&(i.textContent="",i.className="",n.className="",n.removeAttribute("aria-describedby"))},c=function(e,t){i&&(i.textContent=e,t?(i.className="success-message",i.setAttribute("tabindex","-1"),i.focus()):(i.className="error-message",n.className="error",n.setAttribute("aria-describedby","mc-status"),n.focus()))},s=function(){var e=t.querySelector("[data-processing]");e&&(e.setAttribute("data-original",e.innerHTML),e.setAttribute("disabled","disabled"),e.innerHTML=e.getAttribute("data-processing"))},u=function(){var e=t.querySelector("[data-processing]");e&&(e.removeAttribute("disabled"),e.innerHTML=e.getAttribute("data-original"))},l=function(t){var n=new XMLHttpRequest;n.onreadystatechange=function(){if(4===n.readyState){var t=200===n.status,i=JSON.parse(n.responseText);t?c(o.success,t):c(i.message,t),u(),e&&"function"==typeof e&&e(i)}},n.open("POST","https://gomakethings.com/checkout/wp-json/gmt-mailchimp/v1/subscribe?"+t),n.send()},d=function(){s(),l(a(t))},f=function(){return/^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$/.test(n.value)},m=function(){return n.value.length<1?(c(o.empty),!1):!!f()||(c(o.notEmail),!1)},x=function(e){e.preventDefault(),r(),m()&&d()};t.addEventListener("submit",x,!1)}}};if(window.Element&&!Element.prototype.closest&&(Element.prototype.closest=function(e){var t,n=(this.document||this.ownerDocument).querySelectorAll(e),i=this;do{for(t=n.length;--t>=0&&n.item(t)!==i;);}while(t<0&&(i=i.parentElement));return i}),(function(){for(var e=0,t=["ms","moz","webkit","o"],n=0;n<t.length&&!window.requestAnimationFrame;++n)window.requestAnimationFrame=window[t[n]+"RequestAnimationFrame"],window.cancelAnimationFrame=window[t[n]+"CancelAnimationFrame"]||window[t[n]+"CancelRequestAnimationFrame"];window.requestAnimationFrame||(window.requestAnimationFrame=function(t,n){var i=(new Date).getTime(),o=Math.max(0,16-(i-e)),a=window.setTimeout((function(){t(i+o)}),o);return e=i+o,a}),window.cancelAnimationFrame||(window.cancelAnimationFrame=function(e){clearTimeout(e)})})(),(function(e,t){"function"==typeof define&&define.amd?define([],(function(){return t(e)})):"object"==typeof exports?module.exports=t(e):e.SmoothScroll=t(e)})("undefined"!=typeof global?global:"undefined"!=typeof window?window:this,(function(e){"use strict";var t="querySelector"in document&&"addEventListener"in e&&"requestAnimationFrame"in e&&"closest"in e.Element.prototype,n={ignore:"[data-scroll-ignore]",header:null,speed:500,offset:0,easing:"easeInOutCubic",customEasing:null,before:function(){},after:function(){}},i=function(){for(var e={},t=0,n=arguments.length;t<n;t++){var i=arguments[t];!(function(t){for(var n in t)t.hasOwnProperty(n)&&(e[n]=t[n])})(i)}return e},o=function(t){return parseInt(e.getComputedStyle(t).height,10)},a=function(e){"#"===e.charAt(0)&&(e=e.substr(1));for(var t,n=String(e),i=n.length,o=-1,a="",r=n.charCodeAt(0);++o<i;){if(0===(t=n.charCodeAt(o)))throw new InvalidCharacterError("Invalid character: the input contains U+0000.");t>=1&&t<=31||127==t||0===o&&t>=48&&t<=57||1===o&&t>=48&&t<=57&&45===r?a+="\\"+t.toString(16)+" ":a+=t>=128||45===t||95===t||t>=48&&t<=57||t>=65&&t<=90||t>=97&&t<=122?n.charAt(o):"\\"+n.charAt(o)}return"#"+a},r=function(e,t){var n;return"easeInQuad"===e.easing&&(n=t*t),"easeOutQuad"===e.easing&&(n=t*(2-t)),"easeInOutQuad"===e.easing&&(n=t<.5?2*t*t:(4-2*t)*t-1),"easeInCubic"===e.easing&&(n=t*t*t),"easeOutCubic"===e.easing&&(n=--t*t*t+1),"easeInOutCubic"===e.easing&&(n=t<.5?4*t*t*t:(t-1)*(2*t-2)*(2*t-2)+1),"easeInQuart"===e.easing&&(n=t*t*t*t),"easeOutQuart"===e.easing&&(n=1- --t*t*t*t),"easeInOutQuart"===e.easing&&(n=t<.5?8*t*t*t*t:1-8*--t*t*t*t),"easeInQuint"===e.easing&&(n=t*t*t*t*t),"easeOutQuint"===e.easing&&(n=1+--t*t*t*t*t),"easeInOutQuint"===e.easing&&(n=t<.5?16*t*t*t*t*t:1+16*--t*t*t*t*t),e.customEasing&&(n=e.customEasing(t)),n||t},c=function(){return Math.max(document.body.scrollHeight,document.documentElement.scrollHeight,document.body.offsetHeight,document.documentElement.offsetHeight,document.body.clientHeight,document.documentElement.clientHeight)},s=function(e,t,n){var i=0;if(e.offsetParent)do{i+=e.offsetTop,e=e.offsetParent}while(e);return i=Math.max(i-t-n,0)},u=function(e){return e?o(e)+e.offsetTop:0},l=function(t,n,i){i||(t.focus(),document.activeElement.id!==t.id&&(t.setAttribute("tabindex","-1"),t.focus(),t.style.outline="none"),e.scrollTo(0,n))},d=function(t){return!!("matchMedia"in e&&e.matchMedia("(prefers-reduced-motion)").matches)};return function(o,f){var m,x,h,p,g,v,b,y={};y.cancelScroll=function(){cancelAnimationFrame(b)},y.animateScroll=function(t,o,a){var d=i(m||n,a||{}),f="[object Number]"===Object.prototype.toString.call(t),x=f||!t.tagName?null:t;if(f||x){var h=e.pageYOffset;d.header&&!p&&(p=document.querySelector(d.header)),g||(g=u(p));var v,b,w,A=f?t:s(x,g,parseInt("function"==typeof d.offset?d.offset():d.offset,10)),S=A-h,E=c(),q=0,L=function(n,i){var a=e.pageYOffset;if(n==i||a==i||(h<i&&e.innerHeight+a)>=E)return y.cancelScroll(),l(t,i,f),d.after(t,o),v=null,!0},T=function(t){v||(v=t),q+=t-v,b=q/parseInt(d.speed,10),b=b>1?1:b,w=h+S*r(d,b),e.scrollTo(0,Math.floor(w)),L(w,A)||(e.requestAnimationFrame(T),v=t)};0===e.pageYOffset&&e.scrollTo(0,0),d.before(t,o),y.cancelScroll(),e.requestAnimationFrame(T)}};var w=function(e){x&&(x.id=x.getAttribute("data-scroll-id"),y.animateScroll(x,h),x=null,h=null)},A=function(t){if(!d()&&0===t.button&&!t.metaKey&&!t.ctrlKey&&(h=t.target.closest(o))&&"a"===h.tagName.toLowerCase()&&!t.target.closest(m.ignore)&&h.hostname===e.location.hostname&&h.pathname===e.location.pathname&&/#/.test(h.href)){var n;try{n=a(decodeURIComponent(h.hash))}catch(e){n=a(h.hash)}if("#"===n){t.preventDefault(),x=document.body;var i=x.id?x.id:"smooth-scroll-top";return x.setAttribute("data-scroll-id",i),x.id="",void(e.location.hash.substring(1)===i?w():e.location.hash=i)}x=document.querySelector(n),x&&(x.setAttribute("data-scroll-id",x.id),x.id="",h.hash===e.location.hash&&(t.preventDefault(),w()))}},S=function(e){v||(v=setTimeout((function(){v=null,g=u(p)}),66))};return y.destroy=function(){m&&(document.removeEventListener("click",A,!1),e.removeEventListener("resize",S,!1),y.cancelScroll(),m=null,x=null,h=null,p=null,g=null,v=null,b=null)},y.init=function(o){t&&(y.destroy(),m=i(n,o||{}),p=m.header?document.querySelector(m.header):null,g=u(p),document.addEventListener("click",A,!1),e.addEventListener("hashchange",w,!1),p&&e.addEventListener("resize",S,!1))},y.init(f),y}})),fluidvids.init({selector:["iframe","object"],players:["www.youtube.com","player.vimeo.com","www.slideshare.net","www.hulu.com","videopress.com/embed/"]}),document.querySelector('a[href*="#"]'))var scroll=new SmoothScroll('a[href*="#"]');document.querySelector("#mailchimp-form")&&mailchimp((function(e){200===e.code&&(window.location.href="/newsletter-success")})),(document.body.matches(".type-articles.page-single")||document.body.matches("#page-54a32daa7699b0585cab71188bd8c152"))&&addHeadingLinks("h2, h3, h4, h5, h6","#","link-no-underline");
+				
+			}
+			
+			var _paq = _paq || [];
+			
+			_paq.push(['trackPageView']);
+			_paq.push(['enableLinkTracking']);
+			(function() {
+				var u="//analytics.gomakethings.com/";
+				_paq.push(['setTrackerUrl', u+'piwik.php']);
+				_paq.push(['setSiteId', '1']);
+				var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+				g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+			})();
+		</script>
+		<noscript><p><img src="//analytics.gomakethings.com/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p></noscript>
+	</body>
+</html>

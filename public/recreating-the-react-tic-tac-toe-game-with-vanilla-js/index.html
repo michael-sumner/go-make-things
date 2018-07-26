@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Recreating the React tic-tac-toe game with vanilla JS | Go Make Things</title>
+		<meta name="description" content="Last week, I kicked off a series where I recreate popular framework demos with vanilla JS, starting with VueJS.
+This week, we&rsquo;re going to build React&rsquo;s Tic-Tac-Toe game. And we&rsquo;re going to do with fewer lines of code and zero dependencies, and make it more accessible. You can see the finished script here.
+Let&rsquo;s get started.
+The Starting Markup The starting markup for this one is an empty div with an ID of #game-board.">
+		
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@ChrisFerdinandi">
+		<meta property="og:url" content="/recreating-the-react-tic-tac-toe-game-with-vanilla-js/">
+		<meta property="og:title" content="Recreating the React tic-tac-toe game with vanilla JS">
+		<meta property="og:description" content="Last week, I kicked off a series where I recreate popular framework demos with vanilla JS, starting with VueJS.
+This week, we&rsquo;re going to build React&rsquo;s Tic-Tac-Toe game. And we&rsquo;re going to do with fewer lines of code and zero dependencies, and make it more accessible. You can see the finished script here.
+Let&rsquo;s get started.
+The Starting Markup The starting markup for this one is an empty div with an ID of #game-board.">
+		
+
+		
+		
+		<link rel="shortcut icon" href="https://gomakethings.com/img/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32" href="https://gomakethings.com/img/favicon.ico">
+
+		
+		
+		<link rel="alternate" type="application/rss+xml" title="Go Make Things RSS Feed" href="https://gomakethings.com/feed/index.xml">
+		<link rel="feed" type="application/rss+xml" title="Go Make Things RSS Feed" href="https://gomakethings.com/feed/index.xml">
+
+		
+		<style type="text/css">
+			/*! gmt v1.16.0 | (c) 2018 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/go-make-things | Open Source Credits: https://github.com/toddmotto/fluidvids, http://prismjs.com, https://github.com/filamentgroup/loadJS/, https://github.com/filamentgroup/loadCSS, https://github.com/bramstein/fontfaceobserver */
+@-webkit-viewport{width:device-width;zoom:1}@-moz-viewport{width:device-width;zoom:1}@-ms-viewport{width:device-width;zoom:1}@-o-viewport{width:device-width;zoom:1}@viewport{width:device-width;zoom:1}.link-block-styled,a,button,input,label,select,summary,textarea{-ms-touch-action:manipulation;touch-action:manipulation}*,:after,:before{box-sizing:border-box}html{overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%}body{margin:0}article,aside,cite,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}summary{display:list-item}audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}audio:not([controls]){display:none;height:0}img,video{height:auto}embed,iframe,img,object,video{max-width:100%}img{border-style:none;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}[tabindex="-1"]:focus{outline:none}.container{margin-left:auto;margin-right:auto;max-width:38em;width:88%}.container-large{max-width:60em}.row{margin-left:-1.4%;margin-right:-1.4%}.grid-fourth,.grid-half,.grid-third,.grid-three-fourths,.grid-two-thirds{float:left;padding-left:1.4%;padding-right:1.4%;width:100%}.grid-flip{float:right}@media (min-width:38em){.grid-fourth{width:25%}.grid-third{width:33.33333%}.grid-half{width:50%}.grid-two-thirds{width:66.66667%}.grid-three-fourths{width:75%}.offset-fourth{margin-left:25%}.offset-third{margin-left:33.33333%}.offset-half{margin-left:50%}.offset-two-thirds{margin-left:66.66667%}.offset-three-fourths{margin-left:75%}}body{background:#fff;border-top:.5em solid #e5e5e5;color:#272727;font-family:Georgia,serif;font-size:112.5%;line-height:1.5;overflow-x:hidden}.fonts-loaded body{font-family:PT Serif,serif}@media (min-width:38em){body{line-height:1.5625em}}p{margin:0 0 1.5625em}.link-block-styled,a{background-color:transparent;color:#08c;text-decoration:underline;-webkit-text-decoration-skip:ink;text-decoration-skip:ink;text-decoration-skip-ink:auto;word-wrap:break-word}.link-block-styled:active,.link-block-styled:hover,.link-block:hover .link-block-styled,a:active,a:hover{outline:0}.link-block-styled:active,.link-block-styled:focus,.link-block-styled:hover,.link-block:hover .link-block-styled,a:active,a:focus,a:hover{color:#005580}.link-block-styled:visited,a:visited{color:purple}.link-no-underline,.nav-secondary .link-block-styled,.nav-secondary a{text-decoration:none}.link-block:hover .nav-secondary .link-block-styled,.link-no-underline:active,.link-no-underline:focus,.link-no-underline:hover,.nav-secondary .link-block-styled:active,.nav-secondary .link-block-styled:focus,.nav-secondary .link-block-styled:hover,.nav-secondary .link-block:hover .link-block-styled,.nav-secondary a:active,.nav-secondary a:focus,.nav-secondary a:hover{text-decoration:underline}.link-plain,.link-plain:visited{color:#272727;text-decoration:none}.link-plain:active,.link-plain:focus,.link-plain:hover{color:#08c}.link-block.link-block-styled,a.link-block{color:#272727;display:block;text-decoration:none}ol,ul{margin:0 0 1.5625em 2em;padding:0}ol ol,ol ul,ul ol,ul ul{margin-bottom:0}li{margin-bottom:.5em}@media (min-width:38em){li{margin-bottom:.25em}}.list-spaced li{margin-bottom:1em}@media (min-width:38em){.list-spaced li{margin-bottom:.6875em}}dd,dl{margin:0;padding:0}dd{margin-bottom:1.5625em}dt{font-weight:700}.list-unstyled{margin-left:0;list-style:none}.list-inline{list-style:none;margin-left:-.5em;margin-right:-.5em;padding:0}.list-inline li{display:inline-block;margin-left:.5em;margin-right:.5em}@media (max-width:38em){.list-inline.list-inline-responsive li{display:block}}.list-inline-spaced{margin-left:-1.3125em;margin-right:-1.3125em}.list-inline-spaced li{display:inline-block;margin-left:1.3125em;margin-right:1.3125em}h1,h2,h3,h4,h5,h6{font-weight:700;line-height:1.2;margin:0 0 1em;padding:1em 0 0;word-wrap:break-word}.h1,h1{font-size:1.5em;padding-top:.5em}@media (min-width:38em){.h1,h1{font-size:1.75em}}.h2,h2{font-size:1.3125em}.h3,h3{font-size:1.1875em}.h4,.h5,.h6,h4,h5,h6{font-size:1em}.h4,h4{text-transform:uppercase}hr{border:0;border-top:1px solid #e5e5e5;border-bottom:0 solid transparent;box-sizing:content-box;margin:2em auto;overflow:visible}.line-secondary{width:50%}.line-clear{border-top-color:transparent}.line-heading{position:relative}.line-heading:after{background-color:#fff;content:attr(data-heading);font-weight:700;left:50%;padding:0 1em;position:absolute;top:-1em;text-align:center;-webkit-transform:translate(-50%);transform:translate(-50%);width:70%}@media (min-width:28em){.line-heading[data-heading-small]:after{content:attr(data-heading-small)}}@media (min-width:38em){.line-heading[data-heading-medium]:after{content:attr(data-heading-medium)}}@media (min-width:60em){.line-heading[data-heading-large]:after{content:attr(data-heading-large)}}b,strong{font-weight:inherit;font-weight:bolder}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}dfn{font-style:italic}mark{background:#fbf9c9;color:#272727}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}blockquote{border-left:.25em solid #e5e5e5;font-style:italic;margin:0 0 1.5625em;padding-left:1em;padding-right:1em}blockquote cite{color:gray;font-size:.9375em;padding-top:1em}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:""}code,kbd,pre,samp{font-family:Menlo,Monaco,Courier New,monospace;font-size:.875em}code{color:#d14;padding:.25em;word-wrap:break-word}pre{background-color:#f7f7f7;display:block;line-height:1.5;margin:0 0 1.5625em;overflow:auto;padding:.8125em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;white-space:pre-wrap;word-break:break-all}pre code{background-color:transparent;border:0;color:inherit;font-size:1em;padding:0}@media screen{.chroma .err,.chroma .il,.chroma .kc,.chroma .m,.chroma .mb,.chroma .mf,.chroma .mh,.chroma .mi,.chroma .mo,.chroma .no,.chroma .nt,.chroma .py,.chroma .ss{color:#905}.chroma .k,.chroma .kd,.chroma .kn,.chroma .kp,.chroma .kr,.chroma .kt,.chroma .nb,.chroma .s{color:#07a}.chroma .dl,.chroma .l,.chroma .ld,.chroma .n,.chroma .na,.chroma .nc,.chroma .ne,.chroma .s1,.chroma .s2,.chroma .sa,.chroma .sb,.chroma .sc,.chroma .se,.chroma .sh,.chroma .si,.chroma .sx{color:#690}.chroma .bp,.chroma .c,.chroma .c1,.chroma .ch,.chroma .cm,.chroma .cp,.chroma .cpf,.chroma .cs,.chroma .nd,.chroma .nl,.chroma .p,.chroma .sd{color:#708090}.chroma .ni,.chroma .o{color:#a67f59;background:hsla(0,0%,100%,.5)}.chroma .fm,.chroma .nf,.chroma .ow{color:#dd4a68}.chroma .nv,.chroma .sr,.chroma .vc,.chroma .vg,.chroma .vi,.chroma .vm{color:#e90}.chroma .nn{opacity:.7}.chroma .ge{font-style:italic}.chroma .gs{font-weight:700}}.btn{background-color:#f7272f;border:.125em solid #f7272f;border-radius:1px;display:inline-block;font-size:.9375em;font-weight:400;line-height:1.2;margin-right:.3125em;margin-bottom:.3125em;padding:.5em .6875em}.btn,.btn:visited{color:#fff}.btn.active,.btn:active,.btn:focus,.btn:hover{background-color:#cb070e;border-color:#cb070e;color:#fff}.btn.link-block-styled,a.btn{text-decoration:none}.btn-secondary{background-color:#343d4d;border-color:#343d4d}.btn-secondary.active,.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{background-color:#15191f;border-color:#15191f}.btn-tertiary{background-color:#08c;border-color:#08c}.btn-tertiary.active,.btn-tertiary:active,.btn-tertiary:focus,.btn-tertiary:hover{background-color:#005580;border-color:#005580}.btn.active,.btn:active{box-shadow:inset 0 .15625em .25em rgba(0,0,0,.15),0 1px .15625em rgba(0,0,0,.05);outline:0}.btn.disabled,.btn[disabled]{box-shadow:none;cursor:not-allowed;opacity:.5;pointer-events:none}.btn-large{font-size:1em;line-height:normal;padding:.6875em .9375em}.btn-block,input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-block{display:block;margin-right:0;padding-right:0;padding-left:0;width:100%}.btn,button,html input[type=button],input[type=reset],input[type=submit]{cursor:pointer;text-align:center;vertical-align:middle;-webkit-appearance:none}.btn:last-child,input.btn{margin-right:0}fieldset,form{margin-bottom:1.5625em}fieldset{border:0;padding:0}label,legend{display:block;font-weight:400;margin:0 0 .3125em;padding:0}button,input,optgroup,select,textarea{color:#555;font:inherit;margin:0;padding:.3125em}button{overflow:visible}button,select{text-transform:none}input,select,textarea{border:1px solid #b8b8b8;display:block;line-height:1.5;margin-bottom:1.1875em;width:100%}@media (min-width:38em){input,select,textarea{line-height:1.5625}}optgroup{font-weight:700}form .button,form button{margin-bottom:1.1875em}textarea{height:12em;overflow:auto}[type=checkbox],[type=image],[type=radio]{cursor:pointer;display:inline-block;height:auto;margin-bottom:.3125em;padding:0;width:auto}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}input:focus,textarea:focus{border-color:rgba(82,168,236,.8);box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 .5em rgba(82,168,236,.6);outline:0;outline:thin dotted\9}[type=checkbox]:focus,[type=file]:focus,select:focus{outline:thin dotted;outline:.3125em auto -webkit-focus-ring-color;outline-offset:-.125em}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.input-inline{display:inline-block;vertical-align:middle;width:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}.input-search{width:85%;padding-left:.9375em;padding-right:2.5em;border-radius:1.3125em;transition:width .3s ease-in}@media (min-width:38em){.input-search{width:65%}}.btn-search{display:inline;color:gray;border:none;background:none;margin-left:-2.5em;margin-bottom:0}.btn-search svg{fill:gray}.btn-search:hover{color:#5a5a5a}.btn-search:hover svg{fill:#5a5a5a}.error{border-color:#e30810}.error-message{color:#e30810;font-style:italic;margin-bottom:1em}.img-border{border:1px solid #ccc}.img-circle{border-radius:50%}.callout,.fluidvids{margin-bottom:1.5625em}.callout{background-color:#f7f7f7;border:1px solid #e5e5e5;padding:1em 1.5em}.aligncenter,.alignleft,.alignnone,.alignright{display:block;text-align:center;margin-left:auto;margin-right:auto}@media (min-width:28em){.alignleft{float:left;margin-right:1em}}@media (min-width:28em){.alignright{float:right;margin-left:1em}}@media (min-width:28em){.alignnone{margin-left:0;margin-right:0}}.wp-caption-text{font-size:.9375em;font-style:italic;color:gray;padding-top:.5em;text-align:center}table{border-collapse:collapse;border-spacing:0;margin-bottom:1.5625em;max-width:100%;width:100%}td,th{text-align:left;padding:.5em}th{border-bottom:.125em solid #e5e5e5;font-weight:700;vertical-align:bottom}td{border-top:1px solid #e5e5e5;vertical-align:top}.table-striped tbody tr:nth-child(odd){background-color:#f7f7f7}@media (max-width:38em){.table-responsive thead{display:none;visibility:hidden}.table-responsive tr{border-top:1px solid #ededed;display:block;padding:.5em}.table-responsive td{border:0;display:block;padding:.25em}.table-responsive td:before{content:attr(data-label);display:block;font-weight:700}}.nav-wrap{padding-top:1em;padding-bottom:.5em;text-align:center}@media (min-width:60em){.nav-wrap{text-align:left}}.logo{display:inline-block;font-size:1.2em;font-weight:700;line-height:1.2;margin-bottom:.3125em;text-decoration:none}@media (min-width:60em){.logo{float:left;margin-bottom:0}}.logo,.logo:visited{color:#272727}.logo:active,.logo:focus,.logo:hover{color:#08c}.logo .icon{height:.8em;width:.8em}.nav{list-style:none;margin:0 -.5em;padding:0}@media (min-width:60em){.nav{text-align:right}}.nav li{display:inline-block;float:none;margin-left:.5em;margin-right:.5em}.nav .link-block-styled,.nav a{color:gray;text-decoration:none}.link-block:hover .nav .link-block-styled,.nav .active .link-block-styled,.nav .active a,.nav .link-block-styled:active,.nav .link-block-styled:focus,.nav .link-block-styled:hover,.nav .link-block:hover .link-block-styled,.nav a:active,.nav a:focus,.nav a:hover{border-bottom:.125em solid #fa7176;color:#272727}.bg-muted{background-color:#f7f7f7}.text-small{font-size:.9375em}.text-large,.text-xlarge{font-size:1.1875em;line-height:1.4}@media (min-width:38em){.text-large,.text-xlarge{font-size:1.3125em}}.text-xlarge{font-size:1.7em}@media (min-width:38em){.text-xlarge{font-size:2em}}.text-muted{color:gray}.btn del,.text-muted-light{color:#b2b2b2}.text-normal{font-weight:400;font-style:normal}.text-center{text-align:center}.text-right{text-align:right}@media (min-width:60em){.text-right-large{text-align:right}}.float-center{float:none;margin-left:auto;margin-right:auto}.no-margin-top{margin-top:0}.no-margin-bottom{margin-bottom:0}.margin-top{margin-top:1.5625em}.margin-bottom{margin-bottom:1.5625em}.error,.margin-bottom-small{margin-bottom:.5em}.margin-bottom-large{margin-bottom:2em}.margin-bottom-negative{margin-bottom:-1.75em}.margin-right{margin-right:.25em}.no-padding-top{padding-top:0}.no-padding-bottom{padding-bottom:0}.padding-top{padding-top:1.5625em}.padding-top-xsmall{padding-top:.25em}.padding-top-small{padding-top:.5em}.padding-top-medium{padding-top:1em}.padding-top-large{padding-top:2em}.padding-top-xlarge{padding-top:3em}.padding-bottom{padding-bottom:1.5625em}.padding-bottom-small{padding-bottom:.5em}.padding-bottom-large{padding-bottom:2em}.padding-bottom-xlarge{padding-bottom:3em}.screen-reader{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;white-space:nowrap;width:1px}.screen-reader-focusable:active,.screen-reader-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;white-space:normal;width:auto}.tarpit,[hidden],template{display:none;visibility:hidden}.clearfix:after,.clearfix:before,.container:after,.container:before,.nav-wrap:after,.nav-wrap:before,.row:after,.row:before{display:table;content:" "}.clearfix:after,.container:after,.nav-wrap:after,.row:after{clear:both}@media print{*{background:transparent!important;color:#000!important;box-shadow:none!important;text-shadow:none!important}@page{margin:.5cm}.link-block-styled,.link-block-styled:visited,a,a:visited{text-decoration:underline}[href].link-block-styled:after,a[href]:after{content:" (" attr(href) ")"}[href^="#"].link-block-styled:after,a[href^="#"]:after{content:""}h1,h2,h3,p{orphans:3;widows:3}h1,h2,h3{page-break-after:avoid}blockquote,pre{border-color:#999;page-break-inside:avoid}thead{display:table-header-group}img,tr{page-break-inside:avoid}}
+		</style>
+
+		
+		<script>
+			/*! gmt v1.16.0 | (c) 2018 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/go-make-things | Open Source Credits: https://github.com/toddmotto/fluidvids, http://prismjs.com, https://github.com/filamentgroup/loadJS/, https://github.com/filamentgroup/loadCSS, https://github.com/bramstein/fontfaceobserver */
+function loadCSS(t,e,n){"use strict";function o(){for(var e,r=0;r<a.length;r++)a[r].href&&a[r].href.indexOf(t)>-1&&(e=!0);e?i.media=n||"all":setTimeout(o)}var i=window.document.createElement("link"),r=e||window.document.getElementsByTagName("script")[0],a=window.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",r.parentNode.insertBefore(i,r),o(),i}!(function(){"use strict";function t(t){f.push(t),1==f.length&&l()}function e(){for(;f.length;)f[0](),f.shift()}function n(t){this.a=u,this.b=void 0,this.f=[];var e=this;try{t((function(t){r(e,t)}),(function(t){a(e,t)}))}catch(t){a(e,t)}}function o(t){return new n(function(e,n){n(t)})}function i(t){return new n(function(e){e(t)})}function r(t,e){if(t.a==u){if(e==t)throw new TypeError;var n=!1;try{var o=e&&e.then;if(null!=e&&"object"==typeof e&&"function"==typeof o)return void o.call(e,(function(e){n||r(t,e),n=!0}),(function(e){n||a(t,e),n=!0}))}catch(e){return void(n||a(t,e))}t.a=0,t.b=e,s(t)}}function a(t,e){if(t.a==u){if(e==t)throw new TypeError;t.a=1,t.b=e,s(t)}}function s(e){t((function(){if(e.a!=u)for(;e.f.length;){var t=e.f.shift(),n=t[0],o=t[1],i=t[2],t=t[3];try{0==e.a?i("function"==typeof n?n.call(void 0,e.b):e.b):1==e.a&&("function"==typeof o?i(o.call(void 0,e.b)):t(e.b))}catch(e){t(e)}}}))}function c(t){return new n(function(e,n){var o=0,r=[];0==t.length&&e(r);for(var a=0;a<t.length;a+=1)i(t[a]).c(function(n){return function(i){r[n]=i,(o+=1)==t.length&&e(r)}}(a),n)})}function d(t){return new n(function(e,n){for(var o=0;o<t.length;o+=1)i(t[o]).c(e,n)})}var l,f=[];l=function(){setTimeout(e)};var u=2;n.prototype.g=function(t){return this.c(void 0,t)},n.prototype.c=function(t,e){var o=this;return new n(function(n,i){o.f.push([t,e,n,i]),s(o)})},window.Promise||(window.Promise=n,window.Promise.resolve=i,window.Promise.reject=o,window.Promise.race=d,window.Promise.all=c,window.Promise.prototype.then=n.prototype.c,window.Promise.prototype.catch=n.prototype.g)})(),(function(){function t(t,e){d?t.addEventListener("scroll",e,!1):t.attachEvent("scroll",e)}function e(t){document.body?t():d?document.addEventListener("DOMContentLoaded",t):document.attachEvent("onreadystatechange",(function(){"interactive"!=document.readyState&&"complete"!=document.readyState||t()}))}function n(t){this.a=document.createElement("div"),this.a.setAttribute("aria-hidden","true"),this.a.appendChild(document.createTextNode(t)),this.b=document.createElement("span"),this.c=document.createElement("span"),this.h=document.createElement("span"),this.f=document.createElement("span"),this.g=-1,this.b.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.c.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.f.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.h.style.cssText="display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;",this.b.appendChild(this.h),this.c.appendChild(this.f),this.a.appendChild(this.b),this.a.appendChild(this.c)}function o(t,e){t.a.style.cssText="max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;left:-999px;white-space:nowrap;font:"+e+";"}function i(t){var e=t.a.offsetWidth,n=e+100;return t.f.style.width=n+"px",t.c.scrollLeft=n,t.b.scrollLeft=t.b.scrollWidth+100,t.g!==e&&(t.g=e,!0)}function r(e,n){function o(){var t=r;i(t)&&null!==t.a.parentNode&&n(t.g)}var r=e;t(e.b,o),t(e.c,o),i(e)}function a(t,e){var n=e||{};this.family=t,this.style=n.style||"normal",this.weight=n.weight||"normal",this.stretch=n.stretch||"normal"}function s(){if(null===f){var t=document.createElement("div");try{t.style.font="condensed 100px sans-serif"}catch(t){}f=""!==t.style.font}return f}function c(t,e){return[t.style,t.weight,s()?t.stretch:"","100px",e].join(" ")}var d=!!document.addEventListener,l=null,f=null,u=!!window.FontFace;a.prototype.load=function(t,i){var a=this,s=t||"BESbswy",d=i||3e3,f=(new Date).getTime();return new Promise(function(t,i){if(u){var h=new Promise(function(t,e){function n(){(new Date).getTime()-f>=d?e():document.fonts.load(c(a,a.family),s).then((function(e){1<=e.length?t():setTimeout(n,25)}),(function(){e()}))}n()}),p=new Promise(function(t,e){setTimeout(e,d)});Promise.race([p,h]).then((function(){t(a)}),(function(){i(a)}))}else e((function(){function e(){var e;(e=-1!=w&&-1!=v||-1!=w&&-1!=y||-1!=v&&-1!=y)&&((e=w!=v&&w!=y&&v!=y)||(null===l&&(e=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent),l=!!e&&(536>parseInt(e[1],10)||536===parseInt(e[1],10)&&11>=parseInt(e[2],10))),e=l&&(w==g&&v==g&&y==g||w==b&&v==b&&y==b||w==x&&v==x&&y==x)),e=!e),e&&(null!==T.parentNode&&T.parentNode.removeChild(T),clearTimeout(E),t(a))}function u(){if((new Date).getTime()-f>=d)null!==T.parentNode&&T.parentNode.removeChild(T),i(a);else{var t=document.hidden;!0!==t&&void 0!==t||(w=h.a.offsetWidth,v=p.a.offsetWidth,y=m.a.offsetWidth,e()),E=setTimeout(u,50)}}var h=new n(s),p=new n(s),m=new n(s),w=-1,v=-1,y=-1,g=-1,b=-1,x=-1,T=document.createElement("div"),E=0;T.dir="ltr",o(h,c(a,"sans-serif")),o(p,c(a,"serif")),o(m,c(a,"monospace")),T.appendChild(h.a),T.appendChild(p.a),T.appendChild(m.a),document.body.appendChild(T),g=h.a.offsetWidth,b=p.a.offsetWidth,x=m.a.offsetWidth,u(),r(h,(function(t){w=t,e()})),o(h,c(a,'"'+a.family+'",sans-serif')),r(p,(function(t){v=t,e()})),o(p,c(a,'"'+a.family+'",serif')),r(m,(function(t){y=t,e()})),o(m,c(a,'"'+a.family+'",monospace'))}))})},window.FontFaceObserver=a,window.FontFaceObserver.prototype.check=window.FontFaceObserver.prototype.load=a.prototype.load,"undefined"!=typeof module&&(module.exports=window.FontFaceObserver)})();var getCookie=function(t){var e="; "+document.cookie,n=e.split("; "+t+"=");if(2==n.length)return n.pop().split(";").shift()};!(function(){var t="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i";if(getCookie("fontsLoaded"))loadCSS(t),document.documentElement.className+=" fonts-loaded";else{loadCSS(t);new FontFaceObserver("PT Serif").load().then((function(){var t=new Date(+new Date+6048e5).toUTCString();document.cookie="fontsLoaded=true; expires="+t,document.documentElement.className+=" fonts-loaded"}))}})();
+		</script>
+	</head>
+
+	<body class="type-articles page-single" id="page-7bf1dd5d28a539d13897cc793ecc7837">
+
+		<div class="container container-large">
+
+	
+	<a class="screen-reader screen-reader-focusable" href="#main">Skip to main content</a>
+
+	
+	<a class="screen-reader screen-reader-focusable" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Go%20Make%20Things:%20Accessibility%20Feedback">Accessibility Feedback</a>
+
+</div>
+
+		<header class="container container-large margin-bottom-large">
+	<nav class="nav-wrap">
+		<a class="logo" href="https://gomakethings.com">
+			<svg xmlns="http://www.w3.org/2000/svg" style="height:.8em;width:.8em" viewBox="0 0 16 16"><title></title><path fill="currentColor" d="M14 9v2.066c-1.258 1.285-3.016 2.526-5 2.852V8.001h3v-1L9 5.83A3.001 3.001 0 0 0 8 .001 3 3 0 0 0 7 5.83L4 7.001v1h3v5.917c-1.984-.326-3.742-1.567-5-2.852V9H0v1c0 2 4 6 8 6s8-4 8-6V9h-2zM9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+			Go Make Things
+		</a>
+		<div class="nav-menu" id="nav-menu">
+			<ul class="nav">
+				<li><a href="https://gomakethings.com/about">About</a></li><li class="active" ><a href="https://gomakethings.com/articles">Daily Tips</a></li><li><a href="https://gomakethings.com/resources">Learn JS</a></li>
+			</ul>
+			
+		</div>
+	</nav>
+</header>
+
+		<main id="main" tabindex="-1">
+
+			<div class="container">
+
+	<article>
+
+		<header>
+
+			<aside class="text-muted">
+				<time datetime="2018-06-14 10:30:00 -0400 EDT" pubdate>June 14, 2018</time>
+			</aside>
+
+			<h1 class="no-padding-top">
+				Recreating the React tic-tac-toe game with vanilla JS
+			</h1>
+
+		</header>
+
+		
+
+<p>Last week, I kicked off a series where I <a href="https://gomakethings.com/javascript-framework-demos-in-vanilla-js/">recreate popular framework demos with vanilla JS</a>, starting with VueJS.</p>
+
+<p>This week, we&rsquo;re going to build <a href="https://reactjs.org/tutorial/tutorial.html#what-were-building">React&rsquo;s Tic-Tac-Toe game</a>. And we&rsquo;re going to do with fewer lines of code and zero dependencies, and make it more accessible. <a href="https://jsfiddle.net/cferdinandi/bhk3jnyv/8/">You can see the finished script here.</a></p>
+
+<p>Let&rsquo;s get started.</p>
+
+<h2 id="the-starting-markup">The Starting Markup</h2>
+
+<p>The starting markup for this one is an empty <code>div</code> with an ID of <code>#game-board</code>. We&rsquo;re going to use JavaScript to build the rest of the markup and inject it into that container.</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;game-board&#34;</span><span class="p">&gt;</span>Loading...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre></div>
+<h2 id="the-board">The board</h2>
+
+<p>The React version uses <code>div</code> and <code>button</code> elements to create the tic-tac-toe board.</p>
+
+<p>The buttons are good for accessibility, because they allow people also navigate around the board using a keyboard. However, someone using a screen reader would have no idea which square in the board they&rsquo;re on. I&rsquo;m going to use a <code>table</code> element instead.</p>
+
+<p>It will look roughly like this.</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">table</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">tbody</span><span class="p">&gt;</span>
+		<span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;game-square&#34;</span> <span class="na">data-id</span><span class="o">=</span><span class="s">&#34;0&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">button</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;game-square&#34;</span> <span class="na">data-id</span><span class="o">=</span><span class="s">&#34;1&#34;</span> <span class="na">aria-pressed</span><span class="o">=</span><span class="s">&#34;true&#34;</span> <span class="na">disabled</span><span class="p">&gt;</span>X<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;game-square&#34;</span> <span class="na">data-id</span><span class="o">=</span><span class="s">&#34;2&#34;</span> <span class="na">aria-pressed</span><span class="o">=</span><span class="s">&#34;true&#34;</span> <span class="na">disabled</span><span class="p">&gt;</span>O<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+		<span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+		<span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;game-square&#34;</span> <span class="na">data-id</span><span class="o">=</span><span class="s">&#34;3&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">button</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;game-square&#34;</span> <span class="na">data-id</span><span class="o">=</span><span class="s">&#34;4&#34;</span> <span class="na">aria-pressed</span><span class="o">=</span><span class="s">&#34;true&#34;</span> <span class="na">disabled</span><span class="p">&gt;</span>X<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;game-square&#34;</span> <span class="na">data-id</span><span class="o">=</span><span class="s">&#34;5&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">button</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+		<span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+		<span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;game-square&#34;</span> <span class="na">data-id</span><span class="o">=</span><span class="s">&#34;6&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">button</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;game-square&#34;</span> <span class="na">data-id</span><span class="o">=</span><span class="s">&#34;7&#34;</span> <span class="na">aria-pressed</span><span class="o">=</span><span class="s">&#34;true&#34;</span> <span class="na">disabled</span><span class="p">&gt;</span>O<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;game-square&#34;</span> <span class="na">data-id</span><span class="o">=</span><span class="s">&#34;8&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">button</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+		<span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+	<span class="p">&lt;/</span><span class="nt">tbody</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span></code></pre></div>
+<p>I plan to use a <code>[data-id]</code> attribute so that my script can identify which square was pressed. the <code>aria-pressed</code> attribute lets screen readers know the button has already been selected, while the <code>disabled</code> attribute prevents it from being pressed again.</p>
+
+<p>We&rsquo;ll also add some light styling to the game board.</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">table</span> <span class="p">{</span>
+	<span class="k">border-collapse</span><span class="p">:</span> <span class="kc">collapse</span><span class="p">;</span>
+	<span class="k">border-spacing</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">game-square</span> <span class="p">{</span>
+	<span class="k">background</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+	<span class="k">border</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span> <span class="mh">#808080</span><span class="p">;</span>
+	<span class="k">color</span><span class="p">:</span> <span class="mh">#272727</span><span class="p">;</span>
+	<span class="k">font-size</span><span class="p">:</span> <span class="mi">2</span><span class="kt">em</span><span class="p">;</span>
+	<span class="k">font-weight</span><span class="p">:</span> <span class="kc">bold</span><span class="p">;</span>
+	<span class="k">height</span><span class="p">:</span> <span class="mf">1.5</span><span class="kt">em</span><span class="p">;</span>
+	<span class="k">width</span><span class="p">:</span> <span class="mf">1.5</span><span class="kt">em</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+<p>Planning out the end state like this makes it easier to actually write the script later.</p>
+
+<h2 id="tracking-states">Tracking States</h2>
+
+<p>There are a few pieces of information we need to track for this to work.</p>
+
+<p>First, we need a starting state for the game&mdash;as in, what&rsquo;s the value in each square of our board. This value can be represented as an array of nine items, with each item mapping to the corresponding box in our grid (and <code>[data-id]</code>).</p>
+
+<p>To <a href="https://gomakethings.com/how-to-handle-immutability-in-javascript/">prevent this default state from being modified</a>, I&rsquo;m going to make it a function that returns an array to give it immutability. By default, every square is <code>null</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">baseState</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="p">[</span><span class="kc">null</span><span class="p">,</span> <span class="kc">null</span><span class="p">,</span> <span class="kc">null</span><span class="p">,</span> <span class="kc">null</span><span class="p">,</span> <span class="kc">null</span><span class="p">,</span> <span class="kc">null</span><span class="p">,</span> <span class="kc">null</span><span class="p">,</span> <span class="kc">null</span><span class="p">,</span> <span class="kc">null</span><span class="p">];</span>
+<span class="p">};</span>
+</code></pre></div>
+<p>The React version tracks game history, and let&rsquo;s users show the board in any previous state. To track that, I&rsquo;ll create an empty array that will hold that data.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">historyState</span> <span class="o">=</span> <span class="p">[];</span>
+</code></pre></div>
+<p>Finally, I need to store the current state of the board, and who&rsquo;s turn it is (<code>X</code> or <code>O</code>). I&rsquo;ll create two placeholder variables for that.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">currentState</span><span class="p">,</span> <span class="nx">turn</span><span class="p">;</span>
+</code></pre></div>
+<h2 id="starting-the-game">Starting the game</h2>
+
+<p>When the game loads for the first time, or if the user clicks a &ldquo;Play Again&rdquo; button that we&rsquo;ll add, I want to reset the state and render the game board.</p>
+
+<p>This will set the <code>currentState</code> to the <code>baseState</code>, reset the <code>historyState</code> to an empty array, and set the current turn to <code>X</code>. Then, it will call an <code>updateBoard()</code> function we&rsquo;ll use to actually generate the board.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Reset the board to it&#39;s base state
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">resetBoard</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+	<span class="nx">currentState</span> <span class="o">=</span> <span class="nx">baseState</span><span class="p">();</span>
+	<span class="nx">historyState</span> <span class="o">=</span> <span class="p">[];</span>
+	<span class="nx">turn</span> <span class="o">=</span> <span class="s1">&#39;X&#39;</span><span class="p">;</span>
+	<span class="nx">updateBoard</span><span class="p">();</span>
+<span class="p">};</span>
+
+<span class="c1">// Reset the board when the game loads
+</span><span class="c1"></span><span class="nx">resetBoard</span><span class="p">();</span>
+</code></pre></div>
+<p>In the <code>updateBoard()</code> function, I use <code>querySelector</code> to get the <code>#game-board</code> and update it with <code>innerHTML</code>.</p>
+
+<p>If a game state is passed into it, we can use that. Otherwise, we&rsquo;ll use the <code>currentState</code>. We&rsquo;ll create another helper function, <code>buildBoard()</code>, to generate the actual markup string.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Update the board based on a state
+</span><span class="cm"> * @param  {Array} state The state to update from (optional, defaults to currentState)
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">updateBoard</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">state</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">var</span> <span class="nx">board</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;#game-board&#39;</span><span class="p">)</span>
+	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">board</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+	<span class="nx">board</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">buildBoard</span><span class="p">(</span><span class="nx">state</span> <span class="o">||</span> <span class="nx">currentState</span><span class="p">);</span>
+<span class="p">};</span>
+</code></pre></div>
+<h2 id="building-the-board">Building the board</h2>
+
+<p>In the <code>buildBoard()</code> function, I create a <code>rows</code> variable to hold the markup string, and create a <code>table</code> element.</p>
+
+<p>For each square in the <code>state</code>, I need to create a <code>td</code> element, setup in rows of three. To keep this script lean and clean, we&rsquo;ll handle that in a <code>buildSquares()</code> method (more on that in a second).</p>
+
+<p>Then, I&rsquo;ll close off the <code>table</code> and add a &ldquo;Play Again&rdquo; button. Finally, I&rsquo;ll return the markup string.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Build the game board
+</span><span class="cm"> * @param  {Array} state The state to build from
+</span><span class="cm"> * @return {String}      The markup based on the state
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">buildBoard</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">state</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Setup the table
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">rows</span> <span class="o">=</span> <span class="s1">&#39;&lt;table&gt;&lt;tbody&gt;&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Create each square
+</span><span class="c1"></span>	<span class="nx">rows</span> <span class="o">+=</span> <span class="nx">buildSquares</span><span class="p">(</span><span class="nx">state</span><span class="p">);</span>
+	<span class="nx">rows</span> <span class="o">+=</span> <span class="s1">&#39;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;button id=&#34;play-again&#34;&gt;Play Again&lt;/button&gt;&lt;/p&gt;&#39;</span><span class="p">;</span>
+
+	<span class="k">return</span> <span class="nx">rows</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div>
+<p>In the <code>buildSquares()</code> method, I&rsquo;ll setup an empty string assigned to the <code>rows</code> variable. This will eventually hold the data for each row in our table.</p>
+
+<p>I&rsquo;ll use <code>forEach()</code> to loop through each item in the <code>state</code> (our array of squares). If it&rsquo;s not <code>null</code>, I&rsquo;ll&hellip;</p>
+
+<ul>
+<li>Use it&rsquo;s value as our button text (the <code>value</code> variable).</li>
+<li>Add an <code>aria-pressed=&quot;true&quot;</code> attribute (the <code>selected</code> variable).</li>
+<li>Add a <code>disabled</code> attribute (the <code>disabled</code> variable).</li>
+</ul>
+
+<p>I also need to check if the current square is the first in a row (and if so create a new <code>tr</code>), or the last in the row (and if so close the current <code>tr</code>). For now, I&rsquo;ll move the functionality for that to <code>isFirstInRow()</code> and <code>isLastInRow()</code> methods.</p>
+
+<p>Finally, I&rsquo;ll return my <code>rows</code> string so that it can be concatenated in the <code>buildBoard()</code> function.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">buildSquares</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">state</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Setup rows
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">rows</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Loop through each square in the state
+</span><span class="c1"></span>	<span class="nx">state</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">square</span><span class="p">,</span> <span class="nx">id</span><span class="p">)</span> <span class="p">{</span>
+
+		<span class="c1">// Variables
+</span><span class="c1"></span>		<span class="kd">var</span> <span class="nx">value</span> <span class="o">=</span> <span class="nx">square</span> <span class="o">?</span> <span class="nx">square</span> <span class="o">:</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+		<span class="kd">var</span> <span class="nx">selected</span> <span class="o">=</span> <span class="nx">square</span> <span class="o">?</span> <span class="s1">&#39; aria-pressed=&#34;true&#34;&#39;</span> <span class="o">:</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+		<span class="kd">var</span> <span class="nx">disabled</span> <span class="o">=</span> <span class="nx">square</span> <span class="o">?</span> <span class="s1">&#39; disabled&#39;</span> <span class="o">:</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+
+		<span class="c1">// Check if it&#39;s a new row
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="nx">isFirstInRow</span><span class="p">(</span><span class="nx">id</span><span class="p">))</span> <span class="p">{</span>
+			<span class="nx">rows</span> <span class="o">+=</span> <span class="s1">&#39;&lt;tr&gt;&#39;</span><span class="p">;</span>
+		<span class="p">}</span>
+		<span class="nx">rows</span> <span class="o">+=</span> <span class="s1">&#39;&lt;td&gt;&lt;button class=&#34;game-square&#34; data-id=&#34;&#39;</span> <span class="o">+</span> <span class="nx">id</span> <span class="o">+</span> <span class="s1">&#39;&#34;&#39;</span> <span class="o">+</span> <span class="nx">selected</span> <span class="o">+</span> <span class="nx">disabled</span> <span class="o">+</span> <span class="s1">&#39;&gt;&#39;</span> <span class="o">+</span> <span class="nx">value</span> <span class="o">+</span> <span class="s1">&#39;&lt;/button&gt;&lt;/td&gt;&#39;</span><span class="p">;</span>
+
+		<span class="c1">// Check if it&#39;s the last column in a row
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="nx">isLastInRow</span><span class="p">(</span><span class="nx">id</span><span class="p">))</span> <span class="p">{</span>
+			<span class="nx">rows</span> <span class="o">+=</span> <span class="s1">&#39;&lt;/tr&gt;&#39;</span><span class="p">;</span>
+		<span class="p">}</span>
+
+	<span class="p">});</span>
+
+	<span class="k">return</span> <span class="nx">rows</span><span class="p">;</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>So, how do we check if it&rsquo;s the first or last square in a row?</p>
+
+<p>We can use a <a href="https://en.wikipedia.org/wiki/Modulo_operation">modulo operator</a> (<code>%</code>) to divide the square&rsquo;s index by the number of items in our row (<code>3</code>) and get the remainder.</p>
+
+<p>The math is easier when you start at <code>1</code>, so we&rsquo;ll add <code>1</code> to the index before doing this. Squares <code>1</code>, <code>4</code>, and <code>7</code> (after adding <code>1</code>) are the first in each row. Squares <code>3</code>, <code>6</code>, and, <code>9</code> (after adding <code>1</code>) are the last.</p>
+
+<p><code>1 / 3</code>, <code>4 / 3</code>, and <code>7 / 3</code> have a remainder of <code>1</code>. <code>3 / 3</code>, <code>6 / 3</code>, and <code>9 / 3</code> have a remainder of <code>0</code>. Using the modulo operator to get the remainder will tell us if the square is first or last in a row. We&rsquo;ll check the remainder and return a boolean.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">isFirstInRow</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">id</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="p">(</span><span class="nx">id</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">===</span> <span class="mi">1</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="kd">var</span> <span class="nx">isLastInRow</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">id</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="p">(</span><span class="nx">id</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">===</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div>
+<h2 id="playing-the-game">Playing the game</h2>
+
+<p>Now we&rsquo;re ready to actually play!</p>
+
+<p>Let&rsquo;s <a href="https://gomakethings.com/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/">use event bubbling</a> to listen for <code>click</code> events on the <code>document</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// Listen for selections
+</span><span class="c1"></span><span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+	<span class="c1">// Do something...
+</span><span class="c1"></span><span class="p">},</span> <span class="kc">false</span><span class="p">);</span>
+</code></pre></div>
+<p>If the <code>#play-again</code> button was clicked, we can call the <code>resetBoard()</code> method to wipe out the current states and render a clean board.</p>
+
+<p>If the clicked element was our <code>.game-square</code> buttons and it doesn&rsquo;t have a <code>disabled</code> attribute, we&rsquo;ll update the state and render the board again. We&rsquo;ll handle that in a <code>renderTurn()</code> helper function, passing in the button.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// Listen for selections
+</span><span class="c1"></span><span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// If #play-again was clicked
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">matches</span><span class="p">(</span><span class="s1">&#39;#play-again&#39;</span><span class="p">))</span> <span class="p">{</span>
+		<span class="nx">resetBoard</span><span class="p">();</span>
+	<span class="p">}</span>
+
+	<span class="c1">// If a .game-square was clicked
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">matches</span><span class="p">(</span><span class="s1">&#39;.game-square&#39;</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">hasAttribute</span><span class="p">(</span><span class="s1">&#39;disabled&#39;</span><span class="p">))</span> <span class="p">{</span>
+		<span class="nx">renderTurn</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">);</span>
+	<span class="p">}</span>
+
+<span class="p">},</span> <span class="kc">false</span><span class="p">);</span>
+</code></pre></div>
+<p>First, we&rsquo;ll get the square&rsquo;s ID from the <code>[data-id]</code> attribute.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Render the board again based on the current user&#39;s turn
+</span><span class="cm"> * @param  {Node} square The square that was selected
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">renderTurn</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">square</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Get selected value
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">selected</span> <span class="o">=</span> <span class="nx">square</span><span class="p">.</span><span class="nx">getAttribute</span><span class="p">(</span><span class="s1">&#39;data-id&#39;</span><span class="p">);</span>
+	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">selected</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>We&rsquo;ll update that square in the <code>currentState</code> array to the <code>turn</code> value. This starts with <code>X</code>, and, as you&rsquo;ll see further in this function, switches between <code>X</code> and <code>O</code> with each turn.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Render the board again based on the current user&#39;s turn
+</span><span class="cm"> * @param  {Node} square The square that was selected
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">renderTurn</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">square</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Get selected value
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">selected</span> <span class="o">=</span> <span class="nx">square</span><span class="p">.</span><span class="nx">getAttribute</span><span class="p">(</span><span class="s1">&#39;data-id&#39;</span><span class="p">);</span>
+	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">selected</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+	<span class="c1">// Update state
+</span><span class="c1"></span>	<span class="nx">currentState</span><span class="p">[</span><span class="nx">selected</span><span class="p">]</span> <span class="o">=</span> <span class="nx">turn</span><span class="p">;</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>Next, we want to add the current state of the board to the <code>historyState</code> array. We&rsquo;ll do this using the <code>.push()</code> method, and pass in a fresh copy of the <code>currentState</code> by using the <code>.slice()</code> method on it.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Render the board again based on the current user&#39;s turn
+</span><span class="cm"> * @param  {Node} square The square that was selected
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">renderTurn</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">square</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Get selected value
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">selected</span> <span class="o">=</span> <span class="nx">square</span><span class="p">.</span><span class="nx">getAttribute</span><span class="p">(</span><span class="s1">&#39;data-id&#39;</span><span class="p">);</span>
+	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">selected</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+	<span class="c1">// Update state
+</span><span class="c1"></span>	<span class="nx">currentState</span><span class="p">[</span><span class="nx">selected</span><span class="p">]</span> <span class="o">=</span> <span class="nx">turn</span><span class="p">;</span>
+
+	<span class="c1">// Add a historical state
+</span><span class="c1"></span>	<span class="nx">historyState</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">currentState</span><span class="p">.</span><span class="nx">slice</span><span class="p">());</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>Now, we can update the board markup by calling our <code>updateBoard()</code> method. We&rsquo;ll also update the <code>turn</code> variable. If it&rsquo;s currently <code>X</code> we&rsquo;ll switch it to <code>O</code> and vice-versa.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Render the board again based on the current user&#39;s turn
+</span><span class="cm"> * @param  {Node} square The square that was selected
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">renderTurn</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">square</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Get selected value
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">selected</span> <span class="o">=</span> <span class="nx">square</span><span class="p">.</span><span class="nx">getAttribute</span><span class="p">(</span><span class="s1">&#39;data-id&#39;</span><span class="p">);</span>
+	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">selected</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+	<span class="c1">// Update state
+</span><span class="c1"></span>	<span class="nx">currentState</span><span class="p">[</span><span class="nx">selected</span><span class="p">]</span> <span class="o">=</span> <span class="nx">turn</span><span class="p">;</span>
+
+	<span class="c1">// Add a historical state
+</span><span class="c1"></span>	<span class="nx">historyState</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">currentState</span><span class="p">.</span><span class="nx">slice</span><span class="p">());</span>
+
+	<span class="c1">// Render with new state
+</span><span class="c1"></span>	<span class="nx">updateBoard</span><span class="p">();</span>
+
+	<span class="c1">// Update turn
+</span><span class="c1"></span>	<span class="nx">turn</span> <span class="o">=</span> <span class="nx">turn</span> <span class="o">===</span> <span class="s1">&#39;X&#39;</span> <span class="o">?</span> <span class="s1">&#39;O&#39;</span> <span class="o">:</span> <span class="s1">&#39;X&#39;</span><span class="p">;</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<h2 id="what-about-the-history-state">What about the history state?</h2>
+
+<p>We&rsquo;re tracking the turn history, but not doing anything with it just yet. Let&rsquo;s fix that!</p>
+
+<p>In the <code>buildBoard()</code> method, let&rsquo;s concatenate a <code>buildHistory()</code> method at the end of our <code>rows</code> variable. We&rsquo;ll use this method to build the markup string.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Build the game board
+</span><span class="cm"> * @param  {Array} state The state to build from
+</span><span class="cm"> * @return {String}      The markup based on the state
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">buildBoard</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">state</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Setup the board
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">rows</span> <span class="o">=</span> <span class="s1">&#39;&lt;table&gt;&lt;tbody&gt;&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Create each square
+</span><span class="c1"></span>	<span class="nx">rows</span> <span class="o">+=</span> <span class="nx">buildSquares</span><span class="p">(</span><span class="nx">state</span><span class="p">,</span> <span class="nx">winner</span><span class="p">);</span>
+	<span class="nx">rows</span> <span class="o">+=</span> <span class="s1">&#39;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;button id=&#34;play-again&#34;&gt;Play Again&lt;/button&gt;&lt;/p&gt;&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Create game history
+</span><span class="c1"></span>	<span class="nx">rows</span> <span class="o">+=</span> <span class="nx">buildHistory</span><span class="p">();</span>
+
+	<span class="k">return</span> <span class="nx">rows</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div>
+<p>In the <code>buildHistory()</code> method, I&rsquo;ll setup a <code>history</code> variable to hold the markup.</p>
+
+<p>If the <code>historyState</code> array has any items in it, we&rsquo;ll add a &ldquo;Game History&rdquo; heading and setup an ordered list. Then, we&rsquo;ll loop through each state and create a list item and button.</p>
+
+<p>On the button, let&rsquo;s add a <code>[data-history]</code> attribute with a stringified version of the state for that turn using the <code>Array.toString()</code> method.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Build the history state buttons markup
+</span><span class="cm"> * @return {String} The markup
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">buildHistory</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+
+	<span class="c1">// Setup history markup
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">history</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+
+	<span class="c1">// If there&#39;s a history state, loop through each state and build a button
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="nx">historyState</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">history</span> <span class="o">+=</span> <span class="s1">&#39;&lt;h2&gt;Game History&lt;/h2&gt;&lt;ol&gt;&#39;</span><span class="p">;</span>
+		<span class="nx">historyState</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">move</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">history</span> <span class="o">+=</span> <span class="s1">&#39;&lt;li&gt;&lt;button data-history=&#34;&#39;</span> <span class="o">+</span> <span class="nx">move</span><span class="p">.</span><span class="nx">toString</span><span class="p">()</span> <span class="o">+</span> <span class="s1">&#39;&#34;&gt;Go to move # &#39;</span> <span class="o">+</span> <span class="p">(</span><span class="nx">index</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;&lt;/button&gt;&lt;/li&gt;&#39;</span><span class="p">;</span>
+		<span class="p">});</span>
+		<span class="nx">history</span> <span class="o">+=</span> <span class="s1">&#39;&lt;/ol&gt;&#39;</span><span class="p">;</span>
+	<span class="p">}</span>
+
+	<span class="k">return</span> <span class="nx">history</span><span class="p">;</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>Now we&rsquo;re showing the history buttons, but we need to do something when someone clicks one.</p>
+
+<p>In the event listener, if the clicked element has a <code>[data-history]</code> attribute, we can convert it&rsquo;s value back into an array with the <code>String.split()</code> method. Then we&rsquo;ll pass that state into the <code>updateBoard()</code> method, which will render it for us.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// If a .game-square was clicked
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">matches</span><span class="p">(</span><span class="s1">&#39;.game-square&#39;</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">hasAttribute</span><span class="p">(</span><span class="s1">&#39;disabled&#39;</span><span class="p">))</span> <span class="p">{</span>
+		<span class="nx">renderTurn</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">);</span>
+	<span class="p">}</span>
+
+	<span class="c1">// If #play-again was clicked
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">matches</span><span class="p">(</span><span class="s1">&#39;#play-again&#39;</span><span class="p">))</span> <span class="p">{</span>
+		<span class="nx">resetBoard</span><span class="p">();</span>
+	<span class="p">}</span>
+
+	<span class="c1">// If a historical button was clicked
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">matches</span><span class="p">(</span><span class="s1">&#39;[data-history]&#39;</span><span class="p">))</span> <span class="p">{</span>
+		<span class="nx">updateBoard</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">getAttribute</span><span class="p">(</span><span class="s1">&#39;data-history&#39;</span><span class="p">).</span><span class="nx">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">));</span>
+	<span class="p">}</span>
+
+<span class="p">},</span> <span class="kc">false</span><span class="p">);</span>
+</code></pre></div>
+<h2 id="what-about-when-someone-wins">What about when someone wins?</h2>
+
+<p>The one thing we haven&rsquo;t done yet is handle what happens when someone wins.</p>
+
+<p>In the <code>buildBoard()</code> function, let&rsquo;s add a variable and helper method to check if there&rsquo;s a winner. If there is, we&rsquo;ll add a &ldquo;You&rsquo;ve won!&rdquo; message to the top of the board indicating who won.</p>
+
+<p>We&rsquo;ll also pass that information into our <code>buildSquares()</code> method, and use it to disable the entire board.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Build the game board
+</span><span class="cm"> * @param  {Array} state The state to build from
+</span><span class="cm"> * @return {String}      The markup based on the state
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">buildBoard</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">state</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Check if there&#39;s a winner
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">winner</span> <span class="o">=</span> <span class="nx">isWinner</span><span class="p">();</span>
+
+	<span class="c1">// Setup the board
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">rows</span> <span class="o">=</span> <span class="nx">winner</span> <span class="o">?</span> <span class="s1">&#39;&lt;p&gt;&lt;strong&gt;&#39;</span> <span class="o">+</span> <span class="nx">winner</span> <span class="o">+</span> <span class="s1">&#39; is the winner!&lt;/string&gt;&lt;/p&gt;&#39;</span> <span class="o">:</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+	<span class="nx">rows</span> <span class="o">+=</span> <span class="s1">&#39;&lt;table&gt;&lt;tbody&gt;&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Create each square
+</span><span class="c1"></span>	<span class="nx">rows</span> <span class="o">+=</span> <span class="nx">buildSquares</span><span class="p">(</span><span class="nx">state</span><span class="p">,</span> <span class="nx">winner</span><span class="p">);</span>
+	<span class="nx">rows</span> <span class="o">+=</span> <span class="s1">&#39;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;button id=&#34;play-again&#34;&gt;Play Again&lt;/button&gt;&lt;/p&gt;&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Create game history
+</span><span class="c1"></span>	<span class="nx">rows</span> <span class="o">+=</span> <span class="nx">buildHistory</span><span class="p">();</span>
+
+	<span class="k">return</span> <span class="nx">rows</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div>
+<p>In the <code>buildSquares()</code> method under the <code>disabled</code> variable, if the square has a value <em>or</em> there&rsquo;s a winner, we&rsquo;ll add the <code>disabled</code> attribute.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Build each square of the game board
+</span><span class="cm"> * @param  {Array}   state  The board state
+</span><span class="cm"> * @param  {Boolean} winner If true, someone won the game
+</span><span class="cm"> * @return {String}         The markup
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">buildSquares</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">state</span><span class="p">,</span> <span class="nx">winner</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Setup rows
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">rows</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Loop through each square in the state
+</span><span class="c1"></span>	<span class="nx">state</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">square</span><span class="p">,</span> <span class="nx">id</span><span class="p">)</span> <span class="p">{</span>
+
+		<span class="c1">// Variables
+</span><span class="c1"></span>		<span class="kd">var</span> <span class="nx">value</span> <span class="o">=</span> <span class="nx">square</span> <span class="o">?</span> <span class="nx">square</span> <span class="o">:</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+		<span class="kd">var</span> <span class="nx">selected</span> <span class="o">=</span> <span class="nx">square</span> <span class="o">?</span> <span class="s1">&#39; aria-pressed=&#34;true&#34;&#39;</span> <span class="o">:</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+		<span class="kd">var</span> <span class="nx">disabled</span> <span class="o">=</span> <span class="nx">square</span> <span class="o">||</span> <span class="nx">winner</span> <span class="o">?</span> <span class="s1">&#39; disabled&#39;</span> <span class="o">:</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+
+		<span class="c1">// Check if it&#39;s a new row
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="nx">isFirstInRow</span><span class="p">(</span><span class="nx">id</span><span class="p">))</span> <span class="p">{</span>
+			<span class="nx">rows</span> <span class="o">+=</span> <span class="s1">&#39;&lt;tr&gt;&#39;</span><span class="p">;</span>
+		<span class="p">}</span>
+		<span class="nx">rows</span> <span class="o">+=</span> <span class="s1">&#39;&lt;td&gt;&lt;button class=&#34;game-square&#34; data-id=&#34;&#39;</span> <span class="o">+</span> <span class="nx">id</span> <span class="o">+</span> <span class="s1">&#39;&#34;&#39;</span> <span class="o">+</span> <span class="nx">selected</span> <span class="o">+</span> <span class="nx">disabled</span> <span class="o">+</span> <span class="s1">&#39;&gt;&#39;</span> <span class="o">+</span> <span class="nx">value</span> <span class="o">+</span> <span class="s1">&#39;&lt;/button&gt;&lt;/td&gt;&#39;</span><span class="p">;</span>
+
+		<span class="c1">// Check if it&#39;s the last column in a row
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="nx">isLastInRow</span><span class="p">(</span><span class="nx">id</span><span class="p">))</span> <span class="p">{</span>
+			<span class="nx">rows</span> <span class="o">+=</span> <span class="s1">&#39;&lt;/tr&gt;&#39;</span><span class="p">;</span>
+		<span class="p">}</span>
+
+	<span class="p">});</span>
+
+	<span class="k">return</span> <span class="nx">rows</span><span class="p">;</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<h2 id="checking-if-there-s-a-winner">Checking if there&rsquo;s a winner</h2>
+
+<p>Ok, but&hellip; how do we check if someone won?</p>
+
+<p>There are eight possible winning patterns. I created an array of <code>wins</code>, with each item containing an array with the square indexes for those winning patterns.</p>
+
+<p>For example, having the same value in squares <code>0</code>, <code>1</code>, and <code>2</code> (the first row), or squares <code>0</code>, <code>3</code>, and <code>6</code> (the first column) is a winning pattern.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Check if there&#39;s a winner
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">isWinner</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+
+	<span class="c1">// Possible winning combinations
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">wins</span> <span class="o">=</span> <span class="p">[</span>
+		<span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span>
+		<span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">],</span>
+		<span class="p">[</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">],</span>
+		<span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">],</span>
+		<span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">7</span><span class="p">],</span>
+		<span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">8</span><span class="p">],</span>
+		<span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">8</span><span class="p">],</span>
+		<span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">6</span><span class="p">]</span>
+	<span class="p">];</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>We can <a href="https://gomakethings.com/find-every-matching-item-in-an-array-with-vanilla-javascript/">use <code>Array.filter()</code> to find any of those matching patterns</a> in the <code>currentState</code> array.</p>
+
+<p>The <code>Array.filter()</code> method let&rsquo;s you check each item in an array against some criteria, and creates a new array containing only the items that match.</p>
+
+<p>We&rsquo;ll call it on the <code>wins</code> array, and check if indexes in the <code>currentState</code> for each winning pattern all match. If they do, that&rsquo;s a winner.</p>
+
+<p>If the new <code>isWinner</code> array has an items in it, there was a winner. We&rsquo;ll return the value of the first item in the winning pattern (either an <code>X</code> or <code>O</code>). Otherwise, we&rsquo;ll return false.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Check if there&#39;s a winner
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">isWinner</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+
+	<span class="c1">// Possible winning combinations
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">wins</span> <span class="o">=</span> <span class="p">[</span>
+		<span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span>
+		<span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">],</span>
+		<span class="p">[</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">],</span>
+		<span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">],</span>
+		<span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">7</span><span class="p">],</span>
+		<span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">8</span><span class="p">],</span>
+		<span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">8</span><span class="p">],</span>
+		<span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">6</span><span class="p">]</span>
+	<span class="p">];</span>
+
+	<span class="c1">// Check if there&#39;s a winning combo
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">isWinner</span> <span class="o">=</span> <span class="nx">wins</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">win</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="p">(</span><span class="nx">currentState</span><span class="p">[</span><span class="nx">win</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">&amp;&amp;</span> <span class="nx">currentState</span><span class="p">[</span><span class="nx">win</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">===</span> <span class="nx">currentState</span><span class="p">[</span><span class="nx">win</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span> <span class="o">&amp;&amp;</span> <span class="nx">currentState</span><span class="p">[</span><span class="nx">win</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">===</span> <span class="nx">currentState</span><span class="p">[</span><span class="nx">win</span><span class="p">[</span><span class="mi">2</span><span class="p">]]);</span>
+	<span class="p">});</span>
+
+	<span class="c1">// Return the winner, or false if there isn&#39;t one
+</span><span class="c1"></span>	<span class="k">return</span> <span class="p">(</span><span class="nx">isWinner</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">?</span> <span class="nx">currentState</span><span class="p">[</span><span class="nx">isWinner</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]]</span> <span class="o">:</span> <span class="kc">false</span><span class="p">);</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<h2 id="wrapping-up">Wrapping up</h2>
+
+<p>This was a lot more complex than <a href="https://gomakethings.com/javascript-framework-demos-in-vanilla-js/">the VueJS example from last week</a>.</p>
+
+<p>That said, the finished result is both more accessible than the version in the React docs, <em>and</em> fewer lines of code. That feels like a win to me!</p>
+
+<p><a href="https://jsfiddle.net/cferdinandi/bhk3jnyv/8/">You can view the full working project on JSFiddle.</a></p>
+
+
+	</article>
+
+	<br>
+<aside>
+	
+<p><mark>🔥 <em><strong>FIRE SALE!</strong> To celebrate the launch of the <strong><a href="https://vanillajsguides.com/variables-functions-and-scope/">Pocket Guide video series on Functions, Variables, and Scope</a></strong>, you can <strong>take 50% off any guide or bundle</strong> with the code <strong><code>VAR50</code></strong> at checkout. This ends at midnight, so don't wait!</em></mark></p>
+
+
+	<p><em>Have any questions or comments about this post? Email me at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a> or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
+
+	<form action="https://gomakethings.us1.list-manage.com/subscribe/post?u=f2d244c0df42a0431bd08ddea&amp;id=aeaa9dd034" method="post" name="mc-embedded-subscribe-form" id="mailchimp-form" novalidate>
+	<div class="row">
+		<div class="grid-two-thirds">
+			<div class="tarpit">
+				<label for="name">If you're human, leave this blank</label>
+				<input type="text" name="name" id="name" value="">
+			</div>
+			<div>
+				<label class="screen-reader" for="mailchimp-email">Email Address</label>
+				<input type="email" name="email" id="mailchimp-email" placeholder="Your email address..." required>
+			</div>
+			<input type="hidden" name="TbVktzD9dNZiQyZQ3Dk64w6L" value="WqJELdqqHHFTLUrEWJLu4DspKjeoBawWdWnZVVwti7RYpCyLr8WoWtm7UozshPy6">
+			<input type="hidden" name="group[aaf6f8b9a3]" value="1">
+			<input type="hidden" name="group[07afa3dcbc]" value="1">
+		</div>
+		<div class="grid-third">
+			<button data-processing="Signing Up..." data-ready="Get Daily Developer Tips" class="btn btn-block" type="submit">Get Daily Developer Tips</button>
+		</div>
+	</div>
+	<div id="mc-status"></div>
+</form>
+</aside>
+
+			</div>
+		</main>
+
+		<footer class="container container-large">
+			<hr class="margin-bottom">
+			<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline list-inline-responsive">
+		<li><a href="https://gomakethings.com/about">About</a></li><li><a href="https://gomakethings.com/articles">Daily Tips</a></li><li><a href="https://gomakethings.com/resources">Learn JS</a></li>
+	</ul>
+</nav>
+			<p class="text-small">Made with ❤️ in Massachusetts. Unless otherwise noted, all code is free to use under the <a href="https://gomakethings.com/mit">MIT License</a>.</p>
+		</footer>
+
+		<script>
+			if ('querySelector' in document && 'addEventListener' in window && 'classList' in document.createElement('_')) {
+				/*! gmt v1.16.0 | (c) 2018 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/go-make-things | Open Source Credits: https://github.com/toddmotto/fluidvids, http://prismjs.com, https://github.com/filamentgroup/loadJS/, https://github.com/filamentgroup/loadCSS, https://github.com/bramstein/fontfaceobserver */
+!(function(e,t,n){"use strict";var i=t.querySelectorAll(".edd-buy-now-button"),o=function(e){e.target.classList.contains("edd-buy-now-button")&&(0!==e.button||e.metaKey||e.ctrlKey||(e.target.innerHTML="Adding to cart...",e.target.classList.add("disabled")))};i.length>0&&t.addEventListener("click",o,!1)})(window,document),(function(e,t){"function"==typeof define&&define.amd?define(t):"object"==typeof exports?module.exports=t:e.fluidvids=t()})(this,(function(){"use strict";var e={selector:["iframe"],players:["www.youtube.com","player.vimeo.com"]},t=[".fluidvids {","width: 100%; max-width: 100%; position: relative;","}",".fluidvids-item {","position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;","}"].join(""),n=document.head||document.getElementsByTagName("head")[0],i=function(t){return new RegExp("^(https?:)?//(?:"+e.players.join("|")+").*$","i").test(t)},o=function(e,t){return parseInt(e,10)/parseInt(t,10)*100+"%"},a=function(e){if(i(e.src)&&!e.getAttribute("data-fluidvids")){var t=document.createElement("div");e.parentNode.insertBefore(t,e),e.className+=(e.className?" ":"")+"fluidvids-item",e.setAttribute("data-fluidvids","loaded"),t.className+="fluidvids",t.style.paddingTop=o(e.height,e.width),t.appendChild(e)}},r=function(){var e=document.createElement("div");e.innerHTML="<p>x</p><style>"+t+"</style>",n.appendChild(e.childNodes[1])};return e.render=function(){for(var t=document.querySelectorAll(e.selector.join()),n=t.length;n--;)a(t[n])},e.init=function(t){for(var n in t)e[n]=t[n];e.render(),r()},e}));var addHeadingLinks=function(e,t,n){"use strict";if(e){var i=document.querySelectorAll(e);t=t||"#",n=n||"anchor-link";for(var o=0;o<i.length;o++)i[o].id&&(i[o].innerHTML+=' <a class="'+n+'" href="#'+i[o].id+'">'+t+"</a>")}},mailchimp=function(e){"use strict";var t=document.querySelector("#mailchimp-form");if(t){var n=t.querySelector("#mailchimp-email");if(n){var i=t.querySelector("#mc-status"),o={empty:"Please provide an email address.",notEmail:"Please use a valid email address.",success:"Success! Thanks for inviting me to your inbox."},a=function(e){for(var t=[],n=0;n<e.elements.length;n++){var i=e.elements[n];i.name&&!i.disabled&&"file"!==i.type&&"reset"!==i.type&&"submit"!==i.type&&"button"!==i.type&&(("checkbox"!==i.type&&"radio"!==i.type||i.checked)&&t.push(encodeURIComponent(i.name)+"="+encodeURIComponent(i.value)))}return t.join("&")},r=function(){i&&(i.textContent="",i.className="",n.className="",n.removeAttribute("aria-describedby"))},c=function(e,t){i&&(i.textContent=e,t?(i.className="success-message",i.setAttribute("tabindex","-1"),i.focus()):(i.className="error-message",n.className="error",n.setAttribute("aria-describedby","mc-status"),n.focus()))},s=function(){var e=t.querySelector("[data-processing]");e&&(e.setAttribute("data-original",e.innerHTML),e.setAttribute("disabled","disabled"),e.innerHTML=e.getAttribute("data-processing"))},u=function(){var e=t.querySelector("[data-processing]");e&&(e.removeAttribute("disabled"),e.innerHTML=e.getAttribute("data-original"))},l=function(t){var n=new XMLHttpRequest;n.onreadystatechange=function(){if(4===n.readyState){var t=200===n.status,i=JSON.parse(n.responseText);t?c(o.success,t):c(i.message,t),u(),e&&"function"==typeof e&&e(i)}},n.open("POST","https://gomakethings.com/checkout/wp-json/gmt-mailchimp/v1/subscribe?"+t),n.send()},d=function(){s(),l(a(t))},f=function(){return/^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$/.test(n.value)},m=function(){return n.value.length<1?(c(o.empty),!1):!!f()||(c(o.notEmail),!1)},x=function(e){e.preventDefault(),r(),m()&&d()};t.addEventListener("submit",x,!1)}}};if(window.Element&&!Element.prototype.closest&&(Element.prototype.closest=function(e){var t,n=(this.document||this.ownerDocument).querySelectorAll(e),i=this;do{for(t=n.length;--t>=0&&n.item(t)!==i;);}while(t<0&&(i=i.parentElement));return i}),(function(){for(var e=0,t=["ms","moz","webkit","o"],n=0;n<t.length&&!window.requestAnimationFrame;++n)window.requestAnimationFrame=window[t[n]+"RequestAnimationFrame"],window.cancelAnimationFrame=window[t[n]+"CancelAnimationFrame"]||window[t[n]+"CancelRequestAnimationFrame"];window.requestAnimationFrame||(window.requestAnimationFrame=function(t,n){var i=(new Date).getTime(),o=Math.max(0,16-(i-e)),a=window.setTimeout((function(){t(i+o)}),o);return e=i+o,a}),window.cancelAnimationFrame||(window.cancelAnimationFrame=function(e){clearTimeout(e)})})(),(function(e,t){"function"==typeof define&&define.amd?define([],(function(){return t(e)})):"object"==typeof exports?module.exports=t(e):e.SmoothScroll=t(e)})("undefined"!=typeof global?global:"undefined"!=typeof window?window:this,(function(e){"use strict";var t="querySelector"in document&&"addEventListener"in e&&"requestAnimationFrame"in e&&"closest"in e.Element.prototype,n={ignore:"[data-scroll-ignore]",header:null,speed:500,offset:0,easing:"easeInOutCubic",customEasing:null,before:function(){},after:function(){}},i=function(){for(var e={},t=0,n=arguments.length;t<n;t++){var i=arguments[t];!(function(t){for(var n in t)t.hasOwnProperty(n)&&(e[n]=t[n])})(i)}return e},o=function(t){return parseInt(e.getComputedStyle(t).height,10)},a=function(e){"#"===e.charAt(0)&&(e=e.substr(1));for(var t,n=String(e),i=n.length,o=-1,a="",r=n.charCodeAt(0);++o<i;){if(0===(t=n.charCodeAt(o)))throw new InvalidCharacterError("Invalid character: the input contains U+0000.");t>=1&&t<=31||127==t||0===o&&t>=48&&t<=57||1===o&&t>=48&&t<=57&&45===r?a+="\\"+t.toString(16)+" ":a+=t>=128||45===t||95===t||t>=48&&t<=57||t>=65&&t<=90||t>=97&&t<=122?n.charAt(o):"\\"+n.charAt(o)}return"#"+a},r=function(e,t){var n;return"easeInQuad"===e.easing&&(n=t*t),"easeOutQuad"===e.easing&&(n=t*(2-t)),"easeInOutQuad"===e.easing&&(n=t<.5?2*t*t:(4-2*t)*t-1),"easeInCubic"===e.easing&&(n=t*t*t),"easeOutCubic"===e.easing&&(n=--t*t*t+1),"easeInOutCubic"===e.easing&&(n=t<.5?4*t*t*t:(t-1)*(2*t-2)*(2*t-2)+1),"easeInQuart"===e.easing&&(n=t*t*t*t),"easeOutQuart"===e.easing&&(n=1- --t*t*t*t),"easeInOutQuart"===e.easing&&(n=t<.5?8*t*t*t*t:1-8*--t*t*t*t),"easeInQuint"===e.easing&&(n=t*t*t*t*t),"easeOutQuint"===e.easing&&(n=1+--t*t*t*t*t),"easeInOutQuint"===e.easing&&(n=t<.5?16*t*t*t*t*t:1+16*--t*t*t*t*t),e.customEasing&&(n=e.customEasing(t)),n||t},c=function(){return Math.max(document.body.scrollHeight,document.documentElement.scrollHeight,document.body.offsetHeight,document.documentElement.offsetHeight,document.body.clientHeight,document.documentElement.clientHeight)},s=function(e,t,n){var i=0;if(e.offsetParent)do{i+=e.offsetTop,e=e.offsetParent}while(e);return i=Math.max(i-t-n,0)},u=function(e){return e?o(e)+e.offsetTop:0},l=function(t,n,i){i||(t.focus(),document.activeElement.id!==t.id&&(t.setAttribute("tabindex","-1"),t.focus(),t.style.outline="none"),e.scrollTo(0,n))},d=function(t){return!!("matchMedia"in e&&e.matchMedia("(prefers-reduced-motion)").matches)};return function(o,f){var m,x,h,p,g,v,b,y={};y.cancelScroll=function(){cancelAnimationFrame(b)},y.animateScroll=function(t,o,a){var d=i(m||n,a||{}),f="[object Number]"===Object.prototype.toString.call(t),x=f||!t.tagName?null:t;if(f||x){var h=e.pageYOffset;d.header&&!p&&(p=document.querySelector(d.header)),g||(g=u(p));var v,b,w,A=f?t:s(x,g,parseInt("function"==typeof d.offset?d.offset():d.offset,10)),S=A-h,E=c(),q=0,L=function(n,i){var a=e.pageYOffset;if(n==i||a==i||(h<i&&e.innerHeight+a)>=E)return y.cancelScroll(),l(t,i,f),d.after(t,o),v=null,!0},T=function(t){v||(v=t),q+=t-v,b=q/parseInt(d.speed,10),b=b>1?1:b,w=h+S*r(d,b),e.scrollTo(0,Math.floor(w)),L(w,A)||(e.requestAnimationFrame(T),v=t)};0===e.pageYOffset&&e.scrollTo(0,0),d.before(t,o),y.cancelScroll(),e.requestAnimationFrame(T)}};var w=function(e){x&&(x.id=x.getAttribute("data-scroll-id"),y.animateScroll(x,h),x=null,h=null)},A=function(t){if(!d()&&0===t.button&&!t.metaKey&&!t.ctrlKey&&(h=t.target.closest(o))&&"a"===h.tagName.toLowerCase()&&!t.target.closest(m.ignore)&&h.hostname===e.location.hostname&&h.pathname===e.location.pathname&&/#/.test(h.href)){var n;try{n=a(decodeURIComponent(h.hash))}catch(e){n=a(h.hash)}if("#"===n){t.preventDefault(),x=document.body;var i=x.id?x.id:"smooth-scroll-top";return x.setAttribute("data-scroll-id",i),x.id="",void(e.location.hash.substring(1)===i?w():e.location.hash=i)}x=document.querySelector(n),x&&(x.setAttribute("data-scroll-id",x.id),x.id="",h.hash===e.location.hash&&(t.preventDefault(),w()))}},S=function(e){v||(v=setTimeout((function(){v=null,g=u(p)}),66))};return y.destroy=function(){m&&(document.removeEventListener("click",A,!1),e.removeEventListener("resize",S,!1),y.cancelScroll(),m=null,x=null,h=null,p=null,g=null,v=null,b=null)},y.init=function(o){t&&(y.destroy(),m=i(n,o||{}),p=m.header?document.querySelector(m.header):null,g=u(p),document.addEventListener("click",A,!1),e.addEventListener("hashchange",w,!1),p&&e.addEventListener("resize",S,!1))},y.init(f),y}})),fluidvids.init({selector:["iframe","object"],players:["www.youtube.com","player.vimeo.com","www.slideshare.net","www.hulu.com","videopress.com/embed/"]}),document.querySelector('a[href*="#"]'))var scroll=new SmoothScroll('a[href*="#"]');document.querySelector("#mailchimp-form")&&mailchimp((function(e){200===e.code&&(window.location.href="/newsletter-success")})),(document.body.matches(".type-articles.page-single")||document.body.matches("#page-54a32daa7699b0585cab71188bd8c152"))&&addHeadingLinks("h2, h3, h4, h5, h6","#","link-no-underline");
+				
+			}
+			
+			var _paq = _paq || [];
+			
+			_paq.push(['trackPageView']);
+			_paq.push(['enableLinkTracking']);
+			(function() {
+				var u="//analytics.gomakethings.com/";
+				_paq.push(['setTrackerUrl', u+'piwik.php']);
+				_paq.push(['setSiteId', '1']);
+				var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+				g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+			})();
+		</script>
+		<noscript><p><img src="//analytics.gomakethings.com/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p></noscript>
+	</body>
+</html>

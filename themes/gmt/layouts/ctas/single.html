@@ -1,0 +1,15 @@
+{{- $.Scratch.Set "ctas" ( dict ) -}}
+{{- range $index, $cta := .Site.Data.ctas -}}
+	{{- $.Scratch.Set "name" (humanize $index | replaceRE " " "-" | lower) -}}
+	{{- if ne (index $cta "message") "" -}}
+		{{- $.Scratch.SetInMap "ctas" ($.Scratch.Get "name") (safeHTML (index $cta "message")) -}}
+	{{- end -}}
+	{{- if isset $cta "limited" -}}
+		{{- range $limited := index $cta "limited" -}}
+			{{- if and (ge (now.Format "20060102") (index $limited "start")) (le (now.Format "20060102") (index $limited "end")) -}}
+				{{- $.Scratch.SetInMap "ctas" ($.Scratch.Get "name") (safeHTML (index $limited "message" )) -}}
+			{{- end -}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}
+{{- $.Scratch.Get "ctas" | jsonify -}}

@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+>
+	<channel>
+		<title>Go Make Things</title>
+		<atom:link href="https://gomakethings.com/feed/" rel="self" type="application/rss+xml" />
+		<link>https://gomakethings.com</link>
+		<description>Vanilla JavaScript for beginners and designers.</description>
+		<lastBuildDate>Sun, 14 Jan 2018 21:38:44 -4400</lastBuildDate>
+		<language>en-us</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+		<generator>Hugo -- gohugo.io</generator>
+		
+		
+			<item>
+				<title>Vanilla JS isn&#39;t for building web apps</title>
+				<link>https://gomakethings.com/vanilla-js-isnt-for-building-web-apps/</link>
+				<pubDate>Thu, 26 Jul 2018 10:30:00 -0400</pubDate>
+				
+				<guid>https://gomakethings.com/vanilla-js-isnt-for-building-web-apps/</guid>
+				<description><![CDATA[ When I get resistance about using vanilla JS instead of frameworks, I&rsquo;m often told something like this.
+ Well, you probably only build websites. If you built real web apps you&rsquo;d understand why frameworks are necessary.
+ First off, fuck your patronizing tone. Second, yes, I have built &ldquo;real&rdquo; web apps.
+But third, and the reason I&rsquo;m writing this today, Mislav Marohnić from GitHub (definitely a webapp thankyouverymuch) announced on Twitter yesterday:]]></description>
+				<content:encoded><![CDATA[ <p>When I get resistance about using vanilla JS instead of frameworks, I&rsquo;m often told something like this.</p>
+
+<blockquote>
+<p>Well, you probably only build websites. If you built real web apps you&rsquo;d understand why frameworks are necessary.</p>
+</blockquote>
+
+<p>First off, fuck your patronizing tone. Second, yes, <a href="https://courses.gomakethings.com">I have built &ldquo;real&rdquo; web apps</a>.</p>
+
+<p>But third, and the reason I&rsquo;m writing this today, Mislav Marohnić from GitHub (definitely a webapp thankyouverymuch) <a href="https://twitter.com/mislav/status/1022058279000842240">announced on Twitter yesterday</a>:</p>
+
+<blockquote>
+<p>We’re finally finished removing jQuery from <a href="http://GitHub.com">http://GitHub.com</a>  frontend. What did we replace it with? No framework whatsoever:</p>
+
+<ul>
+<li>querySelectorAll,</li>
+<li>fetch for ajax,</li>
+<li>elegated-events for event handling,</li>
+<li>polyfills for standard DOM stuff,</li>
+<li>CustomElements on the rise.</li>
+</ul>
+</blockquote>
+
+<p>👏👏👏</p>
+
+<p>This is so much awesome! Really great work from the GitHub frontend team!</p>
+]]></content:encoded>
+			</item>
+		
+			<item>
+				<title>True type checking with vanilla js</title>
+				<link>https://gomakethings.com/true-type-checking-with-vanilla-js/</link>
+				<pubDate>Wed, 25 Jul 2018 10:30:00 -0400</pubDate>
+				
+				<guid>https://gomakethings.com/true-type-checking-with-vanilla-js/</guid>
+				<description><![CDATA[ You may already be familiar with the typeof operator, which returns a string letting you know the type of a JavaScript object.
+var num = 123; // Returns &#34;number&#34; typeof num;  Because everything is an object in JavaScript, it can return some pretty weird results. Here&rsquo;s a set of examples from my buddy Todd Motto.
+typeof []; // object typeof {}; // object typeof &#39;&#39;; // string typeof new Date() // object typeof 1; // number typeof function () {}; // function typeof /test/i; // object typeof true; // boolean typeof null; // object typeof undefined; // undefined  The array, plain object, date, regex, and null all return object.]]></description>
+				<content:encoded><![CDATA[ 
+
+<p>You may already be familiar with the <code>typeof</code> operator, which returns a string letting you know the <em>type</em> of a JavaScript object.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">num</span> <span class="o">=</span> <span class="mi">123</span><span class="p">;</span>
+
+<span class="c1">// Returns &#34;number&#34;
+</span><span class="c1"></span><span class="k">typeof</span> <span class="nx">num</span><span class="p">;</span>
+</code></pre></div>
+<p>Because <a href="https://gomakethings.com/everything-is-an-object-in-javascript/">everything is an object in JavaScript</a>, it can return some pretty weird results. Here&rsquo;s a set of examples from my buddy <a href="https://toddmotto.com/understanding-javascript-types-and-reliable-type-checking/">Todd Motto</a>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="k">typeof</span> <span class="p">[];</span> <span class="c1">// object
+</span><span class="c1"></span><span class="k">typeof</span> <span class="p">{};</span> <span class="c1">// object
+</span><span class="c1"></span><span class="k">typeof</span> <span class="s1">&#39;&#39;</span><span class="p">;</span> <span class="c1">// string
+</span><span class="c1"></span><span class="k">typeof</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">()</span> <span class="c1">// object
+</span><span class="c1"></span><span class="k">typeof</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">// number
+</span><span class="c1"></span><span class="k">typeof</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{};</span> <span class="c1">// function
+</span><span class="c1"></span><span class="k">typeof</span> <span class="sr">/test/i</span><span class="p">;</span> <span class="c1">// object
+</span><span class="c1"></span><span class="k">typeof</span> <span class="kc">true</span><span class="p">;</span> <span class="c1">// boolean
+</span><span class="c1"></span><span class="k">typeof</span> <span class="kc">null</span><span class="p">;</span> <span class="c1">// object
+</span><span class="c1"></span><span class="k">typeof</span> <span class="kc">undefined</span><span class="p">;</span> <span class="c1">// undefined
+</span><span class="c1"></span></code></pre></div>
+<p>The array, plain object, date, regex, and <code>null</code> all return <code>object</code>. The only really accurate ones are the string, function, boolean, and <code>undefined</code>.</p>
+
+<p>So&hellip; how do you accurately check the <em>true</em> type of an object with vanilla JS?</p>
+
+<h2 id="a-workaround">A workaround</h2>
+
+<p>Todd provides a neat solution, too.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="nb">Object</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toString</span><span class="p">.</span><span class="nx">call</span><span class="p">();</span>
+</code></pre></div>
+<p>You pass the thing you want to check the type of into <code>call()</code> as an argument. The gets its prototype and converts it to a string, which gives you back something like <code>[object Array]</code> or <code>[object Boolean]</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="nb">Object</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toString</span><span class="p">.</span><span class="nx">call</span><span class="p">([]);</span> <span class="c1">// [object Array]
+</span><span class="c1"></span><span class="nb">Object</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toString</span><span class="p">.</span><span class="nx">call</span><span class="p">({});</span> <span class="c1">// [object Object]
+</span><span class="c1"></span><span class="nb">Object</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toString</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">);</span> <span class="c1">// [object String]
+</span><span class="c1"></span><span class="nb">Object</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toString</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="k">new</span> <span class="nb">Date</span><span class="p">());</span> <span class="c1">// [object Date]
+</span><span class="c1"></span><span class="nb">Object</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toString</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span> <span class="c1">// [object Number]
+</span><span class="c1"></span><span class="nb">Object</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toString</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{});</span> <span class="c1">// [object Function]
+</span><span class="c1"></span><span class="nb">Object</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toString</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="sr">/test/i</span><span class="p">);</span> <span class="c1">// [object RegExp]
+</span><span class="c1"></span><span class="nb">Object</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toString</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span> <span class="c1">// [object Boolean]
+</span><span class="c1"></span><span class="nb">Object</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toString</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="kc">null</span><span class="p">);</span> <span class="c1">// [object Null]
+</span><span class="c1"></span><span class="nb">Object</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toString</span><span class="p">.</span><span class="nx">call</span><span class="p">();</span> <span class="c1">// [object Undefined]
+</span><span class="c1"></span></code></pre></div>
+<h2 id="a-helper-function">A helper function</h2>
+
+<p>That&rsquo;s kind of verbose, though. Here&rsquo;s a helper function that will return a lowercase string of just the type, without the leading <code>[object</code> or trailing <code>]</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">trueTypeOf</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">obj</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toString</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="nx">obj</span><span class="p">).</span><span class="nx">slice</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">).</span><span class="nx">toLowerCase</span><span class="p">();</span>
+<span class="p">};</span>
+
+<span class="c1">// Returns &#34;array&#34;
+</span><span class="c1"></span><span class="nx">trueTypeOf</span><span class="p">([]);</span>
+
+<span class="c1">// Returns &#34;date&#34;
+</span><span class="c1"></span><span class="nx">trueTypeOf</span><span class="p">(</span><span class="k">new</span> <span class="nb">Date</span><span class="p">());</span>
+</code></pre></div>
+<p>I&rsquo;ve added this on the <a href="https://vanillajstoolkit.com/helpers/truetypeof/">Vanilla JS Toolkit</a>.</p>
+
+<p>I refer to <a href="https://toddmotto.com/understanding-javascript-types-and-reliable-type-checking/">Todd&rsquo;s original article</a> on this so often, I thought it would be use documenting here, too.</p>
+]]></content:encoded>
+			</item>
+		
+			<item>
+				<title>How I built my own vanilla JS alternative to Vue and React</title>
+				<link>https://gomakethings.com/how-i-built-my-own-vanilla-js-alternative-to-vue-and-react/</link>
+				<pubDate>Tue, 24 Jul 2018 10:30:00 -0400</pubDate>
+				
+				<guid>https://gomakethings.com/how-i-built-my-own-vanilla-js-alternative-to-vue-and-react/</guid>
+				<description><![CDATA[ Yesterday, I wrote about Reef.js, my new vanilla JS alternative to Vue and React, and why I decided to write my own little helper method.
+Today, I want to show you how I actually built it, and what makes it all work under the hood.
+Let&rsquo;s dig in!
+A quick refresher If you forgot/aren&rsquo;t familiar with Reef&rsquo;s syntax, here&rsquo;s an example of a simple clock app.
+Rhe Reef() method accepts two arguments.]]></description>
+				<content:encoded><![CDATA[ 
+
+<p>Yesterday, I wrote about <a href="https://github.com/cferdinandi/reef">Reef.js, my new vanilla JS alternative to Vue and React</a>, and <a href="https://gomakethings.com/why-i-wrote-my-own-vanilla-js-alternative-to-vue-and-react/">why I decided to write my own little helper method</a>.</p>
+
+<p>Today, I want to show you <em>how</em> I actually built it, and what makes it all work under the hood.</p>
+
+<p>Let&rsquo;s dig in!</p>
+
+<h2 id="a-quick-refresher">A quick refresher</h2>
+
+<p>If you forgot/aren&rsquo;t familiar with Reef&rsquo;s syntax, here&rsquo;s <a href="http://jsfiddle.net/cferdinandi/7o5zydvL/5/">an example of a simple clock app</a>.</p>
+
+<p>Rhe <code>Reef()</code> method accepts two arguments. The first is the element to render your template into, either as a selector string or the actual node itself. The second is an object with your template, and optionally, your data/or state.</p>
+
+<p>The template can be a simple string, or a function that returns a string. If a function is used, your data or state is passed in as an argument. For a more JSX/React-like experience, you can use template literals.</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;app&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// Setup the component
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">app</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Reef</span><span class="p">(</span><span class="s1">&#39;#app&#39;</span><span class="p">,</span> <span class="p">{</span>
+	<span class="nx">data</span><span class="o">:</span> <span class="p">{</span>
+		<span class="nx">time</span><span class="o">:</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">().</span><span class="nx">toLocaleTimeString</span><span class="p">()</span>
+	<span class="p">},</span>
+	<span class="nx">template</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="s1">&#39;&lt;strong&gt;The time is:&lt;/strong&gt; &#39;</span> <span class="o">+</span> <span class="nx">props</span><span class="p">.</span><span class="nx">time</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="p">});</span>
+
+<span class="c1">// Render the component
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="nx">render</span><span class="p">();</span>
+
+<span class="c1">// Update the clock once a second
+</span><span class="c1"></span><span class="nb">window</span><span class="p">.</span><span class="nx">setInterval</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+	<span class="nx">app</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">time</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">().</span><span class="nx">toLocaleTimeString</span><span class="p">();</span>
+	<span class="nx">app</span><span class="p">.</span><span class="nx">render</span><span class="p">();</span>
+<span class="p">},</span> <span class="mi">1000</span><span class="p">);</span>
+</code></pre></div>
+<p><a href="https://github.com/cferdinandi/reef">Dig into the full documentation on GitHub.</a></p>
+
+<h2 id="the-foundation">The foundation</h2>
+
+<p><em><strong>Note:</strong> Reef is an improved version of the <a href="https://gomakethings.com/a-stateful-component-helper-function-for-vanilla-js/">state-based component helper function</a> I wrote about a couple of weeks ago. If you read that article, a lot of this will seem familiar.</em></p>
+
+<p>First, I setup a <a href="https://vanillajstoolkit.com/boilerplates/#UMD">UMD wrapper</a>. Never heard of UMD?</p>
+
+<blockquote>
+<p>If you want your plugin to work with RequireJS, Node, or Browserify, you should use a Universal Module Definition (UMD) pattern. This wrapper for your plugin provides support for AMD and CommonJS modules, as well as global variables (like you would use with a revealing module pattern).</p>
+</blockquote>
+
+<p>Here&rsquo;s what that looks like.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">root</span><span class="p">,</span> <span class="nx">factory</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">define</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">define</span><span class="p">.</span><span class="nx">amd</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">define</span><span class="p">([],</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+			<span class="k">return</span> <span class="nx">factory</span><span class="p">(</span><span class="nx">root</span><span class="p">);</span>
+		<span class="p">});</span>
+	<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">exports</span> <span class="o">===</span> <span class="s1">&#39;object&#39;</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">factory</span><span class="p">(</span><span class="nx">root</span><span class="p">);</span>
+	<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+		<span class="nx">root</span><span class="p">.</span><span class="nx">Reef</span> <span class="o">=</span> <span class="nx">factory</span><span class="p">(</span><span class="nx">root</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">})(</span><span class="k">typeof</span> <span class="nx">global</span> <span class="o">!==</span> <span class="s1">&#39;undefined&#39;</span> <span class="o">?</span> <span class="nx">global</span> <span class="o">:</span> <span class="k">typeof</span> <span class="nb">window</span> <span class="o">!==</span> <span class="s1">&#39;undefined&#39;</span> <span class="o">?</span> <span class="nb">window</span> <span class="o">:</span> <span class="k">this</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nb">window</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="s1">&#39;use strict&#39;</span><span class="p">;</span>
+
+	<span class="c1">// My code will go here...
+</span><span class="c1"></span>
+<span class="p">});</span>
+</code></pre></div>
+<p>Next, I created a component object that holds all of the properties (the element, the state/data, and the template) for a component.</p>
+
+<p>First, I make sure <code>DOMParser</code> is supported. We&rsquo;ll talk about this more later, but its what allows us to securely turn strings into DOM elements. Then, I make sure that an <code>elem</code> argument and an <code>options.template</code> property were provided. Without either of them, Reef is useless.</p>
+
+<p>Assuming all is good, I set the <code>elem</code>, <code>template</code>, and <code>data</code> (if provided) as properties of the <code>Component</code>. Then, I return it.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">root</span><span class="p">,</span> <span class="nx">factory</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">define</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">define</span><span class="p">.</span><span class="nx">amd</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">define</span><span class="p">([],</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+			<span class="k">return</span> <span class="nx">factory</span><span class="p">(</span><span class="nx">root</span><span class="p">);</span>
+		<span class="p">});</span>
+	<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">exports</span> <span class="o">===</span> <span class="s1">&#39;object&#39;</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">factory</span><span class="p">(</span><span class="nx">root</span><span class="p">);</span>
+	<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+		<span class="nx">root</span><span class="p">.</span><span class="nx">Reef</span> <span class="o">=</span> <span class="nx">factory</span><span class="p">(</span><span class="nx">root</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">})(</span><span class="k">typeof</span> <span class="nx">global</span> <span class="o">!==</span> <span class="s1">&#39;undefined&#39;</span> <span class="o">?</span> <span class="nx">global</span> <span class="o">:</span> <span class="k">typeof</span> <span class="nb">window</span> <span class="o">!==</span> <span class="s1">&#39;undefined&#39;</span> <span class="o">?</span> <span class="nb">window</span> <span class="o">:</span> <span class="k">this</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nb">window</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="s1">&#39;use strict&#39;</span><span class="p">;</span>
+
+	<span class="cm">/**
+</span><span class="cm">	 * Create the Component object
+</span><span class="cm">	 * @param {String|Node} elem    The element to make into a component
+</span><span class="cm">	 * @param {Object}      options The component options
+</span><span class="cm">	 */</span>
+	<span class="kd">var</span> <span class="nx">Component</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">elem</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
+
+		<span class="c1">// Check browser support
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="s1">&#39;DOMParser&#39;</span> <span class="k">in</span> <span class="nb">window</span><span class="p">))</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js is not supported by this browser.&#39;</span><span class="p">;</span>
+
+		<span class="c1">// Make sure an element is provided
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">elem</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: You did not provide an element to make into a component.&#39;</span><span class="p">;</span>
+
+		<span class="c1">// Make sure a template is provided
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">options</span> <span class="o">||</span> <span class="o">!</span><span class="nx">options</span><span class="p">.</span><span class="nx">template</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: You did not provide a template for this component.&#39;</span><span class="p">;</span>
+
+		<span class="c1">// Set the component properties
+</span><span class="c1"></span>		<span class="k">this</span><span class="p">.</span><span class="nx">elem</span> <span class="o">=</span> <span class="nx">elem</span><span class="p">;</span>
+		<span class="k">this</span><span class="p">.</span><span class="nx">data</span> <span class="o">=</span> <span class="nx">options</span><span class="p">.</span><span class="nx">data</span><span class="p">;</span>
+		<span class="k">this</span><span class="p">.</span><span class="nx">template</span> <span class="o">=</span> <span class="nx">options</span><span class="p">.</span><span class="nx">template</span><span class="p">;</span>
+
+	<span class="p">};</span>
+
+	<span class="k">return</span> <span class="nx">Component</span><span class="p">;</span>
+
+<span class="p">});</span>
+</code></pre></div>
+<p>We&rsquo;ve now got enough code in place that we can use the <code>new Reef()</code> method. It won&rsquo;t do anything, but it won&rsquo;t throw errors, either.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">myApp</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Reef</span><span class="p">(</span><span class="s1">&#39;#my-app&#39;</span><span class="p">,</span> <span class="p">{</span>
+	<span class="nx">data</span><span class="o">:</span> <span class="p">[],</span>
+	<span class="nx">template</span><span class="o">:</span> <span class="s1">&#39;&#39;</span>
+<span class="p">});</span>
+</code></pre></div>
+<h2 id="rendering-the-dom">Rendering the DOM</h2>
+
+<p>Now that we&rsquo;ve got our stateful component set up, we can use the <code>template</code>, and optionally the <code>data</code>, to create HTML and inject it into the DOM.</p>
+
+<p>In <a href="a-stateful-component-helper-function-for-vanilla-js/">my original series on stateful components</a>, I used <code>innerHTML</code> to do this. It&rsquo;s simple and it works, but <a href="https://gomakethings.com/preventing-cross-site-scripting-attacks-when-using-innerhtml-in-vanilla-javascript/">it leaves you exposed to cross-site scripting attacks</a>.</p>
+
+<p>To work around this, I included a <a href="https://vanillajstoolkit.com/helpers/sanitizehtml/">helper method to sanitize third-party data</a>. It works, but it requires developer discipline to work properly. You need to remember to use it and do so proactively.</p>
+
+<p>One nice thing about Vue and React is that they handle this for you, and I wanted Reef to do that, too. This roughly doubled the size of the function, from 0.7kb to 1.5kb. Not a bad tradeoff for better out-of-the-box security!</p>
+
+<p>Let&rsquo;s look at how that works.</p>
+
+<h3 id="the-render-method">The <code>.render()</code> method</h3>
+
+<p>I added a <code>.render()</code> method to the <code>Component.prototype</code>.</p>
+
+<p>First up: some checks and tests to make sure we have everything we need. The method does is double-check that <code>DOMParser</code> is supported and that a <code>template</code> exists.</p>
+
+<p>Then, if the <code>elem</code> property is a string, it uses <code>querySelector()</code> to find it. Otherwise, it uses the provided DOM node. If the element doesn&rsquo;t exist, it throws an error.</p>
+
+<p>Finally, if the <code>template</code> property is a function, it runs it to get the template. Otherwise, it uses it outright. If the template is not a string or number, Reef throws an error.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Render a template into the DOM
+</span><span class="cm"> * @return {Node}                   The element
+</span><span class="cm"> */</span>
+<span class="nx">Component</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">render</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+
+	<span class="c1">// Check browser support
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="s1">&#39;DOMParser&#39;</span> <span class="k">in</span> <span class="nb">window</span><span class="p">))</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js is not supported by this browser.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Make sure there&#39;s a template
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: No template was provided.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// If elem is an element, use it.
+</span><span class="c1"></span>	<span class="c1">// If it&#39;s a selector, get it.
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">elem</span> <span class="o">=</span> <span class="k">typeof</span> <span class="k">this</span><span class="p">.</span><span class="nx">elem</span> <span class="o">===</span> <span class="s1">&#39;string&#39;</span> <span class="o">?</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">elem</span><span class="p">)</span> <span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">elem</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">elem</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: The DOM element to render your template into was not found.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Get the template
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">template</span> <span class="o">=</span> <span class="p">(</span><span class="k">typeof</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span> <span class="o">?</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span> <span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">);</span>
+	<span class="k">if</span> <span class="p">([</span><span class="s1">&#39;string&#39;</span><span class="p">,</span> <span class="s1">&#39;number&#39;</span><span class="p">].</span><span class="nx">indexOf</span><span class="p">(</span><span class="k">typeof</span> <span class="nx">template</span><span class="p">)</span> <span class="o">===</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<h3 id="injecting-the-template-into-the-dom">Injecting the template into the DOM</h3>
+
+<p>This is where we deviate from some of my older tutorials.</p>
+
+<p>I pass my template string into a <code>stringToHTML()</code> method that converts it into actual DOM elements that can be parsed. Then, I pass that result into another helper method called <code>createDOMMap()</code>. This creates a nested array of the elements in the DOM tree for the template.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Render a template into the DOM
+</span><span class="cm"> * @return {Node}                   The element
+</span><span class="cm"> */</span>
+<span class="nx">Component</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">render</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+
+	<span class="c1">// Check browser support
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="s1">&#39;DOMParser&#39;</span> <span class="k">in</span> <span class="nb">window</span><span class="p">))</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js is not supported by this browser.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Make sure there&#39;s a template
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: No template was provided.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// If elem is an element, use it.
+</span><span class="c1"></span>	<span class="c1">// If it&#39;s a selector, get it.
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">elem</span> <span class="o">=</span> <span class="k">typeof</span> <span class="k">this</span><span class="p">.</span><span class="nx">elem</span> <span class="o">===</span> <span class="s1">&#39;string&#39;</span> <span class="o">?</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">elem</span><span class="p">)</span> <span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">elem</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">elem</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: The DOM element to render your template into was not found.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Get the template
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">template</span> <span class="o">=</span> <span class="p">(</span><span class="k">typeof</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span> <span class="o">?</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span> <span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">);</span>
+	<span class="k">if</span> <span class="p">([</span><span class="s1">&#39;string&#39;</span><span class="p">,</span> <span class="s1">&#39;number&#39;</span><span class="p">].</span><span class="nx">indexOf</span><span class="p">(</span><span class="k">typeof</span> <span class="nx">template</span><span class="p">)</span> <span class="o">===</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+	<span class="c1">// Create DOM maps of the template and target element
+</span><span class="c1"></span>	<span class="c1">// var templateMap = sanitize(template);
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">templateMap</span> <span class="o">=</span> <span class="nx">createDOMMap</span><span class="p">(</span><span class="nx">stringToHTML</span><span class="p">(</span><span class="nx">template</span><span class="p">));</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>It looks something like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="p">[</span>
+	<span class="p">{</span>
+		<span class="nx">content</span><span class="o">:</span> <span class="s1">&#39;Hello world&#39;</span><span class="p">,</span>
+		<span class="nx">atts</span><span class="o">:</span> <span class="p">[</span>
+			<span class="p">{</span>
+				<span class="nx">att</span><span class="o">:</span> <span class="s1">&#39;class&#39;</span><span class="p">,</span>
+				<span class="nx">value</span><span class="o">:</span> <span class="s1">&#39;hero-text&#39;</span>
+			<span class="p">},</span>
+			<span class="p">{</span>
+				<span class="nx">att</span><span class="o">:</span> <span class="s1">&#39;data-name&#39;</span><span class="p">,</span>
+				<span class="nx">value</span><span class="o">:</span> <span class="s1">&#39;world&#39;</span>
+			<span class="p">}</span>
+		<span class="p">],</span>
+		<span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;h1&#39;</span><span class="p">,</span>
+		<span class="nx">children</span><span class="o">:</span> <span class="p">[],</span>
+		<span class="nx">node</span><span class="o">:</span> <span class="nx">h1</span> <span class="c1">// this is the actual Node itself
+</span><span class="c1"></span>	<span class="p">},</span>
+	<span class="p">{</span>
+		<span class="nx">content</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+		<span class="nx">atts</span><span class="o">:</span> <span class="p">[],</span>
+		<span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;div&#39;</span><span class="p">,</span>
+		<span class="nx">children</span><span class="o">:</span> <span class="p">[</span>
+			<span class="c1">// An array like this one, with all of the elements inside the div
+</span><span class="c1"></span>			<span class="p">{</span>
+				<span class="nx">content</span><span class="o">:</span> <span class="s1">&#39;In this chapter...&#39;</span><span class="p">,</span>
+				<span class="nx">atts</span><span class="o">:</span> <span class="p">[],</span>
+				<span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;h2&#39;</span><span class="p">,</span>
+				<span class="nx">children</span><span class="o">:</span> <span class="p">[],</span>
+				<span class="nx">node</span><span class="o">:</span> <span class="nx">h2</span> <span class="c1">// this is the actual Node itself
+</span><span class="c1"></span>			<span class="p">},</span>
+			<span class="c1">// ...
+</span><span class="c1"></span>		<span class="p">],</span>
+		<span class="nx">node</span><span class="o">:</span> <span class="nx">div</span>
+	<span class="p">}</span>
+<span class="p">]</span>
+</code></pre></div>
+<p>I do the same thing with the element we&rsquo;re going to render the template into.</p>
+
+<p>Then, I run them both through a <code>diff()</code> helper function that compares each node in the two DOM tree maps, looks for differences, and only updates the things that have changed.</p>
+
+<p>We&rsquo;ll look at how that all works in just a few moments.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Render a template into the DOM
+</span><span class="cm"> * @return {Node}                   The element
+</span><span class="cm"> */</span>
+<span class="nx">Component</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">render</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+
+	<span class="c1">// Check browser support
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="s1">&#39;DOMParser&#39;</span> <span class="k">in</span> <span class="nb">window</span><span class="p">))</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js is not supported by this browser.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Make sure there&#39;s a template
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: No template was provided.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// If elem is an element, use it.
+</span><span class="c1"></span>	<span class="c1">// If it&#39;s a selector, get it.
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">elem</span> <span class="o">=</span> <span class="k">typeof</span> <span class="k">this</span><span class="p">.</span><span class="nx">elem</span> <span class="o">===</span> <span class="s1">&#39;string&#39;</span> <span class="o">?</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">elem</span><span class="p">)</span> <span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">elem</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">elem</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: The DOM element to render your template into was not found.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Get the template
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">template</span> <span class="o">=</span> <span class="p">(</span><span class="k">typeof</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span> <span class="o">?</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span> <span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">);</span>
+	<span class="k">if</span> <span class="p">([</span><span class="s1">&#39;string&#39;</span><span class="p">,</span> <span class="s1">&#39;number&#39;</span><span class="p">].</span><span class="nx">indexOf</span><span class="p">(</span><span class="k">typeof</span> <span class="nx">template</span><span class="p">)</span> <span class="o">===</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+	<span class="c1">// Create DOM maps of the template and target element
+</span><span class="c1"></span>	<span class="c1">// var templateMap = sanitize(template);
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">templateMap</span> <span class="o">=</span> <span class="nx">createDOMMap</span><span class="p">(</span><span class="nx">stringToHTML</span><span class="p">(</span><span class="nx">template</span><span class="p">));</span>
+	<span class="kd">var</span> <span class="nx">domMap</span> <span class="o">=</span> <span class="nx">createDOMMap</span><span class="p">(</span><span class="nx">elem</span><span class="p">);</span>
+
+	<span class="c1">// Diff and update the DOM
+</span><span class="c1"></span>	<span class="nx">diff</span><span class="p">(</span><span class="nx">templateMap</span><span class="p">,</span> <span class="nx">domMap</span><span class="p">,</span> <span class="nx">elem</span><span class="p">);</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>Finally, I emit a custom event, <code>render</code>, on the element that our template was injected into. You can listen for these events with <code>addEventListener()</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;render&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">id</span> <span class="o">===</span> <span class="s1">&#39;my-app&#39;</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;My app was rendered!&#39;</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">},</span> <span class="kc">false</span><span class="p">);</span>
+</code></pre></div>
+<p>Then, I return the element itself. This isn&rsquo;t likely to be used often, but I wanted to bake as much flexibility in for use cases I haven&rsquo;t thought of as I could.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Render a template into the DOM
+</span><span class="cm"> * @return {Node}                   The element
+</span><span class="cm"> */</span>
+<span class="nx">Component</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">render</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+
+	<span class="c1">// Check browser support
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="s1">&#39;DOMParser&#39;</span> <span class="k">in</span> <span class="nb">window</span><span class="p">))</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js is not supported by this browser.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Make sure there&#39;s a template
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: No template was provided.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// If elem is an element, use it.
+</span><span class="c1"></span>	<span class="c1">// If it&#39;s a selector, get it.
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">elem</span> <span class="o">=</span> <span class="k">typeof</span> <span class="k">this</span><span class="p">.</span><span class="nx">elem</span> <span class="o">===</span> <span class="s1">&#39;string&#39;</span> <span class="o">?</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">elem</span><span class="p">)</span> <span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">elem</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">elem</span><span class="p">)</span> <span class="k">throw</span> <span class="s1">&#39;Reef.js: The DOM element to render your template into was not found.&#39;</span><span class="p">;</span>
+
+	<span class="c1">// Get the template
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">template</span> <span class="o">=</span> <span class="p">(</span><span class="k">typeof</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span> <span class="o">?</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span> <span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">);</span>
+	<span class="k">if</span> <span class="p">([</span><span class="s1">&#39;string&#39;</span><span class="p">,</span> <span class="s1">&#39;number&#39;</span><span class="p">].</span><span class="nx">indexOf</span><span class="p">(</span><span class="k">typeof</span> <span class="nx">template</span><span class="p">)</span> <span class="o">===</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+	<span class="c1">// Create DOM maps of the template and target element
+</span><span class="c1"></span>	<span class="c1">// var templateMap = sanitize(template);
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">templateMap</span> <span class="o">=</span> <span class="nx">createDOMMap</span><span class="p">(</span><span class="nx">stringToHTML</span><span class="p">(</span><span class="nx">template</span><span class="p">));</span>
+	<span class="kd">var</span> <span class="nx">domMap</span> <span class="o">=</span> <span class="nx">createDOMMap</span><span class="p">(</span><span class="nx">elem</span><span class="p">);</span>
+
+	<span class="c1">// Diff and update the DOM
+</span><span class="c1"></span>	<span class="nx">diff</span><span class="p">(</span><span class="nx">templateMap</span><span class="p">,</span> <span class="nx">domMap</span><span class="p">,</span> <span class="nx">elem</span><span class="p">);</span>
+
+	<span class="c1">// Dispatch a render event
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nb">window</span><span class="p">.</span><span class="nx">CustomEvent</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kd">var</span> <span class="nx">event</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">CustomEvent</span><span class="p">(</span><span class="s1">&#39;render&#39;</span><span class="p">,</span> <span class="p">{</span>
+			<span class="nx">bubbles</span><span class="o">:</span> <span class="kc">true</span>
+		<span class="p">});</span>
+		<span class="nx">elem</span><span class="p">.</span><span class="nx">dispatchEvent</span><span class="p">(</span><span class="nx">event</span><span class="p">);</span>
+	<span class="p">}</span>
+
+	<span class="c1">// Return the elem for use elsewhere
+</span><span class="c1"></span>	<span class="k">return</span> <span class="nx">elem</span><span class="p">;</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<h3 id="converting-a-string-into-html">Converting a string into HTML</h3>
+
+<p>A simple way to convert a string to HTML is to do something like this.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">template</span> <span class="o">=</span>
+	<span class="s1">&#39;&lt;h1&gt;Hello world!&lt;/h1&gt;&#39;</span> <span class="o">+</span>
+	<span class="s1">&#39;&lt;div&gt;&#39;</span> <span class="o">+</span>
+		<span class="s1">&#39;&lt;h2&gt;This article contains...&lt;/h2&gt;&#39;</span> <span class="o">+</span>
+	<span class="s1">&#39;&lt;/div&gt;&#39;</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">tempDiv</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;div&#39;</span><span class="p">);</span>
+<span class="nx">tempDiv</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">template</span><span class="p">;</span>
+</code></pre></div>
+<p><em>However</em>&hellip; even if you don&rsquo;t render your <code>tempDiv</code> into the DOM, it will still execute things like <code>onerror</code> properties that can be used to run <a href="https://gomakethings.com/preventing-cross-site-scripting-attacks-when-using-innerhtml-in-vanilla-javascript/">cross-site scripting attacks</a>.</p>
+
+<p>After a bunch of Googling, <a href="https://developer.mozilla.org/en-US/docs/Web/API/DOMParser">I discovered <code>DOMParser()</code></a>, a browser API that let&rsquo;s you create DOM nodes from a string <em>without</em> executing them. It works in all modern browsers, and IE9 and up. Perfect!</p>
+
+<p>It creates an entire HTML document (with a <code>headder</code>, <code>body</code> and so on). In my <code>stringToHTML()</code> method, I pass in my string and return the document <code>body</code>. It has the template as actual HTML elements from our template.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Convert a template string into HTML DOM nodes
+</span><span class="cm"> * @param  {String} str The template string
+</span><span class="cm"> * @return {Node}       The template HTML
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">stringToHTML</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">str</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">var</span> <span class="nx">parser</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">DOMParser</span><span class="p">();</span>
+	<span class="kd">var</span> <span class="nx">doc</span> <span class="o">=</span> <span class="nx">parser</span><span class="p">.</span><span class="nx">parseFromString</span><span class="p">(</span><span class="nx">str</span><span class="p">,</span> <span class="s1">&#39;text/html&#39;</span><span class="p">);</span>
+	<span class="k">return</span> <span class="nx">doc</span><span class="p">.</span><span class="nx">body</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div>
+<h3 id="creating-a-map-of-dom-nodes">Creating a map of DOM nodes</h3>
+
+<p>Now that we&rsquo;ve converted our string into HTML elements, we can map them into an array with the <code>createDOMMap()</code> helper method.</p>
+
+<p>In this method, I created a <code>map</code> array that will hold all of the data about our DOM tree.</p>
+
+<p>I used the <code>.childNodes</code> property to get all of the direct descendant HTML nodes inside our element. You <em>could</em> also use the <code>.children</code>, but it excludes text nodes that are not wrapper in HTML elements.</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>This would get included<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>This would, too!<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+But this would not...</code></pre></div>
+<p>Then, I pass it through <code>Array.from()</code> to create an array from the NodesList that it returns, and use the <code>forEach()</code> method to loop through each item.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Create a DOM Tree Map for an element
+</span><span class="cm"> * @param  {Node}   element The element to map
+</span><span class="cm"> * @return {Array}          A DOM tree map
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">createDOMMap</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">element</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">var</span> <span class="nx">map</span> <span class="o">=</span> <span class="p">[];</span>
+	<span class="nb">Array</span><span class="p">.</span><span class="nx">from</span><span class="p">(</span><span class="nx">element</span><span class="p">.</span><span class="nx">childNodes</span><span class="p">).</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">node</span><span class="p">)</span> <span class="p">{</span>
+		<span class="c1">// Do something...
+</span><span class="c1"></span>	<span class="p">});</span>
+<span class="p">};</span>
+</code></pre></div>
+<p>In the <code>forEach()</code> loop, I push an object into the <code>map</code> array, with the following properties:</p>
+
+<ul>
+<li><code>content</code> - The <code>.textContent</code> of the node, or <code>null</code> if the node has other nodes in it.</li>
+<li><code>atts</code> - The attributes on the element. This is created by passing the <code>.attributes</code> property value into a <code>getAttributes()</code> helper that we&rsquo;ll look at in a bit.</li>
+<li><code>type</code> - the <code>.tagName</code> (<code>h1</code>, <code>div</code>, etc.). If the element is a text node (<code>nodeType === 3</code>), it doesn&rsquo;t have a <code>.tagName</code> property so we&rsquo;ll use <code>text</code> instead.</li>
+<li><code>children</code> - A map of the child nodes for the element. I create this by recursively passing the current node into <code>createDOMMap()</code>.</li>
+<li><code>node</code> - The actual HTML element itself.</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Create a DOM Tree Map for an element
+</span><span class="cm"> * @param  {Node}   element The element to map
+</span><span class="cm"> * @return {Array}          A DOM tree map
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">createDOMMap</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">element</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">var</span> <span class="nx">map</span> <span class="o">=</span> <span class="p">[];</span>
+	<span class="nb">Array</span><span class="p">.</span><span class="nx">from</span><span class="p">(</span><span class="nx">element</span><span class="p">.</span><span class="nx">childNodes</span><span class="p">).</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">node</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">map</span><span class="p">.</span><span class="nx">push</span><span class="p">({</span>
+			<span class="nx">content</span><span class="o">:</span> <span class="nx">node</span><span class="p">.</span><span class="nx">childNodes</span> <span class="o">&amp;&amp;</span> <span class="nx">node</span><span class="p">.</span><span class="nx">childNodes</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">?</span> <span class="kc">null</span> <span class="o">:</span> <span class="nx">node</span><span class="p">.</span><span class="nx">textContent</span><span class="p">,</span>
+			<span class="nx">atts</span><span class="o">:</span> <span class="nx">node</span><span class="p">.</span><span class="nx">nodeType</span> <span class="o">===</span> <span class="mi">3</span> <span class="o">?</span> <span class="p">[]</span> <span class="o">:</span> <span class="nx">getAttributes</span><span class="p">(</span><span class="nx">node</span><span class="p">.</span><span class="nx">attributes</span><span class="p">),</span>
+			<span class="nx">type</span><span class="o">:</span> <span class="nx">node</span><span class="p">.</span><span class="nx">nodeType</span> <span class="o">===</span> <span class="mi">3</span> <span class="o">?</span> <span class="s1">&#39;text&#39;</span> <span class="o">:</span> <span class="nx">node</span><span class="p">.</span><span class="nx">tagName</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">(),</span>
+			<span class="nx">children</span><span class="o">:</span> <span class="nx">createDOMMap</span><span class="p">(</span><span class="nx">node</span><span class="p">),</span>
+			<span class="nx">node</span><span class="o">:</span> <span class="nx">node</span>
+		<span class="p">});</span>
+	<span class="p">});</span>
+	<span class="k">return</span> <span class="nx">map</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div>
+<h3 id="getting-the-attributes-on-a-dom-node">Getting the attributes on a DOM node</h3>
+
+<p>The <code>.attributes</code> property is a list NamedNodeMap of all of the properties and attributes on an element. It contains a ton of info, and since it&rsquo;s not an array, isn&rsquo;t ideal to work with.</p>
+
+<p>I used <code>Array.from()</code> to create an array from it, then used the <code>map()</code> method to create a new array with just the attribute name and it&rsquo;s value.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Create an array of the attributes on an element
+</span><span class="cm"> * @param  {NamedNodeMap} attributes The attributes on an element
+</span><span class="cm"> * @return {Array}                   The attributes on an element as an array of key/value pairs
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">getAttributes</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">attributes</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="nb">Array</span><span class="p">.</span><span class="nx">from</span><span class="p">(</span><span class="nx">attributes</span><span class="p">).</span><span class="nx">map</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">attribute</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="p">{</span>
+			<span class="nx">att</span><span class="o">:</span> <span class="nx">attribute</span><span class="p">.</span><span class="nx">name</span><span class="p">,</span>
+			<span class="nx">value</span><span class="o">:</span> <span class="nx">attribute</span><span class="p">.</span><span class="nx">value</span>
+		<span class="p">};</span>
+	<span class="p">});</span>
+<span class="p">};</span>
+</code></pre></div>
+<h3 id="diffing-dom-maps">Diffing DOM Maps</h3>
+
+<p>The hardest part of this project was, by far, creating the function to identify differences between the <code>templateMap</code> and the existing <code>domMap</code>, and make only the needed updates.</p>
+
+<p>Why do this versus just wipe out and start over?</p>
+
+<p>The two big ones:</p>
+
+<ol>
+<li>It&rsquo;s better for performance.</li>
+<li>It preserves as much of the DOM state as possible, so you don&rsquo;t, for example, lose focus on a form field you&rsquo;re actively typing into (imagine an app that shows you a preview in real time as you type).</li>
+</ol>
+
+<p>First, I calculated the difference in length between the existing <code>domMap</code> and the <code>templateMap</code>. If the <code>domMap</code> has more elements, I loop through it in reverse and remove items until they&rsquo;re the same length.</p>
+
+<p>Then, I can loop through each item in my <code>templateMap</code> and compare it to the corresponding item in the <code>domMap</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Diff the existing DOM node versus the template
+</span><span class="cm"> * @param  {Array} templateMap A DOM tree map of the template content
+</span><span class="cm"> * @param  {Array} domMap      A DOM tree map of the existing DOM node
+</span><span class="cm"> * @param  {Node}  elem        The element to render content into
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">diff</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">templateMap</span><span class="p">,</span> <span class="nx">domMap</span><span class="p">,</span> <span class="nx">elem</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// If extra elements in domMap, remove them
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">count</span> <span class="o">=</span> <span class="nx">domMap</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="nx">templateMap</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="nx">count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">for</span> <span class="p">(;</span> <span class="nx">count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">count</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">domMap</span><span class="p">[</span><span class="nx">domMap</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="nx">count</span><span class="p">].</span><span class="nx">node</span><span class="p">.</span><span class="nx">remove</span><span class="p">();</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="c1">// Diff each item in the templateMap
+</span><span class="c1"></span>	<span class="nx">templateMap</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">node</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="p">{</span>
+		<span class="c1">// Compare
+</span><span class="c1"></span>	<span class="p">});</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>If the item in my <code>templateMap</code> doesn&rsquo;t exist at all in the <code>domMap</code>, I&rsquo;ll create a new DOM element using a <code>makeElem()</code> helper function (more on how that works in a bit). Then I&rsquo;ll append it to the parent element with the <code>appendChild()</code> method.</p>
+
+<p>If the item exists, but they&rsquo;re not the same type, I&rsquo;ll use <code>makeElem()</code> to create a new method, and the <code>replaceChild()</code> method to replace it in the DOM.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Diff the existing DOM node versus the template
+</span><span class="cm"> * @param  {Array} templateMap A DOM tree map of the template content
+</span><span class="cm"> * @param  {Array} domMap      A DOM tree map of the existing DOM node
+</span><span class="cm"> * @param  {Node}  elem        The element to render content into
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">diff</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">templateMap</span><span class="p">,</span> <span class="nx">domMap</span><span class="p">,</span> <span class="nx">elem</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// If extra elements in domMap, remove them
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">count</span> <span class="o">=</span> <span class="nx">domMap</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="nx">templateMap</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="nx">count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">for</span> <span class="p">(;</span> <span class="nx">count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">count</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">domMap</span><span class="p">[</span><span class="nx">domMap</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="nx">count</span><span class="p">].</span><span class="nx">node</span><span class="p">.</span><span class="nx">remove</span><span class="p">();</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="c1">// Diff each item in the templateMap
+</span><span class="c1"></span>	<span class="nx">templateMap</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">node</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="p">{</span>
+
+		<span class="c1">// If element doesn&#39;t exist, create it
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">])</span> <span class="p">{</span>
+			<span class="nx">elem</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">makeElem</span><span class="p">(</span><span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">]));</span>
+			<span class="k">return</span><span class="p">;</span>
+		<span class="p">}</span>
+
+		<span class="c1">// If element is not the same type, replace it with new element
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">type</span> <span class="o">!==</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">type</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">node</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">replaceChild</span><span class="p">(</span><span class="nx">makeElem</span><span class="p">(</span><span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">]),</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">node</span><span class="p">);</span>
+			<span class="k">return</span><span class="p">;</span>
+		<span class="p">}</span>
+
+	<span class="p">});</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>That takes care of creating new elements, but what about elements where only the content or some attributes have changed?</p>
+
+<p>I created a helper method, <code>diffAtts()</code>, to check for differences in attributes and update them accordingly. We&rsquo;ll look at that shortly, too.</p>
+
+<p>If the <code>content</code> properties don&rsquo;t match, I use <code>textContent</code> to update the content in the DOM.</p>
+
+<p>And if the item has child elements, I pass it recursively into the <code>diff()</code> method so that it can repeat the process.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Diff the existing DOM node versus the template
+</span><span class="cm"> * @param  {Array} templateMap A DOM tree map of the template content
+</span><span class="cm"> * @param  {Array} domMap      A DOM tree map of the existing DOM node
+</span><span class="cm"> * @param  {Node}  elem        The element to render content into
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">diff</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">templateMap</span><span class="p">,</span> <span class="nx">domMap</span><span class="p">,</span> <span class="nx">elem</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// If extra elements in domMap, remove them
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">count</span> <span class="o">=</span> <span class="nx">domMap</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="nx">templateMap</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="nx">count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">for</span> <span class="p">(;</span> <span class="nx">count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">count</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">domMap</span><span class="p">[</span><span class="nx">domMap</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="nx">count</span><span class="p">].</span><span class="nx">node</span><span class="p">.</span><span class="nx">remove</span><span class="p">();</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="c1">// Diff each item in the templateMap
+</span><span class="c1"></span>	<span class="nx">templateMap</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">node</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="p">{</span>
+
+		<span class="c1">// If element doesn&#39;t exist, create it
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">])</span> <span class="p">{</span>
+			<span class="nx">elem</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">makeElem</span><span class="p">(</span><span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">]));</span>
+			<span class="k">return</span><span class="p">;</span>
+		<span class="p">}</span>
+
+		<span class="c1">// If element is not the same type, replace it with new element
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">type</span> <span class="o">!==</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">type</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">node</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">replaceChild</span><span class="p">(</span><span class="nx">makeElem</span><span class="p">(</span><span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">]),</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">node</span><span class="p">);</span>
+			<span class="k">return</span><span class="p">;</span>
+		<span class="p">}</span>
+
+		<span class="c1">// If attributes are different, update them
+</span><span class="c1"></span>		<span class="nx">diffAtts</span><span class="p">(</span><span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">],</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">],</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">node</span><span class="p">);</span>
+
+		<span class="c1">// If content is different, update it
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">content</span> <span class="o">!==</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">content</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">node</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="nx">templateMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">content</span><span class="p">;</span>
+		<span class="p">}</span>
+
+		<span class="c1">// Repeat for child elements
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="nx">node</span><span class="p">.</span><span class="nx">children</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">diff</span><span class="p">(</span><span class="nx">node</span><span class="p">.</span><span class="nx">children</span><span class="p">,</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">children</span> <span class="o">||</span> <span class="p">[],</span> <span class="nx">domMap</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">node</span><span class="p">);</span>
+		<span class="p">}</span>
+
+	<span class="p">});</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<h3 id="diffing-attributes">Diffing attributes</h3>
+
+<p>Finding the differences between attributes was a bit more involved that I had expected.</p>
+
+<p>First, I need to find attributes that are currently in the DOM but aren&rsquo;t in the new template.</p>
+
+<p>To do that, I pass the existing attributes into the <code>Array.filter()</code> method. In the callback, I use the <code>Array.find()</code> method to look the existing attribute in the new attributes array. If it&rsquo;s <code>undefined</code>, I return the item to the <code>filter()</code> array as one to be removed.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Diff the attributes on an existing element versus the template
+</span><span class="cm"> * @param  {Object} template The new template
+</span><span class="cm"> * @param  {Object} existing The existing DOM node
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">diffAtts</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">template</span><span class="p">,</span> <span class="nx">existing</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Get attributes to remove
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">remove</span> <span class="o">=</span> <span class="nx">existing</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">att</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kd">var</span> <span class="nx">getAtt</span> <span class="o">=</span> <span class="nx">template</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">newAtt</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">return</span> <span class="nx">att</span><span class="p">.</span><span class="nx">att</span> <span class="o">===</span> <span class="nx">newAtt</span><span class="p">.</span><span class="nx">att</span><span class="p">;</span>
+		<span class="p">});</span>
+		<span class="k">return</span> <span class="nx">getAtt</span> <span class="o">===</span> <span class="kc">undefined</span><span class="p">;</span>
+	<span class="p">});</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>Next, I need to find existing attributes that need to be updated and new ones to be added.</p>
+
+<p>I again use <code>Array.filter()</code>, this time with the new template attributes. Again, inside the callback, I use <code>Array.find()</code>, this time looking to see if the new attribute is already in the DOM.</p>
+
+<p>If it&rsquo;s <code>undefined</code>, or if the values don&rsquo;t match, I return it to the new array as an item to get added/updated.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Diff the attributes on an existing element versus the template
+</span><span class="cm"> * @param  {Object} template The new template
+</span><span class="cm"> * @param  {Object} existing The existing DOM node
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">diffAtts</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">template</span><span class="p">,</span> <span class="nx">existing</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Get attributes to remove
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">remove</span> <span class="o">=</span> <span class="nx">existing</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">att</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kd">var</span> <span class="nx">getAtt</span> <span class="o">=</span> <span class="nx">template</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">newAtt</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">return</span> <span class="nx">att</span><span class="p">.</span><span class="nx">att</span> <span class="o">===</span> <span class="nx">newAtt</span><span class="p">.</span><span class="nx">att</span><span class="p">;</span>
+		<span class="p">});</span>
+		<span class="k">return</span> <span class="nx">getAtt</span> <span class="o">===</span> <span class="kc">undefined</span><span class="p">;</span>
+	<span class="p">});</span>
+
+	<span class="c1">// Get attributes to change
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">change</span> <span class="o">=</span> <span class="nx">template</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">att</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kd">var</span> <span class="nx">getAtt</span> <span class="o">=</span> <span class="nx">existing</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">existingAtt</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">return</span> <span class="nx">att</span><span class="p">.</span><span class="nx">att</span> <span class="o">===</span> <span class="nx">existingAtt</span><span class="p">.</span><span class="nx">att</span><span class="p">;</span>
+		<span class="p">});</span>
+		<span class="k">return</span> <span class="nx">getAtt</span> <span class="o">===</span> <span class="kc">undefined</span> <span class="o">||</span> <span class="nx">getAtt</span><span class="p">.</span><span class="nx">value</span> <span class="o">!==</span> <span class="nx">att</span><span class="p">.</span><span class="nx">value</span><span class="p">;</span>
+	<span class="p">});</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<p>Then, I pass the <code>change</code> array into and <code>addAttributes()</code>, and the <code>remove</code> array into the <code>removeAttributes()</code> array</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Diff the attributes on an existing element versus the template
+</span><span class="cm"> * @param  {Object} template The new template
+</span><span class="cm"> * @param  {Object} existing The existing DOM node
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">diffAtts</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">template</span><span class="p">,</span> <span class="nx">existing</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Get attributes to remove
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">remove</span> <span class="o">=</span> <span class="nx">existing</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">att</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kd">var</span> <span class="nx">getAtt</span> <span class="o">=</span> <span class="nx">template</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">newAtt</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">return</span> <span class="nx">att</span><span class="p">.</span><span class="nx">att</span> <span class="o">===</span> <span class="nx">newAtt</span><span class="p">.</span><span class="nx">att</span><span class="p">;</span>
+		<span class="p">});</span>
+		<span class="k">return</span> <span class="nx">getAtt</span> <span class="o">===</span> <span class="kc">undefined</span><span class="p">;</span>
+	<span class="p">});</span>
+
+	<span class="c1">// Get attributes to change
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">change</span> <span class="o">=</span> <span class="nx">template</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">att</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kd">var</span> <span class="nx">getAtt</span> <span class="o">=</span> <span class="nx">existing</span><span class="p">.</span><span class="nx">atts</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">existingAtt</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">return</span> <span class="nx">att</span><span class="p">.</span><span class="nx">att</span> <span class="o">===</span> <span class="nx">existingAtt</span><span class="p">.</span><span class="nx">att</span><span class="p">;</span>
+		<span class="p">});</span>
+		<span class="k">return</span> <span class="nx">getAtt</span> <span class="o">===</span> <span class="kc">undefined</span> <span class="o">||</span> <span class="nx">getAtt</span><span class="p">.</span><span class="nx">value</span> <span class="o">!==</span> <span class="nx">att</span><span class="p">.</span><span class="nx">value</span><span class="p">;</span>
+	<span class="p">});</span>
+
+	<span class="c1">// Add/remove any required attributes
+</span><span class="c1"></span>	<span class="nx">addAttributes</span><span class="p">(</span><span class="nx">existing</span><span class="p">.</span><span class="nx">node</span><span class="p">,</span> <span class="nx">change</span><span class="p">);</span>
+	<span class="nx">removeAttributes</span><span class="p">(</span><span class="nx">existing</span><span class="p">.</span><span class="nx">node</span><span class="p">,</span> <span class="nx">remove</span><span class="p">);</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<h4 id="adding-attributes">Adding attributes</h4>
+
+<p>I loop through each attribute in the array using the <code>Array.forEach()</code> method.</p>
+
+<p>If the attribute type is <code>class</code>, I use <code>className</code> to set/update it. If the attribute name starts with <code>data-</code> (as in, it&rsquo;s a data attribute), I use <code>setAttribute()</code> to add it.</p>
+
+<p>Otherwise, I set it as a property directly on the element.</p>
+
+<p>Why not just use <code>setAttribute()</code> for everything? It would set things like <code>onerror</code>, opening you up to, again cross-site scripting. This approach is more secure.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Add attributes to an element
+</span><span class="cm"> * @param {Node}  elem The element
+</span><span class="cm"> * @param {Array} atts The attributes to add
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">addAttributes</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">elem</span><span class="p">,</span> <span class="nx">atts</span><span class="p">)</span> <span class="p">{</span>
+	<span class="nx">atts</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">attribute</span><span class="p">)</span> <span class="p">{</span>
+		<span class="c1">// If the attribute is a class, use className
+</span><span class="c1"></span>		<span class="c1">// Else if it starts with `data-`, use setAttribute()
+</span><span class="c1"></span>		<span class="c1">// Otherwise, set is as a property of the element
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="nx">attribute</span><span class="p">.</span><span class="nx">att</span> <span class="o">===</span> <span class="s1">&#39;class&#39;</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">elem</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="nx">attribute</span><span class="p">.</span><span class="nx">value</span><span class="p">;</span>
+		<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">attribute</span><span class="p">.</span><span class="nx">att</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span> <span class="o">===</span> <span class="s1">&#39;data-&#39;</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">elem</span><span class="p">.</span><span class="nx">setAttribute</span><span class="p">(</span><span class="nx">attribute</span><span class="p">.</span><span class="nx">att</span><span class="p">,</span> <span class="nx">attribute</span><span class="p">.</span><span class="nx">value</span> <span class="o">||</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
+		<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+			<span class="nx">elem</span><span class="p">[</span><span class="nx">attribute</span><span class="p">.</span><span class="nx">att</span><span class="p">]</span> <span class="o">=</span> <span class="nx">attribute</span><span class="p">.</span><span class="nx">value</span> <span class="o">||</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+		<span class="p">}</span>
+	<span class="p">});</span>
+<span class="p">};</span>
+</code></pre></div>
+<h4 id="removing-attributes">Removing attributes</h4>
+
+<p>I loop through each attribute using the <code>Array.forEach()</code> method.</p>
+
+<p>If the attribute type is <code>class</code>, I use <code>className</code> to wipe it out. Otherwise, I use <code>removeAttribute()</code> to remove it.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Remove attributes from an element
+</span><span class="cm"> * @param {Node}  elem The element
+</span><span class="cm"> * @param {Array} atts The attributes to remove
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">removeAttributes</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">elem</span><span class="p">,</span> <span class="nx">atts</span><span class="p">)</span> <span class="p">{</span>
+	<span class="nx">atts</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">attribute</span><span class="p">)</span> <span class="p">{</span>
+		<span class="c1">// If the attribute is a class, use className
+</span><span class="c1"></span>		<span class="c1">// Otherwise, use removeAttribute()
+</span><span class="c1"></span>		<span class="k">if</span> <span class="p">(</span><span class="nx">attribute</span><span class="p">.</span><span class="nx">att</span> <span class="o">===</span> <span class="s1">&#39;class&#39;</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">elem</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+		<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+			<span class="nx">elem</span><span class="p">.</span><span class="nx">removeAttribute</span><span class="p">(</span><span class="nx">attribute</span><span class="p">.</span><span class="nx">att</span><span class="p">);</span>
+		<span class="p">}</span>
+	<span class="p">});</span>
+<span class="p">};</span>
+</code></pre></div>
+<h3 id="creating-elements">Creating Elements</h3>
+
+<p>Finally, let&rsquo;s look at the <code>makeElem()</code> helper method and how I create the actual elements to inject into the DOM.</p>
+
+<p>If the element <code>type</code> property is <code>text</code>, I use <code>document.createTextNode()</code> to create the node. Otherwise, I use <code>document.createElement()</code>.</p>
+
+<p>Then, I pass the new node and it&rsquo;s <code>atts</code> property into the <code>addAttributes()</code> helper function to add all of the attributes.</p>
+
+<p>If the element has child nodes, I loop through each one with <code>Array.forEach()</code>, and recursively pass it into <code>makeElem()</code> and append it to the element.</p>
+
+<p>Otherwise, if it&rsquo;s not a <code>text</code> node, I set the content with the <code>.textContent</code> property. Then, I return the node.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="cm">/**
+</span><span class="cm"> * Make an HTML element
+</span><span class="cm"> * @param  {Object} elem The element details
+</span><span class="cm"> * @return {Node}        The HTML element
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">makeElem</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">elem</span><span class="p">)</span> <span class="p">{</span>
+
+	<span class="c1">// Create the element
+</span><span class="c1"></span>	<span class="kd">var</span> <span class="nx">node</span> <span class="o">=</span> <span class="nx">elem</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="s1">&#39;text&#39;</span> <span class="o">?</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createTextNode</span><span class="p">(</span><span class="nx">elem</span><span class="p">.</span><span class="nx">content</span><span class="p">)</span> <span class="o">:</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="nx">elem</span><span class="p">.</span><span class="nx">type</span><span class="p">);</span>
+
+	<span class="c1">// Add attributes
+</span><span class="c1"></span>	<span class="nx">addAttributes</span><span class="p">(</span><span class="nx">node</span><span class="p">,</span> <span class="nx">elem</span><span class="p">.</span><span class="nx">atts</span><span class="p">);</span>
+
+	<span class="c1">// If the element has child nodes, create them
+</span><span class="c1"></span>	<span class="c1">// Otherwise, add textContent
+</span><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="nx">elem</span><span class="p">.</span><span class="nx">children</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">elem</span><span class="p">.</span><span class="nx">children</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">childElem</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">node</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">makeElem</span><span class="p">(</span><span class="nx">childElem</span><span class="p">));</span>
+		<span class="p">});</span>
+	<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">elem</span><span class="p">.</span><span class="nx">type</span> <span class="o">!==</span> <span class="s1">&#39;text&#39;</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">node</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="nx">elem</span><span class="p">.</span><span class="nx">content</span><span class="p">;</span>
+	<span class="p">}</span>
+
+	<span class="k">return</span> <span class="nx">node</span><span class="p">;</span>
+
+<span class="p">};</span>
+</code></pre></div>
+<h2 id="ensuring-browser-compatibility">Ensuring browser compatibility</h2>
+
+<p>Reef.js works in all modern browsers, and IE9 and up.</p>
+
+<p>It does use some newer ES6 methods, though. So do I make sure it works across a wide range of browsers?</p>
+
+<p><a href="https://gomakethings.com/why-i-love-polyfills/">Polyfills.</a></p>
+
+<p>Many of the included methods work in IE9 and above already&mdash;<code>Array.forEach()</code>, for example. For those that don&rsquo;t&mdash;<code>Array.find()</code>, <code>Array.from()</code>, and <code>Element.remove()</code>&mdash;<a href="https://vanillajstoolkit.com/polyfills/">I included polyfills</a>.</p>
+
+<p>(<em>There&rsquo;s also a non-polyfilled version for people who already include their own.</em>)</p>
+
+<h2 id="wrapping-up">Wrapping Up</h2>
+
+<p>Amazingly, the core Reef.js file is only 267 lines long, including lots of whitespace and in-code documentation. The polyfills add 150 lines (and 4kb <em>before</em> minifying and gzipping).</p>
+
+<p>In the process of creating Reef, I learned a lot about the sheer engineering effort that goes into writing robust frameworks like Vue and React. So much respect for the developers who built those tools, even if I don&rsquo;t prefer to use them myself.</p>
+
+<p>I had originally looked into adding Reactivity: having the UI automatically re-render whenever the data is updated. After <a href="https://hackernoon.com/how-to-build-your-own-reactivity-system-fc48863a1b7c">reading up on how that works</a>, though, I decided it wasn&rsquo;t worth the extra bytes.</p>
+
+<p>I&rsquo;m most proud of how little Reef actually does.</p>
+
+<p>I believe the best* tools are the ones that do as little as possible. I want my plugins and helpers to work like developer legos that can be mixed-and-matched as needed for any given project.</p>
+
+<p>(<em>*This is totally subjective!</em>)</p>
+
+<p>With Reef, I&rsquo;ve built a stateful component helper method that&hellip;</p>
+
+<ul>
+<li>Weighs under 2kb (minified and gzipped), with zero dependencies.</li>
+<li>Uses simple templating with JavaScript strings or template literals.</li>
+<li>Can be loaded with a humble <code>script</code> tag&mdash;no command line or transpiling required.</li>
+<li>Updates only the parts of the DOM that have changed. Keep those form fields in focus!</li>
+<li>Sanitizes templates automatically, reducing the risk of XSS attacks.</li>
+<li>Works with native JavaScript methods and browser APIs.</li>
+</ul>
+
+<p>Not too shabby!</p>
+]]></content:encoded>
+			</item>
+		
+			<item>
+				<title>Why I wrote my own vanilla JS alternative to Vue and React</title>
+				<link>https://gomakethings.com/why-i-wrote-my-own-vanilla-js-alternative-to-vue-and-react/</link>
+				<pubDate>Mon, 23 Jul 2018 10:30:00 -0400</pubDate>
+				
+				<guid>https://gomakethings.com/why-i-wrote-my-own-vanilla-js-alternative-to-vue-and-react/</guid>
+				<description><![CDATA[ Last week, I hacked together Reef.js, a simple, lightweight alternative to React, Vue, and other bloated frameworks.
+Today, I wanted to talk about why I created it and how to use it. Tomorrow, I&rsquo;ll dig into how it actually works under the hood.
+I like simplicity. I find React confusing. It has a lot of moving parts and custom methods.
+I like Vue&rsquo;s simplicity&mdash;create a template, attach some data, and render&mdash;but don&rsquo;t like how it mixes JS into the DOM with custom v- attributes that do things like loop through items and run conditionals.]]></description>
+				<content:encoded><![CDATA[ 
+
+<p>Last week, I hacked together <a href="https://github.com/cferdinandi/reef">Reef.js</a>, a simple, lightweight alternative to React, Vue, and other bloated frameworks.</p>
+
+<p>Today, I wanted to talk about why I created it and how to use it. Tomorrow, I&rsquo;ll dig into how it actually works under the hood.</p>
+
+<h2 id="i-like-simplicity">I like simplicity.</h2>
+
+<p>I find React confusing. It has a lot of moving parts and custom methods.</p>
+
+<p>I like Vue&rsquo;s simplicity&mdash;create a template, attach some data, and render&mdash;but don&rsquo;t like how it mixes JS into the DOM with custom <code>v-</code> attributes that do things like loop through items and run conditionals. I&rsquo;d rather that stuff happen in my JavaScript.</p>
+
+<p>Both React and Vue are pretty large at around 30kb minified and gzipped, and lock you in with a maze of proprietary methods.</p>
+
+<p>I don&rsquo;t want to mess around command line. I don&rsquo;t want to transpile my code. I don&rsquo;t want to use weird custom DOM attributes.</p>
+
+<p>I just want to write clean markup, simple JavaScript, and build cool stuff.</p>
+
+<h2 id="reef-does-less-that-s-a-good-thing">Reef does less. That&rsquo;s a good thing.</h2>
+
+<p>Reef is an anti-framework. It does a lot less than the big guys like React and Vue.</p>
+
+<ol>
+<li>It doesn&rsquo;t have a Virtual DOM.</li>
+<li>It doesn&rsquo;t automagically update the UI when state changes.</li>
+<li>It doesn&rsquo;t provide a bunch of custom methods.</li>
+</ol>
+
+<p>Reef does just one thing: render UI.</p>
+
+<p>And as a result, it&rsquo;s just 2kb minified and gzipped. You get a lot of punch in those 2kb, though!</p>
+
+<ul>
+<li>Simple templating with JavaScript strings or template literals.</li>
+<li>Load it with a humble <code>script</code> tag&mdash;no command line or transpiling required.</li>
+<li>It updates only the parts of the DOM that have changed. Keep those form fields in focus!</li>
+<li>You can work with native JavaScript methods and browser APIs instead of flavor-of-the-month framework methods.</li>
+</ul>
+
+<p>Couldn&rsquo;t you just use some template strings and <code>innerHTML</code>? Sure. But Reef sanitizes your data before rendering to <a href="https://gomakethings.com/preventing-cross-site-scripting-attacks-when-using-innerhtml-in-vanilla-javascript/">minimize the risk of XSS scripting attacks</a>. It also only updates things that have changed instead clobbering the DOM and removing focus from your form fields.</p>
+
+<p>If you&rsquo;re craving a more simple, back-to-basics web development experience, Reef is for you.</p>
+
+<p>(<em>And if not, that&rsquo;s cool too! Carry on.</em>)</p>
+
+<h2 id="how-reef-js-works">How Reef.js works</h2>
+
+<p>Reef.js is used to create templates, attach data to them, and then use that data to render them into the DOM. You can update the data (or state), and update the template in the DOM to match.</p>
+
+<p>For example, <a href="http://jsfiddle.net/cferdinandi/7o5zydvL/5/">here&rsquo;s a clock that updates once a second</a>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;app&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// Setup the component
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">app</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Reef</span><span class="p">(</span><span class="s1">&#39;#app&#39;</span><span class="p">,</span> <span class="p">{</span>
+	<span class="nx">data</span><span class="o">:</span> <span class="p">{</span>
+		<span class="nx">time</span><span class="o">:</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">().</span><span class="nx">toLocaleTimeString</span><span class="p">()</span>
+	<span class="p">},</span>
+	<span class="nx">template</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="s1">&#39;&lt;strong&gt;The time is:&lt;/strong&gt; &#39;</span> <span class="o">+</span> <span class="nx">props</span><span class="p">.</span><span class="nx">time</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="p">});</span>
+
+<span class="c1">// Render the component
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="nx">render</span><span class="p">();</span>
+
+<span class="c1">// Update the clock once a second
+</span><span class="c1"></span><span class="nb">window</span><span class="p">.</span><span class="nx">setInterval</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+	<span class="nx">app</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">time</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">().</span><span class="nx">toLocaleTimeString</span><span class="p">();</span>
+	<span class="nx">app</span><span class="p">.</span><span class="nx">render</span><span class="p">();</span>
+<span class="p">},</span> <span class="mi">1000</span><span class="p">);</span>
+</code></pre></div>
+<h2 id="using-reef-js">Using Reef.js</h2>
+
+<p>If Reef.js sounds interesting, <a href="https://github.com/cferdinandi/reef">check out the docs on GitHub</a>.</p>
+
+<p>I added a quick start guide, some demos you can play around with, and a liberal MIT license so that you can use it on your projects. Let me know if you have any questions!</p>
+]]></content:encoded>
+			</item>
+		
+			<item>
+				<title>Free illustrations for your web project</title>
+				<link>https://gomakethings.com/free-illustrations-for-your-web-project/</link>
+				<pubDate>Fri, 20 Jul 2018 10:30:00 -0400</pubDate>
+				
+				<guid>https://gomakethings.com/free-illustrations-for-your-web-project/</guid>
+				<description><![CDATA[ Illustrator Katerina Limpitsouni recently launched unDraw, a gorgeous collection of illustrations that fit almost any project you can think of.
+The whole project is MIT licensed, with is absurdly generous considering the quality of the graphics. Each image is available in SVG and high quality PNG, and you can even tweak the colors to fit your project.
+There&rsquo;s only two small things I&rsquo;d love to see improved:
+ There&rsquo;s no search yet, so it&rsquo;s a scroll and look kind of thing right now.]]></description>
+				<content:encoded><![CDATA[ <p>Illustrator <a href="https://twitter.com/ninalimpi">Katerina Limpitsouni</a> recently launched <a href="https://undraw.co/illustrations">unDraw</a>, a gorgeous collection of illustrations that fit almost any project you can think of.</p>
+
+<p>The whole project is MIT licensed, with is absurdly generous considering the quality of the graphics. Each image is available in SVG and high quality PNG, and you can even tweak the colors to fit your project.</p>
+
+<p>There&rsquo;s only two small things I&rsquo;d love to see improved:</p>
+
+<ol>
+<li>There&rsquo;s no search yet, so it&rsquo;s a scroll and look kind of thing right now.</li>
+<li>All of the &ldquo;not white&rdquo; looking people primarily appear only in multi-person animations. I&rsquo;d love to see a greater variety of skin tones, particularly among the &ldquo;one-person&rdquo; illustrations.</li>
+</ol>
+
+<p>Regardless, this is a wonderful project and I&rsquo;m grateful for all of Katerina&rsquo;s work and generosity in releasing it.</p>
+]]></content:encoded>
+			</item>
+		
+			<item>
+				<title>Should you attach your event to the window or document when using event delegation?</title>
+				<link>https://gomakethings.com/should-you-attach-your-event-to-the-window-or-document-when-using-event-delegation/</link>
+				<pubDate>Thu, 19 Jul 2018 10:30:00 -0400</pubDate>
+				
+				<guid>https://gomakethings.com/should-you-attach-your-event-to-the-window-or-document-when-using-event-delegation/</guid>
+				<description><![CDATA[ Event bubbling is an approach to listening for events that’s better for performance and gives you a bit more flexibility.
+Instead of adding event listeners to specific elements, you listen to all events on a parent element (often the document or window). Events within that element “bubble up,” and you can check to see if the element that triggered the event (the event.target) matches the selector you really care about.]]></description>
+				<content:encoded><![CDATA[ <p>Event bubbling is an approach to listening for events that’s better for performance and gives you a bit more flexibility.</p>
+
+<p>Instead of adding event listeners to specific elements, you listen to all events on a parent element (often the <code>document</code> or <code>window</code>). Events within that element “bubble up,” and you can check to see if the element that triggered the event (the <code>event.target</code>) matches the selector you really care about.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// Listen to all clicks on the document
+</span><span class="c1"></span><span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">var</span> <span class="nx">clickedElem</span> <span class="o">=</span> <span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">;</span>
+	<span class="c1">// Check if the event.target matches some selector, and do things...
+</span><span class="c1"></span><span class="p">},</span> <span class="kc">false</span><span class="p">);</span>
+</code></pre></div>
+<p>You can <a href="https://gomakethings.com/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/">learn more about the approach here</a>, but student <a href="https://github.com/kieranbarker">Kieran Barker</a> asked (shared with permission):</p>
+
+<blockquote>
+<p>When listening for an event on multiple elements, is it best to do it on <code>window</code> or <code>document</code>? The former is higher in the chain than the latter, right? I’ve seen you do both.</p>
+</blockquote>
+
+<p>I personally choose the option that&rsquo;s closest to the elements I care about and still works.</p>
+
+<p>That&rsquo;s usually the <code>document</code>, but certain events, like <code>scroll</code> and <code>resize</code>, only happen on the <code>window</code>, so you have to listen to the <code>window</code> instead.</p>
+]]></content:encoded>
+			</item>
+		
+			<item>
+				<title>When do you need to use useCapture with addEventListener?</title>
+				<link>https://gomakethings.com/when-do-you-need-to-use-usecapture-with-addeventlistener/</link>
+				<pubDate>Wed, 18 Jul 2018 10:30:00 -0400</pubDate>
+				
+				<guid>https://gomakethings.com/when-do-you-need-to-use-usecapture-with-addeventlistener/</guid>
+				<description><![CDATA[ Student Kieran Barker asked (shared with permission):
+ Do you personally always specify useCapture as a third argument [for addEventListener()]? I’ve never done it before seeing your courses.
+ Kieran is referring to the last argument in the addEventListener() method.
+It specifies whether or not you want to “capture” the event. For most event types, this should be set to false. But certain events, like focus, don’t bubble.
+Setting useCapture to true allows you to take advantage of event bubbling for events that otherwise don’t support it.]]></description>
+				<content:encoded><![CDATA[ <p>Student <a href="https://github.com/kieranbarker">Kieran Barker</a> asked (shared with permission):</p>
+
+<blockquote>
+<p>Do you personally always specify <code>useCapture</code> as a third argument [for <code>addEventListener()</code>]? I’ve never done it before seeing your courses.</p>
+</blockquote>
+
+<p>Kieran is referring to the last argument in the <code>addEventListener()</code> method.</p>
+
+<p>It specifies whether or not you want to “capture” the event. For most event types, this should be set to <code>false</code>. But certain events, like <code>focus</code>, don’t bubble.</p>
+
+<p>Setting <code>useCapture</code> to <code>true</code> allows you to take advantage of event bubbling for events that otherwise don’t support it.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// Listen for all focus events in the document
+</span><span class="c1"></span><span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;focus&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// Run functions whenever an element in the document comes into focus
+</span><span class="c1"></span><span class="p">},</span> <span class="kc">true</span><span class="p">);</span>
+</code></pre></div>
+<p><strong>So, to answer Kieran&rsquo;s question:</strong> yes, you should absolutely always use it.</p>
+
+<p>It&rsquo;s optional in most modern browsers, but in some earlier implementations, the listener doesn&rsquo;t run if it&rsquo;s excluded. Err on the side of caution and always include it.</p>
+
+<p>If you&rsquo;re not sure how to figure out whether to set it to <code>true</code> or <code>false</code>, <a href="https://gomakethings.com/when-to-use-use-capture-in-your-event-listeners/">here&rsquo;s how to figure it out</a>.</p>
+]]></content:encoded>
+			</item>
+		
+	</channel>
+</rss>
