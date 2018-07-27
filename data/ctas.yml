@@ -16,7 +16,7 @@ global:
     limited:
         1:
             start: 20180726
-            end: 20180727
+            end: 20180726
             message: "<p><mark>🔥 <em><strong>FIRE SALE!</strong> To celebrate the launch of the <strong><a href='https://vanillajsguides.com/variables-functions-and-scope/'>Pocket Guide video series on Functions, Variables, and Scope</a></strong>, you can <strong>take 50% off any guide or bundle</strong> with the code <strong><code>VAR50</code></strong> at checkout. This ends at midnight, so don't wait!</em></mark></p>"
         2:
             start: 20180401
