@@ -5,11 +5,11 @@
 # Pocket Guides
 guidesAll:
     prices:
-        ebook: "<strong>$original</strong> $29"
-        video: "$11"
-        both: "$100"
-    start: 20180714
-    end: 20180730
+        ebook: ""
+        video: ""
+        both: ""
+    start: false
+    end: false
 
 guidesComplete:
     prices:

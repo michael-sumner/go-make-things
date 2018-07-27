@@ -15,12 +15,21 @@ var api = function () {
 	// Methods
 	//
 
+	/**
+	 * Sanitize the API data to prevent XSS attacks
+	 * @return {String} The content
+	 */
 	var sanitize = function () {
 		var temp = document.createElement('div');
 		temp.textContent = str;
 		return temp.innerHTML;
 	};
 
+	/**
+	 * Render testimonial into the DOM
+	 * @param  {Node} node   The node to render HTML into
+	 * @param  {Object} data The testimonial data
+	 */
 	var renderTestimonial = function (node, data) {
 		var noPhoto = node.getAttribute('data-no-photo');
 		if (noPhoto) {
@@ -45,24 +54,54 @@ var api = function () {
 		}
 	};
 
+	/**
+	 * Render a call-to-action into the DOM
+	 * @param  {Node}   node The node to render the HTML into
+	 * @param  {Object} data The call-to-action data
+	 */
 	var renderCTA = function (node, data) {
 		node.innerHTML = data;
 	};
 
-	var renderPrice = function (node, data) {
-		console.log(node, data);
+	/**
+	 * Render sale pricing into the DOM
+	 * @param  {Node}   node The node to render the HTML into
+	 * @param  {Object} data The pricing data
+	 * @param  {String} id   The ID of the price
+	 */
+	var renderPrice = function (node, data, id) {
+
+		// Get the product type
+		var product = node.getAttribute('data-product');
+		if (!product) return;
+
+		// Get the price
+		// var priceID = id === 'guide-individual' && data['guides-all'] ? data['guides-all'][product] : data[id][product];
+		var price = id === 'guide-individual' && data['guides-all'] ? data['guides-all'] : data[id];
+		if (!price) return;
+		if (!price[product] || price[product].length < 1) return;
+
+		// Update the price
+		node.innerHTML = price[product];
+
 	};
 
-	var process = function (nodes, data, type) {
+	/**
+	 * Render the API data into the DOM
+	 * @param  {NodesList} nodes The elements to render data into
+	 * @param  {Object}    data  The API data
+	 * @param  {String}    type  The type of data to process
+	 */
+	var render = function (nodes, data, type) {
 		for (var i = 0; i < nodes.length; i++) {
 
 			// Get the content ID
 			var id = nodes[i].getAttribute('data-' + type);
-			if (!id || !data[id]) continue;
+			if (!id || (type !== 'price' && !data[id])) continue;
 
 			// Render data into the DOM
 			if (type === 'price') {
-				renderPrice(nodes[i], data[id]);
+				renderPrice(nodes[i], data, id);
 			} else if (type === 'cta') {
 				renderCTA(nodes[i], data[id]);
 			} else {
@@ -73,10 +112,38 @@ var api = function () {
 	};
 
 	/**
+	 * Process the API data
+	 * @param  {Object} data The API data
+	 */
+	var process = function (data, store) {
+
+		// Convert the stringified data to JSON
+		var data = JSON.parse(data);
+
+		// Render the data into the DOM
+		render(ctas, data['ctas'], 'cta');
+		render(testimonials, data['testimonials'], 'testimonial');
+		render(prices, data['prices'], 'price');
+
+		// Store to session storage
+		if (store) {
+			sessionStorage.setItem('gmt-api-data', data);
+		}
+
+	};
+
+	/**
 	 * Get data from the GMT API
 	 * @param  {String} url The JSON file URL
 	 */
 	var getAPI = function (url) {
+
+		// Check sessionStorage first
+		var session = sessionStorage.getItem('gmt-api-data');
+		if (session) {
+			process(session);
+			return;
+		}
 
 		// Set up our HTTP request
 		var xhr = new XMLHttpRequest();
@@ -89,10 +156,7 @@ var api = function () {
 
 			// Process our return data
 			if (xhr.status === 200) {
-				var data = JSON.parse(xhr.responseText);
-				process(ctas, data['ctas'], 'cta');
-				process(testimonials, data['testimonials'], 'testimonial');
-				process(prices, data['prices'], 'price');
+				process(xhr.responseText, true);
 			}
 
 		};
