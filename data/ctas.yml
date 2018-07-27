@@ -124,10 +124,31 @@ academyBuy:
 
 # https://vanillajspodcast.com
 podcast:
-    message: "<mark><p>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my Vanilla JS <strong><a href='https://gomakethings.com/guides/'>Pocket Guides</a></strong> and <strong><a href='https://gomakethings.com/courses/'>Mini Courses</a></strong>.</p></mark>"
+    message: "<mark><p>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my Vanilla JS <strong><a href='https://vanillajsguides.com/'>Pocket Guides</a></strong> and <strong><a href='https://gomakethings.com/courses/'>Mini Courses</a></strong>.</p></mark>"
 
 
 
 # https://vanillajstoolkit.com
-toolkit:
-    message: "<mark><p>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my Vanilla JS <strong><a href='https://gomakethings.com/guides/'>Pocket Guides</a></strong> and <strong><a href='https://gomakethings.com/courses/'>Mini Courses</a></strong>.</p></mark>"
+toolkitHome:
+    message: ""
+
+toolkitSnippets:
+    message: "<div class='callout'>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
+
+toolkitHelpers:
+    message: "<div class='callout'>🚀 Learn how to <strong>write your own JS helper functions</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
+
+toolkitBoilerplates:
+    message: "<div class='callout'>🚀 Learn how to <strong>write more flexible, resilient JavaScript</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
+
+toolkitPolyfills:
+    message: "<div class='callout'>🚀 Learn how to <strong>write scripts that run in any browser</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
+
+toolkitPlugins:
+    message: "<div class='callout'>🚀 Learn how to <strong>write your own vanilla JS plugins</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
+
+toolkitProjects:
+    message: "<div class='callout'>🚀 Build a <strong>working JavaScript project</strong> in <strong>under an hour</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
+
+toolkitLearning:
+    message: ""
