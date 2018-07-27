@@ -1,4 +1,5 @@
 {{- $.Scratch.Set "ctas" ( dict ) -}}
+{{- $.Scratch.Set "prices" ( dict ) -}}
 {{- range $index, $cta := .Site.Data.ctas -}}
 	{{- $.Scratch.Set "name" (humanize $index | replaceRE " " "-" | lower) -}}
 	{{- if ne (index $cta "message") "" -}}
@@ -12,5 +13,13 @@
 		{{- end -}}
 	{{- end -}}
 {{- end -}}
-{{- $.Scratch.Set "data" ( dict "ctas" ($.Scratch.Get "ctas") "testimonials" .Site.Data.testimonials ) -}}
+{{- range $index, $price := .Site.Data.prices -}}
+	{{- $.Scratch.Set "name" (humanize $index | replaceRE " " "-" | lower) -}}
+	{{- if and (ne (index $price "start") "") (ne (index $price "end") "") -}}
+		{{- if and (ge (now.Format "20060102") (index $price "start")) (le (now.Format "20060102") (index $price "end")) -}}
+			{{- $.Scratch.SetInMap "prices" ($.Scratch.Get "name") (index $price "prices") -}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}
+{{- $.Scratch.Set "data" ( dict "ctas" ($.Scratch.Get "ctas") "testimonials" .Site.Data.testimonials "prices" ($.Scratch.Get "prices") ) -}}
 {{- $.Scratch.Get "data" | jsonify -}}

@@ -1,0 +1,51 @@
+##
+## Sale Prices
+##
+
+# Pocket Guides
+guidesAll:
+    prices:
+        ebook: "<strong>$original</strong> $29"
+        video: "$11"
+        both: "$100"
+    start: 20180714
+    end: 20180730
+
+guidesComplete:
+    prices:
+        ebook: ""
+        video: ""
+        both: ""
+    start: false
+    end: false
+
+guidesBeginner:
+    prices:
+        ebook: ""
+        video: ""
+        both: ""
+    start: false
+    end: false
+
+guidesAdvanced:
+    price:
+        ebook: ""
+        video: ""
+        both: ""
+    start: false
+    end: false
+
+guidesIndividual:
+    prices:
+        ebook: ""
+        video: ""
+        both: ""
+    start: false
+    end: false
+
+# Academy
+academy:
+    prices:
+        price: ""
+    start: false
+    end: false

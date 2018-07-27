@@ -8,6 +8,7 @@ var api = function () {
 
 	var ctas = document.querySelectorAll('[data-cta]');
 	var testimonials = document.querySelectorAll('[data-testimonial]');
+	var prices = document.querySelectorAll('[data-price]');
 
 
 	//
@@ -48,6 +49,10 @@ var api = function () {
 		node.innerHTML = data;
 	};
 
+	var renderPrice = function (node, data) {
+		console.log(node, data);
+	};
+
 	var process = function (nodes, data, type) {
 		for (var i = 0; i < nodes.length; i++) {
 
@@ -56,7 +61,9 @@ var api = function () {
 			if (!id || !data[id]) continue;
 
 			// Render data into the DOM
-			if (type === 'cta') {
+			if (type === 'price') {
+				renderPrice(nodes[i], data[id]);
+			} else if (type === 'cta') {
 				renderCTA(nodes[i], data[id]);
 			} else {
 				renderTestimonial(nodes[i], data[id]);
@@ -85,6 +92,7 @@ var api = function () {
 				var data = JSON.parse(xhr.responseText);
 				process(ctas, data['ctas'], 'cta');
 				process(testimonials, data['testimonials'], 'testimonial');
+				process(prices, data['prices'], 'price');
 			}
 
 		};
@@ -102,7 +110,7 @@ var api = function () {
 	// Inits
 	//
 
-	if (ctas.length < 1 && testimonials.length < 1) return;
+	if (ctas.length < 1 && testimonials.length < 1 && prices.length < 1) return;
 	getAPI('https://gomakethings.com/api/data.json');
 
 };
