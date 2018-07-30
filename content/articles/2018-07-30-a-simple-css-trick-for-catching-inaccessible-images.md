@@ -77,6 +77,4 @@ What do I mean? You want to include an empty `alt` attribute.
 </figure>
 ```
 
-If you don't use one... I'm actually not sure what happens. I've done a lot of Googling and can't seem to find a clear answer on this one.
-
-All accessibility experts agree they should *always* be uses, but no one seems to be able to share what happens if they're not.
+If you don't use one, many screen readers will announce the image's file name instead. Using one with an empty value prevents them from reading anything aloud.
