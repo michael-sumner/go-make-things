@@ -3,14 +3,6 @@
 ##
 
 # Pocket Guides
-guidesAll:
-    prices:
-        ebook: ""
-        video: ""
-        both: ""
-    start: false
-    end: false
-
 guidesComplete:
     prices:
         ebook: ""
@@ -36,6 +28,14 @@ guidesAdvanced:
     end: false
 
 guidesIndividual:
+    prices:
+        ebook: ""
+        video: ""
+        both: ""
+    start: false
+    end: false
+
+guidesIndividualPreorder:
     prices:
         ebook: ""
         video: ""
