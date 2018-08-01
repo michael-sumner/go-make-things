@@ -29,6 +29,12 @@ davidBuchholz:
     photo: "/img/testimonials/david-buchholz.jpg"
     quote: "The cheat sheet and the ability to ask questions on Slack were worth the price of the book alone."
 
+danielDeverell:
+    name: "Daniel Deverell"
+    url: "https://twitter.com/danieldeverell"
+    photo: "/img/testimonials/daniel-deverell"
+    quote: "Your daily emails have proven invaluable to me - its almost like you're reading my JS todo list."
+
 hbs:
     name: "Adrienne Debigare, Harvard Business School"
     url: "https://digital.hbs.edu"
