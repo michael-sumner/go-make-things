@@ -15,16 +15,12 @@ Yesterday, I clarified [where to enable strict mode in your scripts](/where-to-a
 
 Types of errors that would get ignored without strict mode include...
 
-1. Missing semicolons after variable declarations.
-2. Calling a variable that hasn’t be explicitly set.
-3. Redefining a variable that’s already been defined.
+1. Calling a variable that hasn’t be explicitly set.
+2. Redefining a variable that’s already been defined.
 
 For example...
 
 ```javascript
-// Missing semicolon
-var someVar = 'this is my variable'
-
 // Undefined variable
 var anotherVar = 'another variable'; // No error
 anotherVar = 'change variable value'; // No error
