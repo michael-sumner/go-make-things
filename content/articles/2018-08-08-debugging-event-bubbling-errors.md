@@ -43,14 +43,14 @@ Any idea what's going on here? Kieran was kind enough to let me do a live debugg
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tQqe9eLppcw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-**The short version:** the event was also detecting hover events on the parent `<!DOCTYPE html>` object, which has no `matches()` method.
+**The short version:** the event was also detecting hover events on the parent `document` object, which has no `matches()` method.
 
 To prevent the error, he added a check to make sure `matches()` is supported by the element before trying to use it.
 
 ```js
 document.addEventListener('mouseenter', function (event) {
 
-	// Make sure it's not the !DOCTYPE object
+	// Make sure it's not the document object
 	if (!('matches') in event.target) return;
 
 	// Do your thing...
