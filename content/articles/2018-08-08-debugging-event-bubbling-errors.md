@@ -37,7 +37,6 @@ document.addEventListener('mouseenter', function (event) {
 [You can play with this yourself in this CodePen.](https://codepen.io/cferdinandi/pen/ZjqKeo)
 
 <p data-height="265" data-theme-id="light" data-slug-hash="ZjqKeo" data-default-tab="js,result" data-user="cferdinandi" data-pen-title="ZjqKeo" class="codepen"></p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 Any idea what's going on here? Kieran was kind enough to let me do a live debugging session with him and record it. [Here's the walk-through.](https://www.youtube.com/watch?v=tQqe9eLppcw)
 

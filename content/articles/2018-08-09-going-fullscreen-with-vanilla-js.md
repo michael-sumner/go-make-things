@@ -63,7 +63,6 @@ document.addEventListener('click', function (event) {
 [Here's a demo.](https://codepen.io/cferdinandi/pen/ZjVEER)
 
 <p data-height="265" data-theme-id="light" data-slug-hash="ZjVEER" data-default-tab="js,result" data-user="cferdinandi" data-pen-title="Fullscreen API Demo" class="codepen"></p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ## Browser Compatibility
 

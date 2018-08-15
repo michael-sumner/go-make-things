@@ -103,6 +103,5 @@ document.addEventListener('click', function (event) {
 And that's that. [Here's a working demo for you.](https://codepen.io/cferdinandi/pen/wxRwPM)
 
 <p data-height="265" data-theme-id="light" data-slug-hash="wxRwPM" data-default-tab="js,result" data-user="cferdinandi" data-pen-title="Autoplay Video" class="codepen"></p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 And per yesterday's post, [this does require a polyfill](/going-full-screen-with-vanilla-js/).
