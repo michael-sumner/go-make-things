@@ -4,18 +4,8 @@ date: 2018-08-15T10:30:00-04:00
 draft: false
 categories:
 - Accessibility
-- Art and Science
-- Business and Leadership
-- Careers
 - Code
-- CSS
-- Design and UX
-- HTML
 - JavaScript
-- Technology
-- Web Performance
-- WordPress
-- Vanilla Framework Demos
 ---
 
 I almost always use [event delegation](/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/) for my JavaScript event listeners. It's better for performance, and gives you a bit more flexibility.
