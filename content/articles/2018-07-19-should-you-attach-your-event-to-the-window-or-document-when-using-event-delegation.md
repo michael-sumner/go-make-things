@@ -7,6 +7,8 @@ categories:
 - JavaScript
 ---
 
+*__IMPORTANT:__ This article is incorrect. [Click here to read an updated and corrected version.](/you-should-always-attach-your-vanilla-js-click-events-to-the-window/)*
+
 Event bubbling is an approach to listening for events that’s better for performance and gives you a bit more flexibility.
 
 Instead of adding event listeners to specific elements, you listen to all events on a parent element (often the `document` or `window`). Events within that element “bubble up,” and you can check to see if the element that triggered the event (the `event.target`) matches the selector you really care about.

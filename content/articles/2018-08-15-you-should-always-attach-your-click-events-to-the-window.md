@@ -8,6 +8,8 @@ categories:
 - JavaScript
 ---
 
+*__IMPORTANT:__ The title of this article is wrong. After some additional testing, the article has been updated below to reflect that.*
+
 I almost always use [event delegation](/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/) for my JavaScript event listeners. It's better for performance, and gives you a bit more flexibility.
 
 I often get asked about whether you should attach your events to the `document` or `window` when using this approach. [For a long time](/document-vs-window-in-javascript/), I advocated [attaching to the `document`](/should-you-attach-your-event-to-the-window-or-document-when-using-event-delegation/) unless the event absolutely *needs* to be attached to the `window`.
@@ -56,8 +58,25 @@ Whether or not this is a bug (it is), and even though Firefox will be changing t
 
 Users don't and shouldn't have to care about browser quirks. That's on us as developers.
 
-There's one simple change you can make to make this issue go away: attach to the `window`, always.
+There's one simple change you can make to make this issue go away: ~~attach to the `window`, always.~~ attach your events to `document.documentElement`.
 
-The right click issue doesn't happen in Firefox when you attach your `click` events to the `window` instead of the `document`. [Here's another demo.](https://codepen.io/cferdinandi/pen/bjyLvm)
+The right click issue doesn't happen in Firefox when you attach your `click` events to it instead of the `document`. [Here's another demo.](https://codepen.io/cferdinandi/pen/bjyLvm)
 
 <p data-height="265" data-theme-id="light" data-slug-hash="bjyLvm" data-default-tab="js,result" data-user="cferdinandi" data-pen-title="Click Event Delegation on the Window" class="codepen"></p>
+
+Alternatively, you can also continue to attach your `click` event to the `document` or `window` and filter out clicks that aren't on the left mouse button.
+
+```js
+document.addEventListener('click', function (event) {
+
+	// Don't run if right-click or command/control + click
+	if (event.button !== 0) return;
+
+	// Otherwise, do your thing!
+
+});
+```
+
+[Here's a demo of that approach for you to try.](https://codepen.io/cferdinandi/pen/KBLGzG)
+
+<p data-height="265" data-theme-id="light" data-slug-hash="KBLGzG" data-default-tab="js,result" data-user="cferdinandi" data-pen-title="Click event delegation filtering out everything but left clicks" class="codepen"></p>

@@ -7,6 +7,8 @@ url: /document-vs-window-in-javascript/
 title: .document vs .window in JavaScript
 ---
 
+*__IMPORTANT:__ This article is incorrect. [Click here to read an updated and corrected version.](/you-should-always-attach-your-vanilla-js-click-events-to-the-window/)*
+
 One of the students in my <a href="https://gomakethings.com/guides/">Vanilla JS Slack room</a> asked me why I use <code>document</code> instead of <code>window</code> with <code>addEventListener()</code> click events. In otherwords, why this:
 
 <pre><code class="lang-javascript">document.addEventListener('click', function (event) {
