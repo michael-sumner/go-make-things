@@ -15,12 +15,12 @@
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
 		<meta property="og:description" content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}">
-		<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}/img/og.png{{ end }}">
+		<meta property="og:image" content='{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ "/img/og.png" | absURL }}{{ end }}'>
 		<meta property="og:image:alt" content="{{ .Site.Title }}">
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@ChrisFerdinandi">
 		<meta name="twitter:description" content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}">
-		<meta name="twitter:image" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}/img/og.png{{ end }}">
+		<meta name="twitter:image" content='{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ "/img/og.png" | absURL }}{{ end }}'>
 
 		<!-- Icons: place in the root directory -->
 		<!-- https://github.com/audreyr/favicon-cheat-sheet -->
