@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /img/*
+Allow: /img/og.png
 Disallow: /wp-content/*
 Disallow: /automate/*
 Disallow: /css/*
