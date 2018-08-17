@@ -69,7 +69,7 @@ Alternatively, you can also continue to attach your `click` event to the `docume
 ```js
 document.addEventListener('click', function (event) {
 
-	// Don't run if right-click or command/control + click
+	// Don't run if right-click
 	if (event.button !== 0) return;
 
 	// Otherwise, do your thing!

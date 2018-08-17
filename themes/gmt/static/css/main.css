@@ -1342,6 +1342,15 @@ button:-moz-focusring,
 }
 
 /**
+ * @section CodePen
+ * CodePen specific styling
+ */
+/* line 6, src/sass/components/_codepen.scss */
+.cp_embed_wrapper {
+  margin-bottom: 1.5625em;
+}
+
+/**
  * @section Callouts
  * Styling for callout boxes
  */
