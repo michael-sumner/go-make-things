@@ -7,33 +7,25 @@ home:
     message: "<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com/'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
     limited:
         1:
-            message: "<p><mark>🔥 <em><strong>FIRE SALE!</strong> To celebrate the launch of the <strong><a href='https://vanillajsguides.com/variables-functions-and-scope/'>Pocket Guide video series on Functions, Variables, and Scope</a></strong>, you can <strong>take 50% off any guide or bundle</strong> with the code <strong><code>VAR50</code></strong> at checkout. This ends at midnight, so don't wait!</em></mark></p>"
-            start: 20180726
-            end: 20180726
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180827
+            end: 20180909
+        2:
+            message: "<p><mark>🍁 <em><strong><a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back!</strong> Learn how to think in JavaScript with this 8-week, project-focused program. <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180910
+            end: 20180923
 
 global:
     message: "<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
     limited:
         1:
-            start: 20180726
-            end: 20180726
-            message: "<p><mark>🔥 <em><strong>FIRE SALE!</strong> To celebrate the launch of the <strong><a href='https://vanillajsguides.com/variables-functions-and-scope/'>Pocket Guide video series on Functions, Variables, and Scope</a></strong>, you can <strong>take 50% off any guide or bundle</strong> with the code <strong><code>VAR50</code></strong> at checkout. This ends at midnight, so don't wait!</em></mark></p>"
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180827
+            end: 20180909
         2:
-            start: 20180401
-            end: 20180420
-            message: "<p><mark>🔥 <em><strong>NEW: <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>.</strong> The <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> is a project-based online JavaScript training program for beginners. Get early bird pricing if you join in the next two weeks. Don't&nbsp;wait!</em></mark></p>"
-        3:
-            start: 20180421
-            end: 20180426
-            message: "<p><mark>🔥 <em><strong>NEW: <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>.</strong> The <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> is a project-based online JavaScript training program for beginners. Get early bird pricing if you join by Saturday. Don't&nbsp;wait!</em></mark></p>"
-        4:
-            start: 20180427
-            end: 20180427
-            message: "<p><mark>🔥 <em><strong>NEW: <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>.</strong> The <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> is a project-based online JavaScript training program for beginners. Get early bird pricing if you join by tomorrow. Don't&nbsp;wait!</em></mark></p>"
-        5:
-            start: 20180428
-            end: 20180428
-            message: "<p><mark>🔥 <em><strong>NEW: <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>.</strong> The <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> is a project-based online JavaScript training program for beginners. Get early bird pricing if you join today. Don't&nbsp;wait!</em></mark></p>"
+            message: "<p><mark>🍁 <em><strong><a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back!</strong> Learn how to think in JavaScript with this 8-week, project-focused program. <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180910
+            end: 20180923
 
 call:
     message: ""
@@ -84,71 +76,152 @@ academy:
     message: ""
     limited:
         1:
-            message: "<p><mark>🦉<em><strong>Want to save $130?</strong> Get early bird pricing if you join today. Don't&nbsp;wait!</em></mark></p>"
-            start: 20180428
-            end: 20180428
+            message: "<p><mark>🦉<em><strong>Want to save $195?</strong> Get early bird pricing if you join today. Don't&nbsp;wait!</em></mark></p>"
+            start: 20180909
+            end: 20180909
         2:
-            message: "<p><mark>🦉<em><strong>Want to save $130?</strong> Get early bird pricing if you join by tomorrow. Don't&nbsp;wait!</em></mark></p>"
-            start: 20180427
-            end: 20180427
+            message: "<p><mark>🦉<em><strong>Want to save $195?</strong> Get early bird pricing if you join by tomorrow. Don't&nbsp;wait!</em></mark></p>"
+            start: 20180908
+            end: 20180908
         3:
-            message: "<p><mark>🦉<em><strong>Want to save $130?</strong> Get early bird pricing if you join by Saturday. Don't&nbsp;wait!</em></mark></p>"
-            start: 20180421
-            end: 20180426
+            message: "<p><mark>🦉<em><strong>Want to save $195?</strong> Get early bird pricing if you join by Sunday. Don't&nbsp;wait!</em></mark></p>"
+            start: 20180827
+            end: 20180909
         4:
-            message: "<p><mark>🦉<em><strong>Want to save $130?</strong> Get early bird pricing if you join in the next two weeks. Don't&nbsp;wait!</em></mark></p>"
-            start: 20180401
-            end: 20180420
+            message: "<p><mark>🦉<em><strong>Want to save $195?</strong> Get early bird pricing if you join in the next two weeks. Don't&nbsp;wait!</em></mark></p>"
+            start: 20180827
+            end: 20180901
 
 academyBuy:
     message: ""
     limited:
         1:
-            message: "<p><em><strong>Want to save $130?</strong> Get early bird pricing with the code <code>EARLYBIRD</code> at checkout. Early bird pricing ends today, so don't&nbsp;wait!</em></p>"
-            start: 20180428
-            end: 20180428
+            message: "<p><em><strong>Want to save $195?</strong> Get early bird pricing with the code <code>EARLYBIRD</code> at checkout. Early bird pricing ends today, so don't&nbsp;wait!</em></p>"
+            start: 20180909
+            end: 20180909
         2:
-            message: "<p><em><strong>Want to save $130?</strong> Get early bird pricing with the code <code>EARLYBIRD</code> at checkout. Early bird pricing ends tomorrow, so don't&nbsp;wait!</em></p>"
-            start: 20180427
-            end: 20180427
+            message: "<p><em><strong>Want to save $195?</strong> Get early bird pricing with the code <code>EARLYBIRD</code> at checkout. Early bird pricing ends tomorrow, so don't&nbsp;wait!</em></p>"
+            start: 20180908
+            end: 20180908
         3:
-            message: "<p><em><strong>Want to save $130?</strong> Get early bird pricing with the code <code>EARLYBIRD</code> at checkout. Early bird pricing ends on Saturday, so don't&nbsp;wait!</em></p>"
-            start: 20180421
-            end: 20180426
+            message: "<p><em><strong>Want to save $195?</strong> Get early bird pricing with the code <code>EARLYBIRD</code> at checkout. Early bird pricing ends on Sunday, so don't&nbsp;wait!</em></p>"
+            start: 20180902
+            end: 20180907
         4:
-            message: "<p><em><strong>Want to save $130?</strong> Get early bird pricing with the code <code>EARLYBIRD</code> at checkout. Early bird pricing ends in less than two weeks, so don't&nbsp;wait!</em></p>"
-            start: 20180401
-            end: 20180420
+            message: "<p><em><strong>Want to save $195?</strong> Get early bird pricing with the code <code>EARLYBIRD</code> at checkout. Early bird pricing ends in less than two weeks, so don't&nbsp;wait!</em></p>"
+            start: 20180827
+            end: 20180901
 
 
 
 # https://vanillajspodcast.com
 podcast:
     message: "<mark><p>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</p></mark>"
+    limited:
+        1:
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180827
+            end: 20180909
+        2:
+            message: "<p><mark>🍁 <em><strong><a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back!</strong> Learn how to think in JavaScript with this 8-week, project-focused program. <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180910
+            end: 20180923
 
 
 
 # https://vanillajstoolkit.com
 toolkitHome:
     message: ""
+    limited:
+        1:
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180827
+            end: 20180909
+        2:
+            message: "<p><mark>🍁 <em><strong><a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back!</strong> Learn how to think in JavaScript with this 8-week, project-focused program. <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180910
+            end: 20180923
 
 toolkitSnippets:
     message: "<div class='callout'>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
+    limited:
+        1:
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180827
+            end: 20180909
+        2:
+            message: "<p><mark>🍁 <em><strong><a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back!</strong> Learn how to think in JavaScript with this 8-week, project-focused program. <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180910
+            end: 20180923
 
 toolkitHelpers:
     message: "<div class='callout'>🚀 Learn how to <strong>write your own JS helper functions</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
+    limited:
+        1:
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180827
+            end: 20180909
+        2:
+            message: "<p><mark>🍁 <em><strong><a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back!</strong> Learn how to think in JavaScript with this 8-week, project-focused program. <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180910
+            end: 20180923
 
 toolkitBoilerplates:
     message: "<div class='callout'>🚀 Learn how to <strong>write more flexible, resilient JavaScript</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
+    limited:
+        1:
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180827
+            end: 20180909
+        2:
+            message: "<p><mark>🍁 <em><strong><a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back!</strong> Learn how to think in JavaScript with this 8-week, project-focused program. <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180910
+            end: 20180923
 
 toolkitPolyfills:
     message: "<div class='callout'>🚀 Learn how to <strong>write scripts that run in any browser</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
+    limited:
+        1:
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180827
+            end: 20180909
+        2:
+            message: "<p><mark>🍁 <em><strong><a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back!</strong> Learn how to think in JavaScript with this 8-week, project-focused program. <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180910
+            end: 20180923
 
 toolkitPlugins:
     message: "<div class='callout'>🚀 Learn how to <strong>write your own vanilla JS plugins</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
+    limited:
+        1:
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180827
+            end: 20180909
+        2:
+            message: "<p><mark>🍁 <em><strong><a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back!</strong> Learn how to think in JavaScript with this 8-week, project-focused program. <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180910
+            end: 20180923
 
 toolkitProjects:
     message: "<div class='callout'>🚀 Build a <strong>working JavaScript project</strong> in <strong>under an hour</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
+    limited:
+        1:
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180827
+            end: 20180909
+        2:
+            message: "<p><mark>🍁 <em><strong><a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back!</strong> Learn how to think in JavaScript with this 8-week, project-focused program. <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180910
+            end: 20180923
 
 toolkitLearning:
     message: ""
+    limited:
+        1:
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180827
+            end: 20180909
+        2:
+            message: "<p><mark>🍁 <em><strong><a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back!</strong> Learn how to think in JavaScript with this 8-week, project-focused program. <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            start: 20180910
+            end: 20180923
