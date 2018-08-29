@@ -66,3 +66,5 @@ For folks in developing areas where every byte matters, every byte has a signifi
 In this case, the minified version is a scant 3.8kb smaller. But it's also less than half the size of the unminified version after gzipping. On a larger or more JS-dependent project, that can make a *huge* difference.
 
 **My takeaway from this:** always gzip, always minify.
+
+*As an aside, Kyle was an absolute delight to chat with. He's super pragmatic and reasonable and I wish all internet discussions were as polite and awesome.*
