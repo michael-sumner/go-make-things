@@ -1,5 +1,5 @@
 /*!
- * gmt v1.17.0: The theme for gomakethings.com
+ * gmt v1.18.0: The theme for gomakethings.com
  * (c) 2018 Chris Ferdinandi
  * MIT License
  * http://github.com/cferdinandi/go-make-things
@@ -734,13 +734,18 @@ blockquote cite {
   padding-top: 1em;
 }
 
-/* line 397, src/sass/components/_typography.scss */
+/* line 396, src/sass/components/_typography.scss */
+blockquote pre {
+  font-style: normal;
+}
+
+/* line 401, src/sass/components/_typography.scss */
 blockquote,
 q {
   quotes: none;
 }
 
-/* line 402, src/sass/components/_typography.scss */
+/* line 406, src/sass/components/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,
