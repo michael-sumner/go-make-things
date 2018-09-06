@@ -7,7 +7,7 @@ home:
     message: "<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com/'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
     limited:
         1:
-            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by Sunday and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
             start: 20180827
             end: 20180909
         2:
@@ -19,7 +19,7 @@ global:
     message: "<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
     limited:
         1:
-            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by Sunday and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
             start: 20180827
             end: 20180909
         2:
@@ -134,7 +134,7 @@ toolkitHome:
     message: ""
     limited:
         1:
-            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by Sunday and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
             start: 20180827
             end: 20180909
         2:
@@ -158,7 +158,7 @@ toolkitHelpers:
     message: "<div class='callout'>🚀 Learn how to <strong>write your own JS helper functions</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by Sunday and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
             start: 20180827
             end: 20180909
         2:
@@ -170,7 +170,7 @@ toolkitBoilerplates:
     message: "<div class='callout'>🚀 Learn how to <strong>write more flexible, resilient JavaScript</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by Sunday and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
             start: 20180827
             end: 20180909
         2:
@@ -182,7 +182,7 @@ toolkitPolyfills:
     message: "<div class='callout'>🚀 Learn how to <strong>write scripts that run in any browser</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by Sunday and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
             start: 20180827
             end: 20180909
         2:
@@ -194,7 +194,7 @@ toolkitPlugins:
     message: "<div class='callout'>🚀 Learn how to <strong>write your own vanilla JS plugins</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by Sunday and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
             start: 20180827
             end: 20180909
         2:
@@ -206,7 +206,7 @@ toolkitProjects:
     message: "<div class='callout'>🚀 Build a <strong>working JavaScript project</strong> in <strong>under an hour</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by Sunday and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
             start: 20180827
             end: 20180909
         2:
@@ -218,7 +218,7 @@ toolkitLearning:
     message: ""
     limited:
         1:
-            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by September 9 and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark>🦉 <em><strong>Early Bird Sale!</strong> <a href='https://vanillajsacademy.com'>The Vanilla JS Academy</a> is back for the fall session. Join by Sunday and save $195! <a href='https://vanillajsacademy.com'>Click here to learn more.</a></em></mark></p>"
             start: 20180827
             end: 20180909
         2:
