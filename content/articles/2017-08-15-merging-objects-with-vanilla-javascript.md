@@ -327,4 +327,4 @@ var shallowMerge = extend(obj1, obj2);
 var deepMerge = extend(true, obj1, obj2);
 ```
 
-You can grab [a copy of this function on GitHub](https://github.com/cferdinandi/extend).
+You can grab [a copy of this function in the Vanilla JS Toolkit](https://vanillajstoolkit.com/helpers/extend).
