@@ -116,7 +116,7 @@ academyBuy:
             start: 20180827
             end: 20180901
         5:
-            message: "<p><em><strong>Want to save $195?</strong> The Fall Session starts on Monday. Register today to save 30% witht he code <code>THINKINJS</code> at checkout. Don't wait! Registration closes soon.</em></p>"
+            message: "<p><em><strong>Want to save $195?</strong> The Fall Session starts on Monday. Register today to save 30% with the code <code>THINKINJS</code> at checkout. Don't wait! Registration closes soon.</em></p>"
             start: 20180910
             end: 20180923
 
