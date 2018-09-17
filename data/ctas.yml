@@ -112,7 +112,7 @@ academyBuy:
             start: 20180902
             end: 20180907
         4:
-            message: "<p><em><strong>Want to save $195?</strong> Get early bird pricing with the code <code>EARLYBIRD</code> at checkout. Early bird pricing ends in less than two weeks, so don't&nbsp;wait!</em></p>"
+            message: "<mark><p><em><strong>Want to save $195?</strong> Get early bird pricing with the code <code>EARLYBIRD</code> at checkout. Early bird pricing ends in less than two weeks, so don't&nbsp;wait!</em></p></mark>"
             start: 20180827
             end: 20180901
         5:
