@@ -11,7 +11,7 @@ home:
             start: 20180827
             end: 20180909
         2:
-            message: "<p><mark>⏰ <em><strong>Last chance to save 50% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 50% and finally learn how to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>⏰ <em><strong>Last chance to save 30% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 30% and finally learn how to think in JavaScript.</em></mark></p>"
             start: 20180910
             end: 20180923
 
@@ -23,7 +23,7 @@ global:
             start: 20180827
             end: 20180909
         2:
-            message: "<p><mark>⏰ <em><strong>Last chance to save 50% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 50% and finally learn how to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>⏰ <em><strong>Last chance to save 30% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 30% and finally learn how to think in JavaScript.</em></mark></p>"
             start: 20180910
             end: 20180923
 
@@ -49,7 +49,7 @@ guide:
     message: "<p><mark>🔥 <em><strong>New!</strong> Updated with new resources and more backwards-compatible polyfills.</em></mark></p>"
     limited:
         1:
-            message: "<p><mark>🔥 <em><strong>FIRE SALE!</strong> To celebrate the launch of the <strong><a href='https://vanillajsguides.com/variables-functions-and-scope/'>Pocket Guide video series on Functions, Variables, and Scope</a></strong>, you can <strong>take 50% off any guide or bundle</strong> with the code <strong><code>VAR50</code></strong> at checkout. This ends at midnight, so don't wait!</em></mark></p>"
+            message: "<p><mark>🔥 <em><strong>FIRE SALE!</strong> To celebrate the launch of the <strong><a href='https://vanillajsguides.com/variables-functions-and-scope/'>Pocket Guide video series on Functions, Variables, and Scope</a></strong>, you can <strong>take 30% off any guide or bundle</strong> with the code <strong><code>VAR50</code></strong> at checkout. This ends at midnight, so don't wait!</em></mark></p>"
             start: 20180726
             end: 20180726
 
@@ -57,7 +57,7 @@ guideBuy:
     message: ""
     limited:
         1:
-            message: "<p><mark>🔥 <em><strong>FIRE SALE!</strong> Use the code <strong><code>VAR50</code></strong> at checkout to get 50% off. This ends at midnight, so don't wait!</em></mark></p>"
+            message: "<p><mark>🔥 <em><strong>FIRE SALE!</strong> Use the code <strong><code>VAR50</code></strong> at checkout to get 30% off. This ends at midnight, so don't wait!</em></mark></p>"
             start: 20180726
             end: 20180726
 
@@ -65,7 +65,7 @@ guidesAll:
     message: "<p class='padding-bottom'><mark>🔥 <em><strong>New!</strong> All of my pocket guides have been updated with new resources and more backwards-compatible polyfills.</em></mark></p>"
     limited:
         1:
-            message: "<p><mark>🔥 <em><strong>FIRE SALE!</strong> To celebrate the launch of the <strong><a href='https://vanillajsguides.com/variables-functions-and-scope/'>Pocket Guide video series on Functions, Variables, and Scope</a></strong>, you can <strong>take 50% off any guide or bundle</strong> with the code <strong><code>VAR50</code></strong> at checkout. This ends at midnight, so don't wait!</em></mark></p>"
+            message: "<p><mark>🔥 <em><strong>FIRE SALE!</strong> To celebrate the launch of the <strong><a href='https://vanillajsguides.com/variables-functions-and-scope/'>Pocket Guide video series on Functions, Variables, and Scope</a></strong>, you can <strong>take 30% off any guide or bundle</strong> with the code <strong><code>VAR50</code></strong> at checkout. This ends at midnight, so don't wait!</em></mark></p>"
             start: 20180726
             end: 20180726
 
@@ -92,7 +92,7 @@ academy:
             start: 20180827
             end: 20180901
         5:
-            message: "<p><mark>⏰ <em><strong>Last chance to save 50%!</strong> The Fall Session starts on Monday. Register today to save 50% and finally learn how to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>⏰ <em><strong>Last chance to save 30%!</strong> The Fall Session starts on Monday. Register today to save 30% and finally learn how to think in JavaScript.</em></mark></p>"
             start: 20180910
             end: 20180923
 
@@ -116,7 +116,7 @@ academyBuy:
             start: 20180827
             end: 20180901
         5:
-            message: "<p><em><strong>Want to save $195?</strong> The Fall Session starts on Monday. Register today to save 50% witht he code <code>THINKINJS</code> at checkout. Don't wait! Registration closes soon.</em></p>"
+            message: "<p><em><strong>Want to save $195?</strong> The Fall Session starts on Monday. Register today to save 30% witht he code <code>THINKINJS</code> at checkout. Don't wait! Registration closes soon.</em></p>"
             start: 20180910
             end: 20180923
 
@@ -135,7 +135,7 @@ podcast:
             start: 20180910
             end: 20180923
         3:
-            message: "<p><mark>⏰ <em><strong>Last chance to save 50% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 50% and finally learn how to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>⏰ <em><strong>Last chance to save 30% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 30% and finally learn how to think in JavaScript.</em></mark></p>"
             start: 20180910
             end: 20180923
 
@@ -154,7 +154,7 @@ toolkitHome:
             start: 20180910
             end: 20180923
         3:
-            message: "<p><mark>⏰ <em><strong>Last chance to save 50% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 50% and finally learn how to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>⏰ <em><strong>Last chance to save 30% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 30% and finally learn how to think in JavaScript.</em></mark></p>"
             start: 20180910
             end: 20180923
 
@@ -170,7 +170,7 @@ toolkitSnippets:
             start: 20180910
             end: 20180923
         3:
-            message: "<p><mark>⏰ <em><strong>Last chance to save 50% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 50% and finally learn how to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>⏰ <em><strong>Last chance to save 30% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 30% and finally learn how to think in JavaScript.</em></mark></p>"
             start: 20180910
             end: 20180923
 
@@ -186,7 +186,7 @@ toolkitHelpers:
             start: 20180910
             end: 20180923
         3:
-            message: "<p><mark>⏰ <em><strong>Last chance to save 50% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 50% and finally learn how to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>⏰ <em><strong>Last chance to save 30% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 30% and finally learn how to think in JavaScript.</em></mark></p>"
             start: 20180910
             end: 20180923
 
@@ -202,7 +202,7 @@ toolkitBoilerplates:
             start: 20180910
             end: 20180923
         3:
-            message: "<p><mark>⏰ <em><strong>Last chance to save 50% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 50% and finally learn how to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>⏰ <em><strong>Last chance to save 30% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 30% and finally learn how to think in JavaScript.</em></mark></p>"
             start: 20180910
             end: 20180923
 
@@ -218,7 +218,7 @@ toolkitPolyfills:
             start: 20180910
             end: 20180923
         3:
-            message: "<p><mark>⏰ <em><strong>Last chance to save 50% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 50% and finally learn how to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>⏰ <em><strong>Last chance to save 30% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 30% and finally learn how to think in JavaScript.</em></mark></p>"
             start: 20180910
             end: 20180923
 
@@ -234,7 +234,7 @@ toolkitPlugins:
             start: 20180910
             end: 20180923
         3:
-            message: "<p><mark>⏰ <em><strong>Last chance to save 50% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 50% and finally learn how to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>⏰ <em><strong>Last chance to save 30% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 30% and finally learn how to think in JavaScript.</em></mark></p>"
             start: 20180910
             end: 20180923
 
@@ -250,7 +250,7 @@ toolkitProjects:
             start: 20180910
             end: 20180923
         3:
-            message: "<p><mark>⏰ <em><strong>Last chance to save 50% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 50% and finally learn how to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>⏰ <em><strong>Last chance to save 30% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 30% and finally learn how to think in JavaScript.</em></mark></p>"
             start: 20180910
             end: 20180923
 
@@ -266,6 +266,6 @@ toolkitLearning:
             start: 20180910
             end: 20180923
         3:
-            message: "<p><mark>⏰ <em><strong>Last chance to save 50% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 50% and finally learn how to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>⏰ <em><strong>Last chance to save 30% on <a href='https://vanillajsacademy.com'>the Vanilla JS Academy</a>!</strong> The Fall Session starts on Monday. Register today to save 30% and finally learn how to think in JavaScript.</em></mark></p>"
             start: 20180910
             end: 20180923
