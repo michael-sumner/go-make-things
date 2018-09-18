@@ -192,6 +192,8 @@ Now, you can cast your spell like this.
 getWand.cast();
 ```
 
+[Here's a demo.](https://codepen.io/cferdinandi/pen/QVJvPo)
+
 ### Why attach the function to the prototype and not as a property of the `Constructor()`?
 
 You *could* achieve the same affect like this.
