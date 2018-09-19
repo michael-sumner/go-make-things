@@ -236,4 +236,4 @@ For a small plugin it probably doesn't matter much. For larger projects, it can 
 
 ## Wrapping up
 
-That's it for today. Tomorrow, we'll look at how add private functions to your constructor. We'll also look at how to include shared settings, and methods that only run on `Spells()` instead of being attached to each instance.
+That's it for today. Tomorrow, we'll look at [how add private functions to your constructor](/how-to-add-private-variables-and-helper-methods-to-your-vanilla-js-constructor-patterns/). We'll also look at how to include shared settings, and methods that only run on `Spells()` instead of being attached to each instance.
