@@ -94,6 +94,10 @@ var crowsNest = function () {
 		search(input.value);
 	};
 
+	var clearInput = function () {
+		input.value = input.value.replace(' site:gomakethings.com', '');
+	};
+
 	/**
 	 * If there's a query string search term, search it on page load
 	 */
@@ -114,7 +118,7 @@ var crowsNest = function () {
 	if (!form || !input || !resultList || !searchIndex) return;
 
 	// Clear the input field
-	input.value = '';
+	clearInput();
 
 	// Create a submit handler
 	form.addEventListener('submit', submitHandler, false);
