@@ -18,7 +18,6 @@ Let's make 2018 the year that you master&nbsp;JavaScript! You can do this. I can
 - **[The Toolkit.](https://vanillajstoolkit.com)** A growing collection of vanilla JavaScript code snippets, helper functions, polyfills, plugins, and learning resources.
 - **[Pocket Guides.](https://vanillajsguides.com/)** Short, focused ebooks and video courses made for beginners. Start building real JavaScript projects in under an hour.
 - **[Vanilla JS Academy.](https://vanillajsacademy.com/)** A project-based online JavaScript training program for beginners.
-- **[Vanilla JS Conference.](https://vanillajsconf.com/)** A free online conference for people who want to build a leaner, faster, and more resilient web.
 {{%/md%}}
 </div>
 
