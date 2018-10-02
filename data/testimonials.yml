@@ -124,3 +124,9 @@ stuartRobson:
     url: "https://twitter.com/StuRobson/status/807328299580067844"
     photo: "/img/testimonials/stuart-robson.jpg"
     quote: "ooh, that’s a nice treat for the weekend — <a href='https://twitter.com/chrisferdinandi'>@ChrisFerdinandi</a>’s \"Ditching jQuery\" ebook in my inbox."
+
+elliotPorter:
+    name: "Elliot Porter"
+    url: "http://weblake.co.uk/"
+    photo: "/img/testimonials/elliot-porter.jpg"
+    quote: "Having your interaction is priceless. Such added value."
