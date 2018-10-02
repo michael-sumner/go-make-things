@@ -10,6 +10,8 @@ categories:
 - JavaScript
 ---
 
+<img alt="A screenshot of the terminal window on MacOS with the text, 'Follow the white rabbit...'" src="/img/articles/command-line.jpg">
+
 One of the things I was shamed for by coworkers when I was first starting out was not knowing the command line, or terminal.
 
 This is that black or white window with the blinking Matrix-style cursor where you can type in text-based commands to make your computer (or some remote server) do things.
