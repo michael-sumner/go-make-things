@@ -7,7 +7,7 @@ categories:
 - CSS
 ---
 
-<img alt="A screenshot of the Palm Reader app" src="img/articles/palm-reader.jpg">
+<img alt="A screenshot of the Palm Reader app" src="/img/articles/palm-reader.jpg">
 
 [Palm Reader from Jordan Moore](http://jordanm.co.uk/palmreader/) shows you all of the media queries that are active on the device and browser you're currently using.
 
