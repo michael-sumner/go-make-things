@@ -55,7 +55,7 @@ price:
             end: 20180403
             price: "<del>$399</del> $199"
     mentoring:
-        price: "$999/month"
+        price: "$1199/month"
         special:
             start: 20180329
             end: 20180403
