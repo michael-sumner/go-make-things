@@ -1,4 +1,5 @@
 # Prices
+# Only used locally
 price:
     guides:
         ebook: "$29"
