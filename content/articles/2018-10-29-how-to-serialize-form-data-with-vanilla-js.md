@@ -3,19 +3,8 @@ title: "How to serialize form data with vanilla JS"
 date: 2018-10-29T10:30:00-04:00
 draft: false
 categories:
-- Accessibility
-- Art and Science
-- Business and Leadership
-- Careers
 - Code
-- CSS
-- Design and UX
-- HTML
 - JavaScript
-- Technology
-- Web Performance
-- WordPress
-- Vanilla Framework Demos
 ---
 
 Today, I'm going to teach you how to get form data as a string of encoded key/value pairs. This is useful when you want to submit a form with Ajax or save the data for use later.
