@@ -11,7 +11,7 @@ Today, I'm going to teach you how to get form data as a string of encoded key/va
 
 ## A helper function
 
-Let's `serialize()` helper function makes this really easy. Pass in the form element, and it spits out a string for you.
+[The `serialize()` helper function](https://vanillajstoolkit.com/helpers/serialize/) makes this really easy. Pass in the form element, and it spits out a string for you.
 
 ```js
 var form = document.querySelector('#my-form');
