@@ -1,7 +1,7 @@
 ---
 title: "Getting direct descendant elements by selector with vanilla JS"
 date: 2018-10-31T10:30:00-04:00
-draft: false
+draft: true
 categories:
 - Accessibility
 - Art and Science
