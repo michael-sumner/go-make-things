@@ -111,4 +111,4 @@ var tuna = childrenMatches(sandwiches, '.tuna');
 
 This works in all modern browsers, and IE9 and up. [The `Element.matches()` method does require a tiny polyfill](https://vanillajstoolkit.com/polyfills/matches/) to deal with some vendor-specific prefixing in some browsers, though.
 
-[Here's a demo to play with.](https://codepen.io/cferdinandi/pen/qJGLyy)
+[Here's a demo to play with.](https://codepen.io/cferdinandi/pen/qJGLyy) You can also [find it on the Vanilla JS Toolkit](https://vanillajstoolkit.com/helpers/childrenmatches/).
