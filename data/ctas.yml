@@ -7,7 +7,7 @@ home:
     message: "<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com/'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
     limited:
         1:
-            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a> and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
+            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
             start: 20181030
             end: 20181031
 
@@ -15,7 +15,7 @@ global:
     message: "<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
     limited:
         1:
-            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a> and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
+            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
             start: 20181030
             end: 20181031
 
@@ -103,7 +103,7 @@ podcast:
     message: "<mark><p>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</p></mark>"
     limited:
         1:
-            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a> and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
+            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
             start: 20181030
             end: 20181031
 
@@ -114,7 +114,7 @@ toolkitHome:
     message: ""
     limited:
         1:
-            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a> and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
+            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
             start: 20181030
             end: 20181031
 
@@ -122,7 +122,7 @@ toolkitSnippets:
     message: "<div class='callout'>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a> and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
+            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
             start: 20181030
             end: 20181031
 
@@ -130,7 +130,7 @@ toolkitHelpers:
     message: "<div class='callout'>🚀 Learn how to <strong>write your own JS helper functions</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a> and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
+            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
             start: 20181030
             end: 20181031
 
@@ -138,7 +138,7 @@ toolkitBoilerplates:
     message: "<div class='callout'>🚀 Learn how to <strong>write more flexible, resilient JavaScript</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a> and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
+            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
             start: 20181030
             end: 20181031
 
@@ -146,7 +146,7 @@ toolkitPolyfills:
     message: "<div class='callout'>🚀 Learn how to <strong>write scripts that run in any browser</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a> and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
+            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
             start: 20181030
             end: 20181031
 
@@ -154,7 +154,7 @@ toolkitPlugins:
     message: "<div class='callout'>🚀 Learn how to <strong>write your own vanilla JS plugins</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a> and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
+            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
             start: 20181030
             end: 20181031
 
@@ -162,7 +162,7 @@ toolkitProjects:
     message: "<div class='callout'>🚀 Build a <strong>working JavaScript project</strong> in <strong>under an hour</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a> and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
+            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
             start: 20181030
             end: 20181031
 
@@ -170,6 +170,6 @@ toolkitLearning:
     message: ""
     limited:
         1:
-            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a> and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
+            message: "<p><mark>🎃 <em><strong>Halloween Sale!</strong> Save 30% of all of my <a href='https://vanillajsguides.com'>vanilla JS pocket guides and bundles</a>. Don't wait! This sale ends at midnight.</em></mark></p>"
             start: 20181030
             end: 20181031
