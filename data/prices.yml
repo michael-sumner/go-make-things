@@ -6,47 +6,47 @@
 # Pocket Guides
 guidesComplete:
     prices:
-        ebook: ""
-        video: ""
-        both: ""
-    start: false
-    end: false
+        ebook: "<del>$179</del> $125"
+        video: "<del>$387</del> $230"
+        both: "<del>$415</del> $247"
+    start: 20181031
+    end: 20181031
 
 guidesBeginner:
     prices:
-        ebook: ""
-        video: ""
-        both: ""
-    start: false
-    end: false
+        ebook: "<del>$99</del> $69"
+        video: "<del>$194</del> $136"
+        both: "<del>$207</del> $145"
+    start: 20181031
+    end: 20181031
 
 guidesAdvanced:
     price:
-        ebook: ""
-        video: ""
-        both: ""
-    start: false
-    end: false
+        ebook: "<del>$79</del> $55"
+        video: "<del>$194</del> $136"
+        both: "<del>$207</del> $145"
+    start: 20181031
+    end: 20181031
 
 guidesIndividual:
     prices:
-        ebook: ""
-        video: ""
-        both: ""
-    start: false
-    end: false
+        ebook: "<del>$29</del> $20"
+        video: "<del>$69</del> $48"
+        both: "<del>$74</del> $52"
+    start: 20181031
+    end: 20181031
 
 guidesIndividualPreorder:
     prices:
-        ebook: ""
-        video: ""
-        both: ""
-    start: false
-    end: false
+        ebook: "<del>$29</del> $14"
+        video: "<del>$69</del> $34"
+        both: "<del>$74</del> $37"
+    start: 20181031
+    end: 20181031
 
 # Academy
 academy:
     prices:
-        price: "<del>$649</del> $454"
-    start: 20180917
-    end: 20180923
+        price: ""
+    start: false
+    end: false
