@@ -130,3 +130,9 @@ elliotPorter:
     url: "http://weblake.co.uk/"
     photo: "/img/testimonials/elliot-porter.jpg"
     quote: "Having your interaction is priceless. Such added value."
+
+benRudolph:
+    name: "Ben Rudolph"
+    url: "https://twitter.com/PoorOldRu/status/1058378836646125569"
+    photo: "/img/testimonials/ben-rudolph.jpg"
+    quote: "Tired of tutorials? Want to really dig in and work with other developers on how to become a vanilla JS badass? I can't tell you how much I've learned from Chris Ferdinandi and his Vanilla JS Academy."
