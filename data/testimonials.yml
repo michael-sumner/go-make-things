@@ -136,3 +136,9 @@ benRudolph:
     url: "https://twitter.com/PoorOldRu/status/1058378836646125569"
     photo: "/img/testimonials/ben-rudolph.jpg"
     quote: "Tired of tutorials? Want to really dig in and work with other developers on how to become a vanilla JS badass? I can't tell you how much I've learned from Chris Ferdinandi and his Vanilla JS Academy."
+
+jonathanSchofield:
+    name: "Jonathan Schofield"
+    url: "https://twitter.com/schofeld/status/1060577891031924742"
+    photo: "/img/testimonials/jonathan-schofield.jpg"
+    quote: "Wanting to learn JavaScript from scratch, make the transition from jQuery or some other library? Already pretty competent and just want to get better?<br><br>Chris Ferdinandi has got your back and his learning platform is a <em>tremendously good value</em>."
