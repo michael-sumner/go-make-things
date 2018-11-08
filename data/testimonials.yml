@@ -15,7 +15,7 @@ ardenDeRaaij:
     name: "Arden de Raaij"
     url: "https://twitter.com/ardennl/status/920296593617768448"
     photo: "/img/testimonials/arden-de-raaij.jpg"
-    quote: "Shout out to @ChrisFerdinandi. Since I dropped jQuery, https://gomakethings.com has been the best asset for learning vanilla js for me. <span class='text-normal'>🙌🏼</span>"
+    quote: "Shout out to Chris Ferdinandi. Since I dropped jQuery, https://gomakethings.com has been the best asset for learning vanilla js for me. <span class='text-normal'>🙌🏼</span>"
 
 chrisBaughman:
     name: "Chris Baughman"
@@ -57,13 +57,13 @@ jeremyGreen:
     name: "Jeremy Green"
     url: "https://twitter.com/jagthedrummer/status/808360037248798720"
     photo: "/img/testimonials/jeremy-green.jpg"
-    quote: "Ever wanted to ditch jQuery but not sure how? This book by <a href='https://twitter.com/chrisferdinandi'>@ChrisFerdinandi</a> will set you on the right path."
+    quote: "Ever wanted to ditch jQuery but not sure how? This book by Chris Ferdinandi will set you on the right path."
 
 jonathanStark:
     name: "Jonathan Stark"
     url: "https://twitter.com/jonathanstark/status/808350258476548099"
     photo: "/img/testimonials/jonathan-stark.jpg"
-    quote: "Levelup your frontend dev skills w/ the excellent \"Ditching jQuery\" by <a href='https://twitter.com/chrisferdinandi'>@ChrisFerdinandi</a>."
+    quote: "Levelup your frontend dev skills w/ the excellent \"Ditching jQuery\" by Chris Ferdinandi."
 
 kb:
     name: "Kabolobari"
@@ -123,7 +123,7 @@ stuartRobson:
     name: "Stuart Robson"
     url: "https://twitter.com/StuRobson/status/807328299580067844"
     photo: "/img/testimonials/stuart-robson.jpg"
-    quote: "ooh, that’s a nice treat for the weekend — <a href='https://twitter.com/chrisferdinandi'>@ChrisFerdinandi</a>’s \"Ditching jQuery\" ebook in my inbox."
+    quote: "ooh, that’s a nice treat for the weekend — Chris Ferdinandi’s \"Ditching jQuery\" ebook in my inbox."
 
 elliotPorter:
     name: "Elliott Porter"
@@ -141,4 +141,4 @@ jonathanSchofield:
     name: "Jonathan Schofield"
     url: "https://twitter.com/schofeld/status/1060577891031924742"
     photo: "/img/testimonials/jonathan-schofield.jpg"
-    quote: "Wanting to learn JavaScript from scratch, make the transition from jQuery or some other library? Already pretty competent and just want to get better?<br><br>Chris Ferdinandi has got your back and his learning platform is a <em>tremendously good value</em>."
+    quote: "Wanting to learn JavaScript from scratch, make the transition from jQuery or some other library? Already pretty competent and just want to get better?<br><br>Chris Ferdinandi has got your back and his learning platform is a *tremendously good value*."
