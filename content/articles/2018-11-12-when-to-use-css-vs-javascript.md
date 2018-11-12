@@ -1,6 +1,6 @@
 ---
 title: "When to use CSS vs. JavaScript"
-date: 2018-11-12T10:30:00-05:00
+date: 2018-11-12T10:30:00-04:00
 draft: false
 categories:
 - Accessibility
