@@ -42,7 +42,7 @@ window.addEventListener('scroll', function ( event ) {
 
 ## A Helper Function
 
-I've thrown together a [really lightweight helper function, `scrollStop.js`](https://github.com/cferdinandi/scrollStop), that you can use on your projects.
+I've thrown together a [really lightweight helper function, `scrollStop.js`](https://vanillajstoolkit.com/helpers/scrollstop/), that you can use on your projects.
 
 Add the function to your script and then pass in the code to run when scrolling stops as a callback.
 
@@ -56,4 +56,4 @@ scrollStop(function () {
 });
 ```
 
-You can [download `scrollStop` on GitHub.](https://github.com/cferdinandi/scrollStop) or [view the demo](https://cferdinandi.github.io/scrollStop/).
+You can [download `scrollStop` on the Vanilla JS Toolkit.](https://vanillajstoolkit.com/helpers/scrollstop/) [Here's a demo.](https://codepen.io/cferdinandi/pen/BGpPoo)
