@@ -132,4 +132,4 @@ window.addEventListener('scroll', function (event) {
 }, false);
 ```
 
-You can [grab a copy of this helper function on GitHub](https://github.com/cferdinandi/isInViewport).
+You can [grab a copy of this helper function on the Vanilla JS Toolkit](https://vanillajstoolkit.com/helpers/isinviewport/).
