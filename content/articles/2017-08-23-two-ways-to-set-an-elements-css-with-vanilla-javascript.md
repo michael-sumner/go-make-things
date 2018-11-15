@@ -1,11 +1,10 @@
 ---
+title: "Two ways to set an element's CSS with vanilla JavaScript"
+date: "2017-08-23"
 categories:
 - Code
 - CSS
 - JavaScript
-date: '2017-08-23'
-url: /two-ways-to-set-an-elements-css-with-vanilla-javascript/
-title: Two ways to set an element&#8217;s CSS with vanilla JavaScript
 ---
 
 Yesterday, we looked at [how to get an element's CSS attributes with vanilla JavaScript](/getting-an-elements-css-attributes-with-vanilla-javascript/). One thing I neglected to mention: `getComputedStyle()` can only be used to get values, not set them.
