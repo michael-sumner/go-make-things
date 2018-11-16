@@ -1,21 +1,14 @@
 ---
 title: "Just because a big, well-known tech company does something doesn't mean you should, too"
 date: 2018-11-16T10:30:00-05:00
-draft: true
+draft: false
 categories:
-- Accessibility
-- Art and Science
 - Business and Leadership
-- Careers
 - Code
-- CSS
 - Design and UX
 - HTML
 - JavaScript
-- Technology
 - Web Performance
-- WordPress
-- Vanilla Framework Demos
 ---
 
 In fact, it may well mean the opposite.
@@ -24,13 +17,15 @@ I've been talking a lot about [my issues with CSS-in-JS](/overengineering-css/) 
 
 > Twitter has had great success using CSS-in-JS with their large engineering organization.
 
-Have they, though?
+There's a common belief that if an organization is large and successful and has lots of smart, talented people working there, it must be doing the right things.
+
+I'm not sure that's true.
 
 ## Large organizations don't optimize for user experience.
 
 They optimize for cost. They optimize for internal ease (same thing, I suppose). And they optimize to maintain internal power.
 
-If Twitter optimized for user experience, we would still have a reverse-chronological feed of just the stuff the people you follow post. We'd have a fully-functioning API and thriving third-party app market. We wouldn't have Nazis.
+If Twitter optimized for user experience, we would still have a reverse-chronological feed of just the stuff the people you follow post. We'd have a fully-functioning API and thriving third-party app market. We'd have better moderation systems and tools.
 
 When's the last time you've loved a change Twitter has made to their site? So why would you idolize their engineering process?
 
