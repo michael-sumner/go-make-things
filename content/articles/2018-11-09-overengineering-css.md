@@ -31,9 +31,9 @@ Nicolas expand...
 >
 > The PWA's CSS is generated on-demand by a JS framework that manages styles and outputs "atomic CSS". The framework can enforce strict constraints and perform optimisations, which is why the CSS is so much smaller and safer. Style conflicts and unbounded CSS growth are avoided.
 
-What this means, of course, is that if that JS file fails *for any reason* you don't Twitter's stylesheet.
+What this means, of course, is that if that JS file fails *for any reason* you don't get Twitter's stylesheet.
 
-You probably don't browse the web with JS (though, for many valid reasons, some people do). But CDN errors, ad blockers, hyper aggressive corporate firewalls, shitty web connections, and even bad weather can all knock out a JS file.
+You probably don't browse the web with JS disabled (though, for many valid reasons, some people do). But CDN errors, ad blockers, hyper aggressive corporate firewalls, shitty web connections, and even bad weather can all knock out a JS file.
 
 Twitter has moved one of the most resilient parts of the web stack to the most fragile and error prone part of it.
 
