@@ -1,4 +1,8 @@
-# Testimonials
+##
+## Testimonials
+##
+
+# Pocket Guides
 alexHardy:
     name: "Alex Hardy, Designer &amp; Developer"
     url: "https://twitter.com/alexhardy"
@@ -125,6 +129,13 @@ stuartRobson:
     photo: "/img/testimonials/stuart-robson.jpg"
     quote: "ooh, that’s a nice treat for the weekend — Chris Ferdinandi’s \"Ditching jQuery\" ebook in my inbox."
 
+jonathanSchofield:
+    name: "Jonathan Schofield"
+    url: "https://twitter.com/schofeld/status/1060577891031924742"
+    photo: "/img/testimonials/jonathan-schofield.jpg"
+    quote: "Wanting to learn JavaScript from scratch, make the transition from jQuery or some other library? Already pretty competent and just want to get better?<br><br>Chris Ferdinandi has got your back and his learning platform is a *tremendously good value*."
+
+# Vanilla JS Academy
 elliotPorter:
     name: "Elliott Porter"
     url: "http://weblake.co.uk/"
@@ -137,12 +148,6 @@ benRudolph:
     photo: "/img/testimonials/ben-rudolph.jpg"
     quote: "Tired of tutorials? Want to really dig in and work with other developers on how to become a vanilla JS badass? I can't tell you how much I've learned from Chris Ferdinandi and his Vanilla JS Academy."
 
-jonathanSchofield:
-    name: "Jonathan Schofield"
-    url: "https://twitter.com/schofeld/status/1060577891031924742"
-    photo: "/img/testimonials/jonathan-schofield.jpg"
-    quote: "Wanting to learn JavaScript from scratch, make the transition from jQuery or some other library? Already pretty competent and just want to get better?<br><br>Chris Ferdinandi has got your back and his learning platform is a *tremendously good value*."
-
 zacHeisey:
     name: "Zac Heisey"
     url: "https://www.zac-heisey.com"
@@ -153,7 +158,7 @@ kevinBeck:
     name: "Kevin Beck"
     url: null
     photo: null
-    quote: "I was not sure the level of the course. I was not looking for a 101 of JS, which the course was not. It was exactly what I was after.<br><br>I really benefited and liked both the office hours (including code reviews) and the interaction with Chris and students on Slack (a big thing many other course do not have). It was also nice to see how other students approached the same problem. With having other students and you over a set period really helped encourage me to complete projects.<br><br>I never felt any imposter syndrome. We could ask any question and Chris was happy to help."
+    quote: "I was not sure the level of the course. I was not looking for a 101 of JS, which the course was not. It was exactly what I was after.<br><br>I really benefited from and liked both the office hours (including code reviews) and the interaction with Chris and students on Slack (a big thing many other course do not have). It was also nice to see how other students approached the same problem. With having other students and you over a set period really helped encourage me to complete projects.<br><br>I never felt any imposter syndrome. We could ask any question and Chris was happy to help."
 
 kumarSucom:
     name: "Kumar Sucom"
