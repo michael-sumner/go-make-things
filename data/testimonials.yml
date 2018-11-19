@@ -142,3 +142,21 @@ jonathanSchofield:
     url: "https://twitter.com/schofeld/status/1060577891031924742"
     photo: "/img/testimonials/jonathan-schofield.jpg"
     quote: "Wanting to learn JavaScript from scratch, make the transition from jQuery or some other library? Already pretty competent and just want to get better?<br><br>Chris Ferdinandi has got your back and his learning platform is a *tremendously good value*."
+
+zacHeisey:
+    name: "Zac Heisey"
+    url: "https://www.zac-heisey.com"
+    photo: "/img/testimonials/zac-heisey.jpg"
+    quote: "After going through this program, I found that using vanilla JS, you can accomplish A LOT more than the larger dev community would lead you to believe.<br><br>I really liked the open-endedness of the weekly projects. I think having fewer restraints in solving the task made me focus more on the specific topic for that week and how I would apply it to the given project. Combining this with the Thursday office hour and then having your approach shared on Friday made for a well-rounded overview of the material.<br><br>Thanks for an awesome course, Chris! This truly was the best JS learning experience I’ve had&mdash;things really clicked for me during the academy and I feel much more comfortable using JavaScript and approaching problems with JS-specific solutions at the ready!"
+
+kevinBeck:
+    name: "Kevin Beck"
+    url: null
+    photo: null
+    quote: "I was not sure the level of the course. I was not looking for a 101 of JS, which the course was not. It was exactly what I was after.<br><br>I really benefited and liked both the office hours (including code reviews) and the interaction with Chris and students on Slack (a big thing many other course do not have). It was also nice to see how other students approached the same problem. With having other students and you over a set period really helped encourage me to complete projects.<br><br>I never felt any imposter syndrome. We could ask any question and Chris was happy to help."
+
+kumarSucom:
+    name: "Kumar Sucom"
+    url: null
+    photo: null
+    quote: "I was desperately looking for a person or guided tutorial to help me undestand the foundation of pure (vanilla) JavaScript. Though I have good work experience in various programming languages including JavaScript, I felt I was missing something.<br><br>I found and bought Chris's books and have gone through most of them. But I was still looking forward to to talking to someone, so I joined the Academy :-) and I'm happy that I did."
