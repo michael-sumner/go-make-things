@@ -34,8 +34,8 @@ As if these deals weren’t great enough, every pocket guide bundle, video bundl
 
 - Get over your fear of command line and save 30% with [Remy Sharp's Terminal Training course](https://terminal.training/).
 - Deep dive into [JavaScript for WordPress](https://javascriptforwp.com/) and the WP API with Zac Gordon and save 20%.
-- Finally [wrap your head around D3 and SVG](http://d3svg.com) with Ben Clinkinbeard.
-- Learn React with Chris Buecheler's [Five-Minute React](https://closebrace.com/categories/five-minute-react) course.
+- Finally [wrap your head around D3 and SVG](http://d3svg.com) with Ben Clinkinbeard and take 20% off.
+- Learn React with Chris Buecheler's [Five-Minute React](https://closebrace.com/categories/five-minute-react) course and save 40% (on top of his already discounted sale price).
 - Want to make more money as a freelancer? Save 30% on Jonathan Stark's exceptional book, [Hourly Billing is Nuts](https://expensiveproblem.com/hbin).
 - Learn how to get more clients and grow your consulting business with 20% off of any of [Philip Morgan's books or services](https://philipmorganconsulting.com).
 - Has life in front a screen taken a toll on your health? [The team at DevLifts](https://devlifts.io/) is offering 50% off any of their plans to help you refactor your body.
