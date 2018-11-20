@@ -1,12 +1,12 @@
 ---
-title: "Black Friday Marketing Opt Out"
+title: "Mute Black Friday Marketing"
 date: 2018-01-11T16:03:33-05:00
 draft: false
 noIndex: true
 ---
 
-<div id="opt-out-status" data-status="<p>You've been successfully opted out of Black Friday 2018 marketing emails. Thanks!</p>">
-	<p>One moment. Opting you out...</p>
+<div id="opt-out-status" data-status="<p>Ah... silence! You've successfully muted Black Friday 2018 marketing emails.</p>">
+	<p>One moment. Muting these emails...</p>
 </div>
 
 {{<opt-out group="c61eebfa8a">}}
