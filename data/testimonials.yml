@@ -157,7 +157,7 @@ zacHeisey:
 kevinBeck:
     name: "Kevin Beck"
     url: "https://multiplestates.co.uk"
-    photo: null
+    photo: "/img/testimonials/kevin-beck.jpg"
     quote: "I was not sure the level of the course. I was not looking for a 101 of JS, which the course was not. It was exactly what I was after.<br><br>I really benefited from and liked both the office hours (including code reviews) and the interaction with Chris and students on Slack (a big thing many other course do not have). It was also nice to see how other students approached the same problem. With having other students and you over a set period really helped encourage me to complete projects.<br><br>I never felt any imposter syndrome. We could ask any question and Chris was happy to help."
 
 kumarSucom:
