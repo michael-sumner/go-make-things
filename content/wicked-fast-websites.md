@@ -94,8 +94,8 @@ Here's everything that's in the book.
 	</ul>
 
 	<p>
-		<a class="btn btn-large" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=7896&edd_options[price_id]=1">Buy now for $39</a><br>
-		<a href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=7896&edd_options[price_id]=2">Or buy a team license for up to 10 people for $149</a>
+		<a class="btn btn-large" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=22383&edd_options[price_id]=1">Buy now for $39</a><br>
+		<a href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=22383&edd_options[price_id]=2">Or buy a team license for up to 10 people for $149</a>
 	</p>
 </div>
 
