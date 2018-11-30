@@ -2,6 +2,9 @@
 ## Calls to Action
 ##
 
+mcSubscribers:
+    message: "Join 2,600+ daily subscribers."
+
 # https://gomakethings.com
 home:
     message: "<p><mark>🚀 <em><strong>Make 2018 the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com/'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
