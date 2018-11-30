@@ -7,7 +7,9 @@ noTitle: true
 
 <p class="text-center"><img src="/img/chris-ferdinandi-high-res.jpg" alt="Chris Ferdinandi" width="175" height="175" class="img-circle"></p>
 
-<h1 class="no-padding-top">Hi, I’m Chris Ferdinandi. I help people learn vanilla JavaScript.</h1>
+<h1 class="no-padding-top">Hi, I’m Chris Ferdinandi.</h1>
+
+**I help people learn vanilla JavaScript.** I believe there's a simpler, more resilient way to make things for the web.
 
 My JavaScript plugins are used by organizations like Apple, Harvard Business School, and CNN. After years of struggling with hostile web forums, bad documentation, and incomplete tutorials, I now help beginners learn JavaScript faster and easier.
 

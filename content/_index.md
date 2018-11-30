@@ -9,6 +9,6 @@ noTitle: true
 
 {{<cta for="home">}}
 
-{{<mailchimp intro>}}
+{{<mailchimp intro="true">}}
 
 {{<testimonial for="danielDeverell">}}
