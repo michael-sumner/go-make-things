@@ -124,33 +124,33 @@ academy:
     message: ""
     limited:
         1:
-            message: "<p><mark>🦃 <em><strong>Black Friday Sale!</strong> Save 50% on Vanilla JS Academy registration. Your Academy membership also comes with over $740 in exclusive discounts and bonuses. Make 2019 the year you learn to think in JavaScript. Ends on Monday, so don't wait!</em></mark></p>"
-            start: 20181122
-            end: 20181124
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on your Vanilla JS Academy registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
+            start: 20181201
+            end: 20181207
         2:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on Vanilla JS Academy registration. Your Academy membership also comes with over $740 in exclusive discounts and bonuses. Make 2019 the year you learn to think in JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
-            start: 20181125
-            end: 20181125
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today and tomorrow only, save 40% on your Vanilla JS Academy registration. Make 2019 the year you learn to think in JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
+            start: 20181208
+            end: 20181208
         3:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on Vanilla JS Academy registration. Your Academy membership also comes with over $740 in exclusive discounts and bonuses. Make 2019 the year you learn to think in JavaScript. Make 2019 the year you master JavaScript. Ends today, so don't wait!</em></mark></p>"
-            start: 20181126
-            end: 20181126
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today only, save 40% on your Vanilla JS Academy registration. Make 2019 the year you learn to think in JavaScript. Ends today, so don't wait!</em></mark></p>"
+            start: 20181209
+            end: 20181209
 
 academyBuy:
     message: ""
     limited:
         1:
-            message: "<p><mark>🦃 <em><strong>Black Friday Sale!</strong> Save 50% with the code <code>BLACKFRIDAY2018</code> at checkout. Ends on Monday, so don't wait!</em></mark></p>"
-            start: 20181122
-            end: 20181124
+            message: "<p><mark>⏰🐦 <em><strong>Early Birday Sale!</strong> Save 40% with the code <code>EARLYBIRD</code> at checkout. Ends on Sunday, so don't wait!</em></mark></p>"
+            start: 20181201
+            end: 20181207
         2:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% with the code <code>BLACKFRIDAY2018</code> at checkout. Ends tomorrow, so don't wait!</em></mark></p>"
-            start: 20181125
-            end: 20181125
+            message: "<p><mark>⏰🐦 <em><strong>Early Birday Sale!</strong> Save 40% with the code <code>EARLYBIRD</code> at checkout. Ends tomorrow, so don't wait!</em></mark></p>"
+            start: 20181208
+            end: 20181208
         3:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% with the code <code>BLACKFRIDAY2018</code> at checkout. Ends today, so don't wait!</em></mark></p>"
-            start: 20181126
-            end: 20181126
+            message: "<p><mark>⏰🐦 <em><strong>Early Birday Sale!</strong> Save 40% with the code <code>EARLYBIRD</code> at checkout. Ends today, so don't wait!</em></mark></p>"
+            start: 20181209
+            end: 20181209
 
 
 
@@ -159,17 +159,17 @@ podcast:
     message: "<mark><p>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</p></mark>"
     limited:
         1:
-            message: "<p><mark>🦃 <em><strong>Black Friday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends on Monday, so don't wait!</em></mark></p>"
-            start: 20181122
-            end: 20181124
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
+            start: 20181201
+            end: 20181207
         2:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
-            start: 20181125
-            end: 20181125
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today and tomorrow only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
+            start: 20181208
+            end: 20181208
         3:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends today, so don't wait!</em></mark></p>"
-            start: 20181126
-            end: 20181126
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends today, so don't wait!</em></mark></p>"
+            start: 20181209
+            end: 20181209
 
 
 
@@ -178,126 +178,126 @@ toolkitHome:
     message: ""
     limited:
         1:
-            message: "<p><mark>🦃 <em><strong>Black Friday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends on Monday, so don't wait!</em></mark></p>"
-            start: 20181122
-            end: 20181124
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
+            start: 20181201
+            end: 20181207
         2:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
-            start: 20181125
-            end: 20181125
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today and tomorrow only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
+            start: 20181208
+            end: 20181208
         3:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends today, so don't wait!</em></mark></p>"
-            start: 20181126
-            end: 20181126
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends today, so don't wait!</em></mark></p>"
+            start: 20181209
+            end: 20181209
 
 toolkitSnippets:
     message: "<div class='callout'>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🦃 <em><strong>Black Friday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends on Monday, so don't wait!</em></mark></p>"
-            start: 20181122
-            end: 20181124
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
+            start: 20181201
+            end: 20181207
         2:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
-            start: 20181125
-            end: 20181125
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today and tomorrow only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
+            start: 20181208
+            end: 20181208
         3:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends today, so don't wait!</em></mark></p>"
-            start: 20181126
-            end: 20181126
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends today, so don't wait!</em></mark></p>"
+            start: 20181209
+            end: 20181209
 
 toolkitHelpers:
     message: "<div class='callout'>🚀 Learn how to <strong>write your own JS helper functions</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🦃 <em><strong>Black Friday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends on Monday, so don't wait!</em></mark></p>"
-            start: 20181122
-            end: 20181124
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
+            start: 20181201
+            end: 20181207
         2:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
-            start: 20181125
-            end: 20181125
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today and tomorrow only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
+            start: 20181208
+            end: 20181208
         3:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends today, so don't wait!</em></mark></p>"
-            start: 20181126
-            end: 20181126
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends today, so don't wait!</em></mark></p>"
+            start: 20181209
+            end: 20181209
 
 toolkitBoilerplates:
     message: "<div class='callout'>🚀 Learn how to <strong>write more flexible, resilient JavaScript</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🦃 <em><strong>Black Friday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends on Monday, so don't wait!</em></mark></p>"
-            start: 20181122
-            end: 20181124
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
+            start: 20181201
+            end: 20181207
         2:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
-            start: 20181125
-            end: 20181125
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today and tomorrow only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
+            start: 20181208
+            end: 20181208
         3:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends today, so don't wait!</em></mark></p>"
-            start: 20181126
-            end: 20181126
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends today, so don't wait!</em></mark></p>"
+            start: 20181209
+            end: 20181209
 
 toolkitPolyfills:
     message: "<div class='callout'>🚀 Learn how to <strong>write scripts that run in any browser</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🦃 <em><strong>Black Friday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends on Monday, so don't wait!</em></mark></p>"
-            start: 20181122
-            end: 20181124
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
+            start: 20181201
+            end: 20181207
         2:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
-            start: 20181125
-            end: 20181125
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today and tomorrow only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
+            start: 20181208
+            end: 20181208
         3:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends today, so don't wait!</em></mark></p>"
-            start: 20181126
-            end: 20181126
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends today, so don't wait!</em></mark></p>"
+            start: 20181209
+            end: 20181209
 
 toolkitPlugins:
     message: "<div class='callout'>🚀 Learn how to <strong>write your own vanilla JS plugins</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🦃 <em><strong>Black Friday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends on Monday, so don't wait!</em></mark></p>"
-            start: 20181122
-            end: 20181124
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
+            start: 20181201
+            end: 20181207
         2:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
-            start: 20181125
-            end: 20181125
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today and tomorrow only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
+            start: 20181208
+            end: 20181208
         3:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends today, so don't wait!</em></mark></p>"
-            start: 20181126
-            end: 20181126
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends today, so don't wait!</em></mark></p>"
+            start: 20181209
+            end: 20181209
 
 toolkitProjects:
     message: "<div class='callout'>🚀 Build a <strong>working JavaScript project</strong> in <strong>under an hour</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark>🦃 <em><strong>Black Friday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends on Monday, so don't wait!</em></mark></p>"
-            start: 20181122
-            end: 20181124
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
+            start: 20181201
+            end: 20181207
         2:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
-            start: 20181125
-            end: 20181125
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today and tomorrow only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
+            start: 20181208
+            end: 20181208
         3:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends today, so don't wait!</em></mark></p>"
-            start: 20181126
-            end: 20181126
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends today, so don't wait!</em></mark></p>"
+            start: 20181209
+            end: 20181209
 
 toolkitLearning:
     message: ""
     limited:
         1:
-            message: "<p><mark>🦃 <em><strong>Black Friday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends on Monday, so don't wait!</em></mark></p>"
-            start: 20181122
-            end: 20181124
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
+            start: 20181201
+            end: 20181207
         2:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
-            start: 20181125
-            end: 20181125
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today and tomorrow only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
+            start: 20181208
+            end: 20181208
         3:
-            message: "<p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Save 50% on all of my <a href='https://vanillajsguides.com'>pocket guides, courses</a> and the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a>. Make 2019 the year you master JavaScript. Ends today, so don't wait!</em></mark></p>"
-            start: 20181126
-            end: 20181126
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends today, so don't wait!</em></mark></p>"
+            start: 20181209
+            end: 20181209
