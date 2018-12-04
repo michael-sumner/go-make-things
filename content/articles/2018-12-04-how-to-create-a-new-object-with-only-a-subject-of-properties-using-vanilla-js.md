@@ -1,7 +1,8 @@
 ---
-title: "How to create a new object with only a subject of properties using vanilla JS"
+title: "How to create a new object with only a subset of properties using vanilla JS"
 date: 2018-12-04T10:30:00-05:00
 draft: false
+url: "/how-to-create-a-new-object-with-only-a-subject-of-properties-using-vanilla-js/"
 categories:
 - Code
 - JavaScript
