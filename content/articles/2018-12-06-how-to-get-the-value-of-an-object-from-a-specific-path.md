@@ -7,7 +7,7 @@ categories:
 - JavaScript
 ---
 
-In response to my article on [how to create a new object with only a subset of properties using vanilla JS](/how-to-create-a-new-object-with-only-a-subject-of-properties-using-vanilla-js/), Twitter user [zomar asked](https://twitter.com/zomars/status/1070454954463178753):
+In response to my article on [how to create a new object with only a subset of properties using vanilla JS](/how-to-create-a-new-object-with-only-a-subject-of-properties-using-vanilla-js/), Twitter user [zomars asked](https://twitter.com/zomars/status/1070454954463178753):
 
 > How about an equivalent for lodash's `get`  method?
 
