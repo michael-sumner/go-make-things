@@ -11,7 +11,7 @@ noTitle: true
 
 **I help people learn vanilla JavaScript.** I believe there's a simpler, more resilient way to make things for the web.
 
-I've taught developers at organizations like Chobani and the Boston Globe, and my JavaScript plugins are used by organizations like Apple, Harvard Business School, and CNN. My daily developer tips newsletter is read by over 2,700 developers each weekday.
+I've taught developers at organizations like Chobani and the Boston Globe, and my JavaScript plugins are used by organizations like Apple, Harvard Business School, and CNN. My developer tips newsletter is read by over 2,700 developers each weekday.
 
 I love pirates, puppies, and Pixar movies, and live near horse farms in rural Massachusetts. I run Go Make Things with [Bailey Puppy](/about-bailey/), a lab-mix from&nbsp;Tennessee.
 
