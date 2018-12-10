@@ -13,7 +13,7 @@ Please feel free to use anything here as-is without checking with me first. If y
 
 Chris Ferdinandi helps people learn vanilla JavaScript.
 
-He believes there’s a simpler, more resilient way to make things for the web. He's taught developers at organizations like Chobani and the Boston Globe, and his JavaScript plugins have been used used by Apple, Harvard Business School, and CNN.
+He believes there’s a simpler, more resilient way to make things for the web. He's taught developers at organizations like Chobani and the Boston Globe, and his JavaScript plugins have been used used by Apple, Harvard Business School, and CNN. His daily developer tips newsletter is read by over 2,700 developers each weekday.
 
 Chris loves pirates, puppies, and Pixar movies, and lives near horse farms in rural Massachusetts. He runs Go Make Things with Bailey Puppy, a lab-mix from Tennessee.
 
