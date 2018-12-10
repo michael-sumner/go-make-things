@@ -21,4 +21,4 @@ Let's make 2018 the year that you master&nbsp;JavaScript! You can do this. I can
 {{%/md%}}
 </div>
 
-I'm also available for [speaking engagements, team training, and JavaScript consulting](/talks/). Can't find what you're looking for? [Search for it](/search) or [email me directly](/about).
+Can't find what you're looking for? [Search for it](/search) or [email me directly](/about).
