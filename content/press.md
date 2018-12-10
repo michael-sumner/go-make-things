@@ -35,7 +35,7 @@ Fur-din-an-dee. Like "Ferdinand," but with "ee" at the end.
 - I started my career as an HR guy, and taught myself how to code.
 - I have degrees in Anthropology and Human Resources. I *don't* have one in Computer Science.
 - I think video games peaked with the SNES.
-- I think WALL-E is one of the best movies of all time.
+- I believe WALL-E is one of the best movies of all time.
 
 ## More stuff from Chris
 
