@@ -2,6 +2,19 @@
 ## Testimonials
 ##
 
+# Consulting
+hbs:
+    name: "Adrienne Debigare, Harvard Business School"
+    url: "https://digital.hbs.edu"
+    photo: "/img/testimonials/adrienne-debigare-hbs.jpg"
+    quote: "Chris is the kind of partner that, once you wrap up work with him, you’ll start trying to think of reasons you’ll need to hire him back."
+
+paws:
+    name: "Kelly Parker, PAWS New England"
+    url: "https://pawsnewengland.com"
+    photo: "/img/testimonials/kelly-parker-paws.jpg"
+    quote: "What you’ve done for PAWS... the word \"life changing\" comes to mind."
+
 # Pocket Guides
 alexHardy:
     name: "Alex Hardy, Designer &amp; Developer"
@@ -32,18 +45,6 @@ davidBuchholz:
     url: "https://twitter.com/Buchholz_Dave"
     photo: "/img/testimonials/david-buchholz.jpg"
     quote: "The cheat sheet and the ability to ask questions on Slack were worth the price of the book alone."
-
-danielDeverell:
-    name: "Daniel Deverell"
-    url: "https://twitter.com/danieldeverell"
-    photo: "/img/testimonials/daniel-deverell"
-    quote: "Your daily emails have proven invaluable to me - its almost like you're reading my JS todo list."
-
-hbs:
-    name: "Adrienne Debigare, Harvard Business School"
-    url: "https://digital.hbs.edu"
-    photo: "/img/testimonials/adrienne-debigare-hbs.jpg"
-    quote: "Chris is the kind of partner that, once you wrap up work with him, you’ll start trying to think of reasons you’ll need to hire him back."
 
 jCHiatt:
     name: "J.C. Hiatt"
@@ -98,12 +99,6 @@ patriciaParker:
     url: "https://plus.google.com/101646508540988330181"
     photo: "/img/testimonials/patricia-parker.jpg"
     quote: "I thank you from the bottom of my heart. If it had not been for you, I would not be able to learn JavaScript."
-
-paws:
-    name: "Kelly Parker, PAWS New England"
-    url: "https://pawsnewengland.com"
-    photo: "/img/testimonials/kelly-parker-paws.jpg"
-    quote: "What you’ve done for PAWS... the word \"life changing\" comes to mind."
 
 robertBuchholz:
     name: "Robert Buchholz"
@@ -165,3 +160,22 @@ kumarSucom:
     url: null
     photo: "/img/testimonials/kumar-sucom.jpg"
     quote: "I was desperately looking for a person or guided tutorial to help me understand the foundation of pure (vanilla) JavaScript. Though I have good work experience in various programming languages including JavaScript, I felt I was missing something.<br><br>I found and bought Chris's books and have gone through most of them. But I was still looking forward to to talking to someone, so I joined the Academy :-) and I'm happy that I did."
+
+# Newsletter
+danielDeverell:
+    name: "Daniel Deverell"
+    url: "https://twitter.com/danieldeverell"
+    photo: "/img/testimonials/daniel-deverell"
+    quote: "Your daily emails have proven invaluable to me - its almost like you're reading my JS todo list."
+
+leviMcGranahan:
+    name: "Levi McGranahan"
+    url: "https://twitter.com/levimcg/status/1072474120091287553"
+    photo: "/img/testimonials/levi-mcgranahan.jpg"
+    quote: "I’m a big fan of Chris Ferdinandi's daily newsletter. It’s a great resource for those wanting to learn vanilla JS."
+
+chrisCoyier:
+    name: "Chris Coyier"
+    url: "https://twitter.com/chriscoyier/status/1072514714004045824"
+    photo: "/img/testimonials/chris-coyier.jpg"
+    quote: "Absolute webdev blogging MVP's of 2018"
