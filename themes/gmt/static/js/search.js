@@ -45,6 +45,9 @@ var crowsNest = function () {
 	var createHTML = function (article, id) {
 		var html =
 			'<div class="margin-bottom" id="search-result-' + id + '">' +
+				// '<aside class="text-muted text-small">' +
+				// 	'<time datetime="{{ .PublishDate }}" pubdate>{{ .PublishDate.Format "January 2, 2006" }}</time>' +
+				// '</aside>' +
 				'<a class="link-block" href="' + article.url + '">' +
 					'<h2 class="h3 link-block-styled link-no-underline no-margin-bottom">' + article.title + '</h2>' +
 					article.summary.slice(0, 150) + '...<br>' +
@@ -79,15 +82,30 @@ var crowsNest = function () {
 	var search = function (query) {
 
 		// Create the results
-		var results = '';
+		// var results = '';
+		// searchIndex.forEach(function (article, index) {
+		// 	var contains = new RegExp(query, 'i').test(article.title + ' ' + article.content);
+		// 	if (!contains) return;
+		// 	results += createHTML(article, index);
+		// });
+
+		var reg = new RegExp(query, 'gi');
+		var priority1 = [];
+		var priority2 = [];
+
 		searchIndex.forEach((function (article, index) {
-			var contains = new RegExp(query, 'i').test(article.title + ' ' + article.content);
-			if (!contains) return;
-			results += createHTML(article, index);
+			if (reg.test(article.title)) return priority1.push(article);
+			if (reg.test(article.content)) priority2.push(article);
 		}));
 
+		var results = [].concat(priority1, priority2);
+		console.log(results);
+		// if (results.length < 1) return createNoResultsHTML();
+
 		// Display the results
-		resultList.innerHTML = results.length > 0 ? results : createNoResultsHTML();
+		resultList.innerHTML = results.length < 1 ? createNoResultsHTML() : results.map((function (article, index) {
+			return createHTML(article, index);
+		})).join('');
 
 		// Update the URL
 		updateURL(query);
