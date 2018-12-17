@@ -37,11 +37,11 @@ var crowsNest = function () {
 	var createHTML = function (article, id) {
 		var html =
 			'<div class="margin-bottom" id="search-result-' + id + '">' +
-				// '<aside class="text-muted text-small">' +
-				// 	'<time datetime="{{ .PublishDate }}" pubdate>{{ .PublishDate.Format "January 2, 2006" }}</time>' +
-				// '</aside>' +
 				'<a class="link-block" href="' + article.url + '">' +
-					'<h2 class="h3 link-block-styled link-no-underline no-margin-bottom">' + article.title + '</h2>' +
+					'<aside class="text-muted text-small">' +
+						'<time datetime="' + article.datetime + '" pubdate>' + article.date + '</time>' +
+					'</aside>' +
+					'<h2 class="h3 link-block-styled link-no-underline no-padding-top no-margin-bottom">' + article.title + '</h2>' +
 					article.summary.slice(0, 150) + '...<br>' +
 					'<span class="link-block-styled link-no-underline">' + article.url + '</span>' +
 				'</a>' +
@@ -55,6 +55,19 @@ var crowsNest = function () {
 	 */
 	var createNoResultsHTML = function () {
 		return '<p>Sorry, no matches were found.</p>';
+	};
+
+	/**
+	 * Create the markup for results
+	 * @param  {Array} results The results to display
+	 * @return {String}        The results HTML
+	 */
+	var createResultsHTML = function (results) {
+		var html = '<p>Found ' + results.length + ' matching articles</p>';
+		html += results.map(function (article, index) {
+			return createHTML(article, index);
+		}).join('');
+		return html;
 	};
 
 	/**
@@ -91,13 +104,10 @@ var crowsNest = function () {
 		});
 
 		var results = [].concat(priority1, priority2);
-		console.log(results);
 		// if (results.length < 1) return createNoResultsHTML();
 
 		// Display the results
-		resultList.innerHTML = results.length < 1 ? createNoResultsHTML() : results.map(function (article, index) {
-			return createHTML(article, index);
-		}).join('');
+		resultList.innerHTML = results.length < 1 ? createNoResultsHTML() : createResultsHTML(results);
 
 		// Update the URL
 		updateURL(query);
