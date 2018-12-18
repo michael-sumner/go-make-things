@@ -21,13 +21,13 @@ The *least* important skills for a front-end developer to have are technical one
 
 The nuances of JavaScript. How to use a particular library, framework, or build tool. How the cascade in CSS works. Semantic HTML. Fizz-buzz.
 
-With a solid foundation of other skills, the technical stuff becomes implementation details.
+With a solid foundation of other skills, the technical stuff becomes an implementation detail.
 
 They can learned on-the-job. And as you get more technically proficient, they can be learned more quickly. Sure, it's helpful if someone already knows your stack and the tools you use, but it's *way* less important than everything else.
 
 ## Critical skills for a front-end developer
 
-If technical skills don't matter all that match, what does?
+If technical skills don't matter all that much, what does?
 
 ### Problem-Solving
 
@@ -47,7 +47,7 @@ I'm a senior developer. I manage dozens of open source projects, [at least one o
 
 I Google how to do things---sometimes really basic things---every single day.
 
-As you know, I share a ton of code snippets and helper functions in these articles. I even have to look up my own code all the time.
+As you know, I share a ton of code snippets and helper functions in these articles. I have to look up my own code *all the time*.
 
 I created [an entire website of code snippets and helper functions](https://vanillajstoolkit.com/) just so that I wouldn't have to keep Googling the same stuff over and over again.
 
