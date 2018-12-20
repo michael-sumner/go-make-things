@@ -3,7 +3,7 @@ baseURL: "https://gomakethings.com"
 
 # Customer parameters
 params:
-  description: "Vanilla JavaScript for beginners and designers."
+  description: "A simpler, more resilient way to make things for the web."
   rssURL: "https://gomakethings.com/feed/index.xml"
   rssLimit: 7
   studentURL: "https://courses.gomakethings.com"
