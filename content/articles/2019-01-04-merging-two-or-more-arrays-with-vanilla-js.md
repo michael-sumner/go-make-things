@@ -14,8 +14,8 @@ var sandwiches1 = ['turkey', 'tuna', 'blt'];
 var sandwiches2 = ['chicken', 'pb&j', 'tuna'];
 var allSandwiches = sandwiches1.concat(sandwiches2);
 // sandwiches1: ['turkey', 'tuna', 'blt']
-// sandwiches2: ['chicken', 'pb&j']
-// allSandwiches: ['turkey', 'tuna', 'blt', 'chicken', 'pb&j']
+// sandwiches2: ['chicken', 'pb&j', 'tuna']
+// allSandwiches: ['turkey', 'tuna', 'blt', 'chicken', 'pb&j', 'tuna']
 ```
 
 [Here's a demo.](https://codepen.io/cferdinandi/pen/ZVxGQo?editors=0012)
