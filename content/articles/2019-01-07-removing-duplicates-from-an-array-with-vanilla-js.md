@@ -43,8 +43,15 @@ Let's look at the entry `"turkey"`, which shows up three times, at indexes `0`, 
 
 The first time `"turkey"` shows up, the `indexOf(sandwich)` and `index` values match, so it's added to our new array. The second and third times, they don't (neither `2` nor `6` equal `0`), and it's ignored.
 
+## A helper function
+
+This is also available as [a helper function on the Vanilla JS Toolkit](https://vanillajstoolkit.com/helpers/dedupe/).
+
+```js
+var sandwiches = ['turkey', 'ham', 'turkey', 'tuna', 'pb&j', 'ham', 'turkey', 'tuna'];
+var uniqueSandwiches = dedupe(sandwiches);
+```
+
 ## Browser compatibility
 
 Both `Array.filter()` and `Array.indexOf()` work in all modern browsers and IE9 and above.
-
-The ``
