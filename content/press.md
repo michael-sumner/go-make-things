@@ -13,13 +13,25 @@ Please feel free to use anything here as-is without checking with me first. If y
 
 Chris Ferdinandi helps people learn vanilla JavaScript.
 
-He believes there’s a simpler, more resilient way to make things for the web. He's taught developers at organizations like Chobani and the Boston Globe, and his JavaScript plugins have been used used by Apple, Harvard Business School, and CNN. His developer tips newsletter is read by over 2,700 developers each weekday.
+He believes there’s a simpler, more resilient way to make things for the web. He's taught developers at organizations like Chobani and the Boston Globe, and his JavaScript plugins have been used used by Apple, Harvard Business School, and CNN. His developer tips newsletter is read by over 3,300 developers each weekday.
 
 Chris loves pirates, puppies, and Pixar movies, and lives near horse farms in rural Massachusetts. He runs Go Make Things with Bailey Puppy, a lab-mix from Tennessee.
 
 ## How do you pronounce your last name, anyways?
 
 Fur-din-an-dee. Like "Ferdinand," but with "ee" at the end.
+
+## Photo
+
+<a href="/img/chris-ferdinandi-high-res.jpg" download><img src="/img/chris-ferdinandi-high-res.jpg" alt="Chris Ferdinandi"><br>Download the full-sized image</a>
+
+## Social Media
+
+Follow me on Twitter at [@ChrisFerdinandi](https://twitter.com/chrisferdinandi).
+
+## Location
+
+Chris lives near horse farms in rural Massachusetts.
 
 ## Sample Questions for Chris
 
@@ -46,15 +58,3 @@ Fur-din-an-dee. Like "Ferdinand," but with "ee" at the end.
 - Listen to Chris on the Vanilla JS Podcast at [VanillaJSPodcast.com](https://vanillajspodcast.com).
 - Listen to Chris on JS Jabber at [devchat.tv/js-jabber/](https://devchat.tv/js-jabber/).
 - Subscribe to Chris's daily developer tips at [GoMakeThings.com](https://gomakethings.com).
-
-## Social Media
-
-Follow me on Twitter at [@ChrisFerdinandi](https://twitter.com/chrisferdinandi).
-
-## Location
-
-Chris lives near horse farms in rural Massachusetts.
-
-## Photo
-
-<a href="/img/chris-ferdinandi-high-res.jpg" download><img src="/img/chris-ferdinandi-high-res.jpg" alt="Chris Ferdinandi"><br>Download the full-sized image</a>
