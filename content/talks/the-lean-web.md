@@ -2,6 +2,7 @@
 title: "The Lean Web"
 date: 2018-01-11T16:03:33-05:00
 draft: false
+noIndex: true
 ---
 
 Over the last couple of years, front end development has gotten a lot more complicated. But there's a simpler way! Let's look at how to build engaging, modern websites and web apps without all of the cruft and bloat.

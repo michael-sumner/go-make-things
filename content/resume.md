@@ -3,6 +3,7 @@ title: "Resume"
 date: 2018-01-11T16:03:33-05:00
 draft: false
 noTitle: true
+noIndex: true
 ---
 
 <h1 class="margin-bottom-small">Chris Ferdinandi's Resume</h1>
