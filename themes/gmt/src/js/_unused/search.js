@@ -1,11 +1,3 @@
-/*!
- * gmt v1.19.0
- * The theme for gomakethings.com
- * (c) 2019 Chris Ferdinandi
- * MIT License
- * http://github.com/cferdinandi/go-make-things
- */
-
 var crowsNest = function () {
 
 	'use strict';
@@ -72,10 +64,20 @@ var crowsNest = function () {
 	 */
 	var createResultsHTML = function (results) {
 		var html = '<p>Found ' + results.length + ' matching articles</p>';
-		html += results.map((function (article, index) {
+		html += results.map(function (article, index) {
 			return createHTML(article, index);
-		})).join('');
+		}).join('');
 		return html;
+	};
+
+	/**
+	 * Update the URL with a query string for the search string
+	 * @param  {[type]} query [description]
+	 * @return {[type]}       [description]
+	 */
+	var updateURL = function (query) {
+		if (!history.pushState) return;
+		history.pushState({}, document.title, window.location.origin + window.location.pathname + '?s=' + encodeURI(query));
 	};
 
 	/**
@@ -84,14 +86,22 @@ var crowsNest = function () {
 	 */
 	var search = function (query) {
 
+		// Create the results
+		// var results = '';
+		// searchIndex.forEach(function (article, index) {
+		// 	var contains = new RegExp(query, 'i').test(article.title + ' ' + article.content);
+		// 	if (!contains) return;
+		// 	results += createHTML(article, index);
+		// });
+
 		var reg = new RegExp(query, 'gi');
 		var priority1 = [];
 		var priority2 = [];
 
-		searchIndex.forEach((function (article, index) {
+		searchIndex.forEach(function (article, index) {
 			if (reg.test(article.title)) return priority1.push(article);
 			if (reg.test(article.content)) priority2.push(article);
-		}));
+		});
 
 		var results = [].concat(priority1, priority2);
 		// if (results.length < 1) return createNoResultsHTML();
@@ -104,10 +114,16 @@ var crowsNest = function () {
 
 	};
 
+	/**
+	 * Handle submit events
+	 */
+	var submitHandler = function (event) {
+		event.preventDefault();
+		search(input.value);
+	};
+
 	var clearInput = function () {
 		input.value = input.value.replace(' site:gomakethings.com', '');
-		input.name = 's';
-		form.action = '';
 	};
 
 	/**
@@ -131,6 +147,9 @@ var crowsNest = function () {
 
 	// Clear the input field
 	clearInput();
+
+	// Create a submit handler
+	form.addEventListener('submit', submitHandler, false);
 
 	// Check for query strings onload
 	onload();
