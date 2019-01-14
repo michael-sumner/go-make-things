@@ -28,9 +28,13 @@
 		<link rel="icon" sizes="16x16 32x32" href="{{ "/img/favicon.ico" | absURL }}">
 
 		<!-- RSS Feed -->
-		<!-- {{ "posts/index.xml" | absURL }} -->
-		<link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} RSS Feed" href="{{ $.Site.Params.rssURL }}">
-		<link rel="feed" type="application/rss+xml" title="{{ .Site.Title }} RSS Feed" href="{{ $.Site.Params.rssURL }}">
+		{{- if or (eq .Type "notes") (eq .Type "links") -}}
+		<link rel="alternate" type="application/rss+xml" title="{{ .Type }} RSS Feed" href="{{ index $.Site.Params.rssURL .Type }}">
+		<link rel="feed" type="application/rss+xml" title="{{ .Type }} RSS Feed" href="{{ index $.Site.Params.rssURL .Type }}">
+		{{- else -}}
+		<link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} RSS Feed" href="{{ $.Site.Params.rssURL.main }}">
+		<link rel="feed" type="application/rss+xml" title="{{ .Site.Title }} RSS Feed" href="{{ $.Site.Params.rssURL.main }}">
+		{{- end -}}
 
 		<!-- Stylesheet -->
 		<style type="text/css">

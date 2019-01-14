@@ -5,11 +5,6 @@
 {{ $paginate := .Paginate .Pages }}
 {{ range $paginate.Pages }}
 
-	{{ if ne ( $.Scratch.Get "pubDate" ) ( .PublishDate.Format "200601" ) }}
-		<h2>{{ .PublishDate.Format "January 2006" }}</h2>
-	{{ end }}
-	{{ $.Scratch.Set "pubDate" ( .PublishDate.Format "200601" ) }}
-
 	<article>
 
 		<header class="row">
@@ -21,13 +16,14 @@
 			</div>
 
 			<div class="grid-three-fourths">
-				<h3 class="h5 text-normal no-padding-top">
-					<a class="link-no-underline" href="{{ .URL }}">{{ .Title }}</a>
+				<h3 class="h5 no-padding-top no-margin-bottom">
+					<a class="link-no-underline" href="{{ .Params.link }}">{{ .Title }}</a>
 				</h3>
 			</div>
 
 		</header>
 
+		{{ .Content }}
 
 	</article>
 

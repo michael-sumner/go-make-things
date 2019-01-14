@@ -4,7 +4,10 @@ baseURL: "https://gomakethings.com"
 # Customer parameters
 params:
   description: "A simpler, more resilient way to make things for the web."
-  rssURL: "https://gomakethings.com/feed/index.xml"
+  rssURL:
+    main: "https://gomakethings.com/feed/index.xml"
+    notes: "https://gomakethings.com/feed/notes.xml"
+    links: "https://gomakethings.com/feed/links.xml"
   rssLimit: 7
   studentURL: "https://courses.gomakethings.com"
   minify: true
