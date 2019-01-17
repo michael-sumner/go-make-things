@@ -161,6 +161,25 @@ kumarSucom:
     photo: "/img/testimonials/kumar-sucom.jpg"
     quote: "I was desperately looking for a person or guided tutorial to help me understand the foundation of pure (vanilla) JavaScript. Though I have good work experience in various programming languages including JavaScript, I felt I was missing something.<br><br>I found and bought Chris's books and have gone through most of them. But I was still looking forward to to talking to someone, so I joined the Academy :-) and I'm happy that I did."
 
+# Learn Vanilla JS
+markBaldwinSmith:
+    name: "Mark Baldwin-Smith"
+    url: "https://twitter.com/mbaldwinsmith/status/1085844991069454339"
+    photo: "/img/testimonials/mark-baldwin-smith.jpg"
+    quote: "Thanks for putting this together Chris, the learning roadmap has already picked out some important gaps in my knowledge!"
+
+zacHeisey2:
+    name: "Zac Heisey"
+    url: "https://twitter.com/zac_heisey/status/1085877810059718656"
+    photo: "/img/testimonials/zac-heisey.jpg"
+    quote: "😍👏"
+
+jonathanStark2:
+    name: "Jonathan Stark"
+    url: "https://twitter.com/jonathanstark/status/1085967220730224640"
+    photo: "/img/testimonials/jonathan-stark.jpg"
+    quote: "Very cool! Vanilla JS guru Chris Ferdinandi put together a free self-paced JS educational program with a boatload of super clear resources. Bravo!"
+
 # Newsletter
 danielDeverell:
     name: "Daniel Deverell"
