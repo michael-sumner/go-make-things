@@ -180,6 +180,25 @@ jonathanStark2:
     photo: "/img/testimonials/jonathan-stark.jpg"
     quote: "Very cool! Vanilla JS guru Chris Ferdinandi put together a free self-paced JS educational program with a boatload of super clear resources. Bravo!"
 
+# Toolkit
+andreasWik:
+    name: "Andreas Wik"
+    url: "https://twitter.com/AndreasWik/status/1072820847151382529"
+    photo: "/img/testimonials/andreas-wik.jpg"
+    quote: "Ooh this is handy: tons of common vanilla JS code snippets I Google regularly, all in one place"
+
+edRivas:
+    name: "Ed Rivas"
+    url: "https://twitter.com/je92rivas/status/1003769205844594691"
+    photo: "/img/testimonials/ed-rivas.jpg"
+    quote: "Can you actually create a website without JS frameworks? Yes! Here's a collection of resources to get started."
+
+charlieOwen:
+    name: "Charlie Owen"
+    url: "https://twitter.com/sonniesedge/status/993426724200304640"
+    photo: "/img/testimonials/charlie-owen.jpg"
+    quote: "Can you actually create a website without JS frameworks? Yes! Here's a collection of resources to get started."
+
 # Newsletter
 danielDeverell:
     name: "Daniel Deverell"
