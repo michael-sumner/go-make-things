@@ -180,6 +180,12 @@ jonathanStark2:
     photo: "/img/testimonials/jonathan-stark.jpg"
     quote: "Very cool! Vanilla JS guru Chris Ferdinandi put together a free self-paced JS educational program with a boatload of super clear resources. Bravo!"
 
+joePrevite:
+    name: "Joe Previte"
+    url: "https://twitter.com/jsjoeio/status/1086100188962287616"
+    photo: "/img/testimonials/joe-previte.jpg"
+    quote: "Wow! This is the roadmap I WISH I had when I was first learning JavaScript. Thank you for putting this together! 🙌🏼"
+
 # Toolkit
 andreasWik:
     name: "Andreas Wik"
