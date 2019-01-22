@@ -223,3 +223,9 @@ chrisCoyier:
     url: "https://twitter.com/chriscoyier/status/1072514714004045824"
     photo: "/img/testimonials/chris-coyier.jpg"
     quote: "Absolute webdev blogging MVP's of 2018"
+
+jeffWainwright:
+    name: "Jeff Wainwright"
+    url: "https://twitter.com/yowainwright/status/1082671814726148097"
+    photo: "/img/testimonials/jeff-wainwright.jpg"
+    quote: "Your daily emails are SO great! I’ve been using them to make daily Codepens to sharpen/keep my skills. Thank you!"
