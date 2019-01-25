@@ -10,7 +10,7 @@ title: Working with cookies in vanilla JS
 Setting a cookie in JavaScript is relatively straightforward:
 
 ```javascript
-document.cookie = 'sandwich=turkey; expires=Fri, 31 Dec 2024 23:59:59 GMT;
+document.cookie = 'sandwich=turkey; expires=Fri, 31 Dec 2024 23:59:59 GMT';
 ```
 
 But what if you want to do save a more complex cookie value? Or retrieve the value of the cookie? For those tasks, you need to use regex patterns. And those are, frankly, a pain in the ass.
@@ -29,7 +29,7 @@ var getCookie = function (name) {
 };
 
 // Example
-var cookieVal = getCookie( 'sandwich' ); // returns "turkey"
+var cookieVal = getCookie('sandwich'); // returns "turkey"
 ```
 
 ## If you want to do more complex cookie manipulation
@@ -40,13 +40,13 @@ After you include it on your site, it's let you do things like this:
 
 ```javascript
 // Set a cookie
-docCookies.setItem( 'sandwich', 'turkey with tomato and mayo', new Date(2020, 5, 12) );
+docCookies.setItem('sandwich', 'turkey with tomato and mayo', new Date(2020, 5, 12));
 
 // Get a cookie
 var cookieVal = docCookies.getItem('sandwich');
 
 // Remove a coookie
-docCookies.removeItem( 'sandwich' );
+docCookies.removeItem('sandwich');
 ```
 
 It's a bit larger in size than `getCookie()`, but much more robust if you need to do more than just the basics.
