@@ -3,6 +3,14 @@
  * Sets font styles for entire site
  */
 
+html {
+	scroll-behavior: smooth;
+
+	@media screen and (prefers-reduced-motion: reduce) {
+		scroll-behavior: auto;
+	}
+}
+
 body {
 	background: $color-white;
 	border-top: calc-em(8px) solid $color-gray-light;

@@ -8,11 +8,6 @@ fluidvids.init({
 	players: ['www.youtube.com', 'player.vimeo.com', 'www.slideshare.net', 'www.hulu.com', 'videopress.com/embed/', 'noti.st']
 });
 
-// Smooth scrolling anchor links
-if (document.querySelector('a[href*="#"]')) {
-	var scroll = new SmoothScroll('a[href*="#"]');
-}
-
 // Mailchimp form
 if (document.querySelector('#mailchimp-form')) {
 	mailchimp(function (response) {
