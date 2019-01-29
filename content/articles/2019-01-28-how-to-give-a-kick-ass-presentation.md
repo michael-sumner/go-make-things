@@ -20,7 +20,7 @@ categories:
 
 Last week, I gave a talk on [*The Lean Web* at Boston CSS](https://www.meetup.com/Boston-CSS/events/257820788/). It was a lot of fun!
 
-The event wasn't recorded, but this Wednesday at 11am US Eastern, I'm giving a live online version of it that's open to the public. The event can only hold 100 people, and it's a first-come-first-in type event. You can join the meeting at https://zoom.us/meeting/725027016.
+The event wasn't recorded, but this Wednesday at 11am US Eastern, I'm giving a live online version of it that's open to the public. The event can only hold 100 people, and it's a first-come-first-in type event. You can join the meeting at https://zoom.us/j/725027016.
 
 If you want a preview, here are the slides.
 
