@@ -41,7 +41,7 @@ Let's switch that over to an empty `div`.
 
 ## Creating the data object
 
-For our super simple app, we only need on property in our data object: `listItems`. By default, it will be an empty array that will eventually hold our list items.
+For our super simple app, we only need one property in our data object: `listItems`. By default, it will be an empty array that will eventually hold our list items.
 
 ```js
 var data = {
