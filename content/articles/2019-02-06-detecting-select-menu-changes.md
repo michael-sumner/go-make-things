@@ -1,6 +1,6 @@
 ---
 title: "Detecting select menu changes with vanilla JS"
-date: 2019-01-06T10:30:00-05:00
+date: 2019-02-06T10:30:00-05:00
 draft: false
 categories:
 - Code
