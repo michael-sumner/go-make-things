@@ -55,7 +55,7 @@ var template = function () {
 		if (todo.completed) {
 			completed = ' class="checked"';
 		}
-		return '<li' + completed + '>' + todo + '</li>';
+		return '<li' + completed + '>' + todo.item + '</li>';
 	}).join('') + '</ul>';
 };
 ```
