@@ -2,8 +2,12 @@
 ## Calls to Action
 ##
 
+# Newsletter
 mcSubscribers:
     message: "Join 4,000+ daily subscribers."
+
+mcSubscriberCount:
+    message: "4,000"
 
 # https://gomakethings.com
 home:
