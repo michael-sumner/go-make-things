@@ -1,1 +1,5 @@
-<div data-cta="global"></div>
+{{- $data := getJSON $.Site.Params.api -}}
+{{- $ctas := index $data "ctas" -}}
+{{ if isset $ctas "global" }}
+{{ index $ctas "global" | safeHTML }}
+{{ end }}
