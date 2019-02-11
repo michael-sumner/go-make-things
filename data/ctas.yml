@@ -305,3 +305,28 @@ toolkitLearning:
             message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends today, so don't wait!</em></mark></p>"
             start: 20191209
             end: 20191209
+
+# https://learnvanillajs.com
+learnvjsHome:
+    message: ""
+    limited:
+        1:
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
+            start: 20191201
+            end: 20191207
+
+learnvjsRoadmap:
+    message: ""
+    limited:
+        1:
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
+            start: 20191201
+            end: 20191207
+
+learnvjsProjects:
+    message: ""
+    limited:
+        1:
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
+            start: 20191201
+            end: 20191207
