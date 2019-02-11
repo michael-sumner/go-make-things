@@ -1,6 +1,6 @@
 ---
 title: "Dynamic content in static site generators"
-date: 2018-02-11T10:30:00-05:00
+date: 2019-02-11T10:30:00-05:00
 draft: false
 categories:
 - Code
