@@ -8,7 +8,7 @@ categories:
 - Web Performance
 ---
 
-Yesterday, we looked at a technique for [code splitting with vanill JS](/code-splitting-with-vanilla-js/). One of my readers asked:
+Yesterday, we looked at a technique for [code splitting with vanill JS](/code-splitting-with-vanilla-js/). Reader Stephan Friedli asked (shared with permission):
 
 > How would you keep track off if a bundle is already loaded? Lets say you have a site which uses AJAX and you have a Google Maps integration on the contact page and you only load the bundle when on the contacts page but how about if you go back to contacts?
 
