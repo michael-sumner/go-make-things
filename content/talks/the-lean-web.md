@@ -7,7 +7,13 @@ noIndex: true
 
 Over the last couple of years, front end development has gotten a lot more complicated. But there's a simpler way! Let's look at how to build engaging, modern websites and web apps without all of the cruft and bloat.
 
+## Slides
+
 <script async class="margin-bottom speakerdeck-embed" data-id="ca8c68b8a6984cd197fa9a5da15c16cc" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+## Video
+
+<iframe src="https://player.vimeo.com/video/317066053?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Description
 
