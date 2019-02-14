@@ -7,13 +7,11 @@ url: /knowing-what-to-focus-on/
 title: Knowing what to focus on
 ---
 
-I ask everyone who subscribes to <a href="https://gomakethings.com/newsletter/">my daily developer tips</a> a simple question: "what's the biggest challenge you face as a web developer?"
+I ask everyone who subscribes to [my daily developer tips](/articles) a simple question: "what's the biggest challenge you face as a web developer?"
 
 I get back a ton of interesting responses, but the one I see come up over and over again is some variation of this:
 
-<blockquote>
-  It’s hard to know what to focus on and what to ignore.
-</blockquote>
+> It’s hard to know what to focus on and what to ignore.
 
 The front-end development field, and JavaScript in particular, has a toolset problem.
 
@@ -21,16 +19,14 @@ The pace of change is part of what makes this industry so exciting, but this obs
 
 I've done a few things to help both inoculate myself from the madness and focus on the right things.
 
-<ol>
-<li>Just-in-time learning.</li>
-<li>Vanilla JavaScript first.</li>
-<li>Stable technology over "the new hotness."</li>
-<li>Targeted listening.</li>
-</ol>
+1. Just-in-time learning.
+2. Vanilla JavaScript first.
+3. Stable technology over "the new hotness."
+4. Targeted listening.
 
 Let's dig deeper into each of these approaches, and how I use them to stay sane in a rapidly moving field.
 
-<h2>Just-in-time learning</h2>
+## Just-in-time learning
 
 Rather than trying to learn all the new things that come out, I dig into new tools if and when I need them. This is a trick I picked up from <a href="http://www.sarasoueidan.com/">Sara Soueidan</a>.
 
@@ -40,7 +36,7 @@ Same goes for Fetch instead of XHR for Ajax in the JavaScript world.
 
 I make sure I know <em>about</em> new technologies and techniques, even if I don't learn how they work until I need them. This helps me figure out what to focus on and use, and when.
 
-<h2>Vanilla JavaScript First</h2>
+## Vanilla JavaScript First
 
 Frameworks and libraries come and go, but they're always built on top of vanilla JavaScript. I use vanilla JS (<a href="https://gomakethings.com/automatic-polyfilling/">with polyfills</a> if needed) whenever I can, and defer to libraries and frameworks when they make the project easier or better.
 
@@ -48,18 +44,16 @@ Knowing vanilla JS deeply also helps me pick up new tools more quickly, and bett
 
 Browser-native (aka vanilla) JavaScript is evolving so rapidly, and filling many of the gaps that we previously needed libraries and frameworks for. These days, I'm finding less and less reasons to use anything besides vanilla JS.
 
-<h2>Stable technology over "the new hotness"</h2>
+## Stable technology over "the new hotness"
 
 There's a tendency in our field to jump onto the new thing constantly.
 
-<blockquote>
-  Use Grunt!
-  No, now it's Gulp.
-
-  WordPress all the things.
-  Nope, now Jekyll for static sites.
-  No, now Hugo.
-</blockquote>
+> Use Grunt!
+> No, now it's Gulp.
+>
+> WordPress all the things.
+> Nope, now Jekyll for static sites.
+> No, now Hugo.
 
 It's exhausting!
 
@@ -69,13 +63,11 @@ Now, I ignore the noise.
 
 If I were thinking about JS frameworks for a project today, I think I'd basically only consider Angular and React (and skew towards React). The rest is just noise.
 
-<h2>Targeted Listening</h2>
+## Targeted Listening
 
 When I was first applying for web developer roles, I talked to a UX director who told me,
 
-<blockquote>
-  "Mobile is a fad, and one that I think is almost over. No one wants to do [thing they built] on their phones."
-</blockquote>
+> "Mobile is a fad, and one that I think is almost over. No one wants to do [thing they built] on their phones."
 
 I immediately ended the interview and said it wasn't a good fit (seriously).
 
