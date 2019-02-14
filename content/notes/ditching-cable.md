@@ -1,16 +1,16 @@
 ---
-categories:
-- Technology
-date: '2016-10-17'
-url: /ditching-cable/
 title: Ditching Cable
+date: 2016-10-17T10:30:00-05:00
+lastmod: 2019-02-14T10:30:00-05:00
 ---
 
-Two years ago, I decided to ditch cable.
+In 2014, I decided to ditch cable.
 
-My cable bill had grown from around $70 a month as part of an initial promotional offer to almost $200, with no change in service. By ditching cable in favor internet-only TV viewing, I save about $1,000 a year. As a side-benefit, I can also watch my content on any device (TV, laptop, tablet, smartphone) from anywhere.
+My cable bill had grown from around $70 a month as part of an initial promotional offer to almost $200, with no change in service. We had a single TV connected, along with phone and internet.
 
-In this article, I detail everything I've learned from two years of being a cord cutter.
+By ditching cable in favor internet-only TV viewing, I save about $1,000 a year. As a side-benefit, I can also watch my content on any device (TV, laptop, tablet, smartphone) from anywhere.
+
+In this article, I detail everything I've learned from several years of being a cord cutter.
 
 ## Really good internet
 
@@ -18,11 +18,13 @@ When you ditch cable, you of course stream all of your content over the web.
 
 Having really good internet is incredibly important. Otherwise, everything will run really slow and be super frustrating.
 
-If you can, go with Verizon FiOS. Their 50/50mbps plan is perfect. They'll try to upsell you to something faster, but you don't need it as long as you have a good router (more on that in the [hardware section](#hardware)).
+If you can, go with Verizon FiOS. Their 50mbps (up/down) plan is sufficient, but at this point, they charge about the same for 100mbps, so it's probably a worthwhile upgrade. They'll try to upsell you to something even faster, but you don't need it as long as you have a good router (more on that in the [hardware section](#hardware)).
 
-Comcast, Cox Communications, and Charter all offer internet-only plans at similar speeds. For physics reasons, fiber-optic gives you superior, consistent internet speeds in a way that traditional coaxial internet cannot, but FiOS isn't an option everywhere.
+Comcast, Cox Communications, and Charter all offer internet-only plans at similar speeds. For physics reasons, fiber-optic gives you superior, more consistent internet speeds in a way that traditional coaxial internet cannot, but FiOS isn't an option everywhere.
 
 After an initial first-year discount, most vendors will increase you price, and it can start climb. If you have competition, call them up and tell them you're going to cancel because of cost. Be firm, and they'll almost always offer you a discount.
+
+At time of writing, I'm now on year six with FiOS and am still paying what I did when I signed up.
 
 ## Services
 
@@ -38,31 +40,39 @@ They don't have everything---notably missing is CBS---as negotiating with networ
 
 They start at $7 a month ad supported, but the ad-free plan at $12 a month is *so* worth it.
 
+### Netflix
+
+I resisted [Netflix](https://www.netflix.com/) for a *long* time.
+
+Every time I looked at their catalog, it was mostly documentaries and older runs of shows and movies. But a lot has changed in the last few years.
+
+Netflix now has a deep catalog of original programming, and it's some of the best on TV. I find myself going to Netflix before Hulu these days.
+
+HD plans start at $13 a month.
+
+### HBO Now
+
+Previously, you could only get HBO through a cable-provider. Today, you can get HBO as a standalone web service directly with [HBO Now](https://order.hbonow.com) for $15 a month.
+
+HBO has a bunch of movies and some fantastic shows. This one is definitely a splurge, and can be a bit hit or miss.
+
+Some months they have lots of great programming, while other months are a bit... slow.
+
 ### Amazon Video
 
 For shows that aren't available on Hulu, I purchase season passes on [Amazon Video](https://www.amazon.com/Amazon-Video/b/?node=2858778011) for about $25 a show.
 
-If you're a Prime member, though, Amazon offers an asburd amount of free shows and movies, and some really, *really* great original programming.
+If you're a Prime member, though, Amazon offers an asburd amount of free shows and movies, and some good original programming. I've personally found that the overall quality of their video programming has gone down hill over the last few years.
 
-Prime membership is $11 a month, but if you buy the year up front for $99, it's only $8.25 a month. It's also gets you free 2-day shipping on all your Amazon orders. Totally worth it!
+But this is still my first stop for stuff not available on Hulu or Netflix.
 
-### HBO Now
-
-Previously, you could only get HBO through a cable-provider. Today, you can get HBO as a standalone web service directly with [HBO Now](https://order.hbonow.com) for just $15 a month.
-
-HBO has a bunch of movies and some fantastic shows. This one is definitely a splurge, but I've gotten hooked.
+Prime membership is $12 a month, but if you buy the year up front for $119, it's only $10 a month. It's also gets you free 2-day shipping on all your Amazon orders.
 
 ### YouTube
 
 In addition to funny cat videos, [YouTube](https://youtube.com) has an incredible amount of high-quality original content.
 
-I'm a geek, so I watch a lot of science and history channels. But you can find great shows on politics, sports, cars, travel, and more. 100% free, with some light ads every now and then.
-
-### Netflix
-
-Anytime I've looked into [Netflix](https://www.netflix.com/), I've found their catalog is mostly focused on older runs of shows and movies. As a result, I don't subscribe.
-
-But... they've focused a *lot* on original programming lately, and most of my friends love their content. HD plans start at $10 a month.
+I'm a geek, so I watch a lot of science and history videos. But you can find great shows on politics, sports, cars, travel, and more. 100% free, with some light ads every now and then.
 
 ### Sling
 
@@ -77,7 +87,7 @@ A bit on the steep side, their basic plan is $20 a month.
 
 This one is more for geeks who don't mind maintaining their own hardware. [Plex](https://www.plex.tv/) is a media server that lets you share photos, music, and movies with other devices on (and, if you want, off) of your network.
 
-This means you can keep digital movies you own on a single device and stream them to all of your other devices.
+This means you can keep digital movies you own on a single device and stream them to all of your other devices. Think of it like a private Netflix for your personal movie collection.
 
 ### Over-the-Air
 
@@ -85,7 +95,7 @@ Antennas have come a long way from the rabbit ears of the past. I use a digital 
 
 If you're into sports but don't need to watch every game from every team, this is a great, free option. I can watch games from all of my local teams (even the away games).
 
-It's also great for watching CBS, which isn't available on Hulu and whose CBS All-Access standalone service is overloaded with ads. I also use it to watch special events like the Macy's Thanksgiving Day Parade, the Superbowl, and the ball-drop on New Year's Eve.
+It's also great for watching CBS, which isn't available on Hulu and whose CBS All-Access standalone service is overloaded with ads. I also use it to watch special events like the Macy's Thanksgiving Day Parade, the Super Bowl, and the ball-drop on New Year's Eve.
 
 I'll talk about the tech for this in the [hardware section](#hardware).
 
@@ -95,19 +105,33 @@ So you've chosen your services. Now, how do you access everything? Let's talk ha
 
 ### Roku
 
-[Roku](https://www.roku.com) is a tiny little box with a simple remote control that turns your dumb TV into a smart one.
+[Roku](https://www.roku.com) is a tiny little box with a simple remote control that turns your dumb TV into a smart one. You can install apps for all of the streaming services listed above and more.
 
-You can install apps for all of the streaming services listed above and more. I recommend the Roku 3 (unless you're into 4k TV, in which case you'll want the Roku 4).
+If you're looking for the cheapest way to get started, the [Roku Premiere+](https://www.roku.com/products/roku-premiere-plus) is a great value. The new remotes (which I *don't* have, unfortunately) even let you control your TV's power and volume.
 
-I also have a Roku Streaming Stick for when I travel. The tradeoff for the small form factor is that it's really underpowered and slow, so I don't recommend it for daily use.
+I have the [Roku Ultra](https://www.roku.com/products/roku-ultra), which has a few extra bells and whistles. But I would probably have purchased the Premiere+ if it was available at the time (it didn't exist when I bought mine).
 
-Roku's can be hardwired with an ethernet cable, but they can also run on your wifi network, which means you can place them wherever you have a TV.
+Roku also sells a [Streaming Stick](https://www.roku.com/products/streaming-stick) that's the same price as the Premiere+ but in a smaller form factor. I have one, and have found it to be laggy and underpowered. I would avoid it.
+
+Roku's run on your wifi network, and connect to your TV with an HDMI cable, which means you can place them wherever you want to put a TV, even if there's no internet or cable outlet there.
+
+#### What if you already have a smart TV?
+
+Personally, I would still go with a Roku.
+
+TV manufactures are notoriously bad at software design, and the app selection can often be quite limited compared to what you get with Roku. There have also been some privacy issues with smart TVs in the past, and problems with updating software.
+
+I actually have a smart TV, but refuse to connect it to the web.
 
 #### Why not Apple TV?
 
-I own a lot of Apple products, and I often get asked why I don't use an Apple TV. Apple TV *still* doesn't have a native Amazon Video app, and I watch a lot of Amazon video content. If I rented most of my stuff from iTunes instead, I might feel differently.
+I own a lot of Apple products, and I often get asked why I don't use an Apple TV.
 
-It's worth noting that you can watch Amazon Video by airplaying it from an iPhone or iPad, but that's a pain in the ass.
+For a long time, Apple TV didn't have a native Amazon Video app, and I used to watch a lot of Amazon video content. They do have one now.
+
+I recently looked at switching over from Roku to Apple TV, but they *start* at $150 for the same features as the Roku Premiere+. And honestly, the remote control just isn't as good.
+
+When a product is your primary TV viewing device, details like that matter.
 
 ### A Digital Antenna
 
@@ -115,25 +139,43 @@ This is how you capture over-the-air TV.
 
 The rabbit ears are gone. Today's antenna's look like mud flaps and can be mounted inside the house.
 
-I use the [Mohu Leaf 50](http://store.gomohu.com/leaf-50-indoor-amplified-hdtv-antenna.html), because I live out in the boonies and it has a great range. You can find them for a lot cheaper on Amazon than on their website.
+I use the [Mohu Leaf 50](http://store.gomohu.com/leaf-50-indoor-amplified-hdtv-antenna.html). I live out in the boonies, but I'm on the top of a big hill between two major cities, so I get quite a few channels.
 
-I mounted mine in the peak of my attic. It just tacks into a stud with a nail.
+If you live in a valley or around a lot of trees, your performance may vary. They also make a new [65-mile range antenna](http://store.gomohu.com/leaf-glide-indoor-hdtv-antenna.html).
+
+I mounted mine in the peak of my attic for maximum range. It just tacks into a stud with a nail.
 
 ### Tablo
 
 [Tablo](https://www.tablotv.com/) is an amazing device and service that adds a DVR, TV guide, and streaming service to your digital antenna.
 
-Wire the coaxial cable from your antenna directly into your tablo, and add your own USB hard drive. Tablo connects to your wifi network, and lets you stream your antenna to any of your devices, including your roku, tablets, smart phones, and laptop.
+You wire the coaxial cable from your antenna directly into your Tablo. It connects to your wifi network, and lets you stream your antenna to any of your devices, including your Roku, tablets, smart phones, and laptop.
 
-You can record your favorite shows, and pause and rewind live over-the-air TV. For a small monthly fee (or a larger lifetime subscription), Tablo will also add a TV guide feature so you can easily find stuff to watch and record by show title rather than by date and time.
+You can record your favorite shows, and pause and rewind live over-the-air TV. [For a small monthly fee](https://www.tablotv.com/tv-guide-data-subscriptions/) (or a larger lifetime subscription), Tablo will also add a TV guide feature so you can easily find stuff to watch and record by show title rather than by date and time.
 
 You can also setup Tablo for off-network access, so you can stream your favorite shows from anywhere.
+
+I have the (now retired) Table 2-Tuner, which has been replaced by the [Tablo DUAL-LITE](https://www.tablotv.com/products/tablo-dual-lite-ota-dvr/). There's also a [Tablo 4-Tuner](https://www.tablotv.com/products/tablo-4-tuner-ota-dvr/).
+
+You attach your own external hard-drive to stream and record shows.
+
+#### WTF are tuners?
+
+A tuner is the hardware inside the Tablo that literally tunes into the right over-the-air frequency for the channel you want to watch.
+
+Each tuner can only tune in to one channel at a time.
+
+If you have a two-tuner device, for example, you could watch a show on one channel while recording another. Or you could record two channels, but then you wouldn't be able to watch anything other than what's being recorded.
+
+I find two-tuners more than sufficient for how often we use our Tablo, but if you expect lots of use across lots of TVs, you may want to upgrade to the four-tuner.
 
 ### A Media Server
 
 If you use Plex, you need somewhere to store and stream your media files.
 
-If you've got a desktop computer at home, you can just run it on that and keep your computer on all the time (that's the cheapest option). You can also run Plex off a [Western Digital MyCloud Mirror](https://www.wdc.com/products/personal-cloud-storage/my-cloud-mirror-gen2.html) (not the smaller, cheaper MyCloud, which won't load apps).
+If you have a desktop computer at home, you can run it on that and keep your computer on all the time (that's the cheapest option). A lot of people use an old MacMini for this.
+
+ You can also run Plex off a [Western Digital MyCloud Mirror](https://www.wdc.com/products/personal-cloud-storage/my-cloud-mirror-gen2.html) (not the smaller, cheaper MyCloud, which, I learned the hard way, won't load apps).
 
 ### A Better Router
 
@@ -141,6 +183,8 @@ The router your internet provider gives you is probably terrible.
 
 I'd recommend upgrading to one of [Negear's AC routers](http://www.netgear.com/home/products/networking/wifi-routers/). Something in the AC1200 to AC1750 range should work well.
 
-If you're on FiOS, you *have* to use their router, because it converts their fiber-optic signal into something that can go through coaxial lines. But, if you're tech savvy and not too afraid of breaking things, you can [put it into bridge mode](http://www.hanselman.com/blog/SimplifyingYourNetworkWithABridgeMakingAnFIOsActionTecMI424WRANetworkBridge.aspx) (effectively turning off wifi on it and using it like a router) and connect it to a personal, better router.
+However, if your house is big, you may find your wifi speeds drop in certain parts of your home (you can test this by visiting [fast.com](https://fast.com) while standing in various spots in your house). I recently upgraded to the [Netgear Orbi Mesh Network Router](https://www.netgear.com/orbi/default.aspx) and have been very happy with the results.
 
-My house is a bit large, so I also added a NetGear range extender.
+If you're on FiOS, you *have* to use their router, because it converts their fiber-optic signal into something that can go through coaxial lines.
+
+But, if you're tech savvy and not too afraid of breaking things, you can [put it into bridge mode](http://www.hanselman.com/blog/SimplifyingYourNetworkWithABridgeMakingAnFIOsActionTecMI424WRANetworkBridge.aspx). This turns off wifi on it and turns it into a dumb modem, letting you pass the signal through to your own better router.

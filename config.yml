@@ -31,6 +31,7 @@ theme: "gmt"
 # See "content-management/permalinks"
 permalinks:
   articles: /:title/
+  notes: /:title/
 
 # Use absolute URLs
 canonifyURLs: true
