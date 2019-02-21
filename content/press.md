@@ -11,9 +11,11 @@ Please feel free to use anything here as-is without checking with me first. If y
 
 ## Bio
 
-Chris Ferdinandi helps people learn vanilla JavaScript.
+Chris Ferdinandi helps people learn vanilla JavaScript. He believes there’s a simpler, more resilient way to make things for the web.
 
-He believes there’s a simpler, more resilient way to make things for the web. He's taught developers at organizations like Chobani and the Boston Globe, and his JavaScript plugins have been used used by Apple, Harvard Business School, and CNN. His developer tips newsletter is read by over {{<cta for="mc-subscriber-count">}} developers each weekday.
+Chris is the author of the *Vanilla JS Pocket Guide* series, creator of the *Vanilla JS Academy* training program, and host of the *Vanilla JS Podcast*. His developer tips newsletter is read by over {{<cta for="mc-subscriber-count">}} developers each weekday.
+
+He's taught developers at organizations like Chobani and the Boston Globe, and his JavaScript plugins have been used used by Apple and Harvard Business&nbsp;School.
 
 Chris loves pirates, puppies, and Pixar movies, and lives near horse farms in rural Massachusetts. He runs Go Make Things with Bailey Puppy, a lab-mix from Tennessee.
 
@@ -40,6 +42,8 @@ Chris lives near horse farms in rural Massachusetts.
 3. Should I learn vanilla JS or a framework or library first?
 4. Doesn't using vanilla JS mean writing your own mini-framework for every project?
 5. What's "the lean web," and why should I care about it?
+6. Why do you hate CSS-in-JS?
+7. Aren't high-level abstractions good for the web?
 
 ## Facts about Chris
 
@@ -55,6 +59,7 @@ Chris lives near horse farms in rural Massachusetts.
 - Chris creates short, focused ebooks and video courses for beginners at [VanillaJSGuides.com](https://vanillajsguides.com).
 - Chris runs the Vanilla JS Academy, a project-based online JavaScript training program for beginners, at [VanillaJSAcademy.com](https://vanillajsacademy.com).
 - Access Chris's personal collection of vanilla JS code snippets, helper functions, and plugins at [VanillaJSToolkit.com](https://vanillajstoolkit.com).
+- Explore a learning roadmap and JavaScript project ideas at [LearnVanillaJS.com](https://learnvanillajs.com).
 - Listen to Chris on the Vanilla JS Podcast at [VanillaJSPodcast.com](https://vanillajspodcast.com).
 - Listen to Chris on JS Jabber at [devchat.tv/js-jabber/](https://devchat.tv/js-jabber/).
 - Subscribe to Chris's daily developer tips at [GoMakeThings.com](https://gomakethings.com).

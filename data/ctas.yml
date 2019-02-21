@@ -4,10 +4,14 @@
 
 # Newsletter
 mcSubscribers:
-    message: "Join 4,000+ daily subscribers."
+    message: "Join 4,100+ daily subscribers."
 
 mcSubscriberCount:
-    message: "4,000"
+    message: "4,100"
+
+# Bio
+bio:
+    message: "<div class='clearfix margin-bottom'><img src='https://gomakethings.com/img/chris-ferdinandi-high-res.jpg' alt='Chris Ferdinandi' width='175' height='175' class='img-circle alignleft margin-bottom'><p><strong>Hi, I'm Chris Ferdinandi.</strong> I believe there’s a simpler, more resilient way to make things for the web.</p><p>I’ve taught developers at organizations like Chobani and the Boston Globe, and my JavaScript plugins have been used by organizations like Apple and Harvard Business School. My developer tips newsletter is raedy by over 4,100 developers each weekday.</p><p>I want to help you master vanilla JavaScript, without all of the painful false starts and roadblocks I encountered when I was learning.</p></div>"
 
 # https://gomakethings.com
 home:
