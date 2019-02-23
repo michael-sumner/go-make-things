@@ -15,10 +15,10 @@ One of the things we needed to check was if two arrays are equal or not. Today, 
 
 ## Creating a helper function
 
-First, let's setup an `arrayMatches()` helper function. It will accept two arguments, one for each array you want to compare.
+First, let's setup an `arraysMatch()` helper function. It will accept two arguments, one for each array you want to compare.
 
 ```js
-var arrayMatches = function (arr1, arr2) {
+var arraysMatch = function (arr1, arr2) {
 	// Code will go here...
 };
 ```
@@ -26,7 +26,7 @@ var arrayMatches = function (arr1, arr2) {
 To check for equality, we first need to make sure the arrays are the same length. If not, they're not equal and we can `return false`.
 
 ```js
-var arrayMatches = function (arr1, arr2) {
+var arraysMatch = function (arr1, arr2) {
 
 	// Check if the arrays are the same length
 	if (arr1.length !== arr2.length) return false;
@@ -41,7 +41,7 @@ We'll loop through each item in the first array, and check to see if it's index 
 I used a simple `for` loop here instead of `forEach()` because we can bail the second an item doesn't match instead of completing the whole loop.
 
 ```js
-var arrayMatches = function (arr1, arr2) {
+var arraysMatch = function (arr1, arr2) {
 
 	// Check if the arrays are the same length
 	if (arr1.length !== arr2.length) return false;
@@ -57,7 +57,7 @@ var arrayMatches = function (arr1, arr2) {
 If everything checks out, we can `return true`.
 
 ```js
-var arrayMatches = function (arr1, arr2) {
+var arraysMatch = function (arr1, arr2) {
 
 	// Check if the arrays are the same length
 	if (arr1.length !== arr2.length) return false;
