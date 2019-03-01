@@ -16,7 +16,7 @@ Last week, [I watched *Won't you be my neighbor?*, the Mr. Roger's documentary](
 
 I grew up on Mr. Rogers, and it was, for me, a refresher on all of the wonderful lessons and messages he taught me growing up. At the heart of it all, though, is this:
 
-> Love is at the root of everything
+> Love is at the root of everything.
 > <cite>- Fred Rogers</cite>
 
 Something I've become more aware of recently is that as web developers, we often identify strongly with the tools that we use.
