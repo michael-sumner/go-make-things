@@ -14,7 +14,7 @@ Last week, [I watched *Won't you be my neighbor?*, the Mr. Roger's documentary](
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FhwktRDG_aQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-I grew on Mr. Rogers, and it was, for me, a refresher on all of the wonderful lessons and messages he taught me growing up. At the heart of it all, though, is this:
+I grew up on Mr. Rogers, and it was, for me, a refresher on all of the wonderful lessons and messages he taught me growing up. At the heart of it all, though, is this:
 
 > Love is at the root of everything
 > <cite>- Fred Rogers</cite>
