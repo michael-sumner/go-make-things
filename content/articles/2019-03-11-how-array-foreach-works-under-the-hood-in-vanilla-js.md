@@ -1,5 +1,5 @@
 ---
-title: "How Array.forFach() works under-the-hood in vanilla JS"
+title: "How Array.forEach() works under-the-hood in vanilla JS"
 date: 2019-03-11T10:30:00-04:00
 draft: false
 categories:
