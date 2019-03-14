@@ -47,6 +47,6 @@ guidesIndividualPreorder:
 # Academy
 academy:
     prices:
-        price: "<del>$749</del> $449"
-    start: 20181201
-    end: 20181209
+        price: "<del>$799</del> $399"
+    start: 20190401
+    end: 20190407
