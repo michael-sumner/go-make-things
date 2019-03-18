@@ -81,7 +81,7 @@ I particularly loved this quote.
 >
 > It’d take some organizing to get to a place where we do such a thing. And maybe that’s a good thing—right now it feels like we’re an industry of [overpaid, fly-by-night plumbers](https://twitter.com/ericwbailey/status/1082694786480513026) who have the luxury of saying they don’t believe in using wrenches.
 
-Culturally, I want there to be more shame around *not* building things accessibility.
+Culturally, I want there to be more shame around *not* building things accessibly.
 
 I don't really love negative, stick-based motivation. But too often, we seem comfortable building inaccessible experiences that "we'll fix later." That's not ok. You should feel like shit if you knowingly do that.
 
