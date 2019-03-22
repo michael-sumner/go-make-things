@@ -11,6 +11,8 @@ categories:
 - JavaScript
 ---
 
+*__HEY!__ [This implementation is NOT recommended.](/i-was-wrong-about-javascript-free-dropdowns/) It has some accessibility issues I was not aware of when I wrote it.*
+
 Last month, we looked at [how to build accordions without JavaScript](/javascript-free-accordions/) using the native `<details>` and `<summary>` elements.
 
 Today, I wanted to show you how you can use those same elements to create JavaScript-free dropdown menus.
