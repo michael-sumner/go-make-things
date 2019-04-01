@@ -407,3 +407,24 @@ learnvjsProjects:
             message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
+
+# https://vanillajslist.com
+vanillaJsList:
+    message: ""
+    limited:
+        1:
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
+            start: 20190401
+            end: 20190405
+        2:
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today and tomorrow only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
+            start: 20190406
+            end: 20190406
+        3:
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today only, save 40% on <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> registration. Make 2019 the year you learn to think in JavaScript. Ends today, so don't wait!</em></mark></p>"
+            start: 20190407
+            end: 20190407
+        4:
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            start: 20190408
+            end: 20190430
