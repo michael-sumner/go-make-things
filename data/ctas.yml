@@ -33,7 +33,7 @@ home:
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
 
@@ -53,7 +53,7 @@ global:
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
 
@@ -85,7 +85,7 @@ resource:
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
 
@@ -144,7 +144,7 @@ guidesAll:
 
 # https://vanillajsacademy.com
 academy:
-    message: "<p><mark>🚀 <em><strong>Returning Soon!</strong> The next session of the Vanilla JS Academy is starting on May 1. Register starting on April 1.</em></mark></p>"
+    message: "<p><mark>🚀 <em><strong>Returning Soon!</strong> The next session of the Vanilla JS Academy is starting on May 6. Register starting on April 1.</em></mark></p>"
     limited:
         1:
             message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on your Vanilla JS Academy registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
@@ -159,7 +159,7 @@ academy:
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
 
@@ -198,7 +198,7 @@ podcast:
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
 
@@ -221,7 +221,7 @@ toolkitHome:
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
 
@@ -241,7 +241,7 @@ toolkitSnippets:
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
 
@@ -261,7 +261,7 @@ toolkitHelpers:
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
 
@@ -281,7 +281,7 @@ toolkitBoilerplates:
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
 
@@ -301,7 +301,7 @@ toolkitPolyfills:
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
 
@@ -321,7 +321,7 @@ toolkitPlugins:
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
 
@@ -341,7 +341,7 @@ toolkitLearning:
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
 
@@ -364,7 +364,7 @@ learnvjsHome:
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
 
@@ -384,7 +384,7 @@ learnvjsRoadmap:
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
 
@@ -404,7 +404,7 @@ learnvjsProjects:
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
 
@@ -425,6 +425,6 @@ vanillaJsList:
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 1. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session of the <a href='https://vanillajsacademy.com'>Vanilla JS Academy</a> starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
