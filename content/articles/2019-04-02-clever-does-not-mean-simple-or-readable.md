@@ -29,11 +29,12 @@ But we've become obsessed as an industry with brevity and *clever code*, and it 
 The example above could be rewritten like this:
 
 ```js
+var obj = {};
 if (condition) {
 	obj[prop] = value;
 }
 ```
 
-Same number of lines, fewer characters, and much more obvious what's actually going on.
+One extra lines, one *less* character, and much more obvious what's actually going on.
 
 And [as Lea Verou pointed out](https://twitter.com/LeaVerou/status/1111978340515266561), also slightly more performant since you're not needlessly creating a new object each time.
