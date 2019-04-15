@@ -7,6 +7,8 @@ categories:
 - JavaScript
 ---
 
+*__Quick reminder:__ there's only two days left to get early bird discounting on the next session of the [Vanilla JS Academy](https://vanillajsacademy.com) running in May. Use the code `EarlyBird` at checkout to save 40%.*
+
 The `querySelectorAll()` method is awesome, and makes it really easy to find all matching elements. And modern array methods like `map()` and `filter()` are super powerful.
 
 Unfortunately, `querySelectorAll()` returns a NodeList, not an array, so those methods won't work with it.
