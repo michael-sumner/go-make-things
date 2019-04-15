@@ -1,6 +1,6 @@
 ---
 title: "The conference that changed my career"
-date: 2019-04-14T10:30:00-04:00
+date: 2019-04-15T10:30:00-04:00
 draft: false
 categories:
 - Accessibility
