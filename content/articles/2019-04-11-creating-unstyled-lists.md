@@ -49,7 +49,7 @@ We also want to remove any margin or padding from the left side of the list.
 
 ## Fixing Semantics
 
-There's a "bug" in webkit that affects semantics for lists styled this way, however. [Scott O'Hara explains:](https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html)
+There's a "bug" in webkit ([first discovered by Gerard Cohen](https://unfetteredthoughts.net/2017/09/26/voiceover-and-list-style-type-none/)) that affects semantics for lists styled this way, however. [Scott O'Hara explains:](https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html)
 
 > "This was a purposeful change due to rampant “list”-itis by web developers. … Basically, if you remove all default visible indication of the list, there is no indication to a sighted user or screen reader user that the content is a list. If you want to override this heuristic for accessibility, you can always add an explicit ARIA role=”list”"
 >
