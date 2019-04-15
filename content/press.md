@@ -13,7 +13,7 @@ Please feel free to use anything here as-is without checking with me first. If y
 
 Chris Ferdinandi helps people learn vanilla JavaScript. He believes there’s a simpler, more resilient way to make things for the web.
 
-Chris is the author of the *Vanilla JS Pocket Guide* series, creator of the *Vanilla JS Academy* training program, and host of the *Vanilla JS Podcast*. His developer tips newsletter is read by over {{<cta for="mc-subscriber-count">}} developers each weekday.
+Chris is the author of the [Vanilla JS Pocket Guide series](https://vanillajsguides.com), creator of the [Vanilla JS Academy](https://vanillajsacademy.com) training program, and host of the [Vanilla JS Podcast](https://vanillajspodcast.com). His [developer tips newsletter](https://gomakethings.com) is read by over {{<cta for="mc-subscriber-count">}} developers each weekday.
 
 He's taught developers at organizations like Chobani and the Boston Globe, and his JavaScript plugins have been used used by Apple and Harvard Business&nbsp;School.
 
