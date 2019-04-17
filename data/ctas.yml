@@ -180,6 +180,23 @@ academyBuy:
             end: 20190407
 
 
+# https://vanillajsofficehours.com
+officeHours:
+    message: <p><mark>⏰🐦 <em><strong>Early Bird Pricing!</strong> Save 50% on your Office Hours subscription. There are a limited number of early bird spots open. Don't wait. Join today.</em></mark></p>
+    limited:
+        1:
+            message: ""
+            start: 20190401
+            end: 20190402
+
+officeHoursBuy:
+    message: <p><mark>⏰🐦 <em><strong>Early Birday Sale!</strong> Save 50% with the code <code>OfficeHours50</code> at checkout. There are a limited number of early bird spots open, so don't wait!</em></mark></p>
+    limited:
+        1:
+            message: ""
+            start: 20190401
+            end: 20190402
+
 
 # https://vanillajspodcast.com
 podcast:
