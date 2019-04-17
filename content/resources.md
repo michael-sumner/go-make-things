@@ -15,7 +15,7 @@ Let's make {{<year>}} the year that you master&nbsp;JavaScript! You can do this.
 {{%md%}}
 - **[Daily Developer Tips.](/articles/)** I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web.
 - **[Guides & Courses.](https://vanillajsguides.com/)** Short, focused ebooks and video courses made for beginners. Start building real JavaScript projects in under an hour.
-- **[Office Hours.](https://vanillajsofficehours)** Get unstuck with a JavaScript expert. Join a live video chat twice a month to ask questions and get help.
+- **[Office Hours.](https://vanillajsofficehours.com)** Get unstuck with a JavaScript expert. Join a live video chat twice a month to ask questions and get help.
 - **[Vanilla JS Academy.](https://vanillajsacademy.com/)** A project-based online JavaScript training program for beginners.
 {{%/md%}}
 </div>
