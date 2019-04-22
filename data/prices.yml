@@ -51,9 +51,16 @@ academy:
     start: 20190401
     end: 20190407
 
-# OFfice Hours
+# Office Hours
 officeHours:
     prices:
         price: "<del>$99</del> $49"
     start: 20190417
     end: 20190430
+
+    # Projects
+    projects:
+        prices:
+            price: "<del>$39</del> $27"
+        start: 20190422
+        end: 20190428

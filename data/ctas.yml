@@ -180,6 +180,40 @@ academyBuy:
             end: 20190407
 
 
+# https://vanillajsprojects.com
+projects:
+    message: ""
+    limited:
+        1:
+            message: <p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% on your Vanilla JS Projects subscription. The sale ends this Sunday so don't wait. Join today.</em></mark></p>
+            start: 20190417
+            end: 20190426
+        2:
+            message: <p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% on your Vanilla JS Projects subscription. The sale ends tomorrow so don't wait. Join today.</em></mark></p>
+            start: 20190427
+            end: 20190427
+        3:
+            message: <p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% on your Vanilla JS Projects subscription. The sale ends today so don't wait. Join now.</em></mark></p>
+            start: 20190428
+            end: 20190428
+
+officeHoursBuy:
+    message: ""
+    limited:
+        1:
+            message: <p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% with the code <code>Launch30</code> at checkout. The sale ends this Sunday so don't wait!</em></mark></p>
+            start: 20190417
+            end: 20190426
+        2:
+            message: <p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% with the code <code>Launch30</code> at checkout. The sale ends tomorrow so don't wait!</em></mark></p>
+            start: 20190427
+            end: 20190427
+        3:
+            message: <p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% with the code <code>Launch30</code> at checkout. The sale ends today so don't wait!</em></mark></p>
+            start: 20190428
+            end: 20190428
+
+
 # https://vanillajsofficehours.com
 officeHours:
     message: ""
