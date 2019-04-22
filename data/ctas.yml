@@ -197,7 +197,7 @@ projects:
             start: 20190428
             end: 20190428
 
-officeHoursBuy:
+projectsBuy:
     message: ""
     limited:
         1:
