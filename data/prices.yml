@@ -58,9 +58,9 @@ officeHours:
     start: 20190417
     end: 20190430
 
-    # Projects
-    projects:
-        prices:
-            price: "<del>$39</del> $27"
-        start: 20190422
-        end: 20190428
+# Projects
+projects:
+    prices:
+        price: "<del>$39</del> $27"
+    start: 20190422
+    end: 20190428
