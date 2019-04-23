@@ -41,6 +41,6 @@ You can also take advantage of semantic versioning by adding `@{version-number}`
 
 I've already added instructions on this to [Atomic](https://github.com/cferdinandi/atomic), [Validate](https://github.com/cferdinandi/validate), and [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll), and will be updating the docs for [my other plugins](https://vanillajstoolkit.com/plugins) as well.
 
-But where this really shines is for use with other peoples' OSS projects when a CDN isn't provided by you need a quick and easy way to load the code into your site.
+But where this really shines is for use with other peoples' OSS projects when a CDN isn't provided but you need a quick and easy way to load the code into your site.
 
 jsDelivr also supports NPM and WordPress.
