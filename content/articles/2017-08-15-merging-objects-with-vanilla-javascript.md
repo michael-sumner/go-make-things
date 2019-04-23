@@ -105,9 +105,11 @@ var obj2 = {
 var extended = {};
 
 var merge = function (obj) {
-	if (obj.hasOwnProperty(prop)) {
-		// Push each value from `obj` into `extended`
-		extended[prop] = obj[prop];
+	for (var prop in obj) {
+		if (obj.hasOwnProperty(prop)) {
+			// Push each value from `obj` into `extended`
+			extended[prop] = obj[prop];
+		}
 	}
 };
 
@@ -127,9 +129,11 @@ var extend = function () {
 
 	// Merge the object into the extended object
 	var merge = function (obj) {
-		if (obj.hasOwnProperty(prop)) {
-			// Push each value from `obj` into `extended`
-			extended[prop] = obj[prop];
+		for (var prop in obj) {
+			if (obj.hasOwnProperty(prop)) {
+				// Push each value from `obj` into `extended`
+				extended[prop] = obj[prop];
+			}
 		}
 	};
 
@@ -265,13 +269,15 @@ var extend = function () {
 
 	// Merge the object into the extended object
 	var merge = function (obj) {
-		if (obj.hasOwnProperty(prop)) {
-			if (deep && Object.prototype.toString.call(obj[prop]) === '[object Object]') {
-				// If we're doing a deep merge and the property is an object
-				extended[prop] = extend(true, extended[prop], obj[prop]);
-			} else {
-				// Otherwise, do a regular merge
-				extended[prop] = obj[prop];
+		for (var prop in obj) {
+			if (obj.hasOwnProperty(prop)) {
+				if (deep && Object.prototype.toString.call(obj[prop]) === '[object Object]') {
+					// If we're doing a deep merge and the property is an object
+					extended[prop] = extend(true, extended[prop], obj[prop]);
+				} else {
+					// Otherwise, do a regular merge
+					extended[prop] = obj[prop];
+				}
 			}
 		}
 	};
@@ -299,13 +305,15 @@ var extend = function () {
 
 	// Merge the object into the extended object
 	var merge = function (obj) {
-		if (obj.hasOwnProperty(prop)) {
-			if (deep && Object.prototype.toString.call(obj[prop]) === '[object Object]') {
-				// If we're doing a deep merge and the property is an object
-				extended[prop] = extend(true, extended[prop], obj[prop]);
-			} else {
-				// Otherwise, do a regular merge
-				extended[prop] = obj[prop];
+		for (var prop in obj) {
+			if (obj.hasOwnProperty(prop)) {
+				if (deep && Object.prototype.toString.call(obj[prop]) === '[object Object]') {
+					// If we're doing a deep merge and the property is an object
+					extended[prop] = extend(true, extended[prop], obj[prop]);
+				} else {
+					// Otherwise, do a regular merge
+					extended[prop] = obj[prop];
+				}
 			}
 		}
 	};
