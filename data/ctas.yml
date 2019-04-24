@@ -16,6 +16,9 @@ bio:
 bioShort:
     message: "<div class='clearfix margin-bottom'><img src='https://gomakethings.com/img/chris-ferdinandi-high-res.jpg' alt='Chris Ferdinandi' width='175' height='175' class='img-circle alignleft margin-bottom'><p>I believe there’s a simpler, more resilient way to make things for the web.</p><p>I create <a href='https://vanillajsguides.com'>vanilla JS pocket guides and video courses</a>, run a <a href='https://vanillajsacademy.com'>project-based training program</a>, and host <a href='https://vanillajspodcast.com'>the vanilla JS podcast</a>. My <a href='https://gomakethings.com/articles'>developer tips newsletter</a> is read by over 5,000 developers each weekday.</p><p>If you have a question about something or need JavaScript help, <a href='https://gomakethings.com/about/'>get in touch</a>.</p></div>"
 
+products:
+    message: <ul class="list-spaced"><li><strong><a href="https://gomakethings.com/articles/">Daily Developer Tips.</a></strong> I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web.</li><li><strong><a href="https://vanillajsguides.com/">Guides &amp; Courses.</a></strong> Short, focused ebooks and video courses made for beginners. Start building real JavaScript projects in under an hour.</li><li><strong><a href="https://vanillajsprojects.com">Projects.</a></strong> A monthly vanilla JS project video series.</li><li><strong><a href="https://vanillajsacademy.com/">Vanilla JS Academy.</a></strong> A project-based online JavaScript training program for beginners.</li></ul>
+
 # https://gomakethings.com
 home:
     message: "<p><mark>🚀 <em><strong>Make 2019 the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com/'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
