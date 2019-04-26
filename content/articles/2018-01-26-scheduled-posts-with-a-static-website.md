@@ -18,7 +18,7 @@ I missed a step in yesterday's post. For your server to be able to talk to GitHu
 
 One of my readers also reminded me that in addition to Netlify, you can also [use GitHub pages to host your site](https://gohugo.io/hosting-and-deployment/hosting-on-github/).
 
-However, if you want a custom domain *and* and SSL cert, there's no easy way to do that on GitHub. Netlify provides a free SSL certificate for you.
+~~However, if you want a custom domain *and* and SSL cert, there's no easy way to do that on GitHub.~~ Netlify provides a free SSL certificate for you. (*GitHub now provides a way to do this, too.*)
 
 ## How to schedule posts with a static website
 
