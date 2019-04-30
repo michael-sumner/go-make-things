@@ -54,7 +54,7 @@ The big one five years ago was mobile and responsive web design. What's next?
 
 Honestly, I'm not entirely sure yet. It feels a little too early to tell.
 
-Frameworks are certainly changing the way we build websites today (arguably for the worse), but I see them are more indicators of how people want to work than the change itself. Just as jQuery helped us get better native APIs that made it somewhat obsolete, I think frameworks will, too.
+Frameworks are certainly changing the way we build websites today (arguably for the worse), but I see them as more indicators of how people want to work than the change itself. Just as jQuery helped us get better native APIs that made it somewhat obsolete, I think frameworks will, too.
 
 Another thing I think frameworks are indicative of is API-driven websites instead of "directly access a database" sites. That feels like a bigger industry shift to me.
 
