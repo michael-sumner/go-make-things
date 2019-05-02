@@ -25,7 +25,7 @@ home:
     message: "<p><mark>🚀 <em><strong>Make 2019 the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com/'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
     limited:
         1:
-            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
             start: 20190429
             end: 20190519
 
@@ -33,7 +33,7 @@ global:
     message: "<p><mark>🚀 <em><strong>Make 2019 the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
     limited:
         1:
-            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
             start: 20190429
             end: 20190519
 
@@ -163,7 +163,7 @@ podcast:
     message: "<mark><p>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</p></mark>"
     limited:
         1:
-            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
             start: 20190429
             end: 20190519
 
@@ -174,7 +174,7 @@ toolkitHome:
     message: ""
     limited:
         1:
-            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
             start: 20190429
             end: 20190519
 
@@ -182,7 +182,7 @@ toolkitSnippets:
     message: "<div class='callout'>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
             start: 20190429
             end: 20190519
 
@@ -190,7 +190,7 @@ toolkitHelpers:
     message: "<div class='callout'>🚀 Learn how to <strong>write your own JS helper functions</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
             start: 20190429
             end: 20190519
 
@@ -198,7 +198,7 @@ toolkitBoilerplates:
     message: "<div class='callout'>🚀 Learn how to <strong>write more flexible, resilient JavaScript</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
             start: 20190429
             end: 20190519
 
@@ -206,7 +206,7 @@ toolkitPolyfills:
     message: "<div class='callout'>🚀 Learn how to <strong>write scripts that run in any browser</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
             start: 20190429
             end: 20190519
 
@@ -214,7 +214,7 @@ toolkitPlugins:
     message: "<div class='callout'>🚀 Learn how to <strong>write your own vanilla JS plugins</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
             start: 20190429
             end: 20190519
 
@@ -222,7 +222,7 @@ toolkitLearning:
     message: ""
     limited:
         1:
-            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
             start: 20190429
             end: 20190519
 
@@ -233,7 +233,7 @@ learnvjsHome:
     message: ""
     limited:
         1:
-            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
             start: 20190429
             end: 20190519
 
@@ -241,7 +241,7 @@ learnvjsRoadmap:
     message: ""
     limited:
         1:
-            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
             start: 20190429
             end: 20190519
 
@@ -249,7 +249,7 @@ learnvjsProjects:
     message: ""
     limited:
         1:
-            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
             start: 20190429
             end: 20190519
 
@@ -257,7 +257,7 @@ learnvjsResources:
     message: ""
     limited:
         1:
-            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
             start: 20190429
             end: 20190519
 
@@ -267,6 +267,6 @@ vanillaJsList:
     message: ""
     limited:
         1:
-            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
+            message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
             start: 20190429
             end: 20190519
