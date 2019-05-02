@@ -241,7 +241,7 @@ var extend = function () {
 	var i = 0;
 
 	// Check if a deep merge
-	if (typeof (arguments[0]) === 'boolean]') {
+	if (typeof (arguments[0]) === 'boolean') {
 		deep = arguments[0];
 		i++;
 	}
@@ -262,7 +262,7 @@ var extend = function () {
 	var i = 0;
 
 	// Check if a deep merge
-	if (typeof (arguments[0]) === 'boolean]') {
+	if (typeof (arguments[0]) === 'boolean') {
 		deep = arguments[0];
 		i++;
 	}
@@ -298,7 +298,7 @@ var extend = function () {
 	var i = 0;
 
 	// Check if a deep merge
-	if (typeof (arguments[0]) === 'boolean]') {
+	if (typeof (arguments[0]) === 'boolean') {
 		deep = arguments[0];
 		i++;
 	}
