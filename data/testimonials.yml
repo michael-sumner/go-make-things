@@ -235,3 +235,9 @@ jeffWainwright:
     url: "https://twitter.com/yowainwright/status/1082671814726148097"
     photo: "/img/testimonials/jeff-wainwright.jpg"
     quote: "Your daily emails are SO great! I’ve been using them to make daily Codepens to sharpen/keep my skills. Thank you!"
+
+daveDesandro:
+    name: "Dave DeSandro"
+    url: "https://twitter.com/desandro/status/1098351362948108288"
+    photo: "/img/testimonials/dave-desandro.jpg"
+    quote: "Mr. Chris Ferdinandi's Daily Developer Tips is so good. Bite-sized, vanilla JS, plain-spoken. I learn a lot from em."
