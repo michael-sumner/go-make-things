@@ -68,7 +68,7 @@
 	 */
 	var buildQuery = function () {
 		query.push('email=' + encodeURIComponent(params.email));
-		query.push('group=' + encodeURIComponent(params.group));
+		query.push('group[' + encodeURIComponent(params.group) + ']=1');
 		return query.join('&');
 	};
 
