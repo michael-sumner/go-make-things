@@ -218,6 +218,12 @@ danielDeverell:
     photo: "/img/testimonials/daniel-deverell.jpg"
     quote: "Your daily emails have proven invaluable to me - its almost like you're reading my JS todo list."
 
+steveBogucki:
+    name: "Steve Bogucki"
+    url: "https://twitter.com/devbogoodski/status/1125420519522570240"
+    photo: "/img/testimonials/steve-bogucki.jpg"
+    quote: "This educational JavaScript newsletter is the best daily learning resource that I get in my inbox each morning."
+
 leviMcGranahan:
     name: "Levi McGranahan"
     url: "https://twitter.com/levimcg/status/1072474120091287553"
