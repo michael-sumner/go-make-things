@@ -46,6 +46,12 @@ davidBuchholz:
     photo: "/img/testimonials/david-buchholz.jpg"
     quote: "The cheat sheet and the ability to ask questions on Slack were worth the price of the book alone."
 
+dinoKoutrouzas:
+    name: "Dino Koutrouzas"
+    url: "https://twitter.com/dino_k_29/status/1118129933002342402"
+    photo: "/img/testimonials/dino-koutrouzas.jpg"
+    quote: "If you’re a beginner, or just looking to fill in some knowledge gaps, the Vanilla JavaScript Pocket Guides from Chris Ferdinandi are clear, informative and to the point. Cannot recommend enough!"
+
 jCHiatt:
     name: "J.C. Hiatt"
     url: "https://twitter.com/jchiatt/status/918861483143979008"
