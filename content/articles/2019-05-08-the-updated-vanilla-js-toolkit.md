@@ -1,6 +1,6 @@
 ---
 title: "The updated vanilla JS toolkit"
-date: 2019-05-07T10:30:00-04:00
+date: 2019-05-08T10:30:00-04:00
 draft: false
 categories:
 - Code
