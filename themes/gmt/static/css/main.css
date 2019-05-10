@@ -799,7 +799,6 @@ samp {
 /* line 14, src/sass/components/_code.scss */
 code {
   color: #dd1144;
-  padding: 0.25em;
   word-wrap: break-word;
 }
 
