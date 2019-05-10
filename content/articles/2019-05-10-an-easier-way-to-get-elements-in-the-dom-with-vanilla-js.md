@@ -15,7 +15,7 @@ Today, let's look at two helper methods to make getting DOM elements easier.
 
 ## Getting the first matching element in the DOM
 
-Let's create a helper function named `$()` that we'll use as a wrapper for `querySelector()`
+Let's create a helper function named `$()` that we'll use as a wrapper for `querySelector()`.
 
 ```js
 var $ = function (selector) {
