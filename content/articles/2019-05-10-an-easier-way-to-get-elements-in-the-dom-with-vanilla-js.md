@@ -59,4 +59,4 @@ var $$ = function (selector, parent) {
 };
 ```
 
-[Here's another demo.](https://vanillajstoolkit.com/helpers/qsa/) You can also [find this function on the Vanilla JS Toolkit](https://vanillajstoolkit.com/helpers/qsa/).
+[Here's another demo.](https://codepen.io/cferdinandi/pen/pBMpoQ) You can also [find this function on the Vanilla JS Toolkit](https://vanillajstoolkit.com/helpers/qsa/).
