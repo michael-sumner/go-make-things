@@ -9,7 +9,7 @@ categories:
 
 The `querySelector()` and `querySelectorAll()` methods are really handy for getting elements in the DOM.
 
-But, they're a bit verbose, especially if you're using to jQuery's `$()` selector shorthand. *And*, `querySelectorAll()` returns a NodeList instead of an array, which limits what you can do with it.
+But, they're a bit verbose, especially if you're used to using jQuery's `$()` selector shorthand. *And*, `querySelectorAll()` returns a NodeList instead of an array, which limits what you can do with it.
 
 Today, let's look at two helper methods to make getting DOM elements easier.
 
