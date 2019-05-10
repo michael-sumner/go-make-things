@@ -1,6 +1,6 @@
 ---
 title: "An easier way to get elements in the DOM with vanilla JS"
-date: 2019-05-09T10:30:00-04:00
+date: 2019-05-10T10:30:00-04:00
 draft: false
 categories:
 - Code
