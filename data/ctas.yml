@@ -88,7 +88,7 @@ guidesAll:
 
 # https://vanillajsacademy.com
 academy:
-    message: "<p><mark>🚀 <em><strong>Returning Soon!</strong> The next session of the Vanilla JS Academy is starting on May 6. Register starting on April 1.</em></mark></p>"
+    message: ""
     limited:
         1:
             message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on your Vanilla JS Academy registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
