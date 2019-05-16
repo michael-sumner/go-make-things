@@ -15,7 +15,7 @@ The argument is that frameworks and libraries&mdash;used by thousands of develop
 
 ## The Framework Commons
 
-If you have a problem with a framework, there's a good chance someone else has two and has implemented a fix or is working on one.
+If you have a problem with a framework, there's a good chance someone else has too and has implemented a fix or is working on one.
 
 It's absolutely a benefit of the ecosystem.
 
