@@ -50,7 +50,7 @@ var list = document.querySelector('#wizards');
 // Loop through each wizard and create a list item
 wizards.forEach(function (wizard) {
 	// inject each list item into the ul
-	list += '<li>' + wizard + '</li>';
+	list.innerHTML += '<li>' + wizard + '</li>';
 });
 ```
 
