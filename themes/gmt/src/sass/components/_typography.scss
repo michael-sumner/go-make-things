@@ -21,7 +21,7 @@ body {
 	overflow-x: hidden;
 
 	.fonts-loaded & {
-		font-family: $font-enhanced;
+		font-family: $font-sans;
 	}
 
 	@media (min-width: $bp-medium) {
@@ -228,6 +228,7 @@ dt {
  */
 
 h1, h2, h3, h4, h5, h6 {
+	@extend .text-serif;
 	font-weight: bold;
 	line-height: 1.2;
 	margin: 0 0 1em;
@@ -401,6 +402,7 @@ sub {
  */
 
 blockquote {
+	@extend .text-serif;
 	border-left: calc-em(4px) solid $color-gray-light;
 	// font-size: calc-em(19px);
 	font-style: italic;
