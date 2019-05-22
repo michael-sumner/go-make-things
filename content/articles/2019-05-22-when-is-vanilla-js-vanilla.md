@@ -27,7 +27,7 @@ And there are some things that squarely *are* vanilla:
 
 But there's also a whole ocean of things that *somewhere in the middle*.
 
-- Micro-frameworks like [Reef](https://github.com/cferdinandi/reef), [hyperHTML](https://viperhtml.js.org/hyperhtml/documentation/), and Svelte
+- Micro-frameworks like [Reef](https://github.com/cferdinandi/reef), [hyperHTML](https://viperhtml.js.org/hyperhtml/documentation/), and [Svelte](http://svelte.dev/)
 - [Dependency-free plugins](https://vanillajstoolkit.com/plugins/) like [Dinero](https://sarahdayan.github.io/dinero.js/)
 - [Helper functions](https://vanillajstoolkit.com/helpers/)
 - Single-purpose libraries like [Day.js](https://github.com/xx45/dayjs)
