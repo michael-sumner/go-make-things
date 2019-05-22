@@ -2,7 +2,7 @@
 title: "When is vanilla JS vanilla?"
 date: 2019-05-22T10:30:00-04:00
 draft: false
-categories:g
+categories:
 - Code
 - JavaScript
 ---
