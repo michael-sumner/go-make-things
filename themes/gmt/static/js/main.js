@@ -148,6 +148,7 @@ var mailchimp = function (callback) {
 	var email = form.querySelector('#mailchimp-email');
 	if (!email) return;
 	var status = form.querySelector('#mc-status');
+	var btn = form.querySelector('[data-processing]');
 
 	// Messages
 	var messages = {
@@ -231,18 +232,16 @@ var mailchimp = function (callback) {
 	};
 
 	var disableButton = function () {
-		var btn = form.querySelector('[data-processing]');
 		if (!btn) return;
 		btn.setAttribute('data-original', btn.innerHTML);
-		btn.setAttribute('disabled', 'disabled');
 		btn.innerHTML = btn.getAttribute('data-processing');
+		btn.classList.add('disabled');
 	};
 
 	var enableButton = function () {
-		var btn = form.querySelector('[data-processing]');
 		if (!btn) return;
-		btn.removeAttribute('disabled');
 		btn.innerHTML = btn.getAttribute('data-original');
+		btn.classList.remove('disabled');
 	};
 
 	var sendData = function (params) {
@@ -285,6 +284,9 @@ var mailchimp = function (callback) {
 
 	// Submit the form
 	var submitForm = function () {
+
+		// If already submitting, don't submit again
+		if (btn.classList.contains('disabled')) return;
 
 		// Disable the submit button
 		disableButton();
