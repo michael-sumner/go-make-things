@@ -286,7 +286,7 @@ var mailchimp = function (callback) {
 	var submitForm = function () {
 
 		// If already submitting, don't submit again
-		if (btn.classList.contains('disabled')) return;
+		if (btn && btn.matches('.disabled')) return;
 
 		// Disable the submit button
 		disableButton();
