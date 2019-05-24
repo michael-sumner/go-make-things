@@ -20,4 +20,4 @@ I found myself nodding along to every single word in [Jeremy Keith's recent post
 >
 > So whereas Sass sits at the back of the front end—where I don’t care what you use—Bootstrap sits at the front of the front end. For tools like that, I don’t think saying “use whatever works for you” is good enough. It’s got to be weighed against the cost to the user.
 
-[Go read the whole thing.](https://adactio.com/journal/1505) It's worth a few minutes of your time.
+[Go read the whole thing.](https://adactio.com/journal/15050) It's worth a few minutes of your time.
