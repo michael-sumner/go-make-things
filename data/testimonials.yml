@@ -253,3 +253,9 @@ daveDesandro:
     url: "https://twitter.com/desandro/status/1098351362948108288"
     photo: "/img/testimonials/dave-desandro.jpg"
     quote: "Mr. Chris Ferdinandi's Daily Developer Tips is so good. Bite-sized, vanilla JS, plain-spoken. I learn a lot from em."
+
+wesBos:
+    name: "Wes Bos"
+    url: "https://twitter.com/wesbos/status/1098606432633659392"
+    photo: "/img/testimonials/wes-bos.jpg"
+    quote: "Shout out to Chris Ferdinandi's blog that keeps coming up whenever I google anything vanilla JS. Nice little tips every day."
