@@ -25,6 +25,10 @@ They use JavaScript to handle URL routing with real URLs. For this to work, you 
 4. Match the URL against a map of *routes*, and serve the right content based on it.
 5. If your URL has variable information in it (like a todolist ID, for example), parse that data out of the URL.
 6. Detect when someone clicks the browser's back button/forward button, and update the URL and UI.
+7. Use JavaScript to update the `title` attribute on the page.
+8. Use *even more JavaScript* to dynamically focus the content area when the content changes (for screen-reader users).
+
+(*Shoutout to [Ashley Bischoff for those last two](https://twitter.com/handcoding/status/1133394105655017473)!*)
 
 **You end up recreating with JavaScript a lot of the features the browser gives you out-of-the-box.**
 
