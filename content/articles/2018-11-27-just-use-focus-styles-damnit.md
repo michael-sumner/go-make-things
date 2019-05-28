@@ -9,6 +9,8 @@ categories:
 - Design and UX
 ---
 
+*This post has also been [translated into Russian](https://medium.com/web-standards/just-use-focus-799c577a8479).*
+
 Recently, there's been a handful of articles and recommendations from people about how to use `:focus-visible` to show `:focus` styles when someone is using a keyboard but ignore them when the user interacts with a mouse.
 
 The best one I've seen so far [comes from Lea Verou](https://twitter.com/LeaVerou/status/1045768279753666562):
