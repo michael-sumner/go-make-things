@@ -15,6 +15,6 @@ But here's the thing: "not vanilla CSS" is never called CSS. People don't call S
 
 But they do call React and Vue "JS". So "vanilla JS" serves as a clear distinguisher to avoid confusion and aid in Google searches.
 
-If you search for "JavaScript,", you get a lot of framework/library based solutions. If you search for "vanills JS," you don't. And while some people like "plain JS" better, the search results for it just aren't as good.
+If you search for "JavaScript,", you get a lot of framework/library based solutions. If you search for "vanilla JS," you don't. And while some people like "plain JS" better, the search results for it just aren't as good.
 
 You're allowed to hate a phrase, but like or not, that's what people call it.
