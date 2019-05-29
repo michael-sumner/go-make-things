@@ -35,7 +35,7 @@ var decodeHTML = function (html) {
 
 // Example
 // Returns "<p>In this course, you'll learn:</p>"
-var decoded = decodeHTML('&lt;p&gt;In this course, you&amp;rsquo;ll learn:&lt;/p&gt;');
+var decoded = decodeHTML('&lt;p&gt;In this course, you&rsquo;ll learn:&lt;/p&gt;');
 ```
 
 It works by creating a `<textarea>` element and injecting your encoded HTML into it. The browser automatically converts that back into proper HTML. You can then grab the `value` from the `<textarea>`, and like magic, you have decided HTML.
