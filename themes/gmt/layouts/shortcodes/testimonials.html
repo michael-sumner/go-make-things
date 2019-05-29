@@ -1,0 +1,23 @@
+{{- $data := getJSON $.Site.Params.api -}}
+{{- $testimonials := index $data "testimonials" -}}
+{{- $testimonials := index $data "testimonials" -}}
+
+{{- range $testimonials -}}
+
+<div class="row padding-top">
+	<div class="grid-third">
+		<img class="aligncenter margin-bottom-small img-circle" height="150" width="150" src="https://gomakethings.com{{ index . "photo" }}">
+	</div>
+	<div class="grid-two-thirds">
+		<blockquote>
+			{{ index . "quote" | markdownify | safeHTML }}
+			{{- if isset . "url" -}}
+			<cite>- <a href="{{ index . "url" }}">{{ index . "name" }}</a></cite>
+			{{- else -}}
+			<cite>- {{ index . "name" | safeHTML }}</cite>
+			{{- end -}}
+		</blockquote>
+	</div>
+</div>
+
+{{- end -}}
