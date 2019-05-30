@@ -13,7 +13,7 @@ Newsletter reader [Reed Jones](https://www.reedjones.com/) emailed me to ask a g
 
 > How would you persist state across multiple pages?
 
-If I need state across multiple UIs, I lean on `localStoreage` or `sessionStorage` to store the data and access it on page load.
+If I need state across multiple UIs, I lean on `localStorage` or `sessionStorage` to store the data and access it on page load.
 
 If stored data exists, I update my data state. If not, I use an empty object instead. Something like this:
 
