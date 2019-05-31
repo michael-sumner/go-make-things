@@ -4,17 +4,17 @@
 
 # Newsletter
 mcSubscribers:
-    message: "Join 5,000+ daily subscribers."
+    message: "Join 5,700+ daily subscribers."
 
 mcSubscriberCount:
-    message: "5,000"
+    message: "5,700"
 
 # Bios
 bio:
-    message: "<div class='clearfix margin-bottom'><img src='https://gomakethings.com/img/chris-ferdinandi-high-res.jpg' alt='Chris Ferdinandi' width='175' height='175' class='img-circle alignleft margin-bottom'><p><strong>Hi, I'm Chris Ferdinandi.</strong> I believe there’s a simpler, more resilient way to make things for the web.</p><p>I’ve taught developers at organizations like Chobani and the Boston Globe, and my JavaScript plugins have been used by organizations like Apple and Harvard Business School. My developer tips newsletter is read by over 5,000 developers each weekday.</p><p>I want to help you master vanilla JavaScript, without all of the painful false starts and roadblocks I encountered when I was learning.</p></div>"
+    message: "<div class='clearfix margin-bottom'><img src='https://gomakethings.com/img/chris-ferdinandi-high-res.jpg' alt='Chris Ferdinandi' width='175' height='175' class='img-circle alignleft margin-bottom'><p><strong>Hi, I'm Chris Ferdinandi.</strong> I believe there’s a simpler, more resilient way to make things for the web.</p><p>I’ve taught developers at organizations like Chobani and the Boston Globe, and my JavaScript plugins have been used by organizations like Apple and Harvard Business School. My developer tips newsletter is read by over 5,700 developers each weekday.</p><p>I want to help you master vanilla JavaScript, without all of the painful false starts and roadblocks I encountered when I was learning.</p></div>"
 
 bioShort:
-    message: "<div class='clearfix margin-bottom'><img src='https://gomakethings.com/img/chris-ferdinandi-high-res.jpg' alt='Chris Ferdinandi' width='175' height='175' class='img-circle alignleft margin-bottom'><p>I believe there’s a simpler, more resilient way to make things for the web.</p><p>I create <a href='https://vanillajsguides.com'>vanilla JS pocket guides and video courses</a>, run a <a href='https://vanillajsacademy.com'>project-based training program</a>, and host <a href='https://vanillajspodcast.com'>the vanilla JS podcast</a>. My <a href='https://gomakethings.com/articles'>developer tips newsletter</a> is read by over 5,000 developers each weekday.</p><p>If you have a question about something or need JavaScript help, <a href='https://gomakethings.com/about/'>get in touch</a>.</p></div>"
+    message: "<div class='clearfix margin-bottom'><img src='https://gomakethings.com/img/chris-ferdinandi-high-res.jpg' alt='Chris Ferdinandi' width='175' height='175' class='img-circle alignleft margin-bottom'><p>I believe there’s a simpler, more resilient way to make things for the web.</p><p>I create <a href='https://vanillajsguides.com'>vanilla JS pocket guides and video courses</a>, run a <a href='https://vanillajsacademy.com'>project-based training program</a>, and host <a href='https://vanillajspodcast.com'>the vanilla JS podcast</a>. My <a href='https://gomakethings.com/articles'>developer tips newsletter</a> is read by over 5,700 developers each weekday.</p><p>If you have a question about something or need JavaScript help, <a href='https://gomakethings.com/about/'>get in touch</a>.</p></div>"
 
 # Products
 products:
