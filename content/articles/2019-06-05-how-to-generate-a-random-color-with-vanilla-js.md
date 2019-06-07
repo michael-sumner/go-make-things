@@ -7,6 +7,8 @@ categories:
 - JavaScript
 ---
 
+*__Note:__ I wrote [an update to this article with a better approach](/a-better-way-to-generate-a-random-color-with-vanilla-js/).*
+
 Yesterday, we looked at [how to pick a random color with vanilla JS](/how-to-pick-a-random-color-with-vanilla-js/). It required that you provide a list of colors to choose from.
 
 Today, let's look at how to generate a random color from the entire range of valid hex colors.
