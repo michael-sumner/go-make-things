@@ -34,4 +34,6 @@ Add it to any element you want to run edge-to-edge, like this.
 <p>In general, sea turtles have a more fusiform body plan than their terrestrial or freshwater counterparts. The reduced volume of a fusiform (tapering at both ends) body means sea turtles cannot retract their head, legs, and arms into their shells for protection like other turtles can.</p>
 ```
 
+I can't remember where I first saw this technique, but I'm 99.99999% sure it was from [the amazing Mina Markham](http://mina.codes/).
+
 [Here's a demo.](https://codepen.io/cferdinandi/pen/jjEgJg)
