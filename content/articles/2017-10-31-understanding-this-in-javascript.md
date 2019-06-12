@@ -4,7 +4,7 @@ categories:
 - JavaScript
 date: '2017-10-31'
 url: /understanding-this-in-javascript/
-title: Understanding &#8220;this&#8221; in JavaScript
+title: Understanding this in JavaScript
 ---
 
 If you're like me, you probably find `this` in JavaScript a bit weird and confusing.
