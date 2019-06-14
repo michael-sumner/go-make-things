@@ -11,6 +11,7 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 
 **Upcoming Events**
 
+- [JavaScript for WordPress](https://javascriptforwp.com/conference/), July 12, 2019
 - [Artifact](https://artifactconf.com/), September 30 – October 1, 2019
 
 **Past Events**
