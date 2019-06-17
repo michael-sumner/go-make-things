@@ -20,11 +20,7 @@ categories:
 
 [Austin Byrd shared an awesome browser trick](https://twitter.com/AustinTByrd/status/1138867419319955456) on Twitter that I was previously unaware of: design mode.
 
-<video controls>
-	<source src="/img/articles/design-mode.mp4" type="video/mp4">
-	<source src="/img/articles/design-mode.webm" type="video/webm">
-	<img alt="A screen capture of design mode" src="/img/articles/design-mode.gif">
-</video>
+<iframe src="https://player.vimeo.com/video/342748724?color=0088cc&title=0&byline=0&portrait=0" width="640" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 When you switch on design mode, every piece of content in the browser can be edited by clicking on it.
 
