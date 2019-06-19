@@ -1,0 +1,7 @@
+{{- $.Scratch.Add "index" slice -}}
+{{- range where .Site.Pages "Type" "articles" -}}
+	{{- if ne .Params.noSearch true -}}
+		{{- $.Scratch.Add "index" (dict "title" .Title "url" .Permalink "date" (.PublishDate.Format "January 2, 2006") "datetime" .PublishDate "categories" .Params.categories "content" (.Content | plainify) "summary" (.Summary | plainify) ) -}}
+	{{- end -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

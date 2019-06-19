@@ -1,4 +1,8 @@
-var crowsNest = function () {
+/**
+ * Script initializations
+ */
+
+;(function () {
 
 	'use strict';
 
@@ -9,6 +13,7 @@ var crowsNest = function () {
 	var form = document.querySelector('#form-search');
 	var input = document.querySelector('#input-search');
 	var resultList = document.querySelector('#search-results');
+	var searchIndex, idx;
 
 
 	//
@@ -64,8 +69,8 @@ var crowsNest = function () {
 	 */
 	var createResultsHTML = function (results) {
 		var html = '<p>Found ' + results.length + ' matching articles</p>';
-		html += results.map(function (article, index) {
-			return createHTML(article.article, index);
+		html += results.map(function (result, index) {
+			return createHTML(searchIndex[result.ref], index);
 		}).join('');
 		return html;
 	};
@@ -82,49 +87,104 @@ var crowsNest = function () {
 
 	/**
 	 * Search for matches
-	 * @param  {String} query The term to search for
+	 * @param {String} query The term to search for
 	 */
 	var search = function (query) {
 
-		// var reg = new RegExp(query, 'gi');
-		var regMap = query.split(' ').map(function (word) {
-			return new RegExp(word, 'gi');
-		});
-		console.log(regMap);
-
-		// Get and sort the results
-		var results = searchIndex.reduce(function (results, article, index) {
-
-			// Setup priority count
-			var priority = 0;
-
-			// Assign priority
-			regMap.forEach(function (reg) {
-				if (reg.test(article.title)) { priority += 20; console.log(priority, article.title); }
-				if (reg.test(article.content)) { priority += 1; }
-			});
-
-			// If any matches, push to results
-			if (priority > 0) {
-				results.push({
-					priority: priority,
-					article: article
-				});
-			}
-
-			return results;
-
-		}, []).sort(function (article1, article2) {
-			return article2.priority - article1.priority;
-		});
-
-		console.log(results);
+		// Find matches
+		var results = idx.search(query + '~1');
 
 		// Display the results
 		resultList.innerHTML = results.length < 1 ? createNoResultsHTML() : createResultsHTML(results);
 
+	};
+
+	/**
+	 * Run pre-search checks
+	 * @param {String} query The term to search for
+	 */
+	var preSearch = function (query) {
+
 		// Update the URL
 		updateURL(query);
+
+		// If there's no search value
+		if (query.length < 1) {
+			resultList.textContent = '';
+			return;
+		}
+
+		// If there's no search index, create one
+		if (!idx) {
+			resultList.textContent = 'Searching...';
+			setupLunr(query);
+			return;
+		}
+
+		// Otherwise, run the search
+		search(query);
+
+	};
+
+	/**
+	 * Create a searchable index in Lunr
+	 * @param  {String} query The search query
+	 */
+	var createIndex = function (query) {
+
+		// Setup the Lunr index
+		idx = lunr(function () {
+			var search = this;
+			search.ref('id');
+			search.field('title');
+			search.field('content');
+
+			if (searchIndex.length > 0) {
+				for (var i = 0; i < searchIndex.length; i++) {
+					searchIndex[i].id = i;
+					search.add(searchIndex[i]);
+				}
+			}
+		});
+
+		// Save index to sessionStorage
+		sessionStorage.setItem('searchIndex', JSON.stringify(idx));
+
+		// Search
+		search(query);
+
+	};
+
+	/**
+	 * Setup LunrJS
+	 * @param  {String} query The search query
+	 */
+	var setupLunr = function (query) {
+
+		// Set up our HTTP request
+		var xhr = new XMLHttpRequest();
+
+		// Setup our listener to process compeleted requests
+		xhr.onreadystatechange = function () {
+
+			// Only run if the request is complete
+			if (xhr.readyState !== 4) return;
+
+			// What do when the request is successful
+			if (xhr.status >= 200 && xhr.status < 300) {
+				searchIndex = JSON.parse(xhr.responseText);
+				createIndex(query);
+				return;
+			}
+
+			// What do when the request fails
+			displayResults([]);
+
+		};
+
+		// Create and send a GET request
+		xhr.open('GET', '/api/search.json');
+		xhr.send();
 
 	};
 
@@ -132,18 +192,32 @@ var crowsNest = function () {
 	 * Handle submit events
 	 */
 	var submitHandler = function (event) {
+
+		// Stop the form from submitting
 		event.preventDefault();
-		search(input.value);
+
+		// Prep for search
+		preSearch(input.value);
+
 	};
 
-	var clearInput = function () {
+	/**
+	 * Clear the input and load any saved index from sessionStorage
+	 */
+	var setupDOM = function () {
 		input.value = input.value.replace(' site:gomakethings.com', '');
+		var savedIndex = sessionStorage.getItem('searchIndex');
+		console.log(savedIndex);
+		if (!savedIndex) return;
+		idx = lunr.Index.load(JSON.parse(savedIndex));
 	};
 
 	/**
 	 * If there's a query string search term, search it on page load
 	 */
-	var onload = function () {
+	var querySearch = function () {
+		// @todo
+		return;
 		var query = getQueryString('s');
 		if (!query) return;
 		var decoded = decodeURI(query);
@@ -157,17 +231,15 @@ var crowsNest = function () {
 	//
 
 	// Make sure required content exists
-	if (!form || !input || !resultList || !searchIndex) return;
+	if (!form || !input || !resultList) return;
 
-	// Clear the input field
-	clearInput();
+	// Clear the input field and load saved search index
+	setupDOM();
 
 	// Create a submit handler
 	form.addEventListener('submit', submitHandler, false);
 
-	// Check for query strings onload
-	onload();
+	// Check for query strings and automatically search
+	querySearch();
 
-};
-
-crowsNest();
+})();

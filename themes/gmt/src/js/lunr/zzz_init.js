@@ -4,6 +4,8 @@
 
 ;(function () {
 
+	return;
+
 	//
 	// Variables
 	//
@@ -11,7 +13,7 @@
 	var form = document.querySelector('#form-search');
 	var input = document.querySelector('#input-search');
 	var resultList = document.querySelector('#search-results');
-	var timeout, searchIndex, idx;
+	var searchIndex, idx;
 
 	// Only run if the form input and results container exist
 	if (!form || !input || !resultList) return;

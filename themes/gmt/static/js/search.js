@@ -73,7 +73,7 @@ var crowsNest = function () {
 	var createResultsHTML = function (results) {
 		var html = '<p>Found ' + results.length + ' matching articles</p>';
 		html += results.map((function (article, index) {
-			return createHTML(article, index);
+			return createHTML(article.article, index);
 		})).join('');
 		return html;
 	};
@@ -94,25 +94,39 @@ var crowsNest = function () {
 	 */
 	var search = function (query) {
 
-		// Create the results
-		// var results = '';
-		// searchIndex.forEach(function (article, index) {
-		// 	var contains = new RegExp(query, 'i').test(article.title + ' ' + article.content);
-		// 	if (!contains) return;
-		// 	results += createHTML(article, index);
-		// });
+		// var reg = new RegExp(query, 'gi');
+		var regMap = query.split(' ').map((function (word) {
+			return new RegExp(word, 'gi');
+		}));
+		console.log(regMap);
 
-		var reg = new RegExp(query, 'gi');
-		var priority1 = [];
-		var priority2 = [];
+		// Get and sort the results
+		var results = searchIndex.reduce((function (results, article, index) {
 
-		searchIndex.forEach((function (article, index) {
-			if (reg.test(article.title)) return priority1.push(article);
-			if (reg.test(article.content)) priority2.push(article);
+			// Setup priority count
+			var priority = 0;
+
+			// Assign priority
+			regMap.forEach((function (reg) {
+				if (reg.test(article.title)) { priority += 20; console.log(priority, article.title); }
+				if (reg.test(article.content)) { priority += 1; }
+			}));
+
+			// If any matches, push to results
+			if (priority > 0) {
+				results.push({
+					priority: priority,
+					article: article
+				});
+			}
+
+			return results;
+
+		}), []).sort((function (article1, article2) {
+			return article2.priority - article1.priority;
 		}));
 
-		var results = [].concat(priority1, priority2);
-		// if (results.length < 1) return createNoResultsHTML();
+		console.log(results);
 
 		// Display the results
 		resultList.innerHTML = results.length < 1 ? createNoResultsHTML() : createResultsHTML(results);
