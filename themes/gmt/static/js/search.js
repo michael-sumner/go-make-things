@@ -98,7 +98,6 @@ var crowsNest = function () {
 		var regMap = query.split(' ').map((function (word) {
 			return new RegExp(word, 'gi');
 		}));
-		console.log(regMap);
 
 		// Get and sort the results
 		var results = searchIndex.reduce((function (results, article, index) {
@@ -108,7 +107,7 @@ var crowsNest = function () {
 
 			// Assign priority
 			regMap.forEach((function (reg) {
-				if (reg.test(article.title)) { priority += 20; console.log(priority, article.title); }
+				if (reg.test(article.title)) { priority += 20; }
 				if (reg.test(article.content)) { priority += 1; }
 			}));
 
@@ -125,8 +124,6 @@ var crowsNest = function () {
 		}), []).sort((function (article1, article2) {
 			return article2.priority - article1.priority;
 		}));
-
-		console.log(results);
 
 		// Display the results
 		resultList.innerHTML = results.length < 1 ? createNoResultsHTML() : createResultsHTML(results);

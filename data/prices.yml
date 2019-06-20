@@ -36,14 +36,6 @@ guidesIndividual:
     start: 20181122
     end: 20181126
 
-guidesIndividualPreorder:
-    prices:
-        ebook: "<del>$29</del> $15"
-        video: "<del>$69</del> $24"
-        both: "<del>$74</del> $26"
-    start: 20181122
-    end: 20181126
-
 # Academy
 academy:
     prices:
@@ -57,10 +49,3 @@ officeHours:
         price: "<del>$99</del> $49"
     start: 20190417
     end: 20190430
-
-# Projects
-projects:
-    prices:
-        price: "<del>$39</del> $27"
-    start: 20190422
-    end: 20190428
