@@ -1,6 +1,6 @@
 ---
 title: "The tension of building things for everyone"
-date: T10:30:00-04:00
+date: 2019-06-25T10:30:00-04:00
 draft: false
 categories:
 - Accessibility
