@@ -1,9 +1,16 @@
+{{- $data := getJSON $.Site.Params.mcSubs -}}
+{{- if le $data.code 299 -}}
+	{{- $.Scratch.Set "mcsubs" $data.message -}}
+{{- else -}}
+	{{- $.Scratch.Set "mcsubs" "thousands" -}}
+{{- end -}}
+
 {{- $.Scratch.Set "ctas" ( dict ) -}}
 {{- $.Scratch.Set "prices" ( dict ) -}}
 {{- range $index, $cta := .Site.Data.ctas -}}
 	{{- $.Scratch.Set "name" (humanize $index | replaceRE " " "-" | lower) -}}
 	{{- if ne (index $cta "message") "" -}}
-		{{- $.Scratch.SetInMap "ctas" ($.Scratch.Get "name") (safeHTML (index $cta "message")) -}}
+		{{- $.Scratch.SetInMap "ctas" ($.Scratch.Get "name") (replace (safeHTML (index $cta "message")) "{{mc_subs}}" ($.Scratch.Get "mcsubs")) -}}
 	{{- end -}}
 	{{- if isset $cta "limited" -}}
 		{{- range $limited := (index $cta "limited") -}}
