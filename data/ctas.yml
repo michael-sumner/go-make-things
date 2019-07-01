@@ -22,7 +22,7 @@ products:
 
 # https://gomakethings.com
 home:
-    message: "<p><mark>🚀 <em><strong>Make 2019 the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com/'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
+    message: "<p><mark>🚀 <em><strong>Make {{year}} the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com/'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
     limited:
         1:
             message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
@@ -30,7 +30,7 @@ home:
             end: 20190519
 
 global:
-    message: "<p><mark>🚀 <em><strong>Make 2019 the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
+    message: "<p><mark>🚀 <em><strong>Make {{year}} the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
     limited:
         1:
             message: "<p><mark><svg xmlns='http://www.w3.org/2000/svg' style='margin-bottom:-0.1875em;' width='1em' height='1em'><title></title><path fill='#f7272f' d='M15.331 2.502C13.087 2.179 10.607 2 8 2s-5.087.179-7.331.502C.239 4.185 0 6.045 0 8s.239 3.815.669 5.498C2.913 13.821 5.393 14 8 14s5.087-.179 7.331-.502C15.761 11.815 16 9.955 16 8s-.239-3.815-.669-5.498zM6 11V5l5 3-5 3z'/></svg> <em><strong>NEW: a monthly <a href='https://vanillajsprojects.com'>Vanilla JS Projects</a> video series.</strong> Get new projects to work on every month&mdash;with starter templates, solution videos, and source code. <a href='https://vanillajsprojects.com'>Click here to learn more.</a></em></mark></p>"
@@ -91,19 +91,19 @@ academy:
     message: ""
     limited:
         1:
-            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on your Vanilla JS Academy registration. Make 2019 the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> This week only, save 40% on your Vanilla JS Academy registration. Make {{year}} the year you learn to think in JavaScript. Ends on Sunday, so don't wait!</em></mark></p>"
             start: 20190401
             end: 20190405
         2:
-            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today and tomorrow only, save 40% on your Vanilla JS Academy registration. Make 2019 the year you learn to think in JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today and tomorrow only, save 40% on your Vanilla JS Academy registration. Make {{year}} the year you learn to think in JavaScript. Ends tomorrow, so don't wait!</em></mark></p>"
             start: 20190406
             end: 20190406
         3:
-            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today only, save 40% on your Vanilla JS Academy registration. Make 2019 the year you learn to think in JavaScript. Ends today, so don't wait!</em></mark></p>"
+            message: "<p><mark>⏰🐦 <em><strong>Early Bird Sale!</strong> Today only, save 40% on your Vanilla JS Academy registration. Make {{year}} the year you learn to think in JavaScript. Ends today, so don't wait!</em></mark></p>"
             start: 20190407
             end: 20190407
         4:
-            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session starts on May 6. Register today and make 2019 the year you learn to think in JavaScript.</em></mark></p>"
+            message: "<p><mark>🚀 <em><strong>The Vanilla JS Academy is back!</strong> The next session starts on May 6. Register today and make {{year}} the year you learn to think in JavaScript.</em></mark></p>"
             start: 20190408
             end: 20190430
 

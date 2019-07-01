@@ -2,7 +2,7 @@
 {{- if le $data.code 299 -}}
 	{{- $.Scratch.Set "mcsubs" $data.message -}}
 {{- else -}}
-	{{- $.Scratch.Set "mcsubs" "thousands" -}}
+	{{- $.Scratch.Set "mcsubs" "thousands of" -}}
 {{- end -}}
 
 {{- $.Scratch.Set "ctas" ( dict ) -}}
@@ -10,7 +10,7 @@
 {{- range $index, $cta := .Site.Data.ctas -}}
 	{{- $.Scratch.Set "name" (humanize $index | replaceRE " " "-" | lower) -}}
 	{{- if ne (index $cta "message") "" -}}
-		{{- $.Scratch.SetInMap "ctas" ($.Scratch.Get "name") (replace (safeHTML (index $cta "message")) "{{mc_subs}}" ($.Scratch.Get "mcsubs")) -}}
+		{{- $.Scratch.SetInMap "ctas" ($.Scratch.Get "name") (replace (replace (safeHTML (index $cta "message")) "{{mc_subs}}" ($.Scratch.Get "mcsubs")) "{{year}}" (dateFormat "2006" now)) -}}
 	{{- end -}}
 	{{- if isset $cta "limited" -}}
 		{{- range $limited := (index $cta "limited") -}}
