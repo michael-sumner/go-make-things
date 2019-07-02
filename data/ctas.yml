@@ -86,6 +86,33 @@ guidesAll:
 
 
 
+# https://vanillajsprojects.com
+project:
+  message: "<p><mark>🔥 <em><strong>New!</strong> Dive deep into vanilla JavaScript with fun new projects.</em></mark></p>"
+  limited:
+      1:
+          message: "<p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% on all projects.</em></mark></p>"
+          start: 07012019
+          end: 08012019
+
+projectBuy:
+    message: ""
+    limited:
+        1:
+            message: "<p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% on all projects with the code <code>LAUNCH30</code> at checkout</em></mark></p>"
+            start: 07012019
+            end: 08012019
+
+projectsAll:
+    message: "<p><mark>🔥 <em><strong>New!</strong> Dive deep into vanilla JavaScript with fun new projects.</em></mark></p>"
+    limited:
+        1:
+            message: "<p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% on all projects.</em></mark></p>"
+            start: 07012019
+            end: 08012019
+
+
+
 # https://vanillajsacademy.com
 academy:
     message: ""
@@ -122,40 +149,6 @@ academyBuy:
             message: "<p><mark>⏰🐦 <em><strong>Early Birday Sale!</strong> Save 40% with the code <code>EARLYBIRD</code> at checkout. Ends today, so don't wait!</em></mark></p>"
             start: 20190407
             end: 20190407
-
-
-# https://vanillajsprojects.com
-projects:
-    message: <p><mark>🔥 <em><strong>New!</strong> Dig into vanilla JavaScript with fun new projects.</em></mark></p>
-    limited:
-        1:
-            message: <p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% on your Vanilla JS Projects subscription. The sale ends this Sunday so don't wait. Join today.</em></mark></p>
-            start: 20190417
-            end: 20190426
-        2:
-            message: <p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% on your Vanilla JS Projects subscription. The sale ends tomorrow so don't wait. Join today.</em></mark></p>
-            start: 20190427
-            end: 20190427
-        3:
-            message: <p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% on your Vanilla JS Projects subscription. The sale ends today so don't wait. Join now.</em></mark></p>
-            start: 20190428
-            end: 20190428
-
-projectsBuy:
-    message: ""
-    limited:
-        1:
-            message: <p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% with the code <code>Launch30</code> at checkout. The sale ends this Sunday so don't wait!</em></mark></p>
-            start: 20190417
-            end: 20190426
-        2:
-            message: <p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% with the code <code>Launch30</code> at checkout. The sale ends tomorrow so don't wait!</em></mark></p>
-            start: 20190427
-            end: 20190427
-        3:
-            message: <p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% with the code <code>Launch30</code> at checkout. The sale ends today so don't wait!</em></mark></p>
-            start: 20190428
-            end: 20190428
 
 
 # https://vanillajspodcast.com
