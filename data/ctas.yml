@@ -92,24 +92,24 @@ project:
   limited:
       1:
           message: "<p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% on all projects.</em></mark></p>"
-          start: 07012019
-          end: 08012019
+          start: 20190701
+          end: 20190801
 
 projectBuy:
     message: ""
     limited:
         1:
             message: "<p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% on all projects with the code <code>LAUNCH30</code> at checkout</em></mark></p>"
-            start: 07012019
-            end: 08012019
+            start: 20190701
+            end: 20190801
 
 projectsAll:
     message: "<p><mark>🔥 <em><strong>New!</strong> Dive deep into vanilla JavaScript with fun new projects.</em></mark></p>"
     limited:
         1:
             message: "<p><mark>🚀 <em><strong>Launch Sale!</strong> Save 30% on all projects.</em></mark></p>"
-            start: 07012019
-            end: 08012019
+            start: 20190701
+            end: 20190801
 
 
 

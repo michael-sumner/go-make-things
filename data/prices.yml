@@ -36,6 +36,23 @@ guidesIndividual:
     start: 20181122
     end: 20181126
 
+# Projects
+projectsComplete:
+    prices:
+        ebook: "<del>$79</del> $55"
+        video: "<del>$189</del> $132"
+        both: "<del>$207</del> $145"
+    start: 20190701
+    end: 20190801
+
+projectsIndividual:
+    prices:
+        ebook: "<del>$29</del> $15"
+        video: "<del>$69</del> $34"
+        both: "<del>$74</del> $37"
+    start: 20190701
+    end: 20190801
+
 # Academy
 academy:
     prices:
