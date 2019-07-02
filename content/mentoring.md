@@ -26,10 +26,10 @@ You are welcome to record our calls for future reference.
 
 ## You'll also get these awesome bonuses
 
-In addition to our weekly calls and private messaging, you’ll receive these bonus materials valued at $179:
+In addition to our weekly calls and private messaging, you’ll receive these bonus materials valued at $459:
 
 - My **Vanilla JavaScript Toolkit**, which is loaded with code snippets, helper functions, boilerplates, polyfills, and recommended third-party plugins.
-- My **Complete Set of Pocket Guides**, including all of the source code, demos, and bonus content.
+- My **Complete Set of Vanilla JS Pocket Guides** in ebook and video format, including all of the source code, demos, and bonus content.
 - Access to my **exclusive Slack channel**, where you can send me private messages or chat with other students.
 
 {{<bonuses-special>}}
