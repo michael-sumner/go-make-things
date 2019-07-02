@@ -18,7 +18,7 @@ bioShort:
 
 # Products
 products:
-    message: <ul class="list-spaced"><li><strong><a href="https://gomakethings.com/articles/">Daily Developer Tips.</a></strong> I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web.</li><li><strong><a href="https://vanillajsguides.com/">Guides &amp; Courses.</a></strong> Short, focused ebooks and video courses made for beginners. Start building real JavaScript projects in under an hour.</li><li><strong><a href="https://vanillajsprojects.com">Projects.</a></strong> A monthly vanilla JS project video series. Get new projects to work on every month, with starter templates, solution videos, and source code.</li><li><strong><a href="https://vanillajsacademy.com/">Vanilla JS Academy.</a></strong> A project-based online JavaScript training program for beginners.</li></ul>
+    message: <ul class="list-spaced"><li><strong><a href="https://gomakethings.com/articles/">Daily Developer Tips.</a></strong> I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web.</li><li><strong><a href="https://vanillajsguides.com/">Guides &amp; Courses.</a></strong> Short, focused ebooks and video courses made for beginners. Start building real JavaScript projects in under an hour.</li><li><strong><a href="https://vanillajsprojects.com">Projects.</a></strong> Get hands-on learning with real projects. You get starter templates, helpful tips and resources, and step-by-step tutorials.</li><li><strong><a href="https://vanillajsacademy.com/">Vanilla JS Academy.</a></strong> A project-based online JavaScript training program for beginners.</li></ul>
 
 # https://gomakethings.com
 home:
