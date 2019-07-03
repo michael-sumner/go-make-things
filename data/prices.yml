@@ -47,9 +47,9 @@ projectsComplete:
 
 projectsIndividual:
     prices:
-        ebook: "<del>$29</del> $15"
-        video: "<del>$69</del> $34"
-        both: "<del>$74</del> $37"
+        ebook: "<del>$29</del> $20"
+        video: "<del>$69</del> $49"
+        both: "<del>$74</del> $52"
     start: 20190701
     end: 20190801
 
