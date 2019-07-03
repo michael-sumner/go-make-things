@@ -3,19 +3,8 @@ title: "How to test if a number is a multiple of ten with vanilla js"
 date: 2019-07-04T10:30:00-04:00
 draft: false
 categories:
-- Accessibility
-- Art and Science
-- Business and Leadership
-- Careers
 - Code
-- CSS
-- Design and UX
-- HTML
 - JavaScript
-- Technology
-- Web Performance
-- WordPress
-- Vanilla Framework Demos
 ---
 
 This week, we looked at [how to round a number to the nearest whole number with vanilla JS](/how-to-round-to-the-nearest-number-with-vanilla-js/), and [how to keep our code DRY](/refactoring-vanilla-js-code-to-be-more-dry/).
