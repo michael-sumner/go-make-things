@@ -1,7 +1,8 @@
 ---
-title: "How to test if a number is a multiple of ten with vanilla js"
+title: "How to test if a number is a power of ten with vanilla js"
 date: 2019-07-04T10:30:00-04:00
 draft: false
+url: "/how-to-test-if-a-number-is-a-multiple-of-ten-with-vanilla-js/"
 categories:
 - Code
 - JavaScript
@@ -9,7 +10,7 @@ categories:
 
 This week, we looked at [how to round a number to the nearest whole number with vanilla JS](/how-to-round-to-the-nearest-number-with-vanilla-js/), and [how to keep our code DRY](/refactoring-vanilla-js-code-to-be-more-dry/).
 
-In our original `round()` function, the `precision` argument has to be a *ten-based value*: `10`, `100`, `1000`, etc.
+In our original `round()` function, the `precision` argument has to be a power of ten: `10`, `100`, `1000`, etc.
 
 ```js
 var round = function (num, precision) {
@@ -45,17 +46,17 @@ You can use is to check if one number is a multiple of another by testing if the
 
 ```js
 // logs "yep!"
-if (1000 % 10) {
+if (1000 % 10 === 0) {
 	console.log('yep!');
 }
 
 // also logs "yep!"
-if (100 % 10) {
+if (100 % 10 === 0) {
 	console.log('yep!');
 }
 
 // does NOT log "yep!"
-if (243 % 10) {
+if (243 % 10 === 0) {
 	console.log('yep!');
 }
 ```
@@ -64,12 +65,12 @@ There's a problem with this approach, though: numbers like `20`, `42000`, etc. a
 
 ```js
 // logs "yep!"
-if (20 % 10) {
+if (20 % 10 === 0) {
 	console.log('yep!');
 }
 
 // also logs "yep!"
-if (42000 % 10) {
+if (42000 % 10 === 0) {
 	console.log('yep!');
 }
 ```
