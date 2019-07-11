@@ -7,6 +7,7 @@ weight: 10
 
 I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean web](/talks/the-lean-web/). Want me to talk at your event or come on your show? [Get in touch!](https://gomakethings.com/about/)
 
+
 ## Talks
 
 **Upcoming Events**
@@ -22,8 +23,12 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 - [WordCamp Boston, 2013](https://2013.boston.wordcamp.org/), October 25, 2013
 - [WordPress RI Meetup](https://www.meetup.com/WordPressRI/events/127790982/), July 23, 2013
 
+
 ## Podcast Appearances
 
+- [The Entrepreneurial Coder Podcast](https://share.transistor.fm/s/2d10b271), July 11, 2019
+- [JS Party](https://changelog.com/jsparty/80), June 14, 2019
+- [The Shop Talk Show](https://shoptalkshow.com/episodes/365/), June 13, 2019
 - [Developer on Fire](http://developeronfire.com/podcast/episode-316-chris-ferdinandi-idea-to-living-thing), February 26, 2018
 - [JavaScript Jabber](https://devchat.tv/js-jabber/jsj-299-learn-javascript-youre-not-developer-chris-ferdinandi), February 7, 2018
 - [The RWD Podcast](https://responsivewebdesign.com/podcast/chris-ferdinandi/), January 22, 2018
