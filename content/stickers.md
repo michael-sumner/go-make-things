@@ -14,28 +14,13 @@ Each sticker is about 1.5 inches tall and wide.
 		<img alt="" src="/img/stickers/logo1.png">
 	</div>
 	<div class="grid-fourth margin-bottom-small">
-		<img alt="" src="/img/stickers/logo2.png">
-	</div>
-	<div class="grid-fourth margin-bottom-small">
 		<img alt="" src="/img/stickers/academy.png">
 	</div>
-	<div class="grid-fourth margin-bottom-small">
-		<img alt="" src="/img/stickers/podcast.png">
-	</div>
-</div>
-
-<div class="row margin-bottom">
 	<div class="grid-fourth margin-bottom-small">
 		<img alt="" src="/img/stickers/lean-web.png">
 	</div>
 	<div class="grid-fourth margin-bottom-small">
 		<img alt="" src="/img/stickers/vanillajs1.png">
-	</div>
-	<div class="grid-fourth margin-bottom-small">
-		<img alt="" src="/img/stickers/vanillajs2.png">
-	</div>
-	<div class="grid-fourth margin-bottom-small">
-		<img alt="" src="/img/stickers/lifes-a-beach.png">
 	</div>
 </div>
 
