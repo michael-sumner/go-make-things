@@ -29,7 +29,7 @@ body {
 }
 ```
 
-In you `@font-face` declaration, you add `font-display: swap`, which tells the browser to use a system fallback until the font loads, and then swap it out for the custom one.
+In your `@font-face` declaration, you add `font-display: swap`, which tells the browser to use a system fallback until the font loads, and then swap it out for the custom one.
 
 ```css
 @font-face {
