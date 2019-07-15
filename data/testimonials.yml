@@ -173,6 +173,12 @@ craigHaggart:
     photo: "/img/testimonials/craig-haggart.jpg"
     quote: "Honestly, the projects so far plus seeing your examples have helped me learn so much faster."
 
+richHolman:
+    name: "Rich Holman"
+    url: "https://dogwonder.co.uk/"
+    photo: "/img/testimonials/rich-holman.jpg"
+    quote: "Initially it was very challenging. I found I often hit walls with things like finding the best method for iterating over an array, or finding the right way to target DOM elements, most if it was practice though. As the course went on, a picture started to emerge and things started to make more sense.<br><br>At the end Javascript didn't feel like a strange far away land, but maybe a town I've visited a few times and am starting to recognise landmarks.<br><br>It's a very accessible course. You importantly are not made to feel that anything should be better understood or you've committed some sort of JavaScript sin. Lots of encouragement and a genuinely approachable, knowledgable and nice person to learn from."
+
 # Learn Vanilla JS
 markBaldwinSmith:
     name: "Mark Baldwin-Smith"
@@ -259,3 +265,35 @@ wesBos:
     url: "https://twitter.com/wesbos/status/1098606432633659392"
     photo: "/img/testimonials/wes-bos.jpg"
     quote: "Shout out to Chris Ferdinandi's blog that keeps coming up whenever I google anything vanilla JS. Nice little tips every day."
+
+# The Lean Web
+
+stevenSlack:
+    name: "Steven Slack"
+    url: "https://twitter.com/slacktronic/status/1149679224564772864"
+    photo: "/img/testimonials/steven-slack.jpg"
+    quote: "Chris Ferdinandi just mic-dropped the opening to the #JSforWPConf Great session!"
+
+bobHerring:
+    name: "Bob Herring"
+    url: "https://twitter.com/okicajun/status/1149678667661901824"
+    photo: "/img/testimonials/bob-herring.jpg"
+    quote: "Very good talk about Lean Web! Thank you!!"
+
+barryConlon:
+    name: "Barry Conlon"
+    url: "https://twitter.com/baz_wtf/status/1149677084412768257"
+    photo: "/img/testimonials/barry-conlon.jpg"
+    quote: "Excellent talk from #JSforWPconf. Super important points and really happy to see focus and importance shown to #a11y issues. Thanks for the talk Chris."
+
+markHowellsMead:
+    name: "Mark Howells-Mead"
+    url: "https://twitter.com/HowellsMead/status/1149676675111645191"
+    photo: "/img/testimonials/mark-howells-mea.jpg"
+    quote: "I've been working in the web for over twenty years and this talk is one of the best I've ever heard. Superbly well-balanced and (for those who were listening properly 😉) a great call to pay attention to all the technical options, not just the newer ones."
+
+treyPiepmeier:
+    name: "Trey Piepmeier"
+    url: "https://twitter.com/trey/status/1149671443199746049"
+    photo: "/img/testimonials/trey-piepmeier.jpg"
+    quote: "I may or may not be yelling “Amen!” at the screen."

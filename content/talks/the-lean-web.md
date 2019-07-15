@@ -23,6 +23,28 @@ But there's a simpler way!
 
 In this talk, Chris explores how modern best practices are making it harder to build things for the web. You'll learn new approaches and techniques that you can use to more easily build modern, engaging websites and web apps... without all of the cruft. All you need is a web browser and a text editor.
 
+## Feedback
+
+<div class="padding-top-large padding-bottom">
+	{{<testimonial for="stevenSlack" photo="true">}}
+</div>
+
+<div class="padding-bottom">
+	{{<testimonial for="markHowellsMead" photo="true">}}
+</div>
+
+<div class="padding-bottom">
+	{{<testimonial for="bobHerring" photo="true">}}
+</div>
+
+<div class="padding-bottom">
+	{{<testimonial for="treyPiepmeier" photo="true">}}
+</div>
+
+<div class="padding-bottom">
+	{{<testimonial for="barryConlon" photo="true">}}
+</div>
+
 ## Notes
 
 This is a developer-focused talk, appropriate for beginners through experts. While JavaScript is discussed, it should resonate strongly with CSS-and-HTML-only developers, too.
