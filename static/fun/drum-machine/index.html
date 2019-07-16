@@ -204,6 +204,7 @@
 			}
 
 			if (event.target.matches('.btn-loop')) {
+				stop();
 				startLooping();
 				return;
 			}
@@ -227,6 +228,7 @@
 			}
 
 			if (event.key === 'p') {
+				stop();
 				startLooping();
 				return;
 			}
