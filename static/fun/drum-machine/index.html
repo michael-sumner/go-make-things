@@ -102,15 +102,15 @@
 	</p>
 
 	<div class="drum-machine">
-		<div><button data-drum="0">1</button></div>
-		<div><button data-drum="1">2</button></div>
-		<div><button data-drum="2">3</button></div>
-		<div><button data-drum="3">4</button></div>
-		<div><button data-drum="4">5</button></div>
-		<div><button data-drum="5">6</button></div>
-		<div><button data-drum="6">7</button></div>
-		<div><button data-drum="7">8</button></div>
-		<div><button data-drum="8">9</button></div>
+		<div><button data-drum="0">Q</button></div>
+		<div><button data-drum="1">W</button></div>
+		<div><button data-drum="2">E</button></div>
+		<div><button data-drum="3">A</button></div>
+		<div><button data-drum="4">S</button></div>
+		<div><button data-drum="5">D</button></div>
+		<div><button data-drum="6">Z</button></div>
+		<div><button data-drum="7">X</button></div>
+		<div><button data-drum="8">C</button></div>
 	</div>
 
 	<script>
@@ -129,6 +129,10 @@
 		//
 		// Methods
 		//
+
+		var getDrum = function (key) {
+			return ['q', 'w', 'e', 'a', 's', 'd', 'z', 'x', 'c'].indexOf(key);
+		};
 
 		var btnState = function (btn) {
 			if (!btn) return;
@@ -157,15 +161,17 @@
 			last = now;
 		};
 
-		var stop = function () {
+		var stop = function (activate) {
 			recording = false;
 			if (looping) {
 				clearTimeout(looping);
 			}
 			btnRecord.classList.remove('active');
 			btnLoop.classList.remove('active');
-			btnState(btnStop);
-			btnStop.focus();
+			if (activate) {
+				btnState(btnStop);
+				btnStop.focus();
+			}
 		};
 
 		var loop = function () {
@@ -194,12 +200,13 @@
 		var clickHandler = function (event) {
 
 			if (event.target.matches('.btn-record')) {
+				stop();
 				startRecording();
 				return;
 			}
 
 			if (event.target.matches('.btn-stop')) {
-				stop();
+				stop(true);
 				return;
 			}
 
@@ -218,12 +225,13 @@
 		var keyHandler = function (event) {
 
 			if (event.key === 'r') {
+				stop();
 				startRecording();
 				return;
 			}
 
-			if (event.key === 'q') {
-				stop();
+			if (event.key === 'Escape') {
+				stop(true);
 				return;
 			}
 
@@ -233,7 +241,9 @@
 				return;
 			}
 
-			play(event.key - 1, document.querySelector('[data-drum="' + (event.key - 1) + '"]'));
+			var drum = getDrum(event.key);
+			if (drum < 0) return;
+			play(drum, document.querySelector('[data-drum="' + drum + '"]'));
 
 		};
 
