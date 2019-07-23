@@ -1,6 +1,6 @@
 ---
 title: "How to approach JavaScript selectors with vanilla JS"
-date: 2019-07-22T10:30:00-04:00
+date: 2019-07-23T10:30:00-04:00
 draft: false
 categories:
 - Code

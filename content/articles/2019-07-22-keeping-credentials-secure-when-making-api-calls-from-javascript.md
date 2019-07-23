@@ -1,6 +1,6 @@
 ---
 title: "Keeping credentials secure when making API calls with JavaScript"
-date: 2019-07-21T10:30:00-04:00
+date: 2019-07-22T10:30:00-04:00
 draft: false
 categories:
 - Accessibility
