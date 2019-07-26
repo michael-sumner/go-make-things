@@ -1,5 +1,6 @@
 ---
-title: "How to add multiple to an element with vanilla JS"
+title: "How to add multiple styles to an element with vanilla JS"
+url: "/how-to-add-multiple-to-an-element-with-vanilla-js/"
 date: 2019-07-25T10:30:00-04:00
 draft: false
 categories:
