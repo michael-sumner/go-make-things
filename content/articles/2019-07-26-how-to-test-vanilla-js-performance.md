@@ -225,4 +225,6 @@ Relative performance isn't the only metric that matters. Just because one select
 
 Doing some quick back-of-the-napkin math, data attribute selectors can still run 4.62 operations a millisecond (10,000 operations / 2162ms to complete).
 
-Computer operations that take one-tenth of a second&mdash;100ms&mdash;feels instantaneous to humans. A data attribute selector could run 462 times in that time. In practical, real world applications, the performance differences between classes and data attributes are insignificant.
+Computer operations that take one-tenth of a second&mdash;100ms&mdash;feels instantaneous to humans. A data attribute selector could run 462 times in that time.
+
+In practical, real world applications, the performance differences between classes and data attributes are insignificant.
