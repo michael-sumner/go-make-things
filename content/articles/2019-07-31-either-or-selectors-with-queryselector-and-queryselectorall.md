@@ -20,7 +20,7 @@ document.querySelector('#vegetable, .fruit');
 
 // Gets all elements that have the [data-vegetable] attribute
 // or the .fruit class
-document.querySelector('[data-vegetable], .fruit');
+document.querySelectorAll('[data-vegetable], .fruit');
 ```
 
 I don't use this often, but it's super cool that I can!
