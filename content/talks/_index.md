@@ -26,6 +26,7 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 
 ## Podcast Appearances
 
+- [Localhost.fm](https://localhost.fm/2019/08/02/javascript-with-chris-ferdinandi.html), August 12, 2019
 - [The Entrepreneurial Coder Podcast](https://share.transistor.fm/s/2d10b271), July 11, 2019
 - [JS Party](https://changelog.com/jsparty/80), June 14, 2019
 - [The Shop Talk Show](https://shoptalkshow.com/episodes/365/), June 13, 2019
