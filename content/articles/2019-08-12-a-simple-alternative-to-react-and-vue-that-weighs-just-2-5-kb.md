@@ -27,7 +27,7 @@ var name = 'Josh Perez';
 var element = <h1>Hello, {name}</h1>;
 ```
 
-The thing is, you can enjoy that same syntax natively with [template literals].
+The thing is, you can enjoy that same syntax natively with [template literals](/template-literals-in-vanilla-js/).
 
 ```js
 // Vanilla JS
