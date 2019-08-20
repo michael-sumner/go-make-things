@@ -1,5 +1,5 @@
 ---
-title: "Dom diffing with vanilla JS: part 1"
+title: "DOM diffing with vanilla JS: part 1"
 date: 2019-08-19T10:30:00-04:00
 draft: false
 categories:
