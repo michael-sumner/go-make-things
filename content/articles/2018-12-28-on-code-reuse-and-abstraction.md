@@ -174,7 +174,7 @@ var filterAndAddProperties = function (selector, characters, lessThan) {
 	// Look for elements with textContent greater than 50 characters
 	var filtered = Array.from(elements).filter(function (element) {
 		if (lessThan) {
-			return element.textContent < characters;
+			return element.textContent.length < characters;
 		}
 		return element.textContent.length > characters;
 	});
@@ -208,7 +208,7 @@ var filterAndAddProperties = function (selector, callback, characters, lessThan)
 	// Look for elements with textContent greater than 50 characters
 	var filtered = Array.from(elements).filter(function (element) {
 		if (lessThan) {
-			return element.textContent < characters;
+			return element.textContent.length < characters;
 		}
 		return element.textContent.length > characters;
 	});
