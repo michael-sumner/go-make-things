@@ -26,6 +26,8 @@ How would you reverse the order of that list so that Dumbeldore was first and He
 
 Today, let's look at how I would approach this with vanilla JS.
 
+*__Update:__ apparently, what I think of as a linked list is not what people with computer science backgrounds think of. [A linked list in CS is a way of structuring data](https://code.tutsplus.com/articles/data-structures-with-javascript-singly-linked-list-and-doubly-linked-list--cms-23392), and is almost certainly what the interview question is about.*
+
 ## Getting all of the list items
 
 First, let's use `querySelectorAll()` to get every list item in our list.
