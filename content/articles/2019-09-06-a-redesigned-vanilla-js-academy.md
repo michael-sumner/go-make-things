@@ -4,18 +4,12 @@ date: 2019-09-06T10:30:00-04:00
 draft: false
 categories:
 - Accessibility
-- Art and Science
-- Business and Leadership
 - Careers
 - Code
 - CSS
-- Design and UX
 - HTML
 - JavaScript
-- Technology
 - Web Performance
-- WordPress
-- Vanilla Framework Demos
 ---
 
 After the last session of [the Vanilla JS Academy](https://vanillajsacademy.com), I decided it was time to makes some changes the program based on feedback from students and some observations I've made about how people learn.
