@@ -150,6 +150,14 @@ academyBuy:
             start: 20190407
             end: 20190407
 
+academyPre:
+    message: "<p><mark><em><strong>This week only, save 50%!</strong> As an insider, you can save 50% on Academy membership this week. Use the code <code>INSIDER</code> at checkout.</em></mark></p>"
+    limited:
+        1:
+            messsage: ""
+            start: 20190401
+            end: 20190405
+
 
 # https://vanillajspodcast.com
 podcast:
