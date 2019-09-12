@@ -20,6 +20,10 @@ bioShort:
 products:
     message: <ul class="list-spaced"><li><strong><a href="https://gomakethings.com/articles/">Daily Developer Tips.</a></strong> I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web.</li><li><strong><a href="https://vanillajsguides.com/">Guides &amp; Courses.</a></strong> Short, focused ebooks and video courses made for beginners. Start building real JavaScript projects in under an hour.</li><li><strong><a href="https://vanillajsprojects.com">Projects.</a></strong> Learn JavaScript by making things. You get starter templates, helpful tips and resources, and step-by-step tutorials.</li><li><strong><a href="https://vanillajsacademy.com/">Vanilla JS Academy.</a></strong> A project-based online JavaScript training program for beginners.</li></ul>
 
+# Events
+events:
+    message: <p><mark>🔥 <em><strong><a href="https://vanillajsacademy.com">The Vanilla JS Academy</a> starts on October 14.</strong> As a special bonus, you can save 30% on registration with the code <code>TALK</code> at checkout. <a href="https://vanillajsacademy.com">Click here to register.</a></em></mark></p>
+
 # https://gomakethings.com
 home:
     message: "<p><mark>🚀 <em><strong>Make {{year}} the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com/'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
