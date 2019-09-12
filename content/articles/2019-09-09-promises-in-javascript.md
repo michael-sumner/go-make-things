@@ -213,4 +213,4 @@ Promises were introduced in ES6.
 
 They work in all modern browsers, including Edge, but not IE. They also work in newer mobile browsers, but not older ones. They came to iOS with Safari 8, for example.
 
-They can polyfilled, though. I'd recommend either [the es6-polyfill from Stefan Penner](https://github.com/stefanpenner/es6-promise), or [polyfill.io](https://polyfill.io), which includes it by default for browsers that don't support it.
+They can polyfilled, though. I'd recommend either [the promise-polyfill from Tayler Hakes](https://github.com/taylorhakes/promise-polyfill), or [polyfill.io](https://polyfill.io), which includes it by default for browsers that don't support it.
