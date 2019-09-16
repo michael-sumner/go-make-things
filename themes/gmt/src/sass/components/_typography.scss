@@ -27,6 +27,12 @@ body {
 	@media (min-width: $bp-medium) {
 		line-height: $spacing;
 	}
+
+	@media (prefers-color-scheme: dark) {
+		background: $color-black;
+		border-top-color: $color-gray-dark;
+		color: $color-white;
+	}
 }
 
 p {
@@ -65,6 +71,20 @@ a {
 
 	&:visited {
 		color: $color-accent;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		color: $color-primary-dark;
+
+		&:active,
+		&:focus,
+		&:hover {
+			color: darken( $color-primary-dark, 15% );
+		}
+
+		&:visited {
+			color: $color-accent-dark;
+		}
 	}
 }
 
@@ -281,6 +301,10 @@ hr {
 	box-sizing: content-box; /* 1 */
 	margin: calc-em(32px) auto;
 	overflow: visible; /* 2 */
+
+	@media (prefers-color-scheme: dark) {
+		border-top-color: $color-gray-dark;
+	}
 }
 
 .line-secondary {
@@ -363,10 +387,13 @@ dfn {
  * Address styling not present in IE 8/9.
  */
 mark {
-	// background: #fffcb8;
-	// background-image: linear-gradient(to right, #fffcb8 0%, #fbf9c9 100%);
 	background: #fbf9c9;
 	color: $color-black;
+
+	@media (prefers-color-scheme: dark) {
+		background: transparent;
+		color: $color-white;
+	}
 }
 
 /**
