@@ -127,6 +127,10 @@ a.link-block {
 	color: $color-black;
 	display: block;
 	text-decoration: none;
+
+	@media (prefers-color-scheme: dark) {
+		color: $color-white;
+	}
 }
 
 .link-block-styled {

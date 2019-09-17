@@ -108,6 +108,11 @@ textarea {
 	width: auto;
 }
 
+[type="checkbox"],
+[type="radio"] {
+	margin-right: 0.25em;
+}
+
 /**
  * Fix the cursor style for Chrome's increment/decrement buttons. For certain
  * `font-size` values of the `input`, it causes the cursor style of the

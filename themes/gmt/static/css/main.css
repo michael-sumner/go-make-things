@@ -452,17 +452,24 @@ a.link-block, .link-block.link-block-styled {
   text-decoration: none;
 }
 
+@media (prefers-color-scheme: dark) {
+  /* line 126, src/sass/components/_typography.scss */
+  a.link-block, .link-block.link-block-styled {
+    color: #ffffff;
+  }
+}
+
 /**
  * List styling
  */
-/* line 145, src/sass/components/_typography.scss */
+/* line 149, src/sass/components/_typography.scss */
 ul,
 ol {
   margin: 0 0 1.5625em 2em;
   padding: 0;
 }
 
-/* line 151, src/sass/components/_typography.scss */
+/* line 155, src/sass/components/_typography.scss */
 ul ul,
 ul ol,
 ol ol,
@@ -470,43 +477,43 @@ ol ul {
   margin-bottom: 0;
 }
 
-/* line 158, src/sass/components/_typography.scss */
+/* line 162, src/sass/components/_typography.scss */
 li {
   margin-bottom: 0.5em;
 }
 
 @media (min-width: 38em) {
-  /* line 158, src/sass/components/_typography.scss */
+  /* line 162, src/sass/components/_typography.scss */
   li {
     margin-bottom: 0.25em;
   }
 }
 
-/* line 165, src/sass/components/_typography.scss */
+/* line 169, src/sass/components/_typography.scss */
 .list-spaced li {
   margin-bottom: 1em;
 }
 
 @media (min-width: 38em) {
-  /* line 165, src/sass/components/_typography.scss */
+  /* line 169, src/sass/components/_typography.scss */
   .list-spaced li {
     margin-bottom: 0.6875em;
   }
 }
 
-/* line 174, src/sass/components/_typography.scss */
+/* line 178, src/sass/components/_typography.scss */
 dl,
 dd {
   margin: 0;
   padding: 0;
 }
 
-/* line 180, src/sass/components/_typography.scss */
+/* line 184, src/sass/components/_typography.scss */
 dd {
   margin-bottom: 1.5625em;
 }
 
-/* line 184, src/sass/components/_typography.scss */
+/* line 188, src/sass/components/_typography.scss */
 dt {
   font-weight: bold;
 }
@@ -515,7 +522,7 @@ dt {
  * Removes list styling.
  * For semantic reasons, should only be used on unordered lists.
  */
-/* line 192, src/sass/components/_typography.scss */
+/* line 196, src/sass/components/_typography.scss */
 .list-unstyled {
   margin-left: 0;
   list-style: none;
@@ -524,7 +531,7 @@ dt {
 /**
  * Display lists on a single line.
  */
-/* line 201, src/sass/components/_typography.scss */
+/* line 205, src/sass/components/_typography.scss */
 .list-inline {
   list-style: none;
   margin-left: -0.5em;
@@ -532,7 +539,7 @@ dt {
   padding: 0;
 }
 
-/* line 207, src/sass/components/_typography.scss */
+/* line 211, src/sass/components/_typography.scss */
 .list-inline li {
   display: inline-block;
   margin-left: 0.5em;
@@ -540,19 +547,19 @@ dt {
 }
 
 @media (max-width: 38em) {
-  /* line 214, src/sass/components/_typography.scss */
+  /* line 218, src/sass/components/_typography.scss */
   .list-inline.list-inline-responsive li {
     display: block;
   }
 }
 
-/* line 220, src/sass/components/_typography.scss */
+/* line 224, src/sass/components/_typography.scss */
 .list-inline-spaced {
   margin-left: -1.3125em;
   margin-right: -1.3125em;
 }
 
-/* line 224, src/sass/components/_typography.scss */
+/* line 228, src/sass/components/_typography.scss */
 .list-inline-spaced li {
   display: inline-block;
   margin-left: 1.3125em;
@@ -564,7 +571,7 @@ dt {
  * 1. Add a non-breaking space
  * 2. Make sure it doesn't mess up the DOM flow
  */
-/* line 238, src/sass/components/_typography.scss */
+/* line 242, src/sass/components/_typography.scss */
 .list-unstyled li:before,
 .list-inline li:before {
   content: "\200B";
@@ -577,7 +584,7 @@ dt {
  * Heading styling for h1 through h6 elements.
  * Heading class lets you use one heading type for semantics, but style it as another heading type.
  */
-/* line 250, src/sass/components/_typography.scss */
+/* line 254, src/sass/components/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   line-height: 1.2;
@@ -586,7 +593,7 @@ h1, h2, h3, h4, h5, h6 {
   word-wrap: break-word;
 }
 
-/* line 258, src/sass/components/_typography.scss */
+/* line 262, src/sass/components/_typography.scss */
 h1,
 .h1 {
   font-size: 1.5em;
@@ -594,32 +601,32 @@ h1,
 }
 
 @media (min-width: 38em) {
-  /* line 258, src/sass/components/_typography.scss */
+  /* line 262, src/sass/components/_typography.scss */
   h1,
   .h1 {
     font-size: 1.75em;
   }
 }
 
-/* line 268, src/sass/components/_typography.scss */
+/* line 272, src/sass/components/_typography.scss */
 h2,
 .h2 {
   font-size: 1.3125em;
 }
 
-/* line 273, src/sass/components/_typography.scss */
+/* line 277, src/sass/components/_typography.scss */
 h3,
 .h3 {
   font-size: 1.1875em;
 }
 
-/* line 278, src/sass/components/_typography.scss */
+/* line 282, src/sass/components/_typography.scss */
 h4, h5, h6,
 .h4, .h5, .h6 {
   font-size: 1em;
 }
 
-/* line 283, src/sass/components/_typography.scss */
+/* line 287, src/sass/components/_typography.scss */
 h4,
 .h4 {
   text-transform: uppercase;
@@ -632,7 +639,7 @@ h4,
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 297, src/sass/components/_typography.scss */
+/* line 301, src/sass/components/_typography.scss */
 hr {
   border: 0;
   border-top: 1px solid #e5e5e5;
@@ -646,28 +653,28 @@ hr {
 }
 
 @media (prefers-color-scheme: dark) {
-  /* line 297, src/sass/components/_typography.scss */
+  /* line 301, src/sass/components/_typography.scss */
   hr {
     border-top-color: #808080;
   }
 }
 
-/* line 310, src/sass/components/_typography.scss */
+/* line 314, src/sass/components/_typography.scss */
 .line-secondary {
   width: 50%;
 }
 
-/* line 314, src/sass/components/_typography.scss */
+/* line 318, src/sass/components/_typography.scss */
 .line-clear {
   border-top-color: transparent;
 }
 
-/* line 318, src/sass/components/_typography.scss */
+/* line 322, src/sass/components/_typography.scss */
 .line-heading {
   position: relative;
 }
 
-/* line 321, src/sass/components/_typography.scss */
+/* line 325, src/sass/components/_typography.scss */
 .line-heading:after {
   background-color: #ffffff;
   content: attr(data-heading);
@@ -683,21 +690,21 @@ hr {
 }
 
 @media (min-width: 28em) {
-  /* line 335, src/sass/components/_typography.scss */
+  /* line 339, src/sass/components/_typography.scss */
   .line-heading[data-heading-small]:after {
     content: attr(data-heading-small);
   }
 }
 
 @media (min-width: 38em) {
-  /* line 341, src/sass/components/_typography.scss */
+  /* line 345, src/sass/components/_typography.scss */
   .line-heading[data-heading-medium]:after {
     content: attr(data-heading-medium);
   }
 }
 
 @media (min-width: 60em) {
-  /* line 347, src/sass/components/_typography.scss */
+  /* line 351, src/sass/components/_typography.scss */
   .line-heading[data-heading-large]:after {
     content: attr(data-heading-large);
   }
@@ -706,7 +713,7 @@ hr {
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
-/* line 356, src/sass/components/_typography.scss */
+/* line 360, src/sass/components/_typography.scss */
 b,
 strong {
   font-weight: inherit;
@@ -715,7 +722,7 @@ strong {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 364, src/sass/components/_typography.scss */
+/* line 368, src/sass/components/_typography.scss */
 b,
 strong {
   font-weight: bolder;
@@ -725,7 +732,7 @@ strong {
  * 1. Remove the bottom border in Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 373, src/sass/components/_typography.scss */
+/* line 377, src/sass/components/_typography.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -739,7 +746,7 @@ abbr[title] {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 382, src/sass/components/_typography.scss */
+/* line 386, src/sass/components/_typography.scss */
 dfn {
   font-style: italic;
 }
@@ -747,14 +754,14 @@ dfn {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 389, src/sass/components/_typography.scss */
+/* line 393, src/sass/components/_typography.scss */
 mark {
   background: #fbf9c9;
   color: #272727;
 }
 
 @media (prefers-color-scheme: dark) {
-  /* line 389, src/sass/components/_typography.scss */
+  /* line 393, src/sass/components/_typography.scss */
   mark {
     background: transparent;
     color: #ffffff;
@@ -764,7 +771,7 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 402, src/sass/components/_typography.scss */
+/* line 406, src/sass/components/_typography.scss */
 small {
   font-size: 80%;
 }
@@ -772,7 +779,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 409, src/sass/components/_typography.scss */
+/* line 413, src/sass/components/_typography.scss */
 sub,
 sup {
   font-size: 75%;
@@ -781,12 +788,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 417, src/sass/components/_typography.scss */
+/* line 421, src/sass/components/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 421, src/sass/components/_typography.scss */
+/* line 425, src/sass/components/_typography.scss */
 sub {
   bottom: -0.25em;
 }
@@ -794,7 +801,7 @@ sub {
 /**
  * Blockquotes
  */
-/* line 430, src/sass/components/_typography.scss */
+/* line 434, src/sass/components/_typography.scss */
 blockquote {
   border-left: 0.25em solid #e5e5e5;
   font-style: italic;
@@ -803,25 +810,25 @@ blockquote {
   padding-right: 1em;
 }
 
-/* line 438, src/sass/components/_typography.scss */
+/* line 442, src/sass/components/_typography.scss */
 blockquote cite {
   color: #808080;
   font-size: 0.9375em;
   padding-top: 1em;
 }
 
-/* line 444, src/sass/components/_typography.scss */
+/* line 448, src/sass/components/_typography.scss */
 blockquote pre {
   font-style: normal;
 }
 
-/* line 449, src/sass/components/_typography.scss */
+/* line 453, src/sass/components/_typography.scss */
 blockquote,
 q {
   quotes: none;
 }
 
-/* line 454, src/sass/components/_typography.scss */
+/* line 458, src/sass/components/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -1385,18 +1392,24 @@ textarea {
   width: auto;
 }
 
+/* line 111, src/sass/components/_forms.scss */
+[type="checkbox"],
+[type="radio"] {
+  margin-right: 0.25em;
+}
+
 /**
  * Fix the cursor style for Chrome's increment/decrement buttons. For certain
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 116, src/sass/components/_forms.scss */
+/* line 121, src/sass/components/_forms.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 121, src/sass/components/_forms.scss */
+/* line 126, src/sass/components/_forms.scss */
 input:focus,
 textarea:focus {
   border-color: rgba(82, 168, 236, 0.8);
@@ -1406,7 +1419,7 @@ textarea:focus {
   outline: thin dotted \9;
 }
 
-/* line 129, src/sass/components/_forms.scss */
+/* line 134, src/sass/components/_forms.scss */
 [type="file"]:focus,
 [type="checkbox"]:focus,
 select:focus {
@@ -1418,7 +1431,7 @@ select:focus {
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 141, src/sass/components/_forms.scss */
+/* line 146, src/sass/components/_forms.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -1430,7 +1443,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 153, src/sass/components/_forms.scss */
+/* line 158, src/sass/components/_forms.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -1442,7 +1455,7 @@ button:-moz-focusring,
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 165, src/sass/components/_forms.scss */
+/* line 170, src/sass/components/_forms.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -1453,7 +1466,7 @@ button:-moz-focusring,
 /**
  * Inline inputs
  */
-/* line 174, src/sass/components/_forms.scss */
+/* line 179, src/sass/components/_forms.scss */
 .input-inline {
   display: inline-block;
   vertical-align: middle;
@@ -1467,7 +1480,7 @@ button:-moz-focusring,
   * 1. Correct the odd appearance in Chrome and Safari.
   * 2. Correct the outline style in Safari.
   */
-/* line 199, src/sass/components/_forms.scss */
+/* line 204, src/sass/components/_forms.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -1480,7 +1493,7 @@ button:-moz-focusring,
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 209, src/sass/components/_forms.scss */
+/* line 214, src/sass/components/_forms.scss */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -1489,7 +1502,7 @@ button:-moz-focusring,
 /**
  * Create rounded search bar
  */
-/* line 218, src/sass/components/_forms.scss */
+/* line 223, src/sass/components/_forms.scss */
 .input-search {
   width: 85%;
   padding-left: 0.9375em;
@@ -1500,7 +1513,7 @@ button:-moz-focusring,
 }
 
 @media (min-width: 38em) {
-  /* line 218, src/sass/components/_forms.scss */
+  /* line 223, src/sass/components/_forms.scss */
   .input-search {
     width: 65%;
   }
@@ -1509,7 +1522,7 @@ button:-moz-focusring,
 /**
  * Special styling for search icon as button
  */
-/* line 234, src/sass/components/_forms.scss */
+/* line 239, src/sass/components/_forms.scss */
 .btn-search {
   display: inline;
   color: #808080;
@@ -1519,30 +1532,30 @@ button:-moz-focusring,
   margin-bottom: 0;
 }
 
-/* line 242, src/sass/components/_forms.scss */
+/* line 247, src/sass/components/_forms.scss */
 .btn-search svg {
   fill: #808080;
 }
 
 @media (prefers-color-scheme: dark) {
-  /* line 242, src/sass/components/_forms.scss */
+  /* line 247, src/sass/components/_forms.scss */
   .btn-search svg {
     fill: #272727;
   }
 }
 
-/* line 250, src/sass/components/_forms.scss */
+/* line 255, src/sass/components/_forms.scss */
 .btn-search:hover {
   color: #5a5a5a;
 }
 
-/* line 253, src/sass/components/_forms.scss */
+/* line 258, src/sass/components/_forms.scss */
 .btn-search:hover svg {
   fill: #5a5a5a;
 }
 
 @media (prefers-color-scheme: dark) {
-  /* line 253, src/sass/components/_forms.scss */
+  /* line 258, src/sass/components/_forms.scss */
   .btn-search:hover svg {
     fill: #000000;
   }
