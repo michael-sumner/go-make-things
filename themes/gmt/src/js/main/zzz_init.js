@@ -21,3 +21,6 @@ if (document.querySelector('#mailchimp-form')) {
 if (document.body.matches('.type-articles.page-single') || document.body.matches('#page-54a32daa7699b0585cab71188bd8c152')) {
 	addHeadingLinks('h2, h3, h4, h5, h6', '#', 'link-no-underline');
 }
+
+// Easter Egg
+easterEgg();
