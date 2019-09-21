@@ -25,11 +25,11 @@ events:
     message: ""
     limited:
         1:
-            message: <p><mark>🚀 <em><strong>A completedly redesigned <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 14.</strong> As a special bonus, you can save 30% on registration with the code <code>TALK</code> at checkout. <a href="https://vanillajsacademy.com">Click here to register.</a></em></mark></p>
+            message: <p><mark>🚀 <em><strong>A completedly redesigned <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 14.</strong> As a special bonus, you can save 40% on registration with the code <code>TALK</code> at checkout. <a href="https://vanillajsacademy.com">Click here to register.</a></em></mark></p>
             start: 20190915
             end: 20191013
         2:
-            message: <p><mark>🚀 <em><strong>A brand new <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> just started</strong>, but it's not too late to join. As a special bonus, you can save 30% on registration with the code <code>TALK</code> at checkout. <a href="https://vanillajsacademy.com">Click here to register.</a></em></mark></p>
+            message: <p><mark>🚀 <em><strong>A brand new <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> just started</strong>, but it's not too late to join. As a special bonus, you can save 40% on registration with the code <code>TALK</code> at checkout. <a href="https://vanillajsacademy.com">Click here to register.</a></em></mark></p>
             start: 20191014
             end: 20191021
 
