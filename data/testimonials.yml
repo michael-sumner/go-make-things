@@ -272,6 +272,12 @@ terryMafura:
     photo: "/img/testimonials/terry-mafura.jpg"
     quote: "I highly recommend this Newsletter. Chris has been very helpful in my learning journey and these tips are 🔥🔥. You’ll appreciate and understand JavaScript more and more."
 
+calebStauffer:
+    name: "Caleb Stauffer"
+    url: "http://develop.calebstauffer.com/"
+    photo: "/img/testimonials/caleb-stauffer.jpg"
+    quote: "This has easily been the most valuable newsletter I have ever subscribed to. Thank you very much for sharing and educating!"
+
 # The Lean Web
 
 stevenSlack:
