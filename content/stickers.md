@@ -11,16 +11,16 @@ Each sticker is about 1.5 inches tall and wide.
 
 <div class="row">
 	<div class="grid-fourth margin-bottom-small">
-		<img alt="" src="/img/stickers/logo1.png">
+		<img alt="" src="/img/stickers/logo1.jpg">
 	</div>
 	<div class="grid-fourth margin-bottom-small">
-		<img alt="" src="/img/stickers/academy.png">
+		<img alt="" src="/img/stickers/academy.jpg">
 	</div>
 	<div class="grid-fourth margin-bottom-small">
-		<img alt="" src="/img/stickers/lean-web.png">
+		<img alt="" src="/img/stickers/lean-web.jpg">
 	</div>
 	<div class="grid-fourth margin-bottom-small">
-		<img alt="" src="/img/stickers/vanillajs1.png">
+		<img alt="" src="/img/stickers/vanillajs1.jpg">
 	</div>
 </div>
 
