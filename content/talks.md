@@ -10,13 +10,8 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 
 ## Talks
 
-**Upcoming Events**
-
-- [JavaScript for WordPress](https://javascriptforwp.com/conference/), July 12, 2019
 - [Artifact](https://artifactconf.com/), September 30 – October 1, 2019
-
-**Past Events**
-
+- [JavaScript for WordPress](https://javascriptforwp.com/conference/), July 12, 2019
 - [CSS Boston](https://www.meetup.com/Boston-CSS/), January 23, 2018
 - [WordPress RI Meetup](https://www.meetup.com/WordPressRI/events/238200558/), September 30, 2016
 - [WordCamp RI 2016](https://2016.rhodeisland.wordcamp.org/), September 30, 2016
@@ -38,3 +33,5 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 - [Developer Tea](https://spec.fm/podcasts/developer-tea/79721), August 4, 2017
 - [The Shop Talk Show](https://shoptalkshow.com/episodes/274-vanilla-js-chris-ferdinandi/), August 1, 2017
 - [The JavaScript for WP Show](https://www.youtube.com/watch?v=WLrcnQIRqQ0), May 30 2017
+
+You can also listen to me on the [Vanilla JS Podcast](https://vanillajspodcast.com/).
