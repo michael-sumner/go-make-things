@@ -41,7 +41,7 @@
 			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/css/main.min.css" | safeCSS }}{{ else }}{{ readFile "/themes/gmt/static/css/main.css" | safeCSS }}{{ end }}
 			{{- if false -}}{{- if ne $.Site.Params.font "" -}}{{ readFile "/themes/gmt/static/css/fonts.css" | safeCSS }}{{- end -}}{{- end -}}
 		</style>
-		{{- if ne $.Site.Params.font "" -}}<link id="fonts" rel="stylesheet" media="none" href="{{ $.Site.Params.font }}">{{- end -}}
+		{{- if ne $.Site.Params.font "" -}}<link rel="stylesheet" href="{{ $.Site.Params.font }}">{{- end -}}
 
 		<!-- Feature Detection -->
 		<script>
