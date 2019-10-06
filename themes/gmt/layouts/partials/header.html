@@ -40,7 +40,7 @@
 		<style type="text/css">
 			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/css/main.min.css" | safeCSS }}{{ else }}{{ readFile "/themes/gmt/static/css/main.css" | safeCSS }}{{ end }}
 		</style>
-		{{- if ne $.Site.Params.font "" -}}<link href="{{ $.Site.Params.font }}" rel="stylesheet">{{- end -}}
+		{{- if ne $.Site.Params.font "" -}}<link rel="preload" href="{{ $.Site.Params.font }}" as="style" onload="this.onload=null;this.rel='stylesheet'">{{- end -}}
 
 		<!-- Feature Detection -->
 		<script>
