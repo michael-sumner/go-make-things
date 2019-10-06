@@ -39,10 +39,9 @@
 		<!-- Stylesheet -->
 		<style type="text/css">
 			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/css/main.min.css" | safeCSS }}{{ else }}{{ readFile "/themes/gmt/static/css/main.css" | safeCSS }}{{ end }}
-			{{- if false -}}{{- if ne $.Site.Params.font "" -}}{{ readFile "/themes/gmt/static/css/fonts.css" | safeCSS }}{{- end -}}{{- end -}}
+			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/css/fonts.min.css" | safeCSS }}{{ else }}{{ readFile "/themes/gmt/static/css/fonts.css" | safeCSS }}{{ end }}
 		</style>
 		{{- if false -}}{{- if ne $.Site.Params.font "" -}}<link rel="stylesheet" href="{{ $.Site.Params.font }}">{{- end -}}{{- end -}}
-		{{- if ne $.Site.Params.font "" -}}<link rel="preload" href="{{ $.Site.Params.font }}" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="">{{- end -}}
 
 		<!-- Feature Detection -->
 		<script>

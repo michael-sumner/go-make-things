@@ -1,4 +1,8 @@
-var loadFonts = function () {
+(function () {
+	if (getCookie('fonts-loaded')) {
+		document.documentElement.className += ' fonts-loaded';
+		return;
+	}
 	if (!('fonts' in document)) return;
 	Promise.all([
 		document.fonts.load('1em PT Serif'),
@@ -10,4 +14,4 @@ var loadFonts = function () {
 		document.cookie = 'fontsLoaded=true; expires=' + expires;
 		document.documentElement.className += ' fonts-loaded';
 	});
-};
+})();

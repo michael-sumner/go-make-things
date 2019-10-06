@@ -1,3 +1,0 @@
-if (getCookie('fontsLoaded')) {
-	loadFonts();
-}

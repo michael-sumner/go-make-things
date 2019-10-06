@@ -17,14 +17,12 @@ var getCookie = function (name) {
 	var parts = value.split("; " + name + "=");
 	if (parts.length == 2) return parts.pop().split(";").shift();
 };
-var getFonts = function () {
-	var fonts = document.querySelector('#fonts');
-	if (!fonts) return;
-	fonts.media = 'all';
-};
-var loadFonts = function () {
+(function () {
+	if (getCookie('fonts-loaded')) {
+		document.documentElement.className += ' fonts-loaded';
+		return;
+	}
 	if (!('fonts' in document)) return;
-	getFonts();
 	Promise.all([
 		document.fonts.load('1em PT Serif'),
 		document.fonts.load('italic 1em PT Serif'),
@@ -35,7 +33,4 @@ var loadFonts = function () {
 		document.cookie = 'fontsLoaded=true; expires=' + expires;
 		document.documentElement.className += ' fonts-loaded';
 	}));
-};
-if (getCookie('fontsLoaded')) {
-	loadFonts();
-}
+})();

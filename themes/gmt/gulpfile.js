@@ -216,7 +216,8 @@ var buildStyles = function (done) {
 		.pipe(minify({
 			discardComments: {
 				removeAll: true
-			}
+			},
+			discardUnused: false
 		}))
 		.pipe(header(banner.min, { package : package }))
 		.pipe(dest(paths.styles.output));
