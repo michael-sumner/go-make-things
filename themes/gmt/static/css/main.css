@@ -758,6 +758,7 @@ dfn {
 mark {
   background: #fbf9c9;
   color: #272727;
+  font-family: inherit;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -771,7 +772,7 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 406, src/sass/components/_typography.scss */
+/* line 407, src/sass/components/_typography.scss */
 small {
   font-size: 80%;
 }
@@ -779,7 +780,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 413, src/sass/components/_typography.scss */
+/* line 414, src/sass/components/_typography.scss */
 sub,
 sup {
   font-size: 75%;
@@ -788,12 +789,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 421, src/sass/components/_typography.scss */
+/* line 422, src/sass/components/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 425, src/sass/components/_typography.scss */
+/* line 426, src/sass/components/_typography.scss */
 sub {
   bottom: -0.25em;
 }
@@ -801,7 +802,7 @@ sub {
 /**
  * Blockquotes
  */
-/* line 434, src/sass/components/_typography.scss */
+/* line 435, src/sass/components/_typography.scss */
 blockquote {
   border-left: 0.25em solid #e5e5e5;
   font-style: italic;
@@ -810,25 +811,25 @@ blockquote {
   padding-right: 1em;
 }
 
-/* line 442, src/sass/components/_typography.scss */
+/* line 443, src/sass/components/_typography.scss */
 blockquote cite {
   color: #808080;
   font-size: 0.9375em;
   padding-top: 1em;
 }
 
-/* line 448, src/sass/components/_typography.scss */
+/* line 449, src/sass/components/_typography.scss */
 blockquote pre {
   font-style: normal;
 }
 
-/* line 453, src/sass/components/_typography.scss */
+/* line 454, src/sass/components/_typography.scss */
 blockquote,
 q {
   quotes: none;
 }
 
-/* line 458, src/sass/components/_typography.scss */
+/* line 459, src/sass/components/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -1573,7 +1574,7 @@ button:-moz-focusring,
 @media (prefers-color-scheme: dark) {
   /* line 6, src/sass/components/_form-validation.scss */
   .error {
-    border-color: ighten(#fa7176, 15%);
+    border-color: #fdbbbd;
   }
 }
 
