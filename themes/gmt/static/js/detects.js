@@ -26,7 +26,7 @@ var getCookie = function (name) {
 		document.documentElement.className += ' fonts-loaded';
 		return;
 	}
-	document.fonts.ready.then((function () {
+	document.fonts.load('italic bold 1em PT Serif').then((function () {
 		var expires = new Date(+new Date() + (7 * 24 * 60 * 60 * 1000)).toUTCString();
 		document.cookie = 'fontsLoaded=true; expires=' + expires;
 		document.documentElement.className += ' fonts-loaded';
