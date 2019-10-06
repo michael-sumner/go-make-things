@@ -1,6 +1,5 @@
 var loadFonts = function () {
 	if (!('fonts' in document)) return;
-	getFonts();
 	Promise.all([
 		document.fonts.load('1em PT Serif'),
 		document.fonts.load('italic 1em PT Serif'),
