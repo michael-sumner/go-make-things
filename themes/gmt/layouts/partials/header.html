@@ -41,10 +41,8 @@
 			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/css/main.min.css" | safeCSS }}{{ else }}{{ readFile "/themes/gmt/static/css/main.css" | safeCSS }}{{ end }}
 		</style>
 
-		<!-- Feature Detection -->
-		<script>
-			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/js/detects.min.js" | safeJS }}{{ else }}{{ readFile "/themes/gmt/static/js/detects.js" | safeJS }}{{ end }}
-		</script>
+		<!-- Custom Font -->
+		{{- if ne $.Site.Params.font "" -}}<link rel="stylesheet" type="text/css" href="{{ $.Site.Params.font }}">{{- end -}}
 	</head>
 
 	<body class="type-{{ .Type }} {{ if .IsPage }}page-single{{ else }}page-list{{ end }}" id="page-{{ .UniqueID }}">
