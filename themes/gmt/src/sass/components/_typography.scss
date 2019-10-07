@@ -29,6 +29,10 @@ body {
 		border-top-color: $color-gray-dark;
 		color: $color-white;
 	}
+
+	.fonts-loaded & {
+		font-family: $font-enhanced;
+	}
 }
 
 p {
