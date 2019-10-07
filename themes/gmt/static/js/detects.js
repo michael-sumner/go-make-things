@@ -122,6 +122,12 @@
  */
 (function () {
 
+	// If cached
+	if (sessionStorage.getItem('fontsLoaded')) {
+		document.documentElement.className += ' fonts-loaded';
+		return;
+	}
+
 	// If fonts property is not supported, bail
 	if (!('fonts' in document)) return;
 
@@ -133,6 +139,7 @@
 		document.fonts.load('italic 700 1em PT Serif')
 	]).then((function () {
 		document.documentElement.className += ' fonts-loaded';
+		sessionStorage.setItem('fontsLoaded', true);
 	}));
 
 })();
