@@ -41,13 +41,13 @@
 			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/css/main.min.css" | safeCSS }}{{ else }}{{ readFile "/themes/gmt/static/css/main.css" | safeCSS }}{{ end }}
 		</style>
 
-		<!-- Custom Font -->
-		{{- if ne $.Site.Params.font "" -}}<link rel="preload"  as="style" onload="this.onload=null;this.rel='stylesheet'" href="{{ $.Site.Params.font }}">{{- end -}}
-
 		<!-- Font Loading -->
 		{{- if ne $.Site.Params.font "" -}}
 		<script>
-			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/js/detects.min.js" | safeJS }}{{ else }}{{ readFile "/themes/gmt/static/js/detects.js" | safeJS }}{{ end }}
+			(function () {
+				var font = '{{ $.Site.Params.font }}';
+				{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/js/fonts.min.js" | safeJS }}{{ else }}{{ readFile "/themes/gmt/static/js/fonts.js" | safeJS }}{{ end }}
+			})();
 		</script>
 		{{- end -}}
 	</head>
