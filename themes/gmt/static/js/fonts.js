@@ -6,9 +6,16 @@
  * http://github.com/cferdinandi/go-make-things
  */
 
-// Lazy Load Custom Fonts
+/**
+ * Lazy Load Custom Fonts
+ */
+
 (function () {
 
+	// If fonts property is not supported, bail
+	if (!('fonts' in document)) return;
+
+	// Load the font
 	var loadCSS = function (href) {
 
 		// Variables
@@ -66,9 +73,10 @@
 
 	};
 
+	// Load the typeface
 	loadCSS(font);
 
-	if (!('fonts' in document)) return;
+	// On load, add class
 	Promise.all([
 		document.fonts.load('1em PT Serif'),
 		document.fonts.load('700 1em PT Serif'),
@@ -76,8 +84,6 @@
 		document.fonts.load('italic 700 1em PT Serif')
 	]).then((function () {
 		document.documentElement.className += ' fonts-loaded';
-		// Optimization for Repeat Views
-		// sessionStorage.fontsLoadedFoutWithClass = true;
 	}));
 
 })();
