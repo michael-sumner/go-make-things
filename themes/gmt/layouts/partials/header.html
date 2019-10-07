@@ -42,12 +42,17 @@
 		</style>
 
 		<!-- Custom Font -->
-		{{- if ne $.Site.Params.font "" -}}<link rel="stylesheet" type="text/css" href="{{ $.Site.Params.font }}">{{- end -}}
+		{{- if false -}}{{- if ne $.Site.Params.font "" -}}<link rel="stylesheet" type="text/css" href="{{ $.Site.Params.font }}">{{- end -}}{{- end -}}
 
 		<!-- Font Loading -->
+		{{- if ne $.Site.Params.font "" -}}
 		<script>
-			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/js/fonts.min.js" | safeJS }}{{ else }}{{ readFile "/themes/gmt/static/js/fonts.js" | safeJS }}{{ end }}
+			(function () {
+				var font = '{{ $.Site.Params.font }}';
+				{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/js/fonts.min.js" | safeJS }}{{ else }}{{ readFile "/themes/gmt/static/js/fonts.js" | safeJS }}{{ end }}
+			})();
 		</script>
+		{{- end -}}
 	</head>
 
 	<body class="type-{{ .Type }} {{ if .IsPage }}page-single{{ else }}page-list{{ end }}" id="page-{{ .UniqueID }}">
