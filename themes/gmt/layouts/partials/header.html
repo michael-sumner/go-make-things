@@ -40,9 +40,6 @@
 		<style type="text/css">
 			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/css/main.min.css" | safeCSS }}{{ else }}{{ readFile "/themes/gmt/static/css/main.css" | safeCSS }}{{ end }}
 		</style>
-
-		<!-- Custom Font -->
-		{{- if ne $.Site.Params.font "" -}}<link rel="stylesheet" type="text/css" href="{{ $.Site.Params.font }}">{{- end -}}
 	</head>
 
 	<body class="type-{{ .Type }} {{ if .IsPage }}page-single{{ else }}page-list{{ end }}" id="page-{{ .UniqueID }}">
