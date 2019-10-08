@@ -98,7 +98,7 @@ for (var i = 0; i < sandwiches.length; i++) {
 }
 ```
 
-Transpiling also works for operators and expressions&mdash;things that you can support with polyfills or helper functions.
+Transpiling also works for operators and expressions&mdash;things that you can't support with polyfills or helper functions.
 
 It can convert `let` and `const` to properly scoped `var` declarations, convert arrow functions to traditional ones, convert spread syntax to other approaches, and more.
 
