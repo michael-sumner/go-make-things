@@ -56,9 +56,9 @@ projectsIndividual:
 # Academy
 academy:
     prices:
-        price: "<del>$799</del> $479"
+        price: "<del>$799</del> $559"
     start: 20190923
-    end: 20191001
+    end: 20191014
 
 # Office Hours
 officeHours:
