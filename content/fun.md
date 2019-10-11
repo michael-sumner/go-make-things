@@ -13,3 +13,4 @@ You just unlocked the secret games section of the site. Rad!
 - [Monsters!](/fun/monsters/)
 - [Memory](/fun/memory/)
 - [Drum Machine](/fun/drum-machine/)
+- [Whack-a-Mole](/fun/whack-a-mole/)
