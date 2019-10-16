@@ -1,6 +1,6 @@
 ---
 title: "How to recreate the lodash partition() method with vanilla JS"
-date: 2019-10-15T10:30:00-04:00
+date: 2019-10-16T10:30:00-04:00
 draft: false
 categories:
 - Code
