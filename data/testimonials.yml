@@ -309,3 +309,9 @@ treyPiepmeier:
     url: "https://twitter.com/trey/status/1149671443199746049"
     photo: "/img/testimonials/trey-piepmeier.jpg"
     quote: "I may or may not be yelling “Amen!” at the screen."
+
+chrisCoyier2:
+    name: "Chris Coyier"
+    url: "https://css-tricks.com/newsletter/168/"
+    photo: "/img/testimonials/chris-coyier.jpg"
+    quote: "The Lean Web is infinitely quote-worthy."
