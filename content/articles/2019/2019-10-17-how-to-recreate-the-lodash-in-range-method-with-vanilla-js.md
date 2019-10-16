@@ -1,5 +1,5 @@
 ---
-title: "How to recreate the lodash in range method with vanilla JS"
+title: "How to recreate the lodash inRange() method with vanilla JS"
 date: 2019-10-17T10:30:00-04:00
 draft: false
 categories:
