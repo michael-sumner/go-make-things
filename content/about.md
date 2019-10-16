@@ -13,7 +13,7 @@ noTitle: true
 
 I'm the author of the [Vanilla JS Pocket Guide](https://vanillajsguides.com) series, creator of the [Vanilla JS Academy](https://vanillajsacademy.com) training program, and host of the [Vanilla JS Podcast](https://vanillajspodcast.com). My [developer tips newsletter](/articles) is read by over {{<cta for="mc-subscriber-count">}} developers each weekday.
 
-I've taught developers at organizations like Chobani and the Boston Globe, and my JavaScript plugins have been used by organizations like Apple and Harvard Business&nbsp;School.
+I've taught developers at organizations like Chobani and the Boston Globe, and my JavaScript plugins have been used by organizations like Apple and Harvard Business&nbsp;School. Chris Coyier, the founder of CSS-Tricks and CodePen, has described my writing as "infinitely quote-worthy."
 
 I love pirates, puppies, and Pixar movies, and live near horse farms in rural Massachusetts. I run Go Make Things with [Bailey Puppy](/about-bailey/), a lab-mix from&nbsp;Tennessee.
 
