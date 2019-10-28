@@ -179,6 +179,18 @@ richHolman:
     photo: "/img/testimonials/rich-holman.jpg"
     quote: "Initially it was very challenging. I found I often hit walls with things like finding the best method for iterating over an array, or finding the right way to target DOM elements, most if it was practice though. As the course went on, a picture started to emerge and things started to make more sense.<br><br>At the end Javascript didn't feel like a strange far away land, but maybe a town I've visited a few times and am starting to recognise landmarks.<br><br>It's a very accessible course. You importantly are not made to feel that anything should be better understood or you've committed some sort of JavaScript sin. Lots of encouragement and a genuinely approachable, knowledgable and nice person to learn from."
 
+giammaCarioca:
+    name: "Giamma Carioca"
+    url: "https://twitter.com/GiammaCarioca"
+    photo: "/img/testimonials/giamma-carioca.jpg"
+    quote: "I’m loving the Academy and I don’t want it to end! 😢 For me this is priceless. I don’t work in tech yet and to be able to do those mini projects and discuss the code and best practices with you guys is a great learning experience. The pace of the course is nice too because it keeps me busy and that helps me feel more comfortable with the syntax and methods. 💯"
+
+kieranBarker2:
+    name: "Kieran Barker"
+    url: ""
+    photo: "/img/testimonials/kieran-barker.jpg"
+    quote: "I am thoroughly looking forward to every morning because of the Academy!"
+
 # Learn Vanilla JS
 markBaldwinSmith:
     name: "Mark Baldwin-Smith"
