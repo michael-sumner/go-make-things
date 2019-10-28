@@ -84,7 +84,6 @@ kb:
 
 kieranBarker:
     name: "Kieran Barker"
-    url: "https://twitter.com/k_barkz/status/1024419996611563520"
     photo: "/img/testimonials/kieran-barker.jpg"
     quote: "<p>I've been stuck on the same JavaScript project for AGES, but I'm so happy because I've finally managed to finish it all thanks to Chris Ferdinandi!</p><p>I found out about him, signed up for his daily newsletter and bought his Vanilla JS Guides. I'm so glad I did because I've only worked through two of the guides and yet he's COMPLETELY changed the way I think about JavaScript.</p><p class='no-margin-bottom'>Putting everything he's taught me into practice, I managed to rewrite the project over a weekend! He was even kind enough to personally help me on Slack with an aspect I was particularly struggling with... I SERIOUSLY recommend checking him out! 😄</p>"
 
@@ -187,7 +186,6 @@ giammaCarioca:
 
 kieranBarker2:
     name: "Kieran Barker"
-    url: ""
     photo: "/img/testimonials/kieran-barker.jpg"
     quote: "I am thoroughly looking forward to every morning because of the Academy!"
 
