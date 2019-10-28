@@ -183,7 +183,7 @@ giammaCarioca:
     name: "Giamma Carioca"
     url: "https://twitter.com/GiammaCarioca"
     photo: "/img/testimonials/giamma-carioca.jpg"
-    quote: "I’m loving the Academy and I don’t want it to end! 😢 For me this is priceless. I don’t work in tech yet and to be able to do those mini projects and discuss the code and best practices with you guys is a great learning experience. The pace of the course is nice too because it keeps me busy and that helps me feel more comfortable with the syntax and methods. 💯"
+    quote: I’m loving the Academy and I don’t want it to end! <span class="text-normal">😢</span> For me this is priceless. I don’t work in tech yet and to be able to do those mini projects and discuss the code and best practices with you guys is a great learning experience. The pace of the course is nice too because it keeps me busy and that helps me feel more comfortable with the syntax and methods. <span class="text-normal">💯</span>
 
 kieranBarker2:
     name: "Kieran Barker"
