@@ -189,6 +189,12 @@ kieranBarker2:
     photo: "/img/testimonials/kieran-barker.jpg"
     quote: "I am thoroughly looking forward to every morning because of the Academy!"
 
+mariaBlair:
+    name: "Maria Blair"
+    url: "https://www.linkedin.com/in/mariaklachkoblair/"
+    photo: "/img/testimonials/maria-blair.jpg"
+    quote: "I'm not a beginner in JavaScript but I'm really loving the Academy because I still learn new things and best practices. I think knowing best practices distinguishes a mid-level dev from a senior web dev."
+
 # Learn Vanilla JS
 markBaldwinSmith:
     name: "Mark Baldwin-Smith"

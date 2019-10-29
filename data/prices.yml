@@ -5,57 +5,71 @@
 
 # Pocket Guides
 guidesComplete:
-    prices:
-        ebook: "<del>$179</del> $89"
-        video: "<del>$429</del> $214"
-        both: "<del>$459</del> $229"
-    start: 20191128
-    end: 20191202
+    limited:
+        1:
+            prices:
+                ebook: "<del>$179</del> $89"
+                video: "<del>$429</del> $214"
+                both: "<del>$459</del> $229"
+            start: 20191128
+            end: 20191202
 
 guidesBeginner:
-    prices:
-        ebook: "<del>$99</del> $49"
-        video: "<del>$239</del> $119"
-        both: "<del>$259</del> $129"
-    start: 20191128
-    end: 20191202
+    limted:
+        1:
+            prices:
+                ebook: "<del>$99</del> $49"
+                video: "<del>$239</del> $119"
+                both: "<del>$259</del> $129"
+            start: 20191128
+            end: 20191202
 
 guidesAdvanced:
-    price:
-        ebook: "<del>$79</del> $39"
-        video: "<del>$189</del> $94"
-        both: "<del>$207</del> $103"
-    start: 20191128
-    end: 20191202
+    limited:
+        1:
+            prices:
+                ebook: "<del>$79</del> $39"
+                video: "<del>$189</del> $94"
+                both: "<del>$207</del> $103"
+            start: 20191128
+            end: 20191202
 
 guidesIndividual:
-    prices:
-        ebook: "<del>$29</del> $14"
-        video: "<del>$69</del> $34"
-        both: "<del>$74</del> $37"
-    start: 20191128
-    end: 20191202
+    limited:
+        1:
+            prices:
+                ebook: "<del>$29</del> $14"
+                video: "<del>$69</del> $34"
+                both: "<del>$74</del> $37"
+            start: 20191128
+            end: 20191202
 
 # Projects
 projectsComplete:
-    prices:
-        ebook: "<del>$79</del> $39"
-        video: "<del>$189</del> $94"
-        both: "<del>$207</del> $103"
-    start: 20191128
-    end: 20191202
+    limited:
+        1:
+            prices:
+                ebook: "<del>$79</del> $39"
+                video: "<del>$189</del> $94"
+                both: "<del>$207</del> $103"
+            start: 20191128
+            end: 20191202
 
 projectsIndividual:
-    prices:
-        ebook: "<del>$29</del> $14"
-        video: "<del>$69</del> $34"
-        both: "<del>$74</del> $37"
-    start: 20191128
-    end: 20191202
+    limited:
+        1:
+            prices:
+                ebook: "<del>$29</del> $14"
+                video: "<del>$69</del> $34"
+                both: "<del>$74</del> $37"
+            start: 20191128
+            end: 20191202
 
 # Academy
 academy:
-    prices:
-        price: "<del>$799</del> $399"
-    start: 20191128
-    end: 20191202
+    limited:
+        1:
+            prices:
+                price: "<del>$799</del> $399"
+            start: 20191128
+            end: 20191202
