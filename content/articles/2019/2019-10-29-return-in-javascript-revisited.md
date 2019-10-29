@@ -60,4 +60,6 @@ var isItBiggerThanTen = function (num) {
 };
 ```
 
+In chatting about this with me, Steve realized he didn't actually have a video explaining this yet, so he put one together for me. [Watch it here.](https://www.youtube.com/watch?v=GwU1TAC2BDY)
+
 Hope that clears some things up.
