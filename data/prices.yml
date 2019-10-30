@@ -1,7 +1,10 @@
-##
-## Sale Prices
-## Used by the API
-##
+#
+# Sale Prices
+# Used by the API
+#
+# 1. Black Friday/Cyber Monday
+# 2. Halloween
+#
 
 # Pocket Guides
 guidesComplete:
@@ -13,6 +16,13 @@ guidesComplete:
                 both: "<del>$459</del> $229"
             start: 20191128
             end: 20191202
+        2:
+            prices:
+                ebook: "<del>$179</del> $125"
+                video: "<del>$429</del> $300"
+                both: "<del>$459</del> $321"
+            start: 20191031
+            end: 20191031
 
 guidesBeginner:
     limted:
@@ -23,6 +33,13 @@ guidesBeginner:
                 both: "<del>$259</del> $129"
             start: 20191128
             end: 20191202
+        2:
+            prices:
+                ebook: "<del>$99</del> $69"
+                video: "<del>$239</del> $167"
+                both: "<del>$259</del> $181"
+            start: 20191031
+            end: 20191031
 
 guidesAdvanced:
     limited:
@@ -33,6 +50,13 @@ guidesAdvanced:
                 both: "<del>$207</del> $103"
             start: 20191128
             end: 20191202
+        2:
+            prices:
+                ebook: "<del>$79</del> $55"
+                video: "<del>$189</del> $132"
+                both: "<del>$207</del> $144"
+            start: 20191031
+            end: 20191031
 
 guidesIndividual:
     limited:
@@ -43,6 +67,13 @@ guidesIndividual:
                 both: "<del>$74</del> $37"
             start: 20191128
             end: 20191202
+        2:
+            prices:
+                ebook: "<del>$29</del> $20"
+                video: "<del>$69</del> $48"
+                both: "<del>$74</del> $51"
+            start: 20191031
+            end: 20191031
 
 # Projects
 projectsComplete:
@@ -54,6 +85,13 @@ projectsComplete:
                 both: "<del>$207</del> $103"
             start: 20191128
             end: 20191202
+        2:
+            prices:
+                ebook: "<del>$79</del> $55"
+                video: "<del>$189</del> $132"
+                both: "<del>$207</del> $144"
+            start: 20191031
+            end: 20191031
 
 projectsIndividual:
     limited:
@@ -64,6 +102,13 @@ projectsIndividual:
                 both: "<del>$74</del> $37"
             start: 20191128
             end: 20191202
+        2:
+            prices:
+                ebook: "<del>$29</del> $20"
+                video: "<del>$69</del> $48"
+                both: "<del>$74</del> $51"
+            start: 20191031
+            end: 20191031
 
 # Academy
 academy:
