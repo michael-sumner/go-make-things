@@ -3,19 +3,9 @@ title: "Better default colors"
 date: 2019-10-31T10:30:00-04:00
 draft: false
 categories:
-- Accessibility
-- Art and Science
-- Business and Leadership
-- Careers
 - Code
 - CSS
 - Design and UX
-- HTML
-- JavaScript
-- Technology
-- Web Performance
-- WordPress
-- Vanilla Framework Demos
 ---
 
 <img alt="A screenshot of the clrs.cc website" src="/img/articles/colors.jpg">
