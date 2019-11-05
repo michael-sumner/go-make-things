@@ -47,7 +47,7 @@ Thanks for listening to me chat with Chance about vanilla JS, frameworks, and my
 
 {{<cta for="products">}}
 
-**Want more?** I also created a [vanilla JS learning roadmap](https://learnvanillajs.com), maintain the [Vanilla JS Toolkit](https://vanillajstoolkit.com), host the [Vanilla JS Podcast](https://vanillajspodcast.com), and [give talks and appear on podcasts](/talks).
+**Want more?** I also maintain the [Vanilla JS Toolkit](https://vanillajstoolkit.com), host the [Vanilla JS Podcast](https://vanillajspodcast.com), and [give talks and appear on podcasts](/talks).
 
 
 ## Questions?

@@ -1,19 +1,12 @@
 ---
-title: Welcome, ARTIFACT attendees!
+title: Welcome, Script & Style listeners!
 date: 2018-01-11T09:40:48-05:00
 draft: false
 ---
 
-Thanks for chatting with me about the Lean Web. I've put together a *ton* of resources for you on building a simpler, faster world-wide web.
+Thanks for listening to me chat with David and Todd about vanilla JS, frameworks, and my developer journey. I've put together a *ton* of resources to help you dig deeper into vanilla JS.
 
 {{<cta for="events">}}
-
-
-## The Lean Web Slides & Video
-
-You can grab the slides from my talk *and* watch a video of it (great for sharing with coworkers) at **[LeanWeb.dev](https://leanweb.dev/)**.
-
-There's also a free ebook version of the talk, and a list of all of the Lean Web resources mentioned in the talk.
 
 
 {{<mailchimp intro="true">}}
@@ -36,6 +29,13 @@ There's also a free ebook version of the talk, and a list of all of the Lean Web
 - [Your website data is a lie](/your-website-data-is-a-lie/)
 - [My three principles for building for the web](/my-three-principles-for-web-design-and-development/)
 - [Building low-impact websites](/building-low-impact-websites/)
+
+
+## The Lean Web Talk & Ebook
+
+You can watch my talk on *the Lean Web*, or read it in ebook form, at **[LeanWeb.dev](https://leanweb.dev/)**.
+
+There's also a ton of free resources for building simpler, faster websites on the site.
 
 
 ## Podcasts
