@@ -23,9 +23,11 @@ Chris loves pirates, puppies, and Pixar movies, and lives near horse farms in ru
 
 Fur-din-an-dee. Like "Ferdinand," but with "ee" at the end.
 
-## Photo
+## Photos
 
-<a href="/img/chris-ferdinandi-high-res.jpg" download><img src="/img/chris-ferdinandi-high-res.jpg" alt="Chris Ferdinandi"><br>Download the full-sized image</a>
+<img src="/img/chris-ferdinandi-1.jpg" alt="Chris Ferdinandi" width="1088" height="653">
+
+<a class="btn" href="/img/press-photos.zip" download>Download Press Photos</a>
 
 ## Social Media
 
