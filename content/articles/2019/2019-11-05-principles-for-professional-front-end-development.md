@@ -19,10 +19,10 @@ Following up on yesterday's post on [the web getting slower](/the-web-is-getting
 
 Alex attempted to distill his thoughts down to four principles:
 
-> 1.) If you are not a frontend specialist, choose the most conservative tools (e.g., semantic HTML + CSS) that can plausibly do the job.
-> 2.) the experience of the user matters more than the experience of the developer
-> 3.) frontenders must value and work to improve P75 and P90 latency as much, or more, than P50 or P25
-> 4.) it is a frontender's responsibility to advocate for expanding access to the products and services we build UIs for
+> 1. If you are not a frontend specialist, choose the most conservative tools (e.g., semantic HTML + CSS) that can plausibly do the job.
+> 2. the experience of the user matters more than the experience of the developer
+> 3. frontenders must value and work to improve P75 and P90 latency as much, or more, than P50 or P25
+> 4. it is a frontender's responsibility to advocate for expanding access to the products and services we build UIs for
 
 These remind me a bit of [the three principles of The Lean Web](https://leanweb.dev):
 
