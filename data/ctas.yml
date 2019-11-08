@@ -314,3 +314,18 @@ leanwebEbook:
             message: <p><mark>👻 <em><strong>Halloween Sale!</strong> Today only, save 30% on any of my <a href="https://vanillajsguides.com">ebooks, video courses,</a> and <a href="https://vanillajsprojects.com/">project guides</a>. The sale ends tonight at midnight, so don't wait!</em></mark></p>
             start: 20191031
             end: 20191031
+
+
+# Holiday Bonuses
+
+bonusesList:
+    message: ""
+
+bonusesGuides:
+    message: ""
+
+bonusesProjects:
+    message: ""
+
+bonusesAcademy:
+    message: ""
