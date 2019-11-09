@@ -5,7 +5,9 @@ draft: false
 noTitle: true
 ---
 
-<p class="text-center"><img src="/img/bailey.jpg" width="175" height="175" class="img-circle"></p>
+<!-- <p class="text-center"><img src="/img/bailey.jpg" width="175" height="175" class="img-circle"></p> -->
+
+<img alt="A dog laying on the floor with a red bandana on" height="684" width="1140" src="/img/bailey-2.jpg">
 
 <h1 class="no-padding-top">Woof! I'm Bailey Puppy.</h1>
 

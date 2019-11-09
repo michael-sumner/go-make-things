@@ -5,7 +5,9 @@ draft: false
 noTitle: true
 ---
 
-<p class="text-center"><img src="/img/chris-ferdinandi-high-res.jpg" alt="Chris Ferdinandi" width="175" height="175" class="img-circle"></p>
+<!-- <p class="text-center"><img src="/img/chris-ferdinandi-high-res.jpg" alt="Chris Ferdinandi" width="175" height="175" class="img-circle"></p> -->
+
+<img alt="Chris working on his MacBook Pro at a farmers table" height="684" width="1140" src="/img/chris-ferdinandi-2.jpg">
 
 <h1 class="no-padding-top">Hi, I’m Chris Ferdinandi.</h1>
 
