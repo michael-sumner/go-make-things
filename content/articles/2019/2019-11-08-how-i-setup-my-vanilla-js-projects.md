@@ -93,7 +93,7 @@ For example, `/js/main/mailchimp.js` and `/js/main/heading-links.js` get combine
 
 My `main.js` file contains code I use on all (or most) pages on my site. It gets loaded everywhere.
 
-The other individual files are typically used on just one or two views. I use [`loadJS()` from Filament Group](https://github.com/filamentgroup/loadJS) to [conditionally load those scripts only on pages that need them](code-splitting-with-vanilla-js/).
+The other individual files are typically used on just one or two views. I use [`loadJS()` from Filament Group](https://github.com/filamentgroup/loadJS) to [conditionally load those scripts only on pages that need them](/code-splitting-with-vanilla-js/).
 
 It's a super lightweight, easy way to do code-splitting without messing with a complicated module bundler.
 
@@ -107,6 +107,6 @@ The more round trips, the slower the site (generally speaking).
 
 After minifying and gzipping my code, my combined CSS, HTML, and `main.js` JavaScript for a typical page on my sites is usually just at or under 14kb.
 
-If I [inline my CSS and JavaScript directly into the HTML](inlining-literally-everything-for-better-performance/), that means I can send the whole page over in a single HTTP request and it will immediately start rendering.
+If I [inline my CSS and JavaScript directly into the HTML](/inlining-literally-everything-for-better-performance/), that means I can send the whole page over in a single HTTP request and it will immediately start rendering.
 
 If you combined files are larger than 14kb, it's better to load them externally so that they get cached by the browser. But for me, inlining is why my sites feel so blazingly fast.
