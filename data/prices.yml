@@ -25,7 +25,7 @@ guidesComplete:
             end: 20191031
 
 guidesBeginner:
-    limted:
+    limited:
         1:
             prices:
                 ebook: "<del>$99</del> $49"

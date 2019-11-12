@@ -33,5 +33,5 @@
 	{{- end -}}
 {{- end -}}
 
-{{- $.Scratch.Set "data" ( dict "ctas" ($.Scratch.Get "ctas") "testimonials" .Site.Data.testimonials "prices" ($.Scratch.Get "prices") ) -}}
+{{- $.Scratch.Set "data" ( dict "ctas" ($.Scratch.Get "ctas") "testimonials" .Site.Data.testimonials "prices" ($.Scratch.Get "prices") "products" .Site.Data.products ) -}}
 {{- $.Scratch.Get "data" | jsonify -}}
