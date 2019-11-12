@@ -13,7 +13,7 @@ A few months ago, <a href="https://twitter.com/brad_frost/status/795688675006967
   So @frostyweather is looking for a vanilla JS way to detect "click outside" an element. Any help?
 </blockquote>
 
-There are a few ways to handle this, but I find the simplest is by using <a href="https://github.com/cferdinandi/getClosest">my <code>getClosest()</code> helper method</a>. It gets the first parent element of another element that matches a selector.
+There are a few ways to handle this, but I find the simplest is by using [the `Element.closest()` method](https://vanillajstoolkit.com/reference/traversal/element-closest/). It gets the first element up an element's DOM tree (including the element itself) that matches a selector.
 
 To answer Brad's question, we can listen to all clicks on the document. We'll give the element we want to check for clicks outside of a unique selector.
 
@@ -21,7 +21,7 @@ Whenever a click happens, we'll check to see if that clicked element has a paren
 
 <pre><code class="lang-javascript">var getClosest = function (elem, selector) {...};
 document.addEventListener('click', function (event) {
-    if ( !getClosest(event.target, '.some-selector') ) {
+    if (!event.target.closest('.some-selector')) {
         // Clicked outside the element...
     }
 }, false);
