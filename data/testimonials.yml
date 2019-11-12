@@ -333,3 +333,9 @@ chrisCoyier2:
     url: "https://css-tricks.com/newsletter/168/"
     photo: "/img/testimonials/chris-coyier.jpg"
     quote: "The Lean Web is infinitely quote-worthy."
+
+davidWalsh:
+    name: "David Walsh"
+    url: "https://scriptandstyle.simplecast.com/episodes/vanilla-javascript-with-chris-ferdinandi"
+    photo: "/img/testimonials/david-walsh.jpg"
+    quote: "We need more people like Chris, who not only have this mindset that we need to stick to the basics of JavaScript, but are willing to evangelize it."
