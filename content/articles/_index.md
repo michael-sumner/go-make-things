@@ -9,3 +9,5 @@ I send out a short email each weekday with code snippets, tools, techniques, and
 {{<mailchimp>}}
 
 {{<cta for="global">}}
+
+*__First time here?__ [I've put together a list of my best articles and podcasts.](/start-here)*
