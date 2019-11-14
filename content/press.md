@@ -25,7 +25,7 @@ Fur-din-an-dee. Like "Ferdinand," but with "ee" at the end.
 
 ## Photos
 
-<img src="/img/chris-ferdinandi-1.jpg" alt="Chris Ferdinandi" width="1088" height="653">
+<img alt="Chris working on his MacBook Pro at a farmers table" height="684" width="1140" src="/img/chris-ferdinandi-2.jpg">
 
 <a class="btn" href="/img/press-photos.zip" download>Download Press Photos</a>
 
