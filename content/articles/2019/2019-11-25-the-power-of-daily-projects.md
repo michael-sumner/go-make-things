@@ -71,7 +71,7 @@ The first run of the new program is about halfway through, and I've already gott
 </div>
 
 <div class="padding-bottom-large">
-	{{<testimonial for="benRudolph" photo="true">}}
+	{{<testimonial for="stewartDavis" photo="true">}}
 </div>
 
 I've even had some alumni retake the program with the new format.

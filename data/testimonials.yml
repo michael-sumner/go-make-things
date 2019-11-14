@@ -155,6 +155,12 @@ zacHeisey:
     photo: "/img/testimonials/zac-heisey.jpg"
     quote: "After going through this program, I found that using vanilla JS, you can accomplish A LOT more than the larger dev community would lead you to believe.<br><br>I really liked the open-endedness of the weekly projects. I think having fewer restraints in solving the task made me focus more on the specific topic for that week and how I would apply it to the given project. Combining this with the Thursday office hour and then having your approach shared on Friday made for a well-rounded overview of the material.<br><br>Thanks for an awesome course, Chris! This truly was the best JS learning experience I’ve had&mdash;things really clicked for me during the academy and I feel much more comfortable using JavaScript and approaching problems with JS-specific solutions at the ready!"
 
+stewartDavis:
+    name: "Stewart Davis"
+    url: ""
+    photo: ""
+    quote: "In terms of knowledge gained per effort expended, this course is hands down the best I've ever tried. More than just the content, it is the growing confidence that maybe even I can actually do this. I feel like I am beginning to know what I don't know. That is huge. Well done."
+
 kevinBeck:
     name: "Kevin Beck"
     url: "https://multiplestates.co.uk"
