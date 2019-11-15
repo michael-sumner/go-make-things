@@ -61,7 +61,7 @@ Fat arrow functions and `let` and `const` fix things I don't think were broken. 
 
 There's a problem with this line of thinking: you’re making an assumption that people *choose* to use shitty browsers, and I think that’s false.
 
-Some people are only old computers with old OSs that can’t run modern browsers and the memory they required, and can’t afford to update. Some people are “mobile only” users who can’t afford a computer at all, stuck on an old feature phone.
+Some people are on computers with old OSs that can’t run modern browsers and the memory they required, and can’t afford to update. Some people are “mobile only” users who can’t afford a computer at all, stuck on an old feature phone.
 
 Some people are in developing areas with slow bandwidth and shitty devices that are the only option.
 
