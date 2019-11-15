@@ -196,7 +196,7 @@ Another common thing you might need to do is set headers and other properties fo
 fetch('https://jsonplaceholder.typicode.com/posts', {
 	method: 'POST',
 	body: 'title=' + encodeURIComponent('My awesome new article') + '&body=' + encodeURIComponent('This is the text of my article'),
-	header: {
+	headers: {
 		'Content-Type': 'application/json'
 	},
 	referrer: 'no-referrer'
