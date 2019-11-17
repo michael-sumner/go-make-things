@@ -202,6 +202,12 @@ mariaBlair:
     photo: "/img/testimonials/maria-blair.jpg"
     quote: "I'm not a beginner in JavaScript but I'm really loving the Academy because I still learn new things and best practices. I think knowing best practices distinguishes a mid-level dev from a senior web dev."
 
+leticiaOneill:
+    name: "Leticia O'Neill"
+    url: "https://twitter.com/leti_oneill"
+    photo: "/img/testimonials/leticia-oneill.jpg"
+    quote: "This is the first learning platform where I’m not overwhelmed or feeling unchallenged. The pacing is great and very helpful for my overachieving tendencies. 😊<br><br>And as a result I have seen I’m learning ALOT more, while still having pockets of time to embellish when I can."
+
 # Learn Vanilla JS
 markBaldwinSmith:
     name: "Mark Baldwin-Smith"
