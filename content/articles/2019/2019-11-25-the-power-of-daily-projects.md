@@ -78,7 +78,7 @@ The first run of the new program is about halfway through, and I've already gott
 	{{<testimonial for="leticiaOneill" photo="true">}}
 </div>
 
-I've even had some alumni retake the program with the new format.
+The format is working so well that a bunch of students who are in the program right now asked me if I could built out a "part 2" for the program so they can keep it going after this session ends!
 
 ## A new session starts in January
 
