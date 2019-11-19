@@ -112,7 +112,7 @@ Here's everything that's in the book.
 		<li>FREE lifetime updates</li>
 	</ul>
 
-	<p><a class="btn btn-large" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=22339">Buy Now for $39</a></p>
+	<p><a class="btn btn-large edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=22339">Buy Now for $39</a></p>
 </div>
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial for="robertBuchholz">}}</div>
