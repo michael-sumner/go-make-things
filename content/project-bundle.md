@@ -67,7 +67,7 @@ Don’t put off learning vanilla JavaScript! If you’re not 100% satisfied with
 
 
 <div class="callout" id="ready-to-buy">
-	<h2>The Complete Bundlee</h2>
+	<h2>The Complete Bundle</h2>
 
 	<p>Get everything you need to build cool projects.</p>
 
