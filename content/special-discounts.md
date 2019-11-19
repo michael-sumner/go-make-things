@@ -20,5 +20,6 @@ Thanks for purchasing one of my vanilla JS learning products! Your purchase come
 - **[Kai Davis](https://kaidavis.com/) helps freelancers and consultants get more leads for their business.** Get 35% off [everything in his online store](https://store.kaidavis.com/discount/GoMakeThings2019) with the code `GoMakeThings2019`.&mdash;*expires on December 2, 2019*
 - **Learn how to stay relevant, hack the hiring process, and make more money with the [Web Developer Career Guide](https://gomakethings.com/career-guide/).** Get it free with the code `FREECAREER`.
 - **Learn how to speed up your slow WordPress site with [Wicked Fast Websites](https://gomakethings.com/wicked-fast-websites/).** Get it for free with the code `FREEFAST`.
+- **Get hands-on learning with the [Vanilla JS Projects bundle](https://gomakethings.com/project-bundle/).** Use the code `FREEPROJECTS` to get it for free.
 {{%/md%}}
 </div>
