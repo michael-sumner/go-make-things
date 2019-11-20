@@ -8,7 +8,7 @@ categories:
 
 Yesterday, I wrote about how [I offer location-based pricing for all of my products](/location-based-pricing/).
 
-Someone living in Kenya, were the average annual web developer salary is $3,942 USD, pays a substantially lower price for my [guides, courses](https://vanillajsguides.com), and [training program](https://vanillajsacademy.com) then someone living in the United States does. It's the same amount as a percentage of their annual income, but lower in absolute terms.
+Someone living in Kenya, where the average annual web developer salary is $3,942 USD, pays a substantially lower price for my [guides, courses](https://vanillajsguides.com), and [training program](https://vanillajsacademy.com) then someone living in the United States does. It's the same amount as a percentage of their annual income, but lower in absolute terms.
 
 The most common follow-up question I got to the articles was:
 
