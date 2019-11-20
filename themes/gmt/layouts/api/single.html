@@ -7,11 +7,15 @@
 
 {{- $.Scratch.Set "ctas" ( dict ) -}}
 {{- $.Scratch.Set "prices" ( dict ) -}}
+{{- $.Scratch.Set "year" ( dateFormat "2006" now ) -}}
+{{- if ge ( int (dateFormat "0121" now) ) 1115 -}}
+	{{- $.Scratch.Set "year" ( add (int (dateFormat "2006" now)) 1 ) -}}
+{{- end -}}
 
 {{- range $index, $cta := .Site.Data.ctas -}}
 	{{- $.Scratch.Set "name" (humanize $index | replaceRE " " "-" | lower) -}}
 	{{- if ne (index $cta "message") "" -}}
-		{{- $.Scratch.SetInMap "ctas" ($.Scratch.Get "name") (replace (replace (safeHTML (index $cta "message")) "{{mc_subs}}" ($.Scratch.Get "mcsubs")) "{{year}}" (dateFormat "2006" now)) -}}
+		{{- $.Scratch.SetInMap "ctas" ($.Scratch.Get "name") (replace (replace (safeHTML (index $cta "message")) "{{mc_subs}}" ($.Scratch.Get "mcsubs")) "{{year}}" ($.Scratch.Get "year")) -}}
 	{{- end -}}
 	{{- if isset $cta "limited" -}}
 		{{- range $limited := (index $cta "limited") -}}
