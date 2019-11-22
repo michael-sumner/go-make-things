@@ -63,11 +63,7 @@ The first run of the new program is about halfway through, and I've already gott
 </div>
 
 <div class="padding-bottom-large">
-	{{<testimonial for="kieranBarker2" photo="true">}}
-</div>
-
-<div class="padding-bottom-large">
-	{{<testimonial for="mariaBlair" photo="true">}}
+	{{<testimonial for="leticiaOneill" photo="true">}}
 </div>
 
 <div class="padding-bottom-large">
@@ -75,7 +71,11 @@ The first run of the new program is about halfway through, and I've already gott
 </div>
 
 <div class="padding-bottom-large">
-	{{<testimonial for="leticiaOneill" photo="true">}}
+	{{<testimonial for="mariaBlair" photo="true">}}
+</div>
+
+<div class="padding-bottom-large">
+	{{<testimonial for="kieranBarker2" photo="true">}}
 </div>
 
 The format is working so well that a bunch of students who are in the program right now asked me if I could built out a "part 2" for the program so they can keep it going after this session ends!
@@ -84,6 +84,6 @@ The format is working so well that a bunch of students who are in the program ri
 
 If you're interested in the [Vanilla JS Academy](https://vanillajsacademy.com), a new session starts on January 6.
 
-**Registration opens up this Friday, and will be part of my Black Friday sale.** Through Cyber Monday, you'll be able to save 50% on registration and get over $1,200 in bonus discounts and freebies.
+**Registration opens up this Friday, and will be part of my Black Friday sale.** Through Cyber Monday, you'll be able to save 50% on registration and get over $1,400 in bonus discounts and freebies.
 
 I'll be sharing more information about my Black Friday sale on Wednesday, so stay tuned!
