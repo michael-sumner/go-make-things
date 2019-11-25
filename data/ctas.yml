@@ -171,18 +171,6 @@ guidesAll:
 
 
 
-# https://vanillajsprojects.com
-project:
-  message: "<p><mark>🔥 <em><strong>New!</strong> Dive deep into vanilla JavaScript with fun new projects.</em></mark></p>"
-
-projectBuy:
-    message: ""
-
-projectsAll:
-    message: "<p><mark>🔥 <em><strong>New!</strong> Dive deep into vanilla JavaScript with fun new projects.</em></mark></p>"
-
-
-
 # https://vanillajsacademy.com
 academy:
     message: ""
