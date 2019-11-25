@@ -634,12 +634,41 @@ leanwebEbook:
 
 bonusesList:
     message: ""
+    limited:
+        1:
+            message: <ul><li>If you find terminal terrifying, save 30% on Remy Sharp’s <a href="https://terminal.training/">Terminal Training</a> course.</li><li>Zac Gordon helps people learn <a href="https://javascriptforwp.com/">how to use JavaScript with WordPress</a> and the WP API. Take 20% off of <a href="https://javascriptforwp.com/product-category/courses/">any of his courses</a>.</li><li>If CSS layout has you confused, save 25% on <a href="https://every-layout.dev/">Every Layout</a> from Andy Bell and Heydon Pickering. It includes an ebook, layout generator, layout components, and more.</li><li><a href="https://abookapart.com/">A Book Apart</a> publishes short, industry-leading books for people who design, write, and code. Take an additional 10% off of their <a href="https://abookapart.com/collections/front-end-fundamentals">Front-End Fundamentals</a>, <a href="https://abookapart.com/collections/front-end-next-steps">Front-End Next Steps</a>, and <a href="https://abookapart.com/collections/responsive-design">Responsive Design</a> Starter Packs.</li><li>Ready to jump into a framework and learn React? Save 50% on Chris Buecheler’s <a href="https://closebrace.com/categories/five-minute-react">Five-Minute React</a>.</li><li>Reuven Lerner teaches people Python and data science with <a href="https://store.lerner.co.il/?coupon=VANILLAJS">a collection of video courses</a>. Get 30% off every course in his catalog.</li><li>Want to increase your profit without working an insane number of hours? Get 30% off <a href="https://jonthanstark.com/pricing">Jonathan Stark’s books</a>—<a href="https://jonathanstark.com/hbin">Hourly Billing is Nuts</a>, <a href="https://jonathanstark.com/tfr">The Freelancers Roadmap</a>, <a href="https://jonathanstark.com/lyl">Learn Your Lines</a>, and <a href="https://jonathanstark.com/py">Pigeonhole Yourself</a>.</li><li><a href="https://philipmorganconsulting.com">Philip Morgan</a> helps developers specialize their services, find better clients, and make more money. Get 20% off of his books, <a href="https://www.philipmorganconsulting.com/the-positioning-manual-for-technical-firms/">The Positioning Manual</a> and <a href="https://www.philipmorganconsulting.com/specializing-without-failure/">Specializing Without Failure</a>.</li><li><a href="https://kaidavis.com/">Kai Davis</a> helps freelancers and consultants get more leads for their business. Get 35% off <a href="https://store.kaidavis.com/discount/GoMakeThings2019">everything in his online store</a>.</li><li>Get a free copy of my <a href="https://gomakethings.com/career-guide/">Web Developer Career Guide</a>. You’ll learn how to stay relevant, hack the hiring process, and make more money.</li><li>Learn how to speed up your slow WordPress site with a free copy of <a href="https://gomakethings.com/wicked-fast-websites/">Wicked Fast Websites</a>.</li><li>Get hands-on learning with a free copy of the <a href="https://gomakethings.com/project-bundle/">Vanilla JS Projects bundle</a>.</li></ul>
+            start: 20191129
+            end: 20191202
 
 bonusesGuides:
     message: ""
+    limited:
+        1:
+            message: <h2>🔥 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle from now through Monday, you'll also get over <strong>$1,400 worth of bonus gifts and special discounts</strong> for other learning resources.</p>
+            start: 20191129
+            end: 20191130
+        2:
+            message: <h2>🔥 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle today or tomorrow, you'll also get over <strong>$1,400 worth of bonus gifts and special discounts</strong> for other learning resources. This offer ends tomorrow, so don't wait!</p>
+            start: 20191201
+            end: 20191201
+        2:
+            message: <h2>🔥 Exclusive Cyber Monday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle today only, you'll also get over <strong>$1,400 worth of bonus gifts and special discounts</strong> for other learning resources. This offer ends today, so don't wait!</p>
+            start: 20191202
+            end: 20191202
 
-bonusesProjects:
-    message: ""
 
 bonusesAcademy:
     message: ""
+    limited:
+        1:
+            message: <h2>🔥 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy from now through Monday, you'll also get over <strong>$1,400 worth of bonus gifts and special discounts</strong> for other learning resources.</p>
+            start: 20191129
+            end: 20191130
+        2:
+            message: <h2>🔥 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy today or tomorrow, you'll also get over <strong>$1,400 worth of bonus gifts and special discounts</strong> for other learning resources. This offer ends tomorrow, so don't wait!</p>
+            start: 20191201
+            end: 20191201
+        2:
+            message: <h2>🔥 Exclusive Cyber Monday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy today only, you'll also get over <strong>$1,400 worth of bonus gifts and special discounts</strong> for other learning resources. This offer ends today, so don't wait!</p>
+            start: 20191202
+            end: 20191202
