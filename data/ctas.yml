@@ -31,7 +31,7 @@ events:
     message: ""
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -54,7 +54,7 @@ home:
     message: "<p><mark>🚀 <em><strong>Make {{year}} the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com/'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -74,7 +74,7 @@ global:
     message: "<p><mark>🚀 <em><strong>Make {{year}} the year you master JavaScript!</strong> My <a href='https://vanillajsguides.com'>vanilla JavaScript pocket guides</a> are short, focused, and made for beginners. You can do this!</em></mark></p>"
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -94,7 +94,7 @@ resources:
     message: ""
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -117,7 +117,7 @@ guide:
     message: "<p><mark>🔥 <em><strong>New!</strong> Updated with new resources and more backwards-compatible polyfills.</em></mark></p>"
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any guide or bundle. Bundles also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any guide or bundle. Bundles also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -153,7 +153,7 @@ guidesAll:
     message: "<p class='padding-bottom'><mark>🔥 <em><strong>New!</strong> All of my pocket guides have been updated with new resources and more backwards-compatible polyfills.</em></mark></p>"
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any guide or bundle. Bundles also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any guide or bundle. Bundles also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -176,7 +176,7 @@ academy:
     message: ""
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on Academy registration, and get over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on Academy registration, and get over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -303,7 +303,7 @@ podcast:
     message: "<mark><p>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</p></mark>"
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -326,7 +326,7 @@ toolkitHome:
     message: ""
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -346,7 +346,7 @@ toolkitSnippets:
     message: "<div class='callout'>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -366,7 +366,7 @@ toolkitHelpers:
     message: "<div class='callout'>🚀 Learn how to <strong>write your own JS helper functions</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -386,7 +386,7 @@ toolkitBoilerplates:
     message: "<div class='callout'>🚀 Learn how to <strong>write more flexible, resilient JavaScript</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -406,7 +406,7 @@ toolkitPolyfills:
     message: "<div class='callout'>🚀 Learn how to <strong>write scripts that run in any browser</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -426,7 +426,7 @@ toolkitPlugins:
     message: "<div class='callout'>🚀 Learn how to <strong>write your own vanilla JS plugins</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -446,7 +446,7 @@ toolkitLearning:
     message: ""
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -469,7 +469,7 @@ learnvjsHome:
     message: ""
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -489,7 +489,7 @@ learnvjsRoadmap:
     message: ""
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -509,7 +509,7 @@ learnvjsProjects:
     message: ""
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -529,7 +529,7 @@ learnvjsResources:
     message: ""
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -551,7 +551,7 @@ vanillaJsList:
     message: ""
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -573,7 +573,7 @@ leanwebHome:
     message: ""
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -593,7 +593,7 @@ leanwebTalk:
     message: ""
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
@@ -613,7 +613,7 @@ leanwebEbook:
     message: ""
     limited:
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Tomorrow through Monday, save 50% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Course and guide bundles and the Academy also come with over $1,400 in bonus discounts and freebies. <a href="https://gomakethings.com/black-friday-2019">Click here to learn more.</a></em></mark></p>
             start: 20191128
             end: 20191128
         2:
