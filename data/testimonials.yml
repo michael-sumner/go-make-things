@@ -208,6 +208,12 @@ leticiaOneill:
     photo: "/img/testimonials/leticia-oneill.jpg"
     quote: "This is the first learning platform where I’m not overwhelmed or feeling unchallenged. The pacing is great and very helpful for my overachieving tendencies. 😊<br><br>And as a result I have seen I’m learning ALOT more, while still having pockets of time to embellish when I can."
 
+walterJenkins:
+    name: "Walter Jenkins"
+    url: "https://twitter.com/AvidDabbler/status/1200499438759895046"
+    photo: "/img/testimonials/walter-jenkins.jpg"
+    quote: "Best investment and course I have taken. If you want a bite sized course that will hold you accountable take this course. I have reduced the amount I Google and use Stackexchange by 50% and actually feel like I understand what I am coding."
+
 # Learn Vanilla JS
 markBaldwinSmith:
     name: "Mark Baldwin-Smith"
