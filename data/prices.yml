@@ -55,10 +55,10 @@ academy:
         2:
             prices:
                 price: "<del>$799</del> $479"
-                start: 20191203
-                end: 20191208
+            start: 20191203
+            end: 20191208
         3:
             prices:
                 price: "<del>$799</del> $559"
-                start: 20191231
-                end: 20200112
+            start: 20191231
+            end: 20200112
