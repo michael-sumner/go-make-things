@@ -17,14 +17,16 @@ In vanilla JavaScript, each event type requires its own event listener. Unfortun
 
 For example, you <em>cannot</em> do this:
 
-<pre><code class="lang-javascript">document.addEventListener('click mouseover', function (event) {
+```js
+document.addEventListener('click mouseover', function (event) {
     // do something...
 }, false);
-</code></pre>
+```
 
 <strong>But...</strong> by using a named function and passing that into your event listener, you can avoid having to write the same code over and over again.
 
-<pre><code class="lang-javascript">// Setup our function to run on various events
+```js
+// Setup our function to run on various events
 var someFunction = function (event) {
     // Do something...
 };
@@ -32,6 +34,6 @@ var someFunction = function (event) {
 // Add our event listeners
 window.addEventListener('click', someFunction, false);
 window.addEventListener('mouseover', someFunction, false);
-</code></pre>
+```
 
 <code>addEventListener</code> automatically passes the <code>event</code> object into your function as an argument.
