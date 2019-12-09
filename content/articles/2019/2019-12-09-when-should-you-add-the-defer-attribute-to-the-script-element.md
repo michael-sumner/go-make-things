@@ -57,7 +57,7 @@ If you need to support IE9, you probably *should* use the `DOMContentLoaded` eve
 
 ## Learn more
 
-[Aaron Peters wrote a great article on this topic.](https://flaviocopes.com/javascript-async-defer/)
+[Flavio wrote a great article on this topic.](https://flaviocopes.com/javascript-async-defer/)
 
 > When loading a script on an HTML page, you need to be careful not to harm the loading performance of the page. Depending on where and how you add your scripts to an HTML page will influence the loading time.
 
