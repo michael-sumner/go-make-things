@@ -18,21 +18,21 @@ I try to keep things as clear and readable as possible.
 - [Warranties](#warranties)
 - [Enforcement and severability](#enforcement-and-severability)
 
-*For simplicity, Go Make Things, LLC will be referred to as "Go Make Things", "I", or "Me" going forward. The Vanilla JS Pocket Guides, Vanilla JS Academy, and all other products sold by Go Make Things will be referred to as "Learning Products".*
+*For simplicity, Go Make Things, LLC will be referred to as "Go Make Things", "I", or "Me" going forward. The Vanilla JS Pocket Guides, Vanilla JS Academy, and all other products sold by Go Make Things will be referred to as "Products".*
 
 
 
 ## Agreeing to the terms
 
-By purchasing a Learning Product from Go Make Things, you agree to be bound the policies and terms contained in this document.
+By purchasing a Product from Go Make Things, you agree to be bound the policies and terms contained in this document.
 
-Go Make Things reserves the right to update and change these polices and terms without notice. If you violate any of the terms below, your right to access and use the Learning Products you've purchased may be revoked.
+Go Make Things reserves the right to update and change these polices and terms without notice. If you violate any of the terms below, your right to access and use the Products you've purchased may be revoked.
 
 
 
 ## Copyrights and licenses
 
-Unless otherwise noted, all of the code in the Learning Products (referred to as "Code" going forward) is provided under the terms of [the MIT License](/mit).
+Unless otherwise noted, all of the code in the Products (referred to as "Code" going forward) is provided under the terms of [the MIT License](/mit).
 
 All of the non-Code content (referred to as "Content" going forward) is copyright Chris Ferdinandi and Go Make Things, LLC.
 
@@ -42,7 +42,7 @@ You can download Content onto machines and devices that you own for your own per
 
 ## Community guidelines
 
-Many Learning Products come with access to the Vanilla JS Slack Community (referred to as the "Community" going forward).
+Many Products come with access to the Vanilla JS Slack Community (referred to as the "Community" going forward).
 
 By joining the Community, you agree that you have read and will follow the [Community Guidelines and Code of Conduct](/community-guidelines/), and that you are at least 18 years old.
 
@@ -50,11 +50,11 @@ By joining the Community, you agree that you have read and will follow the [Comm
 
 ## Your account
 
-Your Learning Products may include access to the [Go Make Things Learning Portal](https://courses.gomakethings.com), where you can access your Learning Products, join the Community, and more.
+Your Products may include access to the [Go Make Things Learning Portal](https://courses.gomakethings.com), where you can access your Products, join the Community, and more.
 
 You are responsible for maintaining the security of your account and password. Go Make Things cannot and will not be liable for any loss or damage from your failure to comply with this security obligation.
 
-Your login may only be used by one person. A single login shared by multiple people is not permitted. If you wish to give additional people access to the Learning Products, they have to purchase their own copy.
+Your login may only be used by one person. A single login shared by multiple people is not permitted. If you wish to give additional people access to the Products, they have to purchase their own copy.
 
 
 
@@ -68,7 +68,7 @@ You can opt out of non-transactional emails at any time by clicking the "unsubsc
 
 ## Refund policy
 
-If you’re not 100% satisfied with your Learning Products, let me know and I’ll give you a full refund.
+If you’re not 100% satisfied with your Products, let me know and I’ll give you a full refund.
 
 That's it. That's the whole policy.
 
@@ -78,9 +78,9 @@ That's it. That's the whole policy.
 
 I deliberately collect as little information about you as possible.
 
-When you make a purchase, your email address and what you purchased are saved. This information is used to provide you access to your Learning Products, and to send you invoices, updates, and information about related products.
+When you make a purchase, your email address and what you purchased are saved. This information is used to provide you access to your Products, and to send you invoices, updates, and information about related products.
 
-When you pay for your Learning Products, your payment information and billing address are sent to a payment processor for processing. Go Make Things does *not* save your payment or billing information.
+When you pay for your Products, your payment information and billing address are sent to a payment processor for processing. Go Make Things does *not* save your payment or billing information.
 
 If you have a discussion on the Community, your messages will be visible to all other members of the Community. Messages are retained forever, though you can delete yours at any time. The last 10,000 messages posted in Community (total, not just your own) are visible and searchable by any member.
 
@@ -103,7 +103,7 @@ Go Make Things uses the following third-party services:
 
 ## Warranties
 
-The Learning Products are provided “as is,” without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement.
+The Products are provided “as is,” without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement.
 
 In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the Content, or the use or other dealings in the Content.
 
