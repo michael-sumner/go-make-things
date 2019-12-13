@@ -39,8 +39,8 @@ academy:
     pricePre: "$399"
     start: 20191129
     end: 20200112
-    startPre: 20191010
-    endPre: 20191010
+    startPre: 20191212
+    endPre: 20191221
     startAcademy: "January 6"
     endAcademy: "March 13"
     registration: "on November 29"
