@@ -63,5 +63,4 @@ Chris lives near horse farms in rural Massachusetts.
 - Access Chris's personal collection of vanilla JS code snippets, helper functions, and plugins at [VanillaJSToolkit.com](https://vanillajstoolkit.com).
 - Explore a learning roadmap and JavaScript project ideas at [LearnVanillaJS.com](https://learnvanillajs.com).
 - Listen to Chris on the Vanilla JS Podcast at [VanillaJSPodcast.com](https://vanillajspodcast.com).
-- Listen to Chris on JS Jabber at [devchat.tv/js-jabber/](https://devchat.tv/js-jabber/).
 - Subscribe to Chris's daily developer tips at [GoMakeThings.com](https://gomakethings.com).
