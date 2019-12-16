@@ -1,5 +1,6 @@
 ---
-title: Ditching Cable
+title: How to ditch cable for streaming-only service
+url: /ditching-cable
 date: 2016-10-17T10:30:00-05:00
 lastmod: 2019-02-14T10:30:00-05:00
 ---
@@ -11,6 +12,14 @@ My cable bill had grown from around $70 a month as part of an initial promotiona
 By ditching cable in favor internet-only TV viewing, I save about $1,000 a year. As a side-benefit, I can also watch my content on any device (TV, laptop, tablet, smartphone) from anywhere.
 
 In this article, I detail everything I've learned from several years of being a cord cutter.
+
+**In this article:**
+
+1. [Really good internet](#really-good-internet)
+2. [Streaming services](#streaming-services)
+3. [Hardware](#hardware)
+4. [Is this really cheaper than cable?](#is-this-really-cheaper-than-cable)
+
 
 ## Really good internet
 
@@ -26,19 +35,12 @@ After an initial first-year discount, most vendors will increase you price, and 
 
 At time of writing, I'm now on year six with FiOS and am still paying what I did when I signed up.
 
-## Services
+
+## Streaming services
 
 How do you actually watch shows without cable? There are a variety of web-based services you can use to watch shows and movies, depending on what you like.
 
 Here are the services I use (and a few that I don't but that are highly recommended)...
-
-### Hulu
-
-[Hulu](http://www.hulu.com) is where I watch most of my current-run TV shows from the major networks. They also have some newer movies and great original programming.
-
-They don't have everything---notably missing is CBS---as negotiating with networks is tricky, but this is my first stop when I'm ready to watch something.
-
-They start at $7 a month ad supported, but the ad-free plan at $12 a month is *so* worth it.
 
 ### Netflix
 
@@ -46,9 +48,27 @@ I resisted [Netflix](https://www.netflix.com/) for a *long* time.
 
 Every time I looked at their catalog, it was mostly documentaries and older runs of shows and movies. But a lot has changed in the last few years.
 
-Netflix now has a deep catalog of original programming, and it's some of the best on TV. I find myself going to Netflix before Hulu these days.
+Netflix now has a deep catalog of original programming, and it's some of the best on TV. Netflix is my first stop when I want to watch something.
 
 HD plans start at $13 a month.
+
+### Hulu
+
+[Hulu](http://www.hulu.com) is where I watch most of my current-run TV shows from the major networks. They also have some newer movies and great original programming.
+
+They don't have everything---notably missing is CBS---as negotiating with networks is tricky, but Hulu is a regular part of my weekly TV rotation.
+
+They start at $7 a month ad supported, but the ad-free plan at $12 a month is *so* worth it.
+
+### Disney Plus
+
+[Disney+](https://www.disneyplus.com/) is Disney's streaming service.
+
+It features tons of your favorite classics, as well as new favorites. It includes content from Disney proper, as well as from brand extensions like Pixar, Marvel, and Star Wars. It's also going to be the exclusive home of new movies for streaming going forward.
+
+Disney+ is currently $7 a month, or $70 if pay for a full year.
+
+They also off a $12 a month bundle that includes ESPN and Hulu, but Hulu is the "with ad" version, which is worse than live TV. I'd recommend just subscribing to that separately.
 
 ### HBO Now
 
@@ -56,15 +76,15 @@ Previously, you could only get HBO through a cable-provider. Today, you can get 
 
 HBO has a bunch of movies and some fantastic shows. This one is definitely a splurge, and can be a bit hit or miss.
 
-Some months they have lots of great programming, while other months are a bit... slow.
+Some months they have lots of great programming, while other months are a bit... slow. I now find myself subscribing for just a couple of months at a time when a series I like drops a new season, binging all of the episodes, and then unsubscribing.
 
 ### Amazon Video
 
 For shows that aren't available on Hulu, I purchase season passes on [Amazon Video](https://www.amazon.com/Amazon-Video/b/?node=2858778011) for about $25 a show.
 
-If you're a Prime member, though, Amazon offers an asburd amount of free shows and movies, and some good original programming. I've personally found that the overall quality of their video programming has gone down hill over the last few years.
+If you're a Prime member, though, Amazon offers an absurd amount of free shows and movies, and some good original programming. I've personally found that the overall quality of their video programming has gone down hill over the last few years.
 
-But this is still my first stop for stuff not available on Hulu or Netflix.
+But this is still my first stop for stuff not available on Netflix, Disney, or Hulu.
 
 Prime membership is $12 a month, but if you buy the year up front for $119, it's only $10 a month. It's also gets you free 2-day shipping on all your Amazon orders.
 
@@ -188,3 +208,20 @@ However, if your house is big, you may find your wifi speeds drop in certain par
 If you're on FiOS, you *have* to use their router, because it converts their fiber-optic signal into something that can go through coaxial lines.
 
 But, if you're tech savvy and not too afraid of breaking things, you can [put it into bridge mode](http://www.hanselman.com/blog/SimplifyingYourNetworkWithABridgeMakingAnFIOsActionTecMI424WRANetworkBridge.aspx). This turns off wifi on it and turns it into a dumb modem, letting you pass the signal through to your own better router.
+
+
+## Is this really cheaper than cable?
+
+There are *so many* streaming services today that people have started questioning whether or not "cord cutting" is actually cheaper than cable.
+
+Yes, it is.
+
+First of all, if you subscribed to every option your cable provide offered (all of the premium channels and so on), you'd be paying more than it would cost to join all of the streaming services I listed above.
+
+Of course, subscribing to *all* of them would be absurd. Some have content you don't want, and there just aren't enough hours in the day to watch that much programming anyways.
+
+Pick and choose the services that make sense *for you*. That's the joy of cord cutting.
+
+And these numbers assume a single TV. Cable companies charge you $15 or more each month for an HD box for each TV you connect their service too. More TVs? More money.
+
+With cord cutting, you buy a Roku once, and in just six months it's already paid for itself versus renting an HD box from the cable company. You can stream to any TV, computer, or smart device you own for a single fee.
