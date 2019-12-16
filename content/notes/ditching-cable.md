@@ -1,5 +1,5 @@
 ---
-title: How to ditch cable for streaming-only service
+title: How to ditch cable for streaming-only services
 url: /ditching-cable
 date: 2016-10-17T10:30:00-05:00
 lastmod: 2019-02-14T10:30:00-05:00
