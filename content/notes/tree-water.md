@@ -9,6 +9,8 @@ A few years ago, I got tired of having to pour water from a tiny cup into the ba
 
 I want to show you how you can build your own automatic tree watering device for about $25.
 
+And the best part: it has no motorized parts or anything. Its powered by simple physics.
+
 ## What you'll need
 
 - 10 feet of clear vinyl tubing ([like this](https://www.lowes.com/pd/EASTMAN-5-8-in-x-10-ft-PVC-Clear-Vinyl-Tubing/1000180551))
