@@ -28,6 +28,8 @@ For JavaScript development, it has some niceties (particularly in dev tools) tha
 
 So I was really intrigued by [the new MS Edge Beta browser](https://www.microsoftedgeinsider.com/).
 
+<img alt="A screenshot of the new Microsoft Edge Beta browser" src="/img/articles/ms-edge-beta.jpg">
+
 It's built on top of Chromium, just like Google Chrome. It has a very similar UI (with a few minor differences), and the dev tools is identical. And while it has its own extension store, it can install any Google Chrome extension, too.
 
 But there are some important differences, too.
