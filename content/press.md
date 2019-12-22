@@ -15,7 +15,9 @@ Chris Ferdinandi helps people learn vanilla JavaScript. He believes there’s a 
 
 Chris is the author of the [Vanilla JS Pocket Guide series](https://vanillajsguides.com), creator of the [Vanilla JS Academy](https://vanillajsacademy.com) training program, and host of the [Vanilla JS Podcast](https://vanillajspodcast.com). His [developer tips newsletter](https://gomakethings.com) is read by thousands of developers each weekday.
 
-He's taught developers at organizations like Chobani and the Boston Globe, and his JavaScript plugins have been used used by Apple and Harvard Business&nbsp;School. Chris Coyier, the founder of CSS-Tricks and CodePen, has described his writing as "infinitely quote-worthy."
+He's taught developers at organizations like Chobani and the Boston Globe, and his JavaScript plugins have been used used by Apple and Harvard Business&nbsp;School.
+
+His ideas on building a simpler, faster world-wide web were featured in *Net Magazine*. Chris Coyier, the founder of CSS-Tricks and CodePen, has described his writing as "infinitely quote-worthy."
 
 Chris loves pirates, puppies, and Pixar movies, and lives near horse farms in rural Massachusetts. He runs Go Make Things with Bailey Puppy, a lab-mix from Tennessee.
 
