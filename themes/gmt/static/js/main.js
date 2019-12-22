@@ -392,7 +392,7 @@ if (document.querySelector('#mailchimp-form')) {
 }
 
 // Anchor links on posts
-if (document.body.matches('.type-articles.page-single, .type-notes.page-single, #page-54a32daa7699b0585cab71188bd8c152')) {
+if (document.body.matches('.type-articles.page-single, .type-notes.page-single, [data-heading-links]')) {
 	addHeadingLinks('h2, h3, h4, h5, h6', '#', 'link-no-underline');
 }
 

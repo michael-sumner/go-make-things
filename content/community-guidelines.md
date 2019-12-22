@@ -2,6 +2,7 @@
 title: "Community Guidelines"
 date: 2018-01-11T16:03:33-05:00
 draft: false
+headerLinks: true
 ---
 
 The [Vanilla JS Slack Community](https://vanillajs.slack.com) is a place to ask questions, work through any vanilla JS challenges, and share ideas and best practices.
