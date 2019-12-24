@@ -34,7 +34,7 @@ We also picked up browser-native ways to play `video` and `audio` files. The web
 
 We got [native responsive images with the `picture` element and `srcset`](/better-responsive-images/) attributes. We can [asynchronously load JavaScript files with `async` or `defer`](/when-should-you-add-the-defer-attribute-to-the-script-element/), and [preload important content with the `rel="preload"` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content).
 
-More recently, we picked up [the `loaded="lazy"` attribute for images and iframes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) that let's you natively lazy-load stuff without a JavaScript plugin. And as Jen Simmons explains, [adding `height` and `width` attributes to your images will reserve space for that image while it loads](https://www.youtube.com/watch?v=4-d_SoCHeWE&t=513s) (maintaining aspect ratio) so that content doesn't jump after the image shows up.
+More recently, we picked up [the `loading="lazy"` attribute for images and iframes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) that let's you natively lazy-load stuff without a JavaScript plugin. And as Jen Simmons explains, [adding `height` and `width` attributes to your images will reserve space for that image while it loads](https://www.youtube.com/watch?v=4-d_SoCHeWE&t=513s) (maintaining aspect ratio) so that content doesn't jump after the image shows up.
 
 There are plenty of new things I'd love to see added to HTML (and CSS, and JavaScript), but I don't see how you can look at all of these things and conclude that HTML is dead.
 
