@@ -56,7 +56,7 @@ obj2.name = 'universe';
 // Logs [1, 2, 3, 4, 5, 6]
 console.log(arr1);
 
-// Logs {greeting: 'hello', name: 'world'}
+// Logs {greeting: 'hello', name: 'universe'}
 console.log(obj1);
 ```
 
