@@ -161,6 +161,14 @@ academy:
             message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on Academy registration. Let's make 2020 the year you master JavaScript!</em></mark></p>
             start: 20200101
             end: 20200101
+        4:
+            message: <p><mark>⏰ <em><strong>Last chance to join!</strong> A completedly redesigned Vanilla JS Academy starts on Monday. Register today and save 30%.</em></mark></p>
+            start: 20200101
+            end: 20200105
+        5:
+            message: <p><mark>🚀 <em><strong>Last chance to join!</strong> A brand new Vanilla JS Academy just started, but it's not too late to join. Register today and save 30%.</em></mark></p>
+            start: 20200106
+            end: 20200112
     # limited:
     #     1:
     #         message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> A completedly redesigned Vanilla JS Academy starts on October 14. Now through Sunday, get 40% off the program.</em></mark></p>
@@ -202,6 +210,10 @@ academyBuy:
             message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Save 40% with the code <code>NYE40</code>. This sale ends today, so don't wait!</em></mark></p>
             start: 20200101
             end: 20200101
+        5:
+            message: <p><mark>⏰ <em><strong>Last chance to join!</strong> Use the code <code>LASTCHANCE</code> to get 30% off at checkout.</em></mark></p>
+            start: 20200101
+            end: 20200112
     # limited:
     #     1:
     #         message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Use the code <code>EARLYBIRD</code> to get 40% off at checkout. Ends Sunday, so don't wait!</em></mark></p>
