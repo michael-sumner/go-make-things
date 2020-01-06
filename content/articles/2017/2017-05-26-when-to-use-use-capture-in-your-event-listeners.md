@@ -4,7 +4,7 @@ categories:
 - JavaScript
 date: '2017-05-26'
 url: /when-to-use-use-capture-in-your-event-listeners/
-title: When to use &#8220;use capture&#8221; in your event listeners
+title: When to use "use capture" in your event listeners
 ---
 
 Earlier this month, I wrote about [the `use capture` argument](/wtf-is-use-capture-in-vanilla-js-event-listeners/) in `addEventListener`and  what it does.
