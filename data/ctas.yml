@@ -96,7 +96,7 @@ resources:
 
 # https://vanillajsguides.com
 guide:
-    message: "<p><mark>🔥 <em><strong>New!</strong> Updated with new resources and more backwards-compatible polyfills.</em></mark></p>"
+    message: ""
     limited:
         1:
             message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of every guide and bundle. Let's make 2020 the year you master JavaScript!</em></mark></p>
@@ -128,7 +128,7 @@ guideBuy:
             end: 20200101
 
 guidesAll:
-    message: "<p class='padding-bottom'><mark>🔥 <em><strong>New!</strong> All of my pocket guides have been updated with new resources and more backwards-compatible polyfills.</em></mark></p>"
+    message: ""
     limited:
         1:
             message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of every guide and bundle. Let's make 2020 the year you master JavaScript!</em></mark></p>
