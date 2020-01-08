@@ -50,7 +50,7 @@ To prevent the error, he added a check to make sure `matches()` is supported by 
 document.addEventListener('mouseenter', function (event) {
 
 	// Make sure it's not the document object
-	if (!('matches') in event.target) return;
+	if (!('matches' in event.target)) return;
 
 	// Do your thing...
 	if (event.target.matches('button')) {
