@@ -46,7 +46,7 @@ events:
 
 # https://gomakethings.com
 home:
-    message: <p><em>I make <a href="https://vanillajsguides.com">short, focused ebooks and video courses</a>, and run <a href="https://vanillajsacademy.com">an online project-based training program</a>. I also write a <a href="/articles">daily developer tips newsletter</a>.</em></p>
+    message: <p><strong>I believe there’s a simpler, more resilient way to make things for the web.</strong> I make <a href="https://vanillajsguides.com">short, focused ebooks and video courses</a>, and run <a href="https://vanillajsacademy.com">an online project-based training program</a>. I also write a <a href="/articles">daily developer tips newsletter</a>.</p>
     limited:
         1:
             message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
