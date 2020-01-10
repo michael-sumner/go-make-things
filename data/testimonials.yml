@@ -160,6 +160,11 @@ stewartDavis:
     photo: "/img/testimonials/stewart-davis.jpg"
     quote: "In terms of knowledge gained per effort expended, this course is hands down the best I've ever tried. More than just the content, it is the growing confidence that maybe even I can actually do this. I feel like I am beginning to know what I don't know. That is huge. Well done."
 
+stewartDavis2:
+    name: "Stewart Davis"
+    photo: "/img/testimonials/stewart-davis.jpg"
+    quote: "My biggest concerns before joining Academy were cost and my experience with other online classes. Most other classes are follow-the-tutorial type and you build a project but don't really understand what you built. Had I understood that your course emphasizes fundamental knowledge of why things work, I probably would have joined a year earlier."
+
 kevinBeck:
     name: "Kevin Beck"
     url: "https://multiplestates.co.uk"
@@ -207,6 +212,12 @@ leticiaOneill:
     url: "https://twitter.com/leti_oneill"
     photo: "/img/testimonials/leticia-oneill.jpg"
     quote: "This is the first learning platform where I’m not overwhelmed or feeling unchallenged. The pacing is great and very helpful for my overachieving tendencies. 😊<br><br>And as a result I have seen I’m learning ALOT more, while still having pockets of time to embellish when I can."
+
+leticiaOneill2:
+    name: "Leticia O'Neill"
+    url: "https://twitter.com/leti_oneill"
+    photo: "/img/testimonials/leticia-oneill.jpg"
+    quote: "I was confident that I'd get something valuable from the Academy. The only only hesitation I felt was from knowing how many false starts I had with JS in the past and questioning my own commitment.<br><br>With Academy, something finally clicked in regards to both my ability to understand and write JavaScript.<br><br>I now feel pretty confident in reading other's scripts and figuring out what's going on. That's in large part due to your clear bite-sized lessons and the active discussions in Slack that quickly surfaced questions and issues that I was also experiencing. Seeing how the same problem was solved by so many others was also helpful in letting go of the pressure to get things right and shift my focus on getting things to work and adjusting later as needed.<br><br>I really liked how the lessons were broken up into quickly consumable chunks. I loved having a clean, unopinionated project file to start from that I could wreak design havoc on. :)<br><br>The Slack community was priceless.<br><br>I've taken other online classes that include a slack community and never found them to be quite as welcoming and my involvement felt much more transactional. In this community, I enjoyed seeing everyone's dedication and investment in each other. It was welcoming, inclusive, helpful, and encouraging. That made a huge difference."
 
 walterJenkins:
     name: "Walter Jenkins"
