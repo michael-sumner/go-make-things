@@ -207,6 +207,12 @@ mariaBlair:
     photo: "/img/testimonials/maria-blair.jpg"
     quote: "I'm not a beginner in JavaScript but I'm really loving the Academy because I still learn new things and best practices. I think knowing best practices distinguishes a mid-level dev from a senior web dev."
 
+mariaBlair2:
+    name: "Maria Blair"
+    url: "https://www.linkedin.com/in/mariaklachkoblair/"
+    photo: "/img/testimonials/maria-blair.jpg"
+    quote: "This program is super hands-on. I always wanted to learn how to make my own libraries, or to know how jQuery library works. Async, Promises and Fetch was another huge one for me, that I used in my projects right away.<br><br>It gave me a lot of confidence as a developer, I wish I had a training like this when I started. It got me much closer to my goal of becoming a senior front-end dev. The material covered in the Academy translates right away into my day-to-day tasks at work, which is amazing.<br><br>I loved that we could share our solutions in a very supportive group, and that you were there in that group all the time. That's rare with other teachers. Having the official solution the next day was fantastic.<br><br>It's an amazing product for all the reasons listed above. I recommend it to everyone."
+
 leticiaOneill:
     name: "Leticia O'Neill"
     url: "https://twitter.com/leti_oneill"
