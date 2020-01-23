@@ -11,6 +11,8 @@ One topic a lot of people told me they find confusing is *hoisting*.
 
 To explain what it is, we need to first quickly look at the two different ways you can create a function.
 
+*__Note:__ I posted [an update to this article with some clarifying points here](/variable-hoisting-in-javascript/).*
+
 ## Function expressions vs. function declarations
 
 There are two ways to create a function: *function expressions* and *function declarations*.
@@ -50,7 +52,7 @@ function add(num1, num2) {
 
 // This was not, so it doesn't
 // returns Uncaught TypeError: subtract is not a function
-substract(7, 4);
+subtract(7, 4);
 var subtract = function (num1, num2) {
 	return num1 - num2;
 };
