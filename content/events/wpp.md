@@ -1,10 +1,18 @@
 ---
-title: "Start Here"
-date: 2018-01-11T16:03:33-05:00
+title: Welcome, Web Platform Podcast listeners!
+date: 2018-01-11T09:40:48-05:00
 draft: false
 ---
 
-First time here? I've put together a *ton* of resources to help you dig deeper into vanilla JS.
+Thanks for listening to me chat with Danny and Erik about vanilla JS, frameworks, and challenges building for the modern web.
+
+I've put together a *ton* of resources to help you dig deeper into the Lean Web.
+
+{{<cta for="events">}}
+
+
+{{<mailchimp intro="true">}}
+
 
 ## Articles
 
@@ -27,7 +35,12 @@ First time here? I've put together a *ton* of resources to help you dig deeper i
 - [My three principles for building for the web](/my-three-principles-for-web-design-and-development/)
 - [Building low-impact websites](/building-low-impact-websites/)
 
-{{<mailchimp intro="true">}}
+
+## The Lean Web Talk & Ebook
+
+You can watch my talk on *the Lean Web*, or read it in ebook form, at **[LeanWeb.dev](https://leanweb.dev/)**.
+
+There's also a ton of free resources for building simpler, faster websites on the site.
 
 
 ## Podcasts
@@ -43,15 +56,13 @@ First time here? I've put together a *ton* of resources to help you dig deeper i
 - [Old doesn't mean obsolete](https://soundcloud.com/vanillajspodcast/episode-21-old-doesnt-mean-obsolete)
 
 
-## The Lean Web Talk & Ebook
-
-The web is a bloated, over-engineered mess. **[The Lean Web](https://leanweb.dev)** is a set of principles for a simpler, faster world-wide web.
-
-<a class="btn" href="https://leanweb.dev/">Read or Watch &rarr;</a>
-
-
 ## Learning Resources
 
 {{<cta for="products">}}
 
 **Want more?** I also maintain the [Vanilla JS Toolkit](https://vanillajstoolkit.com), host the [Vanilla JS Podcast](https://vanillajspodcast.com), and [give talks and appear on podcasts](/talks).
+
+
+## Questions?
+
+If you have questions about anything, or just want to chat more about the Lean Web, send me an email at {{<email>}}.
