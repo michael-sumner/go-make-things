@@ -4,7 +4,7 @@ date: 2018-01-11T09:40:48-05:00
 draft: false
 ---
 
-Thanks for listening to me chat with Danny and Erik about vanilla JS, frameworks, and challenges building for the modern web.
+Thanks for listening to me chat with Danny, Erik, and Leon about vanilla JS, frameworks, and challenges building for the modern web.
 
 I've put together a *ton* of resources to help you dig deeper into the Lean Web.
 
