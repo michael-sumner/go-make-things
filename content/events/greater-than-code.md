@@ -56,6 +56,13 @@ There's also a ton of free resources for building simpler, faster websites on th
 - [Old doesn't mean obsolete](https://soundcloud.com/vanillajspodcast/episode-21-old-doesnt-mean-obsolete)
 
 
+## Career Guide
+
+If you want, you can snag a free copy of my **[Web Dev Career Guide](/career-guide)** with the code `FREECAREER` at checkout.
+
+It covers how to write resumes that get seen by an actual human, how to navigate the interview process, how to know what to focus on, and more.
+
+
 ## Learning Resources
 
 {{<cta for="products">}}
