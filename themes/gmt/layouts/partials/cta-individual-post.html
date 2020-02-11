@@ -2,8 +2,12 @@
 <aside>
 	{{ partial "cta-global.html" . }}
 
+	{{- if false -}}
 	<p><em>Have any questions or comments about this post? Email me at {{ partial "email.html" }} or contact me on Twitter at <a href="http://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>.</em></p>
 
 	{{ partial "mailchimp-intro.html" . }}
+	{{- end -}}
+
+	{{ partial "mailchimp-blurb.html" . }}
 	{{ partial "mailchimp-form.html" }}
 </aside>

@@ -1,3 +1,4 @@
 {{ if .Get "intro" }}{{ partial "mailchimp-intro.html" . }}{{ end }}
+{{ if .Get "blurb" }}{{ partial "mailchimp-blurb.html" . }}{{ end }}
 
 {{ partial "mailchimp-form.html" }}
