@@ -18,4 +18,6 @@ It hurts to think about how much more rich and vibrant the web community would b
 
 What I'm doing barely moves the needle, but I'm really passionate about helping people who are underrepresented in our community become a part of it, flourish, and thrive.
 
-So, if you're interested, snag a free copy of my [Vanilla JS Guides Beginner's Bundle](https://vanillajsguides.com/beginner-bundle/) (to my white readers, sorry, this one's not for us).
+So, if you're interested, snag a free copy of my [Vanilla JS Guides Beginner's Bundle](https://vanillajsguides.com/beginner-bundle/).
+
+(*This is totally on the honor system. I trust you to do the right thing.*)
