@@ -1,5 +1,5 @@
 ---
-title: "let and hoisting with vanilla JS"
+title: "let, hoisting, and the temporal dead zone with vanilla JS"
 date: 2020-02-18T10:30:00-05:00
 draft: false
 categories:
