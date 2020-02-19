@@ -1,5 +1,5 @@
 ---
-title: "Greater than code"
+title: "Greater than code podcast"
 date: 2020-02-19T10:30:00-05:00
 draft: false
 categories:
