@@ -3,34 +3,24 @@
 ##
 
 guides:
-    ebook: "$29"
-    video: "$69"
-    both: "$74"
+    ebook: "$39"
+    video: "$79"
+    both: "$84"
 
 guidesComplete:
-    ebook: "$179"
-    video: "$429"
-    both: "$459"
+    ebook: "$239"
+    video: "$497"
+    both: "$529"
 
 guidesBeginner:
-    ebook: "$99"
-    video: "$239"
-    both: "$259"
+    ebook: "$129"
+    video: "$269"
+    both: "$289"
 
 guidesAdvanced:
-    ebook: "$79"
-    video: "$189"
-    both: "$207"
-
-projects:
-    ebook: "$29"
-    video: "$69"
-    both: "$74"
-
-projectsComplete:
-    ebook: "$79"
-    video: "$189"
-    both: "$207"
+    ebook: "$109"
+    video: "$219"
+    both: "$234"
 
 academy:
     priceID: 6
@@ -111,32 +101,42 @@ guideDetails:
         description: "Build interactive web apps and single page apps without libraries or frameworks."
         url: "/web-apps/"
 
-projectDetails:
-    complete:
-        id: "37221"
-        description: "Every project in the collection, including any new ones that come out in the future."
-        url: "/complete-set/"
-        ready: false
-    fortuneTeller:
-        id: "37213"
-        description: "See into the future by building a fortune-teller app that provides answers to any question."
-        url: "/fortune-teller/"
-        ready: true
-    rockPaperScissors:
-        id: "37215"
-        description: "Play even when your friends aren't around by making an interactive JavaScript game."
-        url: "/rock-paper-scissors/"
-        ready: false
-    drumMachine:
-        id: "37217"
-        description: "Make, record, and loop your own beats by building a drum machine app."
-        url: "/drum-machine/"
-        ready: false
-    pegArt:
-        id: "37219"
-        description: "Channel your inner artist and build a peg art game. Place colored pegs onto a game board to create beautiful pictures."
-        url: "/peg-art-game/"
-        ready: false
+# projectDetails:
+#     complete:
+#         id: "37221"
+#         description: "Every project in the collection, including any new ones that come out in the future."
+#         url: "/complete-set/"
+#         ready: false
+#     fortuneTeller:
+#         id: "37213"
+#         description: "See into the future by building a fortune-teller app that provides answers to any question."
+#         url: "/fortune-teller/"
+#         ready: true
+#     rockPaperScissors:
+#         id: "37215"
+#         description: "Play even when your friends aren't around by making an interactive JavaScript game."
+#         url: "/rock-paper-scissors/"
+#         ready: false
+#     drumMachine:
+#         id: "37217"
+#         description: "Make, record, and loop your own beats by building a drum machine app."
+#         url: "/drum-machine/"
+#         ready: false
+#     pegArt:
+#         id: "37219"
+#         description: "Channel your inner artist and build a peg art game. Place colored pegs onto a game board to create beautiful pictures."
+#         url: "/peg-art-game/"
+#         ready: false
+
+# projects:
+#     ebook: "$29"
+#     video: "$69"
+#     both: "$74"
+
+# projectsComplete:
+#     ebook: "$79"
+#     video: "$189"
+#     both: "$207"
 
 # careerGuide: "$39"
 # wickedFastWebsites: "$39"
