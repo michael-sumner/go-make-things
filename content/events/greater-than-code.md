@@ -20,7 +20,7 @@ I've put together a *ton* of resources to help you dig deeper into the Lean Web.
 - [How I structure my vanilla JS projects](/how-i-structure-my-vanilla-js-projects/)
 - [Modern JS is gatekeeping](/modern-js-is-gatekeeping/)
 - [The Tao of web development](/the-tao-of-web-development/)
-- [HTML is a living language](- [HTML is a living language](/html-is-a-living-language/))
+- [HTML is a living language](/html-is-a-living-language/)
 - [Building accessible websites and web apps is a moral obligation](/building-accessible-websites-and-apps-is-a-moral-obligation/)
 - [The problem with single page apps](/the-problem-with-single-page-apps/)
 - [Three tricks for building an insanely fast website](/three-tricks-for-building-an-insanely-fast-website/)
@@ -45,7 +45,7 @@ There's also a ton of free resources for building simpler, faster websites on th
 
 ## Podcasts
 
-- [Script & Style: Vanilla JS and the Lean Web](/episodes/vanilla-javascript-with-chris-ferdinandi)
+- [Script & Style: Vanilla JS and the Lean Web](https://scriptandstyle.simplecast.com/episodes/vanilla-javascript-with-chris-ferdinandi)
 - [devMode.fm: Returning sanity to the web dev process](https://devmode.fm/episodes/returning-sanity-to-the-webdev-process?mc_cid=d0351d5f34&mc_eid=7dddaa071c)
 - [JS Party: JavaScript is the CO2 of the web](https://changelog.com/jsparty/80)
 - [The Shop Talk Show: The power of the native web](https://shoptalkshow.com/episodes/274-vanilla-js-chris-ferdinandi/)

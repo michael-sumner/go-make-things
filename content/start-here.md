@@ -9,10 +9,11 @@ First time here? I've put together a *ton* of resources to help you dig deeper i
 ## Articles
 
 - [The web is not dying](/the-web-is-not-dying/)
+- [Tools and developer habits](/tools-and-developer-habits/)
 - [How I structure my vanilla JS projects](/how-i-structure-my-vanilla-js-projects/)
 - [Modern JS is gatekeeping](/modern-js-is-gatekeeping/)
 - [The Tao of web development](/the-tao-of-web-development/)
-- [HTML is a living language](- [HTML is a living language](/html-is-a-living-language/))
+- [HTML is a living language](/html-is-a-living-language/)
 - [Building accessible websites and web apps is a moral obligation](/building-accessible-websites-and-apps-is-a-moral-obligation/)
 - [The problem with single page apps](/the-problem-with-single-page-apps/)
 - [Three tricks for building an insanely fast website](/three-tricks-for-building-an-insanely-fast-website/)
