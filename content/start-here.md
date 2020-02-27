@@ -38,10 +38,10 @@ First time here? I've put together a *ton* of resources to help you dig deeper i
 - [JS Party: JavaScript is the CO2 of the web](https://changelog.com/jsparty/80)
 - [The Shop Talk Show: The power of the native web](https://shoptalkshow.com/episodes/274-vanilla-js-chris-ferdinandi/)
 - [Hanselminutes: Maybe just use vanilla JS](https://hanselminutes.com/598/maybe-just-use-vanilla-javascript-with-chris-ferdinandi)
-- [What's wrong with CSS-in-JS?](https://soundcloud.com/vanillajspodcast/whats-wrong-with-css-in-js)
-- [Accessibility is a moral obligation](https://soundcloud.com/vanillajspodcast/episode-17-accessibility-is-a-moral-obligation)
-- [The developer experience is bullshit](https://soundcloud.com/vanillajspodcast/episode-15-the-developer-experience-is-bullshit)
-- [Old doesn't mean obsolete](https://soundcloud.com/vanillajspodcast/episode-21-old-doesnt-mean-obsolete)
+- [What's wrong with CSS-in-JS?](https://vanillajspodcast.com/whats-wrong-with-css-in-js/)
+- [Accessibility is a moral obligation](https://vanillajspodcast.com/accessibility-is-a-moral-obligation/)
+- [The developer experience is bullshit](https://vanillajspodcast.com/the-developer-experience-is-bullshit/)
+- [Old doesn't mean obsolete](https://vanillajspodcast.com/old-doesnt-mean-obsolete/)
 
 
 ## The Lean Web Talk & Ebook
