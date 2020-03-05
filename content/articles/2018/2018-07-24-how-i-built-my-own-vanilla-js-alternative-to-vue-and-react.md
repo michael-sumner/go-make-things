@@ -20,7 +20,7 @@ Let's dig in!
 
 If you forgot/aren't familiar with Reef's syntax, here's [an example of a simple clock app](http://jsfiddle.net/cferdinandi/7o5zydvL/5/).
 
-Rhe `Reef()` method accepts two arguments. The first is the element to render your template into, either as a selector string or the actual node itself. The second is an object with your template, and optionally, your data/or state.
+The `Reef()` method accepts two arguments. The first is the element to render your template into, either as a selector string or the actual node itself. The second is an object with your template, and optionally, your data/or state.
 
 The template can be a simple string, or a function that returns a string. If a function is used, your data or state is passed in as an argument. For a more JSX/React-like experience, you can use template literals.
 
