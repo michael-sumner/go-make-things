@@ -82,3 +82,9 @@ hitchhiker.indexOf('quest');
 ```
 
 Checking for complete words requires the use of regular expressions, and [that's an entirely separate article](/regex-with-javascript/).
+
+## Which one should you use?
+
+Today, I probably lean more towards `String.includes()`, with a polyfill. It's rare that I actually need the index of the substring. I generally just want to know if it exists or not.
+
+If you don't want to bother with the polyfill, `String.indexOf()` still gets the job done, though!
