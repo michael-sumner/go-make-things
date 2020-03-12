@@ -31,7 +31,7 @@ hitchhiker.includes('question');
 hitchhiker.includes('question', 42);
 
 // returns 27
-hitchhiker.indexOf('question', 42);
+hitchhiker.indexOf('question');
 
 // returns -1 for the same reason
 hitchhiker.indexOf('question', 42);
