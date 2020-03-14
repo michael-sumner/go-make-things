@@ -40,7 +40,7 @@ hitchhiker.indexOf('question', 42);
 And here's one with an array.
 
 ```js
-var wizards = ['Hermoine', 'Neville', 'Harry Potter', 'Dumbledore'];
+var wizards = ['Hermione', 'Neville', 'Harry Potter', 'Dumbledore'];
 
 // returns true
 wizards.includes('Neville');
