@@ -49,7 +49,6 @@ I want to help you successfully launch your next JavaScript project, without the
 		<li>A one-time, 2-hour workshop.</li>
 		<li>Weekly phone calls or video chats.</li>
 		<li>Unlimited, 24/7 access to me by email or IM.</li>
-		<li><em>{{<price for="consulting">}}</em></li>
 	</ul>
 
 	<p>Email me at {{<email params="subject=I'm%20interested%20in%20consulting&body=Hi%20Chris,%0D%0A%0D%0AI'm%20working%20on%20[PROJECT]%20and%20could%20use%20some%20help%20with%20[THINGS].%20I%20think%20I%20could%20use%20your%20help%20for%20about%20[X]%20months.%0D%0A%0D%0AI%20work%20at%20[COMPANY]%20and%20am%20based%20in%20[LOCATION].%20You%20can%20learn%20more%20about%20what%20we%20do%20at%20[URL].%20The%20best%20way%20to%20reach%20me%20is%20[CONTACT%20INFO].%0D%0A%0D%0AThanks,%0D%0A[YOUR%20NAME]">}} or call me at {{<phone>}} to get started.</p>
