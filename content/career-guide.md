@@ -6,7 +6,7 @@ draft: false
 
 <img alt="" class="aligncenter" src="/img/career-guide/web-developer-career-guide.jpg">
 
-<a class="btn" href="#ready-to-buy">Buy it now &rarr;</a>
+<a class="btn" href="#ready-to-buy">Get it now &rarr;</a>
 
 ## No one ever teaches you how to have a successful career.
 
@@ -39,7 +39,7 @@ All successful web developers share a set of habits and behaviors. They talk to 
 - How to kick ass at your next job interview.
 - How to negotiate your salary and get paid what you deserve.
 
-<a class="btn" href="#ready-to-buy">Buy it now &rarr;</a>
+<a class="btn" href="#ready-to-buy">Get it now &rarr;</a>
 
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial for="jeffGolenski" photo="true">}}</div>
@@ -112,7 +112,9 @@ Here's everything that's in the book.
 		<li>FREE lifetime updates</li>
 	</ul>
 
-	<p><a class="btn btn-large edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=22339">Buy Now for $39</a></p>
+	<p><mark><em><strong>Get it for free!</strong> The coronavirus is wrecking the economy. To help people who are now unexpectedly in need of work, the Career Guide is now totally free.</em></mark></p>
+
+	<p><a class="btn btn-large edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=22339">Buy Now for <del>$39</del> FREE</a></p>
 </div>
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial for="robertBuchholz">}}</div>
@@ -146,6 +148,6 @@ Don't put off building a kick-ass career! If you're not 100% satisfied with the 
 
 ## Ready to buy "The Web Developer Career Guide"?
 
-<a class="btn" href="#ready-to-buy">Buy it now &rarr;</a>
+<a class="btn" href="#ready-to-buy">Get it now &rarr;</a>
 
 If you have any questions or comments, send me an email at {{<email>}}.
