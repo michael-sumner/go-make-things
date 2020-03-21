@@ -18,7 +18,6 @@
 	}
 
 	// Rebuild all the sites
-	exec('cd /srv/users/serverpilot/apps/gomakethings/build && /usr/local/bin/hugo && cp -r /srv/users/serverpilot/apps/gomakethings/build/public/. /srv/users/serverpilot/apps/gomakethings/public');
 	exec('cd /srv/users/serverpilot/apps/vanillajspodcast/build && /usr/local/bin/hugo && cp -r /srv/users/serverpilot/apps/vanillajspodcast/build/public/. /srv/users/serverpilot/apps/vanillajspodcast/public');
 	exec('cd /srv/users/serverpilot/apps/gmtcourses/build && /usr/local/bin/hugo && cp -r /srv/users/serverpilot/apps/gmtcourses/build/public/. /srv/users/serverpilot/apps/gmtcourses/public');
 	exec('cd /srv/users/serverpilot/apps/vanillajsguides/build && /usr/local/bin/hugo && cp -r /srv/users/serverpilot/apps/vanillajsguides/build/public/. /srv/users/serverpilot/apps/vanillajsguides/public');

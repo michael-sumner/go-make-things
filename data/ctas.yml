@@ -75,7 +75,7 @@ guideBuy:
     message: ""
     limited:
         1:
-            message: <p><em><mark><strong>Worried about the economy?</strong></mark> I am too! If you’re in a bad spot right now, you can take 50% off every guide and bundle with the code <code>ECONOMY</code> at checkout.</em></p><p class="no-margin-bottom"><em class="text-small">(If you’re doing ok right now, I’d be grateful if you paid full price to help keep my business going. But please don’t hesitate to use this discount if you need it.)</em></p>
+            message: <p><em><mark><strong>Worried about the economy?</strong></mark> I am too! If you’re in a bad spot right now, you can take 50% off every guide and bundle with the code <code>ECONOMY</code> at checkout.</em></p><p><em class="text-small">(If you’re doing ok right now, I’d be grateful if you paid full price to help keep my business going. But please don’t hesitate to use this discount if you need it.)</em></p>
             start: 20200321
             end: 20200801
 
