@@ -240,6 +240,21 @@ academyPre:
 
 
 
+# Lead Funnels
+# https://vanillajstoolkit.com/
+# https://vanillajspodcast.com/
+# https://vanillajsprepschool.com/
+# https://learnvanillajs.com/
+# https://vanillajsprojects.com/
+# https://leanweb.dev/
+funnel:
+    message: ""
+    limited:
+        1:
+            message: ""
+            start: 20190101
+            end: 20190101
+
 # https://vanillajspodcast.com
 podcast:
     message: "<mark><p>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</p></mark>"
