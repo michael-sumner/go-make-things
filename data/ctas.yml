@@ -31,17 +31,9 @@ events:
     message: ""
     limited:
         1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
+            message: <p><em><mark><strong>Worried about the economy?</strong></mark> I am too! If you’re in a bad spot right now, you can take 50% off my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>.</em></p>
+            start: 20200321
+            end: 20200801
 
 
 # https://gomakethings.com
@@ -52,14 +44,6 @@ home:
             message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
             start: 20191226
             end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
 
 global:
     message: ""
@@ -68,30 +52,14 @@ global:
             message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
             start: 20191226
             end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
 
 resources:
     message: ""
     limited:
         1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
+            message: <p><em><mark><strong>Worried about the economy?</strong></mark> I am too! If you’re in a bad spot right now, you can take 50% off my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>.</em></p>
+            start: 20200321
+            end: 20200801
 
 
 # https://vanillajsguides.com
@@ -99,49 +67,25 @@ guide:
     message: ""
     limited:
         1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of every guide and bundle. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of every guide and bundle. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of every guide and bundle. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
+            message: <div class="callout"><p><em><mark><strong>Worried about the economy?</strong></mark> I am too! If you’re in a bad spot right now, you can take 50% off with the code <code>ECONOMY</code> at checkout.</em></p><p class="no-margin-bottom"><em class="text-small">(If you’re doing ok right now, I’d be grateful if you paid full price to help keep my business going. But please don’t hesitate to use this discount if you need it.)</em></p></div>
+            start: 20200321
+            end: 20200801
 
 guideBuy:
     message: ""
     limited:
         1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Save 40% with the code <code>NYE40</code>. This sale ends on January 1, so don't wait!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Save 40% with the code <code>NYE40</code>. This sale ends tomorrow, so don't wait!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Save 40% with the code <code>NYE40</code>. This sale ends today, so don't wait!</em></mark></p>
-            start: 20200101
-            end: 20200101
+            message: <p><em><mark><strong>Worried about the economy?</strong></mark> I am too! If you’re in a bad spot right now, you can take 50% off every guide and bundle with the code <code>ECONOMY</code> at checkout.</em></p><p class="no-margin-bottom"><em class="text-small">(If you’re doing ok right now, I’d be grateful if you paid full price to help keep my business going. But please don’t hesitate to use this discount if you need it.)</em></p>
+            start: 20200321
+            end: 20200801
 
 guidesAll:
     message: ""
     limited:
         1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of every guide and bundle. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of every guide and bundle. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of every guide and bundle. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
+            message: <div class="callout"><p><em><mark><strong>Worried about the economy?</strong></mark> I am too! If you’re in a bad spot right now, you can take 50% off every guide and bundle with the code <code>ECONOMY</code> at checkout.</em></p><p class="no-margin-bottom"><em class="text-small">(If you’re doing ok right now, I’d be grateful if you paid full price to help keep my business going. But please don’t hesitate to use this discount if you need it.)</em></p></div>
+            start: 20200321
+            end: 20200801
 
 
 
@@ -151,24 +95,8 @@ academy:
     limited:
         1:
             message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on Academy registration. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on Academy registration. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on Academy registration. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
-        4:
-            message: <p><mark>⏰ <em><strong>Last chance to join!</strong> A completedly redesigned Vanilla JS Academy starts on Monday. Register today and save 30%.</em></mark></p>
-            start: 20200101
-            end: 20200105
-        5:
-            message: <p><mark>🚀 <em><strong>Last chance to join!</strong> A brand new Vanilla JS Academy just started, but it's not too late to join. Register today and save 30%.</em></mark></p>
-            start: 20200106
-            end: 20200112
+            start: 20190101
+            end: 20190101
     # limited:
     #     1:
     #         message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> A completedly redesigned Vanilla JS Academy starts on October 14. Now through Sunday, get 40% off the program.</em></mark></p>
@@ -200,20 +128,8 @@ academyBuy:
     limited:
         1:
             message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Save 40% with the code <code>NYE40</code>. This sale ends on January 1, so don't wait!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Save 40% with the code <code>NYE40</code>. This sale ends tomorrow, so don't wait!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Save 40% with the code <code>NYE40</code>. This sale ends today, so don't wait!</em></mark></p>
-            start: 20200101
-            end: 20200101
-        5:
-            message: <p><mark>⏰ <em><strong>Last chance to join!</strong> Use the code <code>LASTCHANCE</code> to get 30% off at checkout.</em></mark></p>
-            start: 20200101
-            end: 20200112
+            start: 20190101
+            end: 20190101
     # limited:
     #     1:
     #         message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Use the code <code>EARLYBIRD</code> to get 40% off at checkout. Ends Sunday, so don't wait!</em></mark></p>
@@ -251,272 +167,11 @@ funnel:
     message: ""
     limited:
         1:
-            message: ""
-            start: 20190101
-            end: 20190101
-
-# https://vanillajspodcast.com
-podcast:
-    message: "<mark><p>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</p></mark>"
-    limited:
-        1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
+            message: <p><em><mark><strong>Worried about the economy?</strong></mark> I am too! If you’re in a bad spot right now, you can take 50% off my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>.</em></p>
+            start: 20200321
+            end: 20200801
 
 
-# https://vanillajstoolkit.com
-toolkitHome:
-    message: ""
-    limited:
-        1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
-
-toolkitSnippets:
-    message: "<div class='callout'>🚀 For <strong>detailed tutorials, projects, and source code</strong>, check out my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
-    limited:
-        1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
-
-toolkitHelpers:
-    message: "<div class='callout'>🚀 Learn how to <strong>write your own JS helper functions</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
-    limited:
-        1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
-
-toolkitBoilerplates:
-    message: "<div class='callout'>🚀 Learn how to <strong>write more flexible, resilient JavaScript</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
-    limited:
-        1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
-
-toolkitPolyfills:
-    message: "<div class='callout'>🚀 Learn how to <strong>write scripts that run in any browser</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
-    limited:
-        1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
-
-toolkitPlugins:
-    message: "<div class='callout'>🚀 Learn how to <strong>write your own vanilla JS plugins</strong> with my <strong><a href='https://vanillajsguides.com/'>Vanilla JS Pocket Guides and Videos</a></strong>.</div>"
-    limited:
-        1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
-
-toolkitLearning:
-    message: ""
-    limited:
-        1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
-
-
-# https://learnvanillajs.com
-learnvjsHome:
-    message: ""
-    limited:
-        1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
-
-learnvjsRoadmap:
-    message: ""
-    limited:
-        1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
-
-learnvjsProjects:
-    message: ""
-    limited:
-        1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
-
-learnvjsResources:
-    message: ""
-    limited:
-        1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
-
-# https://vanillajslist.com
-vanillaJsList:
-    message: ""
-    limited:
-        1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
-
-# https://leanweb.dev
-leanwebHome:
-    message: ""
-    limited:
-        1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
-
-leanwebTalk:
-    message: ""
-    limited:
-        1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
-
-leanwebEbook:
-    message: ""
-    limited:
-        1:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today through January 1, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191226
-            end: 20191230
-        2:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20191231
-            end: 20191231
-        3:
-            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today only, save 40% on any of my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>. Let's make 2020 the year you master JavaScript!</em></mark></p>
-            start: 20200101
-            end: 20200101
 
 # Holiday Bonuses
 bonusesList:
