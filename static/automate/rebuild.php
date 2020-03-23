@@ -31,3 +31,5 @@
 
 	// Log the deployment
 	file_put_contents('rebuild.log', date('m/d/Y h:i:s a') . ' Rebuilt all the sites' . "\n", FILE_APPEND);
+
+	die('All set, dude!');
