@@ -37,6 +37,8 @@ academy:
     endAcademy: "March 13"
     registration: "on November 29"
 
+prepSchool: "$99"
+
 guideDetails:
     complete:
         id: "22572"
