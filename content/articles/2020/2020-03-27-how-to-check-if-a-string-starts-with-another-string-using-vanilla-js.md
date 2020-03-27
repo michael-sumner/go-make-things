@@ -1,5 +1,5 @@
 ---
-title: "How to check if a string starts with another string using vanilla JS"
+title: "How to check if a string ends with another string using vanilla JS"
 date: 2020-03-27T10:30:00-04:00
 draft: false
 categories:
