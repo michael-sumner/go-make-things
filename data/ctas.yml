@@ -157,7 +157,7 @@ academyPre:
 
 # Prep School
 prepSchool:
-    message: ""
+    message: "<p><mark>🚀 <em><strong>NEW: <a href='/projects'>Prep School Library</a>.</strong> Get access all of the past projects, including recordings and the source code. <a href='/projects'>Learn more.</a></em></mark></p>"
     limited:
         1:
             message: ""
@@ -168,9 +168,9 @@ prepSchoolBuy:
     message: ""
     limited:
         1:
-            message: ""
-            start: 20190101
-            end: 20190101
+            message: <p><em><mark><strong>Worried about the economy?</strong></mark> I am too! If you’re in a bad spot right now, you can take 50% off Prep School Library with the code <code>ECONOMY</code> at checkout.</em></p><p><em class="text-small">(If you’re doing ok right now, I’d be grateful if you paid full price to help keep my business going. But please don’t hesitate to use this discount if you need it.)</em></p>
+            start: 20200321
+            end: 20200801
 
 # Lead Funnels
 # https://vanillajstoolkit.com/
