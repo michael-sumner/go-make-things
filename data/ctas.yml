@@ -157,7 +157,7 @@ academyPre:
 
 # Prep School
 prepSchool:
-    message: "<p><mark>🚀 <em><strong>NEW: <a href='/projects'>Prep School Library</a>.</strong> Get access all of the past projects, including recordings and the source code. <a href='/projects'>Learn more.</a></em></mark></p>"
+    message: "<p><mark>🚀 <em><strong>NEW: <a href='https://vanillajsprepschool.com/projects'>Prep School Library</a>.</strong> Get access all of the past projects, including recordings and the source code. <a href='https://vanillajsprepschool.com/projects'>Learn more.</a></em></mark></p>"
     limited:
         1:
             message: ""
