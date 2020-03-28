@@ -19,7 +19,7 @@ He let me reprint his email and my response here. So here's the deal...
 
 NodeLists and Arrays are two different things because NodeLists are actually not a JavaScript API, but a browser API.
 
-Things like `querySelectorAll()` and 1getElementsByTagName()` aren't JavaScript methods, they're browser APIs that let you access DOM elements. You can then manipulate them with JavaScript.
+Things like `querySelectorAll()` and `getElementsByTagName()` aren't JavaScript methods, they're browser APIs that let you access DOM elements. You can then manipulate them with JavaScript.
 
 This used to confuse me like crazy, too, because JavaScript is *the* scripting language of the front end. Turns out, other languages can access these methods, too.
 
