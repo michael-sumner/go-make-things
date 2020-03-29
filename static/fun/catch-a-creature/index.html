@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Camera</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 
 	<style type="text/css">
 		body {
@@ -243,7 +245,8 @@
 		var startVideo = function () {
 			var video = document.querySelector('video');
 			navigator.mediaDevices.getUserMedia({
-				video: true
+				video: true,
+				facingMode: {ideal: 'environment'}
 			}).then(function (stream) {
 				video.srcObject = stream;
 				createIcon();
@@ -267,7 +270,7 @@
 
 		var renderFind = function () {
 			addClass(true);
-			app.innerHTML = '<video autoplay></video>';
+			app.innerHTML = '<video autoplay playsinline></video>';
 			nav.innerHTML = getNav(true);
 			startVideo();
 		};
