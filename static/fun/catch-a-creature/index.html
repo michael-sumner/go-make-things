@@ -26,6 +26,7 @@
 
 		main {
 			margin: 0 auto;
+			padding-bottom: 2em;
 			max-width: 32em;
 			width: 88%;
 		}
@@ -34,6 +35,7 @@
 			background-color: #000000;
 			height: 100vh;
 			max-width: inherit;
+			padding-bottom: 0;
 			position: relative;
 			width: 100vw;
 		}
@@ -172,7 +174,9 @@
 		};
 		var delay = { // How long between creatures
 			min: 300,
-			max: 8000
+			max: 8000,
+			startMin: 300,
+			startMax: 3000
 		};
 		var moves = { // How many times they move before disappearing
 			min: 3,
@@ -298,6 +302,13 @@
 
 		};
 
+		var startCreatures = function () {
+			setTimeout(function () {
+				createIcon();
+				animate();
+			}, randomNumber(delay.startMin, delay.startMax));
+		};
+
 		var startVideo = function () {
 			var video = document.querySelector('video');
 			navigator.mediaDevices.getUserMedia({
@@ -308,13 +319,12 @@
 				},
 			}).then(function (stream) {
 				video.srcObject = stream;
-				createIcon();
-				animate();
+				startCreatures();
 			}).catch(function (error) {
 				console.warn(error);
+				video.remove();
 				document.documentElement.className += ' no-camera';
-				createIcon();
-				animate();
+				startCreatures();
 			});
 		};
 
