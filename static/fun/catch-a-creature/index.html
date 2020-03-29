@@ -175,6 +175,8 @@
 		var delay = { // How long between creatures
 			min: 300,
 			max: 8000,
+			advancedMin: 3000,
+			advancedMax: 45000,
 			startMin: 300,
 			startMax: 3000
 		};
@@ -258,6 +260,13 @@
 			app.appendChild(icon);
 		};
 
+		var getDelay = function (max) {
+			if (max) {
+				return Object.keys(captured) > 3 ? delay.advancedMax : delay.max;
+			}
+			return Object.keys(captured) > 3 ? delay.advancedMin : delay.min;
+		};
+
 		var changeCreature = function () {
 			completedMoves = 0;
 			icon.remove();
@@ -265,7 +274,7 @@
 			animator = setTimeout(function () {
 				createIcon();
 				animate();
-			}, randomNumber(delay.min, delay.max));
+			}, randomNumber(getDelay(), getDelay(true)));
 		};
 
 		var moveCreature = function () {
@@ -303,7 +312,7 @@
 		};
 
 		var startCreatures = function () {
-			setTimeout(function () {
+			animator = setTimeout(function () {
 				createIcon();
 				animate();
 			}, randomNumber(delay.startMin, delay.startMax));
@@ -322,6 +331,7 @@
 				startCreatures();
 			}).catch(function (error) {
 				console.warn(error);
+				alert('Catch-a-Creature works best with access to a rear-facing camera. You can still play, though!');
 				video.remove();
 				document.documentElement.className += ' no-camera';
 				startCreatures();
