@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Camera</title>
+
+	<style type="text/css">
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue',sans-serif;
+			font-size: 112.5%;
+			margin: 0 auto;
+		}
+
+		.game body {
+			overflow: hidden;
+		}
+
+		main {
+			margin: 0 auto;
+			max-width: 32em;
+			width: 88%;
+		}
+
+		.game main {
+			background-color: #000000;
+			height: 100vh;
+			max-width: inherit;
+			position: relative;
+			width: 100vw;
+		}
+
+		video {
+			height: 100vh;
+			margin: 0 auto;
+			max-height: 100vh;
+			max-width: 100vw;
+			width: 100%;
+		}
+
+		.icon {
+			background: transparent;
+			border: none;
+			margin: 0;
+			padding: 0;
+			position: fixed;
+			top: 25px;
+			left: 200px;
+			transition: all 1s ease-out;
+		}
+
+		.credits {
+			font-size: 0.85em;
+			margin-top: 3em;
+		}
+
+		#nav {
+			bottom: 1em;
+			position: fixed;
+			width: 100%;
+			z-index: 9;
+		}
+
+		.nav {
+			text-align: center;
+		}
+
+		.nav button {
+			background-color: #0088cc;
+			border: #0088cc;
+			border-radius: 2em;
+			color: #ffffff;
+			font: inherit;
+			margin: 0;
+			padding: 0.5em 2em;
+			cursor: pointer;
+		}
+
+		svg {
+		    pointer-events: none;
+		}
+	</style>
+</head>
+<body>
+
+	<nav class="nav" id="nav"></nav>
+	<main id="app"></main>
+
+	<script>
+		//
+		// Variables
+		//
+
+		// Elements
+		var app = document.querySelector('#app');
+		var nav = document.querySelector('#nav');
+
+		// Creatures
+		var creatures = [
+			'yeti',
+			'centaur',
+			'cerberus',
+			'dino1',
+			'dino2',
+			'dragon',
+			'gnome',
+			'hydra',
+			'leprechaun',
+			'lochness',
+			'mermaid',
+			'minotaur',
+			'pegasus',
+			'satyr',
+			'unicorn'
+		];
+
+		// Settings
+		// var size = 150;
+		var size = 75; // How big the icons are
+		var scale = { // How big to scale the image
+			min: 0.5,
+			max: 1.5
+		};
+		var speed = {  // How frequently they should move
+			min: 1000,
+			max: 3000
+		};
+		var delay = { // How long between creatures
+			min: 300,
+			max: 8000
+		};
+		var moves = { // How many times they move before disappearing
+			min: 3,
+			max: 5,
+			current: 3
+		};
+		var completedMoves = 0;
+
+		// Captured creatures
+		var captured = {};
+
+		// Placeholders
+		var icon, animator, currentCreature;
+
+
+		//
+		// Methods
+		//
+
+		/**
+		 * Randomly shuffle an array
+		 * https://stackoverflow.com/a/2450976/1293256
+		 * @param  {Array} array The array to shuffle
+		 * @return {String}      The first item in the shuffled array
+		 */
+		var shuffle = function (array) {
+
+			var currentIndex = array.length;
+			var temporaryValue, randomIndex;
+
+			// While there remain elements to shuffle...
+			while (0 !== currentIndex) {
+				// Pick a remaining element...
+				randomIndex = Math.floor(Math.random() * currentIndex);
+				currentIndex -= 1;
+
+				// And swap it with the current element.
+				temporaryValue = array[currentIndex];
+				array[currentIndex] = array[randomIndex];
+				array[randomIndex] = temporaryValue;
+			}
+
+			return array;
+
+		};
+
+		var getCreature = function () {
+			var creature = shuffle(creatures.slice())[0];
+			if (currentCreature && creature === currentCreature) return getCreature();
+			currentCreature = creature;
+			return creature;
+		};
+
+		/**
+		 * Get a random integer with a minimum and maximum value
+		 * @param  {Integer} min  The minimum value
+		 * @param  {Integer} max  The maximum value
+		 * @return {Integer}      A random number
+		 */
+		var randomNumber = function (min, max) {
+			return Math.floor(Math.random() * (max - min + 1) + min);
+		};
+
+		var randomFloat = function (min, max) {
+			return (Math.random() * (min - max) + max);
+		};
+
+		var adjustPosition = function () {
+			icon.style.top = randomNumber(0, (window.innerHeight || document.documentElement.clientHeight) - size - (size * scale.max)).toString() + 'px';
+			icon.style.left = randomNumber(0, (window.innerWidth || document.documentElement.clientWidth) - size).toString() + 'px';
+			icon.style.transform = 'scale(' + randomFloat(scale.min, scale.max) + ')';
+		};
+
+		var createIcon = function () {
+			icon = document.createElement('button');
+			icon.className = 'icon';
+			icon.innerHTML = '<img height="' + size + '" width="' + size + '" src="img/' + getCreature() + '.png">';
+			adjustPosition();
+			app.appendChild(icon);
+		};
+
+		var changeCreature = function () {
+			completedMoves = 0;
+			icon.remove();
+			clearTimeout(animator);
+			animator = setTimeout(function () {
+				createIcon();
+				animate();
+			}, randomNumber(delay.min, delay.max));
+		};
+
+		var moveCreature = function () {
+			if (completedMoves > moves.current) {
+				changeCreature();
+			} else {
+				adjustPosition();
+				completedMoves++;
+				animator = setTimeout(moveCreature, randomNumber(speed.min, speed.max));
+			}
+		};
+
+		var animate = function () {
+			moves.current = randomNumber(moves.min, moves.max);
+			animator = setTimeout(moveCreature, randomNumber(speed.min, speed.max));
+		};
+
+		var getCredits = function () {
+			return '<p class="credits"><em>Creature icons made by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com/">flaticon.com</a>.</em></p>';
+		};
+
+		var getNav = function (find) {
+			return '<button data-nav="' + (find ? 'creatures' : 'find') + '">' + (find ? 'My Creatures' : 'Find') + '</button>';
+		};
+
+		var startVideo = function () {
+			var video = document.querySelector('video');
+			navigator.mediaDevices.getUserMedia({
+				video: true
+			}).then(function (stream) {
+				video.srcObject = stream;
+				createIcon();
+				animate();
+			}).catch(function (error) {
+				console.warn(error);
+			});
+		};
+
+		var stopVideo = function () {
+			var video = document.querySelector('video');
+			if (!video) return;
+			video.srcObject.getTracks().forEach(function(track) {
+				track.stop();
+			});
+		};
+
+		var addClass = function (isGame) {
+			document.documentElement.className = isGame ? 'game' : 'content';
+		};
+
+		var renderFind = function () {
+			addClass(true);
+			app.innerHTML = '<video autoplay></video>';
+			nav.innerHTML = getNav(true);
+			startVideo();
+		};
+
+		var renderHome = function () {
+			addClass();
+			app.innerHTML =
+				'<h1>Catch-a-Creature</h1>' +
+				'<p>There are fantastical creatures wandering the world around us, invisible to humans. But thanks to modern technology, you can now see them.</p>' +
+				'<nav class="nav">' +
+					getNav() + ' ' + getNav(true) +
+				'</nav>' +
+				getCredits();
+		};
+
+		var renderCreatures = function () {
+			addClass();
+			app.innerHTML =
+				'<h1>My Creatures</h1>' +
+				Object.keys(captured).map(function (creature) {
+					return '<img alt="" src="img/' + creature + '.png">';
+				}).join('');
+			nav.innerHTML = getNav();
+		};
+
+		var navHandler = function (event) {
+
+			// Get nav item
+			var nav = event.target.getAttribute('data-nav');
+			if (!nav) return;
+
+			// Clear animations and stop video
+			clearTimeout(animator);
+			stopVideo();
+
+			if (nav === 'find') {
+				renderFind();
+			} else {
+				renderCreatures();
+			}
+
+		};
+
+		var creatureHandler = function (event) {
+			if (!event.target.matches('.icon, .icon img')) return;
+			if (captured[currentCreature]) {
+				captured[currentCreature]++;
+			} else {
+				captured[currentCreature] = 1;
+			}
+			localStorage.setItem('mythicCreatures', JSON.stringify(captured));
+			changeCreature();
+		};
+
+		var clickHandler = function (event) {
+			navHandler(event);
+			creatureHandler(event);
+		};
+
+		var loadSaved = function () {
+			return
+			var saved = localStorage.getItem('mythicCreatures');
+			if (!saved) return;
+			captured = JSON.parse(saved);
+		};
+
+
+		//
+		// Inits & Event Listeners
+		//
+
+		loadSaved();
+		renderHome();
+		document.addEventListener('click', clickHandler);
+	</script>
+
+</body>
+</html>
