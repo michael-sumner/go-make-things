@@ -245,8 +245,11 @@
 		var startVideo = function () {
 			var video = document.querySelector('video');
 			navigator.mediaDevices.getUserMedia({
-				video: true,
-				facingMode: {exact: 'environment'}
+				video: {
+					facingMode: {
+						ideal: 'environment'
+					}
+				},
 			}).then(function (stream) {
 				video.srcObject = stream;
 				createIcon();
