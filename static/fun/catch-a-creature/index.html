@@ -96,6 +96,10 @@
 			cursor: pointer;
 		}
 
+		#nav-home button {
+			margin-bottom: 0.5em;
+		}
+
 		svg {
 		    pointer-events: none;
 		}
@@ -173,12 +177,12 @@
 			max: 3000
 		};
 		var delay = { // How long between creatures
-			min: 300,
-			max: 8000,
-			advancedMin: 3000,
-			advancedMax: 45000,
-			startMin: 300,
-			startMax: 3000
+			min: 5000,
+			max: 12000,
+			advancedMin: 15000,
+			advancedMax: 50000,
+			startMin: 2000,
+			startMax: 5000
 		};
 		var moves = { // How many times they move before disappearing
 			min: 3,
@@ -362,7 +366,7 @@
 			app.innerHTML =
 				'<h1>Catch-a-Creature</h1>' +
 				'<p>There are fantastical creatures wandering the world around us, invisible to humans. But thanks to modern technology, you can now see them.</p>' +
-				'<nav class="nav">' +
+				'<nav id="nav-home" class="nav">' +
 					getNav('find') + ' ' + getNav('creatures') +
 				'</nav>' +
 				getCredits();
