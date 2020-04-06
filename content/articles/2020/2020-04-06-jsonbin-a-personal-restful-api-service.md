@@ -104,7 +104,7 @@ When you go to make calls, you can get the token from `sessionStorage` and use i
 fetch('https://jsonbin.org/me', {
 	headers: {
 		'Content-Type': 'application/json',
-		'Authorization': 'bearer ' + sessionStorage.setItem('myToken')
+		'Authorization': 'bearer ' + sessionStorage.getItem('myToken')
 	}
 }).then(function (response) {
 	if (response.ok) {
@@ -129,7 +129,7 @@ fetch('https://jsonbin.org/me/wizards', {
 	method: 'POST',
 	headers: {
 		'Content-Type': 'application/json',
-		'Authorization': 'bearer ' + sessionStorage.setItem('myToken')
+		'Authorization': 'bearer ' + sessionStorage.getItem('myToken')
 	},
 	body: JSON.stringify({
 		harryPotter: {
@@ -161,7 +161,7 @@ In this example, `data` would be the JSON object with `harryPotter` and `hermion
 fetch('https://jsonbin.org/me/wizards', {
 	headers: {
 		'Content-Type': 'application/json',
-		'Authorization': 'bearer ' + sessionStorage.setItem('myToken')
+		'Authorization': 'bearer ' + sessionStorage.getItem('myToken')
 	}
 }).then(function (response) {
 	if (response.ok) {
@@ -196,7 +196,7 @@ fetch('https://jsonbin.org/me/wizards/_perms', {
 	method: 'PUT',
 	headers: {
 		'Content-Type': 'application/json',
-		'Authorization': 'bearer ' + sessionStorage.setItem('myToken')
+		'Authorization': 'bearer ' + sessionStorage.getItem('myToken')
 	}
 }).then(function (response) {
 	if (response.ok) {
@@ -217,7 +217,7 @@ fetch('https://jsonbin.org/me/wizards/_perms', {
 	method: 'DELETE',
 	headers: {
 		'Content-Type': 'application/json',
-		'Authorization': 'bearer ' + sessionStorage.setItem('myToken')
+		'Authorization': 'bearer ' + sessionStorage.getItem('myToken')
 	}
 }).then(function (response) {
 	if (response.ok) {
