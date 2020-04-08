@@ -80,6 +80,4 @@ Walter's not alone. I've gotten so much great feedback on this program.
 
 ## A new session starts in May
 
-If you're interested in the [Vanilla JS Academy](https://vanillajsacademy.com), a new session starts on May 11.
-
-Registration opens up next Wednesday.
+If you're interested in the [Vanilla JS Academy](https://vanillajsacademy.com), a new session starts on May 11. Registration opens up next Wednesday.
