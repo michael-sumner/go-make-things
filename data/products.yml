@@ -32,7 +32,7 @@ academy:
     startPre: 20200408
     endPre: 20200414
     # startAcademyPreposition: "on "
-    startAcademyPreposition: "on"
+    startAcademyPreposition: "on "
     startAcademy: "May 11"
     endAcademy: "July 17"
     registration: "on April 15"

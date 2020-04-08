@@ -231,6 +231,18 @@ walterJenkins:
     photo: "/img/testimonials/walter-jenkins.jpg"
     quote: "Best investment and course I have taken. If you want a bite sized course that will hold you accountable take this course. I have reduced the amount I Google and use Stackexchange by 50% and actually feel like I understand what I am coding."
 
+toddLibby:
+    name: "Todd Libby"
+    url: "https://toddl.dev/"
+    photo: "/img/testimonials/todd-libby.jpg"
+    quote: "I had a great time learning through your Academy. The community is great and it is phenomenal the way you run it. I appreciate the kindness and welcoming feeling I get in a community and the Vanilla JS Academy community is just that.<br><br>I had a blast and enjoyed every minute of it, whether it was the Slack channel, office hours, or just going through and learning. Thank you, it was money well spent."
+
+ronAmick:
+    name: "Ron Amick"
+    url: "https://luckycatcreative.com/"
+    photo: "/img/testimonials/ron-amick.jpg"
+    quote: "Your course provided the impetus to knuckle down and challenge myself. You got me writing code (not merely reading about it or watching videos).<br><br>Having a caring, well-spoken guide such as yourself made it fun to work through the projects. Having that in a group all tackling the same projects added that dynamic aspect that also got me moving.<br><br>Some specific things I liked: The fabulously well-crafted projects/challenges. The clarity of your teaching (videos, in-code comments, etc.). The supportive Slack channels. The feeling that no question is a dumb question -- and the thrill of having a dialogue going permitting sharing tidbits with others.<br><br>No Lynda.com tutorial or other tutorial provides that environment."
+
 # Learn Vanilla JS
 markBaldwinSmith:
     name: "Mark Baldwin-Smith"
