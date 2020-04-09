@@ -49,25 +49,11 @@ academy:
     limited:
         1:
             prices:
-                price: "<del>$799</del> $399"
-            start: 20191129
-            end: 20191202
+                price: "<del>$799</del> $479"
+            start: 20200415
+            end: 20200422
         2:
             prices:
-                price: "<del>$799</del> $479"
-            start: 20191203
-            end: 20191208
-        3:
-            prices:
                 price: "<del>$799</del> $559"
-            start: 20191231
-            end: 20200112
-
-# Prep School
-prepSchool:
-    limited:
-        1:
-            prices:
-                price: "<del>$99</del> $69"
-            start: 20191129
-            end: 20191202
+            start: 20200504
+            end: 20200510
