@@ -92,7 +92,7 @@ For me, that means that IE10 and lower might get a simple, single-column layout,
 
 The content is still visible to everyone.
 
-## A mental modal to make this easier
+## A mental model to make this easier
 
 The easiest way to start coding like this: start with nothing but HTML.
 
