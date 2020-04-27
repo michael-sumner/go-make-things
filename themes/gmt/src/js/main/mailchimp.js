@@ -1,3 +1,7 @@
+/**
+ * 
+ * @param {Typ} callback 
+ */
 var mailchimp = function (callback) {
 
 	'use strict';
