@@ -61,6 +61,8 @@ If you see someone behaving disrespectfully, we urge you to respectfully dissuad
 
 If you experience disrespectful behavior toward yourself or anyone else and feel in any way unable or unwilling to respond or resolve it respectfully (for any reason), please immediately [bring it to the attention of an administrator](#administrators). We want to hear from you about anything that you feel is disrespectful, threatening, or just something that could make someone feel distressed in any way.
 
+If that person in question *is* one of the administrators, please bring the issue to the attention of one of the others. Their job is to hold each other accountable, and ensure that everyone feels safe and welcome.
+
 We will listen and work to resolve the matter.
 
 #### Apologize for Mistakes
@@ -82,6 +84,7 @@ We can’t foresee every situation, and thus if in the administrator's judgment 
 The administrator(s) of the Vanilla JS Slack Community as of December 12, 2016:
 
 - Chris Ferdinandi - {{<email>}}
+- Kieran Barker - [&#107;&#105;&#101;&#114;&#097;&#110;&#098;&#097;&#114;&#107;&#101;&#114;&#064;&#111;&#117;&#116;&#108;&#111;&#111;&#107;&#046;&#099;&#111;&#109;](mailto:&#107;&#105;&#101;&#114;&#097;&#110;&#098;&#097;&#114;&#107;&#101;&#114;&#064;&#111;&#117;&#116;&#108;&#111;&#111;&#107;&#046;&#099;&#111;&#109;)
 
 ## No Trump Policy
 
