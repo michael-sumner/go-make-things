@@ -59,7 +59,7 @@ We believe peer-to-peer discussions, feedback, and corrections can help build a 
 
 If you see someone behaving disrespectfully, we urge you to respectfully dissuade them from such behavior. Expect that others in the community wish to help keep the community respectful, and welcome your input in doing so.
 
-If you experience disrespectful behavior toward yourself or anyone else and feel in any way unable or unwilling to respond or resolve it respectfully (for any reason), please immediately [bring it to the attention of an administrator](#adminstrators). We want to hear from you about anything that you feel is disrespectful, threatening, or just something that could make someone feel distressed in any way.
+If you experience disrespectful behavior toward yourself or anyone else and feel in any way unable or unwilling to respond or resolve it respectfully (for any reason), please immediately [bring it to the attention of an administrator](#administrators). We want to hear from you about anything that you feel is disrespectful, threatening, or just something that could make someone feel distressed in any way.
 
 We will listen and work to resolve the matter.
 
