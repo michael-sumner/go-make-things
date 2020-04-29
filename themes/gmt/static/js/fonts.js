@@ -1,13 +1,6 @@
-/*!
- * gmt v1.19.0
- * The theme for gomakethings.com
- * (c) 2019 Chris Ferdinandi
- * MIT License
- * http://github.com/cferdinandi/go-make-things
- */
-
-// Lazy Load Custom Fonts
+/*! gmt v2.0.0 | (c) 2020 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/go-make-things | Credits: https://github.com/toddmotto/fluidvids */
 (function () {
+	'use strict';
 
 	var loadCSS = function (href) {
 
@@ -25,16 +18,16 @@
 		// wait until body is defined before injecting link. This ensures a non-blocking load in IE11.
 		var ready = function (cb){
 			if (document.body) return cb();
-			setTimeout((function () {
+			setTimeout(function () {
 				ready(cb);
-			}));
+			});
 		};
 
 		// Inject link
 		// Note: `insertBefore` is used instead of `appendChild`, for safety re: http://www.paulirish.com/2011/surefire-dom-element-insertion/
-		ready((function() {
+		ready(function() {
 			ref.parentNode.insertBefore(ss, ref.nextSibling);
-		}));
+		});
 
 		// This function sets the link's media back to `all` so that the stylesheet applies once it loads
 		// It is designed to poll until document.styleSheets includes the new sheet.
@@ -46,9 +39,9 @@
 					return cb();
 				}
 			}
-			setTimeout((function () {
+			setTimeout(function () {
 				onloadcssdefined (cb);
-			}));
+			});
 		};
 
 		var loadCB = function () {
@@ -68,16 +61,15 @@
 
 	loadCSS(font);
 
-	if (!('fonts' in document)) return;
-	Promise.all([
-		document.fonts.load('1em PT Serif'),
-		document.fonts.load('700 1em PT Serif'),
-		document.fonts.load('italic 1em PT Serif'),
-		document.fonts.load('italic 700 1em PT Serif')
-	]).then((function () {
-		document.documentElement.className += ' fonts-loaded';
-		// Optimization for Repeat Views
-		// sessionStorage.fontsLoadedFoutWithClass = true;
-	}));
+	if ('fonts' in document) {
+		Promise.all([
+			document.fonts.load('1em PT Serif'),
+			document.fonts.load('700 1em PT Serif'),
+			document.fonts.load('italic 1em PT Serif'),
+			document.fonts.load('italic 700 1em PT Serif')
+		]).then(function () {
+			document.documentElement.className += ' fonts-loaded';
+		});
+	}
 
-})();
+}());

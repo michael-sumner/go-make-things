@@ -1,6 +1,6 @@
 /**
- * 
- * @param {Typ} callback 
+ *
+ * @param {Function} callback
  */
 var mailchimp = function (callback) {
 
@@ -212,3 +212,5 @@ var mailchimp = function (callback) {
 	form.addEventListener('submit', submitHandler, false);
 
 };
+
+export default mailchimp;

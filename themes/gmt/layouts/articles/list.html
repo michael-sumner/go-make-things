@@ -16,19 +16,15 @@
 
 	<article>
 
-		<header class="row">
+		<header class="row row-reverse">
 
-			<div class="grid-fourth grid-flip ">
-				<aside class="text-muted text-small">
-					<time datetime="{{ .PublishDate }}" pubdate>{{ .PublishDate.Format "January 2, 2006" }}</time>
-				</aside>
-			</div>
+			<aside class="grid-fourth text-muted text-small text-right-large">
+				<time datetime="{{ .PublishDate }}" pubdate>{{ .PublishDate.Format "January 2, 2006" }}</time>
+			</aside>
 
-			<div class="grid-three-fourths">
-				<h3 class="h5 text-normal no-padding-top">
-					<a class="link-no-underline" href="{{ .URL }}">{{ .Title }}</a>
-				</h3>
-			</div>
+			<h3 class="grid-three-fourths h5 text-normal no-padding-top">
+				<a class="link-no-underline" href="{{ .URL }}">{{ .Title }}</a>
+			</h3>
 
 		</header>
 

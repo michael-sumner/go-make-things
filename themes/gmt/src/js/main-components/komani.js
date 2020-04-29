@@ -27,3 +27,5 @@ var easterEgg = function () {
 	document.addEventListener('keydown', keyHandler, false);
 
 };
+
+export default easterEgg;

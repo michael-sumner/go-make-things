@@ -1,3 +1,11 @@
+import './main-components/_matches.polyfill.js';
+import './main-components/add-to-cart.js';
+import fluidvids from './main-components/fluidvids.js';
+import addHeadingLinks from './main-components/heading-links.js';
+import easterEgg from './main-components/komani.js';
+import mailchimp from './main-components/mailchimp.js';
+
+
 /**
  * Script initializations
  */

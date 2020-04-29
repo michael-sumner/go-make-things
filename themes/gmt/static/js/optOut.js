@@ -1,15 +1,6 @@
-/*!
- * gmt v1.19.0
- * The theme for gomakethings.com
- * (c) 2019 Chris Ferdinandi
- * MIT License
- * http://github.com/cferdinandi/go-make-things
- */
-
-;(function () {
-
+/*! gmt v2.0.0 | (c) 2020 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/go-make-things | Credits: https://github.com/toddmotto/fluidvids */
+(function () {
 	'use strict';
-
 
 	//
 	// Variables
@@ -125,27 +116,36 @@
 		h1.textContent = decodeURIComponent(params.heading);
 	};
 
+	/**
+	 * Run the opt-out script
+	 */
+	var init = function () {
+
+		// Make sure required element exists
+		if (!status) return;
+
+		// Get params
+		params = getParams();
+
+		// Update the heading
+		updateHeading();
+
+		// Make sure we have all of the required params
+		if (!params.email || !params.group || !isEmail()) {
+			showError();
+			return;
+		}
+
+		// Submit the request
+		sendData();
+
+	};
+
 
 	//
 	// Event Listeners & Inits
 	//
 
-	// Make sure required element exists
-	if (!status) return;
+	init();
 
-	// Get params
-	params = getParams();
-
-	// Update the heading
-	updateHeading();
-
-	// Make sure we have all of the required params
-	if (!params.email || !params.group || !isEmail()) {
-		showError();
-		return;
-	}
-
-	// Submit the request
-	sendData();
-
-})();
+}());

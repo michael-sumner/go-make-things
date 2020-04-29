@@ -37,14 +37,13 @@ var crowsNest = function () {
 	var createHTML = function (article, id) {
 		var html =
 			'<div class="margin-bottom" id="search-result-' + id + '">' +
-				'<a class="link-block" href="' + article.url + '">' +
-					'<aside class="text-muted text-small">' +
-						'<time datetime="' + article.datetime + '" pubdate>' + article.date + '</time>' +
-					'</aside>' +
-					'<h2 class="h3 link-block-styled link-no-underline no-padding-top no-margin-bottom">' + article.title + '</h2>' +
-					article.summary.slice(0, 150) + '...<br>' +
-					'<span class="link-block-styled link-no-underline">' + article.url + '</span>' +
-				'</a>' +
+				'<aside class="text-muted text-small">' +
+					'<time datetime="' + article.datetime + '" pubdate>' + article.date + '</time>' +
+				'</aside>' +
+				'<h2 class="h3 link-block-styled link-no-underline no-padding-top no-margin-bottom">' +
+					'<a class="link-no-underline" href="' + article.url + '">' + article.title + '</a>' +
+				'</h2>' +
+				article.summary.slice(0, 150) + '...' +
 			'</div>';
 		return html;
 	};
