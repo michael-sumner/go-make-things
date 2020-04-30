@@ -1,9 +1,9 @@
-import './main-components/_matches.polyfill.js';
-import './main-components/add-to-cart.js';
-import fluidvids from './main-components/fluidvids.js';
-import addHeadingLinks from './main-components/heading-links.js';
-import easterEgg from './main-components/komani.js';
-import mailchimp from './main-components/mailchimp.js';
+import '../../../../../gmt-theme/dist/js/_matches.polyfill.js';
+import '../../../../../gmt-theme/dist/js/add-to-cart.js';
+import fluidvids from '../../../../../gmt-theme/dist/js/fluidvids.js';
+import addHeadingLinks from '../../../../../gmt-theme/dist/js/heading-links.js';
+import easterEgg from './main-components/konami.js';
+import mailchimp from '../../../../../gmt-theme/dist/js/mailchimp.js';
 
 
 /**
