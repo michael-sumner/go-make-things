@@ -7,6 +7,8 @@ categories:
 - JavaScript
 ---
 
+_**UPDATE:** I've completely changed my mind on this. I'm now all-in on `fetch()`. [You can read more about how to use it here.](/how-to-use-the-fetch-api-with-vanilla-js/)_
+
 Over the last year, I've had quite a few people ask me to write about the Fetch API for making Ajax requests.
 
 Truth is, I still prefer using good old XHR. Today, I want to explain why.
