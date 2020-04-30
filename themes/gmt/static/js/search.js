@@ -2,7 +2,7 @@
 (function () {
 	'use strict';
 
-	var crowsNest = function () {
+	var crowsNest = function (template) {
 
 		//
 		// Variables
@@ -31,26 +31,6 @@
 		};
 
 		/**
-		 * Create the HTML for each result
-		 * @param  {Object} article The article
-		 * @param  {Number} id      The result index
-		 * @return {String}         The markup
-		 */
-		var createHTML = function (article, id) {
-			var html =
-				'<div class="margin-bottom" id="search-result-' + id + '">' +
-					'<aside class="text-muted text-small">' +
-						'<time datetime="' + article.datetime + '" pubdate>' + article.date + '</time>' +
-					'</aside>' +
-					'<h2 class="h3 link-block-styled link-no-underline no-padding-top no-margin-bottom">' +
-						'<a class="link-no-underline" href="' + article.url + '">' + article.title + '</a>' +
-					'</h2>' +
-					article.summary.slice(0, 150) + '...' +
-				'</div>';
-			return html;
-		};
-
-		/**
 		 * Create the markup when no results are found
 		 * @return {String} The markup
 		 */
@@ -66,7 +46,7 @@
 		var createResultsHTML = function (results) {
 			var html = '<p>Found ' + results.length + ' matching articles</p>';
 			html += results.map(function (article, index) {
-				return createHTML(article.article, index);
+				return template(article.article, index);
 			}).join('');
 			return html;
 		};
@@ -155,7 +135,7 @@
 		//
 
 		// Make sure required content exists
-		if (!form || !input || !resultList || !searchIndex) return;
+		if (!template || typeof template !== 'function' || !form || !input || !resultList || !searchIndex) return;
 
 		// Clear the input field
 		clearInput();
@@ -168,6 +148,18 @@
 
 	};
 
-	crowsNest();
+	crowsNest(function (article, id) {
+		var html =
+			'<div class="margin-bottom" id="search-result-' + id + '">' +
+				'<aside class="text-muted text-small">' +
+					'<time datetime="' + article.datetime + '" pubdate>' + article.date + '</time>' +
+				'</aside>' +
+				'<h2 class="h3 link-block-styled link-no-underline no-padding-top no-margin-bottom">' +
+					'<a class="link-no-underline" href="' + article.url + '">' + article.title + '</a>' +
+				'</h2>' +
+				article.summary.slice(0, 150) + '...' +
+			'</div>';
+		return html;
+	});
 
 }());
