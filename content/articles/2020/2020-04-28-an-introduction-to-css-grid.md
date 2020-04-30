@@ -116,9 +116,11 @@ So, the only thing we actually need to change is the `grid-template-columns` pro
 }
 ```
 
-In this example, the layout is actually a five-column grid, and `1fr` is equal one-fifth, or 20%.
+In this example, while the layout is actually three-column grid, for math purposes it's helpful to think of it as a five-column grid with the middle content area spanning three columns.
 
-To get the "total columns," you add all of the fractional units together. This is actually a five-column layout, with the middle container spanning three columns.
+To figure out the width of `1fr`, count up the total number of fractional units. One over that number (1/n) will give you the fraction, and dividing into 100 will give you the percentage.
+
+In this example, there are five total fractional unites, so `1fr` is one-fifth of the layout, or 20%.
 
 [Here's what that looks like.](https://codepen.io/cferdinandi/pen/NWGgzZb)
 
@@ -134,4 +136,4 @@ This is one that I'm 100% comfortable treating as a progressive enhancement, tho
 
 ## More complex layouts
 
-Tomorrow, we'll look at how to do more advanced layouts with CSS Grid.
+Tomorrow, we'll look at [how to do more advanced layouts with CSS Grid](/how-to-build-complex-layouts-with-css-grid/).
