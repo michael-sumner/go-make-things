@@ -37,6 +37,8 @@ You turn an object into a Proxy with the `new Proxy()` constructor.
 
 The first argument is the object to turn into a Proxy, and the second is a `handler` with *getter* and *setter* functions that should whenever someone tries to get or set data on the object.
 
+We should also add a `deleteProperty` function that will run if a property is ever deleted from the object.
+
 ```js
 var wizardsProxy= new Proxy(wizards, handler);
 ```
@@ -63,6 +65,18 @@ var handler = {
 		// Set a property
 		// This is what happens by default when you don't have a Proxy
 		obj[prop] = value;
+
+		// Indicate success
+		return true;
+
+	},
+	deleteProperty: function (obj, prop) {
+
+		// Do stuff when someone deletes a property
+		console.log('Deleted a property... bye bye bye!');
+
+		// Delete the property
+		delete obj[prop];
 
 		// Indicate success
 		return true;
@@ -114,6 +128,18 @@ var handler = {
 		// Indicate success
 		return true;
 
+	},
+	deleteProperty: function (obj, prop) {
+
+		// Save our wizards to localStorage
+		localStorage.setItem('wizardsAndSuch', JSON.stringify(obj));
+
+		// Delete the property
+		delete obj[prop];
+
+		// Indicate success
+		return true;
+
 	}
 };
 ```
@@ -137,3 +163,7 @@ But now, thanks to Proxies, any update to the data updates the UI automatically.
 ```js
 app.data.myNew = 'data';
 ```
+
+## Browser compatibility
+
+Proxies work in all modern browsers, but have no IE support. [You can push support back to IE9 with this polyfill from the Google Chrome team.](https://github.com/GoogleChrome/proxy-polyfill)
