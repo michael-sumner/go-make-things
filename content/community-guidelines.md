@@ -21,9 +21,10 @@ The following guidelines are intended to make the community easier and more enjo
 1. Set up your profile. Upload a photo and create a short bio.
 2. Introduce yourself and tell the room a little about what you do.
 3. This is a single-channel Slack. All of the convo happens in the `#vanilla-js` channel.
-4. If your favorite topic isn’t being discussed, bring it up!
-5. All are welcome to contribute regardless of their experience or skill level. If you want to hang back and lurk, that’s cool, too.
-6. We expect that we’ll treat others with respect. We encourage debate; we ask for patience, and we remind you that you’re here to learn and that means being open a diverse set of ideas. See the [Code of Conduct](#code-of-conduct) below.
+4. We make heavy use of *threads* to keep conversations organized.
+5. If your favorite topic isn’t being discussed, bring it up!
+6. All are welcome to contribute regardless of their experience or skill level. If you want to hang back and lurk, that’s cool, too.
+7. We expect that we’ll treat others with respect. We encourage debate; we ask for patience, and we remind you that you’re here to learn and that means being open a diverse set of ideas. See the [Code of Conduct](#code-of-conduct) below.
 
 ## A Few Details
 
