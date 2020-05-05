@@ -26,6 +26,7 @@ var data = new Proxy({
 	set: function (obj, prop, value) {
 		console.log('set it');
 		obj[prop] = value;
+		return true;
 	}
 });
 ```
@@ -66,6 +67,7 @@ var handler = function () {
 		set: function (obj, prop, value) {
 			console.log('set it');
 			obj[prop] = value;
+			return true;
 		}
 	};
 };
@@ -94,6 +96,7 @@ var handler = function () {
 		set: function (obj, prop, value) {
 			console.log('set it');
 			obj[prop] = value;
+			return true;
 		}
 	};
 };
