@@ -93,7 +93,6 @@ var handler = function (instance) {
 				return new Proxy(obj[prop], handler(instance));
 			}
 			return obj[prop];
-			instance.render();
 		},
 		set: function (obj, prop, value) {
 			obj[prop] = value;
