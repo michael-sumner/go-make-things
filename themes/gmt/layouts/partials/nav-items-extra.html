@@ -1,1 +1,1 @@
-<li{{ if eq .URL "/search/" }} class="active"{{ end }}><a href="{{ "/search" | absURL }}">Search</a></li>
+<li><a{{ if eq .URL "/search/" }} aria-current="page"{{ end }} href="{{ "/search" | absURL }}">Search</a></li>
