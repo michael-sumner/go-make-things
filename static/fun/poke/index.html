@@ -461,13 +461,14 @@
 			// 	return !store.data.captured.includes(creature.name);
 			// });
 			store.data.creatures = creatures.reduce(function (arr, creature) {
-				if (store.data.captured.includes(creature.name)) return arr;
+				if (store.data.captured.includes(creature.name.toLowerCase())) return arr;
 				var rarity = 6 - creature.rarity;
 				for (var i = 0; i < rarity; i++) {
 					arr.push(creature);
 				}
 				return arr;
 			}, []);
+
 		};
 
 		var getUncaughtCreatures = function () {
@@ -845,8 +846,8 @@
 				<p class="text-center"><img height="350" width="350" alt="" src="img/${details.name.toLowerCase()}.png"></p>
 				<p>${details.description}</p>
 				<ul>
-					<li><strong>Types</strong> ${details.types.split('||').join(', ')}</li>
-					<li><strong>Abilities</strong> ${details.abilities.split('||').join(', ')}</li>
+					<li><strong>Types:</strong> ${details.types.split('||').join(', ')}</li>
+					<li><strong>Abilities:</strong> ${details.abilities.split('||').join(', ')}</li>
 					<li><strong>Evolves Into:</strong> ${details.evolves ? details.evolves : 'None'}</li>
 					<li><strong>Rarity:</strong> ${details.rarity}</li>
 				</ul>`;
