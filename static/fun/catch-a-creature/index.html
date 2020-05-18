@@ -137,6 +137,8 @@
 	<nav class="nav" id="nav"></nav>
 	<main id="app"></main>
 
+	<script src="https://cdn.jsdelivr.net/npm/reefjs@7.2/dist/reef.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reefjs@7.2/dist/router.min.js"></script>
 	<script>
 		//
 		// Variables
@@ -250,10 +252,16 @@
 			return (Math.random() * (min - max) + max);
 		};
 
+		var getScale = function (top) {
+			var half = (window.innerHeight || document.documentElement.clientHeight) / 3;
+			var size = parseFloat(top) / half;
+			return size > half ? Math.min(size, scale.max) : Math.max(size, scale.min);
+		};
+
 		var adjustPosition = function () {
 			icon.style.top = randomNumber(0, (window.innerHeight || document.documentElement.clientHeight) - size - (size * scale.max)).toString() + 'px';
 			icon.style.left = randomNumber(0, (window.innerWidth || document.documentElement.clientWidth) - size).toString() + 'px';
-			icon.style.transform = 'scale(' + randomFloat(scale.min, scale.max) + ')';
+			icon.style.transform = 'scale(' + getScale(icon.style.top) + ')';
 		};
 
 		var createIcon = function () {
@@ -266,9 +274,9 @@
 
 		var getDelay = function (max) {
 			if (max) {
-				return Object.keys(captured) > 3 ? delay.advancedMax : delay.max;
+				return Object.keys(captured) > 2 ? delay.advancedMax : delay.max;
 			}
-			return Object.keys(captured) > 3 ? delay.advancedMin : delay.min;
+			return Object.keys(captured) > 2 ? delay.advancedMin : delay.min;
 		};
 
 		var changeCreature = function () {

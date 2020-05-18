@@ -135,6 +135,42 @@ document.addEventListener('submit', function (event) {
 
 [In this updated demo](https://codepen.io/cferdinandi/pen/MWaqLVj), you'll notice that the full set of data gets returned.
 
+## UPDATE: A simpler alternative
+
+Jim Winstead tipped me off to a simpler alternative to looping through the object using the `Object.fromEntries()` method.
+
+```js
+Object.fromEntries(new FormData(event.target));
+```
+
+You would use it like this.
+
+```js
+document.addEventListener('submit', function (event) {
+
+	event.preventDefault();
+
+	fetch('https://jsonplaceholder.typicode.com/posts', {
+		method: 'POST',
+		body: JSON.stringify(Object.fromEntries(new FormData(event.target))),
+		headers: {
+			'Content-type': 'application/json; charset=UTF-8'
+		}
+	}).then(function (response) {
+		if (response.ok) {
+			return response.json();
+		}
+		return Promise.reject(response);
+	}).then(function (data) {
+		console.log(data);
+	}).catch(function (error) {
+		console.warn(error);
+	});
+});
+```
+
+[Here a demo with this method.](https://codepen.io/cferdinandi/pen/rNOQyYP)
+
 ## In video form
 
 My friend [Steve Griffith has a great video on this topic in video form](https://www.youtube.com/watch?v=GWJhE7Licjs), if you're interested in learning more.
@@ -144,5 +180,7 @@ My friend [Steve Griffith has a great video on this topic in video form](https:/
 ## Browser compatibility
 
 The `FormData()` constructor works in all modern browsers, and IE10 and above. Unfortunately, *iterators* and the `for...of` method do not work in IE at all, and cannot be polyfilled.
+
+Similarly, the `Object.fromEntries()` method also does not work in IE.
 
 Next week, we'll look at some more backwards compatible ways to serialize form data into arrays, objects, and search parameter strings.

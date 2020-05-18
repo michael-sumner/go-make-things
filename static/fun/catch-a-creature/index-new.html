@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Catch-a-Creature</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+	<style type="text/css">
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue',sans-serif;
+			font-size: 112.5%;
+			margin: 0 auto;
+		}
+
+		h1, p {
+			margin-bottom: 1em;
+		}
+
+		h2 {
+			padding-top: 2em;
+		}
+
+		p {
+			margin: 0 0 1.5em;
+		}
+
+		.game body {
+			overflow: hidden;
+		}
+
+		main {
+			margin: 0 auto;
+			padding-bottom: 70vh;
+			max-width: 32em;
+			width: 88%;
+		}
+
+		.game body {
+			background-color: #000000;
+			height: 100vh;
+			max-width: inherit;
+			padding-bottom: 0;
+			position: relative;
+			width: 100vw;
+		}
+
+		.no-camera body {
+			background: url(img/forest.jpg);
+			background-size: cover;
+		}
+
+		video {
+			height: 100vh;
+			margin: 0 auto;
+			max-height: 100vh;
+			max-width: 100vw;
+			width: 100%;
+		}
+
+		img {
+			height: auto;
+			max-width: 100%;
+		}
+
+		.icon {
+			background: transparent;
+			border: none;
+			margin: 0;
+			padding: 0;
+			position: fixed;
+			top: 25px;
+			left: 200px;
+			transition: all 1s ease-out;
+		}
+
+		.credits {
+			font-size: 0.85em;
+			margin-top: 3em;
+		}
+
+		#nav {
+			bottom: 1em;
+			position: fixed;
+			width: 100%;
+			z-index: 9;
+		}
+
+		.nav {
+			text-align: center;
+		}
+
+		.btn {
+			background-color: #0088cc;
+			border: #0088cc;
+			border-radius: 2em;
+			color: #ffffff;
+			display: inline-block;
+			font: inherit;
+			margin: 0;
+			padding: 0.5em 2em;
+			cursor: pointer;
+			text-decoration: none;
+		}
+
+		.btn:hover {
+			background-color: #005580;
+		}
+
+		#nav-home .btn {
+			margin-bottom: 0.5em;
+		}
+
+		svg {
+		    pointer-events: none;
+		}
+
+		.creatures {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-column-gap: 2em;
+			grid-row-gap: 2em;
+			text-align: center;
+		}
+
+		@media (min-width: 30em) {
+			.creatures {
+				grid-template-columns: repeat(3, 1fr);
+			}
+		}
+
+		@media (min-width: 40em) {
+			.creatures {
+				grid-template-columns: repeat(4, 1fr);
+			}
+		}
+
+		.creature-name {
+			text-transform: capitalize;
+		}
+
+		[tabindex="-1"] {
+			outline: none;
+		}
+
+		.uncaught {
+			filter: grayscale(1);
+		}
+	</style>
+</head>
+<body>
+
+	<video autoplay playsinline hidden></video>
+	<nav class="nav" id="nav"></nav>
+	<main id="app"></main>
+
+	<script src="https://polyfill.io/v3/polyfill.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reefjs@7.2/dist/reef.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reefjs@7.2/dist/router.min.js"></script>
+	<script>
+		//
+		// Variables
+		//
+
+		// localStorage ID
+		var savedID = 'capturedCreatures';
+
+		var video = document.querySelector('video');
+
+		// Creatures
+		var creatures = [
+			'yeti',
+			'centaur',
+			'cerberus',
+			'dino1',
+			'dino2',
+			'dragon',
+			'gnome',
+			'hydra',
+			'leprechaun',
+			'lochness',
+			'mermaid',
+			'minotaur',
+			'pegasus',
+			'satyr',
+			'unicorn'
+		];
+
+		// Settings
+		// @todo move to a settings object
+		var size = 75; // How big the icons are
+		var scale = { // How big to scale the image
+			min: 0.5,
+			max: 1.5
+		};
+		var speed = {  // How frequently they should move
+			min: 1000,
+			max: 3000
+		};
+		var delay = { // How long between creatures
+			min: 5000,
+			max: 12000,
+			advancedMin: 15000,
+			advancedMax: 50000,
+			startMin: 2000,
+			startMax: 5000
+		};
+		var moves = { // How many times they move before disappearing
+			min: 3,
+			max: 5,
+			current: 3 // @todo move to state
+		};
+		var completedMoves = 0; // @todo move to state
+
+		// Placeholders
+		// @todo move to state
+		var icon, animator, currentCreature;
+
+		//
+		// Methods
+		//
+
+		/**
+		 * Randomly shuffle an array
+		 * https://stackoverflow.com/a/2450976/1293256
+		 * @param  {Array} array The array to shuffle
+		 * @return {String}      The first item in the shuffled array
+		 */
+		var shuffle = function (array) {
+
+			var currentIndex = array.length;
+			var temporaryValue, randomIndex;
+
+			// While there remain elements to shuffle...
+			while (0 !== currentIndex) {
+				// Pick a remaining element...
+				randomIndex = Math.floor(Math.random() * currentIndex);
+				currentIndex -= 1;
+
+				// And swap it with the current element.
+				temporaryValue = array[currentIndex];
+				array[currentIndex] = array[randomIndex];
+				array[randomIndex] = temporaryValue;
+			}
+
+			return array;
+
+		};
+
+		/**
+		 * Get a random integer with a minimum and maximum value
+		 * @param  {Integer} min  The minimum value
+		 * @param  {Integer} max  The maximum value
+		 * @return {Integer}      A random number
+		 */
+		var randomNumber = function (min, max) {
+			return Math.floor(Math.random() * (max - min + 1) + min);
+		};
+
+		/**
+		 * Update body class based on content
+		 */
+		var addClass = function () {
+			document.documentElement.className = router.current.id === 'find' ? 'game' : 'content';
+		};
+
+		/**
+		 * Get saved creatures from localStorage
+		 * @return {[type]} [description]
+		 */
+		var loadSaved = function () {
+			var saved = localStorage.getItem(savedID);
+			if (!saved) return [];
+			return JSON.parse(saved);
+		};
+
+		/**
+		 * Get random delay before next creature
+		 * @param  {Boolean} max If true, get max delay
+		 * @return {Integer}     The delay before the next creature
+		 */
+		var getDelay = function (max) {
+			if (max) {
+				return store.data.captured > 2 ? delay.advancedMax : delay.max;
+			}
+			return store.data.captured > 2 ? delay.advancedMin : delay.min;
+		};
+
+		/**
+		 * Switch to a new creature
+		 */
+		var changeCreature = function () {
+			completedMoves = 0;
+			store.data.creature = null;
+			clearTimeout(store.data.animator);
+			store.data.animator = setTimeout(function () {
+				store.data.creature = getCreature();
+				adjustPosition();
+				animate();
+			}, randomNumber(getDelay(), getDelay(true)));
+		};
+
+		/**
+		 * Adjust position of the creature
+		 */
+		var moveCreature = function () {
+			if (completedMoves > moves.current) {
+				changeCreature();
+			} else {
+				adjustPosition();
+				completedMoves++;
+				store.data.animator = setTimeout(moveCreature, randomNumber(speed.min, speed.max));
+			}
+		};
+
+		/**
+		 * Animate creature
+		 */
+		var animate = function () {
+			moves.current = randomNumber(moves.min, moves.max);
+			store.data.animator = setTimeout(moveCreature, randomNumber(speed.min, speed.max));
+		};
+
+		/**
+		 * Get a random creature
+		 * @return {string} A creature name
+		 */
+		var getCreature = function () {
+			var creature = shuffle(creatures.slice())[0];
+			if (store.data.creature && creature === store.data.creature) return getCreature();
+			return creature;
+		};
+
+		/**
+		 * Calculate creature scale based on position
+		 * @param  {Number} top The creature's position from the top
+		 * @return {Number}     The creature's scale
+		 */
+		var getScale = function (top) {
+			var half = (window.innerHeight || document.documentElement.clientHeight) / 3;
+			var size = parseFloat(top) / half;
+			return size > half ? Math.min(size, scale.max) : Math.max(size, scale.min);
+		};
+
+		/**
+		 * Create the image coordinates
+		 */
+		var adjustPosition = function () {
+			store.data.creatureTop = randomNumber(0, (window.innerHeight || document.documentElement.clientHeight) - size - (size * scale.max)).toString() + 'px';
+			store.data.creatureLeft = randomNumber(0, (window.innerWidth || document.documentElement.clientWidth) - size).toString() + 'px';
+			store.data.creatureScale = getScale(store.data.creatureTop);
+		};
+
+		/**
+		 * Create a new creature
+		 */
+		var createCreature = function () {
+			store.data.creature = getCreature();
+			adjustPosition();
+			animate();
+		};
+
+		/**
+		 * Start animating creatures
+		 */
+		var startCreatures = function () {
+			store.animator = setTimeout(function () {
+				store.data.creature = getCreature();
+				adjustPosition();
+				animate();
+			}, randomNumber(delay.startMin, delay.startMax));
+		};
+
+		/**
+		 * Start video feature
+		 */
+		var startVideo = function () {
+			if (router.current.id !== 'find') return;
+			navigator.mediaDevices.getUserMedia({
+				video: {
+					facingMode: {
+						exact: 'environment'
+					}
+				},
+			}).then(function (stream) {
+				video.removeAttribute('hidden');
+				video.srcObject = stream;
+				startCreatures();
+			}).catch(function (error) {
+				console.warn(error);
+				alert(`Catch 'em all works best with access to a rear-facing camera. You can still play, though!`);
+				video.setAttribute('hidden', '');
+				document.documentElement.className += ' no-camera';
+				startCreatures();
+			});
+		};
+
+		/**
+		 * Stop the camera
+		 */
+		var stopVideo = function () {
+			if (router.current.id === 'find' || !video || video.hasAttribute('hidden')) return;
+			video.setAttribute('hidden', '');
+			video.srcObject.getTracks().forEach(function(track) {
+				track.stop();
+			});
+		};
+
+		/**
+		 * Setup the app
+		 * @todo Load from saved
+		 * @todo Initialize video on game view
+		 */
+		var setup = function () {
+			addClass();
+			store.render();
+			startVideo();
+		};
+
+		/**
+		 * Release creatures if release button is clicked
+		 * @param  {Event} event The event object
+		 */
+		var releaseCreatures = function (event) {
+			if (!event.target.closest('[data-release]')) return;
+			if (!window.confirm('Are you sure you want to set all of your creatures free? You can always catch them again.')) return;
+			localStorage.removeItem(savedID);
+			store.data.captured = [];
+		};
+
+		/**
+		 * Catch a creature
+		 * @param  {Event} event The event object
+		 */
+		var catchCreature = function (event) {
+			if (!event.target.closest('.icon, .icon img')) return;
+			store.data.captured.push(store.data.creature);
+			localStorage.setItem(savedID, JSON.stringify(store.data.captured));
+			changeCreature();
+		};
+
+		/**
+		 * Handle click events
+		 * @param  {Event} event The event object
+		 */
+		var clickHandler = function (event) {
+			releaseCreatures(event);
+			catchCreature(event);
+		};
+
+		/**
+		 * Handle route change events
+		 * @param  {Event} event The event object
+		 */
+		var handleRoute = function (event) {
+			addClass();
+			stopVideo();
+			startVideo();
+		};
+
+
+		//
+		// HTML Templates
+		//
+
+		/**
+		 * Get navigation menu item HTML
+		 * @param  {String} type The navigation item type
+		 * @return {String}      The nav item markup
+		 */
+		var getNavHTML = function (type) {
+
+			if (type === 'find') {
+				return '<a class="btn" href="/find"><svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom:-0.125em;size:0.8em;" width="1em" height="1em" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M15.504 13.616l-3.79-3.223c-.392-.353-.811-.514-1.149-.499a6 6 0 10-.672.672c-.016.338.146.757.499 1.149l3.223 3.79c.552.613 1.453.665 2.003.115s.498-1.452-.115-2.003zM6 10a4 4 0 110-8 4 4 0 010 8z"/></svg> Find</a>';
+			}
+
+			if (type === 'creatures') {
+				return '<a class="btn" href="/creatures"><svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom:-0.125em;size:0.8em;" width="1em" height="1em" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8.349 8.625c-1.958 0-3.833.876-5.043 4.402s1.46 3.245 3.145 2.516c1.631-.705 2.252-.813 4.217.121 1.85.879 3.431-.038 2.771-1.965s-2.882-5.075-5.09-5.075zM4.645.681C3.529.948 2.939 2.465 3.327 4.069s1.608 2.689 2.724 2.422l.015-.004c1.116-.267 1.706-1.784 1.318-3.388-.167-.691-.488-1.285-.889-1.716C5.965.812 5.296.526 4.66.677l-.015.004zm6.466-.056C9.988.39 8.806 1.51 8.471 3.127c-.192.929-.063 1.82.296 2.454.265.469.655.798 1.133.898l.012.003c1.123.235 2.305-.885 2.64-2.502S12.247.862 11.123.627a.05.05 0 00-.012-.002zM.322 8.964c.617 1.427 1.918 2.239 2.905 1.812.565-.244.905-.841.977-1.574.054-.548-.043-1.173-.307-1.783l-.001-.002C3.279 5.99 1.978 5.178.991 5.605S-.296 7.534.321 8.962l.001.002zm12.452 1.561c.562.247 1.227.09 1.81-.354.439-.335.831-.832 1.098-1.445.621-1.426.326-2.932-.658-3.364l-.013-.006c-.985-.432-2.287.373-2.908 1.799s-.326 2.932.658 3.364l.013.006z"/></svg> My Creatures</a>';
+			}
+
+			if (type === 'release') {
+				return '<button class="btn" data-release><svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom:-0.125em;size:0.8em;" width="1em" height="1em" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0a8 8 0 100 16A8 8 0 008 0zm0 14.5a6.5 6.5 0 110-13 6.5 6.5 0 010 13z"/><path fill="currentColor" d="M10.5 4L8 6.5 5.5 4 4 5.5 6.5 8 4 10.5 5.5 12 8 9.5l2.5 2.5 1.5-1.5L9.5 8 12 5.5z"/></svg> Release</button>';
+			}
+
+		};
+
+		/**
+		 * Get credits HTML
+		 * @return {String} The credits HTML
+		 */
+		var getCreditsHTML = function () {
+			return '<p class="credits"><em>Creature icons made by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com/">flaticon.com</a>.</em></p>';
+		};
+
+		/**
+		 * Get the homepage HTML
+		 * @param  {Object} route The route object
+		 * @return {String}       The HTML
+		 */
+		var getHomeHTML = function (route) {
+			return `
+				<h1>${route.title}</h1>
+				<p>There are fantastical creatures wandering the world around us, invisible to humans. But thanks to modern technology, you can now see them.</p>`;
+		};
+
+		/**
+		 * Get the find page HTML
+		 * @param  {Object} props The app properties
+		 * @return {String}       The HTML
+		 */
+		var getFindHTML = function (props) {
+			if (!props.creature) return '';
+			return `
+				<button class="icon" style="top: ${props.creatureTop}; left: ${props.creatureLeft}; transform: scale(${props.creatureScale});">
+					<img height="${size}" width="${size}" src="img/${props.creature}.png">
+				</button>`;
+		};
+
+		/**
+		 * Get the caught creatures HTML
+		 * @param  {Object} props The app properties
+		 * @return {String}       The HTML
+		 */
+		var getCaughtCreatureHTML = function (props) {
+			if (!props.captured.length) return `<p>You don't have any creatures yet.</p>`;
+			return `
+				<div class="creatures">
+					${props.captured.map(function (creature) {
+						return `
+							<div class="creature">
+								<img alt="" src="img/${creature}.png"><br>
+								<strong class="creature-name">${creature}</strong>
+							</div>`;
+					}).join('')}
+				</div>`;
+		};
+
+		/**
+		 * Get the caught creatures HTML
+		 * @param  {Object} props The app properties
+		 * @return {String}       The HTML
+		 */
+		var getUncaughtCreatureHTML = function (props) {
+			var uncaught = creatures.filter(function (creature) {
+				return !props.captured.includes(creature);
+			});
+			if (!uncaught.length) return '';
+			return `
+				<h2>Left to Catch</h2>
+				<div class="creatures">
+					${uncaught.map(function (creature) {
+						return `
+							<div class="creature">
+								<img class="uncaught" alt="" src="img/${creature}.png"><br>
+								<strong class="creature-name">${creature}</strong>
+							</div>`;
+					}).join('')}
+				</div>`;
+		};
+
+		/**
+		 * Get the creatures page HTML
+		 * @param  {Object} props The app properties
+		 * @param  {Object} route The route object
+		 * @return {String}       The HTML
+		 */
+		var getCreaturesHTML = function (props, route) {
+			return `
+				<h1>${route.title}</h1>
+				${getCaughtCreatureHTML(props)}
+				${getUncaughtCreatureHTML(props)}`;
+		};
+
+
+		//
+		// Components
+		//
+
+		var router = new Reef.Router({
+			title: function (route) {
+				if (route && route.id === 'home') {
+					return '{{title}}';
+				}
+				var title = route.id === 'creature' ? route.params.creature : '{{title}}';
+				return title + ' | Catch \'em all!';
+			},
+			useHash: true,
+			routes: [
+				{
+					id: 'home',
+					title: 'Catch \'em all!',
+					url: '/'
+				},
+				{
+					id: 'find',
+					title: 'Find',
+					url: '/find'
+				},
+				{
+					id: 'creatures',
+					title: 'My Pokemon',
+					url: '/creatures'
+				},
+				{
+					id: 'creature',
+					title: '',
+					url: '/creatures/:creature'
+				}
+			]
+		});
+
+		var store = new Reef.Store({
+			data: {
+				animator: null,
+				creature: null,
+				creatureTop: 0,
+				creatureLeft: 0,
+				creatureScale: 1,
+				captured: loadSaved()
+			}
+		});
+
+		var app = new Reef('#app', {
+			store: store,
+			router: router,
+			template: function (props, route) {
+				if (route.id === 'home') return getHomeHTML(route);
+				if (route.id === 'find') return getFindHTML(props);
+				if (route.id === 'creatures') return getCreaturesHTML(props, route);
+			}
+		});
+
+		var nav = new Reef('#nav', {
+			store: store,
+			router: router,
+			template: function (props, route) {
+
+				if (route.id === 'home') {
+					return `
+						<nav id="nav-home" class="nav">
+							${getNavHTML('find')} ${getNavHTML('creatures')}
+						</nav>
+						${getCreditsHTML()}`;
+				}
+
+				if (route.id === 'find') {
+					return getNavHTML('creatures');
+				}
+
+				if (route.id === 'creatures') {
+					return `${getNavHTML('find')} ${props.captured.length ? getNavHTML('release') : ''}`;
+				}
+
+			}
+		});
+
+
+		//
+		// Inits & Event Listeners
+		//
+
+		setup();
+		window.addEventListener('routeUpdated', handleRoute);
+		document.addEventListener('click', clickHandler);
+	</script>
+
+</body>
+</html>
