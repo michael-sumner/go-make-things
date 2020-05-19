@@ -1,6 +1,6 @@
 ---
 title: "How to serialize form data into a search parameter string with vanilla JS"
-date: T10:30:00-04:00
+date: 2020-05-19T10:30:00-04:00
 draft: false
 categories:
 - Code
