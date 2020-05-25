@@ -7,6 +7,8 @@ url: /knowing-what-to-focus-on/
 title: Knowing what to focus on
 ---
 
+*Updated on May 25, 2020.*
+
 I ask everyone who subscribes to [my daily developer tips](/articles) a simple question: "what's the biggest challenge you face as a web developer?"
 
 I get back a ton of interesting responses, but the one I see come up over and over again is some variation of this:
@@ -30,7 +32,7 @@ Let's dig deeper into each of these approaches, and how I use them to stay sane 
 
 Rather than trying to learn all the new things that come out, I dig into new tools if and when I need them. This is a trick I picked up from <a href="http://www.sarasoueidan.com/">Sara Soueidan</a>.
 
-For example, CSS grids and flexbox are old news at this point, but I still don't know how to use them. Old fashion floating div grids have served me "good enough" for the designs I've implemented, so the gains from using the newer technology aren't worth the time and stress spent trying to grok it.
+For example, CSS grids and flexbox are old news at this point, but I didn't learn how to use them until recently. Old fashion floating div grids had served me "good enough" for the designs I'd implemented, so the gains from using the newer technology weren't worth the time and stress spent trying to grok it.
 
 Same goes for Fetch instead of XHR for Ajax in the JavaScript world.
 
@@ -61,7 +63,7 @@ I've learned that less sexy, more stable technology is a blessing. Less bugs, be
 
 Now, I ignore the noise.
 
-If I were thinking about JS frameworks for a project today, I think I'd basically only consider Angular and React (and skew towards React). The rest is just noise.
+If I were thinking about JS frameworks for a project today, I think I'd basically only consider React or Vue (with a bias towards Vue). The rest is just noise.
 
 ## Targeted Listening
 
