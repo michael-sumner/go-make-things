@@ -18,7 +18,7 @@ Late last week, [Alex Russell tweeted](https://twitter.com/slightlylate/status/1
 >
 > And yes, if you're frontend, that work is *your job*.
 
-A website failing for someone might not feel like a bit deal, but what about when it's a critical service? What about when it's an emergency?
+A website failing for someone might not feel like a big deal, but what about when it's a critical service? What about when it's an emergency?
 
 [In *Location, Privilege and Performant Websites*, Stephanie Stimac wrote](https://blog.stephaniestimac.com/posts/10-30-2019-performance/):
 
