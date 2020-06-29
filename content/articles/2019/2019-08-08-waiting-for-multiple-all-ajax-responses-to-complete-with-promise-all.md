@@ -118,7 +118,7 @@ Promise.all([
 
 When they're all completed, `Promise.all()` passes along an array of promises to our first `.then()` callback.
 
-To get a JSON object from each one to pass on, [we can use the `Array.map()` method to create a new array](/what-array.map-does-in-vanilla-js/).
+To get a JSON object from each one to pass on, [we can use the `Array.map()` method to create a new array](/what-array.map-does-in-vanilla-js/). We also need to wrap *that* in `Promise.all()`, since `response.json()` returns a promise as well.
 
 The `data` argument in our second `then()` callback is an array of API data, with each item matching the corresponding API call in the `Promise.all()` array. In this example, the item at index `0` is for `/posts`, and the item at index `1` is for `/users`.
 
@@ -126,20 +126,19 @@ The `data` argument in our second `then()` callback is an array of API data, wit
 Promise.all([
 	fetch('https://jsonplaceholder.typicode.com/posts'),
 	fetch('https://jsonplaceholder.typicode.com/users')
-])
-	.then(function (responses) {
-		// Get a JSON object from each of the responses
-		return responses.map(function (response) {
-			return response.json();
-		});
-	}).then(function (data) {
-		// Log the data to the console
-		// You would do something with both sets of data here
- 		console.log(data);
-	}).catch(function (error) {
-		// if there's an error, log it
-		console.log(error);
-	});
+]).then(function (responses) {
+	// Get a JSON object from each of the responses
+	return Promise.all(responses.map(function (response) {
+		return response.json();
+	}));
+}).then(function (data) {
+	// Log the data to the console
+	// You would do something with both sets of data here
+	console.log(data);
+}).catch(function (error) {
+	// if there's an error, log it
+	console.log(error);
+});
 ```
 
 As you can see, this is a lot more condensed than the previous example.
