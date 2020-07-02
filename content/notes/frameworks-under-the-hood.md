@@ -1,7 +1,7 @@
 ---
 title: "State-Based UI Series"
-date: 2020-07-02T10:30:00-05:00
-lastmod: 2020-07-02T10:30:00-05:00
+date: 2020-07-02T10:30:00-04:00
+lastmod: 2020-07-02T10:30:00-04:00
 draft: false
 ---
 
