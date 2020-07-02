@@ -66,9 +66,7 @@ But frameworks also come with their own dangers: fragility and performance.
 
 [Frameworks slow down your first render. They cripple older devices and run badly on slower networks.](https://timkadlec.com/remembers/2020-04-21-the-cost-of-javascript-frameworks/) If they take too long, they timeout and stop working entirely (that's all JS, but more JS means it's more likely to happen).
 
-And JS begets more JS.
-
-When you use a framework, you commit to the ecosystem. Once you start using JS for your UI for an app, you're more likely to use it for *everything*. File size can get pretty out-of-control pretty fast.
+And [sites built with frameworks are more likely to have accessibility issues](https://webaim.org/projects/million/), too.
 
 ## Vanilla JS is *resilient*
 
