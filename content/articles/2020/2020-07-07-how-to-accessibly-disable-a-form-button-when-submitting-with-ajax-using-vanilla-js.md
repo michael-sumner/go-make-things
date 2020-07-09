@@ -91,7 +91,7 @@ document.addEventListener('submit', function (event) {
 	if (event.target.classList.contains('submitting')) return;
 
 	// Show submitting message
-	var status = event.target.querySelector('[role="status"');
+	var status = event.target.querySelector('[role="status"]');
 	status.textContent = 'Submitting...';
 
 	// Add form .submitting state class for styling
