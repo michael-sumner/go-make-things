@@ -115,7 +115,7 @@
 		};
 
 		var clearInput = function () {
-			input.value = input.value.replace(' site:gomakethings.com', '');
+			input.value = input.value.replace(' site:' + window.location.host, '');
 		};
 
 		/**
