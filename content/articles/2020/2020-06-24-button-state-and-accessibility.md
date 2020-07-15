@@ -1,5 +1,5 @@
 ---
-title: "Button state and accessibility"
+title: "Button state and accessibility announcements"
 date: 2020-06-24T10:30:00-04:00
 draft: false
 categories:
