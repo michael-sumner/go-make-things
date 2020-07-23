@@ -58,14 +58,14 @@ This is a new addition to ARIA that, when added to an element, conveys to screen
 ```html
 <header>
 	<h1>Puppies are amazing!</h1>
-	<p role="doc-subheading">New super pup sets record with 5 hour cuddle session</p>
+	<p role="doc-subtitle">New super pup sets record with 5 hour cuddle session</p>
 </header>
 ```
 
 You can skip the `.subheading` class entirely, and use the `role` as your styling hook in CSS, too.
 
 ```css
-[role="doc-subheading"] {
+[role="doc-subtitle"] {
 	font-size: 1.5em;
 	font-style: italic;
 }
