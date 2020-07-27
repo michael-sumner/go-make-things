@@ -49,7 +49,7 @@ This is good, but it does provide sighted users with additional information that
 
 But that's about to change.
 
-## The `doc-subitle` role
+## The `doc-subtitle` role
 
 Back in March, the wonderful [Steve Faulkner shared information about the `doc-subtitle` role](https://twitter.com/stevefaulkner/status/1236241209686966272).
 
