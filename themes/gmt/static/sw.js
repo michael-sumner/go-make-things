@@ -7,7 +7,7 @@
 // Variables
 //
 
-var version = 'gmt20200727';
+var version = 'gmt_20200727';
 var coreID = version + '_core';
 var pageID = version + '_pages';
 var imgID = version + '_img';
@@ -70,6 +70,10 @@ addEventListener('fetch', function (event) {
 	// Get the request
 	var request = event.request;
 
+	// Bug fix
+	// https://stackoverflow.com/a/49719964
+	if (event.request.cache === 'only-if-cached' && event.request.mode !== 'same-origin') return;
+
 	// Ignore non-GET requests
 	if (request.method !== 'GET') return;
 
@@ -78,7 +82,6 @@ addEventListener('fetch', function (event) {
 	if (request.headers.get('Accept').includes('text/html')) {
 		event.respondWith(
 			fetch(request).then(function (response) {
-				console.log(response);
 				if (response.type !== 'opaque') {
 					var copy = response.clone();
 					event.waitUntil(caches.open(pageID).then(function (cache) {
