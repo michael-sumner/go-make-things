@@ -15,7 +15,6 @@ var limits = {
 
 // Font files
 var fontFiles = [
-	'/css/fonts.min.css',
 	'/fonts/pt-serif-v11-latin-regular.woff',
 	'/fonts/pt-serif-v11-latin-regular.woff2',
 	'/fonts/pt-serif-v11-latin-italic.woff',
