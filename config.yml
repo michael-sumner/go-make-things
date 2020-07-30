@@ -6,7 +6,6 @@ params:
   description: "A simpler, more resilient way to make things for the web."
   api: "https://gomakethings.com/api/data.json"
   mcSubs: "https://gomakethings.com/checkout/wp-json/gmt-mailchimp/v1/count?round=100&category=3b3060e0f6&id=aaf6f8b9a3"
-  font: "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap"
   rssURL:
     main: "https://gomakethings.com/feed/index.xml"
     notes: "https://gomakethings.com/feed/notes.xml"
