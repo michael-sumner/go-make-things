@@ -113,7 +113,7 @@ addEventListener('fetch', function (event) {
 
 	// Other files
 	// Offline-first
-	console.log(request.url, request.header.get('Accept'), '/n/n');
+	console.log(request.url, request.headers.get('Accept'), '/n/n');
 	event.respondWith(
 		caches.match(request).then(function (response) {
 			return response || fetch(request).then(function (response) {
