@@ -56,10 +56,10 @@ var trimCache = function (key, max) {
 // On install, cache some stuff
 addEventListener('install', function (event) {
 	event.waitUntil(caches.open(coreID).then(function (cache) {
-		cache.add('/offline/');
-		cache.add('/img/favicon.ico');
+		cache.add(new Request('/offline/'));
+		cache.add(new Request('/img/favicon.ico'));
 		fontFiles.forEach(function (file) {
-			cache.add(file);
+			cache.add(new Request(file));
 		});
 	}));
 });
