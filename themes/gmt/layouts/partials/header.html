@@ -40,16 +40,21 @@
 		<style type="text/css">
 			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/css/main.min.css" | safeCSS }}{{ else }}{{ readFile "/themes/gmt/static/css/main.css" | safeCSS }}{{ end }}
 		</style>
+		<link rel="stylesheet" href="https://gomakethings.com/css/fonts.css" media="print" onload="this.media='all'">
 
 		<!-- Font Loading -->
-		{{- if ne $.Site.Params.font "" -}}
 		<script>
-			(function () {
-				var font = '{{ $.Site.Params.font }}';
-				{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/js/fonts.min.js" | safeJS }}{{ else }}{{ readFile "/themes/gmt/static/js/fonts.js" | safeJS }}{{ end }}
-			})();
+			if ('fonts' in document) {
+				Promise.all([
+					document.fonts.load('1em PT Serif'),
+					document.fonts.load('700 1em PT Serif'),
+					document.fonts.load('italic 1em PT Serif'),
+					document.fonts.load('italic 700 1em PT Serif')
+				]).then(function () {
+					document.documentElement.className += ' fonts-loaded';
+				});
+			}
 		</script>
-		{{- end -}}
 	</head>
 
 	<body class="type-{{ .Type }} {{ if .IsPage }}page-single{{ else }}page-list{{ end }}" id="page-{{ .UniqueID }}"{{ if .Params.headerLinks }} data-heading-links{{ end }}>
