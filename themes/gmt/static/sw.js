@@ -111,41 +111,26 @@ addEventListener('fetch', function (event) {
 		return;
 	}
 
-	// Image files
+	// Other files
 	// Offline-first
-	if (request.headers.get('Accept').includes('image')) {
-		event.respondWith(
-			caches.match(request).then(function (response) {
-				return response || fetch(request).then(function (response) {
+	event.respondWith(
+		caches.match(request).then(function (response) {
+			return response || fetch(request).then(function (response) {
 
-					// Stash a copy of this image in the images cache
+				// If an image, stash a copy of this image in the images cache
+				if (request.headers.get('Accept').includes('image')) {
 					var copy = response.clone();
 					event.waitUntil(caches.open(imgID).then(function (cache) {
 						return cache.put(request, copy);
 					}));
+				}
 
+				// Return the requested file
+				return response;
 
-					// Return the requested file
-					return response;
-
-				});
-			})
-		);
-		return;
-	}
-
-	// Font assets
-	// Offline-first
-	if (fontFiles.includes(request.url)) {
-		event.respondWith(
-			caches.match(request).then(function (response) {
-				return response || fetch(request).then(function (response) {
-					return response;
-				});
-			})
-		);
-		return;
-	}
+			});
+		})
+	);
 
 });
 
