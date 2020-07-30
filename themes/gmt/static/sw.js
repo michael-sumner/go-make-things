@@ -15,15 +15,15 @@ var limits = {
 
 // Font files
 var fontFiles = [
-	'https://gomakethings.com/css/fonts.min.css',
-	'https://gomakethings.com/fonts/pt-serif-v11-latin-regular.woff',
-	'https://gomakethings.com/fonts/pt-serif-v11-latin-regular.woff2',
-	'https://gomakethings.com/fonts/pt-serif-v11-latin-italic.woff',
-	'https://gomakethings.com/fonts/pt-serif-v11-latin-italic.woff2',
-	'https://gomakethings.com/fonts/pt-serif-v11-latin-700.woff',
-	'https://gomakethings.com/fonts/pt-serif-v11-latin-700.woff2',
-	'https://gomakethings.com/fonts/pt-serif-v11-latin-700italic.woff',
-	'https://gomakethings.com/fonts/pt-serif-v11-latin-700italic.woff2'
+	'/css/fonts.min.css',
+	'/fonts/pt-serif-v11-latin-regular.woff',
+	'/fonts/pt-serif-v11-latin-regular.woff2',
+	'/fonts/pt-serif-v11-latin-italic.woff',
+	'/fonts/pt-serif-v11-latin-italic.woff2',
+	'/fonts/pt-serif-v11-latin-700.woff',
+	'/fonts/pt-serif-v11-latin-700.woff2',
+	'/fonts/pt-serif-v11-latin-700italic.woff',
+	'/fonts/pt-serif-v11-latin-700italic.woff2'
 ];
 
 
