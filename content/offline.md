@@ -11,7 +11,6 @@ Don't worry! You can still access some of the pages you looked at before going&n
 <div data-offline></div>
 
 <script>
-	console.log('running!');
 	(function () {
 		if (!navigator || !navigator.serviceWorker) return;
 		caches.keys().then(function (keys) {
