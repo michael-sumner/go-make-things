@@ -1,13 +1,6 @@
-/**
- * Service Worker
- */
+/*! GMT Service Worker v2.0.1 | (c) 2020 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/gmt-theme */
 
-
-//
-// Variables
-//
-
-var version = 'gmt_20200727';
+var version = 'gmt_2.0.1';
 var coreID = version + '_core';
 var pageID = version + '_pages';
 var imgID = version + '_img';
