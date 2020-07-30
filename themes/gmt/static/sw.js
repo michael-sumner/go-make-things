@@ -61,6 +61,7 @@ addEventListener('install', function (event) {
 		fontFiles.forEach(function (file) {
 			cache.add(new Request(file));
 		});
+		return;
 	}));
 });
 
