@@ -21,6 +21,7 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 
 ## Podcast Appearances
 
+- [Smashing Podcast](https://podcast.smashingmagazine.com/episodes/are-modern-best-practices-bad-for-the-web-with-chris-ferdinandi), July, 28, 2020
 - [Code Newbie](https://www.codenewbie.org/podcast/what-is-vanilla-js-and-how-can-it-help-you), April 13, 2020
 - [The Web Platform Podcast](https://thewebplatformpodcast.com/196-lean-web-dev), March 15, 2020
 - [Greater Than Code](https://www.greaterthancode.com/the-case-for-vanilla-javascript), February 19, 2020
