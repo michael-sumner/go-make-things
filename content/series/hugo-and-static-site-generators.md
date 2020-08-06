@@ -1,7 +1,6 @@
 ---
 title: "Building a website with Hugo (and other static site generators)"
 date: 2020-03-19T15:41:57-04:00
-lastmod: 2020-03-19T15:41:57-04:00
 draft: false
 ---
 

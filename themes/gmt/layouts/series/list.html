@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+
+{{ partial "content-page.html" . }}
+
+<ul>
+	{{- range .Pages -}}
+	<li><a class="link-no-underline" href="{{ .URL }}">{{ .Title }}</a></li>
+	{{- end -}}
+</ul>
+
+{{ partial "footer.html" . }}
