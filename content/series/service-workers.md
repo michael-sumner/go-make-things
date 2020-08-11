@@ -1,5 +1,5 @@
 ---
-title: "Service workers"
+title: "Service Workers"
 date: 2020-08-06T11:59:38-04:00
 draft: false
 ---
