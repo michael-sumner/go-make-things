@@ -37,8 +37,9 @@
 		{{- end -}}
 
 		<!-- Stylesheet -->
+		<link rel="stylesheet" href='{{ "/css/fonts.css" | absURL }}' media="print" onload="this.media='all'; this.onload=null;">
 		<style type="text/css">
-			{{ readFile "/themes/gmt/static/css/fonts.css" | safeCSS }}
+			{{ if false }}{{ readFile "/themes/gmt/static/css/fonts.css" | safeCSS }}{{ end }}
 			{{ if eq $.Site.Params.minify true }}{{ readFile "/themes/gmt/static/css/main.min.css" | safeCSS }}{{ else }}{{ readFile "/themes/gmt/static/css/main.css" | safeCSS }}{{ end }}
 		</style>
 
