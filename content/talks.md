@@ -10,6 +10,7 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 
 ## Talks
 
+- [JS Los Angeles](https://js.la/events/2020/), July 30, 2020
 - [Artifact](https://artifactconf.com/), September 30 – October 1, 2019
 - [JavaScript for WordPress](https://javascriptforwp.com/conference/), July 12, 2019
 - [CSS Boston](https://www.meetup.com/Boston-CSS/), January 23, 2018
@@ -21,6 +22,7 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 
 ## Podcast Appearances
 
+- [Exceptions Welcome](http://www.exceptionswelcome.com/1204355/4889057), August 6, 2020
 - [Smashing Podcast](https://podcast.smashingmagazine.com/episodes/are-modern-best-practices-bad-for-the-web-with-chris-ferdinandi), July, 28, 2020
 - [Code Newbie](https://www.codenewbie.org/podcast/what-is-vanilla-js-and-how-can-it-help-you), April 13, 2020
 - [The Web Platform Podcast](https://thewebplatformpodcast.com/196-lean-web-dev), March 15, 2020

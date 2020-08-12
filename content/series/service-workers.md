@@ -10,3 +10,4 @@ Learn how to create offline applications with service workers.
 2. [Writing your first service worker with vanilla JS](/writing-your-first-service-worker-with-vanilla-js/)
 3. [Saving recently viewed pages offline with service workers and vanilla JS](/saving-recently-viewed-pages-offline-with-service-workers-and-vanilla-js/)
 4. [Offline first with service workers and vanilla JS](/offline-first-with-service-workers-and-vanilla-js/)
+5. [Improving web font performance with service workers](/improving-web-font-performance-with-service-workers/)
