@@ -2,6 +2,9 @@
 title: Welcome, Smashing Podcast listeners!
 date: 2018-01-11T09:40:48-05:00
 draft: false
+aliases: [
+    "/smashingpodcast/"
+]
 ---
 
 Thanks for listening to me chat with Drew about vanilla JS, frameworks, and challenges building for the modern web.
