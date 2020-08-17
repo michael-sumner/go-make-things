@@ -41,7 +41,7 @@ In short: with `defer` on a script in the `head`, the JavaScript file will downl
 
 ## So when should you use `defer`?
 
-If you have any any noncritical JavaScript file, or any code that depends on the DOM being rendered to run, load it in the `head` with the `defer` attribute.
+If you have any noncritical JavaScript file, or any code that depends on the DOM being rendered to run, load it in the `head` with the `defer` attribute.
 
 This will result in the best performance on most browsers.
 
