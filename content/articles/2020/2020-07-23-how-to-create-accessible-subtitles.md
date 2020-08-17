@@ -14,6 +14,8 @@ One popular design pattern on the web is a heading with a subtitle below it. The
 
 What should the markup for that look like?
 
+_**Note:** this article was updated on August 17, 2020 with [several suggestions from Adrian Roselli](https://twitter.com/aardrian/status/1294630583616917505). Thanks Adrian!_
+
 ## The very wrong way that you should totally never do
 
 One *bad pattern* that you definitely *shouldn't* do is to style it with headings, like this.
@@ -51,7 +53,7 @@ But that's about to change.
 
 ## The `doc-subtitle` role
 
-Back in March, the wonderful [Steve Faulkner shared information about the `doc-subtitle` role](https://twitter.com/stevefaulkner/status/1236241209686966272).
+Back in March, the wonderful [Steve Faulkner shared information about the `doc-subtitle` role](https://twitter.com/stevefaulkner/status/1236241209686966272). (*If you're having trouble sleeping, [here's the official spec](https://www.w3.org/TR/dpub-aria-1.0/#doc-subtitle).*)
 
 This is a new addition to ARIA that, when added to an element, conveys to screen readers that the element is a subheading.
 
@@ -71,7 +73,7 @@ You can skip the `.subheading` class entirely, and use the `role` as your stylin
 }
 ```
 
-Screen reader/browser support for this role is pretty poor right now, since it's so damn new.
+[Screen reader/browser support for this role is pretty poor right now](https://twitter.com/stevefaulkner/status/1291639003872137217), since it's so damn new.
 
 But you should start using it today anyways. It gives you the same styling and semantic correctness as the `.subheading` class, and is also future ready for when screen reader support catches up.
 
