@@ -11,3 +11,5 @@ Learn how to create offline applications with service workers.
 3. [Saving recently viewed pages offline with service workers and vanilla JS](/saving-recently-viewed-pages-offline-with-service-workers-and-vanilla-js/)
 4. [Offline first with service workers and vanilla JS](/offline-first-with-service-workers-and-vanilla-js/)
 5. [Improving web font performance with service workers](/improving-web-font-performance-with-service-workers/)
+6. [How to set an expiration date for items in a service worker cache](/how-to-set-an-expiration-date-for-items-in-a-service-worker-cache/)
+7. [How to update a service worker](/how-to-update-a-service-worker/)
