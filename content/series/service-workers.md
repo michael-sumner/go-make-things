@@ -14,3 +14,4 @@ Learn how to create offline applications with service workers.
 6. [How to set an expiration date for items in a service worker cache](/how-to-set-an-expiration-date-for-items-in-a-service-worker-cache/)
 7. [How to update a service worker](/how-to-update-a-service-worker/)
 8. [How to trigger a service worker function from the front end with vanilla JS](/how-to-trigger-a-service-worker-function-from-the-front-end-with-vanilla-js/)
+9. [How to immediately activate a service worker with vanilla JS](/how-to-immediately-activate-a-service-worker-with-vanilla-js/)
