@@ -10,6 +10,8 @@ categories:
 - HTML
 ---
 
+_**IMPORTANT:** My advice in this article is wrong. [Here's a follow-up on why, and what you should do instead.](/i-was-wrong-about-how-to-create-accessible-subtitles/)_
+
 One popular design pattern on the web is a heading with a subtitle below it. The subtitle is typically bigger than normal body font, but smaller than the main `h1` heading.
 
 What should the markup for that look like?
