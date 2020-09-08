@@ -1,6 +1,6 @@
 ---
 title: "How to write your own vanilla JS polyfill"
-date: 2020-08-08T10:30:00-04:00
+date: 2020-09-08T10:30:00-04:00
 draft: false
 categories:
 - Code
