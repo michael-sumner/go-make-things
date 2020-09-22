@@ -50,10 +50,10 @@ academy:
         1:
             prices:
                 price: "<del>$799</del> $479"
-            start: 20200415
-            end: 20200422
+            start: 20200928
+            end: 20201004
         2:
             prices:
                 price: "<del>$799</del> $559"
-            start: 20200504
-            end: 20200510
+            start: 20201008
+            end: 202001018
