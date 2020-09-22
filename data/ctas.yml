@@ -35,7 +35,7 @@ events:
         #     start: 20200321
         #     end: 20200801
         1:
-            message: <p><mark🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 12.</strong> Registration opens up on Monday. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 12.</strong> Registration opens up on Monday. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
             start: 20200922
             end: 20200927
         2:
@@ -72,7 +72,7 @@ home:
         #     start: 20191226
         #     end: 20191230
         1:
-            message: <p><mark🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 12.</strong> Registration opens up on Monday. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 12.</strong> Registration opens up on Monday. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
             start: 20200922
             end: 20200927
         2:
@@ -108,7 +108,7 @@ global:
         #     start: 20191226
         #     end: 20191230
         1:
-            message: <p><mark🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 12.</strong> Registration opens up on Monday. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 12.</strong> Registration opens up on Monday. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
             start: 20200922
             end: 20200927
         2:
@@ -144,7 +144,7 @@ resources:
         #     start: 20200321
         #     end: 20200801
         1:
-            message: <p><mark🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 12.</strong> Registration opens up on Monday. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 12.</strong> Registration opens up on Monday. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
             start: 20200922
             end: 20200927
         2:
@@ -205,7 +205,7 @@ academy:
     message: ""
     limited:
         1:
-            message: <p><mark🚀 <em><strong>A new session of the Vanilla JS Academy starts on October 12.</strong> Registration opens up on Monday.</em></mark></p>
+            message: <p><mark>🚀 <em><strong>A new session of the Vanilla JS Academy starts on October 12.</strong> Registration opens up on Monday.</em></mark></p>
             start: 20200922
             end: 20200927
         2:
@@ -276,7 +276,7 @@ funnel:
         #     start: 20200321
         #     end: 20200801
         1:
-            message: <p><mark🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 12.</strong> Registration opens up on Monday. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 12.</strong> Registration opens up on Monday. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
             start: 20200922
             end: 20200927
         2:
