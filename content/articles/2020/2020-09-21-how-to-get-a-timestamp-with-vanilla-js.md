@@ -34,6 +34,20 @@ var timestamp = now.getTime();
 
 [Here's a demo.](https://codepen.io/cferdinandi/pen/JjXerMo)
 
+**Update:** My buddy [David Guttman](https://davidguttman.com/) let me know about the `Date.now()` method, which does the same thing as the approach above.
+
+```js
+var timestamp = Date.now();
+```
+
+It works in all modern browsers, and IE9 and up.
+
+Alternatively, you can reduce the original code to one line like this.
+
+```js
+var timestamp = new Date().getTime();
+```
+
 ## Getting the date from a timestamp
 
 Let's say some time later you wanted to get the date that something happened based on a timestamp.
