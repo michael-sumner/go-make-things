@@ -243,6 +243,18 @@ ronAmick:
     photo: "/img/testimonials/ron-amick.jpg"
     quote: "Your course provided the impetus to knuckle down and challenge myself. You got me writing code (not merely reading about it or watching videos).<br><br>Having a caring, well-spoken guide such as yourself made it fun to work through the projects. Having that in a group all tackling the same projects added that dynamic aspect that also got me moving.<br><br>Some specific things I liked: The fabulously well-crafted projects/challenges. The clarity of your teaching (videos, in-code comments, etc.). The supportive Slack channels. The feeling that no question is a dumb question -- and the thrill of having a dialogue going permitting sharing tidbits with others.<br><br>No Lynda.com tutorial or other tutorial provides that environment."
 
+izziKoning:
+    name: "Izzi Koning"
+    url: "https://izzi.ink/"
+    photo: "/img/testimonials/izzi-koning.jpg"
+    quote: "I can honestly say I am not sure how I ever thought I could learn JS WITHOUT the Vanilla JS Academy. And trust me I have tried other courses."
+
+lauraKalbag:
+    name: "Laura Kalbag"
+    url: "https://twitter.com/LauraKalbag/status/1293946967702282240"
+    photo: "/img/testimonials/laura-kalbag.jpg"
+    quote: "Making myself a little web tool and using a whole range of stuff that Chris Ferdinandi’s Vanilla JS Academy taught me.<br><br>I struggled with JavaScript for a decade so I really would recommend it for anyone who needs a big friendly confidence-booster."
+
 # Learn Vanilla JS
 markBaldwinSmith:
     name: "Mark Baldwin-Smith"
