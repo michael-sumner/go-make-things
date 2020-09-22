@@ -81,7 +81,7 @@ var minute = 1000 * 60;
 var hour = 1000 * 60 * 60;
 var day = 1000 * 60 * 60 * 24;
 var week = 1000 * 60 * 60 * 24 * 7;
-var year = 1000 * 60 * 60 * 24 * 7 * 52;
+var year = 1000 * 60 * 60 * 24 * 365;
 ```
 
 Multiply the number of time units you want by the formula above.
