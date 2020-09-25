@@ -22,6 +22,8 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 
 ## Podcast Appearances
 
+- [The Drunken UX Podcast](https://drunkenux.com/podcast/dux71/), September 14, 2020
+- [Junior to Senior](https://juniortosenior.io/9), September 14, 2020
 - [Exceptions Welcome](http://www.exceptionswelcome.com/1204355/4889057), August 6, 2020
 - [Smashing Podcast](https://podcast.smashingmagazine.com/episodes/are-modern-best-practices-bad-for-the-web-with-chris-ferdinandi), July, 28, 2020
 - [Code Newbie](https://www.codenewbie.org/podcast/what-is-vanilla-js-and-how-can-it-help-you), April 13, 2020
