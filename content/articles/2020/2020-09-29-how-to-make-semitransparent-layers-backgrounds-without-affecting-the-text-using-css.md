@@ -89,3 +89,5 @@ We're going to add a `linear-gradient` to our `background-image`. We'll use the 
 [Here's a demo with the overlay.](https://codepen.io/cferdinandi/pen/VwaOLrG)
 
 Now there's a semi-transparent overlay on top of the image, but below the text. The words are easier for sighted users to see, but you can still make out the background image underneath it.
+
+If you want to watch a video demonstration of how this works, my buddy [Steve Griffith made a tutorial a couple of weeks ago](https://www.youtube.com/watch?v=1F1t1dpVttk).
