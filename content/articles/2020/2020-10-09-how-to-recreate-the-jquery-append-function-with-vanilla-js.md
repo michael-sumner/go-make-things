@@ -3,19 +3,8 @@ title: "How to convert the jQuery append() function into vanilla JS"
 date: 2020-10-09T10:30:00-04:00
 draft: false
 categories:
-- Accessibility
-- Art and Science
-- Business and Leadership
-- Careers
 - Code
-- CSS
-- Design and UX
-- HTML
 - JavaScript
-- Technology
-- Web Performance
-- WordPress
-- Vanilla Framework Demos
 ---
 
 I recently had a few folks tell me that one of their biggest challenges is converting their old jQuery code into vanilla JS. Over the next few days, I want to take a look at some jQuery methods, and show you how to convert them into vanilla JS.
