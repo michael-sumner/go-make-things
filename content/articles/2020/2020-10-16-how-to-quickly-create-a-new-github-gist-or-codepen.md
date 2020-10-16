@@ -13,7 +13,7 @@ categories:
 
 Just a quick little tip today: both GitHub's Gist feature and CodePen have *shortcut URLs* you can use to create a new gist or pen.
 
-- `https://gist.new` creates a new GitHub Gist
-- `https://pen.new` creates a new CodePen pen
+- **[gist.new](https://gist.new)** creates a new GitHub Gist
+- **[pen.new](https://pen.new)** creates a new CodePen pen
 
 Enjoy!
