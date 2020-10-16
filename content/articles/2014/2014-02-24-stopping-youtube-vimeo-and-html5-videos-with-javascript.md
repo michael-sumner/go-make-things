@@ -10,15 +10,14 @@ One annoying thing about a few of my content-oriented scripts (like <a href="htt
 
 Well, no more!
 
-<!--more-->
-
-<h2>Stopping videos with JavaScript</h2>
+## Stopping videos with JavaScript
 
 Those scripts have all been updated with a new function that stops or pauses YouTube, Vimeo and HTML5 videos when the content area is closed. If you're interested in adding something like that to your scripts, here's how it works.
 
 Add this method to your script:
 
-<pre><code class="language-javascript">var stopVideo = function ( element ) {
+```js
+var stopVideo = function ( element ) {
     var iframe = element.querySelector( 'iframe');
     var video = element.querySelector( 'video' );
     if ( iframe !== null ) {
@@ -28,10 +27,13 @@ Add this method to your script:
     if ( video !== null ) {
         video.pause();
     }
-};</code></pre>
+};
+```
 
 Call the function as needed, passing the container element into the function:
 
-<pre><code class="language-javascript">stopVideo( tab );</code></pre>
+```js
+stopVideo( tab );
+```
 
 This works in all modern browsers, and Internet Explorer 8 and above.
