@@ -1,0 +1,1 @@
+git add . && git commit -a -m "New article" && git push origin master
