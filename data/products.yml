@@ -31,9 +31,9 @@ academy:
     end: 20201018
     startPre: 20200922
     endPre: 20200927
-    startAcademyPreposition: "on "
-    # startAcademyPreposition: ""
-    startAcademy: "October 12"
+    # startAcademyPreposition: "on "
+    startAcademyPreposition: ""
+    startAcademy: "in late winter/early spring"
     endAcademy: "December 19"
     registration: "on September 28"
 
