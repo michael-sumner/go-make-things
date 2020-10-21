@@ -80,11 +80,8 @@ By default, `details` and `summary` don't work this way.
 
 *But*... they do emit a `toggle` event when opened or closed. We can hook into that to progressively enhance them further into a true accordion component.
 
-Let's look at how.
-
-## Live-Coding Video
-
-[I recorded myself coding this project if you'd like to watch.](https://vimeo.com/470356970) If not, keep reading for the details (ha, get it!?).
+[I recorded myself coding this project if you'd like to watch.](https://vimeo.com/470356970)
 
 <iframe src="https://player.vimeo.com/video/470356970?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
+[You can find the source code on GitHub.](https://gist.github.com/cferdinandi/490f1f42c77d4bc97442bda4013b396a)
