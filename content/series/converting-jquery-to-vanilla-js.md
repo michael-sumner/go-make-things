@@ -10,6 +10,7 @@ Articles and live-coding videos exploring vanilla JS equivalents of common jQuer
 
 - [`append()`](/how-to-convert-the-jquery-append-function-into-vanilla-js/)
 - [`children()`](/how-to-convert-the-jquery-children-method-to-vanilla-js/)
+- [`addClass()`, `removeClass()`, `toggleClass()` and `hasClass()`](/converting-jquerys-addclass-removeclass-toggleclass-and-hasclass-methods-to-vanilla-js/)
 
 
 ## jQuery Plugin Live-Coding Videos
