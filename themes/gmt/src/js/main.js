@@ -2,7 +2,7 @@ import '../../../../../gmt-theme/dist/js/_matches.polyfill.js';
 import '../../../../../gmt-theme/dist/js/add-to-cart.js';
 import fluidvids from '../../../../../gmt-theme/dist/js/fluidvids.js';
 import addHeadingLinks from '../../../../../gmt-theme/dist/js/heading-links.js';
-import easterEgg from './main-components/konami.js';
+// import easterEgg from './main-components/konami.js';
 import mailchimp from '../../../../../gmt-theme/dist/js/mailchimp.js';
 
 
@@ -31,4 +31,4 @@ if (document.body.matches('.type-articles.page-single, .type-notes.page-single, 
 }
 
 // Easter Egg
-easterEgg();
+// easterEgg();
