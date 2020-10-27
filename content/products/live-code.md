@@ -57,7 +57,7 @@ Don’t put off learning vanilla JavaScript! If you’re not 100% satisfied with
 
 
 <div class="callout" id="ready-to-buy">
-	<h2>The Live-Coding Sessions</h2>
+	<h2>The Complete Package</h2>
 
 	<p>Get the complete live-coding sessions.</p>
 
