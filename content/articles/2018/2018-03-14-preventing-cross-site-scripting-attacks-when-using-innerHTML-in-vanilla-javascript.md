@@ -7,6 +7,8 @@ categories:
 - JavaScript
 ---
 
+_**IMPORTANT:** some of the information in this article is out-of-date. [Please read this update article instead.](/how-to-sanitize-third-party-content-with-vanilla-js-to-prevent-cross-site-scripting-xss-attacks/)_
+
 I generally use `innerHTML` to [inject HTML into an element with vanilla JavaScript](/adding-markup-to-an-element-with-vanilla-js/).
 
 Yesterday, one of my students asked me about the danger of cross-site scripting (XSS) when using this property. He had been told that it's insecure and to never use it.
