@@ -21,6 +21,7 @@ Watch Chris Ferdinandi live-code vanilla JS projects. Follow along, try it yours
 0. **Progressively Enhanced Accordions.** Build a progressively enhanced accordion from the `details` and `summary` elements.
 0. **Simple Accordion.** Build a simple JavaScript "show-and-hide" component.
 0. **Tip Calculator.** Build a tip calculator app.
+0. **Vue to Vanilla JS: Markdown Editor.** Convert the Vue.js markdown editor demo to vanilla JS.
 
 
 ## How it works
