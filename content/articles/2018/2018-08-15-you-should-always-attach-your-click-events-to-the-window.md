@@ -8,7 +8,7 @@ categories:
 - JavaScript
 ---
 
-*__IMPORTANT:__ The title of this article is wrong. After some additional testing, the article has been updated below to reflect that.*
+_**UPDATE:** The bug described in this article has been fixed. You can now safely ignore the advice below._
 
 I almost always use [event delegation](/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/) for my JavaScript event listeners. It's better for performance, and gives you a bit more flexibility.
 
