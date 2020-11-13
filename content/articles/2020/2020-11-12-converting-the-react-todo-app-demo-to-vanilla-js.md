@@ -3,11 +3,11 @@ title: "Converting the React todo app demo to vanilla JS"
 date: 2020-11-12T10:30:00-05:00
 draft: false
 categories:
-	- Code
-	- HTML
-	- JavaScript
-	- Web Performance
-	- Vanilla Framework Demos
+- Code
+- HTML
+- JavaScript
+- Web Performance
+- Vanilla Framework Demos
 ---
 
 Over the last few weeks, I've been converting jQuery plugins and Vue components into vanilla JS, and recording myself in the process.
