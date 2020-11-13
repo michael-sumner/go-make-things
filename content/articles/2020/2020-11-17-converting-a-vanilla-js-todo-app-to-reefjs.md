@@ -1,6 +1,6 @@
 ---
 title: "Converting a vanilla JS todo app to ReefJS"
-date: 2020-11-13T10:30:00-05:00
+date: 2020-11-17T10:30:00-05:00
 draft: false
 categories:
 - Code
