@@ -28,6 +28,8 @@ As an added bonus, if you buy one of my guide/course bundles or register for Aca
     <li>Learn how to write resumes that get seen by an actual human, navigate the interview process, and more with my <a href="https://gomakethings.com/career-guide">Web Developer Career Guide</a>. <em>Valued at $39.</em></li>
 </ul>
 
+(_Already purchased one of my bundles or gone through Academy? I'll be sending you an email with these bonus gifts later this week just to say thanks!_)
+
 ## Ready to start learning?
 
 The sale starts right now.
