@@ -23,19 +23,19 @@ guidesAdvanced:
     both: "$234"
 
 academy:
-    priceID: 8
-    price: "$799"
-    priceAlumni: "$159"
-    pricePre: "$399"
-    start: 20200928
-    end: 20201018
+    priceID: 9
+    price: "$899"
+    priceAlumni: "$179"
+    pricePre: "$449"
+    start: 20201116
+    end: 20201122
     startPre: 20200922
     endPre: 20200927
-    # startAcademyPreposition: "on "
-    startAcademyPreposition: ""
-    startAcademy: "in late winter/early spring"
-    endAcademy: "December 19"
-    registration: "on September 28"
+    startAcademyPreposition: "on "
+    # startAcademyPreposition: ""
+    startAcademy: "February 1"
+    endAcademy: "April 11"
+    registration: "November 16"
 
 prepSchool: "$99"
 

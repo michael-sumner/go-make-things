@@ -1,6 +1,6 @@
 ---
 title: "Converting the React todo app demo to vanilla JS"
-date: 2020-11-16T10:30:00-05:00
+date: 2020-11-17T10:30:00-05:00
 draft: false
 categories:
 - Code

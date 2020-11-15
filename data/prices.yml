@@ -11,8 +11,8 @@ guidesComplete:
                 ebook: "<del>$179</del> $89"
                 video: "<del>$429</del> $214"
                 both: "<del>$459</del> $229"
-            start: 20191129
-            end: 20191202
+            start: 20201116
+            end: 20201122
 
 guidesBeginner:
     limited:
@@ -21,8 +21,8 @@ guidesBeginner:
                 ebook: "<del>$99</del> $49"
                 video: "<del>$239</del> $119"
                 both: "<del>$259</del> $129"
-            start: 20191129
-            end: 20191202
+            start: 20201116
+            end: 20201122
 
 guidesAdvanced:
     limited:
@@ -31,8 +31,8 @@ guidesAdvanced:
                 ebook: "<del>$79</del> $39"
                 video: "<del>$189</del> $94"
                 both: "<del>$207</del> $103"
-            start: 20191129
-            end: 20191202
+            start: 20201116
+            end: 20201122
 
 guidesIndividual:
     limited:
@@ -41,19 +41,14 @@ guidesIndividual:
                 ebook: "<del>$29</del> $14"
                 video: "<del>$69</del> $34"
                 both: "<del>$74</del> $37"
-            start: 20191129
-            end: 20191202
+            start: 20201116
+            end: 20201122
 
 # Academy
 academy:
     limited:
         1:
             prices:
-                price: "<del>$799</del> $479"
-            start: 20200928
-            end: 20201004
-        2:
-            prices:
-                price: "<del>$799</del> $559"
-            start: 20201008
-            end: 202001018
+                price: "<del>$899</del> $449"
+            start: 20201116
+            end: 20201122
