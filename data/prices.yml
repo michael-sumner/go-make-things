@@ -8,9 +8,9 @@ guidesComplete:
     limited:
         1:
             prices:
-                ebook: "<del>$179</del> $89"
-                video: "<del>$429</del> $214"
-                both: "<del>$459</del> $229"
+                ebook: "<del>$239</del> $119"
+                video: "<del>$497</del> $249"
+                both: "<del>$529</del> $264"
             start: 20201116
             end: 20201122
 
@@ -18,9 +18,9 @@ guidesBeginner:
     limited:
         1:
             prices:
-                ebook: "<del>$99</del> $49"
-                video: "<del>$239</del> $119"
-                both: "<del>$259</del> $129"
+                ebook: "<del>$129</del> $64"
+                video: "<del>$269</del> $134"
+                both: "<del>$289</del> $144"
             start: 20201116
             end: 20201122
 
@@ -28,9 +28,9 @@ guidesAdvanced:
     limited:
         1:
             prices:
-                ebook: "<del>$79</del> $39"
-                video: "<del>$189</del> $94"
-                both: "<del>$207</del> $103"
+                ebook: "<del>$109</del> $54"
+                video: "<del>$219</del> $109"
+                both: "<del>$234</del> $117"
             start: 20201116
             end: 20201122
 
@@ -38,9 +38,9 @@ guidesIndividual:
     limited:
         1:
             prices:
-                ebook: "<del>$29</del> $14"
-                video: "<del>$69</del> $34"
-                both: "<del>$74</del> $37"
+                ebook: "<del>$39</del> $19"
+                video: "<del>$79</del> $39"
+                both: "<del>$84</del> $42"
             start: 20201116
             end: 20201122
 
