@@ -63,15 +63,15 @@ events:
         #     start: 20201012
         #     end: 20201018
         1:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This week only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide<a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends this weekend, so don't wait!</em></mark></p>
+            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This week only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends this weekend, so don't wait!</em></mark></p>
             start: 20201116
             end: 20201120
         2:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This weekend only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide<a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends tomorrow, so don't wait!</em></mark></p>
+            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This weekend only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends tomorrow, so don't wait!</em></mark></p>
             start: 20201121
             end: 20201121
         3:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide<a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends today, so don't wait!</em></mark></p>
+            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends today, so don't wait!</em></mark></p>
             start: 20201122
             end: 20201122
 
@@ -112,15 +112,15 @@ home:
         #     start: 20201012
         #     end: 20201018
         1:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This week only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide<a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends this weekend, so don't wait!</em></mark></p>
+            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This week only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends this weekend, so don't wait!</em></mark></p>
             start: 20201116
             end: 20201120
         2:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This weekend only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide<a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends tomorrow, so don't wait!</em></mark></p>
+            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This weekend only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends tomorrow, so don't wait!</em></mark></p>
             start: 20201121
             end: 20201121
         3:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide<a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends today, so don't wait!</em></mark></p>
+            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends today, so don't wait!</em></mark></p>
             start: 20201122
             end: 20201122
 
@@ -160,15 +160,15 @@ global:
         #     start: 20201012
         #     end: 20201018
         1:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This week only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide<a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends this weekend, so don't wait!</em></mark></p>
+            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This week only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends this weekend, so don't wait!</em></mark></p>
             start: 20201116
             end: 20201120
         2:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This weekend only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide<a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends tomorrow, so don't wait!</em></mark></p>
+            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This weekend only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends tomorrow, so don't wait!</em></mark></p>
             start: 20201121
             end: 20201121
         3:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide<a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends today, so don't wait!</em></mark></p>
+            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends today, so don't wait!</em></mark></p>
             start: 20201122
             end: 20201122
 
@@ -208,15 +208,15 @@ resources:
         #     start: 20201012
         #     end: 20201018
         1:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This week only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide<a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends this weekend, so don't wait!</em></mark></p>
+            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This week only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends this weekend, so don't wait!</em></mark></p>
             start: 20201116
             end: 20201120
         2:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This weekend only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide<a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends tomorrow, so don't wait!</em></mark></p>
+            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This weekend only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends tomorrow, so don't wait!</em></mark></p>
             start: 20201121
             end: 20201121
         3:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide<a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends today, so don't wait!</em></mark></p>
+            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends today, so don't wait!</em></mark></p>
             start: 20201122
             end: 20201122
 
@@ -412,15 +412,15 @@ funnel:
         #     start: 20201012
         #     end: 20201018
         1:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This week only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide<a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends this weekend, so don't wait!</em></mark></p>
+            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This week only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends this weekend, so don't wait!</em></mark></p>
             start: 20201116
             end: 20201120
         2:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This weekend only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide<a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends tomorrow, so don't wait!</em></mark></p>
+            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This weekend only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends tomorrow, so don't wait!</em></mark></p>
             start: 20201121
             end: 20201121
         3:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide<a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends today, so don't wait!</em></mark></p>
+            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. Ends today, so don't wait!</em></mark></p>
             start: 20201122
             end: 20201122
 
