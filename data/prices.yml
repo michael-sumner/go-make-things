@@ -11,6 +11,7 @@ guidesComplete:
                 ebook: "<del>$239</del> $119"
                 video: "<del>$497</del> $249"
                 both: "<del>$529</del> $264"
+                discount: "THANKS"
             start: 20201116
             end: 20201122
 
@@ -21,6 +22,7 @@ guidesBeginner:
                 ebook: "<del>$129</del> $64"
                 video: "<del>$269</del> $134"
                 both: "<del>$289</del> $144"
+                discount: "THANKS"
             start: 20201116
             end: 20201122
 
@@ -31,6 +33,7 @@ guidesAdvanced:
                 ebook: "<del>$109</del> $54"
                 video: "<del>$219</del> $109"
                 both: "<del>$234</del> $117"
+                discount: "THANKS"
             start: 20201116
             end: 20201122
 
@@ -41,6 +44,7 @@ guidesIndividual:
                 ebook: "<del>$39</del> $19"
                 video: "<del>$79</del> $39"
                 both: "<del>$84</del> $42"
+                discount: "THANKS"
             start: 20201116
             end: 20201122
 
@@ -50,5 +54,6 @@ academy:
         1:
             prices:
                 price: "<del>$899</del> $449"
+                discount: "THANKS"
             start: 20201116
             end: 20201122
