@@ -13,6 +13,7 @@ Articles and live-coding videos exploring vanilla JS equivalents of common jQuer
 - [`addClass()`, `removeClass()`, `toggleClass()` and `hasClass()`](/converting-jquerys-addclass-removeclass-toggleclass-and-hasclass-methods-to-vanilla-js/)
 - [`click()`](/how-to-convert-the-jquery-click-method-to-vanilla-js/)
 - [`remove()`](/converting-the-jquery-remove-method-to-vanilla-js/)
+- [`next()`](/converting-the-jquery-next-method-to-vanilla-js/)
 
 
 ## jQuery Plugin Live-Coding Videos
