@@ -23,6 +23,7 @@ Watch Chris Ferdinandi live-code vanilla JS projects. Follow along, try it yours
 0. **Tip Calculator.** Build a tip calculator app.
 0. **Vue to Vanilla JS: Markdown Editor.** Convert the Vue.js markdown editor demo to vanilla JS.
 0. **Vue to Vanilla JS: GitHub Commits.** Convert the Vue.js GitHub commits API demo to vanilla JS.
+0. **Caesar's Cipher.** Create an old-school secret message app.
 
 
 ## How it works
