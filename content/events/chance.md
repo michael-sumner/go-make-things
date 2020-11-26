@@ -6,7 +6,7 @@ draft: false
 
 Thanks for listening to me chat with Chance about vanilla JS, frameworks, and my developer journey. I've put together a *ton* of resources to help you dig deeper into vanilla JS.
 
-{{<cta for="events">}}
+{{<cta for="funnel">}}
 
 
 {{<mailchimp intro="true">}}

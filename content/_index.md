@@ -9,7 +9,7 @@ noTitle: true
 
 **I help people learn vanilla JavaScript.** I believe there’s a simpler, more resilient way to make things for the web.
 
-{{<cta for="home">}}
+{{<cta for="funnel">}}
 
 {{<mailchimp intro="true">}}
 

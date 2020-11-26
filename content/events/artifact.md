@@ -6,7 +6,7 @@ draft: false
 
 Thanks for chatting with me about the Lean Web. I've put together a *ton* of resources for you on building a simpler, faster world-wide web.
 
-{{<cta for="events">}}
+{{<cta for="funnel">}}
 
 
 ## The Lean Web Slides & Video

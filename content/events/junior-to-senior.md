@@ -9,7 +9,7 @@ Thanks for listening to me chat with David about my career journey.
 
 I've put together a *ton* of resources to help you further your career.
 
-{{<cta for="events">}}
+{{<cta for="funnel">}}
 
 
 {{<mailchimp intro="true">}}

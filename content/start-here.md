@@ -6,6 +6,8 @@ draft: false
 
 First time here? I've put together a *ton* of resources to help you dig deeper into vanilla JS.
 
+{{<cta for="funnel">}}
+
 ## Articles
 
 - [The web is not dying](/the-web-is-not-dying/)

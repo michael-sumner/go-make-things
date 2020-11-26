@@ -7,6 +7,8 @@ weight: 10
 
 I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean web](https://leanweb.dev). Want me to talk at your event or come on your show? [Get in touch!](https://gomakethings.com/about/)
 
+{{<cta for="funnel">}}
+
 
 ## Talks
 

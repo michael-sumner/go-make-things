@@ -8,7 +8,7 @@ Thanks for listening to me chat with Saron about my career journey, and why I lo
 
 I've put together a *ton* of resources to help you dig deeper into vanilla JavaScript and further your career.
 
-{{<cta for="events">}}
+{{<cta for="funnel">}}
 
 
 {{<mailchimp intro="true">}}

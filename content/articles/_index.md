@@ -8,4 +8,4 @@ I send out a short email each weekday with code snippets, tools, techniques, and
 
 {{<mailchimp>}}
 
-{{<cta for="global">}}
+{{<cta for="funnel">}}
