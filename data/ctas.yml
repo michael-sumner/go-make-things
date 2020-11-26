@@ -70,17 +70,17 @@ funnel:
         #     start: 20201012
         #     end: 20201018
         1:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This week only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. The sale ends this weekend, so don't&nbsp;wait!</em></mark></p>
-            start: 20201116
-            end: 20201120
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, save 40% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. The sale ends on Monday, so don't&nbsp;wait!</em></mark></p>
+            start: 20201127
+            end: 20201128
         2:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This weekend only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. The sale ends tomorrow, so don't&nbsp;wait!</em></mark></p>
-            start: 20201121
-            end: 20201121
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 40% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. The sale ends on tomorrow, so don't&nbsp;wait!</em></mark></p>
+            start: 20201129
+            end: 20201129
         3:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. The sale ends today, so don't&nbsp;wait!</em></mark></p>
-            start: 20201122
-            end: 20201122
+            message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 40% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. The sale ends on today, so don't&nbsp;wait!</em></mark></p>
+            start: 20201130
+            end: 20201130
 
 
 
@@ -93,17 +93,17 @@ guide:
         #     start: 20200321
         #     end: 20200801
         1:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This week only, save 50% on every pocket guide. If you upgrade to a bundle, you'll also get $296 in free bonus gifts. The sale ends this weekend, so don't&nbsp;wait!</em></mark></p>
-            start: 20201116
-            end: 20201120
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, save 40% on every pocket guide. If you upgrade to a bundle, you'll also get $296 in free bonus gifts. The sale ends on Monday, so don't&nbsp;wait!</em></mark></p>
+            start: 20201127
+            end: 20201128
         2:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This weekend only, save 50% on every pocket guide and bundle. If you upgrade to a bundle, you'll also get $296 in free bonus gifts. The sale ends tomorrow, so don't&nbsp;wait!</em></mark></p>
-            start: 20201121
-            end: 20201121
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 40% on every pocket guide. If you upgrade to a bundle, you'll also get $296 in free bonus gifts. The sale ends on tomorrow, so don't&nbsp;wait!</em></mark></p>
+            start: 20201129
+            end: 20201129
         3:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> Today only, save 50% on every pocket guide and bundle. If you upgrade to a bundle, you'll also get $296 in free bonus gifts. The sale ends today, so don't&nbsp;wait!</em></mark></p>
-            start: 20201122
-            end: 20201122
+            message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 40% on every pocket guide. If you upgrade to a bundle, you'll also get $296 in free bonus gifts. The sale ends on today, so don't&nbsp;wait!</em></mark></p>
+            start: 20201130
+            end: 20201130
 
 guideBuy:
     message: ""
@@ -113,17 +113,18 @@ guideBuy:
         #     start: 20200321
         #     end: 20200801
         1:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This week only, save 50% with the code <code>THANKS</code> at checkout.</em></mark></p>
-            start: 20201116
-            end: 20201120
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, save 40% with the code <code>THANKS</code> at checkout.</em></mark></p>
+            start: 20201127
+            end: 20201128
         2:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This weekend only, save 50% with the code <code>THANKS</code> at checkout.</em></mark></p>
-            start: 20201121
-            end: 20201121
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow only, save 40% with the code <code>THANKS</code> at checkout.</em></mark></p>
+            start: 20201129
+            end: 20201129
         3:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> Today only, save 50% with the code <code>THANKS</code> at checkout.</em></mark></p>
-            start: 20201122
-            end: 20201122
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today only, save 40% with the code <code>THANKS</code> at checkout.</em></mark></p>
+            start: 20201130
+            end: 20201130
+
 
 guidesAll:
     message: ""
@@ -133,17 +134,17 @@ guidesAll:
         #     start: 20200321
         #     end: 20200801
         1:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This week only, save 50% on every pocket guide and bundle, and get $296 in free bonus gifts. The sale ends this weekend, so don't&nbsp;wait!</em></mark></p>
-            start: 20201116
-            end: 20201120
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, save 40% on every pocket guide and bundle. Buy a bundle and also get $296 in free bonus gifts. The sale ends this weekend, so don't&nbsp;wait!</em></mark></p>
+            start: 20201127
+            end: 20201128
         2:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This weekend only, save 50% on every pocket guide and bundle, and get $296 in free bonus gifts. The sale ends tomorrow, so don't&nbsp;wait!</em></mark></p>
-            start: 20201121
-            end: 20201121
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow only, save 40% on every pocket guide and bundle. Buy a bundle and also get $296 in free bonus gifts. The sale ends tomorrow, so don't&nbsp;wait!</em></mark></p>
+            start: 20201129
+            end: 20201129
         3:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> Today only, save 50% on every pocket guide and bundle, and get $296 in free bonus gifts. The sale ends today, so don't&nbsp;wait!</em></mark></p>
-            start: 20201122
-            end: 20201122
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today only, save 40% on every pocket guide and bundle. Buy a bundle and also get $296 in free bonus gifts. The sale ends today, so don't&nbsp;wait!</em></mark></p>
+            start: 20201130
+            end: 20201130
 
 
 
@@ -180,17 +181,18 @@ academy:
         #     start: 20201012
         #     end: 20201018
         1:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This week only, pre-register for the February 2021 session of Academy and save 50%. You'll also get $296 in free bonus gifts. The sale ends this weekend, so don't&nbsp;wait!</em></mark></p>
-            start: 20201116
-            end: 20201120
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, pre-register for the February 2021 session of Academy and save 40%. You'll also get $296 in free bonus gifts. The sale ends Monday, so don't&nbsp;wait!</em></mark></p>
+            start: 20201127
+            end: 20201128
         2:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This weekend only, pre-register for the February 2021 session of Academy and save 50%. You'll also get $296 in free bonus gifts. The sale ends tomorrow, so don't&nbsp;wait!</em></mark></p>
-            start: 20201121
-            end: 20201121
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, pre-register for the February 2021 session of Academy and save 40%. You'll also get $296 in free bonus gifts. The sale ends tomorrow, so don't&nbsp;wait!</em></mark></p>
+            start: 20201129
+            end: 20201129
         3:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> Today only, pre-register for the February 2021 session of Academy and save 50%. You'll also get $296 in free bonus gifts. The sale ends today, so don't&nbsp;wait!</em></mark></p>
-            start: 20201122
-            end: 20201122
+            message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, pre-register for the February 2021 session of Academy and save 40%. You'll also get $296 in free bonus gifts. The sale ends today, so don't&nbsp;wait!</em></mark></p>
+            start: 20201130
+            end: 20201130
+
 
 academyBuy:
     message: ""
@@ -212,17 +214,17 @@ academyBuy:
         #     start: 20201008
         #     end: 20201018
         1:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This week only, save 50% on pre-registration for the February 2021 session with the code <code>THANKS</code> at checkout.</em></mark></p>
-            start: 20201116
-            end: 20201120
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, save 40% on pre-registration for the February 2021 session with the code <code>THANKS</code> at checkout.</em></mark></p>
+            start: 20201127
+            end: 20201128
         2:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> This weekend only, save 50% on pre-registration for the February 2021 session with the code <code>THANKS</code> at checkout.</em></mark></p>
-            start: 20201121
-            end: 20201121
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, save 40% on pre-registration for the February 2021 session with the code <code>THANKS</code> at checkout.</em></mark></p>
+            start: 20201129
+            end: 20201129
         3:
-            message: <p><mark>❤️ <em><strong>Thank You Sale!</strong> Today only, save 50% on pre-registration for the February 2021 session with the code <code>THANKS</code> at checkout.</em></mark></p>
-            start: 20201122
-            end: 20201122
+            message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 40% on pre-registration for the February 2021 session with the code <code>THANKS</code> at checkout.</em></mark></p>
+            start: 20201130
+            end: 20201130
 
 academyAlumni:
     message: "<p><mark><em><strong>Save 80% as an Academy Alum!</strong> Because you've gone through the program once already, you can save 80% on Academy membership. Use the code <code>ALUMNI</code> at checkout.</em></mark></p>"
@@ -241,42 +243,42 @@ bonusesList:
         #     end: 20191202
         1:
             message: <ul><li>Watch me live-code vanilla JS projects with the <a href="https://gomakethings.com/live-code/">Vanilla JS Live-Code Series</a>. Follow along, try it yourself first, or dig into the completed source code for over a dozen projects. <em>Valued at $139.</em></li><li>Get hands-on learning with real projects with the <a href="https://gomakethings.com/project-bundle/">Project Bundle</a>. You get starter templates, helpful tips and resources, and step-by-step tutorials. <em>Valued at $79.</em></li><li>Learn how to build insanely fast WordPress sites <a href="https://gomakethings.com/wicked-fast-websites/">Wicked Fast Websites</a>. You'll learn how to measure performance, reduce page weight, and make simple server optimizations. <em>Valued at $39.</em></li><li>Learn how to write resumes that get seen by an actual human, navigate the interview process, and more with my <a href="https://gomakethings.com/career-guide">Web Developer Career Guide</a>. <em>Valued at $39.</em></li></ul>
-            start: 20201116
-            end: 20201122
+            start: 20201127
+            end: 20201130
 
 bonusesGuides:
     message: ""
     limited:
         1:
-            message: <h2>🎁 Exclusive Thank You Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle this week, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends this weekend, so don't wait!</p>
-            start: 20201116
-            end: 20201120
+            message: <h2>🎁 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle this week, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends Monday, so don't wait!</p>
+            start: 20201127
+            end: 20201128
         2:
-            message: <h2>🎁 Exclusive Thank You Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle this weekend, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends tomorrow, so don't wait!</p>
-            start: 20201121
-            end: 20201121
+            message: <h2>🎁 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle this weekend, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends tomorrow, so don't wait!</p>
+            start: 20201129
+            end: 20201129
         3:
-            message: <h2>🎁 Exclusive Thank You Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle today only, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends today, so don't wait!</p>
-            start: 20201122
-            end: 20201122
+            message: <h2>🎁 Exclusive Cyber Monday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle today only, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends today, so don't wait!</p>
+            start: 20201130
+            end: 20201130
 
 
 bonusesAcademy:
     message: ""
     limited:
-        2:
-            message: <h2>🔥 Exclusive Cyber Monday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy today only, you'll also get over <strong>$1,400 worth of bonus gifts and special discounts</strong> for other learning resources. This offer ends today, so don't wait!</p>
-            start: 20191202
-            end: 20191202
+        # 2:
+        #     message: <h2>🔥 Exclusive Cyber Monday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy today only, you'll also get over <strong>$1,400 worth of bonus gifts and special discounts</strong> for other learning resources. This offer ends today, so don't wait!</p>
+        #     start: 20191202
+        #     end: 20191202
         1:
-            message: <h2>🎁 Exclusive Thank You Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy this week, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends this weekend, so don't wait!</p>
-            start: 20201116
-            end: 20201120
+            message: <h2>🎁 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy this week, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends Monday, so don't wait!</p>
+            start: 20201127
+            end: 20201128
         2:
-            message: <h2>🎁 Exclusive Thank You Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy this weekend, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends tomorrow, so don't wait!</p>
-            start: 20201121
-            end: 20201121
+            message: <h2>🎁 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy this weekend, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends tomorrow, so don't wait!</p>
+            start: 20201129
+            end: 20201129
         3:
-            message: <h2>🎁 Exclusive Thank You Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy today only, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends today, so don't wait!</p>
-            start: 20201122
-            end: 20201122
+            message: <h2>🎁 Exclusive Cyber Monday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy today only, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends today, so don't wait!</p>
+            start: 20201130
+            end: 20201130
