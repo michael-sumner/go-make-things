@@ -8,3 +8,4 @@ Learn how to modularize and bundle your code with ES modules.
 
 1. [An intro to `import` and `export`](/an-intro-to-import-and-export-with-es-modules/)
 2. [How to default a `default` export](/how-to-define-a-default-export-with-vanilla-js-es-modules/)
+3. [Scoping with ES modules](/scoping-with-vanilla-js-es-modules/)
