@@ -16,4 +16,4 @@ So I was delighted when Steve Griffith released a video this week on [debugging 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VQ7SUjYj4r0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-I'll do a write-up of the tips in his video in the future, but for now, go check out his awesome video.
+I'll do a write-up of the tips in his video in the future, but for now, go check out his awesome video if you'd like to learn how to debug more effectively. I learned a ton!
