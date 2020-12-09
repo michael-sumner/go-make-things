@@ -90,4 +90,8 @@ With the `slice()` method, you're taking a slice of an array. If an array were a
 
 Super nerdy, and may not work for you, but that's how I keep them sorted in my head.
 
+## Wrapping things up
+
+[You can play with all of the code from today's article on CodePen.](https://codepen.io/cferdinandi/pen/XWjjXMX)
+
 And if you'd like to hear Steve Griffith's soothing voice explain this, [you can watch his video on these methods here](https://www.youtube.com/watch?v=u1ZCQfXQprE).
