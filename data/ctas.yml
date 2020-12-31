@@ -71,11 +71,11 @@ funnel:
         #     end: 20201018
         1:
             message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow, save 40% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>. This sale ends tomorrow, so don't &nbsp;wait!</em></mark></p>
-            start: 20201231
+            start: 20201230
             end: 20210101
         2:
             message: <p><mark> 🎉 <em><strong>New Year's  Sale!</strong> Today only, save 40% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>. This sale ends at midnight, so don't&nbsp;wait!</em></mark></p>
-            start: 20201231
+            start: 20201230
             end: 20210101
 
 
@@ -90,11 +90,11 @@ guide:
         #     end: 20200801
         1:
             message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow, save 40% on every pocket guide. This sale ends tomorrow, so don't &nbsp;wait!</em></mark></p>
-            start: 20201231
+            start: 20201230
             end: 20210101
         2:
             message: <p><mark> 🎉 <em><strong>New Year's  Sale!</strong> Today only, save 40% on every every pocket guide. This sale ends at midnight, so don't&nbsp;wait!</em></mark></p>
-            start: 20201231
+            start: 20201230
             end: 20210101
 
 guideBuy:
@@ -106,11 +106,11 @@ guideBuy:
         #     end: 20200801
         1:
             message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow, save 40% with the code <code>NYE2021</code> at checkout</em></mark></p>
-            start: 20201231
+            start: 20201230
             end: 20210101
         2:
             message: <p><mark> 🎉 <em><strong>New Year's  Sale!</strong> Today only, save 40% with the code <code>NYE2021</code> at checkout</em></mark></p>
-            start: 20201231
+            start: 20201230
             end: 20210101
 
 
@@ -123,11 +123,11 @@ guidesAll:
         #     end: 20200801
         1:
             message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow, save 40% on every pocket guide and bundle. This sale ends tomorrow, so don't &nbsp;wait!</em></mark></p>
-            start: 20201231
+            start: 20201230
             end: 20210101
         2:
             message: <p><mark> 🎉 <em><strong>New Year's  Sale!</strong> Today only, save 40% on every every pocket guide bundle. This sale ends at midnight, so don't&nbsp;wait!</em></mark></p>
-            start: 20201231
+            start: 20201230
             end: 20210101
 
 
