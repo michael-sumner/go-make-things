@@ -11,9 +11,9 @@ guidesComplete:
                 ebook: "<del>$239</del> $144"
                 video: "<del>$497</del> $298"
                 both: "<del>$529</del> $317"
-                discount: "THANKS"
+                discount: "NYE2021"
             start: 20201127
-            end: 20201130
+            end: 20210101
 
 guidesBeginner:
     limited:
@@ -22,9 +22,9 @@ guidesBeginner:
                 ebook: "<del>$129</del> $78"
                 video: "<del>$269</del> $162"
                 both: "<del>$289</del> $174"
-                discount: "THANKS"
+                discount: "NYE2021"
             start: 20201127
-            end: 20201130
+            end: 20210101
 
 guidesAdvanced:
     limited:
@@ -33,9 +33,9 @@ guidesAdvanced:
                 ebook: "<del>$109</del> $65"
                 video: "<del>$219</del> $132"
                 both: "<del>$234</del> $141"
-                discount: "THANKS"
+                discount: "NYE2021"
             start: 20201127
-            end: 20201130
+            end: 20210101
 
 guidesIndividual:
     limited:
@@ -44,9 +44,9 @@ guidesIndividual:
                 ebook: "<del>$39</del> $24"
                 video: "<del>$79</del> $48"
                 both: "<del>$84</del> $51"
-                discount: "THANKS"
+                discount: "NYE2021"
             start: 20201127
-            end: 20201130
+            end: 20210101
 
 # Academy
 academy:
@@ -54,6 +54,6 @@ academy:
         1:
             prices:
                 price: "<del>$899</del> $539"
-                discount: "THANKS"
+                discount: "NYE2021"
             start: 20201127
-            end: 20201130
+            end: 20210101

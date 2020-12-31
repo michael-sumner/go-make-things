@@ -70,17 +70,13 @@ funnel:
         #     start: 20201012
         #     end: 20201018
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, save 40% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. The sale ends on Monday, so don't&nbsp;wait!</em></mark></p>
-            start: 20201127
-            end: 20201128
+            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow, save 40% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>. This sale ends tomorrow, so don't &nbsp;wait!</em></mark></p>
+            start: 20201231
+            end: 20210101
         2:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 40% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. The sale ends on tomorrow, so don't&nbsp;wait!</em></mark></p>
-            start: 20201129
-            end: 20201129
-        3:
-            message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 40% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>, and <a href="https://vanillajsacademy.com">Vanilla JS Academy registration</a>. You'll also get $296 in free bonus gifts. The sale ends on today, so don't&nbsp;wait!</em></mark></p>
-            start: 20201130
-            end: 20201130
+            message: <p><mark> 🎉 <em><strong>New Year's  Sale!</strong> Today only, save 40% on every <a href="https://vanillajsguides.com">JavaScript Pocket Guide</a>. This sale ends at midnight, so don't&nbsp;wait!</em></mark></p>
+            start: 20201231
+            end: 20210101
 
 
 
@@ -93,17 +89,13 @@ guide:
         #     start: 20200321
         #     end: 20200801
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, save 40% on every pocket guide. If you upgrade to a bundle, you'll also get $296 in free bonus gifts. The sale ends on Monday, so don't&nbsp;wait!</em></mark></p>
-            start: 20201127
-            end: 20201128
+            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow, save 40% on every pocket guide. This sale ends tomorrow, so don't &nbsp;wait!</em></mark></p>
+            start: 20201231
+            end: 20210101
         2:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 40% on every pocket guide. If you upgrade to a bundle, you'll also get $296 in free bonus gifts. The sale ends on tomorrow, so don't&nbsp;wait!</em></mark></p>
-            start: 20201129
-            end: 20201129
-        3:
-            message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 40% on every pocket guide. If you upgrade to a bundle, you'll also get $296 in free bonus gifts. The sale ends on today, so don't&nbsp;wait!</em></mark></p>
-            start: 20201130
-            end: 20201130
+            message: <p><mark> 🎉 <em><strong>New Year's  Sale!</strong> Today only, save 40% on every every pocket guide. This sale ends at midnight, so don't&nbsp;wait!</em></mark></p>
+            start: 20201231
+            end: 20210101
 
 guideBuy:
     message: ""
@@ -113,17 +105,13 @@ guideBuy:
         #     start: 20200321
         #     end: 20200801
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, save 40% with the code <code>THANKS</code> at checkout.</em></mark></p>
-            start: 20201127
-            end: 20201128
+            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow, save 40% with the code <code>NYE2021</code> at checkout</em></mark></p>
+            start: 20201231
+            end: 20210101
         2:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow only, save 40% with the code <code>THANKS</code> at checkout.</em></mark></p>
-            start: 20201129
-            end: 20201129
-        3:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today only, save 40% with the code <code>THANKS</code> at checkout.</em></mark></p>
-            start: 20201130
-            end: 20201130
+            message: <p><mark> 🎉 <em><strong>New Year's  Sale!</strong> Today only, save 40% with the code <code>NYE2021</code> at checkout</em></mark></p>
+            start: 20201231
+            end: 20210101
 
 
 guidesAll:
@@ -134,17 +122,13 @@ guidesAll:
         #     start: 20200321
         #     end: 20200801
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, save 40% on every pocket guide and bundle. Buy a bundle and also get $296 in free bonus gifts. The sale ends this weekend, so don't&nbsp;wait!</em></mark></p>
-            start: 20201127
-            end: 20201128
+            message: <p><mark>🎉 <em><strong>New Year's Sale!</strong> Today and tomorrow, save 40% on every pocket guide and bundle. This sale ends tomorrow, so don't &nbsp;wait!</em></mark></p>
+            start: 20201231
+            end: 20210101
         2:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow only, save 40% on every pocket guide and bundle. Buy a bundle and also get $296 in free bonus gifts. The sale ends tomorrow, so don't&nbsp;wait!</em></mark></p>
-            start: 20201129
-            end: 20201129
-        3:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today only, save 40% on every pocket guide and bundle. Buy a bundle and also get $296 in free bonus gifts. The sale ends today, so don't&nbsp;wait!</em></mark></p>
-            start: 20201130
-            end: 20201130
+            message: <p><mark> 🎉 <em><strong>New Year's  Sale!</strong> Today only, save 40% on every every pocket guide bundle. This sale ends at midnight, so don't&nbsp;wait!</em></mark></p>
+            start: 20201231
+            end: 20210101
 
 
 
@@ -181,15 +165,15 @@ academy:
         #     start: 20201012
         #     end: 20201018
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, pre-register for the February 2021 session of Academy and save 40%. You'll also get $296 in free bonus gifts. The sale ends Monday, so don't&nbsp;wait!</em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, pre-register for the February 2021 session of Academy and save 40%. You'll also get $296 in free bonus gifts. This sale ends Monday, so don't&nbsp;wait!</em></mark></p>
             start: 20201127
             end: 20201128
         2:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, pre-register for the February 2021 session of Academy and save 40%. You'll also get $296 in free bonus gifts. The sale ends tomorrow, so don't&nbsp;wait!</em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, pre-register for the February 2021 session of Academy and save 40%. You'll also get $296 in free bonus gifts. This sale ends tomorrow, so don't&nbsp;wait!</em></mark></p>
             start: 20201129
             end: 20201129
         3:
-            message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, pre-register for the February 2021 session of Academy and save 40%. You'll also get $296 in free bonus gifts. The sale ends today, so don't&nbsp;wait!</em></mark></p>
+            message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, pre-register for the February 2021 session of Academy and save 40%. You'll also get $296 in free bonus gifts. This sale ends today, so don't&nbsp;wait!</em></mark></p>
             start: 20201130
             end: 20201130
 
@@ -198,15 +182,15 @@ academyBuy:
     message: ""
     limited:
         # 1:
-        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Use the code <code>EARLYBIRD</code> to get 40% off at checkout. The sale ends Sunday, so don't&nbsp;wait!</em></mark></p>
+        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Use the code <code>EARLYBIRD</code> to get 40% off at checkout. This sale ends Sunday, so don't&nbsp;wait!</em></mark></p>
         #     start: 20200928
         #     end: 20201003
         # 2:
-        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Use the code <code>EARLYBIRD</code> to get 40% off at checkout. The sale ends tomorrow, so don't&nbsp;wait!</em></mark></p>
+        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Use the code <code>EARLYBIRD</code> to get 40% off at checkout. This sale ends tomorrow, so don't&nbsp;wait!</em></mark></p>
         #     start: 20201003
         #     end: 20201003
         # 3:
-        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Use the code <code>EARLYBIRD</code> to get 40% off at checkout. The sale ends today, so don't&nbsp;wait!</em></mark></p>
+        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Use the code <code>EARLYBIRD</code> to get 40% off at checkout. This sale ends today, so don't&nbsp;wait!</em></mark></p>
         #     start: 20201004
         #     end: 20201004
         # 4:
