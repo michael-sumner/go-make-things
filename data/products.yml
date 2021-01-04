@@ -29,7 +29,7 @@ academy:
     pricePre: "$449"
     start: 20210201
     end: 20210411
-    startPre: 20210404
+    startPre: 20210104
     endPre: 20210111
     startAcademyPreposition: "on "
     # startAcademyPreposition: ""
