@@ -27,15 +27,15 @@ academy:
     price: "$899"
     priceAlumni: "$179"
     pricePre: "$449"
-    start: 20201127
-    end: 20201130
-    startPre: 20200922
-    endPre: 20200927
+    start: 20210201
+    end: 20210411
+    startPre: 20210404
+    endPre: 20210111
     startAcademyPreposition: "on "
     # startAcademyPreposition: ""
     startAcademy: "February 1"
     endAcademy: "April 11"
-    registration: "November 27"
+    registration: "January 11"
 
 prepSchool: "$99"
 
