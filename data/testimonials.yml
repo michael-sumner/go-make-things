@@ -6,352 +6,358 @@
 hbs:
     name: "Adrienne Debigare, Harvard Business School"
     url: "https://digital.hbs.edu"
-    photo: "/img/testimonials/adrienne-debigare-hbs.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/adrienne-debigare-hbs.jpg"
     quote: "Chris is the kind of partner that, once you wrap up work with him, you’ll start trying to think of reasons you’ll need to hire him back."
 
 paws:
     name: "Kelly Parker, PAWS New England"
     url: "https://pawsnewengland.com"
-    photo: "/img/testimonials/kelly-parker-paws.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/kelly-parker-paws.jpg"
     quote: "What you’ve done for PAWS... the word \"life changing\" comes to mind."
 
 # Pocket Guides
 alexHardy:
     name: "Alex Hardy, Designer & Developer"
     url: "https://twitter.com/alexhardy"
-    photo: "/img/testimonials/alex-hardy.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/alex-hardy.jpg"
     quote: "As a developer reacquainting myself with WordPress, this course was just what I wanted. Chris walks you through applying current performance techniques, debunking the myth that WordPress is inherently slow."
 
 alexMuraro:
     name: "Alex Muraro"
     url: "https://twitter.com/akmur/status/923143752641863681"
-    photo: "/img/testimonials/alex-muraro.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/alex-muraro.jpg"
     quote: "I recommend Chris Ferdinandi to all JavaScript learners :)"
 
 ardenDeRaaij:
     name: "Arden de Raaij"
     url: "https://twitter.com/ardennl/status/920296593617768448"
-    photo: "/img/testimonials/arden-de-raaij.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/arden-de-raaij.jpg"
     quote: "Shout out to Chris Ferdinandi. Since I dropped jQuery, https://gomakethings.com has been the best asset for learning vanilla js for me. <span class='text-normal'>🙌🏼</span>"
 
 chrisBaughman:
     name: "Chris Baughman"
     url: "https://plus.google.com/+ChrisBaughman"
-    photo: "/img/testimonials/chris-baughman.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/chris-baughman.jpg"
     quote: "Loved your book, it's become a daily reference for me. Fantastic stuff!"
 
 davidBuchholz:
     name: "David Buchholz"
     url: "https://twitter.com/Buchholz_Dave"
-    photo: "/img/testimonials/david-buchholz.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/david-buchholz.jpg"
     quote: "The cheat sheet and the ability to ask questions on Slack were worth the price of the book alone."
 
 dinoKoutrouzas:
     name: "Dino Koutrouzas"
     url: "https://twitter.com/dino_k_29/status/1118129933002342402"
-    photo: "/img/testimonials/dino-koutrouzas.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/dino-koutrouzas.jpg"
     quote: "If you’re a beginner, or just looking to fill in some knowledge gaps, the Vanilla JavaScript Pocket Guides from Chris Ferdinandi are clear, informative and to the point. Cannot recommend enough!"
 
 jCHiatt:
     name: "J.C. Hiatt"
     url: "https://twitter.com/jchiatt/status/918861483143979008"
-    photo: "/img/testimonials/j-c-hiatt.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/j-c-hiatt.jpg"
     quote: "Chris’s pocket guides are AWESOME. You’re gonna want this. #JavaScript"
 
 jeffGolenski:
     name: "Jeff Golenski, Automattic"
     url: "https://twitter.com/jeffgolenski/status/761366002668040196"
-    photo: "/img/testimonials/jeff-golenski.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/jeff-golenski.jpg"
     quote: "Chris knows his stuff. And he's a great human. Highly recommend his book and resources."
 
 jeremyGreen:
     name: "Jeremy Green"
     url: "https://twitter.com/jagthedrummer/status/808360037248798720"
-    photo: "/img/testimonials/jeremy-green.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/jeremy-green.jpg"
     quote: "Ever wanted to ditch jQuery but not sure how? This book by Chris Ferdinandi will set you on the right path."
 
 jonathanStark:
     name: "Jonathan Stark"
     url: "https://twitter.com/jonathanstark/status/808350258476548099"
-    photo: "/img/testimonials/jonathan-stark.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/jonathan-stark.jpg"
     quote: "Levelup your frontend dev skills w/ the excellent \"Ditching jQuery\" by Chris Ferdinandi."
 
 kb:
     name: "Kabolobari Benakole"
     url: "https://k16e.co/kb"
-    photo: "/img/testimonials/kabolobari-benakole.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/kabolobari-benakole.jpg"
     quote: "Clarity. Brevity. Unpretentious explanation. Care for best practices. Obvious attentiveness. Available to help \"unstuck\" students. You actually rock, Chris."
 
 kieranBarker:
     name: "Kieran Barker"
     url: "https://kbarker.dev/"
-    photo: "/img/testimonials/kieran-barker.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/kieran-barker.jpg"
     quote: "<p>I've been stuck on the same JavaScript project for AGES, but I'm so happy because I've finally managed to finish it all thanks to Chris Ferdinandi!</p><p>I found out about him, signed up for his daily newsletter and bought his Vanilla JS Guides. I'm so glad I did because I've only worked through two of the guides and yet he's COMPLETELY changed the way I think about JavaScript.</p><p class='no-margin-bottom'>Putting everything he's taught me into practice, I managed to rewrite the project over a weekend! He was even kind enough to personally help me on Slack with an aspect I was particularly struggling with... I SERIOUSLY recommend checking him out! 😄</p>"
 
 mikeKilmer:
     name: "Mike Kilmer, Media Zen"
     url: "https://github.com/MikeiLL"
-    photo: "/img/testimonials/mike-kilmer.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/mike-kilmer.jpg"
     quote: "This course is SO absolutely insightful. I’m so glad I took it. Some recommendations I’m already using, some I’ve been vaguely aware of, some I have seen before and others are new to me. I am significantly more informed than I was two days ago."
 
 mojtabaSeyedi:
     name: "Mojtaba Seyedi, Front End Developer"
     url: "http://mojtabaseyedi.com/"
-    photo: "/img/testimonials/motjaba-seyedi.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/motjaba-seyedi.jpg"
     quote: "God, you're amazing... I'm learning so much from you."
 
 patriciaParker:
     name: "Patricia Parker"
     url: "https://www.linkedin.com/in/patriciakayparker/"
-    photo: "/img/testimonials/patricia-parker.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/patricia-parker.jpg"
     quote: "I thank you from the bottom of my heart. If it had not been for you, I would not be able to learn JavaScript."
 
 robertBuchholz:
     name: "Robert Buchholz"
     url: "https://twitter.com/RBuchholzNWTC/status/763074224621625344"
-    photo: "/img/testimonials/robert-buchholz.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/robert-buchholz.jpg"
     quote: "An excellent resource for preparing the best resume possible in the world of Web Development. ★★★★★"
 
 ruudVanZuidam:
     name: "Ruud van Zuidam"
     url: "https://twitter.com/allrude"
-    photo: "/img/testimonials/ruud-van-zuidam.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/ruud-van-zuidam.jpg"
     quote: "<p>As a front-ender I always found JS difficult and made the mistake \"solving\" my lack of knowledge with the use of jQuery and a lot of plugins.</p>When I stumbled over your site and watched the video I had the feeling that for the first time I had an insight how JS works and how to learn it."
 
 scottTirrell:
     name: "Scott Tirrell"
     url: "https://twitter.com/stirrell42/status/975446126060081157"
-    photo: "/img/testimonials/scott-tirrell.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/scott-tirrell.jpg"
     quote: "Chris’s pocket guides are great. I definitely recommend picking them up if you’re learning or interested in learning Vanilla JavaScript."
 
 stuartRobson:
     name: "Stuart Robson"
     url: "https://twitter.com/StuRobson/status/807328299580067844"
-    photo: "/img/testimonials/stuart-robson.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/stuart-robson.jpg"
     quote: "ooh, that’s a nice treat for the weekend — Chris Ferdinandi’s \"Ditching jQuery\" ebook in my inbox."
 
 jonathanSchofield:
     name: "Jonathan Schofield"
     url: "https://twitter.com/schofeld/status/1060577891031924742"
-    photo: "/img/testimonials/jonathan-schofield.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/jonathan-schofield.jpg"
     quote: "Wanting to learn JavaScript from scratch, make the transition from jQuery or some other library? Already pretty competent and just want to get better?<br><br>Chris Ferdinandi has got your back and his learning platform is a *tremendously good value*."
 
 # Vanilla JS Academy
 elliotPorter:
     name: "Elliott Porter"
     url: "http://weblake.co.uk/"
-    photo: "/img/testimonials/elliott-porter.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/elliott-porter.jpg"
     quote: "Having your interaction is priceless. Such added value."
 
 benRudolph:
     name: "Ben Rudolph"
     url: "https://twitter.com/PoorOldRu/status/1058378836646125569"
-    photo: "/img/testimonials/ben-rudolph.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/ben-rudolph.jpg"
     quote: "Tired of tutorials? Want to really dig in and work with other developers on how to become a vanilla JS badass? I can't tell you how much I've learned from Chris Ferdinandi and his Vanilla JS Academy."
 
 zacHeisey:
     name: "Zac Heisey"
     url: "https://www.zac-heisey.com"
-    photo: "/img/testimonials/zac-heisey.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/zac-heisey.jpg"
     quote: "After going through this program, I found that using vanilla JS, you can accomplish A LOT more than the larger dev community would lead you to believe.<br><br>I really liked the open-endedness of the weekly projects. I think having fewer restraints in solving the task made me focus more on the specific topic for that week and how I would apply it to the given project. Combining this with the Thursday office hour and then having your approach shared on Friday made for a well-rounded overview of the material.<br><br>Thanks for an awesome course, Chris! This truly was the best JS learning experience I’ve had&mdash;things really clicked for me during the academy and I feel much more comfortable using JavaScript and approaching problems with JS-specific solutions at the ready!"
 
 stewartDavis:
     name: "Stewart Davis"
-    photo: "/img/testimonials/stewart-davis.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/stewart-davis.jpg"
     quote: "In terms of knowledge gained per effort expended, this course is hands down the best I've ever tried. More than just the content, it is the growing confidence that maybe even I can actually do this. I feel like I am beginning to know what I don't know. That is huge. Well done."
 
 stewartDavis2:
     name: "Stewart Davis"
-    photo: "/img/testimonials/stewart-davis.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/stewart-davis.jpg"
     quote: "My biggest concerns before joining Academy were cost and my experience with other online classes. Most other classes are follow-the-tutorial type and you build a project but don't really understand what you built. Had I understood that your course emphasizes fundamental knowledge of why things work, I probably would have joined a year earlier."
 
 kevinBeck:
     name: "Kevin Beck"
     url: "https://multiplestates.co.uk"
-    photo: "/img/testimonials/kevin-beck.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/kevin-beck.jpg"
     quote: "I was not sure the level of the course. I was not looking for a 101 of JS, which the course was not. It was exactly what I was after.<br><br>I really benefited from and liked both the office hours (including code reviews) and the interaction with Chris and students on Slack (a big thing many other course do not have). It was also nice to see how other students approached the same problem. With having other students and you over a set period really helped encourage me to complete projects.<br><br>I never felt any imposter syndrome. We could ask any question and Chris was happy to help."
 
 kumarSucom:
     name: "Kumar Sucom"
     url: null
-    photo: "/img/testimonials/kumar-sucom.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/kumar-sucom.jpg"
     quote: "I was desperately looking for a person or guided tutorial to help me understand the foundation of pure (vanilla) JavaScript. Though I have good work experience in various programming languages including JavaScript, I felt I was missing something.<br><br>I found and bought Chris's books and have gone through most of them. But I was still looking forward to to talking to someone, so I joined the Academy :-) and I'm happy that I did."
 
 craigHaggart:
     name: "Craig Haggart"
     url: "https://www.linkedin.com/in/craig-haggart-a292821a/"
-    photo: "/img/testimonials/craig-haggart.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/craig-haggart.jpg"
     quote: "Honestly, the projects so far plus seeing your examples have helped me learn so much faster."
 
 richHolman:
     name: "Rich Holman"
     url: "https://dogwonder.co.uk/"
-    photo: "/img/testimonials/rich-holman.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/rich-holman.jpg"
     quote: "Initially it was very challenging. I found I often hit walls with things like finding the best method for iterating over an array, or finding the right way to target DOM elements, most if it was practice though. As the course went on, a picture started to emerge and things started to make more sense.<br><br>At the end Javascript didn't feel like a strange far away land, but maybe a town I've visited a few times and am starting to recognise landmarks.<br><br>It's a very accessible course. You importantly are not made to feel that anything should be better understood or you've committed some sort of JavaScript sin. Lots of encouragement and a genuinely approachable, knowledgable and nice person to learn from."
 
 giammaCarioca:
     name: "Giamma Carioca"
     url: "https://twitter.com/GiammaCarioca"
-    photo: "/img/testimonials/giamma-carioca.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/giamma-carioca.jpg"
     quote: I’m loving the Academy and I don’t want it to end! <span class="text-normal">😢</span> For me this is priceless. I don’t work in tech yet and to be able to do those mini projects and discuss the code and best practices with you guys is a great learning experience. The pace of the course is nice too because it keeps me busy and that helps me feel more comfortable with the syntax and methods. <span class="text-normal">💯</span>
 
 kieranBarker2:
     name: "Kieran Barker"
     url: "https://kbarker.dev/"
-    photo: "/img/testimonials/kieran-barker.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/kieran-barker.jpg"
     quote: "I am thoroughly looking forward to every morning because of the Academy!"
 
 mariaBlair:
     name: "Maria Blair"
     url: "https://www.linkedin.com/in/mariaklachkoblair/"
-    photo: "/img/testimonials/maria-blair.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/maria-blair.jpg"
     quote: "I'm not a beginner in JavaScript but I'm really loving the Academy because I still learn new things and best practices. I think knowing best practices distinguishes a mid-level dev from a senior web dev."
 
 mariaBlair2:
     name: "Maria Blair"
     url: "https://www.linkedin.com/in/mariaklachkoblair/"
-    photo: "/img/testimonials/maria-blair.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/maria-blair.jpg"
     quote: "This program is super hands-on. I always wanted to learn how to make my own libraries, or to know how jQuery library works. Async, Promises and Fetch was another huge one for me, that I used in my projects right away.<br><br>It gave me a lot of confidence as a developer, I wish I had a training like this when I started. It got me much closer to my goal of becoming a senior front-end dev.<br><br>The material covered in the Academy translates right away into my day-to-day tasks at work, which is amazing. I loved that we could share our solutions in a very supportive group, and that you were there in that group all the time. That's rare with other teachers. Having the official solution the next day was fantastic.<br><br>It's an amazing product for all the reasons listed above. I recommend it to everyone."
 
 leticiaOneill:
     name: "Leticia O'Neill"
     url: "https://twitter.com/leti_oneill"
-    photo: "/img/testimonials/leticia-oneill.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/leticia-oneill.jpg"
     quote: "This is the first learning platform where I’m not overwhelmed or feeling unchallenged. The pacing is great and very helpful for my overachieving tendencies. 😊<br><br>And as a result I have seen I’m learning ALOT more, while still having pockets of time to embellish when I can."
 
 leticiaOneill2:
     name: "Leticia O'Neill"
     url: "https://twitter.com/leti_oneill"
-    photo: "/img/testimonials/leticia-oneill.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/leticia-oneill.jpg"
     quote: "I was confident that I'd get something valuable from the Academy. The only only hesitation I felt was from knowing how many false starts I had with JS in the past and questioning my own commitment.<br><br>With Academy, something finally clicked in regards to both my ability to understand and write JavaScript.<br><br>I now feel pretty confident in reading other's scripts and figuring out what's going on. That's in large part due to your clear bite-sized lessons and the active discussions in Slack that quickly surfaced questions and issues that I was also experiencing. Seeing how the same problem was solved by so many others was also helpful in letting go of the pressure to get things right and shift my focus on getting things to work and adjusting later as needed.<br><br>I really liked how the lessons were broken up into quickly consumable chunks. I loved having a clean, unopinionated project file to start from that I could wreak design havoc on. :)<br><br>The Slack community was priceless.<br><br>I've taken other online classes that include a slack community and never found them to be quite as welcoming and my involvement felt much more transactional. In this community, I enjoyed seeing everyone's dedication and investment in each other. It was welcoming, inclusive, helpful, and encouraging. That made a huge difference."
+
+vicenteSarmento:
+    name: "Vicente Sarmento"
+    url: "https://twitter.com/vicentesarmento/status/1329774685274468354"
+    photo: "https://cdn.gomakethings.com/testimonials/vicente-saramento.jpg"
+    quote: "A couple of weeks ago, Javascript was a great mess for me. I could read a little bit of it. After I started Vanilla JS Academy, I started to read it and understand, to the point of changing some simpler production code. Thank you very much, Chris."
 
 walterJenkins:
     name: "Walter Jenkins"
     url: "https://twitter.com/AvidDabbler/status/1200499438759895046"
-    photo: "/img/testimonials/walter-jenkins.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/walter-jenkins.jpg"
     quote: "Best investment and course I have taken. If you want a bite sized course that will hold you accountable take this course. I have reduced the amount I Google and use Stackexchange by 50% and actually feel like I understand what I am coding."
 
 toddLibby:
     name: "Todd Libby"
     url: "https://toddl.dev/"
-    photo: "/img/testimonials/todd-libby.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/todd-libby.jpg"
     quote: "I had a great time learning through your Academy. The community is great and it is phenomenal the way you run it. I appreciate the kindness and welcoming feeling I get in a community and the Vanilla JS Academy community is just that.<br><br>I had a blast and enjoyed every minute of it, whether it was the Slack channel, office hours, or just going through and learning. Thank you, it was money well spent."
 
 ronAmick:
     name: "Ron Amick"
     url: "https://luckycatcreative.com/"
-    photo: "/img/testimonials/ron-amick.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/ron-amick.jpg"
     quote: "Your course provided the impetus to knuckle down and challenge myself. You got me writing code (not merely reading about it or watching videos).<br><br>Having a caring, well-spoken guide such as yourself made it fun to work through the projects. Having that in a group all tackling the same projects added that dynamic aspect that also got me moving.<br><br>Some specific things I liked: The fabulously well-crafted projects/challenges. The clarity of your teaching (videos, in-code comments, etc.). The supportive Slack channels. The feeling that no question is a dumb question -- and the thrill of having a dialogue going permitting sharing tidbits with others.<br><br>No Lynda.com tutorial or other tutorial provides that environment."
 
 izziKoning:
     name: "Izzi Koning"
     url: "https://izzi.ink/"
-    photo: "/img/testimonials/izzi-koning.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/izzi-koning.jpg"
     quote: "I can honestly say I am not sure how I ever thought I could learn JS WITHOUT the Vanilla JS Academy. And trust me I have tried other courses."
 
 lauraKalbag:
     name: "Laura Kalbag"
     url: "https://twitter.com/LauraKalbag/status/1293946967702282240"
-    photo: "/img/testimonials/laura-kalbag.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/laura-kalbag.jpg"
     quote: "Making myself a little web tool and using a whole range of stuff that Chris Ferdinandi’s Vanilla JS Academy taught me.<br><br>I struggled with JavaScript for a decade so I really would recommend it for anyone who needs a big friendly confidence-booster."
 
 # Learn Vanilla JS
 markBaldwinSmith:
     name: "Mark Baldwin-Smith"
     url: "https://twitter.com/mbaldwinsmith/status/1085844991069454339"
-    photo: "/img/testimonials/mark-baldwin-smith.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/mark-baldwin-smith.jpg"
     quote: "Thanks for putting this together Chris, the learning roadmap has already picked out some important gaps in my knowledge!"
 
 zacHeisey2:
     name: "Zac Heisey"
     url: "https://twitter.com/zac_heisey/status/1085877810059718656"
-    photo: "/img/testimonials/zac-heisey.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/zac-heisey.jpg"
     quote: "😍👏"
 
 jonathanStark2:
     name: "Jonathan Stark"
     url: "https://twitter.com/jonathanstark/status/1085967220730224640"
-    photo: "/img/testimonials/jonathan-stark.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/jonathan-stark.jpg"
     quote: "Very cool! Vanilla JS guru Chris Ferdinandi put together a free self-paced JS educational program with a boatload of super clear resources. Bravo!"
 
 joePrevite:
     name: "Joe Previte"
     url: "https://twitter.com/jsjoeio/status/1086100188962287616"
-    photo: "/img/testimonials/joe-previte.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/joe-previte.jpg"
     quote: "Wow! This is the roadmap I WISH I had when I was first learning JavaScript. Thank you for putting this together! 🙌🏼"
 
 # Toolkit
 andreasWik:
     name: "Andreas Wik"
     url: "https://twitter.com/AndreasWik/status/1072820847151382529"
-    photo: "/img/testimonials/andreas-wik.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/andreas-wik.jpg"
     quote: "Ooh this is handy: tons of common vanilla JS code snippets I Google regularly, all in one place"
 
 edRivas:
     name: "Ed Rivas"
     url: "https://twitter.com/je92rivas/status/1003769205844594691"
-    photo: "/img/testimonials/ed-rivas.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/ed-rivas.jpg"
     quote: "Can you actually create a website without JS frameworks? Yes! Here's a collection of resources to get started."
 
 charlieOwen:
     name: "Charlie Owen"
     url: "https://twitter.com/sonniesedge/status/993426724200304640"
-    photo: "/img/testimonials/charlie-owen.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/charlie-owen.jpg"
     quote: "Wonderful collection of vanilla JS snippets, functions, helpers from Chris Ferdinandi. ❤️"
 
 # Newsletter
 danielDeverell:
     name: "Daniel Deverell"
     url: "https://twitter.com/danieldeverell"
-    photo: "/img/testimonials/daniel-deverell.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/daniel-deverell.jpg"
     quote: "Your daily emails have proven invaluable to me - its almost like you're reading my JS todo list."
 
 steveBogucki:
     name: "Steve Bogucki"
     url: "https://twitter.com/devbogoodski/status/1125420519522570240"
-    photo: "/img/testimonials/steve-bogucki.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/steve-bogucki.jpg"
     quote: "This educational JavaScript newsletter is the best daily learning resource that I get in my inbox each morning."
 
 leviMcGranahan:
     name: "Levi McGranahan"
     url: "https://twitter.com/levimcg/status/1072474120091287553"
-    photo: "/img/testimonials/levi-mcgranahan.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/levi-mcgranahan.jpg"
     quote: "I’m a big fan of Chris Ferdinandi's daily newsletter. It’s a great resource for those wanting to learn vanilla JS."
 
 chrisCoyier:
     name: "Chris Coyier"
     url: "https://twitter.com/chriscoyier/status/1072514714004045824"
-    photo: "/img/testimonials/chris-coyier.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/chris-coyier.jpg"
     quote: "[One of the] absolute webdev blogging MVP's of 2018"
 
 jeffWainwright:
     name: "Jeff Wainwright"
     url: "https://twitter.com/yowainwright/status/1082671814726148097"
-    photo: "/img/testimonials/jeff-wainwright.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/jeff-wainwright.jpg"
     quote: "Your daily emails are SO great! I’ve been using them to make daily Codepens to sharpen/keep my skills. Thank you!"
 
 daveDesandro:
     name: "Dave DeSandro"
     url: "https://twitter.com/desandro/status/1098351362948108288"
-    photo: "/img/testimonials/dave-desandro.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/dave-desandro.jpg"
     quote: "Mr. Chris Ferdinandi's Daily Developer Tips is so good. Bite-sized, vanilla JS, plain-spoken. I learn a lot from em."
 
 wesBos:
     name: "Wes Bos"
     url: "https://twitter.com/wesbos/status/1098606432633659392"
-    photo: "/img/testimonials/wes-bos.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/wes-bos.jpg"
     quote: "Shout out to Chris Ferdinandi's blog that keeps coming up whenever I google anything vanilla JS. Nice little tips every day."
 
 terryMafura:
     name: "Terry Mafura"
     url: "https://twitter.com/maffsojah/status/1172966068861710337"
-    photo: "/img/testimonials/terry-mafura.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/terry-mafura.jpg"
     quote: "I highly recommend this Newsletter. Chris has been very helpful in my learning journey and these tips are 🔥🔥. You’ll appreciate and understand JavaScript more and more."
 
 calebStauffer:
     name: "Caleb Stauffer"
     url: "http://develop.calebstauffer.com/"
-    photo: "/img/testimonials/caleb-stauffer.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/caleb-stauffer.jpg"
     quote: "This has easily been the most valuable newsletter I have ever subscribed to. Thank you very much for sharing and educating!"
 
 # The Lean Web
@@ -359,41 +365,41 @@ calebStauffer:
 stevenSlack:
     name: "Steven Slack"
     url: "https://twitter.com/slacktronic/status/1149679224564772864"
-    photo: "/img/testimonials/steven-slack.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/steven-slack.jpg"
     quote: "Chris Ferdinandi just mic-dropped the opening to the #JSforWPConf Great session!"
 
 bobHerring:
     name: "Bob Herring"
     url: "https://twitter.com/okicajun/status/1149678667661901824"
-    photo: "/img/testimonials/bob-herring.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/bob-herring.jpg"
     quote: "Very good talk about Lean Web! Thank you!!"
 
 barryConlon:
     name: "Barry Conlon"
     url: "https://twitter.com/baz_wtf/status/1149677084412768257"
-    photo: "/img/testimonials/barry-conlon.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/barry-conlon.jpg"
     quote: "Excellent talk from #JSforWPconf. Super important points and really happy to see focus and importance shown to #a11y issues. Thanks for the talk Chris."
 
 markHowellsMead:
     name: "Mark Howells-Mead"
     url: "https://twitter.com/HowellsMead/status/1149676675111645191"
-    photo: "/img/testimonials/mark-howells-mead.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/mark-howells-mead.jpg"
     quote: "I've been working in the web for over twenty years and this talk is one of the best I've ever heard. Superbly well-balanced and (for those who were listening properly 😉) a great call to pay attention to all the technical options, not just the newer ones."
 
 treyPiepmeier:
     name: "Trey Piepmeier"
     url: "https://twitter.com/trey/status/1149671443199746049"
-    photo: "/img/testimonials/trey-piepmeier.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/trey-piepmeier.jpg"
     quote: "I may or may not be yelling “Amen!” at the screen."
 
 chrisCoyier2:
     name: "Chris Coyier"
     url: "https://css-tricks.com/newsletter/168/"
-    photo: "/img/testimonials/chris-coyier.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/chris-coyier.jpg"
     quote: "The Lean Web is infinitely quote-worthy."
 
 davidWalsh:
     name: "David Walsh"
     url: "https://scriptandstyle.simplecast.com/episodes/vanilla-javascript-with-chris-ferdinandi"
-    photo: "/img/testimonials/david-walsh.jpg"
+    photo: "https://cdn.gomakethings.com/testimonials/david-walsh.jpg"
     quote: "We need more people like Chris, who not only have this mindset that we need to stick to the basics of JavaScript, but are willing to evangelize it."
