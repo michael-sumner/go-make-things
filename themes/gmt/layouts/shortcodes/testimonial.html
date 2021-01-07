@@ -14,7 +14,7 @@
 {{- else -}}
 <div class="row">
 	<figure class="grid-third">
-		<img class="img-center margin-bottom-small img-circle" height="150" width="150" src="https://gomakethings.com{{ index $testimonial "photo" }}">
+		<img class="img-center margin-bottom-small img-circle" height="150" width="150" src="{{ index $testimonial "photo" }}">
 	</figure>
 	<blockquote class="grid-two-thirds">
 		{{ index $testimonial "quote" | safeHTML }}

@@ -6,7 +6,7 @@
 
 <div class="row padding-top">
 	<figure class="grid-third">
-		<img class="img-center margin-bottom-small img-circle" height="150" width="150" src="https://gomakethings.com{{ index . "photo" }}">
+		<img class="img-center margin-bottom-small img-circle" height="150" width="150" src="{{ index . "photo" }}">
 	</figure>
 	<blockquote class="grid-two-thirds">
 		{{ index . "quote" | markdownify | safeHTML }}
