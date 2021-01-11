@@ -1,6 +1,6 @@
 import '../../../../../gmt-theme/dist/js/_matches.polyfill.js';
 import '../../../../../gmt-theme/dist/js/add-to-cart.js';
-import fluidvids from '../../../../../gmt-theme/dist/js/fluidvids.js';
+import fluidvids from '../../../../../gmt-theme/dist/js/fluid-vids.js';
 import addHeadingLinks from '../../../../../gmt-theme/dist/js/heading-links.js';
 // import easterEgg from './main-components/konami.js';
 import mailchimp from '../../../../../gmt-theme/dist/js/mailchimp.js';
@@ -11,10 +11,7 @@ import mailchimp from '../../../../../gmt-theme/dist/js/mailchimp.js';
  */
 
 // Responsive iframe videos
-fluidvids.init({
-	selector: ['iframe', 'object'],
-	players: ['www.youtube.com', 'player.vimeo.com', 'www.slideshare.net', 'www.hulu.com', 'videopress.com/embed/', 'noti.st']
-});
+fluidvids();
 
 // Mailchimp form
 if (document.querySelector('#mailchimp-form')) {

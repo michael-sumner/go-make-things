@@ -1,4 +1,4 @@
-/*! gmt v2.0.0 | (c) 2020 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/go-make-things | Credits: https://github.com/toddmotto/fluidvids */
+/*! gmt v2.0.0 | (c) 2021 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/go-make-things | Credits: https://github.com/toddmotto/fluidvids */
 (function () {
 	'use strict';
 
@@ -27,61 +27,23 @@
 		document.addEventListener('click', buyNowHandler, false);
 	}
 
-	var fluidvids = {
-	  selector: ['iframe'],
-	  players: ['www.youtube.com', 'player.vimeo.com']
-	};
+	/**
+	 * Make iframes responsive
+	 */
+	var fluidvids = function () {
 
-	var css = [
-	  '.fluidvids {',
-	    'width: 100%; max-width: 100%; position: relative;',
-	  '}',
-	  '.fluidvids-item {',
-	    'position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;',
-	  '}'
-	].join('');
+		// iframes
+		var vids = Array.prototype.slice.call(document.querySelectorAll('iframe'));
 
-	var head = document.head || document.getElementsByTagName('head')[0];
+		// wrap each iframe in a .fluid-vids element
+		vids.forEach(function (vid) {
+			if (vid.parentNode.className === 'fluid-vids') return;
+			var wrap = document.createElement('div');
+			wrap.className = 'fluid-vids';
+			vid.parentNode.insertBefore(wrap, vid);
+			wrap.appendChild(vid);
+		});
 
-	var matches = function (src) {
-	  return new RegExp('^(https?:)?\/\/(?:' + fluidvids.players.join('|') + ').*$', 'i').test(src);
-	};
-
-	var getRatio = function (height, width) {
-	  return ((parseInt(height, 10) / parseInt(width, 10)) * 100) + '%';
-	};
-
-	var fluid = function (elem) {
-	  if (!matches(elem.src) || !!elem.getAttribute('data-fluidvids')) return;
-	  var wrap = document.createElement('div');
-	  elem.parentNode.insertBefore(wrap, elem);
-	  elem.className += (elem.className ? ' ' : '') + 'fluidvids-item';
-	  elem.setAttribute('data-fluidvids', 'loaded');
-	  wrap.className += 'fluidvids';
-	  wrap.style.paddingTop = getRatio(elem.height, elem.width);
-	  wrap.appendChild(elem);
-	};
-
-	var addStyles = function () {
-	  var div = document.createElement('div');
-	  div.innerHTML = '<p>x</p><style>' + css + '</style>';
-	  head.appendChild(div.childNodes[1]);
-	};
-
-	fluidvids.render = function () {
-	  var nodes = document.querySelectorAll(fluidvids.selector.join());
-	  var i = nodes.length;
-	  while (i--) {
-	    fluid(nodes[i]);
-	  }
-	};
-
-	fluidvids.init = function (obj) {
-	  for (var key in obj) {
-	    fluidvids[key] = obj[key];
-	  }
-	  fluidvids.render();
-	  addStyles();
 	};
 
 	/**
@@ -312,10 +274,7 @@
 	 */
 
 	// Responsive iframe videos
-	fluidvids.init({
-		selector: ['iframe', 'object'],
-		players: ['www.youtube.com', 'player.vimeo.com', 'www.slideshare.net', 'www.hulu.com', 'videopress.com/embed/', 'noti.st']
-	});
+	fluidvids();
 
 	// Mailchimp form
 	if (document.querySelector('#mailchimp-form')) {
