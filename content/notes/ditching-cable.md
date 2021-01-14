@@ -48,17 +48,9 @@ I resisted [Netflix](https://www.netflix.com/) for a *long* time.
 
 Every time I looked at their catalog, it was mostly documentaries and older runs of shows and movies. But a lot has changed in the last few years.
 
-Netflix now has a deep catalog of original programming, and it's some of the best on TV. Netflix is my first stop when I want to watch something.
+Netflix now has a deep catalog of original programming, and it's some of the best available. Netflix is my first stop when I want to watch something.
 
 HD plans start at $13 a month.
-
-### Hulu
-
-[Hulu](http://www.hulu.com) is where I watch most of my current-run TV shows from the major networks. They also have some newer movies and great original programming.
-
-They don't have everything---notably missing is CBS---as negotiating with networks is tricky, but Hulu is a regular part of my weekly TV rotation.
-
-They start at $7 a month ad supported, but the ad-free plan at $12 a month is *so* worth it.
 
 ### Disney Plus
 
@@ -70,11 +62,11 @@ Disney+ is currently $7 a month, or $70 if pay for a full year.
 
 They also off a $12 a month bundle that includes ESPN and Hulu, but Hulu is the "with ad" version, which is worse than live TV. I'd recommend just subscribing to that separately.
 
-### HBO Now
+### HBO Max
 
-Previously, you could only get HBO through a cable-provider. Today, you can get HBO as a standalone web service directly with [HBO Now](https://order.hbonow.com) for $15 a month.
+Previously, you could only get HBO through a cable-provider. Today, you can get HBO as a standalone web service directly with [HBO Max](https://hbomax.com) for $15 a month.
 
-HBO has a bunch of movies and some fantastic shows. This one is definitely a splurge, and can be a bit hit or miss.
+HBO has a bunch of movies and some fantastic shows. And with HBO Max, they've also bundled in a huge catalog of Time Warner movies and shows as well. That said, this one is definitely a splurge, and can be a bit hit or miss.
 
 Some months they have lots of great programming, while other months are a bit... slow. I now find myself subscribing for just a couple of months at a time when a series I like drops a new season, binging all of the episodes, and then unsubscribing.
 
@@ -87,6 +79,20 @@ If you're a Prime member, though, Amazon offers an absurd amount of free shows a
 But this is still my first stop for stuff not available on Netflix, Disney, or Hulu.
 
 Prime membership is $12 a month, but if you buy the year up front for $119, it's only $10 a month. It's also gets you free 2-day shipping on all your Amazon orders.
+
+### Discovery+
+
+If you love channels like the Food Network, HGTV, TLC, the History Channel, and, of course, Discovery Channel, then you'll enjoy [Discovery+](https://www.discoveryplus.com/).
+
+This new service is just $5 a month, or $7 for the ad-free plan. The channels it features were previously only available through other more expensive options, so this is a great deal for cooking and home decor fans.
+
+### Hulu
+
+[Hulu](http://www.hulu.com) used to be where I watched most of my current-run TV shows from the major networks. They occasionally have some newer movies and good original programming.
+
+Hulu used to be my favorite streaming option, but over the last year or two, I've found that I hardly use it at all.
+
+Plans start at $7 a month ad supported, but the ad-free plan at $12 a month is *so* worth it if you decide to subscribe.
 
 ### YouTube
 
