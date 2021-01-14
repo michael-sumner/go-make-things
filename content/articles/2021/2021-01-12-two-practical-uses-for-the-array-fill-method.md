@@ -93,13 +93,13 @@ By default, the `Array.fill()` method replaces every item in an array with the v
 
 But, you can specify starting and ending indexes as optional arguments. If you omit the starting index, it will start at `0`, and if you omit the ending index, it will fill to the end of the array.
 
-Looking back at our array of `wizards` for a moment, let's say we wanted to replace just `Harry Potter` with `Hermione Granger`. We can use the `Array.fill()` method for that, specifying a starting and ending index of `0`.
+Looking back at our array of `wizards` for a moment, let's say we wanted to replace just `Harry Potter` with `Hermione Granger`. We can use the `Array.fill()` method for that, specifying a starting index of `0` and an ending index of `1`.
 
 ```js
 var wizards = ['Harry Potter', 'Ron Weasley', 'Severus Snape'];
-wizards.fill('Hermione Granger', 0, 0);
+wizards.fill('Hermione Granger', 0, 1);
 
-// logs ["Harry Potter", "Ron Weasley", "Severus Snape"]
+// logs ["Hermione Granger", "Ron Weasley", "Severus Snape"]
 console.log(wizards);
 ```
 
