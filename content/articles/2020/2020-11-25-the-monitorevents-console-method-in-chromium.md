@@ -11,7 +11,7 @@ My friend Steve Griffith has started [an excellent series on dev tools and the b
 
 Last week, he released [a video on a webkit/blink-only feature](https://www.youtube.com/watch?v=DuIytlI63po) (so, MS Edge, Chrome, and Safari, but not Firefox) called `monitorEvents()`.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DuIytlI63po" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/DuIytlI63po" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ## How it works
 

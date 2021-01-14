@@ -13,6 +13,6 @@ Something that's always kind of tripped me up is whether to choose flexbox or CS
 
 In [this Layout Land video](https://www.youtube.com/watch?v=hs3piaN4b5I), Jen Simmons explains how they're different, and when you should choose one over the other.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hs3piaN4b5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/hs3piaN4b5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 This one helped me a lot!

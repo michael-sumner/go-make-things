@@ -10,7 +10,7 @@ Over the last several years, I've read and heard stories about a tribe of people
 
 <a href="http://vimeo.com/19712297">This video taken by the BBC</a> for their amazing <a href="https://gomakethings.com/human-planet/"><em>Human Planet</em></a> series if the first aerial footage of these people ever taken.
 
-<iframe class="alignc" src="https://player.vimeo.com/video/19712297" width="560" height="315" frameborder="0"></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/19712297" width="560" height="315" frameborder="0"></iframe></div>
 
 An anthropology professor in college told me that they actual fired arrows at a helicopter the first time they saw one, because they didn't know what it was. That reminds me a bit of Avatar, though I hate to admit it.
 

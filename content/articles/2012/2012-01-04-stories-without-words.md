@@ -9,7 +9,7 @@ I'm fascinated by Pixar's ability to tell beautiful stories without words. If yo
 
 One of my favorite examples is at the beginning of the movie <em>Up</em>. There's <a href="https://www.youtube.com/watch?v=9yjAFMNkCDo">a wonderful montage</a> that tells the story of Carl Fredricksen and his wife, Ellie. Not a single word is uttered, but it's beautiful, powerful and moving.
 
-<iframe class="alignc" width="480" height="360" src="https://www.youtube.com/embed/9yjAFMNkCDo" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="480" height="360" src="https://www.youtube.com/embed/9yjAFMNkCDo" frameborder="0" allowfullscreen></iframe></div>
 
 <strong>Some things I noticed...</strong>
 <ul>

@@ -16,6 +16,6 @@ The [amazing Jen Simmons](http://jensimmons.com/) has put together [a new YouTub
 
 If, like me, you still haven't fully wrapped your head around things like flexbox and CSS Grid, this is a great learning resource. And if you're just starting your web development journey, there's plenty of content for you, too.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u00FY9vADfQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/u00FY9vADfQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 I'm really looking forward to seeing how this shapes up. [Check out Layout Land on YouTube.](https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag)

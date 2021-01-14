@@ -9,4 +9,4 @@ Nothing makes me feel insignificant quite like <a href="http://vimeo.com/4587803
 
 Knate Myers compiled photos taken by the crew of International Space Station into this amazing time-lapse video. Happy Friday!
 
-<iframe class="alignc" src="https://player.vimeo.com/video/45878034" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/45878034" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>

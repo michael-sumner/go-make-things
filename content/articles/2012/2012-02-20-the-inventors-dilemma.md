@@ -11,7 +11,7 @@ Did you know that the point of the Copyright Act of 1790 and the Patent Act of 1
 
 In fact, the intent was actually to promote useful art, create a rich public domain, and help drive the spread of great ideas. It was about improving the common good.
 
-<iframe class="alignc" src="https://player.vimeo.com/video/36881035" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/36881035" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
 When an inventor creates something new, he or she needs to recover not just the cost making that good, but the research and development costs as well. Copycat products don't need to recover research costs, so they can sell their product for much cheaper. This makes its difficult for original inventors to recover their investment cost, and disincentives creators.
 

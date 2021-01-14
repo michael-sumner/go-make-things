@@ -10,4 +10,4 @@ Why do we know so much about the supply chain and so little about the removal ch
 
 <a href="https://www.youtube.com/watch?v=fvTZc5hWBNY">Here's an introduction - fascinating to watch!</a>
 
-<p align="center"><iframe title="YouTube video player" width="560" height="349" src="https://www.youtube.com/embed/fvTZc5hWBNY?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe title="YouTube video player" width="560" height="349" src="https://www.youtube.com/embed/fvTZc5hWBNY?rel=0" frameborder="0" allowfullscreen></iframe></div></p>

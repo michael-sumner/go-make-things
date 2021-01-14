@@ -11,4 +11,4 @@ Conner tows Cayden behind in a raft during the swimming leg, tows him behind his
 
 Conner and Cayden received the Sports Illustrated Kids 2012 SportsKids of the Year award. <a href="https://www.youtube.com/watch?v=ouhURNLsnjo">What an incredible story...</a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ouhURNLsnjo?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/ouhURNLsnjo?rel=0" frameborder="0" allowfullscreen></iframe></div>

@@ -14,7 +14,7 @@ There's a bit of a debate on whether or not these chemicals are making their way
 
 To raise awareness for the issue, <a href="http://journalism.nyu.edu/graduate/courses-of-study/studio-20/">Studio 20</a> and <a href="http://www.propublica.org/series/buried-secrets-gas-drillings-environmental-threat">ProPublica</a> have partnered to create this <a href="https://www.youtube.com/watch?v=timfvNgr_Q4">informative and fun hip-hop video...</a>
 
-<iframe class="alignc" width="560" height="349" src="https://www.youtube.com/embed/timfvNgr_Q4?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="560" height="349" src="https://www.youtube.com/embed/timfvNgr_Q4?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 Learn more at <a href="http://www.propublica.org/series/buried-secrets-gas-drillings-environmental-threat">ProPublica.com</a>.
 

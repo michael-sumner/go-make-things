@@ -25,7 +25,7 @@ Let's dig in.
 
 [Object-Oriented CSS (or OOCSS) is the brain-child of Nicole Sullivan.](https://www.slideshare.net/stubbornella/object-oriented-css/)
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/EUTjDAdG7npnxS" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<div class="fluid-vids"><iframe src="//www.slideshare.net/slideshow/embed_code/key/EUTjDAdG7npnxS" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe></div>
 
 When I first learned about this approach, it completely changed how I write code.
 

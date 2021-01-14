@@ -29,10 +29,10 @@ At the time, she was a Digital Media student volunteering at the event. While th
 
 Today, she's a web developer at the [Knight Lab](https://knightlab.northwestern.edu/), where she helps push journalism into the future. Divya is [active in the open source community](https://github.com/shortdiv), and last summer, gave her first conference talk [at NEJS](https://2017.nejsconf.com/speakers/divya-sasidharan/) on [Virtual DOM](https://www.youtube.com/watch?v=bP6uqQyU-ec).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bP6uqQyU-ec?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/bP6uqQyU-ec?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
 
 I [interviewed Divya](https://soundcloud.com/thecardboardrobot/divya-sasidharan) last year for a career guide I wrote. Here's what she had to say about keeping up in an ever changing industry:
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/277437269&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+<div class="fluid-vids"><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/277437269&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe></div>
 
 You can [follow Divya on Twitter at @shortdiv](https://twitter.com/shortdiv).

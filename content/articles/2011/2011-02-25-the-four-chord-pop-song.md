@@ -10,6 +10,6 @@ Australian comedy group Axis of Awesome shows you <a href="https://www.youtube.c
 
 <em><strong>Warning:</strong> There's a few f-bombs. Use headphones if you're in the office.</em>
 
-<p align="center"><iframe title="YouTube video player" width="560" height="349" src="https://www.youtube.com/embed/5pidokakU4I?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe title="YouTube video player" width="560" height="349" src="https://www.youtube.com/embed/5pidokakU4I?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 
 <em>Via my buddy Eric</em>

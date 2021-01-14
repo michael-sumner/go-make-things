@@ -16,7 +16,7 @@ On some pages, we needed to wait for multiple API requests to complete before re
 
 As I was trying to figure this out, I discovered that Steve Griffith (who's [video on composition vs. inheritance](/composition-vs.-inheritance-in-javascript/) I shared the other day) also had [a video on using `fetch` with `Promise.all()`](https://www.youtube.com/watch?v=HTA7pEDGZEU).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HTA7pEDGZEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/HTA7pEDGZEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 If you learn better from video, or want another source to complement what I'm going to share today, go check it out. It's really well done!
 

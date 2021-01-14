@@ -10,6 +10,6 @@ Back in July, I wrote about <a href="https://gomakethings.com/mind-vs-machine/">
 
 Igor Labutov, Jason Yosinski, and Hod Lipson of the <a href="http://creativemachines.cornell.edu/">Cornell Creative Machines Lab</a> decided to let two such <a href="https://www.youtube.com/watch?v=WnzlbyTZsQY">AI robots have a conversation with each other</a>. The results are comically awesome...
 
-<iframe class="alignc" width="560" height="345" src="https://www.youtube.com/embed/WnzlbyTZsQY" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="560" height="345" src="https://www.youtube.com/embed/WnzlbyTZsQY" frameborder="0" allowfullscreen></iframe></div>
 
 <em>Via <a href="https://twitter.com/TEDchris">Chris Anderson</a></em>

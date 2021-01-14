@@ -41,7 +41,7 @@ He steps into the booth and freestyles. He often stops, rewinds the track, and r
 
 If you're into hip-hop (or music in general), it's kind of a fascinating thing to watch. [Here's a short clip from his documentary](https://youtu.be/xHN8zGn28BA?t=3m8s) (the good stuff starts at the 3:08 mark---warning, it contains explicit lyrics).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xHN8zGn28BA?start=188" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/xHN8zGn28BA?start=188" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 Notice how he stops, makes some updates, and goes at it again?
 

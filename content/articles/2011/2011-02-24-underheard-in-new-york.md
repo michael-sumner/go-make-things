@@ -8,7 +8,7 @@ title: Underheard in New York
 
 A fascinating project that <a href="https://www.youtube.com/watch?v=LuGe7udS0Z0">gives a voice to New York City's homeless...</a>
 
-<p align="center"><iframe title="YouTube video player" width="560" height="349" src="https://www.youtube.com/embed/LuGe7udS0Z0?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe title="YouTube video player" width="560" height="349" src="https://www.youtube.com/embed/LuGe7udS0Z0?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 
 Learn more at <a href="http://underheardinnewyork.com/">Underheard in New York</a>.
 

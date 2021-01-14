@@ -453,7 +453,7 @@ var blurHandler = function (event) {
 
 [Here's a demo you can play with](http://jsfiddle.net/cferdinandi/x5mby01u/1/) in Safari or some other unsupported browsers.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/cferdinandi/x5mby01u/2/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<div class="fluid-vids"><iframe width="100%" height="300" src="//jsfiddle.net/cferdinandi/x5mby01u/2/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe></div>
 
 ## Browser Compatibility
 

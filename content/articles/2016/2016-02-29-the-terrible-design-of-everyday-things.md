@@ -12,4 +12,4 @@ When I worked at Constant Contact, the main set of doors into the office off of 
 
 I'm not kidding. I got it wrong every single day. I loved worked there, but I f*cking hated that door.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yY96hTb8WgI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/yY96hTb8WgI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>

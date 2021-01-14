@@ -67,7 +67,7 @@ Then I discovered [Mike Monteiro](https://twitter.com/monteiro).
 
 First, his talk, *[F*ck You, Pay Me](https://www.youtube.com/watch?v=jVkLVRt6c1U)*, which influenced how I set up my freelance business. Then, his book, *[Design is a Job](http://www.abookapart.com/products/design-is-a-job)*, which is required reading for anyone in a creative field who interacts with clients. Then I saw him talk at [An Event Apart Boston](http://aneventapart.com/event/boston-2013) about how the things our clients don't know about design are our fault, not theirs.
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/jVkLVRt6c1U?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="//www.youtube.com/embed/jVkLVRt6c1U?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 Mike has done more to influence my thinking around the business of web work than anyone. He also helped me have the confidence to stand up for what I think is right instead of just doing what the client wants.
 

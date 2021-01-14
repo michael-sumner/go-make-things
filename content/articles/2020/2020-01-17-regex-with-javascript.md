@@ -25,8 +25,8 @@ Today, I wanted to share [two videos from Steve Griffith that dig into writing r
 
 [First, an intro to regex.](https://www.youtube.com/watch?v=zPeEU9dP83M)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zPeEU9dP83M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/zPeEU9dP83M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 [Then, a look at practical uses of regex in JavaScript.](https://www.youtube.com/watch?v=kUMA1d1Sqto)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kUMA1d1Sqto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/kUMA1d1Sqto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

@@ -12,7 +12,7 @@ She also offers a few simple ideas on how we can end hunger now.
 
 (<em>My thoughts after the video...</em>)
 
-<iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/CdxVbUja_pY" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/CdxVbUja_pY" frameborder="0" allowfullscreen></iframe></div>
 <!--more-->
 <h2>Ending hunger now</h2>
 

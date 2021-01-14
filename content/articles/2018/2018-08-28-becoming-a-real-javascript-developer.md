@@ -9,7 +9,7 @@ categories:
 
 When I was a kid, my brother and I used to watch this absolutely zany science program called [Beakman’s World](https://en.wikipedia.org/wiki/Beakman%27s_World). [Here’s a clip](https://www.youtube.com/watch?v=aBmuQzlLr-g), if you’re not familiar with it.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aBmuQzlLr-g?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/aBmuQzlLr-g?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 It was super engaging, and I learned a lot from watching it. But the biggest thing that stuck with me was something Beakman used to often say to the audience (I’m paraphrasing here):
 

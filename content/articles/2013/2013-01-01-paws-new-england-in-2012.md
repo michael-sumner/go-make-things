@@ -9,4 +9,4 @@ I'm the web guy for <a href="http://www.pawsnewengland.com/">PAWS New England</a
 
 Here are a few of <a href="https://vimeo.com/56563143">the many dogs they saved in 2012...</a>
 
-<iframe src="https://player.vimeo.com/video/56563143?color=ffffff" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/56563143?color=ffffff" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>

@@ -81,7 +81,7 @@ Listen to interviews with experienced web developers and HR insiders on how to g
 	<div class="grid-half margin-bottom"><img height="150" width="150" class="img-circle" src="/img/career-guide/divya-sasidharan.jpg"><br><strong>Divya Sasidharan</strong><br>Web Developer<br><em>Knight Lab</em></div>
 </div>
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/276956206&amp;color=f7272f&amp;auto_play=false&amp;hide_related=true&amp;show_comments=true&amp;show_user=false&amp;show_reposts=false"></iframe>
+<div class="fluid-vids"><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/276956206&amp;color=f7272f&amp;auto_play=false&amp;hide_related=true&amp;show_comments=true&amp;show_user=false&amp;show_reposts=false"></iframe></div>
 
 
 ## Table of Contents

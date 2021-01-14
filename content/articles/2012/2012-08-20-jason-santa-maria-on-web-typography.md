@@ -9,7 +9,7 @@ title: Jason Santa Maria on Web Typography
 
 It's a bit long at 42 minutes, but worth watching. My thoughts after the video.
 <!--more-->
-<iframe class="alignc" src="https://player.vimeo.com/video/34178417" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/34178417" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
 <h2>My Takeaways</h2>
 

@@ -63,4 +63,4 @@ If you need to support IE9, you probably *should* use the `DOMContentLoaded` eve
 
 And the amazing [Steve Griffith put together a super helpful video on the subject](https://www.youtube.com/watch?v=OKi3MX5N2mU), too.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OKi3MX5N2mU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/OKi3MX5N2mU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

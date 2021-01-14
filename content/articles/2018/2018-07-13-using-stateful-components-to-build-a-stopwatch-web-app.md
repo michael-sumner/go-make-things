@@ -240,7 +240,7 @@ At this point, we have a working stopwatch. Cool!
 
 [Here's a demo.](http://jsfiddle.net/cferdinandi/nb40j6rf/)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/cferdinandi/nb40j6rf/1/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<div class="fluid-vids"><iframe width="100%" height="300" src="//jsfiddle.net/cferdinandi/nb40j6rf/1/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe></div>
 
 But... it only shows time in seconds. After 60 seconds, you ideally want the time to show up as minutes and seconds. And after 60 minutes, you ideally want to show hours, too.
 
@@ -352,4 +352,4 @@ var formatTime = function (time) {
 
 And [here's a demo of our finished app](http://jsfiddle.net/cferdinandi/nb40j6rf/6/).
 
-<iframe width="100%" height="300" src="//jsfiddle.net/cferdinandi/nb40j6rf/6/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<div class="fluid-vids"><iframe width="100%" height="300" src="//jsfiddle.net/cferdinandi/nb40j6rf/6/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe></div>

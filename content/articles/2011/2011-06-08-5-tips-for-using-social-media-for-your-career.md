@@ -34,7 +34,7 @@ Some of them are because people know me from my work, but more often, it's becau
 
 That's a Steve Jobs quote from his <a href="https://www.youtube.com/watch?v=UF8uR6Z6KLc">Stanford Commencement speech in 2005</a>. I love that quote, because it's been so true for me. I didn't start blogging to brand myself or anything.
 
-<p align="center"><iframe width="425" height="349" src="https://www.youtube.com/embed/UF8uR6Z6KLc?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe width="425" height="349" src="https://www.youtube.com/embed/UF8uR6Z6KLc?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 
 I started blogging because I had ideas I wanted to share, and it was an easy and affordable way to share them. The things I've done for the love of it don't always pay off financially, but sometimes they do. And you never know which ones will and won't until after the fact.
 

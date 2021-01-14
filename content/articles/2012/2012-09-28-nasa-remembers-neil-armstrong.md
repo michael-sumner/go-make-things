@@ -8,7 +8,7 @@ title: NASA Remembers Neil Armstrong
 
 NASA released this beautiful <a href="https://www.youtube.com/watch?v=1pQKZc2AXW0">tribute to Neil Armstrong</a>.
 
-<iframe class="aligncenter" width="560" height="315" src="https://www.youtube.com/embed/1pQKZc2AXW0?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="aligncenter" width="560" height="315" src="https://www.youtube.com/embed/1pQKZc2AXW0?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 Two things stand out for me:
 <ol>

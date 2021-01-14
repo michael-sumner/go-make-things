@@ -15,7 +15,7 @@ This year, one of the first new social media apps to come out of SXSW was <a hre
 
 So this is cool in concept, but I'm not sure this will be very successful. Why not, you ask?
 
-<p align="center"><iframe title="YouTube video player" width="560" height="349" src="https://www.youtube.com/embed/9zrMlEEWBgY?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe title="YouTube video player" width="560" height="349" src="https://www.youtube.com/embed/9zrMlEEWBgY?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 <!--more-->
 My first instinct isn't actually that if people can get it for free, why would they pay. I think there's a lot of evidence that <a href="http://danariely.com/">humans are irrational</a>, and also that we support things we like.
 

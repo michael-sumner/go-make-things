@@ -10,6 +10,6 @@ title: Mind Your Step
 
 <a href="https://www.youtube.com/watch?v=6pDfC1om4BQ">Check out this short video of the project...</a>
 
-<p align="center"><iframe width="560" height="349" src="https://www.youtube.com/embed/6pDfC1om4BQ?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe width="560" height="349" src="https://www.youtube.com/embed/6pDfC1om4BQ?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 
 <em>Via <a href="http://curiositycounts.com/post/6353257752/mind-your-step-giant-optical-illusion-in">Curiosity Counts</a></em>

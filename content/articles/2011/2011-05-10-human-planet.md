@@ -14,4 +14,4 @@ I watched a few episodes last week. It's like Disney's stunning movie <em><a hre
 
 <a href="https://www.youtube.com/watch?v=2HiUMlOz4UQ">Here's the trailer...</a>
 
-<p align="center"><iframe width="560" height="349" src="https://www.youtube.com/embed/2HiUMlOz4UQ?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe width="560" height="349" src="https://www.youtube.com/embed/2HiUMlOz4UQ?rel=0" frameborder="0" allowfullscreen></iframe></div></p>

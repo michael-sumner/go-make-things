@@ -8,7 +8,7 @@ title: CNN Hero Narayanan Krishnan
 
 Wow. <a href="https://www.youtube.com/watch?v=y_3BEwpv0dM">This video is simply amazing...</a>
 
-<p align="center"><iframe title="YouTube video player" class="youtube-player" type="text/html" width="600" height="367" src="https://www.youtube.com/embed/y_3BEwpv0dM?rel=0" frameborder="0" allowFullScreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe title="YouTube video player" class="youtube-player" type="text/html" width="600" height="367" src="https://www.youtube.com/embed/y_3BEwpv0dM?rel=0" frameborder="0" allowFullScreen></iframe></div></p>
 
 <h2>A Few Quotes</h2>
 

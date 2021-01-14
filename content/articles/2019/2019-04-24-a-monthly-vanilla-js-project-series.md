@@ -26,7 +26,7 @@ You'll also get exclusive access to a private Slack channel where you can collab
 
 This month, one of the projects is a DOM manipulation micro-library (like a personal mini-jQuery). [Here's the video for it.](https://vanillajsprojects.com/#how-it-works)
 
-<iframe src="https://player.vimeo.com/video/332112906?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/332112906?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 ## Made for people on a budget
 

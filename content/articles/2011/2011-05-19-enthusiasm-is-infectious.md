@@ -24,6 +24,6 @@ I tell people to smile during interviews because they'll come across as more ent
 
 So when I saw this brilliant video, <a href="https://www.youtube.com/watch?v=vosCMUGvd8Y">Life is a Marathon</a>, it brought a smile to face. Enthusiasm is infectious. Go spread some today!
 
-<p align="center"><iframe width="560" height="349" src="https://www.youtube.com/embed/vosCMUGvd8Y?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe width="560" height="349" src="https://www.youtube.com/embed/vosCMUGvd8Y?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 
 <em>Image by <a href="http://www.flickr.com/photos/56008391@N00/125897239/">Owen Booth</a>. Hat tip to <a href="http://curiositycounts.com/post/5221691928/life-is-a-marathon-brilliant-and-heart-warming">Curiosity Counts</a></em>

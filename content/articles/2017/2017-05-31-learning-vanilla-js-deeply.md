@@ -14,4 +14,4 @@ As a nice follow-up to [yesterday's article](/how-to-really-learn-javascript/), 
 
 [He just posted our chat on his site.](https://javascriptforwp.com/show/ep-5-learning-vanilla-javascript-chris-ferdinandi/) Head over there to watch or listen.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WLrcnQIRqQ0?rel=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/WLrcnQIRqQ0?rel=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe></div>

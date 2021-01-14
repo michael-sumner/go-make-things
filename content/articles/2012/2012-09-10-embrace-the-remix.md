@@ -9,7 +9,7 @@ Kirby Ferguson's <a href="http://www.everythingisaremix.info/watch-the-series/">
 
 But if you're looking for a short intro to Kirby's concepts, his <a href="http://www.ted.com/talks/kirby_ferguson_embrace_the_remix.html">recent TED Talk</a> is a great place to start.
 
-<iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/zd-dqUuvLk4?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/zd-dqUuvLk4?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 <h2>The Beauty of Open</h2>
 

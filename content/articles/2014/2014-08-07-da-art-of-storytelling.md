@@ -12,4 +12,4 @@ I wish more hip-hop artists had the [lyrical substance and depth of Andre 3000](
 >
 >I'm like, "Why?" The world needs sun. The hood needs funds. There's a war going on and half the battle is guns. How dare I throw it on the floor when people are poor, so I write like Edgar Allen to restore. Got a cord, umbilical, attached to a place that can't afford no landscaping, or window draping.
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/u85vxOfn0DE" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="420" height="315" src="//www.youtube.com/embed/u85vxOfn0DE" frameborder="0" allowfullscreen></iframe></div>

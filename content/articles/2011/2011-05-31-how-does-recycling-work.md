@@ -11,6 +11,6 @@ I've always kind of wondered. Fortunately, the fine folks at <a href="http://rec
 
 Did you know that aluminum isn't attracted to magnets? They need to use something that's kind of like a reverse-magnet to push aluminum cans into a sorting bin.
 
-<p align="center"><iframe width="560" height="349" src="https://www.youtube.com/embed/7CFE5tD1CCI?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe width="560" height="349" src="https://www.youtube.com/embed/7CFE5tD1CCI?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 
 <em>Hat tip to <a href="http://curiositycounts.com/post/5452095271/how-does-a-material-recovery-facility-mrf">Curiosity Counts</a>.</em>

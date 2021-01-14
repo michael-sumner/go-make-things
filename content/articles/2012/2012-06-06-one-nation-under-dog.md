@@ -9,7 +9,7 @@ title: One Nation, Under Dog
 
 Dogs are man's best friend. They're often regarded as members of the family. And every year, 4 to 5 million of them are put down because of factors like overcrowding in shelters.
 
-<iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/yO-VymM6Uw4?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/yO-VymM6Uw4?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 <a href="http://www.pawsnewengland.com/hbo/">PAWS New England</a>, where I adopted my last dog, is a client of mine and is one of a handful of organizations featured in <em>One Nation Under Dog</em>.
 

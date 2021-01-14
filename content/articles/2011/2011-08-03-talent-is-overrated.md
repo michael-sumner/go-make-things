@@ -8,7 +8,7 @@ title: Talent is Overrated
 
 Back in April, illustrator <a href="http://vimeo.com/22752100">Christoph Niemann gave a brilliant talk</a> for the <a href="http://www.creativemornings.com/">CreativeMornings</a> series on talent, effort, and finding time to make awesome things.
 
-<iframe class="alignc" src="https://player.vimeo.com/video/22752100" width="560" height="315" frameborder="0"></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/22752100" width="560" height="315" frameborder="0"></iframe></div>
 
 My favorite takeaway (I'm paraphrasing here)...
 

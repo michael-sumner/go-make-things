@@ -12,7 +12,7 @@ categories:
 
 Last week, [I watched *Won't you be my neighbor?*, the Mr. Roger's documentary](https://www.youtube.com/watch?v=FhwktRDG_aQ).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FhwktRDG_aQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/FhwktRDG_aQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 I grew up on Mr. Rogers, and it was, for me, a refresher on all of the wonderful lessons and messages he taught me growing up. At the heart of it all, though, is this:
 

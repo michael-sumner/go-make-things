@@ -32,7 +32,7 @@ In response to all of this feedback, I created the [Vanilla JS Academy](https://
 
 Last summer, I made some changes to *Academy* based on some observations I've made about how people learn. The feedback has been extremely enthusiastic.
 
-<iframe src="https://player.vimeo.com/video/358304328?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/358304328?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 Here's how it works.
 

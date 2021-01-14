@@ -9,4 +9,4 @@ title: Baby monkey going backwards on a pig
 
 (Also, how catchy is that song?)
 
-<iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/5_sfnQDr1-o" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/5_sfnQDr1-o" frameborder="0" allowfullscreen></iframe></div>

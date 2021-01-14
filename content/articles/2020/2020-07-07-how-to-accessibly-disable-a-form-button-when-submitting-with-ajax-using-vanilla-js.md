@@ -51,7 +51,7 @@ Here's a video of that experience using VoiceOver on macOS.
 
 If you're *not* visually impaired, close your eyes and try to figure out what's going on from the audio announcements alone.
 
-<iframe src="https://player.vimeo.com/video/436104688?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/436104688?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 Could you tell when the form was submitted? Could you tell when it was done? Me neither!
 
@@ -129,5 +129,5 @@ Here's another demo, this time using the accessible technique outlined above.
 
 Again, close your eyes and see if you can tell what's happening only from the announcements.
 
-<iframe src="https://player.vimeo.com/video/436104725?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/436104725?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 

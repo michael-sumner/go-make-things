@@ -62,6 +62,6 @@ var isItBiggerThanTen = function (num) {
 
 In chatting about this with me, Steve realized he didn't actually have a video explaining this yet, so [he put one together for me](https://www.youtube.com/watch?v=GwU1TAC2BDY). Thanks Steve!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GwU1TAC2BDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/GwU1TAC2BDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 Hope that clears some things up.

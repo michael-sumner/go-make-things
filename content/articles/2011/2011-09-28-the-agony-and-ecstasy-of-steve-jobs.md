@@ -15,4 +15,4 @@ title: The Agony and Ecstasy of Steve Jobs
 
 Mike Daisey's monologue, <em>The Agony and Ecstasy of Steve Jobs</em>, looks at how Apple products are actually made. Below is <a href="https://www.youtube.com/watch?v=rPnoB4LzB8g">one of a series of interviews Mike did with TechCrunch</a>. Well worth watching...
 
-<iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/rPnoB4LzB8g" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/rPnoB4LzB8g" frameborder="0" allowfullscreen></iframe></div>

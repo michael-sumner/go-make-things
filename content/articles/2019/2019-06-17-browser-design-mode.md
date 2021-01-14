@@ -20,7 +20,7 @@ categories:
 
 [Austin Byrd shared an awesome browser trick](https://twitter.com/AustinTByrd/status/1138867419319955456) on Twitter that I was previously unaware of: design mode.
 
-<iframe src="https://player.vimeo.com/video/342748724?color=0088cc&title=0&byline=0&portrait=0" width="640" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/342748724?color=0088cc&title=0&byline=0&portrait=0" width="640" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 When you switch on design mode, every piece of content in the browser can be edited by clicking on it.
 

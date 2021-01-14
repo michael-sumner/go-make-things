@@ -175,7 +175,7 @@ document.addEventListener('submit', function (event) {
 
 My friend [Steve Griffith has a great video on this topic in video form](https://www.youtube.com/watch?v=GWJhE7Licjs), if you're interested in learning more.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GWJhE7Licjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/GWJhE7Licjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ## Browser compatibility
 

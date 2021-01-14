@@ -14,6 +14,6 @@ Last week, I recorded myself [converting the Lettering.js jQuery plugin to vanil
 
 I got a lot of really positive feedback on it, so today, I decided to record myself working on another jQuery to vanilla JS conversion. This time, I'm converting [Dave Rupert's fitVids.js jQuery plugin](https://github.com/davatron5000/FitVids.js) to vanilla JS.
 
-<iframe src="https://player.vimeo.com/video/469812946?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/469812946?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 [Watch me code](https://vimeo.com/469812946), and [download the completed source code on GitHub.](https://gist.github.com/cferdinandi/2b7de84399bccb72095dcca8b780360b).

@@ -18,7 +18,7 @@ Sounds good. So why do I dislike them? Because they generally seem like an after
 
 Supermarket chain Tesco Korea has used QR codes in a brilliant way. Their challenge: Become the number one grocery store in Korea without increasing the number of stores.
 
-<iframe class="alignc" width="425" height="349" src="https://www.youtube.com/embed/nJVoYsBym88" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="425" height="349" src="https://www.youtube.com/embed/nJVoYsBym88" frameborder="0" allowfullscreen></iframe></div>
 
 <a href="https://www.youtube.com/watch?v=nJVoYsBym88">Tesco recreated an entire grocery store with signage in Korean subways.</a> The layout and items were identical to those in their actual stores. Each item was labeled with a QR code. People waiting for their train could simply scan the QR codes to add items to their list, and have them delivered while they ride the train.
 

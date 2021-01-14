@@ -10,7 +10,7 @@ HBO's WestWorld is my favorite show on TV right now. [IGN put together a video](
 
 It's well worth a watch.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/95HP9gVigdo?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/95HP9gVigdo?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 Unlike many fans, I've been *trying* to avoid coming up with too many theories of the show. I like to let the story take me where it wants to get. I enjoy the surprise more than "figuring it out before they tell me."
 

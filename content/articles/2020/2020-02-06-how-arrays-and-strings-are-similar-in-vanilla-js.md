@@ -11,4 +11,4 @@ Today, I wanted to share [a video from Steve Griffith on how arrays and strings 
 
 Steve looks at a handful of methods that are shared between both object types.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Itb-Go0Pp1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/Itb-Go0Pp1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

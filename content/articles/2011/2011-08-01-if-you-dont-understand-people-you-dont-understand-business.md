@@ -11,7 +11,7 @@ The 99% Network posted a captivating talk by ethnographer <a href="http://the99p
 
 My key takeaways after the video.
 
-<iframe class="alignc" src="https://player.vimeo.com/video/26774102?title=0&amp;byline=0&amp;portrait=0&amp;color=e91c6b" width="560" height="420" frameborder="0"></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/26774102?title=0&amp;byline=0&amp;portrait=0&amp;color=e91c6b" width="560" height="420" frameborder="0"></iframe></div>
 
 <h2>1. Commonality is situationally dependent.</h2>
 

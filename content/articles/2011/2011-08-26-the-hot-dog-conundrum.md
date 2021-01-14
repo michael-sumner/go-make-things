@@ -9,6 +9,6 @@ Hot dogs come in packs of ten. Hot dog buns come in packs of eight. That's a bit
 
 <a href="https://www.youtube.com/watch?v=YhXzM70CNrw">Prank site Zug tries to fix this problem.</a> Comedy ensues.
 
-<iframe class="alignc" width="425" height="349" src="https://www.youtube.com/embed/YhXzM70CNrw" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="425" height="349" src="https://www.youtube.com/embed/YhXzM70CNrw" frameborder="0" allowfullscreen></iframe></div>
 
 <em>Via <a href="http://www.damniwish.com/2011/07/we-rarely-appreciate-the-usefulness-of-standards.html">Damn, I Wish I Thought of That</a></em>

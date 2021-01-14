@@ -8,7 +8,7 @@ title: Dolphins are really, really smart!
 
 I knew dolphins were smart. [I didn't realize how smart.](https://www.youtube.com/watch?v=05PpTqtGhGU)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/05PpTqtGhGU?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/05PpTqtGhGU?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 Not only do they work in groups, but individual dolphin pods have their own unique greetings, hunting techniques, and other unique behaviors. And these are shared, learned, and passed down through generations.
 

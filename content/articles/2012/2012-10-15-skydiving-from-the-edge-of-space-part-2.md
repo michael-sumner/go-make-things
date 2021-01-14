@@ -14,7 +14,7 @@ Since then, Baumgartner's attempt started moving forward again, and over the wee
 
 <a href="https://www.youtube.com/watch?v=FHtvDA0W34I">This video of the jump</a> is simply amazing...
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FHtvDA0W34I?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/FHtvDA0W34I?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 <h2>Breaking Records</h2>
 

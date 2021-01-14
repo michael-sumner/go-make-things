@@ -8,7 +8,7 @@ title: The Chemistry of Snowflakes
 
 Ever wonder how snowflakes form? Bytesize Science shares this interesting video on <a href="https://www.youtube.com/watch?&v=VYrF3sFBY20">the chemistry of snowflakes...</a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VYrF3sFBY20?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/VYrF3sFBY20?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 The two things I'm most amazed by:
 

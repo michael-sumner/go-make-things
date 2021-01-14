@@ -8,7 +8,7 @@ title: Jazz for Cows
 
 The New Hot 5 performs <a href="https://www.youtube.com/watch?v=lXKDu6cdXLI">their soothing Dixie Land jazz</a> for a captivated audience of cows in France...
 
-<iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/lXKDu6cdXLI?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/lXKDu6cdXLI?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 Learn more (and buy the CD <em>Jazz for Cows</em>) at <a href="http://www.newhot5.com/">NewHot5.com</a>.
 

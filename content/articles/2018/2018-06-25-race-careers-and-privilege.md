@@ -8,7 +8,7 @@ categories:
 
 Over the weekend, I came across [this short Vice documentary on the Jim Crow Museum of Racist Objects](https://www.youtube.com/watch?v=jP92cqTxG7I).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jP92cqTxG7I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/jP92cqTxG7I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 I knew this stuff exists. I knew this shit happened.
 

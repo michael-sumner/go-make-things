@@ -10,4 +10,4 @@ Next time you think something is too difficult, watch this video of <a href="htt
 
 Born with spina bifida, Aaron does flips, grinds and more in his wheelchair.
 
-<iframe class="alignc" src="https://player.vimeo.com/video/20229286?byline=0&amp;color=ed000c" width="560" height="315" frameborder="0"></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/20229286?byline=0&amp;color=ed000c" width="560" height="315" frameborder="0"></iframe></div>

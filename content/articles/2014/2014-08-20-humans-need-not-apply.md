@@ -10,7 +10,7 @@ C.G.P. Grey's latest video, ["Humans Need Not Apply,"](https://www.youtube.com/w
 
 In my opinion, it's the best video he's ever produced, and reminds me very much of the [Everything is a Remix series](http://everythingisaremix.info/) (while still being uniquely Grey).
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/7Pq-S557XQU" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="//www.youtube.com/embed/7Pq-S557XQU" frameborder="0" allowfullscreen></iframe></div>
 
 **A few thoughts...**
 

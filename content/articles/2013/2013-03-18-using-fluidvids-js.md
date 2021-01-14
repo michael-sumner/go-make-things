@@ -19,7 +19,7 @@ I know what you're thinking: isn't that easy to do already? You can use this bit
 
 When you try that with iframes, though, the sizing gets all messed up. Check out this short video from Dave Rupert <a href="http://vimeo.com/28523422">showing the problem in action...</a>
 
-<iframe src="https://player.vimeo.com/video/28523422" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/28523422" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
 For a while, I was using the <a href="http://fitvidsjs.com/">FitVids.js</a>, the awesome jQuery plugin Dave mentions in the video. FitVids.js is really, really awesome.
 

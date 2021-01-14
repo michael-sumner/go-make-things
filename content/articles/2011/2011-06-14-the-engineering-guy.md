@@ -12,10 +12,10 @@ In each short video, he takes apart a common household object and shows you how 
 
 <h2><a href="https://www.youtube.com/watch?v=jiejNAUwcQ8">How LCD Monitors Work</a></h2>
 
-<p align="center"><iframe width="560" height="349" src="https://www.youtube.com/embed/jiejNAUwcQ8?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe width="560" height="349" src="https://www.youtube.com/embed/jiejNAUwcQ8?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 
 <h2><a href="https://www.youtube.com/watch?v=ekv0kprA3AY">Soda Can Tabs: A Marvel of Simple Design</a></h2>
 
-<p align="center"><iframe width="560" height="349" src="https://www.youtube.com/embed/ekv0kprA3AY?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe width="560" height="349" src="https://www.youtube.com/embed/ekv0kprA3AY?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 
 <em>Via <a href="http://curiositycounts.com/post/6344189308/so-you-know-how-a-hard-drive-actually-works">Curiosity Counts</a></em>

@@ -10,6 +10,6 @@ The other day I had the pleasure of stumbling across <a href="http://www.jussjef
 
 I could listen to this guy all day! Here are a few of my favorites (email subscribers click through)...
 
-<p align="center"><iframe title="YouTube video player" width="560" height="349" src="https://www.youtube.com/embed/jqi-GzSCIDU?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe title="YouTube video player" width="560" height="349" src="https://www.youtube.com/embed/jqi-GzSCIDU?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 
-<p align="center"><iframe title="YouTube video player" width="425" height="349" src="https://www.youtube.com/embed/grrdJL1pAB0?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe title="YouTube video player" width="425" height="349" src="https://www.youtube.com/embed/grrdJL1pAB0?rel=0" frameborder="0" allowfullscreen></iframe></div></p>

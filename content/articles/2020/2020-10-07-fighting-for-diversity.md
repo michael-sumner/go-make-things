@@ -36,7 +36,7 @@ This isn't just "their" problems. Its ours. We made this mess. It's on us to hel
 
 I want to leave with [the song "Time Will Tell," from one of my favorite artists, Marlon Craft](https://www.youtube.com/watch?v=pDMugL-mid4) (warning, NSFW language).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pDMugL-mid4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/pDMugL-mid4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 > It looks like reparation, not just in donations
 > It look like time sacrifice structural compensation

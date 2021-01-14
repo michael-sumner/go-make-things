@@ -10,7 +10,7 @@ In her final days as Commander of the International Space Station (ISS), Sunita 
 
 Williams provides a lot of detail on the day-to-day life aboard the ISS. Learn how astronauts eat, exercise, sleep, and even use the bathroom.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/doN4t5NKW-k?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/doN4t5NKW-k?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 One thing I was struck by is how cluttered it feels. Everything is strapped down, of course, but with space at a premium (excuse the pun), gear and supplies are everywhere. I was also surprised to see so many exposed cables and wires. I would be afraid of snagging one while moving through the station and breaking something.
 

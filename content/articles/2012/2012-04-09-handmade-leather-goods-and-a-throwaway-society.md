@@ -12,7 +12,7 @@ Chris and Kirk Bray launched Billykirk from Los Angeles in 1999, learning their 
 
 <a href="http://thescoutmag.com/">The Scout Magazine</a> spent a day with the brothers, and created this beautiful <a href="http://vimeo.com/7446963">behind-the-scenes look</a> at their business...
 
-<iframe class="alignc" src="https://player.vimeo.com/video/7446963" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/7446963" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
 Chris and Kirk's discussion about the longevity of products - things that last and can be passed on from generation to generation - seems so foreign to my generation, who has grown up on a throwaway society.
 

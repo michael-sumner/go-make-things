@@ -10,7 +10,7 @@ Innovation doesn't usually happen in a sudden flash of inspiration. More often, 
 
 In Part 3 of <a href="http://vimeo.com/25380454">Everything is a Remix</a>, Kirby Ferguson explores these concepts in a bit more detail...
 
-<iframe class="alignc" src="https://player.vimeo.com/video/25380454" width="560" height="315" frameborder="0"></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/25380454" width="560" height="315" frameborder="0"></iframe></div>
 
 Stick through the credits for some bonus footage. My favorite quote from the video comes from the secret stuff at the end.
 

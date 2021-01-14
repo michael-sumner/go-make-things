@@ -10,7 +10,7 @@ Hands-on learning with real projects. You get starter templates, helpful tips an
 
 ## The Projects
 
-<iframe src="https://player.vimeo.com/video/348459230?color=0088cc&title=0&byline=0&portrait=0&loop=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/348459230?color=0088cc&title=0&byline=0&portrait=0&loop=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 1. **Fortune Teller.** See into the future by building a fortune-teller app that provides answers to any question.
 2. **Rock, Paper, Scissors.** Play even when your friends aren't around by making an interactive JavaScript game.

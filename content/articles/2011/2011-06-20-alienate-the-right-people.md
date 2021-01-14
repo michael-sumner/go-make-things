@@ -28,7 +28,7 @@ How often do you see CEOs talking to their customers like that? Almost never. Th
 
 To prove his commitment to the new policy, Tim recently <a href="http://cf.drafthouse.com/she_texted_we_kicked_her_out2.html">posted this voicemail</a> from an angry customer who was kicked out for texting during a movie. (<em><strong>Warning:</strong> Some NSFW language. <a href="https://www.youtube.com/watch?v=JVz-fO7kxcQ">Here's a censored version.</a></em>)
 
-<p align="center"><iframe width="560" height="349" src="https://www.youtube.com/embed/1L3eeC2lJZs" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe width="560" height="349" src="https://www.youtube.com/embed/1L3eeC2lJZs" frameborder="0" allowfullscreen></iframe></div></p>
 
 There are a lot of business lessons you could learn from the Alamo Drafthouse, but I think <a href="http://www.damniwish.com/2011/06/this-is-the-genuine-story-of-a-true-american-hero.html">Andy Sernovitz sums it up best...</a>
 

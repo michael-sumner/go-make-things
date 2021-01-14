@@ -17,4 +17,4 @@ I've never built this one before, and I also didn't plan this out ahead of time.
 
 [Here's the video.](https://vimeo.com/312124363/375ab199a4)
 
-<iframe src="https://player.vimeo.com/video/312124363?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/312124363?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>

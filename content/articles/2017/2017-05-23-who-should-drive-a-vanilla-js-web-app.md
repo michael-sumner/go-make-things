@@ -13,7 +13,7 @@ I thought it would be fun to try to recreate it in vanilla JavaScript, and set a
 
 I was able to [get the functionality recreated in about 15 minutes](https://www.youtube.com/watch?v=wqu4Bi0peCM), and spent my extra 5 minutes bolting in some nice extras like keeping the list of names persistent after reloading the page using `localStorage`. My version is incredibly ugly&mdash;Domenic is a *much* better designer than I am&mdash;but it's functional and works without any dependencies.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wqu4Bi0peCM?rel=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/wqu4Bi0peCM?rel=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe></div>
 
 **Assets:**
 

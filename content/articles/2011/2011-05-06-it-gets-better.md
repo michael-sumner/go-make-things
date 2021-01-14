@@ -10,7 +10,7 @@ Employees at Pixar Studios have produced a video for Dan Savage's <a href="http:
 
 Pixar seems like an amazing place filled with amazing people. <a href="https://www.youtube.com/watch?v=BeZiF_BJ3ss">Don't miss the bonus at the end!</a>
 
-<p align="center"><iframe width="560" height="349" src="https://www.youtube.com/embed/BeZiF_BJ3ss?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe width="560" height="349" src="https://www.youtube.com/embed/BeZiF_BJ3ss?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 
 <em><strong>Update:</strong> One of my followers on Twitter let me know this is part of series. Companies like <a href="https://www.youtube.com/watch?v=iWYqsaJk_U8">Apple</a>, <a href="https://www.youtube.com/watch?v=pYLs4NCgvNU">Google</a> and <a href="https://www.youtube.com/watch?v=iPg02qjL40g">Facebook</a> have also put videos like this together.</em>
 

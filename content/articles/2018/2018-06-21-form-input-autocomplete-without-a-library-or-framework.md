@@ -50,7 +50,7 @@ Within it, you'll include a set of `option` elements with the values the user ca
 
 [Here's a working demo.](http://jsfiddle.net/cferdinandi/zacnfjqL/1/)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/cferdinandi/zacnfjqL/1/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<div class="fluid-vids"><iframe width="100%" height="300" src="//jsfiddle.net/cferdinandi/zacnfjqL/1/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe></div>
 
 ## Browser Compatibility
 

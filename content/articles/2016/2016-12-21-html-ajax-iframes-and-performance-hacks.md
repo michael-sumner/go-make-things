@@ -11,7 +11,7 @@ title: HTML, ajax, iframes, and performance hacks
 
 Jake Archibald recently noticed that [loading a page on GitHub was faster if starting from scratch than if already on GitHub](https://jakearchibald.com/2016/fun-hacks-faster-content/).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4zG0AZRZD6Q?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/4zG0AZRZD6Q?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 That kind of makes no sense, right?
 

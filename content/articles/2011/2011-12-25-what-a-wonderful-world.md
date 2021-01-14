@@ -9,6 +9,6 @@ Sir David Attenborough's rendition of <a href="https://www.youtube.com/watch?v=B
 
 Happy Holidays!
 
-<iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/B8WHKRzkCOY" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/B8WHKRzkCOY" frameborder="0" allowfullscreen></iframe></div>
 
 <em>Via <a href="http://www.swiss-miss.com/2011/12/david-attenborough-%E2%80%93-wonderful-world-%E2%80%93-bbc.html">Swiss Miss</a> and <a href="http://blog.oneplusinfinity.com/?p=7162">Tim</a></em>

@@ -56,7 +56,7 @@ app.innerHTML = greeting();
 
 [Here's a demo.](http://jsfiddle.net/cferdinandi/fwmLjq8n/2/)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/cferdinandi/fwmLjq8n/2/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<div class="fluid-vids"><iframe width="100%" height="300" src="//jsfiddle.net/cferdinandi/fwmLjq8n/2/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe></div>
 
 ### State-based components
 
@@ -87,7 +87,7 @@ In this example, the data or state is a property of the component itself. The st
 
 [Here's an updated demo for you.](http://jsfiddle.net/cferdinandi/fwmLjq8n/12/)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/cferdinandi/fwmLjq8n/12/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<div class="fluid-vids"><iframe width="100%" height="300" src="//jsfiddle.net/cferdinandi/fwmLjq8n/12/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe></div>
 
 ## Why this approach is nice
 

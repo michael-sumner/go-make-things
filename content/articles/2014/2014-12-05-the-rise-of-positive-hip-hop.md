@@ -26,24 +26,24 @@ The day this stuff started showing up in iTunes Radio, I heard four of this dude
 
 [All I Need Is You](https://www.youtube.com/watch?v=6iRTBh1gCjk) is my favorite so far. If you like it, you should also check out [I'm Turnt](https://www.youtube.com/watch?v=YiUdrIsqmyQ) and [Say I Won't](https://www.youtube.com/watch?v=yho9Y0xXz0g).
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/6iRTBh1gCjk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="//www.youtube.com/embed/6iRTBh1gCjk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 ### Tedashii
 
 If you're looking to hyped up, you can't go wrong with [Dum Dum](https://www.youtube.com/watch?v=ZWwPlldEiUY).
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/ZWwPlldEiUY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="//www.youtube.com/embed/ZWwPlldEiUY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 ### Andy Mineo
 
 Andy Mineo is from NYC, so his stuff has a more gritty sound than the other guys I've mentioned. I got hooked on [You Can't Stop Me](https://www.youtube.com/watch?v=Y29FtD3p5V0), but right now [AYO!](https://www.youtube.com/watch?v=n8HDGF4xzmk) is my jam.
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/n8HDGF4xzmk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="//www.youtube.com/embed/n8HDGF4xzmk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 ### Trip Lee
 
 Trip Lee is definitely the most overtly Christian of the bunch, and that's not for everyone. Some of his songs are a bit too much for me. But [Insomniac](https://www.youtube.com/watch?v=qo3nLF4hmzE) is pretty awesome.
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/qo3nLF4hmzE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="//www.youtube.com/embed/qo3nLF4hmzE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 Enjoy!

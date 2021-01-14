@@ -18,4 +18,4 @@ Bruce urges us to focus more on the basics of the web: semantic HTML, well struc
 
 [Watch the whole damn thing.](https://www.youtube.com/watch?v=T2CjuAwrAq8) It's worth a half hour of your time.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T2CjuAwrAq8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/T2CjuAwrAq8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

@@ -11,7 +11,7 @@ The World Wildlife Foundation (WWF) noticed a problem: People love to print stuf
 
 So, they came up with a pretty simple solution. They created a <a href="http://www.saveaswwf.com/en/">new file format called the WWF</a>. It's more or less a glorified PDF that cannot be printed. Problem solved, right? I don't think so.
 
-<p align="center"><iframe title="YouTube video player" width="560" height="345" src="https://www.youtube.com/embed/MzY4SGgEB7g?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe title="YouTube video player" width="560" height="345" src="https://www.youtube.com/embed/MzY4SGgEB7g?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 
 I love the World Wildlife Foundation. They do great work. I also love saving paper. But this an absolutely asinine idea.
 

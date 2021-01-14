@@ -29,7 +29,7 @@ Bullshit.
 
 Focus styles are actually awesome. My friend [Eric Bailey has a great presentation on this](https://noti.st/ericwbailey/TcMJFP/slides).
 
-<iframe src="https://noti.st/ericwbailey/TcMJFP/embed" frameborder="0" width="960" height="540" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://noti.st/ericwbailey/TcMJFP/embed" frameborder="0" width="960" height="540" allowfullscreen></iframe></div>
 
 I personally enjoy them for the same reason that I also actually like `:visited` styles on link-heavy pages.
 

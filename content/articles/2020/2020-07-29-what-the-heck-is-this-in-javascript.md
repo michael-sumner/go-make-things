@@ -13,6 +13,6 @@ It changes in meaning depending where it's used. It's value is different in trad
 
 So, I'm delighted that I can now point them to [Steve Griffith's amazingly thorough video on the `this` keyword and lexical scope](https://www.youtube.com/watch?v=eWDXgsIgTGk).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eWDXgsIgTGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/eWDXgsIgTGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 Definitely worth a watch if you're still trying to wrap your head around `this`.

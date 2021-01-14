@@ -10,7 +10,7 @@ Watch Chris Ferdinandi live-code vanilla JS projects. Follow along, try it yours
 
 ## The Projects
 
-<iframe src="https://player.vimeo.com/video/466183904?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/466183904?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 0. **Audio Player.** Build a music app using the Audio API.
 0. **Notes App.** Build a simple note taking app with the Local Storage API.

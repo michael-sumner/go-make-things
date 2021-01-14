@@ -28,25 +28,6 @@
 	}
 
 	/**
-	 * Make iframes responsive
-	 */
-	var fluidvids = function () {
-
-		// iframes
-		var vids = Array.from(document.querySelectorAll('iframe'));
-
-		// wrap each iframe in a .fluid-vids element
-		vids.forEach(function (vid) {
-			if (vid.parentNode.className === 'fluid-vids') return;
-			var wrap = document.createElement('div');
-			wrap.className = 'fluid-vids';
-			vid.parentNode.insertBefore(wrap, vid);
-			wrap.appendChild(vid);
-		});
-
-	};
-
-	/**
 	 * Add links to headings
 	 * @param {String} selector The headings to get in the DOM (uses querySelectorAll)
 	 * @param {String} content  The content to add to the anchor link [default: #]
@@ -248,7 +229,7 @@
 	 */
 
 	// Responsive iframe videos
-	fluidvids();
+	// fluidvids();
 
 	// Mailchimp form
 	if (document.querySelector('#mailchimp-form')) {

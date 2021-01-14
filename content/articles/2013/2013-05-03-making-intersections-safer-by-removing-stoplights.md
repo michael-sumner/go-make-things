@@ -10,7 +10,7 @@ The town of Poyton, England took a counterintuitive approach to making their str
 
 The street designers behind this transformation point out that it's actually a return to the way city roadways were traditionally structured until about 50 or 60 years ago. And it's resulted in a safer, less-congested space for cars and pedestrians alike.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gVW-YAQCSVs" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/gVW-YAQCSVs" frameborder="0" allowfullscreen></iframe></div>
 
 If you're as fascinated by this transformation of space as I am, you can take a more detailed look at the design process in the 20-minute video <a href="https://www.youtube.com/watch?v=-vzDDMzq7d0">Poyton Regenerated</a>.
 

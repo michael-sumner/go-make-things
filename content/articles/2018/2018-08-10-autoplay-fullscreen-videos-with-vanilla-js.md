@@ -49,7 +49,7 @@ document.addEventListener('click', function (event) {
 
 	// Create iframe
 	var iframe = document.createElement('div');
-	iframe.innerHTML = '<p>x</p><iframe width="560" height="315" src="https://www.youtube.com/embed/' + videoId + '?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+	iframe.innerHTML = '<p>x</p><div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/' + videoId + '?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>';
 
 }, false);
 ```
@@ -68,7 +68,7 @@ document.addEventListener('click', function (event) {
 
 	// Create iframe
 	var iframe = document.createElement('div');
-	iframe.innerHTML = '<p>x</p><iframe width="560" height="315" src="https://www.youtube.com/embed/' + videoId + '?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+	iframe.innerHTML = '<p>x</p><div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/' + videoId + '?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>';
 	var video = iframe.childNodes[1];
 
 }, false);
@@ -88,7 +88,7 @@ document.addEventListener('click', function (event) {
 
 	// Create iframe
 	var iframe = document.createElement('div');
-	iframe.innerHTML = '<p>x</p><iframe width="560" height="315" src="https://www.youtube.com/embed/' + videoId + '?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+	iframe.innerHTML = '<p>x</p><div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/' + videoId + '?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>';
 	var video = iframe.childNodes[1];
 
 	// Replace the image with the video

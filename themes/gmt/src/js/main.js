@@ -11,7 +11,7 @@ import mailchimp from '../../../../../gmt-theme/dist/js/mailchimp.js';
  */
 
 // Responsive iframe videos
-fluidvids();
+// fluidvids();
 
 // Mailchimp form
 if (document.querySelector('#mailchimp-form')) {

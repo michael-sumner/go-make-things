@@ -24,7 +24,7 @@ The basic version worked really well. When I tried to add a feature to clean the
 
 [Watch me live-code the app below.](https://vimeo.com/489441420)
 
-<iframe src="https://player.vimeo.com/video/489441420?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/489441420?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 You can [download the source code](https://gist.github.com/cferdinandi/85592ee3387961ce3d4c3bebd3170bbb) for both the working simple version and the incomplete advanced version on GitHub. If you figure out the advanced version, please let me know!
 

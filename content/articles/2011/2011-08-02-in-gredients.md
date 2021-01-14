@@ -13,6 +13,6 @@ The United States fills landfills with 1.4 billion pounds of waste everyday, and
 
 <a href="https://www.youtube.com/watch?v=WvyTCx2Uo6k">Watch their video to learn more...</a>
 
-<iframe class="alignc" width="425" height="349" src="https://www.youtube.com/embed/WvyTCx2Uo6k" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="425" height="349" src="https://www.youtube.com/embed/WvyTCx2Uo6k" frameborder="0" allowfullscreen></iframe></div>
 
 <em>Via <a href="http://curiositycounts.com/post/6872865067/in-gredients-americas-first-package-free">Curiosity Counts</a></em>

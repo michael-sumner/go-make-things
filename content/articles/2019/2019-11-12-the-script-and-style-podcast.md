@@ -15,7 +15,7 @@ categories:
 
 Last week, I had the pleasure of chatting with Todd Gardner and David Walsh about [vanilla JS and the Lean Web on the Script & Style Show](https://scriptandstyle.simplecast.com/episodes/vanilla-javascript-with-chris-ferdinandi).
 
-<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/f5ef44ef-3936-43bd-87fc-cf04d1d2e967?dark=false"></iframe>
+<div class="fluid-vids"><iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/f5ef44ef-3936-43bd-87fc-cf04d1d2e967?dark=false"></iframe></div>
 
 When I was first trying to learn WordPress/PHP, and then again when I was trying to learn JavaScript, [David's website](https://davidwalsh.name/) helped me get unstuck more times than I can remember, so this was a really enjoyable conversation for me.
 

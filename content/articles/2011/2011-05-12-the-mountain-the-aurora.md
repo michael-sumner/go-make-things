@@ -10,8 +10,8 @@ title: The Mountain. The Aurora.
 
 <h2>The Mountain</h2>
 
-<p align="center"><iframe src="https://player.vimeo.com/video/22439234" width="560" height="315" frameborder="0"></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe src="https://player.vimeo.com/video/22439234" width="560" height="315" frameborder="0"></iframe></div></p>
 
 <h2>The Aurora</h2>
 
-<p align="center"><iframe src="https://player.vimeo.com/video/21294655" width="560" height="315" frameborder="0"></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe src="https://player.vimeo.com/video/21294655" width="560" height="315" frameborder="0"></iframe></div></p>

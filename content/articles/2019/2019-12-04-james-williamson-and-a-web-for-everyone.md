@@ -26,7 +26,7 @@ He walked on stage, and announced that he had ALS and that this would be his fin
 
 [James's talk, *A Web For Everyone*](https://www.slideshare.net/jameswillweb/everyone-39758731), was one of the best talks I've ever seen.
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/n4GBEVuL8JrW8v" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<div class="fluid-vids"><iframe src="//www.slideshare.net/slideshow/embed_code/key/n4GBEVuL8JrW8v" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe></div>
 
 I can't believe he had put it together the night before.
 

@@ -9,7 +9,7 @@ title: Less but better
 
 "Produce less but better things" - sage words from <a href="http://vimeo.com/19125863">design legend Dieter Rams</a>.
 
-<iframe class="alignc" src="https://player.vimeo.com/video/19125863" width="580" height="326" frameborder="0"></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/19125863" width="580" height="326" frameborder="0"></iframe></div>
 
 <blockquote>Be it in fine arts, literature, or music, the reduction to the essentials have never led to any catastrophes. On the contrary, it has had a beneficial effect on our culture most of the time.</blockquote>
 

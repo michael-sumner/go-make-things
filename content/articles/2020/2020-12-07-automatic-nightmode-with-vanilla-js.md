@@ -45,7 +45,7 @@ I have a `.night` class that uses a midnight blue color for the background inste
 
 If you want, you can [follow along while I figure this one out in real time](https://vimeo.com/488124332). If you're rather read about it, keep scrolling.
 
-<iframe src="https://player.vimeo.com/video/488124332?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/488124332?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 ## How it works
 

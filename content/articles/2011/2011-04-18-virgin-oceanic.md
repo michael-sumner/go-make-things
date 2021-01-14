@@ -13,6 +13,6 @@ Their mission: Five dives to the five deepest points in our world's oceans.
 
 Check out <a href="https://www.youtube.com/watch?v=_Sk_XEHfqwk">this cool trailer...</a>
 
-<p align="center"><iframe title="YouTube video player" width="560" height="349" src="https://www.youtube.com/embed/_Sk_XEHfqwk?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe title="YouTube video player" width="560" height="349" src="https://www.youtube.com/embed/_Sk_XEHfqwk?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 
 <em>Via <a href="http://curiositycounts.com/post/4377114692/richard-branson-announces-virgin-oceanic">Curiosity Counts</a></em>

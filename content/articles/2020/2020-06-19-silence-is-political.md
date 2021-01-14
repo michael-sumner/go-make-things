@@ -15,7 +15,7 @@ It wasn't until 2.5 years later, on June 19, 1865, that Union soldiers marched i
 
 Today is, for many black Americans, independence day.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iu6ntwHws5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/iu6ntwHws5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 **And on this Juneteenth, I want to talk about silence.**
 

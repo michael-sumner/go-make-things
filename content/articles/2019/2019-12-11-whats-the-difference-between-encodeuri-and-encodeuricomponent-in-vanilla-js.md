@@ -13,7 +13,7 @@ In JavaScript, `encodeURI()` and `encodeURIComponent()` methods are used to conv
 
 [Steve Griffith put together a wonderful explainer video.](https://www.youtube.com/watch?v=tmgMWWNRTp0)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tmgMWWNRTp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/tmgMWWNRTp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 The simple version:
 

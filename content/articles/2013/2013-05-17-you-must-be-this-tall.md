@@ -11,7 +11,7 @@ I can remember taking boat rides there as a kid just for the chowder and clam ca
 
 <a href="http://www.rockypointmovie.com/index.html">You Must Be This Tall</a>, by director David Bettencourt, is the award-winning story of Rocky Point as told by the people who were there. Something I learned: the first phone call by a president was made from Rocky Point by Rutherford Hayes.
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/pG5djZBthuc" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="420" height="315" src="https://www.youtube.com/embed/pG5djZBthuc" frameborder="0" allowfullscreen></iframe></div>
 
 Sadly, Rocky Point closed its doors in 1995 after years of financial mismanagement by its shareholders (source: <a href="http://en.wikipedia.org/wiki/Rocky_Point_Amusement_Park#Final_years">Wikpedia</a>). The rides were auctioned off, some of them finding homes in other parks, and the park fell into disrepair.
 

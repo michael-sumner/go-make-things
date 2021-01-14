@@ -14,6 +14,6 @@ I'm really looking forward to picking up <em><a href="http://www.amazon.com/Out-
 
 After watching <a href="https://www.youtube.com/watch?v=iG9CE55wbtY">his brilliant TED Talk on creativity</a>, I have no doubt this book will be awesome.
 
-<iframe class="alignc" width="425" height="349" src="https://www.youtube.com/embed/iG9CE55wbtY" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="425" height="349" src="https://www.youtube.com/embed/iG9CE55wbtY" frameborder="0" allowfullscreen></iframe></div>
 
 <em>Via <a href="http://www.fastcompany.com/1764044/ken-robinson-on-the-principles-of-creative-leadership">Fast Company</a></em>

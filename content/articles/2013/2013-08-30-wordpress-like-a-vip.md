@@ -8,7 +8,7 @@ title: WordPress like a VIP
 
 <a href="http://hoppycow.com/">Steph Yiu</a> of the WordPress VIP team at Automattic gave an amazing talk this week on how to <a href="https://www.youtube.com/watch?v=c8BbjQIxaJs">do WordPress like a VIP</a>.
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/c8BbjQIxaJs?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="640" height="480" src="//www.youtube.com/embed/c8BbjQIxaJs?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 I don't use many plugins, but there's definitely a few Steph mentioned that I've bookmarked for use in future client projects:
 <!--more-->

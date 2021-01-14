@@ -14,7 +14,7 @@ title: The Art of Making
 
 Once you get past the technical gaff at the beginning, there's a lot of wonderful lessons on how to make things. I've got a few of my favorite takeaways below the video.
 <!--more-->
-<p align="center"><iframe src="https://player.vimeo.com/video/23483966?byline=0" width="560" height="373" frameborder="0"></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe src="https://player.vimeo.com/video/23483966?byline=0" width="560" height="373" frameborder="0"></iframe></div></p>
 
 <h2>1. Simplicity is key.</h2>
 

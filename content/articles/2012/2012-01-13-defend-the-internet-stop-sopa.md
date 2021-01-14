@@ -15,6 +15,6 @@ Not only does this bill let the government restrict free speech, but also does n
 
 Learn more at <a href="http://defendtheinter.net/">DefendTheInter.net</a>.
 
-<iframe class="alignc" src="https://player.vimeo.com/video/31100268?byline=0&amp;portrait=0" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/31100268?byline=0&amp;portrait=0" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
 <em>Via <a href="http://twitter.com/iamfinch">Francisco Inchauste</a></em>

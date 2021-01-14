@@ -9,7 +9,7 @@ title: The lava lamps that help power SSL encryption
 
 File this one under "crazy stuff I learned this week": [Cloudfare uses streaming images of a wall of lava lamps](https://www.youtube.com/watch?v=1cUUfMeOijg) in their San Francisco office to partially generate the salts in the encryption keys that power their SSL services.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1cUUfMeOijg?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/1cUUfMeOijg?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
 
 Why? Computers suck at generating random number, and Cloudfare has to create a lot of them.
 

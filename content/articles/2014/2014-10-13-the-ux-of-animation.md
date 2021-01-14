@@ -23,6 +23,6 @@ At [Artifact Providence](http://artifactconf.com/providence/) this year, I had t
 <script async class="speakerdeck-embed" data-id="a6d3b4f02b100132e9c326f5ea6187cb" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 You might also enjoy [The Illusion of Life](http://vimeo.com/93206523), a short video from illustrator Cento Lodigiani that visualizes animation concepts from the 1981 book of the same name. (*The video itself was originally attributed to Disney Studios. Cheers to [an anonymous commenter](/the-ux-of-animation/#comment-15036) on the correction.*)
-<iframe src="//player.vimeo.com/video/93206523" width="640" height="253" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="//player.vimeo.com/video/93206523" width="640" height="253" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 *[Hat tip to Thomas Byttebier.](https://twitter.com/bytte/status/520560582509228033)*

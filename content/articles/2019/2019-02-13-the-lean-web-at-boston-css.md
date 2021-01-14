@@ -20,6 +20,6 @@ I'll be making some changes based on questions I got from the audience, but I th
 
 [Here's the video.](https://www.youtube.com/watch?v=3J0SPMFjXvs)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3J0SPMFjXvs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/3J0SPMFjXvs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 If you want me to give this talk at your conference or organization, sent me an email and let me know.

@@ -14,4 +14,4 @@ The list of items left on the moon are fascinating, and I would encourage you <a
 
 One piece of "lunar junk" I found particularly fascinating was a feather from Baggin, the Air Force Academy's mascot falcon. Apollo 15 replicated Galileo's experiments on gravity and the rate at which differently weighted objects fall, using a hammer and the feather. <a href="https://www.youtube.com/watch?v=5C5_dOEyAfk">Here's the experiment in action...</a>
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/5C5_dOEyAfk?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="420" height="315" src="https://www.youtube.com/embed/5C5_dOEyAfk?rel=0" frameborder="0" allowfullscreen></iframe></div>

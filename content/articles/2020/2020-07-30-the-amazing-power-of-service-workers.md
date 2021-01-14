@@ -59,7 +59,7 @@ If you want to dig into service workers, the two best resources I've found both 
 
 First, [Jeremy's "Going Offline" talk](https://www.youtube.com/watch?v=RVdW-P_oAJ0) helped me finally wrap my head around what service workers are, and how they actually work.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RVdW-P_oAJ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/RVdW-P_oAJ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 When I was ready to really dig in, I bought [a copy of his book, also title "Going Offline," from *A Book Apart*](https://abookapart.com/products/going-offline).
 

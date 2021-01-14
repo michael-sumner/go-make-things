@@ -10,4 +10,4 @@ My friend <a href="http://danmills.net/">Dan Mills</a> is an amazingly talented 
 
 Check out his new single, <a href="https://www.youtube.com/watch?v=Tvi_Lsp0swI">Best I Could...</a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Tvi_Lsp0swI" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/Tvi_Lsp0swI" frameborder="0" allowfullscreen></iframe></div>

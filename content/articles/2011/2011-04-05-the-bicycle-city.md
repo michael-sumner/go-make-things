@@ -11,6 +11,6 @@ title: The Bicycle City
 
 <a href="http://thebicyclecityfilm.com/">Learn more about <em>The Bicycle City</em></a>
 
-<p align="center"><iframe src="https://player.vimeo.com/video/20370519?byline=0" width="560" height="315" frameborder="0"></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe src="https://player.vimeo.com/video/20370519?byline=0" width="560" height="315" frameborder="0"></iframe></div></p>
 
 <em>Via <a href="http://www.swiss-miss.com/2011/03/the-bicycle-city-trailer.html">Swiss-Miss</a></em>

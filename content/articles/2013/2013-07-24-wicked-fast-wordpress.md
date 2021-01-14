@@ -13,4 +13,4 @@ I gave a talk yesterday at <a href="http://www.meetup.com/WordPressProvidence/ev
 
 <strong>Update:</strong> <a href="http://luckywabbit.com/">Michael Tracy</a> was kind enough to record my talk. <a href="https://www.youtube.com/watch?v=cHZ1kCYGR6E">Here's the video (warning: some NSFW language)...</a>
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/cHZ1kCYGR6E?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="//www.youtube.com/embed/cHZ1kCYGR6E?rel=0" frameborder="0" allowfullscreen></iframe></div>

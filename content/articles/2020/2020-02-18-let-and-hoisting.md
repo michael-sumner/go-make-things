@@ -53,7 +53,7 @@ This gap between when a variable declared with `let` is hoisted and when it actu
 
 [Steve Griffith has a great video on this](https://www.youtube.com/watch?v=cHyydUnsaWI) if you want to learn more.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cHyydUnsaWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/cHyydUnsaWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ## This is actually a good thing
 

@@ -19,6 +19,6 @@ Allie invited me to come onto the show for an AMA, where people asked me some re
 
 [You can watch the AMA here.](https://www.youtube.com/watch?v=H33HnTEl634)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H33HnTEl634" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/H33HnTEl634" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 I'm so grateful to Allie for having me on. It was an absolute blast!

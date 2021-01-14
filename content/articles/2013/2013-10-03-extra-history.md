@@ -19,18 +19,18 @@ I've never found history more exciting or interesting. The Extra Credits team do
 
 <h2>Part 1: The First Punic War</h2>
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/EbBHk_zLTmY?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="640" height="480" src="//www.youtube.com/embed/EbBHk_zLTmY?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 <h2>Part 2: The Second Punic War Begins</h2>
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/lf0-Yki5p40?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="640" height="480" src="//www.youtube.com/embed/lf0-Yki5p40?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 <h2>Part 3: The Second Punic War Rages On</h2>
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/wT_rev5VAQc?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="640" height="480" src="//www.youtube.com/embed/wT_rev5VAQc?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 <h2>Part 4: The Conclusion of the Punic Wars</h2>
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/McT1H-NVCMQ?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="640" height="480" src="//www.youtube.com/embed/McT1H-NVCMQ?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 Watch the whole series on <a href="https://www.youtube.com/playlist?list=PLhyKYa0YJ_5Aq7g4bil7bnGi0A8gTsawu">Extra Credits' YouTube channel</a>.

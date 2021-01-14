@@ -10,7 +10,7 @@ title: Jim Coudal on Ideas in Action
 
 <a href="http://vimeo.com/26133811">Jim spoke about</a> his transition from client work to selling his own products, and how to put ideas in action. My favorite insights after the video...
 
-<iframe class="alignc" src="https://player.vimeo.com/video/26133811?color=ebd200" width="560" height="315" frameborder="0"></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/26133811?color=ebd200" width="560" height="315" frameborder="0"></iframe></div>
 
 <h2>My Key Takeaways</h2>
 

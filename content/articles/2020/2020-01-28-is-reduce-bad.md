@@ -10,7 +10,7 @@ categories:
 
 Two weeks ago, the HTTP 203 Podcast released a video called [Is reduce() bad?](https://www.youtube.com/watch?v=qaGjS7-qWzg).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qaGjS7-qWzg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/qaGjS7-qWzg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 It's an interesting episode.
 

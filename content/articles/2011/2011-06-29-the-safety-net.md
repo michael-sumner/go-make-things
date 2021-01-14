@@ -13,6 +13,6 @@ Dan's system uses design-thinking and marine behavior to produce a trawling net 
 
 You can vote for Dan's design in the <a href="http://timetocare.victorinox.com/en/nc/vote-win/safetynet.html">Time to Care competition</a>.
 
-<iframe class="alignc" src="https://player.vimeo.com/video/21894812" width="560" height="315" frameborder="0"></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/21894812" width="560" height="315" frameborder="0"></iframe></div>
 
 <em>Via <a href="http://curiositycounts.com/post/6322978266/safetynet-ingenious-marine-sustainability">Curiosity Counts</a></em>

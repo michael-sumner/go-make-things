@@ -15,4 +15,4 @@ I'm tempted to use Proust to get some conversation question ideas, and use a fli
 
 Thoughts?
 
-<p align="center"><iframe src="https://player.vimeo.com/video/17533514?title=0&amp;byline=0&amp;portrait=0" width="560" height="315" frameborder="0"></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe src="https://player.vimeo.com/video/17533514?title=0&amp;byline=0&amp;portrait=0" width="560" height="315" frameborder="0"></iframe></div></p>

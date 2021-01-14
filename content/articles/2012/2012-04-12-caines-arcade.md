@@ -11,7 +11,7 @@ Caine Monroe is a 9-year old who <a href="http://vimeo.com/40000072">built an el
 
 (<em>At 10 minutes long, this video pushes the limits of what most people will watch on the web. Watch the whole thing. Trust me, it's worth it.</em>)
 
-<iframe class="alignc" src="https://player.vimeo.com/video/40000072" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/40000072" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
 To learn more about the arcade, or to donate to Caine's Scholarship Fund, visit <a href="http://cainesarcade.com/">CainesArcade.com</a>.
 

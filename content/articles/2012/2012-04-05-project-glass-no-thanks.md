@@ -10,7 +10,7 @@ title: Project Glass? No thanks!
 
 This week the big topic on the interwebz is <a href="https://plus.google.com/u/0/111626127367496192147/posts">Project Glass</a>, the new augmented reality vision from Google. <a href="https://www.youtube.com/watch?v=9c6W4CCU9M4">Here it is in action...</a>
 
-<iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/9c6W4CCU9M4?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/9c6W4CCU9M4?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 It's worth noting that this isn't real, ready to ship technology. It's a concept video. Those seem to be really popular nowadays - both Microsoft and RIM also shared not-so-distant future videos in the last year. But I digress.
 

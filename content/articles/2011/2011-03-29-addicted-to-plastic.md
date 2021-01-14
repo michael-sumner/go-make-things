@@ -12,6 +12,6 @@ Here's a beautifully tragic video from photographer Chris Jordan on <a href="htt
 
 Ideas?
 
-<p align="center"><iframe title="YouTube video player" width="560" height="349" src="https://www.youtube.com/embed/GudEuDTrSLU?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe title="YouTube video player" width="560" height="349" src="https://www.youtube.com/embed/GudEuDTrSLU?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 
 <em>Via <a href="http://curiositycounts.com/post/4047438040/midway-deeply-upsetting-yet-stunningly-shot-and">Curiosity Counts</a></em>

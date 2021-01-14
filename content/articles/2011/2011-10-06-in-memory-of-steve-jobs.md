@@ -11,7 +11,7 @@ His work has had a tremendous influence on me. The importance of great work. The
 
 There will no doubt be many tributes and old videos of Steve popping up over the next few days. Today, I wanted to share my favorite one - his <a href="https://www.youtube.com/watch?v=UF8uR6Z6KLc">2005 Stanford University Commencement speech</a>.
 
-<iframe class="alignc" width="480" height="360" src="https://www.youtube.com/embed/UF8uR6Z6KLc?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="480" height="360" src="https://www.youtube.com/embed/UF8uR6Z6KLc?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 <h2>Noteworthy</h2>
 

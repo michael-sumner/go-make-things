@@ -9,7 +9,7 @@ title: Creativity &#038; Chaos
 
 In this absolutely fantastic <a href="http://www.creativemornings.com/">Creative Mornings</a> talk, Ben Chestnut, founder of <a href="http://mailchimp.com/">Mailchimp</a>, talks about <a href="http://vimeo.com/34081566">how to foster a creative culture</a>. My takeaways after the video...
 
-<iframe class="alignc" src="https://player.vimeo.com/video/34081566" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/34081566" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
 If I learned nothing else from this video, it's this: Side projects are critically important.
 

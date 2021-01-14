@@ -23,7 +23,7 @@ He challenged other conference attendees to complete common tasks on their smart
 
 The Windows Phone had 30 wins, three losses, and one draw. Not bad at all.
 
-<iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/PeU7FW18Izc?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/PeU7FW18Izc?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 One well thought out user interaction that I'm jealous of is the ability to post and tag a photo to Facebook directly from the photo library, without opening up an app. You can currently do that with Twitter on the iPhone, but not Facebook, which is where I post most of my photos.
 

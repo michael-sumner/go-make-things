@@ -32,7 +32,7 @@ Here's the problem: Yandex didn't actually invent BEM.
 
 [Nicole Sullivan did, five years earlier.](https://www.slideshare.net/stubbornella/object-oriented-css/) And she didn't call it BEM. She called it Object-Oriented CSS (aka OOCSS).
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/EUTjDAdG7npnxS" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe>
+<div class="fluid-vids"><iframe src="//www.slideshare.net/slideshow/embed_code/key/EUTjDAdG7npnxS" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe></div>
 
 I'm not saying the folks at Yandex stole her idea. It's entirely possible they came up with it separately, having never heard of OOCSS.
 

@@ -12,6 +12,6 @@ title: Murmuration
 
 <a href="http://vimeo.com/31158841">See murmuration in action</a> in this amazing video by <a href="http://www.islandsandrivers.co.uk/index.html">Sophie Windsor Clive and Liberty Smith</a>...
 
-<iframe class="alignc" src="https://player.vimeo.com/video/31158841" width="560" height="448" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/31158841" width="560" height="448" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe></div>
 
 <em>Via <a href="http://www.swiss-miss.com/2011/11/murmuration.html">SwissMiss</a></em>

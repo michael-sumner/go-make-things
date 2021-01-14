@@ -22,6 +22,6 @@ I first stumbled upon it in my local library in hardcover. The images in it were
 
 I was pretty excited to find out that someone turned an excerpt from the book into an animated video. <a href="http://vimeo.com/22582065">Check it out...</a>
 
-<p align="center"><iframe src="https://player.vimeo.com/video/22582065?byline=0" width="560" height="315" frameborder="0"></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe src="https://player.vimeo.com/video/22582065?byline=0" width="560" height="315" frameborder="0"></iframe></div></p>
 
 <em>Image from <a href="http://en.wikipedia.org/wiki/File:Pale_Blue_Dot.png">Wikipedia</a></em>

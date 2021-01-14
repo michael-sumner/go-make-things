@@ -40,7 +40,7 @@ document.addEventListener('mouseenter', function (event) {
 
 Any idea what's going on here? Kieran was kind enough to let me do a live debugging session with him and record it. [Here's the walk-through.](https://www.youtube.com/watch?v=tQqe9eLppcw)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tQqe9eLppcw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/tQqe9eLppcw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 **The short version:** the event was also detecting hover events on the parent `document` object, which has no `matches()` method.
 

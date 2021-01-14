@@ -13,4 +13,4 @@ A few folks have told that they really enjoy videos of me just coding stuff in r
 
 Below is a video of me building a little tip calculator with vanilla JS. You can [check out the completed source code on GitHub](https://gist.github.com/cferdinandi/a9040300b1194f5ffa26ab2d6919525c).
 
-<iframe src="https://player.vimeo.com/video/307286487?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/307286487?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>

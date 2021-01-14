@@ -32,6 +32,6 @@ I used to *suck* at public speaking, and slideware in particular. School and cor
 
 Everything I know about good slide design I learned from [Garr Reynolds and his amazing book/talk, *Presentation Zen*](https://www.amazon.com/gp/product/0321811984?ie=UTF8&camp=1789&creativeASIN=0321811984&linkCode=xm2&tag=presentatio00-20). The book is great, but [Garr gave a Google Talk (available on YouTube)](https://www.youtube.com/watch?v=DZ2vtQCESpk) that I think is actually a better intro to the subject.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DZ2vtQCESpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/DZ2vtQCESpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 If you care about spreading your ideas, take the hour to watch the whole thing. It's well worth it!

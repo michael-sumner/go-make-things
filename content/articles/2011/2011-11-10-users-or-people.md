@@ -13,4 +13,4 @@ That's why we think a successful site is one that makes real people's lives easi
 
 From the <a href="http://37signals.com/manifesto">37 Signals Manifesto</a>. Check out 37 Signals founder Jason Fried at <a href="http://vimeo.com/28150404">Creative Mornings Chicago...</a>
 
-<iframe class="alignc" src="https://player.vimeo.com/video/28150404" width="560" height="315" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" src="https://player.vimeo.com/video/28150404" width="560" height="315" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe></div>

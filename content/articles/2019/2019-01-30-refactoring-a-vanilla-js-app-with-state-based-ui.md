@@ -18,7 +18,7 @@ One of my students mentioned that he would like to see a video of me refactoring
 
 [Here's the video.](https://www.youtube.com/watch?v=JrNulEm7GQ0)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JrNulEm7GQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/JrNulEm7GQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 And here are the related assets:
 

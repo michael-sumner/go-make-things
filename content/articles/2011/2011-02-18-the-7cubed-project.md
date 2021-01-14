@@ -15,7 +15,7 @@ They came up with some cool stuff (and at least <a href="http://7cubedproject.co
 
 <a href="https://www.youtube.com/watch?v=ObRLASu8OBE">Here's a short video about the project...</a>
 
-<p align="center"><iframe title="YouTube video player" width="560" height="349" src="https://www.youtube.com/embed/ObRLASu8OBE?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe title="YouTube video player" width="560" height="349" src="https://www.youtube.com/embed/ObRLASu8OBE?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 
 Learn more at the <a href="http://7cubedproject.com/">7Cubed Project</a>.
 

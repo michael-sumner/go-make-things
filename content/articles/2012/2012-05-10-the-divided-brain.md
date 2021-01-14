@@ -12,4 +12,4 @@ That said, the brain is most certainly split into two hemispheres that control h
 
 This fantastic RSAnimate video of renowned psychiatrist and writer Iain McGilchrist explains how <a href="https://www.youtube.com/watch?v=dFs9WO2B8uI">our "divided brain"</a> has profoundly altered human behavior, culture and society. Check it out...
 
-<iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/dFs9WO2B8uI?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/dFs9WO2B8uI?rel=0" frameborder="0" allowfullscreen></iframe></div>

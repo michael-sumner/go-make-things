@@ -10,4 +10,4 @@ This <a href="https://www.youtube.com/watch?v=SGxKhUuZ0Rc">hilarious Siri Scotla
 
 I love my iPhone, but even in American english Siri doesn't know what I'm saying half the time. It's actually gotten worse over the last month or two.
 
-<iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/SGxKhUuZ0Rc?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="560" height="315" src="https://www.youtube.com/embed/SGxKhUuZ0Rc?rel=0" frameborder="0" allowfullscreen></iframe></div>

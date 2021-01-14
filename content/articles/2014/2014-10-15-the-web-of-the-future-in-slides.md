@@ -16,13 +16,13 @@ As a companion piece, I wanted to share the slides from a few of the talks that 
 
 In what was one of the most engaging talks I've had the pleasure of seeing, James Williamson of Lynda.com rewrote his talk the night before to reflect broadly on [his thinking about a web built for everyone](http://www.slideshare.net/jameswillweb/everyone-39758731). The slides don't do justice to seeing James deliver this.
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/39758731?rel=0" width="512" height="421" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe>
+<div class="fluid-vids"><iframe src="//www.slideshare.net/slideshow/embed_code/39758731?rel=0" width="512" height="421" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe></div>
 
 ## The Emerging Global Web
 
 I've been using Stephanie Rieger's data for years to persuade clients about the importance of progressively enhanced, device-agnostic web design. Seeing her deliver this talk on [emerging global trends in web use](http://www.slideshare.net/yiibu/the-emerging-global-web) was a delight.
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/33272498?rel=0" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe>
+<div class="fluid-vids"><iframe src="//www.slideshare.net/slideshow/embed_code/33272498?rel=0" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe></div>
 
 ## Designing for the internet of things
 

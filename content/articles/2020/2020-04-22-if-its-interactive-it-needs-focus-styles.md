@@ -18,6 +18,6 @@ Not everyone who uses a keyboard to navigate the web is visually impaired or use
 
 My friend Eric Bailey gives a wonderful talk on focus styles, and how they don't _have_ to be ugly, called ["If it's interactive, it needs focus styles."](https://youtu.be/GlraTkcp6Ls?t=1149) Here he is sharing his talk at A11Y Chicago.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GlraTkcp6Ls?start=1149" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/GlraTkcp6Ls?start=1149" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 You can see more of Eric's work at [ericwbailey.design](https://ericwbailey.design/).

@@ -17,7 +17,7 @@ Today, I'm converting [the Vue.js markdown editor demo](https://vuejs.org/v2/exa
 
 If you want, you can [watch me code this project](https://vimeo.com/475073143).
 
-<iframe src="https://player.vimeo.com/video/475073143?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/475073143?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 You can also [download the source code on GitHub](https://gist.github.com/cferdinandi/81e666a602f6b5fe2aa0cffd6e31b6ab).
 

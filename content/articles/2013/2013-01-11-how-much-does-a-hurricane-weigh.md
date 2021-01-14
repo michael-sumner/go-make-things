@@ -10,6 +10,6 @@ Did you know that an average puffy white cloud contains about 216,000 pounds of 
 
 So, how much does a hurricane weigh? Find out in this <a href="https://vimeo.com/15395389">short animated video from NPR...</a>
 
-<iframe src="https://player.vimeo.com/video/15395389?color=EB6933" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/15395389?color=EB6933" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
 If you liked this, you might also enjoy <a href="https://gomakethings.com/ants-that-count/">Ants That Count</a> and <a href="https://gomakethings.com/why-cant-humans-walk-straight/">Why can't humans walk straight?</a>, also from NPR.

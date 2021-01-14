@@ -8,7 +8,7 @@ title: Steal like a Panda
 
 In [How To Steal Like A Panda: Desiigner's Future Heist](https://youtu.be/tPOHbl4zTSs?t=2m11s), Noisy Images argues that mumble rap is akin to scat singing from the jazz era.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tPOHbl4zTSs?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/tPOHbl4zTSs?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 Jump to the 2 minute mark to see the comparison (and a dope video of Louis Armstrong).
 

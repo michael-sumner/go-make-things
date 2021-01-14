@@ -10,7 +10,7 @@ So many people in the US, myself included, take for granted the immense amount o
 
 If you don't want to sit through all three minutes, jump to the 1:25 mark and watch protesters stand down Egyptian riot police and water cannons.
 
-<p align="center"><iframe title="YouTube video player" class="youtube-player" type="text/html" width="480" height="390" src="https://www.youtube.com/embed/kWr6MypZ-JU?rel=0" frameborder="0" allowFullScreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe title="YouTube video player" class="youtube-player" type="text/html" width="480" height="390" src="https://www.youtube.com/embed/kWr6MypZ-JU?rel=0" frameborder="0" allowFullScreen></iframe></div></p>
 
 It's amazing to think that just a generation ago black people in this country were blasted with water cannons because they understood that separate is never equal. It's amazing to think that right now gays and lesbians in this country still don't have equal rights under the law.
 

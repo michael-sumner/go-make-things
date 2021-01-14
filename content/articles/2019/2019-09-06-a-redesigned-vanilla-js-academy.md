@@ -24,7 +24,7 @@ But, if you [sign up for updates on the Academy website](https://vanillajsacadem
 
 So what's different? A lot!
 
-<iframe src="https://player.vimeo.com/video/358304328?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/358304328?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 The Vanilla JS Academy is a project-based training program designed to help you learn to solve problems and think in JS. 
 

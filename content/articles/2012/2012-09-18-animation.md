@@ -12,7 +12,7 @@ A few awesome hip-hop routines sucked me in, but I've since discovered that I ap
 
 This season, Cyrus "Glitch" Spencer brought a style known as "animation" to the show. It's jaw-dropping. <a href="https://www.youtube.com/watch?v=T8-idNxPAnI">Check it out...</a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T8-idNxPAnI" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/T8-idNxPAnI" frameborder="0" allowfullscreen></iframe></div>
 
 <del datetime="2012-09-19T19:02:41+00:00">(<em>Cyrus is the top 4, and we find out wins tonight. If you want to see some amazing performances, check it out!</em>)</del>
 

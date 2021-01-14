@@ -12,4 +12,4 @@ Phil's premise: If you care about the craft of writing good code, than you shoul
 
 It's a bit long, but it's worth watching the whole thing.
 
-<iframe src="https://player.vimeo.com/video/53317254" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/53317254" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>

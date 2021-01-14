@@ -12,7 +12,7 @@ categories:
 - Web Performance
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OikwaVcdHG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/OikwaVcdHG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 > The work that we're paid to do requires us to build boringly usable things.
 

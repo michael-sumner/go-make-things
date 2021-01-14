@@ -7,7 +7,7 @@ title: Mankind is no island
 
 First, <a href="https://www.youtube.com/watch?v=ZrDxe9gK8Gk">watch this video</a>:
 
-<iframe class="alignc" width="480" height="360" src="https://www.youtube.com/embed/ZrDxe9gK8Gk?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="480" height="360" src="https://www.youtube.com/embed/ZrDxe9gK8Gk?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 This video got me thinking… not necessarily about anything I’ve not thought about before, but the imagery is powerful.
 

@@ -24,4 +24,4 @@ Growing up, I used to play [the game War](https://en.wikipedia.org/wiki/War_(car
 
 [Watch me code in the video below](https://vimeo.com/500508552). You can [download the source code on GitHub](https://gist.github.com/cferdinandi/348f172fa31b6c16538789c86be4d962).
 
-<iframe src="https://player.vimeo.com/video/500508552?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/500508552?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>

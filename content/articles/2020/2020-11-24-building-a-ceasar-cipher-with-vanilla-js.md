@@ -17,6 +17,6 @@ I wanted to try Kirupa's project my own way. I also added a "multi-pass" feature
 
 [Watch me code this project.](https://vimeo.com/483130171)
 
-<iframe src="https://player.vimeo.com/video/483130171?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/483130171?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 [You can find the source code on GitHub.](https://gist.github.com/cferdinandi/01e058031441971b6268a6b4a6cf5cb0) And don't forget to go read Kirupa's original article for more background and details.

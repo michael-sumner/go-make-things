@@ -13,4 +13,4 @@ What if I told you there was a way for you to save a life this holiday season, a
 
 Want to get involved? <a href="http://www.pawsnewengland.com/foster-a-lonely-pet-for-the-holidays/">Click here to learn more...</a>
 
-<iframe class="alignc" width="480" height="360" src="https://www.youtube.com/embed/rDWZXDKvc5E?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe class="alignc" width="480" height="360" src="https://www.youtube.com/embed/rDWZXDKvc5E?rel=0" frameborder="0" allowfullscreen></iframe></div>

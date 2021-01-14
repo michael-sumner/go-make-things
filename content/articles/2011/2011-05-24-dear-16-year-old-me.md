@@ -10,6 +10,6 @@ title: Dear 16-Year-Old Me
 
 Share it with everyone you know.
 
-<p align="center"><iframe width="560" height="349" src="https://www.youtube.com/embed/_4jgUcxMezM?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe width="560" height="349" src="https://www.youtube.com/embed/_4jgUcxMezM?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 
 <em>Hat tip to <a href="http://curiositycounts.com/post/5351417559/dear-16-year-old-me-wonderful-skin-cancer">Curiosity Counts</a></em>

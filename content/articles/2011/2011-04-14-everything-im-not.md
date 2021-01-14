@@ -9,4 +9,4 @@ title: Everything I&#8217;m Not&#8230;
 
 - Kanye West, "Everything I Am"</blockquote>
 
-<p align="center"><iframe title="YouTube video player" width="425" height="349" src="https://www.youtube.com/embed/CJs-KYWHOwo?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe title="YouTube video player" width="425" height="349" src="https://www.youtube.com/embed/CJs-KYWHOwo?rel=0" frameborder="0" allowfullscreen></iframe></div></p>

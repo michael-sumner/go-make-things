@@ -12,7 +12,7 @@ Back in 2017, Adrian Holovaty gave a talk a DotJS titled, "[A framework author's
 
 I just game across it for the first time the other day, and found myself nodding vigorously throughout the whole thing.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VvOsegaN9Wk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/VvOsegaN9Wk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 The tl;dr: over time, they become a big collection of patch-fixes and feature enhancements for a variety of needs and edge cases that likely don't reflect your own.
 

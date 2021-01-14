@@ -19,7 +19,7 @@ I have variant rules that use simple six-sided dice, but today, I thought I'd cr
 
 You can [watch me code](https://vimeo.com/466183904), or read how I did it below.
 
-<iframe src="https://player.vimeo.com/video/466183904?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/466183904?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 ## Creating a digital dice rolling app
 

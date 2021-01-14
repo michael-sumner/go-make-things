@@ -8,7 +8,7 @@ title: The Cycle of Love
 
 If you live in the US, you've probably seen that new Verizon commercial where <a href="https://www.youtube.com/watch?v=iG2DRiQt1b0">the guy rides his bike around San Francisco in the shape of a heart</a>, tracks it with a smartphone app, and sends the resulting image to his girlfriend.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iG2DRiQt1b0?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/iG2DRiQt1b0?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 Turns out, that's a true story, and the guy in the ad is actually the guy who did it. <a href="http://www.npr.org/blogs/krulwich/2013/02/13/171902975/guy-pumps-out-a-valentine-literally">From NPR...</a>
 <!--more-->

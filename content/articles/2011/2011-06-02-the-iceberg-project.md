@@ -12,6 +12,6 @@ French engineer Georges Mougin wants to drag an iceberg from Greenland to the Mi
 
 <a href="https://www.youtube.com/watch?v=opChLhLMFmU">Here's a two-minute overview of the project...</a>
 
-<p align="center"><iframe width="560" height="349" src="https://www.youtube.com/embed/opChLhLMFmU?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><div class="fluid-vids"><iframe width="560" height="349" src="https://www.youtube.com/embed/opChLhLMFmU?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 
 <em>Learn more at <a href="http://www.fastcompany.com/1755444/tugboat-vs-iceberg-video">FastCompany.com</a></em>

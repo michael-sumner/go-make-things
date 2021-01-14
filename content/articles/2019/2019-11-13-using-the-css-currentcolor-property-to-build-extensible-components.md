@@ -10,7 +10,7 @@ categories:
 
 Today, I wanted to share a fun little CSS trick I picked up from [this awesome video from Steve Griffith](https://www.youtube.com/watch?v=DznpOT2T5AY).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DznpOT2T5AY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/DznpOT2T5AY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 In the video, Steve shares how you can use the `currentColor` CSS property to have any other property that uses a color pick up the current `color` value of the element you're styling. If no `color` is set, it inherits that value from up the DOM tree.
 

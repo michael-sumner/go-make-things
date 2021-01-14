@@ -9,7 +9,7 @@ title: The Kindness Initiative
 
 I absolutely loved [this video from Kindness.org](https://www.youtube.com/watch?v=OBqfKUWaku8):
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OBqfKUWaku8?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/OBqfKUWaku8?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 Want to get involved?
 
