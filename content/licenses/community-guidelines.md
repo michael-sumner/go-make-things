@@ -50,7 +50,7 @@ Be respectful of other people, respectfully ask people to stop if you are bother
 
 The Vanilla JS Slack is an intentionally positive community that recognizes and celebrates the creativity and collaboration of independent members and the diversity of skills, talents, experiences, cultures, and opinions that they bring to our community.
 
-The Vanilla JS Slack is an inclusive environment, based on treating all individuals respectfully, regardless of gender or gender identity (including nonbinary or transgender status), sexual orientation, age, disability, nationality, ethnicity, religion (or lack thereof), or career path.
+The Vanilla JS Slack is an inclusive environment, based on treating all individuals respectfully, regardless of gender or gender identity (including nonbinary or transgender status), sexual orientation, age, disability, nationality, native language, ethnicity, religion (or lack thereof), or career path.
 
 We value respectful behavior above individual opinions. Respectful behavior includes:
 
