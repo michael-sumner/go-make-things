@@ -82,10 +82,9 @@ We can’t foresee every situation, and thus if in the administrator's judgment 
 
 #### Administrators
 
-The administrator(s) of the Vanilla JS Slack Community as of December 12, 2016:
+The administrator(s) of the Vanilla JS Slack Community as of January 18, 2021:
 
 - Chris Ferdinandi - {{<email>}}
-- Kieran Barker - [&#107;&#105;&#101;&#114;&#097;&#110;&#098;&#097;&#114;&#107;&#101;&#114;&#064;&#111;&#117;&#116;&#108;&#111;&#111;&#107;&#046;&#099;&#111;&#109;](mailto:&#107;&#105;&#101;&#114;&#097;&#110;&#098;&#097;&#114;&#107;&#101;&#114;&#064;&#111;&#117;&#116;&#108;&#111;&#111;&#107;&#046;&#099;&#111;&#109;)
 
 ## No Trump Policy
 
