@@ -54,6 +54,16 @@ We value respectful behavior above individual opinions. Respectful behavior incl
 - If you’re not sure, ask someone instead of assuming. No, really. Just ask the administrators. We’d rather hear from you than hear about something you said or did after the fact, and we are here to help.
 - Don’t be a bystander. Role model respectful behavior, but also help to address disrespect when you see it.
 
+#### Inclusion
+
+We believe that you end up with the community that you deserve.
+
+As a community we may disagree on things like whether or not arrow functions are good, or what the best Pixar movie is. This is normal and healthy.
+
+One thing that will not be tolerated, however, is intolerance. Racism, sexism, homophobic, transphobia, and other forms of bigotry and intolerance have no place in our community.
+
+**If you hold these views, you cannot join the Vanilla JS Slack.**
+
 #### Resolve Peacefully
 
 We believe peer-to-peer discussions, feedback, and corrections can help build a stronger, safer, and more welcoming community.
@@ -86,20 +96,5 @@ The administrator(s) of the Vanilla JS Slack Community as of January 18, 2021:
 
 - Chris Ferdinandi - {{<email>}}
 
-## No Trump Policy
-
-**To support President Trump is to inherently violate the terms of the the Code of Conduct.**
-
-Trump and his campaign are racist, sexist, anti-disability, anti-LGBTQ, and anti-international. Throughout his campaign and presidency he has mocked people different from him, treating people he deems inferior with cruelty and contempt.
-
-We have many wonderful students with diverse backgrounds, ethnicities, gender identities, and sexual orientations. We have students from countries that President Trump vilifies.
-
-**To support Trump is to risk making those students feel uncomfortable, unwelcome, or unsafe, and that is unacceptable to me.**
-
-We believe that you end up with the community that you deserve.
-
-We love this community, and wonderful, supportive group we’ve become. We believe our job is to make sure it remains a place where people can be themselves, grow, and learn.
-
-**As a result, Trump supporters cannot join the Vanilla JS Slack.**
 
 <div class="padding-top-large text-muted text-small">Many thanks to <a href="http://randsinrepose.com/welcome-to-rands-leadership-slack/">Michael Lopp of Rands in Repose</a> for influencing these guidelines.</div>
