@@ -14,7 +14,8 @@ The following guidelines are intended to make the community easier and more enjo
 1. [Getting Started](#getting-started)
 2. [A Few Details](#a-few-details)
 3. [Code of Conduct](#code-of-conduct)
-4. [No Trump Policy](#no-trump-policy)
+
+
 
 ## Getting Started
 
@@ -26,12 +27,16 @@ The following guidelines are intended to make the community easier and more enjo
 6. All are welcome to contribute regardless of their experience or skill level. If you want to hang back and lurk, that’s cool, too.
 7. We expect that we’ll treat others with respect. We encourage debate; we ask for patience, and we remind you that you’re here to learn and that means being open a diverse set of ideas. See the [Code of Conduct](#code-of-conduct) below.
 
+
+
 ## A Few Details
 
 - To foster more accountability for what people post, no anonymous display names are allowed.
 - No one has signed an NDA to participate in this Slack, and you should not presume anything you say here will remain private, so act accordingly. Protect IP and legally-protected information.
 - If you want to publicly disclose anything discussed here, use [Chatham House Rule](https://www.chathamhouse.org/about/chatham-house-rule) as the guideline ("participants are free to use the information received, but neither the identity nor the affiliation of the speaker(s), nor that of any other participant, may be revealed").
 - Membership in this Slack Team is a privilege, not a right, and you can be kicked out at any time. See the [Code of Conduct](#code-of-conduct) below.
+
+
 
 ## Code of Conduct
 
