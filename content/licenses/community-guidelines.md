@@ -65,7 +65,7 @@ We believe that you end up with the community that you deserve.
 
 As a community we may disagree on things like whether or not arrow functions are good, or what the best Pixar movie is. This is normal and healthy.
 
-**However, racism, sexism, homophobic, transphobia, and other forms of bigotry and intolerance have no place in our community. If you hold these views, you cannot join the Vanilla JS Slack.**
+**However, racism, sexism, homophobia, transphobia, and other forms of bigotry and intolerance have no place in our community. If you hold these views, you cannot join the Vanilla JS Slack.**
 
 #### Resolve Peacefully
 
