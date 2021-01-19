@@ -3,19 +3,8 @@ title: "The spread syntax operator in vanilla JS"
 date: 2021-01-19T10:30:00-05:00
 draft: false
 categories:
-- Accessibility
-- Art and Science
-- Business and Leadership
-- Careers
 - Code
-- CSS
-- Design and UX
-- HTML
 - JavaScript
-- Technology
-- Web Performance
-- WordPress
-- Vanilla Framework Demos
 ---
 
 One modern JS feature that I found super confusing a long time is the spread syntax operator. It's one of those things that's really simple, really powerful, and definitely overused.
@@ -118,3 +107,9 @@ let moreRadagast = {...radagast1, ...radagast2};
 I personally prefer to use methods like `Array.from()`, `Array.concat()`, and `Object.assign()` over the spread operator for things like this. I find that it makes the intent of your code more clear and obvious.
 
 But you will see this approach used in code, so it's worth understanding how it works.
+
+## Browser Compatibility
+
+The spread syntax works in all modern browsers, but not IE. It cannot be polyfilled.
+
+However, with [Microsoft dropping support for IE in their own web apps this summer](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666), I'm ready to do that same.
