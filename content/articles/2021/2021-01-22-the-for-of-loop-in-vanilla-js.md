@@ -21,13 +21,13 @@ It's more-or-less like the `for...in` loop for iterative over objects, but for e
 
 ## How it works
 
-In a `for...of` of loop, you define a _variable_ to represent the current item `of` the iterable you're looping through. Inside the _block_ (the stuff between curly brackets), you can use that variable to reference the current item.
+In a `for...of` loop, you define a _variable_ to represent the current item `of` the iterable you're looping through. Inside the _block_ (the stuff between curly brackets), you can use that variable to reference the current item.
 
 ```js
 let wizards = ['Gandalf', 'Radagst', 'Hermione', 'Neville'];
 
+// logs "Gandalf", "Radagast", "Hermione", "Neville"
 for (let wizard of wizards) {
-	// logs the current wizard in the loop
 	console.log(wizard);
 }
 ```
