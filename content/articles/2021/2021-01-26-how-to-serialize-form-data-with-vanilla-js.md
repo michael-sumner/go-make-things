@@ -150,3 +150,5 @@ let data = new FormData(form);
 // Convert to an object
 let formObj = serialize(data);
 ```
+
+Tomorrow, we'll look at how to submit our serialized data to an API.
