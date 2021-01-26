@@ -2,6 +2,7 @@
 title: "How to serialize form data with vanilla JS"
 date: 2018-10-29T10:30:00-04:00
 draft: false
+url: "/how-to-serialize-form-data-with-vanilla-js-original/"
 categories:
 - Code
 - JavaScript
