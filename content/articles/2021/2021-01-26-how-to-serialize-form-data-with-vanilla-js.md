@@ -119,6 +119,8 @@ let queryString = new URLSearchParams(data).toString();
 
 To serialize a `FormData` object into a plain object, we need to loop through each entry with a `for...of` loop and add it to an object.
 
+_**UPDATE:** There's an easier way to do this [with the `Object.fromEntries()` method](/the-object.fromentries-method-in-vanilla-js/)._
+
 ```js
 let obj = {};
 for (let [key, value] of data) {
@@ -151,4 +153,17 @@ let data = new FormData(form);
 let formObj = serialize(data);
 ```
 
-Tomorrow, we'll look at how to submit our serialized data to an API.
+**UPDATE:** Using the `Object.fromEntries()` method, you can do this instead. [Requires a polyfill for some popular mobile browsers.](https://vanillajstoolkit.com/polyfills/objectentriesfrom/)
+
+```js
+// Get the form
+let form = document.querySelector('#post');
+
+// Get all field data from the form
+let data = new FormData(form);
+
+// Convert to an object
+let formObj = Object.fromEntries(data);
+```
+
+[Learn more about the `Object.fromEntries()` method here.](/the-object.fromentries-method-in-vanilla-js/)
