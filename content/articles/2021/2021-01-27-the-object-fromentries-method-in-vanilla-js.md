@@ -37,7 +37,7 @@ The `Object.fromEntries()` method works in all modern desktop browsers, but _not
 
 That might not seem like a bit deal, but Samsung Internet represents anywhere from 2.5% to 6.5% of total browser share. That's potentially more than Firefox!
 
-Fortunately, [there's a polyfill you can use](https://vanillajstoolkit.com/polyfills/objectentriesfrom/).
+Fortunately, [there's a polyfill you can use](https://vanillajstoolkit.com/polyfills/objectfromentries/).
 
 ```js
 /**
@@ -45,8 +45,8 @@ Fortunately, [there's a polyfill you can use](https://vanillajstoolkit.com/polyf
  * @author Chris Ferdinandi
  * @license MIT
  */
-if (!Object.entriesFrom) {
-	Object.entriesFrom = function (entries){
+if (!Object.fromEntries) {
+	Object.fromEntries = function (entries){
 		if (!entries || !entries[Symbol.iterator]) { throw new Error('Object.fromEntries() requires a single iterable argument'); }
 		let obj = {};
 		for (let [key, value] of entries) {
@@ -57,6 +57,10 @@ if (!Object.entriesFrom) {
 }
 ```
 
-I had originally responded to a few folks that I would personally _not_ use `Object.fromEntries()` until mobile browser support is better.
+**UPDATE:** There's a big limitation with the `Object.fromEntries()` approach. If your form has multiple fields with the same name, only the last one will be included in the object. With a traditional server-based form submission, those items would be submitted as an array of values.
 
-But after thinking about it more, I'd recommend using it today with a polyfill. The great thing about polyfills is that when browser support gets better, you can rip them out without having to refactor code.
+Because of this, I still recommend [using a `serialize()` helper function instead](/how-to-serialize-form-data-with-vanilla-js/).
+
+~~I had originally responded to a few folks that I would personally _not_ use `Object.fromEntries()` until mobile browser support is better.~~
+
+~~But after thinking about it more, I'd recommend using it today with a polyfill. The great thing about polyfills is that when browser support gets better, you can rip them out without having to refactor code.~~

@@ -7,6 +7,8 @@ categories:
 - JavaScript
 ---
 
+_**UPDATE:** This article was updated to account for forms with multiple fields that have the same name._
+
 Historically, getting data from a form into a format you could send to an API was a bit difficult, but modern techniques make it a lot easier.
 
 ## The FormData object
@@ -119,12 +121,26 @@ let queryString = new URLSearchParams(data).toString();
 
 To serialize a `FormData` object into a plain object, we need to loop through each entry with a `for...of` loop and add it to an object.
 
-_**UPDATE:** There's an easier way to do this [with the `Object.fromEntries()` method](/the-object.fromentries-method-in-vanilla-js/)._
-
 ```js
 let obj = {};
 for (let [key, value] of data) {
 	obj[key] = value;
+}
+```
+
+But, if there's more one form field with the same name, the original value will get overwritten. To account for this, we need to check if the `key` already exists in the `obj`. If it does, we want to convert it to an array and `Array.push()` the new `value` into it.
+
+```js
+let obj = {};
+for (let [key, value] of data) {
+	if (obj[key] !== undefined) {
+		if (!Array.isArray(obj[key])) {
+			obj[key] = [obj[key]];
+		}
+		obj[key].push(value);
+	} else {
+		obj[key] = value;
+	}
 }
 ```
 
@@ -134,7 +150,14 @@ Here's a helper function you can use to convert a `FormData` object into a plain
 function serialize (data) {
 	let obj = {};
 	for (let [key, value] of data) {
-		obj[key] = value;
+		if (obj[key] !== undefined) {
+			if (!Array.isArray(obj[key])) {
+				obj[key] = [obj[key]];
+			}
+			obj[key].push(value);
+		} else {
+			obj[key] = value;
+		}
 	}
 	return obj;
 }
@@ -152,18 +175,3 @@ let data = new FormData(form);
 // Convert to an object
 let formObj = serialize(data);
 ```
-
-**UPDATE:** Using the `Object.fromEntries()` method, you can do this instead. [Requires a polyfill for some popular mobile browsers.](https://vanillajstoolkit.com/polyfills/objectentriesfrom/)
-
-```js
-// Get the form
-let form = document.querySelector('#post');
-
-// Get all field data from the form
-let data = new FormData(form);
-
-// Convert to an object
-let formObj = Object.fromEntries(data);
-```
-
-[Learn more about the `Object.fromEntries()` method here.](/the-object.fromentries-method-in-vanilla-js/)
