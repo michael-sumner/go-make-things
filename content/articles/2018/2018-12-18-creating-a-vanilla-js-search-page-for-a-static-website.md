@@ -9,6 +9,8 @@ categories:
 - Web Performance
 ---
 
+_**This article was updated on February 11, 2021.** I switched to Duck Duck Go as the fallback search engine, and fixed a bug in the regex pattern used to match articles._
+
 One of the biggest missing features from most static site generators (like [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), and [Eleventy](https://www.11ty.io/)) is that they lack built-in search.
 
 Database-driven platforms like WordPress make a server call and search the database to find matching content. Static websites have no database to query.
@@ -21,21 +23,22 @@ Today, I'm going to show you how you can use a little vanilla JS to add search t
 
 Since this solution depends on JavaScript, we should provide a base-level experience that works without it.
 
-The easiest way to do that is to create a form that sends people to Google when they submit their search terms.
+The easiest way to do that is to create a form that sends people to Duck Duck Go (DDG) when they submit their search terms.
 
-Let's create a form with an action of `https://www.google.com/search`. That will redirect people to Google on submit. We'll add a search input with a name of `q`, which is the query string key Google uses for search queries.
+Let's create a form with an action of `https://duckduckgo.com/`. That will redirect people to DDG on submit. We'll add a search input with a name of `q`, which is the query string key DDG uses for search queries.
 
-If you use the `site:your-domain.com` operator in Google, it will restrict search results to your domain. We'll add that to the field `value` by default.
+We can also add a `hidden` field with a `name` of `sites`. If you use your domain as the `value`, it will restrict search results to your domain.
 
 ```html
 <form action="https://www.google.com/search" id="form-search">
 	<label for="input-search">Enter your search criteria:</label>
-	<input type="text" name="q" id="input-search" value=" site:your-domain.com">
+	<input type="text" name="q" id="input-search">
+	<input type="hidden" name="sites" value="your-domain.com">
 	<button id="submit-search">Search</button>
 </form>
 ```
 
-Now you have a simple form that will search your site on Google. Let's transform this into a native search field once our JS loads.
+Now you have a simple form that will search your site on Duck Duck Go. Let's transform this into a native search field once our JS loads.
 
 ## Creating a search index
 
@@ -46,7 +49,7 @@ The process for this varies from one static site generator to another, but the e
 Some people create an external JSON file for this, but I prefer to embed it as a JavaScript variable directly on the search page. it looks like this:
 
 ```js
-var searchIndex = [
+let searchIndex = [
 	{
 		title: "My awesome article",
 		date: "December 18, 2018",
@@ -73,10 +76,8 @@ In the markup, let's add an empty container with an id of `#search-results`. Thi
 Let's create an [IIFE](https://vanillajstoolkit.com/boilerplates/iife/iife/) to scope our code.
 
 ```js
-;(function (window, document, undefined) {
-
-	'use strict';
-
+(function (window, document, undefined) {
+	// Code goes here...
 })(window, document);
 ```
 
@@ -85,17 +86,15 @@ Let's also look for our search form, input, and the container for our search res
 If they don't exist, we can bail and do nothing.
 
 ```js
-;(function (window, document, undefined) {
-
-	'use strict';
+(function (window, document, undefined) {
 
 	//
 	// Variables
 	//
 
-	var form = document.querySelector('#form-search');
-	var input = document.querySelector('#input-search');
-	var resultList = document.querySelector('#search-results');
+	let form = document.querySelector('#form-search');
+	let input = document.querySelector('#input-search');
+	let resultList = document.querySelector('#search-results');
 
 
 	//
@@ -104,53 +103,6 @@ If they don't exist, we can bail and do nothing.
 
 	// Make sure required content exists
 	if (!form || !input || !resultList || !searchIndex) return;
-
-})(window, document);
-```
-
-### Setting up the search form
-
-We've already got a search form on the page, but it has `site:your-domain.com` in the search field.
-
-Once our script loads, we don't need or want that there anymore, so we need to remove it. We *could* just set the `input.value` to an empty string, but if the user started typing before our script ran that would wipe out whatever they typed.
-
-Instead, we'll use the `String.replace()` method to replace ` site:your-domain.com` with an empty string.
-
-```js
-;(function (window, document, undefined) {
-
-	'use strict';
-
-	//
-	// Variables
-	//
-
-	var form = document.querySelector('#form-search');
-	var input = document.querySelector('#input-search');
-	var resultList = document.querySelector('#search-results');
-
-
-	//
-	// Methods
-	//
-
-	/**
-	 * Remove site: from the input
-	 */
-	var clearInput = function () {
-		input.value = input.value.replace(' site:your-domain.com', '');
-	};
-
-
-	//
-	// Inits & Event Listeners
-	//
-
-	// Make sure required content exists
-	if (!form || !input || !resultList || !searchIndex) return;
-
-	// Remove site: from the input
-	clearInput();
 
 })(window, document);
 ```
@@ -171,11 +123,8 @@ We'll pass in a `submitHandler` function as a callback.
 // Make sure required content exists
 if (!form || !input || !resultList || !searchIndex) return;
 
-// Remove site: from the input
-clearInput();
-
 // Create a submit handler
-form.addEventListener('submit', submitHandler, false);
+form.addEventListener('submit', submitHandler);
 ```
 
 In the `submitHandler` function, we'll pass in the `event` as an argument.
@@ -190,16 +139,9 @@ We'll run `event.preventDefault()` to prevent the from submitting to Google. The
 /**
  * Handle submit events
  */
-var submitHandler = function (event) {
+let submitHandler = function (event) {
 	event.preventDefault();
 	search(input.value);
-};
-
-/**
- * Remove site: from the input
- */
-var clearInput = function () {
-	input.value = input.value.replace(' site:your-domain.com', '');
 };
 ```
 
@@ -216,10 +158,10 @@ We'll create a `new RegExp()` with our `query`. We'll also use the `g` and `i` f
  * Search for matches
  * @param  {String} query The term to search for
  */
-var search = function (query) {
+let search = function (query) {
 
 	// Variables
-	var reg = new RegExp(query, 'gi');
+	let reg = new RegExp(query, 'gi');
 
 };
 ```
@@ -231,12 +173,12 @@ We also want to give higher priority to articles with the search term in the tit
  * Search for matches
  * @param  {String} query The term to search for
  */
-var search = function (query) {
+let search = function (query) {
 
 	// Variables
-	var reg = new RegExp(query, 'gi');
-	var priority1 = [];
-	var priority2 = [];
+	let reg = new RegExp(query, 'gi');
+	let priority1 = [];
+	let priority2 = [];
 
 };
 ```
@@ -252,12 +194,12 @@ Then we'll use the `Array.concat()` method to push both arrays into a new array 
  * Search for matches
  * @param  {String} query The term to search for
  */
-var search = function (query) {
+let search = function (query) {
 
 	// Variables
-	var reg = new RegExp(query, 'gi');
-	var priority1 = [];
-	var priority2 = [];
+	let reg = new RegExp(query, 'gi');
+	let priority1 = [];
+	let priority2 = [];
 
 	// Search the content
 	searchIndex.forEach(function (article) {
@@ -266,7 +208,7 @@ var search = function (query) {
 	});
 
 	// Combine the results into a single array
-	var results = [].concat(priority1, priority2);
+	let results = [].concat(priority1, priority2);
 
 };
 ```
@@ -284,12 +226,12 @@ If the `results` array has no items in it (as in, if it has a `length` of less t
  * Search for matches
  * @param  {String} query The term to search for
  */
-var search = function (query) {
+let search = function (query) {
 
 	// Variables
-	var reg = new RegExp(query, 'gi');
-	var priority1 = [];
-	var priority2 = [];
+	let reg = new RegExp(query, 'gi');
+	let priority1 = [];
+	let priority2 = [];
 
 	// Search the content
 	searchIndex.forEach(function (article) {
@@ -298,7 +240,7 @@ var search = function (query) {
 	});
 
 	// Combine the results into a single array
-	var results = [].concat(priority1, priority2);
+	let results = [].concat(priority1, priority2);
 
 	// Display the results
 	resultList.innerHTML = results.length < 1 ? createNoResultsHTML() : createResultsHTML(results);
@@ -313,7 +255,7 @@ The `createNoResultsHTML()` function will return a simple message. You can custo
  * Create the markup when no results are found
  * @return {String} The markup
  */
-var createNoResultsHTML = function () {
+let createNoResultsHTML = function () {
 	return '<p>Sorry, no matches were found.</p>';
 };
 ```
@@ -330,8 +272,8 @@ Finally, we'll combine all of the items in the new array with the `join()` metho
  * @param  {Array} results The results to display
  * @return {String}        The results HTML
  */
-var createResultsHTML = function (results) {
-	var html = '<p>Found ' + results.length + ' matching articles</p>';
+let createResultsHTML = function (results) {
+	let html = '<p>Found ' + results.length + ' matching articles</p>';
 	html += results.map(function (article, index) {
 		return createHTML(article, index);
 	}).join('');
@@ -356,8 +298,8 @@ I also include the URL itself.
  * @param  {Number} id      The result index
  * @return {String}         The markup
  */
-var createHTML = function (article, id) {
-	var html =
+let createHTML = function (article, id) {
+	let html =
 		'<div id="search-result-' + id + '">' +
 			'<a href="' + article.url + '">' +
 				'<aside>' +
@@ -381,7 +323,7 @@ Here's the entire script. This will work in all modern browsers, and IE9 and up.
 You can see it in action on [my search page](/search).
 
 ```js
-;(function (window, document, undefined) {
+(function (window, document, undefined) {
 
 	'use strict';
 
@@ -389,9 +331,9 @@ You can see it in action on [my search page](/search).
 	// Variables
 	//
 
-	var form = document.querySelector('#form-search');
-	var input = document.querySelector('#input-search');
-	var resultList = document.querySelector('#search-results');
+	let form = document.querySelector('#form-search');
+	let input = document.querySelector('#input-search');
+	let resultList = document.querySelector('#search-results');
 
 
 	//
@@ -404,8 +346,8 @@ You can see it in action on [my search page](/search).
 	 * @param  {Number} id      The result index
 	 * @return {String}         The markup
 	 */
-	var createHTML = function (article, id) {
-		var html =
+	let createHTML = function (article, id) {
+		let html =
 			'<div id="search-result-' + id + '">' +
 				'<a href="' + article.url + '">' +
 					'<aside>' +
@@ -423,7 +365,7 @@ You can see it in action on [my search page](/search).
 	 * Create the markup when no results are found
 	 * @return {String} The markup
 	 */
-	var createNoResultsHTML = function () {
+	let createNoResultsHTML = function () {
 		return '<p>Sorry, no matches were found.</p>';
 	};
 
@@ -432,8 +374,8 @@ You can see it in action on [my search page](/search).
 	 * @param  {Array} results The results to display
 	 * @return {String}        The results HTML
 	 */
-	var createResultsHTML = function (results) {
-		var html = '<p>Found ' + results.length + ' matching articles</p>';
+	let createResultsHTML = function (results) {
+		let html = '<p>Found ' + results.length + ' matching articles</p>';
 		html += results.map(function (article, index) {
 			return createHTML(article, index);
 		}).join('');
@@ -444,12 +386,12 @@ You can see it in action on [my search page](/search).
 	 * Search for matches
 	 * @param  {String} query The term to search for
 	 */
-	var search = function (query) {
+	let search = function (query) {
 
 		// Variables
-		var reg = new RegExp(query, 'gi');
-		var priority1 = [];
-		var priority2 = [];
+		let reg = new RegExp(query, 'gi');
+		let priority1 = [];
+		let priority2 = [];
 
 		// Search the content
 		searchIndex.forEach(function (article) {
@@ -458,7 +400,7 @@ You can see it in action on [my search page](/search).
 		});
 
 		// Combine the results into a single array
-		var results = [].concat(priority1, priority2);
+		let results = [].concat(priority1, priority2);
 
 		// Display the results
 		resultList.innerHTML = results.length < 1 ? createNoResultsHTML() : createResultsHTML(results);
@@ -468,16 +410,9 @@ You can see it in action on [my search page](/search).
 	/**
 	 * Handle submit events
 	 */
-	var submitHandler = function (event) {
+	let submitHandler = function (event) {
 		event.preventDefault();
 		search(input.value);
-	};
-
-	/**
-	 * Remove site: from the input
-	 */
-	var clearInput = function () {
-		input.value = input.value.replace(' site:your-domain.com', '');
 	};
 
 
@@ -488,11 +423,8 @@ You can see it in action on [my search page](/search).
 	// Make sure required content exists
 	if (!form || !input || !resultList || !searchIndex) return;
 
-	// Clear the input field
-	clearInput();
-
 	// Create a submit handler
-	form.addEventListener('submit', submitHandler, false);
+	form.addEventListener('submit', submitHandler);
 
 })(window, document);
 ```
