@@ -30,7 +30,7 @@ Let's create a form with an action of `https://duckduckgo.com/`. That will redir
 We can also add a `hidden` field with a `name` of `sites`. If you use your domain as the `value`, it will restrict search results to your domain.
 
 ```html
-<form action="https://www.google.com/search" id="form-search">
+<form action="https://duckduckgo.com/" method="get" id="form-search">
 	<label for="input-search">Enter your search criteria:</label>
 	<input type="text" name="q" id="input-search">
 	<input type="hidden" name="sites" value="your-domain.com">
