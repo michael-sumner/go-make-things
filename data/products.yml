@@ -27,13 +27,13 @@ academy:
     price: "$899"
     priceAlumni: "$179"
     pricePre: "$449"
-    start: 20210111
-    end: 20210207
+    startRegistration: 20210111
+    endRegistration: 20210207
     startPre: 20210104
     endPre: 20210111
     startAcademy: "February 1"
     endAcademy: "April 11"
-    registration: "January 11"
+    registrationAcademy: "January 11"
     nextAcademy: "in late Spring"
 
 prepSchool: "$99"
