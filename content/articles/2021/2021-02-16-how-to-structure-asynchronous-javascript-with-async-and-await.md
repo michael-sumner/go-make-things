@@ -52,7 +52,7 @@ First, let's use the `await` operator with our `window.fetch()` call, and assign
 async function getArticleByID(id) {
 
 	// Get the post data
-	let post = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
+	let response = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
 
 }
 ```
