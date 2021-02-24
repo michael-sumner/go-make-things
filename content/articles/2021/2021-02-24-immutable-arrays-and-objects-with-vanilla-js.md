@@ -118,3 +118,5 @@ let moreLunch = {...lunch};
 [Here's a demo with an array](https://codepen.io/cferdinandi/pen/XWNVbdG), and [here's one with an object](https://codepen.io/cferdinandi/pen/ZEBvGpm).
 
 I personally prefer the more verbose `Array.from()` and `Object.assign()`, but many folks like the spread operator for it's brevity. I suspect I will in time as well.
+
+Tomorrow, we'll look at immutability in nested or multidimensional arrays and objects.
