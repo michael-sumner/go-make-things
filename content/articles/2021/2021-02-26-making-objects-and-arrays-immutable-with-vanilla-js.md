@@ -15,7 +15,7 @@ Today, let's look at how to prevent an object or array from being changed at all
 
 ## The `Object.freeze()` method
 
-The `Object.freeze()` method makes an object or array itself immutable. You can add, update, or delete items or properties from it.
+The `Object.freeze()` method makes an object or array itself immutable. You can't add, update, or delete items or properties from it.
 
 For example, let's say we have a `wizard` object, with `name` and `age` properties.
 
