@@ -37,7 +37,7 @@ let wizard = {
 
 [You can play around with a demo here.](https://codepen.io/cferdinandi/pen/jOVamZX)
 
-Historically, we needed to do things like `name: name`. With ES6 shorthand values, you can include the key name without the color (`:`) or value.
+Historically, we needed to do things like `name: name`. With ES6 shorthand values, you can include the key name without the colon (`:`) or value.
 
 It's pretty useful!
 
