@@ -44,7 +44,7 @@ let greeting = document.querySelector('#greeting');
 // Update the value
 greeting.setAttribute('value', 'Hello there!');
 
-// If you have made any updates to the field, these both return "Hello there!"
+// If you haven't made any updates to the field, these both return "Hello there!"
 // If you HAVE updated the field, val1 returns whatever was typed in the field instead
 let val1 = greeting.value;
 let val2 = greeting.getAttribute('value');
