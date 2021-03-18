@@ -1,6 +1,6 @@
 ---
 title: "Injecting one element after another with vanilla JS"
-date: 2021-03-17T10:30:00-04:00
+date: 2021-03-18T10:30:00-04:00
 draft: false
 categories:
 - Code
