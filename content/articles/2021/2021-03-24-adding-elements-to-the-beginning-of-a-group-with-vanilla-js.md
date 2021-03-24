@@ -12,9 +12,9 @@ Yesterday, we looked at how to add elements to the end of a group with the `Pare
 
 Let's dig in.
 
-## The `ParentNode.append()` method
+## The `ParentNode.prepend()` method
 
-The `ParentNode.append()` method lets you insert one or more elements or strings at the beginning of a set elements inside a shared parent. Call the `ParentNode.prepend()` method on the target node, and pass in one or more new elements or strings as arguments.
+The `ParentNode.prepend()` method lets you insert one or more elements or strings at the beginning of a set elements inside a shared parent. Call the `ParentNode.prepend()` method on the target node, and pass in one or more new elements or strings as arguments.
 
 For example, let’s say you had a collection of list items, like this.
 
@@ -28,7 +28,7 @@ For example, let’s say you had a collection of list items, like this.
 
 You want to create a new list item, and add to the beginning of the list.
 
-Instead of targeting the first list item and using the `Element.before()` method, you can use the `ParentNode.append()` method to add it to the beginning of the list.
+Instead of targeting the first list item and using the `Element.before()` method, you can use the `ParentNode.prepend()` method to add it to the beginning of the list.
 
 ```js
 // Create a new element
