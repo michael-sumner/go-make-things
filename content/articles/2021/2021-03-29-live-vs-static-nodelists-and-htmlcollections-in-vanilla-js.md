@@ -60,7 +60,7 @@ setTimeout(function () {
 
 ## Live collections
 
-The `Element.getElementByTagName()` method returns a _live_ HTMLCollection. If the DOM changes after you use the method, the HTMLCollection is updated to reflect the current UI.
+The `Element.getElementsByTagName()` method returns a _live_ HTMLCollection. If the DOM changes after you use the method, the HTMLCollection is updated to reflect the current UI.
 
 ```js
 // Live NodeList
