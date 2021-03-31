@@ -4,18 +4,8 @@ date: 2021-03-31T10:30:00-04:00
 draft: false
 categories:
 - Accessibility
-- Art and Science
-- Business and Leadership
-- Careers
 - Code
-- CSS
-- Design and UX
-- HTML
 - JavaScript
-- Technology
-- Web Performance
-- WordPress
-- Vanilla Framework Demos
 ---
 
 In yesterday's article [on documenting code](/documenting-javascript/), I wrote.
