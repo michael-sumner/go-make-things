@@ -26,7 +26,7 @@ In yesterday's article [on documenting code](/documenting-javascript/), I wrote.
 >
 > What’s obvious to you may not be obvious to someone else reading your code. Documenting helps them work faster and easier. The self-documenting code myth is a form of gatekeeping.
 
-And of course, some loser on Twitter replied:
+And of course, some random dude on Twitter replied:
 
 > I'm tired of people calling everything they don't like "gatekeeping."
 
