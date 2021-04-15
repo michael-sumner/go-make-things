@@ -35,7 +35,7 @@ products:
 # https://vanillajsprojects.com/
 # https://leanweb.dev/
 funnel:
-    message: "<p><mark>🚀 <em><strong>NEW!</strong> The <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a> have been completely updated with new methods and modern JS approaches. <a href="https://vanillajsguides.com">Click here to learn more.</a></em></mark></p>"
+    message: <p><mark>🚀 <em><strong>NEW!</strong> The <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a> have been completely updated with new methods and modern JS approaches. <a href="https://vanillajsguides.com">Click here to learn more.</a></em></mark></p>
     limited:
         1:
             message: <p><mark>🚀 <em><strong>SALE!</strong> The <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a> have been completely updated with new methods and modern JS approaches. Today through April 25, get 30% off any guide or bundle. <a href="https://vanillajsguides.com">Click here to learn more.</a></em></mark></p>
@@ -102,7 +102,7 @@ funnel:
 
 # https://vanillajsguides.com
 guide:
-    message: "<p><mark>🚀 <em><strong>NEW!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></em></mark></p>"
+    message: <p><mark>🚀 <em><strong>NEW!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></em></mark></p>
     limited:
         1:
             message: <p><mark>🚀 <em><strong>SALE!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through April 25, get 30% off any guide or bundle. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></p>
@@ -175,7 +175,7 @@ guideBuy:
 
 
 guidesAll:
-    message: "<p><mark>🚀 <em><strong>NEW!</strong >The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></em></mark></p>"
+    message: <p><mark>🚀 <em><strong>NEW!</strong >The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></em></mark></p>
     limited:
         1:
             message: <p><mark>🚀 <em><strong>SALE!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through April 25, get 30% off any guide or bundle. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></p>
