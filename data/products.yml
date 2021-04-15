@@ -57,7 +57,7 @@ guideDetails:
         url: "/dom-manipulation/"
     arraysObjects:
         id: "22696"
-        description: "Master modern methods for editing and transforming arrays and objects."
+        description: "Dive into the many modern methods for editing and transforming arrays and objects."
         url: "/arrays-and-objects/"
     stringsNumbers:
         id: "36577"
