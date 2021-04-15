@@ -48,7 +48,7 @@ guideDetails:
         description: "Kick-start your journey to vanilla JS with these essential pocket guides."
         url: "/beginner-bundle/"
     advanced:
-        id: "22675"
+        id: "57803"
         description: "Take your vanilla JavaScript skills to the next level with these pocket guides on advanced topics."
         url: "/advanced-bundle/"
     domManipulation:
