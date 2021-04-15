@@ -82,7 +82,7 @@ guideDetails:
     writingPlugins:
         id: "22656"
         description: "Learn how to write flexible, modular, scalable libraries that grow with you and your users."
-        url: "/writing-vanilla-js-plugins/"
+        url: "/writing-js-libraries/"
     webApps:
         id: "22882"
         description: "Build interactive web apps and single page apps without libraries or frameworks."
