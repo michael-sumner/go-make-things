@@ -4,23 +4,23 @@
 
 guides:
     ebook: "$49"
-    video: "$97"
+    video: "$94"
     both: "$99"
 
 guidesComplete:
     ebook: "$309"
-    video: "$617"
+    video: "$592"
     both: "$624"
 
 guidesBeginner:
-    ebook: "$169"
-    video: "$339"
-    both: "$344"
+    ebook: "$172"
+    video: "$329"
+    both: "$347"
 
 guidesAdvanced:
     ebook: "$137"
-    video: "$274"
-    both: "$279"
+    video: "$263"
+    both: "$277"
 
 academy:
     priceID: 9
