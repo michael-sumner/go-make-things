@@ -103,6 +103,10 @@ guideDetails:
         id: "22882"
         description: "Build interactive web apps and single page apps without libraries or frameworks."
         url: "/web-apps/"
+    esModules:
+        id: "57791"
+        description: "Learn how to structure projects, import and export modular JavaScript files, and bundle your code for production."
+        url: "/es-modules/"
 
 # projectDetails:
 #     complete:
