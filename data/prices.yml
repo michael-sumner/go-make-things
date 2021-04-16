@@ -8,9 +8,9 @@ guidesComplete:
     limited:
         1:
             prices:
-                ebook: "<del>$309</del> $217"
-                video: "<del>$592</del> $415"
-                both: "<del>$624</del> $437"
+                ebook: "<del>$309</del>&nbsp;$217"
+                video: "<del>$592</del>&nbsp;$415"
+                both: "<del>$624</del>&nbsp;$437"
                 discount: "MODERNJS30"
             start: 20210415
             end: 20210425
@@ -19,9 +19,9 @@ guidesBeginner:
     limited:
         1:
             prices:
-                ebook: "<del>$172</del> $121"
-                video: "<del>$329</del> $231"
-                both: "<del>$347</del> $243"
+                ebook: "<del>$172</del>&nbsp;$121"
+                video: "<del>$329</del>&nbsp;$231"
+                both: "<del>$347</del>&nbsp;$243"
                 discount: "MODERNJS30"
             start: 20210415
             end: 20210425
@@ -30,9 +30,9 @@ guidesAdvanced:
     limited:
         1:
             prices:
-                ebook: "<del>$137</del> $96"
-                video: "<del>$263</del> $184"
-                both: "<del>$277</del> $194"
+                ebook: "<del>$137</del>&nbsp;$96"
+                video: "<del>$263</del>&nbsp;$184"
+                both: "<del>$277</del>&nbsp;$194"
                 discount: "MODERNJS30"
             start: 20210415
             end: 20210425
@@ -41,9 +41,9 @@ guidesIndividual:
     limited:
         1:
             prices:
-                ebook: "<del>$49</del> $34"
-                video: "<del>$94</del> $67"
-                both: "<del>$99</del> $69"
+                ebook: "<del>$49</del>&nbsp;$34"
+                video: "<del>$94</del>&nbsp;$67"
+                both: "<del>$99</del>&nbsp;$69"
                 discount: "MODERNJS30"
             start: 20210415
             end: 20210425
@@ -53,13 +53,13 @@ academy:
     limited:
         1:
             prices:
-                price: "<del>$899</del> $539"
+                price: "<del>$899</del>&nbsp;$539"
                 discount: "EARLYBIRD"
             start: 20210111
             end: 20210117
         2:
             prices:
-                price: "<del>$899</del> $629"
+                price: "<del>$899</del>&nbsp;$629"
                 discount: "LASTCHANCE"
             start: 20210125
             end: 20210207
