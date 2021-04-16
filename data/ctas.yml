@@ -35,26 +35,26 @@ products:
 # https://vanillajsprojects.com/
 # https://leanweb.dev/
 funnel:
-    message: <p><mark>🚀 <em><strong>NEW!</strong> The <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a> have been completely updated with new methods and modern JS approaches. <a href="https://vanillajsguides.com">Click here to learn more.</a></em></mark></p>
+    message: <p><mark>🚀 <em><strong>New & Updated!</strong> The <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a> have been completely updated with new methods and modern JS approaches. <a href="https://vanillajsguides.com">Click here to learn more.</a></em></mark></p>
     limited:
         1:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> The <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a> have been completely updated with new methods and modern JS approaches. Today through April 25, get 30% off any guide or bundle. <a href="https://vanillajsguides.com">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a> have been completely updated with new methods and modern JS approaches. Today through April 25, get 30% off any guide or bundle. <a href="https://vanillajsguides.com">Click here to learn more.</a></em></mark></p>
             start: 20210415
             end: 20210416
         2:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> The <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a> have been completely updated with new methods and modern JS approaches. Today through next weekend, get 30% off any guide or bundle. <a href="https://vanillajsguides.com">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a> have been completely updated with new methods and modern JS approaches. Today through next weekend, get 30% off any guide or bundle. <a href="https://vanillajsguides.com">Click here to learn more.</a></em></mark></p>
             start: 20210417
             end: 20210418
         3:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> The <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a> have been completely updated with new methods and modern JS approaches. Today through this weekend, get 30% off any guide or bundle. <a href="https://vanillajsguides.com">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a> have been completely updated with new methods and modern JS approaches. Today through this weekend, get 30% off any guide or bundle. <a href="https://vanillajsguides.com">Click here to learn more.</a></em></mark></p>
             start: 20210419
             end: 20210423
         4:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> The <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a> have been completely updated with new methods and modern JS approaches. Today and tomorrow, get 30% off any guide or bundle. <a href="https://vanillajsguides.com">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a> have been completely updated with new methods and modern JS approaches. Today and tomorrow, get 30% off any guide or bundle. <a href="https://vanillajsguides.com">Click here to learn more.</a></em></mark></p>
             start: 20210424
             end: 20210424
         5:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> The <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a> have been completely updated with new methods and modern JS approaches. Today only, get 30% off any guide or bundle. <a href="https://vanillajsguides.com">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a> have been completely updated with new methods and modern JS approaches. Today only, get 30% off any guide or bundle. <a href="https://vanillajsguides.com">Click here to learn more.</a></em></mark></p>
             start: 20210425
             end: 20210425
         # 1:
@@ -102,26 +102,26 @@ funnel:
 
 # https://vanillajsguides.com
 guide:
-    message: <p><mark>🚀 <em><strong>NEW!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></em></mark></p>
+    message: <p><mark>🚀 <em><strong>New & Updated!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches.</em></mark></p>
     limited:
         1:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through April 25, get 30% off any guide or bundle. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></em></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through April 25, get 30% off any guide or bundle.</em></p>
             start: 20210415
             end: 20210416
         2:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through next weekend, get 30% off any guide or bundle. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></em></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through next weekend, get 30% off any guide or bundle.</em></p>
             start: 20210417
             end: 20210418
         3:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through this weekend, get 30% off any guide or bundle. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></em></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through this weekend, get 30% off any guide or bundle.</em></p>
             start: 20210419
             end: 20210423
         4:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today and tomorrow, get 30% off any guide or bundle. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></em></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today and tomorrow, get 30% off any guide or bundle.</em></p>
             start: 20210424
             end: 20210424
         5:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today only, get 30% off any guide or bundle. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></em></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today only, get 30% off any guide or bundle.</em></p>
             start: 20210425
             end: 20210425
         # 1:
@@ -141,23 +141,23 @@ guideBuy:
     message: ""
     limited:
         1:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> Today through April 25, save 30% off with the code <code>ModernJS30</code> at checkout.</em></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today through April 25, save 30% off with the code <code>ModernJS30</code> at checkout.</em></p>
             start: 20210415
             end: 20210416
         2:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> Today through next weekend, save 30% off with the code <code>ModernJS30</code> at checkout.</em></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today through next weekend, save 30% off with the code <code>ModernJS30</code> at checkout.</em></p>
             start: 20210417
             end: 20210418
         3:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> Today through this weekend, save 30% off with the code <code>ModernJS30</code> at checkout.</em></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today through this weekend, save 30% off with the code <code>ModernJS30</code> at checkout.</em></p>
             start: 20210419
             end: 20210423
         4:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> Today and tomorrow, save 30% off with the code <code>ModernJS30</code> at checkout.</em></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today and tomorrow, save 30% off with the code <code>ModernJS30</code> at checkout.</em></p>
             start: 20210424
             end: 20210424
         5:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> Today only, save 30% off with the code <code>ModernJS30</code> at checkout.</p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today only, save 30% off with the code <code>ModernJS30</code> at checkout.</p>
             start: 20210425
             end: 20210425
         # 1:
@@ -175,26 +175,26 @@ guideBuy:
 
 
 guidesAll:
-    message: <p><mark>🚀 <em><strong>NEW!</strong >The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></em></mark></p>
+    message: <p><mark>🚀 <em><strong>New & Updated!</strong >The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches.</em></mark></p>
     limited:
         1:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through April 25, get 30% off any guide or bundle. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></em></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through April 25, get 30% off any guide or bundle.</em></p>
             start: 20210415
             end: 20210416
         2:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through next weekend, get 30% off any guide or bundle. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></em></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through next weekend, get 30% off any guide or bundle.</em></p>
             start: 20210417
             end: 20210418
         3:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through this weekend, get 30% off any guide or bundle. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></em></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through this weekend, get 30% off any guide or bundle.</em></p>
             start: 20210419
             end: 20210423
         4:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today and tomorrow, get 30% off any guide or bundle. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></em></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today and tomorrow, get 30% off any guide or bundle.</em></p>
             start: 20210424
             end: 20210424
         5:
-            message: <p><mark>🚀 <em><strong>SALE!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today only, get 30% off any guide or bundle. <a href="https://gomakethings.com/pocket-guides-update-2021/">Click here to learn what's new.</a></em></p>
+            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today only, get 30% off any guide or bundle.</em></p>
             start: 20210425
             end: 20210425
         # 1:
