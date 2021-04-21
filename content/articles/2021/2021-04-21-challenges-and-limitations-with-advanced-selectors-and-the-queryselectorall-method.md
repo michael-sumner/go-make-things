@@ -21,7 +21,7 @@ This absolutely works when...
 1. The parent element has a unique selector, and
 2. You want to filter child elements based on a CSS selector.
 
-If the parent element doesn't have a unique selector (as in, no ID), you can use the `:scope` pseudo-class.
+If the parent element doesn't have a unique selector (as in, no ID), you can use the `:scope` pseudo-class (thanks to read Stefan for sharing this one with me!).
 
 Here, `:scope` refers to the `sandwiches` element.
 
