@@ -5,12 +5,12 @@ draft: false
 noTitle: true
 ---
 
+{{<cta for="funnel">}}
+
 <h1 class="text-xlarge text-normal margin-bottom-small">Hi, I’m Chris Ferdinandi.</h1>
 
 **I help people learn vanilla JavaScript.** I believe there’s a simpler, more resilient way to make things for the web.
 
-{{<cta for="funnel">}}
-
-{{<mailchimp intro="true">}}
+{{<mailchimp text="true">}}
 
 {{<testimonial for="calebStauffer">}}
