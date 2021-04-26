@@ -175,7 +175,7 @@ guideBuy:
 
 
 guidesAll:
-    message: <p><mark>🚀 <em><strong>New & Updated!</strong >The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches.</em></mark></p>
+    message: <p><mark>🚀 <em><strong>New & Updated!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches.</em></mark></p>
     limited:
         1:
             message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through April 25, get 30% off any guide or bundle.</em></p>
