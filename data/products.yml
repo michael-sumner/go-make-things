@@ -22,8 +22,12 @@ guidesAdvanced:
     video: "<del>$376</del>&nbsp;$263"
     both: "<del>$396</del>&nbsp;$277"
 
+# startRegistration/endRegistration - when to show the purchase button
+# startPre/endPre - when to show alumni/early bird pricing
+# startAcademy/endAcademy - run dates to show on purchase form
+# nextAcademy - date to show before registration is open
 academy:
-    priceID: 9
+    priceID: 10
     price: "$899"
     priceAlumni: "$179"
     pricePre: "$449"
@@ -34,7 +38,7 @@ academy:
     startAcademy: "February 1"
     endAcademy: "April 11"
     registrationAcademy: "January 11"
-    nextAcademy: "in late Spring"
+    nextAcademy: "on May 31"
 
 prepSchool: "$99"
 

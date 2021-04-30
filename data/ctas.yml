@@ -216,6 +216,10 @@ guidesAll:
 academy:
     message: ""
     limited:
+        0:
+            message: <p><mark>⏰ <em><strong>An updated and redesigned Vanilla JS Academy starts on May 31.</strong> Registration opens up soon.</em></mark></p>
+            start: 20210428
+            end: 20210531
         1:
             message: <p><mark>🚀 <em><strong>A new session of the Vanilla JS Academy starts on February 1.</strong> Registration opens up on Monday.</em></mark></p>
             start: 20210105
