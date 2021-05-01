@@ -217,7 +217,7 @@ academy:
     message: ""
     limited:
         0:
-            message: <p><mark>⏰ <em><strong>An updated and redesigned Vanilla JS Academy starts on May 31.</strong> Registration opens up soon.</em></mark></p>
+            message: <p><mark>⏰ <em><strong>An updated and redesigned Vanilla JS Academy starts on May 31.</strong> Registration opens up on May 10.</em></mark></p>
             start: 20210428
             end: 20210531
         1:
