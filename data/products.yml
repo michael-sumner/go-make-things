@@ -30,8 +30,10 @@ guidesAdvanced:
 academy:
     priceID: 10
     price: "$899"
+    priceMonthly: "$299"
     priceAlumni: "$99"
     pricePre: "$499"
+    pricePreMonthly: "<del>$299</del> $169"
     startRegistration: 20210510
     endRegistration: 20210606
     startPre: 20210502
