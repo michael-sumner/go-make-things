@@ -54,12 +54,14 @@ academy:
         1:
             prices:
                 price: "<del>$899</del>&nbsp;$584"
+                priceMonthly: "<del>$299</del>&nbsp;$199"
                 discount: "EARLYBIRD"
             start: 20210510
             end: 20210516
         2:
             prices:
                 price: "<del>$899</del>&nbsp;$674"
+                priceMonthly: "<del>$299</del>&nbsp;$225"
                 discount: "LASTCHANCE"
             start: 20210524
             end: 20210606
