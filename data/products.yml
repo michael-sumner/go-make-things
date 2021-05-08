@@ -29,6 +29,7 @@ guidesAdvanced:
 # nextAcademy - date to show before registration is open
 academy:
     priceID: 10
+    priceIDMonthly: 11
     price: "$899"
     priceMonthly: "$299"
     priceAlumni: "$99"
