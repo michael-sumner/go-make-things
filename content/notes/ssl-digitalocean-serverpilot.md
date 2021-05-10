@@ -162,7 +162,7 @@ Copy/paste the following script into your file, replacing the stuff in all caps 
 
 ```bash
 #!/bin/sh
-/opt/letsencrypt/letsencrypt-auto renew --agree-tos --email YOU@YOUREMAIL.com >> /opt/logs/renew-ssl.log
+/opt/letsencrypt/letsencrypt-auto renew --agree-tos --email YOU@YOUREMAIL.com --post-hook "service nginx-sp restart" >> /opt/logs/renew-ssl.log
 ```
 
 Next, open your `crontab` file. Copy/paste this into the file, then exit and save.
