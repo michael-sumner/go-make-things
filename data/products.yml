@@ -11,16 +11,25 @@ guidesComplete:
     ebook: "<del>$441</del>&nbsp;$309"
     video: "<del>$846</del>&nbsp;$592"
     both: "<del>$891</del>&nbsp;$624"
+    ebookMonthly: "$109"
+    videoMonthly: "$199"
+    bothMonthly: "$209"
 
 guidesBeginner:
     ebook: "<del>$245</del>&nbsp;$172"
     video: "<del>$470</del>&nbsp;$329"
     both: "<del>$495</del>&nbsp;$347"
+    ebookMonthly: "$59"
+    videoMonthly: "$119"
+    bothMonthly: "$129"
 
 guidesAdvanced:
     ebook: "<del>$196</del>&nbsp;$137"
     video: "<del>$376</del>&nbsp;$263"
     both: "<del>$396</del>&nbsp;$277"
+    ebookMonthly: "$49"
+    videoMonthly: "$99"
+    bothMonthly: "$109"
 
 # startRegistration/endRegistration - when to show the purchase button
 # startPre/endPre - when to show alumni/early bird pricing
