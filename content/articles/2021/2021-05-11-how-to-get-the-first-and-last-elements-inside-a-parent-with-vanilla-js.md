@@ -83,7 +83,7 @@ let lastListItem = allWizards[allWizards.length - 1];
 One caveat with this approach: it will return all matching elements inside the parent, no matter how deeply they're nested. You can work around that by using the `:scope` selector with your real selector, like this.
 
 ```javascript
-let wizards = document.querySelector('.wizards');
+let wizards = document.querySelector('ul');
 
 // Find the first li element inside `.wizards`
 // returns <li>Gandalf</li>
