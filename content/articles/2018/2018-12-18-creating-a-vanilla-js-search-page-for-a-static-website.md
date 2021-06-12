@@ -9,7 +9,7 @@ categories:
 - Web Performance
 ---
 
-_**This article was updated on February 11, 2021.** I switched to Duck Duck Go as the fallback search engine, and fixed a bug in the regex pattern used to match articles._
+_**This article was updated on February 11, 2021.** I switched to DuckDuckGo as the fallback search engine, and fixed a bug in the regex pattern used to match articles._
 
 One of the biggest missing features from most static site generators (like [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), and [Eleventy](https://www.11ty.io/)) is that they lack built-in search.
 
@@ -129,7 +129,7 @@ form.addEventListener('submit', submitHandler);
 
 In the `submitHandler` function, we'll pass in the `event` as an argument.
 
-We'll run `event.preventDefault()` to prevent the from submitting to Google. Then, we'll pass the `input.value` into another function---`search()`---to actually run the search for us.
+We'll run `event.preventDefault()` to prevent the from submitting to DuckDuckGo. Then, we'll pass the `input.value` into another function---`search()`---to actually run the search for us.
 
 ```js
 //
