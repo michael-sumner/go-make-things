@@ -14,7 +14,7 @@ Thanks for chatting with me about service workers. I've put together a bunch of 
 
 ## The Slides & Video
 
-<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/549312250?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="service-workers-slides"></iframe></div>
+<div class="fluid-vids"><iframe src="https://player.vimeo.com/video/563250553?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="pwa-night_service-workers_slides"></iframe></div>
 
 <p><a class="btn" href="https://speakerdeck.com/cferdinandi/service-workers">Get the Slides</a></p>
 
