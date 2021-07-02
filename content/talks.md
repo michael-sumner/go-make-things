@@ -25,6 +25,7 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 
 ## Podcast Appearances
 
+- [HTML All The Things Podcast](https://dev.to/mikhailkaran/how-modern-javascript-is-ruining-the-web-w-chris-ferdinandi-5eo3), June 30, 2021
 - [The Drunken UX Podcast](https://drunkenux.com/podcast/dux71/), September 14, 2020
 - [Junior to Senior](https://juniortosenior.io/9), September 14, 2020
 - [Exceptions Welcome](http://www.exceptionswelcome.com/1204355/4889057), August 6, 2020
