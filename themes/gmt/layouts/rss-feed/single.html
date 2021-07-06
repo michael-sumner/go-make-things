@@ -17,6 +17,26 @@
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<generator>Hugo -- gohugo.io</generator>
+		{{- $.Scratch.Set "mcPre" "" -}}
+		{{- $.Scratch.Set "mcPost" "" -}}
+		{{- if eq .Params.ctas "mailchimp" -}}
+			{{- $.Scratch.Set "mcPre" .Site.Data.ctas.mcPre.message -}}
+			{{- $.Scratch.Set "mcPost" .Site.Data.ctas.mcPost.message -}}
+			{{- if isset .Site.Data.ctas.mcPre "limited" -}}
+				{{- range $limited := (index .Site.Data.ctas.mcPre "limited") -}}
+					{{- if and (ge (now.Format "20060102") (index $limited "start")) (le (now.Format "20060102") (index $limited "end")) -}}
+						{{- $.Scratch.Set "mcPre" (index $limited "message" ) -}}
+					{{- end -}}
+				{{- end -}}
+			{{- end -}}
+			{{- if isset .Site.Data.ctas.mcPost "limited" -}}
+				{{- range $limited := (index .Site.Data.ctas.mcPost "limited") -}}
+					{{- if and (ge (now.Format "20060102") (index $limited "start")) (le (now.Format "20060102") (index $limited "end")) -}}
+						{{- $.Scratch.Set "mcPost" (index $limited "message" ) -}}
+					{{- end -}}
+				{{- end -}}
+			{{- end -}}
+		{{- end -}}
 		{{ $all := where .Site.RegularPages "Type" .Params.feedType }}
 		{{ range first ($.Site.Params.rssLimit) $all }}
 			<item>
@@ -26,7 +46,7 @@
 				{{- with .Site.Author.name -}}<dc:creator>{{.}}</dc:creator>{{end}}
 				<guid>{{ if eq .Type "links" }}{{ .Params.link }}{{ else }}{{ .Permalink }}{{- end -}}</guid>
 				<description>{{ `<![CDATA[ ` | safeHTML }}{{ .Summary | safeHTML }}]]></description>
-				<content:encoded>{{ `<![CDATA[ ` | safeHTML }}{{ .Content | safeHTML }}]]></content:encoded>
+				<content:encoded>{{ `<![CDATA[ ` | safeHTML }}{{ $.Scratch.Get "mcPre" | safeHTML }}{{ .Content | safeHTML }}{{ $.Scratch.Get "mcPost" | safeHTML }}]]></content:encoded>
 			</item>
 		{{ end }}
 	</channel>

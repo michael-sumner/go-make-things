@@ -9,6 +9,22 @@ mcSubscribers:
 mcSubscriberCount:
     message: "{{mc_subs}}"
 
+mcPre:
+  message: ""
+  limited:
+      0:
+          message:
+          start: 20210428
+          end: 20210502
+
+mcPost:
+  message: "<p>*|INTERESTED:Purchases:Academy - Foundations|*Is there a JavaScript or web development topic you'd like to learn more about? Hit reply to this email and let me know.*|ELSE:|**|INTERESTED:Purchases:Pocket Guide Bundle|*The Vanilla JS Academy is a project-based online JavaScript training program for beginners. Click here to learn more.*|ELSE:|*Want to really dig in to topics like this? Check out my Vanilla JS Pocket Guides—short, focused ebooks and video courses made for beginners. Let's make 2021 the year you master JavaScript!*|END:INTERESTED|**|END:INTERESTED|*</p>"
+  limited:
+      0:
+          message:
+          start: 20210428
+          end: 20210502
+
 
 
 # Bios
