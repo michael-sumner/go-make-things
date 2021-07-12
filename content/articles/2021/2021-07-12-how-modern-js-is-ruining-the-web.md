@@ -4,18 +4,13 @@ date: 2021-07-12T10:30:00-04:00
 draft: false
 categories:
 - Accessibility
-- Art and Science
-- Business and Leadership
 - Careers
 - Code
 - CSS
 - Design and UX
 - HTML
 - JavaScript
-- Technology
 - Web Performance
-- WordPress
-- Vanilla Framework Demos
 ---
 
 Last week, I was [on the HTML All the Things podcast talking about how modern JS is ruining the web](https://dev.to/mikhailkaran/how-modern-javascript-is-ruining-the-web-w-chris-ferdinandi-5eo3).
