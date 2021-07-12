@@ -18,7 +18,7 @@ mcPre:
           end: 20210502
 
 mcPost:
-  message: "<p>*|INTERESTED:Purchases:Academy - Foundations|*Is there a JavaScript or web development topic you'd like to learn more about? Hit reply to this email and let me know.*|ELSE:|**|INTERESTED:Purchases:Pocket Guide Bundle|*The Vanilla JS Academy is a project-based online JavaScript training program for beginners. Click here to learn more.*|ELSE:|*Want to really dig in to topics like this? Check out my Vanilla JS Pocket Guides—short, focused ebooks and video courses made for beginners. Let's make 2021 the year you master JavaScript!*|END:INTERESTED|**|END:INTERESTED|*</p><p>Cheers,<br>Chris</p>"
+  message: <p>*|INTERESTED:Purchases:Academy - Foundations|*<strong>Is there a JavaScript or web development topic you'd like to learn more about?</strong> Hit reply to this email and let me know.*|ELSE:|**|INTERESTED:Purchases:Pocket Guide Bundle|*<strong>The <a href="https://vanillajsacademy.com"">Vanilla JS Academy</a> is a project-based online JavaScript workshop for beginners.</strong> <a href="https://vanillajsacademy.com">Click here to learn more</a>.*|ELSE:|*<strong>Want to really dig in to topics like this?</strong> Check out my <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a>&mdash;short, focused ebooks and video courses made for beginners. Let's make 2021 the year you master JavaScript!*|END:INTERESTED|**|END:INTERESTED|*</p><p>Cheers,<br>Chris</p>
   limited:
       0:
           message: "<p>Cheers,<br>Chris</p>"
@@ -38,7 +38,7 @@ bioShort:
 
 # Products
 products:
-    message: <ul class="list-spaced"><li><strong><a href="https://gomakethings.com/articles/">Daily Developer Tips.</a></strong> I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web.</li><li><strong><a href="https://vanillajsguides.com/">Guides &amp; Courses.</a></strong> Short, focused ebooks and video courses made for beginners. Start building real JavaScript projects in under an hour.</li><li><strong><a href="https://vanillajsacademy.com/">Vanilla JS Academy.</a></strong> A project-based online JavaScript training program for beginners.</li></ul>
+    message: <ul class="list-spaced"><li><strong><a href="https://gomakethings.com/articles/">Daily Developer Tips.</a></strong> I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web.</li><li><strong><a href="https://vanillajsguides.com/">Guides &amp; Courses.</a></strong> Short, focused ebooks and video courses made for beginners. Start building real JavaScript projects in under an hour.</li><li><strong><a href="https://vanillajsacademy.com/">Vanilla JS Academy.</a></strong> A project-based online JavaScript workshop for beginners.</li></ul>
 
 
 
