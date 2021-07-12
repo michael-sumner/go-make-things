@@ -51,7 +51,7 @@ products:
 # https://vanillajsprojects.com/
 # https://leanweb.dev/
 funnel:
-    message: <p><mark>🚀 <em><strong>New & Updated!</strong> The <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a> have been completely updated with new methods and modern JS approaches.</em></mark></p>
+    message: ""
     limited:
         0:
             message: <p><mark>⏰ <em><strong>An updated and redesigned <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on May 31.</strong> Registration opens on May 10. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
