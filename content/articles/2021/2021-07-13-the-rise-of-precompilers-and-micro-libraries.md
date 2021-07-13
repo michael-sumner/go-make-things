@@ -55,7 +55,7 @@ Astro lets you take all of those, as well as plain old JavaScript and HTML, mash
 
 Of all of these, Astro is probably the one I'm most excited about. It's definitely "standing on the shoulders of giants," and I think it has the most potential to reduce the fragility and performance issues modern web development has brought to the web.
 
-If you want to learn more about Astro, [Cassie Evans has a fantastic intro on the Netlify blog](https://www.netlify.com/blog/2021/07/08/build-wicked-fast-sites-with-astro-an-introduction/).
+If you want to learn more about Astro, [Cassidy Williams has a fantastic intro on the Netlify blog](https://www.netlify.com/blog/2021/07/08/build-wicked-fast-sites-with-astro-an-introduction/).
 
 ## Do you need to learn any of these?
 
