@@ -36,7 +36,7 @@
 				{{- with .Site.Author.name -}}<dc:creator>{{.}}</dc:creator>{{end}}
 				<guid>{{ if eq .Type "links" }}{{ .Params.link }}{{ else }}{{ .Permalink }}{{- end -}}</guid>
 				<description>{{ `<![CDATA[ ` | safeHTML }}{{ .Summary | safeHTML }}]]></description>
-				<content:encoded>{{ `<![CDATA[ ` | safeHTML }}{{ $.Scratch.Get "mcPre" | safeHTML }}{{ .Content | safeHTML }}{{ $.Scratch.Get "mcPost" | safeHTML }}]]></content:encoded>
+				<content:encoded>{{ `<![CDATA[ ` | safeHTML }}{{ $.Scratch.Get "mcPre" | safeHTML }}{{ .Content | safeHTML }}{{ $.Scratch.Get "mcPost" | safeHTML }}{{ if and (ne .Params.ctas "mailchimp") (isset $ctas "rss") }}{{ (index $ctas "rss") | safeHTML }}{{ end }}]]></content:encoded>
 			</item>
 		{{ end }}
 	</channel>

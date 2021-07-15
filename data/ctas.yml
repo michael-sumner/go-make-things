@@ -25,6 +25,14 @@ mcPost:
           start: 20210428
           end: 20210502
 
+rss:
+  message: ""
+  limited:
+      0:
+          message: <p><mark>⏰ <em><strong>An updated and redesigned <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on May 31.</strong> Registration opens next week. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
+          start: 20210503
+          end: 20210503
+
 
 
 # Bios
