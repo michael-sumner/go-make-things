@@ -5,33 +5,31 @@
 {{- $.Scratch.Set "pagecount" 0 -}}
 
 {{ $paginate := .Paginate .Pages }}
-{{ range $paginate.Pages }}
+{{ range $index, $page := $paginate.Pages }}
 
 	{{- $.Scratch.Set "pagecount" (add ($.Scratch.Get "pagecount") 1) -}}
 
-	{{ if or ( ne ( $.Scratch.Get "pubDate" ) ( .PublishDate.Format "200601" ) ) ( eq ( $.Scratch.Get "pagecount" ) 1 ) }}
-		<h2>{{ .PublishDate.Format "January 2006" }}</h2>
+	{{ if or ( ne ( $.Scratch.Get "pubDate" ) ( $page.PublishDate.Format "200601" ) ) ( eq ( $.Scratch.Get "pagecount" ) 1 ) }}
+		{{ if and (ne $index 0) (ne ( $.Scratch.Get "pagecount" ) 1) }}</ul>{{ end }}
+		<h2>{{ $page.PublishDate.Format "January 2006" }}</h2>
+		<ul class="list-unstyled list-spaced-small">
 	{{ end }}
-	{{ $.Scratch.Set "pubDate" ( .PublishDate.Format "200601" ) }}
+	{{ $.Scratch.Set "pubDate" ( $page.PublishDate.Format "200601" ) }}
 
-	<article>
-
-		<header class="row row-reverse">
-
-			<aside class="grid-fourth text-muted text-small text-right-large">
-				<time datetime="{{ .PublishDate }}" pubdate>{{ .PublishDate.Format "January 2, 2006" }}</time>
-			</aside>
-
-			<h3 class="grid-three-fourths h5 text-normal text-sans no-padding-top">
-				<a class="link-no-underline" href="{{ .URL }}">{{ .Title }}</a>
-			</h3>
-
-		</header>
-
-
-	</article>
+		<li>
+			<div class="row row-reverse">
+				<div class="grid-fourth text-muted text-small text-right-large">
+					<time datetime="{{ $page.PublishDate }}" pubdate>{{ $page.PublishDate.Format "January 2, 2006" }}</time>
+				</div>
+				<div class="grid-three-fourths">
+					<a class="link-no-underline" href="{{ $page.URL }}">{{ $page.Title }}</a>
+				</div>
+			</div>
+		</li>
 
 {{ end }}
+
+	</ul>
 
 {{ if gt $paginate.TotalPages 1  }}
 	<nav class="text-center">
