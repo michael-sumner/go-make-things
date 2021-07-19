@@ -68,11 +68,11 @@ I want to help you master vanilla JavaScript and grow your career.
 
 	<p>Book your 1-on-1 coaching call now, and get immediate access to all of your bonus items.</p>
 
+	<p><em><strong>Scheduling Details:</strong> Appointments are available on Monday mornings, Thursday afternoons, and all-day Tuesday, US Eastern time. After completing your purchase, you'll receive a link to schedule a 60 minute appointment in my calendar.</em></p>
+
 	{{<cta for="call-buy">}}
 
-	<p><a class="btn btn-large btn-block" href="/checkout?edd_action=add_to_cart&download_id=23073">Book Now for {{<price for="call">}}</a></p>
-
-	<p><em><strong>Note:</strong> I’m only available for a few live 1-on-1 coaching calls per month. Scheduling is first come, first serve, so the sooner you book your call, the sooner you will have the answers you need.</em></p>
+	<p><a class="btn btn-large btn-block" href="/checkout?edd_action=add_to_cart&download_id=59280">Book Now for $399</a></p>
 </div>
 
 <div class="padding-top-large padding-bottom">{{<testimonial for="kb" photo="true">}}</div>

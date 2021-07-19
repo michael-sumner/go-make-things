@@ -112,8 +112,6 @@ guideDetails:
         description: "Learn how to structure projects, import and export modular JavaScript files, and bundle your code for production."
         url: "/es-modules/"
 
-call: "$399"
-
 # projectDetails:
 #     complete:
 #         id: "37221"
