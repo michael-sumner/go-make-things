@@ -112,6 +112,8 @@ guideDetails:
         description: "Learn how to structure projects, import and export modular JavaScript files, and bundle your code for production."
         url: "/es-modules/"
 
+call: "$399"
+
 # projectDetails:
 #     complete:
 #         id: "37221"
@@ -151,7 +153,6 @@ guideDetails:
 
 # careerGuide: "$39"
 # wickedFastWebsites: "$39"
-# call: "$399"
 # mentoring: "$1199/month"
 # training: "$3,999"
 # consulting: "$7,999/month"
