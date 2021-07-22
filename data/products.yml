@@ -31,6 +31,14 @@ guidesAdvanced:
     videoMonthly: "$99"
     bothMonthly: "$109"
 
+guidesTeams:
+    ten: "$5,500"
+    fifteen: "$7,500"
+    twenty: "$9,000"
+    twentyfive: "$11,000"
+    thirty: "$12,500"
+    fourty: "$16,500"
+
 # startRegistration/endRegistration - when to show the purchase button
 # startPre/endPre - when to show alumni/early bird pricing
 # startAcademy/endAcademy - run dates to show on purchase form
