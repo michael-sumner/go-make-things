@@ -95,7 +95,7 @@ noIndex: true
 - Has Redux/Vuex-like data stores, with setters and getters baked right in.
 - Built-in template sanitization to help protect you from cross-site scripting (XSS) attacks.
 
-<div class="padding-top-small padding-bottom">{{<testimonial for="patriciaParker" photo="true">}}</div>
+<div class="padding-top-small padding-bottom">{{<testimonial for="davidWalsh" photo="true">}}</div>
 
 
 
@@ -109,7 +109,7 @@ noIndex: true
 - Open sourced a collection of "starter templates" based on common design patterns and use cases, and turned them into a [theme builder](https://developer.mashery.com/docs/read/customizing_your_portal/Theme_Builder) using the GitHub content API. This has helped customers who want to DIY build portals faster and easier so they can focus on running top-notch API programs.
 - Designed a robust JavaScript API that enables clients to build their own features and use their developer portal in new and interesting ways. Many of these innovations make their way back into the core code as new features.
 
-<div class="padding-top-small padding-bottom">{{<testimonial for="davidWalsh" photo="true">}}</div>
+<div class="padding-top-small padding-bottom">{{<testimonial for="patriciaParker" photo="true">}}</div>
 
 
 
