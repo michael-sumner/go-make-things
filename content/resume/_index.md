@@ -13,7 +13,7 @@ noIndex: true
 	<li>{{<email no-underline="true" icon="true">}}</li>
 </ul>
 
-<p class="margin-bottom-small"><strong>A senior front-end web developer</strong> specializing in resilient code, mentoring, and developer relations. Skills and experience include:</p>
+<p class="margin-bottom-small"><strong>A senior front-end web developer</strong> specializing in JavaScript and developer education. Skills and experience include:</p>
 
 <div class="row margin-bottom">
 	<div class="grid-half">
