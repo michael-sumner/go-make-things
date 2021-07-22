@@ -95,6 +95,8 @@ noIndex: true
 - Has Redux/Vuex-like data stores, with setters and getters baked right in.
 - Built-in template sanitization to help protect you from cross-site scripting (XSS) attacks.
 
+<div class="padding-top-small padding-bottom">{{<testimonial for="patriciaParker" photo="true">}}</div>
+
 
 
 <h3 class="no-margin-bottom">Blackbeard Templating Library</h3>
@@ -106,6 +108,8 @@ noIndex: true
 - Used dozens of client conversations to inform key feature development, resulting in a robust set of strongly desired new features that our customers love.
 - Open sourced a collection of "starter templates" based on common design patterns and use cases, and turned them into a [theme builder](https://developer.mashery.com/docs/read/customizing_your_portal/Theme_Builder) using the GitHub content API. This has helped customers who want to DIY build portals faster and easier so they can focus on running top-notch API programs.
 - Designed a robust JavaScript API that enables clients to build their own features and use their developer portal in new and interesting ways. Many of these innovations make their way back into the core code as new features.
+
+<div class="padding-top-small padding-bottom">{{<testimonial for="davidWalsh" photo="true">}}</div>
 
 
 
@@ -129,9 +133,7 @@ noIndex: true
 
 - Built a lightning fast front-end, with a CMS, ecommerce solution, and donation platform.
 - Integrated pet management software with website to automatically display adoptable dogs and adoption forms, making it easier to match potential adopters with dogs in need of a home.
-- Annual donation revenue doubled.
-- PAWS was featured in an HBO documentary about shelters and rescues.
-- Web traffic is up 4.7x, and mobile traffic is 27x higher.
+- Annual donation revenue doubled, web traffic grew substantially, and PAWS was featured in an HBO documentary about shelters and rescues.
 
 <div class="padding-top-small padding-bottom">{{<testimonial for="paws" photo="true">}}</div>
 
