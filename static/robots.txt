@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /resume/*
 Disallow: /nah__img/*
 Disallow: /wp-content/*
 Disallow: /automate/*
