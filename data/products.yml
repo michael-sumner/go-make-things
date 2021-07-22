@@ -61,6 +61,9 @@ academy:
     registrationAcademy: "May 10"
     nextAcademy: "this fall"
 
+academyTeams:
+    price: "$20,000"
+
 prepSchool: "$99"
 
 guideDetails:
