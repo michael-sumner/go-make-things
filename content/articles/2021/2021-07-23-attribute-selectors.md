@@ -1,5 +1,5 @@
 ---
-title: "Attribute selectors in CSs"
+title: "Attribute selectors in CSS"
 date: 2021-07-23T10:30:00-04:00
 draft: false
 categories:
