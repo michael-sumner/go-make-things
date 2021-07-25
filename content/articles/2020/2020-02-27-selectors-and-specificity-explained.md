@@ -9,9 +9,9 @@ categories:
 
 For a lot of developers, one of the most confusing things to really wrap your head around is [how CSS selectors and specificity work in the context of "the cascade."](/understanding-the-cascade-and-specificity-in-css/)
 
-<img alt="A screenshot of Hugo Giraudel's Selectors Explained tool" src="/img/articles/selectors-explained.jpg">
+<img alt="A screenshot of Kitty Giraudel's Selectors Explained tool" src="/img/articles/selectors-explained.jpg">
 
-One of my students tipped me off to ["Selectors Explained" by Hugo Giraudel](https://hugogiraudel.github.io/selectors-explained/).
+One of my students tipped me off to ["Selectors Explained" by Kitty Giraudel](https://kittygiraudel.github.io/selectors-explained/).
 
 This awesome little web app accepts any valid CSS selector, and explains what it means in plain English. It also provides a specificity number, so that you can compare the specificity of different selectors.
 
