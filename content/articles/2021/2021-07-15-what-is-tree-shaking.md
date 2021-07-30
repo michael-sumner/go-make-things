@@ -12,7 +12,7 @@ Have you heard someone use the phrase "tree shaking" while talking about JavaScr
 
 ## Browser-native ES modules and performance issues
 
-ES modules provide you with [a native way to break your code into smaller, modular parts](), and keep variables and functions scoped to just where they’re needed.
+ES modules provide you with [a native way to break your code into smaller, modular parts](/an-intro-to-import-and-export-with-es-modules/), and keep variables and functions scoped to just where they’re needed.
 
 _**Note:** this article will make a lot more sense if you're [familiar with ES modules](/an-intro-to-import-and-export-with-es-modules/) already._
 
