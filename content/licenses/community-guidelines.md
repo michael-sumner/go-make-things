@@ -20,7 +20,7 @@ The following guidelines are intended to make the community easier and more enjo
 ## Getting Started
 
 1. Set up your profile. Upload a photo and create a short bio.
-2. Introduce yourself and tell the room a little about what you do.
+2. Introduce yourself and tell the room a little about what you do. The `#web-development` channel is a good place to do that.
 3. This is a multi-channel Slack. Please use the correct channel for the topic you're posting. If you're unsure which one to use, feel free to ask.
 4. We make heavy use of *threads* to keep conversations organized.
 5. If your favorite topic isn’t being discussed, bring it up!
