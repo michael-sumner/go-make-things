@@ -118,9 +118,13 @@ guideDetails:
         id: "57791"
         description: "Learn how to structure projects, import and export modular JavaScript files, and bundle your code for production."
         url: "/es-modules/"
+    webApps:
+        id: "22882"
+        description: "Build interactive web apps and single page apps without libraries or frameworks."
+        url: "/web-apps/"
     stateBasedUI:
         id: "22882"
-        description: "Learn how to build fast and efficient interactive websites and web apps.",
+        description: "Learn how to build fast and efficient interactive websites and web apps."
         url: "/state-based-ui/"
 
 # projectDetails:
