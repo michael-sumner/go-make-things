@@ -75,6 +75,8 @@ app.append(link);
 
 [Here's a demo of this technique.](https://codepen.io/cferdinandi/pen/abWaByy)
 
+_**Note:** A savvy reader also pointed out that the `String.replace()` approach to removing `javascript:` can be thwarted by using a string like this: `javajavascript:script:alert(1)`. This hack would require knowing specifically how our sanitizing code works, but it is still a vulnerability._
+
 ## What's next?
 
 Using properties that set plain text values are great if you're _only_ adding text, but if you're adding a lot of markup around it, using `document.createElement()` for every element can get tedious. Properties that inject HTML like `Element.innerHTML` and `Element.outerHTML` properties are so much easier.
