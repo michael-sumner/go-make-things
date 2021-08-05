@@ -124,7 +124,7 @@ guideDetails:
         url: "/web-apps/"
     stateBasedUI:
         id: "22882"
-        description: "Learn how to build fast and efficient interactive websites and web apps."
+        description: "Learn how to build interactive websites and web apps with state-based UI and data reactivity."
         url: "/state-based-ui/"
 
 # projectDetails:
