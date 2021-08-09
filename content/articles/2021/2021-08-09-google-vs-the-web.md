@@ -78,6 +78,8 @@ The security issues with cross-domain modals are real, but could also be address
 <iframe allow="alert" src="cross-domain.dom"></iframe>
 ```
 
+(_In fact, [there's already a way to do this](https://googlechrome.github.io/samples/block-modal-dialogs-sandboxed-iframe/)!_)
+
 Others have suggested adjusting the placement and styling of the modals to make it more obvious that they're part of the website or iframe itself, and not a system notification from the device's operating system.
 
 ## Chrome has too much power over the web
