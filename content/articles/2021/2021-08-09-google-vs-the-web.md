@@ -88,7 +88,7 @@ Others have suggested adjusting the placement and styling of the modals to make 
 
 This has resulted in a history of them pushing out platform changes without the consensus of other browser vendors. Sometimes that changes are good for the web. Sometimes they're bad. But the standards process exists for a reason.
 
-_**Update:** [this apparently was part of a standard process](https://twitter.com/estark37/status/1423108532778397696), but given how it caught so many people off-guard, does not seem to have actually been broadly communicated. [Here's the spec on GitHub.](https://github.com/whatwg/html/issues/5407)_
+_**Update:** [this apparently was part of a standard process](https://twitter.com/estark37/status/1423108532778397696), but given how it caught so many people off-guard, does not seem to have actually been broadly communicated. Obviously, that's a very bad thing for a breaking change. [Here's the spec on GitHub.](https://github.com/whatwg/html/issues/5407)_
 
 A few years ago, Microsoft Edge switched from their own rendering edge to Chromium, Google's rendering engine, which also powers Chrome. A lot of standards folks lamented the loss of another rendering engine, but the Chrome folks argued it was better to compete on features on-top of a shared engine.
 
