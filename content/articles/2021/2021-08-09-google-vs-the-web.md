@@ -102,7 +102,7 @@ Features are generally not deprecated because backwards compatibility is so impo
 
 ## A temporary reprieve
 
-Google rolled back the cross-domain iframe change for a few weeks, to give people more time to fix things that were going to break on their platforms.
+Google rolled back the cross-domain iframe change for ~~a few weeks~~ at least six months, to give people more time to fix things that were going to break on their platforms.
 
 But that doesn't address the underlying issue here: Chrome has decided to break a big chunk of the web because they alone have decided it's the right thing to do.
 
