@@ -88,8 +88,6 @@ Others have suggested adjusting the placement and styling of the modals to make 
 
 This has resulted in a history of them pushing out platform changes without the consensus of other browser vendors. Sometimes that changes are good for the web. Sometimes they're bad. But the standards process exists for a reason.
 
-_**Update:** [this apparently was part of a standard process](https://twitter.com/estark37/status/1423108532778397696), but given how it caught so many people off-guard, does not seem to have actually been broadly communicated. Obviously, that's a very bad thing for a breaking change. [Here's the spec on GitHub.](https://github.com/whatwg/html/issues/5407)_
-
 A few years ago, Microsoft Edge switched from their own rendering edge to Chromium, Google's rendering engine, which also powers Chrome. A lot of standards folks lamented the loss of another rendering engine, but the Chrome folks argued it was better to compete on features on-top of a shared engine.
 
 But what happens when the company that controls that platform makes a unilateral change?
@@ -109,3 +107,13 @@ But that doesn't address the underlying issue here: Chrome has decided to break 
 The message thread now has folks heaping praise on the Chrome team for graciously agreeing not to break-all-the-things for a few weeks, and ~~begging~~ asking for some alternatives that would allow `alert()`, `prompt()`, and `confirm()` to still be used on a limited basis.
 
 To be honest, I don't really know what the path forward is here. There's nothing to current replace the platform-native modals.
+
+## An update
+
+After hitting publish, I learned that [this apparently was part of a standard process](https://twitter.com/estark37/status/1423108532778397696), and that developers are Safari and Firefox also agreed with the changes. [Here's the spec on GitHub.](https://github.com/whatwg/html/issues/5407)
+
+Given how it caught so many people off-guard, it does not seem to have actually been broadly communicated. Obviously, that's a very bad thing for a breaking change.
+
+With any changes to the platform, but especially breaking ones, communication and feedback on how this will impact people who actually build things with the web is _super important_, and that was not done here.
+
+This situation was intensified by the general dismissal of valid concerns by the Chrome team until it got enough attention that they rolled back their changes for a bit.
