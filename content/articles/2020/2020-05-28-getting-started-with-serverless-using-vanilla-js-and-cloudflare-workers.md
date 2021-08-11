@@ -65,7 +65,7 @@ In the event listener above, we used `handlerRequest()`, so that's what we'll ca
  */
 async function handleRequest(request) {
 	// Do stuff...
-};
+}
 ```
 
 Now, we can create our API response.
@@ -114,7 +114,7 @@ async function handleRequest(request) {
 		headers: headers
 	});
 
-};
+}
 ```
 
 Finally, click the "Save and Deploy" button.
