@@ -1,5 +1,5 @@
 ---
-title: "Sending credentials with javascript"
+title: "Sending credentials with JavaScript"
 date: 2021-09-03T10:30:00-04:00
 draft: false
 categories:
