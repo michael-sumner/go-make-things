@@ -61,7 +61,7 @@ rss:
           start: 20210920
           end: 20210926
       3:
-          message:<p>⏰ <em><strong>Last chance to join the Vanilla JS Academy!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on Monday. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
+          message: <p>⏰ <em><strong>Last chance to join the Vanilla JS Academy!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on Monday. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
           start: 20210927
           end: 20211003
       4:
