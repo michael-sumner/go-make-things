@@ -45,21 +45,21 @@ guidesAdvanced:
 # registrationAcademy - when registration begins
 # nextAcademy - date to show before registration is open
 academy:
-    priceID: 10
-    priceIDMonthly: 11
-    price: "$899"
-    priceMonthly: "$299"
+    priceID: 12
+    priceIDMonthly: 13
+    price: "$900"
+    priceMonthly: "$350"
     priceAlumni: "$99"
-    pricePre: "$499"
-    pricePreMonthly: "$165"
-    startRegistration: 20210510
-    endRegistration: 20210606
-    startPre: 20210502
-    endPre: 20210510
-    startAcademy: "May 31"
-    endAcademy: "August 9"
-    registrationAcademy: "May 10"
-    nextAcademy: "this fall"
+    pricePre: "$500"
+    pricePreMonthly: "$199"
+    startRegistration: 20210913
+    endRegistration: 20211011
+    startPre: 20210907
+    endPre: 20210913
+    startAcademy: "October 4"
+    endAcademy: "December 11"
+    registrationAcademy: "September 13"
+    nextAcademy: "this winter"
 
 # academyTeams:
 #     price: "$20,000"

@@ -62,18 +62,18 @@ academy:
     limited:
         1:
             prices:
-                price: "<del>$899</del>&nbsp;$584"
-                priceMonthly: "<del>$299</del>&nbsp;$195"
+                price: "<del>$900</del>&nbsp;$585"
+                priceMonthly: "<del>$350</del>&nbsp;$228"
                 discount: "EARLYBIRD"
-            start: 20210510
-            end: 20210516
+            start: 20210913
+            end: 20210921
         2:
             prices:
-                price: "<del>$899</del>&nbsp;$674"
-                priceMonthly: "<del>$299</del>&nbsp;$225"
+                price: "<del>$900</del>&nbsp;$675"
+                priceMonthly: "<del>$350</del>&nbsp;$263"
                 discount: "LASTCHANCE"
-            start: 20210524
-            end: 20210606
+            start: 20210927
+            end: 20211011
 
 # Call
 # Nothing yet...
