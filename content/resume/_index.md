@@ -110,6 +110,15 @@ noIndex: true
 
 
 
+## Public Speaking
+
+- **[JSNation Live](https://live.jsnation.com/)** &middot; Service Workers &middot; June 9-11, 2021
+- **[Artifact Conference](https://artifactconf.com/)** &middot; The Lean Web &middot; September 30 – October 1, 2019
+- **[JS for WordPress Conference](https://javascriptforwp.com/conference/)** &middot; Web Performance &middot; July 12, 2019
+- [Various podcast appearances...](https://gomakethings.com/talks/#podcast-appearances)
+
+
+
 ## Additional Projects
 
 - **[The Vanilla JS Toolkit.](https://vanillajstoolkit.com/)** A collection of native JavaScript methods, helper functions, libraries, boilerplates, and learning resources.
