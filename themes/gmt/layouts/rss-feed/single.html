@@ -19,6 +19,7 @@
 		<generator>Hugo -- gohugo.io</generator>
 		{{- $data := getJSON $.Site.Params.api -}}
 		{{- $ctas := index $data "ctas" -}}
+		{{- $.Scratch.Set "ctaType" .Params.ctas -}}
 		{{- $.Scratch.Set "mcPre" "" -}}
 		{{- if and (eq .Params.ctas "mailchimp") (isset $ctas "mc-pre") -}}
 			{{- $.Scratch.Set "mcPre" (index $ctas "mc-pre") -}}
@@ -36,7 +37,7 @@
 				{{- with .Site.Author.name -}}<dc:creator>{{.}}</dc:creator>{{end}}
 				<guid>{{ if eq .Type "links" }}{{ .Params.link }}{{ else }}{{ .Permalink }}{{- end -}}</guid>
 				<description>{{ `<![CDATA[ ` | safeHTML }}{{ .Summary | safeHTML }}]]></description>
-				<content:encoded>{{ `<![CDATA[ ` | safeHTML }}{{ $.Scratch.Get "mcPre" | safeHTML }}{{ .Content | safeHTML }}{{ $.Scratch.Get "mcPost" | safeHTML }}{{ if and (ne .Params.ctas "mailchimp") (isset $ctas "rss") }}{{ (index $ctas "rss") | safeHTML }}{{ end }}]]></content:encoded>
+				<content:encoded>{{ `<![CDATA[ ` | safeHTML }}{{ $.Scratch.Get "mcPre" | safeHTML }}{{ .Content | safeHTML }}{{ $.Scratch.Get "mcPost" | safeHTML }}{{ if and (ne ($.Scratch.Get "ctaType") "mailchimp") (isset $ctas "rss") }}{{ (index $ctas "rss") | safeHTML }}{{ end }}]]></content:encoded>
 			</item>
 		{{ end }}
 	</channel>
