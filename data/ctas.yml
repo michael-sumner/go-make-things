@@ -29,11 +29,11 @@ mcPost:
           start: 20210907
           end: 20210912
       1:
-          message: <p>⏰🦉 <strong>Early Bird Sale!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4. This week, get 35% off the program. <a href="https://vanillajsacademy.com">Click here to join.</a></p><p>Cheers,<br>Chris</p>
+          message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4. This week, get 35% off the program. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p><p>Cheers,<br>Chris</p>
           start: 20210913
           end: 20210919
       2:
-          message: <p><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Let's make 2021 the year you master JavaScript. <a href="https://vanillajsacademy.com">Click here to join.</a></p><p>Cheers,<br>Chris</p>
+          message: <p><em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Let's make 2021 the year you master JavaScript. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p><p>Cheers,<br>Chris</p>
           start: 20210920
           end: 20210926
       3:
@@ -41,7 +41,7 @@ mcPost:
           start: 20210927
           end: 20211003
       4:
-          message: <p>🚀 <strong>Last chance to join!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> just started, but it's not too late to join. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></p><p>Cheers,<br>Chris</p>
+          message: <p>🚀 <em><strong>Last chance to join!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> just started, but it's not too late to join. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p><p>Cheers,<br>Chris</p>
           start: 20211004
           end: 20211009
 
@@ -53,11 +53,11 @@ rss:
           start: 20210907
           end: 20210912
       1:
-          message: <p>⏰🦉 <strong>Early Bird Sale!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4. This week, get 35% off the program. <a href="https://vanillajsacademy.com">Click here to join.</a></p>
+          message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4. This week, get 35% off the program. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
           start: 20210913
           end: 20210919
       2:
-          message: <p>🚀 <strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Let's make 2021 the year you master JavaScript. <a href="https://vanillajsacademy.com">Click here to join.</a></p>
+          message: <p>🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Let's make 2021 the year you master JavaScript. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
           start: 20210920
           end: 20210926
       3:
@@ -65,7 +65,7 @@ rss:
           start: 20210927
           end: 20211003
       4:
-          message: <p>🚀 <strong>Last chance to join!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> just started, but it's not too late to join. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></p>
+          message: <p>🚀 <em><strong>Last chance to join!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> just started, but it's not too late to join. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
           start: 20211004
           end: 20211009
 
