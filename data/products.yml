@@ -126,6 +126,10 @@ guideDetails:
         id: "22882"
         description: "Learn how to build interactive websites and web apps with state-based UI and data reactivity."
         url: "/state-based-ui/"
+    tokenBasedAuthentication:
+        id: "59774"
+        description: "Learn how to register, login, and manage user sessions with token-based authentication."
+        url: "/token-based-authentication/"
 
 # projectDetails:
 #     complete:
