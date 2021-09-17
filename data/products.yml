@@ -16,12 +16,12 @@ guides:
     both: "$99"
 
 guidesComplete:
-    ebook: "<del>$539</del>&nbsp;$324"
-    video: "<del>$1,034</del>&nbsp;$620"
-    both: "<del>$1,089</del>&nbsp;$654"
-    ebookMonthly: "$126"
-    videoMonthly: "$241"
-    bothMonthly: "$254"
+    ebook: "<del>$588</del>&nbsp;$354"
+    video: "<del>$1,128</del>&nbsp;$678"
+    both: "<del>$1,188</del>&nbsp;$712"
+    ebookMonthly: "$138"
+    videoMonthly: "$264"
+    bothMonthly: "$278"
 
 guidesBeginner:
     ebook: "<del>$245</del>&nbsp;$172"
