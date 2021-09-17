@@ -1,6 +1,14 @@
 ##
 ## Product details
 ##
+## Formula for monthly:
+## function price (base) {
+##    let monthly = base / 3;
+##    let increase = monthly / 2;
+##    let total = base + increase;
+##    return total / 3;
+## }
+##
 
 guides:
     ebook: "$49"
@@ -8,27 +16,27 @@ guides:
     both: "$99"
 
 guidesComplete:
-    ebook: "<del>$441</del>&nbsp;$309"
-    video: "<del>$846</del>&nbsp;$592"
-    both: "<del>$891</del>&nbsp;$624"
-    ebookMonthly: "$109"
-    videoMonthly: "$199"
-    bothMonthly: "$209"
+    ebook: "<del>$539</del>&nbsp;$324"
+    video: "<del>$1,034</del>&nbsp;$620"
+    both: "<del>$1,089</del>&nbsp;$654"
+    ebookMonthly: "$126"
+    videoMonthly: "$241"
+    bothMonthly: "$254"
 
 guidesBeginner:
     ebook: "<del>$245</del>&nbsp;$172"
     video: "<del>$470</del>&nbsp;$329"
     both: "<del>$495</del>&nbsp;$347"
-    ebookMonthly: "$59"
-    videoMonthly: "$119"
-    bothMonthly: "$129"
+    ebookMonthly: "$67"
+    videoMonthly: "$129"
+    bothMonthly: "$134"
 
 guidesAdvanced:
     ebook: "<del>$196</del>&nbsp;$137"
     video: "<del>$376</del>&nbsp;$263"
     both: "<del>$396</del>&nbsp;$277"
-    ebookMonthly: "$49"
-    videoMonthly: "$99"
+    ebookMonthly: "$54"
+    videoMonthly: "$102"
     bothMonthly: "$109"
 
 # guidesTeams:
