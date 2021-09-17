@@ -39,6 +39,14 @@ guidesAdvanced:
     videoMonthly: "$102"
     bothMonthly: "$109"
 
+guidesExpert:
+    ebook: "<del>$147</del>&nbsp;$104"
+    video: "<del>$282</del>&nbsp;$197"
+    both: "<del>$297</del>&nbsp;$208"
+    ebookMonthly: "$41"
+    videoMonthly: "$77"
+    bothMonthly: "$81"
+
 # guidesTeams:
 #     ten: "$5,500"
 #     fifteen: "$7,500"
@@ -90,6 +98,11 @@ guideDetails:
         monthly: "58816"
         description: "Take your vanilla JavaScript skills to the next level with these pocket guides on advanced topics."
         url: "/advanced-bundle/"
+    expert:
+        id: "59791"
+        monthly: "59793"
+        description: "Learn how to build fast, interactive sites and apps with these pocket guides on expert topics."
+        url: "/expert-bundle/"
     domManipulation:
         id: "22585"
         description: "Learn how to get DOM elements, manipulate them, and listen for events in the browser."
@@ -134,6 +147,10 @@ guideDetails:
         id: "22882"
         description: "Learn how to build interactive websites and web apps with state-based UI and data reactivity."
         url: "/state-based-ui/"
+    serverless:
+        id: "59789"
+        description: "Create your own APIs, microservices, and client-side web apps with serverless functions."
+        url: "/serverless/"
     tokenBasedAuthentication:
         id: "59774"
         description: "Learn how to register, login, and manage user sessions with token-based authentication."
