@@ -16,11 +16,11 @@ There are numerous terms (and in some cases, buzzwords) used with token-based au
 
 _Authorization_, _authentication_, and _identity_ are related to each other, so we'll be looking at them together.
 
-- **Authorization** is this process of confirming that you are who you say you are. This typically involves providing credentials like a username and password.
-- **Authentication** is the process of verifying whether or not you have access to something. The token you get back from the _authorization_ step is typically used for _authentication_ on subsequent API requests.
+- **Authentication** is this process of confirming that you are who you say you are. This typically involves providing credentials like a username and password.
+- **Authorization** is the process of verifying whether or not you have access to something. The token you get back from the _authentication_ step is typically used for _authorization_ on subsequent API requests.
 - **Identity** is information about you, such as your username, email address, or first and last name.
 
-The _authorization_ process returns a token that you use for _authentication_.
+The _authentication_ process returns a token that you use for _authorization_.
 
 Depending on the type of token-based authentication provider you're using, that token (or a second one) may also include _identity_ information.
 
@@ -28,7 +28,7 @@ Depending on the type of token-based authentication provider you're using, that 
 
 _JSON Web Tokens_ are more commonly referred to as _JWTs_ and pronounced "jot" or "jots" (I have no idea why!).
 
-The tokens returned by the _authorization_ process are often cryptographically-random strings that need to be _authenticated_ by the third-party that issued them. A _JWT_ is a special kind of token that is self-verifying and contains _identity_ information.
+The tokens returned by the _authentication_ process are often cryptographically-random strings that need to be validated by the third-party that issued them. A _JWT_ is a special kind of token that is self-verifying and contains _identity_ information.
 
 A _JWT_ is compromised of three parts, each separated by a dot (`.`).
 
