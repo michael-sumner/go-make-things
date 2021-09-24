@@ -35,7 +35,7 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 - [The Web Platform Podcast](https://thewebplatformpodcast.com/196-lean-web-dev), March 15, 2020
 - [Greater Than Code](https://www.greaterthancode.com/the-case-for-vanilla-javascript), February 19, 2020
 - [Script & Style](https://scriptandstyle.simplecast.com/episodes/vanilla-javascript-with-chris-ferdinandi), November 11, 2019
-- [devMode.fm](https://devmode.fm/episodes/returning-sanity-to-the-webdev-process?mc_cid=d0351d5f34&mc_eid=7dddaa071c), September 2, 2019
+- [devMode.fm](https://devmode.fm/episodes/returning-sanity-to-the-webdev-process), September 2, 2019
 - [Localhost.fm](https://localhost.fm/2019/08/02/javascript-with-chris-ferdinandi.html), August 12, 2019
 - [The Entrepreneurial Coder Podcast](https://share.transistor.fm/s/2d10b271), July 11, 2019
 - [JS Party](https://changelog.com/jsparty/80), June 14, 2019
