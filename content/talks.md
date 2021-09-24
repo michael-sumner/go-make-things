@@ -41,7 +41,7 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 - [JS Party](https://changelog.com/jsparty/80), June 14, 2019
 - [The Shop Talk Show](https://shoptalkshow.com/episodes/365/), June 13, 2019
 - [Developer on Fire](http://developeronfire.com/podcast/episode-316-chris-ferdinandi-idea-to-living-thing), February 26, 2018
-- [JavaScript Jabber](https://devchat.tv/js-jabber/jsj-299-learn-javascript-youre-not-developer-chris-ferdinandi), February 7, 2018
+- [JavaScript Jabber](https://devchat.tv/js-jabber/jsj-299-how-to-learn-javascript-when-youre-not-a-developer-with-chris-ferdinandi/), February 7, 2018
 - [The RWD Podcast](https://responsivewebdesign.com/podcast/chris-ferdinandi/), January 22, 2018
 - [Hanselminutes](https://hanselminutes.com/598/maybe-just-use-vanilla-javascript-with-chris-ferdinandi), September 21, 2017
 - [Developer Tea](https://spec.fm/podcasts/developer-tea/79721), August 4, 2017
