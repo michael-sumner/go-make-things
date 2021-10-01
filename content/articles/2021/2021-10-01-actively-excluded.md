@@ -8,7 +8,7 @@ categories:
 - Careers
 ---
 
-Back in August, Jelena Woehr shared this on Twitter:
+Back in August, [Jelena Woehr shared this on Twitter](https://twitter.com/jelenawoehr/status/1429220531195240461?s=20):
 
 > They're not "male dominated" industries, they're "industries from which women and non-binary people are actively excluded."
 >
