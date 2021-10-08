@@ -116,7 +116,7 @@ ruudVanZuidam:
     name: "Ruud van Zuidam"
     url: "https://twitter.com/allrude"
     photo: "https://cdn.gomakethings.com/testimonials/ruud-van-zuidam.jpg"
-    quote: "<p>As a front-ender I always found JS difficult and made the mistake \"solving\" my lack of knowledge with the use of jQuery and a lot of plugins.</p>When I stumbled over your site and watched the video I had the feeling that for the first time I had an insight how JS works and how to learn it."
+    quote: "As a front-ender I always found JS difficult and made the mistake \"solving\" my lack of knowledge with the use of jQuery and a lot of plugins.<br><br>When I stumbled over your site and watched the video I had the feeling that for the first time I had an insight how JS works and how to learn it."
 
 scottTirrell:
     name: "Scott Tirrell"
@@ -361,7 +361,6 @@ calebStauffer:
     quote: "This has easily been the most valuable newsletter I have ever subscribed to. Thank you very much for sharing and educating!"
 
 # The Lean Web
-
 stevenSlack:
     name: "Steven Slack"
     url: "https://twitter.com/slacktronic/status/1149679224564772864"
