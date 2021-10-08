@@ -16,12 +16,12 @@ guides:
     both: "$99"
 
 guidesComplete:
-    ebook: "<del>$588</del>&nbsp;$354"
-    video: "<del>$1,128</del>&nbsp;$678"
-    both: "<del>$1,188</del>&nbsp;$712"
-    ebookMonthly: "$138"
-    videoMonthly: "$264"
-    bothMonthly: "$278"
+    ebook: "<del>$637</del>&nbsp;$382"
+    video: "<del>$1,222</del>&nbsp;$734"
+    both: "<del>$1,287</del>&nbsp;$772"
+    ebookMonthly: "$149"
+    videoMonthly: "$285"
+    bothMonthly: "$299"
 
 guidesBeginner:
     ebook: "<del>$245</del>&nbsp;$172"
@@ -32,12 +32,12 @@ guidesBeginner:
     bothMonthly: "$134"
 
 guidesAdvanced:
-    ebook: "<del>$196</del>&nbsp;$137"
-    video: "<del>$376</del>&nbsp;$263"
-    both: "<del>$396</del>&nbsp;$277"
-    ebookMonthly: "$54"
-    videoMonthly: "$102"
-    bothMonthly: "$109"
+    ebook: "<del>$245</del>&nbsp;$172"
+    video: "<del>$470</del>&nbsp;$329"
+    both: "<del>$495</del>&nbsp;$347"
+    ebookMonthly: "$67"
+    videoMonthly: "$129"
+    bothMonthly: "$134"
 
 guidesExpert:
     ebook: "<del>$147</del>&nbsp;$104"
@@ -141,7 +141,7 @@ guideDetails:
         url: "/es-modules/"
     serviceWorkers:
         id: "60065"
-        description: "Learn how to build more resilient sites and web apps that load faster and even work offline."
+        description: "Learn how to build more resilient web experiences that load faster and even work offline."
         url: "/service-workers/"
     webApps:
         id: "22882"
