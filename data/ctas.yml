@@ -22,7 +22,7 @@ mcPre:
           end: 20211003
 
 mcPost:
-  message: <p>*|INTERESTED:Purchases:Academy - Foundations|*<strong>Is there a JavaScript or web development topic you'd like to learn more about?</strong> Hit reply to this email and let me know.*|ELSE:|**|INTERESTED:Purchases:Pocket Guide Bundle|*<strong>The <a href="https://vanillajsacademy.com"">Vanilla JS Academy</a> is a project-based online JavaScript workshop for beginners.</strong> <a href="https://vanillajsacademy.com">Click here to learn more</a>.*|ELSE:|*<strong>Want to really dig in to topics like this?</strong> Check out my <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a>&mdash;short, focused ebooks and video courses made for beginners. Let's make 2021 the year you master JavaScript!*|END:INTERESTED|**|END:INTERESTED|*</p><p>Cheers,<br>Chris</p>
+  message: <p>*|INTERESTED:Purchases:Academy - Foundations|*<strong>Is there a JavaScript or web development topic you'd like to learn more about?</strong> Hit reply to this email and let me know.*|ELSE:|**|INTERESTED:Purchases:Pocket Guide Bundle|*<strong>The <a href="https://vanillajsacademy.com"">Vanilla JS Academy</a> is a project-based online JavaScript workshop for beginners.</strong> <a href="https://vanillajsacademy.com">Click here to learn more</a>.*|ELSE:|*<strong>Want to really dig in to topics like this?</strong> Check out my <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a>&mdash;short, focused ebooks and video courses made for beginners. Let's make this the year you master JavaScript!*|END:INTERESTED|**|END:INTERESTED|*</p><p>Cheers,<br>Chris</p>
   limited:
       0:
           message: "<p>Cheers,<br>Chris</p>"
@@ -33,7 +33,7 @@ mcPost:
           start: 20210913
           end: 20210919
       2:
-          message: <p><em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Let's make 2021 the year you master JavaScript. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p><p>Cheers,<br>Chris</p>
+          message: <p><em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Let's make this the year you master JavaScript. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p><p>Cheers,<br>Chris</p>
           start: 20210920
           end: 20210926
       3:
@@ -57,7 +57,7 @@ rss:
           start: 20210913
           end: 20210919
       2:
-          message: <p>🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Let's make 2021 the year you master JavaScript. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
+          message: <p>🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Let's make this the year you master JavaScript. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
           start: 20210920
           end: 20210926
       3:
@@ -68,21 +68,6 @@ rss:
           message: <p>🚀 <em><strong>Last chance to join!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> just started, but it's not too late to join. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
           start: 20211004
           end: 20211009
-
-
-
-# Bios
-bio:
-    message: "<div class='clearfix margin-bottom'><img src='https://gomakethings.com/img/chris-ferdinandi-high-res.jpg' alt='Chris Ferdinandi' width='175' height='175' class='img-circle img-left margin-bottom'><p><strong>Hi, I'm Chris Ferdinandi.</strong> I believe there’s a simpler, more resilient way to make things for the web.</p><p>I’ve taught developers at organizations like Chobani and the Boston Globe, and my JavaScript plugins have been used by organizations like Apple and Harvard Business School. My developer tips newsletter is read by over {{mc_subs}} developers each weekday.</p><p>I want to help you master vanilla JavaScript, without all of the painful false starts and roadblocks I encountered when I was learning.</p></div>"
-
-bioShort:
-    message: "<div class='clearfix margin-bottom'><img src='https://gomakethings.com/img/chris-ferdinandi-high-res.jpg' alt='Chris Ferdinandi' width='175' height='175' class='img-circle img-left margin-bottom'><p>I believe there’s a simpler, more resilient way to make things for the web.</p><p>I create <a href='https://vanillajsguides.com'>vanilla JS pocket guides and video courses</a>, run a <a href='https://vanillajsacademy.com'>project-based training program</a>, and host <a href='https://vanillajspodcast.com'>the vanilla JS podcast</a>. My <a href='https://gomakethings.com/articles'>developer tips newsletter</a> is read by over {{mc_subs}} developers each weekday.</p><p>If you have a question about something or need JavaScript help, <a href='https://gomakethings.com/about/'>get in touch</a>.</p></div>"
-
-
-
-# Products
-products:
-    message: <ul class="list-spaced list-spaced-small"><li><strong><a href="https://gomakethings.com/articles/">Daily Developer Tips.</a></strong> I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web.</li><li><strong><a href="https://vanillajsguides.com/">Guides &amp; Courses.</a></strong> Short, focused ebooks and video courses made for beginners. Start building real JavaScript projects in under an hour.</li><li><strong><a href="https://vanillajsacademy.com/">Vanilla JS Academy.</a></strong> A project-based online JavaScript workshop for beginners.</li></ul>
 
 
 
@@ -182,7 +167,7 @@ funnel:
 
 # https://vanillajsguides.com
 guide:
-    message: <p><mark>🚀 <em><strong>New & Updated!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches.</em></mark></p>
+    message: ""
     limited:
         1:
             message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through April 25, get 30% off any guide or bundle.</em></p>
@@ -255,7 +240,7 @@ guideBuy:
 
 
 guidesAll:
-    message: <p><mark>🚀 <em><strong>New & Updated!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches.</em></mark></p>
+    message: <p><mark>🔥 <em><strong>Hot Off the Press!</strong> Dig into new guides on <a href="/service-workers">service workers</a>, <a href="/token-based-authentication/">token-based authentication</a>, or <a href="/serverless/">serverless</a>. You can also level-up with the new <a href="/expert-bundle/">expert bundle</a>.</em></mark></p>
     limited:
         1:
             message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through April 25, get 30% off any guide or bundle.</em></p>
@@ -337,15 +322,15 @@ academy:
             start: 20211004
             end: 20211012
         # 1:
-        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, pre-register for the February 2021 session of Academy and save 40%. You'll also get $296 in free bonus gifts. This sale ends Monday, so don't&nbsp;wait!</em></mark></p>
+        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, pre-register for the February this session of Academy and save 40%. You'll also get $296 in free bonus gifts. This sale ends Monday, so don't&nbsp;wait!</em></mark></p>
         #     start: 20201127
         #     end: 20201128
         # 2:
-        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, pre-register for the February 2021 session of Academy and save 40%. You'll also get $296 in free bonus gifts. This sale ends tomorrow, so don't&nbsp;wait!</em></mark></p>
+        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, pre-register for the February this session of Academy and save 40%. You'll also get $296 in free bonus gifts. This sale ends tomorrow, so don't&nbsp;wait!</em></mark></p>
         #     start: 20201129
         #     end: 20201129
         # 3:
-        #     message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, pre-register for the February 2021 session of Academy and save 40%. You'll also get $296 in free bonus gifts. This sale ends today, so don't&nbsp;wait!</em></mark></p>
+        #     message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, pre-register for the February this session of Academy and save 40%. You'll also get $296 in free bonus gifts. This sale ends today, so don't&nbsp;wait!</em></mark></p>
         #     start: 20201130
         #     end: 20201130
 
@@ -370,15 +355,15 @@ academyBuy:
             start: 20210927
             end: 20211012
         # 1:
-        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, save 40% on pre-registration for the February 2021 session with the code <code>THANKS</code> at checkout.</em></mark></p>
+        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, save 40% on pre-registration for the February this session with the code <code>THANKS</code> at checkout.</em></mark></p>
         #     start: 20201127
         #     end: 20201128
         # 2:
-        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, save 40% on pre-registration for the February 2021 session with the code <code>THANKS</code> at checkout.</em></mark></p>
+        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, save 40% on pre-registration for the February this session with the code <code>THANKS</code> at checkout.</em></mark></p>
         #     start: 20201129
         #     end: 20201129
         # 3:
-        #     message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 40% on pre-registration for the February 2021 session with the code <code>THANKS</code> at checkout.</em></mark></p>
+        #     message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 40% on pre-registration for the February this session with the code <code>THANKS</code> at checkout.</em></mark></p>
         #     start: 20201130
         #     end: 20201130
 
@@ -438,3 +423,16 @@ bonusesAcademy:
             message: <h2>🎁 Exclusive Cyber Monday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy today only, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends today, so don't wait!</p>
             start: 20201130
             end: 20201130
+
+
+# Bios
+bio:
+    message: "<div class='clearfix margin-bottom'><img src='https://gomakethings.com/img/chris-ferdinandi-high-res.jpg' alt='Chris Ferdinandi' width='175' height='175' class='img-circle img-left margin-bottom'><p><strong>Hi, I'm Chris Ferdinandi.</strong> I believe there’s a simpler, more resilient way to make things for the web.</p><p>I’ve taught developers at organizations like Chobani and the Boston Globe, and my JavaScript plugins have been used by organizations like Apple and Harvard Business School. My developer tips newsletter is read by over {{mc_subs}} developers each weekday.</p><p>I want to help you master vanilla JavaScript, without all of the painful false starts and roadblocks I encountered when I was learning.</p></div>"
+
+bioShort:
+    message: "<div class='clearfix margin-bottom'><img src='https://gomakethings.com/img/chris-ferdinandi-high-res.jpg' alt='Chris Ferdinandi' width='175' height='175' class='img-circle img-left margin-bottom'><p>I believe there’s a simpler, more resilient way to make things for the web.</p><p>I create <a href='https://vanillajsguides.com'>vanilla JS pocket guides and video courses</a>, run a <a href='https://vanillajsacademy.com'>project-based training program</a>, and host <a href='https://vanillajspodcast.com'>the vanilla JS podcast</a>. My <a href='https://gomakethings.com/articles'>developer tips newsletter</a> is read by over {{mc_subs}} developers each weekday.</p><p>If you have a question about something or need JavaScript help, <a href='https://gomakethings.com/about/'>get in touch</a>.</p></div>"
+
+
+# Products
+products:
+    message: <ul class="list-spaced list-spaced-small"><li><strong><a href="https://gomakethings.com/articles/">Daily Developer Tips.</a></strong> I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web.</li><li><strong><a href="https://vanillajsguides.com/">Guides &amp; Courses.</a></strong> Short, focused video courses and ebooks made for beginners. Learn the ins-and-outs of a topic in about an hour.</li><li><strong><a href="https://vanillajsacademy.com/">Vanilla JS Academy.</a></strong> A project-based online JavaScript workshop for beginners.</li></ul>
