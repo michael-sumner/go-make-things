@@ -19,4 +19,4 @@ Rich dug into the issues with both single-page apps and multi-page apps (or, mor
 
 [You can watch the whole thing on YouTube now.](https://www.youtube.com/watch?v=860d8usGC0o) It's well worth 20 minutes of your time.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/860d8usGC0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="fluid-vids"><iframe width="560" height="315" src="https://www.youtube.com/embed/860d8usGC0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
