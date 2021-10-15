@@ -16,11 +16,11 @@ guides:
     both: "$99"
 
 guidesTeams:
-    ten: "$5,500"
-    fifteen: "$7,500"
-    twenty: "$9,000"
-    thirty: "$12,500"
-    fourty: "$16,500"
+    ten: "<del>$7,720</del>&nbsp;$3,860"
+    fifteen: "<del>$11,580</del>&nbsp;$5,790"
+    twenty: "<del>$15,440</del>&nbsp;$7,720"
+    thirty: "<del>$23,160</del>&nbsp;$11,580"
+    fourty: "<del>$30,880</del>&nbsp;$15,440"
 
 guidesComplete:
     ebook: "<del>$637</del>&nbsp;$382"
