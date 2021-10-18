@@ -23,7 +23,7 @@ On the page, right-click the element you want to debug event listeners for, then
 
 If you expand the event, you can see what element they're attached to ([because of event delegation](/why-event-delegation-is-a-better-way-to-listen-for-events-in-vanilla-js/)), and click a link to open up the actual event listener itself in the JavaScript.
 
-<img alt="A screenshot of the Go Make Things homepage, with Firefox's developer tools open to elements tab for the newsletter form, with the event details showing" src="/img/articles/debug-events.png">
+<img alt="A screenshot of the Go Make Things homepage, with Firefox's developer tools open to elements tab for the newsletter form, with the event details showing" src="/img/articles/debug-events-ff.png">
 
 **In Firefox,** events are only surfaced on the element they're attached to. It doesn't account for event delegation.
 
