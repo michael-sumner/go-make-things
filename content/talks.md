@@ -25,6 +25,9 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 
 ## Podcast Appearances
 
+- [Greater Than Code](https://www.greaterthancode.com/unbreaking-the-web), October 27, 2021
+- [The Self-Made Expert](https://philipmorganconsulting.com/podcast/tsme-156-chris-ferdinandi/), October 23, 2021
+- [JS Party](https://changelog.com/jsparty/199), October 21, 2021
 - [We Belong Here](https://webelongpodcast.com/episodes/chris-ferdinandi-how-to-hack-your-job-hunt.html), July 27, 2021
 - [HTML All The Things Podcast](https://dev.to/mikhailkaran/how-modern-javascript-is-ruining-the-web-w-chris-ferdinandi-5eo3), June 30, 2021
 - [The Drunken UX Podcast](https://drunkenux.com/podcast/dux71/), September 14, 2020
