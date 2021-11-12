@@ -25,6 +25,7 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 
 ## Podcast Appearances
 
+- [PodRocket](https://podrocket.logrocket.com/vanilla-javascript), November 12, 2021
 - [Greater Than Code](https://www.greaterthancode.com/unbreaking-the-web), October 27, 2021
 - [The Self-Made Expert](https://philipmorganconsulting.com/podcast/tsme-156-chris-ferdinandi/), October 23, 2021
 - [JS Party](https://changelog.com/jsparty/199), October 21, 2021
