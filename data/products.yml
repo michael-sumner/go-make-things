@@ -1,5 +1,31 @@
-##
-## Product details
+#
+# Product details
+#
+
+## startRegistration/endRegistration - when to show the purchase button
+## startPre/endPre - when to show alumni/early bird pricing
+## startAcademy/endAcademy - run dates to show on purchase form
+## registrationAcademy - when registration begins
+## nextAcademy - date to show before registration is open
+academy:
+    priceID: 12
+    priceIDMonthly: 13
+    price: "$900"
+    priceMonthly: "$350"
+    priceAlumni: "$99"
+    pricePre: "$500"
+    pricePreMonthly: "$195"
+    startRegistration: 20210913
+    endRegistration: 20211011
+    startPre: 20210907
+    endPre: 20210913
+    startAcademy: "October 4"
+    endAcademy: "December 11"
+    registrationAcademy: "September 13"
+    nextAcademy: "this winter"
+
+
+## Pocket Guides
 ##
 ## Formula for monthly:
 ## function price (base) {
@@ -9,7 +35,6 @@
 ##    return total / 3;
 ## }
 ##
-
 guides:
     ebook: "$49"
     video: "$94"
@@ -53,28 +78,6 @@ guidesExpert:
     ebookMonthly: "$41"
     videoMonthly: "$77"
     bothMonthly: "$81"
-
-# startRegistration/endRegistration - when to show the purchase button
-# startPre/endPre - when to show alumni/early bird pricing
-# startAcademy/endAcademy - run dates to show on purchase form
-# registrationAcademy - when registration begins
-# nextAcademy - date to show before registration is open
-academy:
-    priceID: 12
-    priceIDMonthly: 13
-    price: "$900"
-    priceMonthly: "$350"
-    priceAlumni: "$99"
-    pricePre: "$500"
-    pricePreMonthly: "$195"
-    startRegistration: 20210913
-    endRegistration: 20211011
-    startPre: 20210907
-    endPre: 20210913
-    startAcademy: "October 4"
-    endAcademy: "December 11"
-    registrationAcademy: "September 13"
-    nextAcademy: "this winter"
 
 # academyTeams:
 #     price: "$20,000"
