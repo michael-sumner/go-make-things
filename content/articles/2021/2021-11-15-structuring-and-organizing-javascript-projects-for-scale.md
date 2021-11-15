@@ -1,6 +1,6 @@
 ---
 title: Structuring and organizing JavaScript projects for scale
-date: 2021-11-15T10:30:00-05:00
+date: 2021-11-15T10:30:00-04:00
 draft: false
 categories:
 - Accessibility
