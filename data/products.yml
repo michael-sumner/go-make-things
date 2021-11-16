@@ -23,25 +23,12 @@ academy:
         pre: "$499"
         preMonthly: "$199"
     dates:
-        registrationStart: 20210913
-        registrationEnd: 20211011
+        registrationStart: 20211122
+        registrationEnd: 20220116
         preStart: 20210907
         preEnd: 20210913
         start: "January 10"
         end: "February 19"
-    priceID: 12
-    priceIDMonthly: 13
-    price: "$699"
-    priceMonthly: "$275"
-    priceAlumni: "$99"
-    pricePre: "$499"
-    pricePreMonthly: "$199"
-    startRegistration: 20210913
-    endRegistration: 20211011
-    startPre: 20210907
-    endPre: 20210913
-    startAcademy: "January 10"
-    endAcademy: "February 19"
 
 
 ## Pocket Guides
