@@ -5,8 +5,6 @@
 ## startRegistration/endRegistration - when to show the purchase button
 ## startPre/endPre - when to show alumni/early bird pricing
 ## startAcademy/endAcademy - run dates to show on purchase form
-## registrationAcademy - when registration begins
-## nextAcademy - date to show before registration is open
 academy:
     essentials:
         base: 60313
