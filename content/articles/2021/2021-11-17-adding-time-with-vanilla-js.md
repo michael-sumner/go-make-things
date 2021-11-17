@@ -21,7 +21,7 @@ It has methods for creating a `Date()` object from a string, formatting dates an
 // This is NOT currently supported in browsers
 // Do NOT try to use this in production today
 Temporal.Now.instant().add({ hours: 5, seconds: 20 });
-````
+```
 
 It's currently a stage 3 proposal, which means it's pretty far along the standards process. But there's no official "this is coming to browsers on {DATE}" for it, so for now, we're stuck with `Date()`.
 
