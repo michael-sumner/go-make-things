@@ -12,62 +12,86 @@ mcSubscriberCount:
 mcPre:
   message: ""
   limited:
-      0:
-          message: <p>🚀 <em><strong>Register for the Vanilla JS Academy this week and save big!</strong> A new session of the <a href="https://vanillajsacademy.com/secret">Vanilla JS Academy</a> starts on October 4. Now through Sunday, get 45% off registration. <a href="https://vanillajsacademy.com/secret">Click here to join.</a></em></p>
-          start: 20210907
-          end: 20210912
-      1:
-          message: <p>⏰ <em><strong>Last chance to join the Vanilla JS Academy!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on Monday. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
-          start: 20210927
-          end: 20211003
+      # 0:
+      #     message: <p>🚀 <em><strong>Register for the Vanilla JS Academy this week and save big!</strong> A new session of the <a href="https://vanillajsacademy.com/secret">Vanilla JS Academy</a> starts on October 4. Now through Sunday, get 45% off registration. <a href="https://vanillajsacademy.com/secret">Click here to join.</a></em></p>
+      #     start: 20210907
+      #     end: 20210912
+      # 1:
+      #     message: <p>⏰ <em><strong>Last chance to join the Vanilla JS Academy!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on Monday. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
+      #     start: 20210927
+      #     end: 20211003
+        0:
+          message: <p>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts.</em></p>
+          start: 20211118
+          end: 20211119
 
 mcPost:
   message: <p>*|INTERESTED:Purchases:Academy - Foundations|*<strong>Is there a JavaScript or web development topic you'd like to learn more about?</strong> Hit reply to this email and let me know.*|ELSE:|**|INTERESTED:Purchases:Pocket Guide Bundle|*<strong>The <a href="https://vanillajsacademy.com"">Vanilla JS Academy</a> is a project-based online JavaScript workshop for beginners.</strong> <a href="https://vanillajsacademy.com">Click here to learn more</a>.*|ELSE:|*<strong>Want to really dig in to topics like this?</strong> Check out my <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a>&mdash;short, focused ebooks and video courses made for beginners. Let's make this the year you master JavaScript!*|END:INTERESTED|**|END:INTERESTED|*</p><p>Cheers,<br>Chris</p>
   limited:
-      0:
-          message: "<p>Cheers,<br>Chris</p>"
-          start: 20210907
-          end: 20210912
-      1:
-          message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4. This week, get 35% off the program. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p><p>Cheers,<br>Chris</p>
-          start: 20210913
-          end: 20210919
-      2:
-          message: <p><em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Let's make this the year you master JavaScript. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p><p>Cheers,<br>Chris</p>
-          start: 20210920
-          end: 20210926
-      3:
-          message: "<p>Cheers,<br>Chris</p>"
-          start: 20210927
-          end: 20211003
-      4:
-          message: <p>🚀 <em><strong>Last chance to join!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> just started, but it's not too late to join. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p><p>Cheers,<br>Chris</p>
-          start: 20211004
-          end: 20211009
+    0:
+        message: <p>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></p><p>Cheers,<br>Chris</p>
+        start: 20211122
+        end: 20211126
+    1:
+        message: <p>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></p><p>Cheers,<br>Chris</p>
+        start: 20211129
+        end: 20211129
+      # 0:
+      #     message: "<p>Cheers,<br>Chris</p>"
+      #     start: 20210907
+      #     end: 20210912
+      # 1:
+      #     message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4. This week, get 35% off the program. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p><p>Cheers,<br>Chris</p>
+      #     start: 20210913
+      #     end: 20210919
+      # 2:
+      #     message: <p><em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Let's make this the year you master JavaScript. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p><p>Cheers,<br>Chris</p>
+      #     start: 20210920
+      #     end: 20210926
+      # 3:
+      #     message: "<p>Cheers,<br>Chris</p>"
+      #     start: 20210927
+      #     end: 20211003
+      # 4:
+      #     message: <p>🚀 <em><strong>Last chance to join!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> just started, but it's not too late to join. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p><p>Cheers,<br>Chris</p>
+      #     start: 20211004
+      #     end: 20211009
 
 rss:
   message: ""
   limited:
+      # 0:
+      #     message: <p>🚀 <em><strong>Register for the Vanilla JS Academy this week and save big!</strong> A new session of the <a href="https://vanillajsacademy.com/secret">Vanilla JS Academy</a> starts on October 4. Now through Sunday, get 45% off registration. <a href="https://vanillajsacademy.com/secret">Click here to join.</a></em></p>
+      #     start: 20210907
+      #     end: 20210912
+      # 1:
+      #     message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4. This week, get 35% off the program. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
+      #     start: 20210913
+      #     end: 20210919
+      # 2:
+      #     message: <p>🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Let's make this the year you master JavaScript. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
+      #     start: 20210920
+      #     end: 20210926
+      # 3:
+      #     message: <p>⏰ <em><strong>Last chance to join the Vanilla JS Academy!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on Monday. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
+      #     start: 20210927
+      #     end: 20211003
+      # 4:
+      #     message: <p>🚀 <em><strong>Last chance to join!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> just started, but it's not too late to join. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
+      #     start: 20211004
+      #     end: 20211009
       0:
-          message: <p>🚀 <em><strong>Register for the Vanilla JS Academy this week and save big!</strong> A new session of the <a href="https://vanillajsacademy.com/secret">Vanilla JS Academy</a> starts on October 4. Now through Sunday, get 45% off registration. <a href="https://vanillajsacademy.com/secret">Click here to join.</a></em></p>
-          start: 20210907
-          end: 20210912
+        message: <p>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts.</em></p>
+        start: 20211118
+        end: 20211119
       1:
-          message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4. This week, get 35% off the program. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
-          start: 20210913
-          end: 20210919
+        message: <p>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></p>
+        start: 20211122
+        end: 20211126
       2:
-          message: <p>🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Let's make this the year you master JavaScript. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
-          start: 20210920
-          end: 20210926
-      3:
-          message: <p>⏰ <em><strong>Last chance to join the Vanilla JS Academy!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on Monday. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
-          start: 20210927
-          end: 20211003
-      4:
-          message: <p>🚀 <em><strong>Last chance to join!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> just started, but it's not too late to join. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></p>
-          start: 20211004
-          end: 20211009
+        message: <p>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></p>
+        start: 20211129
+        end: 20211129
 
 
 
@@ -82,46 +106,46 @@ rss:
 funnel:
     message: ""
     limited:
-        0:
-            message: <p><mark>⏰ <em><strong>An updated and redesigned <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Registration opens on October 13. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
-            start: 20210428
-            end: 20210502
-        1:
-            message: <p><mark>⏰ <em><strong>An updated and redesigned <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Registration opens next week. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
-            start: 20210907
-            end: 20210910
-        2:
-            message: <p><mark>⏰ <em><strong>An updated and redesigned <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Registration opens on Monday. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
-            start: 20210911
-            end: 20210911
-        3:
-            message: <p><mark>⏰ <em><strong>An updated and redesigned <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Registration opens tomorrow. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
-            start: 20210912
-            end: 20210912
-        4:
-            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4. Now through Sunday, get 35% off the program. <a href="https://vanillajsacademy.com">Click here to join.</a></em></mark></p>
-            start: 20210913
-            end: 20210917
-        5:
-            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4. Today and tomorrow, get 35% off the program. <a href="https://vanillajsacademy.com">Click here to join.</a></em></mark></p>
-            start: 20210918
-            end: 20210918
-        6:
-            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4. Today only, get 35% off the program. <a href="https://vanillajsacademy.com">Click here to join.</a></em></mark></p>
-            start: 20210919
-            end: 20210919
-        7:
-            message: <p><mark>🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Learn to solve problems and think in JavaScript!  <a href="https://vanillajsacademy.com">Click here to join.</a></em></mark></p>
-            start: 20210920
-            end: 20210926
-        8:
-            message: <p><mark>⏰ <em><strong>Last chance to join!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on Monday. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></mark></p>
-            start: 20210927
-            end: 20211003
-        9:
-            message: <p><mark>🚀 <em><strong>Last chance to join!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> just started, but it's not too late to join. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></mark></p>
-            start: 20211004
-            end: 20211012
+        # 0:
+        #     message: <p><mark>⏰ <em><strong>An updated and redesigned <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Registration opens on October 13. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
+        #     start: 20210428
+        #     end: 20210502
+        # 1:
+        #     message: <p><mark>⏰ <em><strong>An updated and redesigned <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Registration opens next week. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
+        #     start: 20210907
+        #     end: 20210910
+        # 2:
+        #     message: <p><mark>⏰ <em><strong>An updated and redesigned <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Registration opens on Monday. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
+        #     start: 20210911
+        #     end: 20210911
+        # 3:
+        #     message: <p><mark>⏰ <em><strong>An updated and redesigned <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Registration opens tomorrow. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
+        #     start: 20210912
+        #     end: 20210912
+        # 4:
+        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4. Now through Sunday, get 35% off the program. <a href="https://vanillajsacademy.com">Click here to join.</a></em></mark></p>
+        #     start: 20210913
+        #     end: 20210917
+        # 5:
+        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4. Today and tomorrow, get 35% off the program. <a href="https://vanillajsacademy.com">Click here to join.</a></em></mark></p>
+        #     start: 20210918
+        #     end: 20210918
+        # 6:
+        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4. Today only, get 35% off the program. <a href="https://vanillajsacademy.com">Click here to join.</a></em></mark></p>
+        #     start: 20210919
+        #     end: 20210919
+        # 7:
+        #     message: <p><mark>🚀 <em><strong>A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on October 4.</strong> Learn to solve problems and think in JavaScript!  <a href="https://vanillajsacademy.com">Click here to join.</a></em></mark></p>
+        #     start: 20210920
+        #     end: 20210926
+        # 8:
+        #     message: <p><mark>⏰ <em><strong>Last chance to join!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> starts on Monday. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></mark></p>
+        #     start: 20210927
+        #     end: 20211003
+        # 9:
+        #     message: <p><mark>🚀 <em><strong>Last chance to join!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> just started, but it's not too late to join. Register today and save 25%. <a href="https://vanillajsacademy.com">Click here to join.</a></em></mark></p>
+        #     start: 20211004
+        #     end: 20211012
         # 1:
         #     message: <p><em><mark><strong>Worried about the economy?</strong></mark> I am too! If you’re in a bad spot right now, you can take 50% off my <a href="https://vanillajsguides.com">ebooks, video courses</a>, and the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>.</em></p>
         #     start: 20200321
@@ -162,6 +186,18 @@ funnel:
         #     message: <p><mark>🚀 <em><strong>Last chance to join!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> just started, but it's not too late to join. Register today and save 30%. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
         #     start: 20210201
         #     end: 20210207
+        0:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts.</em></mark></p>
+          start: 20211118
+          end: 20211119
+        1:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></mark></p>
+          start: 20211122
+          end: 20211126
+        2:
+          message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></mark></p>
+          start: 20211129
+          end: 20211129
 
 
 
@@ -169,26 +205,26 @@ funnel:
 guide:
     message: ""
     limited:
-        1:
-            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through April 25, get 30% off any guide or bundle.</em></p>
-            start: 20210415
-            end: 20210416
-        2:
-            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through next weekend, get 30% off any guide or bundle.</em></p>
-            start: 20210417
-            end: 20210418
-        3:
-            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today through this weekend, get 30% off any vanilla JS pocket guide or bundle. They've been completely updated with new methods and modern JS approaches.</em></mark></p>
-            start: 20210419
-            end: 20210423
-        4:
-            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today and tomorrow, get 30% off any vanilla JS pocket guide or bundle. They've been completely updated with new methods and modern JS approaches.</em></mark></p>
-            start: 20210424
-            end: 20210424
-        5:
-            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today only, get 30% off any vanilla JS pocket guide or bundle. They've been completely updated with new methods and modern JS approaches.</em></mark></p>
-            start: 20210425
-            end: 20210425
+        # 1:
+        #     message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through April 25, get 30% off any guide or bundle.</em></p>
+        #     start: 20210415
+        #     end: 20210416
+        # 2:
+        #     message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through next weekend, get 30% off any guide or bundle.</em></p>
+        #     start: 20210417
+        #     end: 20210418
+        # 3:
+        #     message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today through this weekend, get 30% off any vanilla JS pocket guide or bundle. They've been completely updated with new methods and modern JS approaches.</em></mark></p>
+        #     start: 20210419
+        #     end: 20210423
+        # 4:
+        #     message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today and tomorrow, get 30% off any vanilla JS pocket guide or bundle. They've been completely updated with new methods and modern JS approaches.</em></mark></p>
+        #     start: 20210424
+        #     end: 20210424
+        # 5:
+        #     message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today only, get 30% off any vanilla JS pocket guide or bundle. They've been completely updated with new methods and modern JS approaches.</em></mark></p>
+        #     start: 20210425
+        #     end: 20210425
         # 1:
         #     message: <div class="callout"><p><em><mark><strong>Worried about the economy?</strong></mark> I am too! If you’re in a bad spot right now, you can take 50% off with the code <code>ECONOMY</code> at checkout.</em></p><p class="no-margin-bottom"><em class="text-small">(If you’re doing ok right now, I’d be grateful if you paid full price to help keep my business going. But please don’t hesitate to use this discount if you need it.)</em></p></div>
         #     start: 20200321
@@ -201,30 +237,50 @@ guide:
         #     message: <p><mark> 🎉 <em><strong>New Year's  Sale!</strong> Today only, save 40% on every every pocket guide. This sale ends at midnight, so don't&nbsp;wait!</em></mark></p>
         #     start: 20210101
         #     end: 20210101
+        0:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+          start: 20211118
+          end: 20211120
+        1:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+          start: 20211121
+          end: 20211121
+        2:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></mark></p>
+          start: 20211122
+          end: 20211127
+        3:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends tomorrow, so don't wait!</em></mark></p>
+          start: 20211128
+          end: 20211128
+        2:
+          message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></mark></p>
+          start: 20211129
+          end: 20211129
 
 guideBuy:
     message: ""
     limited:
-        1:
-            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today through April 25, save 30% off with the code <code>ModernJS30</code> at checkout.</em></p>
-            start: 20210415
-            end: 20210416
-        2:
-            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today through next weekend, save 30% off with the code <code>ModernJS30</code> at checkout.</em></p>
-            start: 20210417
-            end: 20210418
-        3:
-            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today through this weekend, save 30% off with the code <code>ModernJS30</code> at checkout.</em></p>
-            start: 20210419
-            end: 20210423
-        4:
-            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today and tomorrow, save 30% off with the code <code>ModernJS30</code> at checkout.</em></p>
-            start: 20210424
-            end: 20210424
-        5:
-            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today only, save 30% off with the code <code>ModernJS30</code> at checkout.</p>
-            start: 20210425
-            end: 20210425
+        # 1:
+        #     message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today through April 25, save 30% off with the code <code>ModernJS30</code> at checkout.</em></p>
+        #     start: 20210415
+        #     end: 20210416
+        # 2:
+        #     message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today through next weekend, save 30% off with the code <code>ModernJS30</code> at checkout.</em></p>
+        #     start: 20210417
+        #     end: 20210418
+        # 3:
+        #     message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today through this weekend, save 30% off with the code <code>ModernJS30</code> at checkout.</em></p>
+        #     start: 20210419
+        #     end: 20210423
+        # 4:
+        #     message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today and tomorrow, save 30% off with the code <code>ModernJS30</code> at checkout.</em></p>
+        #     start: 20210424
+        #     end: 20210424
+        # 5:
+        #     message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> Today only, save 30% off with the code <code>ModernJS30</code> at checkout.</p>
+        #     start: 20210425
+        #     end: 20210425
         # 1:
         #     message: <p><em><mark><strong>Worried about the economy?</strong></mark> I am too! If you’re in a bad spot right now, you can take 50% off every guide and bundle with the code <code>ECONOMY</code> at checkout.</em></p><p><em class="text-small">(If you’re doing ok right now, I’d be grateful if you paid full price to help keep my business going. But please don’t hesitate to use this discount if you need it.)</em></p>
         #     start: 20200321
@@ -237,31 +293,43 @@ guideBuy:
         #     message: <p><mark> 🎉 <em><strong>New Year's  Sale!</strong> Today only, save 40% with the code <code>NYE2021</code> at checkout</em></mark></p>
         #     start: 20210101
         #     end: 20210101
+        0:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
+          start: 20211122
+          end: 20211127
+        3:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
+          start: 20211128
+          end: 20211128
+        2:
+          message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
+          start: 20211129
+          end: 20211129
 
 
 guidesAll:
     message: <p><mark>🔥 <em><strong>Hot Off the Press!</strong> Dig into new guides on <a href="/service-workers">service workers</a>, <a href="/token-based-authentication/">token-based authentication</a>, or <a href="/serverless/">serverless</a>. You can also level-up with the new <a href="/expert-bundle/">expert bundle</a>.</em></mark></p>
     limited:
-        1:
-            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through April 25, get 30% off any guide or bundle.</em></p>
-            start: 20210415
-            end: 20210416
-        2:
-            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through next weekend, get 30% off any guide or bundle.</em></p>
-            start: 20210417
-            end: 20210418
-        3:
-            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through this weekend, get 30% off any guide or bundle.</em></p>
-            start: 20210419
-            end: 20210423
-        4:
-            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today and tomorrow, get 30% off any guide or bundle.</em></p>
-            start: 20210424
-            end: 20210424
-        5:
-            message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today only, get 30% off any guide or bundle.</em></p>
-            start: 20210425
-            end: 20210425
+        # 1:
+        #     message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through April 25, get 30% off any guide or bundle.</em></p>
+        #     start: 20210415
+        #     end: 20210416
+        # 2:
+        #     message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through next weekend, get 30% off any guide or bundle.</em></p>
+        #     start: 20210417
+        #     end: 20210418
+        # 3:
+        #     message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today through this weekend, get 30% off any guide or bundle.</em></p>
+        #     start: 20210419
+        #     end: 20210423
+        # 4:
+        #     message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today and tomorrow, get 30% off any guide or bundle.</em></p>
+        #     start: 20210424
+        #     end: 20210424
+        # 5:
+        #     message: <p><mark>🚀 <em><strong>Relaunch Sale!</strong> The Vanilla JS Pocket Guides have been completely updated with new methods and modern JS approaches. Today only, get 30% off any guide or bundle.</em></p>
+        #     start: 20210425
+        #     end: 20210425
         # 1:
         #     message: <div class="callout"><p><em><mark><strong>Worried about the economy?</strong></mark> I am too! If you’re in a bad spot right now, you can take 50% off every guide and bundle with the code <code>ECONOMY</code> at checkout.</em></p><p class="no-margin-bottom"><em class="text-small">(If you’re doing ok right now, I’d be grateful if you paid full price to help keep my business going. But please don’t hesitate to use this discount if you need it.)</em></p></div>
         #     start: 20200321
@@ -274,6 +342,26 @@ guidesAll:
         #     message: <p><mark> 🎉 <em><strong>New Year's  Sale!</strong> Today only, save 40% on every every pocket guide bundle. This sale ends at midnight, so don't&nbsp;wait!</em></mark></p>
         #     start: 20210101
         #     end: 20210101
+        0:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+          start: 20211118
+          end: 20211120
+        1:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+          start: 20211121
+          end: 20211121
+        2:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></mark></p>
+          start: 20211122
+          end: 20211127
+        3:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends tomorrow, so don't wait!</em></mark></p>
+          start: 20211128
+          end: 20211128
+        2:
+          message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></mark></p>
+          start: 20211129
+          end: 20211129
 
 
 
@@ -281,46 +369,46 @@ guidesAll:
 academy:
     message: ""
     limited:
-        0:
-            message: <p><mark>⏰ <em><strong>An updated and redesigned Vanilla JS Academy starts on October 4.</strong> Registration opens on October 13.</em></mark></p>
-            start: 20210428
-            end: 20210502
-        1:
-            message: <p><mark>⏰ <em><strong>An updated and redesigned Vanilla JS Academy starts on October 4.</strong> Registration opens next week.</em></mark></p>
-            start: 20210907
-            end: 20210910
-        2:
-            message: <p><mark>⏰ <em><strong>An updated and redesigned Vanilla JS Academy starts on October 4.</strong> Registration opens on Monday.</em></mark></p>
-            start: 20210911
-            end: 20210911
-        3:
-            message: <p><mark>⏰ <em><strong>An updated and redesigned Vanilla JS Academy starts on October 4.</strong> Registration opens tomorrow.</em></mark></p>
-            start: 20210912
-            end: 20210912
-        4:
-            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the Vanilla JS Academy starts on October 4. Now through Sunday, get 35% off the program.</em></mark></p>
-            start: 20210913
-            end: 20210917
-        5:
-            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the Vanilla JS Academy starts on October 4. Today and tomorrow, get 35% off the program.</em></mark></p>
-            start: 20210918
-            end: 20210918
-        6:
-            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the Vanilla JS Academy starts on October 4. Today only, get 35% off the program.</em></mark></p>
-            start: 20210919
-            end: 20210919
-        7:
-            message: <p><mark>🚀 <em><strong>A new session of the Vanilla JS Academy starts on October 4.</strong> Learn to solve problems and think in JavaScript! Register today.</em></mark></p>
-            start: 20210920
-            end: 20210926
-        8:
-            message: <p><mark>⏰ <em><strong>Last chance to join!</strong> A new session of the Vanilla JS Academy starts on Monday. Register today and save 25%.</em></mark></p>
-            start: 20210927
-            end: 20211003
-        9:
-            message: <p><mark>🚀 <em><strong>Last chance to join!</strong> A new session of the Vanilla JS Academy just started, but it's not too late to join. Register today and save 25%.</em></mark></p>
-            start: 20211004
-            end: 20211012
+        # 0:
+        #     message: <p><mark>⏰ <em><strong>An updated and redesigned Vanilla JS Academy starts on October 4.</strong> Registration opens on October 13.</em></mark></p>
+        #     start: 20210428
+        #     end: 20210502
+        # 1:
+        #     message: <p><mark>⏰ <em><strong>An updated and redesigned Vanilla JS Academy starts on October 4.</strong> Registration opens next week.</em></mark></p>
+        #     start: 20210907
+        #     end: 20210910
+        # 2:
+        #     message: <p><mark>⏰ <em><strong>An updated and redesigned Vanilla JS Academy starts on October 4.</strong> Registration opens on Monday.</em></mark></p>
+        #     start: 20210911
+        #     end: 20210911
+        # 3:
+        #     message: <p><mark>⏰ <em><strong>An updated and redesigned Vanilla JS Academy starts on October 4.</strong> Registration opens tomorrow.</em></mark></p>
+        #     start: 20210912
+        #     end: 20210912
+        # 4:
+        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the Vanilla JS Academy starts on October 4. Now through Sunday, get 35% off the program.</em></mark></p>
+        #     start: 20210913
+        #     end: 20210917
+        # 5:
+        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the Vanilla JS Academy starts on October 4. Today and tomorrow, get 35% off the program.</em></mark></p>
+        #     start: 20210918
+        #     end: 20210918
+        # 6:
+        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> A new session of the Vanilla JS Academy starts on October 4. Today only, get 35% off the program.</em></mark></p>
+        #     start: 20210919
+        #     end: 20210919
+        # 7:
+        #     message: <p><mark>🚀 <em><strong>A new session of the Vanilla JS Academy starts on October 4.</strong> Learn to solve problems and think in JavaScript! Register today.</em></mark></p>
+        #     start: 20210920
+        #     end: 20210926
+        # 8:
+        #     message: <p><mark>⏰ <em><strong>Last chance to join!</strong> A new session of the Vanilla JS Academy starts on Monday. Register today and save 25%.</em></mark></p>
+        #     start: 20210927
+        #     end: 20211003
+        # 9:
+        #     message: <p><mark>🚀 <em><strong>Last chance to join!</strong> A new session of the Vanilla JS Academy just started, but it's not too late to join. Register today and save 25%.</em></mark></p>
+        #     start: 20211004
+        #     end: 20211012
         # 1:
         #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, pre-register for the February this session of Academy and save 40%. You'll also get $296 in free bonus gifts. This sale ends Monday, so don't&nbsp;wait!</em></mark></p>
         #     start: 20201127
@@ -333,27 +421,47 @@ academy:
         #     message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, pre-register for the February this session of Academy and save 40%. You'll also get $296 in free bonus gifts. This sale ends today, so don't&nbsp;wait!</em></mark></p>
         #     start: 20201130
         #     end: 20201130
+        0:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on Academy registration and get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+          start: 20211118
+          end: 20211120
+        1:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting tomorrow, save 50% on Academy registration and get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+          start: 20211121
+          end: 20211121
+        2:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on Academy registration and get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></mark></p>
+          start: 20211122
+          end: 20211127
+        3:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 50% on Academy registration and get $436 in free bonus gifts. This sale ends tomorrow, so don't wait!</em></mark></p>
+          start: 20211128
+          end: 20211128
+        2:
+          message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on Academy registration and get $436 in free bonus gifts. This sale ends today, so don't wait!</em></mark></p>
+          start: 20211129
+          end: 20211129
 
 
 academyBuy:
     message: ""
     limited:
-        1:
-            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Use the code <code>EARLYBIRD</code> to get 35% off at checkout. This sale ends Sunday, so don't&nbsp;wait!</em></mark></p>
-            start: 20210913
-            end: 20210917
-        2:
-            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Use the code <code>EARLYBIRD</code> to get 35% off at checkout. This sale ends tomorrow, so don't&nbsp;wait!</em></mark></p>
-            start: 20210918
-            end: 20210918
-        3:
-            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Use the code <code>EARLYBIRD</code> to get 35% off at checkout. This sale ends today, so don't&nbsp;wait!</em></mark></p>
-            start: 20210919
-            end: 20210919
-        4:
-            message: <p><mark>⏰ <em><strong>Last chance to join!</strong> Use the code <code>LASTCHANCE</code> to get 25% off at checkout.</em></mark></p>
-            start: 20210927
-            end: 20211012
+        # 1:
+        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Use the code <code>EARLYBIRD</code> to get 35% off at checkout. This sale ends Sunday, so don't&nbsp;wait!</em></mark></p>
+        #     start: 20210913
+        #     end: 20210917
+        # 2:
+        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Use the code <code>EARLYBIRD</code> to get 35% off at checkout. This sale ends tomorrow, so don't&nbsp;wait!</em></mark></p>
+        #     start: 20210918
+        #     end: 20210918
+        # 3:
+        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Use the code <code>EARLYBIRD</code> to get 35% off at checkout. This sale ends today, so don't&nbsp;wait!</em></mark></p>
+        #     start: 20210919
+        #     end: 20210919
+        # 4:
+        #     message: <p><mark>⏰ <em><strong>Last chance to join!</strong> Use the code <code>LASTCHANCE</code> to get 25% off at checkout.</em></mark></p>
+        #     start: 20210927
+        #     end: 20211012
         # 1:
         #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> This weekend only, save 40% on pre-registration for the February this session with the code <code>THANKS</code> at checkout.</em></mark></p>
         #     start: 20201127
@@ -366,6 +474,18 @@ academyBuy:
         #     message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 40% on pre-registration for the February this session with the code <code>THANKS</code> at checkout.</em></mark></p>
         #     start: 20201130
         #     end: 20201130
+        0:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
+          start: 20211122
+          end: 20211127
+        3:
+          message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
+          start: 20211128
+          end: 20211128
+        2:
+          message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
+          start: 20211129
+          end: 20211129
 
 academyAlumni:
     message: "<p><mark><em><strong>Save almost 90% as an Academy Alum!</strong> Because you've gone through the program once already, you can save almost 90% on registration in the new Academy program. Use the code <code>ALUMNI</code> at checkout.</em></mark></p>"
@@ -391,17 +511,17 @@ bonusesGuides:
     message: ""
     limited:
         1:
-            message: <h2>🎁 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle this week, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends Monday, so don't wait!</p>
-            start: 20201127
-            end: 20201128
+            message: <h2>🎁 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle this week, you'll also get <strong>$436 worth of bonus gifts</strong>. This offer ends Monday, so don't wait!</p>
+            start: 20211122
+            end: 20211126
         2:
-            message: <h2>🎁 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle this weekend, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends tomorrow, so don't wait!</p>
-            start: 20201129
-            end: 20201129
+            message: <h2>🎁 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle this weekend, you'll also get <strong>$436 worth of bonus gifts</strong>. This offer ends Monday, so don't wait!</p>
+            start: 20211127
+            end: 20211128
         3:
-            message: <h2>🎁 Exclusive Cyber Monday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle today only, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends today, so don't wait!</p>
-            start: 20201130
-            end: 20201130
+            message: <h2>🎁 Exclusive Cyber Monday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle today only, you'll also get <strong>$436 worth of bonus gifts</strong>. This offer ends today, so don't wait!</p>
+            start: 20211129
+            end: 20211129
 
 
 bonusesAcademy:
@@ -412,17 +532,17 @@ bonusesAcademy:
         #     start: 20191202
         #     end: 20191202
         1:
-            message: <h2>🎁 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy this week, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends Monday, so don't wait!</p>
-            start: 20201127
-            end: 20201128
+            message: <h2>🎁 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy this week, you'll also get <strong>$436 worth of bonus gifts</strong>. This offer ends Monday, so don't wait!</p>
+            start: 20211122
+            end: 20211126
         2:
-            message: <h2>🎁 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy this weekend, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends tomorrow, so don't wait!</p>
-            start: 20201129
-            end: 20201129
+            message: <h2>🎁 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy this weekend, you'll also get <strong>$436 worth of bonus gifts</strong>. This offer ends Monday, so don't wait!</p>
+            start: 20211127
+            end: 20211128
         3:
-            message: <h2>🎁 Exclusive Cyber Monday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy today only, you'll also get <strong>$296 worth of bonus gifts</strong>. This offer ends today, so don't wait!</p>
-            start: 20201130
-            end: 20201130
+            message: <h2>🎁 Exclusive Cyber Monday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy today only, you'll also get <strong>$436 worth of bonus gifts</strong>. This offer ends today, so don't wait!</p>
+            start: 20211129
+            end: 20211129
 
 
 # Bios
