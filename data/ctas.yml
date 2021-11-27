@@ -65,7 +65,7 @@ funnel:
         1:
             message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></mark></p>
             start: 20211122
-            end: 20211126
+            end: 20211128
         2:
             message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></mark></p>
             start: 20211129
