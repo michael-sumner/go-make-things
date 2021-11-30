@@ -18,7 +18,7 @@ mcPre:
             end: 20211119
 
 mcPost:
-    message: <p>*|INTERESTED:Purchases:Academy - Foundations|*<strong>Is there a JavaScript or web development topic you'd like to learn more about?</strong> Hit reply to this email and let me know.*|ELSE:|**|INTERESTED:Purchases:Pocket Guide Bundle|*<strong>The <a href="https://vanillajsacademy.com"">Vanilla JS Academy</a> is a project-based online JavaScript workshop for beginners.</strong> <a href="https://vanillajsacademy.com">Click here to learn more</a>.*|ELSE:|*<strong>Want to really dig in to topics like this?</strong> Check out my <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a>&mdash;short, focused ebooks and video courses made for beginners. Let's make this the year you master JavaScript!*|END:INTERESTED|**|END:INTERESTED|*</p><p>Cheers,<br>Chris</p>
+    message: <p>*|INTERESTED:Purchases:Academy - Essentials|*<strong>Is there a JavaScript or web development topic you'd like to learn more about?</strong> Hit reply to this email and let me know.*|ELSE:|**|INTERESTED:Purchases:Pocket Guide Bundle|*<strong>The <a href="https://vanillajsacademy.com"">Vanilla JS Academy</a> is a project-based online JavaScript workshop for beginners.</strong> <a href="https://vanillajsacademy.com">Click here to learn more</a>.*|ELSE:|*<strong>Want to really dig in to topics like this?</strong> Check out my <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a>&mdash;short, focused ebooks and video courses made for beginners. Let's make this the year you master JavaScript!*|END:INTERESTED|**|END:INTERESTED|*</p><p>Cheers,<br>Chris</p>
     limited:
         0:
             message: <p>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></p><p>Cheers,<br>Chris</p>
@@ -44,6 +44,14 @@ rss:
             message: <p>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></p>
             start: 20211129
             end: 20211129
+        3:
+            message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> Today through Monday, get 30% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></p>
+            start: 20211130
+            end: 20211205
+        4:
+            message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> Today only, get 30% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></p>
+            start: 20211206
+            end: 20211206
 
 
 
@@ -70,6 +78,14 @@ funnel:
             message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></mark></p>
             start: 20211129
             end: 20211129
+        3:
+            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today through Monday, get 30% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></mark></p>
+            start: 20211130
+            end: 20211205
+        4:
+            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today only, get 30% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></mark></p>
+            start: 20211206
+            end: 20211206
 
 
 
@@ -164,6 +180,18 @@ academy:
             message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on Academy registration and get $436 in free bonus gifts. This sale ends today, so don't wait!</em></mark></p>
             start: 20211129
             end: 20211129
+        5:
+            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today through Monday, get 30% off registration in the next session of the Vanilla JS Academy.</em></mark></p>
+            start: 20211130
+            end: 20211204
+        6:
+            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today and tomorrow, get 30% off registration in the next session of the Vanilla JS Academy.</em></mark></p>
+            start: 20211205
+            end: 20211205
+        7:
+            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today only, get 30% off registration in the next session of the Vanilla JS Academy.</em></mark></p>
+            start: 20211206
+            end: 20211206
 
 academyBuy:
     message: ""
@@ -180,6 +208,18 @@ academyBuy:
             message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
             start: 20211129
             end: 20211129
+        5:
+            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today through Monday, get 30% off with the code <code>EARLYBIRD</code> at checkout.</em></mark></p>
+            start: 20211130
+            end: 20211204
+        6:
+            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today and tomorrow, get 30% off with the code <code>EARLYBIRD</code> at checkout.</em></mark></p>
+            start: 20211205
+            end: 20211205
+        7:
+            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today only, get 30% off with the code <code>EARLYBIRD</code> at checkout.</em></mark></p>
+            start: 20211206
+            end: 20211206
 
 academyAlumni:
     message: "<p><mark><em><strong>Save almost 90% as an Academy Alum!</strong> Because you've gone through the program once already, you can save almost 90% on registration in the new Academy program. Use the code <code>ALUMNI</code> at checkout.</em></mark></p>"

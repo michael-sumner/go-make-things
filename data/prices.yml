@@ -81,13 +81,20 @@ academy:
                 discount: "BLACKFRIDAY2021"
             start: 20211122
             end: 20211129
-        # 2:
-        #     prices:
-        #         price: "<del>$900</del>&nbsp;$675"
-        #         priceMonthly: "<del>$350</del>&nbsp;$263"
-        #         discount: "LASTCHANCE"
-        #     start: 20210927
-        #     end: 20211011
+        2:
+            prices:
+                price: "<del>$699</del>&nbsp;$489"
+                priceMonthly: "<del>$275</del>&nbsp;$193"
+                discount: "EARLYBIRD"
+            start: 20211130
+            end: 20211207
+        3:
+            prices:
+                price: "<del>$699</del>&nbsp;$559"
+                priceMonthly: "<del>$275</del>&nbsp;$220"
+                discount: "LASTCHANCE"
+            start: 20220103
+            end: 20220116
 
 # Call
 # Nothing yet...
