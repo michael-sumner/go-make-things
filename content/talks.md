@@ -12,6 +12,7 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 
 ## Talks
 
+- [JavaScript Congress](https://www.wearedevelopers.com/javascript-congress/), November 23-25, 2021
 - [JSNation Live](https://live.jsnation.com/), June 9-11, 2021
 - [JS Los Angeles](https://js.la/events/2020/), July 30, 2020
 - [Artifact](https://artifactconf.com/), September 30 – October 1, 2019
