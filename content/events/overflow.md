@@ -14,23 +14,10 @@ I've put together a *ton* of resources to help you dig deeper into building simp
 {{<mailchimp intro="true">}}
 
 
-## Referenced in the show
-
-- [The vanilla JS joke website](http://vanilla-js.com/)
-- [PreactJS](https://preactjs.com/)
-- [AlpineJS](https://alpinejs.dev/)
-- [Petite Vue](https://www.npmjs.com/package/petite-vue)
-- [Preact vs. React vs. Vanilla JS](https://css-tricks.com/radeventlistener-a-tale-of-client-side-framework-performance/)
-- [Svelte](https://svelte.dev/)
-- [SvelteKit](https://kit.svelte.dev/)
-- [Astro](https://astro.build/)
-- [Jason Lengstorf's experience with Astro](https://twitter.com/jlengstorf/status/1442707241627385860)
-- [ModernCSS](https://moderncss.dev/)
-- [SmolCSS](https://smolcss.dev/)
-
-
 ## Articles
 
+- [The rise of JavaScript compilers and micro-libraries](/the-rise-of-javascript-compilers-and-micro-libraries/)
+- [An alternative to single page apps: multi-page apps with service workers](/an-alternative-to-single-page-apps-multi-page-apps-with-service-workers/)
 - [The web is not dying](/the-web-is-not-dying/)
 - [Always bet on HTML](/always-bet-on-html/)
 - [How I structure my vanilla JS projects](/how-i-structure-my-vanilla-js-projects/)
@@ -51,15 +38,13 @@ I've put together a *ton* of resources to help you dig deeper into building simp
 - [Building low-impact websites](/building-low-impact-websites/)
 
 
-## The Lean Web Talk & Ebook
-
-You can watch my talk on *the Lean Web*, or read it in ebook form, at **[LeanWeb.dev](https://leanweb.dev/)**.
-
-There's also a ton of free resources for building simpler, faster websites on the site.
-
-
 ## Podcasts
 
+- [Greater Than Code: Unbreaking the Web](https://www.greaterthancode.com/unbreaking-the-web)
+- [The Self-Made Expert: Building a JS education business](https://philipmorganconsulting.com/podcast/tsme-156-chris-ferdinandi/)
+- [JS Party: Ship less JavaScript, closer to the user](https://changelog.com/jsparty/199)
+- [We Belong Here: How to Hack your Job Hunt](https://webelongpodcast.com/episodes/chris-ferdinandi-how-to-hack-your-job-hunt.html)
+- [Code Newbie: What is vanilla JS and how can it help you](https://www.codenewbie.org/podcast/what-is-vanilla-js-and-how-can-it-help-you)
 - [The Web Platform Podcast: Lean Web Dev](https://thewebplatformpodcast.com/196-lean-web-dev)
 - [Script & Style: Vanilla JS and the Lean Web](https://scriptandstyle.simplecast.com/episodes/vanilla-javascript-with-chris-ferdinandi)
 - [devMode.fm: Returning sanity to the web dev process](https://devmode.fm/episodes/returning-sanity-to-the-webdev-process?mc_cid=d0351d5f34&mc_eid=7dddaa071c)
