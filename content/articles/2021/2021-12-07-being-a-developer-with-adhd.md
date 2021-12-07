@@ -1,7 +1,8 @@
 ---
-title: Deving while ADHD
+title: Being a developer with ADHD
 date: 2021-12-07T10:30:00-05:00
 draft: false
+aliases: ["/deving-while-adhd/"]
 categories:
 - Accessibility
 - Careers
