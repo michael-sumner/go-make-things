@@ -96,6 +96,16 @@ Taking walks helps me focus _a lot_.
 
 There’s a lot of research on [the importance of "green time" for ADHD folks](https://www.youtube.com/watch?v=yr7B-bd8G4o). I’ve found this (and exercise) to be immensely helpful for me.
 
+### The Apple Watch
+
+I fully recognize that this is absolutely a "privileged person" thing, but the Apple Watch is one of the best ADHD tools I've ever found.
+
+Having my calendar on display right on my wrist, yelling at me 5 minutes before a meeting, is absurdly useful. I used to miss a lot of meetings before I got one!
+
+I also use timers for _everything_. Started some laundry? Timer to switch it. Put food in the oven? Timer so I take it out.
+
+A shitty short term memory means you forget that stuff easily, and little things become big hassles otherwise.
+
 ## What about you?
 
 If you're a fellow ADHDer, I'd love to hear from you.
