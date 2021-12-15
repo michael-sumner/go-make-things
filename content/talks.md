@@ -26,6 +26,7 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 
 ## Podcast Appearances
 
+- [Frontend Horse](https://frontend.horse/episode/building-a-javascript-library-from-scratch), December 14, 2021
 - [Smashing Podcast](https://podcast.smashingmagazine.com/episodes/is-the-web-dead-with-chris-ferdinandi), November 30, 2021
 - [PodRocket](https://podrocket.logrocket.com/vanilla-javascript), November 12, 2021
 - [Greater Than Code](https://www.greaterthancode.com/unbreaking-the-web), October 27, 2021
