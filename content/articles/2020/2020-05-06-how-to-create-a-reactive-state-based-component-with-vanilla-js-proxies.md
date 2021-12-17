@@ -38,6 +38,8 @@ Instead of setting `this.data` to `options.data`, we're going to first [convert 
 
 Let's start by adding a `handler()` function.
 
+_**Important:** I wrote about [an updated approach for better performance with nested arrays and objects in Proxies](/better-proxy-performance-in-vanilla-js/).__
+
 (*If you're not sure what this is about, [check out this article on nested arrays and objects](/how-to-detect-changes-to-nested-arrays-and-objects-inside-a-proxy/).*)
 
 ```js

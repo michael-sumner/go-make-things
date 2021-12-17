@@ -81,6 +81,8 @@ Next, in the *getter* function, check if the `obj[prop]` is an array or object.
 
 If it is, we'll recursively return a new Proxy instead of the property itself, and pass in `handler()` function as the handler.
 
+_**Important:** I wrote about [an updated approach for better performance with nested arrays and objects in Proxies](/better-proxy-performance-in-vanilla-js/).__
+
 (*[Learn more about reliable type checking here.](/true-type-checking-with-vanilla-js/)*)
 
 ```js
