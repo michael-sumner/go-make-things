@@ -30,7 +30,7 @@ Unfortunately, I couldn't get this to work in my own code, but it's a solution I
 
 ## Checking if the item is already being managed by the Proxy handler
 
-What ultimately worked for me was a really clever little "hack" in the Proxy handler itself.
+What ultimately worked for me was a really clever little "hack" in the Proxy handler itself ([thank you StackOverflow!](https://stackoverflow.com/a/50723478)).
 
 In the `get()` function, we first check if the `prop` being checked has a value of `_isProxy`. If so, we `return true`. Next, when checking if the item is an array or object, we also check if it has a property of `_isProxy`, with [a truthy value](/truthiness-in-javascript/).
 
