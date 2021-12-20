@@ -16,6 +16,10 @@ mcPre:
             message: <p>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts.</em></p>
             start: 20211118
             end: 20211119
+        1:
+            message: <p>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts.</em></p>
+            start: 20211220
+            end: 20220103
 
 mcPost:
     message: <p>*|INTERESTED:Purchases:Academy - Essentials|*<strong>Is there a JavaScript or web development topic you'd like to learn more about?</strong> Hit reply to this email and let me know.*|ELSE:|**|INTERESTED:Purchases:Pocket Guide Bundle|*<strong>The <a href="https://vanillajsacademy.com"">Vanilla JS Academy</a> is a project-based online JavaScript workshop for beginners.</strong> <a href="https://vanillajsacademy.com">Click here to learn more</a>.*|ELSE:|*<strong>Want to really dig in to topics like this?</strong> Check out my <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a>&mdash;short, focused ebooks and video courses made for beginners. Let's make this the year you master JavaScript!*|END:INTERESTED|**|END:INTERESTED|*</p><p>Cheers,<br>Chris</p>
@@ -28,6 +32,10 @@ mcPost:
             message: <p>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></p><p>Cheers,<br>Chris</p>
             start: 20211129
             end: 20211129
+        2:
+            message: <p>Cheers,<br>Chris</p>
+            start: 20211220
+            end: 20220103
 
 rss:
     message: ""
@@ -52,6 +60,10 @@ rss:
             message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> Today only, get 30% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></p>
             start: 20211206
             end: 20211206
+        5:
+            message: <p>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts.</em></p>
+            start: 20211220
+            end: 20220103
 
 
 
@@ -86,6 +98,10 @@ funnel:
             message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today only, get 30% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></mark></p>
             start: 20211206
             end: 20211206
+        5:
+            message: <p><mark>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts.</em></mark></p>
+            start: 20211220
+            end: 20220103
 
 
 
@@ -109,10 +125,14 @@ guide:
             message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends tomorrow, so don't wait!</em></mark></p>
             start: 20211128
             end: 20211128
-        2:
+        4:
             message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></mark></p>
             start: 20211129
             end: 20211129
+        5:
+            message: <p><mark>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts.</em></mark></p>
+            start: 20211220
+            end: 20220103
 
 guideBuy:
     message: ""
@@ -121,7 +141,7 @@ guideBuy:
             message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
             start: 20211122
             end: 20211127
-        3:
+        1:
             message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
             start: 20211128
             end: 20211128
@@ -129,6 +149,10 @@ guideBuy:
             message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
             start: 20211129
             end: 20211129
+        3:
+            message: <p><mark>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% with the code <code>HOLIDAY2021</code> at checkout.</em></mark></p>
+            start: 20211220
+            end: 20220103
 
 guidesAll:
     message: <p><mark>🔥 <em><strong>Hot Off the Press!</strong> Dig into new guides on <a href="/service-workers">service workers</a>, <a href="/token-based-authentication/">token-based authentication</a>, or <a href="/serverless/">serverless</a>. You can also level-up with the new <a href="/expert-bundle/">expert bundle</a>.</em></mark></p>
@@ -153,6 +177,10 @@ guidesAll:
             message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></mark></p>
             start: 20211129
             end: 20211129
+        5:
+            message: <p><mark>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts.</em></mark></p>
+            start: 20211220
+            end: 20220103
 
 
 
@@ -192,6 +220,10 @@ academy:
             message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today only, get 30% off registration in the next session of the Vanilla JS Academy.</em></mark></p>
             start: 20211206
             end: 20211206
+        8:
+            message: <p><mark>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, off registration in the next session of the Vanilla JS Academy. You'll also get $436 in free bonus gifts.</em></mark></p>
+            start: 20211220
+            end: 20220103
 
 academyBuy:
     message: ""
@@ -220,6 +252,10 @@ academyBuy:
             message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today only, get 30% off with the code <code>EARLYBIRD</code> at checkout.</em></mark></p>
             start: 20211206
             end: 20211206
+        8:
+            message: <p><mark>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% with the code <code>HOLIDAY2021</code> at checkout.</em></mark></p>
+            start: 20211220
+            end: 20220103
 
 academyAlumni:
     message: "<p><mark><em><strong>Save almost 90% as an Academy Alum!</strong> Because you've gone through the program once already, you can save almost 90% on registration in the new Academy program. Use the code <code>ALUMNI</code> at checkout.</em></mark></p>"
@@ -234,41 +270,25 @@ bonusesList:
     limited:
         1:
             message: <ul><li>Watch me live-code vanilla JS projects with the <a href="https://gomakethings.com/live-code/">Vanilla JS Live-Code Series</a>. Follow along, try it yourself first, or dig into the completed source code for over a dozen projects. <em>Valued at $239.</em></li><li>Get hands-on learning with real projects with the <a href="https://gomakethings.com/project-bundle/">Project Bundle</a>. You get starter templates, helpful tips and resources, and step-by-step tutorials. <em>Valued at $119.</em></li><li>Learn how to build insanely fast WordPress sites <a href="https://gomakethings.com/wicked-fast-websites/">Wicked Fast Websites</a>. You'll learn how to measure performance, reduce page weight, and make simple server optimizations. <em>Valued at $39.</em></li><li>Learn how to write resumes that get seen by an actual human, navigate the interview process, and more with my <a href="https://gomakethings.com/career-guide">Web Developer Career Guide</a>. <em>Valued at $39.</em></li></ul>
-            start: 20211122
-            end: 20211129
+            start: 20211220
+            end: 20220103
 
 bonusesGuides:
     message: ""
     limited:
         1:
-            message: <h2>🎁 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle this week, you'll also get <strong>$436 worth of bonus gifts</strong>. This offer ends Monday, so don't wait!</p>
-            start: 20211122
-            end: 20211126
-        2:
-            message: <h2>🎁 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle this weekend, you'll also get <strong>$436 worth of bonus gifts</strong>. This offer ends Monday, so don't wait!</p>
-            start: 20211127
-            end: 20211128
-        3:
-            message: <h2>🎁 Exclusive Cyber Monday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle today only, you'll also get <strong>$436 worth of bonus gifts</strong>. This offer ends today, so don't wait!</p>
-            start: 20211129
-            end: 20211129
+            message: <h2>🎁 Exclusive Holiday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle now through New Year's Day, you'll also get <strong>$436 worth of bonus gifts</strong>. This offer ends New Year's Day, so don't wait!</p>
+            start: 20211220
+            end: 20220103
 
 
 bonusesAcademy:
     message: ""
     limited:
         1:
-            message: <h2>🎁 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy this week, you'll also get <strong>$436 worth of bonus gifts</strong>. This offer ends Monday, so don't wait!</p>
-            start: 20211122
-            end: 20211126
-        2:
-            message: <h2>🎁 Exclusive Black Friday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy this weekend, you'll also get <strong>$436 worth of bonus gifts</strong>. This offer ends Monday, so don't wait!</p>
-            start: 20211127
-            end: 20211128
-        3:
-            message: <h2>🎁 Exclusive Cyber Monday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy today only, you'll also get <strong>$436 worth of bonus gifts</strong>. This offer ends today, so don't wait!</p>
-            start: 20211129
-            end: 20211129
+            message: <h2>🎁 Exclusive Holiday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy now through New Year's Day, you'll also get <strong>$436 worth of bonus gifts</strong>. This offer ends New Year's Day, so don't wait!</p>
+            start: 20211220
+            end: 20220103
 
 
 # Bios

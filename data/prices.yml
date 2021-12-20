@@ -8,79 +8,79 @@ guidesComplete:
     limited:
         1:
             prices:
-                ebook: "<del>$637</del>&nbsp;$191"
-                video: "<del>$1,222</del>&nbsp;$367"
-                both: "<del>$1,287</del>&nbsp;$386"
-                ebookMonthly: "<del>$149</del>&nbsp;$75"
-                videoMonthly: "<del>$285</del>&nbsp;$143"
-                bothMonthly: "<del>$299</del>&nbsp;$149"
-                discount: "BLACKFRIDAY2021"
-            start: 20211122
-            end: 20211129
+                ebook: "<del>$637</del>&nbsp;$229"
+                video: "<del>$1,222</del>&nbsp;$440"
+                both: "<del>$1,287</del>&nbsp;$463"
+                ebookMonthly: "<del>$149</del>&nbsp;$89"
+                videoMonthly: "<del>$285</del>&nbsp;$171"
+                bothMonthly: "<del>$299</del>&nbsp;$179"
+                discount: "HOLIDAY2021"
+            start: 20211220
+            end: 20220103
 
 guidesBeginner:
     limited:
         1:
             prices:
-                ebook: "<del>$245</del>&nbsp;$86"
-                video: "<del>$470</del>&nbsp;$164"
-                both: "<del>$495</del>&nbsp;$174"
-                ebookMonthly: "<del>$67</del>&nbsp;$34"
-                videoMonthly: "<del>$129</del>&nbsp;$64"
-                bothMonthly: "<del>$134</del>&nbsp;$67"
-                discount: "BLACKFRIDAY2021"
-            start: 20211122
-            end: 20211129
+                ebook: "<del>$245</del>&nbsp;$103"
+                video: "<del>$470</del>&nbsp;$197"
+                both: "<del>$495</del>&nbsp;$208"
+                ebookMonthly: "<del>$67</del>&nbsp;$40"
+                videoMonthly: "<del>$129</del>&nbsp;$77"
+                bothMonthly: "<del>$134</del>&nbsp;$80"
+                discount: "HOLIDAY2021"
+            start: 20211220
+            end: 20220103
 
 guidesAdvanced:
     limited:
         1:
             prices:
-                ebook: "<del>$245</del>&nbsp;$86"
-                video: "<del>$470</del>&nbsp;$164"
-                both: "<del>$495</del>&nbsp;$174"
-                ebookMonthly: "<del>$67</del>&nbsp;$34"
-                videoMonthly: "<del>$129</del>&nbsp;$64"
-                bothMonthly: "<del>$134</del>&nbsp;$67"
-                discount: "BLACKFRIDAY2021"
-            start: 20211122
-            end: 20211129
+                ebook: "<del>$245</del>&nbsp;$103"
+                video: "<del>$470</del>&nbsp;$197"
+                both: "<del>$495</del>&nbsp;$208"
+                ebookMonthly: "<del>$67</del>&nbsp;$40"
+                videoMonthly: "<del>$129</del>&nbsp;$77"
+                bothMonthly: "<del>$134</del>&nbsp;$80"
+                discount: "HOLIDAY2021"
+            start: 20211220
+            end: 20220103
 
 guidesExpert:
     limited:
         1:
             prices:
-                ebook: "<del>$147</del>&nbsp;$52"
-                video: "<del>$282</del>&nbsp;$99"
-                both: "<del>$297</del>&nbsp;$104"
-                ebookMonthly: "<del>$41</del>&nbsp;$21"
-                videoMonthly: "<del>$77</del>&nbsp;$39"
-                bothMonthly: "<del>$81</del>&nbsp;$41"
-                discount: "BLACKFRIDAY2021"
-            start: 20211122
-            end: 20211129
+                ebook: "<del>$147</del>&nbsp;$62"
+                video: "<del>$282</del>&nbsp;$118"
+                both: "<del>$297</del>&nbsp;$125"
+                ebookMonthly: "<del>$41</del>&nbsp;$25"
+                videoMonthly: "<del>$77</del>&nbsp;$46"
+                bothMonthly: "<del>$81</del>&nbsp;$49"
+                discount: "HOLIDAY2021"
+            start: 20211220
+            end: 20220103
 
 guidesIndividual:
     limited:
         1:
             prices:
-                ebook: "<del>$49</del>&nbsp;$24"
-                video: "<del>$94</del>&nbsp;$47"
-                both: "<del>$99</del>&nbsp;$49"
-                discount: "BLACKFRIDAY2021"
-            start: 20211122
-            end: 20211129
+                ebook: "<del>$49</del>&nbsp;$29"
+                video: "<del>$94</del>&nbsp;$56"
+                both: "<del>$99</del>&nbsp;$59"
+                discount: "HOLIDAY2021"
+            start: 20211220
+            end: 20220103
 
 # Academy
 academy:
     limited:
         1:
             prices:
-                price: "<del>$699</del>&nbsp;$349"
-                priceMonthly: "<del>$275</del>&nbsp;$137"
-                discount: "BLACKFRIDAY2021"
-            start: 20211122
-            end: 20211129
+                price: "<del>$699</del>&nbsp;$419"
+                priceMonthly: "<del>$275</del>&nbsp;$165"
+                discount: "HOLIDAY2021"
+            start: 20211220
+            end: 20220103
         2:
             prices:
                 price: "<del>$699</del>&nbsp;$489"
