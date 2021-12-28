@@ -1,6 +1,6 @@
 ---
 title: Master JavaScript in 2022 (and save a bunch of money)
-date: 2021-12-28T10:30:00-05:00
+date: 2021-12-28T09:30:00-05:00
 draft: false
 categories:
 - Accessibility
