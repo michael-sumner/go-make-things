@@ -9,6 +9,12 @@ mcSubscribers:
 mcSubscriberCount:
     message: "{{mc_subs}}"
 
+ckPre:
+    message: "Hi {{ subscriber.first_name }}!<br><br>"
+
+ckPost:
+    message: ""
+
 mcPre:
     message: ""
     limited:
