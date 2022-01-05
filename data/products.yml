@@ -2,6 +2,10 @@
 # Product details
 #
 
+## Transition to ConvertKit
+## values: mailchimp, convertkit, off (for in-transition)
+newsletter: "mailchimp"
+
 ## startRegistration/endRegistration - when to show the purchase button
 ## startPre/endPre - when to show alumni/early bird pricing
 ## startAcademy/endAcademy - run dates to show on purchase form
