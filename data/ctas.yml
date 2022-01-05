@@ -10,10 +10,32 @@ mcSubscriberCount:
     message: "{{mc_subs}}"
 
 ckPre:
-    message: "<p>Hi {{ subscriber.first_name }}!</p>"
+    message: ""
+    limited:
+        0:
+            message: <p>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts.</em></p>
+            start: 20211118
+            end: 20211119
+        1:
+            message: <p>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts.</em></p>
+            start: 20211220
+            end: 20220103
 
 ckPost:
-    message: ""
+    message: <p><strong>Is there a JavaScript or web development topic you'd like to learn more about?</strong> Hit reply to this email and let me know.</p><p>Cheers,<br>Chris</p>
+    limited:
+        0:
+            message: <p>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></p><p>Cheers,<br>Chris</p>
+            start: 20211122
+            end: 20211126
+        1:
+            message: <p>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></p><p>Cheers,<br>Chris</p>
+            start: 20211129
+            end: 20211129
+        2:
+            message: <p>Cheers,<br>Chris</p>
+            start: 20211220
+            end: 20220103
 
 mcPre:
     message: ""
