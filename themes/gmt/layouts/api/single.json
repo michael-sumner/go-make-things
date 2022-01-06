@@ -1,6 +1,6 @@
 {{- $data := getJSON $.Site.Params.mcSubs -}}
 {{- if le $data.code 299 -}}
-	{{- $.Scratch.Set "mcsubs" $data.message -}}
+	{{- $.Scratch.Set "mcsubs" $data.msg -}}
 {{- else -}}
 	{{- $.Scratch.Set "mcsubs" "thousands of" -}}
 {{- end -}}
