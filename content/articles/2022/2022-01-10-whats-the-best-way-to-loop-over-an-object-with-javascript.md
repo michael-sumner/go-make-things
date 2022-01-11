@@ -1,6 +1,6 @@
 ---
 title: What's the best way to loop over an object with JavaScript?
-date: 2022-01-10T10:30:00-05:00
+date: 2022-01-11T10:30:00-05:00
 draft: false
 categories:
 - Code
