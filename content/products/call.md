@@ -71,7 +71,7 @@ I can help you get unstuck and moving in the right direction.
 
 	{{<cta for="call-buy">}}
 
-	<p><a class="btn btn-large btn-block" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=59280">Book Now for $499</a></p>
+	<p><a class="btn btn-large btn-block" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=59280">Book Now for $299</a></p>
 </div>
 
 <div class="padding-top-large padding-bottom">{{<testimonial for="kb" photo="true">}}</div>
