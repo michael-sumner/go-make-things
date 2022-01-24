@@ -71,19 +71,25 @@ I offer three different training programs.
 
 
 <div class="callout" id="ready-to-buy">
-	<h2>Ready to level-up your team?</h2>
-
-	<p>Get personalized, project-based training to help your team master vanilla JavaScript with a trusted expert.</p>
-
-	<p>My training workshops are customized for you team. Apply for team training to get started.</p>
-
+	<h2>Get in touch</h2>
+	<p>Are you ready to take your team’s JavaScript skills to the next level?</p>
+	<p>Send me an email at {{<email>}} to start a conversation and see if Team Training would be a good fit for your team.</p>
 	<p><a class="btn btn-large btn-block" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Team%20Training&body=Hi,%20I'm%20interested%20in%20JavaScript%20Training%20for%20my%20team%20of%20[number%20of%20people]%20at%20[organization]%20.%20Thanks!">Apply for the Team Training</a><p>
-
-	<p>Or send me an email at {{<email params="subject=Team%20Training&body=Hi,%20I'm%20interested%20in%20JavaScript%20Training%20for%20my%20team%20of%20[number%20of%20people]%20at%20[organization]%20.%20Thanks!">}}.</p>
 </div>
 
-<div class="padding-top-large padding-bottom">{{<testimonial for="kb" photo="true">}}</div>
+<div class="padding-top-large padding-bottom-large">{{<testimonial for="leticiaOneill2" photo="true">}}</div>
+<div class="padding-bottom-large">{{<testimonial for="lauraKalbag" photo="true">}}</div>
+<div class="padding-bottom-large">{{<testimonial for="walterJenkins" photo="true">}}</div>
+<div class="padding-bottom-large">{{<testimonial for="mariaBlair2" photo="true">}}</div>
+<div class="padding-bottom-large">{{<testimonial for="zacHeisey" photo="true">}}</div>
+<div class="padding-bottom-large">{{<testimonial for="izziKoning" photo="true">}}</div>
+<div class="padding-bottom-large">{{<testimonial for="patriciaParker" photo="true">}}</div>
+<div class="padding-bottom-large">{{<testimonial for="toddLibby" photo="true">}}</div>
+<div class="padding-bottom-large">{{<testimonial for="elliotPorter" photo="true">}}</div>
+<div class="padding-bottom-large">{{<testimonial for="ronAmick" photo="true">}}</div>
+<div class="padding-bottom-large">{{<testimonial for="craigHaggart" photo="true">}}</div>
+<div class="padding-bottom-large">{{<testimonial for="vicenteSarmento" photo="true">}}</div>
 
-<div class="padding-bottom-large">{{<testimonial for="mojtabaSeyedi" photo="true">}}</div>
+<p class="margin-bottom-large"><a class="btn" href="#ready-to-buy">Get in Touch &rarr;</a></p>
 
 {{<not-ready-yet>}}
