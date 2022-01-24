@@ -5,10 +5,10 @@ draft: false
 noTitle: true
 ---
 
-{{<cta for="funnel">}}
-
 <p class="no-margin-bottom"><strong>Hi, I’m Chris Ferdinandi.</strong></p>
 <h1 class="text-xlarge text-normal no-padding-top margin-bottom-small">I help people learn vanilla&nbsp;JavaScript.</h1>
+
+{{<cta for="funnel">}}
 
 {{<mailchimp text="true">}}
 
