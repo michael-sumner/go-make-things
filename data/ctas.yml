@@ -3,11 +3,20 @@
 ##
 
 # Newsletter
+ckBlurb:
+    message: "**Sick of over-engineered modern web developer \"best practices?\"** I send out a short email each weekday on how to build a simpler, more resilient web. Join {{ck_subs}}+ others."
+
+ckSubscribers:
+    message: "Join {{ck_subs}}+ daily subscribers."
+
+ckSubscriberCount:
+    message: "{{ck_subs}}"
+
 mcSubscribers:
-    message: "Join {{mc_subs}}+ daily subscribers."
+    message: "Join {{ck_subs}}+ daily subscribers."
 
 mcSubscriberCount:
-    message: "{{mc_subs}}"
+    message: "{{ck_subs}}"
 
 ckPre:
     message: ""

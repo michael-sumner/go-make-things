@@ -5,7 +5,7 @@ baseURL: "https://gomakethings.com"
 params:
   description: "A simpler, more resilient way to make things for the web."
   api: "https://gomakethings.com/api/data.json"
-  mcSubs: "https://gomakethings.com/api/subscribers.php?round=100&id=2845643"
+  ckSubs: "https://gomakethings.com/api/subscribers.php?round=100&id=2845643"
   rssURL:
     main: "https://gomakethings.com/feed/index.xml"
     notes: "https://gomakethings.com/feed/notes.xml"

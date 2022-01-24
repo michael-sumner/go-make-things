@@ -1,8 +1,8 @@
-{{- $data := getJSON $.Site.Params.mcSubs -}}
+{{- $data := getJSON $.Site.Params.ckSubs -}}
 {{- if le $data.code 299 -}}
-	{{- $.Scratch.Set "mcsubs" $data.msg -}}
+	{{- $.Scratch.Set "cksubs" $data.msg -}}
 {{- else -}}
-	{{- $.Scratch.Set "mcsubs" "thousands of" -}}
+	{{- $.Scratch.Set "cksubs" "thousands of" -}}
 {{- end -}}
 
 {{- $.Scratch.Set "ctas" ( dict ) -}}
@@ -15,7 +15,7 @@
 {{- range $index, $cta := .Site.Data.ctas -}}
 	{{- $.Scratch.Set "name" (humanize $index | replaceRE " " "-" | lower) -}}
 	{{- if ne (index $cta "message") "" -}}
-		{{- $.Scratch.SetInMap "ctas" ($.Scratch.Get "name") (replace (replace (safeHTML (index $cta "message")) "{{mc_subs}}" ($.Scratch.Get "mcsubs")) "{{year}}" ($.Scratch.Get "year")) -}}
+		{{- $.Scratch.SetInMap "ctas" ($.Scratch.Get "name") (replace (replace (safeHTML (index $cta "message")) "{{ck_subs}}" ($.Scratch.Get "cksubs")) "{{year}}" ($.Scratch.Get "year")) -}}
 	{{- end -}}
 	{{- if isset $cta "limited" -}}
 		{{- range $limited := (index $cta "limited") -}}
