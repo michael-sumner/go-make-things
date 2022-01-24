@@ -1,4 +1,4 @@
 {{- $data := getJSON $.Site.Params.api -}}
 {{- $ctas := index $data "ctas" -}}
 
-I send out a short email each weekday with code snippets, tools, techniques, and interesting stuff from around the web. {{ if isset $ctas "mc-subscribers" }}{{ index $ctas "mc-subscribers" | safeHTML }}{{ end }}
+{{ if isset $ctas "ck-blurb" }}{{ index $ctas "ck-blurb" | markdownify }}{{ end }}

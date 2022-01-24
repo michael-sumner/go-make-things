@@ -11,7 +11,7 @@ noTitle: true
 
 <h1 class="no-padding-top">Hi, I’m Chris Ferdinandi.</h1>
 
-**I help people learn vanilla JavaScript.** I believe there's a simpler, more resilient way to make things for the web.
+**I help people learn vanilla JavaScript,** and I believe there's a simpler, more resilient way to make things for the web.
 
 I'm the author of the [Vanilla JS Pocket Guide](https://vanillajsguides.com) series, creator of the [Vanilla JS Academy](https://vanillajsacademy.com) training program, and host of the [Vanilla JS Podcast](https://vanillajspodcast.com). My [developer tips newsletter](/articles) is read by over {{<cta for="mc-subscriber-count">}} developers each weekday.
 

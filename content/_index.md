@@ -7,9 +7,8 @@ noTitle: true
 
 {{<cta for="funnel">}}
 
-<h1 class="text-xlarge text-normal margin-bottom-small">Hi, I’m Chris Ferdinandi.</h1>
-
-**I help people learn vanilla JavaScript.** I believe there’s a simpler, more resilient way to make things for the web.
+<p class="no-margin-bottom"><strong>Hi, I’m Chris Ferdinandi.</strong></p>
+<h1 class="text-xlarge text-normal no-padding-top margin-bottom-small">I help people learn vanilla&nbsp;JavaScript.</h1>
 
 {{<mailchimp text="true">}}
 
