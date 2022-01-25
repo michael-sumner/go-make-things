@@ -16,14 +16,17 @@ noTitle: true
 
 ## How It Works
 
-1-on-1 Coaching Calls are 60 minutes long, and take place over Zoom. You share the biggest JavaScript challenges you’re facing, and I'll give you immediate, practical advice about what to do next.
+1-on-1 Coaching Calls are 60 minutes long, and take place over Zoom. 
+
+You share the biggest JavaScript challenges you’re facing, and I'll give you immediate, practical advice about what to do next.
 
 <p class="margin-bottom-small"><strong>Common areas of interest include...</strong></p>
 
-- The best way to approach a particular task or challenge.
+- How to start or approach a specific project.
 - How to structure and maintain code as it scales.
-- How to ensure your code will work across a variety of browsers and devices.
-- Career challenges like what technology to focus on or how to find open roles.
+- The pros and cons of different programming approaches.
+- Help fixing a bug or broken code.
+- Career challenges and job advice.
 
 I’ll give you **personalized advice that you can put into action immediately** based on years of teaching JavaScript and writing code for some of the world’s best organizations.
 
@@ -33,13 +36,13 @@ You are welcome to record the call for future reference. Once you submit your pa
 
 ## You'll also get these awesome bonuses 🎉
 
-In addition to our call, you’ll receive these bonus materials valued at $468.
+In addition to our call, you’ll receive these bonus materials valued at $436.
 
 - Access to my private **Vanilla JS Slack channel**, where you can chat with other learners, get feedback on code, ask questions, and share the latest tips, tricks, and strategies for going vanilla JavaScript. This isn't available for purchase at any price!
 - My **Live-Code Sessions**, where you can watch me live-code over a dozen vanilla JS projects.  Follow along, try it yourself first, or dig into the completed source code.
 - The **Vanilla JS Projects Bundle**, great for hands-on learning. You get starter templates, helpful tips and resources, and step-by-step tutorials.
 - **Wicked Fast Websites**, my step-by-step guide to building faster WordPress sites. You'll learn how to measure performance, reduce page weight, and make simple server optimizations.
-- **The Web Developer Career Guide**, where you'll learn how to write resumes that get seen by an actual human, navigate the interview process, and get paid what you deserve.
+- **The Web Developer Career Guide**, where you'll learn how to write effective resumes, navigate the interview process, and get paid what you deserve.
 
 {{<bonuses-special>}}
 
@@ -51,16 +54,7 @@ Don’t put off getting the help you need to master vanilla JavaScript! If at th
 
 ## About the Coach
 
-<div class="clearfix margin-bottom">
-<img src="https://gomakethings.com/img/chris-ferdinandi-high-res.jpg" alt="Chris Ferdinandi" width="175" height="175" class="img-circle img-left margin-bottom">
-{{%md%}}
-**Hi, I'm Chris Ferdinandi.** I believe there’s a simpler, more resilient way to make things for the web.
-
-I’ve taught developers at organizations like Chobani and the Boston Globe, and my JavaScript plugins have been used by organizations like Apple and Harvard Business School. My developer tips newsletter is read by over {{<cta for="mc-subscriber-count">}} developers each weekday.
-
-I can help you get unstuck and moving in the right direction.
-{{%/md%}}
-</div>
+{{<cta for="bio">}}
 
 <div class="callout" id="ready-to-buy">
 	<h2>Ready to book your call?</h2>
