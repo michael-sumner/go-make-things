@@ -61,8 +61,6 @@ I've put together a *ton* of resources to help you dig deeper into building simp
 
 {{<cta for="products">}}
 
-**Want more?** I also maintain the [Vanilla JS Toolkit](https://vanillajstoolkit.com), host the [Vanilla JS Podcast](https://vanillajspodcast.com), and [give talks and appear on podcasts](/talks).
-
 
 ## Questions?
 

@@ -54,8 +54,6 @@ There's also a free ebook version of the talk, and a list of all of the Lean Web
 
 {{<cta for="products">}}
 
-**Want more?** I also created a [vanilla JS learning roadmap](https://learnvanillajs.com), maintain the [Vanilla JS Toolkit](https://vanillajstoolkit.com), host the [Vanilla JS Podcast](https://vanillajspodcast.com), and [give talks and appear on podcasts](/talks).
-
 
 ## Questions?
 

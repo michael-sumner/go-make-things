@@ -67,8 +67,6 @@ It covers how to write resumes that get seen by an actual human, how to navigate
 
 {{<cta for="products">}}
 
-**Want more?** I also maintain the [Vanilla JS Toolkit](https://vanillajstoolkit.com), host the [Vanilla JS Podcast](https://vanillajspodcast.com), and [give talks and appear on podcasts](/talks).
-
 
 ## Questions?
 

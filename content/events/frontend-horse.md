@@ -54,29 +54,10 @@ I've put together a bunch of resources to help you dig deeper into JavaScript an
 - **[Writing JS Libraries.](https://vanillajsguides.com/writing-js-libraries/)** Learn how to write JavaScript that scales and adapts to whatever you throw at it.
 - **[ES Modules.](https://vanillajsguides.com/es-modules/)** Learn how to structure your code like a JavaScript pro.
 
-<!-- <div class="row text-center">
-	<div class="grid-half margin-bottom">
-		<a href="https://vanillajsguides.com/writing-js-libraries/">
-			<p class="margin-bottom-small"><img alt="" src="https://vanillajsguides.com/img/guides/writing-libraries.png"></p>
-			<h3 class="h5 no-padding-top margin-bottom-small">Writing JS Libraries</h3>
-		</a>
-		<p>Learn how to write JavaScript that scales and adapts to whatever you throw at it.</p>
-	</div>
-	<div class="grid-half">
-		<a href="https://vanillajsguides.com/es-modules/">
-			<p class="margin-bottom-small"><img alt="" src="https://vanillajsguides.com/img/guides/es-modules.png"></p>
-			<h3 class="h5 no-padding-top margin-bottom-small">ES Modules</h3>
-		</a>
-		<p>Learn how to structure your code like a JavaScript pro.</p>
-	</div>
-</div> -->
-
 
 ## Other Learning Resources
 
 {{<cta for="products">}}
-
-**Want more?** I also maintain the [Vanilla JS Toolkit](https://vanillajstoolkit.com), host the [Vanilla JS Podcast](https://vanillajspodcast.com), and [give talks and appear on podcasts](/talks).
 
 
 ## Questions?

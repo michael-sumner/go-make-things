@@ -47,8 +47,6 @@ Thanks for chatting with me about service workers. I've put together a bunch of 
 
 {{<cta for="products">}}
 
-**Want more?** I also maintain the [Vanilla JS Toolkit](https://vanillajstoolkit.com), host the [Vanilla JS Podcast](https://vanillajspodcast.com), and [give talks and appear on podcasts](/talks).
-
 
 ## Questions?
 
