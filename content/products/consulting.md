@@ -42,21 +42,15 @@ I want to help you successfully launch your next JavaScript project, without the
 
 <div class="callout" id="ready-to-buy">
 	<h2>Ready to work together?</h2>
-
 	<p>Get the expert advice you need to make your JavaScript project a smashing success!</p>
-
 	<ul>
 		<li>A one-time, 2-hour workshop.</li>
 		<li>Weekly phone calls or video chats.</li>
 		<li>Unlimited, 24/7 access to me by email or IM.</li>
 	</ul>
-
 	<p>Email me at {{<email params="subject=I'm%20interested%20in%20consulting&body=Hi%20Chris,%0D%0A%0D%0AI'm%20working%20on%20[PROJECT]%20and%20could%20use%20some%20help%20with%20[THINGS].%20I%20think%20I%20could%20use%20your%20help%20for%20about%20[X]%20months.%0D%0A%0D%0AI%20work%20at%20[COMPANY]%20and%20am%20based%20in%20[LOCATION].%20You%20can%20learn%20more%20about%20what%20we%20do%20at%20[URL].%20The%20best%20way%20to%20reach%20me%20is%20[CONTACT%20INFO].%0D%0A%0D%0AThanks,%0D%0A[YOUR%20NAME]">}} or call me at {{<phone>}} to get started.</p>
-
 	<p><a class="btn btn-large btn-block" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=I'm%20interested%20in%20consulting&body=Hi%20Chris,%0D%0A%0D%0AI'm%20working%20on%20[PROJECT]%20and%20could%20use%20some%20help%20with%20[THINGS].%20I%20think%20I%20could%20use%20your%20help%20for%20about%20[X]%20months.%0D%0A%0D%0AI%20work%20at%20[COMPANY]%20and%20am%20based%20in%20[LOCATION].%20You%20can%20learn%20more%20about%20what%20we%20do%20at%20[URL].%20The%20best%20way%20to%20reach%20me%20is%20[CONTACT%20INFO].%0D%0A%0D%0AThanks,%0D%0A[YOUR%20NAME]">Apply for JavaScript Consulting</a></p>
-
 	<p><em><strong>Note:</strong> This is not a “developer-for-hire” arrangement. I provide code samples and design sketches as needed, but authoring shipping code, designs, and documentation is beyond the scope of the retainer.</em></p>
-
 	<p><em>Consulting availability is extremely limited, and you can be added to the wait list if no spots are available.</em></p>
 </div>
 

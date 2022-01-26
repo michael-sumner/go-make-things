@@ -102,18 +102,14 @@ Here's everything that's in the book.
 
 <div class="callout" id="ready-to-buy">
 	<h2>The Complete Package</h2>
-
 	<p>Get everything you need to build a kick-ass career as a web developers.</p>
-
 	<ul>
 		<li>The Book <span class="text-small text-muted">(in PDF, EPUB, and MOBI formats)</span></li>
 		<li>10 Tools &amp; Templates</li>
 		<li>The All-Star Interviews</li>
 		<li>FREE lifetime updates</li>
 	</ul>
-
 	<p><mark><em><strong>Get it for free!</strong> The coronavirus is wrecking the economy. To help people who are now unexpectedly in need of work, the Career Guide is now totally free.</em></mark></p>
-
 	<p><a class="btn btn-large edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=22339">Buy Now for <del>$39</del> FREE</a></p>
 </div>
 

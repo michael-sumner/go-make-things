@@ -58,14 +58,10 @@ Don’t put off getting the help you need to master vanilla JavaScript! If at th
 
 <div class="callout" id="ready-to-buy">
 	<h2>Ready to book your call?</h2>
-
 	<p>Book your 1-on-1 coaching call now, and get immediate access to all of your bonus items.</p>
-
 	<p><em><strong>Scheduling Details:</strong> Appointments are available Monday-Thursday, 9am-2pm, EST. After completing your purchase, you'll receive a link to schedule a 60 minute appointment in my calendar.</em></p>
-
 	{{<cta for="call-buy">}}
-
-	<p><a class="btn btn-large btn-block" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=59280">Book Now for $299</a></p>
+	<p><a class="btn btn-large btn-block edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=59280">Book Now for $299</a></p>
 </div>
 
 <div class="padding-top-large padding-bottom">{{<testimonial for="kb" photo="true">}}</div>

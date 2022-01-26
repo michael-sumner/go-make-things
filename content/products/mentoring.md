@@ -53,9 +53,7 @@ I want to help you master vanilla JavaScript, without all of the painful false s
 
 <div class="callout" id="ready-to-buy">
 	<h2>Ready to apply for private mentoring?</h2>
-
 	<p>Get everything you need to accelerate your JavaScript learning.</p>
-
 	<ul>
 		<li>Weekly Private Video Calls <span class="text-small text-muted">(1-Hour)</span></li>
 		<li>Exclusive Slack Access + Private Messaging</li>
@@ -63,13 +61,9 @@ I want to help you master vanilla JavaScript, without all of the painful false s
 		<li>My Vanilla JavaScript Toolkit</li>
 		<li><em>{{<price for="mentoring">}}</em></li>
 	</ul>
-
 	{{<cta for="mentoring-buy">}}
-
-	<p><a class="btn btn-large btn-block" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Private%20Mentoring%20Program&body=Hi,%20I'm%20interested%20in%20the%20Private%20Mentoring%20Program.%20Thanks!">Apply for the Private Mentoring Program</a></p>
-
+	<p><a class="btn btn-large btn-block edd-buy-now-button" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Private%20Mentoring%20Program&body=Hi,%20I'm%20interested%20in%20the%20Private%20Mentoring%20Program.%20Thanks!">Apply for the Private Mentoring Program</a></p>
 	<p>Or send me an email at {{<email params="subject=Private%20Mentoring%20Program&body=Hi,%20I'm%20interested%20in%20the%20Private%20Mentoring%20Program.%20Thanks!">}}.</p>
-
 	<p><em><strong>Note:</strong> I only have two private mentoring spots available. If no spots are available when you apply, you can be added to a waitlist.</em></p>
 </div>
 

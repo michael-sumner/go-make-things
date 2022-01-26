@@ -82,9 +82,7 @@ Here's everything that's in the book.
 
 <div class="callout" id="ready-to-buy">
 	<h2>Ready to buy <em>Wicked Fast Websites</em>?</h2>
-
 	<p>Get everything you need to build insanely fast WordPress sites.</p>
-
 	<ul>
 		<li>The Book <span class="text-small text-muted">(in PDF, EPUB, and MOBI formats)</span></li>
 		<li>The Gulp Boilerplate</li>
@@ -92,7 +90,6 @@ Here's everything that's in the book.
 		<li>The PHP Cheat Sheet</li>
 		<li>FREE lifetime updates</li>
 	</ul>
-
 	<p>
 		<a class="btn btn-large edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=22383&edd_options[price_id]=1">Buy now for $39</a><br>
 	</p>
