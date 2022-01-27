@@ -13,9 +13,9 @@ noTitle: true
 
 **I help people learn vanilla JavaScript,** and I believe there's a simpler, more resilient way to make things for the web.
 
-I'm the author of the [Vanilla JS Pocket Guide](https://vanillajsguides.com) series, creator of the [Vanilla JS Academy](https://vanillajsacademy.com) training program, and host of the [Vanilla JS Podcast](https://vanillajspodcast.com). My [developer tips newsletter](/articles) is read by over {{<cta for="mc-subscriber-count">}} developers each weekday.
+I create [courses and ebooks](https://vanillajsguides.com), run [online workshops](https://vanillajsacademy.com), and host the [Vanilla JS Podcast](https://vanillajspodcast.com). My [developer tips newsletter](/articles) is read by over {{<cta for="mc-subscriber-count">}} developers each weekday.
 
-I've taught developers at organizations like Chobani and the Boston Globe, and my JavaScript plugins have been used by organizations like Apple and Harvard Business&nbsp;School.
+I've taught developers at organizations like Salesforce and the Boston Globe, and my JavaScript plugins have been used by organizations like Apple and Harvard Business&nbsp;School.
 
 My ideas on building a simpler, faster world-wide web have been featured in *Net Magazine*. Chris Coyier, the founder of CSS-Tricks and CodePen, has described my writing as "infinitely quote-worthy."
 

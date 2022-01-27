@@ -1,16 +1,17 @@
 ---
-title: "Talks & Podcasts"
+title: "Speaking"
 date: 2018-01-16T10:05:20-05:00
 draft: false
 weight: 10
 ---
 
-I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean web](https://leanweb.dev). Want me to talk at your event or come on your show? [Get in touch!](https://gomakethings.com/about/)
+I talk at meetups, conferences, and on podcasts about JavaScript and how to build a simpler, more resilient web. 
 
-{{<cta for="funnel">}}
+**Want me to talk at your event or come on your show?** Please [read this first](/rider), then email me at {{<email>}}.
 
+<div class="padding-top-large margin-bottom-large">{{<testimonial for="markHowellsMead" photo="true">}}</div>
 
-## Talks
+## Speaking Events
 
 - [JavaScript Congress](https://www.wearedevelopers.com/javascript-congress/), November 23-25, 2021
 - [JSNation Live](https://live.jsnation.com/), June 9-11, 2021
@@ -22,6 +23,9 @@ I talk at meetups, conferences, and on podcasts about vanilla JS and [the lean w
 - [WordCamp RI 2016](https://2016.rhodeisland.wordcamp.org/), September 30, 2016
 - [WordCamp Boston, 2013](https://2013.boston.wordcamp.org/), October 25, 2013
 - [WordPress RI Meetup](https://www.meetup.com/WordPressRI/events/127790982/), July 23, 2013
+
+
+<div class="padding-top-large margin-bottom-large">{{<testimonial for="stevenSlack" photo="true">}}</div>
 
 
 ## Podcast Appearances

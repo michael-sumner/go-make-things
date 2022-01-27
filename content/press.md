@@ -20,9 +20,9 @@ Chris Ferdinandi helps people learn vanilla JavaScript. He believes there’s a 
 
 Chris Ferdinandi helps people learn vanilla JavaScript. He believes there’s a simpler, more resilient way to make things for the web.
 
-Chris is the author of the [Vanilla JS Pocket Guide series](https://vanillajsguides.com), creator of the [Vanilla JS Academy](https://vanillajsacademy.com) training program, and host of the [Vanilla JS Podcast](https://vanillajspodcast.com). His [developer tips newsletter](https://gomakethings.com) is read by thousands of developers each weekday.
+Chris creates [courses and books](https://vanillajsguides.com), runs [online workshops](https://vanillajsacademy.com), and hosts the [Vanilla JS Podcast](https://vanillajspodcast.com). His [developer tips newsletter](https://gomakethings.com) is read by thousands of developers each weekday.
 
-He's taught developers at organizations like Chobani and the Boston Globe, and his JavaScript plugins have been used used by Apple and Harvard Business&nbsp;School.
+He's taught developers at organizations like Salesforce and the Boston Globe, and his JavaScript plugins have been used used by Apple and Harvard Business&nbsp;School.
 
 His ideas on building a simpler, faster world-wide web were featured in *Net Magazine*. Chris Coyier, the founder of CSS-Tricks and CodePen, has described his writing as "infinitely quote-worthy."
 
