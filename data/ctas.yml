@@ -12,11 +12,11 @@ ckSubscribers:
 ckSubscriberCount:
     message: "{{ck_subs}}"
 
-mcSubscribers:
-    message: "Join {{ck_subs}}+ daily subscribers."
+# mcSubscribers:
+#     message: "Join {{ck_subs}}+ daily subscribers."
 
-mcSubscriberCount:
-    message: "{{ck_subs}}"
+# mcSubscriberCount:
+#     message: "{{ck_subs}}"
 
 ckPre:
     message: ""
@@ -46,33 +46,33 @@ ckPost:
             start: 20211220
             end: 20220103
 
-mcPre:
-    message: ""
-    limited:
-        0:
-            message: <p>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts.</em></p>
-            start: 20211118
-            end: 20211119
-        1:
-            message: <p>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts.</em></p>
-            start: 20211220
-            end: 20220103
+# mcPre:
+#     message: ""
+#     limited:
+#         0:
+#             message: <p>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts.</em></p>
+#             start: 20211118
+#             end: 20211119
+#         1:
+#             message: <p>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts.</em></p>
+#             start: 20211220
+#             end: 20220103
 
-mcPost:
-    message: <p>*|INTERESTED:Purchases:Academy - Essentials|*<strong>Is there a JavaScript or web development topic you'd like to learn more about?</strong> Hit reply to this email and let me know.*|ELSE:|**|INTERESTED:Purchases:Pocket Guide Bundle|*<strong>The <a href="https://vanillajsacademy.com"">Vanilla JS Academy</a> is a project-based online JavaScript workshop for beginners.</strong> <a href="https://vanillajsacademy.com">Click here to learn more</a>.*|ELSE:|*<strong>Want to really dig in to topics like this?</strong> Check out my <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a>&mdash;short, focused ebooks and video courses made for beginners. Let's make this the year you master JavaScript!*|END:INTERESTED|**|END:INTERESTED|*</p><p>Cheers,<br>Chris</p>
-    limited:
-        0:
-            message: <p>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></p><p>Cheers,<br>Chris</p>
-            start: 20211122
-            end: 20211126
-        1:
-            message: <p>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></p><p>Cheers,<br>Chris</p>
-            start: 20211129
-            end: 20211129
-        2:
-            message: <p>Cheers,<br>Chris</p>
-            start: 20211220
-            end: 20220103
+# mcPost:
+#     message: <p>*|INTERESTED:Purchases:Academy - Essentials|*<strong>Is there a JavaScript or web development topic you'd like to learn more about?</strong> Hit reply to this email and let me know.*|ELSE:|**|INTERESTED:Purchases:Pocket Guide Bundle|*<strong>The <a href="https://vanillajsacademy.com"">Vanilla JS Academy</a> is a project-based online JavaScript workshop for beginners.</strong> <a href="https://vanillajsacademy.com">Click here to learn more</a>.*|ELSE:|*<strong>Want to really dig in to topics like this?</strong> Check out my <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a>&mdash;short, focused ebooks and video courses made for beginners. Let's make this the year you master JavaScript!*|END:INTERESTED|**|END:INTERESTED|*</p><p>Cheers,<br>Chris</p>
+#     limited:
+#         0:
+#             message: <p>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></p><p>Cheers,<br>Chris</p>
+#             start: 20211122
+#             end: 20211126
+#         1:
+#             message: <p>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></p><p>Cheers,<br>Chris</p>
+#             start: 20211129
+#             end: 20211129
+#         2:
+#             message: <p>Cheers,<br>Chris</p>
+#             start: 20211220
+#             end: 20220103
 
 rss:
     message: ""
@@ -362,4 +362,4 @@ bioShort:
 
 # Products
 products:
-    message: <ul class="list-spaced list-spaced-small"><li><strong><a href="https://gomakethings.com/articles/">Daily Developer Tips.</a></strong> I send out a short email each weekday with code snippets, techniques, and ideas on how to build a simpler, more resilient web.</li><li><strong><a href="https://vanillajsguides.com/">Courses &amp; Books.</a></strong> Short, focused video courses and ebooks made for beginners. Learn the ins-and-outs of a topic in about an hour.</li><li><strong><a href="https://vanillajsacademy.com/">Online Workshops.</a></strong> Work on fun projects, follow a structured learning path, and get the support you need to work through challenges.</li></ul><p>I also maintain the <a href="https://vanillajstoolkit.com">Vanilla JS Toolkit</a> and host the <a href="https://vanillajspodcast.com">Vanilla JS Podcast</a>. I offer <a href="https://gomakethings.com/call">1-on-1 coaching calls</a>, <a href="https://gomakethings.com/training">team training</a>, and <a href="https://gomakethings.com/talks">speak at events</a>.</p><p><strong>Can’t find what you’re looking for?</strong> Email me directly at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a>.</p>
+    message: <ul class="list-spaced list-spaced-small"><li><strong><a href="https://gomakethings.com/articles/">Daily Developer Tips.</a></strong> I send out a short email each weekday with code snippets, techniques, and ideas on how to build a simpler, more resilient web.</li><li><strong><a href="https://vanillajsguides.com/">Courses &amp; Books.</a></strong> Short, focused video courses and ebooks made for beginners. Learn the ins-and-outs of a topic in about an hour.</li><li><strong><a href="https://vanillajsacademy.com/">Online Workshops.</a></strong> Work on fun projects, follow a structured learning path, and get the support you need to work through challenges.</li></ul><p>I also maintain a <a href="https://vanillajstoolkit.com">JavaScript toolkit</a> and <a href="https://vanillajspodcast.com">host a podcast</a>. I offer <a href="https://gomakethings.com/call">1-on-1 coaching calls</a>, <a href="https://gomakethings.com/training">team training</a>, and <a href="https://gomakethings.com/talks">speak at events</a>.</p><p><strong>Can’t find what you’re looking for?</strong> Email me directly at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a>.</p>

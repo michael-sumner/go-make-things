@@ -9,7 +9,12 @@ I talk at meetups, conferences, and on podcasts about JavaScript and how to buil
 
 **Want me to talk at your event or come on your show?** Please [read this first](/rider), then email me at {{<email>}}.
 
-<div class="padding-top-large margin-bottom-large">{{<testimonial for="markHowellsMead" photo="true">}}</div>
+
+## Featured Talk: The Lean Web
+
+<iframe src="https://player.vimeo.com/video/360577301?color=0088cc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<div class="padding-top-large margin-bottom-large">{{<testimonial for="chrisCoyier2" photo="true">}}</div>
 
 ## Speaking Events
 
@@ -25,7 +30,8 @@ I talk at meetups, conferences, and on podcasts about JavaScript and how to buil
 - [WordPress RI Meetup](https://www.meetup.com/WordPressRI/events/127790982/), July 23, 2013
 
 
-<div class="padding-top-large margin-bottom-large">{{<testimonial for="stevenSlack" photo="true">}}</div>
+<div class="padding-top-large margin-bottom-large">{{<testimonial for="markHowellsMead" photo="true">}}</div>
+<div class="margin-bottom-large">{{<testimonial for="stevenSlack" photo="true">}}</div>
 
 
 ## Podcast Appearances
@@ -60,3 +66,5 @@ I talk at meetups, conferences, and on podcasts about JavaScript and how to buil
 - [The JavaScript for WP Show](https://www.youtube.com/watch?v=WLrcnQIRqQ0), May 30 2017
 
 You can also listen to me on the [Vanilla JS Podcast](https://vanillajspodcast.com/).
+
+<div class="padding-top-large margin-bottom-large">{{<testimonial for="davidWalsh" photo="true">}}</div>
