@@ -5,8 +5,6 @@ draft: false
 noTitle: true
 ---
 
-<!-- <p class="text-center"><img src="/img/chris-ferdinandi-high-res.jpg" alt="Chris Ferdinandi" width="175" height="175" class="img-circle"></p> -->
-
 <img alt="Chris working on his MacBook Pro at a farmers table" height="684" width="1140" src="/img/chris-ferdinandi-2.jpg">
 
 <h1 class="no-padding-top">Hi, I’m Chris Ferdinandi.</h1>
@@ -19,7 +17,7 @@ I've taught developers at organizations like Salesforce and the Boston Globe, an
 
 My ideas on building a simpler, faster world-wide web have been featured in *Net Magazine*. Chris Coyier, the founder of CSS-Tricks and CodePen, has described my writing as "infinitely quote-worthy."
 
-I love pirates, puppies, and Pixar movies, and live near horse farms in rural Massachusetts. I run Go Make Things with [Bailey Puppy](/about-bailey/), a lab-mix from&nbsp;Tennessee.
+I love pirates, puppies, and Pixar movies, and live near horse farms in rural Massachusetts. I run Go Make Things with [Bailey](/about-bailey/), a lab-mix from&nbsp;Tennessee.
 
 <ul class="list-inline list-inline-responsive">
 	<li>{{<email no-underline="true" icon="true">}}</li>
