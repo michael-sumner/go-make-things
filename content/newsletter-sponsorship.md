@@ -7,7 +7,7 @@ noTitle: false
 
 Interested in getting your message to thousands of developers? I can help.
 
-My Daily Developer Tips newsletter is sent to {{<cta for="mc-subscriber-count">}}+ front-end web developers every weekday. Reach an engaged technical audience with a newsletter sponsorship.
+My Daily Developer Tips newsletter is sent to {{<cta for="ck-subscriber-count">}}+ front-end web developers every weekday. Reach an engaged technical audience with a newsletter sponsorship.
 
 ## Demographics
 
