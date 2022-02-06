@@ -11,7 +11,7 @@ noTitle: true
 
 **I help people learn vanilla JavaScript,** and I believe there's a simpler, more resilient way to make things for the web.
 
-I create [courses and ebooks](https://vanillajsguides.com), run [online workshops](https://vanillajsacademy.com), and host the [Vanilla JS Podcast](https://vanillajspodcast.com). My [developer tips newsletter](/articles) is read by over {{<cta for="mc-subscriber-count">}} developers each weekday.
+I create [courses and ebooks](https://vanillajsguides.com), run [online workshops](https://vanillajsacademy.com), and host the [Vanilla JS Podcast](https://vanillajspodcast.com). My [developer tips newsletter](/articles) is read by over {{<cta for="ck-subscriber-count">}} developers each weekday.
 
 I've taught developers at organizations like Salesforce and the Boston Globe, and my JavaScript libraries have been used by organizations like Apple and Harvard Business&nbsp;School.
 
