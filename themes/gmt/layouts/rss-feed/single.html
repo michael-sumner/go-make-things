@@ -20,17 +20,23 @@
 		{{- $data := getJSON $.Site.Params.api -}}
 		{{- $ctas := index $data "ctas" -}}
 		{{- $.Scratch.Set "ctaType" .Params.ctas -}}
-		{{- $.Scratch.Set "mcPre" "" -}}
-		{{- if and (eq .Params.ctas "mailchimp") (isset $ctas "mc-pre") -}}
-			{{- $.Scratch.Set "mcPre" (index $ctas "mc-pre") -}}
-		{{- else if and (eq .Params.ctas "convertkit") (isset $ctas "ck-pre") -}}
-			{{- $.Scratch.Set "mcPre" (index $ctas "ck-pre") -}}
+		{{- $.Scratch.Set "newsletterPre" "" -}}
+		{{- if and (eq .Params.ctas "convertkit") (isset $ctas "ck-pre") -}}
+			{{- $.Scratch.Set "newsletterPre" (index $ctas "ck-pre") -}}
 		{{- end -}}
-		{{- $.Scratch.Set "mcPost" "" -}}
-		{{- if and (eq .Params.ctas "mailchimp") (isset $ctas "mc-post") -}}
-			{{- $.Scratch.Set "mcPost" (index $ctas "mc-post") -}}
-		{{- else if and (eq .Params.ctas "convertkit") (isset $ctas "ck-post") -}}
-			{{- $.Scratch.Set "mcPost" (index $ctas "ck-post") -}}
+		{{- $.Scratch.Set "newsletterPost" "" -}}
+		{{- if and (eq .Params.ctas "convertkit") (isset $ctas "ck-post") -}}
+			{{- $.Scratch.Set "newsletterPost" (index $ctas "ck-post") -}}
+		{{- else if and (eq .Params.ctas "rss") (isset $ctas "rss") -}}
+			{{- $.Scratch.Set "newsletterPost" (index $ctas "rss") -}}
+		{{- end -}}
+		{{- $.Scratch.Set "sponsorPre" "" -}}
+		{{- if and (isset .Params "sponsor") (isset $ctas "sponsor-pre") -}}
+			{{- $.Scratch.Set "sponsorPre" (index $ctas "sponsor-pre") -}}
+		{{- end -}}
+		{{- $.Scratch.Set "sponsorPost" "" -}}
+		{{- if and (isset .Params "sponsor") (isset $ctas "sponsor-post") -}}
+			{{- $.Scratch.Set "sponsorPost" (index $ctas "sponsor-post") -}}
 		{{- end -}}
 		{{ $all := where .Site.RegularPages "Type" .Params.feedType }}
 		{{ range first ($.Site.Params.rssLimit) $all }}
@@ -41,7 +47,7 @@
 				{{- with .Site.Author.name -}}<dc:creator>{{.}}</dc:creator>{{end}}
 				<guid>{{ if eq .Type "links" }}{{ .Params.link }}{{ else }}{{ .Permalink }}{{- end -}}</guid>
 				<description>{{ `<![CDATA[ ` | safeHTML }}{{ .Summary | safeHTML }}]]></description>
-				<content:encoded>{{ `<![CDATA[ ` | safeHTML }}{{ $.Scratch.Get "mcPre" | safeHTML }}{{ .Content | safeHTML }}{{ $.Scratch.Get "mcPost" | safeHTML }}{{ if and (ne ($.Scratch.Get "ctaType") "mailchimp") (isset $ctas "rss") }}{{ (index $ctas "rss") | safeHTML }}{{ end }}]]></content:encoded>
+				<content:encoded>{{ `<![CDATA[ ` | safeHTML }}{{ $.Scratch.Get "sponsorPre" | safeHTML }}{{ $.Scratch.Get "newsletterPre" | safeHTML }}{{ .Content | safeHTML }}{{ $.Scratch.Get "sponsorPost" | safeHTML }}{{ $.Scratch.Get "newsletterPost" | safeHTML }}]]></content:encoded>
 			</item>
 		{{ end }}
 	</channel>
