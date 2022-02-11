@@ -21,7 +21,7 @@ categories:
 <figure>
 	<img alt="A black lab mix, laying on the floor with a red bandana on" height="684" width="1140" src="https://gomakethings.com/img/bailey-2.jpg">
 	<figcaption>
-		<strong>Bailey</strong><br>December 1, 2010 - February 1, 2022
+		<strong>Bailey</strong><br>December 1, 2009 - February 1, 2022
 	</figcaption>
 </figure>
 
