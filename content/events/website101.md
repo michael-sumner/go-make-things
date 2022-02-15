@@ -14,6 +14,16 @@ I've put together a *ton* of resources to help you dig deeper into building simp
 {{<mailchimp intro="true">}}
 
 
+## Tools & Resources
+
+- [A11Y Project](https://www.a11yproject.com/)
+- [A11Y Nutrition Cards](https://davatron5000.github.io/a11y-nutrition-cards/)
+- [Inclusive Components](http://book.inclusive-components.design/)
+- [Reduced Motion Media Query](https://gomakethings.com/reduced-motion-media-query/)
+- [Full list of available media queries on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+- [WebAIM accessibility survey](https://webaim.org/projects/million/)
+
+
 ## Articles
 
 - [The rise of JavaScript compilers and micro-libraries](/the-rise-of-javascript-compilers-and-micro-libraries/)
