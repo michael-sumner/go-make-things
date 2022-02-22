@@ -48,4 +48,4 @@ Pretty much all of this stuff is just done for you by the browser with a traditi
 
 And as a result, we build things that are fragile and easily broken. We get the "improved user experience" that led us down this path when all of the stars line up perfectly, and a bunch of edge case situations where the UX is much, much worse.
 
-SPAs were a mistake. Tomorrow, I'll show you how we can build SPAs that are just as performance as MPAs, with less complexity and fragility.
+SPAs were a mistake. Tomorrow, I'll show you how we can build MPAs that are just as performant as SPAs, with less complexity and fragility.
