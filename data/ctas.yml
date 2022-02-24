@@ -92,7 +92,6 @@ rss:
 # https://vanillajspodcast.com/
 # https://vanillajsprepschool.com/
 # https://learnvanillajs.com/
-# https://vanillajsprojects.com/
 # https://leanweb.dev/
 funnel:
     message: ""
@@ -129,6 +128,85 @@ funnel:
             message: <p><mark>⏰ <em><strong>Last Chance!</strong> A new session of <a href="https://vanillajsacademy.com">the Vanilla JS Academy</a> started this week, but it's not too late to join. <a href="https://vanillajsacademy.com">Sign up today and get 20% off registration.</a></em></mark></p>
             start: 20220110
             end: 20220116
+
+
+
+# https://vanillajsprojects.com
+project:
+    message: ""
+    limited:
+        0:
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+            start: 20211118
+            end: 20211120
+        1:
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+            start: 20211121
+            end: 20211121
+        2:
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></mark></p>
+            start: 20211122
+            end: 20211127
+        3:
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends tomorrow, so don't wait!</em></mark></p>
+            start: 20211128
+            end: 20211128
+        4:
+            message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></mark></p>
+            start: 20211129
+            end: 20211129
+        5:
+            message: <p><mark>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts.</em></mark></p>
+            start: 20211220
+            end: 20220103
+
+projectBuy:
+    message: ""
+    limited:
+        0:
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
+            start: 20211122
+            end: 20211127
+        1:
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
+            start: 20211128
+            end: 20211128
+        2:
+            message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
+            start: 20211129
+            end: 20211129
+        3:
+            message: <p><mark>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% with the code <code>HOLIDAY2021</code> at checkout.</em></mark></p>
+            start: 20211220
+            end: 20220103
+
+projectsAll:
+    message: <p><mark>🔥 <em><strong>Hot Off the Press!</strong> Dig into new guides on <a href="/service-workers">service workers</a>, <a href="/token-based-authentication/">token-based authentication</a>, or <a href="/serverless/">serverless</a>. You can also level-up with the new <a href="/expert-bundle/">expert bundle</a>.</em></mark></p>
+    limited:
+        0:
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+            start: 20211118
+            end: 20211120
+        1:
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+            start: 20211121
+            end: 20211121
+        2:
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></mark></p>
+            start: 20211122
+            end: 20211127
+        3:
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends tomorrow, so don't wait!</em></mark></p>
+            start: 20211128
+            end: 20211128
+        4:
+            message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></mark></p>
+            start: 20211129
+            end: 20211129
+        5:
+            message: <p><mark>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts.</em></mark></p>
+            start: 20211220
+            end: 20220103
 
 
 
