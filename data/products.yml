@@ -29,6 +29,28 @@ academy:
         end: "February 19"
 
 
+## Vanilla JS Projects
+##
+## Formula for monthly:
+## function price (base) {
+##    let monthly = base / 3;
+##    let increase = monthly / 2;
+##    let total = base + increase;
+##    return total / 3;
+## }
+##
+projects:
+    price: "$37"
+
+projectsBundle:
+    price: "$99"
+    priceMonthly: "$39"
+
+projectsComplete:
+    price: "$99"
+    priceMonthly: "$39"
+
+
 ## Pocket Guides
 ##
 ## Formula for monthly:
@@ -44,12 +66,12 @@ guides:
     video: "$94"
     both: "$99"
 
-guidesTeams:
-    ten: "<del>$7,720</del>&nbsp;$3,860"
-    fifteen: "<del>$11,580</del>&nbsp;$5,790"
-    twenty: "<del>$15,440</del>&nbsp;$7,720"
-    thirty: "<del>$23,160</del>&nbsp;$11,580"
-    fourty: "<del>$30,880</del>&nbsp;$15,440"
+# guidesTeams:
+#     ten: "<del>$7,720</del>&nbsp;$3,860"
+#     fifteen: "<del>$11,580</del>&nbsp;$5,790"
+#     twenty: "<del>$15,440</del>&nbsp;$7,720"
+#     thirty: "<del>$23,160</del>&nbsp;$11,580"
+#     fourty: "<del>$30,880</del>&nbsp;$15,440"
 
 guidesComplete:
     ebook: "<del>$637</del>&nbsp;$382"
@@ -89,11 +111,6 @@ guidesExpert:
 # prepSchool: "$99"
 
 guideDetails:
-    teams:
-        id: "60128"
-        monthly: ""
-        description: ""
-        url: "/teams/"
     complete:
         id: "22572"
         monthly: "58818"
