@@ -48,6 +48,9 @@ academy:
 projects:
     price: "$37"
 
+projectsStarter:
+    price: "FREE"
+
 projectsBundle:
     price: "$99"
     priceMonthly: "$39"
