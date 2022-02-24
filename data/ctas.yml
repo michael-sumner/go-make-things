@@ -181,7 +181,7 @@ projectBuy:
             end: 20220103
 
 projectsAll:
-    message: <p><mark>🔥 <em><strong>Hot Off the Press!</strong> Dig into new guides on <a href="/service-workers">service workers</a>, <a href="/token-based-authentication/">token-based authentication</a>, or <a href="/serverless/">serverless</a>. You can also level-up with the new <a href="/expert-bundle/">expert bundle</a>.</em></mark></p>
+    message: ""
     limited:
         0:
             message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
