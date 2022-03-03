@@ -1,6 +1,9 @@
 {{- $data := getJSON $.Site.Params.ckSubs -}}
 {{- if le $data.code 299 -}}
+	{{- if false -}}
 	{{- $.Scratch.Set "cksubs" $data.msg -}}
+	{{- end -}}
+	{{- $.Scratch.Set "cksubs" (printf "%sk" (index (split $data.msg ",") 0)) -}}
 {{- else -}}
 	{{- $.Scratch.Set "cksubs" "thousands of" -}}
 {{- end -}}
