@@ -4,7 +4,7 @@
 
 # Newsletter
 ckBlurb:
-    message: "**Hate the complexity of modern front‑end web development?** I send out a short email each weekday on how to build a simpler, more resilient web. Join {{ck_subs}}+ others."
+    message: "**Hate the complexity of modern front‑end web development?** I send out a short email each weekday on how to build a simpler, more resilient web. Join over {{ck_subs}} others."
 
 ckSubscribers:
     message: "Join {{ck_subs}}+ daily subscribers."
