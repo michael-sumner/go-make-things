@@ -7,7 +7,7 @@ noTitle: true
 
 <img alt="A fluffy white dog with tan patches lying on a blue couch" height="561" width="1040" src="/img/ryder.jpg">
 
-<h1 class="no-padding-top">Woof! I'm Ryder.</h1>
+<h1 class="no-padding-top">Arf! I'm Ryder.</h1>
 
 I'm a bichon-mix, rescue dog, and the client relations manager at Go Make Things. I spend my days following my favorite humans around and begging them for treats.
 
