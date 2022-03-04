@@ -17,7 +17,7 @@ I've taught developers at organizations like Salesforce and the Boston Globe, an
 
 My ideas on building a simpler, faster world-wide web have been featured in *Net Magazine*. Chris Coyier, the founder of CSS-Tricks and CodePen, has described my writing as "infinitely quote-worthy."
 
-I love pirates, puppies, and Pixar movies, and live near horse farms in rural Massachusetts. I run Go Make Things with [Bailey](/about-bailey/), a lab-mix from&nbsp;Tennessee.
+I love pirates, puppies, and Pixar movies, and live near horse farms in rural Massachusetts. I run Go Make Things with [Ryder](/about-ryder/), a fluffy rescue dog.
 
 <ul class="list-inline list-inline-responsive">
 	<li>{{<email no-underline="true" icon="true">}}</li>
