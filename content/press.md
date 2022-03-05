@@ -15,6 +15,7 @@ Please feel free to use anything here as-is without checking with me first. If y
 ## Details
 
 - **Name:** Chris Ferdinandi <span class="text-small">(pronounced _FUR-din-an-dee_)</span>
+- **Pronouns:** He/Him
 - **Company:** N/A
 - **Job Title:** The Vanilla JS Guy _or_ JavaScript Educator
 - **Website:** [GoMakeThings.com](https://gomakethings.com)
