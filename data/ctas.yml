@@ -44,7 +44,7 @@ sponsorPre:
     message: ""
     limited:
         0:
-            message: <p><em>Today’s newsletter is sponsored by the Developer Nation community, who are hosting the 22nd edition of their <a href="https://developereconomics.net/?member_id=gomakethings">Developer Nation survey</a>. More on that later.</em></p>
+            message: ""
             start: 20220203
             end: 20220210
 
@@ -52,7 +52,7 @@ sponsorPost:
     message: ""
     limited:
         0:
-            message: "<p><em><strong>A note from this week's sponsor:</strong> The <a href=\"https://developereconomics.net/?member_id=gomakethings\">Developer Nation survey</a> is now open. Answer a set of no-nonsense questions about Javascript and other programming languages, developer tools, and platforms and get a chance to win $1,000 for your desktop set-up of your choice, a Nintendo Switch, licenses, Amazon vouchers and many more! Plus, for every completed response, the Developer Nation survey is donating money on your behalf to a charity of your choice with a goal of $1,700. This time you can support: Girls Who Code, Code.org, Free Software Foundation, Greenpeace, Free Code Camp or The Nature Conservancy! What are you waiting for? <a href=\"https://developereconomics.net/?member_id=gomakethings\">Enter the survey now.</a></em></p>"
+            message: ""
             start: 20220203
             end: 20220210
 

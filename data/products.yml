@@ -13,7 +13,6 @@
 ##
 ## Academy
 ## startRegistration/endRegistration - when to show the purchase button
-## startPre/endPre - when to show alumni/early bird pricing
 ## startAcademy/endAcademy - run dates to show on purchase form
 ##
 
@@ -30,13 +29,9 @@ academy:
         standard: "$899"
         monthly: "$299"
         alumni: "$99"
-        pre: "$499"
-        preMonthly: "$199"
     dates:
         registrationStart: 20220314
         registrationEnd: 20220410
-        preStart: 20210907
-        preEnd: 20210913
         start: "April 4"
         end: "May 14"
 
@@ -46,18 +41,8 @@ academy:
 ##
 
 projects:
-    price: "$37"
-
-projectsStarter:
+    id: 62522
     price: "FREE"
-
-projectsBundle:
-    price: "$99"
-    priceMonthly: "$39"
-
-projectsComplete:
-    price: "$99"
-    priceMonthly: "$39"
 
 
 
