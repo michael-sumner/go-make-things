@@ -360,6 +360,12 @@ calebStauffer:
     photo: "https://cdn.gomakethings.com/testimonials/caleb-stauffer.jpg"
     quote: "This has easily been the most valuable newsletter I have ever subscribed to. Thank you very much for sharing and educating!"
 
+mattQueen:
+    name: "Matt Queen"
+    url: "https://twitter.com/docomplexthings/status/1500897239790546945"
+    photo: ""
+    quote: "This email list from Chris Ferdinandi is hands down the best email list I've ever signed up for. EVER. I reference it regularly with all my project teams as an example of how value should be provided. Go sign up, it's gold."
+
 # The Lean Web
 stevenSlack:
     name: "Steven Slack"

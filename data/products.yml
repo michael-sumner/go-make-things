@@ -20,25 +20,25 @@
 academy:
     essentials:
         base: 60313
-        id: 1
-        monthly: 2
+        id: 3
+        monthly: 4
     advanced:
         base: 55598
-        id: 1
-        monthly: 2
+        id: 3
+        monthly: 4
     prices:
-        standard: "$699"
-        monthly: "$275"
+        standard: "$899"
+        monthly: "$299"
         alumni: "$99"
         pre: "$499"
         preMonthly: "$199"
     dates:
-        registrationStart: 20211122
-        registrationEnd: 20220116
+        registrationStart: 20220314
+        registrationEnd: 20220410
         preStart: 20210907
         preEnd: 20210913
-        start: "January 10"
-        end: "February 19"
+        start: "April 4"
+        end: "May 14"
 
 
 ##
