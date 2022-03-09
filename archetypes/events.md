@@ -1,11 +1,11 @@
 ---
-title: Welcome, Thunder Nerds listeners!
-date: 2018-01-11T09:40:48-05:00
+title: Welcome, {{ replace .TranslationBaseName "-" " " | humanize }} listeners!
+date: {{ .Date }}
 draft: false
-aliases: ["/thundernerds/"]
+aliases: [""]
 ---
 
-Thanks for listening to me chat with Frederick, Brian, and Vincent about JavaScript, the modern web, switching careers, ADHD, and more!
+Thanks for listening to me chat with the team about JavaScript, the modern web, switching careers, ADHD, and more!
 
 I've put together a _ton_ of resources to help you dig deeper into building simpler, more resilient web experiences.
 
