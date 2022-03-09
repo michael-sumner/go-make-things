@@ -1,7 +1,8 @@
 ---
-title: When are developer worth using, and when do they just add more overhead?
+title: When are developer tools worth using, and when do they just add more overhead?
 date: 2022-03-07T10:30:00-05:00
 draft: false
+url: "/when-are-developer-worth-using-and-when-do-they-just-add-more-overhead/"
 categories:
 - Accessibility
 - Careers
