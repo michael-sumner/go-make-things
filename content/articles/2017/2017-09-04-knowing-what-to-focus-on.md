@@ -7,7 +7,7 @@ url: /knowing-what-to-focus-on/
 title: Knowing what to focus on
 ---
 
-*Updated on May 25, 2020.*
+*Updated on March 10, 2022.*
 
 I ask everyone who subscribes to [my daily developer tips](/articles) a simple question: "what's the biggest challenge you face as a web developer?"
 
@@ -63,7 +63,7 @@ I've learned that less sexy, more stable technology is a blessing. Less bugs, be
 
 Now, I ignore the noise.
 
-If I were thinking about JS frameworks for a project today, I think I'd basically only consider React or Vue (with a bias towards Vue). The rest is just noise.
+If I were thinking about JS frameworks for a project today, I think I'd basically only consider Preact or Vue. The rest is just noise.
 
 ## Targeted Listening
 
