@@ -15,8 +15,17 @@ I've put together a _ton_ of resources to help you dig deeper into building simp
 {{<mailchimp intro="true">}}
 
 
+## Career Guide
+
+Learn how to find open roles, write resumes that get seen by an actual human, navigate the interview process, and more. Grab a free copy.
+
+**([Get your free copy here.](/career-guide/))**
+
+
 ## Articles
 
+- [The `details` and `summary` elements](https://vanillajstoolkit.com/reference/javascript-free/accordions/)
+- [HTML-only autocomplete](/how-to-create-an-autocomplete-input-with-only-html/)
 - [SPAs were a mistake](/spas-were-a-mistake/)
 - [How to make MPAs that are as fast as SPAs](/how-to-make-mpas-that-are-as-fast-as-spas/)
 - [When are developer tools worth using, and when do they just add more overhead?](/when-are-developer-worth-using-and-when-do-they-just-add-more-overhead/)
