@@ -35,6 +35,12 @@ I've put together a _ton_ of resources to help you dig deeper into building simp
 - [Do I have ADHD?](/do-i-have-adhd/)
 
 
+## Free Ebooks
+
+- [The Lean Web](https://leanweb.dev/) is a set of principles for a simpler, faster world-wide web.
+- [Web Developer Career Guide](/career-guide/) covers how to find open roles, write resumes that get seen by an actual human, navigate the interview process, and more. Grab a free copy.
+
+
 ## Podcasts
 
 - [The Stack Overflow Podcast: Teaching People JavaScript](https://stackoverflow.blog/2021/12/21/podcast-402-teaching-developers-about-the-most-lightweight-web-framework-around-vanillajs/)
