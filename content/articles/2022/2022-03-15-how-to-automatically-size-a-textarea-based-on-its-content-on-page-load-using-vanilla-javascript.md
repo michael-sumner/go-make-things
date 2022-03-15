@@ -1,6 +1,6 @@
 ---
 title: How to automatically size a textarea based on its using vanilla JavaScript
-date: 2022-03-15T10:30:00-05:00
+date: 2022-03-15T10:30:00-04:00
 draft: false
 categories:
 - Code
