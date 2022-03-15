@@ -3,19 +3,11 @@ title: How to automatically size a textarea based on its using vanilla JavaScrip
 date: 2022-03-15T10:30:00-05:00
 draft: false
 categories:
-- Accessibility
-- Art and Science
-- Business and Leadership
-- Careers
 - Code
 - CSS
 - Design and UX
 - HTML
 - JavaScript
-- Technology
-- Web Performance
-- WordPress
-- Vanilla Framework Demos
 ---
 
 Last year, I wrote an article sharing [Stephen Shaw's awesome trick for simple, autogrowing `textarea` elements](/autogrowing-textareas/).
