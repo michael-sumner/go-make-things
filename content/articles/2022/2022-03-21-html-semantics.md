@@ -4,18 +4,11 @@ date: 2022-03-21T10:30:00-04:00
 draft: false
 categories:
 - Accessibility
-- Art and Science
-- Business and Leadership
-- Careers
 - Code
 - CSS
 - Design and UX
 - HTML
 - JavaScript
-- Technology
-- Web Performance
-- WordPress
-- Vanilla Framework Demos
 ---
 
 _Today's article is an excerpt from [a new course and book](https://vanillajsguides.com) on Accessible Components with vanilla JS that I'm working on. It's not for sale yet, but will be part of the [complete set](https://vanillajsguides.com/complete-set/) and [expert bundle](https://vanillajsguides.com/expert-bundle/) when it's released._
