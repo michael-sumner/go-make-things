@@ -1,5 +1,5 @@
 ---
-title: Removing jAuery is good for performance
+title: Removing jQuery is good for performance
 date: 2022-03-31T10:30:00-04:00
 draft: false
 categories:
