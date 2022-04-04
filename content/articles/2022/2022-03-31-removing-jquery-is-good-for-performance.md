@@ -2,6 +2,7 @@
 title: Removing jQuery is good for performance
 date: 2022-03-31T10:30:00-04:00
 draft: false
+aliases: ["/removing-jauery-is-good-for-performance/"]
 categories:
 - Code
 - Design and UX
