@@ -113,3 +113,5 @@ let count = Array.from(new Intl.Segmenter().segment(str)).length;
 Now for the bad news: the `Intl.Segmenter()` method works in all modern browsers... except Firefox.
 
 There are various polyfills out there, but I can't speak to how good one is over another. Because this API is intended for internationalization, they require you to import specific language dictionaries or configuration files to work.
+
+In the interim, there's a useful NPM package you might want to check out: [graphemer](https://github.com/flmnt/graphemer)
