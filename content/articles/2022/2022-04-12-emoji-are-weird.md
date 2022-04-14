@@ -13,6 +13,8 @@ Specifically, emoji never have a `length` property of `1`, which makes a lot of 
 
 Let's dig in!
 
+_**Update:** The recommended fix in this article breaks in a variety of situations. [I wrote an update that looks at more accurate alternate approaches.](/emoji-are-still-weird-but-modern-browser-methods-help/)_
+
 ## The problem
 
 Let's look at the ice cream cone emoji: `🍦`. If you call the `length` property on it, you get a value of `2`.
