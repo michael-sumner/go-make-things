@@ -1,5 +1,5 @@
 ---
-title: Welcome, Some antics listeners!
+title: Welcome, Some Antics listeners!
 date: 2022-05-10T12:39:13-04:00
 draft: false
 aliases: ["/someantics/"]
