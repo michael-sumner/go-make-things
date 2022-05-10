@@ -2,17 +2,27 @@
 title: Welcome, Some antics listeners!
 date: 2022-05-10T12:39:13-04:00
 draft: false
-aliases: [""]
+aliases: ["/someantics/"]
 ---
 
-Thanks for listening to me chat with the team about JavaScript, the modern web, switching careers, ADHD, and more!
+Thanks for Ben and I build a Pixar-inspired find-the-monster game.
 
-I've put together a _ton_ of resources to help you dig deeper into building simpler, more resilient web experiences.
+You can find source code and links to all of the things we covered in the livestream below. I've put together a _ton_ of resources to help you dig deeper into building simpler, more resilient web experiences.
 
 {{<cta for="funnel">}}
 
 
 {{<mailchimp intro="true">}}
+
+
+## Source Code & Links
+
+- [Starting Template](https://gist.github.com/cferdinandi/dc0686a396cc2a2d2cb7e295b4d2a62c)
+- [shuffle.js](https://vanillajstoolkit.com/helpers/shuffle/)
+- [Images and screen reader users](/images-and-screen-reader-users/)
+- [`Element.closest()`](/a-native-vanilla-javascript-way-to-get-the-closest-matching-parent-element/)
+- [Replacing one element with another](/how-to-replace-one-element-with-another-with-vanilla-javascript/)
+- [The problem with SPAs](/spas-were-a-mistake/)
 
 
 ## Articles
