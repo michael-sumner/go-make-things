@@ -48,7 +48,7 @@ form.addEventListener('submit', function (event) {
 });
 ```
 
-A while back, though, my friend Eric Bailey taught me a much simpler way to handle this: add `type="button"` to the button.
+A while back, though, [my friend Eric Bailey](https://ericwbailey.design/) taught me a much simpler way to handle this: add `type="button"` to the button.
 
 ```html
 <form id="say-hi">
