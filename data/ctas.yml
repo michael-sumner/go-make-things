@@ -23,18 +23,22 @@ ckPre:
         #     message: <p>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts.</em></p>
         #     start: 20211220
         #     end: 20220103
+        # 0:
+        #     message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> Today through Monday, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></p>
+        #     start: 20220314
+        #     end: 20220318
+        # 1:
+        #     message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> Today and tomorrow, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></p>
+        #     start: 20220319
+        #     end: 20220319
+        # 2:
+        #     message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> Today only, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></p>
+        #     start: 20220320
+        #     end: 20220320
         0:
-            message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> Today through Monday, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></p>
-            start: 20220314
-            end: 20220318
-        1:
-            message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> Today and tomorrow, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></p>
-            start: 20220319
-            end: 20220319
-        2:
-            message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> Today only, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></p>
-            start: 20220320
-            end: 20220320
+            message: <p>☀️😎 <em><strong>Almost Summer Sale!</strong> This week only, get 30% off <a href="https://vanillajsguides.com">all of my Vanilla JS courses, books, and bundles</a>.</em></p>
+            start: 20220531
+            end: 20220605
 
 ckPost:
     message: "<p>{% if subscriber.tags contains \"PRODUCTS: Academy - Advanced\" %}{% if subscriber.tags contains \"PRODUCTS: Projects\" %}<strong>Is there a JavaScript or web development topic you'd like to learn more about?</strong> Hit reply to this email and let me know.{% else %}<strong>Want more JavaScript practice? Get 15 FREE self-paced <a href=\"https://vanillajsprojects.com\">JavaScript projects</a>.</strong> Each one includes a few short lessons and a template to get you started. <a href=\"https://vanillajsprojects.com\">Click here to get started.</a>{% endif %}{% elsif subscriber.tags contains \"PRODUCTS: Academy - Essentials\" %}<strong><a href=\"https://vanillajsacademy.com/advanced/\">Advanced JavaScript: Structure & Scale</a> is a new workshop focused on structuring code for scale and growth.</strong> <a href=\"https://vanillajsacademy.com/advanced/\">Click here to learn more.</a>{% elsif subscriber.tags contains \"PRODUCTS: Pocket Guide - Bundle\" %}<strong>The <a href=\"https://vanillajsacademy.com\">Vanilla JS Academy</a> is a project-based online JavaScript workshop for beginners.</strong> <a href=\"https://vanillajsacademy.com\">Click here to learn more.</a>{% elsif subscriber.tags contains \"PRODUCTS: Pocket Guide - Individual\" %}<strong>Ready to dig into more vanilla JS topics?</strong> Save big with a <a href=\"https://vanillajsguides.com#bundles\">Vanilla JS Pocket Guides Bundle</a>. You can take an extra 30% off with the code <code>UPGRADE</code> at checkout.{% elsif subscriber.tags contains \"PRODUCTS: Projects\" %}<strong>Want to really dig in to topics like this?</strong> Check out my <a href=\"https://vanillajsguides.com\">Vanilla JS Pocket Guides</a>&mdash;short, focused ebooks and video courses made for beginners. Let's make {{ \"now\" | date: \"%Y\" }} the year you master JavaScript!{% else %}<strong>Liked this? Get 15 FREE self-paced <a href=\"https://vanillajsprojects.com\">JavaScript projects</a>.</strong> Each one includes a few short lessons and a template to get you started. <a href=\"https://vanillajsprojects.com\">Click here to get started.</a>{% endif %}</p><p>Cheers,<br>Chris</p>"
@@ -51,22 +55,26 @@ ckPost:
         #     message: <p>Cheers,<br>Chris</p>
         #     start: 20211220
         #     end: 20220103
+        # 0:
+        #     message: <p>Cheers,<br>Chris</p>
+        #     start: 20220314
+        #     end: 20220320
+        # 3:
+        #     message: <p><em><strong>Join the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>!</strong> A new session starts on April 4. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></p><p>Cheers,<br>Chris</p>
+        #     start: 20220321
+        #     end: 20220327
+        # 4:
+        #     message: <p>⏰ <em><strong>Last Chance!</strong> A new session of <a href="https://vanillajsacademy.com">the Vanilla JS Academy</a> starts on Monday. <a href="https://vanillajsacademy.com">Join today and get 25% off registration.</a></em></p><p>Cheers,<br>Chris</p>
+        #     start: 20220328
+        #     end: 20220403
+        # 5:
+        #     message: <p>⏰ <em><strong>Last Chance!</strong> A new session of <a href="https://vanillajsacademy.com">the Vanilla JS Academy</a> started this week, but it's not too late to join. <a href="https://vanillajsacademy.com">Sign up today and get 25% off registration.</a></em></p><p>Cheers,<br>Chris</p>
+        #     start: 20220404
+        #     end: 20220410
         0:
             message: <p>Cheers,<br>Chris</p>
-            start: 20220314
-            end: 20220320
-        3:
-            message: <p><em><strong>Join the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>!</strong> A new session starts on April 4. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></p><p>Cheers,<br>Chris</p>
-            start: 20220321
-            end: 20220327
-        4:
-            message: <p>⏰ <em><strong>Last Chance!</strong> A new session of <a href="https://vanillajsacademy.com">the Vanilla JS Academy</a> starts on Monday. <a href="https://vanillajsacademy.com">Join today and get 25% off registration.</a></em></p><p>Cheers,<br>Chris</p>
-            start: 20220328
-            end: 20220403
-        5:
-            message: <p>⏰ <em><strong>Last Chance!</strong> A new session of <a href="https://vanillajsacademy.com">the Vanilla JS Academy</a> started this week, but it's not too late to join. <a href="https://vanillajsacademy.com">Sign up today and get 25% off registration.</a></em></p><p>Cheers,<br>Chris</p>
-            start: 20220404
-            end: 20220410
+            start: 20220531
+            end: 20220605
 
 sponsorPre:
     message: ""
@@ -99,30 +107,34 @@ rss:
         #     message: <p>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></p>
         #     start: 20211129
         #     end: 20211129
+        # 0:
+        #     message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> Today through Monday, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></p>
+        #     start: 20220314
+        #     end: 20220318
+        # 1:
+        #     message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> Today and tomorrow, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></p>
+        #     start: 20220319
+        #     end: 20220319
+        # 2:
+        #     message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> Today only, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></p>
+        #     start: 20220320
+        #     end: 20220320
+        # 3:
+        #     message: <p>🔥 <em><strong>Join the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>!</strong> A new session starts on April 4. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></p>
+        #     start: 20220321
+        #     end: 20220327
+        # 4:
+        #     message: <p>⏰ <em><strong>Last Chance!</strong> A new session of <a href="https://vanillajsacademy.com">the Vanilla JS Academy</a> starts on Monday. <a href="https://vanillajsacademy.com">Join today and get 25% off registration.</a></em></p>
+        #     start: 20220328
+        #     end: 20220403
+        # 5:
+        #     message: <p>⏰ <em><strong>Last Chance!</strong> A new session of <a href="https://vanillajsacademy.com">the Vanilla JS Academy</a> started this week, but it's not too late to join. <a href="https://vanillajsacademy.com">Sign up today and get 25% off registration.</a></em></p>
+        #     start: 20220404
+        #     end: 20220410
         0:
-            message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> Today through Monday, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></p>
-            start: 20220314
-            end: 20220318
-        1:
-            message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> Today and tomorrow, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></p>
-            start: 20220319
-            end: 20220319
-        2:
-            message: <p>⏰🦉 <em><strong>Early Bird Sale!</strong> Today only, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></p>
-            start: 20220320
-            end: 20220320
-        3:
-            message: <p>🔥 <em><strong>Join the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>!</strong> A new session starts on April 4. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></p>
-            start: 20220321
-            end: 20220327
-        4:
-            message: <p>⏰ <em><strong>Last Chance!</strong> A new session of <a href="https://vanillajsacademy.com">the Vanilla JS Academy</a> starts on Monday. <a href="https://vanillajsacademy.com">Join today and get 25% off registration.</a></em></p>
-            start: 20220328
-            end: 20220403
-        5:
-            message: <p>⏰ <em><strong>Last Chance!</strong> A new session of <a href="https://vanillajsacademy.com">the Vanilla JS Academy</a> started this week, but it's not too late to join. <a href="https://vanillajsacademy.com">Sign up today and get 25% off registration.</a></em></p>
-            start: 20220404
-            end: 20220410
+            message: <p>☀️😎 <em><strong>Almost Summer Sale!</strong> This week only, get 30% off <a href="https://vanillajsguides.com">all of my Vanilla JS courses, books, and bundles</a>.</em></p>
+            start: 20220531
+            end: 20220605
 
 
 
@@ -148,30 +160,42 @@ funnel:
         #     message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></mark></p>
         #     start: 20211129
         #     end: 20211129
+        # 0:
+        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today through Monday, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></mark></p>
+        #     start: 20220314
+        #     end: 20220318
+        # 1:
+        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today and tomorrow, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></mark></p>
+        #     start: 20220319
+        #     end: 20220319
+        # 2:
+        #     message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today only, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></mark></p>
+        #     start: 20220320
+        #     end: 20220320
+        # 3:
+        #     message: <p><mark>🔥 <em><strong>Join the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>!</strong> A new session starts on April 4. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
+        #     start: 20220321
+        #     end: 20220327
+        # 4:
+        #     message: <p><mark>⏰ <em><strong>Last Chance!</strong> A new session of <a href="https://vanillajsacademy.com">the Vanilla JS Academy</a> starts on Monday. <a href="https://vanillajsacademy.com">Join today and get 25% off registration.</a></em></mark></p>
+        #     start: 20220328
+        #     end: 20220403
+        # 5:
+        #     message: <p><mark>⏰ <em><strong>Last Chance!</strong> A new session of <a href="https://vanillajsacademy.com">the Vanilla JS Academy</a> started this week, but it's not too late to join. <a href="https://vanillajsacademy.com">Sign up today and get 25% off registration.</a></em></mark></p>
+        #     start: 20220404
+        #     end: 20220410
         0:
-            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today through Monday, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></mark></p>
-            start: 20220314
-            end: 20220318
-        1:
-            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today and tomorrow, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></mark></p>
-            start: 20220319
-            end: 20220319
+            message: <p><mark>☀️😎 <em><strong>Almost Summer Sale!</strong> This week only, get 30% off <a href="https://vanillajsguides.com">all of my Vanilla JS courses, books, and bundles</a>.</em></mark></p>
+            start: 20220531
+            end: 20220603
         2:
-            message: <p><mark>⏰🦉 <em><strong>Early Bird Sale!</strong> Today only, get 40% off <a href="https://vanillajsacademy.com">registration in the next session of the Vanilla JS Academy</a>.</em></mark></p>
-            start: 20220320
-            end: 20220320
+            message: <p><mark>☀️😎 <em><strong>Almost Summer Sale!</strong> This weekend only, get 30% off <a href="https://vanillajsguides.com">all of my Vanilla JS courses, books, and bundles</a>.</em></mark></p>
+            start: 20220604
+            end: 20220604
         3:
-            message: <p><mark>🔥 <em><strong>Join the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>!</strong> A new session starts on April 4. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
-            start: 20220321
-            end: 20220327
-        4:
-            message: <p><mark>⏰ <em><strong>Last Chance!</strong> A new session of <a href="https://vanillajsacademy.com">the Vanilla JS Academy</a> starts on Monday. <a href="https://vanillajsacademy.com">Join today and get 25% off registration.</a></em></mark></p>
-            start: 20220328
-            end: 20220403
-        5:
-            message: <p><mark>⏰ <em><strong>Last Chance!</strong> A new session of <a href="https://vanillajsacademy.com">the Vanilla JS Academy</a> started this week, but it's not too late to join. <a href="https://vanillajsacademy.com">Sign up today and get 25% off registration.</a></em></mark></p>
-            start: 20220404
-            end: 20220410
+            message: <p><mark>☀️😎 <em><strong>Almost Summer Sale!</strong> Today only, get 30% off <a href="https://vanillajsguides.com">all of my Vanilla JS courses, books, and bundles</a>.</em></mark></p>
+            start: 20220605
+            end: 20220605
 
 
 
@@ -179,78 +203,114 @@ funnel:
 guide:
     message: ""
     limited:
+        # 0:
+        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+        #     start: 20211118
+        #     end: 20211120
+        # 1:
+        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+        #     start: 20211121
+        #     end: 20211121
+        # 2:
+        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></mark></p>
+        #     start: 20211122
+        #     end: 20211127
+        # 3:
+        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends tomorrow, so don't wait!</em></mark></p>
+        #     start: 20211128
+        #     end: 20211128
+        # 4:
+        #     message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></mark></p>
+        #     start: 20211129
+        #     end: 20211129
+        # 5:
+        #     message: <p><mark>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts.</em></mark></p>
+        #     start: 20211220
+        #     end: 20220103
         0:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
-            start: 20211118
-            end: 20211120
-        1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
-            start: 20211121
-            end: 20211121
+            message: <p><mark>☀️😎 <em><strong>Almost Summer Sale!</strong> This week only, get 30% off every course, book, and bundle.</em></mark></p>
+            start: 20220531
+            end: 20220603
         2:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></mark></p>
-            start: 20211122
-            end: 20211127
+            message: <p><mark>☀️😎 <em><strong>Almost Summer Sale!</strong> This weekend only, get 30% off every course, book, and bundle.</em></mark></p>
+            start: 20220604
+            end: 20220604
         3:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends tomorrow, so don't wait!</em></mark></p>
-            start: 20211128
-            end: 20211128
-        4:
-            message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></mark></p>
-            start: 20211129
-            end: 20211129
-        5:
-            message: <p><mark>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts.</em></mark></p>
-            start: 20211220
-            end: 20220103
+            message: <p><mark>☀️😎 <em><strong>Almost Summer Sale!</strong> Today only, get 30% off every course, book, and bundle.</em></mark></p>
+            start: 20220605
+            end: 20220605
 
 guideBuy:
     message: ""
     limited:
+        # 0:
+        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
+        #     start: 20211122
+        #     end: 20211127
+        # 1:
+        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
+        #     start: 20211128
+        #     end: 20211128
+        # 2:
+        #     message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
+        #     start: 20211129
+        #     end: 20211129
+        # 3:
+        #     message: <p><mark>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% with the code <code>HOLIDAY2021</code> at checkout.</em></mark></p>
+        #     start: 20211220
+        #     end: 20220103
         0:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
-            start: 20211122
-            end: 20211127
-        1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
-            start: 20211128
-            end: 20211128
+            message: <p><mark>☀️😎 <em><strong>Almost Summer Sale!</strong> This week only, save 30% with the code <code>ALMOSTSUMMER</code> at checkout.</em></mark></p>
+            start: 20220531
+            end: 20220603
         2:
-            message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% with the code <code>BLACKFRIDAY2021</code> at checkout.</em></mark></p>
-            start: 20211129
-            end: 20211129
+            message: <p><mark>☀️😎 <em><strong>Almost Summer Sale!</strong> This weekend only, save 30% with the code <code>ALMOSTSUMMER</code> at checkout.</em></mark></p>
+            start: 20220604
+            end: 20220604
         3:
-            message: <p><mark>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% with the code <code>HOLIDAY2021</code> at checkout.</em></mark></p>
-            start: 20211220
-            end: 20220103
+            message: <p><mark>☀️😎 <em><strong>Almost Summer Sale!</strong> Today only, save 30% with the code <code>ALMOSTSUMMER</code> at checkout.</em></mark></p>
+            start: 20220605
+            end: 20220605
 
 guidesAll:
     message: <p><mark>🔥 <em><strong>Hot Off the Press!</strong> Dig into new guides on <a href="/service-workers">service workers</a>, <a href="/token-based-authentication/">token-based authentication</a>, or <a href="/serverless/">serverless</a>. You can also level-up with the new <a href="/expert-bundle/">expert bundle</a>.</em></mark></p>
     limited:
+        # 0:
+        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+        #     start: 20211118
+        #     end: 20211120
+        # 1:
+        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+        #     start: 20211121
+        #     end: 20211121
+        # 2:
+        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></mark></p>
+        #     start: 20211122
+        #     end: 20211127
+        # 3:
+        #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends tomorrow, so don't wait!</em></mark></p>
+        #     start: 20211128
+        #     end: 20211128
+        # 4:
+        #     message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></mark></p>
+        #     start: 20211129
+        #     end: 20211129
+        # 5:
+        #     message: <p><mark>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts.</em></mark></p>
+        #     start: 20211220
+        #     end: 20220103
         0:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
-            start: 20211118
-            end: 20211120
-        1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
-            start: 20211121
-            end: 20211121
+            message: <p><mark>☀️😎 <em><strong>Almost Summer Sale!</strong> This week only, get 30% off every course, book, and bundle.</em></mark></p>
+            start: 20220531
+            end: 20220603
         2:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends Monday, so don't wait!</em></mark></p>
-            start: 20211122
-            end: 20211127
+            message: <p><mark>☀️😎 <em><strong>Almost Summer Sale!</strong> This weekend only, get 30% off every course, book, and bundle.</em></mark></p>
+            start: 20220604
+            end: 20220604
         3:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Today and tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends tomorrow, so don't wait!</em></mark></p>
-            start: 20211128
-            end: 20211128
-        4:
-            message: <p><mark>🔥 <em><strong>Cyber Monday Sale!</strong> Today only, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. This sale ends today, so don't wait!</em></mark></p>
-            start: 20211129
-            end: 20211129
-        5:
-            message: <p><mark>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts.</em></mark></p>
-            start: 20211220
-            end: 20220103
+            message: <p><mark>☀️😎 <em><strong>Almost Summer Sale!</strong> Today only, get 30% off every course, book, and bundle.</em></mark></p>
+            start: 20220605
+            end: 20220605
 
 
 
