@@ -3,19 +3,9 @@ title: The vanilla JavaScript almost summer sale 2022
 date: 2022-05-31T10:30:00-04:00
 draft: false
 categories:
-- Accessibility
-- Art and Science
-- Business and Leadership
 - Careers
 - Code
-- CSS
-- Design and UX
-- HTML
 - JavaScript
-- Technology
-- Web Performance
-- WordPress
-- Vanilla Framework Demos
 ---
 
 This week, we're going to dig into some cool stuff you can do with numbers and strings. But... the weather's been really nice where I am, so I decided to run a surprise "almost summer sale." 
