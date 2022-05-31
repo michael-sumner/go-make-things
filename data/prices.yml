@@ -17,6 +17,17 @@ guidesComplete:
                 discount: "HOLIDAY2021"
             start: 20211220
             end: 20220103
+        2:
+            prices:
+                ebook: "<del>$637</del>&nbsp;$268"
+                video: "<del>$1,222</del>&nbsp;$514"
+                both: "<del>$1,287</del>&nbsp;$540"
+                ebookMonthly: "<del>$149</del>&nbsp;$105"
+                videoMonthly: "<del>$285</del>&nbsp;$199"
+                bothMonthly: "<del>$299</del>&nbsp;$209"
+                discount: "ALMOSTSUMMER"
+            start: 20220531
+            end: 20220605
 
 guidesBeginner:
     limited:
@@ -31,6 +42,17 @@ guidesBeginner:
                 discount: "HOLIDAY2021"
             start: 20211220
             end: 20220103
+        2:
+            prices:
+                ebook: "<del>$245</del>&nbsp;$120"
+                video: "<del>$470</del>&nbsp;$230"
+                both: "<del>$495</del>&nbsp;$243"
+                ebookMonthly: "<del>$67</del>&nbsp;$47"
+                videoMonthly: "<del>$129</del>&nbsp;$90"
+                bothMonthly: "<del>$134</del>&nbsp;$94"
+                discount: "ALMOSTSUMMER"
+            start: 20220531
+            end: 20220605
 
 guidesAdvanced:
     limited:
@@ -45,6 +67,17 @@ guidesAdvanced:
                 discount: "HOLIDAY2021"
             start: 20211220
             end: 20220103
+        2:
+            prices:
+                ebook: "<del>$245</del>&nbsp;$120"
+                video: "<del>$470</del>&nbsp;$230"
+                both: "<del>$495</del>&nbsp;$243"
+                ebookMonthly: "<del>$67</del>&nbsp;$47"
+                videoMonthly: "<del>$129</del>&nbsp;$90"
+                bothMonthly: "<del>$134</del>&nbsp;$94"
+                discount: "ALMOSTSUMMER"
+            start: 20220531
+            end: 20220605
 
 guidesExpert:
     limited:
@@ -59,6 +92,17 @@ guidesExpert:
                 discount: "HOLIDAY2021"
             start: 20211220
             end: 20220103
+        2:
+            prices:
+                ebook: "<del>$147</del>&nbsp;$73"
+                video: "<del>$282</del>&nbsp;$138"
+                both: "<del>$297</del>&nbsp;$145"
+                ebookMonthly: "<del>$41</del>&nbsp;$29"
+                videoMonthly: "<del>$77</del>&nbsp;$54"
+                bothMonthly: "<del>$81</del>&nbsp;$57"
+                discount: "ALMOSTSUMMER"
+            start: 20220531
+            end: 20220605
 
 guidesIndividual:
     limited:
@@ -70,6 +114,14 @@ guidesIndividual:
                 discount: "HOLIDAY2021"
             start: 20211220
             end: 20220103
+        2:
+            prices:
+                ebook: "<del>$49</del>&nbsp;$34"
+                video: "<del>$94</del>&nbsp;$65"
+                both: "<del>$99</del>&nbsp;$69"
+                discount: "ALMOSTSUMMER"
+            start: 20220531
+            end: 20220605
 
 # Academy
 academy:
