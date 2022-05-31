@@ -36,6 +36,17 @@ academy:
         end: "May 14"
 
 
+
+##
+## Academy Extra Credit
+##
+
+extraCredit:
+    essentials: "66577_1"
+    price: "$99"
+
+
+
 ##
 ## Projects
 ##
