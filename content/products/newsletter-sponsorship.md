@@ -1,8 +1,9 @@
 ---
-title: "Newsletter Sponsorship"
+title: "Developer Newsletter Sponsorship"
 date: 2018-01-11T16:03:33-05:00
 draft: false
 noTitle: false
+url: "/newsletter-sponsorship/"
 ---
 
 Interested in getting your message to thousands of developers? I can help.
