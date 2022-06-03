@@ -84,7 +84,7 @@ let code = new Intl.NumberFormat(undefined, {
 let name = new Intl.NumberFormat(undefined, {
 	style: 'currency',
 	currency: 'USD',
-	currencyDisplay: 'code'
+	currencyDisplay: 'name'
 }).format(total);
 ```
 
