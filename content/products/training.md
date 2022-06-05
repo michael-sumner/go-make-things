@@ -65,7 +65,6 @@ I offer three different training programs.
 {{%/md%}}
 </div>
 
-## About the Trainer
 
 {{<cta for="bio">}}
 
