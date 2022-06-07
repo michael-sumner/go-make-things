@@ -39,6 +39,10 @@ ckPre:
             message: <p>☀️😎 <em><strong>Almost Summer Sale!</strong> This week only, get 30% off <a href="https://vanillajsguides.com">all of my Vanilla JS courses, books, and bundles</a>.</em></p>
             start: 20220531
             end: 20220605
+        1:
+            message: <p>🚀 <em><strong>New Course!</strong> Learn how to build <a href="https://vanillajsguides.com/accessible-components/">accessible interactive components</a> with vanilla JS and level-up your developer game. <a href="https://vanillajsguides.com/accessible-components/">Click here to learn more.</a></em></p>
+            start: 20220606
+            end: 20220612
 
 ckPost:
     message: "<p>{% if subscriber.tags contains \"PRODUCTS: Academy - Advanced\" %}{% if subscriber.tags contains \"PRODUCTS: Projects\" %}<strong>Is there a JavaScript or web development topic you'd like to learn more about?</strong> Hit reply to this email and let me know.{% else %}<strong>Want more JavaScript practice? Get 15 FREE self-paced <a href=\"https://vanillajsprojects.com\">JavaScript projects</a>.</strong> Each one includes a few short lessons and a template to get you started. <a href=\"https://vanillajsprojects.com\">Click here to get started.</a>{% endif %}{% elsif subscriber.tags contains \"PRODUCTS: Academy - Essentials\" %}<strong><a href=\"https://vanillajsacademy.com/advanced/\">Advanced JavaScript: Structure & Scale</a> is a new workshop focused on structuring code for scale and growth.</strong> <a href=\"https://vanillajsacademy.com/advanced/\">Click here to learn more.</a>{% elsif subscriber.tags contains \"PRODUCTS: Pocket Guide - Bundle\" %}<strong>The <a href=\"https://vanillajsacademy.com\">Vanilla JS Academy</a> is a project-based online JavaScript workshop for beginners.</strong> <a href=\"https://vanillajsacademy.com\">Click here to learn more.</a>{% elsif subscriber.tags contains \"PRODUCTS: Pocket Guide - Individual\" %}<strong>Ready to dig into more vanilla JS topics?</strong> Save big with a <a href=\"https://vanillajsguides.com#bundles\">Vanilla JS Pocket Guides Bundle</a>. You can take an extra 30% off with the code <code>UPGRADE</code> at checkout.{% elsif subscriber.tags contains \"PRODUCTS: Projects\" %}<strong>Want to really dig in to topics like this?</strong> Check out my <a href=\"https://vanillajsguides.com\">Vanilla JS Pocket Guides</a>&mdash;short, focused ebooks and video courses made for beginners. Let's make {{ \"now\" | date: \"%Y\" }} the year you master JavaScript!{% else %}<strong>Liked this? Get 15 FREE self-paced <a href=\"https://vanillajsprojects.com\">JavaScript projects</a>.</strong> Each one includes a few short lessons and a template to get you started. <a href=\"https://vanillajsprojects.com\">Click here to get started.</a>{% endif %}</p><p>Cheers,<br>Chris</p>"
@@ -73,8 +77,8 @@ ckPost:
         #     end: 20220410
         0:
             message: <p>Cheers,<br>Chris</p>
-            start: 20220531
-            end: 20220605
+            start: 20220606
+            end: 20220612
 
 sponsorPre:
     message: ""
@@ -135,6 +139,10 @@ rss:
             message: <p>☀️😎 <em><strong>Almost Summer Sale!</strong> This week only, get 30% off <a href="https://vanillajsguides.com">all of my Vanilla JS courses, books, and bundles</a>.</em></p>
             start: 20220531
             end: 20220605
+        1:
+            message: <p>🚀 <em><strong>New Course!</strong> Learn how to build <a href="https://vanillajsguides.com/accessible-components/">accessible interactive components</a> with vanilla JS and level-up your developer game. <a href="https://vanillajsguides.com/accessible-components/">Click here to learn more.</a></em></p>
+            start: 20220606
+            end: 20220612
 
 
 
@@ -196,6 +204,10 @@ funnel:
             message: <p><mark>☀️😎 <em><strong>Almost Summer Sale!</strong> Today only, get 30% off <a href="https://vanillajsguides.com">all of my Vanilla JS courses, books, and bundles</a>.</em></mark></p>
             start: 20220605
             end: 20220605
+        4:
+            message: <p><mark>🚀 <em><strong>New Course!</strong> Learn how to build <a href="https://vanillajsguides.com/accessible-components/">accessible interactive components</a> with vanilla JS and level-up your developer game. <a href="https://vanillajsguides.com/accessible-components/">Click here to learn more.</a></mark></em></p>
+            start: 20220606
+            end: 20220703
 
 
 
@@ -273,7 +285,8 @@ guideBuy:
             end: 20220605
 
 guidesAll:
-    message: <p><mark>🔥 <em><strong>Hot Off the Press!</strong> Dig into new guides on <a href="/service-workers">service workers</a>, <a href="/token-based-authentication/">token-based authentication</a>, or <a href="/serverless/">serverless</a>. You can also level-up with the new <a href="/expert-bundle/">expert bundle</a>.</em></mark></p>
+    # message: <p><mark>🔥 <em><strong>Hot Off the Press!</strong> Dig into new guides on <a href="/service-workers">service workers</a>, <a href="/token-based-authentication/">token-based authentication</a>, or <a href="/serverless/">serverless</a>. You can also level-up with the new <a href="/expert-bundle/">expert bundle</a>.</em></mark></p>
+    message: <p><mark>🚀 <em><strong>New Course!</strong> Learn how to build <a href="/accessible-components/">accessible interactive components</a> with vanilla JS and level-up your developer game. <a href="/accessible-components/">Click here to learn more.</a></em></mark></p>
     limited:
         # 0:
         #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $436 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
