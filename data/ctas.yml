@@ -78,23 +78,23 @@ ckPost:
         0:
             message: <p>Cheers,<br>Chris</p>
             start: 20220606
-            end: 20220612
+            end: 20220618
 
 sponsorPre:
     message: ""
     limited:
         0:
-            message: ""
-            start: 20220203
-            end: 20220210
+            message: <p><em>Today’s newsletter is sponsored by Developer Nation, who are hosting the 23rd edition of <a href="https://www.developereconomics.net/?member_id=gomakethings">their Developer Nation survey</a>. More on that later.</em></p>
+            start: 20220613
+            end: 202200618
 
 sponsorPost:
     message: ""
     limited:
         0:
-            message: ""
-            start: 20220203
-            end: 20220210
+            message: <p><em><strong>A note from this week's sponsor:</strong> Did you know that JavaScript remains the most popular programming language for the tenth survey in a row, with close to 17.5M developers worldwide using it? <a href="https://www.developereconomics.net/?member_id=gomakethings">Take the Developer Nation survey</a>, share your views on the best programming languages, tools or platforms for 2022 and shape the future of the Developer Ecosystem. You will get a virtual goody bag with free resources, discount codes, vouchers and reports with data and insights! Plus a chance to win an iPhone 13, a Samsung Galaxy S22, Nintendo switch, Amazon vouchers and many more. What do you say? <a href="https://www.developereconomics.net/?member_id=gomakethings">Start here!</a></em></p>
+            start: 20220613
+            end: 202200618
 
 rss:
     message: ""
