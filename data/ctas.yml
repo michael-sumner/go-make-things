@@ -181,7 +181,7 @@ funnel:
         #     start: 20220605
         #     end: 20220605
         0:
-            message: <p><mark>🎉 <em><strong>New Courses!</strong> Dig into new guides on <a href="https://vanillajsguides.com/accessible-components/">web accessibility</a> and <a href="https://vanillajsguides.com/web-components/">creating custom web components</a>. Get both with the <a href="/expert-bundle/">expert bundle</a> and save big.</em></mark></p>
+            message: <p><mark>🎉 <em><strong>New Courses!</strong> Dig into new guides on <a href="https://vanillajsguides.com/accessible-components/">web accessibility</a> and <a href="https://vanillajsguides.com/web-components/">creating custom web components</a>. Get both with the <a href="https://vanillajsguides.com/expert-bundle/">expert bundle</a> and save big.</em></mark></p>
             start: 20220606
             end: 20220625
         1:
@@ -285,7 +285,7 @@ guideBuy:
             end: 20220605
 
 guidesAll:
-    message: <p><mark>🎉 <em><strong>New Courses!</strong> Dig into new guides on <a href="https://vanillajsguides.com/accessible-components/">web accessibility</a> and <a href="https://vanillajsguides.com/web-components/">creating custom web components</a>. Get both with the <a href="/expert-bundle/">expert bundle</a> and save big.</em></mark></p>
+    message: <p><mark>🎉 <em><strong>New Courses!</strong> Dig into new guides on <a href="https://vanillajsguides.com/accessible-components/">web accessibility</a> and <a href="https://vanillajsguides.com/web-components/">creating custom web components</a>. Get both with the <a href="https://vanillajsguides.com/expert-bundle/">expert bundle</a> and save big.</em></mark></p>
     # message: <p><mark>🚀 <em><strong>New Course!</strong> Learn how to build <a href="/accessible-components/">accessible interactive components</a> with vanilla JS and level-up your developer game. <a href="/accessible-components/">Click here to learn more.</a></em></mark></p>
     limited:
         # 0:
