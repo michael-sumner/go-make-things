@@ -67,12 +67,12 @@ guides:
     both: "$99"
 
 guidesComplete:
-    ebook: "<del>$686</del>&nbsp;$412"
-    video: "<del>$1,316</del>&nbsp;$789"
-    both: "<del>$1,386</del>&nbsp;$832"
-    ebookMonthly: "$160"
-    videoMonthly: "$307"
-    bothMonthly: "$324"
+    ebook: "<del>$735</del>&nbsp;$441"
+    video: "<del>$1,410</del>&nbsp;$846"
+    both: "<del>$1,485</del>&nbsp;$891"
+    ebookMonthly: "$172"
+    videoMonthly: "$329"
+    bothMonthly: "$347"
 
 guidesBeginner:
     ebook: "<del>$245</del>&nbsp;$172"
@@ -91,12 +91,12 @@ guidesAdvanced:
     bothMonthly: "$134"
 
 guidesExpert:
-    ebook: "<del>$196</del>&nbsp;$137"
-    video: "<del>$376</del>&nbsp;$264"
-    both: "<del>$396</del>&nbsp;$277"
-    ebookMonthly: "$54"
-    videoMonthly: "$103"
-    bothMonthly: "$108"
+    ebook: "<del>$245</del>&nbsp;$172"
+    video: "<del>$470</del>&nbsp;$329"
+    both: "<del>$495</del>&nbsp;$347"
+    ebookMonthly: "$67"
+    videoMonthly: "$129"
+    bothMonthly: "$134"
 
 
 ##
