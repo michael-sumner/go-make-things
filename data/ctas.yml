@@ -84,17 +84,33 @@ sponsorPre:
     message: ""
     limited:
         0:
-            message: <p><em>Today’s newsletter is sponsored by Developer Nation, who are hosting the 23rd edition of <a href="https://www.developereconomics.net/?member_id=gomakethings">their Developer Nation survey</a>. More on that later.</em></p>
-            start: 20220613
-            end: 202200618
+            message: <p><em>Today’s newsletter is sponsored by <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=june20&utm_content=v1">1Password Developer Tools</a>, a better way to secure credentials in your development workflows. More on that later.</em></p>
+            start: 20220620
+            end: 202200621
+        1:
+            message: <p><em>Today’s newsletter is sponsored by <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=dev-adoption-june20&utm_content=v2">1Password Developer Tools</a>, a solution to simplify and secure your development workflows starting with SSH and git. More on that later.</em></p>
+            start: 20220622
+            end: 202200623
+        2:
+            message: <p><em>Today’s newsletter is sponsored by <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=dev-adoption-june20&utm_content=v3">1Password Developer Tools</a>, a better way to secure your secrets. More on that later.</em></p>
+            start: 20220624
+            end: 202200624
 
 sponsorPost:
     message: ""
     limited:
         0:
-            message: <p><em><strong>A note from this week's sponsor:</strong> Did you know that JavaScript remains the most popular programming language for the tenth survey in a row, with close to 17.5M developers worldwide using it? <a href="https://www.developereconomics.net/?member_id=gomakethings">Take the Developer Nation survey</a>, share your views on the best programming languages, tools or platforms for 2022 and shape the future of the Developer Ecosystem. You will get a virtual goody bag with free resources, discount codes, vouchers and reports with data and insights! Plus a chance to win an iPhone 13, a Samsung Galaxy S22, Nintendo switch, Amazon vouchers and many more. What do you say? <a href="https://www.developereconomics.net/?member_id=gomakethings">Start here!</a></em></p>
-            start: 20220613
-            end: 202200618
+            message: <p><em><strong>A note from today's sponsor:</strong> Constantly juggling passwords, keys, and other development credentials can be a serious headache. That’s why we built 1Password Developer Tools. Now you can lock your credentials in encrypted vaults that sync across your devices and access them directly within your terminal with the tap of a fingerprint. Eliminate plaintext secrets in your code, generate and use SSH keys, automate infrastructure secrets in production. <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=dev-adoption-june20&utm_content=v1">Learn more here</a>, and when you’re ready, <a href="https://start.1password.com/sign-up?c=GMT22&utm_source=gomakethings&utm_medium=newsletter&utm_campaign=dev-adoption-june20&utm_content=v1">sign-up for a new account here</a> and get 50% off your first year.</em></p>
+            start: 20220620
+            end: 202200621
+        1:
+            message: <p><em><strong>A note from today's sponsor:</strong> You probably use SSH to push code to GitHub, access servers, and more. So why is it such a pain to set up new keys? Well, fret no longer. You can now easily generate, store, and use SSH Keys directly from 1Password 8 and our built-in SSH agent. That means no more googling ssh-keygen commands or storing unencrypted keys on disc. Securely sync your keys across devices and authenticate git and SSH workflows with your fingerprint. <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=dev-adoption-june20&utm_content=v2">Learn more about 1Password Developer Tools here</a> or <a href="https://start.1password.com/sign-up?c=GMT22&utm_source=gomakethings&utm_medium=newsletter&utm_campaign=dev-adoption-june20&utm_content=v2">sign up for an account here</a> to get 50% off your first year</em></p>
+            start: 20220622
+            end: 202200623
+        2:
+            message: <p><em><strong>A note from today's sponsor:</strong> If you’re like most developers, you have a lot of secrets you don’t want getting out... As in keys, tokens, and other credentials. That’s why we built 1Password Developer Tools. Eliminate plaintext secrets in your code and secure them in vaults that sync across devices. Then access your secrets within your development tools with the tap of a finger, or even automate in production. <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=dev-adoption-june20&utm_content=v3">Learn more here</a>, and when you’re ready, <a href="https://start.1password.com/sign-up?c=GMT22&utm_source=gomakethings&utm_medium=newsletter&utm_campaign=dev-adoption-june20&utm_content=v3">sign-up for a new account here</a> and get 50% off your first year.</em></p>
+            start: 20220624
+            end: 202200624
 
 rss:
     message: ""
