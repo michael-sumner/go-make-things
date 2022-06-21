@@ -66,7 +66,7 @@ ckPost:
         0:
             message: <p>Cheers,<br>Chris</p>
             start: 20220606
-            end: 20220618
+            end: 20220625
         1:
             message: <p><em><strong>Join the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>!</strong> A new session starts on July 18. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></p><p>Cheers,<br>Chris</p>
             start: 20220704
