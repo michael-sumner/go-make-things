@@ -132,12 +132,9 @@ Don't put off building a kick-ass career! If you're not 100% satisfied with the 
 ## About the Author
 
 <div class="clearfix">
-	<p><img src="/img/chris-ferdinandi-high-res.jpg" alt="Chris Ferdinandi" width="175" height="175" class="img-circle alignleft"></p>
-
+	<img src="/img/chris-ferdinandi-high-res.jpg" alt="Chris Ferdinandi" width="175" height="175" class="img-circle img-left margin-bottom">
 	<p>Hi, I'm Chris Ferdinandi. I'm a former HR guy turned front-end web developer.</p>
-
 	<p>As an HR pro, I used to teach engineers and developers how to find new jobs and grow their careers. A few years ago, I used my own advice to change careers, become a front-end developer, and grow my salary by 44.8%.</p>
-
 	<p>I want to share my inside knowledge to help you stay relevant, hack the hiring process, and make more money.</p>
 </div>
 

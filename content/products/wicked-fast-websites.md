@@ -113,12 +113,9 @@ Don't put off building insanely fast WordPress sites! If you're not 100% satisfi
 ## About the Author
 
 <div class="clearfix">
-	<p><img src="/img/chris-ferdinandi-high-res.jpg" alt="Chris Ferdinandi" width="175" height="175" class="img-circle alignleft"></p>
-
+	<img src="/img/chris-ferdinandi-high-res.jpg" alt="Chris Ferdinandi" width="175" height="175" class="img-circle img-left margin-bottom">
 	<p>Hi, I'm Chris Ferdinandi.</p>
-
 	<p>I’m a WordPress developer, consultant, and speaker. I’ve taught thousands of people how to improve the performance of their WordPress sites through my free articles and at WordPress events.</p>
-
 	<p>I want to help you build insanely fast WordPress sites.</p>
 </div>
 

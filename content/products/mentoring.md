@@ -42,13 +42,7 @@ In addition to our weekly calls and private messaging, you’ll receive these bo
 Don’t put off getting the help you need to master vanilla JavaScript! If you're not happy for any reason after our first call, just let me know and I’ll give you a full refund.
 
 
-## About the Mentor
-
-<div class="clearfix margin-bottom"><img src="/img/chris-ferdinandi-high-res.jpg" alt="Chris Ferdinandi" width="175" height="175" class="img-circle alignleft margin-bottom">
-
-Hi, I’m Chris Ferdinandi. I write vanilla JavaScript plugins that are used by organizations like Apple, Harvard Business School, and CNN.
-
-I want to help you master vanilla JavaScript, without all of the painful false starts and roadblocks I encountered when I was learning</div>
+{{<cta for="bio">}}
 
 
 <div class="callout" id="ready-to-buy">

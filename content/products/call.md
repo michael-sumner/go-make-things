@@ -52,9 +52,9 @@ In addition to our call, you’ll receive these bonus materials valued at $436.
 
 Don’t put off getting the help you need to master vanilla JavaScript! If at the end of our call you feel you have not gotten your money’s worth, just let me know and I’ll refund your payment in full.
 
-## About the Coach
 
 {{<cta for="bio">}}
+
 
 <div class="callout" id="ready-to-buy">
 	<h2>Ready to book your call?</h2>

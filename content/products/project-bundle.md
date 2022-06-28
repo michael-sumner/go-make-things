@@ -46,8 +46,6 @@ There are two ways you can approach this project:
 Don’t put off learning vanilla JavaScript! If you’re not 100% satisfied with the project, let me know and I’ll give you a full refund.
 
 
-## About the Instructor
-
 {{<cta for="bio">}}
 
 
