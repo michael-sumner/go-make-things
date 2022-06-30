@@ -104,7 +104,7 @@ sponsorPre:
             start: 20220628
             end: 202200628
         5:
-            message: <p><em>Today’s newsletter is sponsored by <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjune27&utm_content=v3">1Password for VS Code</a>, a new open-source extension to help you eliminate plaintext secrets in your code. More on that later.</em></p>
+            message: <p><em>Today’s newsletter is sponsored by <a href="https://blog.1password.com/1password-visual-studio-code/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjune27&utm_content=v3">1Password for VS Code</a>, a new open-source extension to help you eliminate plaintext secrets in your code. More on that later.</em></p>
             start: 20220629
             end: 202200701
 
