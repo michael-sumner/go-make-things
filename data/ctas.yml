@@ -86,27 +86,27 @@ sponsorPre:
         0:
             message: <p><em>Today’s newsletter is sponsored by <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=june20&utm_content=v1">1Password Developer Tools</a>, a better way to secure credentials in your development workflows. More on that later.</em></p>
             start: 20220620
-            end: 202200621
+            end: 20220621
         1:
             message: <p><em>Today’s newsletter is sponsored by <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=dev-adoption-june20&utm_content=v2">1Password Developer Tools</a>, a solution to simplify and secure your development workflows starting with SSH and git. More on that later.</em></p>
             start: 20220622
-            end: 202200623
+            end: 20220623
         2:
             message: <p><em>Today’s newsletter is sponsored by <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=dev-adoption-june20&utm_content=v3">1Password Developer Tools</a>, a better way to secure your secrets. More on that later.</em></p>
             start: 20220624
-            end: 202200624
+            end: 20220624
         3:
             message: <p><em>Today’s newsletter is sponsored by <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjune27&utm_content=v1">1Password Developer Tools</a>, a better way to make sure your development secrets stay secret. More on that later.</em></p>
             start: 20220627
-            end: 202200627
+            end: 20220627
         4:
             message: <p><em>Today’s newsletter is sponsored by <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjune27&utm_content=v2">1Password Developer Tools</a>, a solution to simplify and secure your development workflows starting with SSH and git. More on that later.</em></p>
             start: 20220628
-            end: 202200628
+            end: 20220628
         5:
             message: <p><em>Today’s newsletter is sponsored by <a href="https://blog.1password.com/1password-visual-studio-code/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjune27&utm_content=v3">1Password for VS Code</a>, a new open-source extension to help you eliminate plaintext secrets in your code. More on that later.</em></p>
             start: 20220629
-            end: 202200701
+            end: 20220701
 
 sponsorPost:
     message: ""
