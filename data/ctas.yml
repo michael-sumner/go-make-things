@@ -114,27 +114,27 @@ sponsorPost:
         0:
             message: <p><em><strong>A note from today's sponsor:</strong> Constantly juggling passwords, keys, and other development credentials can be a serious headache. That’s why we built 1Password Developer Tools. Now you can lock your credentials in encrypted vaults that sync across your devices and access them directly within your terminal with the tap of a fingerprint. Eliminate plaintext secrets in your code, generate and use SSH keys, automate infrastructure secrets in production. <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=dev-adoption-june20&utm_content=v1">Learn more here</a>, and when you’re ready, <a href="https://start.1password.com/sign-up?c=GMT22&utm_source=gomakethings&utm_medium=newsletter&utm_campaign=dev-adoption-june20&utm_content=v1">sign-up for a new account here</a> and get 50% off your first year.</em></p>
             start: 20220620
-            end: 202200621
+            end: 20220621
         1:
             message: <p><em><strong>A note from today's sponsor:</strong> You probably use SSH to push code to GitHub, access servers, and more. So why is it such a pain to set up new keys? Well, fret no longer. You can now easily generate, store, and use SSH Keys directly from 1Password 8 and our built-in SSH agent. That means no more googling ssh-keygen commands or storing unencrypted keys on disc. Securely sync your keys across devices and authenticate git and SSH workflows with your fingerprint. <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=dev-adoption-june20&utm_content=v2">Learn more about 1Password Developer Tools here</a> or <a href="https://start.1password.com/sign-up?c=GMT22&utm_source=gomakethings&utm_medium=newsletter&utm_campaign=dev-adoption-june20&utm_content=v2">sign up for an account here</a> to get 50% off your first year</em></p>
             start: 20220622
-            end: 202200623
+            end: 20220623
         2:
             message: <p><em><strong>A note from today's sponsor:</strong> If you’re like most developers, you have a lot of secrets you don’t want getting out... As in keys, tokens, and other credentials. That’s why we built 1Password Developer Tools. Eliminate plaintext secrets in your code and secure them in vaults that sync across devices. Then access your secrets within your development tools with the tap of a finger, or even automate in production. <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=dev-adoption-june20&utm_content=v3">Learn more here</a>, and when you’re ready, <a href="https://start.1password.com/sign-up?c=GMT22&utm_source=gomakethings&utm_medium=newsletter&utm_campaign=dev-adoption-june20&utm_content=v3">sign-up for a new account here</a> and get 50% off your first year.</em></p>
             start: 20220624
-            end: 202200624
+            end: 20220624
         3:
             message: <p><em><strong>A note from today's sponsor:</strong> If you’re like most developers, you have a lot of secrets you don’t want getting out… As in SSH keys, tokens, and other credentials. That’s why we built 1Password Developer Tools. Eliminate plaintext secrets in your code and secure them in vaults that sync across devices. Then access your secrets within your development tools with the tap of a finger, or even automate in production. <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjune27&utm_content=v1">Learn more and get started here.</a></em></p>
             start: 20220627
-            end: 202200627
+            end: 20220627
         4:
             message: <p><em><strong>A note from today's sponsor:</strong> You probably use SSH to push code to GitHub, access servers, and more. So why is it such a pain to set up new keys? Well, fret no longer. You can now easily generate, store, and use SSH Keys directly from 1Password 8 and our built-in SSH agent. That means no more googling ssh-keygen commands or storing unencrypted keys on disc. Securely sync your keys across devices and authenticate git and SSH workflows with your fingerprint. <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjune27&utm_content=v2">Learn more.</a></em></p>
             start: 20220628
-            end: 202200628
+            end: 20220628
         5:
             message: <p><em><strong>A note from today's sponsor:</strong> Hardcoding API keys and secrets into your source code or storing them in plaintext files may be convenient, but it isn't secure. Well, now you can work faster AND say goodbye to plaintext secrets for good. With 1Password for VS Code, automatically detect secrets in your files, save them to 1Password with a click, and replace them with secret references that resolve at runtime. <a href="https://blog.1password.com/1password-visual-studio-code/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjune27&utm_content=v3">Learn more and get the extension here.</a></em></p>
             start: 20220629
-            end: 202200701
+            end: 20220701
 
 rss:
     message: ""
