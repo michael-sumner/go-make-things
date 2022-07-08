@@ -146,7 +146,7 @@ let calculator = {
 	multiply: function (...nums) {},
 	divide: function (...nums) {},
 };
-````
+```
 
 One advantage of the _revealing module pattern_ is that you can include functions and variables that are _private_, and cannot be accessed or used outside of the library.
 
