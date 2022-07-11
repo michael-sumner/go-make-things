@@ -48,7 +48,7 @@ There's a _lot_ to unpack in this short quote.
 
 Frameworks aren't bad. And many people who build with frameworks _do_ know the fundamentals. A lot of folks also use libraries and frameworks to learn, and then back into fundamentals. For someone who's learning, if a framework helps you go from idea to "oh wow I built a thing!" faster, that's great!
 
-But, yes, people who know the fundamentals _do_ build terrible software. 
+But, yes, people who don't know the fundamentals _do_ build terrible software. 
 
 (_They're not bad people, though. That's absurd._)
 
