@@ -1,5 +1,5 @@
 ---
-title: The vanilla js constructor pattern
+title: The vanilla JS constructor pattern
 date: 2022-07-08T10:30:00-04:00
 draft: false
 categories:
