@@ -9,7 +9,7 @@ categories:
 
 This week, we've been looking at ways to build vanilla JS libraries based on [my newly updated course on the topic](https://vanillajsguides.com/writing-js-libraries/).
 
-Yesterday, we looked at [the revealing module pattern](the-vanilla-js-revealing-module-pattern/). Today, we're going to learn about the constructor pattern. 
+Yesterday, we looked at [the revealing module pattern](/the-vanilla-js-revealing-module-pattern/). Today, we're going to learn about the constructor pattern. 
 
 Let's dig in!
 
