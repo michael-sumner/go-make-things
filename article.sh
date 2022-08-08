@@ -1,7 +1,12 @@
 YEAR=`date +"%Y"`
-TODAY=`date +"%Y-%m-%d"`
 
-NEWARTICLE=`hugo new articles/${YEAR}/${TODAY}-$1.md`
+if [ -z $2 ]; then
+	DAY=`date +"%Y-%m-%d"`
+else
+	DAY=`date -v+$2d +"%Y-%m-%d"`
+fi
+
+NEWARTICLE=`hugo new articles/${YEAR}/${DAY}-$1.md`
 GETPATH=${NEWARTICLE% created}
 
 echo ${NEWARTICLE}
