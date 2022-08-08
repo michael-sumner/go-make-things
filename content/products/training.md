@@ -6,7 +6,7 @@ noTitle: true
 ---
 
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">JavaScript Training for Teams</h1>
-<p class="text-xlarge margin-bottom-small text-serif">Level-up your team's core JavaScript skills.</p><p></p>
+<p class="text-xlarge margin-bottom-small text-serif">Level-up your team's core JavaScript skills.</p>
 
 <p><span class="text-large">Project-based courses and workshops designed to fit around your team's schedule. Perfect for remote and distributed teams.</span></p>
 

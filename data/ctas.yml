@@ -87,26 +87,6 @@ sponsorPre:
             message: <p><em>Today’s newsletter is sponsored by <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly11&utm_content=v1">1Password Developer Tools</a>, a better way to secure secrets in your development workflows. More on that later.</em></p>
             start: 20220711
             end: 20220712
-        1:
-            message: <p><em>Today’s newsletter is sponsored by <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly11&utm_content=v2">1Password Developer Tools</a>. Simplify how you secure your development workflows starting with SSH and git. More on that later.</em></p>
-            start: 20220713
-            end: 20220713
-        2:
-            message: <p><em>Today's newsletter is sponsored by <a href="https://developer.1password.com/docs/vscode/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly11&utm_content=v3">1Password for VS Code</a>, an open-source extension to help you say goodbye to plaintext secrets in your code. More on that later.</em></p>
-            start: 20220714
-            end: 20220715
-        3:
-            message: <p><em>Today’s newsletter is sponsored by <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly25&utm_content=v1">1Password Developer Tools</a>, a better way to secure secrets in your development workflows. More on that later.</em></p>
-            start: 20220725
-            end: 20220726
-        4:
-            message: <p><em>Today’s newsletter is sponsored by <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly25&utm_content=v2">1Password Developer Tools</a>. Simplify how you secure your development workflows starting with SSH and git. More on that later.</em></p>
-            start: 20220727
-            end: 20220727
-        5:
-            message: <p><em>Today's newsletter is sponsored by <a href="https://developer.1password.com/docs/vscode/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly25&utm_content=v3">1Password for VS Code</a>, an open-source extension to help you say goodbye to plaintext secrets in your code. More on that later.</em></p>
-            start: 20220728
-            end: 20220729
 
 sponsorPost:
     message: ""
@@ -115,26 +95,6 @@ sponsorPost:
             message: <p><em><strong>A note from today's sponsor:</strong> From your first line of code to production, <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly11&utm_content=v1">1Password Developer Tools</a> can help streamline how you manage infrastructure secrets, keys, and credentials throughout the entire software development life cycle. Access credentials directly in your IDE, create and use SSH keys in seconds, log into dev tools with a fingerprint, automate secrets in production, and more.</em></p>
             start: 20220711
             end: 20220712
-        1:
-            message: <p><em><strong>A note from today's sponsor:</strong> You probably use SSH to push code to GitHub, access servers, and more. So why is it such a pain to set up new keys? Well, fret no longer. You can now quickly generate, store, and use SSH Keys directly from 1Password 8 and our built-in SSH agent. That means no more googling ssh-keygen commands or storing unencrypted keys on disc. Securely sync your keys across devices and authenticate git and SSH workflows with your fingerprint. <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly11&utm_content=v2">Learn more.</a></em></p>
-            start: 20220713
-            end: 20220713
-        2:
-            message: <p><em><strong>A note from today's sponsor:</strong> Have you ever pushed code to GitHub without removing hard-coded keys? Per the ever-growing list of breaches that happen because of secrets found in repositories, it's not a great idea. Well, now you can work faster AND say goodbye to plaintext secrets in your code with <a href="https://developer.1password.com/docs/vscode/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly11&utm_content=v3">1Password's extension for VS Code</a>. Automatically detect secrets in your files, save them to 1Password with a click, then replace them with references that resolve at runtime. Get started with a free trial.</em></p>
-            start: 20220714
-            end: 20220715
-        3:
-            message: <p><em><strong>A note from today's sponsor:</strong> From your first line of code to production, <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly25&utm_content=v1">1Password Developer Tools</a> can help streamline how you manage infrastructure secrets, keys, and credentials throughout the entire software development life cycle. Access credentials directly in your IDE, create and use SSH keys in seconds, log into dev tools with a fingerprint, automate secrets in production, and more.</em></p>
-            start: 20220725
-            end: 20220726
-        4:
-            message: <p><em><strong>A note from today's sponsor:</strong> You probably use SSH to push code to GitHub, access servers, and more. So why is it such a pain to set up new keys? Well, fret no longer. You can now quickly generate, store, and use SSH Keys directly from 1Password 8 and our built-in SSH agent. That means no more googling ssh-keygen commands or storing unencrypted keys on disc. Securely sync your keys across devices and authenticate git and SSH workflows with your fingerprint. <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly25&utm_content=v2">Learn more.</a></em></p>
-            start: 20220727
-            end: 20220727
-        5:
-            message: <p><em><strong>A note from today's sponsor:</strong> Have you ever pushed code to GitHub without removing hard-coded keys? Per the ever-growing list of breaches that happen because of secrets found in repositories, it's not a great idea. Well, now you can work faster AND say goodbye to plaintext secrets in your code with <a href="https://developer.1password.com/docs/vscode/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly25&utm_content=v3">1Password's extension for VS Code</a>. Automatically detect secrets in your files, save them to 1Password with a click, then replace them with references that resolve at runtime. Get started with a free trial.</em></p>
-            start: 20220728
-            end: 20220729
 
 rss:
     message: ""
@@ -490,4 +450,4 @@ bioShort:
 
 # Products
 products:
-    message: <ul class="list-spaced list-spaced-small"><li><strong><a href="https://gomakethings.com/articles/">Daily Developer Tips.</a></strong> I send out a short email each weekday with code snippets, techniques, and ideas on how to build a simpler, more resilient web.</li><li><strong><a href="https://vanillajsprojects.com">Projects.</a></strong> Each self-paced project includes a few short lessons and a template to get you started. Complete it on your own or code along with me.</li><li><strong><a href="https://vanillajsguides.com/">Courses &amp; Books.</a></strong> Short, focused video courses and ebooks made for beginners. Learn the ins-and-outs of a topic in about an hour.</li><li><strong><a href="https://vanillajsacademy.com/">Online Workshops.</a></strong> Work on fun projects, follow a structured learning path, and get the support you need to work through challenges.</li><li><strong><a href="https://gomakethings.com/training/">Team Training.</a></strong> Level-up your team's core JavaScript skills through a mix of self-paced learning, project-based workshops, and open Q&amp;A&nbsp;sessions.</li><li><strong><a href="https://gomakethings.com/consulting/">JavaScript Consulting.</a></strong> Minimize your risk on critical projects and avoid costly delays caused by common mistakes with unlimited access to a JavaScript&nbsp;expert.</li></ul><p>I also maintain a <a href="https://vanillajstoolkit.com">JavaScript toolkit</a> and <a href="https://vanillajspodcast.com">host a podcast</a>. I offer <a href="https://gomakethings.com/call">1-on-1 coaching calls</a> and <a href="https://gomakethings.com/talks">speak at events</a>.</p><p><strong>Can’t find what you’re looking for?</strong> Email me directly at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a>.</p>
+    message: <ul class="list-spaced list-spaced-small"><li><strong><a href="https://gomakethings.com/articles/">Daily Developer Tips.</a></strong> I send out a short email each weekday with code snippets, techniques, and ideas on how to build a simpler, more resilient web.</li><li><strong><a href="https://vanillajsprojects.com">Projects.</a></strong> Each self-paced project includes a few short lessons and a template to get you started. Complete it on your own or code along with me.</li><li><strong><a href="https://vanillajsguides.com/">Courses &amp; Books.</a></strong> Short, focused video courses and ebooks made for beginners. Learn the ins-and-outs of a topic in about an hour.</li><li><strong><a href="https://vanillajsacademy.com/">Online Workshops.</a></strong> Work on fun projects, follow a structured learning path, and get the support you need to work through challenges.</li><li><strong><a href="https://gomakethings.com/consulting/">JavaScript Consulting.</a></strong> Minimize your risk on critical projects and avoid costly delays caused by common mistakes with unlimited access to a JavaScript&nbsp;expert.</li></ul><p>I also maintain a <a href="https://vanillajstoolkit.com">JavaScript toolkit</a> and <a href="https://vanillajspodcast.com">host a podcast</a>. I offer <a href="https://gomakethings.com/call">1-on-1 coaching calls</a> and <a href="https://gomakethings.com/talks">speak at events</a>.</p><p><strong>Can’t find what you’re looking for?</strong> Email me directly at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a>.</p>
