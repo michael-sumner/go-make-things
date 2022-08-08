@@ -3,9 +3,9 @@
 {{- $data := $.Site.Data.upsells -}}
 
 {{- if eq $index 1 -}}
-	{{ $data.question }}
+	{{ $data.questionRSS }}
 {{- else if eq $index 2 -}}
-	{{ $data.share }}
+	{{ $data.shareRSS }}
 {{- else if eq $index 3 -}}
 	{{ $data.guides }}
 {{- else if eq $index 4 -}}

@@ -97,7 +97,7 @@ sponsorPost:
             end: 20220712
 
 rss:
-    message: ""
+    message: "{{ upsells_rss }}"
     limited:
         # 0:
         #     message: <p>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts.</em></p>
