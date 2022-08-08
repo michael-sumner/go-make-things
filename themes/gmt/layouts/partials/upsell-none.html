@@ -1,0 +1,16 @@
+{{- $num := 5 -}}
+{{- $index := (mod (math.Floor (div (add now.YearDay 7) 7)) $num) -}}
+{{- $data := $.Site.Data.upsells -}}
+
+{{- if eq $index 1 -}}
+	{{ $data.question }}
+{{- else if eq $index 2 -}}
+	{{ $data.share }}
+{{- else if eq $index 3 -}}
+	{{ $data.guides }}
+{{- else if eq $index 4 -}}
+	{{ $data.academy }}
+{{- else -}}
+	{{ $data.projects }}
+{{- end -}}
+{{ .Site.Data.upsells | jsonify }}

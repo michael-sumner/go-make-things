@@ -14,11 +14,12 @@
 {{- if ge ( int ( strings.TrimLeft "0" (dateFormat "0102" now) ) ) 1115 -}}
 	{{- $.Scratch.Set "year" ( add (int (dateFormat "2006" now)) 1 ) -}}
 {{- end -}}
+{{- $.Scratch.Set "upsells" (partial "upsells.html" .) -}}
 
 {{- range $index, $cta := .Site.Data.ctas -}}
 	{{- $.Scratch.Set "name" (humanize $index | replaceRE " " "-" | lower) -}}
 	{{- if ne (index $cta "message") "" -}}
-		{{- $.Scratch.SetInMap "ctas" ($.Scratch.Get "name") (replace (replace (safeHTML (index $cta "message")) "{{ck_subs}}" ($.Scratch.Get "cksubs")) "{{year}}" ($.Scratch.Get "year")) -}}
+		{{- $.Scratch.SetInMap "ctas" ($.Scratch.Get "name") (replace (replace (replace (safeHTML (index $cta "message")) "{{ck_subs}}" ($.Scratch.Get "cksubs")) "{{year}}" ($.Scratch.Get "year")) "{{upsells}}" ($.Scratch.Get "upsells")) -}}
 	{{- end -}}
 	{{- if isset $cta "limited" -}}
 		{{- range $limited := (index $cta "limited") -}}

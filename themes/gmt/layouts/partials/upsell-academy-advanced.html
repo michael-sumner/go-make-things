@@ -1,0 +1,11 @@
+{{- $num := 3 -}}
+{{- $index := (mod (math.Floor (div (add now.YearDay 7) 7)) $num) -}}
+{{- $data :=  $.Site.Data.upsells -}}
+
+{{- if eq $index 1 -}}
+	{{ $data.question }}
+{{- else if eq $index 2 -}}
+	{{ $data.share }}
+{{- else -}}
+	{{ $data.projectsPurchased }}
+{{- end -}}
