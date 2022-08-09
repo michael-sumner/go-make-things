@@ -3,11 +3,11 @@
 {{- $data := $.Site.Data.upsells -}}
 
 {{- if eq $index 1 -}}
-	{{ $data.question }}
+	{{ $data.question | safeHTML }}
 {{- else if eq $index 2 -}}
-	{{ $data.share }}
+	{{ $data.share | safeHTML }}
 {{- else if eq $index 3 -}}
-	{{ $data.guidesBundle }}
+	{{ $data.guidesBundle | safeHTML }}
 {{- else -}}
-	{{ $data.projectsPurchased }}
+	{{ $data.projectsPurchased | safeHTML }}
 {{- end -}}

@@ -3,7 +3,7 @@
 {{- $data :=  $.Site.Data.upsells -}}
 
 {{- if eq $index 1 -}}
-	{{ $data.question }}
+	{{ $data.question | safeHTML }}
 {{- else -}}
-	{{ $data.share }}
+	{{ $data.share | safeHTML }}
 {{- end -}}

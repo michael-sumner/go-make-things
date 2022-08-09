@@ -3,13 +3,13 @@
 {{- $data := $.Site.Data.upsells -}}
 
 {{- if eq $index 1 -}}
-	{{ $data.questionRSS }}
+	{{ $data.questionRSS | safeHTML }}
 {{- else if eq $index 2 -}}
-	{{ $data.shareRSS }}
+	{{ $data.shareRSS | safeHTML }}
 {{- else if eq $index 3 -}}
-	{{ $data.guides }}
+	{{ $data.guides | safeHTML }}
 {{- else if eq $index 4 -}}
-	{{ $data.academy }}
+	{{ $data.academy | safeHTML }}
 {{- else -}}
-	{{ $data.projects }}
+	{{ $data.projects | safeHTML }}
 {{- end -}}
