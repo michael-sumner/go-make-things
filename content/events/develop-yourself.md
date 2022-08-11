@@ -39,6 +39,8 @@ I've put together a _ton_ of resources to help you further your career.
 
 ### On careers...
 
+- [Being a developer with ADHD](/being-a-developer-with-adhd/)
+- [Do I have ADHD?](/do-i-have-adhd/)
 - [Race, careers, and privilege](/race-careers-and-privilege/)
 - [Network with as many people as possible and teach what you know](/network-with-as-many-people-as-possible-and-teach-what-you-know/)
 - [How do you know when you're ready to apply for your first web developer job?](/how-do-you-know-when-youre-ready-to-apply-for-your-first-web-developer-job/)
