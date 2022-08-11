@@ -10,7 +10,7 @@ academy: <strong>The <a href="https://vanillajsacademy.com">Vanilla JS Academy</
 
 academyAdvanced: <strong><a href="https://vanillajsacademy.com/advanced/">Structure & Scale</a> is a new workshop focused on structuring code for scale and growth.</strong> <a href="https://vanillajsacademy.com/advanced/">Click here to learn more.</a>
 
-guides: "<strong>Want to really dig in to topics like this?</strong> Check out my <a href=\"https://vanillajsguides.com\">Vanilla JS Pocket Guides</a>&mdash;short, focused ebooks and video courses made for beginners. Let's make {{ "now" | date: "%Y" }} the year you master JavaScript!"
+guides: <strong>Want to really dig in to topics like this?</strong> Check out my <a href="https://vanillajsguides.com">Vanilla JS Pocket Guides</a>&mdash;short, focused ebooks and video courses made for beginners. Let's make this the year you master JavaScript!
 
 guidesBundle: <strong>Ready to dig into more vanilla JS topics?</strong> Save big with a <a href="https://vanillajsguides.com#bundles">Vanilla JS Pocket Guides Bundle</a>. You can take an extra 30% off with the code <code>UPGRADE</code> at checkout.
 
