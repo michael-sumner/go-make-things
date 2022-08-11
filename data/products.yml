@@ -38,26 +38,6 @@ academy:
 
 
 ##
-## Academy Extra Credit
-##
-
-extraCredit:
-    essentials: "66577_1"
-    price: "<del>$139</del> $99"
-
-
-
-##
-## Projects
-##
-
-projects:
-    id: 62522
-    price: "FREE"
-
-
-
-##
 ## Pocket Guides
 ##
 
@@ -97,6 +77,36 @@ guidesExpert:
     ebookMonthly: "$67"
     videoMonthly: "$129"
     bothMonthly: "$134"
+
+guidesTooling:
+    ebook: "<del>$196</del>&nbsp;$137"
+    video: "<del>$376</del>&nbsp;$263"
+    both: "<del>$396</del>&nbsp;$277"
+    ebookMonthly: "$53"
+    videoMonthly: "$102"
+    bothMonthly: "$108"
+
+
+
+
+##
+## Academy Extra Credit
+##
+
+extraCredit:
+    essentials: "66577_1"
+    price: "<del>$139</del> $99"
+
+
+
+##
+## Projects
+##
+
+projects:
+    id: 62522
+    price: "FREE"
+
 
 
 ##

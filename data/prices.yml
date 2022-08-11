@@ -104,6 +104,31 @@ guidesExpert:
             start: 20220531
             end: 20220605
 
+guidesDevTooling:
+    limited:
+        1:
+            prices:
+                ebook: "<del>$147</del>&nbsp;$62"
+                video: "<del>$282</del>&nbsp;$118"
+                both: "<del>$297</del>&nbsp;$125"
+                ebookMonthly: "<del>$41</del>&nbsp;$25"
+                videoMonthly: "<del>$77</del>&nbsp;$46"
+                bothMonthly: "<del>$81</del>&nbsp;$49"
+                discount: "HOLIDAY2021"
+            start: 20211220
+            end: 20220103
+        2:
+            prices:
+                ebook: "<del>$147</del>&nbsp;$73"
+                video: "<del>$282</del>&nbsp;$138"
+                both: "<del>$297</del>&nbsp;$145"
+                ebookMonthly: "<del>$41</del>&nbsp;$29"
+                videoMonthly: "<del>$77</del>&nbsp;$54"
+                bothMonthly: "<del>$81</del>&nbsp;$57"
+                discount: "ALMOSTSUMMER"
+            start: 20220531
+            end: 20220605
+
 guidesIndividual:
     limited:
         1:
