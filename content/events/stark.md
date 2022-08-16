@@ -2,7 +2,6 @@
 title: Welcome, Doing Daily listeners!
 date: 2018-01-11T09:40:48-05:00
 draft: false
-aliases: ["/developyourself/"]
 ---
 
 Thanks for listening to me chat with Jonathan about daily newsletter for JavaScript developers.
