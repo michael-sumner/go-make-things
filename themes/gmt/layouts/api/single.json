@@ -20,7 +20,7 @@
 {{- range $index, $cta := .Site.Data.ctas -}}
 	{{- $.Scratch.Set "name" (humanize $index | replaceRE " " "-" | lower) -}}
 	{{- if ne (index $cta "message") "" -}}
-		{{- $.Scratch.SetInMap "ctas" ($.Scratch.Get "name") (replace (replace (replace (replace (safeHTML (index $cta "message")) "{{ck_subs}}" ($.Scratch.Get "cksubs")) "{{year}}" ($.Scratch.Get "year")) "{{upsells}}" ($.Scratch.Get "upsells")) "{{upsells_rss}}" ($.Scratch.Get "upsells-rss")) -}}
+		{{- $.Scratch.SetInMap "ctas" ($.Scratch.Get "name") (replace (replace (replace (replace ($cta.message | safeHTML) "{{ck_subs}}" ($.Scratch.Get "cksubs")) "{{year}}" ($.Scratch.Get "year")) "{{upsells}}" ($.Scratch.Get "upsells")) "{{upsells_rss}}" ($.Scratch.Get "upsells-rss")) -}}
 	{{- end -}}
 	{{- if isset $cta "limited" -}}
 		{{- range $limited := (index $cta "limited") -}}
