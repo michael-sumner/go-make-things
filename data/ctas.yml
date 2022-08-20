@@ -154,7 +154,7 @@ rss:
 # https://learnvanillajs.com/
 # https://leanweb.dev/
 funnel:
-    message: ""
+    message: <p><mark>🙈 <em><strong>Coming Soon!</strong> Pre-order the new <a href="https://vanillajsguides.com/tooling-bundle/">Tooling Bundle</a>, with guides on <a href="https://vanillajsguides.com/terminal/">Terminal</a>, <a href="https://vanillajsguides.com/testing/">Testing Vanilla JS</a>, <a href="https://vanillajsguides.com/build-tools/">Build Tools</a>, and <a href="https://vanillajsguides.com/git/">Git</a>.</em></mark></p>
     limited:
         # 0:
         #     message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $436 in free bonus gifts.</em></mark></p>
@@ -285,7 +285,7 @@ guideBuy:
             end: 20220605
 
 guidesAll:
-    message: <p><mark>🎉 <em><strong>New Courses!</strong> Dig into new guides on <a href="https://vanillajsguides.com/accessible-components/">web accessibility</a> and <a href="https://vanillajsguides.com/web-components/">creating custom web components</a>. Get both with the <a href="https://vanillajsguides.com/expert-bundle/">expert bundle</a> and save big.</em></mark></p>
+    message: <p><mark>🙈 <em><strong>Coming Soon!</strong> Pre-order the new <a href="https://vanillajsguides.com/tooling-bundle/">Tooling Bundle</a>, with guides on <a href="https://vanillajsguides.com/terminal/">Terminal</a>, <a href="https://vanillajsguides.com/testing/">Testing Vanilla JS</a>, <a href="https://vanillajsguides.com/build-tools/">Build Tools</a>, and <a href="https://vanillajsguides.com/git/">Git</a>.</em></mark></p>
     # message: <p><mark>🚀 <em><strong>New Course!</strong> Learn how to build <a href="/accessible-components/">accessible interactive components</a> with vanilla JS and level-up your developer game. <a href="/accessible-components/">Click here to learn more.</a></em></mark></p>
     limited:
         # 0:
