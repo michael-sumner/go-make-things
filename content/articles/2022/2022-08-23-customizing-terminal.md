@@ -7,11 +7,11 @@ categories:
 - Technology
 ---
 
-_I'm wrapping up production on [a new series of courses on developer tooling](https://vanillajsguides.com/tooling-bundle/). The first course on [Terminal](https://vanillajsguides.com/terminal/) should be ready in the next week or two, but you can pre-order it today. This is an excerpt from the guide._
-
 I don't typically start with customizing the UI of apps, but the default Terminal experience is... lacking. The colors are stark, and the font size is far too small for a lot of people.
 
 So to make your experience with the rest of this guide more enjoyable, let's start by adjusting some preferences in Terminal.
+
+_**Note:** I'm wrapping up production on [a new series of courses on developer tooling](https://vanillajsguides.com/tooling-bundle/). The first course on [Terminal](https://vanillajsguides.com/terminal/) should be ready in the next week or two, but you can pre-order it today. This is an excerpt from the guide._
 
 Open the Terminal app, then open up the Preferences menu (under Terminal in the menu bar, or with the `Command + ,` keys on macOS). Then, select the _Profiles_ tab.
 
