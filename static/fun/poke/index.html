@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Catch-a-Creature</title>
+	<title>Catch 'em All!</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -15,10 +15,6 @@
 
 		h1, p {
 			margin-bottom: 1em;
-		}
-
-		h2 {
-			padding-top: 2em;
 		}
 
 		p {
@@ -36,7 +32,7 @@
 			width: 88%;
 		}
 
-		.game body {
+		.game main {
 			background-color: #000000;
 			height: 100vh;
 			max-width: inherit;
@@ -45,7 +41,7 @@
 			width: 100vw;
 		}
 
-		.no-camera body {
+		.no-camera main {
 			background: url(img/forest.jpg);
 			background-size: cover;
 		}
@@ -90,24 +86,18 @@
 			text-align: center;
 		}
 
-		.btn {
+		.nav button {
 			background-color: #0088cc;
 			border: #0088cc;
 			border-radius: 2em;
 			color: #ffffff;
-			display: inline-block;
 			font: inherit;
 			margin: 0;
 			padding: 0.5em 2em;
 			cursor: pointer;
-			text-decoration: none;
 		}
 
-		.btn:hover {
-			background-color: #005580;
-		}
-
-		#nav-home .btn {
+		#nav-home button {
 			margin-bottom: 0.5em;
 		}
 
@@ -115,61 +105,39 @@
 		    pointer-events: none;
 		}
 
-		.creatures {
+		.my-creatures {
 			display: grid;
-			grid-template-columns: repeat(2, 1fr);
-			grid-column-gap: 2em;
-			grid-row-gap: 2em;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr;
+			grid-column-gap: 1em;
+			grid-row-gap: 1em;
 			text-align: center;
 		}
 
 		@media (min-width: 30em) {
-			.creatures {
-				grid-template-columns: repeat(3, 1fr);
+			.my-creatures {
+				grid-template-columns: 1fr 1fr 1fr;
+				grid-template-rows: 1fr 1fr 1fr;
 			}
 		}
 
 		@media (min-width: 40em) {
-			.creatures {
-				grid-template-columns: repeat(4, 1fr);
+			.my-creatures {
+				grid-template-columns: 1fr 1fr 1fr 1fr;
+				grid-template-rows: 1fr 1fr 1fr 1fr;
 			}
 		}
 
-		.creature a {
-			color: #0088cc;
-			text-decoration: none;
-		}
-
-		.creature a:hover,
-		.creature a:active {
-			color: #005580;
-			text-decoration: underline;
-		}
-
-		[tabindex="-1"] {
-			outline: none;
-		}
-
-		.uncaught {
-			filter: grayscale(1);
-		}
-
-		.title-case {
+		.creature-name {
 			text-transform: capitalize;
-		}
-
-		.text-center {
-			text-align: center;
 		}
 	</style>
 </head>
 <body>
 
-	<video autoplay playsinline hidden></video>
 	<nav class="nav" id="nav"></nav>
 	<main id="app"></main>
 
-	<script src="https://polyfill.io/v3/polyfill.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/reefjs@7.2/dist/reef.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/reefjs@7.2/dist/router.min.js"></script>
 	<script>
@@ -177,182 +145,37 @@
 		// Variables
 		//
 
-		// localStorage ID
-		var savedID = 'capturedCreatures';
+		// Elements
+		var app = document.querySelector('#app');
+		var nav = document.querySelector('#nav');
 
-		var video = document.querySelector('video');
-
-		var icons = {
-			pokeball: `<svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom:-0.125em;" height="1em" width="1em" viewBox="0 0 80 80"><title></title><g fill="currentColor" fill-rule="nonzero"><path d="M40 59.3c-9.5 0-17.4-6.8-19-15.8H.8C2.6 63.6 19.5 79.3 40 79.3c20.5 0 37.4-15.8 39.2-35.8H59c-1.6 9-9.5 15.8-19 15.8zM40 20.7c9.5 0 17.4 6.8 19 15.8h20.2C77.4 16.4 60.5.7 40 .7 19.5.7 2.6 16.4.8 36.5H21c1.6-9 9.5-15.8 19-15.8z"/><path d="M40 30.7c-3.9 0-7.3 2.4-8.7 5.8-.4 1.1-.7 2.3-.7 3.5 0 1.2.2 2.4.7 3.5 1.4 3.4 4.7 5.8 8.7 5.8 4 0 7.3-2.4 8.7-5.8.4-1.1.7-2.3.7-3.5 0-1.2-.2-2.4-.7-3.5-1.4-3.4-4.8-5.8-8.7-5.8z"/></g></svg>`,
-			backpack: `<svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom:-0.125em;" height="1em" width="1em" viewBox="0 0 70 90"><title></title><path d="M46.423 13.126v-.706C46.423 5.432 41.512.162 35 .162c-6.512 0-11.423 5.27-11.423 12.258v.706C9.97 17.87.165 30.795.165 45.997v42.169C.165 89.18.986 90 1.998 90h66.004c1.014 0 1.833-.82 1.833-1.834V45.997c0-15.202-9.806-28.127-23.412-32.871zm-3.697-1.07c-5.181-1.179-10.163-1.204-15.452 0 .365-10.968 15.086-10.968 15.452 0zm23.586 52.276c0 1.013-.82 1.833-1.833 1.833h-1.977v7.334c0 1.014-.82 1.833-1.834 1.833a1.83 1.83 0 01-1.833-1.833v-7.334H5.525a1.833 1.833 0 110-3.667h58.954c1.012 0 1.833.82 1.833 1.834z" fill="currentColor" fill-rule="nonzero"/></svg>`,
-			release: `<svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom:-0.125em;" width="1em" height="1em" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0a8 8 0 100 16A8 8 0 008 0zm0 14.5a6.5 6.5 0 110-13 6.5 6.5 0 010 13z"/><path fill="currentColor" d="M10.5 4L8 6.5 5.5 4 4 5.5 6.5 8 4 10.5 5.5 12 8 9.5l2.5 2.5 1.5-1.5L9.5 8 12 5.5z"/></svg>`
-		};
-
+		// Creatures
 		var creatures = [
-			{
-				name: 'Abra',
-				description: `Abra is a golden-brown, human-like fox Pokémon with three fingers and toes on both arms and legs. Its eyes are mostly closed because of its tendency to sleep a lot. The shoulders are brown. Abra has a long tail with one brown stripe. Feet have 3 sharp claws, 2 on the front and 1 on the heel. Abra stands 2'11" and has the same physical appearance, no matter what its gender is. It has slightly-pointed ears and its body looks slightly like it has a type of body armour on its top half.`,
-				types: 'Psychic',
-				abilities: 'Synchronize||Inner Focus||Magic Guard',
-				evolves: 'Kadabra',
-				rarity: 4
-			},
-			{
-				name: 'Bellsprout',
-				description: `Bellsprout is a plant-like Pokémon. The body is a thin brown root and stem system. Bellsprout has two root-like legs. It has two leaves on each side. Its head is yellow and shaped like a bulb, the tip is colored pink, and it has the smallest amount of dirt on its feet.`,
-				types: 'Grass||Poison',
-				abilities: 'Chlorophyll||Gluttony',
-				evolves: 'Weepinbell',
-				rarity: 2
-			},
-			{
-				name: 'Bulbasaur',
-				description: `Bulbasaur resembles a small, squatting dinosaur that walks on four legs, but bears three claws on each of its feet and has no tail. It also has large, red eyes and very sharp teeth. Its skin is a light, turquoise color with dark, green spots. It has three claws on all four of its legs. Its most notable feature, however, is the aforementioned bulb on its back, which according to its entry in the Pokédex, was planted there at birth.`,
-				types: 'Grass||Poison',
-				abilities: 'Overgrow||Chlorophyll',
-				evolves: 'Ivysaur',
-				rarity: 3
-			},
-			{
-				name: 'Caterpie',
-				description: `Caterpie is a worm-like Pokémon that is mainly green in color with a tan underside. Just below its head are four, tiny legs that are used only for movement. On top of its head is a red, "y-shaped" antenna, which can be used to produce an odor used in self-defense, in case something tries to hurt it.`,
-				types: 'Bug',
-				abilities: 'Shield Dust||Run Away',
-				evolves: 'Metapod',
-				rarity: 1
-			},
-			{
-				name: 'Charmander',
-				description: `Charmander is a small, bipedal, dinosaur-like Pokémon. Most of its body is colored orange, while its underbelly is a pale light-yellow color. Charmander, like its evolved forms, has a flame that constantly burns on the end of its tail. However, If the flame on Charmander's tail goes out, Charmander is known to die.`,
-				types: 'Fire',
-				abilities: 'Blaze||Solar Power',
-				evolves: 'Charmeleon',
-				rarity: 3
-			},
-			{
-				name: 'Dratini',
-				description: `It has a white, circular, gem-like object on its forehead, and its eyes are light purple. It has two developing wings at the sides of its head, which grow to be enormous as it evolves. It has a white belly, and is light blue the rest of the way. Dratini looks like some sort of snake or sea monster. Dratini are born large, and as they shed their skin, they grow larger. They have a massive amount of energy rapidly increasing inside of their bodies, hence, they have great strength, which grows exponentially as they evolve.`,
-				types: 'Dragon',
-				abilities: 'Shed Skin||Marvel Scale',
-				evolves: 'Dragonair',
-				rarity: 4
-			},
-			{
-				name: 'Eevee',
-				description: `Eevee is a small, mammalian creature with bushy, brown fur. Its muzzle is very cat-like, with a small, black and triangular nose. It has a fluffy cream-colored ruff around its neck and a short, bushy and fox-like tail with a creamy tip. Eevee has round, dog-like deep-brown eyes, long rabbit-like ears, and pink paw pads on its little feet. Its paws are small with three toes and no visible claws. Its body and fur are very similar that of a German Spitz (pomeranian) dog.`,
-				types: 'Normal',
-				abilities: 'Run Away||Adaptability||Anticipation',
-				evolves: 'Vaporeon',
-				rarity: 5
-			},
-			{
-				name: 'Jigglypuff',
-				description: `Jigglypuff is small, round, pink Pokémon. It has short, digitless limbs and pointy ears. It has large, blue eyes and a tuft of fur on its head.`,
-				types: 'Normal||Fairy',
-				abilities: 'Cute Charm||Competitive||Friend Guard',
-				evolves: 'Wigglytuff',
-				rarity: 4
-			},
-			{
-				name: 'Mankey',
-				description: `Mankey is a small, monkey-like Pokémon. They are a mostly tan in color, with a round body, long limbs and a tail. They have a pig nose due to it being the Pig Monkey species. Mankey are also renowned for their pointy ears and medium length fur. They have triangular eyes with red irises; this clearly represents the anger this Pokémon is known for.`,
-				types: 'Fighting',
-				abilities: 'Vital Spirit||Anger Point||Defiant',
-				evolves: 'Primeape',
-				rarity: 2
-			},
-			{
-				name: 'Meowth',
-				description: `Meowth is a small, bipedal, feline Pokémon. It has two white whiskers on each side of its oval-shaped face and two hairs sticking up on either side of the coin-like gem on its forehead, and highly resembles a cat. Meowth's tail and feet are cream-colored like the rest of it, but they are brown at the end. It has small paw pads on the undersides of its heels and toes. It is much like a Maneki Neko, a toy of Japanese descent known for bobbing its arm and hand up and down.`,
-				types: 'Normal',
-				abilities: 'Pickup||Technician||Unnerve',
-				evolves: 'Persian',
-				rarity: 4
-			},
-			{
-				name: 'Mew',
-				description: `Mew is a small, cat-like Pokémon with small, pointed ears, blue eyes, a long, thin tail with a large bulge at the end, and large feet with three toes. It is covered with a layer of fine, pink hair, only visible with the aid of a microscope. It has extremely short arms with three fingers on each paw, and has small, orange paw pads on the undersides of its feet.`,
-				types: 'Psychic',
-				abilities: 'Synchronize',
-				evolves: null,
-				rarity: 5
-			},
-			{
-				name: 'Pidgey',
-				description: `Pidgey resembles a small, plump-bodied bird. It is brown in color, with a cream-colored throat and belly. The tips of its wings share the same color. Both its feet and beak are a pinkish-gray color. Its plumage is fairly nondescript, particularly compared to its evolutions, Pidgeotto and Pidgeot. It has black markings around its eyes and a small crest of brown and cream feathers above its eyes.`,
-				types: 'Normal||Flying',
-				abilities: 'Keen Eye||Tangled Feet||Big Pecks',
-				evolves: 'Pidgeotto',
-				rarity: 3
-			},
-			{
-				name: 'Pikachu',
-				description: `Pikachu are small, chubby, and incredibly cute mouse-like Pokémon. They are almost completely covered by yellow fur. They have long yellow ears that are tipped with black. A Pikachu's back has two brown stripes, and its large tail is notable for being shaped like a lightning bolt. On its cheeks are two circle-shaped red pouches used for storing electricity. They turn yellow and spark with electricity when its about to use an Electric attack, such as Thunderbolt. It has also been known to generate small surges of electrical energy in anger or for protection, like in the anime.`,
-				types: 'Electric',
-				abilities: 'Static||Lightning Rod',
-				evolves: 'Raichu',
-				rarity: 3
-			},
-			{
-				name: 'Psyduck',
-				description: `Psyduck is a medium-sized, yellow duck Pokémon. Only the feet and bill are tan. The other body parts are all yellow. Psyduck has three black hairs on top of its head, and its hands are always on its head due to its constant headache.`,
-				types: 'Water',
-				abilities: 'Damp||Cloud Nine||Swift Swim',
-				evolves: 'Golduck',
-				rarity: 2
-			},
-			{
-				name: 'Rattata',
-				description: `Rattata is mouse-like, with large incisors and a whisker on both sides. Female Rattata have shorter whiskers than the males. The fur of a normal variant is purple, with a white or cream colored underside: the fur of an Alolan variant is black with dark cram underside. Rattata have red eyes, with no obvious pupils. The tail is long, and curled slightly at the tip. Rattata have three-toed paws, which are the same color as its underbelly.`,
-				types: 'Normal',
-				abilities: 'Run Away||Guts||Hustle',
-				evolves: 'Raticate',
-				rarity: 2
-			},
-			{
-				name: 'Snorlax',
-				description: `Snorlax is a very large and fat, bear-like Pokémon that has grayish-blue fur and an apricot-color underbelly. Its eyes are always closed, making it look as if it is sleeping. In its Gigantamax form it's belly forms a hill with plants and tree on top of it causing Snorlax to lie on its back.`,
-				types: 'Normal',
-				abilities: 'Immunity||Thick Fat||Gluttony',
-				evolves: null,
-				rarity: 1
-			},
-			{
-				name: 'Squirtle',
-				description: `Squirtle is a small, light-blue Pokémon with an appearance similar to a turtle. With its aerodynamic shape and grooved surface, Squirtle's shell helps it wade through the water very quickly. It also offers protection in battle. Like turtles, Squirtle has a shell that covers its body with holes that allow its limbs, tail, and head to be exposed. Unlike a turtle, Squirtle is ordinarily bipedal. `,
-				types: 'Water',
-				abilities: 'Torrent||Rain Dish',
-				evolves: 'Wartortle',
-				rarity: 3
-			},
-			{
-				name: 'Venonat',
-				description: `Venonat is covered in large, purple fur. The feet of Venonat are brown and are about half as long as Venonat itself with its hands being the same color but a third of the size. Venonat have two white antennae that stick out of their head. The most notable feature of Venonat is their large, red eyes. It also has a small nose just under its eyes.`,
-				types: 'Bug||Poison',
-				abilities: 'Compound Eyes||Tinted Lens||Run Away',
-				evolves: 'Venomoth',
-				rarity: 1
-			},
-			{
-				name: 'Weedle',
-				description: `Weedle is a small, insect-like Pokémon appearing as a brown caterpillar with large stingers on both its tail and head. Across Weedle's underside are small, pink nubs which it uses to move. On its head, Weedle has two beady, black eyes above a large, pink nose.`,
-				types: 'Bug||Poison',
-				abilities: 'Shield Dust||Run Away',
-				evolves: 'Kakuna',
-				rarity: 2
-			},
-			{
-				name: 'Zubat',
-				description: `Zubat resembles a blue bat. It has a short, round body, purple wings, and slim legs missing feet. Zubat has no eyes, so it uses sound waves (echolocation) to navigate, like a real bat does. A female Zubat has smaller teeth than those of a male's. Strangely, it can use the move Mean Look, despite not having any eyes.`,
-				types: 'Poison||Flying',
-				abilities: 'Inner Focus||Infiltrator',
-				evolves: 'Golbat',
-				rarity: 2
-			}
+			'abra',
+			'bellsprout',
+			'bulbasaur',
+			'caterpie',
+			'charmander',
+			'dratini',
+			'eevee',
+			'forest.jpg',
+			'jigglypuff',
+			'mankey',
+			'meowth',
+			'mew',
+			'pidgey',
+			'pikachu',
+			'psyduck',
+			'rattata',
+			'snorlax',
+			'squirtle',
+			'venonat',
+			'weedle',
+			'zubat'
 		];
 
 		// Settings
-		// @todo move to a settings object
+		// var size = 150;
 		var size = 75; // How big the icons are
 		var scale = { // How big to scale the image
 			min: 0.5,
@@ -373,13 +196,16 @@
 		var moves = { // How many times they move before disappearing
 			min: 3,
 			max: 5,
-			current: 3 // @todo move to state
+			current: 3
 		};
-		var completedMoves = 0; // @todo move to state
+		var completedMoves = 0;
+
+		// Captured creatures
+		var captured = {};
 
 		// Placeholders
-		// @todo move to state
 		var icon, animator, currentCreature;
+
 
 		//
 		// Methods
@@ -412,6 +238,13 @@
 
 		};
 
+		var getCreature = function () {
+			var creature = shuffle(creatures.slice())[0];
+			if (currentCreature && creature === currentCreature) return getCreature();
+			currentCreature = creature;
+			return creature;
+		};
+
 		/**
 		 * Get a random integer with a minimum and maximum value
 		 * @param  {Integer} min  The minimum value
@@ -422,177 +255,90 @@
 			return Math.floor(Math.random() * (max - min + 1) + min);
 		};
 
-		/**
-		 * Update body class based on content
-		 */
-		var addClass = function () {
-			document.documentElement.className = router.current.id === 'find' ? 'game' : 'content';
+		var randomFloat = function (min, max) {
+			return (Math.random() * (min - max) + max);
 		};
 
-		/**
-		 * Get saved creatures from localStorage
-		 * @return {[type]} [description]
-		 */
-		var loadSaved = function () {
-			var saved = localStorage.getItem(savedID);
-			if (!saved) return [];
-			return JSON.parse(saved);
-		};
-
-		/**
-		 * Get a creature's details
-		 * @param  {String} name The creature's name
-		 * @return {Object}      The creature's details
-		 */
-		var getCreatureByName = function (name) {
-			name = name.toLowerCase();
-			var match = creatures.filter(function (creature) {
-				return creature.name.toLowerCase() === name;
-			});
-			return match.length ? match[0] : null;
-		};
-
-		/**
-		 * Get uncaught creatures
-		 * @return {Array} The uncaught creatures
-		 */
-		var setUncaughtCreatures = function () {
-			// store.data.creatures = creatures.filter(function (creature) {
-			// 	return !store.data.captured.includes(creature.name);
-			// });
-			store.data.creatures = creatures.reduce(function (arr, creature) {
-				if (store.data.captured.includes(creature.name.toLowerCase())) return arr;
-				var rarity = 6 - creature.rarity;
-				for (var i = 0; i < rarity; i++) {
-					arr.push(creature);
-				}
-				return arr;
-			}, []);
-
-		};
-
-		var getUncaughtCreatures = function () {
-			return creatures.filter(function (creature) {
-				return !store.data.captured.includes(creature.name);
-			});
-		};
-
-		/**
-		 * Check that at least one uncaught creature exists
-		 * If not, route back to My Creatures
-		 */
-		var checkForCreatures = function () {
-			if (store.data.creatures.length) return;
-			router.navigate('/creatures');
-			handleRoute();
-		};
-
-		/**
-		 * Get random delay before next creature
-		 * @param  {Boolean} max If true, get max delay
-		 * @return {Integer}     The delay before the next creature
-		 */
-		var getDelay = function (max) {
-			if (max) {
-				return store.data.captured > 2 ? delay.advancedMax : delay.max;
-			}
-			return store.data.captured > 2 ? delay.advancedMin : delay.min;
-		};
-
-		/**
-		 * Switch to a new creature
-		 */
-		var changeCreature = function () {
-			completedMoves = 0;
-			stopAnimate();
-			store.data.animator = setTimeout(function () {
-				store.data.creature = getCreature();
-				adjustPosition();
-				animate();
-			}, randomNumber(getDelay(), getDelay(true)));
-		};
-
-		/**
-		 * Adjust position of the creature
-		 */
-		var moveCreature = function () {
-			if (completedMoves > moves.current) {
-				changeCreature();
-			} else {
-				adjustPosition();
-				completedMoves++;
-				store.data.animator = setTimeout(moveCreature, randomNumber(speed.min, speed.max));
-			}
-		};
-
-		/**
-		 * Animate creature
-		 */
-		var animate = function () {
-			moves.current = randomNumber(moves.min, moves.max);
-			store.data.animator = setTimeout(moveCreature, randomNumber(speed.min, speed.max));
-		};
-
-		var stopAnimate = function () {
-			store.data.creature = null;
-			clearTimeout(store.data.animator);
-		};
-
-		/**
-		 * Get a random creature
-		 * @return {string} A creature name
-		 */
-		var getCreature = function () {
-			var creature = shuffle(store.data.creatures.slice())[0];
-			if (store.data.creature && creature === store.data.creature) return getCreature();
-			return creature;
-		};
-
-		/**
-		 * Calculate creature scale based on position
-		 * @param  {Number} top The creature's position from the top
-		 * @return {Number}     The creature's scale
-		 */
 		var getScale = function (top) {
 			var half = (window.innerHeight || document.documentElement.clientHeight) / 3;
 			var size = parseFloat(top) / half;
 			return size > half ? Math.min(size, scale.max) : Math.max(size, scale.min);
 		};
 
-		/**
-		 * Create the image coordinates
-		 */
 		var adjustPosition = function () {
-			store.data.creatureTop = randomNumber(0, (window.innerHeight || document.documentElement.clientHeight) - size - (size * scale.max)).toString() + 'px';
-			store.data.creatureLeft = randomNumber(0, (window.innerWidth || document.documentElement.clientWidth) - size).toString() + 'px';
-			store.data.creatureScale = getScale(store.data.creatureTop);
+			icon.style.top = randomNumber(0, (window.innerHeight || document.documentElement.clientHeight) - size - (size * scale.max)).toString() + 'px';
+			icon.style.left = randomNumber(0, (window.innerWidth || document.documentElement.clientWidth) - size).toString() + 'px';
+			icon.style.transform = 'scale(' + getScale(icon.style.top) + ')';
 		};
 
-		/**
-		 * Create a new creature
-		 */
-		var createCreature = function () {
-			store.data.creature = getCreature();
+		var createIcon = function () {
+			icon = document.createElement('button');
+			icon.className = 'icon';
+			icon.innerHTML = '<img height="' + size + '" width="' + size + '" src="img/' + getCreature() + '.png">';
 			adjustPosition();
-			animate();
+			app.appendChild(icon);
 		};
 
-		/**
-		 * Start animating creatures
-		 */
-		var startCreatures = function () {
-			store.animator = setTimeout(function () {
-				store.data.creature = getCreature();
+		var getDelay = function (max) {
+			if (max) {
+				return Object.keys(captured) > 2 ? delay.advancedMax : delay.max;
+			}
+			return Object.keys(captured) > 2 ? delay.advancedMin : delay.min;
+		};
+
+		var changeCreature = function () {
+			completedMoves = 0;
+			icon.remove();
+			clearTimeout(animator);
+			animator = setTimeout(function () {
+				createIcon();
+				animate();
+			}, randomNumber(getDelay(), getDelay(true)));
+		};
+
+		var moveCreature = function () {
+			if (completedMoves > moves.current) {
+				changeCreature();
+			} else {
 				adjustPosition();
+				completedMoves++;
+				animator = setTimeout(moveCreature, randomNumber(speed.min, speed.max));
+			}
+		};
+
+		var animate = function () {
+			moves.current = randomNumber(moves.min, moves.max);
+			animator = setTimeout(moveCreature, randomNumber(speed.min, speed.max));
+		};
+
+		var getCredits = function () {
+			return '<p class="credits"><em>Creature icons made by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com/">flaticon.com</a>.</em></p>';
+		};
+
+		var getNav = function (type) {
+			if (type === 'find') {
+				return `<button data-nav="find"><svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom:-0.125em;" height="1em" width="1em" viewBox="0 0 80 80" aria-hidden="true"><g fill="currentColor" fill-rule="nonzero"><path d="M40 59.3c-9.5 0-17.4-6.8-19-15.8H.8C2.6 63.6 19.5 79.3 40 79.3c20.5 0 37.4-15.8 39.2-35.8H59c-1.6 9-9.5 15.8-19 15.8zM40 20.7c9.5 0 17.4 6.8 19 15.8h20.2C77.4 16.4 60.5.7 40 .7 19.5.7 2.6 16.4.8 36.5H21c1.6-9 9.5-15.8 19-15.8z"/><path d="M40 30.7c-3.9 0-7.3 2.4-8.7 5.8-.4 1.1-.7 2.3-.7 3.5 0 1.2.2 2.4.7 3.5 1.4 3.4 4.7 5.8 8.7 5.8 4 0 7.3-2.4 8.7-5.8.4-1.1.7-2.3.7-3.5 0-1.2-.2-2.4-.7-3.5-1.4-3.4-4.8-5.8-8.7-5.8z"/></g></svg> Catch 'Em!</button>`;
+			}
+
+			if (type === 'creatures') {
+				return '<button data-nav="creatures"><svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom:-0.125em;" height="1em" width="1em" viewBox="0 0 70 90" aria-hidden="true"><path d="M46.423 13.126v-.706C46.423 5.432 41.512.162 35 .162c-6.512 0-11.423 5.27-11.423 12.258v.706C9.97 17.87.165 30.795.165 45.997v42.169C.165 89.18.986 90 1.998 90h66.004c1.014 0 1.833-.82 1.833-1.834V45.997c0-15.202-9.806-28.127-23.412-32.871zm-3.697-1.07c-5.181-1.179-10.163-1.204-15.452 0 .365-10.968 15.086-10.968 15.452 0zm23.586 52.276c0 1.013-.82 1.833-1.833 1.833h-1.977v7.334c0 1.014-.82 1.833-1.834 1.833a1.83 1.83 0 01-1.833-1.833v-7.334H5.525a1.833 1.833 0 110-3.667h58.954c1.012 0 1.833.82 1.833 1.834z" fill="currentColor" fill-rule="nonzero"/></svg> My Pokemon</button>';
+			}
+
+			if (type === 'release') {
+				return '<button data-nav="release"><svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom:-0.125em;" width="1em" height="1em" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0a8 8 0 100 16A8 8 0 008 0zm0 14.5a6.5 6.5 0 110-13 6.5 6.5 0 010 13z"/><path fill="currentColor" d="M10.5 4L8 6.5 5.5 4 4 5.5 6.5 8 4 10.5 5.5 12 8 9.5l2.5 2.5 1.5-1.5L9.5 8 12 5.5z"/></svg> Release</button>';
+			}
+
+		};
+
+		var startCreatures = function () {
+			animator = setTimeout(function () {
+				createIcon();
 				animate();
 			}, randomNumber(delay.startMin, delay.startMax));
 		};
 
-		/**
-		 * Start video feature
-		 */
 		var startVideo = function () {
-			if (router.current.id !== 'find') return;
+			var video = document.querySelector('video');
 			navigator.mediaDevices.getUserMedia({
 				video: {
 					facingMode: {
@@ -600,355 +346,123 @@
 					}
 				},
 			}).then(function (stream) {
-				video.removeAttribute('hidden');
 				video.srcObject = stream;
 				startCreatures();
 			}).catch(function (error) {
 				console.warn(error);
-				alert(`Catch 'em all works best with access to a rear-facing camera. You can still play, though!`);
-				video.setAttribute('hidden', '');
+				alert(`Catch 'em All! works best with access to a rear-facing camera. You can still play, though!`);
+				video.remove();
 				document.documentElement.className += ' no-camera';
 				startCreatures();
 			});
 		};
 
-		/**
-		 * Stop the camera
-		 */
 		var stopVideo = function () {
-			if (router.current.id === 'find' || !video || video.hasAttribute('hidden')) return;
-			video.setAttribute('hidden', '');
+			var video = document.querySelector('video');
+			if (!video) return;
 			video.srcObject.getTracks().forEach(function(track) {
 				track.stop();
 			});
 		};
 
-		/**
-		 * Setup the app
-		 * @todo Load from saved
-		 * @todo Initialize video on game view
-		 */
-		var setup = function () {
-			addClass();
-			setUncaughtCreatures();
+		var addClass = function (isGame) {
+			document.documentElement.className = isGame ? 'game' : 'content';
+		};
+
+		var renderFind = function () {
+			addClass(true);
+			app.innerHTML = '<video autoplay playsinline></video>';
+			nav.innerHTML = getNav('creatures');
 			startVideo();
 		};
 
-		/**
-		 * Release all creatures
-		 */
-		var releaseAllCreatures = function () {
-			if (!window.confirm(`Are you sure you want to set all of your creatures free? You can always catch them again.`)) return;
-			localStorage.removeItem(savedID);
-			store.data.captured = [];
-			setUncaughtCreatures();
+		var renderHome = function () {
+			addClass();
+			app.innerHTML =
+				`<h1>Catch 'em All!</h1>
+				<p>There are Pokemon wandering the world around us, invisible to humans. But thanks to modern technology, you can now see them.</p>
+				<nav id="nav-home" class="nav">
+					${getNav('find')} ${getNav('creatures')}
+				</nav>
+				${getCredits()}`;
 		};
 
-		/**
-		 * Release one creature
-		 * @param  {String} name The creature's name
-		 */
-		var releaseCreature = function (name) {
-			var details = name ? getCreatureByName(name) : null;
-			var index = store.data.captured.indexOf(name);
-			if (!details || index < 0) return router.navigate('/creatures');
-			if (!window.confirm(`Are you sure you want to set ${details.name} free? You can always catch them again.`)) return;
-			store.data.captured.splice(index, 1);
-			setUncaughtCreatures();
-			localStorage.setItem(savedID, JSON.stringify(store.data.captured));
-			router.navigate('/creatures');
+		var renderCreatures = function () {
+			addClass();
+			var creatureKeys = Object.keys(captured);
+			app.innerHTML =
+				'<h1>My Pokemon</h1>' +
+				(creatureKeys.length ? '<div class="my-creatures">' + Object.keys(captured).map(function (creature) {
+					var html =
+						'<div class="creature">' +
+							'<img alt="" src="img/' + creature + '.png"><br>' +
+							'<strong class="creature-name">' + creature + ' (' +  captured[creature] + ')</strong>' +
+						'</div>';
+					return html;
+				}).join('') + '</div>' : '<p>You don\'t have any Pokemon yet.</p>');
+			nav.innerHTML = getNav('find') + ' ' + getNav('release');
 		};
 
-		/**
-		 * Release creatures if release button is clicked
-		 * @param  {Event} event The event object
-		 */
-		var releaseCreatures = function (event) {
-			var btn = event.target.closest('[data-release]');
-			if (!btn) return;
-			var creature = btn.getAttribute('data-release');
-			creature ? releaseCreature(creature) : releaseAllCreatures();
+		var releaseCreatures = function () {
+			if (!window.confirm('Are you sure you want to set all of your Pokemon free? You can always catch them again.')) return;
+			localStorage.removeItem('mythicCreatures');
+			captured = {};
+			renderCreatures();
 		};
 
-		/**
-		 * Catch a creature
-		 * @param  {Event} event The event object
-		 */
-		var catchCreature = function (event) {
-			if (!event.target.closest('.icon, .icon img')) return;
-			store.data.captured.push(store.data.creature.name.toLowerCase());
-			setUncaughtCreatures();
-			localStorage.setItem(savedID, JSON.stringify(store.data.captured));
+		var navHandler = function (event) {
+
+			// Get nav item
+			var nav = event.target.getAttribute('data-nav');
+			if (!nav) return;
+
+			// Clear animations and stop video
+			clearTimeout(animator);
+			stopVideo();
+
+			if (nav === 'find') {
+				return renderFind();
+			}
+
+			if (nav === 'creatures') {
+				return renderCreatures();
+			}
+
+			if (nav === 'release') {
+				return releaseCreatures();
+			}
+
+		};
+
+		var creatureHandler = function (event) {
+			if (!event.target.matches('.icon, .icon img')) return;
+			if (captured[currentCreature]) {
+				captured[currentCreature]++;
+			} else {
+				captured[currentCreature] = 1;
+			}
+			localStorage.setItem('mythicCreatures', JSON.stringify(captured));
 			changeCreature();
 		};
 
-		/**
-		 * Handle click events
-		 * @param  {Event} event The event object
-		 */
 		var clickHandler = function (event) {
-			releaseCreatures(event);
-			catchCreature(event);
+			navHandler(event);
+			creatureHandler(event);
 		};
 
-		/**
-		 * Handle route change events
-		 * @param  {Event} event The event object
-		 */
-		var handleRoute = function (event) {
-			addClass();
-			stopAnimate();
-			stopVideo();
-			startVideo();
+		var loadSaved = function () {
+			var saved = localStorage.getItem('mythicCreatures');
+			if (!saved) return;
+			captured = JSON.parse(saved);
 		};
-
-
-		//
-		// HTML Templates
-		//
-
-		/**
-		 * Get navigation menu item HTML
-		 * @param  {String} type The navigation item type
-		 * @param  {String} name The name of the creature to release [optional]
-		 * @return {String}      The nav item markup
-		 */
-		var getNavHTML = function (type, name) {
-
-			if (type === 'find') {
-				return `<a class="btn" href="/find">${icons.pokeball} Catch 'Em!</a>`;
-			}
-
-			if (type === 'creatures') {
-				return `<a class="btn" href="/creatures">${icons.backpack} My Pokémon</a>`;
-			}
-
-			if (type === 'release') {
-				return `<button class="btn" data-release>${icons.release} Release</button>`;
-			}
-
-			if (type === 'release-one') {
-				return `<button class="btn" data-release="${name}">${icons.release} Release</button>`;
-			}
-
-		};
-
-		/**
-		 * Get credits HTML
-		 * @return {String} The credits HTML
-		 */
-		var getCreditsHTML = function () {
-			return '<p class="credits"><em>Creature icons made by <a href="https://www.flaticon.com/authors/roundicons-freebies">Roundicons</a> from <a href="https://www.flaticon.com/">flaticon.com</a>. Creature details from <a href="https://pokemon.fandom.com/">pokemon.fandom.com</a>.</em></p>';
-		};
-
-		/**
-		 * Get the homepage HTML
-		 * @param  {Object} route The route object
-		 * @return {String}       The HTML
-		 */
-		var getHomeHTML = function (route) {
-			return `
-				<h1>${route.title}</h1>
-				<p>There are fantastical creatures wandering the world around us, invisible to humans. But thanks to modern technology, you can now see them.</p>`;
-		};
-
-		/**
-		 * Get the find page HTML
-		 * @param  {Object} props The app properties
-		 * @return {String}       The HTML
-		 */
-		var getFindHTML = function (props) {
-			checkForCreatures();
-			if (!props.creature) return '';
-			return `
-				<button class="icon" style="top: ${props.creatureTop}; left: ${props.creatureLeft}; transform: scale(${props.creatureScale});">
-					<img height="${size}" width="${size}" src="img/${props.creature.name.toLowerCase()}.png">
-				</button>`;
-		};
-
-		/**
-		 * Get the HTML for a creature grid
-		 * @param  {String}  name       The creature's name
-		 * @param  {Boolean} isUncaught If true, creature is not yet caught
-		 * @return {String}             The creature HTML
-		 */
-		var getCreatureHTML = function (name, isUncaught) {
-			return `
-				<div class="creature">
-					<a href="/creatures/${name.toLowerCase()}">
-						<img ${isUncaught ? 'class="uncaught"' : ''} alt="" src="img/${name.toLowerCase()}.png"><br>
-						<strong class="creature-name">${name}</strong>
-					</a>
-				</div>`;
-		};
-
-		/**
-		 * Get the caught creatures HTML
-		 * @param  {Object} props The app properties
-		 * @return {String}       The HTML
-		 */
-		var getCaughtCreatureHTML = function (props) {
-			if (!props.captured.length) return `<p>You don't have any creatures yet.</p>`;
-			return `
-				${props.creatures.length ? '' : `<p>You caught them all! Release them to catch them again.</p>`}
-				<div class="creatures">
-					${props.captured.map(function (creature) {
-						var details = getCreatureByName(creature);
-						if (!details) return '';
-						return getCreatureHTML(details.name);
-					}).join('')}
-				</div>`;
-		};
-
-		/**
-		 * Get the caught creatures HTML
-		 * @param  {Object} props The app properties
-		 * @return {String}       The HTML
-		 */
-		var getUncaughtCreatureHTML = function (props) {
-			if (!props.creatures.length) return '';
-			return `
-				<h2>Left to Catch</h2>
-				<div class="creatures">
-					${getUncaughtCreatures().map(function (creature) {
-						return getCreatureHTML(creature.name, true);
-					}).join('')}
-				</div>`;
-		};
-
-		/**
-		 * Get the creatures page HTML
-		 * @param  {Object} props The app properties
-		 * @param  {Object} route The route object
-		 * @return {String}       The HTML
-		 */
-		var getCreaturesHTML = function (props, route) {
-			return `
-				<h1>${route.title}</h1>
-				${getCaughtCreatureHTML(props)}
-				${getUncaughtCreatureHTML(props)}`;
-		};
-
-		/**
-		 * Get the creature details page HTML
-		 * @param  {Object} route The route object
-		 * @return {String}       The HTML
-		 */
-		var getCreatureDetailsHTML = function (route) {
-			var details = getCreatureByName(route.params.creature);
-			if (!details) {
-				return `
-					<h1 class="title-case">${route.params.creature} Not Found</h1>
-					<p>Details for <span class="title-case">${route.params.creature}</span> could not be found. Sorry!</p>`;
-			}
-			return `
-				<h1>${details.name}</h1>
-				<p class="text-center"><img height="350" width="350" alt="" src="img/${details.name.toLowerCase()}.png"></p>
-				<p>${details.description}</p>
-				<ul>
-					<li><strong>Types:</strong> ${details.types.split('||').join(', ')}</li>
-					<li><strong>Abilities:</strong> ${details.abilities.split('||').join(', ')}</li>
-					<li><strong>Evolves Into:</strong> ${details.evolves ? details.evolves : 'None'}</li>
-					<li><strong>Rarity:</strong> ${details.rarity}</li>
-				</ul>`;
-		};
-
-
-		//
-		// Components
-		//
-
-		var router = new Reef.Router({
-			title: function (route) {
-				if (route && route.id === 'home') {
-					return '{{title}}';
-				}
-				var title = route.id === 'creature' ? route.params.creature : '{{title}}';
-				return title + ' | Catch \'em all!';
-			},
-			useHash: true,
-			routes: [
-				{
-					id: 'home',
-					title: 'Catch \'em all!',
-					url: '/'
-				},
-				{
-					id: 'find',
-					title: 'Find',
-					url: '/find'
-				},
-				{
-					id: 'creatures',
-					title: 'My Pokémon',
-					url: '/creatures'
-				},
-				{
-					id: 'creature',
-					title: '',
-					url: '/creatures/:creature'
-				}
-			]
-		});
-
-		var store = new Reef.Store({
-			data: {
-				creatures: [],
-				animator: null,
-				creature: null,
-				creatureTop: 0,
-				creatureLeft: 0,
-				creatureScale: 1,
-				captured: loadSaved()
-			}
-		});
-
-		var app = new Reef('#app', {
-			store: store,
-			router: router,
-			template: function (props, route) {
-				if (route.id === 'home') return getHomeHTML(route);
-				if (route.id === 'find') return getFindHTML(props);
-				if (route.id === 'creatures') return getCreaturesHTML(props, route);
-				if (route.id === 'creature') return getCreatureDetailsHTML(route);
-			}
-		});
-
-		var nav = new Reef('#nav', {
-			store: store,
-			router: router,
-			template: function (props, route) {
-
-				if (route.id === 'home') {
-					return `
-						<nav id="nav-home" class="nav">
-							${getNavHTML('find')} ${getNavHTML('creatures')}
-						</nav>
-						${getCreditsHTML()}`;
-				}
-
-				if (route.id === 'find') {
-					return getNavHTML('creatures');
-				}
-
-				if (route.id === 'creatures') {
-					return `${getNavHTML('find')} ${props.captured.length ? getNavHTML('release') : ''}`;
-				}
-
-				if (route.id === 'creature') {
-					return `${getNavHTML('creatures')} ${props.captured.indexOf(route.params.creature) < 0 ? '' : getNavHTML('release-one', route.params.creature)} `;
-				}
-
-			}
-		});
 
 
 		//
 		// Inits & Event Listeners
 		//
 
-		setup();
-		window.addEventListener('routeUpdated', handleRoute);
+		loadSaved();
+		renderHome();
 		document.addEventListener('click', clickHandler);
 	</script>
 
