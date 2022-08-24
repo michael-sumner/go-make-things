@@ -405,7 +405,7 @@
 
 		var releaseCreatures = function () {
 			if (!window.confirm('Are you sure you want to set all of your Pokemon free? You can always catch them again.')) return;
-			localStorage.removeItem('mythicCreatures');
+			localStorage.removeItem('pokeCreatures');
 			captured = {};
 			renderCreatures();
 		};
@@ -441,7 +441,7 @@
 			} else {
 				captured[currentCreature] = 1;
 			}
-			localStorage.setItem('mythicCreatures', JSON.stringify(captured));
+			localStorage.setItem('pokeCreatures', JSON.stringify(captured));
 			changeCreature();
 		};
 
@@ -451,7 +451,7 @@
 		};
 
 		var loadSaved = function () {
-			var saved = localStorage.getItem('mythicCreatures');
+			var saved = localStorage.getItem('pokeCreatures');
 			if (!saved) return;
 			captured = JSON.parse(saved);
 		};
