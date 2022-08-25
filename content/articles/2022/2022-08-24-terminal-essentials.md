@@ -28,9 +28,9 @@ Most Terminal commands accept options, typically prefixed with a dash (`-`) and 
 
 Sometimes, you'll run an ongoing task, or one that takes a long time to complete, and want to quit it.
 
-To quit an active or ongoing task, use the `Command + C` keys.
+To quit an active or ongoing task, use the `Control + C` keys.
 
-For example, the `ping` command makes repeated calls to a website. We can `ping google.com`, and we'll get a response printed in Terminal every second or so. To stop it, we press `Command + C`.
+For example, the `ping` command makes repeated calls to a website. We can `ping google.com`, and we'll get a response printed in Terminal every second or so. To stop it, we press `Control + C`.
 
 ```bash
 # Ping Google
