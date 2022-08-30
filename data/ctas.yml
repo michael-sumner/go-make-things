@@ -341,7 +341,7 @@ guidesAll:
         #     start: 20220605
         #     end: 20220605
         0:
-            message: <mark><p>🚀 <em><strong>New Course!</strong> Get comfortable with the command line and speed up your development time with <a href="https://vanillajsguides.com/terminal/">my new book and course on Terminal</a>.</em></p></mark>
+            message: <p><mark>🚀 <em><strong>New Course!</strong> Get comfortable with the command line and speed up your development time with <a href="https://vanillajsguides.com/terminal/">my new book and course on Terminal</a>.</em></mark></p>
             start: 20220830
             end: 20220916
 
