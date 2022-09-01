@@ -55,13 +55,14 @@ My JavaScript training for teams includes a combination of approaches designed f
 
 ## Training Topics
 
-I offer three different training programs.
+I offer training on a variety of topics. They can be mixed-and-matched to meet the unique needs of your team.
 
 <div class="list-spaced">
 {{%md%}}
 1. **JavaScript Essentials.** Learn the fundamentals of DOM manipulation and injection, working with APIs and asynchronous JavaScript, managing data with arrays and objects, and saving state with browser storage.
 2. **Structure & Scale.** Learn how to structure and organize your code as your projects grow and scale. Dig into concepts like revealing module patterns, object-oriented programing (OOP), chaining, immutability, ES modules, and service workers.
 3. **Building Web Apps.** Learn how to manage complex interfaces with state-based UI, create your own microservices and integrations with serverless, and manage users with token-based authentication.
+4. **Developer Tooling.** Learn how to test your code, create your own build tool system, and work more effectively in the command line.
 {{%/md%}}
 </div>
 
