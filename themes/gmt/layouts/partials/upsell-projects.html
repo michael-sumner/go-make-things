@@ -1,4 +1,4 @@
-{{- $num := 4 -}}
+{{- $num := 6 -}}
 {{- $index := (mod (math.Floor (div (add now.YearDay 7) 7)) $num) -}}
 {{- $data := $.Site.Data.upsells -}}
 
@@ -8,6 +8,10 @@
 	{{ $data.share | safeHTML }}
 {{- else if eq $index 3 -}}
 	{{ $data.guides | safeHTML }}
-{{- else -}}
+{{- else if eq $index 4 -}}
 	{{ $data.academy | safeHTML }}
+{{- else if eq $index 5 -}}
+	{{ $data.training | safeHTML }}
+{{- else -}}
+	{{ $data.consulting | safeHTML }}
 {{- end -}}
