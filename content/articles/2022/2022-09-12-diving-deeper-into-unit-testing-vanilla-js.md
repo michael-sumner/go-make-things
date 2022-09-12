@@ -45,3 +45,5 @@ expect(sayHi()).not.toHaveLength(0);
 Don't feel like you have to memorize [all of the matchers](https://jestjs.io/docs/expect), or find the perfect one for the thing you're trying to test.
 
 If there's a matcher that makes your life easier, use it. If not, `toBe()` and the `not` property work great!
+
+And if you enjoyed this article and want to dig into additional JS testing topics like how to test DOM manipulation, how to test APIs, and how to test your entire app in a real browser, you might enjoy my course and ebook, [Testing Vanilla JS](https://vanillajsguides.com/testing/).
