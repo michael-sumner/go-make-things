@@ -55,7 +55,7 @@ We start with a kick-off workshop to identify your goals and challenges, and cre
 
 We'll have regular meetings by phone or video conference. In between meetings, you have unlimited, 24/7 access to me by email and chat.
 
-<div class="padding-top-large padding-bottom-large">{{<testimonial for="kb" photo="true">}}</div>
+<div class="padding-top-large padding-bottom-large">{{<testimonial for="hbs" photo="true">}}</div>
 
 ## Your 100% Money-Back Guarantee &#x1f4b0;
 
@@ -80,8 +80,8 @@ Don’t put off getting the help you need on your JavaScript project! If at any 
 </div>
 
 
-<div class="padding-top-large padding-bottom">{{<testimonial for="hbs" photo="true">}}</div>
-
-<div class="padding-bottom-large">{{<testimonial for="paws" photo="true">}}</div>
+<div class="padding-top-large padding-bottom">{{<testimonial for="paws" photo="true">}}</div>
+<div class="padding-bottom-large">{{<testimonial for="kb" photo="true">}}</div>
+<div class="padding-bottom-large">{{<testimonial for="davidWalsh" photo="true">}}</div>
 
 *__PS:__ If a consulting retainer isn't a good fit for you right now, but you have questions you could use some help with, I offer [a few other options](/resources/).*
