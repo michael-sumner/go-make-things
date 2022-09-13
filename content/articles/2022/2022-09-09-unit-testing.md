@@ -204,4 +204,4 @@ npm run test:unit
 
 On Monday, we'll look at some advanced matcher methods you can use, ways to structure and organize your code, how to deal with failing tests, and whether or not code coverage matters.
 
-If you want to dig into these topics before then, as well as additional JS testing topics like how to test DOM manipulation, how to test APIs, and how to test your entire app in a real browser, you might enjoy my course and ebook: [Testing Vanilla JS](https://vanillajsguides.com/testings/).
+If you want to dig into these topics before then, as well as additional JS testing topics like how to test DOM manipulation, how to test APIs, and how to test your entire app in a real browser, you might enjoy my course and ebook: [Testing Vanilla JS](https://vanillajsguides.com/testing/).
