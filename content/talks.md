@@ -36,6 +36,7 @@ I talk at meetups, conferences, and on podcasts about JavaScript and how to buil
 
 ## Podcast Appearances
 
+- [Developer Yourself](https://open.spotify.com/episode/2DIROohIaWyGAMbSTlAknR), September 5, 2022
 - [JavaScript LA](https://www.youtube.com/watch?v=su89GGquMlI), April 1, 2022
 - [DevDiscuss](https://dev.to/devteam/listen-to-the-s8e7-of-devdiscuss-all-hail-jquery-or-not-155a), March 23, 2022
 - [Stack Overflow Podcast](https://stackoverflow.blog/2021/12/21/podcast-402-teaching-developers-about-the-most-lightweight-web-framework-around-vanillajs/), December 21, 2021
