@@ -233,7 +233,7 @@ funnel:
             start: 20220830
             end: 20220913
         1:
-            message: <p>🥳 <em><strong>Get excited!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> returns on October 10. Registration opens up on Monday.</em></p>
+            message: <p><mark>🥳 <em><strong>Get excited!</strong> A new session of the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a> returns on October 10. Registration opens up on Monday.</em></mark></p>
             start: 20220914
             end: 20220918
         2:
