@@ -83,3 +83,5 @@ Deselecting the checkbox next to the event will remove the event from the elemen
 Click a line number next to the code, or right click and select "Add breakpoint," to add a breakpoint to the code. This will pause code execution on that line until you click the play button to continue.
 
 You _cannot_ edit the script in the Source panel in Firefox like you can with Chromium browsers.
+
+<img alt="A screenshot of the Firefox dev tools window, with the source code for the script open, a breakpoint set, and the current script paused at the breakpoint." src="/img/articles/js-dev-tools-2-chrome.png">
