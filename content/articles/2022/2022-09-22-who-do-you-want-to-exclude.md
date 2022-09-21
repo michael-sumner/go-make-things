@@ -17,6 +17,8 @@ Instead, I got several replies that some version of...
 
 > Someone else's disability or vulnerability is not my problem. They can figure out how to manage it or not attend.
 
+Sometimes it starts polite. Sometimes they're rude from the start. But the underlying theme is always the same.
+
 To paraphrase Julianna Roswell, they're willing to [actively exclude certain people from industry events](https://twitter.com/JuliannaRowsell/status/1538666270316548103).
 
 I have zero tolerance for that. One of the perks of running your own business is that you can choose to not do business with assholes.
