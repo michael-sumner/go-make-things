@@ -31,7 +31,7 @@ Which is why masking is an accessibility issue, and events that don't require ma
 
 ## Mask requirements are an accessibility requirement
 
-Well fitting filtration masks are incredibly effective, but they're not foolproof. The more people wear them, the more generally protected everyone in an indoor space is.
+Well fitting filtration masks are incredibly effective ([source](https://www.acpjournals.org/doi/10.7326/L22-0272) and [source](https://www.sbs.com.au/news/article/the-figures-that-shows-why-masks-still-matter-when-it-comes-to-covid-19/6hpl1u85i)), but they're not foolproof. The more people wear them, the more generally protected everyone in an indoor space is.
 
 COVID disproportionately affects people with disabilities and those in marginalized communities.
 
