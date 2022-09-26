@@ -76,7 +76,7 @@ ckPost:
         #     start: 20220606
         #     end: 20220701
         # 1:
-        #     message: <p><em><strong>Join the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>!</strong> A new session starts on July 18. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></p><p>Cheers,<br>Chris</p>
+        #     message: <p><em><strong>Join the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>!</strong> A new session starts on October 10. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></p><p>Cheers,<br>Chris</p>
         #     start: 20220704
         #     end: 20220710
         # 2:
@@ -156,7 +156,7 @@ rss:
         #     start: 20220703
         #     end: 20220703
         # 3:
-        #     message: <p>🔥 <em><strong>Join the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>!</strong> A new session starts on July 18. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></p>
+        #     message: <p>🔥 <em><strong>Join the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>!</strong> A new session starts on October 10. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></p>
         #     start: 20220704
         #     end: 20220710
         # 4:
@@ -249,7 +249,7 @@ funnel:
             start: 20220925
             end: 20220925
         5:
-            message: <p><mark>🔥 <em><strong>Join the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>!</strong> A new session starts on July 18. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Join the <a href="https://vanillajsacademy.com">Vanilla JS Academy</a>!</strong> A new session starts on October 10. <a href="https://vanillajsacademy.com">Click here to learn more.</a></em></mark></p>
             start: 20220926
             end: 20221002
         6:
