@@ -10,3 +10,4 @@ Web fonts can be one of the bigger performance bottlenecks on a site. This serie
 2. [How to load CSS asynchronously](/how-to-load-css-asynchronously/)
 3. [Improving web font performance with service workers](/improving-web-font-performance-with-service-workers/)
 4. [A modern font-loading strategy](/a-modern-font-loading-strategy-with-the-vanilla-js-fontfaceset.load-method/)
+5. [Better font loading with the `font-display: swap` property](/better-font-loading-with-the-font-displayswap-property/)
