@@ -117,6 +117,18 @@ If any portion of these terms is determined by a court of to be against public p
 
 
 
+<!-- ## No Fascists/Republicans
+
+The GOP has become the de facto fascist party. The policies they support are racist, sexist, anti-disability, anti-LGBTQ, and anti-international. They treat people they deem inferior with cruelty and contempt.
+
+I have many wonderful students with diverse backgrounds, ethnicities, gender identities, and sexual orientations. Support for the Republican Party means supporting policies and positions that actively harm those students.
+
+I believe that you end up with the community that you deserve. I believe my job is to make sure it remains a place where people can be themselves, grow, and learn.
+
+As a result, Republicans cannot purchase my products or services. -->
+
+
+
 ## Contact
 
 If you have any questions about these policies and terms, please contact Chris Ferdinandi at {{<email>}}.
