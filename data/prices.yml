@@ -3,6 +3,31 @@
 # Used by the API
 #
 
+# Academy
+academy:
+    limited:
+        1:
+            prices:
+                price: "<del>$699</del>&nbsp;$419"
+                priceMonthly: "<del>$275</del>&nbsp;$165"
+                discount: "HOLIDAY2021"
+            start: 20211220
+            end: 20220103
+        2:
+            prices:
+                price: "<del>$895</del>&nbsp;$537"
+                priceMonthly: "<del>$299</del>&nbsp;$209"
+                discount: "EARLYBIRD"
+            start: 20220919
+            end: 20220925
+        3:
+            prices:
+                price: "<del>$895</del>&nbsp;$672"
+                priceMonthly: "<del>$349</del>&nbsp;$277"
+                discount: "LASTCHANCE"
+            start: 20221003
+            end: 20221016
+
 # Pocket Guides
 guidesComplete:
     limited:
@@ -148,31 +173,6 @@ guidesIndividual:
             start: 20220531
             end: 20220605
 
-
-# Academy
-academy:
-    limited:
-        1:
-            prices:
-                price: "<del>$699</del>&nbsp;$419"
-                priceMonthly: "<del>$275</del>&nbsp;$165"
-                discount: "HOLIDAY2021"
-            start: 20211220
-            end: 20220103
-        2:
-            prices:
-                price: "<del>$895</del>&nbsp;$537"
-                priceMonthly: "<del>$299</del>&nbsp;$209"
-                discount: "EARLYBIRD"
-            start: 20220919
-            end: 20220925
-        3:
-            prices:
-                price: "<del>$895</del>&nbsp;$672"
-                priceMonthly: "<del>$349</del>&nbsp;$277"
-                discount: "LASTCHANCE"
-            start: 20221003
-            end: 20221016
 
 # Call
 # Nothing yet...

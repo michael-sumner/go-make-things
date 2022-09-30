@@ -25,6 +25,10 @@ academy:
         base: 55598
         id: 7
         monthly: 8
+    expert:
+        base: 70777
+        id: 1
+        monthly: 2
     prices:
         standard: "$895"
         monthly: "$349"
