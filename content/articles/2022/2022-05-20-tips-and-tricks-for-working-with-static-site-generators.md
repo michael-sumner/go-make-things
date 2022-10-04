@@ -187,3 +187,5 @@ Some pros and cons of each platform...
 	The biggest downsides of 11ty, in my opinion, are that it's so open-ended in what it can do that getting started is a bit harder. And because it uses Node, you may find yourself subject to that annoying "you need to update the dependency tree before you can continue" thing that happens.
 
 If SSGs seem interesting to you, [I've written a bunch of articles on my specific setup](/series/hugo-and-static-site-generators/) that you may find helpful.
+
+I've also written a follow-up article that digs into [some of the details about building a website with an SSG](/a-workflow-for-building-a-website-with-a-static-site-generator-or-ssg/).
