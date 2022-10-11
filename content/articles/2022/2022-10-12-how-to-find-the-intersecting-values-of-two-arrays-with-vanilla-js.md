@@ -70,3 +70,5 @@ let overlap = arrayIntersect(wizards, magicalFolk);
 ```
 
 [Here's a demo.](https://codepen.io/cferdinandi/pen/xxjmRwK?editors=0011)
+
+You can find this one on [the Vanilla JS Toolkit](https://vanillajstoolkit.com/helpers/).
