@@ -44,15 +44,26 @@ guidesComplete:
             end: 20220103
         2:
             prices:
-                ebook: "<del>$637</del>&nbsp;$268"
-                video: "<del>$1,222</del>&nbsp;$514"
-                both: "<del>$1,287</del>&nbsp;$540"
+                ebook: "<del>$931</del>&nbsp;$268"
+                video: "<del>$1,786</del>&nbsp;$514"
+                both: "<del>$1,881</del>&nbsp;$540"
                 ebookMonthly: "<del>$149</del>&nbsp;$105"
                 videoMonthly: "<del>$285</del>&nbsp;$199"
-                bothMonthly: "<del>$299</del>&nbsp;$209"
+                bothMonthly: "<del>$299</del>&nbsp;$299"
                 discount: "ALMOSTSUMMER"
             start: 20220531
             end: 20220605
+        3:
+            prices:
+                ebook: "<del>$931</del>&nbsp;$391"
+                video: "<del>$1,786</del>&nbsp;$749"
+                both: "<del>$1,881</del>&nbsp;$770"
+                ebookMonthly: "<del>$217</del>&nbsp;$152"
+                videoMonthly: "<del>$415</del>&nbsp;$291"
+                bothMonthly: "<del>$428</del>&nbsp;$209"
+                discount: "SPOOKY30"
+            start: 20221026
+            end: 20221031
 
 guidesBeginner:
     limited:
@@ -78,6 +89,17 @@ guidesBeginner:
                 discount: "ALMOSTSUMMER"
             start: 20220531
             end: 20220605
+        3:
+            prices:
+                ebook: "<del>$245</del>&nbsp;$120"
+                video: "<del>$470</del>&nbsp;$230"
+                both: "<del>$495</del>&nbsp;$243"
+                ebookMonthly: "<del>$67</del>&nbsp;$47"
+                videoMonthly: "<del>$129</del>&nbsp;$90"
+                bothMonthly: "<del>$134</del>&nbsp;$94"
+                discount: "SPOOKY30"
+            start: 20221026
+            end: 20221031
 
 guidesAdvanced:
     limited:
@@ -103,6 +125,17 @@ guidesAdvanced:
                 discount: "ALMOSTSUMMER"
             start: 20220531
             end: 20220605
+        3:
+            prices:
+                ebook: "<del>$245</del>&nbsp;$120"
+                video: "<del>$470</del>&nbsp;$230"
+                both: "<del>$495</del>&nbsp;$243"
+                ebookMonthly: "<del>$67</del>&nbsp;$47"
+                videoMonthly: "<del>$129</del>&nbsp;$90"
+                bothMonthly: "<del>$134</del>&nbsp;$94"
+                discount: "SPOOKY30"
+            start: 20221026
+            end: 20221031
 
 guidesExpert:
     limited:
@@ -128,6 +161,17 @@ guidesExpert:
                 discount: "ALMOSTSUMMER"
             start: 20220531
             end: 20220605
+        3:
+            prices:
+                ebook: "<del>$245</del>&nbsp;$120"
+                video: "<del>$470</del>&nbsp;$230"
+                both: "<del>$495</del>&nbsp;$243"
+                ebookMonthly: "<del>$67</del>&nbsp;$47"
+                videoMonthly: "<del>$129</del>&nbsp;$90"
+                bothMonthly: "<del>$134</del>&nbsp;$94"
+                discount: "SPOOKY30"
+            start: 20221026
+            end: 20221031
 
 guidesDevTooling:
     limited:
@@ -153,6 +197,17 @@ guidesDevTooling:
                 discount: "ALMOSTSUMMER"
             start: 20220531
             end: 20220605
+        3:
+            prices:
+                ebook: "<del>$196</del>&nbsp;$95"
+                video: "<del>$376</del>&nbsp;$184"
+                both: "<del>$396</del>&nbsp;$194"
+                ebookMonthly: "<del>$53</del>&nbsp;$37"
+                videoMonthly: "<del>$102</del>&nbsp;$71"
+                bothMonthly: "<del>$108</del>&nbsp;$75"
+                discount: "SPOOKY30"
+            start: 20221026
+            end: 20221031
 
 guidesIndividual:
     limited:
@@ -172,6 +227,15 @@ guidesIndividual:
                 discount: "ALMOSTSUMMER"
             start: 20220531
             end: 20220605
+        3:
+            prices:
+                ebook: "<del>$49</del>&nbsp;$34"
+                video: "<del>$94</del>&nbsp;$65"
+                both: "<del>$99</del>&nbsp;$69"
+                discount: "SPOOKY30"
+            start: 20221026
+            end: 20221031
+
 
 
 # Call

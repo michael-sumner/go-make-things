@@ -1,11 +1,11 @@
 ---
-title: Welcome, {{ replace .TranslationBaseName "-" " " | humanize }} listeners!
-date: {{ .Date }}
+title: Welcome, 5t3phDev viewers!
+date: 2022-10-26T11:00:10-04:00
 draft: false
-aliases: [""]
+aliases: ["steph-dev", "5t3phdev", "5t3ph-dev"]
 ---
 
-Thanks for listening to me chat with the team about JavaScript, the modern web, switching careers, ADHD, and more!
+Thanks for listening to me chat with Stephanie about JavaScript, the modern web, and more!
 
 I've put together a _ton_ of resources to help you dig deeper into building simpler, more resilient web experiences.
 
