@@ -131,9 +131,9 @@ It sometimes resulted in discounts for affluent European countries with lower sa
 
 I've looked into various calculators and third-party APIs, and even tried to do my own math on the Big Mac Index. I never felt confident about the results.
 
-But then I found [this Pricing Parity Calculator](https://www.exportator.com/purchasing-power-parity-pricing-calculator) that uses data from the OECD and World Bank. It's simple, clear, and I can reason about the math.
+~~But then I found [this Pricing Parity Calculator](https://www.exportator.com/purchasing-power-parity-pricing-calculator) that uses data from the OECD and World Bank. It's simple, clear, and I can reason about the math.~~
 
-So that's what I use.
+The calculator I used to use went offline after Heroku got rid of their free plans. I now use [the PPP API](https://purchasing-power-parity.com/), but manually store discount amounts for supported countries rather than calling it live for each purchase.
 
 ## What about cheaters?
 
