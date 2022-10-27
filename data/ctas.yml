@@ -116,22 +116,6 @@ ckPost:
         #     start: 20221010
         #     end: 20221016
 
-sponsorPre:
-    message: ""
-    limited:
-        0:
-            message: <p><em>Today’s newsletter is sponsored by <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly11&utm_content=v1">1Password Developer Tools</a>, a better way to secure secrets in your development workflows. More on that later.</em></p>
-            start: 20220711
-            end: 20220712
-
-sponsorPost:
-    message: ""
-    limited:
-        0:
-            message: <p><em><strong>A note from today's sponsor:</strong> From your first line of code to production, <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly11&utm_content=v1">1Password Developer Tools</a> can help streamline how you manage infrastructure secrets, keys, and credentials throughout the entire software development life cycle. Access credentials directly in your IDE, create and use SSH keys in seconds, log into dev tools with a fingerprint, automate secrets in production, and more.</em></p>
-            start: 20220711
-            end: 20220712
-
 rss:
     message: <p>{{upsells_rss}}</p>
     limited:
@@ -583,3 +567,21 @@ bioShort:
 # Products
 products:
     message: <ul class="list-spaced list-spaced-small"><li><strong><a href="https://gomakethings.com/articles/">Daily Developer Tips.</a></strong> I send out a short email each weekday with code snippets, techniques, and ideas on how to build a simpler, more resilient web.</li><li><strong><a href="https://vanillajsprojects.com">Projects.</a></strong> Each self-paced project includes a few short lessons and a template to get you started. Complete it on your own or code along with me.</li><li><strong><a href="https://vanillajsguides.com/">Courses &amp; Books.</a></strong> Short, focused video courses and ebooks made for beginners. Learn the ins-and-outs of a topic in about an hour.</li><li><strong><a href="https://vanillajsacademy.com/">Online Workshops.</a></strong> Work on fun projects, follow a structured learning path, and get the support you need to work through challenges.</li><li><strong><a href="https://gomakethings.com/consulting/">JavaScript Consulting.</a></strong> Get unlimited access to a JavaScript expert, reduce your risk on critical projects and avoid costly delays caused by common mistakes.</li></ul><p><strong>Looking for more?</strong> I also offer custom <a href="https://gomakethings.com/training">team training</a> and <a href="https://gomakethings.com/call">1-on-1 coaching calls</a>, maintain the <a href="https://vanillajstoolkit.com">JavaScript toolkit</a>, and <a href="https://vanillajspodcast.com">host a podcast</a>.</p><p>Can’t find what you’re looking for? Email me directly at <a href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;</a>.</p>
+
+
+# Sponsor Messages
+sponsorPre:
+    message: ""
+    limited:
+        0:
+            message: <p><em>Today’s newsletter is sponsored by <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly11&utm_content=v1">1Password Developer Tools</a>, a better way to secure secrets in your development workflows. More on that later.</em></p>
+            start: 20220711
+            end: 20220712
+
+sponsorPost:
+    message: ""
+    limited:
+        0:
+            message: <p><em><strong>A note from today's sponsor:</strong> From your first line of code to production, <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly11&utm_content=v1">1Password Developer Tools</a> can help streamline how you manage infrastructure secrets, keys, and credentials throughout the entire software development life cycle. Access credentials directly in your IDE, create and use SSH keys in seconds, log into dev tools with a fingerprint, automate secrets in production, and more.</em></p>
+            start: 20220711
+            end: 20220712

@@ -7,3 +7,5 @@ draft: false
 {{<mailchimp text="true">}}
 
 {{<cta for="funnel">}}
+
+_Looking for something specific? [Search for it here.](/search)_
