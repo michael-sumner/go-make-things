@@ -9,6 +9,8 @@ Thanks for listening to me chat with Stephanie about JavaScript, the modern web,
 
 I've put together a _ton_ of resources to help you dig deeper into building simpler, more resilient web experiences.
 
+<a class="btn" href="https://gist.github.com/cferdinandi/3408501c83a2d3c3f1e664817dd4b975">Source Code</a>
+
 {{<cta for="funnel">}}
 
 
