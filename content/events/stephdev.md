@@ -9,12 +9,18 @@ Thanks for listening to me chat with Stephanie about JavaScript, the modern web,
 
 I've put together a _ton_ of resources to help you dig deeper into building simpler, more resilient web experiences.
 
-<a class="btn" href="https://gist.github.com/cferdinandi/3408501c83a2d3c3f1e664817dd4b975">Source Code</a>
-
 {{<cta for="funnel">}}
 
 
 {{<mailchimp intro="true">}}
+
+
+## Recording & Source Code
+
+<iframe src="https://player.vimeo.com/video/765031482?h=0be670494f" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+<a class="btn" href="https://gist.github.com/cferdinandi/3408501c83a2d3c3f1e664817dd4b975">Source Code</a>
+
 
 
 ## Articles
