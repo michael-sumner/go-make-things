@@ -288,11 +288,11 @@ guide:
     message: ""
     limited:
         0:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $673 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $673 in free bonus gifts. <a href="https://gomakethings.com/black-friday-2022/">Click here to learn more.</a></em></mark></p>
             start: 20221117
             end: 20221119
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $673 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $673 in free bonus gifts. <a href="https://gomakethings.com/black-friday-2022/">Click here to learn more.</a></em></mark></p>
             start: 20221120
             end: 20221120
         2:
@@ -385,11 +385,11 @@ guidesAll:
     # message: <p><mark>🚀 <em><strong>New Course!</strong> Learn how to build <a href="/accessible-components/">accessible interactive components</a> with vanilla JS and level-up your developer game. <a href="/accessible-components/">Click here to learn more.</a></em></mark></p>
     limited:
         0:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $673 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $673 in free bonus gifts. <a href="https://gomakethings.com/black-friday-2022/">Click here to learn more.</a></em></mark></p>
             start: 20221117
             end: 20221119
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $673 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting tomorrow, save 50% on every ebook, video course, and bundle. If you buy a bundle, you'll also get $673 in free bonus gifts. <a href="https://gomakethings.com/black-friday-2022/">Click here to learn more.</a></em></mark></p>
             start: 20221120
             end: 20221120
         2:
@@ -444,11 +444,11 @@ academy:
     message: ""
     limited:
         0:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on Academy registration and get $673 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on Academy registration and get $673 in free bonus gifts. <a href="https://gomakethings.com/black-friday-2022/">Click here to learn more.</a></em></mark></p>
             start: 20221117
             end: 2022119
         1:
-            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting tomorrow, save 50% on Academy registration and get $673 in free bonus gifts. <a href="https://gomakethings.com/the-not-quite-black-friday-event/">Click here to learn more.</a></em></mark></p>
+            message: <p><mark>🔥 <em><strong>Black Friday Sale!</strong> Starting tomorrow, save 50% on Academy registration and get $673 in free bonus gifts. <a href="https://gomakethings.com/black-friday-2022/">Click here to learn more.</a></em></mark></p>
             start: 20221120
             end: 20221120
         2:
