@@ -66,7 +66,7 @@ Don’t put off learning vanilla JavaScript! If you’re not 100% satisfied with
 		<li>Downloadable Videos (in DRM-free MP4 format)</li>
 	    <li>The Source Code</li>
 	</ul>
-	<p><a class="btn btn-large edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=54159">Buy Now for $239</a></p>
+	<p><a class="btn btn-large edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=54159">Buy Now for $249</a></p>
 </div>
 
 <div class="padding-top-large padding-bottom">

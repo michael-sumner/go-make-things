@@ -1,5 +1,5 @@
 ---
-title: "Vanilla JavaScript Project Bundle"
+title: Classic Vanilla JS Project Bundle
 date: 2018-01-11T16:03:33-05:00
 draft: false
 ---
@@ -66,7 +66,7 @@ Don’t put off learning vanilla JavaScript! If you’re not 100% satisfied with
 	    <li>The Step-by-Step Tutorials</li>
 	    <li>Tips &amp; Resources</li>
 	</ul>
-	<p><a class="btn btn-large edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=39548">Buy Now for $119</a></p>
+	<p><a class="btn btn-large edd-buy-now-button" href="https://gomakethings.com/checkout?edd_action=add_to_cart&download_id=39548">Buy Now for $149</a></p>
 </div>
 
 <div class="padding-top-large padding-bottom">
