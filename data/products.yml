@@ -19,12 +19,12 @@
 academy:
     essentials:
         base: 60313
-        id: 7
-        monthly: 8
+        id: 9
+        monthly: 10
     advanced:
         base: 55598
-        id: 7
-        monthly: 8
+        id: 9
+        monthly: 10
     expert:
         base: 70777
         id: 1
