@@ -2,7 +2,6 @@
 title: Welcome, Unmiss viewers!
 date: 2022-11-08T00:32:03-05:00
 draft: false
-aliases: [""]
 ---
 
 Thanks for watching to me chat with Anatolii Ulitovskyi about JavaScript, the modern web, and more!
