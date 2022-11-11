@@ -28,9 +28,6 @@ In [Eleventy](https://www.11ty.dev/), you can [use the `include` tag](https://le
 In [Hugo](https://gohugo.io/) (the SSG that powers my websites), you can [use shortcodes in content files](https://gohugo.io/content-management/shortcodes/) or [partials in template files](https://gohugo.io/templates/partials/).
 
 ```go
-// A content shortcode
-{{< about >}}
-
 // A template partial
 {{ partial "partials/about.html" . }}
 ```
