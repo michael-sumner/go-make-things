@@ -39,6 +39,7 @@
 			{{- $.Scratch.Set "sponsorPost" (index $ctas "sponsor-post") -}}
 		{{- end -}}
 		{{ $all := where .Site.RegularPages "Type" .Params.feedType }}
+		{{ $summaryOnly := .Params.summaryOnly }}
 		{{ range first ($.Site.Params.rssLimit) $all }}
 			<item>
 				<title>{{ .Title }}</title>
@@ -47,7 +48,7 @@
 				{{- with .Site.Author.name -}}<dc:creator>{{.}}</dc:creator>{{end}}
 				<guid>{{ if eq .Type "links" }}{{ .Params.link }}{{ else }}{{ .Permalink }}{{- end -}}</guid>
 				<description>{{ `<![CDATA[ ` | safeHTML }}{{ .Summary | safeHTML }}]]></description>
-				<content:encoded>{{ `<![CDATA[ ` | safeHTML }}{{ $.Scratch.Get "sponsorPre" | safeHTML }}{{ $.Scratch.Get "newsletterPre" | safeHTML }}{{ .Content | safeHTML }}{{ $.Scratch.Get "sponsorPost" | safeHTML }}{{ $.Scratch.Get "newsletterPost" | safeHTML }}]]></content:encoded>
+				<content:encoded>{{ if $summaryOnly }}{{ `<![CDATA[ ` | safeHTML }}{{ .Summary | safeHTML }}]]>{{ else }}{{ `<![CDATA[ ` | safeHTML }}{{ $.Scratch.Get "sponsorPre" | safeHTML }}{{ $.Scratch.Get "newsletterPre" | safeHTML }}{{ .Content | safeHTML }}{{ $.Scratch.Get "sponsorPost" | safeHTML }}{{ $.Scratch.Get "newsletterPost" | safeHTML }}]]>{{ end }}</content:encoded>
 			</item>
 		{{ end }}
 	</channel>
