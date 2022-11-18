@@ -64,7 +64,7 @@ noIndex: true
 {{<project title="Daily Developer Tips" url="https://gomakethings.com" summary="A daily web developer newsletter with code snippets, tools, and modern web development techniques.">}}
 - Researched new trends and techniques, created demos, and wrote short tutorials for busy developers.
 - Answered reader questions and provided asynchronous "mentoring at scale."
-- Read by over {{<cta for="mc-subscriber-count">}} developers each weekday.
+- Read by over {{<cta for="ck-subscriber-count">}} developers each weekday.
 
 <div class="padding-top-small padding-bottom">{{<testimonial for="calebStauffer" photo="true">}}</div>
 {{</project>}}
