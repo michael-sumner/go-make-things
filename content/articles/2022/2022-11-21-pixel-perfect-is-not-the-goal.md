@@ -1,6 +1,6 @@
 ---
 title: Pixel perfect is not the goal
-date: 2022-11-18T10:30:00-04:00
+date: 2022-11-21T10:30:00-04:00
 draft: false
 categories:
 - Accessibility
