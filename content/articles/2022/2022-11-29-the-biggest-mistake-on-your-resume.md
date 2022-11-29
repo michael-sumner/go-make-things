@@ -31,6 +31,7 @@ A _Summary of Qualifications_ is a short blurb that summarizes why you’re such
 Ideally, it’s one or two sentences followed by a short bulleted list of skills. Here’s an example...
 
 > A front-end developer specializing in React, front-end UI, and web performance. Skills and experience include:
+>
 > - HTML
 > - CSS & Sass/SCSS
 > - Web Accessibility
