@@ -6,7 +6,7 @@ categories:
 - Careers
 ---
 
-On Monday, [we learned about Applicant Tracking Systems (or ATS)](/the-biggest-mistake-on-your-resume-and-how-to-fix-it/), and how they work. Yesterday, we looked at [the Objective section of a resume, and why it sucks](/the-biggest-mistake-on-your-resume-and-how-to-fix-it/).
+On Monday, [we learned about Applicant Tracking Systems (or ATS)](//your-resume-probably-wont-be-seen-by-a-human-and-how-to-fix-that/), and how they work. Yesterday, we looked at [the Objective section of a resume, and why it sucks](/the-biggest-mistake-on-your-resume-and-how-to-fix-it/).
 
 Today, we're going to explore some things you can do to your resume to make it more likely you'll actually get called in for an interview.
 
