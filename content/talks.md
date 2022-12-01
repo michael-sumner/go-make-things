@@ -36,6 +36,7 @@ I talk at meetups, conferences, and on podcasts about JavaScript and how to buil
 
 ## Podcast Appearances
 
+- [Code Newbies](https://www.codenewbie.org/podcast/the-new-wave-of-frontend-developer-tools-are-on-their-way), November 9, 2022
 - [Developer Yourself](https://open.spotify.com/episode/2DIROohIaWyGAMbSTlAknR), September 5, 2022
 - [JavaScript LA](https://www.youtube.com/watch?v=su89GGquMlI), April 1, 2022
 - [DevDiscuss](https://dev.to/devteam/listen-to-the-s8e7-of-devdiscuss-all-hail-jquery-or-not-155a), March 23, 2022
