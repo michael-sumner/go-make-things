@@ -34,8 +34,8 @@ academy:
         monthly: "$349"
         alumni: "$99"
     dates:
-        registrationStart: 20221121
-        registrationEnd: 20221130
+        registrationStart: 20230109
+        registrationEnd: 20230205
         start: "January 30"
         end: "March 11"
 
