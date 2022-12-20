@@ -34,7 +34,7 @@ It injects some styles and a form that looks like this, and makes an API call to
 
 You might have already noticed the issue with this form: it doesn't have a label for the `#email` field. 
 
-My student wanted to add one. Pretty reasonable! But... they couldn't make sense of what the script was doing, so I took a form them.
+My student wanted to add one. Pretty reasonable! But... they couldn't make sense of what the script was doing, so I took a look for them.
 
 **THE SCRIPT WAS LOADING THE ENTIRE REACT AND REACT DOM PRODUCTION LIBRARIES!** TO INJECT A FORM AND SUBMIT IT TO AN API!!!
 
