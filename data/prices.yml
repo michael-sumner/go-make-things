@@ -15,11 +15,11 @@ academy:
             end: 20221128
         2:
             prices:
-                price: "<del>$699</del>&nbsp;$419"
-                priceMonthly: "<del>$275</del>&nbsp;$165"
-                discount: "HOLIDAY2021"
-            start: 20211220
-            end: 20220103
+                price: "<del>$895</del>&nbsp;$537"
+                priceMonthly: "<del>$349</del>&nbsp;$209"
+                discount: "HOLIDAY2022"
+            start: 20221226
+            end: 20230103
         3:
             prices:
                 price: "<del>$895</del>&nbsp;$537"
@@ -62,15 +62,15 @@ guidesComplete:
             end: 20221128
         3:
             prices:
-                ebook: "<del>$637</del>&nbsp;$229"
-                video: "<del>$1,222</del>&nbsp;$440"
-                both: "<del>$1,287</del>&nbsp;$463"
-                ebookMonthly: "<del>$149</del>&nbsp;$89"
-                videoMonthly: "<del>$285</del>&nbsp;$171"
-                bothMonthly: "<del>$299</del>&nbsp;$179"
-                discount: "HOLIDAY2021"
-            start: 20211220
-            end: 20220103
+                ebook: "<del>$931</del>&nbsp;$335"
+                video: "<del>$1,786</del>&nbsp;$642"
+                both: "<del>$1,881</del>&nbsp;$660"
+                ebookMonthly: "<del>$217</del>&nbsp;$130"
+                videoMonthly: "<del>$415</del>&nbsp;$249"
+                bothMonthly: "<del>$428</del>&nbsp;$257"
+                discount: "HOLIDAY2022"
+            start: 20221226
+            end: 20230103
         4:
             prices:
                 ebook: "<del>$931</del>&nbsp;$268"
@@ -111,13 +111,13 @@ guidesBeginner:
             prices:
                 ebook: "<del>$245</del>&nbsp;$103"
                 video: "<del>$470</del>&nbsp;$197"
-                both: "<del>$495</del>&nbsp;$208"
+                both: "<del>$495</del>&nbsp;$209"
                 ebookMonthly: "<del>$67</del>&nbsp;$40"
                 videoMonthly: "<del>$129</del>&nbsp;$77"
                 bothMonthly: "<del>$134</del>&nbsp;$80"
-                discount: "HOLIDAY2021"
-            start: 20211220
-            end: 20220103
+                discount: "HOLIDAY2022"
+            start: 20221226
+            end: 20230103
         4:
             prices:
                 ebook: "<del>$245</del>&nbsp;$120"
@@ -158,13 +158,13 @@ guidesAdvanced:
             prices:
                 ebook: "<del>$245</del>&nbsp;$103"
                 video: "<del>$470</del>&nbsp;$197"
-                both: "<del>$495</del>&nbsp;$208"
+                both: "<del>$495</del>&nbsp;$209"
                 ebookMonthly: "<del>$67</del>&nbsp;$40"
                 videoMonthly: "<del>$129</del>&nbsp;$77"
                 bothMonthly: "<del>$134</del>&nbsp;$80"
-                discount: "HOLIDAY2021"
-            start: 20211220
-            end: 20220103
+                discount: "HOLIDAY2022"
+            start: 20221226
+            end: 20230103
         4:
             prices:
                 ebook: "<del>$245</del>&nbsp;$120"
@@ -204,15 +204,15 @@ guidesExpert:
 
         3:
             prices:
-                ebook: "<del>$147</del>&nbsp;$62"
-                video: "<del>$282</del>&nbsp;$118"
-                both: "<del>$297</del>&nbsp;$125"
-                ebookMonthly: "<del>$41</del>&nbsp;$25"
-                videoMonthly: "<del>$77</del>&nbsp;$46"
-                bothMonthly: "<del>$81</del>&nbsp;$49"
-                discount: "HOLIDAY2021"
-            start: 20211220
-            end: 20220103
+                ebook: "<del>$245</del>&nbsp;$103"
+                video: "<del>$470</del>&nbsp;$197"
+                both: "<del>$495</del>&nbsp;$209"
+                ebookMonthly: "<del>$67</del>&nbsp;$40"
+                videoMonthly: "<del>$129</del>&nbsp;$77"
+                bothMonthly: "<del>$134</del>&nbsp;$80"
+                discount: "HOLIDAY2022"
+            start: 20221226
+            end: 20230103
         4:
             prices:
                 ebook: "<del>$147</del>&nbsp;$73"
@@ -251,15 +251,15 @@ guidesDevTooling:
             end: 20221128
         3:
             prices:
-                ebook: "<del>$147</del>&nbsp;$62"
-                video: "<del>$282</del>&nbsp;$118"
-                both: "<del>$297</del>&nbsp;$125"
-                ebookMonthly: "<del>$41</del>&nbsp;$25"
-                videoMonthly: "<del>$77</del>&nbsp;$46"
-                bothMonthly: "<del>$81</del>&nbsp;$49"
-                discount: "HOLIDAY2021"
-            start: 20211220
-            end: 20220103
+                ebook: "<del>$196</del>&nbsp;$82"
+                video: "<del>$376</del>&nbsp;$158"
+                both: "<del>$396</del>&nbsp;$166"
+                ebookMonthly: "<del>$53</del>&nbsp;$32"
+                videoMonthly: "<del>$102</del>&nbsp;$61"
+                bothMonthly: "<del>$108</del>&nbsp;$65"
+                discount: "HOLIDAY2022"
+            start: 20221226
+            end: 20230103
         4:
             prices:
                 ebook: "<del>$147</del>&nbsp;$73"
@@ -293,11 +293,11 @@ guidesIndividual:
         3:
             prices:
                 ebook: "<del>$49</del>&nbsp;$29"
-                video: "<del>$94</del>&nbsp;$56"
+                video: "<del>$94</del>&nbsp;$57"
                 both: "<del>$99</del>&nbsp;$59"
-                discount: "HOLIDAY2021"
-            start: 20211220
-            end: 20220103
+                discount: "HOLIDAY2022"
+            start: 20221226
+            end: 20230103
         4:
             prices:
                 ebook: "<del>$49</del>&nbsp;$34"

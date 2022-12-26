@@ -19,10 +19,10 @@ ckPre:
             message: <p>🔥 <em><strong>Black Friday Sale!</strong> Starting Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $673 in free bonus gifts.</em></p>
             start: 20221117
             end: 20221118
-        # 1:
-        #     message: <p>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $673 in free bonus gifts.</em></p>
-        #     start: 20211220
-        #     end: 20220103
+        1:
+            message: <p>❄️ <em><strong>Holiday Sale!</strong> Now through the New Year, save 40% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $673 in free bonus gifts.</em></p>
+            start: 20221226
+            end: 20230103
         # 0:
         #     message: <p>☀️😎 <em><strong>Almost Summer Sale!</strong> This week only, get 30% off <a href="https://vanillajsguides.com">all of my Vanilla JS courses, books, and bundles</a>.</em></p>
         #     start: 20220531
@@ -541,6 +541,10 @@ bonusesList:
             message: <ul><li>Watch me live-code vanilla JS projects with the <a href="https://gomakethings.com/live-code/">Vanilla JS Live-Code Series</a>. Follow along, try it yourself first, or dig into the completed source code for over a dozen projects. <em>Valued at $249.</em></li><li>Get hands-on learning with real projects with the <a href="https://gomakethings.com/project-bundle/">Project Bundle</a>. You get starter templates, helpful tips and resources, and step-by-step tutorials. <em>Valued at $149.</em></li><li>Learn how to build insanely fast WordPress sites <a href="https://gomakethings.com/wicked-fast-websites/">Wicked Fast Websites</a>. You'll learn how to measure performance, reduce page weight, and make simple server optimizations. <em>Valued at $39.</em></li><li>Learn how to write resumes that get seen by an actual human, navigate the interview process, and more with my <a href="https://gomakethings.com/career-guide">Web Developer Career Guide</a>. <em>Valued at $39.</em></li><li>Watch my webinar on my favorite vanilla JS methods, browser APIs, and coding techniques. <em>Valued at $39.</em></li><li>Get access to 8 bonus projects normally only available to Vanilla JS Academy alumni. <em>Valued at $99.</em></li><li>Read my manifesto on building a simpler, more resilient web, <em><a href="https://leanweb.dev">The Lean Web</a></em>, in downloadable ebook format. <em>Valued at $29.</em></li><li>Get a copy of <em>the Best of Go Make Things</em>, a collection of the best articles from my newsletter this year. <em>Valued at $19.</em></li></ul>
             start: 20221121
             end: 20221128
+        2:
+            message: <ul><li>Watch me live-code vanilla JS projects with the <a href="https://gomakethings.com/live-code/">Vanilla JS Live-Code Series</a>. Follow along, try it yourself first, or dig into the completed source code for over a dozen projects. <em>Valued at $249.</em></li><li>Get hands-on learning with real projects with the <a href="https://gomakethings.com/project-bundle/">Project Bundle</a>. You get starter templates, helpful tips and resources, and step-by-step tutorials. <em>Valued at $149.</em></li><li>Learn how to build insanely fast WordPress sites <a href="https://gomakethings.com/wicked-fast-websites/">Wicked Fast Websites</a>. You'll learn how to measure performance, reduce page weight, and make simple server optimizations. <em>Valued at $39.</em></li><li>Learn how to write resumes that get seen by an actual human, navigate the interview process, and more with my <a href="https://gomakethings.com/career-guide">Web Developer Career Guide</a>. <em>Valued at $39.</em></li><li>Watch my webinar on my favorite vanilla JS methods, browser APIs, and coding techniques. <em>Valued at $39.</em></li><li>Get access to 8 bonus projects normally only available to Vanilla JS Academy alumni. <em>Valued at $99.</em></li><li>Read my manifesto on building a simpler, more resilient web, <em><a href="https://leanweb.dev">The Lean Web</a></em>, in downloadable ebook format. <em>Valued at $29.</em></li><li>Get a copy of <em>the Best of Go Make Things</em>, a collection of the best articles from my newsletter this year. <em>Valued at $19.</em></li></ul>
+            start: 20221226
+            end: 20230103
 
 bonusesGuides:
     message: ""
@@ -553,6 +557,10 @@ bonusesGuides:
             message: <h2>🎁 Exclusive Cyber Monday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle now through Monday, you'll also get <strong>$673 worth of bonus gifts</strong>. This offer ends Monday, so don't wait!</p>
             start: 20221128
             end: 20221128
+        3:
+            message: <h2>🎁 Exclusive Holiday Sale Bonus Gifts</h2><p>If you buy a pocket guide or video course bundle this week, you'll also get <strong>$673 worth of bonus gifts</strong>. This offer ends New Year's Day, so don't wait!</p>
+            start: 20221226
+            end: 20230103
 
 
 bonusesAcademy:
@@ -566,6 +574,10 @@ bonusesAcademy:
             message: <h2>🎁 Exclusive Cyber Monday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy now through Monday, you'll also get <strong>$673 worth of bonus gifts</strong>. This offer ends Monday, so don't wait!</p>
             start: 20221128
             end: 20221128
+        3:
+            message: <h2>🎁 Exclusive Holiday Sale Bonus Gifts</h2><p>If you join the Vanilla JS Academy this week, you'll also get <strong>$673 worth of bonus gifts</strong>. This offer ends New Year's Day, so don't wait!</p>
+            start: 20221226
+            end: 20230103
 
 
 # Bios
