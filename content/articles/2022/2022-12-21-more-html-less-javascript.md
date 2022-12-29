@@ -47,14 +47,16 @@ If it was a form built for my own site or app, I'd include it in my main stylesh
 
 If you're newer to web development, you might not realize this, but... forms don't need JavaScript to work!
 
-Every modern tutorial (including most of the ones I create) using JavaScript to handle form submission. But by default, forms send a `POST` request to whatever URL is included as the value of the `action` attribute, or the current URL if none is provided.
+Every modern tutorial (including most of the ones I create) using JavaScript to handle form submission. But by default, forms send a `GET` request to whatever URL is included as the value of the `action` attribute, or the current URL if none is provided. If you include a `method` attribute, it will use that method instead.
 
 You know the `event.preventDefault()` method in every ajax form handler? That's to stop the form from doing what it normally does.
 
-A more resilient form would use a server-side endpoint that can receive form data and process it. For our example form, let's add an `action` property. For this to work, each field also needs a `name` property.
+A more resilient form would use a server-side endpoint that can receive form data and process it. For our example form, let's add an `action` property. We want to use a `POST` method for this form, so we'll add a `method` attribute, too.
+
+For this to work, each field also needs a `name` property.
 
 ```html
-<form action="path/to/the/endpoint.php">
+<form action="path/to/the/endpoint.php" method="POST">
 	<label for="email">Enter your email</label>
 	<input type="email" id="email" name="email">
 	<button>Subscribe</button>
