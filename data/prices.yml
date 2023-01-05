@@ -25,15 +25,15 @@ academy:
                 price: "<del>$895</del>&nbsp;$537"
                 priceMonthly: "<del>$299</del>&nbsp;$209"
                 discount: "EARLYBIRD"
-            start: 20220919
-            end: 20220925
+            start: 20230104
+            end: 20230115
         4:
             prices:
                 price: "<del>$895</del>&nbsp;$672"
                 priceMonthly: "<del>$349</del>&nbsp;$277"
                 discount: "LASTCHANCE"
-            start: 20221003
-            end: 20221016
+            start: 20230123
+            end: 20230205
 
 # Pocket Guides
 guidesComplete:
