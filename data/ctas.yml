@@ -69,8 +69,8 @@ ckPost:
     limited:
         0:
             message: <p>Cheers,<br>Chris</p>
-            start: 20230104
-            end: 20230115
+            start: 20230206
+            end: 20230210
         # 1:
         #     message: <p>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $673 in free bonus gifts. This sale ends Monday, so don't wait!</em></p><p>Cheers,<br>Chris</p>
         #     start: 20221120
@@ -574,14 +574,14 @@ sponsorPre:
     message: ""
     limited:
         0:
-            message: <p><em>Today’s newsletter is sponsored by <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly11&utm_content=v1">1Password Developer Tools</a>, a better way to secure secrets in your development workflows. More on that later.</em></p>
-            start: 20220711
-            end: 20220712
+            message: <p><em>Today’s newsletter is sponsored by Developer Nation. You're officially invited to participate in the new global <a href="https://developereconomics.net/?member_id=gomakethings">Developer Nation survey</a>, the 24th edition.</em></p>
+            start: 20230206
+            end: 20230210
 
 sponsorPost:
     message: ""
     limited:
         0:
-            message: <p><em><strong>A note from today's sponsor:</strong> From your first line of code to production, <a href="https://1password.com/developers/?utm_source=gomakethings&utm_medium=newsletter&utm_campaign=gomakethingsjuly11&utm_content=v1">1Password Developer Tools</a> can help streamline how you manage infrastructure secrets, keys, and credentials throughout the entire software development life cycle. Access credentials directly in your IDE, create and use SSH keys in seconds, log into dev tools with a fingerprint, automate secrets in production, and more.</em></p>
-            start: 20220711
-            end: 20220712
+            message: <p><em><strong>A note from today's sponsor:</strong> Are you using the same platforms, technologies and apps? What have you stopped using and what are your pain points?<br><br><a href="https://www.developereconomics.net/?member_id=gomakethings">Take part</a> in the most complete survey and shape the key trends among developers for 2023! The more questions you answer the more chances you get to win amazing prizes!<br><br>Plus, for each completed response, Developer Nation will donate on behalf of each developer who completes our survey to a charity of respondents’ choosing. That's just one way to give back and support the global developer community too. You will find a question asking you to pick which charity you'd like us to support this time.<br><br>Hurry up, the survey will close in a few days, on February 12! <a href="https://www.developereconomics.net/?member_id=gomakethings">Start here.</a></em></p>
+            start: 20230206
+            end: 20230210
