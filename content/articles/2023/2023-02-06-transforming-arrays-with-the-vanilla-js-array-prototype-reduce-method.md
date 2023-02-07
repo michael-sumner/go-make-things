@@ -81,7 +81,7 @@ Either way, we'll return `arr` to use as the accumulator for the next `wizard`.
 ```js
 let wizardsWithStaffs = wizards.reduce(function (arr, wizard) {
 	if (wizard.tool === 'staff') {
-		arr.push(wizard);
+		arr.push(wizard.name);
 	}
 	return arr;
 }, []);
