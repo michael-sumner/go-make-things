@@ -44,7 +44,7 @@ Let's say you used [the `Element.classList.remove()` method](/how-to-add-and-rem
 ```js
 // Remove the .sandwich class from #pbj
 let pbj = document.querySelector('#pbj');
-pbj.classList.remove('.sandwich');
+pbj.classList.remove('sandwich');
 ```
 
 The `NodeList` assigned to the `sandwiches` variable still contains the `#pbj` element, even though it no longer has the `.sandwich` class.
