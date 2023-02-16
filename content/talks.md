@@ -36,6 +36,7 @@ I talk at meetups, conferences, and on podcasts about JavaScript and how to buil
 
 ## Podcast Appearances
 
+- [DevJourney](https://devjourney.info/Guests/240-ChrisFerdinandi), February 14, 2023
 - [JSParty](https://changelog.com/jsparty/258), January 13, 2023
 - [Doing Daily](https://doingdaily.transistor.fm/episodes/chris-ferdinandi), November 11, 2022
 - [Code Newbies](https://www.codenewbie.org/podcast/the-new-wave-of-frontend-developer-tools-are-on-their-way), November 9, 2022
