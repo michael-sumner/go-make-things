@@ -6,7 +6,7 @@ noTitle: true
 ---
 
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">1-on-1 Coaching Call</h1>
-<p class="text-xlarge margin-bottom-small text-serif">Get practical, real-time answers to your JavaScript questions.</p><p></p>
+<p class="text-xlarge margin-bottom-small text-serif">Get practical, real-time answers to your JavaScript questions.</p>
 
 <p><span class="text-large">Join a live video chat with JavaScript expert Chris Ferdinandi, and get the support you need to work through your challenges.</span></p>
 
