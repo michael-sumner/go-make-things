@@ -5,15 +5,15 @@
 {{- if eq $index 1 -}}
 	{{ $data.questionRSS | safeHTML }}
 {{- else if eq $index 2 -}}
-	{{ $data.shareRSS | safeHTML }}
-{{- else if eq $index 3 -}}
 	{{ $data.guides | safeHTML }}
+{{- else if eq $index 3 -}}
+	{{ $data.shareRSS | safeHTML }}
 {{- else if eq $index 4 -}}
 	{{ $data.academy | safeHTML }}
 {{- else if eq $index 5 -}}
 	{{ $data.projects | safeHTML }}
 {{- else if eq $index 6 -}}
-	{{ $data.training | safeHTML }}
+	{{ $data.membership | safeHTML }}
 {{- else -}}
-	{{ $data.consulting | safeHTML }}
+	{{ $data.training | safeHTML }}
 {{- end -}}
