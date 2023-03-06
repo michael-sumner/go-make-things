@@ -1,12 +1,12 @@
 ---
-title: "Membership"
+title: Lean Web Club
 date: 2018-01-11T16:03:33-05:00
 draft: false
 noTitle: true
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5 text-sans">Become a member of the GMT inner circle</h1>
-<p class="text-xlarge margin-bottom-small text-serif">Join a community of developers who want a simpler and more resilient web.</p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">Join the Lean Web Club 🏴‍☠️</h1>
+<p class="text-xlarge margin-bottom-small text-serif">Join a community of developers who want to build a simpler, more resilient web.</p>
 
 <p><span class="text-large">You get access to my private Slack, a bunch of free bonus gifts, and help me create more vanilla JavaScript learning resources.</span></p>
 
