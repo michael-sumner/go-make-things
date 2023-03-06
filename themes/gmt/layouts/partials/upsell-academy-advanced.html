@@ -5,11 +5,11 @@
 {{- if eq $index 1 -}}
 	{{ $data.question | safeHTML }}
 {{- else if eq $index 2 -}}
-	{{ $data.projectsPurchased | safeHTML }}
+	{{ $data.academyExpert | safeHTML }}
 {{- else if eq $index 3 -}}
 	{{ $data.share | safeHTML }}
 {{- else if eq $index 4 -}}
-	{% if subscriber.tags contains "PRODUCTS: Membership" %}{{ $data.question | safeHTML }}{% else %}{{ $data.membership | safeHTML }}{% endif %}
+	{{ $data.projectsPurchased | safeHTML }}
 {{- else -}}
 	{{ $data.training | safeHTML }}
 {{- end -}}

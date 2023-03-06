@@ -5,9 +5,9 @@
 {{- if eq $index 1 -}}
 	{{ $data.question | safeHTML }}
 {{- else if eq $index 2 -}}
-	{{ $data.share | safeHTML }}
+	{{ $data.academyExpert | safeHTML }}
 {{- else if eq $index 3 -}}
-	{% if subscriber.tags contains "PRODUCTS: Membership" %}{{ $data.question | safeHTML }}{% else %}{{ $data.membership | safeHTML }}{% endif %}
+	{{ $data.share | safeHTML }}
 {{- else -}}
 	{{ $data.training | safeHTML }}
 {{- end -}}
