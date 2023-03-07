@@ -1,14 +1,14 @@
 ---
-title: "JavaScript Training for Teams"
+title: "Custom JavaScript Training"
 date: 2018-01-11T16:03:33-05:00
 draft: false
 noTitle: true
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5 text-sans">JavaScript Training for Teams</h1>
-<p class="text-xlarge margin-bottom-small text-serif">Level-up your team's core JavaScript skills.</p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">Custom JavaScript Training</h1>
+<p class="text-xlarge margin-bottom-small text-serif">Level-up your team's JavaScript skills.</p>
 
-<p><span class="text-large">Project-based courses and workshops designed to fit around your team's schedule. Perfect for remote and distributed teams.</span></p>
+<p><span class="text-large">A mix of self-paced courses, hands-on workshops, and mentoring customized to fit you and your teams unique needs.</span></p>
 
 <p class="margin-bottom-large"><a class="btn" href="#ready-to-buy">Get in Touch &rarr;</a></p>
 
@@ -42,12 +42,13 @@ noTitle: true
 
 ## How it Works
 
-My JavaScript training for teams includes a combination of approaches designed for deeper learning and better retention with remote teams.
+I'll work with you to design a JavaScript training program customized to your team's unique needs. Custom programs can include a mix of approaches designed for deeper learning and better retention with remote teams.
 
 - **Self-Paced Learning.** Short, focused lessons in both video and text format that your team can watch or read from anywhere.
 - **Project-Based Workshops.** Hands-on projects that reinforce learning and build skills your team can use on your own projects.
 - **Private Community.** Some of the best lightbulb moments happen when learners share what they're learning with each other and ask questions.
 - **Office Hours.** Unstructured video calls where learners can ask open-ended questions and dig deeper into specific challenges they're facing.
+- **Mentoring.** Ongoing and personalized support to accelerate learning.
 
 <div class="padding-top-large padding-bottom">
 	{{<testimonial for="hbs" photo="true">}}
@@ -55,7 +56,7 @@ My JavaScript training for teams includes a combination of approaches designed f
 
 ## Training Topics
 
-I offer training on a variety of topics. They can be mixed-and-matched to meet the unique needs of your team.
+Training programs can be customized to include a variety of JavaScript topics. They can be mixed-and-matched to meet the unique needs of your team.
 
 <div class="list-spaced">
 {{%md%}}
@@ -73,8 +74,8 @@ I offer training on a variety of topics. They can be mixed-and-matched to meet t
 <div class="callout" id="ready-to-buy">
 	<h2>Get in touch</h2>
 	<p>Are you ready to take your team’s JavaScript skills to the next level?</p>
-	<p>Send me an email at {{<email>}} to start a conversation and see if Team Training would be a good fit for your team.</p>
-	<p><a class="btn btn-large btn-block edd-buy-now-button" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Team%20Training&body=Hi,%20I'm%20interested%20in%20JavaScript%20Training%20for%20my%20team%20of%20[number%20of%20people]%20at%20[organization]%20.%20Thanks!">Apply for the Team Training</a><p>
+	<p>Send me an email at {{<email>}} to start a conversation and see if custom training would be a good fit for your team.</p>
+	<p><a class="btn btn-large btn-block edd-buy-now-button" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Custom%20Training&body=Hi,%20I'm%20interested%20in%20JavaScript%20Training%20for%20my%20team%20of%20[number%20of%20people]%20at%20[organization]%20.%20Thanks!">Apply for Custom Training</a><p>
 </div>
 
 <div class="padding-top-large padding-bottom-large">{{<testimonial for="leticiaOneill2" photo="true">}}</div>
