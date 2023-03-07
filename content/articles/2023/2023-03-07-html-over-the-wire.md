@@ -16,7 +16,7 @@ Recently, reader [Andrew Chan](https://www.linkedin.com/in/ajchan/) wrote to me 
 
 **The tl;dr:** I think sending more HTML and less JavaScript is always a good thing. It's really at the core of what I teach.
 
-I also think SSR (Static Site Rendering) apps are amazing! I run my entire business with [Hugo](/hugo-and-static-site-generators/). If I were starting today, I'd likely do the same thing with [11ty](https://www.11ty.dev/).
+I also think SSR (Static Site Rendering) apps are amazing! I run my entire business with [Hugo](/series/hugo-and-static-site-generators/). If I were starting today, I'd likely do the same thing with [11ty](https://www.11ty.dev/).
 
 My love stops with "HTML over the wire," though.
 
