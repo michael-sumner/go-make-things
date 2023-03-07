@@ -1,4 +1,4 @@
-{{- $num := 5 -}}
+{{- $num := 6 -}}
 {{- $index := (mod (math.Floor (div (add now.YearDay 7) 7)) $num) -}}
 {{- $data := $.Site.Data.upsells -}}
 
@@ -10,6 +10,8 @@
 	{{ $data.share | safeHTML }}
 {{- else if eq $index 4 -}}
 	{{ $data.projectsPurchased | safeHTML }}
+{{- else if eq $index 5 -}}
+	{% if subscriber.tags contains "PRODUCTS: Membership" %}{{ $data.question | safeHTML }}{% else %}{{ $data.membership | safeHTML }}{% endif %}
 {{- else -}}
 	{{ $data.training | safeHTML }}
 {{- end -}}
