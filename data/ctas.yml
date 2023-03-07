@@ -574,14 +574,14 @@ sponsorPre:
     message: ""
     limited:
         0:
-            message: <p><em>Today’s newsletter is sponsored by Developer Nation. You're officially invited to participate in the new global <a href="https://developereconomics.net/?member_id=gomakethings">Developer Nation survey</a>, the 24th edition.</em></p>
-            start: 20230206
-            end: 20230210
+            message: <p><em>Today’s newsletter is sponsored by the Developer Nation community, who are hosting <a href="https://survey.developernation.net/name/sndp1/?member_id=gomakethings">the Developer Productivity survey</a>. More on them shortly...</em></p>
+            start: 20230320
+            end: 20230324
 
 sponsorPost:
     message: ""
     limited:
         0:
-            message: <p><em><strong>A note from today's sponsor:</strong> Are you using the same platforms, technologies and apps? What have you stopped using and what are your pain points?<br><br><a href="https://www.developereconomics.net/?member_id=gomakethings">Take part</a> in the most complete survey and shape the key trends among developers for 2023! The more questions you answer the more chances you get to win amazing prizes!<br><br>Plus, for each completed response, Developer Nation will donate on behalf of each developer who completes our survey to a charity of respondents’ choosing. That's just one way to give back and support the global developer community too. You will find a question asking you to pick which charity you'd like us to support this time.<br><br>Hurry up, the survey will close in a few days, on February 12! <a href="https://www.developereconomics.net/?member_id=gomakethings">Start here.</a></em></p>
-            start: 20230206
-            end: 20230210
+            message: <p><em><strong>A note from today's sponsor:</strong> Participate in the latest Developer Productivity survey, and share your insights on the tools, processes, and habits that help you get more done in less time.<br><br>Which are the biggest productivity barriers? <a href="https://survey.developernation.net/name/sndp1/?member_id=gomakethings">This 5-minute survey for developers</a> is looking to shed some light on what needs to be improved when it comes to increasing productivity and feeling happy at work.<br><br>By completing the survey, you’ll be contributing to the creation of key trends and best practices that will help you and other developers maximize productivity in your day-to-day work. Don’t miss out on this opportunity to make a real difference in the developer community. <a href="https://survey.developernation.net/name/sndp1/?member_id=gomakethings">Take the Developer Productivity survey!</a></em></p>
+            start: 20230320
+            end: 20230324
