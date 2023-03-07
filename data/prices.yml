@@ -8,32 +8,32 @@ academy:
     limited:
         1:
             prices:
-                price: "<del>$895</del>&nbsp;$448"
-                priceMonthly: "<del>$349</del>&nbsp;$174"
+                price: "<del>$995</del>&nbsp;$448"
+                priceMonthly: "<del>$387</del>&nbsp;$174"
                 discount: "BLACKFRIDAY2022"
             start: 20221121
             end: 20221128
         2:
             prices:
-                price: "<del>$895</del>&nbsp;$537"
-                priceMonthly: "<del>$349</del>&nbsp;$209"
+                price: "<del>$995</del>&nbsp;$597"
+                priceMonthly: "<del>$387</del>&nbsp;$209"
                 discount: "HOLIDAY2022"
             start: 20221226
             end: 20230103
         3:
             prices:
-                price: "<del>$895</del>&nbsp;$537"
-                priceMonthly: "<del>$299</del>&nbsp;$209"
+                price: "<del>$995</del>&nbsp;$597"
+                priceMonthly: "<del>$299</del>&nbsp;$232"
                 discount: "EARLYBIRD"
-            start: 20230104
-            end: 20230115
+            start: 20230313
+            end: 20230319
         4:
             prices:
-                price: "<del>$895</del>&nbsp;$672"
-                priceMonthly: "<del>$349</del>&nbsp;$277"
+                price: "<del>$995</del>&nbsp;$697"
+                priceMonthly: "<del>$387</del>&nbsp;$271"
                 discount: "LASTCHANCE"
-            start: 20230123
-            end: 20230205
+            start: 20230327
+            end: 20230409
 
 # Pocket Guides
 guidesComplete:

@@ -19,25 +19,25 @@
 academy:
     essentials:
         base: 60313
-        id: 9
-        monthly: 10
+        id: 11
+        monthly: 12
     advanced:
         base: 55598
-        id: 9
-        monthly: 10
+        id: 11
+        monthly: 12
     expert:
         base: 70777
-        id: 1
-        monthly: 2
+        id: 3
+        monthly: 4
     prices:
-        standard: "$895"
-        monthly: "$349"
+        standard: "$995"
+        monthly: "$387"
         alumni: "$99"
     dates:
-        registrationStart: 20221226
-        registrationEnd: 20230205
-        start: "January 30"
-        end: "March 11"
+        registrationStart: 20230313
+        registrationEnd: 20230409
+        start: "April 3"
+        end: "May 13"
 
 
 
