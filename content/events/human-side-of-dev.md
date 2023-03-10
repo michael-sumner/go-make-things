@@ -1,11 +1,11 @@
 ---
-title: Welcome, {{ replace .TranslationBaseName "-" " " | humanize }} listeners!
-date: {{ .Date }}
+title: Welcome, Human Side of Dev listeners!
+date: 2023-03-10T10:23:40-05:00
 draft: false
-aliases: [""]
+aliases: ["/humansideofdev/"]
 ---
 
-Thanks for listening to me chat with the team about JavaScript, the modern web, switching careers, ADHD, and more!
+Thanks for listening to me chat with the Lindasy about JavaScript, the modern web, switching careers, ADHD, and more!
 
 I've put together a _ton_ of resources to help you dig deeper into building simpler, more resilient web experiences.
 
@@ -17,6 +17,14 @@ I've put together a _ton_ of resources to help you dig deeper into building simp
 
 ## Articles
 
+- [Being a developer with ADHD](/being-a-developer-with-adhd/)
+- [Do I have ADHD?](/do-i-have-adhd/)
+- [Your resume probably won't be seen by a human](/your-resume-probably-wont-be-seen-by-a-human-and-how-to-fix-that/)
+- [The biggest mistake on your resume](/the-biggest-mistake-on-your-resume-and-how-to-fix-it/)
+- [How to write resumes that get you an interview](/how-to-write-resumes-that-get-you-an-interview/)
+- [Coffee chats](/coffee-chats/)
+- [Interview red flags](/interview-red-flags/)
+- [Finding a job that's a good fit](/finding-a-job-thats-a-good-fit/)
 - [HTML first](/html-first/)
 - [Under-engineer](/under-engineer/)
 - [The Transitional Web](/the-transitional-web/)
@@ -37,16 +45,7 @@ I've put together a _ton_ of resources to help you dig deeper into building simp
 - [Always bet on HTML](/always-bet-on-html/)
 - [How I structure my vanilla JS projects](/how-i-structure-my-javascript-projects-in-2022/)
 - [Accessibility is hard. It's also your job.](/accessibility-is-hard.-its-also-your-job./)
-- [Just because a big, well-known tech company does something doesn't mean you should, too](/just-because-a-big-well-known-tech-company-does-something-doesnt-mean-you-should-too/)
 - [Your website data is a lie](/your-website-data-is-a-lie/)
-- [Being a developer with ADHD](/being-a-developer-with-adhd/)
-- [Do I have ADHD?](/do-i-have-adhd/)
-- [Your resume probably won't be seen by a human](/your-resume-probably-wont-be-seen-by-a-human-and-how-to-fix-that/)
-- [The biggest mistake on your resume](/the-biggest-mistake-on-your-resume-and-how-to-fix-it/)
-- [How to write resumes that get you an interview](/how-to-write-resumes-that-get-you-an-interview/)
-- [Coffee chats](/coffee-chats/)
-- [Interview red flags](/interview-red-flags/)
-- [Finding a job that's a good fit](/finding-a-job-thats-a-good-fit/)
 
 
 ## Free Courses & Ebooks
