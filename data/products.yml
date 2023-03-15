@@ -41,6 +41,17 @@ academy:
 
 
 
+
+##
+## Shorts
+##
+
+shorts:
+    single: "$29"
+
+
+
+
 ##
 ## Pocket Guides
 ##
@@ -49,14 +60,6 @@ guides:
     ebook: "$49"
     video: "$94"
     both: "$99"
-
-# guidesComplete:
-#     ebook: "<del>$735</del>&nbsp;$441"
-#     video: "<del>$1,410</del>&nbsp;$846"
-#     both: "<del>$1,485</del>&nbsp;$891"
-#     ebookMonthly: "$172"
-#     videoMonthly: "$329"
-#     bothMonthly: "$347"
 
 guidesComplete:
     ebook: "<del>$931</del>&nbsp;$559"
@@ -118,64 +121,3 @@ extraCredit:
 projects:
     id: 62522
     price: "FREE"
-
-
-
-##
-## Defunct Products
-##
-
-# projectDetails:
-#     complete:
-#         id: "37221"
-#         description: "Every project in the collection, including any new ones that come out in the future."
-#         url: "/complete-set/"
-#         ready: false
-#     fortuneTeller:
-#         id: "37213"
-#         description: "See into the future by building a fortune-teller app that provides answers to any question."
-#         url: "/fortune-teller/"
-#         ready: true
-#     rockPaperScissors:
-#         id: "37215"
-#         description: "Play even when your friends aren't around by making an interactive JavaScript game."
-#         url: "/rock-paper-scissors/"
-#         ready: false
-#     drumMachine:
-#         id: "37217"
-#         description: "Make, record, and loop your own beats by building a drum machine app."
-#         url: "/drum-machine/"
-#         ready: false
-#     pegArt:
-#         id: "37219"
-#         description: "Channel your inner artist and build a peg art game. Place colored pegs onto a game board to create beautiful pictures."
-#         url: "/peg-art-game/"
-#         ready: false
-
-# projects:
-#     ebook: "$29"
-#     video: "$69"
-#     both: "$74"
-
-# projectsComplete:
-#     ebook: "$79"
-#     video: "$189"
-#     both: "$207"
-
-# careerGuide: "$39"
-# wickedFastWebsites: "$39"
-# mentoring: "$1199/month"
-# training: "$3,999"
-# consulting: "$7,999/month"
-
-# guidesTeams:
-#     ten: "<del>$7,720</del>&nbsp;$3,860"
-#     fifteen: "<del>$11,580</del>&nbsp;$5,790"
-#     twenty: "<del>$15,440</del>&nbsp;$7,720"
-#     thirty: "<del>$23,160</del>&nbsp;$11,580"
-#     fourty: "<del>$30,880</del>&nbsp;$15,440"
-
-# academyTeams:
-#     price: "$20,000"
-
-# prepSchool: "$99"
