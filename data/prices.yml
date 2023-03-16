@@ -308,6 +308,18 @@ guidesIndividual:
             end: 20220605
 
 
+shorts:
+    limited:
+        1:
+            prices:
+                single: "<del>$29</del>&nbsp;$20"
+                bundle: "<del>$290</del>&nbsp;$139"
+                monthly: "<del>$77</del>&nbsp;$54"
+                discount: "SPOOKY30"
+            start: 20221026
+            end: 20221031
+
+
 
 # Call
 # Nothing yet...
