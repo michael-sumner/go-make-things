@@ -1,6 +1,6 @@
 ---
 title: let, const, and var in vanilla JavaScript
-date: 2023-03-16T10:30:00-04:00
+date: 2023-03-17T10:30:00-04:00
 draft: false
 categories:
 - Code
