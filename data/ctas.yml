@@ -69,8 +69,8 @@ ckPost:
     limited:
         0:
             message: <p>Cheers,<br>Chris</p>
-            start: 20230308
-            end: 20230319
+            start: 20230320
+            end: 20230324
         # 1:
         #     message: <p>🔥 <em><strong>Black Friday Sale!</strong> Today through Monday, save 50% on every <a href="https://vanillajsguides.com">pocket guide, video course</a>, and <a href="https://vanillajsacademy.com">enrollment in the Vanilla JS Academy</a>. If you buy a pocket guide bundle or join Academy, you'll also get $673 in free bonus gifts. This sale ends Monday, so don't wait!</em></p><p>Cheers,<br>Chris</p>
         #     start: 20221120
