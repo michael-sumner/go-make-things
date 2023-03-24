@@ -28,6 +28,7 @@
 	exec('cd /srv/users/serverpilot/apps/vanillajsprojects/build && /usr/local/bin/hugo && cp -r /srv/users/serverpilot/apps/vanillajsprojects/build/public/. /srv/users/serverpilot/apps/vanillajsprojects/public');
 	exec('cd /srv/users/serverpilot/apps/vanillajsprepschool/build && /usr/local/bin/hugo && cp -r /srv/users/serverpilot/apps/vanillajsprepschool/build/public/. /srv/users/serverpilot/apps/vanillajsprepschool/public');
 	exec('cd /srv/users/serverpilot/apps/gomakethings/build && /usr/local/bin/hugo && cp -r /srv/users/serverpilot/apps/gomakethings/build/public/. /srv/users/serverpilot/apps/gomakethings/public');
+	exec('cd /srv/users/serverpilot/apps/techeducators/build && /usr/local/bin/hugo && cp -r /srv/users/serverpilot/apps/techeducators/build/public/. /srv/users/serverpilot/apps/techeducators/public');
 
 	// Log the deployment
 	file_put_contents('rebuild.log', date('m/d/Y h:i:s a') . ' Rebuilt all the sites' . "\n", FILE_APPEND);
