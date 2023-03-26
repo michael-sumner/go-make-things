@@ -63,6 +63,22 @@ guides:
     video: "$94"
     both: "$99"
 
+guidesFundamentals:
+    ebook: "$205"
+    video: "$395"
+    both: "$399"
+    ebookMonthly: "$79"
+    videoMonthly: "$154"
+    bothMonthly: "$155"
+
+guidesLevelup:
+    ebook: "$205"
+    video: "$395"
+    both: "$399"
+    ebookMonthly: "$79"
+    videoMonthly: "$154"
+    bothMonthly: "$155"
+
 guidesComplete:
     ebook: "<del>$931</del>&nbsp;$559"
     video: "<del>$1,786</del>&nbsp;$1,070"
