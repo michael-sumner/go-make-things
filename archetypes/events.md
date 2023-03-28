@@ -23,6 +23,7 @@ I've put together a _ton_ of resources to help you dig deeper into building simp
 - [Congrats, you're a front end developer!](/congrats-youre-a-front-end-developer/)
 - [What framework should I use?](/what-framework-should-i-use/)
 - [How to choose between developer tools](/how-to-choose-between-developer-tools/)
+- [Ditching TypeScript for vanilla JS](/ditching-typescript-for-javascript/)
 - [SPAs were a mistake](/spas-were-a-mistake/)
 - [How to make MPAs that are as fast as SPAs](/how-to-make-mpas-that-are-as-fast-as-spas/)
 - [Web development can literally kill people](/web-development-can-literally-kill-people/)
