@@ -110,7 +110,7 @@ let data = new Proxy({}, {
 		obj[key] = value;
 
 		// Find the matching fields in the DOM
-		let fields = document.querySelectorAll(`[name="${key}"`);
+		let fields = document.querySelectorAll(`[name="${key}"]`);
 		for (let field of fields) {
 			field.value = value;
 		}
