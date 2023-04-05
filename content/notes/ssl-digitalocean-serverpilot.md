@@ -2,12 +2,12 @@
 title: How to install a Let's Encrypt SSL certificate with ServerPilot and DigitalOcean
 url: /ssl-digitalocean-serverpilot
 date: 2021-01-05T10:30:00-05:00
-lastmod: 2021-01-05T10:30:00-05:00
+lastmod: 2023-04-04T10:30:00-05:00
 ---
 
 Back in 2016, Cormac Bracken wrote a fantastic article on [how to install a free Let's Encrypt SSL certificate with ServerPilot and DigitalOcean](https://www.redhotlemon.com/dev-blog/free-ssl-with-lets-encrypt-on-serverpilot-with-multiple-domains/) when you have multiple domains on a single droplet.
 
-I reference it constantly, and because I don't trust that the article won't someday disappear, I wanted to document the most important parts on my own site.
+Since then, several things have changed. I've created my own reference here that I keep relatively up-to-date.
 
 (_The stuff in all caps should get replaced with your own details._)
 
@@ -33,16 +33,17 @@ su
 
 In order for this to work, you first have to install Let's Encrypt on your DigitalOcean droplet. Once it's installed, you can jump straight to the next section for additional domains and skip this step.
 
-Next, you need install the Let's Encrypt package from GitHub.
+While Let's Encrypt recommends using Snap, it's not available on DigitalOcean's VPS environment. You can install the Let's Encrypt package using APT.
 
 ```bash
-git clone https://github.com/letsencrypt/letsencrypt /opt/letsencrypt
+apt update
+apt install certbot
 ```
 
 Finally, check that everything worked OK.
 
 ```bash
-/opt/letsencrypt/letsencrypt-auto --help
+certbot --help
 ```
 
 
@@ -51,7 +52,7 @@ Finally, check that everything worked OK.
 Replace the stuff in caps with your info. Replace `YOURAPP` with the name of your application in ServerPilot.
 
 ```bash
-/opt/letsencrypt/letsencrypt-auto certonly --agree-tos --email YOU@YOUREMAIL.com --webroot -w /srv/users/serverpilot/apps/YOURAPP/public -d YOURSITE.com -d www.YOURSITE.com
+certbot certonly --agree-tos --email YOU@YOUREMAIL.com --webroot -w /srv/users/serverpilot/apps/YOURAPP/public -d YOURSITE.com -d www.YOURSITE.com
 ```
 
 _**Note:** If your droplet has some weird security settings, you may need to add the flag `--preferred-challenge dns`. Try it without the flag first._
@@ -162,7 +163,7 @@ Copy/paste the following script into your file, replacing the stuff in all caps 
 
 ```bash
 #!/bin/sh
-/opt/letsencrypt/letsencrypt-auto renew --agree-tos --email YOU@YOUREMAIL.com --post-hook "service nginx-sp restart" >> /opt/logs/renew-ssl.log
+certbot renew --agree-tos --email YOU@YOUREMAIL.com --post-hook "service nginx-sp restart" >> /opt/logs/renew-ssl.log
 ```
 
 Next, open your `crontab` file. Copy/paste this into the file, then exit and save.
