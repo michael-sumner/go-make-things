@@ -22,6 +22,7 @@
 	exec('cd /srv/users/serverpilot/apps/vanillajspodcast/build && /usr/local/bin/hugo && cp -r /srv/users/serverpilot/apps/vanillajspodcast/build/public/. /srv/users/serverpilot/apps/vanillajspodcast/public');
 	exec('cd /srv/users/serverpilot/apps/vanillajsguides/build && /usr/local/bin/hugo && cp -r /srv/users/serverpilot/apps/vanillajsguides/build/public/. /srv/users/serverpilot/apps/vanillajsguides/public');
 	exec('cd /srv/users/serverpilot/apps/vanillajsacademy/build && /usr/local/bin/hugo && cp -r /srv/users/serverpilot/apps/vanillajsacademy/build/public/. /srv/users/serverpilot/apps/vanillajsacademy/public');
+	exec('cd /srv/users/serverpilot/apps/vanillajsshorts/build && /usr/local/bin/hugo && cp -r /srv/users/serverpilot/apps/vanillajsshorts/build/public/. /srv/users/serverpilot/apps/vanillajsshorts/public');
 	exec('cd /srv/users/serverpilot/apps/learnvanillajs/build && /usr/local/bin/hugo && cp -r /srv/users/serverpilot/apps/learnvanillajs/build/public/. /srv/users/serverpilot/apps/learnvanillajs/public');
 	exec('cd /srv/users/serverpilot/apps/vanillajstoolkit/build && /usr/local/bin/hugo && cp -r /srv/users/serverpilot/apps/vanillajstoolkit/build/public/. /srv/users/serverpilot/apps/vanillajstoolkit/public');
 	exec('cd /srv/users/serverpilot/apps/theleanweb/build && /usr/local/bin/hugo && cp -r /srv/users/serverpilot/apps/theleanweb/build/public/. /srv/users/serverpilot/apps/theleanweb/public');
