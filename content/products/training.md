@@ -5,10 +5,10 @@ draft: false
 noTitle: true
 ---
 
-<h1 class="no-padding-top no-margin-bottom h5 text-sans">Custom JavaScript Training</h1>
-<p class="text-xlarge margin-bottom-small text-serif">Level-up your team's JavaScript skills.</p>
+<h1 class="no-padding-top no-margin-bottom h5 text-sans">JavaScript Training for Teams</h1>
+<p class="text-xlarge margin-bottom-small text-serif">Give your team the skills they need to get more done with limited resources.</p>
 
-<p><span class="text-large">A mix of self-paced courses, hands-on workshops, and mentoring customized to fit you and your teams unique needs.</span></p>
+<p><span class="text-large">Team training is a cost-effective way to grow and retain the team you have during these challenging economic times.</span></p>
 
 <p class="margin-bottom-large"><a class="btn" href="#ready-to-buy">Get in Touch &rarr;</a></p>
 
@@ -42,30 +42,28 @@ noTitle: true
 
 ## How it Works
 
-I'll work with you to design a JavaScript training program customized to your team's unique needs. Custom programs can include a mix of approaches designed for deeper learning and better retention with remote teams.
+JavaScript training is customized to your team's needs, and can include a mix of approaches designed for deeper learning and better retention.
 
 - **Self-Paced Learning.** Short, focused lessons in both video and text format that your team can watch or read from anywhere.
-- **Project-Based Workshops.** Hands-on projects that reinforce learning and build skills your team can use on your own projects.
-- **Private Community.** Some of the best lightbulb moments happen when learners share what they're learning with each other and ask questions.
-- **Office Hours.** Unstructured video calls where learners can ask open-ended questions and dig deeper into specific challenges they're facing.
-- **Mentoring.** Ongoing and personalized support to accelerate learning.
+- **Project-Based Workshops.** Hands-on, immersive learning that can be immediately applied to your team's projects.
+- **Ongoing Support.** A mix of chat-based communities, live video discussions, and mentoring to dig deeper into specific challenges your team is facing.
 
 <div class="padding-top-large padding-bottom">
 	{{<testimonial for="hbs" photo="true">}}
 </div>
 
-## Training Topics
+## What your team will learn
 
-Training programs can be customized to include a variety of JavaScript topics. They can be mixed-and-matched to meet the unique needs of your team.
+Team training can include a variety of topics, and can be mixed-and-matched to meet the unique needs of your team.
 
-<div class="list-spaced">
-{{%md%}}
-1. **JavaScript Essentials.** Learn the fundamentals of DOM manipulation and injection, working with APIs and asynchronous JavaScript, managing data with arrays and objects, and saving state with browser storage.
-2. **Structure & Scale.** Learn how to structure and organize your code as your projects grow and scale. Dig into concepts like revealing module patterns, object-oriented programing (OOP), chaining, immutability, ES modules, and service workers.
-3. **Building Web Apps.** Learn how to manage complex interfaces with state-based UI, create your own microservices and integrations with serverless, and manage users with token-based authentication.
-4. **Developer Tooling.** Learn how to test your code, create your own build tool system, and work more effectively in the command line.
-{{%/md%}}
-</div>
+- How to leverage the web platform to work more efficiently and effectively.
+- How to write code that can more easily be reused across projects.
+- How to more easily pick up other peoples code, and write code that other team members can easily work on.
+- How to write code that scales with projects.
+- How to use build tools to automate repetitive tasks.
+- How to reduce load on backend.
+- How to create apps that continue to work even when things break.
+- How to do more, more quickly, with fewer resources.
 
 
 {{<cta for="bio">}}
@@ -73,7 +71,7 @@ Training programs can be customized to include a variety of JavaScript topics. T
 
 <div class="callout" id="ready-to-buy">
 	<h2>Get in touch</h2>
-	<p>Are you ready to take your team’s JavaScript skills to the next level?</p>
+	<p>Are you ready to help your team work more effectively?</p>
 	<p>Send me an email at {{<email>}} to start a conversation and see if custom training would be a good fit for your team.</p>
 	<p><a class="btn btn-large btn-block edd-buy-now-button" href="mailto:&#099;&#104;&#114;&#105;&#115;&#064;&#103;&#111;&#109;&#097;&#107;&#101;&#116;&#104;&#105;&#110;&#103;&#115;&#046;&#099;&#111;&#109;?subject=Custom%20Training&body=Hi,%20I'm%20interested%20in%20JavaScript%20Training%20for%20my%20team%20of%20[number%20of%20people]%20at%20[organization]%20.%20Thanks!">Apply for Custom Training</a><p>
 </div>
