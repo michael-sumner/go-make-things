@@ -408,3 +408,11 @@ davidWalsh:
     url: "https://scriptandstyle.simplecast.com/episodes/vanilla-javascript-with-chris-ferdinandi"
     photo: "https://cdn.gomakethings.com/testimonials/david-walsh.jpg"
     quote: "We need more people like Chris, who not only have this mindset that we need to stick to the basics of JavaScript, but are willing to evangelize it."
+
+
+# Podcast
+steph:
+    name: "Steph"
+    url: "https://twitter.com/stephikebudu/status/1647690515670790146"
+    photo: "https://cdn.gomakethings.com/testimonials/steph.jpg"
+    quote: "Currently binging the Vanilla JS Podcast by Chris Ferdinandi. I absolutely recommend for frontend devs! 💯"
