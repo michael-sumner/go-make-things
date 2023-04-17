@@ -6,7 +6,7 @@ noTitle: true
 ---
 
 <h1 class="no-padding-top no-margin-bottom h5 text-sans">JavaScript Training for Teams</h1>
-<p class="text-xlarge margin-bottom-small text-serif">Give your team the skills they need to get more done with limited resources.</p>
+<p class="text-xlarge margin-bottom-small text-serif">Give your team the skills they need to get more done with fewer resources.</p>
 
 <p><span class="text-large">Team training is a cost-effective way to grow and retain the team you have during these challenging economic times.</span></p>
 
