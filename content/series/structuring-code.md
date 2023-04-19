@@ -6,6 +6,6 @@ draft: false
 
 Learn how to structure code as it scales over time.
 
-1. [Part 1](/how-to-scale-a-javascript-project-over-time-part-1/)
-2. Part 2 (_coming soon..._)
-3. Part 3 (_coming soon..._)
+- [Part 1](/how-to-scale-a-javascript-project-over-time-part-1/)
+- Part 2 (_coming soon..._)
+- Part 3 (_coming soon..._)
