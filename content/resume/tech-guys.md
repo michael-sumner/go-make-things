@@ -13,83 +13,32 @@ noIndex: true
 	<li>{{<email no-underline="true" icon="true">}}</li>
 </ul>
 
-<p class="margin-bottom-small"><strong>A senior front-end web developer</strong> specializing in JavaScript and developer education. Skills and experience include:</p>
+<iframe src="https://player.vimeo.com/video/819222635?h=893ca5ae5c" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+<p class="margin-bottom-small"><strong>A senior full-stack web developer</strong> specializing in JavaScript, WordPress, and developer education. Skills and experience include:</p>
 
 <div class="row margin-bottom">
 	<div class="grid-half">
 		<ul class="no-margin-bottom">
 			<li>HTML, CSS & JavaScript</li>
-			<li>Mentoring & Training</li>
-			<li>Community Management</li>
-			<li>Video, Podcast & Ebook Production</li>
-			<li>Public Speaking</li>
-			<li>Web Accessibility</li>
-			<li>Mobile-First RWD</li>
+			<li>WordPress & PHP</li>
+			<li>Custom App Development</li>
+			<li>Jamstack & Static Site Generators</li>
+			<li>Serverless & Microservices</li>
 		</ul>
 	</div>
 	<div class="grid-half">
 		<ul class="no-margin-bottom">
-			<li>Service Workers & PWAs</li>
-			<li>Jamstack & Static Site Generators</li>
-			<li>Serverless & Microservices</li>
-			<li>Web Performance</li>
-			<li>Sass & SCSS</li>
-			<li>Git, Gulp, NPM & Command Line</li>
-			<li>WordPress & PHP</li>
+			<li>Customer Success/Technical Advisory</li>
+			<li>Public Speaking</li>
+			<li>Video, Podcast & Ebook Production</li>
+			<li>Mentoring & Training</li>
 		</ul>
 	</div>
 </div>
 
 
 ## Featured Projects
-
-{{<project title="Vanilla JS Academy" url="https://vanillajsacademy.com" summary="A collection of project-based online JavaScript workshops.">}}
-- Developed over 500 programming lessons and 30 projects.
-- Led bi-weekly video office hours, where I answered questions, provided live coding demos, and helped students debug code.
-- Provided asynchronous mentoring, Q&A, and code reviews through private Slack channel.
-- Helped over 1,100 people become confident JavaScript developers.
-
-<div class="padding-top-small padding-bottom">{{<testimonial for="lauraKalbag" photo="true">}}</div>
-{{</project>}}
-
-{{<project title="JavaScript Pocket Guides" url="https://vanillajsguides.com" summary="Short, focused ebooks and video courses made for beginners.">}}
-- Developed lessons and projects designed to help cover the essentials of a topic in as little time as possible.
-- Created learning assets designed for multimodal learning: videos with captions, ebooks in a variety of formats, and project-based learning.
-- Built a custom learning platform for students to access lessons and source code on any device, with offline support and fast loading on low-bandwidth connections.
-- Taught JavaScript fundamentals to over 2,000 students.
-
-<div class="padding-top-small padding-bottom">{{<testimonial for="dinoKoutrouzas" photo="true">}}</div>
-{{</project>}}
-
-{{<project title="Daily Developer Tips" url="https://gomakethings.com" summary="A daily web developer newsletter about how to build a simpler, more resilient web.">}}
-- Researched new trends and techniques, created demos, and wrote short tutorials for busy developers.
-- Answered reader questions and provided asynchronous "mentoring at scale."
-- Read by over {{<cta for="ck-subscriber-count">}} developers each weekday.
-
-<div class="padding-top-small padding-bottom">{{<testimonial for="calebStauffer" photo="true">}}</div>
-{{</project>}}
-
-{{<project title="Reef" url="https://reefjs.com" summary="A lightweight library for creating reactive, state-based UI. Reef is a simpler alternative to React, Vue, and other large frameworks.">}}
-- Weighs just 1.6kb minified and gzipped, with zero dependencies.
-- Simple templating with JavaScript strings or template literals.
-- Load it with a `<script>` element or ES module import&mdash;no command line or transpiling required (though you can if you want).
-- Uses DOM diffing to update only the things that have changed.
-- Automatically sanitizes HTML before rendering to help protect you from cross-site scripting (XSS) attacks.
-
-<div class="padding-top-small padding-bottom">{{<testimonial for="davidWalsh" photo="true">}}</div>
-{{</project>}}
-
-{{<project title="Blackbeard" url="https://stagingcs1.mashery.com" summary="A JavaScript templating library that provides TIBCO Mashery's API management software clients with more flexibility and control over their online developer documentation.">}}
-- Used dozens of client conversations to inform key feature development, resulting in a robust set of strongly desired new features that our customers love.
-- Open sourced a collection of "starter templates" based on common design patterns and use cases, and turned them into a theme builder using the GitHub content API. This has helped customers who want to DIY build portals faster and easier so they can focus on running top-notch API programs.
-- Designed a robust JavaScript API that enables clients to build their own features and use their developer portal in new and interesting ways. Many of these innovations made their way back into the core code as new features.
-{{</project>}}
-
-{{<project title="Mashery Local" url="https://www.tibco.com/resources/datasheet/datasheet-mashery-local" summary="Led redesign of front-end and dashboard for Mashery Local, TIBCO Mashery's on-premise API management solution.">}}
-- Served as project lead with a team of global developers, working across timezones through a mix of asynchronous Slack chats and synchronous real-time meetings.
-- Helped make key architecture decisions based on the needs of both developers and end-users of the product.
-- Guided production management in prioritizing features. Successfully lobbied for several key features not on the original roadmap, based on feedback from customers.
-{{</project>}}
 
 {{<project title="PAWS New England Website" url="https://pawsnewengland.com" summary="PAWS New England rescues abandoned and abused dogs and places them in safe and loving homes. I partnered with them to redesign their entire web strategy, with powerful results.">}}
 - Built a lightning fast front-end, with a CMS, ecommerce solution, and donation platform.
@@ -107,6 +56,36 @@ noIndex: true
 <div class="padding-top-small padding-bottom">{{<testimonial for="hbs" photo="true">}}</div>
 {{</project>}}
 
+{{<project title="Blackbeard" url="https://stagingcs1.mashery.com" summary="A JavaScript templating library that provides TIBCO Mashery's API management software clients with more flexibility and control over their online developer documentation.">}}
+- Used dozens of client conversations to inform key feature development, resulting in a robust set of strongly desired new features that our customers love.
+- Open sourced a collection of "starter templates" based on common design patterns and use cases, and turned them into a theme builder using the GitHub content API. This has helped customers who want to DIY build portals faster and easier so they can focus on running top-notch API programs.
+- Designed a robust JavaScript API that enables clients to build their own features and use their developer portal in new and interesting ways. Many of these innovations made their way back into the core code as new features.
+{{</project>}}
+
+{{<project title="Mashery Local" url="https://www.tibco.com/resources/datasheet/datasheet-mashery-local" summary="Led redesign of front-end and dashboard for Mashery Local, TIBCO Mashery's on-premise API management solution.">}}
+- Served as project lead with a team of global developers, working across timezones through a mix of asynchronous Slack chats and synchronous real-time meetings.
+- Helped make key architecture decisions based on the needs of both developers and end-users of the product.
+- Guided production management in prioritizing features. Successfully lobbied for several key features not on the original roadmap, based on feedback from customers.
+{{</project>}}
+
+{{<project title="Reef" url="https://reefjs.com" summary="A lightweight library for creating reactive, state-based UI. Reef is a simpler alternative to React, Vue, and other large frameworks.">}}
+- Weighs just 1.6kb minified and gzipped, with zero dependencies.
+- Simple templating with JavaScript strings or template literals.
+- Load it with a `<script>` element or ES module import&mdash;no command line or transpiling required (though you can if you want).
+- Uses DOM diffing to update only the things that have changed.
+- Automatically sanitizes HTML before rendering to help protect you from cross-site scripting (XSS) attacks.
+
+<div class="padding-top-small padding-bottom">{{<testimonial for="davidWalsh" photo="true">}}</div>
+{{</project>}}
+
+{{<project title="Daily Developer Tips" url="https://gomakethings.com" summary="A daily web developer newsletter about how to build a simpler, more resilient web.">}}
+- Researched new trends and techniques, created demos, and wrote short tutorials for busy developers.
+- Answered reader questions and provided asynchronous "mentoring at scale."
+- Read by over {{<cta for="ck-subscriber-count">}} developers each weekday.
+
+<div class="padding-top-small padding-bottom">{{<testimonial for="calebStauffer" photo="true">}}</div>
+{{</project>}}
+
 
 
 ## Public Speaking
@@ -120,6 +99,8 @@ noIndex: true
 
 ## Additional Projects
 
+- **[Vanilla JS Academy.](https://vanillajsacademy.com)** Project-based JavaScript workshops.
+- **[JavaScript Pocket Guides.](https://vanillajsguides.com)** Short, focused ebooks and video courses made for beginners.
 - **[The Vanilla JS Toolkit.](https://vanillajstoolkit.com/)** A collection of native JavaScript methods, helper functions, libraries, boilerplates, and learning resources.
 - **[The Lean Web.](https://leanweb.dev/)** A conference talk and free ebook about modern principles for building a simpler, faster world-wide web.
 - **[The Vanilla JS Podcast.](https://vanillajspodcast.com/)** A show about JavaScript for people who hate the complexity of modern front‑end web development.
@@ -143,6 +124,7 @@ noIndex: true
 
 Some of the nice things people have said about me and my work.
 
+<div class="padding-top">{{<testimonial for="lauraKalbag" photo="true">}}</div>
 <div class="padding-top">{{<testimonial for="wesBos" photo="true">}}</div>
 <div class="padding-top">{{<testimonial for="patriciaParker" photo="true">}}</div>
 <div class="padding-top">{{<testimonial for="benRudolph" photo="true">}}</div>
@@ -154,6 +136,7 @@ Some of the nice things people have said about me and my work.
 <div class="padding-top">{{<testimonial for="izziKoning" photo="true">}}</div>
 <div class="padding-top">{{<testimonial for="joePrevite" photo="true">}}</div>
 <div class="padding-top">{{<testimonial for="leticiaOneill" photo="true">}}</div>
+<div class="padding-top">{{<testimonial for="dinoKoutrouzas" photo="true">}}</div>
 <div class="padding-top">{{<testimonial for="steveBogucki" photo="true">}}</div>
 <div class="padding-top margin-bottom">{{<testimonial for="walterJenkins" photo="true">}}</div>
 
