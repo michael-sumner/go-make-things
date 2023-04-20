@@ -39,3 +39,21 @@ For intentional violations, I boot people without hesitation. You're gone in 60 
 Early on, when have not that many members, you’ll likely need to stoke conversation by asking provocative questions and encouraging participation.
 
 Like a good fire, once the community gets going, that starts to take care of itself.
+
+## Don’t jump in to respond to questions too early
+
+While it’s important for you to have a strong presence, don’t jump in to respond to questions too early before others have had a chance.
+
+Once the "perceived expert" responds, conversation can often die on the vine, stifling the community and making it more of an _Ask Me Anything_ forum with everything directed at you, rather than a group of people helping each other.
+
+## Tag relevant people
+
+Conversely, if conversation _isn’t_ happening, don’t be afraid to jump in with some loose thoughts, and tag some folks you think might also have valuable perspectives to share.
+
+> I think Web Components might be a good choice her, but @AwesomeMember has done this kind of thing a lot more than I have. @AwesomeMember, what do you think?
+
+## Anything else?
+
+Have you run a community before? Are you part of one now? Anything you'd add to this?
+
+[Send me an email](/about/) and let me know!
