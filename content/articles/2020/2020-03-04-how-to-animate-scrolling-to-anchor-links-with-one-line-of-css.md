@@ -49,7 +49,7 @@ Animations can cause issues for users who suffer from motion sickness and other 
 
 Fortunately, Windows, macOs, iOS, and Android all provide a way for users to specify that they prefer reduced motion. And all modern browsers (but not IE) provide a way to check for that setting in both CSS and JavaScript.
 
-When using `scroll-behavior`, you should add a `@media` check for `preders-reduced-motion: reduce`, and revert to the default `auto`.
+When using `scroll-behavior`, you should add a `@media` check for `prefers-reduced-motion: reduce`, and revert to the default `auto`.
 
 ```css
 /**
