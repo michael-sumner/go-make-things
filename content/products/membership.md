@@ -81,6 +81,9 @@ The _Lean Web Club_ is a membership community for developers (both current _and_
 You'll also find cute pet photos, chats about pop culture, travel stories, and more!
 
 
+<p><a class="btn" href="#ready-to-buy">Join now &rarr;</a></p>
+
+
 
 ## Live Training Events 🗓
 
